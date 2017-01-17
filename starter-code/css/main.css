@@ -5,6 +5,125 @@ light blue: #1c5380
 */
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 200 12px "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+.content {
+  position: relative;
+}
+
+.backgroundColor1 {
+  position: absolute;
+  background-color: #06365f;
+  height: 300px;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+.backgroundColor2 {
+  margin-top: 20px;
+  position: absolute;
+  background-color: #f5f6f8;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.phone {
+  float: left;
+  position: relative;
+  top: 150px;
+  left: 350px;
+  width: 225px;
+}
+
+#phoneSize {
+  height: auto;
+  width: 100%;
+}
+
+#brandSize {
+  height: auto;
+  width: 225px;
+}
+
+#homeSize {
+  padding: 5px;
+  float: left;
+}
+
+#logInText {
+  padding-top: 7px;
+  color: white;
+  font-weight: bold;
+}
+
+.logIn {
+  border: 1px solid black;
+  border-radius: 2px;
+  background-color: #1c5380;
+  position: absolute;
+  left: 315px;
+  top: 10px;
+  width: 75px;
+  height: 30px;
+  font-size: 1em;
+  padding: 5px;
+}
+
+.rightContent {
+  position:relative;
+  float: left;
+  width: 400px;
+  height: auto;
+  left: 400px;
+  top: 175px;
+}
+
+.brand {
+  width: 225px;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 1.5em;
+  color: #06365f;
+  font-weight: bold;
+}
+
+.textBox {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.download {
+  width: 125px;
+  height: 38px;
+  padding: 10px;
+  padding-left: 0px;
+}
+
+.footer {
+  display: inline;
+  margin-right: 10px;
+}
+
+#copyRight {
+  color: grey;
+}
+
+footer {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  color: #06365f;
+  padding-top: 15px;
+  padding-left: 35%;
+  padding-bottom: 30px;
+  font-size: 1em;
+  font-weight: bold;
 }
