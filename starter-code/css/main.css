@@ -8,3 +8,99 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.bluebox{
+  background-color: #4A779D;
+  width: 100%;
+  height: 30px;
+  padding: 80px; 40px;
+  z-index: -2;
+  display:block;
+}
+
+.login {
+  color: white;
+  padding: 5px;
+  background-color: #4A779D;
+  border: 1px solid #06365f;
+  border-radius: 2px;
+  font-size: 10px;
+  margin-right: 200px;
+  margin-top: 15px;
+  float: right;
+}
+
+.login img{
+  width: 25%;
+  height: 25%;
+  float: left;
+  margin-right: 10px;
+
+}
+
+.phones img{
+  width: 25%;
+  height: 25%;
+  float: left;
+  margin-right: 30px;
+  margin-left: 50px;
+}
+
+.logo img {
+  width: 20%;
+  height: 20%;
+}
+
+.frame img {
+  width: 50%;
+  height: 60%;
+  margin-left: -10px;
+  margin-top: -50px;
+  background-image: url("images/frame.png");
+}
+
+ h4 {
+  color: #06365f;
+  font-size: 18px;
+
+}
+
+.frame .content {
+  margin-top: -300px;
+  margin-left: 450px;
+  width: 400px;
+  font-size: 14px;
+  display: block;
+
+}
+
+.downloadiphone img{
+  float: left;
+  width: 10%;
+  height: 10%;
+  margin-top: 15px;
+  margin-left: 35px;
+}
+
+.downloadandroid img{
+  width: 9%;
+  height: 9%;
+  margin-top: 15px;
+  margin-left: 25px;
+
+}
+
+.footer {
+  clear: both;
+  font-weight: bold;
+  color:#1c5380;
+  font-size: 12px;
+  text-align: center;
+  margin-top: 70px;
+  word-spacing: 5px;
+}
+.footer span{
+  color: gray;
+  font-size: 10px;
+  margin-left: 15px;
+}
