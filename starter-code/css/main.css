@@ -5,6 +5,116 @@ light blue: #1c5380
 */
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: 210px;
+  width:1000px;
+}
+
+.colorone {
+    top: 0;
+    background: #1c5380;
+    background: -webkit-linear-gradient(#587fa1, #1c5380);
+    background: -o-linear-gradient(#587fa1, #1c5380);
+    background: -moz-linear-gradient(#587fa1, #1c5380);
+    background: linear-gradient(#587fa1, #1c5380);
+    position: fixed;
+    left: 0;
+    right: 0;
+    height: 400px;
+}
+
+.colortwo {
+    bottom: 0;
+    background: #f5f6f8;
+    position: fixed;
+    left: 0;
+    right: 0;
+}
+
+.content{
+  position: absolute;
+  left: 25%;
+  right: 25%;
+}
+
+.phone{
+  float: left;
+}
+
+.brand{
+  float: left;
+  position: relative;
+  top: 20px;
+  left: 65px;
+}
+
+.loginbtn{
+  float: left;
+  position: relative;
+  top: 35px;
+  left: 140px;
+  border-radius: 4px;
+  border: 2px solid #325e84;
+  background:  #1c5380;
+  background: -webkit-linear-gradient(#587fa1, #1c5380);
+  background: -o-linear-gradient(#587fa1, #1c5380);
+  background: -moz-linear-gradient(#587fa1, #1c5380);
+  background: linear-gradient(#587fa1, #1c5380);
+  padding: 6px 15px 8px 15px;
+}
+
+.logincolor{
+  color: #fff;
+}
+
+.home{
+  position: relative;
+  top: 4px;
+  left: -2px;
+}
+
+.text-background{
+  clear: both;
+  position: absolute;
+  top: 115px;
+  left: 380px;
+}
+
+.text{
+  position: absolute;
+  top: 0;
+  padding: 15px 40px 40px 40px;
+}
+
+.title{
+  color:#06365f;
+  line-height: 250%;
+}
+
+.badge1, .badge2{
+  float: left;
+  padding-top: 20px;
+}
+
+.badge1{
+  padding-right: 20px;
+}
+
+.links{
+ clear:both;
+ text-transform: uppercase;
+ padding-top: 80px;
+ padding-left: 130px;
+ font-size: 12px;
+}
+
+b {
+  color: #1c5380;
+  padding-right: 20px;
+}
+
+span{
+  color: #c6c6c8;
 }
