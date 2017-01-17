@@ -8,3 +8,93 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.backBlue {
+  position: absolute;
+  background-color: #4078c0;
+  width: 100%;
+  height: 300px;
+}
+
+section {
+  position: relative;
+  padding-top: 150px;
+  margin-left: 25%;
+  margin-right: 25%;
+  min-width: 952.5px;
+}
+
+img, #log-in, #frame{
+  float: left;
+}
+
+#phones {
+  margin-right: 6%;
+}
+
+#log-in {
+  background-color: #5386c6;
+  margin-top: 15px;
+  margin-left: 8%;
+  padding: 7.5px;
+  border: 1px solid black;
+}
+
+#log-in img, #log-in h4 {
+  display: inline;
+}
+
+#log-in h4 {
+  color: white;
+  margin-left: 10px
+}
+
+#frame {
+  position: relative;
+}
+
+#text-block{
+  position: absolute;
+  padding: 25px;
+  margin-left: 10px;
+}
+
+#frame h3 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #4078c0;
+  margin: 0 auto;
+}
+
+#badges {
+  position: relative;
+  top: 85px;
+  left: 25px;
+}
+
+#badges img {
+  margin-right: 20px;
+}
+
+footer {
+  clear: left;
+  position: relative;
+  top: 65px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #4078c0;
+}
+
+footer p {
+  display: inline;
+  margin-right: 15px;
+  font-weight: bold;
+}
+
+footer p:last-child {
+  color: #bababa;
+}
+
+#copyright {
+  margin-left: 15px;
+}
