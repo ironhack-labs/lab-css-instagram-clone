@@ -7,4 +7,77 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  width: auto;
+  height: auto;
+}
+
+.upperbackground{
+  width: inherit;
+  height: 500px;
+  background: linear-gradient(#1c5380, #06365f);
+  /*background-color: #1c5380;
+  background-color: #06365f*/
+  /*border: 1px solid #17212e;*/
+  /*box-sizing:         border-box;*/
+}
+
+#phones{
+  width: 350px;
+  height: 80px;
+  /*margin-top: 100px*/
+  padding-top: 50px;
+  padding-left: 50px;
+  float: left;
+}
+
+#marcainsta{
+ width: 200px;
+ height: 50px;
+ margin-top: 100px
+ padding-left: 400px;
+ position: relative;
+ top:-60px;
+ left:400px;
+}
+
+#cuadrito{
+  width: 100px;
+  border: 1px solid #17212e;
+  padding: 10px 10px 10px 10px;
+  position: relative;
+  left: 700px;
+  top: -70px;
+  margin-top: 100px;
+  margin-left: 50px;
+  border-style: ridge;
+  border-radius: 5px;
+  background: linear-gradient(#1c5380, #06365f);
+  font-weight: bold;
+  font-size: 22px;
+  color: white;
+
+}
+
+
+.scuare-text{
+
+    width: 500px;
+    height: 600px;
+    background-color: white;
+    margin-left: 400px;
+    text-align: justify;
+    font-size: 22px;
+    text-emphasis: 10px;
+    position: relative;
+    
+
+}
+
+.container{
+  width: auto;
+  height: auto;
+  align-content: center;
+  margin-left: inherit;
+  clear: both;
+
 }
