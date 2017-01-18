@@ -7,4 +7,118 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+}
+
+.imageframe {
+  position:relative;
+  top: 220px;
+  left: 540px;
+  bottom: 600px;
+}
+
+.capture {
+  color: #06365f;
+  font-size: 24px;
+  width: 250px;
+}
+
+.phones {
+  float: left;
+  margin-top: -190px;
+  margin-left: 150px;
+  margin-right: 0px;
+  float: left;
+}
+
+.textframe{
+  position: absolute;
+  width: 450px;
+  height: 90px;
+  text-align: left;
+  margin-left: 580px;
+  bottom: 300px;
+  clear: both;
+}
+
+.instagram {
+  position: absolute;
+  top: 145px;
+  left: 490px;
+  margin-left: 80px;
+  z-index: 100;
+}
+.login {
+  float: right;
+  margin-right: 250px;
+  margin-top: 170px;
+  width: 100px;
+  border: 2px solid #1c5380;
+  background: linear-gradient(#1c5380, #06365f );
+}
+
+.iphone {
+  padding-right: 15px;
+}
+.bold {
+  font-weight: bold;
+}
+
+.logwhite {
+  color: white;
+  font-weight: bold;
+  float:right;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.houseshape{
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 3px;
+  margin-bottom: -1px;
+}
+.footer {
+  float:left;
+  margin-top: 50px;
+  margin-left: -240px;
+  color: #1c5380;
+  font-weight: lighter;
+  bottom: 0;
+  font-weight: bold;
+}
+.space1 {
+  float: left;
+  margin-right: 20px;
+}
+.space2 {
+  float: left;
+  margin-right: 20px;
+}
+.space3 {
+  float: left;
+  margin-right: 20px;
+}
+.space4 {
+  float: left;
+  margin-right: 20px;
+}
+.space5 {
+  float: left;
+  margin-right: 20px;
+}
+.space6 {
+  float: left;
+  margin-right: 20px;
+}
+.space7 {
+  float: left;
+  margin-right: 20px;
+}
+.space8 {
+  float: left;
+  margin-right: 20px;
+  color: grey;
 }
