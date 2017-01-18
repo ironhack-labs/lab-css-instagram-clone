@@ -7,13 +7,15 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
 }
 
 .imageframe {
   position:relative;
-  margin-top: 280px;
-  margin-left: 540px;
-  margin-bottom: -280px;
+  top: 220px;
+  left: 540px;
+  bottom: 600px;
 }
 
 .capture {
@@ -24,7 +26,7 @@ body {
 
 .phones {
   float: left;
-  margin-top: 200px;
+  margin-top: -190px;
   margin-left: 150px;
   margin-right: 0px;
   float: left;
@@ -36,28 +38,21 @@ body {
   height: 90px;
   text-align: left;
   margin-left: 580px;
-  margin-bottom: 500px;
+  bottom: 300px;
   clear: both;
-}
-
-.background-blue {
-  position: absolute;
-  width: 100%;
-  height: 55%;
-  background-color: #06365f;
-  opacity: 0.8;
 }
 
 .instagram {
   position: absolute;
-  margin-top: 185px;
-  margin-left: 540px;
+  top: 145px;
+  left: 490px;
+  margin-left: 80px;
   z-index: 100;
 }
 .login {
   float: right;
   margin-right: 250px;
-  margin-top: 207px;
+  margin-top: 170px;
   width: 100px;
   border: 2px solid #1c5380;
   background: linear-gradient(#1c5380, #06365f );
