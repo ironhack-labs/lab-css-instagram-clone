@@ -8,3 +8,104 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+#container {
+  height: 500px;
+  width: 100%;
+}
+
+.content-wrapper{
+  height: 600px;
+  margin-top: -200px;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+.top {
+  width: 100%;
+  background-color: #1c5380;
+  height: 275px;
+}
+
+.phone-image{
+  width: auto;
+  max-width: 100%;
+  margin-left: 150px;
+  position: absolute;
+}
+
+#instagram-icon{
+  float: right;
+  height: -50px;
+  margin-right: 300px;
+  margin-top: 30px;
+
+}
+
+#login-icon {
+  float: right;
+  clear: right;
+  margin-right: 130px;
+  margin-top: -75px;
+  width: 100px;
+  height: 45px;
+  background-color: #1c5380;
+  display: inline-block;
+  border-radius: 3px;
+  border-width: 1px;
+  border-style: solid;
+}
+
+#home-image {
+    position: absolute;
+    margin: 12px 0px 0px 8px;
+}
+
+#login-text {
+    margin-top: -5px;
+    margin-left: 40px;
+    font-size: 15px;
+    position: relative;
+    color: white;
+    font-weight: bold;
+}
+
+#framed-content {
+  clear: right;
+  float: right;
+  margin-right: 115px;
+}
+
+#frame-image{
+  position: relative;
+}
+
+#main-text {
+  position: absolute;
+  margin-right: 190px;
+  margin-left: 30px;
+  margin-top: -290px;
+}
+
+#apple-android {
+  margin-top: 50px;
+  margin-left: 25px;
+}
+
+#apple-store-icon {
+  margin-left: 50px;
+
+}
+
+#google-play-icon{
+  margin-left: 190px;
+  padding-bottom: 100px;
+  margin-top: -57px;
+}
+
+#nav-bar{
+  position: relative;
+  float: left;
+  width: auto;
+  margin-left: 270px;
+}
