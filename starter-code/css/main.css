@@ -6,5 +6,109 @@ light blue: #1c5380
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  /*margin: 300;*/
+  /*background:   background: no-repeat url("/Users/tahirafarid/Desktop/incognitoheader.jpg");*/
+}
+
+.heading {
+  color: inherit;
+  /*position: relative;*/
+  background: no-repeat url("/Users/tahirafarid/Desktop/incognitoheader.jpg");
+  /*padding: 25px;*/
+  height: 75px;
+}
+
+.blueContainer {
+  background-color: #1c5380;
+  color: white;
+  width: 897px;
+  padding: 0px 2px 0px 2px;
+  /*box-sizing: body;*/
+  /*border: 5px solid black;*/
+  height: 370px;
+  overflow: visible;
+}
+
+.phones {
+  float: left;
+  /*position: relative;*/
+  margin-left: 40px;
+  margin-top: 100px;
+}
+
+.insta {
+  float: right;
+  position: relative;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 50px;
+}
+
+.grammy {
+  /*float:right;*/
+  margin: 30px 170px 10px 5px;
+}
+
+button {
+  float: right;
+  color: white;
+  background-color: #1c5380;
+  padding: 10px;
+  font-size: large;
+  margin-top: -85px;
+}
+
+.home {
+  margin-bottom: -3px;
+  padding-left: 5px;
+}
+
+.whiteBox {
+  background-color: white;
+  /*position: relative;*/
+  color: black;
+  width: 897px;
+  padding: 0px 2px 0px 2px;
+  border: 1px white solid;
+  overflow: visible;
+
+}
+
+.content {
+background: no-repeat url("/Users/tahirafarid/Codecamp/WK1/Day1/Day2/lab-css-instagram-clone/starter-code/images/frame.png");
+color: black;
+width: 55%;
+overflow: auto;
+padding: 10px;
+margin-top: -130px;
+/*float: right;*/
+
+}
+
+h2 {
+  color: #06365f;
+  width: 70%;
+  padding-left: 30px;
+}
+
+p {
+  width: 80%;
+  padding-left: 30px;
+}
+
+#bottomnav {
+  color: blue;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: small;
+  padding-bottom: 10px;
+}
+
+a {
+    padding: 0px 5px 0px 5px;
+}
+
+
+footer {
+float: right;
 }
