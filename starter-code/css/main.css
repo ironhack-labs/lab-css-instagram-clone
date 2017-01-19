@@ -5,6 +5,74 @@ light blue: #1c5380
 */
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+    font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-image: url(../images/bgtile.png);
+    background-repeat: repeat-x;
+}
+
+div .content {
+    position: relative;
+    font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+    top: 10px;
+    padding-left: 20%;
+    left: 0;
+    width: 100%;
+}
+
+.phones {
+    position: relative;
+    margin-left: 260px;
+    margin-top: -317px;
+}
+
+.brand {
+    margin: 109px;
+    margin-left: 611px;
+    top: 10px;
+    padding-bottom: 94px;
+}
+
+.frame {
+    position: absolute;
+    margin-top: -405px;
+    margin-left: 609px;
+}
+div .footer {
+  color: blue;
+  margin-left: -219px;
+  padding-top: 55px;
+  padding-left: 1px;
+  word-spacing: 6px;
+  font-size: 15px;
+}
+.botonimagen {
+    color:#ffffff;
+    background-color: #06365f;
+    position: absolute;
+    margin-top: 124px;
+    margin-left: 1000px;
+    height: 42px;
+    width: 105px;
+}
+div .parag{
+  position: absolute;
+    margin-left: 651px;
+      width: 421px;
+      margin-top: -416px;
+}
+div .parag h4{
+color:blue;
+font-family: sans-serif;
+font-size: 29px;
+  line-height: 40px;
+}
+div .parag p{
+  font-size:15px;
+  margin-top: 10px;
+
+}
+div .images{
+  position:absolute;
+  margin-left: 13px;
 }
