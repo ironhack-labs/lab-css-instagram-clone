@@ -1,10 +1,124 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
+  /*
+  Colors to use:
+  dark blue: #06365f
+  light blue: #1c5380
+  */
 
-body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
-}
+  body {
+      font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+      margin: 0;
+  }
+
+  .blue-box {
+      width: 100%;
+      height: 400px;
+      background-color: #1c5380;
+      background: -webkit-linear-gradient(#587fa1, #1c5380);
+      background: -o-linear-gradient(#587fa1, #1c5380);
+      background: linear-gradient(#587fa1, #1c5380);
+      box-sizing: border-box;
+      min-width: 950px;
+   }
+
+   #phones {
+      position: fixed;
+      top: 200px;
+      padding-left: 220px;
+      max-width: 350px;
+      max-height: 500px;
+
+   }
+
+   #brand-logo {
+      position: fixed;
+      top: 200px;
+      padding-left: 600px;
+     }
+
+   #login {
+      position: fixed;;
+      top: 220px;
+      padding-left: 990px;
+
+   }
+
+   button {
+      font-size: 15px;
+      font-weight: bold;
+      background:  #1c5380 ;
+      background: -webkit-linear-gradient(#587fa1 , #1c5380 );
+      background: -o-linear-gradient(#587fa1 , #1c5380 );
+      background: -moz-linear-gradient(#587fa1 , #1c5380 );
+      background: linear-gradient(#587fa1 , #1c5380 );
+      border-color: #325e84;
+      border: 1px solid;
+      border-radius: 3px;
+      padding: 5px 10px 5px 10px;
+   }
+
+   span {
+       color: white;
+       font-size: 14px;
+       font-weight: bold;
+       padding: 5px 10px 20px 10px;
+    
+   }
+
+   .content {
+       position: fixed;
+       top: 300px;
+       left: 600px;
+       max-width: 300px;
+       max-height: 500px;
+       list-style-image: url("images/phones.png");
+   }
+
+     h3 {
+       font-size: 30px;
+       color: #06365f;
+       position: fixed;
+       top: 300px;
+       left: 650px;
+       max-width: 400px;
+   }
+
+     p {
+       position: fixed;
+       top: 410px;
+       left: 650px;
+       max-width: 400px;
+   }
+
+    .badges {
+      position: fixed;
+      top: 620px;
+      left: 650px;
+   }
+
+    #badgeAndroid {
+      padding-left: 15px;
+   }
+
+    .footer {
+      position: fixed;
+      font-size: 14px;
+      top: 800px;
+      left: 300px;
+      color: #3e7bad;
+      font-weight: bold;
+   }
+
+     .footer ul{
+      list-style: none;
+   }
+
+    .footer li{
+      display: inline;
+      padding-left: 15px;
+      padding-right: 15px;
+   }
+
+
+    #insta {
+      color: gray;
+   }
