@@ -20,12 +20,13 @@ body {
 
 #phones {
   position: absolute;
-  bottom: 300px;
-  left: 50px;
+  bottom: 200px;
+  left: 100px;
 }
 
 #brand {
   position: absolute;
+  left: 300px;
   bottom: 500px;
 }
 
@@ -34,7 +35,9 @@ body {
   border: 2px solid black;
   height: 500px;
   width: 500px;
-  position: 500px;
+  bottom: 500px;
+  left: 500px;
+
 }
 
 .frame-text {
