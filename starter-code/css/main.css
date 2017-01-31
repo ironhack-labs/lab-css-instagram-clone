@@ -19,7 +19,9 @@ body {
 }
 
 #phones {
+  position: absolute;
   float: left;
+
 }
 
 .frame {
