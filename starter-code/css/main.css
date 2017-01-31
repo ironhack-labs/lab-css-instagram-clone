@@ -34,3 +34,8 @@ body {
   height: 500px;
   width: 500px;
 }
+
+.frame-text {
+  text-size: 15px;
+  text-color: black;
+}
