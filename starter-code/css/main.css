@@ -19,11 +19,14 @@ body {
 }
 
 #phones {
-  float: left;
+  position: absolute;
+  bottom: 300px;
+  left: 50px;
 }
 
 #brand {
-  float: left;
+  position: absolute;
+  bottom: 500px;
 }
 
 .frame {
@@ -31,7 +34,7 @@ body {
   border: 2px solid black;
   height: 500px;
   width: 500px;
-  float: left;
+  position: 500px;
 }
 
 .frame-text {
