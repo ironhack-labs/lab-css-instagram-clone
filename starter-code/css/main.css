@@ -25,6 +25,11 @@ body {
   left: 100px;
 }
 
+#brand {
+  position: absolute;
+  float: left;
+}
+
 .frame {
 
 }
