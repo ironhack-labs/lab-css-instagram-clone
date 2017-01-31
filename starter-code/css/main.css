@@ -21,23 +21,24 @@ body {
 .central {
   margin: 0 auto;
   z-index: 1;
-  width: 800px;
+  width: 900px;
   height: 700px;
   border: 2px solid black;
   float: left;
 }
 
 #phones {
-  position: absolute;
+  float: left;
 }
 
-#brand {}
+#brand {
 }
 
 .frame {
   border: 2px solid black;
   height: 500px;
   width: 500px;
+  float: left;
 }
 
 .frame-text {
