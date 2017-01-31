@@ -33,6 +33,7 @@ body {
 }
 
 #brand {
+  float: left;
 }
 
 .frame {
@@ -43,6 +44,8 @@ body {
 }
 
 .frame-text {
+  position: relative;
   text-size: 15px;
   text-color: black;
+  bottom: 70px;
 }
