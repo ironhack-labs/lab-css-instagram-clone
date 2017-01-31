@@ -10,12 +10,12 @@ body {
 }
 
 .top {
-  height: 1000px;
+  height: 400px;
   background-color: #1c5380;
 }
 
 .bottom {
-  height: 1000px;
+  height: 500px;
 }
 
 #phones {
