@@ -10,10 +10,18 @@ body {
 }
 
 .top {
-  height: 300px;
+  height: 1000px;
   background-color: #1c5380;
 }
 
 .bottom {
-  height: 400px;
+  height: 1000px;
+}
+
+#phones {
+  float: left;
+}
+
+.frame {
+
 }
