@@ -19,12 +19,13 @@ body {
 }
 
 .central {
+  position: relative;
   margin: 0 auto;
   z-index: 1;
   width: 900px;
   height: 700px;
   border: 2px solid black;
-  float: left;
+  top: 100px;
 }
 
 #phones {
