@@ -21,7 +21,8 @@ body {
 #phones {
   position: absolute;
   float: left;
-
+  bottom: 300px;
+  left: 50px;
 }
 
 .frame {
