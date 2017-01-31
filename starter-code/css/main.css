@@ -8,3 +8,69 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.logoText {
+  font-family: billabong, proxima-nova;
+}
+.backgroundBlue {
+  background-color: #47759a;
+  height: 400px;
+  width: 100%;
+}
+.imageBrand {
+  position: absolute;
+  margin-left: 550px;
+  margin-top: 200px;
+}
+.imageLogin {
+  position: absolute;
+  margin-left: 950px;
+  margin-top: 215px;
+}
+.imagePhone {
+  position: absolute;
+  margin-left: 150px;
+  margin-top: 100px;
+}
+.imageFrame {
+  height: 282px;
+  width: 502px;
+  background-color: white;
+  background-image: url("../images/frame.png");
+  background-position: top left;
+  position: absolute;
+  margin-left: 550px;
+  margin-top: 300px;
+  border-radius: 5px;
+}
+.textFrame {
+  position: relative;
+  font-size: 14px;
+  padding: 0px 30px 10px 30px;
+}
+h4 {
+  font-size: 18px;
+  color: #3c6b90;
+}
+.imageApple {
+  position: absolute;
+  margin-left: 640px;
+  margin-top: 570px;
+}
+.navBar {
+  color: #3c6b90;
+  font-size: 12px;
+  position: absolute;
+  margin-top: 650px;
+  margin-left: 275px;
+}
+.navBar li {
+  float: left;
+  list-style: none;
+  margin-left: 10px;
+  color: #3c6b90;
+}
+.theAnswer {
+  position: absolute;
+  margin-top: 250px;
+}
