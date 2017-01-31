@@ -18,6 +18,14 @@ body {
   height: 500px;
 }
 
+.central {
+  margin: 0 auto;
+  z-index: 1;
+  width: 800px;
+  height: 700px;
+  border: 2px solid black;
+}
+
 #phones {
   position: absolute;
   bottom: 185px;
