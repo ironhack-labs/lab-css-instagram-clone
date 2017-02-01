@@ -113,11 +113,10 @@ p {
 .footer {
   position: absolute;
   height 50px;
-  width: 750px;
+  width: 970px;
   text-transform: uppercase;
   top: 827px;
-  left: 240px;
-  border: 2px solid black;
+  left: 225px;
   font-size: 15px;
   color: #1c5380;
 }
