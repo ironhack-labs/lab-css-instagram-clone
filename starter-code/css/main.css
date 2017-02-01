@@ -61,3 +61,11 @@ p {
   left: 50px;
   width: 400px;
 }
+
+.brand-login {
+  position: absolute;
+}
+
+#login {
+  position: absolute;
+}
