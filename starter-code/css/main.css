@@ -122,6 +122,10 @@ p {
   color: #1c5380;
 }
 
+.footer-list {
+  display: inline;
+}
+
 #copyright {
-  
+
 }
