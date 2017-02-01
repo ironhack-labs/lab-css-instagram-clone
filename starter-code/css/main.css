@@ -113,10 +113,10 @@ p {
 .footer {
   position: absolute;
   height 50px;
-  width: 1000px;
+  width: 1200px;
   text-transform: uppercase;
-}
-
-#copyright {
-  
+  top: 827px;
+  left: 290px;
+  border: 2px solid black;
+  font-size: 15px;
 }
