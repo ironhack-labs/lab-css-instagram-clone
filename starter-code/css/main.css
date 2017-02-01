@@ -7,4 +7,101 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  width: auto;
+  height: auto;
+}
+
+.upperbackground{
+  width: inherit;
+  height: 500px;
+  background: linear-gradient(#1c5380, #06365f);
+
+}
+
+#phones{
+  width: 350px;
+  height: 80px;
+  /*margin-top: 100px*/
+  padding-top: 50px;
+  padding-left: 50px;
+  float: left;
+  left: 200px;
+}
+
+#elbrando{
+ width: 200px;
+ height: 50px;
+ margin-top: 100px
+ padding-left: 400px;
+ position: relative;
+ top:-60px;
+ left:450px;
+}
+
+#littlebox{
+  width: 100px;
+  border: 1px solid #17212e;
+  padding: 10px 10px 10px 10px;
+  position: relative;
+  left: 850px;
+  top: -70px;
+  margin-top: 100px;
+  margin-left: 50px;
+  border-style: ridge;
+  border-radius: 5px;
+  background: linear-gradient(#1c5380, #06365f);
+  font-weight: bold;
+  font-size: 22px;
+  color: white;
+
+}
+
+#littlebox img{
+  display: inline;
+}
+
+#littlebox p{
+  display: inline;
+  top:-5px;
+}
+
+.square-text{
+
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    margin-left: 400px;
+    text-align: justify;
+    font-size: 22px;
+    text-emphasis: 10px;
+    position: relative;
+    top: -300px;
+    left: 50px;
+    padding: 40px;
+    border-width: medium;
+
+}
+
+.square-text h2{
+  font-weight: bold;
+  color: #06365f;
+}
+
+.square-text img{
+  margin-left: 30px;
+  margin-right: 20px;
+}
+
+.container{
+  position: relative;
+  width: auto;
+  height: auto;
+  align-content: center;
+  margin-left: inherit;
+  left: 200px;
+  top: -200px;
+  clear: both;
+  font-size: 26px;
+  font-weight: bolder;
+
 }
