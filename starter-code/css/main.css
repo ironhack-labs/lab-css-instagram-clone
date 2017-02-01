@@ -36,6 +36,10 @@ body {
   left: 400px;
 }
 
+#frame-image {
+  right: 10px;
+}
+
 .frame {
   position: absolute;
   border: 2px solid black;
