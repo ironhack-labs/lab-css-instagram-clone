@@ -7,4 +7,76 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  /*background: linear-gradient(to bottom, #1c5380 50%,#ffffff 50%);*/
+  background: repeating-linear-gradient(#1c5380, #1c5380 39.9%, #ffffff 40.1%, #ffffff 100%);
+  /*background: linear-gradient(to bottom, #1c5380 50%,#ffffff 50%);*/
+  /*(#74ABDD, #74ABDD 49.9%, #498DCB 50.1%, #498DCB 100%);*/
+  }
+
+.left_container {
+  float: left;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+.right_container {
+  float: left;
+  width: 50%;
+}
+
+.photo_brand {
+  position: relative;
+  top: 100px;
+  left: 75px;
+}
+
+.photo_home {
+  position: relative;
+  border: 1px solid #06365f;
+  padding: 8px;
+  top: 80px;
+  left: 115px;
+}
+
+.photo_frame {
+  position: relative;
+  top: 100px;
+  left: 75px;
+}
+
+#large_text {
+  position: relative;
+  bottom: 180px;
+  left: 110px;
+  font-size: 20px;
+  color: #06365f;
+  font-weight: bold;
+
+}
+
+#small_text {
+  position: relative;
+  bottom: 180px;
+  left: 110px;
+}
+
+.photo_badge_iphone {
+  position: relative;
+  bottom: 180px;
+  left: 110px;
+}
+
+.photo_badge_android {
+  position: relative;
+  bottom: 180px;
+  left: 110px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  margin-left: 290px;
+  color: #1c5380;
+  font-size: 12px;
+  font-weight: bold;
 }
