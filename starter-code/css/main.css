@@ -4,7 +4,125 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+/* =============
+Background
+============= */
+
+.background {
+  height: 40vh;
+  width: 100%;
+  background-color: #06365f;
+}
+
+.phones {
+  float: left;
+  position: relative;
+  margin-top: 60px;
+  margin-left: 200px;
+  margin-right: 60px;
+
+}
+
+.context {
+  float: left;
+  width: 40%;
+  margin-top: 80px;
+}
+
+.appimage {
+  display: inline;
+}
+
+
+.context > button {
+  display: inline;
+  float: right;
+  background-color: #1c5380;
+  border-radius: 2px;
+  border: 1px solid #1c5380;
+  margin-top: 20px;
+  margin-right: 25px;
+  padding: 8px 12px;
+  width: 110px;
+}
+
+.context > button > img > p {
+  float: left;
+}
+
+button > img, p {
+  float: left;
+}
+
+p.text {
+  width: 400px;
+  margin-left: 54px;
+  font-size: 20px;
+  color: #06365f;
+}
+
+button > p {
+  margin-left: 8px;
+  font-size: 16px;
+  color: white;
+  margin-top: 2px;
+}
+
+.whitebackground > img {
+  position: absolute;
+}
+
+.text {
+  position: absolute;
+  text-align: center;
+}
+
+h3.text {
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 55px;
+  margin-top: 26px;
+  color: #06365f;
+  text-align: left;
+}
+
+p.text{
+  top: 288px;
+  text-align: justify;
+}
+
+.download {
+  position: relative;
+  top: 350px;
+  left: 85px;
+}
+
+footer{
+  clear: both;
+}
+
+li {
+  float: left;
+  text-decoration: none;
+  list-style: none;
+  color: #06365f;
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 30px;
+  margin-top: 40px;
+}
+
+ul {
+  margin-left: 240px;
+  margin-top: 40px;
 }
