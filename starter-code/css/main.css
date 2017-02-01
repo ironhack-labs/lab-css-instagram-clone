@@ -31,33 +31,6 @@ body {
   position: absolute;
 }
 
-.frame-container {
-  position: absolute;
-  height: 400px;
-  width: 480px;
-  left: 400px;
-  top: 110px;
-}
-
-#frame-header {
-  position: relative;
-  color: #06365f;
-  width: 330;
-  left: 50px;
-  bottom: 265px;
-  font-size: 25px;
-  line-height: 30px
-}
-
-p {
-  position: relative;
-  text-size: 15px;
-  text-color: black;
-  bottom: 255px;
-  left: 50px;
-  width: 400px;
-}
-
 .brand-login-container {
   position: absolute;
   height: 80px;
@@ -88,6 +61,33 @@ p {
   position:absolute;
   top: 11px;
   right: 14px;
+}
+
+.frame-container {
+  position: absolute;
+  height: 400px;
+  width: 480px;
+  left: 400px;
+  top: 110px;
+}
+
+#frame-header {
+  position: relative;
+  color: #06365f;
+  width: 330;
+  left: 50px;
+  bottom: 265px;
+  font-size: 25px;
+  line-height: 30px
+}
+
+p {
+  position: relative;
+  text-size: 15px;
+  text-color: black;
+  bottom: 255px;
+  left: 50px;
+  width: 400px;
 }
 
 .badge-container {
