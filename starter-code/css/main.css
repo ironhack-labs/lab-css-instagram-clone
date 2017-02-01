@@ -19,12 +19,11 @@ body {
 }
 
 .central-container {
-  position: absolute;
+  position: relative;
   margin: 0 auto;
   z-index: 1;
   width: 1000px;
   height: 500px;
-  border: 2px solid black;
   top: 200px;
 }
 
@@ -34,13 +33,20 @@ body {
 
 #brand {
   position: absolute;
+  left: 400px;
 }
 
 .frame {
   position: absolute;
   border: 2px solid black;
-  height: 500px;
-  width: 500px;
+  height: 400px;
+  width: 490px;
+  left: 400px;
+  top: 100px;
+}
+
+.frame-header {
+  color: #06365f;
 }
 
 .frame-text {
@@ -48,4 +54,5 @@ body {
   text-size: 15px;
   text-color: black;
   bottom: 70px;
+  left: 10px
 }
