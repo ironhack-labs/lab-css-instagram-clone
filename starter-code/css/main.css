@@ -8,3 +8,54 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+h2{
+  color: #06365f;
+}
+.header1 {
+  position: absolute;
+  top: 180px;
+  right: 460px;
+  width: 270px;
+}
+
+.homebutton{
+  position: absolute;
+  top: 200px;
+  right: 350px;
+  color: white;
+  border: 1px solid grey;
+  padding: 5px; 
+}
+
+.phones{
+  position: absolute;
+  top: 150px;
+  margin-left: 30px;
+}
+
+.whiteb{
+  width: 370px;
+  height: 330px;
+  position: absolute;
+  right: 350px;
+  top: 250px;
+  background-color: white;
+  }
+
+.download{
+  position: absolute;
+  right: 400px;
+  bottom: 140px;
+}
+  .bluebox {
+    background-color: #1c5380;
+    width: 100%;
+    height: 400px;
+  }
+  footer {
+    position: absolute;
+    bottom: 20px;
+    right: 440px;
+    clear: both;
+    color: #06365f;
+  }
