@@ -36,27 +36,28 @@ body {
   left: 400px;
 }
 
-#frame-image {
-  right: 10px;
-}
-
 .frame {
   position: absolute;
-  border: 2px solid black;
   height: 400px;
-  width: 490px;
+  width: 480px;
   left: 400px;
   top: 100px;
+  padding: 10px
 }
 
-.frame-header {
+#frame-header {
+  position: absolute;
   color: #06365f;
+  width: 330;
+  bottom 175px;
+  left: 60px;
 }
 
 .frame-text {
   position: absolute;
   text-size: 15px;
   text-color: black;
-  bottom: 70px;
-  left: 10px
+  bottom: 0px;
+  left: 70px;
+  width: 400px;
 }
