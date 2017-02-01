@@ -18,14 +18,14 @@ body {
   height: 500px;
 }
 
-.central {
+.central-container {
   position: relative;
   margin: 0 auto;
   z-index: 1;
   width: 1000px;
   height: 500px;
   border: 2px solid black;
-  top: 100px;
+  top: 200px;
 }
 
 #phones {
@@ -37,14 +37,14 @@ body {
 }
 
 .frame {
+  position: absolute;
   border: 2px solid black;
   height: 500px;
   width: 500px;
-  float: left;
 }
 
 .frame-text {
-  position: relative;
+  position: absolute;
   text-size: 15px;
   text-color: black;
   bottom: 70px;
