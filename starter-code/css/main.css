@@ -29,11 +29,11 @@ body {
 }
 
 #phones {
-  float: left;
+  position: absolute;
 }
 
 #brand {
-  float: left;
+  position: absolute;
 }
 
 .frame {
