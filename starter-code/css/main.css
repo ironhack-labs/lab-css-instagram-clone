@@ -95,14 +95,24 @@ p {
 
 .badge-container {
   position: absolute;
-  height: 200px;
-  width: 500px;
+  height: 50px;
+  width: 350px;
+  left: 445px;
+  top: 500px;
 }
 
 #android-badge {
   position: absolute;
+  left: 190
 }
 
 #iphone-badge {
   position: absolute;
+}
+
+.footer {
+  position: absolute;
+  height 50px;
+  width: 1000px;
+  text-transform: uppercase;
 }
