@@ -41,23 +41,23 @@ body {
   height: 400px;
   width: 480px;
   left: 400px;
-  top: 100px;
-  padding: 10px
+  top: 110px;
 }
 
 #frame-header {
-  position: absolute;
+  position: relative;
   color: #06365f;
   width: 330;
-  bottom 175px;
-  left: 60px;
+  left: 50px;
+  bottom: 265px;
+  font-size: 25px;
 }
 
-.frame-text {
-  position: absolute;
+p {
+  position: relative;
   text-size: 15px;
   text-color: black;
-  bottom: 0px;
-  left: 70px;
+  bottom: 250px;
+  left: 50px;
   width: 400px;
 }
