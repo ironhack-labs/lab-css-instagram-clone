@@ -113,10 +113,10 @@ p {
 .footer {
   position: absolute;
   height 50px;
-  width: 1200px;
+  width: 750px;
   text-transform: uppercase;
   top: 827px;
-  left: 290px;
+  left: 240px;
   border: 2px solid black;
   font-size: 15px;
   color: #1c5380;
@@ -128,7 +128,7 @@ p {
 
 li {
   float: left;
-  margin: 0px 0px 0px 10px;
+  margin: 0px 0px 0px 40px;
 }
 
 #copyright {
