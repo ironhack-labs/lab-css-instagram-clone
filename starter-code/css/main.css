@@ -9,12 +9,12 @@ body {
   margin: 0;
 }
 
-.top {
-  height: 400px;
+.top-background {
   background-color: #1c5380;
+  height: 400px;
 }
 
-.bottom {
+.bottom-background {
   height: 500px;
 }
 
@@ -27,15 +27,11 @@ body {
   top: 200px;
 }
 
-#phones {
+.central-images {
   position: absolute;
 }
 
-#brand {
-  position: absolute;
-}
-
-.frame {
+.frame-container {
   position: absolute;
   height: 400px;
   width: 480px;
@@ -50,18 +46,19 @@ body {
   left: 50px;
   bottom: 265px;
   font-size: 25px;
+  line-height: 30px
 }
 
 p {
   position: relative;
   text-size: 15px;
   text-color: black;
-  bottom: 250px;
+  bottom: 255px;
   left: 50px;
   width: 400px;
 }
 
-.brand-login {
+.brand-login-container {
   position: absolute;
   height: 80px;
   width: 490px;
@@ -69,7 +66,7 @@ p {
   top: 20px;
 }
 
-#login {
+#login-button {
   width: 95;
   height: 40px;
   position: absolute;
@@ -98,7 +95,7 @@ p {
   height: 50px;
   width: 350px;
   left: 445px;
-  top: 500px;
+  top: 480px;
 }
 
 #android-badge {
@@ -110,7 +107,7 @@ p {
   position: absolute;
 }
 
-.footer {
+.footer-container {
   position: absolute;
   height 50px;
   width: 970px;
