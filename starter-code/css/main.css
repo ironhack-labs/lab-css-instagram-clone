@@ -33,7 +33,6 @@ body {
 
 #brand {
   position: absolute;
-  left: 400px;
 }
 
 .frame {
@@ -64,8 +63,30 @@ p {
 
 .brand-login {
   position: absolute;
+  height: 80px;
+  width: 490px;
+  left: 405px;
+  top: 20px;
 }
 
 #login {
+  width: 90;
+  height: 40px;
   position: absolute;
+  top: 15px;
+  left: 395px;
+  font-size: 14px;
+  text-align: center;
+  border-radius: 3px;
+  background: linear-gradient(#1c5380, #06365f);
+  color: white;
+  border: 1px solid #06365f;
+}
+
+#home-icon {
+  float: left;
+}
+
+#button-text {
+  position:absolute:
 }
