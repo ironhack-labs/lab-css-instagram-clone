@@ -70,7 +70,7 @@ p {
 }
 
 #login {
-  width: 90;
+  width: 95;
   height: 40px;
   position: absolute;
   top: 15px;
@@ -78,7 +78,7 @@ p {
   font-size: 14px;
   text-align: center;
   border-radius: 3px;
-  background: linear-gradient(#1c5380, #06365f);
+  background: linear-gradient(#5488b3, #1f4f77);
   color: white;
   border: 1px solid #06365f;
 }
@@ -88,5 +88,21 @@ p {
 }
 
 #button-text {
-  position:absolute:
+  position:absolute;
+  top: 11px;
+  right: 14px;
+}
+
+.badge-container {
+  position: absolute;
+  height: 200px;
+  width: 500px;
+}
+
+#android-badge {
+  position: absolute;
+}
+
+#iphone-badge {
+  position: absolute;
 }
