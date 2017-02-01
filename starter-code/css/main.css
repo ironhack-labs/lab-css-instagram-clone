@@ -19,7 +19,7 @@ body {
 }
 
 .central-container {
-  position: relative;
+  position: absolute;
   margin: 0 auto;
   z-index: 1;
   width: 1000px;
