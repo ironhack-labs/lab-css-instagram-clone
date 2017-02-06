@@ -4,7 +4,141 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+html {
+  background-repeat: no-repeat;
+  background: white;
+  background: -moz-linear-gradient(to bottom, #1c5380 0%, #1c5380 295px, #1c5380 295px, white 295px, white 100%);
+  background: -moz-linear-gradient(to bottom, #1c5380 0%, #1c5380 295px, #1c5380 295px, white 295px, white 100%);
+  background: -moz-linear-gradient(to bottom, #1c5380 0%, #1c5380 295px, #1c5380 295px, white 295px, white 100%);
+  background-attachment: fixed;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  margin: 0 auto;
+  width: 900px;
+  height: 100%;
+  padding: 150px 20px 0;
+}
+
+.phones {
+  float: left;
+  margin: auto;
+}
+
+/* all the right info */
+.right-container {
+  float: left;
+  height: 512px;
+  width: 500px;
+  margin-left: 50px;
+  margin-right: auto;
+}
+
+.insta-logo {
+  float: left;
+  margin-left: 2px;
+  height: 70px;
+}
+
+.login {
+  position: relative;
+  top: 20px;
+  height: 35px;
+  float: right;
+  text-align: center;
+  margin-right: 10px;
+  color: white;
+  border: 1px solid #06365f;
+  width: 90px;
+  background: #1c5380;
+  background: -moz-linear-gradient(top, #1c5380 0%, #06365f 100%);
+}
+
+.info {
+  float: left;
+  width: 100%;
+}
+
+.white-frame {
+  background-image: url(../images/frame.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding: 25px 35px 0;
+  margin-top: 20px;
+}
+
+.bold-info {
+  height: 20%;
+  font-size: 20px;
+  font-weight: bold;
+  color: #06365f;
+  width: 60%;
+}
+
+.reg-info {
+  height: 50%;
+  margin-top: 20px;
+}
+
+.img-float {
+  margin-right: 20px;
+}
+
+.app-images {
+  height: 30%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* all the right info */
+
+
+
+
+
+
+
+
+
+/* bottom menu stuff */
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: #1c5380;
+  text-decoration: none;
+}
+
+.bottom-menu {
+  color: #1c5380;
+  width: 800px;
+  height: 40px;
+  margin: 0 auto;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+  clear: both;
+
+}
+
+.bottom-links {
+  color: #1c5380;
+  float: left;
+  width: 70%;
+}
+
+.bottom-ind {
+  margin: 0 10px;
+}
+
+.copyright {
+  color: lightgrey;
+  width: 30%;
+  float: left;
+  text-align: left;
 }
