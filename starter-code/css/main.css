@@ -45,6 +45,7 @@ body {
   position: relative;
   top: 20px;
   height: 35px;
+  padding-top: 2px;
   float: right;
   text-align: center;
   margin-right: 10px;
@@ -53,6 +54,10 @@ body {
   width: 90px;
   background: #1c5380;
   background: -moz-linear-gradient(top, #1c5380 0%, #06365f 100%);
+}
+
+.login-pic {
+  vertical-align: middle;
 }
 
 .info {
