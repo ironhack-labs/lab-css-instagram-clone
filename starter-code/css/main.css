@@ -4,7 +4,176 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
-body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+//*Clearfix
+.group::after {
+     content: ".";
+     display: block;
+     height: 0;
+     clear: both;
+}
+
+/* Hides from IE-mac \*/
+//* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
+
+h1, body, html, main {
   margin: 0;
+}
+
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px
+}
+
+body {
+font-family: Helvetica, Arial, sans-serif;
+width: 100%;
+}
+
+#top-section {
+  height: 300px;
+  width: 100%;
+  background-color: #1c5380;
+  display: block;
+
+}
+#second-section {
+  display: inline-block;
+  margin-left: 500px;
+  position: relative;
+  margin-top: -200px;
+  }
+
+/*#brand-wrapper {
+  position: absolute;
+  display: inline-block;
+  z-index: 1;
+  top: -440px;
+  }*/
+
+#brand-wrapper {
+  position: absolute;
+  display: inline-block;
+  z-index: 1;
+  top: -290px;
+  }
+
+#brand {
+  margin-right: 20px;
+  /*I tried to change the size of
+  the logo to make it smaller,
+  but this code is not working
+  width: 80%;*/
+}
+home-image {
+  width: 12px;
+}
+
+input{
+  margin: -60px 0 0 335px;
+  position: absolute;
+    background:#1c5380 url("../images/home.png") 5px no-repeat;
+    height:35px;
+    width: 80px;
+    padding: 10px 5px 10px 30px;
+    font-weight: 800;
+    color: #EBF6FF;
+    border-color: #1c5380;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+a {
+  text-decoration: none;
+
+}
+
+
+#phones {
+  position: relative;
+  float: left;
+  margin: -200px 50px 0 100px;
+}
+
+#frame-box {
+position: relative;
+top: -200px;
+width: 420px;
+}
+
+
+h2 {
+  position: absolute;
+  font-family: inherit;
+  margin: -400px 0 0 50px;
+  font-size: 20px;
+  color: #06365f;
+}
+/*h2.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+     */
+
+     .text-group {
+       position: absolute;
+       font-size: 12px;
+       margin: -350px 0 0 50px;
+     }
+
+p {
+  display: block;
+  line-height: 1.5;
+  padding-right: 50px;
+}
+
+#download-buttons-container {
+  margin: -170px 0 0 50px;
+  position: absolute;
+}
+
+#iphone-app-download {
+  padding-left: 10px;
+  width: 130px;
+}
+#android-app-download {
+  width: 120px;
+}
+footer {
+  padding-bottom: 100px;
+  padding-left: 230px;
+  padding-right: 350px;
+}
+
+ul { margin:0; padding:0;
+ color:#1c5380; /* Base text color for the menu */
+ font-size: 10px;
+ font-weight: 800;
+ font-family: Helvetica, Arial, sans-serif;
+text-transform: uppercase;
+}
+ul li { float:left; list-style:none; /* Makes the list items go horizontally in lieu of default vertical display */ }
+ul li:after {
+ color:#1c5380; /* You may want to make the separators a bit more subtle than the base text color */
+font-size: 10px;
+font-weight: 800;
+font-family: Helvetica, Arial, sans-serif;
+}
+ul li:last-child:after { content:""; /* No separator for the last item in the list */ }
+ul li a {
+ margin:0 8px; /* Set margins around the links */
+ color:#1c5380; /* Text colors for the links */
+}
+
+#copyright {
+  float: right;
+  color: #BFBFBF;
+  font-size: 10px;
+  font-weight: 800;
+  font-family: Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
 }
