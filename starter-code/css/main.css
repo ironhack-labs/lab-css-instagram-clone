@@ -42,7 +42,7 @@ button {
   background: -webkit-linear-gradient(#6791b1, #42628d);
   border: none;
   color: white;
-  box-shadow: 1px 1px 2px #343537;
+  box-shadow: -1px 1px 1px #343537;
   border-radius: 2px;
   border: 1px solid #42628;
 }
