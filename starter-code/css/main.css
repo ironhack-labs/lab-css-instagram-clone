@@ -137,6 +137,11 @@ a:active {
   width: 70%;
 }
 
+
+.bottom-links > a {
+  margin: 0 10px;
+}
+
 .bottom-ind {
   margin: 0 10px;
 }
