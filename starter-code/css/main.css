@@ -3,8 +3,111 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+h1, body, html, main {
+  margin: 0;
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: url('../images/bgtile.png') repeat-x;
+}
+
+.container {
+  width: 100%;
+  margin: auto;
+  padding-top: 100px;
+}
+
+.instagram_cont {
+  width: 900px;
+  margin: auto;
+}
+
+.phoneimgs {
+  float: left;
+  padding-right: 50px;
+}
+
+.brand_login img {
+  vertical-align: middle;
+}
+
+button {
+  margin-top: 20px;
+  margin-left: 87px;
+  padding: 8px 15px 8px 13px;
+  font-size: 12px;
+  font-weight: 700;
+  background: -webkit-linear-gradient(#6791b1, #42628d);
+  border: none;
+  color: white;
+  box-shadow: -1px 1px 1px #343537;
+  border-radius: 2px;
+  border: 1px solid #42628;
+}
+button img {
+  width: 20px;
+  vertical-align: middle;
+  padding-right: 5px;
+}
+
+.blurb {
+  float: left;
+}
+
+.content {
+  background: url('../images/frame.png') no-repeat;
+  width: 500px;
+  padding: 30px 0;
+}
+
+.content h1 {
+  color: #1c5380;
+  width: 420px;
+  margin: auto;
+  line-height:2rem;
+  padding-bottom: 30px;
+  font-size: 24px;
+}
+
+.content p {
+  width: 420px;
+  margin: auto;
+  padding-bottom: 20px;
+  font-weight: 400;
+}
+
+.appicons {
+  width: 420px;
+  margin: auto;
+}
+
+.appicons img {
+  margin: auto;
+  display: inline;
+  padding-right: 20px;
+}
+
+footer {
+  padding: 70px 0;
+  text-transform: uppercase;
+  clear: both;
+}
+
+footer ul {
+  width: 700px;
+  margin: auto;
+}
+
+footer li {
+  display: inline;
+  padding-left: 15px;
+  color: #1c5380;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.gray {
+  color: #bcbcbc;
 }
