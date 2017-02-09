@@ -1,10 +1,129 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
-
+/* ----  ViewPort: 1300px x 990 px ------ */
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  background-image: linear-gradient(to bottom, #467ca8, #1c5385 43%, white 0%);
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  width: 900px;
+}
+h2, button, p, .footerMenu {
+    font-family: 'proxima-nova','Helvetica Neue',Arial,Helvetica,sans-serif;
+}
+h2 {
+    font-size: 135%;
+}
+p {
+    font-size: 16px;
+    line-height: 145%;
+}
+a, a:hover, a:visited {
+  text-decoration: none;
+}
+a {
+    color: inherit;
+}
+a:hover {
+      color: darkblue;
+    }
+a:visited {
+    color: #5c1360;
+}
+button {
+    background: none;
+    border: none;
+}
+button {
+    position: relative;
+    top: 19px;
+    height: 40px;
+    float: right;
+    text-align: center;
+    margin-right: 8px;
+    color: white;
+    border: 1.4px solid rgba(6, 54, 95, 0.81);
+    width: 100px;
+    background-image: linear-gradient(to bottom, #528bb9, #33668f 70%, #31648d 0%);
+    font-weight: bold;
+    border-radius: 3px;
+    font-size: 85%;
+}
+ul {
+    width: 100%;
+    list-style: none;
+    display: inline-flex;
+    margin: 0px;
+    margin-left: 56px;
+}
+li {
+    padding: 0px 5px 0px 5px;
+    font-size: 14px;
+}
+form {
+  display: inline;
+}
+footer {
+    width: 750px;
+    margin-right: 20%;
+    font-weight: bold;
+    height: 20px;
+    text-transform: uppercase;
+    margin-top: 10%;
+    color: #1c5380;
+    float: left;
+}
+.topArea {
+    padding: 150px 0px 0;
+}
+.leftSide {
+  float: left;
+  margin: auto;
+}
+.rightSide {
+  float: left;
+  height: 512px;
+  width: 500px;
+  margin-left: 50px;
+  margin-top: 22px;
+}
+.instaLogo img {
+    float: left;
+    margin-left: 5px;
+}
+.iconHouse {
+    vertical-align: middle;
+    padding-right: 0.5em;
+}
+.textBox {
+    float: left;
+    background-image: url(../images/frame.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 10px 35px 0 35px;
+    margin-top: 20px;
+}
+.header1 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #06365f;
+}
+.textMain {
+  height: 50%;
+  margin-top: 20px;
+}
+.appleImg {
+  margin-right: 20px;
+}
+.downloadLinks {
+    margin-top: 10px;
+    float: left;
+}
+.bottomLinks {
+    display: inline-block;
+}
+.bottomLinks > a {
+  margin: 0 10px;
+}
+.copyright {
+    color: #a8a8a8;
+    float: right;
+    font-size: 14px;
 }
