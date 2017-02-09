@@ -46,12 +46,13 @@ body {
 .home-button {
   position: relative;
   left: 910px;
-  top:-450px;
+  top:-425px;
   background-color:  #1c5380;
-  padding: 1px 0px 1px 0px;
   height: auto;
-    color: white;
-  width: 160px;
+  color: white;
+  width: 90px;
+  padding: 4px;
+  text-align: center;
 
 }
 
