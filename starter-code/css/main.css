@@ -7,4 +7,165 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+height: 100%;
+  width: 100%;
 }
+
+
+.css3gradient{width:1431px;height:1966px;
+ background-color:##06365f;
+ filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#06365f, endColorstr=#ffffff);
+ background-image:-moz-linear-gradient(top, #06365f 19%, #ffffff 19%);
+ background-image:-webkit-linear-gradient(top, #06365f 19%, #ffffff 19%);
+ background-image:-ms-linear-gradient(top, #06365f 19%, #ffffff 19%);
+ background-image:linear-gradient(top, #06365f 19%, #ffffff 19%);
+ background-image:-o-linear-gradient(top, #06365f 19%, #ffffff 19%);
+ background-image:-webkit-gradient(linear, right top, right bottom, color-stop(19%,#06365f), color-stop(19%,#ffffff));}
+
+.divForPhones{
+
+height: 23%;
+width: 20%;
+float: left;
+margin: 160px;
+padding: 0px;
+
+
+}
+.phones{
+height: 100%;
+width: 100%;
+}
+.combined{
+  clear: both;
+  position: relative;
+
+  height: 100px;
+  width: 600px;
+  margin:  auto;
+  top: -600px;
+
+}
+.instagram{
+  position: relative;
+
+width: 280px;
+height: 50px;
+margin: 20px 20px;
+left: 60px;
+padding: 0px 0px 20px;
+top: 0px;
+}
+.picbrand{  /*foto que dice instagram*/
+  position: relative;
+height:70px;
+width: 270px;
+
+
+}
+.buttonlogin{
+  position: relative;
+  height: 30px;
+  width: 80px;
+  border: 1px solid #1c5380;
+  margin: 0px 20px;
+  right: 23px;
+  float: right;
+  top: -70px;
+  background-color:#1c5380;
+  border-radius: 4px ;
+  color: white;
+
+  border-style: outset;
+}
+.login{
+  position: relative;
+  bottom: 5px;
+  margin: 0 5px;
+
+}
+.picxhouse{
+height: 18px;
+width: 20px;
+}
+.insideTheWideImage{
+clear: both;
+position: relative;
+  background-image: url("/Users/ivanjorge/Prework/code/labs/lab-css-instagram-clone/starter-code/images/frame.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height: 250px;
+  width: 480px;
+  padding-top: 10px;
+  left: 500px;
+  bottom: 620px;
+
+}
+
+.header2{
+  position:inherit;
+  margin: 20px 40px 0px;
+}
+.paragraph1{
+  position: inherit;
+  margin: 10px 40px 0px;
+  font-size: 13px;
+
+}
+.butones{
+  position: relative;
+  bottom:600px;
+  left: 530px;
+}
+.butones2{
+  background-color: white;
+  border: 0px;
+}
+.butones1{
+  background-color: white;
+  border: 0px;
+}
+nav{
+  position: relative;
+  bottom: 550px;
+  left: 320px;
+}
+.a{
+  padding: 0 2px;
+}
+.copyright{
+  position: relative;
+  bottom: 570px;
+  left: 775px;
+font-size: 12px;
+}
+
+a:link    {
+  /* Applies to all unvisited links */
+  text-decoration:  none;
+  font-weight: bold;
+
+  color:            #1c5380;
+  }
+a:visited {
+  /* Applies to all visited links */
+  text-decoration:  none;
+  font-weight:      bold;
+
+  color:            #1c5380;
+  }
+a:hover   {
+  /* Applies to links under the pointer */
+  text-decoration:  underline;
+  font-weight:      bold;
+
+  color:            #1c5380;
+  }
+a:active  {
+  /* Applies to activated links */
+  text-decoration:  underline;
+  font-weight:      bold;
+
+  color: white;
+  }
