@@ -51,5 +51,5 @@ Please find a screenshot of the expected result below:
 ![Instagram lab Screenshot](https://i.imgur.com/DQ9fk1u.png)
 
 ## Extra Resources
-
+- [v0.01 Screenshot](https://i.gyazo.com/e505caa5438a223e5f1d72854361ec42.png)
 - [CSS Reference from MDN](https://developer.mozilla.org/en-US/docs/Web/CSS)
