@@ -6,5 +6,61 @@ light blue: #1c5380
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  border-top: 250px solid #125688;
+  margin: 20px 20px 20px 20px;
+}
+
+#phone {
+  position: relative;
+  float: left;
+  margin-top: -170px;
+  padding: 20px;
+  padding-right: 30px;
+}
+h3 {
+  color: #1c5380;
+}
+
+#logo {
+  margin-top: -140px;
+  float: left;
+}
+
+#login {
+    position: relative;
+    top: 20px;
+    height: 35px;
+    width: 85px;
+    padding-top: 6px;
+    float: right;
+    text-align: center;
+    margin-right: 10px;
+    margin-top: -480px;
+    margin-right: 260px;
+    color: white;
+    box-shadow: -1px 1px 1px #343537;
+    background: -webkit-linear-gradient(#6791b1, #42628d)
+}
+
+#frame{
+  margin-top: -120px;
+}
+.mainContainer {
+  position: relative;
+border: 10px 10px 10px 10px;
+float: left;
+margin-top: -400px;
+margin-left: 420px;
+margin-right: 250px;
+}
+
+.footContainer {
+  position: relative;
+  margin-left: 300px;
+  margin-right: 200px;
+  text-transform: uppercase;
+ padding-left: 15px;
+ color: #1c5380;
+font-weight: 700;
+ font-size: 12px;
 }
