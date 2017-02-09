@@ -1,10 +1,87 @@
-/*
+    /*
 Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+    font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
 }
+
+#top-section {
+    width: 100%;
+    height: 250px;
+    background-color: #1c5380;
+}
+
+.phones {
+    float: left;
+    margin-top: 100px;
+    margin-left: 60px;
+}
+
+.brand {
+    float: left;
+    position: relative;
+    margin-top: 110px;
+    margin-left: 55px;
+}
+
+.log-in {
+    position: relative;
+    top: 20px;
+    height: 30px;
+    width: 100px;
+    padding-top: 4px;
+    float: right;
+    text-align: center;
+    margin-left: 20px;
+    color: white;
+    border: 2px solid #06365f;
+    background: #1c5380;
+}
+
+.right-container {
+    float: left;
+    height: 485px;
+    width: 500px;
+    margin-left: 50px;
+    margin-right: auto;
+}
+
+h2 {
+    color: #06365f;
+    text-align: center;
+}
+
+.info {
+    background-image: url(../images/frame.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 25px 35px 0;
+    margin-stop: 20px;
+}
+
+.logos {
+  height: 30%;
+ text-align: center;
+ margin-top: 30px;
+}
+
+.bottom-links {
+    color: #1c5380;
+    float: right;
+    width: 70%;
+
+  }
+
+.copyright {
+  color: grey;
+  margin-left: 10px;
+}
+
+a:active {
+        color: #1c5380;
+        text-decoration: none;
+    }
