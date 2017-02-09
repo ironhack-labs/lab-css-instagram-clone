@@ -5,6 +5,83 @@ light blue: #1c5380
 */
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+.upper-block {
+  background-color: #06365f;
+  height: 400px;
+}
+
+.bottom-block {
+  color: #1c5380;
+  }
+
+.frame {
+  background: url(../images/frame.png);
+  background-repeat: no-repeat;
+  position: relative;
+  left: 590px;
+  top: -80px;
+  background-size: 100%;
+  padding-left: 35px;
+  padding-top: 25px;
+  padding-right: 10px;
+  width:450px;
+  }
+
+.phone-picture {
+  position: relative;
+  top: 170px;
+  left: 200px;
+}
+
+.logo {
+  position: relative;
+  left: 550px;
+  top: -350px;
+}
+
+.home-button {
+  position: relative;
+  left: 910px;
+  top:-425px;
+  background-color:  #1c5380;
+  height: auto;
+  color: white;
+  width: 90px;
+  padding: 4px;
+  text-align: center;
+
+}
+
+.frame-header {
+  color: #06365f;
+  font-size: 30px;
+  text-align:left;
+  font-weight: bold;
+  width: 70%;
+  margin-bottom: 15px;
+}
+
+.ios-android {
+  margin-top: 35px;
+
+}
+
+.footer {
+  position: relative;
+  text-align: center;
+  font-weight:bold;
+  color: #1c5380;
+  font-size: 15px;
+
+}
+
+.copyright{
+  color: grey;
+  position: relative;
+  left: 252px;
+  top: -22px;
 }
