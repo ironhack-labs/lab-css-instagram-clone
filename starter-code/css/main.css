@@ -13,7 +13,7 @@ h2 {
 }
 p {
     font-size: 16px;
-    line-height: 135%;
+    line-height: 145%;
 }
 a, a:hover, a:visited {
   text-decoration: none;
@@ -113,7 +113,7 @@ footer {
   margin-right: 20px;
 }
 .downloadLinks {
-    margin-top: 20px;
+    margin-top: 10px;
     float: left;
 }
 .bottomLinks {
