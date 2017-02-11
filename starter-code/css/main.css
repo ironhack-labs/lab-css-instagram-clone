@@ -5,6 +5,111 @@ light blue: #1c5380
 */
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 200 16px/1.5 ;
+  font-family:Helvetica Neue, Helvetica, Arialsans-serif;
   margin: 0;
+}
+#pagewraper {
+	background: #1c5380 ; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(##1c5380 50% , white 50%); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#1c5380 50% , white 50%); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#1c5380 50% , white 50%); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#1c5380 50% , white 50%); /* Standard syntax (must be last) */
+	}
+#login{
+	display: flex;
+  flex-direction: column;
+  justify-content: center;
+  }
+#login>a{
+	padding:5px;
+	color:white;
+	text-decoration:none;
+	border:1px solid #06365f;
+	background: #06365f ; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#1c5380 , #06365f ); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#1c5380 , #06365f ); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#1c5380 , #06365f); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#1c5380 , #06365f); /* Standard syntax (must be last) */
+	border-radius: 5px;
+}
+#central{
+	position:relative;
+	top:90px;
+	margin:0px auto;
+    height:500px;
+    width: 80%;
+  }
+.instandlog{
+	display:inline-block;
+	}
+#capture{
+	color:#06365f;
+	float:left;
+	padding-top: 15px;
+    padding-right: 100px;
+    background-color: white;
+	margin-left: 10px;
+    margin-right: 10px;
+}
+.phonefloat{
+	float:left;
+	max-width:100%;
+	height:auto;
+	display:inline;
+}
+#mainsection{
+	background-image: url("../images/frame.png");
+	 background-repeat:no-repeat;
+ height:400px;
+  max-width: 500px;
+  }
+nav{
+	clear:both;
+	}
+footer{
+	text-align:center;
+	margin-top:40px;
+	position:fixed;
+   left:0px;
+   bottom:70px;
+   height:30px;
+   width:80%;
+ }
+#phones{
+	padding-right:5%;
+}
+.centering{
+	  display: flex;
+      justify-content: space-between;
+}
+.centering2{
+	  display: flex;
+      justify-content: space-around;
+
+}
+.textspace{
+	padding-left:40px;
+	padding-right: 30px;
+}
+#foot{
+	display:flex;
+	justify-content:center;
+
+}
+.fontstyle>a, .fontstyle{
+	padding-left:8px;
+	padding-right:8px;
+
+	text-decoration:none;
+	font-weight:600;
+	font-size:14px;
+}
+.fontstyle>a{color: #003569;}
+.fontstyle{color:#757584;}
+.lineh{
+	line-height:130%
+}
+#appstores{
+	    margin-top: 35px;
 }
