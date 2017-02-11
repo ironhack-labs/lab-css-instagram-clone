@@ -8,3 +8,65 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.header-banner{
+  background-color: #06365f;
+  height: 250px;
+}
+
+.body-container{
+  /*margin-top: 100px;
+  margin-left: 10%;
+  margin-right: 10%;*/
+  margin: 0 10% 0% 10%;
+}
+
+
+
+.column-right {
+  float: right;
+  width: 500px;
+  margin-top: 5%;
+  margin-left: 50px;
+}
+.column-left {
+  float: left;
+  margin-top: 5%;
+}
+
+
+.text-container{
+  background-image: url("../images/frame.png");
+  background-size: 500px;
+  background-repeat: no-repeat;
+  padding: 2% 6% 2% 6% ;
+  border-width: 1px;
+  border-radius: 5px;
+}
+
+h2 {
+  color: #06365f;
+}
+
+#login{
+  margin: 2% 3% 0 0;
+  background-color: #1c5380;
+  border-width: 1px;
+  border-radius: 5px;
+  padding: 2%;
+  float: right;
+  width: 80px;
+  color: #fff;
+}
+
+.footer{
+ clear: both;
+ text-align: center;
+ color: #06365f;
+ font-weight: 200;
+ padding-top: 2%;
+}
+
+.footer span{
+  color: #C1C1C3;
+}
