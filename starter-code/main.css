@@ -1,0 +1,88 @@
+/*
+Colors to use:
+dark blue: #06365f
+light blue: #1c5380
+*/
+
+body {
+    font: 16px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+
+}
+.header-banner{
+  background-color: #06365f;
+  height: 250px;
+}
+
+.phones{
+  position: relative;
+  left: 250px;
+  top: 80px;
+}
+
+.brand {
+    position: relative;
+    left: 600px;
+    top: -420px;
+}
+
+.login-button {
+    position: relative;
+    left: 1000px;
+    top: -480px;
+    display: inline-block;
+    padding: 6px;
+    border: 1px solid;
+    background-color: #1c5380;
+    border-color: #06365f;
+    color: white;
+}
+
+.frame {
+    position: relative;
+    left: 600px;
+    top: -430px;
+}
+
+.capture {
+    color: #06365f;
+    font-size: 20px;
+    position: relative;
+}
+
+.instagram {
+    position: relative;
+    left: 630px;
+    top: -690px;
+    margin-right: 1000px;
+}
+
+.badge-iphone {
+    position: relative;
+    left: 615px;
+    top: -640px;
+}
+
+.badge-android {
+    position: relative;
+    left: 820px;
+    top: -693px;
+}
+
+.about {
+    position: relative;
+    left: 396px;
+    top: 395px;
+    text-transform: uppercase;
+    color: #1c5380;
+    font-size: 14px;
+}
+
+.copyright {
+    position: relative;
+    left: 826px;
+    top: 379px;
+    color: gray;
+    text-transform: uppercase;
+    font-size: 14px;
+}
