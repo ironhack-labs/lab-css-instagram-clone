@@ -3,73 +3,89 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+html {
+  width: 100%;
+  height: 100%;
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
-  width: 100%;
-  min-height: 2000px;
+  border: 0;
 }
 
 header#blueBg {
-  background-color: #06365f;
+  background: linear-gradient(180deg,#06365f, #1c5380 75%);
   min-width: 100%;
-  min-height: 25em;
+  min-height: 300px;
 
 }
 
 article {
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  top: 5em;
+  position: absolute;
+  top: 84px;
+  width: 1000px;
+  padding: 0;
   margin: 0 25%;
+  box-sizing: border-box;
 
 }
 
+.navinTainer {
+  width: 100%;
+  height: 110px;
+  padding: 28px 0 0 370px;
+  display: inline-block;
+  box-sizing: border-box;
+
+}
 
 span#logo {
-  position:relative;
-  display: inline-block;
-  background: url("../images/brand.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  padding: 39px 100px;
+  position: relative;
+
 
 }
 
 span#button {
-  background-color: #1c5380;
-  position: relative;
-  display: inline-block;
-  border-radius: 10px;
+  position: absolute;
+  top: 0px;
+  background: linear-gradient(180deg,#06365f, #1c5380 75%);
+  border-radius: 2px;
   color: #fff;
-  padding: 15px 10px
+  margin: 35px 110px;
+  padding: 20px 25px 0 25px;
+}
+
+span#button > a {
+  float: left;
+  margin-left: -14px;
+  padding-left: 0px;
+  padding-bottom: 0px;
+
+
 }
 
 aside {
-  width: 320px;
-  height: 514px;
-  position: relative;
   display: inline-block;
+  position: absolute;
+  top: 0;
+  width: 320px;
+  min-height: 514px;
   background: url("../images/phones.png");
-  background-size: cover;
+  background-size: 100%;
 
 }
 
 .shadowTainer {
-  width: 40%;
-  height: 500px;
-  border-radius: 10px;
-  margin: 80px 20%;
-  position: relative;
-  display: inline-block;
-  padding: 40px;
-/*   background-color: white; */
+  float:right;
+  margin-right: 52px;
+  max-width: 500px;
+  max-height: 400px;
   background: url("../images/frame.png");
   background-size: 100%;
   background-repeat: no-repeat;
+  border-radius: 10px;
+  padding: 40px;
 
 }
 
@@ -81,17 +97,18 @@ aside {
 }
 
 .shadowTainer h2 {
-  width: 100%;
+  width: 60%;
   background-color: white;
 
 }
 
 footer {
+  width: 100%;
   text-align: center;
-  position: fixed;
-   margin: 0;
+  position: absolute;
   bottom: 0px;
-  padding: 15px 20% 5px 20%;
+  padding: 0 0 5px 0;
+  margin: 80px 0;
 }
 
 footer > a {
