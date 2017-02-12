@@ -52,4 +52,5 @@ Please find a screenshot of the expected result below:
 
 ## Extra Resources
 - [v0.01 Screenshot](https://i.gyazo.com/e505caa5438a223e5f1d72854361ec42.png)
+- [v0.5 Screenshot](https://i.gyazo.com/f36152a4a24325829daf92b33597a2e2.png)
 - [CSS Reference from MDN](https://developer.mozilla.org/en-US/docs/Web/CSS)
