@@ -24,7 +24,7 @@ header#blueBg {
 article {
   position: absolute;
   top: 84px;
-  width: 1000px;
+  width: 997px;
   padding: 0;
   margin: 0 25%;
   box-sizing: border-box;
@@ -48,12 +48,17 @@ span#logo {
 
 span#button {
   position: absolute;
-  top: 0px;
-  background: linear-gradient(180deg,#06365f, #1c5380 75%);
+  top: 45px;
+  right: 65px;
+  background: linear-gradient(0deg, #1c5380, #5f98c8);
+  border: ridge 0.4px #06365f;
   border-radius: 2px;
+  padding: 8px 18px 8px 25px;
+  margin: 0px;
+  font-weight: bold;
+  /* background: linear-gradient(180deg,#06365f, #1c5380 75%); */
   color: #fff;
-  margin: 35px 110px;
-  padding: 20px 25px 0 25px;
+
 }
 
 span#button > a {
@@ -62,7 +67,40 @@ span#button > a {
   padding-left: 0px;
   padding-bottom: 0px;
 
+}
 
+span#button > a > img {
+  float: left;
+  margin-right: 10px;
+  padding-left: 0px;
+  padding-bottom: 0px;
+
+}
+
+span#button > a:link {
+    color: #fff;
+    text-decoration: none;
+}
+
+span#button > a:visited {
+    color: #f8f8f8;
+}
+
+span#button:hover {
+    background: linear-gradient(180deg, #1c5380, #06365f);
+}
+
+span#button > a:hover {
+    color: #ccc;
+
+}
+
+span#button > a:active {
+    color: #1f99ff;
+}
+
+.downloadButt > a > img {
+    padding: 0px 18px 18px 0;
 }
 
 aside {
@@ -93,11 +131,15 @@ aside {
   width: 100%;
   height: 100%;
   background-color: white;
+  padding: 8px 0 5px 0;
 
 }
 
 .shadowTainer h2 {
-  width: 60%;
+  font-size: 2em;
+  color: #1c5380;
+  width: 68%;
+  margin: 0;
   background-color: white;
 
 }
@@ -106,11 +148,24 @@ footer {
   width: 100%;
   text-align: center;
   position: absolute;
-  bottom: 0px;
-  padding: 0 0 5px 0;
+  top: 600px;
+  padding: 0 6%;
   margin: 80px 0;
+  box-sizing: border-box;
 }
 
 footer > a {
   padding: 8px;
+}
+
+footer > a:link {
+  color: #557da0;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+footer > a:hover {
+  color: #ccc;
 }
