@@ -3,8 +3,85 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+.container{
+  margin-top: 0;
+  float: left;
+  margin-left: 200px;;
+  margin-right: auto;
+}
+.backgroundblue{
+  margin: 0;
+  background-color: #1c5380;
+  position: fixed ;
+  height: 35%;
+  width: 100%;
+  z-index: -1;
 
+}
+li{
+  float: center;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  display:inline;
+  padding: 5px;
+}
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+.images{
+  box-sizing: border-box;
+  position: relative;
+  float:left;
+  padding-right: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15%;
+}
+.contentimages{
+
+
+}
+.login{
+  line-height: 42px;
+  color: white;
+   box-shadow: 2px 2px 2px 2px #1c5380;
+  padding: 0px 10px;
+  background-color: #1c5380;
+  border-width: 1px;
+  border-color: #06365f;
+  display: inline;
+  float:right;
+  font-weight: 300;
+}
+.contentcontainer{
+  margin left: auto;
+  margin-right: auto;
+  margin-top: 15%;
+  float: left;
+  width: 500px;
+  background-image: url(/Users/carlos/prework/code/labs/lab-css-instagram-clone/starter-code/images/frame.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+  padding: 60px;
+
+}
+h2{
+  color: #06365f;
+  padding-right: 10%;
+}
+.footer{
+  clear: both;
+  position: relative;
+  top: 100px;;
+  text-align: center;
+  color: #1c5380;
+  font-size: 11px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+#copyright{
+  color: lightgrey;
 }
