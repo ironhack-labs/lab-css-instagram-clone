@@ -4,7 +4,132 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+* {
+	box-sizing: border-box;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+header {
+	background: #7092AF;
+	background: -webkit-linear-gradient(#7092AF, #537B9E);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#intro {
+	background: url("../images/brand.png") no-repeat;
+	height: 8.5rem;
+	width: 470px;
+	margin: 80px;
+}
+
+#intro h1 {
+	visibility: hidden;
+	display: block;
+}
+
+#home {
+	margin-top: -4.4rem;
+	float: right;
+	height: 2.5rem;
+	width: 5.3rem;
+	color: white;
+	background: #7092AF;
+	background: -webkit-linear-gradient(#7092AF, #537B9E);
+	border-color: #5B7F9E;
+	border-style: solid;
+	border-width: 2px;
+}
+
+/*#home:after {
+	content: '';
+	display: block;
+	clear: both;
+}*/
+
+#app-store {
+	background: url("../images/badge-iphone.png") no-repeat;
+	height: 3.5rem;
+	width: 170px;
+	border: none;
+}
+
+#app-store span {
+	visibility: hidden;
+}
+
+.lower-button {
+	margin-left: 1.7rem;
+
+}
+
+#google-play {
+	background: url("../images/badge-android.png") no-repeat;
+	height: 3.5rem;
+	width: 170px;
+	border: none;
+}
+
+#google-play span {
+	visibility: hidden;
+}
+
+#phones {
+	background: url("../images/phones.png") no-repeat;
+	height: 32rem;
+	width: 20rem;
+	position: absolute;
+	top: 4rem;
+	left: 3rem;
+}
+
+#text-container {
+	background: url("../images/frame.png") no-repeat;
+	position: absolute;
+	left: 33rem;
+	top: 14rem;
+	margin-bottom: 3rem;
+}
+
+#text-container h2 {
+	color: #06365f;
+	margin-left: 3rem;
+	width: 33%;
+}
+
+#text-container span {
+	font-weight: bold;
+}
+
+#text-container p {
+	width: 56%;
+	margin-left: 3rem;
+}
+
+footer {
+	margin-top: 23rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+footer ul {
+	list-style: none;
+	position: absolute;
+}
+
+footer ul li {
+	display: inline-block;
+	margin-right: 1rem;
+	font-weight: bold;
+	color: #7092AF;
+}
+
+footer ul li span {
+	color: #C1C1C2;
 }
