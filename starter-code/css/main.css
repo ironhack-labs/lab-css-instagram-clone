@@ -5,6 +5,99 @@ light blue: #1c5380
 */
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+    font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+}
+
+.page-wrapper {
+    height: 256px;
+    background-image: url("../images/bgtile.png");
+}
+
+.content-container {
+    position: relative;
+    margin: 0 auto;
+    width: 850px;
+    top: 100px;
+}
+
+.phone-image {
+    float: left;
+}
+
+.right-block {
+    float: right;
+    width: 504px;
+}
+
+/*.button:before {
+     content: url("../images/home.png");
+}*/
+
+.button {
+    position: absolute;
+    display: inline-block;
+    right: 10px;
+    width: 100px;
+    line-height: 35px;
+    top: 19px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    border: solid 1px #06365f;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 10pt;
+}
+
+.icon {
+    display: inline-block;
+    height: 22px;
+    width: 25px;
+    background-image: url("../images/home.png");
+    vertical-align: middle;
+    margin-right: 2px;
+}
+
+.text-dialog {
+    background-image: url("../images/frame.png");
+    background-repeat: no-repeat;
+    padding: 30px;
+}
+
+.text-title {
+    color: #06365f;
+}
+
+.badge-android {
+    margin-left: 10px;
+}
+
+.footer-container {
+    position: relative;
+    margin: 0 auto;
+    clear: both;
+    width: 800px;
+    top: 150px;
+}
+
+.footer-nav {
+    text-align: center;
+}
+
+.footer-nav li {
+    display: inline;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 10px;
+    font-size: 9pt;
+}
+
+.footer-nav a {
+    color: #6689A9;
+    text-decoration: none;
+}
+
+.copyright {
+    color: #ADADAE;
 }
