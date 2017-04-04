@@ -5,6 +5,92 @@ light blue: #1c5380
 */
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+	font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin: 0;
+}
+
+header{
+	background-image: url(../images/bgtile.png);
+	background-repeat: repeat-x;
+	height: 20vw;
+}
+
+h1{
+	color: darkblue;
+	padding-left: 3vw;
+	padding-right: 3vw;
+}
+
+a {
+	display: inline-block;
+	color: #6495ED;
+	padding-right: 2vw;
+	font-size: 1.1vw;
+	text-decoration: none;
+}
+
+p {
+	padding-left: 3vw;
+	padding-right: 3vw;
+}
+
+button{
+	background-image: url(../images/home.png);
+	background-position: left;
+	background-color: #6495ED;
+	background-repeat: no-repeat;
+	width: 6vw;
+	height: 2.5vw;
+	border-color: #5F9EA0;
+	color: #d3d3d3; 
+	font-weight: bold;
+	padding-left: 1.6vw;
+	border-radius: 5px;
+	color: #d3d3d3; 
+}
+
+footer{
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	margin-top: 5vw;
+	color: grey;
+	font-weight: bold;
+	font-size: 1vw;
+}
+
+.phones {
+	margin-top: 7vw;
+	margin-left: 7vw;
+	float: left;
+}
+
+.badges{
+	margin-top: 2vw;
+	margin-left: 7vw;
+}
+
+.brand{
+	display: inline-block;
+	position: absolute;
+	margin-top: -12%;
+	margin-left: 15%;
+}
+
+.log{
+	display: inline-block;
+	position: absolute;
+	margin-top: -10.5%;
+	margin-left: 50%;
+}
+
+.frame-text {
+	background-image: url(../images/frame.png);
+	background-size: cover;
+	margin-top: -5vw;
+	padding: 1vw;
+	display: inline-block;
+	margin-left: 15%;
+	height: 20vw;
+	width: 40vw;
 }
