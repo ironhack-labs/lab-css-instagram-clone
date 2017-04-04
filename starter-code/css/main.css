@@ -4,7 +4,55 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#bluetop {
+  /*background-image: url(../images/bgtile.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 55rem;*/
+}
+
+#phones-photo {
+  float: left;
+  padding-right: 5%;
+}
+
+#brand {
+  padding-top: 2%;
+  /*float: left;*/
+}
+
+#house {
+  padding-top: 2%;
+  float: right;
+}
+
+#text {
+  background-image: url("../images/frame.png");
+  background-position: right;
+  text-align: center;
+}
+
+#id {
+  height: 100%;
+
+}
+
+p {
+  /*margin: auto;
+  display: inline-block;*/
+  float: right;
+}
+
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  padding: 8%;
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
 }
