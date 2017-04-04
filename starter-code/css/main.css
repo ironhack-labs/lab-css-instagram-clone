@@ -16,14 +16,14 @@ header{
 }
 
 h1{
-	color: darkblue;
+	color: #06365f;
 	padding-left: 3vw;
 	padding-right: 3vw;
 }
 
 a {
 	display: inline-block;
-	color: #6495ED;
+	color: #1c5380;
 	padding-right: 2vw;
 	font-size: 1.1vw;
 	text-decoration: none;
@@ -37,11 +37,11 @@ p {
 button{
 	background-image: url(../images/home.png);
 	background-position: left;
-	background-color: #6495ED;
+	background-color: #1c5380;
 	background-repeat: no-repeat;
 	width: 6vw;
 	height: 2.5vw;
-	border-color: #5F9EA0;
+	border-color: #06365f;
 	color: #d3d3d3; 
 	font-weight: bold;
 	padding-left: 1.6vw;
