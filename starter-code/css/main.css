@@ -8,3 +8,37 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+#fondo-azul {
+  background-color: #06365f;
+  height: 300px;
+}
+
+#fondo-blanco {
+  background-color: white;
+  height: 700px;
+
+}
+
+#telefono {
+  float: left;
+  position: absolute;
+  margin-top:130px;
+  margin-left: 90px;
+}
+
+#logo {
+  float: right;
+  position: absolute;
+  margin-top: -840px;
+  margin-left: 460px;
+
+
+}
+#home {
+  float: right;
+}
+
+#parrafo{
+  float: left;
+}
