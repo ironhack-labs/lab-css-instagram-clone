@@ -7,4 +7,87 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+}
+
+body {
+  font-family: Arial;
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.header {
+  background: #00D1AE;
+  height: 30px;
+  margin-bottom: 10px;
+  min-width: 725px;
+  padding-top: 10px;
+  width: 100%;
+}
+.general-container {
+  margin: 5% 10% auto;
+
+}
+.left-bar {
+
+  float: left;
+ /* height: 390px;*/
+  padding-top: 10px;
+  /*width: 20%;*/
+}
+.main-content {
+
+  float: left;
+  /*height: 590px;*/
+  margin: 0 0 0 10%;
+  padding-top: 10px;
+
+  width: 48%;
+}
+
+#text-and-badges {
+  clear:both;
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  padding: 10%;
+}
+.half-width {
+  width:50%;
+}
+#login-button {
+  width: 80px;
+  height: 30px;
+  float:right;
+  padding: 10px;
+  margin: 5% 0 0 0;
+  border: 1px solid #366289;
+  border-radius: 5px;
+  background: linear-gradient(#6f92b0, #06365f );
+  color:white;
+  vertical-align: top;
+}
+#footer {
+  width:100%;
+  padding:3% 0 0 0;
+  height: 100px;
+  clear:both;
+}
+.content-header {
+  width:60%;
+  color:#06365f;
+  text-align: left;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.content-text {
+  text-align:left;
+}
+
+.footer-links {
+  display:inline;
+  color:#1c5380;
+  text-transform: uppercase;
+  font-weight: bold;
 }
