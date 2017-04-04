@@ -8,3 +8,101 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.header {
+  background-color: rgb(69, 111, 143);
+  height: 250px;
+}
+
+.button {
+  margin-top: 20px;
+  text-align: center;
+  border-radius: 3px;
+  color: white;
+  font-size: 14px;
+  background-color: rgb(72, 114, 178);
+  border: 1px solid rgb(44, 88, 125);
+  float: right;
+  padding: 5px;
+}
+
+.buttonContent {
+  padding: 3px;
+  height: 25px;
+  vertical-align: middle;
+}
+
+#brand{
+  float:left;
+}
+
+.middleDiv{
+  background-color: white;
+  height: 400px;
+  width: 400px;
+
+}
+.floatDiv {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+}
+.phone{
+  float: left;
+}
+.card{
+  margin-left: 10px;
+  float:left;
+}
+#cardTitle{
+  padding-top: 20px;
+  clear: both;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(60,90,120);
+}
+.cardContent {
+  width: 504px;
+  height: 284px;
+  background-image: url("./../images/frame.png");
+}
+.cardHead{
+  padding: 10px;
+  width: 504 px;
+  height: 68px;
+    vertical-align: middle;
+}
+
+p {
+  width: 504 px;
+  margin: 30px;
+}
+
+.footer {
+  text-align: center;
+  color: rgb(80,120,150);
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.content{
+  width: 100%;
+  height: 100%;
+}
+
+.cardFooter img {
+  margin-top: 60px;
+  margin-left: 20px;
+}
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+  margin: 0px 5px;
+}
+
+.footer span{
+  color: grey;
+}
