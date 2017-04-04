@@ -4,7 +4,249 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+
+body {
+	line-height: 1;
+}
+
+
+ol, ul {
+	list-style: none;
+}
+
+
+blockquote, q {
+	quotes: none;
+}
+
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: url(../images/screenshot.png);
+  background-size: 100% auto; 
+}
+
+
+body {
+	font-size: 23px;
+	font-family: helvetica;
+	background: #f5f6f8;
+}
+
+
+h1 {
+	color: #06365f;
+	font-size: 36.8px;
+	font-size: 2.3rem;
+	font-weight: 700;
+	line-height: 1.3em;
+	margin-bottom: 23px;
+}
+
+
+p {
+	margin-top: 18px;
+}
+
+
+.hero {
+	margin-bottom: -280px;
+	width: 100%;
+	height: 400px;
+	background: #567da0;
+	background: rgba(86,125,160,1);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(86,125,160,1)), color-stop(100%, rgba(56,98,134,1)));
+	background: -webkit-linear-gradient(top, rgba(86,125,160,1) 0%, rgba(56,98,134,1) 100%);
+	background: linear-gradient(to bottom, rgba(86,125,160,1) 0%, rgba(56,98,134,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#567da0', endColorstr='#386286', GradientType=0 );
+}
+
+
+.u-wrapper {
+	width: 1400px;
+	margin: auto;
+	box-sizing: border-box;
+	padding: 0px 60px;
+	display: -webkit-box;
+	display: flex;
+}
+
+
+.u-wrapper--small {
+	width: 900px;
+	margin-top: 25px;
+	padding: 0px;
+}
+
+
+.img-iphone {
+	width: 480px;
+}
+
+
+.img-iphone img {
+	width: 100%;
+}
+
+
+.content {
+	width: 720px;
+	margin-left: 60px;
+
+}
+
+
+.content__title {
+	padding: 30px 0px;
+	position: relative;
+	display: -webkit-box;
+	display: flex;
+	-webkit-box-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	        align-items: center;
+}
+
+
+.content__title > img {
+	width: 460px;/*display: none;*/
+}
+
+
+.content__title > button {
+	position: absolute;
+	right: 0px;
+	border: 1px solid #1c5380;
+	padding: 10px 20px;
+	background: #567da0;
+	background: rgba(86,125,160,1);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(86,125,160,1)), color-stop(100%, rgba(56,98,134,1)));
+	background: -webkit-linear-gradient(top, rgba(86,125,160,1) 0%, rgba(56,98,134,1) 100%);
+	background: linear-gradient(to bottom, rgba(86,125,160,1) 0%, rgba(56,98,134,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#567da0', endColorstr='#386286', GradientType=0 );
+}
+
+
+.content__title > button > p {
+	color: white;
+	font-size: 22px;
+	display: -webkit-box;
+	display: flex;
+	-webkit-box-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	        align-items: center;
+	margin: 0px;
+}
+
+
+.content__title > button > p:before {
+	content: ' ';
+	position: relative;
+	left: -5px;
+	background: url(../images/home.png) no-repeat;
+	background-position: 50%;
+	background-size: 1.7em;
+	height: 1.7em;
+	width: 2em;
+	display: block;
+}
+
+
+.content__text {
+	background: white;
+	background: -webkit-gradient(left top, left bottom, color-stop(30%, white), color-stop(100%, transparent));
+	background: -webkit-linear-gradient(top, white 30%, transparent 100%);
+	background: linear-gradient(to bottom, white 30%, transparent 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#386286', GradientType=0 );
+	border-radius: 8px;
+	width: 100%;
+	padding: 55px;
+	box-sizing: border-box;
+}
+
+
+.content__text > img {
+	margin-top: 50px;
+	height: 75px;
+	margin-right: 25px;
+}
+
+
+.footer {
+
+	padding: 10px 30px;
+
+}
+
+
+.footer ul {
+	height:
+}
+
+
+.footer li {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 16.8px;
+	font-size: 1.05rem;
+	display: inline;
+	padding: 7px;
+	color: #1c5380;
+}
+
+
+.footer .footer__copy {
+	color: #999;
 }
