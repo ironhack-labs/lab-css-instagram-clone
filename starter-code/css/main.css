@@ -7,4 +7,127 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: linear-gradient(bottom,#FFFAF0 60%, #06365f 40%);
+  background-image: -o-linear-gradient(bottom,#FFFAF0 60%, #06365f 40%);
+  background-image: -moz-linear-gradient(bottom,#FFFAF0 60%, #06365f 40%);
+  background-image: -webkit-linear-gradient(bottom,#FFFAF0 60%, #06365f 40%);
+  background-image: -ms-linear-gradient(bottom,#FFFAF0 60%, #06365f 40%);
+  background-attachment:fixed;
+  background-repeat: no-repeat;
+
+}
+
+.container{
+  height: 100%;
+  width: 80%;
+  margin: 0 auto;
+  padding: 15% /*top*/ 0% /*right*/ 0px /*bottom*/  0%; /*left*/
+}
+
+.phones-container{
+  float: left;
+  width: 40%;
+}
+
+.home-container{
+  float: left;
+  text-align: left;
+  width: 60%;
+}
+
+.home-header{
+  display: block;
+  width: 100%;
+  overflow: auto;
+}
+
+.instagram-logo{
+  float: left;
+}
+
+.instagram-login{
+  float:right;
+  padding: 0px 10px 0px 10px;
+  background-color: #1c5380;
+  border-color: rgb(85, 172, 238);
+  border        : 3px solid;
+  display: flex;
+  align-items:center; /*deactivates float of immediate childs*/
+}
+
+.image-instagram-login{
+  padding: 10px 10px 10px 10px;
+}
+.text-instagram-login{
+  padding: 10px 10px 10px 10px;
+  line-height: 0;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.home-text{
+  display: block;
+  background-image: url("../images/frame.png");
+  background-size: cover;
+  padding: 10% 10%  10%  10%;
+}
+
+.title-home-text{
+  color: #06365f;
+}
+
+.home-buttons{
+  display: block;
+  overflow: auto;
+}
+
+.app-store{
+  float: left;
+  margin: 10% /*top*/ 10% /*right*/ 10% /*bottom*/  10%; /*left*/
+  border: none;
+  background: none;
+
+}
+
+.image-app-store{
+  width: 100%;
+  max-height:100%;
+}
+
+.google-play{
+  float: left;
+  margin: 10% /*top*/ 10% /*right*/ 10% /*bottom*/  10%; /*left*/
+  border: none;
+  background: none;
+}
+
+.image-google-play{
+  max-width:100%;
+  max-height:100%;
+}
+
+.navigator{
+  margin: 0 auto;
+  width: 100%;
+  padding: 10% /*top*/ 20% /*right*/ 0px /*bottom*/  20%; /*left*/
+  clear: both;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+
+li {
+    float: left;
+    color: grey;
+    text-align: center;
+    padding: 0 /*top*/ 10px /*right*/ 0 /*bottom*/  0; /*left*/
+}
+
+li a {
+    color: blue;
 }
