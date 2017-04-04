@@ -4,7 +4,117 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+
+
+/*sorry for the mess*/
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow: auto;
+
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background:url("../images/bgtile.png");
+  background-repeat: repeat-x;
+
+}
+
+
+
+
+
+#left {
+  margin-right: 2%;
+  float:left;
+  height: 110%;
+}
+
+#right {
+  width: 60%;
+}
+
+#miniHeader {
+  padding: 1%
+}
+
+#miniHeader > img {
+  width: 50%;
+}
+#text {
+  background: url("../images/frame.png");
+  background-size: contain;
+  width: 100%;
+  background-repeat: no-repeat;
+  overflow: hidden;
+
+
+}
+
+#text p {
+  padding: 5%;
+  font-size: 0.9rem;
+}
+
+#insta {
+  padding: 1% 5% 0 5%;
+  color: #1c5380;
+  font-weight: bold;
+}
+
+#footer {
+
+  clear: both;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+#footer a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #458eff;
+  margin: 0 0.5%;
+}
+
+#footer a:hover {
+  color: #125688;
+}
+
+
+.container {
+  margin: 5% 20%;
+
+}
+
+.homeButton {
+
+  float: right;
+  margin-top: 2%;
+  margin-right: 1%;
+  padding: 50%;
+  color: white;
+  background: url("../images/bgtile.png");
+  border: 2px solid #06365f;
+  border-radius: 4px;
+  padding: 5px;
+  width: 20%;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.homeButton img {
+  margin-top: 5%;
+  margin-right: 10%;
+  height: 40%;
+}
+
+.app {
+  margin-left: 20%;
+  margin-top: -10%;
+
+
+
 }
