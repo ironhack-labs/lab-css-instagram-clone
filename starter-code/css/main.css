@@ -4,7 +4,113 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+
+
+/*	Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+--------------------------------------------------------------------------------------- */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+/* GLOBAL */
+* {
+  box-sizing: border-box;
+}
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+h1, h2 {
+  font-size: 25px;
+  font-weight: 700;
+  color: #06365f;
+  margin-bottom: 20px;
+}
+b {
+  font-weight: 700;
+}
+li {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* GLOBAL */
+.bg-a {
+  height: 300px;
+  width: 100%;
+  background-image: url(../images/bgtile.png);
+  position: relative;
+}
+.bg-a .b-global {
+  position: absolute;
+  width: 70%;
+  top: 0;
+  left: 15%;
+}
+.bg-a .b-global > img {
+  position: relative;
+  left: 0;
+  top: 100px;
+}
+.bg-a .b-global .b-block {
+  position: absolute;
+  right: 0;
+  top: 100px;
+}
+.bg-a .b-global .b-block .b-header {
+  position: relative;
+}
+.bg-a .b-global .b-block .b-header > button {
+  position: absolute;
+  right: 0;
+  top: 20px;
+  font-size: 15px;
+  color: #ffffff;
+  text-shadow: 1px 1px #06365f;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 0.25em;
+  background: #1c5380;
+  border: 1px solid #06365f;
+  cursor: pointer;
+}
+.bg-a .b-global .b-block .b-header > button > img {
+  margin-top: 5px;
+}
+.bg-a .b-global .b-block .b-header > button > span {
+  position: relative;
+    top: -5px;
+}
+.bg-a .b-global .b-block .b-content {
+  width: 500px;
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  padding: 40px;
+}
+.bg-a .b-global .b-block .b-content li {
+  display: inline-block;
+  margin-right: 10px;
+}
+.bg-b {
+  height: 400px;
+}
+.bg-footer {
+  text-align: center;
+  padding-bottom: 20px;
+}
+.bg-footer li {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: grey;
+}
+.bg-footer li:last-child {
+  margin-right: 0;
+}
+.bg-footer li a {
+  color: #1c5380;
+  text-decoration: none;
 }
