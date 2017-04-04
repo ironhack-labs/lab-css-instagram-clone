@@ -8,3 +8,64 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.primerdiv{
+background-color: #1c5380;
+height: 300px;
+width: auto;
+}
+
+.imagen-tlf{
+  position: relative;
+  float: left;
+  margin: 100px 100px 0px 400px;
+}
+
+.contenido-flotante{
+  float: left;
+  position: relative;
+  margin: 120px 30px 0px 0px;
+  width: 500px;
+}
+
+.textoflotante{
+  background-image: url(../images/frame.png);
+ font-size: 17px;
+ margin: 0px;
+
+}
+.portada {
+  color: #06365f;
+  padding-top: 10px;
+  margin: 30px 40px 0px 20px;
+}
+.texto{
+  padding-top: 0px;
+  margin: 30px 30px 0px 30px;
+}
+.images-brid{
+  float: left;
+  position: relative;
+  margin: 20px 50px;
+}
+
+.segundiv{
+height: 500px;
+
+}
+li{
+display: inline;
+list-style-type: none;
+padding: 7px;
+color:blue;
+text-transform: uppercase;
+}
+#copyright{
+ color:lightgrey;
+}
+.footer{
+  height: 100px;
+  text-align: center;
+
+
+}
