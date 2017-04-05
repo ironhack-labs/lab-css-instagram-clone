@@ -5,6 +5,94 @@ light blue: #1c5380
 */
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+	font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin: 0;
+}
+
+header{
+	background-image: url(../images/bgtile.png);
+	background-repeat: repeat-x;
+	height: 20vw;
+}
+
+h1{
+	color: #06365f;
+	padding-left: 3vw;
+	padding-right: 3vw;
+}
+
+p {
+	padding-left: 3vw;
+	padding-right: 3vw;
+}
+
+button{
+	background-position: left;
+	background-repeat: no-repeat;
+	width: 7vw;
+	height: 3vw;
+	border-color: #06365f;
+	color: #d3d3d3; 
+	font-weight: bold;
+	padding-left: 1.6vw;
+	border-radius: 5px;
+	color: #d3d3d3; 
+
+background: rgba(28,83,128,1);
+background: -moz-radial-gradient(center, ellipse cover, rgba(28,83,128,1) 0%, rgba(28,83,128,1) 1%, rgba(6,53,95,1) 100%);
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(28,83,128,1)), color-stop(1%, rgba(28,83,128,1)), color-stop(100%, rgba(6,53,95,1)));
+background: -webkit-radial-gradient(center, ellipse cover, rgba(28,83,128,1) 0%, rgba(28,83,128,1) 1%, rgba(6,53,95,1) 100%);
+background: -o-radial-gradient(center, ellipse cover, rgba(28,83,128,1) 0%, rgba(28,83,128,1) 1%, rgba(6,53,95,1) 100%);
+background: -ms-radial-gradient(center, ellipse cover, rgba(28,83,128,1) 0%, rgba(28,83,128,1) 1%, rgba(6,53,95,1) 100%);
+background: radial-gradient(ellipse at center, rgba(28,83,128,1) 0%, rgba(28,83,128,1) 1%, rgba(6,53,95,1) 100%);
+}
+
+footer{
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	margin-top: 5vw;
+	color: #1c5380;
+	font-weight: bold;
+	font-size: 1vw;
+    text-transform: uppercase;
+}
+
+.image-phones {
+	margin-top: 7vw;
+	margin-left: 7vw;
+	float: left;
+}
+
+.badges{
+	margin-top: 2vw;
+	margin-left: 7vw;
+}
+
+.brand{
+	display: inline-block;
+	position: absolute;
+	margin-top: -12%;
+	margin-left: 15%;
+}
+
+.log{
+	display: inline-block;
+	position: absolute;
+	margin-top: -10.5%;
+	margin-left: 50%;
+}
+
+.content-text {
+	background-image: url(../images/frame.png);
+	background-size: cover;
+	margin-top: -5vw;
+	padding: 1vw;
+	display: inline-block;
+	margin-left: 15%;
+	height: 20vw;
+	width: 40vw;
+}
+.copyright {
+    color: silver;
 }
