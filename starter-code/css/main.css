@@ -8,3 +8,66 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.fondo{
+  height:300px ;
+  width:100%;
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+}
+
+.contenedor{
+  position: absolute;
+  width: 900px;
+  top: 100px;
+  left: 50%;
+  margin-left: -450px;
+}
+
+#content_left{
+  width: auto;
+  float: left;
+}
+
+#content_right{
+  width: 300px;
+  float: left;
+  margin: 0px 0px 0px 100px;
+}
+
+.content_right_01{
+  border: 1px solid #06365f;
+}
+
+.content_right_02{
+  width:504px;
+  height: 284px;
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+}
+
+.content_right_02 h2{
+  padding: 5px;
+}
+
+.content_right_02 p{
+  width:480px;
+  padding: 5px;
+}
+
+.footer{
+  clear: both;
+  text-align: center;
+}
+
+.footer ul{
+position: relative;
+top: 100px;
+  }
+
+.footer ul li{
+  display: inline;
+  list-style-type: none;
+  padding: 5px;
+  text-transform: uppercase;
+}
