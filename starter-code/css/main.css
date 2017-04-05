@@ -52,9 +52,10 @@ body {
 
 .icon {
     display: inline-block;
-    height: 22px;
-    width: 25px;
+    height: 19px;
+    width: 22px;
     background-image: url("../images/home.png");
+    background-size: contain;
     vertical-align: middle;
     margin-right: 2px;
 }
