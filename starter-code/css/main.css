@@ -44,16 +44,12 @@ flex-direction: row;
   background: url("../images/bgtile.png");
   background-repeat: repeat-x;
   margin-left: 10%;
-  
+
 
 
 }
 .frame{
-  z-index: 1;
-  position: relative;
   border: 1px solid blue;
-
-
 }
 .content{
  border: 1px solid red;
@@ -62,18 +58,26 @@ flex-direction: row;
 
 }
 
-p {
+.paragraph {
   z-index: 1000;
   border: 1px solid green;
   width: 70%;
-  margin-top: -30%;
-  padding-bottom: 18%;
+  margin-top: -40%;
+  padding-bottom: 0%;
+  padding-left: 5%;
 
 }
 
+h2{
+  color: #06365f;
+
+}
+.capture{
+
+}
 
 .call{
-
+ padding-top: 12%;
 }
 
 .menu{
