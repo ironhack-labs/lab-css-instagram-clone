@@ -2,9 +2,77 @@
 Colors to use:
 dark blue: #06365f
 light blue: #1c5380
+font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+margin: 0;
 */
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+
+}
+.box1{
+  position: absolute;
+  width: 100%;
+  z-index:-1;
+  height: 300px;
+  background-color: #1c5380;
+}
+
+.box2{
+  width: 390px;
+  height: 400px;
+  background-color: #ffffff;
+  float: right;
+  margin-top: 220px;
+  margin-right: 200px;
+  border-radius: 5px;
+
+}
+.movile{
+  position: absolute;
+  margin: 130px 0px 0px 200px;
+  float: left;
+}
+.logo{
+  position: absolute;
+  margin-top: -75px;
+}
+.login{
+  position: absolute;
+  border-radius: 3px;
+  width: 78px;
+  height: 35px;
+  margin: -65px 0px 0px 300px;
+  background-color: #1c5380;
+  border: 1px solid #06365f;
+  color: #ffffff;
+  text-align: center;
+  font-size: 13px;
+  font: Helvetica Neue;
+
+}
+.casa{
+  float:left;
+  ;
+}
+.text{
+  padding: 5px 25px;
+  font-size: 14px;
+}
+h1{
+  font-size: 24px;
+  color: #06365f;
+
+}
+.download{
+  position: relative;
+  float:left;
+  padding-left: 20px;
+  padding-top: 20px;
+
+}
+.footer{
+  width:100%;
+  height: 20px;
+  overflow: hidden;
+  margin-left:300px;
 }
