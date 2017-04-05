@@ -8,3 +8,65 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+header {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  background-color: #1c5380;
+}
+
+main {
+  position: absolute;
+  top: 100px;
+  left: 19%;
+}
+
+.phone {
+  float: left;
+}
+
+section {
+  float: left;
+  width: 505px;
+  margin: 0 40px;
+}
+
+.title{
+  position: relative;
+}
+.brand {
+  margin-top: 20px;
+}
+.aside {
+  border: 1px solid #06365f;
+  width: 100px;
+  float: right;
+  padding: 9px;
+  margin-top: 30px;
+}
+
+article{
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  width: 505px;
+}
+h2 {
+  margin: 0;
+  color: #06365f;
+}
+.texto {
+  margin: 0px;
+  padding: 40px;
+}
+
+span {
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.low-img {
+  margin-top: 10px;
+  margin-right: 18px;
+}
