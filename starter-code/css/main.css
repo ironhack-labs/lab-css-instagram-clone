@@ -25,8 +25,26 @@ body {
 
 
 #logo {
-  height: 90px;
+  /*height: 90px;*/
 }
+
+
+
+#logo p {
+
+
+
+}
+#login {
+  background-color: #1c5380;
+  padding: 10px;
+  position: absolute;
+  margin-top: -70px;
+  margin-left: 400px;
+  float: left;
+  color: white;
+}
+
 
 #parrafo{
   float: left;
