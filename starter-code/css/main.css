@@ -58,7 +58,7 @@ body {
 }
 #login-button {
   width: 80px;
-  height: 30px;
+  height: 25px;
   float:right;
   padding: 10px;
   margin: 5% 0 0 0;
@@ -66,13 +66,19 @@ body {
   border-radius: 5px;
   background: linear-gradient(#6f92b0, #06365f );
   color:white;
-  vertical-align: top;
+ 
 }
+
+#login-button span {
+  position: relative;
+  bottom: 5px;
+}
+
 #footer {
   width:100%;
   padding:3% 0 0 0;
   height: 100px;
-  clear:both;
+  clear:left;
 }
 .content-header {
   width:60%;
@@ -90,4 +96,10 @@ body {
   color:#1c5380;
   text-transform: uppercase;
   font-weight: bold;
+}
+.footer-links ul {
+  list-style-type: none;
+}
+.footer-links li {
+  display:inline;
 }
