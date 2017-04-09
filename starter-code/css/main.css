@@ -9,50 +9,148 @@ light blue: #1c5380
   box-sizing: border-box;
 }
 
-#bluetop {
-  /*background-image: url(../images/bgtile.jpg);
-  background-position: center;
-  background-size: cover;
-  height: 55rem;*/
-}
-
-#phones-photo {
-  float: left;
-  padding-right: 5%;
-}
-
-#brand {
-  padding-top: 2%;
-  /*float: left;*/
-}
-
-#house {
-  padding-top: 2%;
-  float: right;
-}
-
-#text {
-  background-image: url("../images/frame.png");
-  background-position: right;
-  text-align: center;
-}
-
-#id {
-  height: 100%;
-
-}
-
-p {
-  /*margin: auto;
-  display: inline-block;*/
-  float: right;
-}
-
-
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
-  padding: 8%;
-  background-image: url("../images/bgtile.png");
-  background-repeat: repeat-x;
+  background: url("../images/bgtile.png") repeat-x;
+  /*border: 3px solid blue;*/
+}
+
+body #container {
+  max-width: 1000px;
+  max-height: 630px;
+  margin: 6% 14%;
+  /*border: 3px solid green;*/
+  display: flex;
+  flex-direction: column;
+}
+
+#container #top {
+  /*border: 3px solid blue;*/
+  display: flex;
+}
+
+body #container #left-side {
+  padding-right: 5%;
+  /*border: 3px solid red;*/
+  flex: 1;
+}
+
+body #container #right-side {
+  flex: 2;
+  /*border: 3px solid yellow;*/
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  /*border: 3px solid violet;*/
+  display: flex;
+  padding-right: 3%
+}
+
+header #left {
+  /*border: 3px solid yellow;*/
+  flex: 3.6;
+}
+
+header #right {
+  padding-top: 4%;
+  padding-right: 6%;
+  padding-bottom: 4%;
+  /*border: 3px solid orange;*/
+  flex: 1;
+}
+
+header #right #log {
+  max-width: 100px;
+  min-width: 90px;
+  background: linear-gradient(#6c90ad, #4a7598);
+  border: 1px solid #1c5380;
+  color: #E3E9EF;
+  /*margin: auto 0;*/
+  display: flex;
+  align-items: center;
+  padding: 4%;
+  margin-left: 3%;
+  /*margin: 10% 0%;*/
+  /*padding-bottom: 10%;*/
+  /*font-weight: bold;*/
+}
+
+header #right #log img {
+  padding-top: 3%;
+  padding-left: 8%;
+  padding-bottom: 3%;
+  /*padding-right: -3%;*/
+  /*width: 10%;*/
+  /*border: 3px solid yellow;*/
+}
+
+header #right #log span {
+  /*margin-bottom: -15%;*/
+  /*margin-top: 15%;*/
+  width: 120%;
+  padding-top: 3%;
+  padding-left: 7%;
+  font-size: .9rem;
+  font-weight: bold;
+  /*border: 3px solid red;*/
+}
+
+
+main {
+  background: url("../images/frame.png") no-repeat;
+  /*border: 3px solid red;*/
+  padding-left: 7%;
+}
+
+main h1 {
+  color: #06365f;
+  padding-top: 4%;
+  font-size: 1.7rem;
+  line-height: 130%;
+}
+
+main p {
+  margin-right: 11%;
+  /*border: 3px solid black;*/
+  /*font-size: 1.1rem;*/
+}
+#right-side #stores-logos {
+  /*border: 3px solid yellow;*/
+  padding-left: 7%;
+  display: flex;
+}
+
+#right-side #stores-logos #android-logo {
+  padding-left: 4%;
+}
+
+#container #bottom {
+  /*border: 3px solid violet;*/
+  margin-top: 5%;
+  padding: 0% 17%;
+}
+
+#container #bottom ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+#container #bottom ul li {
+  color: #999;
+  font-size: .8rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#container #bottom ul li a {
+  color: #1c5380;
+  text-decoration: none;
+  font-size: 0.7rem;
+}
+
+#container #bottom ul li a:hover {
+  text-decoration: underline;
 }
