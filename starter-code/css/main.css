@@ -13,3 +13,43 @@ body {
   width: 100%;
   height: 300px;
 }
+
+.phones {
+  float: left;
+  position: relative;
+  left: 100px;
+  bottom: 170px;
+
+}
+
+.instaLogo {
+  position: relative;
+  left: 600px;
+  bottom: 170px;
+}
+
+.frame img {
+  z-index: 1;
+}
+
+.textoprincipal {
+  z-index: 2;
+  position: relative;
+  bottom: 285px;
+}
+
+.paragraph {
+  position: relative;
+  bottom: 150px;
+  border-radius: 12px;
+  background-color: white;
+  border: 0px solid black;
+  border-width: 0px;
+  margin: 0px 150px 0px 600px;
+  padding: -30px
+
+}
+
+.appDownloadImg{
+  position: relative;
+}
