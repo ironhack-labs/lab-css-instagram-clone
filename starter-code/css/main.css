@@ -18,11 +18,11 @@ body {
   float: left;
   position: relative;
   left: 100px;
-  bottom: 170px;
+  bottom: 250px;
 
 }
 
-.instaLogo {
+#norte {
   position: relative;
   left: 600px;
   bottom: 170px;
