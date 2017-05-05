@@ -7,4 +7,111 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+
+  padding: 35px;
+}
+
+
+body::before {
+  content: " ";
+  position: absolute;
+  width: 100%;
+  height: 250px;
+  top: 0;
+  /*background: rgb(82,120,153);*/
+}
+
+.header-blue img{
+  position: absolute;
+  z-index: -9;
+  width: 100%;
+  height: 300px;
+  top: 0;
+  left: 0;
+}
+
+.content {
+  display: table;
+  padding: 70px;
+}
+
+.col-left {
+  display: table-cell;
+}
+
+.col-right {
+  display: table-cell;
+  vertical-align: top;
+  padding-left: 50px;
+}
+
+.col-right-header {
+  height: 118px;
+  vertical-align: top;
+}
+
+.col-right-header img{
+  float: left;
+}
+
+.col-right-header button{
+  float: right;
+  margin-top: 25px;
+  padding: 5px 10px;
+  border: 1px solid #06365f;
+  background-image: url("../images/bgtile.png");
+
+  border-radius: 3px;
+
+  color: #fff;
+
+  float:
+}
+
+.col-right-header button span {
+  padding-top: 4px;
+  margin-left: 5px;
+  font-weight: 700;
+}
+
+.col-right-header button img ,.col-right-header button span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.col-right-body {
+  max-width: 470px;
+
+  background-image: url('../images/frame.png');
+  background-repeat: no-repeat;
+
+  padding: 25px;
+}
+
+.col-right-body  .title {
+  color: #1c5380;
+  font-size: 25px;
+}
+
+.download-app {
+  padding-left: 30px;
+}
+
+footer {
+  text-align: center;
+}
+
+footer ul li {
+  display: inline-block;
+  font-weight: 700;
+  color: #06365f;
+}
+
+footer ul li + li{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+footer ul li:last-child {
+  color: #bbb;
 }
