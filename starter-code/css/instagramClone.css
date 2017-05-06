@@ -44,8 +44,9 @@ body {
 .loginButton {
   float: right;
   margin-right: 500px;
-  background-color: #397FB6;
+  background-color: #27689E;
   border: 0px solid transparent;
+  box-shadow: 1px 1px 1px 1px #2C5D85;
   position: relative;
   margin-top: 15px;
   left: 38px;
@@ -110,4 +111,8 @@ footer {
 
 footer span {
   padding-left: 15px;
+}
+
+.instaFooter {
+  color: #8E8E8F;
 }
