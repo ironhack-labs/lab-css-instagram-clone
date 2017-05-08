@@ -8,3 +8,121 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 6%;
+  /*background-image: url("../images/frame.png");*/
+}
+
+.background-blue {
+  background-image: url("../images/bgtile.png");
+  width: 100%;
+  height: 30%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+  s
+}
+
+.wrapper {
+  display: flex;
+}
+
+.aside-left {
+  order: 1;
+  float: left;
+  /*background-color: blue;*/
+  clear: both;
+}
+
+.aside-right {
+  flex: 2 0px;
+  order: 2;
+  /*background-color: red;*/
+  margin-left: 50px;
+  max-width: 42%;
+}
+
+.title {
+  display: inline-block;
+  width: 100%;
+  padding-bottom: 15px;
+}
+
+.title>img {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.button-log-in {
+  border-radius: 3px;
+  padding: 7px;
+  display: inline-block;
+  float: right;
+  border: 1px solid #1c5380;
+  background: rgba(132, 167, 209, 1);
+  background: -moz-linear-gradient(top, rgba(132, 167, 209, 1) 0%, rgba(84, 151, 222, 1) 55%, rgba(78, 123, 163, 1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(132, 167, 209, 1)), color-stop(55%, rgba(84, 151, 222, 1)), color-stop(100%, rgba(78, 123, 163, 1)));
+  background: -webkit-linear-gradient(top, rgba(132, 167, 209, 1) 0%, rgba(84, 151, 222, 1) 55%, rgba(78, 123, 163, 1) 100%);
+  background: -o-linear-gradient(top, rgba(132, 167, 209, 1) 0%, rgba(84, 151, 222, 1) 55%, rgba(78, 123, 163, 1) 100%);
+  background: -ms-linear-gradient(top, rgba(132, 167, 209, 1) 0%, rgba(84, 151, 222, 1) 55%, rgba(78, 123, 163, 1) 100%);
+  background: linear-gradient(to bottom, rgba(132, 167, 209, 1) 0%, rgba(84, 151, 222, 1) 55%, rgba(78, 123, 163, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#84a7d1', endColorstr='#4e7ba3', GradientType=0);
+  margin-top: 40px;
+}
+
+.button-log-in span {
+  color: white;
+  padding-left: 4px;
+  font-size: 12.5px;
+  font-weight: bold;
+}
+
+.button-log-in>img {
+  vertical-align: middle;
+}
+
+.box-description span {
+  font-weight: bold;
+  color: black;
+}
+
+.box-description {
+  padding: 1px;
+  padding-left: 35px;
+  padding-right: 35px;
+  background-color: white;
+  border-radius: 1%;
+  border-width: 1px;
+  border-style: solid;
+  -webkit-border-image: -webkit-gradient(linear, 0 0, 0 100%, from(black), to(rgba(0, 0, 0, 0))) 1 100%;
+  -webkit-border-image: -webkit-linear-gradient(black, rgba(0, 0, 0, 0)) 1 100%;
+  -moz-border-image: -moz-linear-gradient(black, rgba(0, 0, 0, 0)) 1 100%;
+  -o-border-image: -o-linear-gradient(black, rgba(0, 0, 0, 0)) 1 100%;
+  border-image: linear-gradient(to bottom, black, rgba(0, 0, 0, 0)) 1 100%;
+}
+
+.grid-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+footer {
+  width: 100%;
+}
+
+footer li {
+  display: inline-block;
+  color: #5B82A4;
+  font-weight: bold;
+  font-size: 12px;
+  padding-left: 30px;
+  text-align: center;
+}
+
+#copy-instagram {
+  color: grey;
+}
