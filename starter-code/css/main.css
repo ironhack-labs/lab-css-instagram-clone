@@ -7,4 +7,89 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  height: 100%;
+  background-color: #F4F7FB;
+}
+
+.background{
+  height: 280px;
+  background-image: url("../images/bgtile.png")
+}
+
+.general-container{
+  width: 900px;
+  position: absolute;
+  left: 0; 
+  right: 0; 
+  margin: 100px auto 0;
+}
+
+.phone-img{
+  float: left;
+}
+
+.content {
+  float: right;
+}
+
+.instagram-title {
+  display: inline-block;
+}
+
+.login-button {
+  position: relative;
+  bottom: 30px;
+  left: 85px;
+  font-size: 14px;
+  text-decoration: none;
+  width: 95px;
+  height: 40px;
+  display: inline-block;
+  border: 2px solid #33597a;
+  background-color: #819bcb; background-image: -webkit-gradient(linear, left top, left bottom, from(#6E91AD), to(#486f90));
+}
+
+.login-button > a {
+  color: white;
+  text-decoration: none;
+  position: relative;
+  bottom: 3px;
+  left: 2px;
+}
+
+.info-box {
+  padding: 10px 30px 10px 30px;
+  margin-bottom: 100px;
+  width: 450px;
+  background-image: url("../images/frame.png");
+  background-size: 500px 250px;
+  background-repeat: no-repeat;
+}
+
+.badge-iphone {
+  margin-top: 25px;
+}
+
+.badge-android {
+  margin-top: 25px;
+  margin-left: 20px;
+}
+
+footer {
+  clear: both;
+  text-align: center;
+}
+
+footer > a {
+  color: #1c5380;
+  text-decoration: none;
+}
+
+h1 {
+  display: inline-block;
+}
+
+.copyright-text {
+  color: #b3b3b3;
+  font-weight: bold;
 }
