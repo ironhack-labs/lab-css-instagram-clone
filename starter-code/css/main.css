@@ -6,5 +6,92 @@ light blue: #1c5380
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+}
+
+.instabox{
+  width: 75%;
+  margin: 100px;
+}
+
+.instagram{
+  padding-top: 30px;
+}
+
+.badge{
+  margin-left: 310px;
+}
+
+button{
+  position: relative;
+  top: 45px;
+  height: 40px;
+  background-color: #1c5380;
+  border-radius: 3px;
+  border-color: #1c5380;
+  float: right;
+}
+
+button a{
+  position: relative;
+  bottom: 5px;
+  color: white;
+}
+
+.blueline {
+  height: 280px;
+  width: 100%;
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat;
+}
+
+.capturetext{
+  background-image: url("../images/frame.png");
+  background-size: contain;
+  padding: 10px;
+  background-repeat: no-repeat;
+  width: 410px;
+  float: left;
+  font-size: 12px;
+  font-weight: 150;
+}
+
+.capturetext h2{
+  color: #1c5380;
+}
+
+.content-left{
+  float: left;
+  padding-right: 25px;
+  width: 35%;
+}
+
+.content{
+  position: relative;
+  bottom: 200px;
+  margin: 0 auto;
+  width: 75%;
+  border-radius: 7px;
+}
+
+.footer{
+  position: relative;
+  bottom: 180px;
+  text-align: center;
+}
+
+.footer li{
+  clear: both;
+  color: #1c5380;
+  font-weight: bold;
+  padding: 6px;
+  font-size: 13px;
+}
+
+.footer .copyright{
+  color: #C0C0C0;
+}
+
+.footer li{
+  display: inline;
+  margin: 0 auto;
 }
