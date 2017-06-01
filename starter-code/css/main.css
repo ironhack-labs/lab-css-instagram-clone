@@ -8,3 +8,58 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+a {
+  padding: 10px;
+  color: #06365f;
+  text-decoration: none;
+}
+
+.header {
+  background-color: #06365f;
+  height: 200px;
+}
+
+.main {
+  margin-left: 200px;
+}
+
+.items {
+  margin-top: 40px;
+  margin-right: 100px;
+  float: left;
+}
+
+.home {
+  background-color: #1c5380;
+  color: white;
+  padding: 10px;
+  margin-top: 55px;
+  border: 1px solid black;
+}
+
+.container {
+  position: relative;
+  font-size: 15px;
+  padding: 10px 20px 0px;
+  width: 470px;
+  height: 380px;
+  clear: both;
+  top: -400px;
+  left: 420px;
+  background-color: white;
+  /*border: 1px solid;*/
+}
+
+.capture-and-share {
+  font-size: 30px;
+  color: #06365f;
+  font-weight: bold;
+}
+
+.footer {
+  position: relative;
+  clear: both;
+  top: -300px;
+  left: 400px;
+}
