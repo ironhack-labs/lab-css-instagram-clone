@@ -3,8 +3,114 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
+.dark-blue {
+  background-image:url("/Users/nik.echenique/code/labs/lab-css-instagram-clone/starter-code/images/bgtile.png");
+  height: 280px;
+}
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+.text-box-background{
+  background-image:url("/Users/nik.echenique/code/labs/lab-css-instagram-clone/starter-code/images/frame.png");
+  height: 284px;
+  width: 504px;
+  position: absolute;
+  right: 100px;
+  top: 200px;
+
+}
+.phones{
+  position: absolute;
+  left: 160px;
+  top: 100px;
+  background-image: url("/Users/nik.echenique/code/labs/lab-css-instagram-clone/starter-code/images/phones.png");
+  height: 512px;
+  width: 318px;
+}
+.logo{
+  position: absolute;
+  right: 288px;
+  top: 125px;
+  background-image: url("/Users/nik.echenique/code/labs/lab-css-instagram-clone/starter-code/images/brand.png");
+  height: 78px;
+  width: 314px;
+}
+.apple-store{
+  position: absolute;
+  left: 560px;
+  top: 549px;
+  background-image: url("/Users/nik.echenique/code/labs/lab-css-instagram-clone/starter-code/images/badge-iphone.png");
+  height: 51px;
+  width: 164px;
+}
+.google-store{
+  position: absolute;
+  left: 745px;
+  top: 549px;
+  background-image: url("/Users/nik.echenique/code/labs/lab-css-instagram-clone/starter-code/images/badge-android.png");
+  height: 51px;
+  width: 153px;
+}
+footer{
+  position: absolute;
+
+  bottom: 25px;
+  left: 320px;
+}
+.footer{
+  color: rgba(28,83,128,0.65);
+  font-weight: bold;
+  font-size: 12.5px;
+}
+.copy{
+  color: rgba(169,169,169,0.7);
+  font-size: 12.5px;
+}
+.log-in {
+  position: relative;
+  left: 905px;
+  bottom: 137.5px;
+  background-color: rgba(68,123,168,.5);
+  height:25px;
+  width:100px;
+  border-style: solid;
+  border-color: #06365f;
+  text-align: center;
+  border-radius: 4px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-width: .5px;
+}
+.house{
+  position: absolute;
+  left: 11px;
+  background-image: url("/Users/nik.echenique/code/labs/lab-css-instagram-clone/starter-code/images/home.png");
+  height:22px;
+  width:25px;
+
+}
+.log-in-text{
+  position: absolute;
+  top: -11px;
+  right: 12.5px;
+  font-weight: bold;
+  color: rgba(230,230,235,1);
+}
+h3{
+  color: #06365f;
+  width: 200px;
+}
+.main-text{
+  font-size: 15px;
+  width: 400px;
+}
+.words{
+  position: absolute;
+  top: 10px;
+  left: 50px;
+}
+.sub-footer{
+  margin-right: 15px;
+  line-height:5px;
 }
