@@ -5,6 +5,7 @@ light blue: #1c5380
 */
 html, body {
   height:100%;
+
 }
 
 body {
@@ -54,6 +55,10 @@ background-image: linear-gradient(to bottom, #22669E 0%, #1C5380 100%);
   width:40%;
 }
 
+#logo {
+  width:275px;
+}
+
 .content-col {
   width:60%;
 }
@@ -83,6 +88,10 @@ background-image: linear-gradient(to bottom, #22669E 0%, #1C5380 100%);
   padding:10px 10px 10px 5px;
 }
 
+.app-store {
+  margin-left: 20px;
+}
+
 .footer {
   width:100%;
   text-align: center;
@@ -98,10 +107,10 @@ background-image: linear-gradient(to bottom, #22669E 0%, #1C5380 100%);
 
 @media screen and (max-width:1000px) {
   .float {
-    float:none!important;
+    float:none;
   }
 
   .image-col, .content-col {
-    width:100%!important;
+    width:100%;
   }
 }
