@@ -8,3 +8,68 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+.topColor{
+  background-image: url(../images/bgtile.png);
+  height: 320px;
+  width: 100%;
+  position: absolute;
+}
+.container{
+  width: 80%;
+  margin: auto;
+  z-index: 1;
+  position: relative;
+  padding: 75px;
+}
+.phonesImage{
+  float: left;
+  margin-right: 20px;
+}
+.title{
+  display: inline-block;
+  margin: 30px 20px;
+}
+.content{
+  float:left;
+}
+.textFrame{
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  width: 504px;
+}
+.text{
+  padding: 10px 40px;
+}
+.text h3{
+  color: #06365f;
+  font-size: 27px;
+}
+.loginButton{
+  border: 1px solid #06365f;
+  border-radius: 3px;
+  background-image: url(../images/bgtile.png);
+  display: inline-block;
+  margin-left: 20px;
+  padding: 5px 10px;
+  font-weight: bold;
+  color: white;
+  position: relative;
+  bottom: 33px;
+}
+.appStoreButton{
+  display: inline-block;
+  margin-left: 60px;
+}
+.googlePlayButton{
+  display: inline-block;
+  margin-left: 10px;
+}
+.nav{
+  clear: both;
+  width: 80%;
+  margin-left: 100px;
+  padding-top: 50px;
+}
+.nav a{
+  margin: 7px;
+}
