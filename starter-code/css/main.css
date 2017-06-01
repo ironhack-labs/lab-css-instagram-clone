@@ -8,3 +8,37 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.bgtile {
+  background-image: url(../images/bgtile.png);
+  height: 280px;
+}
+
+.phones {
+  position: absolute;
+  top: 120px;
+  left: 480px;
+}
+
+.rightContent {
+  position: absolute;
+  top: 120px;
+  right: 480px;
+  padding: 10px;
+}
+
+.frame {
+  background-image: url(../images/frame.png);
+  width: 504px;
+  height: 284px;
+}
+
+.appStores {
+
+}
+
+.footer {
+  color: #1c5380;
+  margin-top: 430px;
+  text-align: center;
+}
