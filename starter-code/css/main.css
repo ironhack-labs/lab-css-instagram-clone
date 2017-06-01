@@ -8,3 +8,105 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.container {
+  width: 100%;
+  background-color: #1c5380;
+  height: 300px;
+}
+
+.frame {
+  background-image: url('../images/frame.png');
+  position: relative;
+  left: -4px;
+  bottom: 108px;
+  width: 100%;
+  height: 150px;
+
+}
+
+.title-logo {
+  width: 300px;
+  position: relative;
+  bottom: 100px;
+}
+
+.main-title {
+  position: relative;
+  width: 270px;
+  font-size: 23px;
+  color: #1c5380;
+  bottom: 249px;
+  left: 20px
+}
+
+.text {
+  bottom: 253px;
+  position: relative;
+  left: 20px;
+  font-size: 15px;
+  width: 443px;
+}
+
+
+footer {
+  position: relative;
+  text-align: center;
+  top: 415px;
+  padding-bottom: 30px;
+  color: blue;
+  left: 232px;
+  padding-top: 30px;
+}
+
+.login {
+  background-color: #1c5380;
+  width: 85px;
+  height: 36px;
+  position: relative;
+  color: white;
+  bottom: 131px;
+  left: 50px;
+  border: 1.7px solid #06365f;
+  border-radius: 3px;
+}
+
+.home {
+position: relative;
+right: 20px;
+top: 7px;
+}
+
+.log {
+  position: relative;
+  bottom: 27px;
+  padding-left: 27px;
+  font-size: 13px;
+}
+
+.main-content {
+  position: relative;
+  width: 486px;
+  float: right;
+  right: 154px;
+  bottom: 76px;
+
+}
+
+.iphone-img {
+  position: relative;
+  top: 105px;
+  left: 125px;
+}
+
+.iphone {
+  position: relative;
+  bottom: 225px;
+  left: 30px;
+}
+
+.android {
+  position: relative;
+  bottom: 225px;
+  left: 140px;
+}
