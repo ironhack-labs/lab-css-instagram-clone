@@ -8,3 +8,87 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.top{
+  width: 100%;
+  height: 300px;
+  background: #1c5380;
+}
+
+.main-title{
+  color: #06365f;
+  font-size: 23px;
+  position: relative;
+  bottom: 187px;
+  width: 240px;
+  left: 20px;
+}
+
+.white-frame{
+  background-image: url(../images/frame.png);
+  width: 500px;
+  height: 200px;
+}
+
+
+.branding-img {
+    width: 237px;
+}
+
+.log-in-btn{
+  background-color: #4c8ba9;
+  width: 84px;
+  height: 36px;
+  float: inherit;
+  position: relative;
+  bottom: -16px;
+  border: 2px solid #123450;
+  background-image: url(../images/home.png);
+  background-position: left;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 13px;
+  padding-left: 18px;
+}
+
+.iphone-img{
+  position: relative;
+  top: 103px;
+  left: 125px;
+}
+
+.main-content{
+  position: relative;
+  width: 486px;
+  float: right;
+  right: 154px;
+  bottom: 116px;
+}
+
+.text-content{
+  position: relative;
+  bottom: 200px;
+  width: 450px;
+  left: 21px;
+  font-weight: 400;
+}
+
+
+footer{
+  position: relative;
+  top: 600px;
+  width: 100%;
+  text-align: center;
+  left: 225px;
+  color: blue;
+  font-weight: 400;
+}
+
+footer>span{
+  padding-left: 5px;
+}
+
+#copyright{
+  color: #989898;
+
+}
