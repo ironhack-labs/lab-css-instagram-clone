@@ -5,6 +5,117 @@ light blue: #1c5380
 */
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;\
+  width: 100%;
   margin: 0;
+}
+
+.background {
+  background-image: url(../images/bgtile.png);
+  height: 280px;
+}
+
+.allContent {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 1200px;
+  min-width: 300px;
+}
+
+.filterImage {
+  width: 100%;
+  margin: 0;
+  height: 280px;
+}
+
+.phonePic {
+  float: left;
+  display: inline;
+  margin-top: 100px;
+}
+h1 {
+  margin: 0;
+  font-family: cursive;
+}
+
+.mainContent {
+  overflow: auto;
+  float: left;
+  margin-top: 115px;
+  margin-left: 100px;
+  display: inline;
+  width: 700px;
+  min-width: 200px;
+}
+
+.login {
+  text-align: center;
+  overflow: auto;
+  color: white;
+  font-weight: bold;
+  background-image: linear-gradient(#417096, #1c5380);
+  float: right;
+  margin-top: 18px;
+  border: 1px solid black;
+  border-radius: 3px;
+  height: 41px;
+  width: 120px;
+}
+.loginImg{
+  margin-top: 10px;
+  vertical-align: middle;
+}
+
+.loginText{
+  vertical-align:bottom;
+  margin-left: 7px;
+}
+.paragraphBox {
+  background-image: url(../images/frame.png);
+  background-size: cover;
+  background-position: center;
+  clear: both;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+.paragraphBoxText {
+  margin: 10px 50px;
+}
+
+.paragraphHeading {
+  font-size: 25px;
+  color: #06365f;
+  width: 50%;
+}
+.paragraphBox > p {
+  font-size: 20px;
+}
+.appLink {
+  margin-right: 20px;
+}
+
+.mainFooter {
+  font-weight: bold;
+  clear: both;
+  display: inline-block;
+  margin-top: 40px;
+  text-align: center;
+  width: 100%;
+
+}
+
+.mainFooter > nav {
+  text-align: center;
+  margin: 0 auto;
+  display: inline;
+}
+
+.mainFooter > nav > a {
+  color: #1c5380;
+  margin-right: 20px;
+}
+
+.copyright {
+  color: rgb(139, 139, 139);
 }
