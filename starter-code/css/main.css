@@ -1,10 +1,80 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
-
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+
+.captureAndShare {
+  font-size: 20px;
+  position:relative;
+  bottom: 725px;
+  left: 650px;
+  color:#06365f
+}
+
+.backGroundBlue {
+width: 100%;
+background-color: #1c5380;
+height: 300px;
+}
+
+.brand {
+position:relative;
+width:auto;
+bottom: 700px;
+left: 590px;
+}
+
+.phones{
+  position:relative;
+  bottom: 250px;
+  right: 150px;
+}
+
+.whiteFrameWithText {
+  position:relative;
+  bottom: 400px;
+  right: 50px;
+  background-color: white;
+
+}
+
+.textContent {
+  position:relative;
+  text-align: center;
+  bottom: 700px;
+  left: 700px;
+  width:300px;
+}
+
+.bottomText {
+  text-align: center;
+  color: #1c5380
+  bottom: 200px;
+}
+
+.iPhoneBadge {
+  position:relative;
+  bottom: 330px;
+  left: 630px;
+
+}
+
+.androidBadge {
+  position:relative;
+  bottom: 330px;
+  left: 650px;
+}
+
+.logInButton {
+  position: relative;
+  bottom: 780px;
+  left: 620px;
+}
+
+footer {
+  position:relative;
+  text-align: center;
+  width: 100%;
+  top: 600px;
 }
