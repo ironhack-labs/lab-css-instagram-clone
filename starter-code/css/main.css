@@ -26,6 +26,7 @@ body {
 
 .phone-img{
   float: left;
+  margin-top: 25px;
 }
 
 .content {
@@ -78,10 +79,12 @@ body {
 footer {
   clear: both;
   text-align: center;
+  font-weight: bold;
 }
 
 footer > a {
-  color: #1c5380;
+  margin-right: 20px;
+  color: #598bb5;
   text-decoration: none;
 }
 
@@ -91,5 +94,5 @@ h1 {
 
 .copyright-text {
   color: #b3b3b3;
-  font-weight: bold;
+  /*font-weight: bold;*/
 }
