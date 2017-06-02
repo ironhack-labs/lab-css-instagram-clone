@@ -5,117 +5,118 @@ light blue: #1c5380
 */
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;\
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   width: 100%;
   margin: 0;
 }
 
-.background {
-  background-image: url(../images/bgtile.png);
+.backGround {
+  display: block;
+  background-image: url('../images/bgtile.png');
+  width: 100%;
   height: 280px;
 }
 
 .allContent {
+  display: block;
+  width: 80%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.phoneImg {
+  margin-top: 100px;
+  float: left;
+}
+
+.loginButton {
+  background-image: linear-gradient(#648FB1, #41759D);
+  float: right;
+  height: 30px;
+  margin-right: 10px;
+  margin-top: 20px;
+  border: 1px solid black;
+  border-radius: 3px;
+  padding: 8px 10px;
+}
+.loginButton > img {
+  vertical-align: middle;
+}
+
+.loginButton > p {
+  vertical-align: middle;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: inline;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+.mainContent {
+  margin: 110px 0 25px 140px;
+  display: inline;
+  float: left;
+  width: 600px;
+}
+
+.boxFrame {
+  display: block;
+  width: 600px;
+  position: relative;
+  bottom: 10px;
+  background-image: url('../images/frame.png');
+  background-size: 600px;
+  background-repeat: no-repeat;
+}
+
+.boxContent {
+  margin: 20px auto;
+  width: 450px;
+}
+
+.boxContent > h2 {
+  display: inline-block;
+  font-size: 30px;
+  color: #06365f;
+  margin-top: 40px;
+  margin-bottom: 0px;
+  width: 70%;
+}
+
+.boxContent > p {
+  margin-bottom: 5px;
+}
+
+.boxContent > img {
+  margin-top: 15px;
+  margin-right: 20px;
+}
+
+footer {
+  margin-top: 70px;
+  text-align: center;
+  display: inline-block;
+  width: 1152px;
+  margin: 0 auto;
+  clear: both;
+  font-weight: bold;
+  color: rgb(168, 168, 168);
+}
+footer > nav {
+  display: inline;
+}
+
+footer > nav > a {
+  display: inline-block;
+  margin-right: 25px;
+  color: #1c5380;
+}
+
+.copyRight {
+  display: inline;
   margin: 0 auto;
   width: 90%;
   max-width: 1200px;
   min-width: 300px;
-}
-
-.filterImage {
-  width: 100%;
-  margin: 0;
-  height: 280px;
-}
-
-.phonePic {
-  float: left;
-  display: inline;
-  margin-top: 100px;
-}
-h1 {
-  margin: 0;
-  font-family: cursive;
-}
-
-.mainContent {
-  overflow: auto;
-  float: left;
-  margin-top: 115px;
-  margin-left: 100px;
-  display: inline;
-  width: 700px;
-  min-width: 200px;
-}
-
-.login {
-  text-align: center;
-  overflow: auto;
-  color: white;
-  font-weight: bold;
-  background-image: linear-gradient(#417096, #1c5380);
-  float: right;
-  margin-top: 18px;
-  border: 1px solid black;
-  border-radius: 3px;
-  height: 41px;
-  width: 120px;
-}
-.loginImg{
-  margin-top: 10px;
-  vertical-align: middle;
-}
-
-.loginText{
-  vertical-align:bottom;
-  margin-left: 7px;
-}
-.paragraphBox {
-  background-image: url(../images/frame.png);
-  background-size: cover;
-  background-position: center;
-  clear: both;
-  font-size: 18px;
-  border-radius: 20px;
-}
-
-.paragraphBoxText {
-  margin: 10px 50px;
-}
-
-.paragraphHeading {
-  font-size: 25px;
-  color: #06365f;
-  width: 50%;
-}
-.paragraphBox > p {
-  font-size: 20px;
-}
-.appLink {
-  margin-right: 20px;
-}
-
-.mainFooter {
-  font-weight: bold;
-  clear: both;
-  display: inline-block;
-  margin-top: 40px;
-  text-align: center;
-  width: 100%;
-
-}
-
-.mainFooter > nav {
-  text-align: center;
-  margin: 0 auto;
-  display: inline;
-}
-
-.mainFooter > nav > a {
-  color: #1c5380;
-  margin-right: 20px;
-}
-
-.copyright {
-  color: rgb(139, 139, 139);
 }
