@@ -8,3 +8,76 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.header {
+background-image: url(../images/bgtile.png);
+ height: 280px;
+}
+
+.header-info {
+  float:right;
+  margin-top: 50px;
+  width: 500px;
+  padding: 10px;
+  margin-right: 200px;
+
+}
+
+.button{
+  background-color: #1c5380;
+  color:whitesmoke;
+  margin-right: 70px;
+  padding:10px;
+  font-size: 20px;
+
+}
+
+.phones {
+  float:left;
+  width: 35%;
+  margin-top: -200px;
+  padding-left: 204px;
+}
+
+.info {
+  margin-top: -100px;
+  float:right;
+  width: 40%;
+  padding-right: 150px;
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+}
+
+.text{
+  width: 450px;
+  padding: 0px 40px;
+}
+
+
+h1 {
+  color: #06365f;
+}
+
+p {
+  color:#737373;
+}
+
+footer {
+  clear:both;
+  text-align: center;
+  height: 100px;
+  padding-top: 55px;
+
+
+}
+
+footer > p {
+  padding: 15px;
+  color: #1c5380;
+  display: inline;
+  font-weight: bold;
+}
+
+.insta {
+  color: #737373;
+}
