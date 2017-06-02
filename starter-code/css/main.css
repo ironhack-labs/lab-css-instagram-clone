@@ -8,3 +8,92 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+a {text-decoration: none;font-weight: bold;margin: 0 5px;}
+
+h2 {
+
+}
+
+p {
+
+}
+
+a {/* margin-right: 15px; */}
+
+div#top-blue-band {
+    height: 250px;
+    background-image: url(../images/bgtile.png);
+    /* width: 100%; */
+}
+
+.all-content {margin-top: -115px;margin-right: 8%;margin-left: 8%;}
+
+.main-content {
+    float: left;
+    display: inline-block;
+    margin-top: -56px;
+    padding-left: 50px;
+    /* margin-left: 65px; */
+    width: 0 auto;
+    /* width: 2000px; */
+}
+#demo-image {
+    display: inline;
+    /* position: relative; */
+    float: left;
+    margin-right: 45px;
+    margin-top: -70px;
+}
+
+.header {margin-top: -43px;margin-bottom: -50px;margin-left: -94px;padding: 36px;}
+#instagam-logo {
+    display: inline;
+    padding: 10px;
+    /* float: left; */
+}
+#login-button {
+    display: inline;
+    width: 80px;
+    height: 33px;
+    padding: auto 50%;
+    /* position: fixed; */
+    margin-right: -21px;
+    margin-top: 33px;
+    float: right;
+    background: linear-gradient(to bottom, #1c5380 0%,#06365f 100%);
+    border: 1px solid #06365f;
+    border-radius: 4px;
+    /* margin: 35px 0 0 20px; */
+    text-align: center;
+}
+#home-icon {
+    text-align: center;
+    margin-top: 6px;
+    margin-left: 2px;
+    float: left;
+}
+#login-text {
+    display: inline-block;
+    margin-top: 5px;
+    margin-right: 4px;
+    position: relative;
+    float: right;
+    color:  white;
+}
+
+.info-card {float: left;background-image: url("../images/frame.png");background-repeat: no-repeat;padding: 10px;margin-left: -50px;}
+#catchphrase {display: block;/* float: left; */color: blue;margin: 10px;padding: -1px;width: 255px;}
+#description {padding: 0px 40px;float: right;display: block;}
+#download-links {/* float: left; *//* height: 10px; *//* display: inline; *//* padding-left: 10%; */padding: 100px 100px 8px 0px;}
+
+.download-icons {width: 125px;height: 42px;margin: 4px;}
+
+.footer {clear: both;/* padding: 15px; */margin-left: 25%;/* margin-top: 3px; */}
+#links {
+
+}
+.copyright {
+font-weight: lighter;
+color: rgba(125, 125, 125, 0.8);
+}
