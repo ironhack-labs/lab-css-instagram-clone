@@ -8,3 +8,71 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+.background{
+background-image: url("../images/bgtile.png");
+background-repeat: repeat;
+background-color: darkblue;
+height: 300px;
+border: 1px solid black;
+margin: auto;
+width: 100%;
+}
+.white{
+  background-color: white;
+  height: 400px;
+  border: 1px solid black;
+  margin: auto;
+  width: 100%;
+}
+#phones{
+  position:relative;
+  left: 150px;
+  bottom: 600px;
+}
+.instagram{
+position:relative;
+left: 500px;
+bottom: 1100px;
+}
+.home{
+  float:right;
+  border: 1px solid darkblue;
+  background-color: lightblue;
+    margin-right: 1000px;
+    width: 100px;
+    height: 40px;
+    border-radius: 8px;
+}
+.frame{
+   position: relative;
+   width: 400px;
+    bottom: 1108px;
+    left: 502px;
+}
+p{
+  position: relative;
+    left: 50px;
+    bottom: 293px;
+}
+h1{
+  color:darkblue;
+  font-size: 28px;
+    position: relative;
+    bottom: 290px;
+    left: 48px;
+}
+.logos{
+  position: relative;
+      left: 554px;
+      bottom: 1378px;
+}
+.footer{
+    position: relative;
+    bottom: 1284px;
+    left: 270px;
+    color: darkblue;
+    font-family: sans-serif;
+}
+#year{
+  color: grey;
+}
