@@ -8,3 +8,110 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+/*General styling*/
+.float-left {
+  float: left;
+}
+.float-right {
+  float:right;
+}
+
+/*Background styling*/
+.container {
+  position: relative;
+  width: 100vw;
+}
+
+.blue-box {
+  height: 290px;
+  background-image: url("../images/bgtile.png");
+}
+.white-box {
+  height: 400px;
+  width: 100vw;
+}
+.bottom-links {
+  height: 50px;
+  width: 100vw;
+  text-align: center;
+}
+
+/*Floated container with photos and information about Instagram*/
+
+.content-box {
+  width: 63vw;
+  position: absolute;
+  top: 120px;
+  left: 230px;
+}
+.logos-and-info-big-container {
+  width: 500px;
+  float: right;
+  display: inline;
+}
+
+/*Instagram logo and login button only*/
+.logo-and-logIn {
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+.log-in-button {
+  width: 90px;
+  height: 40px;
+  border: 1px solid #375A80;
+  border-radius: 3px;
+  background: linear-gradient(to bottom, rgba(89,111,128,0.3) 0%, rgba(28,83,128,.8) 100%);
+  box-shadow: -1px 1px 67px -9px rgba(55,90,128,1);
+  margin-left: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo-and-logIn a {
+  text-decoration: none;
+}
+.house-icon {
+  height: 20px;
+  margin-right: 10px;
+}
+.house-icon img {
+  height: 20px;
+}
+.text-log-in {
+  margin: 0;
+  color: #E1E5E9;
+  font-size: .8rem;
+  font-weight: bold;
+}
+
+/*White square with block of text*/
+.information-text {
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+}
+.information-text h1 {
+  font-size: 1.5em;
+  padding: 25px 0 0 35px;
+  color: #06365f;
+}
+.information-text p {
+  padding: 0 35px;
+}
+.information-text img {
+  margin: 10px 0 0 30px;
+}
+
+/*links on the bottom*/
+.bottom-links a {
+  text-transform: uppercase;
+  color: #1c5380;
+  font-size: .6rem;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 8px;
+}
+.bottom-links a:last-child {
+  color: lightgrey;
+}
