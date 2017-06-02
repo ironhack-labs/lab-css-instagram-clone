@@ -4,7 +4,89 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+
+
 body {
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  width: 100%;
+}
+
+.centeredbox {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 150px;
+}
+
+.iphonebox {
+  width: 40%;
+  float: left;
+}
+
+.iphone {
+  width: 75%;
+}
+
+.instagrambox {
+  width: 60%;
+  height: 80px;
+  float: right;
+}
+
+.instagram {
+  width: 60%;
+}
+
+.loginbutton {
+  float: right;
+  border: 1px ridge darkblue;
+  border-radius: 4px;
+  color: white;
+  width: 20%;
+  margin: 20px;
+}
+
+.login {
+  padding: 10px 10px 12px 10px;
+}
+
+.textdiv {
+  background-image: url("../images/frame.png");
+  float: left;
+  width: 100%;
+  padding-left: 20px;
+}
+
+h3 {
+  color: rgb(40,80,119);
+  width: 42%;
+}
+
+p {
+  font-size: 12px;
+}
+
+.appstorebuttons {
+  width: 100%;
+}
+
+.applebutton {
+  width: 30%;
+  margin-top: 20px;
+}
+
+.googlebutton {
+  width: 30%;
+  float: right;
+  margin-top: 20px;
+  margin-right: 160px;
+}
+
+.aboutusdiv {
+  width: 100%;
+  float: left;
+  clear: both;
+  text-align: center;
 }
