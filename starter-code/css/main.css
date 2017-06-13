@@ -4,7 +4,89 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
-body {
+body  {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+
+  background-image: url('../images/bgtile.png');
+  background-repeat: repeat-x;
+}
+.bigbox {
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+}
+h1 {
+  color: #fafafa;
+}
+h2 {
+  color: #06365f;
+}
+.left {
+  width: auto;
+  float: left;
+}
+.right {
+  width: 504px;
+  float: right;
+}
+.bigframe {
+  background-image: url('../images/frame.png');
+  background-repeat: no-repeat;
+}
+.frame {
+  padding: 10px 30px;
+}
+.button {
+  background: linear-gradient(#487ca7, #1c5380);
+    width: 100px;
+    height: 30px;
+    padding: 5px 5px;
+    border: 1px solid #1c5380;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    float: right;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+.button>a {
+  color: white;
+  text-decoration: none;
+  position: absolute;
+    margin-top: 5px;
+      margin-left: -5px;
+}
+.button>img {
+  position: absolute;
+    margin: 5px -35px;
+}
+nav {
+  position: fixed;
+  bottom:0;
+  display: inline-block;
+}
+ul {
+  list-style-type: none;
+  text-align: center;
+}
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #06365f;
+    text-align: center;
+    padding: 14px 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.grey{color: rgba(0,0,0,0.3);}
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
 }
