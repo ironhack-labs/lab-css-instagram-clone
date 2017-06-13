@@ -8,3 +8,97 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+header{
+  height: 45vh;
+  background-color: #06365f;
+}
+button{
+  background-color: #1c5380;
+  color: #ccc;
+}
+div#main-container{
+  margin: -180px;
+}
+div#instagram-phones{
+  float: left;
+  width: 45%;
+  text-align: right;
+}
+div#instagram-phones div{
+  padding-right: 55px;
+}
+ div#info{
+   float: left;
+   width: 55%;
+ }
+ div#text-info{
+   background: url('../images/frame.png') no-repeat;
+   width: 504px;
+   margin-top: -13px;
+ }
+ div#text-info h2{
+    padding: 30px 35px 0 35px;
+    color: #06365f;
+ }
+ div#text-info p{
+   padding: 0 35px 0 35px;
+ }
+ div#app-links{
+   margin-top: 26px;
+ }
+ div#app-links span:first-child{
+   padding-left: 35px;
+ }
+ div#app-links span{
+   padding-right: 10px;
+ }
+ div#header-info{
+   width: 504px;
+  margin: 15px 0 0 0;
+ }
+ div#header-info #btn-login{
+   float: right;
+   padding: 24px 10px 0 0;
+ }
+
+ .btn{
+   font-size: 12px;
+   font-weight: bold;
+   line-height: 1.42857143;
+   text-align: center;
+   cursor: pointer;
+   border: 1px solid #1c5380;
+   border-radius: 4px;
+   color: #cadcec;
+   background-color: #1c5380;
+
+   -moz-box-shadow:    inset 2px -3px 9px #143a5a;
+   -webkit-box-shadow: inset 2px -3px 9px #143a5a;
+   box-shadow:         inset 2px -3px 9px #143a5a;
+ }
+ .btn img {
+   width: 22px;
+   vertical-align: middle;
+   padding: 4px 5px 6px 0px;
+ }
+
+footer{
+  margin: 50px;
+  text-align: center;
+}
+footer span {
+  margin-right: 10px;
+  text-decoration: none;
+  font-size:12px;
+  color: #AAA;
+}
+footer span a {
+  font-weight: bold;
+  color: #06365f;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.clearfix{
+  clear:both;
+}
