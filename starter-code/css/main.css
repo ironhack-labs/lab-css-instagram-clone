@@ -8,3 +8,91 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.upper-blue {
+    background-color: #577fa0; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#577fa0, #355d81); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#577fa0, #355d81); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#577fa0, #355d81); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#577fa0, #355d81); /* Standard syntax */
+    height: 280px;
+}
+
+.bottom-white {
+  height: 300px;
+}
+
+.presentation-text {
+    border-radius: 5px;
+    width: 564px;
+    height: 306px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 210px;
+    left: 600px;
+    background-image: url(../images/frame.png);
+    background-repeat: no-repeat;
+    background-size: 600px 340px;
+    padding: 10px;
+    background-position: center;
+    
+}
+
+.mobile-img {
+  position: absolute;
+  top: 75px;
+  left: 200px;
+}
+
+.logo {
+    position: absolute;
+    top: 90px;
+    left: 610px;
+}
+
+.login {
+    float: right;
+    margin-left: 170px;
+    margin-top: 20px;
+    padding: 7px;
+    background-color: #577fa0; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#577fa0, #355d81); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#577fa0, #355d81); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#577fa0, #355d81); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#577fa0, #355d81); /* Standard syntax */
+    color: #ffffff;
+    border-radius: 3px;
+    display: inline-flex;
+    -moz-box-shadow: 0 0 3px #000;
+    -webkit-box-shadow: 0 0 3px #000;
+    box-shadow: 0 0 3px #000;
+}
+
+.login span {
+  padding-left: 10px;
+}
+
+.phone-badges img {
+  margin:55px;
+}
+
+.footer-links {
+  padding-left: 280px;
+  color:#355d81;
+  font-weight: bold;
+}
+
+.footer-links li {
+    width: 100px;
+    height: 64px;
+    list-style: none;
+    float: left;
+}
+
+.title {  
+  color: #355d81;
+  font-weight: bold;
+  font-size: 20px;
+  width: 214px;
+  display: inline-block;
+}
