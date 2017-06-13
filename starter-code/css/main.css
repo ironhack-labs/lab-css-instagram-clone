@@ -7,4 +7,101 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-color: RGB(244, 245, 247);
+}
+
+.header{
+    height: 38vh;
+    /*background: navy;*/
+    background-image: url(../images/bgtile.png);
+    background-size: cover;
+}
+
+.middle{
+  height: 48vh;
+  background-color: RGB(244, 245, 247);
+}
+
+
+.main{
+    position: fixed;
+    left: 15%;
+    top:15%;
+    right: 10%;
+    width: auto;
+}
+
+
+#iphone{
+ float: left;
+}
+
+#mainBox{
+  float: left;
+  margin-left: 50px;
+  width: 50%;
+}
+
+#mainText{
+  background-image: url(../images/frame.png);
+  background-size: cover;
+  padding: 5px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-size: 0.95em;
+  border-radius: 27px;
+}
+
+#top{
+  max-width: 100%;
+  height: auto;
+  width: auto\9;
+}
+
+#logIn{
+  float:right;
+  position: relative;
+  right: 0;
+  top: 20px;
+  height: 40px;
+  width: 100px;
+  background-color: RGB(72, 117,157);
+  border-radius: 6px;
+  border: 1px solid RGB(72, 117,157);
+
+}
+
+#logInText{
+ position:relative;
+ bottom: 5px;
+  font-weight: bold;
+  left:3px;
+  color: white;
+}
+
+#mainTextTitle{
+  color: RGB(0, 45, 90);
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.footer{
+  text-align: center;
+  background-color: RGB(244, 245, 247);
+}
+
+#buttons{
+  margin-left: 40px;
+}
+
+a {
+  font-weight: bold;
+  font-size: 0.8em;
+text-decoration: none;
+color: RGB(108, 147, 179);
+margin-left: 20px;
+}
+
+#copyright{
+  color: RGB(183, 183, 183);
 }
