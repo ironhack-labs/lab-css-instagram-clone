@@ -8,3 +8,84 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.contenedor {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding-top: 200px;
+}
+
+.background-hd {
+	background-color: #4B6F9B;
+	height: 400px;
+}
+
+.contenedor-image{
+	float: left;
+	width: 400px;
+}
+
+.header-info .brand {
+	float: left;
+}
+
+.header-info button {
+	margin-top: 24px;
+	margin-left: 79px;
+	background-color: #6589AF;
+	padding: 8px 16px;
+	border: 1px solid #203349;
+	border-radius: 4px;
+	color: #fff;
+	font-weight: 600;
+	margin-right: 5px;
+}
+
+.cuerpo-info-img {
+	background-image: url(../images/frame.png);
+	background-size: cover;
+	padding: 20px 40px;
+	margin-top: 40px;
+}
+
+.cuerpo-info-img h3 {
+	color: #4B6F9B;
+	font-size: 28px;
+}
+
+.contenedor-info {
+	float: left;
+	width: 500px;
+}
+
+.cuerpo-info-des {
+	display: inline-block;
+	margin-top: 20px;
+}
+
+.cuerpo-info-apple {
+	margin-right: 20px;
+}
+
+.navegacion-footer{
+	margin-top: 50px;
+	display: inline-block;
+	padding: 0 50px;
+}
+
+footer {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.navegacion-footer a {
+	color: #4b6f9b;
+	text-transform: uppercase;
+	text-decoration: none;
+	margin-right: 10px;
+    font-weight: 600;
+}
+
+span {
+	color: #C3C3C3;
+}
