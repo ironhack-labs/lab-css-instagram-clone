@@ -83,10 +83,10 @@ body {
 }
 
 .footer-links li {
-    width: 100px;
     height: 64px;
     list-style: none;
     float: left;
+    margin-right: 35px;
 }
 
 .title {  
