@@ -43,13 +43,15 @@ top: 100px;
 
 .menu li {
   display: inline-block;
-  position
+  margin-left:5px;
 }
 footer{
   text-align: center;
 }
 
-
+.subtitulo {
+  color: #06365f;
+}
 a{
   text-decoration: none;
 }
