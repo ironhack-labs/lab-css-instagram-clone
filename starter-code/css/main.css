@@ -7,4 +7,98 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+}
+
+div#wrap {
+  width: 1100px;
+  margin:auto;
+  height: 750px;
+}
+
+div#iphonepreview {
+  float: left;
+  width: 350px;
+  margin-top: 120px;
+  margin-left:20px;
+}
+
+div#instagram {
+margin-left: 15px;
+}
+
+div#maincontent {
+  width: 500px;
+  float:left;
+  margin-top: 130px;
+}
+
+div#content {
+  clear:both;
+  padding-top:20px;
+  padding-left: 10px;
+  margin-right: 10px;
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
+  div#content p, h2 {
+    padding:10px 20px 5px 20px;
+  }
+
+
+button{
+  float:right;
+  background: linear-gradient(#7394B6, #466E9A);
+  color: white;
+  font-weight: bold;
+  border: 2px solid;
+  border-color: #1c5380;
+  font-weight: 200;
+  margin-top:20px;
+  padding:10px;
+
+}
+
+div#login img {
+  margin-top: 15px
+  margin-right: 10px;
+  vertical-align: center;
+}
+
+div#download {
+  padding:10px 20px 5px 30px;
+  vertical-align: center;
+}
+
+div#download img {
+  margin-right: 20px;
+}
+
+h2 {
+  font-size: 35px;
+  color: #1c5380;
+}
+
+footer {
+  text-align: center;
+  margin-top: 80px;
+  clear:both;
+}
+
+footer span {
+  color: #acacad;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 15px;
+  color:#6184A8;
+  margin-right: 15px;
 }
