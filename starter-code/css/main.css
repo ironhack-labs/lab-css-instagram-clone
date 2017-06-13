@@ -7,4 +7,81 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  height: 100%;
+  width: 100%;
+}
+header{
+  background-color: #06365f;
+  height:250px;
+}
+.brand{
+  float:right;
+  position: fixed;
+  left: 590px;
+  top: 100px;
+  height: 60px;
+}
+.login{
+  height: 20px;
+  background-color: #1c5380;
+  border: 1px solid #06365f;
+  color: white;
+  position: fixed;
+  right: 300px;
+  border-radius: 8px;
+  padding: 9px;
+  bottom: 520px;
+}
+.allinfo{
+  background-image: url("../images/frame.png");
+  background-position: center;
+  background-size: 800px;
+  float: right;
+  margin-left: 600px;
+  width: 33%;
+  position: fixed;
+  padding-left: 15px;
+  top:180px;
+  line-height: 1.6;
+  font-size: 1em;
+}
+.iphone{
+  height: 39px;
+}
+a{
+  text-decoration: none;
+  color:#1c5380;
+  padding:5px;
+}
+span{
+  color: grey;
+  padding:5px;
+}
+.android{
+  height: 39px;
+  margin-left: 40px;
+}
+h1{
+  color: white;
+}
+h3{
+  color: #06365f;
+  font-size: 1.3em;
+}
+footer{
+  position: fixed;
+  bottom: 50px;
+  left:25%;
+  color: #1c5380;
+  font-weight: bold;
+  font-size: .8em;
+}
+.phones{
+  height: 430px;
+  position: absolute;
+  right: 500px;
+
+}
+.content{
+  position: absolute;
 }
