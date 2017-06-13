@@ -90,6 +90,7 @@ body {
   height: 25px;
   padding: 5px;
   vertical-align: middle;
+  margin-top: 15px;
 }
 
 .content-header > .login-div > span{
