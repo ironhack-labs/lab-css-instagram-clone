@@ -18,20 +18,22 @@ body {
   position: absolute;
   left: 25% ;
   top: 100px;
+  min-width: 25%;
 }
 .right {
   float: lef;
 max-width: 30%;
 position:absolute;
 left: 50%;
+min-width: 25%;
 top: 100px;
 
 }
 .contenido{
   background: url(../images/frame.png);
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  background-position: ;
+  background-size: contain;
   padding: 15px;
 
   border-radius: 5px;
