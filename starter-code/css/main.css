@@ -4,7 +4,100 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+}
+
+button{
+  margin-right: 300px;
+  padding: 5px 10px;
+  border: 1px solid #234f72 ;
+  box-shadow: 0px 0px 4px #507697;
+  background: linear-gradient(to bottom, #7890ac 0%, #38668e 100%);
+  color: #dce2e9;
+  line-height: 34px;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-top: 7px;
+  width: 120px;
+  float: right;
+}
+
+#home{
+  margin-top: 4px;
+}
+
+#content{
+  padding: 110px 0px 0px 0px ;
+  height:600px;
+}
+
+.iphone{
+  position: absolute;
+  float: left;
+  width:45%;
+  margin-left: 200px;
+
+}
+
+
+.content{
+  padding-left: 600px;
+  position: absolute;
+  float:right;
+  width: 55%;
+
+}
+
+#description{
+  padding-left: 30px;
+  padding-top: 20px;
+  padding-right: 50px;
+  width:505px;
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+
+}
+h1{
+  font-size: 30px;
+  color:#194063;
+}
+#title{
+  margin-bottom: 30px;
+  line-height: 19px;
+}
+
+p{
+  padding-right: 100px;
+  line-height: 33px;
+}
+
+.download{
+  padding-right: 30px;
+}
+
+#footer{
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h4{
+  color: #7A99B3;
+}
+
+h5{
+  color:#C2C3C3;
+}
+
+h4,h5{
+  font-size: 11px;
+  padding-right: 15px;
+  display: inline-block;
 }
