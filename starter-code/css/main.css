@@ -4,7 +4,109 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+*, :before, :after {
+  box-sizing: border-box
+}
+
+/*Element styles*/
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  }
+
+footer {
+  text-align: center;
+  margin: 0 25%;
+}
+
+/*Class styles*/
+
+/*
+.content {
+  height: 100vh;
+  background: linear-gradient(to bottom, rgba(87,127,161,1) 0%, rgba(55,96,133,1) 35%, rgba(255,255,255,1) 35%, rgba(255,255,255,1) 100%);
+}*/
+
+.background-div-upper {
+  background-image: url('../images/bgtile.png');
+  position: relative;
+  height: 20rem;
+}
+
+.article-main-content {
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  left: 25%;
+  right: 25%;
+  top: 15%;
+}
+
+.div-img {
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.phones {
+  background-image: url('../images/phones.png');
+  height: 580px;
+  width: 454px;
+}
+
+.text-content-logo-box {
+  position: relative;
+}
+
+.img-home {
+  float: left;
+  margin-right: 1rem;
+}
+
+.text-content-box {
+  width: 350px;
+  background-color: white;
+  border-radius: 5px;
+  padding: 0 2rem;
+}
+
+.figure-brand {
+  float: left;
+  margin-left: 10px;
+}
+
+.button-login {
+  margin: 0 0 0 0;
+  padding: 0.5rem;
+  background-color: #4f789a;
+  text-decoration: none;
+  border: 1px solid #3d6586;
+  border-radius: 2px;
+}
+
+.footer-content-container {
+  position: fixed;
+  bottom: 0;
+}
+
+.footer-ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding-bottom: 7.5%;
+}
+
+.footer-ul > li {
+  padding: 0 0.5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.ul-li {
+  color: #6186a4;
+}
+
+.ul-li-gray {
+  color: #999;
 }
