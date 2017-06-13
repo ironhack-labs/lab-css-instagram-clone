@@ -1,10 +1,73 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+.background1 {
+  background-color: #1c5380;
+  height: 380px;
+}
+
+.background2 {
+  line-height: 800px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-left: 650px;
+  font-size: 0.85em;
+  color: #06365f;
+}
+
+.background2 span {
+  color: grey;
+}
+
+.content {
+  width: 1000px;
+  position: absolute;
+  top: 200px;
+  left: 500px;
+}
+
+.smartphone {
+  float: left;
+}
+
+.description {
+  float: left;
+  width: 500px;
+  margin-left: 50px;
+}
+
+.login-button {
+  float: right;
+  width: 110px;
+  height: 15px;
+  background-color: #3e6492;
+  border: 1.5px #06365f solid;
+  margin-top: 13px;
+  color: white;
+  font-weight: bold;
+  padding: 10px 5px 25px 5px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.text {
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  padding: 5px 30px;
+  margin-top: 15px;
+}
+
+h2 {
+  color: #06365f;
+}
+
+.buttons {
+  margin: 10px 30px;
+}
+
+.iphone {
+  margin-right: 15px;
 }
