@@ -1,10 +1,63 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
-
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+h1 {
+  color: #06365f;
+  text-align: right,justify;
+}
+
+.fondo {
+  background-color: #4F7998;
+  padding: 130px;
+  position: relative;
+}
+
+.iphone {
+  top: 13%;
+  position: absolute;
+  left: 20%;
+}
+.instagram-header{
+  top: 13%;
+  position: absolute;
+  right: 15%;
+}
+
+bottom{
+  background-color: #648CA8;
+  float: right;
+  color: white;
+  border: 1px solid light-blue;
+  border-radius: 5%;
+}
+
+.instagram-text{
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 50%;
+  right: 10%;
+  padding: 15px;
+  top: 25%
+
+}
+.instagram-footer{
+  bottom:13%;
+  position: absolute;
+  right: 24%;
+  float: left;
+
+}
+.footer{
+  position: absolute;
+  bottom:5%;
+  right: 30%;
+  text-transform: uppercase;
+  clear: left;
+  text-align: center;
+}
+.p1{
+  margin-bottom: 3px;
 }
