@@ -1,10 +1,148 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
-
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+.first-blue {
+  /* ------ GRADIENT -------*/
+  background:  #7496B2; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient( #7496B2, #477396); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient( #7496B2, #477396); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient( #7496B2, #477396); /* For Firefox 3.6 to 15 */
+  background: linear-gradient( #7496B2, #477396); /* Standard syntax */
+  width: 100vw;
+  height: 40vh;
+}
+  .second-white {
+    background-color: #F4F5F7;
+    width: 100vw;
+    height: 60vh;
+  }
+
+img.phones {
+  height: 700px;
+  position: absolute;
+  left: 230px;
+  top: 120px;
+}
+
+img.instalogo {
+  height: 100px;
+  position: absolute;
+  left: 800px;
+  top: 150px;
+}
+
+img.frame{
+  height: 400px;
+  width: 750px;
+  position: absolute;
+  left: 780px;
+  top: 270px;
+}
+
+div.button {
+  background:  #7496B2; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient( #7496B2, #345C80); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient( #7496B2, #345C80); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient( #7496B2, #345C80); /* For Firefox 3.6 to 15 */
+  background: linear-gradient( #7496B2, #345C80); /* Standard syntax */
+  height: 15px;
+  width: 90px;
+  position: absolute;
+  left: 1370px;
+  top: 170px;
+  padding: 20px;
+  border: 2px solid #3A6487;
+  border-radius: 4px;
+}
+
+.home {
+  position: absolute;
+  right: 85px;
+  bottom: 13px;
+}
+
+.login {
+  display: inline;
+  font-size: 20px;
+  color: #F2F5F6;
+  font-weight: 600;
+  position: relative;
+  left: 31px;
+  bottom: 8px;
+  padding-top: 5px;
+  padding-left: 5px;
+}
+
+.title {
+  position: absolute;
+  width: 600px;
+  left: 840px;
+  top: 290px;
+  color: #0E365A;
+}
+
+.first-p {
+  position: absolute;
+  width: 450px;
+  top: 420px;
+  left: 840px;
+  font-size: 18px;
+}
+
+p > span {
+  font-weight: 400;
+}
+
+.second-p {
+  position: absolute;
+  width: 450px;
+  top: 500px;
+  left: 840px;
+ font-size: 18px;
+
+}
+
+.third-p {
+  position: absolute;
+  width: 450px;
+  top: 630px;
+  left: 840px;
+  font-size: 18px;
+}
+
+.apple {
+  position: absolute;
+  left: 840px;
+  top: 720px;
+  width: 200px;
+}
+
+.android {
+  position: absolute;
+  left: 1070px;
+  top: 720px;
+  width: 190px;
+}
+
+nav {
+  position: absolute;
+  top: 850px;
+  left: 400px;
+}
+
+ul li {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: 14px;
+  text-transform: uppercase;
+  display: inline;
+  list-style-type: none;
+  color: #477396;
+  padding-right: 30px;
+}
+
+ul li span {
+  color: #B1B2B3;
 }
