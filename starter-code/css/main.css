@@ -6,5 +6,110 @@ light blue: #1c5380
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  margin: 0px;
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+}
+
+.header-page {
+
+}
+
+.body-page {
+  height: 450px;
+  margin: 120px;
+}
+
+.body-left {
+  float: left;
+  width: 45%;
+}
+
+.body-right {
+  float: right;
+  width: 55%;
+}
+
+.mobile-photo {
+  float: right;
+  margin-right: 50px;
+}
+
+/*
+Logo Instagram
+*/
+.logo-insta {
+  width: 300px;
+}
+
+#button-login {
+  float: right;
+  margin-right: 165px;
+  margin-top: 17px;
+  height: 45px;
+  width: 110px;
+  vertical-align: middle;
+  border-radius: 3px;
+  background-color: #6792B3;
+  border: 1px solid #bbbbbb;
+}
+
+#button-img {
+  float: left;
+  margin-left: 5px;
+}
+
+#button-text {
+  font-size: 14px;
+  padding: 5px;
+  color: #f7f7f7;
+}
+
+.wrap-body-body {
+  background: url("../images/frame.png");
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.wrap-body-footer {
+  margin: 20px 20px 0 40px;
+}
+
+.iphone-app {
+  margin-right: 20px;
+}
+
+h1 {
+  width: 50%;
+  font-size: 2em;
+  padding-top: 20px;
+  padding-left: 40px;
+  color: #1c5380;
+}
+
+p {
+  width: 64%;
+  padding-left: 40px;
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+footer {
+  color: #1c5380;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 25px;
+  word-spacing: 15px;
+  margin-bottom: 30px;
+}
+
+a {
+  font-weight: bold;
+  font-size: 0.8em;
+  color: RGB(108,147,179);
+  text-decoration: none;
+}
+
+#instagram2014 {
+  word-spacing: normal;
+  color: RGB(183,183,183);
 }
