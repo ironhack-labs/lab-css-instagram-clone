@@ -24,7 +24,7 @@ body {
 
 .presentation-text {
     border-radius: 5px;
-    width: 564px;
+    width: 470px;
     height: 306px;
     background-color: #ffffff;
     position: absolute;
@@ -32,7 +32,7 @@ body {
     left: 600px;
     background-image: url(../images/frame.png);
     background-repeat: no-repeat;
-    background-size: 600px 340px;
+    background-size: 500px 340px;
     padding: 10px;
     background-position: center;
     
@@ -52,7 +52,7 @@ body {
 
 .login {
     float: right;
-    margin-left: 170px;
+    margin-left: 60px;
     margin-top: 20px;
     padding: 7px;
     background-color: #577fa0; /* For browsers that do not support gradients */
@@ -73,7 +73,8 @@ body {
 }
 
 .phone-badges img {
-  margin:55px;
+    margin-right: 30px;
+    margin-left: 30px;
 }
 
 .footer-links {
