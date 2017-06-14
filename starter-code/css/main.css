@@ -1,10 +1,121 @@
 /*
 Colors to use:
-dark blue: #06365f
-light blue: #1c5380
+dark blue: .06365f
+light blue: .1c5380
 */
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+.container {
+
+}
+
+.background-top {
+  background-image: url('../images/bgtile.png');
+  height: 250px;
+}
+
+.background-middle {
+  height: 320px;
+}
+
+.background-bottom {
+  margin-top: 25px;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+.background-bottom > ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+.background-bottom > ul > li{
+  display: inline;
+}
+
+.background-bottom > ul > li > a{
+  text-decoration: none;
+  color: #84a1b9;
+  font-weight: bold;
+}
+
+.wrapper {
+  position: fixed;
+  top: 90px;
+  padding: 0 18%;
+}
+
+.mobile-photo {
+  float: left;
+  width: 45%;
+}
+
+.mobile-photo img {
+  width: auto;
+  max-width: 80%;
+}
+
+.content-div {
+  float: left;
+  width: 55%;
+}
+
+.content-header {
+  background-image: url('../images/bgtile.png');
+  height: 90px;
+}
+
+.content-header > .brand-logo {
+  float: left;
+  width: 60%;
+}
+
+.content-header > .brand-logo > img{
+  max-width: 100%;
+}
+
+.content-header > .login-div{
+  float: right;
+  width: 16%;
+  border: 1px solid #3a6890;
+  text-align: center;
+  color: white;
+  background-color: rgba(255,255,255, 0.2);
+  background: linear-gradient(#6a9cca, #4a759a); /* Standard syntax */
+  border-radius: 5px;
+  height: 25px;
+  padding: 5px;
+  vertical-align: middle;
+  margin-top: 15px;
+}
+
+.content-header > .login-div > span{
+  vertical-align: top;
+}
+
+.content-body {
+  background-image: url('../images/frame.png');
+  background-repeat: no-repeat;
+  padding: 5px 25px;
+  border-radius: 10px;
+}
+
+.content-body > h2{
+  color: #143d60;
+  background: white;
+  padding: 0;
+  font-size: 20px;
+  width: 60%;
+}
+
+.content-footer {
+  padding-left: 20px;
+}
+
+.copyright {
+  color: rgb(183, 183, 183) !important;
 }
