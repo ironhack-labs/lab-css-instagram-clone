@@ -5,6 +5,129 @@ light blue: #1c5380
 */
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  width:100%;
+}
+.blue-background {
+  background:linear-gradient(#5478A0,#395C87);
+  width:100%;
+  height:21rem;
+  position:relative;
+}
+
+.site-information {
+  width:70%;
+  padding:10rem;
+  position:absolute;
+  top:0;
+  margin:auto;
+
+}
+.site-information:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.phone-container {
+  float:left;
+  width: 20rem;
+}
+
+.phone-image {
+  width: 20rem;
+
+}
+
+.welcome-message {
+  float:right;
+  width: 30rem;
+  margin-bottom: 10rem;
+}
+
+
+.log-in-button {
+  background:linear-gradient(#5D80A5, #426A97);
+  border:1px solid #395C87;
+  width:8rem;
+  color:white;
+  font-weight:bold;
+  font-size:1rem;
+  margin-left:4rem;
+  padding:0.5rem;
+
+
+
+}
+.home-logo {
+}
+.log-in-text {
+  display:inline;
+  padding-bottom: 2rem;
+}
+.home {
+  margin-right:0.2rem;
+}
+.insta-logo {
+  width: 15rem;
+  float: left;
+}
+.text-container {
+  background-image: url("../images/frame.png");
+  background-repeat:no-repeat;
+  background-size:contain;
+  padding:0.001rem;
+  margin-top:0.7rem;
+  overflow:hidden;
+}
+.title {
+  font-size:1.5rem;
+  font-weight:bold;
+  color:#06365f;
+  margin-top:3rem;
+}
+
+.box {
+  margin-right:3rem;
+  margin-left:3rem;
+}
+
+.download {
+  margin-right: 2rem;
+}
+
+
+
+.footer {
+  margin-top: 1.6rem;
+  clear: both;
+  margin:auto;
+  text-transform: uppercase;
+  font-weight:bold;
+  font-size: 0.8rem;
+}
+
+.separate-words {
+  margin-left: 2rem;
+  color: #698AAD;
+
+
+}
+
+.signature {
+  margin-left: 2rem;
+  color:#B0B0B1;
 }
