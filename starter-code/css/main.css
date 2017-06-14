@@ -4,7 +4,114 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+/* CSS Reset */
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set the base font-size for relative sizing */
+html { font-size: 10px; }
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+/* Page container */
+.pageContainer {
+  height: 28rem;
+  background: url('../images/bgtile.png') repeat-x 0 0;
+}
+
+/* Floating panels container */
+.contentContainer {
+  width: 65%;
+  margin: 0 auto;
+  padding-top: 8%;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Floating Panels */
+.leftPanel { float: left; }
+
+.rightPanel { float: right; padding-top: 2.4rem; }
+
+/* Instagram header */
+.topHeader { margin-bottom: 2.4rem; }
+
+.topHeader a:link,
+.topHeader a:visited,
+.topHeader a:hover,
+.topHeader a:active { text-decoration: none; color: white; }
+
+.instagramLogo { float: left; }
+.instagramLoginContainer { 
+  float: right;
+  margin-right: 2rem;
+  margin-top: 1.4rem;
+}
+
+.instagramLogin {
+  display: inline-block;
+  padding: 1.2rem 1.4rem 1rem 1rem;
+  background: linear-gradient(#6892b2,#41739b);
+  border: 1px solid #06365f;
+  border-radius: .4rem;
+}
+
+.instagramLogin > span {
+  font-weight: 400;
+  padding-left: .6rem;
+  vertical-align: 0.4rem;
+}
+
+
+/* Page content */
+.serviceDescription {
+  width: 504px;
+  height: 284px;
+  background: url(../images/frame.png) no-repeat 0 0;
+}
+.sectionContainer {
+  padding: 4rem;
+}
+.serviceDescription h2 { 
+  color: #06365f;
+  width: 60%;
+  margin-bottom: 2rem;
+}
+
+#downloadFromAppStore img { margin-top: 2rem; }
+#downloadFromGooglePlay img { margin-left: 1.8rem; }
+
+/* FOOTER */
+.instagramFooter {
+  margin: 4rem auto 0 auto;
+  padding-bottom: 4rem;
+  width: 50%;
+}
+
+.instagramFooter li {
+  float: left;
+  list-style: none;
+  padding: 0 1rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.footerLink {
+  font-weight: bold;
+}
+
+.footerLink a:link, .footerLink a:visited, .footerLink a:hover, .footerLink a:active {
+  text-decoration: none;
+  color: #1c5380;
 }
