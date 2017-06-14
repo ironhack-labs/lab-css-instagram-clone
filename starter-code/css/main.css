@@ -8,3 +8,72 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.blueBackground {
+  background-image: url("../images/bgtile.png");
+  height: 200px;
+  width: 100%;
+  padding-top: 200px;
+  padding-left: 250px;
+  padding-right: 250px;
+}
+.mainClass{
+  display: inline-block;
+}
+.phone{
+  float: left;
+}
+.mainSquare{
+  float: left;
+  width: 500px;
+  box-sizing: border-box;
+  margin-left: 100px;
+}
+.logo {
+  float: left;
+}
+
+.home {
+  float: left;
+  clear: right;
+  margin-left: 80px;
+  margin-top: 18px;
+  padding: 8px;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border: 1px #06365f solid;
+  background-color: #1c5380;
+}
+.text{
+  clear:left;
+  background-image: url("../images/frame.png");
+  height: 1000px;
+  background-repeat: no-repeat;
+  margin-top: 100px;
+  padding: 25px;
+}
+h1{
+  color: #06365f;
+}
+.appImages{
+  display: inline-block;
+}
+.android{
+  margin-left: 20px;
+}
+footer{
+  position: absolute;
+  top: 800px;
+  text-align: center;
+  word-spacing: 12px;
+  margin-left: 500px;
+  color: #06365f;
+  font-weight: bold;
+}
+.copyright{
+  float: right;
+  color: darkgray;
+  margin-left: 12px;
+  font-weight: bold;
+}
