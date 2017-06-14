@@ -4,7 +4,169 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+/*
+CSS Reset. Could be done in an external stylesheet as
+normalise CSS but for the purpose of this training, resets will be included
+in main.css.
+*/
+
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html p {
+    margin-left: 0;
+    margin-bottom: 0;
+}
+
+button {
+    border: 0;
+    width: auto;
+    height: auto;
+}
+
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+/*----------------------*/
+
+h1 {
+    color: #06365f;
+}
+
+
+#navbar {
+    color: #06365f;
+    margin-left: 24%;
+    margin-right: 24%;
+    text-align: center;
+    position: fixed;
+    bottom: 25px;
+
+
+
+}
+ul {
+    padding-left: 0px;
+}
+
+
+nav ul li {
+    display: inline-block;
+    font-size: 0.9rem;
+    padding: 3px 5px 0px 3px;
+
+}
+
+nav ul li a {
+        text-decoration: none;
+        font-weight: bolder;
+}
+
+
+/*** GENERAL STYLING ***/
+
+
+.lightblueback {
+    background-color: #1c5380;
+}
+
+.evenlighterblueback {
+    background-color: #75a783;
+}
+
+.darkblueback {
+    background-color: #06365f;
+}
+
+.whitefont {
+    color: white;
+}
+
+.whiteback {
+    background-color: white;
+}
+
+.justify {
+    text-align: justify;
+}
+
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-color: #f9f9f9;
+}
+
+p {
+    position: relative;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+#uppersection {
+    height : 300px;
+}
+
+#descriptionbox{
+    width: 600px;
+    height: auto;
+    position: absolute;
+    top: 200px;
+    left: 600px;
+    border-top: 1px solid;
+    border-right: 1px solid;
+    border-left: 1px solid;
+    border-color: #8E8E8E;
+    border-radius: 6px;
+    padding: 16px 30px 16px 30px;
+}
+
+/*** ASSETS ***/
+#phones {
+    position: absolute;
+    top: 100px;
+    left: 90px;
+}
+
+.appicon {
+    margin-right: 10px;
+    margin-top: 40px;
+}
+
+#brandtitle {
+    position: absolute;
+    top: 100px;
+    left: 600px;
+    margin: 0;
+}
+
+#homelogo{
+    padding-right: 10px;
+}
+
+.buttondesc {
+    float: left;
+
+}
+
+#login {
+    border: 1px solid;
+    font-size: 16px;
+    border-color: #06365f;
+    position: absolute;
+    top: 110px;
+    left: 1090px;
+    padding: 8px 12px 8px 12px;
+
 }
