@@ -7,4 +7,100 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;
+}
+
+.phones{
+  float: right;
+  margin: 50px;
+}
+
+.corpus{
+  height:350px;
+  margin:120px;
+}
+
+.corpusL{
+  float: left;
+  width: 45%
+}
+
+.corpusR{
+  padding-top: 50px;
+  float: right;
+  width: 55%;
+}
+
+.badge-android{
+  padding-left: 10px;
+}
+
+.badge-iphone{
+  padding-right: 10px;
+}
+
+.shopwrap{
+  padding-top: 35px;
+}
+
+.shopwrap{
+  padding-left: 40px;
+}
+
+.footer{
+  clear: left;
+  text-align: center;
+  word-spacing: 10px;
+}
+
+.boton{
+  float: right;
+  position: relative;
+  right: 160px;
+  top: 20px;
+  padding: 5px;
+  border: 1px, none, black;
+  border-radius: 3px;
+  font-weight: bold;
+  background-color: inherit;
+  color: white;
+
+}
+
+a {
+  font-weight: bold;
+  font-size: 0.8em;
+  color: RGB(108,147, 179);
+  text-decoration: none;
+}
+
+.texto-top{
+  width: 400px;
+  padding-left: 20px;
+  padding-top: 20px;
+  font-size: 28px;
+  font-weight: bold;
+  color: #06365f;
+
+}
+
+.texto{
+  width: 410px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.textwrap{
+  background-image: url("../images/frame.png");
+  width: 100%;
+  background-repeat: no-repeat;
+}
+
+#copy{
+  color: RGB(183,183,183);
+}
+
+.home{
+  margin-right: 2px;
 }
