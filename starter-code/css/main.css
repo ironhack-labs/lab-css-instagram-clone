@@ -1,10 +1,85 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
-
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+header {
+  background-image: url(https://raw.githubusercontent.com/ironhack-labs/lab-css-instagram-clone/master/starter-code/images/bgtile.png);
+  height: 40vh;
+}
+
+.center {
+  position: absolute;
+  top: 15vh;
+}
+
+.phones {
+  float: left;
+  margin: 0px 9vw 0px 12vw;
+}
+
+.main {
+  float: left;
+  width: 490px;
+}
+
+.main img {
+  cursor: pointer;
+}
+
+.loginButton {
+  float: right;
+  background: linear-gradient(lightblue, #1c5380);
+  color: white;
+  border: 1px solid #06365f;
+  border-radius: 3px;
+  padding: 6px 9px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.loginButton img {
+  position: relative;
+  top: 3px;
+}
+
+.mainBody {
+  background-image: url(https://raw.githubusercontent.com/ironhack-labs/lab-css-instagram-clone/master/starter-code/images/frame.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  padding: 0px 40px;
+}
+
+h1 {
+  padding-top: 36px;
+  color: #06365f;
+  font-size: 26px;
+}
+
+.mainFooter img{
+  margin-right: 12px;
+  margin-top: 12px;
+}
+
+footer {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+  color: #06365f;
+  margin: 30px 0px 0px 0px;
+  clear: both;
+  position: absolute;
+  bottom: 6vh;
+  left: 30vh;
+}
+
+a {
+  cursor: pointer;
+  margin: 0px 15px;
+}
+
+.copyright {
+  display: inline-block;
+  margin-left: 20px;
+  color: #999999;
 }
