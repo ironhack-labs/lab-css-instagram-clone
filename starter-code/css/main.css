@@ -8,3 +8,140 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.header {
+  background-image: url("../images/bgtile.png");
+  height: 400px;
+}
+
+.middle {
+
+}
+
+.main-content {
+  position: absolute;
+  top: 200px;
+  left: 20%;
+}
+
+.container-phone {
+  float: left;
+}
+
+.container-right-menu {
+  float: left;
+  margin-left: 30px;
+}
+
+.right-menu-header {
+  float: left;
+  padding-bottom: 30px;
+}
+
+.logo-container {
+  float: left;
+}
+
+.login-container {
+  float: left;
+  /*background-color: #1c5380;*/
+  background: linear-gradient(#6f97b7, #386d97);
+  border-radius: 5px;
+  margin-left: 55px;
+  margin-top: 17px;
+  color: white;
+  font-weight: bold;
+  border: 2px;
+  border-color: #32648d;
+  border-style: solid;
+}
+
+.home-image {
+  float: left;
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+.login-text {
+  float: left;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 8px;
+  font-weight: normal;
+  color: #cfdbe4;
+  /*text-align: center;*/
+}
+
+.right-menu-body {
+  width: 460px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 14px;
+  border-radius: 5px;
+  background-image: url("../images/frame.png");
+  clear: both;
+}
+
+.right-menu-footer {
+  padding-top: 30px;
+  float: left;
+}
+
+.appleStore-logo-container {
+  float: left;
+  padding-left: 40px;
+}
+
+.googleStore-logo-container {
+  float: left;
+  padding-left: 40px;
+}
+
+.footer {
+  position: relative;
+  top: 350px;
+  color: #1c5380;
+  /*color: #b2b2b3*/
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+  font-size: 13px;
+
+}
+
+.text {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+h1 {
+  color: #0a355e;
+  font-size: 22px;
+}
+
+p {
+  color: #1d1d1c
+}
+
+span {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+span1 {
+  color: #b2b2b3;
+  margin-left: 20px;
+}
+
+a:link {
+    text-decoration: none;
+    color: #1c5380;
+}
+
+a:visited {
+    color: #1c5380;
+}
