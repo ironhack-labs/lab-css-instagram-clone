@@ -3,8 +3,122 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+html, body {
+  margin: 0px;
+  padding: 0px;
+  min-height: 100%;
+  height: 100%;
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+.wrapper {
+  min-height: 100%;
+  height: auto !important;
+  margin-bottom: -30px; 
+}
+
+.wrapper:after {
+  content: "";
+  display: block;
+  height: 30px;
+}
+
+.upper-blue {
+    background-color: #577fa0; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#577fa0, #355d81); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#577fa0, #355d81); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#577fa0, #355d81); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#577fa0, #355d81); /* Standard syntax */
+    height: 280px;
+}
+
+.bottom-white {
+  height: 300px;
+}
+
+.presentation-text {
+    border-radius: 5px;
+    width: 470px;
+    height: 306px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 210px;
+    left: 600px;
+    background-image: url(../images/frame.png);
+    background-repeat: no-repeat;
+    background-size: 500px 340px;
+    padding: 10px;
+    background-position: center;
+    
+}
+
+.mobile-img {
+  position: absolute;
+  top: 75px;
+  left: 200px;
+}
+
+.logo {
+    position: absolute;
+    top: 90px;
+    left: 610px;
+}
+
+.login {
+    float: right;
+    margin-left: 60px;
+    margin-top: 20px;
+    padding: 7px;
+    background-color: #577fa0; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#577fa0, #355d81); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#577fa0, #355d81); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#577fa0, #355d81); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#577fa0, #355d81); /* Standard syntax */
+    color: #ffffff;
+    border-radius: 3px;
+    display: inline-flex;
+    -moz-box-shadow: 0 0 3px #000;
+    -webkit-box-shadow: 0 0 3px #000;
+    box-shadow: 0 0 3px #000;
+}
+
+.login span {
+  padding-left: 10px;
+}
+
+.phone-badges img {
+    margin-right: 25px;
+}
+
+
+.footer {
+  height: 30px;
+}
+
+.footer-links {
+  color:#355d81;
+  font-weight: bold;
+  height: 32px; 
+  margin-left: 250px;
+}
+
+.footer-links li {
+    height: 64px;
+    list-style: none;
+    float: left;
+    margin-right: 35px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.title {  
+  color: #355d81;
+  font-weight: bold;
+  font-size: 20px;
+  width: 214px;
+  display: inline-block;
 }
