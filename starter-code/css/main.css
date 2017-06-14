@@ -27,6 +27,16 @@ button {
     width: auto;
     height: auto;
 }
+
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
 /*----------------------*/
 
 h1 {
@@ -36,19 +46,24 @@ h1 {
 
 #navbar {
     color: #06365f;
-    max-width: 70%;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 24%;
+    margin-right: 24%;
     text-align: center;
-    margin-top: 400px;
+    position: fixed;
+    bottom: 25px;
+
 
 
 }
+ul {
+    padding-left: 0px;
+}
+
 
 nav ul li {
     display: inline-block;
     font-size: 0.9rem;
-    padding: 6px 5px;
+    padding: 3px 5px 0px 3px;
 
 }
 
