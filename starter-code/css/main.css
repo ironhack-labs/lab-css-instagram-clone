@@ -2,9 +2,133 @@
 Colors to use:
 dark blue: #06365f
 light blue: #1c5380
-*/
+
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+*/
+
+body{
+    background-image: linear-gradient(to bottom, #1c5380, #1c5380 10%, #06365f 70%, #06365f);
+    background-size: 100% 35%;
+    background-repeat: no-repeat;
+    padding: 150px;
+}
+
+.left-side{
+  min-width:5%;
+  float: left;
+}
+
+.right-side{
+  min-width:80%;
+}
+
+.up-right-side{
+  padding-top:20px;
+}
+
+.brand{
+  float: left;
+  padding-left:50px;
+  position:relative;
+  left: 0;
+  top: 0;
+
+}
+.login-button {
+  float: left;
+  padding-left:70px;
+  padding-top: 15px;
+}
+
+.button-text {
+  vertical-align: 22%;
+  padding: 10px;
+}
+
+button{
+  color: rgba(255,255,255,0.75);
+  background-image: linear-gradient(to bottom, #1c5380, #1c5380 10%, #06365f 70%, #06365f);
+  border-radius: 4px;
+  border: 2px solid #06365f;
+  font-style: Arial;
+  font-size:14px;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px 10px;
+}
+
+.low-right-side{
+  float:left;
+  font-family:  Arial, sans-serif;
+
+
+}
+.frame{
+  background: url("../images/frame.png") no-repeat;
+  width:500px;
+  z-index: 1000;
+  position:relative;
+  top:10px;
+  left:50px;
+
+
+}
+
+.text-header{
+
+  padding-top:30px;
+  padding-left:40px;
+  width:350px;
+  font-size: 26px;
+  font-weight:bold;
+  line-height: 39px;
+  color: #06365f;
+  font-family:  sans-serif;
+  padding-bottom:20px;
+}
+
+.text{
+  padding-left:40px;
+  width:375px;
+  font-size:14px;
+  font-family:  "Helvetica Neue";
+  color: rgba(0,0,0,0.8)
+
+}
+
+.banners{
+  float:left;
+  padding-top:30px;
+  padding-left:90px;
+}
+
+.footer{
+  clear: both;
+  font-family: sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  text-align:center;
+  padding: 60px;
+  color: #1c5380;
+}
+
+.linked{
+}
+
+.unlinked{
+  color:grey;
+}
+
+.aboutUs{
+}
+
+.support{
+}
+
+.copyright{
+  color: rgb(200,200,200);
 }
