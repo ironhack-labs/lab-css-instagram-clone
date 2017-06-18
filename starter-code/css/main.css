@@ -4,7 +4,116 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+*, :before, :after {
+  box-sizing: content-box;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: #F5F7F8;
   margin: 0;
+}
+
+.head-container {
+  height: 280px;
+}
+
+.grad {
+  background: -webkit-linear-gradient(#4F7CA1, #285983);
+
+}
+
+#logtext {
+  color: white;
+  text-align: center;
+}
+
+#login {
+  position: absolute;
+  top: 130px;
+  right: 150px;
+
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  height: 340px;
+  width: 360px;
+  font-size: 14px;
+  margin: 0;
+  position: absolute;
+  left: 500px;
+  top: 250px;
+}
+
+h1 {
+  color: #06365f;
+  margin: 0;
+}
+
+p {
+  margin:0;
+}
+
+
+.footer-container {
+  text-transform: uppercase;
+  color: #1c5380;
+  font-size: 11px;
+  font-weight: bold;
+  opacity: 0.75;
+  bottom: 6%;
+  position: fixed;
+  text-align: center;
+  margin-right: 25%;
+  margin-left: 25%
+
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+  margin: 5px;
+}
+
+span {
+  color: grey;
+}
+
+/*Icons*/
+
+#frame {
+  position: absolute;
+  top: 220px;
+  left: 470px;
+}
+
+#iphone {
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+#android {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+#phones {
+  position: absolute;
+  top: 90px;
+  left: 100px;
+}
+
+#brand {
+  position: absolute;
+  top: 110px;
+  left: 470px;
 }
