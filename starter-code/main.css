@@ -1,0 +1,102 @@
+/*
+Colors to use:
+dark blue: #06365f
+light blue: #1c5380
+*/
+
+body {
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+
+.main-title {
+  position: absolute;
+  right: 30.5%;
+  top: 10%;
+  float: left;
+}
+
+.content-title {
+  width: 100%;
+  font-size: 25px;
+  color: #06365f;
+}
+.content-container {
+  width: 33%;
+  text-align: left;
+  position: absolute;
+  left: 50%;
+  border: 5px;
+  padding: 0px 50px;
+  margin-bottom: 20%;
+  background-image: url("frame.png");
+  background-size: cover;
+}
+
+.blue-bg {
+  background-image: url(bgtile.png);
+  background-repeat: repeat-x;
+  height: 35%;
+}
+
+.button {
+  background-color: #1c5380;
+  width: 80px;
+  position: absolute;
+  float: left;
+  text-align: center;
+  padding: 6px;
+  color: white;
+  font-style: normal;
+  font-size: 10px;
+  border: 1px solid #06365f;
+  border-radius: 2px;
+  margin-left: 185px;
+  margin-top: 19px;
+  top: 20%;
+}
+
+.login {
+  float:left;
+
+}
+
+.download {
+  margin-top: 30px;
+}
+
+#android {
+  margin-left: 0px;
+  float: left;
+}
+
+#apple {
+  margin-right: 30px;
+  float: left;
+}
+
+.iphone {
+  position: absolute;
+  left: 20%;
+  top: 8%;
+}
+
+.right-col {
+  position: relative;
+  bottom: 13%;
+}
+
+.footer {
+  position: relative;
+  margin-top: 450px;
+  text-align: center;
+  color: #1c5380;
+  font-size: 13px;
+  margin-left: 8%;
+  text-transform: uppercase;
+}
+
+.copy {
+  display: inline;
+  color: gray;
+}

@@ -8,3 +8,23 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.main-title {
+  position: relative;
+  left: 55%;
+}
+.content-container {
+  color: red;
+  width: 25%;
+  text-align: left;
+  position: relative;
+  left: 50%;
+  border: 5px solid black;
+  padding: 0px 50px
+}
+
+.blue-bg {
+  background-color: #06365f;
+  width: 100%
+
+}
