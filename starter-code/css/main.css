@@ -8,3 +8,135 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+#main-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+}
+
+#top {
+  background-color: #06365f;
+  opacity: 0.85;
+  height: 350px;
+  padding-top: 125px;
+}
+
+#top #phones {
+  display: block;
+  margin-right: 30px;
+}
+
+#top #right-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+#top #right-container #top-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#top #brand {
+  display: block;
+  margin-right: 130px;
+}
+
+#top #login-button {
+  margin-top: 5px;
+  display: flex;
+  width: 125px;
+  height: 40px;
+  justify-content: space-around;
+  align-items: center;
+  text-decoration: none;
+  padding: 5px;
+  color: rgba(255, 255, 255, 0.7);
+  background-color: #1c5380;
+  opacity: 1;
+  border: solid 2px midnight: ;blue;
+  font-size: 0.95em;
+}
+
+#top #login-button img {
+  height: 30px;
+}
+
+#top #content-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  margin-top: 30px;
+  clear: right;
+  width: 90%;
+  background-color: rgba(255, 255, 255, 1);
+  padding: 30px 30px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0px -2px 13px -4px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px -2px 13px -4px rgba(0,0,0,0.75);
+  box-shadow: 0px -2px 13px -4px rgba(0,0,0,0.75);
+}
+
+#top #content-box h2 {
+  font-size: 2em;
+  color: #06365f;
+  line-height: normal;
+  margin: 0;
+}
+
+#top #content-box p {
+  font-size: 1.1em;
+  margin-bottom: 20px;
+}
+
+#top #content-box #download-row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#top .download-badge {
+  margin: 0 20px 0 20px;;
+}
+
+#bottom {
+  height: 300px;
+}
+
+footer {
+  padding: 0 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer ul {
+  clear: both;
+  display: flex;
+  flex-wrap: wrap;
+  width: 45%;
+  list-style: none;
+  justify-content: space-around;
+  margin: 0 20px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #1c5380;
+  font-weight: 800;
+  opacity: 0.8;
+}
+
+
+footer h4 {
+  color: lightgray;
+}
