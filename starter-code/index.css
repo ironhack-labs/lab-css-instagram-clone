@@ -1,0 +1,61 @@
+.blueBackground{
+  background-image: url(bgtile.png);
+  height: 30%;
+  width: 1000px;
+}
+
+.phone{
+  margin: -180px 0px 0px 70px;
+}
+
+.instagram{
+  position: relative;
+  top: -500px;
+  left: 430px;
+}
+
+.mainText{
+  position: relative;
+  top: -500px;
+  left: 430px;
+  background-image: url("frame.png");
+  background-size: cover;
+  height: 420px;
+  width: 400px;
+  padding: 50px;
+  border-top-right-radius: 25px;
+}
+
+p{
+  line-height: 25px;
+  margin: 1px 0px;
+  font-size: 14px;
+}
+
+h2{
+  color: #183E60;
+}
+
+.badge{
+  float: right;
+  margin: 20px 50px 0px -10px;
+}
+
+footer{
+  text-transform: uppercase;
+  position: relative;
+  top: -550px;
+  left: 140px;
+  font-size: 13px;
+}
+
+.mention {
+  color: #183E60;
+}
+
+.loginButton{
+  color: white;
+  position: relative;
+  top: -555px;
+  left: 770px;
+}
