@@ -8,3 +8,105 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+h2 {
+  color: #06365f;
+}
+
+.background-blue {
+  background-color: rgb(69,115,164);
+  height:325px;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+}
+
+.background-white {
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 325px 0 0 0;
+}
+
+.major {
+  position: absolute;
+  margin: 150px;
+}
+
+.left-box {
+  width: 320px;
+  position: relative;
+  float: left;
+}
+
+.phones {
+  float: left;
+  margin: 1px;
+  width: 10%;
+}
+
+.right-box {
+  position: relative;
+  margin: 0 0 0 370px;
+  height: 600px;
+}
+
+.brand {
+  float: left;
+  margin: 11px 0 0 0 ;
+}
+
+.login {
+  float: right;
+  position: relative;
+  background-image: url(../images/bgtile.png);
+  margin: 30px 25px 0 0 ;
+  width: 90px;
+
+}
+
+.home {
+  margin: 10px;
+}
+
+.login-text {
+  color: white;
+  float: right;
+}
+
+.top-right {
+  height: 90px;
+}
+
+.text {
+  clear: right;
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  padding: 25px;
+}
+
+.apps {
+  margin: 20px 0 0 0;
+}
+
+.iphone {
+  float: left;
+  width: 165px;
+  margin: 100px 25px 25px;
+}
+
+.android {
+  float: right;
+  width: 165px;
+  margin: 100px 25px 25px;
+}
+
+.footer {
+  position: absolute;
+  margin-top: 65%;
+  margin-left: 25%;
+  
+}
