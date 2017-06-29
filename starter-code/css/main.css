@@ -7,4 +7,99 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  z-index: 10;
+}
+#content {
+  margin: 0 20% 0 20%;
+  padding-top: 8%;
+}
+#blue-tile {
+  background: url(../images/bgtile.png);
+  background-repeat: repeat;
+  background-position: top right;
+  width: 100%;
+  height: 50%;
+  position: fixed;
+  z-index: -1;
+}
+
+#phone {
+  float: left;
+  margin-right: 50px;
+}
+
+#logo {
+  float: left;
+}
+
+#login {
+  float: right;
+  padding: 10px;
+border: 2px solid #2b4d73;
+  background-color: #7494B7;
+  border-radius: 5px;
+  clear: right;
+}
+#login :nth-child(2) {
+  font-weight: 700;
+  float: right;
+  margin: 0 0 0 15px;
+  color: #fff;
+}
+
+#text {
+  background: url(../images/frame.png);
+  background-size: contain;
+  background-repeat: repeat-x;
+  width: 550px;
+  padding: 30px;
+  position: relative;
+  left: 25%;
+  margin-left: 150px;
+  margin-top: 100px;
+}
+#text:first-child {
+  color: #131F51;
+}
+#text > * {
+  right: 20%;
+  position: relative;
+}
+#footer {
+  position: absolute;
+  margin: 0 30% 0 30%;
+  width: 100%;
+  padding: 30px 0 30px 0;
+  bottom: 0;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+#footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+#footer ul li {
+  float: left;
+  padding-left: 20px;
+  text-transform: uppercase;
+  color: #7494B7;
+}
+
+#footer ul :last-child {
+  color: #ccc;
+}
+
+.second-button {
+  float: left;
+};
+
+.white-bg{
+  background-color: #fff;
+
+}
+
+.google-button{
+  margin-left:40px;
 }
