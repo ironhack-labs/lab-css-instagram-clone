@@ -35,25 +35,26 @@ body {
 #login {
   float: right;
   padding: 10px;
-  border: 1px solid #7494B7;
+border: 2px solid #2b4d73;
   background-color: #7494B7;
-  border-radius: 3px;
+  border-radius: 5px;
   clear: right;
 }
 #login :nth-child(2) {
+  font-weight: 700;
   float: right;
   margin: 0 0 0 15px;
-  color: #C3CFDC;
+  color: #fff;
 }
 
 #text {
   background: url(../images/frame.png);
-  background-size: cover;
+  background-size: contain;
   background-repeat: repeat-x;
   width: 550px;
   padding: 30px;
   position: relative;
-  left: 20%;
+  left: 25%;
   margin-left: 150px;
   margin-top: 100px;
 }
@@ -66,6 +67,7 @@ body {
 }
 #footer {
   position: absolute;
+  margin: 0 30% 0 30%;
   width: 100%;
   padding: 30px 0 30px 0;
   bottom: 0;
@@ -91,4 +93,13 @@ body {
 
 .second-button {
   float: left;
+};
+
+.white-bg{
+  background-color: #fff;
+
+}
+
+.google-button{
+  margin-left:40px;
 }
