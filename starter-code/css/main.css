@@ -8,3 +8,78 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.intro {
+  font: 200 30px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  position: absolute;
+  top: 250px;
+  left: 500px;
+}
+
+.links {
+  font-size: 12px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 650px;
+  left: 250px;
+}
+
+.homeLogo {
+  width: 500px;
+  position: absolute;
+  top: 150px;
+  left: 810px;
+}
+
+.copyright {
+  font-size: 12px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 650px;
+  left: 710px;
+}
+
+.mainText {
+  width: 410px;
+  position: absolute;
+  top: 350px;
+  left: 500px;
+}
+
+.appleLogo {
+  position: absolute;
+  top: 550px;
+  left: 500px;
+}
+
+.playstoreLogo {
+  position: absolute;
+  top: 550px;
+  left: 690px;
+}
+
+.blueBox {
+  background-color: blue;
+  width: 100%;
+  height: 250px;
+}
+
+.phones {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
+
+.igLogo {
+  width: 500px;
+  position: absolute;
+  top: 120px;
+  left: 450px;
+}
+
+.frame {
+  position: absolute;
+  top: 200px;
+  left: 450px;
+}
