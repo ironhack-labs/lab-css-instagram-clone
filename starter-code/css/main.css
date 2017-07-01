@@ -3,8 +3,97 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+.bckgrnd{
+  width: 100%;
+  height: 250px;
+  top:0px;
+  position: fixed;
+  z-index: -1;
+  background: linear-gradient(#1c5380, #06365f);
 
+}
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+h1 {
+color: #06365f;
+}
+
+div {
+  color: #06365f;
+
+}
+
+.container {
+  width: 450px;
+  radius: 10px;
+  padding: 25px ;
+  position: fixed;
+  bottom: 85px;
+  right: 180px;
+  color: black;
+  z-index: 1;
+
+}
+
+.appStore {
+  margin: 200px;}
+
+.links {
+  bottom: 40px;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  font-weight: bold;
+  word-spacing: 20px;
+  font-size: 12px;
+}
+
+.phones{
+  position: relative;
+  left: 10%;
+  top: 70px;
+}
+
+.frame {
+  position: relative;
+  left:46% ;
+  bottom: 396px;
+  z-index: 0;
+}
+
+.instaLogo {
+  z-index: 2;
+  position: relative;
+  bottom: 350px;
+  left: 280px;
+}
+
+.login {
+  position: relative;
+  top: 5px;
+  margin-right: 5px;
+}
+
+.logs{
+background-color: #1c5380;
+border-width: 2px;
+border-color: #06365f;
+border-style: solid;
+width: 90px;
+height: 25px;
+color: white;
+border-radius: 5px;
+padding: 10px;
+position: relative;
+left: 75%;
+bottom: 425px;
+z-index: 1;
+background: linear-gradient(#1c5380, #06365f);
+}
+
+span {
+  color: grey;
 }
