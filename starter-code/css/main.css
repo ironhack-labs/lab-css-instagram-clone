@@ -5,6 +5,71 @@ light blue: #1c5380
 */
 
 body {
+  position: relative;
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  padding: 0 100px 50px 100px;
+  margin-top: 70px;
+  background-image: linear-gradient(to bottom, #1c5380 33%, white 67%);
+  background-attachment:fixed;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  color: #06365f;
+}
+
+.main-images {
+  position: relative;
+  padding: 0 50px 50px 50px;
+  margin: 80px 50px 0 50px;
+}
+
+.phones-image {
+  left: 100px;
+  top: 10px;
+}
+
+.instagram-logo {
+  position: absolute;
+  left: 430px;
+  top: 10px;
+}
+
+.home-button {
+  position: absolute;
+  left: 830px;
+  top: 35px;
+  width: 80px;
+  height: 30px;
+  padding: 5px;
+  border: 2px solid black;
+  color: gray;
+  font-weight: bold;
+  border-radius: 3px;
+}
+
+.text-box {
+  position: absolute;
+  left: 430px;
+  top: 100px;
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  width: 470px;
+  border: 1px white;
+  padding: 10px 30px 30px 30px;
+  background: white;
+  border-radius: 5px;
+}
+
+.bottom-text {
+  color: #1c5380;
+  position: absolute;
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  left: 300px;
+  font-weight: bold;
+  word-spacing: 15px;
+  font-size: 12px;
+}
+
+b {
+  color: gray;
 }
