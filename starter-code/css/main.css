@@ -5,6 +5,76 @@ light blue: #1c5380
 */
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    height:100%;
+    background: linear-gradient( #f2f4f6 50%,#41658a 50%,#41658a 50%);
+font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+.logIn{ position: relative;
+    top: 140px;
+}
+.instagramLogo{
+  position: relative;
+  top: 175px;
+
+}
+
+.boxW{
+  border: 0;
+  padding: 15px;
+  position: relative;
+  float: left;
+    top: 282px;
+    left: 750px;
+  width: 400px;
+  height: 261px;
+  background-image: url("/Users/manuelcabrera/Desktop/projects/modulo-1/lab-css-instagram-clone/starter-code/images/frame.png");
+  border-style: solid;
+
+}
+.slogan{
+  color: #0c2748;
+  margin-bottom:  0px;
+
+font-size: 22px;
+}
+.text{
+  font-size: 16px;
+  margin-bottom: opx;
+}
+.googlePlay{
+
+}
+.appleStore{
+
+}
+.phones{
+  position: relative;
+      float: left;
+      right: 10px;
+      top: 130px;
+  border: 0px;
+
+margin: 10px;
+}
+.footer {
+  position: relative;
+    top: 600px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: 0;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color:#517396 ;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
