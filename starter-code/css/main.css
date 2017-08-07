@@ -1,119 +1,125 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
-
 *, :before, :after {
-  box-sizing: content-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: 'Open Sans', sans-serif;
 }
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   background: #F5F7F8;
-  margin: 0;
+  font-size: 10px;
 }
 
-.head-container {
-  height: 280px;
+.container {
+  height: 80vh;
+  background: url('../images/bgtile.png') repeat-x 0 0;
 }
 
-.grad {
-  background: -webkit-linear-gradient(#4F7CA1, #285983);
-
+.content {
+  width: 65%;
+  margin: 0 auto;
+  padding-top: 8%;
 }
 
-#logtext {
-  color: white;
-  text-align: center;
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
-#login {
-  position: absolute;
-  top: 130px;
-  right: 150px;
+.leftPanel {
+  float: left;
+}
 
+.rightPanel {
+  float: right;
+  padding-top: 2.4rem;
+}
+
+.login {
+  display: inline-block;
+  padding: 0.6rem 1rem;
+  background: linear-gradient(#6892b2,#41739b);
+  border: 3px solid linear-gradient(#6892b2,#41739b);;
+  border-radius: 0.2rem;
+  margin-left: 4.7rem;
+  margin-top: 0.7rem;
+}
+
+.login span {
+  font-weight: 400;
+  padding-left: 0.3rem; 
+  vertical-align: 0.4rem;
+  color: #fff;
+  font-size: 0.8rem;
+  
 }
 
 .flex-container {
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  align-items: center;
-  height: 340px;
-  width: 360px;
+  flex-wrap: wrap; 
   font-size: 14px;
-  margin: 0;
-  position: absolute;
-  left: 500px;
-  top: 250px;
+  padding: 7%;
+  width: 504px;
+  height: 284px;
+  background: url('../images/frame.png') no-repeat 0 0;
 }
 
 h1 {
   color: #06365f;
-  margin: 0;
-}
-
-p {
-  margin:0;
-}
-
-
-.footer-container {
-  text-transform: uppercase;
-  color: #1c5380;
-  font-size: 11px;
-  font-weight: bold;
-  opacity: 0.75;
-  bottom: 6%;
-  position: fixed;
-  text-align: center;
-  margin-right: 25%;
-  margin-left: 25%
-
+  margin-bottom: 1.5rem;
 }
 
 ul {
-  display: flex;
-  justify-content: center;
   list-style: none;
+  text-align: center;  
+  position: fixed;  
+  bottom: 3rem;
 }
 
 li {
-  display: inline-block;
-  margin: 5px;
+  float: left;
+  list-style: none;
+  padding: 0 1rem;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  color: #1c5380;
+  font-weight: bold;
+  opacity: 0.75;
 }
 
-span {
+li span {
   color: grey;
 }
 
-/*Icons*/
-
-#frame {
-  position: absolute;
-  top: 220px;
-  left: 470px;
+footer {
+  margin: 0 auto;
+  width: 50%;
 }
 
-#iphone {
-  margin-top: 20px;
-  margin-right: 10px;
-}
+ #iphone {
+  margin-top: 1rem;
+} 
 
 #android {
-  margin-top: 20px;
-  margin-left: 10px;
-}
+  margin-top: 1rem;
+  margin-left: 1.8rem;
+} 
 
 #phones {
-  position: absolute;
-  top: 90px;
-  left: 100px;
+  float: left; 
+  position: absolute; 
 }
 
 #brand {
-  position: absolute;
-  top: 110px;
-  left: 470px;
+ float: left;
 }
+
+
+
+
+
+
+
+
