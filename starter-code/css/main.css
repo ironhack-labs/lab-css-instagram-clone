@@ -4,7 +4,154 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+html {
+  margin-top: 300px;
+}
+
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: linear-gradient(#06365f, #1c5380);
   margin: 0;
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.phone {
+  background: url(../images/phones.png);
+  background-size: 80%;
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 350px;
+}
+
+
+
+.wrapper {
+  background-color: rgba(255,255,255,1);
+  width: 800px;
+  height: 400px;
+  padding-right: 22%;
+  padding-left: 22%;
+  /*display: block;
+  margin: auto;*/
+  margin: 0 auto;
+  float:none;
+}
+
+.innerWrapper {
+  margin-top: -140px;
+}
+
+.insta {
+  margin-top: 85px;
+  background: url(../images/frame.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 400px;
+}
+
+h2 {
+  color: #06365f;
+  text-align: left;
+  font-size: 19px;
+  position: relative;
+
+}
+
+.title {
+  background: url(../images/brand.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 230px;
+  height: 60px;
+  clear: both;
+  margin-top: -75px;
+  position: relative;
+  right: 20px;
+}
+
+.login {
+  background: linear-gradient(#1c5380, #06365f);
+  border: 1px solid #06365f;
+  width: 75px;
+  height: 30px;
+  float: right;
+  margin-top: -65px;
+}
+
+.home {
+  background: url(../images/home.png);
+  background-size: 30%;
+  background-repeat: no-repeat;
+  width: 75px;
+  height: 20px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.logp {
+  color: white;
+  font-size: 14px;
+  text-align: right;
+  margin-top: -1px;
+  margin-right: 11px;
+}
+
+div {
+  float: left;
+}
+
+.images {
+  width: 260px;
+  height: 60px;
+  margin-top: 120px;
+}
+
+.badge {
+  background: url(../images/badge-iphone.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 120px;
+  height: 60px;
+}
+
+.google {
+  background: url(../images/badge-android.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 120px;
+  height: 60px;
+  float: right;
+}
+
+.text {
+  height: 200px;
+}
+
+p {
+  font-size: 15px;
+  font-weight: normal;
+  color: rgba(0,0,0,.6);
+}
+
+span {
+  font-weight: bold;
+  color: rgba(0,0,0,.8)
+}
+
+footer {
+  text-align: center;
+  clear: both;
+  padding-bottom: 20px;
+}
+
+.copyrights {
+  color: rgba(0,0,0,.4);
+  font-weight: normal;
+}
+
+a {
+  text-decoration: none;
+  color: #1c5380;
+  font-weight: normal;
 }
