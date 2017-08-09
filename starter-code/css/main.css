@@ -3,8 +3,96 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+div{
+  margin: 0;
+  padding: 0;
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+.float-left{
+  float:left;
+}
+
+#main{
+  width: 900px;
+  margin: 0 auto;
+  margin-top: -150px;
+}
+
+#phones{
+  padding-right: 50px;
+}
+
+#button{
+  position: absolute;
+  right: 0;
+  top: 20px;
+  display:inline-block;
+  border: 1px #06365f solid;
+  padding: 5px;
+  background: linear-gradient( #1c5380, #06365f);
+  border-radius: 3px;
+  margin-right: 8px;
+}
+
+#log-in{
+  position: relative;
+  bottom: 5px;
+  padding: 5px;
+  color: #fff;
+}
+
+#content{
+  display:inline-block;
+  margin: 0;
+}
+
+#content-header{
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+#details{
+    background-image: url(../images/frame.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    width: 504px;
+}
+h1{
+  font-size: 30px;
+  width: 60%;
+  color: #06365f;
+  margin: 0 30px 30px 30px;
+  padding-top: 20px;
+}
+#details p, #apps{
+    margin: 30px;
+}
+
+#apps img{
+  padding-right: 10px;
+}
+#footer{
+  clear:both;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  height: 60px;
+  padding-top: 50px;
+}
+
+#background{
+  height: 250px;
+  background-image: url(../images/bgtile.png);
+}
+
+a{
+  text-decoration: none;
+  color: #1c5380;
+  padding: 10px;
 }
