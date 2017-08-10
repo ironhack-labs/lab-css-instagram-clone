@@ -5,6 +5,89 @@ light blue: #1c5380
 */
 
 body {
+  height: 100%;
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+.containter {
+  width: 100%;
+}
+
+.top-bg-section {
+  padding: 150px;
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat;
+}
+
+.bottom-section {
+  width: 900px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+
+.mobile-phones-img {
+  margin-top: -230px;
+  padding-right: 50px;
+}
+
+.content {
+  margin-top: -150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content-text h2 {
+  color: #06365f;
+}
+
+.login {
+  display: inline-block;
+  color: #ffffff;
+}
+
+.instagram-header {
+
+}
+
+.content-text {
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  padding-top: 10px;
+  padding-left: 40px;
+  padding-right: 80px;
+}
+
+.content-text img {
+  padding-top: 15px;
+}
+
+.badge-iphone {
+  padding-right: 15px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer ul {
+  list-style: none;
+  margin-top: 50px;
+  padding: 0;
+}
+
+footer li {
+  display: inline-block;
+  padding-right: 15px;
+  font-weight: bold;
+  color: #5b7a9a;
+}
+
+footer li:last-child {
+  color: #bbbbbc;
 }
