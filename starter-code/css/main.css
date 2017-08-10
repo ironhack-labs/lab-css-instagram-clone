@@ -8,3 +8,64 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+nav {
+  float: left;
+}
+
+.parent-container {
+  overflow: auto;
+}
+
+  .blue{
+    background-image: url(../images/bgtile.png);
+    background-repeat: repeat;
+    height:300px;
+  }
+
+  .center-container{
+    height: 600px;
+    width: 900px;
+    margin-top: -200px;
+    margin-left: 150px;
+  }
+      .phones {
+        height: 500px;
+        width: 270px;
+        float: left;
+        margin-top: 50px;
+        margin-left: 50px;
+      }
+
+      .brand-login {
+        width: 500px;
+        height:100px;
+        float: right;
+        margin-top: 20px;
+      }
+
+      .box-words {
+        height: 400px;
+        width: 400px;
+        float: right;
+        margin-right: 100px;
+      }
+      .text{
+        margin-top: -240px;
+        margin-left: 70px;
+      }
+      .appstore-buttons {
+        height: 100px;
+        width: 400px;
+        float: left;
+        margin-top: -100px;
+        margin-left: 150px;
+      }
+
+      .bottom-nav {
+        height: 20px;
+        width: 800px;
+        float: left;
+        margin-left: 50px;
+        margin-top: 20px;
+      }
