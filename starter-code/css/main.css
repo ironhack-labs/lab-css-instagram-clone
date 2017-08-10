@@ -17,6 +17,10 @@ body {
   float:left;
 }
 
+.bold{
+  font-weight: 900;
+}
+
 #main{
   width: 900px;
   margin: 0 auto;
@@ -70,10 +74,12 @@ h1{
   margin: 0 30px 30px 30px;
   padding-top: 20px;
 }
-#details p, #apps{
+#apps{
     margin: 30px;
 }
-
+#details p{
+    margin: 10px 30px;
+}
 #apps img{
   padding-right: 10px;
 }
