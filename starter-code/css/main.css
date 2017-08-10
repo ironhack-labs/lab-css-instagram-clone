@@ -8,3 +8,93 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.content{
+  width:100%;
+  position:relative;
+  bottom:200px;
+  left: calc(20%);
+  margin: 0 auto;
+
+}
+
+.blue-line{
+  width: 100%;
+  height: 300px;
+}
+
+.phones{
+  float: left;
+}
+.brand{
+  float: left;
+  margin-left: 40px;
+  margin-top:10px;
+
+
+}
+.home{
+  float: left;
+  margin-top: 40px;
+  margin-left: 80px;
+
+
+}
+.frame{
+float: left;
+margin-left: 40px;
+margin-right: 400px;
+}
+
+
+.iphone{
+margin-left: 70px;
+margin-bottom: 80px;
+float: left;
+
+
+}
+.android{
+  float: left;
+margin-bottom:80px;
+margin-left: 20px;
+
+}
+.paragraph{
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 5px;
+  padding:0px 35px 35px 35px;
+  max-width:400px;
+  height:280px;
+ float: left;
+ margin-top: 40px;
+ margin-left: 40px;
+ margin-right: 400px;
+ box-shadow: 0 9px 0px 0px white, 0 -9px 0px 0px white, 12px 0 15px -4px rgba(0, 0, 0, 0.1), -12px 0 15px -4px rgba(0, 0, 0, 0.1);
+}
+.blue-header{
+  color: #125688;
+}
+br {
+            display: block; /* makes it have a width */
+            content: ""; /* clears default height */
+            margin-top: 5px;
+}
+
+.list-item{
+  color: #125688;
+  display:inline;
+  margin-right:8px;
+  font-weight: 700;
+}
+.nav{
+  padding-top: 550px;
+  display:block;
+  position:relative;
+  right:600px;
+  font-size: 12px;
+}
+.copyright{
+  color:black;
+}
