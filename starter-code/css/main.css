@@ -4,7 +4,81 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+
+/* messy css - sorry*/
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+  box-sizing: border-box;
+}
+.wrapper {
+  overflow: auto;
+  box-sizing: border-box;
+  margin-top: 60px;
+}
+
+.home .home-button{
+  background-color: #1c5380;
+  color: white;
+  width: 90px;
+  border-radius: 2px;
+  float: right;
+  margin-right: 25px;
+}
+
+.container{
+  float: left;
+  margin-top: 72px;
+}
+
+.content{
+  background: url("../images/frame.png") no-repeat;
+  width: 500px;
+  padding: 30px 10px;
+}
+
+.cont-text{
+  margin: 20px
+}
+
+h2{
+  margin: 0 auto;
+}
+
+
+.phone-float{
+  float: left;
+  padding: 50px 100px;
+}
+
+footer{
+  box-sizing: border-box;
+  color: #06365f;
+  margin: 20px;
+  text-align: center;
+  font-size: 10px;
+  padding: 10px;
+}
+
+h3{
+  display: inline;
+  padding: 7px;
+}
+
+
+/* Yes, I know the images could have been done differently with
+a div or something so I wouldn't have to repeat but I did it. Sorry.
+*/
+
+.apple{
+  padding: 60px 15px;
+
+}
+
+.android{
+  padding: 60px 15px;
+
 }
