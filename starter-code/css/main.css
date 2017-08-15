@@ -8,3 +8,102 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+h1{
+  font-size: 1.5em;
+  color: #06365f;
+  margin-top: 30px;
+}
+p{
+  font-size: 16px;
+  font-weight: 400;
+}
+.content-1{
+  width: 100%;
+  height: 270px;
+  background: rgba(80,126,163,1);
+  background: -webkit-linear-gradient(rgba(80,126,163,1) 0%, rgba(51,96,136,1) 100%);
+  background: -o-linear-gradient(rgba(80,126,163,1) 0%, rgba(51,96,136,1) 100%);
+  background: linear-gradient(rgba(80,126,163,1) 0%, rgba(51,96,136,1) 100%);
+}
+.content-2{
+  background: white;
+  height: 350px;
+}
+.content-3{
+  position: absolute;
+  top: 90px;
+  width: 100%;
+}
+.phones{
+  width: 40%;
+}
+.phones img{
+  float: right;
+}
+.instagram{
+  padding-top: 20px;
+  width: 45%;
+  margin-left: 4%;
+  margin-right: 10%;
+}
+.col{
+  float: left;
+}
+.footer{
+  clear:both;
+}
+.brand{
+  width: 400px;
+}
+.button-header{
+  width: 100px;
+}
+button{
+  background-color: blue;
+  padding: 7px 10px 7px 5px;
+  border-radius: 3px;
+  margin-top:20px;
+  font-size: 14px;
+  color: white;
+  border: 2px solid rgba(6, 54, 95, .5);
+  background: rgba(105,147,179,1);
+  background: -webkit-linear-gradient(top, rgba(105,147,179,1) 0%, rgba(66,116,156,1) 100%);
+  background: -o-linear-gradient(top, rgba(105,147,179,1) 0%, rgba(66,116,156,1) 100%);
+  background: linear-gradient(to bottom, rgba(105,147,179,1) 0%, rgba(66,116,156,1) 100%);
+}
+.img-button{
+  vertical-align: middle;
+  width: 25px;
+  margin: 0 5px;
+}
+.instagram-information{
+  background: url(../images/frame.png) no-repeat;
+  height: 400px;
+  width: 400px;
+  /*border: 1px solid black;*/
+  padding-left: 40px;
+  padding-right: 120px;
+  padding-top: 10px;
+}
+.clearfix{
+  clear: both;
+}
+.button-app{
+  width: 50%;
+  margin-top: 15px;
+}
+.footer{
+  text-align: center;
+  padding-top:50px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 12px;
+}
+.footer ul{
+  list-style-type: none;
+}
+.footer ul li{
+  display: inline-block;
+  padding: 0 10px 50px 10px;
+  color: #6993b3;
+}
