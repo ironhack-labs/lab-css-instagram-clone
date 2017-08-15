@@ -18,7 +18,7 @@ body {
 
 .background-down {
   width: 100%;
-  height: 400px;
+  height: 350px;
   background-color: white;
 }
 
@@ -30,40 +30,58 @@ body {
   display: inline-block;
   position: absolute;
   top: 100px;
-  left: 200px;
+  left: 155px;
 
 }
 
 .box {
-  width: 40%;
+  width: 43%;
   height: 510px;
-  background-color: #afd79f;
   float: right;
   display: inline-block;
   position: absolute;
   top: 100px;
-  right: 200px;
+  right: 155px;
 }
 
 .logo {
-  width: 50%;
+  width: 63%;
   height: 80px;
-  background-color: #eec0c0;
+  background-image: url(../images/brand.png);
+  background-size: cover;
   float: left;
 
 }
 
-.login-btn {
+.login {
   width: 30%;
   height: 80px;
-  background-color: #eec0c0;
   float: right;
+}
+
+button.login-btn  {
+  font-size: 16px;
+  margin-top: 16px;
+  margin-left: 36px;
+  color: white;
+  padding: 8px 12px 12px 8px;
+  border: 1px solid #336285;
+  vertical-align: text-top;
+  font-family: "Helvetica Nue", sans-serif;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+.login-btn::before {
+  content: url(../images/home.png);
+  padding-right: 12px;
 }
 
 .info {
   width: 100%;
   height: 300px;
-  background-color: #eec0c0;
+  background-image: url(../images/frame.png);
+  background-size: cover;
   margin-top: 16px;
   clear: both;
   display: inline-block;
@@ -72,38 +90,63 @@ body {
 .info-text {
   width: 90%;
   height: 275px;
-  background-color: #fffcfc;
   margin-top: 10px;
   margin-left: 25px;
+}
+
+.info-text h2 {
+  font-size: 30px;
+  font-family: "Helvetica Nue", sans-serif;
+  color: #06365f;
+}
+
+.info-text p {
+  font-size: 18px;
+  color: #545454;
 }
 
 .badges {
   width: 100%;
   height: 100px;
-  background-color: #eec0c0;
-
 }
 
 .iphone-badge {
   width: 40%;
   height: 90px;
-  background-color: #fffcfc;
+  background-size: cover;
   float: left;
-  margin: 5px 0 0 25px;
+  margin: 25px 0 0 25px;
 }
 
 .android-badge {
   width: 40%;
   height: 90px;
-  background-color: #fffcfc;
   float: right;
-  margin: 5px 50px 0 0;
+  margin: 25px 50px 0 0;
 }
 
 .footer {
   width: 100%;
-  height: 100px;
-  background-color: #f6b49e;
+  height: 80px;
   clear: both;
   left: 40px;
+}
+
+.footer ul {
+  list-style: none;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.footer li {
+  display: inline-block;
+  margin-right: 16px;
+  font-size: 14px;
+  color: #1c5380;
+  font-weight: bold;
+}
+
+.footer li:last-child {
+  color: #cecece;
 }
