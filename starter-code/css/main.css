@@ -4,7 +4,123 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+*{
+  box-sizing: border-box;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+.azul{
+  background-color: #06365f;
+  height: 250px;
+  width: 100%;
+  float: left;
+}
+
+.blanca{
+  background-color: white;
+  height: 400px;
+  width: 100%;
+  float: left;
+}
+
+.phone{
+  float: left;
+  height: 480px;
+  width: 20%;
+  /**background-color: red;**/
+  position: relative;
+  bottom: 580px;
+  left: 150px;
+}
+
+.logo{
+  float: left;
+  height: 100px;
+  width: 35%;
+  /**background-color: pink;**/
+  position: relative;
+  bottom: 580px;
+  left: 280px;
+}
+
+.login{
+  float: left;
+  height: 50px;
+  width: 20%;
+  /*background-color: yellow;*/
+  position: relative;
+  bottom: 580px;
+  left: 250px;
+  display: block;
+  float: left;
+
+}
+
+.login p{
+  color:white;
+}
+
+.home{
+  width: 10%;
+  /*background-color: red;*/
+  float: left;
+  vertical-align: middle;
+  margin-right: 10px;
+  margin-top: 15px;
+}
+
+.texto{
+  float: left;
+  height: 300px;
+  width: 50%;
+  position: relative;
+  background-color: white;
+  border: 1px solid #1c5380;
+  border-radius: 10px;
+  bottom: 570px;
+  left: 280px;
+  padding: 5px 30px;
+}
+
+h2{
+  color: #1c5380;
+}
+
+.app{
+  float: left;
+  height: 50px;
+  width: 50%;
+  position: relative;
+  /*background-color: red;*/
+  bottom: 530px;
+  left: 330px;
+}
+
+.android{
+  margin-left: 40px;
+}
+
+.container ul{
+  float: left;
+  list-style: none;
+  /*background-color: red;*/
+  width: 80%;
+  position: relative;
+  bottom: 500px;
+  /*left: 10px;*/
+}
+
+li{
+  float: left;
+  margin-left: 30px;
+  color: #1c5380;
+}
+
+.container ul li:last-child{
+  margin-left: 30px;
+  color: gray;
 }
