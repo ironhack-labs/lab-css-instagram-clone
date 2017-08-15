@@ -8,3 +8,73 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+#blue-back {
+  background-image: url("./images/bgtile.png");
+  height: 300px;
+  width: 100%;
+  margin: 0px;
+  float: left;
+  clear: both;
+}
+
+.phones {
+  float: left;
+  clear: both;
+  margin-left: 10%;
+  margin-top: 5%;
+  position: absolute;
+}
+
+
+
+.explain {
+  background-image: url("./images/frame.png");
+
+  clear: both;
+  margin-left: 35%;
+  margin-right: 25%;
+  margin-top: 10%;
+  position: absolute;
+}
+
+.brand {
+  margin-left: 50px;
+}
+
+.house {
+  float: right;
+  clear: both;
+  margin-left: 80%;
+  position: absolute;
+}
+
+#button {
+  background-color: #1c5380;
+  padding: 10px;
+  float: right;
+}
+
+.paragraph {
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  height: 400px;
+  margin: 5%;
+  padding: 30px;
+}
+
+h3 {
+  color: #06365f;
+}
+
+footer {
+  color:#1c5380;
+  margin-top: 50%;
+  margin-left: 30%;
+  position: absolute;
+  width: 70%;
+}
+
+span {
+  color: grey;
+}
