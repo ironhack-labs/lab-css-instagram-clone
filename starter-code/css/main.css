@@ -3,8 +3,139 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+html {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
   margin: 0;
+  background-image: url("../images/bgtile.png");
+  background-position: top left;
+  background-repeat: repeat-x;
+
+}
+
+h1 {
+  color: #1c5380;
+  width: 60%;
+  margin: 20px 10px;
+  font-size: 26px;
+}
+
+p {
+  margin-top: 10px;
+  margin-left: 10px;
+  color: #333;
+  line-height: 24px;
+}
+
+.container {
+  margin: 0 auto;
+  margin-top: 50px;
+  padding-top: 40px;
+  max-width: 68%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.side-img {
+  max-width: 30%;
+}
+.content {
+  max-width: 504px;
+  padding-top: 15px;
+
+  /*border: 1px solid black;*/
+}
+
+.info {
+  background-image: url("/Users/Jennie/Ironhack/code/labs/lab-css-instagram-clone/starter-code/images/frame.png");
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 100%;
+  padding: 5%;
+  margin-bottom: 20px;
+  margin-top: 16px;
+}
+
+.inner-heading {
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login {
+  background: linear-gradient(#7295b0, #4a7597);
+  border: 2px solid #325d82;
+  width: 100px;
+  height: 40px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login span {
+  color: white;
+  font-size: 14px;
+  padding-left: 10px;
+  opacity: 0.9;
+  text-shadow: 0 2px #06365f;
+}
+
+.stores {
+  display: block;
+  margin-top: 24px;
+  vertical-align: baseline;
+}
+
+.stores img: ;:first-child {
+  margin-right: 15px;
+}
+
+.footer-nav {
+  display: flex;
+  max-width: 100%;
+  justify-content: center;
+
+}
+
+.navigator {
+  list-style-type: none;
+}
+
+.footer-nav li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.footer-nav li a {
+  text-decoration: none;
+  color: #1c5380;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  opacity: 0.7;
+  transition: opacity 200ms;
+}
+
+.footer-nav li a:hover {
+  opacity: 1;
+}
+
+.footer-nav li:last-child {
+  color: grey;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
 }
