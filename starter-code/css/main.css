@@ -3,8 +3,117 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
-body {
+body{
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  height:600px;
+  width: 100%;
+}
+.background1{
+  background-color:#4A7192;
+  height: 340px;
+  width:100%;
+  position:absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 2;
+}
+
+.background2{
+  background-color:white;
+  height: 700px;
+  float:left;
+  width:100%;
+  position:absolute;
+  left: 0px;
+  top: 300px;
+  z-index: 1;
+}
+
+.container{
+  margin:auto;
+  height:510px;
+  width:60%;
+  color:white;
+  position:absolute;
+  left: 20%;
+  top: 150px;
+  z-index: 3;
+
+}
+
+.left{
+  width:45%;
+  height:100%;
+  float:left;
+  background-color:transparent;
+  background-image: url(../images/phones.png);
+  background-repeat: no-repeat;
+}
+.right{
+  width:55%;
+  height:100%;
+  float:left;
+}
+
+.top{
+  height:25%;
+}
+.top .img1{
+      padding-top: 40px;
+}
+button{
+      height: 37px;
+      width: 70px;
+      color:white;
+      position:absolute;
+      top:65px;
+      left: 680px;
+      z-index: 4;
+      background-color: #4A7192;
+      border-width: 0px;
+      vertical-align: middle;
+
+
+
+}
+.bot{
+      height:75%;
+      background-image: url(../images/frame.png);
+      background-repeat: no-repeat;
+      background-size:contain;
+      padding: 15px;
+
+}
+h2{
+      color:#06365f;
+}
+
+p{
+      color:black;
+}
+
+footer{
+        margin:auto;
+        width:60%;
+        position:absolute;
+        left: 20%;
+        top: 700px;
+        z-index: 3;
+}
+
+footer ul{
+      list-style-type: none;
+      text-align: center;
+}
+
+footer li{
+   display: inline;
+   text-align: center;
+   margin: 0 10px 0 0;
+   color: #1c5380;
+   font-weight: bolder;
+}
+span{
+      color:grey;
 }
