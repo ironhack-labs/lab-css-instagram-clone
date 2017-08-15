@@ -8,3 +8,91 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+#mainBlue{
+  background-color: #5B9EE3;
+  width:100%;
+  height: 350px;
+}
+
+#mainWhite{
+  background-color: #FFF;
+  width:100%;
+  height:400px;
+}
+
+#aboveAll{
+  width:75%;
+  background-color: none;
+  position: relative;
+  top:-600px;
+  left:225px;
+  height: 500px;
+
+}
+
+#phone{
+  float:left;
+}
+
+#mainPart{
+  width:50%;
+  float:left;
+  margin-left: 25px;
+}
+
+footer{
+  clear:both;
+  padding-top: 30px;
+}
+
+#brand{
+  background-color: #5B9EE3;
+  margin-bottom: 15px;
+}
+
+#brand button{
+  float:right;
+  margin-top: 15px;
+  margin-right: 5px;
+  height: 40px;
+  width:100px;
+  border:1px solid #C1CDDA;
+  border-radius: 5px;
+  background-color: #5B9EE3;
+}
+
+#brand button span{
+  font-weight: bold;
+  color: #C1CDDA;
+  padding-left: 3px;
+  font-size: 16px;
+}
+
+#text{
+  background-color: #FFF;
+  border-width: 3px 3px 0 3px;
+  border-radius: 5px 5px 0 0;
+  padding:5px 20px;
+}
+
+#text h2{
+  color: #5B9EE3;
+}
+
+#buttons img{
+  margin-right: 12px;
+  padding-left: 15px;
+}
+
+footer ul li{
+  float:left;
+  margin: 0 14px;
+  color:#5B9EE3;
+  font-weight: bold;
+}
+
+footer span{
+  font-weight: bold;
+  color:#C1CDDA;
+}
