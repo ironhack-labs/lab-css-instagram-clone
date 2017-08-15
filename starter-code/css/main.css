@@ -8,3 +8,79 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.blue-div {
+  background-color: #1c5380;
+  height: 300px;
+}
+
+.white-div {
+  background-color: white;
+}
+
+.logo {
+  float: right;
+  padding: 120px 500px 20px 0px;
+}
+
+.log-in {
+  position: absolute;
+  top: 135px;
+  right: 300px;
+  border: 2px solid #06365f;
+  padding: 10px 20px;
+  background-color: #1c5380;
+}
+
+.log-in a {
+  text-decoration: none;
+  color: white;
+}
+
+.log-in img {
+  vertical-align: middle;
+  padding: 0 10px 0 0;
+}
+
+h2 {
+  color: #1c5380;
+  padding-right: 180px;
+}
+
+.info {
+  background-image: url("/Users/chrisestepa/desktop/ironhack/week1/day2/de/lab-css-instagram-clone/starter-code/images/frame.png");
+  background-size: cover;
+  margin: 0px 300px 10px 625px;
+  padding: 10px 40px 30px;
+  position: absolute;
+  top: 210px;
+}
+
+.info img {
+  padding: 10px;
+}
+
+footer {
+  padding: 400px 0 0 0;
+  margin-left: 385px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #1c5380;
+  padding: 10px 5px;
+  font-size: 15px;
+}
+
+.phone {
+  position: absolute;
+  top: 100px;
+  left: 230px;
+}
+
+footer h5 {
+  color: grey;
+  position: absolute;
+  right: 470px;
+  top: 683px;
+}
