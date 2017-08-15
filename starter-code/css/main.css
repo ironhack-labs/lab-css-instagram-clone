@@ -3,8 +3,68 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+html {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-position: top left;
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+}
+
+
+
+.container {
+  margin: 10% auto;
+  width:90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.side-img {
+  width: 30%;
+}
+.content {
+  width: 60%;
+  /*border: 1px solid black;*/
+}
+
+.info {
+  background-image: url("/Users/Jennie/Ironhack/code/labs/lab-css-instagram-clone/starter-code/images/frame.png");
+  background-repeat: no-repeat;
+  background-position: top left;
+  width: 100%;
+  padding: 5%;
+
+}
+
+.inner-heading {
+  padding: 0 5%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.login {
+
+
+}
+
+.footer-nav {
+  display: block;
+  width: 100%;
+  list-style-type:none;
+}
+
+.footer-nav li {
+  display: inline;
 }
