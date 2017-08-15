@@ -15,44 +15,80 @@ body {
 
 .background {
 	display: block;
-	background-color: #06365f;
+	background-image: url("../images/bgtile.png");
 	min-height: 30vh;
 	width:100vw;
 	margin-bottom: -20vh;
+	padding: 0px;
 }
 
-header h3 {
-	color: white;
-	font-size: 200%;
+.background img {
+	width: 100%;
+	margin: 0px;
 }
+
 
 .central-container {
-	display: block;
 	min-height: 50vh;
+	display: flex;
+	justify-content: space-between;
 }
 
 .left-side {
-	display: inline;
-	min-height: 50vh;
-	min-width: 40vh;
+	width: 50%;
+	margin-left: 20%;
 }
 
 .right-side {
+	width: 100%;
+}
+
+.brand {
+	margin-bottom: 20px;
+	float: left;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	max-width: 62%;
+	margin-top: 30px;
+}
+
+.log-in-box {
+	padding: 10px;
+	margin-top: 15px;
+	height: 20px;
+	border: 1px #06365F solid;
+	background: linear-gradient(#1c5380, #06365f);
+	border-radius: 2px;
+	line-height: 20px;
+	text-align:right;
+	color: white;
+}
+
+.log-in-box p {
 	display: inline;
-	min-width: 60vh;
+	vertical-align: top;
+}
+
+
+
+main {
+	background-image: url("../images/frame.png");
+	background-repeat: no-repeat;
+	max-width: 50vh;
+	padding: 10px 20px 20px 40px;
+	border-radius: 2px;
 }
 
 main h4 {
+	font-size: 140%;
 	color: #06365f;
 }
 
-main {
-	background-color: white;
-	max-width: 40vh;
-}
-
-
 footer {
+	margin-top: 50px;
 	display: block;
 	text-align: center;
 }
