@@ -19,22 +19,32 @@ body {
   background-position: top left;
   background-image: url("../images/bgtile.png");
   background-repeat: repeat-x;
+
 }
 
+h1 {
+  color: #06365f;
+  width: 45%;
+  margin: 0 10px;
 
-
+}
+p {
+  margin-top: 10px;
+  margin-left: 10px;
+}
 .container {
-  margin: 10% auto;
-  width:90%;
+  margin: 50px auto;
+  max-width: 80%;
   display: flex;
   justify-content: space-between;
 }
 
 .side-img {
-  width: 30%;
+  max-width: 30%;
 }
 .content {
-  width: 60%;
+  max-width: 65%;
+
   /*border: 1px solid black;*/
 }
 
@@ -42,29 +52,66 @@ body {
   background-image: url("/Users/Jennie/Ironhack/code/labs/lab-css-instagram-clone/starter-code/images/frame.png");
   background-repeat: no-repeat;
   background-position: top left;
-  width: 100%;
+  background-size: cover;
   padding: 5%;
-
+  margin-bottom: 20px;
 }
 
 .inner-heading {
-  padding: 0 5%;
-  width: 100%;
+  padding: 0 10px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .login {
+  background: linear-gradient(#96c3e8, #1c5380);
+  border: 2px solid #1c5380;
+  width: 100px;
+  height: 40px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.8;
+}
 
+.login span {
+  color: white;
+  font-size: 14px;
+  padding-left: 10px;
+  opacity: 0.9;
+  text-shadow: 0 1px #06365f;
+}
 
+.stores {
+  display: block;
+  margin-top: 30px;
+  vertical-align: baseline;
 }
 
 .footer-nav {
-  display: block;
-  width: 100%;
-  list-style-type:none;
+  display: flex;
+  max-width: 100%;
+  justify-content: center;
+
+}
+
+.navigator {
+  list-style-type: none;
 }
 
 .footer-nav li {
+  color: #1c5380;
   display: inline;
+  text-transform: uppercase;
+  margin: 0 10px;
+  font-size: 12px;
+  font-weight: bold;
+  opacity: 0.7;
+}
+
+.footer-nav li:last-child {
+  color: grey;
+
 }
