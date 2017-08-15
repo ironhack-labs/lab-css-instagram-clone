@@ -13,12 +13,14 @@ body {
   width: 100%;
   height: 300px;
   background-color: #4f7998;
+  position: relative;
 }
 
 .background-down {
   width: 100%;
-  height: 600px;
+  height: 400px;
   background-color: white;
+  position: relative;
 }
 
 .right-image {
@@ -26,13 +28,22 @@ body {
   height: 500px;
   background-color: #eec0c0;
   float: left;
+  display: inline-block;
+  position: absolute;
+  top: 100px;
+  left: 200px;
+
 }
 
 .info-box {
   width: 40%;
   height: 500px;
-  background-color: #eec0c0;
+  background-color: #afd79f;
   float: right;
+  display: inline-block;
+  position: absolute;
+  top: 100px;
+  right: 200px;
 }
 
 .footer {
@@ -40,4 +51,5 @@ body {
   height: 100px;
   background-color: #f6b49e;
   clear: both;
+  left: 40px;
 }
