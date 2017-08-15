@@ -1,8 +1,111 @@
 /*
-Colors:
-
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
-
+Colors to use:
+dark blue: #06365f
+light blue: #1c5380
 */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: flex-start;
+    padding: 100px 0;
+    }
+
+.flex-item1 {
+    order: 1;
+    flex: .4 1 auto;
+    align-self: auto;
+    margin: 0 50px 40px 50px;
+    max-width: 575px;
+    }
+
+.flex-item2 {
+    order: 2;
+    flex: .6 1 auto;
+    align-self: auto;
+    margin: 0 50px;
+    max-width: 300px;
+    }
+
+.flex-item2 img {
+  height: 530px;
+}
+
+.blue-background {
+  background-color: #1c5380;
+  height: 300px
+}
+
+.logo-header {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.blue-btn {
+  background-color: #226caa;
+  color: #cedde2;
+  padding: 10px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 23px;
+  right: 0px;
+  border: none;
+  border: 1px solid #154166;
+}
+
+.blue-btn i {
+  color: #cedde2;
+}
+
+.main-text {
+  background-color: white;
+  padding: 10px 40px 15px 40px;
+  border: .5px solid #1c5380;
+  border-radius: 5px;
+}
+
+.main-text h1 {
+  color: #1c5380;
+}
+
+.store-apps {
+  padding-top: 10px;
+}
+
+.store-apps img {
+  padding-right: 15px;
+}
+
+.footer {
+  clear: both;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer-list li {
+  display: inline-block;
+  padding-left: 20px;
+  text-transform: uppercase;
+  color: #06365f;
+  font-weight: bold;
+}
+
+.footer-list a {
+  color: #06365f;
+  text-decoration: none;
+}
+
+#copyright {
+  color: grey;
+}
