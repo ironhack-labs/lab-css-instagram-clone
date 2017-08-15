@@ -8,3 +8,89 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.blueBackground {
+  background: #1c5380;
+  height: 250px;
+}
+
+
+.container{
+  position: absolute;
+  left: 150px;
+  top: 100px;
+  right: 150px;
+
+}
+
+.leftSide{
+  float: left;
+    width: 50%;
+  text-align: center;
+
+}
+
+.rightSide{
+  width: 50%;
+  float: right;
+  text-align: center;
+
+}
+
+.logo1{width: 60%;
+float: left;
+text-align: center;}
+
+
+button {
+float: left;
+background-color: #06365f;
+border: 2px, black;
+width: 90px;
+padding: 5px;
+margin-left: 40px;
+margin-top: 10px;
+}
+
+span{color:white;}
+
+h3{color:#06365f;
+}
+
+
+
+.sectionWhite{
+  background-color: white;
+  padding: 20px;
+  width: 400px;
+  border-radius: 20px;
+  clear: left;
+  text-align: left;
+}
+
+
+
+.downLogos{margin-top: 60px;}
+  .logo2{width: 40%;
+    float: left;
+    text-align: center;
+    }
+
+    .logo3{width: 40%;
+      float: left;
+      text-align: center;
+    }
+
+
+
+.last{clear: both;
+width: 100%;
+text-align: center;
+margin-left: 200px;
+padding-top: 50px;
+margin-bottom: 100px;}
+
+li{
+  float: left;
+  margin-left: 20px;
+}
