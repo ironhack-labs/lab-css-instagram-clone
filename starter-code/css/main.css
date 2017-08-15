@@ -1,10 +1,156 @@
 /*
 Colors to use:
 dark blue: #06365f
-light blue: #1c5380
+  light blue: #1c5380
 */
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+.background-up {
+  width: 100%;
+  height: 300px;
+  background-color: #4f7998;
+  position: relative;
+}
+
+.background-down {
+  width: 100%;
+  height: 350px;
+  background-color: white;
+}
+
+.left-image {
+  width: 25%;
+  height: 510px;
+  background-image: url(../images/phones.png);
+  float: left;
+  display: inline-block;
+  position: absolute;
+  top: 100px;
+  left: 155px;
+
+}
+
+.box {
+  width: 43%;
+  height: 510px;
+  float: right;
+  display: inline-block;
+  position: absolute;
+  top: 100px;
+  right: 155px;
+}
+
+.logo {
+  width: 63%;
+  height: 80px;
+  background-image: url(../images/brand.png);
+  background-size: cover;
+  float: left;
+
+}
+
+.login {
+  width: 30%;
+  height: 80px;
+  float: right;
+}
+
+.login-btn {
+  font-size: 16px;
+  margin-top: 16px;
+  margin-left: 36px;
+  color: white;
+  padding: 8px 12px 12px 8px;
+  border: 1px solid #1c5380;
+  vertical-align: text-top;
+  font-family: "Helvetica Nue", sans-serif;
+  letter-spacing: 1px;
+  display: block;
+  background: linear-gradient(#4f7998, #356a96);
+  border-radius: 7px;
+}
+
+.login-btn::before {
+  content: url(../images/home.png);
+  padding-right: 7px;
+}
+
+.info {
+  width: 100%;
+  height: 300px;
+  background-image: url(../images/frame.png);
+  background-size: cover;
+  margin-top: 16px;
+  clear: both;
+  display: inline-block;
+}
+
+.info-text {
+  width: 90%;
+  height: 275px;
+  margin-top: 10px;
+  margin-left: 25px;
+}
+
+.info-text h2 {
+  font-size: 30px;
+  font-family: "Helvetica Nue", sans-serif;
+  color: #06365f;
+  letter-spacing: 1px;
+
+}
+
+.info-text p {
+  font-size: 18px;
+  color: #545454;
+}
+
+.badges {
+  width: 100%;
+  height: 100px;
+}
+
+.iphone-badge {
+  width: 40%;
+  height: 90px;
+  background-size: cover;
+  float: left;
+  margin: 25px 0 0 25px;
+}
+
+.android-badge {
+  width: 40%;
+  height: 90px;
+  float: right;
+  margin: 25px 50px 0 0;
+}
+
+.footer {
+  width: 100%;
+  height: 80px;
+  clear: both;
+  left: 40px;
+}
+
+.footer ul {
+  list-style: none;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.footer li {
+  display: inline-block;
+  margin-right: 16px;
+  font-size: 14px;
+  color: #1c5380;
+  font-weight: bold;
+}
+
+.footer li:last-child {
+  color: #cecece;
 }
