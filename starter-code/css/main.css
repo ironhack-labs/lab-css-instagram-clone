@@ -8,3 +8,88 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+.top-blue{
+  position: relative;
+  height: 35vh;
+  background: #1c5380;
+}
+.container{
+  position: absolute;
+  top: 16%
+
+}
+.phones{
+  width: 40%;
+  float: left;
+}
+.picture{
+  width: 50%;
+  float: right;
+}
+.content{
+  width: 35%;
+  float: left;
+  margin-left: 100px;
+}
+.top{
+  vertical-align: middle;
+}
+
+button{
+  background: #2068a3;
+  border: 1px solid #06365f;
+  padding: 10px;
+  font-size: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-top: 15px;
+  margin-right: 10px;
+}
+button > img{
+  margin-right: 5px;
+}
+.text{
+  margin: 20px auto 0;
+  background-image: url('../images/frame.png');
+  background-repeat: no-repeat;
+  background-size: cover
+}
+p{
+  padding: 0 40px;
+  font-size: 19px;
+}
+h1{
+  padding: 30px 20px 0;
+  margin-left: 20px;
+  width: 330px;
+  color: #06365f;
+  font-size: 27px;
+}
+footer{
+
+  position: fixed;
+  bottom: 30px;
+  width: 100%;
+  text-align: center;
+}
+.badges{
+  margin-left: 50px;
+}
+.badges img{
+  height: 60px;
+}
+.apple{
+  margin-right: 20px;
+}
+ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  color: #1c5380;
+  font-weight: bold;
+}
+span{
+  color: #aaa;
+}
