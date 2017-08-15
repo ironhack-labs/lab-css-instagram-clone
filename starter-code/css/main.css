@@ -69,6 +69,14 @@ body {
   display: inline-block;
 }
 
+.info-text {
+  width: 90%;
+  height: 275px;
+  background-color: #fffcfc;
+  margin-top: 10px;
+  margin-left: 25px;
+}
+
 .badges {
   width: 100%;
   height: 100px;
@@ -81,7 +89,7 @@ body {
   height: 90px;
   background-color: #fffcfc;
   float: left;
-  margin: 5px 0 0 5px;
+  margin: 5px 0 0 25px;
 }
 
 .android-badge {
