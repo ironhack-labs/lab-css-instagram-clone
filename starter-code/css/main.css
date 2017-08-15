@@ -1,7 +1,7 @@
 /*
 Colors to use:
 dark blue: #06365f
-light blue: #1c5380
+  light blue: #1c5380
 */
 
 body {
@@ -59,22 +59,24 @@ body {
   float: right;
 }
 
-button.login-btn  {
+.login-btn {
   font-size: 16px;
   margin-top: 16px;
   margin-left: 36px;
   color: white;
   padding: 8px 12px 12px 8px;
-  border: 1px solid #336285;
+  border: 1px solid #1c5380;
   vertical-align: text-top;
   font-family: "Helvetica Nue", sans-serif;
   letter-spacing: 1px;
-  font-weight: bold;
+  display: block;
+  background: linear-gradient(#4f7998, #356a96);
+  border-radius: 7px;
 }
 
 .login-btn::before {
   content: url(../images/home.png);
-  padding-right: 12px;
+  padding-right: 7px;
 }
 
 .info {
@@ -98,6 +100,8 @@ button.login-btn  {
   font-size: 30px;
   font-family: "Helvetica Nue", sans-serif;
   color: #06365f;
+  letter-spacing: 1px;
+
 }
 
 .info-text p {
