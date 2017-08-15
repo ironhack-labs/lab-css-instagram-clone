@@ -7,4 +7,112 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.backgroundBlue {
+  background-color: #437197;
+  height: 250px;
+}
+
+.content {
+  width: 76%;
+  height: 505px;
+  margin: 0 auto;
+  position: relative;
+  top: -150px;
+
+}
+
+.sect {
+  height: 505px;
+  position: absolute;
+
+}
+
+.photo {
+  width: 31%;
+}
+
+.text {
+  width: 56%;
+  margin-left: 40%;
+}
+
+section.header {
+  height: 16%;
+}
+
+section.header div {
+  width: 100px;
+  background-color: #4A7AA1;
+  padding: 10px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  float: right;
+  margin-top: 12px;
+  margin-right: 5px;
+  border: 1px solid #2E5F86;
+  border-radius: 3px;
+}
+
+section.header div img {
+  vertical-align: middle;
+}
+
+section.moments {
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+section.moments h2 {
+  color: #00224F;
+  padding-top: 30px;
+  margin-left: 40px;
+  font-size: 1.6em;
+}
+
+section.moments p {
+  margin: 0 35px 10px 35px;
+  font-size: 1.1em;
+}
+
+section.app {
+  width: 70%;
+  margin: 0 auto;
+}
+
+section.app img {
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+
+footer {
+  position: relative;
+  top: -100px;
+}
+
+footer li {
+  list-style: none;
+  float: left;
+  margin-left: 20px;
+}
+
+footer li>a {
+  color: #3A6990;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer div {
+  width: 50%;
+  margin: 0 auto;
+}
+
+li.copy {
+  color: #C6C6C6;
+  font-weight: bold;
 }
