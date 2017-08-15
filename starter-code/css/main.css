@@ -20,13 +20,12 @@ body {
   width: 100%;
   height: 400px;
   background-color: white;
-  position: relative;
 }
 
-.right-image {
+.left-image {
   width: 25%;
-  height: 500px;
-  background-color: #eec0c0;
+  height: 510px;
+  background-image: url(../images/phones.png);
   float: left;
   display: inline-block;
   position: absolute;
@@ -35,15 +34,62 @@ body {
 
 }
 
-.info-box {
+.box {
   width: 40%;
-  height: 500px;
+  height: 510px;
   background-color: #afd79f;
   float: right;
   display: inline-block;
   position: absolute;
   top: 100px;
   right: 200px;
+}
+
+.logo {
+  width: 50%;
+  height: 80px;
+  background-color: #eec0c0;
+  float: left;
+
+}
+
+.login-btn {
+  width: 30%;
+  height: 80px;
+  background-color: #eec0c0;
+  float: right;
+}
+
+.info {
+  width: 100%;
+  height: 300px;
+  background-color: #eec0c0;
+  margin-top: 16px;
+  clear: both;
+  display: inline-block;
+}
+
+.badges {
+  width: 100%;
+  height: 100px;
+  background-color: #eec0c0;
+
+}
+
+.iphone-badge {
+  width: 40%;
+  height: 90px;
+  background-color: #fffcfc;
+  float: left;
+  margin: 5px 0 0 5px;
+}
+
+.android-badge {
+  width: 40%;
+  height: 90px;
+  background-color: #fffcfc;
+  float: right;
+  margin: 5px 50px 0 0;
 }
 
 .footer {
