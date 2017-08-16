@@ -67,12 +67,18 @@ h3 {
   color: #06365f;
 }
 
-footer {
+footer ul {
   color:#1c5380;
   margin-top: 50%;
-  margin-left: 30%;
+  margin-left: 25%;
   position: absolute;
   width: 70%;
+  list-style-type: none;
+}
+
+footer li {
+  display: inline;
+  padding: 5px;
 }
 
 span {
