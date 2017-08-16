@@ -3,8 +3,84 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+#up{
+  float: none;
+  background-color: #1c5380;
+  width: : 100%;
+  height: 300px;
+}
+#down{
+  background-color:#1c5380;
+  float:noe;
+
+}
+#first{
+    position: fixed;
+    height: 490px;
+    width: 90%;
+    left: 100px;
+    top:150px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+#movile{
+      background-image: url(../images/phones.png);
+      background-repeat: no-repeat;
+      position:fixed;
+      height: 520px;
+      width: 30%;
+      top: 150px;
+    }
+
+  #principal{
+    position:fixed;
+    left:500px;
+    height: 720px;
+    top:150px;
+    width: 50%;
+  }
+
+  #header{
+  position:fixed;
+  left:500px;
+  height: 220px;
+  top:150px;
+  width: 50%;
+  }
+
+  #text{
+      background-image: url(../images/frame.png);
+      background-repeat: no-repeat;
+      position: fixed;
+      left:500px;
+      height: 220px;
+      top:250px;
+      width: 45%;
+      text-padding: 20px;;
+  }
+
+#android{
+  background-image: url(../images/badge-android.png);
+  background-repeat: no-repeat;
+  position: fixed;
+  left:510px;
+  height: 100px;
+  top:550px;
+  width: 15%;
+
+}
+
+#apple{
+  background-image: url(../images/badge-iphone.png);
+  background-repeat: no-repeat;
+  position: fixed;
+  left:700px;
+  height: 100px;
+  top:550px;
+  width: 15%;
 }
