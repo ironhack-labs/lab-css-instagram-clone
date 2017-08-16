@@ -1,0 +1,110 @@
+/*
+Colors to use:
+dark blue: #06365f
+light blue: #1c5380
+*/
+
+body {
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+
+#header {
+  background-color: #1c5380;
+  height: 400px;
+}
+
+.header-imgs {
+  float: right;
+  padding-right: 15%;
+  padding-top: 8%;
+  position: relative;
+  right: 190px;
+  top: 90px;
+  width: 30%;
+}
+
+.brand {
+  float: left;
+  margin-left: 20%;
+}
+
+.login {
+  float: right;
+  border: 1px solid black;
+  width: 30%;
+}
+
+.login img {
+  float: left;
+  margin-left: 8%;
+margin-top: 15%;
+}
+
+.login h5 {
+  float: right;
+  margin-right: 30%;
+  color: white;
+  font-weight: bold;
+}
+
+.phones {
+  float: left;
+  width: 42%;
+  position: relative;
+  bottom: 200px;
+}
+
+.phones img {
+  float: right;
+  height: 600px;
+}
+
+.pitch {
+  float: right;
+  width: 40%;
+  position: relative;
+  bottom: 70px;
+    margin-right: 12%;
+    border: 1px groove;
+    border-radius: 3px;
+    background-color: white;
+    padding: 20px;
+  line-height: 2em;
+  height: 420px;
+
+}
+
+.pitch h3 {
+  color: #06365f;
+  font-size: 32px;
+  padding-right: 7%;
+  font-weight: bold;
+}
+
+.pitch h3 p {
+  float: left;
+  font-family: "Calibri", sans-serif;
+  position: relative;
+  bottom: 50px;
+  padding-left: 30px;
+
+}
+
+.pitch p {
+
+}
+
+footer {
+  clear: both;
+  padding-top: 20px;
+  text-align: center;
+  color: #06365f;
+}
+
+.android-badge {
+  float: right;
+  margin-right: 40%;
+  position: relative;
+  bottom: 58px;
+}
