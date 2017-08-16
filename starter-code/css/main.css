@@ -5,6 +5,118 @@ light blue: #1c5380
 */
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 200 20px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+.blue{
+  background-image: url('../images/bgtile.png');
+  height: 350px;
+}
+
+.info-insta{
+  background-color: transparent;
+  height: 500px;
+  width: 1200px;
+  position: absolute;
+  top: 130px;
+  left: 200px;
+}
+
+.phone {
+  background-image: url('../images/phones.png');
+  background-repeat: no-repeat;
+  width: 400px;
+  height: 500px;
+  float: left;
+}
+
+h1{
+  font-size: 26px;
+  color: #06365f;
+  margin-right: 246px;
+}
+
+p{
+  font-size: 16px;
+
+}
+
+.info {
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 600px;
+  height: 500px;
+  float: left;
+  margin-left: 88px;
+  margin-top: 90px;
+}
+.info header{
+  height: 100px;
+  margin-top: -73px;
+
+}
+
+.insta{
+  background-image: url('../images/brand.png');
+  background-repeat: no-repeat;
+}
+
+.insta>div {
+  float: right;
+  height: 60px;
+  width: 90px;
+  color: white;
+  text-align: center;
+}
+
+.content{
+  margin-left: 41px;
+  margin-right: 45px;
+}
+
+footer{
+  position: absolute;
+  top: 700px;
+  left: 434px;
+  padding-left: 10px;
+}
+
+footer ul {
+  text-align: center;
+
+}
+
+footer ul li {
+  display: inline-block;
+  color: #06365f;
+  margin-left: 10px;
+  color: #1c5380;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.copy{
+  color: grey;
+}
+
+button{
+    background-image: url(../images/bgtile.png);
+    height: 35px;
+    width: 80px;
+    background-color: #06365f;
+    margin-top: 15px;
+    color: white;
+    border: 1px solid #1c5380;
+
+}
+
+.logosapp{
+  padding-top: 21px;
+  padding-left: 21px;
+}
+
+.android{
+  margin-left: 20px;
 }
