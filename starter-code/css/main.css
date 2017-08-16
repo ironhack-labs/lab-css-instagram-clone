@@ -3,8 +3,116 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+* {
+  box-sizing: border-box;
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: flex-start;
+    padding: 100px 0;
+    }
+
+.flex-item1 {
+    order: 1;
+    flex: .4 1 auto;
+    align-self: auto;
+    margin: 0 50px 40px 50px;
+    max-width: 575px;
+    }
+
+.flex-item2 {
+    order: 2;
+    flex: .6 1 auto;
+    align-self: auto;
+    margin: 0 50px;
+    max-width: 300px;
+    }
+
+.flex-item2 img {
+  height: 530px;
+}
+
+/*
+color: #1c5380;
+*/
+
+.blue-background {
+  background-image: url('../images/bgtile.png');
+  background-repeat:repeat-x;
+  height: 300px
+}
+
+.logo-header {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.blue-btn {
+  background-color: #226caa;
+  color: #cedde2;
+  padding: 8px 10px 7px 10px;
+  border-radius: 3px;
+  position: absolute;
+  bottom: 23px;
+  right: 10px;
+  border: none;
+  border: .5px solid #154166;
+}
+
+#login {
+  position: relative;
+  bottom: 4px;
+  padding-left: 6px;
+}
+
+.main-text {
+  background-image: url('../images/frame.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 10px 40px 15px 40px;
+}
+
+.main-text h1 {
+  color: #1c5380;
+}
+
+.store-apps {
+  padding-top: 10px;
+}
+
+.store-apps img {
+  padding-right: 15px;
+}
+
+.footer {
+  clear: both;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer-list li {
+  display: inline-block;
+  padding-left: 20px;
+  text-transform: uppercase;
+  color: #06365f;
+  font-weight: bold;
+}
+
+.footer-list a {
+  color: #06365f;
+  text-decoration: none;
+}
+
+#copyright {
+  color: grey;
 }
