@@ -5,6 +5,106 @@ light blue: #1c5380
 */
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 200 16px/1.5 "Lato", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+.mitad-superior {
+  background-color: #1c5380;
+  width: 100%;
+  height: 250px;
+}
+
+.mitad-inferior {
+  background-color: #ffffff;
+  width: 100%;
+  height: 400px;
+}
+
+.columns-container {
+  width: 80%;
+  margin: 0 auto;
+  padding-left: 9%;
+  position: relative;
+}
+.bloque-izquierdo {
+  float: left;
+  width: 30%;
+  height: 500px;
+  position: absolute;
+  top: -150px;
+  left: 123px;
+}
+
+.bloque-derecho {
+  float: left;
+  width: 40%;
+  height: 500px;
+  position: absolute;
+  top: -150px;
+  left: 558px;
+}
+
+.logo {
+  float: left;
+  margin-right: 30px;
+}
+
+.login-button {
+  float: right;
+  margin-top: 19px;
+  background-color: #6d91ae;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border: 1px solid #06365f;
+}
+
+.home-img {
+  float: left;
+}
+
+.log-in {
+  color: white;
+  font-weight: 700;
+  display: inline-block;
+  position: relative;
+  bottom: 5px;
+  font-size: 14px;
+}
+
+.bloque-texto {
+  clear: both;
+  background-color: white;
+  margin-top: 20px;
+  padding-top: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 5px;
+}
+
+h2 {
+  color: #294969;
+  font-weight: 700;
+}
+
+.logos-apps {
+  margin-top: 50px;
+}
+
+.footer {
+  width: 100%;
+  padding-left: 26%;
+  padding-bottom: 40px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #294969;
+}
+
+.menu-inferior {
+  float: left;
+  list-style: none;
+  display: inline-block;
+  margin-right: 10px;
+  text-transform: uppercase;
 }
