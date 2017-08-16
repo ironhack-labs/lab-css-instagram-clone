@@ -42,8 +42,13 @@ body {
   height: 530px;
 }
 
+/*
+color: #1c5380;
+*/
+
 .blue-background {
-  background-color: #1c5380;
+  background-image: url('../images/bgtile.png');
+  background-repeat:repeat-x;
   height: 300px
 }
 
@@ -55,24 +60,26 @@ body {
 .blue-btn {
   background-color: #226caa;
   color: #cedde2;
-  padding: 10px;
-  border-radius: 5px;
+  padding: 8px 10px 7px 10px;
+  border-radius: 3px;
   position: absolute;
   bottom: 23px;
-  right: 0px;
+  right: 10px;
   border: none;
-  border: 1px solid #154166;
+  border: .5px solid #154166;
 }
 
-.blue-btn i {
-  color: #cedde2;
+#login {
+  position: relative;
+  bottom: 4px;
+  padding-left: 6px;
 }
 
 .main-text {
-  background-color: white;
+  background-image: url('../images/frame.png');
+  background-repeat: no-repeat;
+  background-size: contain;
   padding: 10px 40px 15px 40px;
-  border: .5px solid #1c5380;
-  border-radius: 5px;
 }
 
 .main-text h1 {
