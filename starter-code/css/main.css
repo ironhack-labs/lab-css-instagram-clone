@@ -4,7 +4,100 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+body,
+html,
+main,
+p {
+	margin: 0;
+	box-sizing: border-box;
+}
+
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+	font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background-image: linear-gradient(#5e7d9d, #3b5d80);
+	background-size: 100% 40%;
+	background-repeat: no-repeat;
+}
+
+content {
+	display: block;
+	width: 860px;
+	height: 560px;
+	margin: 85px auto 0;
+}
+
+.phones {
+	float: left;
+}
+
+section {
+	float: right;
+	margin-top: 18px;
+}
+
+header {
+}
+.brand {
+	float: left;
+}
+
+button {
+	width: 110px;
+	border: 1px solid #3b5d80;
+	border-radius: 3px;
+	font-weight: bolder;
+	font-size: 16px;
+	color: white;
+	text-shadow: 0px;
+	padding: 10px;
+	background-image: linear-gradient(#7c98b2, #3b5d80);
+	margin-top: 12px;
+	float: right;
+}
+
+.home {
+	vertical-align: middle;
+	margin-right: 5px;
+}
+
+article {
+	box-sizing: border-box;
+	clear: both;
+	width: 504px;
+	height: 280px;
+	background-image: url('../images/frame.png');
+	background-repeat: no-repeat;
+	margin-top: 98px;
+	padding: 15px 40px;
+}
+
+h1 {
+	font-size: 27px;
+	color: #06365f;
+	margin: 15px 0 18px;
+}
+
+p {
+	margin-bottom: 10px;
+	font-weight: bolder;
+}
+
+article > a > img {
+	margin: 20px 15px 0 0;
+}
+
+footer {
+	width: 100%;
+	text-align: center;
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: lightgray;
+	margin: 15px auto;
+}
+
+footer > a {
+	text-decoration: none;
+	padding-right: 15px;
+	color: #1c5380;
 }
