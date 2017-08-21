@@ -19,13 +19,12 @@ body {
   margin-top: 19px;
 }
 .button {
-  background-color: #6290b1;
+  background-color: #49769d;
   width: 95px;
   height: 36px;
   position: absolute;
   top: 154px;
   right: 374px;
-  border-radius: 3px;
 }
 .homePng {
   position: absolute;
