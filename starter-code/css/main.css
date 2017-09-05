@@ -8,3 +8,100 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.page-container {
+  padding-top: 150px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.columnA, .columnB {
+  margin: 0px 50px;
+}
+
+
+/* Top blue background styling */
+.background-container {
+  position: absolute;
+  width: 100%;
+  height: 300px;
+  background-image: url('../images/bgtile.png');
+  background-repeat: repeat-y;
+  background-size: cover;
+  z-index: -1;
+}
+
+
+/* Bottom bar with links styling */
+
+.bottom-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.bottom-links ul li {
+  list-style: none;
+  float: left;
+  margin: 10px 15px;
+  color: #1c5380;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.bottom-links ul li:last-of-type {
+  color: grey;
+}
+
+
+.brand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.brand img {
+  float: left;
+}
+
+.login-button {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+  padding: 5px;
+  color: white;
+  background: linear-gradient(to bottom right, #1c5380, #06365f);
+  box-shadow: 0.5px 0.5px 0.5px black;
+  border-radius: 3px;
+}
+
+.login-button img, .login-button p {
+  float: left;
+  margin: 0px 5px;
+  font-weight: bold;
+}
+
+.description-text {
+  float: left;
+  width: 400px;
+  background-image: url('../images/frame.png');
+  background-size: cover;
+  background-repeat: round;
+  padding: 0px 40px;
+}
+
+.description-text h2 {
+  width: 250px;
+  color: #06365f;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.appstore-photos {
+  margin-top: 50px;
+}
