@@ -6,5 +6,73 @@ light blue: #1c5380
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+background-image: url("../images/bgtile.png");
+background-repeat: repeat-x;
+background-clip: border-box;
 }
+
+button {
+  background-color: #06365f;
+  border: 2px black solid;
+    float: right;
+}
+.generalcontainer {
+  margin: 0px auto;
+  width: 700px;
+
+}
+
+.floatedelement {
+  float: left;
+  margin: 15px 25px 10px 10px;
+
+}
+
+.brandlogo {
+  float: right;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+
+.image {
+   position: absolute;
+  padding: 150px 10px 300px 350px;
+
+    }
+
+  p,h2 {
+    position:relative;
+    padding-left: 25px;
+    width: 450px;
+  }
+
+  h2 {
+    font-style: normal;
+    color: #1c5380;
+
+  }
+  .secondbackground{
+
+    position:absolute;
+  }
+
+    ul{padding-top: 700px;
+    margin:0 auto;
+  list-style-type: none;}
+
+  li{
+    margin-left:10px;
+   display: inline;
+   color: #1c5380;
+   font-weight: bold;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: space-around;
+  }
+  .footer {
+    margin:0 auto;
+    width:550px;
+  }
