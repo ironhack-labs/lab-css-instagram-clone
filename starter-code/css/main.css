@@ -3,8 +3,76 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+html {
+  height:100%;
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  background: url("/home/valentin/code/lab/lab-css-instagram-clone/starter-code/images/bgtile.png") 1px 0  repeat-x;
+}
+
+h1 {
+  color:#06365f;
+}
+
+  .iphone-position {
+    float: left;
+    margin-left: 100px;
+    margin-top: 100px;
+  }
+
+  .position-title {
+    position: absolute;
+    top: 100px;
+    left: 475px;
+  }
+  .login-button {
+    background-color: #1c5380;
+    border: 2px solid #06365f;
+    border-radius: 4px;
+    color: white;
+    text-decoration: none;
+    text-transform: none;
+    padding: 10px;
+    position: relative;
+    bottom: 35px;
+    left: 55px;
+  }
+
+  .login-button a{
+    align-items: center;
+  }
+
+  .container-content {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 35%;
+    padding: 10px;
+    text-align: left;
+    position: absolute;
+    top: 200px;
+    left: 475px;
+  }
+
+  .badge {
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer-bottom {
+    display: flex;
+    justify-content: space-around;
+    word-spacing: 20px;
+  }
+
+li {
+  color: #1c5380;
+  list-style: none;
+  text-decoration: none;
+  display:inline;
 }
