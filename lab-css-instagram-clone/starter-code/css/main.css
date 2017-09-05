@@ -1,0 +1,49 @@
+/*
+Colors to use:
+dark blue: #06365f
+light blue: #1c5380
+*/
+
+body {
+    background: url(../images/bgtile.png);
+    background-repeat: repeat-x;
+    font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+    
+}
+
+.instagramlogo
+
+.button{
+    border-radius: 
+}
+
+.boxA {
+    position: absolute;
+    top: 210px;
+    right: 230px;
+    padding: inherit;
+    width: 450px;
+    border-radius:10px;
+    background: #f4f5f4;
+}
+
+.slogan {
+    font-size: 190%;
+    color: #1c5380;    
+}
+
+.phones {
+    position: absolute;
+    top: 100px;
+    left: 200px;
+}
+
+.footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:60px;
+}
