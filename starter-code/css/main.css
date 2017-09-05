@@ -7,4 +7,65 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url("../images/bgtile.png");
+  background-repeat-y:no-repeat;
+}
+
+h1 {
+  color:#06365f;
+  font-style: bold;
+}
+
+.layout0{
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.layout1{
+  display: flex;
+  justify-content: space-between;
+}
+
+.layout2{
+  display: flex;
+  justify-content: space-between;
+}
+
+.artcleformat{
+  border-width: 1px;
+  border-color: grey;
+  border-style: solid;
+  border-radius: 5px;
+  position:relative;
+  top: -10px;
+}
+
+.phonesposition {
+  position: relative;
+  right: 70px;
+}
+
+.iaposition{
+  position: relative;
+  right: 50px;
+  top: 70px;
+}
+
+.instapos{
+  position: relative;
+  top: 10px;
+  right: -10px;
+}
+
+.artstyle{
+padding: 10px 50px 10px 50px;
+width: 370px;
+height: 110x;
+margin: 15px;
+background-color: white
+}
+
+.mainlayoutposition {
+  margin-top:100px
 }
