@@ -7,4 +7,129 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image:url("../images/bgtile.png");
+  background-repeat: repeat-x;
+}
+
+.blueheader {
+  background-repeat: repeat;
+  position:relative;
+}
+
+.phone {
+  width: 50%;
+  margin-top: 90px;
+  position: relative;
+}
+
+.whiteCard {
+  width:50%;
+  margin-top: 210px;
+  position: relative;
+  z-index: 1;
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  width: 700px;
+  margin-left: 140px;
+}
+
+.text{
+  position:absolute;
+  z-index:3;
+  top:90px; width:400px; height:200px;
+  padding-left: 40px;
+}
+
+span{
+  font-weight: bold;
+  color:#06365f;
+}
+
+.baseLine{
+  position: absolute;
+  z-index:2;
+  top:-17px; width:300px; height:400px;
+  padding-left: 40px;
+  color: #1c5380;
+  font-size: 25px;
+  font-weight: bold;
+  line-height:25px;
+}
+
+.iconsAndroidIphone {
+  position: absolute;
+  padding-top: 40px;
+  padding-left: 38px;
+  width: 500px;
+  display:flex;
+  justify-content: flex-start;
+}
+
+.iconAndroid {
+  padding-left: 20px;
+}
+
+.iconsInstaLog {
+  position: absolute;
+  padding-top: 130px;
+  padding-left: 490px;
+  width: 50%;
+  display:flex;
+  justify-content: flex-start;
+  flex-direction:row;
+}
+
+.textLogin {
+  border-radius: 2px;
+  color: white;
+  font-weight: bold;
+  position:absolute;
+  margin-left: 400px;
+  margin-top: 27px;
+  padding: 3px 8px 3px 40px;
+  background-color: #1c5380;
+  opacity:0.6;
+  border: 1px solid #06365f;
+}
+
+.iconHome {
+  position: absolute;
+  padding-left: 405px;
+  padding-top: 32px;
+}
+
+
+
+.liensFooter{
+  position: relative;
+  width: 900px;
+  padding-top: 70px;
+  padding-left: 150px;
+  display:flex;
+  justify-content: flex-start;
+  text-transform: uppercase;
+}
+
+ul {
+  list-style:none;
+  position: absolute;
+  text-indent: 1em;
+}
+
+ul li {
+  display: table-cell;
+  color: #1c5380;
+  font-weight: bold;
+  opacity: 0.8;
+}
+
+.copyright{
+  position: absolute;
+  padding-left: 650px;
+  font-weight: bold;
+  opacity: 0.3;
 }
