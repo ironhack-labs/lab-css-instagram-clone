@@ -8,3 +8,91 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+header {
+  background-image: url('../images/bgtile.png');
+  background-repeat: repeat;
+  height: 400px;
+}
+
+section {
+  position: absolute;
+  margin-left: 700px;
+  margin-top: -200px;
+  width: 800px;
+}
+h2 {
+  color: #06365f;
+  font-size: 2em;
+}
+
+.container-header {
+  background-image: url('../images/bgtile.png');
+  background-size: auto;
+  background-repeat: repeat;
+  height:80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.container {
+  background-image:url('../images/frame.png') ;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 30px 0 10px 30px;
+  border-radius: 5px;
+
+}
+.phone-pictures {
+  position: absolute;
+  margin-left: -400px;
+  margin-top: -100px;
+}
+.btn-home {
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #1c5380;
+  border-radius: 5px;
+  padding: 10px;
+  background: linear-gradient( #6892b2 , #1c5380 );
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.btn-login {
+  margin-left: 10px;
+  color: white;
+  font-weight: bold;
+}
+.download {
+  margin-top: 50px;
+}
+
+footer {
+  margin-top: 400px;
+  text-align: center;
+}
+
+.footer-list {
+  display: inline-block;
+}
+.list {
+  display: inline-block;
+  font-weight: bold;
+  margin: 0 10px;
+  color: #1c5380;
+}
+
+.android {
+  position:absolute;
+}
+.iphone {
+  position:absolute;
+}
+
+span{
+  color: grey;
+  font-weight: 400;
+}
