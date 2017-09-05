@@ -8,3 +8,113 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.header {
+  background-color: #1c5380;
+  height: 300px;
+  position: relative;
+}
+
+.main-header {
+  margin-top: -30px;
+}
+
+.main-header button {
+  width: 130px;
+  border: 1px solid #06365f;
+  border-radius: 2px;
+  background-color: #1c5380;
+  padding: 5px;
+}
+
+.main-header button span {
+  align-items: center;
+  color: white;
+  margin: 10px;
+  font-size: 1.5em;
+}
+
+.main-header .col-half{
+  flex: 0 0 45%;
+  display: inline-flex;
+  margin: 0 2%;
+  align-items: center;
+}
+
+.main-header .col-half:nth-child(2) {
+  position: relative;
+  bottom: 40px;
+}
+
+.info-frame {
+  text-align: left;
+  margin-top: -15px;
+  padding: 5%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("/home/liuda/code/labs/lab-css-instagram-clone/starter-code/images/frame.png");
+}
+
+.info-frame h2 {
+  color: #06365f;
+}
+
+.info-frame button {
+  border: 1px solid #06365f;
+  padding: 0;
+  background-color: black;
+  border-radius: 5px;
+  margin: 0 20px;
+}
+
+.col-img {
+  align: center;
+  float: left;
+  width: 25%;
+  margin: 5% 0 5% 10%;
+  padding-left: 5%;
+}
+
+.col-info {
+  float: left;
+  width: 45%;
+  margin:5% auto;
+  padding-left: 5px 10px;
+}
+
+.clear-fix {
+  clear: both;
+}
+
+.footer ul li {
+  list-style-type: none;
+  display: inline;
+  margin: 10px;
+}
+
+.container {
+  flex: 1 0 auto;
+  position: relative;
+  bottom: 250px;
+}
+
+.footer {
+  color: #06365f;
+  text-align: center;
+  flex-shrink: 0;
+  position: relative;
+  bottom: 250px;
+  left: 250px;
+}
+
+.footer footer{
+  padding: 10px auto;
+  width: 50vw;
+  text-transform: uppercase;
+  font-size: 0.9em;
+}
+
+.copyright {
+  color: lightGrey;
+  font-size: 0.85em;
+}
