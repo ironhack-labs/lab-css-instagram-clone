@@ -8,3 +8,96 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.header {
+	background-image: url("../images/bgtile.png");
+	background-repeat: repeat-x;
+	height: 300px;
+	width: 100%;
+
+}
+.main{
+	margin-top: -200px;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+
+}
+
+.phones {
+	margin-right: :20px;
+}
+
+.head {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.login-button {
+	display: flex;
+	color: white;
+	align-items: center;
+	box-shadow: 0.5px 0.5px 0.5px black;
+	border-radius: 2px;
+	margin-left: 15px;
+	padding: 0x;
+	background: linear-gradient (#1c5380, #06365f);
+	height: 40px;
+	justify-content: center;
+	width: 100px;
+	font-size: 20x;
+	font-weight: bold;
+
+}
+
+.text-container {
+	background-image: url("../images/frame.png");
+	background-repeat: no-repeat;
+	max-width: 80;
+	padding: 20px 20px 0px 20px;
+}
+
+.store {
+	display: flex;
+	justify-content: flex-start;
+	margin: 0px 0px 0px 50px;
+}
+
+.content {
+	width: 500px;
+	position: relative;
+	margin-left: 50px;
+}
+
+ul {
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+	list-style-type: none;
+	margin: 50px;
+	color: #06365f;
+	text-transform: uppercase;
+}
+
+li {
+	margin: 10px;
+}
+
+h2{
+	color: #06365f;
+	padding-right: 50px;
+}
+
+#iphone {
+	margin-right: 20px;
+}
+
+#google {
+	
+}
+
+#copyright {
+	color: #acacad;
+}
