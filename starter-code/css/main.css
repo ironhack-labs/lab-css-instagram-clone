@@ -12,13 +12,17 @@ background-clip: border-box;
 }
 
 button {
+  height: fit-content;
+  margin-top: 60px;
+  background: -webkit-gradient(linear, left top, right top, from(#1a82f7), to(#1c5380)); 
+  display:block;
   background-color: #06365f;
   border: 2px black solid;
-    float: right;
+
 }
 .generalcontainer {
   margin: 0px auto;
-  width: 700px;
+  width: 900px;
 
 }
 
@@ -29,15 +33,15 @@ button {
 }
 
 .brandlogo {
-  float: right;
-  padding-top: 30px;
+
+  padding-top: 40px;
   padding-bottom: 30px;
 }
 
 
 .image {
-   position: absolute;
-  padding: 150px 10px 300px 350px;
+
+  padding: 10px 10px 300px 350px;
 
     }
 
@@ -56,10 +60,11 @@ button {
 
     position:absolute;
   }
+.logoheader {
 
-    ul{padding-top: 700px;
-    margin:0 auto;
-  list-style-type: none;}
+  display: flex;
+  justify-content:space-evenly;
+}
 
   li{
     margin-left:10px;
@@ -70,7 +75,8 @@ button {
 
   .logo {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+
   }
   .footer {
     margin:0 auto;
