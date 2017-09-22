@@ -8,3 +8,123 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.big-div{
+  position:relative;
+  height: 850px;
+}
+
+.blue{
+  height: 400px;
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat;
+  position: relative;
+
+}
+
+.main-content{
+  height: 650px;
+  width: 80%;
+  margin: 0px auto 0px;
+  display: block;
+  position: absolute;
+  top:150px;
+  left:150px;
+}
+
+
+.phone-image{
+  float:left;
+  width:40%;
+}
+
+.phone-image img{
+  width:90%;
+}
+
+.right-content{
+  float:left;
+  width: 60%;
+}
+
+
+.logo{
+  float:left;
+  margin: 0 20px;
+}
+
+.login{
+  height: 30px;
+  width: 100px;
+  margin: 20px;
+  float:right;
+  padding: 10px;
+  color: white;
+  line-height: .5em;
+  text-align: center;
+  border-radius: 2px;
+  background: linear-gradient(#6491c4, #1c5380);
+  border:1px solid #06365f;
+  box-shadow: 0 3px 3px #1c5380;
+}
+
+.login p{
+  display: inline;
+}
+
+.login img{
+  vertical-align: text-bottom;
+  padding: 0 2px;
+}
+
+.login-content{
+  width:90%;
+  margin:0 auto;
+}
+
+.text-content{
+  margin: 0px;
+  clear: both;
+  background-image: url("../images/frame.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 50px;
+}
+
+.text-content h3{
+  font-size: 2em;
+  color: #06365f;
+}
+
+.text-content p{
+  font-family: helvetica;
+  font-size: 1.2em;
+}
+
+.text-content img{
+  width: 220px;
+  padding: 20px;
+}
+
+.footer{
+  width: 900px;
+  margin: 50px auto;
+}
+.footer ul{
+  list-style-type: none;
+  display: block;
+}
+
+.footer li{
+  float:left;
+  margin: 20px;
+  color: #1c5380
+
+
+}
+.footer li a{
+  text-decoration: none;
+  font-weight: bold;
+  color: #1c5380
+
+}
