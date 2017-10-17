@@ -8,3 +8,118 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+ul{
+  position: absolute;
+  margin-left: 20%
+}
+.footerLink{
+  text-transform: uppercase;
+  display: inline-block;
+  border-bottom: 20px;
+
+}
+
+.link{
+  color: #1c5380;
+  text-decoration: none;
+}
+
+.low{
+  background-color: white;
+  height: 500px;
+}
+
+#copyRight{
+  color: grey;
+  text-decoration: none;
+}
+
+
+.background{
+  background-color: #1c5380;
+  margin-top: 0;
+  margin-left: 0;
+  width: auto;
+  height: 300px;
+}
+
+.container{
+  position: absolute;
+  /*background-color: white;*/
+  margin: 0;
+  left: 100px;
+  top: 100px;
+  height: 200px;
+  width: 80%;
+}
+
+
+.leftDiv{
+  display: inline-block;
+  height: 200px;
+  width: 40%;
+  /*background-color: white;*/
+  top: 50%;
+  left: 33%;
+}
+
+.rightDiv{
+  background-color= yellow;
+  display: inline-block;
+  height: 300px;
+  width: 50%;
+  top: 0px;
+  left: 67%;
+}
+
+.topright{
+  height: 200px;
+  background: green;
+}
+
+.text{
+  padding: 0px 10px;
+  color: #1c5380;
+}
+
+.lowRight{
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+}
+
+.brand{
+  display: inline-block;
+
+}
+
+.homebutton{
+  background: #1c5380;
+  border-radius: 4px;
+  border: solid;
+  border-width: 2px;
+  border-color: #06365f;
+  height: 70px;
+  width: 140px;
+  display: inline-block;
+  vertical-align: middle;
+  color: white;
+}
+
+.brand{
+  vertical-align: middle;
+}
+
+.homeimage{
+  vertical-align: middle;
+  display: inline-block;
+}
+
+h3 {
+  color: white;
+}
+
+.branding{
+  margin-left: 20px;
+  margin-right: 20px;
+}
