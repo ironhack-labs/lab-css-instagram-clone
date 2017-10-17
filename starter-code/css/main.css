@@ -3,8 +3,101 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+html{
+    overflow-x: hidden;
+}
+
+h1 {
+  color: #1c5380;
+  font-size: 30px;
+  line-height: 1.2em;
+}
+
+.blue-background {
+  background-color: #1c5380;
+  background-size: cover;
+  height: 300px;
+}
+
+.column1 {
+  position: absolute;
+  left: 0;
+  right: 210px;
+  top: 0;
+  bottom: 0;
+}
+
+.column2 {
+  position: absolute;
+  right: 0;
+  left: 600px;
+  top: 230px;
+  bottom: 0;
+  width: 680px;
+  background-image: url('./../images/frame.png');
+  background-size: 70%;
+  background-repeat: no-repeat;
+  padding-left: 30px;
+}
+
+#login-bttn a {
+  text-decoration: none;
+  color: #CACFD2;
+  font-weight: bold;
+  background-color: #1c5380;
+  font-size: 1em;
+  position: relative;
+  bottom: 5px;
+}
+
+.login-bttn {
+  border: 2px solid #06365f;
+  border-radius: 3px;
+  background-color: #1c5380;
+  display: inline-block;
+  padding: 5px;
+  position: relative;
+  left: 995px;
+  bottom: 150px;
+  vertical-align: text-bottom;
+}
+
+.phones-img {
+  position: absolute;
+  top: 15%;
+  left: 17%;
+  width: 35%;
+  height: 75%;
+}
+
+.logo-img {
+  position: absolute;
+  left: 600px;
+  top: 130px;
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+footer a {
+  text-decoration: none;
+  color: #1c5380;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+footer li {
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  left: 25%;
+  top:315px;
+  padding-left: 10px;
+}
+
+.copy {
+  color: #B2BABB;
 }
