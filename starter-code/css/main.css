@@ -5,6 +5,120 @@ light blue: #1c5380
 */
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  font: 400 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 5em 0 0 0;
+  background-image: -webkit-linear-gradient(top, #4C7296, #395F85 40%, transparent 40%, transparent 100%);
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  display: flex;
+  align-self: center;
+  justify-content: space-between;
+  margin-bottom: 2em;
+  width: 90%;
+}
+.img-container {
+  width: 30%;
+}
+
+.img-container img {
+  height: 350px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header > img {
+  height: 55px;
+}
+
+header button {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 2px;
+  width: 80px;
+  background-image: -webkit-linear-gradient(top, #6B8EAD, #4C759B);
+  border: 1px solid #06365f;
+  height: 30px;
+  color: white;
+}
+button span {
+  text-shadow: 1px 1px 1px grey;
+  font-weight: 400;
+}
+.home-icon {
+  height: 16px;
+}
+
+.excerpt, .badges {
+  background-color: white;
+  padding: 0 1.5em;
+  font-size: .8em;
+}
+
+.excerpt {
+  border-radius: 4px;
+}
+
+h1 {
+  width: 210px;
+  color: #06365f;
+  line-height: 1.3em;
+  font-size: 1.4em;
+}
+.badges img {
+  margin-right: 1em;
+  height: 35px;
+}
+
+ul {
+  list-style: none;
+}
+li {
+  display: inline-block;
+  margin-right: .5em;
+}
+.info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 60%;
+}
+
+footer {
+  font-size: 10px;
+  font-weight: bold;
+  color: #6F90AF;
+  align-self: center;
+  text-transform: uppercase;
+}
+
+
+footer span {
+  color: #C5C6C7;
+}
+
+.knockout-top-to-bottom {
+  position: relative;
+
+}
+.knockout-top-to-bottom:before, .knockout-top-to-bottom:after {
+  content: "";
+  position: absolute;
+  filter: blur(5px);
+
+}
+.knockout-top-to-bottom:before {
+  top: -3px;
+  left: -3px;
+  bottom: 0;
+  right: -3px;
+  background-image: -webkit-linear-gradient(rgba(44, 44, 44, 0.3), transparent);
+  z-index: -2;
 }
