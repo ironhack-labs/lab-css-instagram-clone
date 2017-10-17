@@ -8,3 +8,106 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+h2 {
+  color: #06365f;
+}
+
+span {
+  font-weight: bold;
+}
+
+#background {
+  background: url(../images/bgtile.png) repeat-x;
+  height: 350px;
+}
+
+#container-all {
+  position: relative;
+  width: 100%;
+  top: -170px;
+}
+
+#imgphone {
+  display: inline-block;
+  position: relative;
+  left: 250px;
+}
+
+.container {
+  position: absolute;
+  display: inline-block;
+  width: 480px;
+  left: 700px;
+}
+
+#imginstagram {
+  position: absolute;
+  display: inline-block;
+}
+.container-img-instagram {
+  position: relative;
+  top: 15px;
+}
+
+.container-img-instagram button {
+  background: url(../images/bgtile.png) repeat-x;
+  height: 40px;
+  position: absolute;
+  top: 22px;
+  border: #06365f solid 1px;
+  border-radius: 5px;
+  right: 0;
+  display: inline-block;
+  width: 100px;
+}
+
+.container-img-instagram button span {
+  color: #ffffff;
+  text-shadow: 0 0.1em #06365f;
+  text-decoration: none;
+  font-size: 14px;
+  position: relative;
+  bottom: 2px;
+  left: 2px;
+}
+
+.content-shadow {
+  position: absolute;
+  background-color: red;
+}
+
+.content {
+  background-color: white;
+  border-radius: 2%;
+  padding: 0 35px;
+  position: absolute;
+  top: 110px;
+}
+
+.content p {
+  font-size: 16px;
+}
+
+.apps-download {
+  margin-top: 30px;
+}
+
+ul li {
+  list-style: none;
+  display: inline-block;
+  text-transform: uppercase;
+  margin-right: 15px;
+}
+
+footer {
+  color: #1c5380;
+  font-size: 14px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#copy {
+  font-weight: normal;
+  color: gray;
+}
