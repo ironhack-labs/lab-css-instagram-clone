@@ -8,3 +8,85 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+.container{
+  padding: 10%;
+  display: flex;
+}
+
+.background{
+  background: linear-gradient(to bottom,#1c5380 50%, white 50%);
+}
+.left-side{
+}
+.phone-img{
+  display: block;
+  width: 500px;
+}
+
+.right-side{
+  flex: 1;
+  width: 50%;
+  height: 800px;
+  padding: 10px 20px;
+}
+
+.title-block {
+  margin: 15px 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.instagram-img {
+  width: 450px;
+  height: auto;
+}
+
+.login{
+  background-color: #06365f;
+  margin-left: 100px;
+  width: 150px;
+  border-radius: 10px;
+  color: white;
+  font-size: 20px;
+}
+
+.central-text {
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px;
+  height: 450px;
+}
+
+.capture-share {
+  color: #06365f;
+  font-size: 38px;
+  width: 400px;
+}
+
+.text-content {
+  font-size: 24px;
+}
+
+.logos {
+  margin: 20px;
+  margin-left: 180px;
+}
+.bottom-side{
+  position: fixed;
+  bottom: 0;
+}
+
+.footer{
+  font-size: 15px;
+  font-style: bold;
+
+}
+.bottom-element1{
+color: #06365f;
+font-size: 20px;
+}
+.bottom-element2{
+  color: grey;
+  font-size: 20px;
+}
+
