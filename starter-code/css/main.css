@@ -7,4 +7,136 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  /*font-size: 0;
+  line-height: 0;*/
+}
+
+.back-blue {
+  width: 100%;
+  height: 300px;
+  position: absolute;
+  z-index: -4;
+}
+
+.grad {
+  background: #1c5380;
+  background: -webkit-linear-gradient(#557C9F, #315A81);
+  background: -o-linear-gradient(#557C9F, #315A81);
+  background: -moz-linear-gradient(#557C9F, #315A81);
+  background: linear-gradient(#557C9F, #315A81);
+}
+
+.container {
+  width: 1000px;
+  height: 600px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.inl-block {
+  display: inline-block;
+}
+
+section.left {
+  margin-top: 5%;
+  margin-right: 60px;
+  width: 30%;
+  position: relative;
+}
+
+section.right {
+  margin-top: 5%;
+  width: 60%;
+  position: relative;
+}
+
+header {
+  height: 100px;
+  padding: 10px 0;
+  /*background-color: lightblue;*/
+  box-sizing: border-box;
+  position: relative;
+}
+
+h1 {
+  width: 60%;
+  top: 0;
+  position: absolute;
+}
+
+a.home {
+  width: 30%;
+  position: absolute;
+  right: 0;
+  top: 10%;
+}
+
+button {
+  width: 110px;
+  height: 40px;
+  border: #06365f;
+  box-shadow: inset 0px 2px 10px rgba(255, 255, 255, 0.2);
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 1em;
+  margin-left: 60px;
+  margin-top: 12%;
+  border: 1px solid rgba(43, 87, 128, 0.5);
+  border-radius: 5px;
+}
+
+button img {
+  vertical-align: middle;
+  margin-right: 2px;
+}
+
+.content {
+  background-color: #FFFFFF;
+  margin-top: 20px;
+  padding: 10px 50px 0 40px;
+  border-radius: 20px;
+  box-shadow:   0px 280px 25px 13px rgba(255, 255, 255, 1), 1px -4px 15px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+  color: #06365f;
+  font-size: 2em;
+  line-height: 1.2em;
+}
+
+p {
+  color: black;
+  font-size: 1em;
+  line-height: 1.5em;
+}
+span{
+  font-weight: bold;
+}
+.stores{
+  margin-top: 10px;
+}
+.stores img{
+  margin-top: 5px;
+}
+
+footer {
+  padding-top: 20px;
+  text-transform: uppercase;
+  font-size: 0.9em;
+}
+
+ul {
+  text-align: center;
+}
+
+ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #1c5380;
+  font-weight: bold;
 }
