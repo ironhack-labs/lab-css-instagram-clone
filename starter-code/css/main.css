@@ -5,6 +5,110 @@ light blue: #1c5380
 */
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 200 12px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  padding: 0;
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+}
+
+.big-box {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 9%;
+  padding: 0;
+  position: relative;
+  height: 425px;
+}
+
+.phones {
+  width: 37%;
+  position: absolute;
+  top:0;
+}
+
+.phones img {
+  width: 100%;
+}
+
+.container-instagram {
+  height: 80px;
+  width: 410px;
+  position: relative;
+  left: 43%;
+}
+
+.instagram {
+  display: inline-block;
+  text-align: left;
+  width: 45%;
+}
+
+.instagram img {
+  max-height: 60px;
+}
+
+.login {
+  text-align: center;
+  border: 1px solid;
+  border-radius: 3px;
+  text-align: left;
+  position: relative;
+  bottom: 20px;
+  left: 130px;
+  height: 40px;
+  background-color: #1c5380;
+}
+
+.login img {
+  margin: 10px;
+  vertical-align: middle;
+}
+
+.container-message {
+  width: 370px;
+  position: relative;
+  left: 43%;
+  background-image: url("../images/frame.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 20px;
+}
+
+.container-downloads {
+  width: 410px;
+  position: relative;
+  left: 43%;
+  bottom: 40;
+  box-sizing:content-box;
+  padding: 18px;
+}
+
+.bottom-nav {
+  overflow: hidden;
+  text-align: center;
+  position: relative;
+  top: 20px;
+}
+
+.bottom-nav a {
+    display: inline-block;
+    color: #5A85AB;
+    text-align: center;
+    padding: 5px 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+.bottom-nav p {
+    display: inline-block;
+    color: #B0B0B1;
+    text-align: center;
+    padding: 5px 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 10px;
+    text-transform: uppercase;
 }
