@@ -21,7 +21,7 @@ body {
   position: relative;
 }
 
-.second-row {
+.container {
   position: relative;
   background-color: white;
   width: 100%;
@@ -35,7 +35,7 @@ body {
   margin-left: 400px;
 }
 
-.rigth-column {
+.rigth-side {
   position: relative;
   float: right;
   top: -150px;
@@ -46,7 +46,7 @@ body {
   margin-right: 10px;
 }
 
-.home-button {
+.login-button {
   box-sizing: border-box;
   width: auto;
   height: auto;
