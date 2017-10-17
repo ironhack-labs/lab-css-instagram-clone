@@ -7,4 +7,121 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  width:100%;
+}
+
+.blue{
+  background-color: #1c5380;
+  height:300px;
+  width:100%;
+}
+
+.footer{
+  height: 150px;
+  background-color: white;
+  width: 100%;
+  position:absolute;
+  bottom: 0;
+  text-align:center;
+  box-sizing: border-box;
+  padding: 50px;
+}
+
+.center{
+  height:650px;
+  width: 70%;
+  position:absolute;
+  top:13%;
+  left:22%;
+
+}
+
+.phones{
+  display: inline-block;
+  width: 30%;
+  height: auto;
+  margin-right:100px;
+}
+
+.brand{
+  display:inline-block;
+  margin-right: 40px;
+}
+
+.logosytexto{
+  width: 40%;
+  height:auto;
+  display:inline-block;
+  position:absolute;
+  top:25px;
+}
+
+
+.button{
+  background-color:#1c5380;
+  color:white;
+  height: 50px;
+  width: 100px;
+  display: inline-block;
+  border: 1px solid #06365f;
+  border-radius: 4px;
+  cursor:pointer;
+  position:absolute;
+  top:15px;
+  right:0;
+}
+
+.fondoblanco{
+  background-image: url("../images/frame.png");
+  background-size: cover;
+  border-style: hidden;
+  border-radius: 5px;
+  box-sizing:border-box;
+  padding: 40px;
+  padding-top: 30px;
+  margin-top: 10px;
+}
+
+.iphone{
+  margin-right:20px;
+  margin-left: 35px
+}
+
+.supports{
+  border-radius: 4px;
+  margin-right: 35px;
+}
+
+.medio{
+  margin-right: 20px;
+}
+
+
+.white{
+  background-color: white;
+  height:500px;
+  width:100%;
+}
+
+footer a{
+  text-decoration:none;
+  color: #1c5380;
+  text-transform: uppercase;
+  margin-right: 10px;
+
+}
+
+.copyright{
+  color:grey;
+  display: inline;
+  text-transform: uppercase;
+}
+
+h1{
+  color:#06365f;
+  line-height: 40px;
+}
+
+p{
+  font-size:18px;
 }
