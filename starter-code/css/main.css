@@ -5,6 +5,82 @@ light blue: #1c5380
 */
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
   margin: 0;
+}
+
+.background1 {
+  top: 0;
+  position: absolute;
+  margin: 0;
+  background-color: #06365f;
+  width: auto;
+  height: 250px;
+}
+.background2 {
+  background-color: white;
+  left: 0;
+}
+
+.containercentral {
+  width: 80%;
+  margin: 5% 15% 15% 15%;
+}
+.container1 {
+  display: inline-block;
+  width: 32%;
+}
+
+.button {
+  margin-left: 80px;
+  border: 2px solid blue;
+  box-sizing: border-box;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  /*font-size: 16px;*/
+  display: inline-block;
+  background-color: #1c5380;
+}
+.home {
+  display: inline-block;
+}
+.container2 {
+  display: inline-block;
+  position: relative;
+  width: 65%;
+
+}
+
+h1 {
+  color: #06365f;
+  text-align: left;
+  padding-right: 130px;
+}
+
+.download {
+  display: inline-block;
+}
+ul {
+  display: inline-block;
+  list-style: none;
+  text-align: center;
+  color: blue;
+  text-transform: uppercase;
+}
+.todotexto {
+  padding: 10px;
+  background-color: white;
+  border-radius: 15px 15px 15px 0;
+  box-shadow: 16px -44px 32px -20px rgba(0,0,0,0.75);
+}
+.text{
+  padding: 5px;
+  text-align: justify;
+  line-height: 1.5em;
+}
+.footer{
+  width: 100%;
+  height: 16px;
 }
