@@ -7,4 +7,120 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: #F5F6F8;
+  height: 100%
+}
+h1 {
+  font-size: 1.75em;
+  line-height: 1.25;
+  color: #14375C;
+  margin-top: 0;
+}
+body > footer {
+  z-index: 3;
+  position: fixed;
+  bottom: 5vh;
+  left: 0;
+  right: 0;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* ID's and layout */
+#splash-main-content {
+  width: 70vw;
+  max-width: 900px;
+  height: 515px; /* Phone img height -2px. Not a great idea */
+  margin: 15vh auto;
+  position: relative;
+  z-index: 2;
+}
+#splash-main-background {
+  background: linear-gradient(#1c5380,#06365f);
+  box-shadow: inset 0px -2px 6px 0px rgba(0,0,0,0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 40vh;
+  z-index: 1;
+}
+#lead-picture {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#branding {
+  position: absolute;
+  top: 10px;
+  right: 0;
+  width: 60%;
+}
+#lead-text {
+  background: url(../images/frame.png) no-repeat center top;
+  background-size: 102% auto;
+  background-position: center top;
+  position: absolute;
+  right: 0;
+  top: 120px;
+  width: 60%;
+  box-sizing: border-box;
+  padding: 40px 40px 0;
+}
+#app-badges {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 60%;
+  text-align: center;
+}
+#brand {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+#login-button {
+  position: absolute;
+  right: 0;
+  top: 17px;
+}
+.primary-button {
+  background: linear-gradient(#7597B6,#497499);
+  border: 1px solid #2F5C83;
+  border-radius: 4px;
+  color: #CBD7E2;
+  padding: .5em;
+  text-decoration: none;
+  text-shadow: -1px 1px 0px rgba(61, 99, 133, 1);
+  font-weight: bold;
+}
+.primary-button:hover {
+  background: #7597B6;
+}
+.primary-button img {
+  vertical-align: middle;
+}
+.sitemap-links {
+  list-style: none;
+  font-size: 80%;
+  display: inline-block;
+}
+.sitemap-links a {
+  color: #5B82A3;
+  text-decoration: none;
+}
+.sitemap-links li {
+  display: inline-block;
+}
+.sitemap-links li:not(:last-child) {
+  margin-right: 2em;
+}
+.secondary-text {
+  font-size: 80%;
+  color: #999;
+}
+footer .secondary-text {
+  display: inline-block;
+  margin-left: 2em;
 }
