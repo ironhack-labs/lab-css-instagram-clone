@@ -7,4 +7,142 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+
+}
+
+p {
+  line-height:1.3em;
+}
+
+h1 {
+  color:  #06365f;
+  line-height:1.1em;
+}
+
+.panel1 {
+  height: 40vh;
+  background-color: #1c5380;
+  position: relative;
+}
+
+.panel2 {
+  width: 80%;
+  margin: 0 auto;
+  position: absolute;
+  top: 10px;
+  /*border: 1px solid;*/
+  left: 0;
+  right: 0;
+  top: 100px;
+  bottom: 100px;
+}
+
+.row {
+  /*border: 1px solid;*/
+  height: 90%;
+}
+
+.column1 {
+  width: 30%;
+  margin: 0 10% 0 0;
+  background-image: url('../images/phones.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 100%;
+  display: inline-block;
+}
+
+.column2 {
+  width: 59%;
+  height: 100%;
+  display: inline-block;
+  position: absolute;
+}
+
+.column1-header {
+  width: 100%;
+  height: 15%;
+  position: relative;
+  vertical-align: middle;
+
+
+}
+
+.column1-info {
+  width: 100%;
+  height: 75%;
+  background-image: url('../images/frame.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  box-sizing: border-box;
+  padding: 15px 40px;
+  position: relative;
+
+
+}
+
+.img1 {
+  vertical-align: middle;
+}
+
+.btn {
+    background: #1c5380;
+    border:1px solid #06365f;
+    border-radius: 4px;
+    box-shadow: 1px 1px 1px 1px #06365f;
+    padding: 5px;
+    width: 100px;
+    text-align:left;
+    position: absolute;
+    right: 20px;
+    top: 22px;
+}
+
+#btn_container img {
+    margin-right: 7px;
+    vertical-align: middle;
+}
+.btn-txt {
+    vertical-align: middle;
+    color: white;
+}
+
+.badges {
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 15px;
+}
+
+.badges img {
+  display: inline-block;
+  margin-right: 30px;
+  width: 200px;
+  height: 66px;
+}
+
+.footer {
+  /*border: 1px solid;*/
+  height: 10%;
+  margin-top: 70px;
+}
+
+.footer ul {
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+}
+
+.footer li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #1c5380;
+  font-weight: 900;
+}
+
+#copyright {
+  color: grey;
 }
