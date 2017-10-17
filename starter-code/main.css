@@ -1,0 +1,87 @@
+/*
+Colors to use:
+dark blue: #06365f
+light blue: #1c5380
+*/
+
+body {
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+
+.fondo1{
+  background-color:#1c5380;
+  height: 260px;
+  position:absolute;
+  width: 100%;
+}
+.container{
+  height: 600px;
+  position: relative;
+  top:50px;
+  left:50px;
+}
+#colum1 {
+  width:30%;
+  display: inline-block;
+  margin-left: 20px;
+}
+#colum2{
+  width: 50%;
+  display:inline-block;
+  margin-top: 30px;
+  margin-left: 30px;
+  position: absolute;
+}
+h2 {
+  color: #06365f;
+}
+.container2{
+  background-image: url("./images/frame.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding: 30px 40px;
+
+}
+.imgInsta {
+  display: inline-block;
+  width: 350px;
+  height: 83px;
+  margin-left: 30px;
+}
+.imgHome{
+  display: inline-block;
+  width: 50px;
+  height: 40px;
+  margin-bottom:25px;
+  margin-left: 10px;
+}
+h2 {
+  width: 50%;
+  height: auto;
+}
+p {
+  width:80%;
+  height:auto;
+}
+.designUl {
+  display:inline-block;
+  list-style-type: none;
+}
+.greyColor {
+  color: grey;
+}
+.centerFooter {
+  width: 60%;
+  margin-left: 300px;
+}
+a{
+  text-decoration: none;
+  color: #1c5380;
+}
+.link{
+  border: 1px;
+  background-color: #1c5380;
+  color: white;
+  display: inline-block;
+}
