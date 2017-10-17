@@ -3,8 +3,105 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+.background1 {
+  width: 100%:;
+  background-color: #1c5380;
+  height: 300px;
+  position: relative;
+}
+
+.column-left {
+  width: 30%;
+  display: inline-block;
+  margin-left: 115px;
+  margin-top: 90px;
+}
+.column-right {
+  width: 60%;
+  display: inline-block;
+}
+.header h1{
+  display: inline-block;
+  width:50%;
+  vertical-align: middle;
+}
+ #log-in {
+   vertical-align: middle;
+   border-color: #06365f;
+   background-color: #1c5380;
+   border-width: 1px;
+   color: white;
+ }
+.right-down {
+  background-color: white;
+  width: 65%;
+  border-radius: 4px;
+}
+.img {
+  margin-left: 90px;
+  margin-top: 110px;
+}
+.instagram {
+  margin:0 auto;
+  width:1200px;
+  position: absolute;
+  height: 600px;
+  top: 0px;
+  left: 100px;
+  border-radius: 4px;
+}
+#Download-AppStore {
+  border: none;
+  background: none;
+}
+#GooglePlay {
+  border: none;
+  background: none;
+}
+.img3 {
+  display: inline-block;
+}
+.img4 {
+  display: inline-block;
+}
+.capture {
+  width: 90%;
+}
+.capture h2 {
+  color: #06365f;
+  font-weight: normal;
+  display: inline-block;
+  margin-left: 20px;
+  width: 55%;
+}
+.parrograph {
+  margin-left: 20px;
+}
+.parrograph p {
+  width: 90%;
+}
+.bottom-links {
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 15px;
+}
+a {
+  text-decoration: none;
+  color: #06365f;
+}
+.bottom-links p {
+  font-weight: bold;
+  color: lightgrey;
+}
+footer {
+  margin-top: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+
+
 }
