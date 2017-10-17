@@ -47,7 +47,11 @@ ul.footerList li{
   text-align: center;
   padding-top: 80px;
   z-index: 0;
-  background-color: #476f93;
+  background: rgb(92,126,156); /* Old browsers */
+  background: -moz-linear-gradient(top, rgba(92,126,156,1) 0%, rgba(54,95,132,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(92,126,156,1) 0%,rgba(54,95,132,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(92,126,156,1) 0%,rgba(54,95,132,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5c7e9c', endColorstr='#365f84',GradientType=0 ); /* IE6-9 */
   position: absolute;
   height: 187px;
 }
@@ -60,7 +64,7 @@ ul.footerList li{
   text-align: left;
 }
 .imageInstagram{
-  width:70%;
+  width:68%;
   display: inline-block;
   vertical-align: middle;
 }
