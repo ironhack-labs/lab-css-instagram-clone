@@ -103,6 +103,9 @@ body {
   font-weight: bold;
   padding: 10px 8px;
 }
+.menu-footer li a{
+  color:#517fa4;
+}
 .menu-footer li.copyright{
 color:#ACACAC;
 }
