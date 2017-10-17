@@ -8,3 +8,94 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+#blueSection{
+  background-color: #1c5380;
+  height: 400px;
+  width: 100%;
+  position: absolute;
+}
+
+#general{
+  position: relative;
+  padding-top: 200px;
+  margin: 0 auto;
+  width: 800px;
+}
+
+#mobile{
+  width: 20%;
+  height: 520px;
+}
+
+#centralBlock{
+  position: absolute;
+  width: 55%;
+  right: 0px;
+}
+
+
+.bg{
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+h1{
+  font-size: 30px;
+  color: #06365f;
+}
+
+button{
+  position: absolute;
+  top: 20px;
+  right: 0px;
+  padding: 7px;
+  background-color: #1c5380;
+  border-color: #06365f;
+  border-radius: 5px;
+  border-style: solid;
+  color: white;
+}
+
+button > img{
+  vertical-align: bottom;
+  padding-right: 10px;
+}
+
+.inline{
+  display: inline-block;
+}
+
+.botonApple{
+  background-image: url("../images/badge-iphone.png");
+}
+
+.botonAndroid{
+  background-image: url("../images/badge-android.png");
+}
+
+input{
+  width: 180px;
+  height: 60px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+footer{
+  text-align: center;
+  margin-top: 60px;
+}
+
+ul > li{
+  list-style-type: none;
+  display: inline-block;
+  padding-right: 7px;
+  color: #06365f;
+}
+
+.esp{
+  color: grey;
+  padding-left: 10px;
+}
