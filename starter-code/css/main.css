@@ -8,3 +8,108 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.superior {
+  background-color: #06365f;
+  height: 300px;
+  width: 100%;
+}
+
+.contenido {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  width: 90%;
+}
+
+.telefono {
+  width: 30%;
+  display: inline-block;
+}
+
+.instagramIs {
+  width: 70%;
+  position: absolute;
+  top: 15px;
+  left: 400px;
+}
+
+.logo {
+  width: 50%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.log {
+  display: inline-block;
+  width: 10%;
+  font-size: 15px;
+  border: 1px solid #1c5380;
+  border-radius: 2px;
+  padding: 5px;
+  margin-left: 40px;
+  background-color: #1c5380;
+}
+
+.log a {
+  text-decoration: none;
+  color: white;
+  vertical-align: middle;
+}
+
+.log img{
+  vertical-align: middle;
+}
+
+.capture{
+  width:55%;
+  background-image: url("./../images/frame.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 25px 45px 35px 60px;
+}
+
+h2{
+  color: #06365f;
+  font-size: 25px;
+}
+
+p{
+  font-size: 16px;
+  line-height: 25px;
+  padding-bottom: 0px;
+}
+
+.download{
+  margin-left: 15px;
+}
+
+.download li{
+  list-style: none;
+  display: inline;
+  padding-right: 15px;
+}
+
+footer {
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  top:600px;
+}
+
+li {
+  list-style: none;
+  display: inline;
+  text-align: center;
+  margin: 0 10px;
+  text-transform: uppercase;
+}
+
+.link {
+  text-decoration: none;
+  color: #1c5380;
+}
+
+.copyRight {
+  color: grey;
+}
