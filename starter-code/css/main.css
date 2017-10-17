@@ -32,10 +32,10 @@ p {
 
 .home {
   background: #06365f; /* Old browsers */
-  background: -moz-linear-gradient(top, #47779D 0%, #47779D 46%, #47779D 46%, #47779D 46%, #47779D 46%, #F6F7F8 46%, #F6F7F8 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #47779D 0%,#47779D 46%,#47779D 46%,#47779D 46%,#47779D 46%,#F6F7F8 46%,#F6F7F8 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #47779D 0%,#47779D 46%,#47779D 46%,#47779D 46%,#47779D 46%,#F6F7F8 46%,#F6F7F8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#47779D', endColorstr='#F6F7F8',GradientType=0 ); /* IE6-9 */
+  background: -moz-linear-gradient(top, #47779D 0%, #47779D 46%, #47779D 46%, #47779D 46%, #47779D 46%, #fff 46%, #fff 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #47779D 0%,#47779D 46%,#47779D 46%,#47779D 46%,#47779D 46%,#fff 46%,#fff 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #47779D 0%,#47779D 46%,#47779D 46%,#47779D 46%,#47779D 46%,#fff 46%,#fff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#47779D', endColorstr='#fff',GradientType=0 ); /* IE6-9 */
   padding: 120px 0 30px;
 }
 
@@ -55,14 +55,41 @@ p {
   flex-direction: column;
   justify-content: space-between;
   padding-top: 20px;
-  width: 65%;
+  width: 60%;
+}
+
+.content-info-container {
+  margin: 0 auto;
+  position: relative;
+  width: 100%;
+}
+
+.content-info-container:before {
+  background-color: #fff;
+  border-radius: 4px 4px 0 0;
+  bottom: 150px;
+  box-shadow: 0 -5px 40px rgba(0, 0, 0, 0.2);
+  content: '';
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.content-info-container:after {
+  background-color: #fff;
+  bottom: 0;
+  content: '';
+  height: 150px;
+  left: 0;
+  position: absolute;
+  right: 0;
 }
 
 .content-info {
-  background-image: url(../images/frame.png);
-  background-repeat: no-repeat;
-  background-size: cover;
   padding: 30px 30px 10px;
+  position: relative;
+  z-index: 1;
 }
 
 .content-info p {
