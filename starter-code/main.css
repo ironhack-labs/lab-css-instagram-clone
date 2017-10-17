@@ -1,0 +1,104 @@
+/*
+Colors to use:
+dark blue: #06365f
+light blue: #1c5380
+*/
+
+body {
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+
+.bluebackground{
+  height: 300px;
+  width: 100%;
+  background-color: #06365f;
+  position: relative;
+
+}
+.container{
+  margin:0px;
+  padding: 0px;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  margin: 0px;
+}
+
+.col1{
+  display: inline-block;
+  width:30%;
+  vertical-align: top;
+}
+
+.col2{
+  width: 69%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.image1{
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 100px;
+}
+.image2{
+  display: inline-block;
+  margin-bottom: 25px;
+  margin-left: 70px;
+}
+
+.button-1{
+  Color: white;
+  Letter-Spacing: 0.5px;
+  Text-align: center;
+  Text-decoration: none;
+  padding: 5px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: #1c5380;
+  border: 0.5px;
+  display: inline-block;
+  margin-left: 185px;
+}
+
+.container2{
+  background-image: url(./images/frame.png);
+  background-size: 100%;
+  background-repeat:no-repeat;
+  height: 500px;
+  width:600px;
+  margin-left: 100px;
+}
+.content{
+  color: #06365f;
+  width:400px;
+  height:auto;
+  padding: 20px 60px;
+}
+.botones{
+  padding-top: 20px;
+}
+footer{
+  position: absolute;
+  top: 700px;
+}
+.link{
+  display: inline-block;
+  margin-left: 30px;
+  text-decoration: none;
+  color: #1c5380;
+  font-size: 12px;
+  font-weight: bold;
+}
+.list{
+    list-style-type: none;
+    display: inline-block;
+}
+.list-main{
+    list-style-type: none;
+    margin-left: 220px;
+}
+.link-btn2{
+  margin-left: 10px;
+}
