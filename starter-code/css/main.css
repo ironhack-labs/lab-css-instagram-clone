@@ -1,10 +1,117 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
-
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+.header{
+  height: 255px;
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat;
+  background-size: contain;
+}
+
+.body{
+  position: fixed;
+  top: 90px;
+  width: 100%;
+}
+
+.wrapper{
+  height: 420px;
+  width: 800px;
+  max-width: 90%;
+  margin: auto;
+}
+
+.wrapper-photo{
+  box-sizing: border-box;
+  float: left;
+  width: 45%;
+  height: 100%;
+  text-align: left;
+}
+
+.wrapper-photo img{
+  width: 90%;
+}
+
+.wrapper-info{
+  float: left;
+  box-sizing: border-box;
+  width: 55%;
+  height: 100%;
+}
+
+.brand{
+  padding: 35px 0 15px 0;
+}
+
+.brand img{
+  box-sizing: border-box;
+  max-width: 60%;
+}
+
+.lbutton{
+  float: right;
+  margin-top: 7px;
+  width: 120px;
+  border-radius: 2px;
+  border: 1px solid #06365f;
+  box-shadow: 0px 0px 4px #06365f;
+  background: linear-gradient(to bottom, #7890ac 0%, #38668e 100%);
+  padding: 5px 10px;
+  color: #dce2e9;
+  line-height: 35px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor:pointer;
+}
+
+.lbutton img{
+  vertical-align: middle;
+  margin-right: 3px;
+}
+
+.info{
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 30px;
+}
+
+.info h1{
+  margin-top: 0px;
+  color: #06365f;
+}
+
+.info p{
+  font-size: .85em;
+}
+
+.shop img{
+  width: 30%;
+  margin-right: 15px;
+}
+
+.footer{
+  position: fixed;
+  bottom: 0px;
+  height: 60px;
+  width: 100%;
+  text-align: center;
+}
+
+.fbutton{
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+  color: #1c5380;
+  margin: 0px 10px;
+}
+
+.cbutton{
+  text-transform: uppercase;
+  font-weight: bold;
+  color: gray;
+  text-decoration: none;
 }
