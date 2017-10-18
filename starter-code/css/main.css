@@ -7,93 +7,63 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
-  overflow: auto;
 
 }
+
+
+/*----CONTAINERS----*/
+.body-container {
+
+  width: 1000px;
+  height: 600px;
+  margin: 0 auto;
+}
+
+.main-txt {
+  width: 500px;
+  height: 200px;
+  background-image: url('../images/frame.png');
+  float: right;
+  margin-right: 80px;
+  margin-top: 130px;
+  text-align: left;
+}
+
+.footer-container {
+  margin-left: 10px;
+  text-align: center;
+  font-weight: 400;
+}
+
 
 /*----TEXT----*/
 
 p {
-  width: 400px;
-  float: right;
-  margin-right: 300px;
+  font-size: 15px;
+  width: 440px;
+  margin-left: 12px;
 }
 
 h2 {
-  float: right;
-  margin-right: 457px;
-}
-
-footer {
-  float: right;
-  width: 800px;
-  text-align: center;
-  padding: 0 20px;
-  margin-right: 320px;
-}
-
-.paragraph {
-  position: relative;
-  bottom: 250px;
-  right: 50px;
+  margin-left: 12px;
 }
 
 a {
   text-decoration: none;
-  margin-left: 25px;
-  position: relative;
-  bottom: 70px;
-}
+  color: #1c5380;
+  margin-left: 20px;
 
-.copyright {
-  color: black;
 }
-
 /*----IMAGES----*/
-.brand {
-  position: absolute;
-  top: 50px;
-  left: 670px;
-}
 
-
-.frame {
-  float: right;
-  margin-right: 250px;
-  margin-top: 100px;
-  position: relative;
-  top: 40px;
-  height: 300px;
-  z-index: -1;
-}
-
-.iphone {
+.phones {
   float: left;
-  margin-left: 250px;
-  margin-top: 40px;
+  margin-left: 50px;
+  margin-top: 10px;
 }
 
-.iphone-badge {
-  margin-top: 50px;
-  position: relative;
-  left: 120px;
-}
-
-.android {
-  margin-top: 50px;
-  position: relative;
-  left: 300px;
-  top: 106px;
-}
-
-.log-in {
-  float: right;
-  margin-right: 400px;
-  border: 2px solid #125688;
-  padding: 1px 8px;
-  background-color: #125688;
-  color: white;
-  position: relative;
-  top: 70px;
-  left: 50px;
+.badge {
+  position: absolute;
+  top: 500px;
+  right: 470px;
 }
