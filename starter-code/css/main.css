@@ -62,10 +62,9 @@ h2 {
   width: auto;
   height: auto;
   background-color: #6791B1;
-  border: 1.5px solid #06365f;
+  border: 1px solid #06365f;
   float: right;
   margin: 17px 0px 0px 60px;
-  vertical-align: middle;
   padding: 7px 10px 5px 10px;
   color: #DAE4EB;
   border-radius: 3px;  
@@ -83,7 +82,7 @@ h3 {
 
 .img-home {
   float:left;
-  margin: 3px 0px 0px 4px;
+  margin: 3px 0px 3px 3px;
 }
 
 .box {
