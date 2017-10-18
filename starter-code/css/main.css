@@ -59,11 +59,17 @@ a {
 .phones {
   float: left;
   margin-left: 50px;
-  margin-top: 10px;
+  margin-top: 65px;
 }
 
 .badge {
   position: absolute;
-  top: 500px;
+  top: 520px;
   right: 470px;
+}
+
+.logo {
+  position: relative;
+  top: 124px;
+  left: 51px;
 }
