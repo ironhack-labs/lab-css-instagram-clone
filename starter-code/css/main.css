@@ -8,3 +8,75 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+.bloque1{
+  background: #06365f;
+  height: 50%;
+  position: absolute;
+  width: 100%;
+}
+.bloque2{
+  background: white;
+  height: 50%;
+  position: absolute;
+  top: 300px;
+}
+.bloque3{
+position: absolute;
+top: 100px;
+left: 150px;
+height: 700px;
+background: ;
+
+}
+.imagenmovil{
+  display: inline-block;
+  height: 250px;
+  width: 33%;
+}
+.container{
+  display: inline-block;
+  width: 36%;
+  height: 600px;
+  background: ;
+  margin: 0 auto;
+  text-align: left;
+
+}
+.con1{
+  display: inline-block;
+  height: 150px;
+}
+button{
+  height: 40px;
+  color: white;
+  background: #1c5380;
+}
+.con2{
+  height: 300px;
+  background: url("/Users/virginiaalvarez/desktop/ironhack/week1/day2/lab-css-instagram-clone/starter-code/images/frame.png");
+font-size: 14px;
+
+}
+h2{
+  color: #1c5380;
+}
+p h2{
+
+
+
+}
+footer{
+  position: ;
+  bottom: 0;
+  text-align: center;
+  text-transform: uppercase;
+  color: #1c5380;
+  font-weight: bold;
+}
+span{
+  color: grey;
+  font-weight: normal;
+}
+.con3{
+  display: inline-block;
+}
