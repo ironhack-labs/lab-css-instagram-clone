@@ -8,3 +8,48 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.darkblue {
+  background-color: #06365f;
+  height: 40vh;
+  position: relative;
+}
+
+.inst-images {
+  float: right;
+  position: absolute;
+  left: 550px;
+  top: 140px;
+  font-weight: bold;
+}
+
+.home-login {
+  float: right;
+  position: absolute;
+  top: 15px;
+  padding: 10px;
+  border: 1px solid #05233b;
+  border-radius: 5px;
+  color: white;
+  background-color: #0e548a;
+  margin-left: 350px;
+  width: 83px;
+}
+
+#login {
+  padding-right: 10px;
+}
+
+.mobile {
+  position: relative;
+  float: left;
+  bottom: 155px;
+}
+
+.text {
+  position: relative;
+  float: left;
+  width: 319px;
+  border: 0.5px solid rgb(187, 185, 185);
+  bottom: 7d5px;
+}
