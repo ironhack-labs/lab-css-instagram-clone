@@ -57,7 +57,7 @@ button{
   display: inline-block;
   border: 1px solid black;
   border-radius: 6%;
-  transform: translateX(470px);
+  transform: translateX(470px) translateY(-68px);
 }
 
 .imageBotton{
