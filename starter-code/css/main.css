@@ -13,10 +13,10 @@ body {
 
 /*----CONTAINERS----*/
 .body-container {
-
   width: 1000px;
   height: 600px;
   margin: 0 auto;
+
 }
 
 .main-txt {
@@ -33,6 +33,17 @@ body {
   margin-left: 10px;
   text-align: center;
   font-weight: 400;
+}
+
+.log-btn-container {
+ position: absolute;
+ bottom: 595px;
+ left: 1039px;
+ border: 1px solid #1c5380;
+ background-color: #1c5380;
+ color: white;
+ text-align: center;
+ padding: 1px 10px;
 }
 
 
@@ -72,4 +83,9 @@ a {
   position: relative;
   top: 124px;
   left: 51px;
+}
+
+.log-in {
+  padding: 1px 1px;
+  margin-top: 5px;
 }
