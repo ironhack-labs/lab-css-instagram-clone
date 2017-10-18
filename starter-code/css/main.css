@@ -25,7 +25,7 @@ h2 {
 
 footer {
   float: right;
-  width: 700px;
+  width: 800px;
   text-align: center;
   padding: 0 20px;
   margin-right: 320px;
@@ -40,9 +40,11 @@ footer {
 a {
   text-decoration: none;
   margin-left: 25px;
+  position: relative;
+  bottom: 70px;
 }
 
-.terms {
+.copyright {
   color: black;
 }
 
