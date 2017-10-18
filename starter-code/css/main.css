@@ -8,3 +8,116 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.blue {
+  border: 1px solid #4f749e;
+  background-color: #4f749e;
+  width: 100%;
+  height: 200px;
+}
+
+.container {
+
+  background-color: #ffffff;
+  width: 100%;
+  height: 390px;
+}
+
+.toguether {
+  display: inline-flex;
+  padding-left: 220px;
+  padding-right: 10px;
+  margin-top: 50px;
+}
+
+.iphone {
+  display: inline-block;
+}
+
+.toguether-2 {
+  display: inline;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+h2 {
+  color: #153460;
+}
+
+.images {
+  display: inline-flex;
+}
+
+.insta {
+  display: inline;
+  width: 350px;
+  height: 65px;
+  margin-left: 10px;
+}
+
+.home {
+  display: inline;
+  color: #fff;
+  background-color: #688cb0;
+  position: relative;
+  top: 10px;
+  left: 0px;
+  font-weight: 400;
+  padding: 10px 10px 5px 10px;
+  margin-left: 70px;
+  text-decoration: none;
+  height: 35px;
+}
+.home-1
+{
+  display: inline;
+  padding-top: 15px;
+  margin-top: 20px;
+  vertical-align: middle;
+}
+
+.text-container {
+  background-image: url(file:///home/maria/ironhack/week1/day2/lab-css-instagram-clone/starter-code/images/frame.png);
+  background-size: cover;
+  width: 100%;
+}
+
+#text {
+  text-align: left;
+  padding: 20px 50px 20px 50px;
+}
+
+.down {
+  display: inline-block;
+}
+
+.app-store
+{
+  margin-right: 20px;
+}
+
+.app-store {
+  display: inline-block;
+}
+
+.android {
+  display: inline-block;
+}
+
+.footer
+{
+  margin-left: 290px;
+
+}
+li
+{
+  display: inline;
+  color: #4f749e;
+  margin-left: 14px;
+
+}
+li a
+{
+  color: #4f749e;
+  text-decoration: none;
+}
