@@ -8,3 +8,63 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.bloqueazul{
+  background-color: #06365f;
+  height: 400px;
+  position: absolute;
+  width:100%;
+
+}
+
+.bloqueblanco{
+  background-color: white;
+  height: 400px;
+  position: absolute;
+  top:300px;
+}
+
+.bloque3contenedor{
+position: absolute;
+height: 100px;
+width: 85%;
+background-color: red;
+top: 300px;
+left: 150px;
+}
+
+.imagenmoviles{
+
+display: inline-flex;
+width: 30%;
+
+}
+
+.contenedorinfo{
+display: inline-block;
+width: 60%;
+background-color: blue;
+height: 100%;
+margin-right: 100px;
+}
+
+.instalogin{
+  display: inline;
+height: 380px;
+}
+
+.textoinfo{
+
+}
+
+.applegoogle{
+
+}
+
+.foo{
+  text-align: center;
+}
+/*footer {
+  position: fixed;
+  bottom: 0;
+}*/
