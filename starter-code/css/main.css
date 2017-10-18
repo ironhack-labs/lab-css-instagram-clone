@@ -8,3 +8,19 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+header {
+	background-image: url(../images/bgtile.png);
+	background-repeat: repeat-x;
+	height: 20vw;
+}
+
+.image-phones {
+	margin-top: 7vw;
+	margin-left: 7vw;
+	float: left;
+}
+
+footer {
+  display: inline-block;
+}
