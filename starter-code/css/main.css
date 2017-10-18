@@ -8,3 +8,78 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+
+#background{
+  background-color: #125688;
+  height: 400px;
+  position: absolute;
+  width: 100%;
+}
+
+#phones {
+  float: left;
+  margin: 200px 50px 100px 180px;
+}
+
+.container {
+  width: 580px;
+  float: left;
+  margin-top: 200px;
+  box-sizing: border-box;
+}
+#title{
+
+}
+
+#home {
+  background-color: #3F7FBF;
+  color: white;
+  float: right;
+  margin-right: 80px;
+  margin-top: 20px;
+  padding: 5px 10px;
+  border: 1px solid grey;
+  border-radius: 2px
+}
+#home img{
+  margin-right: 10px;
+
+}
+
+.text {
+  background-image: url("../images/frame.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 20px 60px 30px 50px;
+  margin-top: 30px;
+}
+
+p {
+  font-size: 1em;
+}
+
+h1 {
+  width: 350px;
+  color: #06365f;
+}
+
+#parent {
+  overflow: auto;
+}
+
+footer {
+  text-align: center;
+  margin-bottom: 40px;
+  color: #1c5380;
+  font-weight: 600;
+}
+footer a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #1c5380;
+}
+
+span {
+  color: Grey;
+}
