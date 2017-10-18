@@ -32,6 +32,17 @@ body {
   border-radius: 2%;
   box-shadow: -1px 7px 15px 1px rgba(0,0,0,0.31);
 }
+.contenido .home{
+  background: #1c5380;
+  display: inline-block;
+  position: absolute;
+  left: 70%;
+  padding: 10px 2%;
+  box-shadow: 10px 10px 5px -5px rgba(0,0,0,0.46);
+}
+.home img{
+  margin-right: 5px;
+}
 .contenido div:nth-of-type(2) p{
   font-size: 1.3em;
   margin: 0;
@@ -58,7 +69,6 @@ footer ul li{
   margin-left: 2%;
 }
 
-
 .content{
   position: relative;
 }
@@ -67,4 +77,12 @@ footer ul li{
   height: 300px;
   background: red;
   z-index: -1;
+}
+footer a{
+  text-decoration:none;
+}
+.contenido>a{
+  text-decoration: none;
+  color: white;
+  box-shadow: 10px 10px 5px -5px rgba(0,0,0,0.46);
 }
