@@ -7,7 +7,7 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
-
+  overflow: auto;
 }
 
 /*----TEXT----*/
@@ -24,8 +24,11 @@ h2 {
 }
 
 footer {
-  float: left;
-  margin-left: 15px;
+  float: right;
+  width: 700px;
+  text-align: center;
+  padding: 0 20px;
+  margin-right: 320px;
 }
 
 .paragraph {
@@ -34,6 +37,14 @@ footer {
   right: 50px;
 }
 
+a {
+  text-decoration: none;
+  margin-left: 25px;
+}
+
+.terms {
+  color: black;
+}
 
 /*----IMAGES----*/
 
