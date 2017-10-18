@@ -7,4 +7,59 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-color: #1c5380;
+
+}
+
+.top-block{
+  background-color: #06365f;
+
+  background-size: cover;
+  background-position: top;
+  height: 500px;
+
+}
+
+h2 {
+  color: #06365f;
+}
+
+
+
+.main {
+  padding: 100px 200px;
+}
+
+.iphone {
+  float: left;
+}
+
+.login {
+  float: right;
+  border: solid #06365f;
+  color: white;
+  width: 130px;
+  text-align: center;
+}
+
+.iglogo {
+  padding-left: 73px;
+  float: left;
+}
+
+.textbox {
+  padding: 10px 30px;
+  background-image: url(../images/frame.png);
+  background-size: cover;
+  float: right;
+  width: 600px;
+  height: 400px;
+}
+
+footer {
+  padding-top: 80px;
+  text-align: center;
+  color: white;
+  position: relative;
+  float: left;
 }
