@@ -85,3 +85,15 @@ a {
   left: 300px;
   top: 106px;
 }
+
+.log-in {
+  float: right;
+  margin-right: 400px;
+  border: 2px solid #458eff;
+  padding: 1px 8px;
+  background-color: #458eff;
+  color: white;
+  position: relative;
+  top: 70px;
+  left: 50px;
+}
