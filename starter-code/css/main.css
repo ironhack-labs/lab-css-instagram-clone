@@ -7,4 +7,121 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  height: 731px;
+  width: 1090px;
+}
+
+.blueTile {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 30%;
+}
+
+.phones {
+  float: left;
+  padding: 100px 100px 0px 100px;
+  margin-top: 100px;
+}
+
+/* LOGO AND LOGIN */
+
+.logo {
+  /* */
+}
+
+.login {
+  /* */
+}
+
+/* RIGHT BOX WITH TEXT*/
+
+.textSection {
+  width: 600px;
+  height: 400px;
+  background-color: grey;
+  display: table-cell;
+  margin-top: 100px;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  /*background-image: image(".../images/frame.png");*/
+}
+
+.title {
+  color: #06365f;
+  font-size: 10px;
+}
+
+.text {
+  /* */
+}
+
+.appStore {
+  /* */
+}
+
+.googlePlay {
+  /* */
+}
+
+/* BOTTOM MENU */
+
+.bottomOptions {
+  color: #1c5380;
+  display: -webkit-inline-box;
+  width: 100%;
+  border-top: 80px;
+  border-bottom: 80px;
+  text-align: : center;
+}
+
+/* BOTTOM MENU PADDING */
+
+.a {
+  padding-right: 15px;
+  font-weight: 500;
+  font-variant-caps: all-petite-caps;
+}
+.b {
+  padding-right: 15px;
+  font-weight: 500;
+  font-variant-caps: all-petite-caps;
+}
+.c {
+  padding-right: 15px;
+  font-weight: 500;
+  font-variant-caps: all-petite-caps;
+}
+.d {
+  padding-right: 15px;
+  font-weight: 500;
+  font-variant-caps: all-petite-caps;
+}
+.e {
+  padding-right: 15px;
+  font-weight: 500;
+  font-variant-caps: all-petite-caps;
+}
+.f {
+  padding-right: 15px;
+  font-weight: 500;
+  font-variant-caps: all-petite-caps;
+}
+.g {
+  padding-right: 15px;
+  font-weight: 500;
+  font-variant-caps: all-petite-caps;
+}
+.h {
+  padding-right: 15px;
+  font-weight: 500;
+  font-variant-caps: all-petite-caps;
+}
+.i {
+  padding-right: 15px;
+  font-weight: 500;
+  font-variant-caps: all-petite-caps;
+  color: darkgray;
 }
