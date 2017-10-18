@@ -1,0 +1,78 @@
+/*
+Colors to use:
+dark blue: #06365f
+light blue: #1c5380
+*/
+
+html{
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+*:before, *, *:after {
+  box-sizing: inherit;
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+}
+
+body {
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+
+.blue{
+background-image: url(bgtile/phones.png);
+
+}
+
+.container {
+float: right;
+}
+
+.iphones{
+  float: left;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+
+
+}
+
+.brand{
+}
+
+.frame{
+
+}
+
+.home{
+
+}
+
+h1 {
+  color: #06365f;
+  font-weight: 400;
+  line-height: 35px;
+}
+
+p{
+
+}
+
+.appstore{
+
+}
+
+.googlestore{
+
+}
+
+.footer{
+  display: inline;
+
+}
+
+h3 {
+
+}
