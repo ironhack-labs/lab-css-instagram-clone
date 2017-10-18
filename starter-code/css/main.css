@@ -8,6 +8,7 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
   overflow: auto;
+
 }
 
 /*----TEXT----*/
@@ -64,4 +65,17 @@ a {
   float: left;
   margin-left: 250px;
   margin-top: 40px;
+}
+
+.iphone-badge {
+  margin-top: 50px;
+  position: relative;
+  left: 120px;
+}
+
+.android {
+  margin-top: 50px;
+  position: relative;
+  left: 300px;
+  top: 106px;
 }
