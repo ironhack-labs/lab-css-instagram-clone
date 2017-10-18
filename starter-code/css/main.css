@@ -50,6 +50,12 @@ a {
 }
 
 /*----IMAGES----*/
+.brand {
+  position: absolute;
+  top: 50px;
+  left: 670px;
+}
+
 
 .frame {
   float: right;
