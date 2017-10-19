@@ -4,7 +4,113 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
 }
+h1 {
+  font-size: 16px;
+  color: #06365f;
+  margin-top: 20px;
+}
+
+
+#principal {
+  background-color: #347EA0;
+  height: 250px;
+}
+
+#segundo {
+  background-color: #fff;
+}
+
+#container {
+  font-size: 0;
+  position: absolute;
+  left: 0;
+  top: 15%;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  padding: 0;
+}
+
+#image {
+  display: inline-block;
+  width: 320px;
+  height: 514px;
+}
+
+#second-container {
+  display: inline-block;
+  margin: 0;
+  padding-left: 30px;
+  height: 514px;
+  vertical-align: top;
+}
+
+#logo {
+  display: block;
+}
+
+#img-logo {
+  display: inline-block;
+  vertical-align: middle; 
+}
+#img-logo .logo-instagram {
+  height: 60px;
+}
+
+#icon {
+  display: inline-block;
+}
+#icon .boton {
+  vertical-align: middle; 
+  background-color: #3393AD;
+  color: #fff;
+  border: 1px solid #1c5380;
+  border-radius: 3px;
+}
+
+#capture {
+  text-align: left;
+  margin-left: 20px;
+  background-image: url("../images/frame.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-top: 0px;
+  padding: 14px 0 0 24px;
+}
+#bottoms {
+  padding-top: 117px;
+  vertical-align: bottom;
+}
+#capture p {
+  font-size: 10px;
+}
+#links {
+  position: flex;
+}
+#links {
+  margin-top: 420px;
+  text-align: center;
+}
+#links .termin {
+  list-style-type: none;
+}
+#links li {
+  display: inline;
+  color: #1c5380;
+  font-weight: 900;
+  font-size: 12px;
+  margin-left: 5px;
+}
+#links .exeption {
+  color: 	#D3D3D3;
+}
+
