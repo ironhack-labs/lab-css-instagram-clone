@@ -5,6 +5,117 @@ light blue: #1c5380
 */
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+	font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin: 0 auto;
+	background-color: #f5f6f7;
+}
+
+.wrapper {
+	margin: 0 auto;
+}
+a {
+	text-decoration: none;
+}
+p {
+	font-size: 18px;
+	line-height: 1.4;
+	color: #000;
+	font-weight: 400;
+}
+#top-half {
+	background-color: #1c5380;
+}
+.spacer{
+	padding-bottom: 22%;
+}
+
+
+.phones-column {
+	float: right;
+	padding-right: 50px;
+}
+
+
+#bottom-half {
+	overflow: auto;
+	width: 90%;
+	position: relative;
+	bottom: 180px;
+}
+
+
+
+.insta-card-container {
+    float: right;
+    width: 40%;
+    box-sizing: border-box;
+
+}
+.insta-card-head {
+padding-left: 9px;
+padding-right: 9px;
+	background-color: #1c5380;
+}
+.adjust-img  {
+	width: 45%;
+	padding-bottom: 20px;
+}
+.log-in {
+padding: 8px 15px;
+float: right;
+background-color: #6C8AA7;
+color: #E8ECEF;
+font-size: 15px;
+border: solid 1px #436385;
+border-radius: 1px;
+}
+.log-in:before {
+	background-image: url("../images/home.png");
+	content: ' ';
+	height: 20px;
+	width: 20px;
+	background-size: 100% 100%;
+	display: inline-block;
+	float: left;
+}
+
+.heading-sizer{
+	width: 50%;
+}
+.insta-card-guts h2  {
+	color: #1c5380;
+	line-height: 1.4;
+}
+.insta-card-guts {
+    padding: 5px 50px 50px 50px;
+    background-image: url("../images/frame.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+
+
+footer {
+    text-align: center;
+}
+
+span.copyright {
+	color: grey;
+}
+footer nav {
+	display: inline-block;
+}
+footer ul li  {
+	display: inline-block;
+	padding-right: 10px;
+}
+footer ul li a {
+	color: #869DB5;
+	font-weight: bold;
+}
+
+.mystery-center {
+	position: relative;
+	right: 9%;
 }
