@@ -1,0 +1,70 @@
+/*
+Colors to use:
+dark blue: #06365f
+light blue: #1c5380
+*/
+
+body {
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+
+.content{
+ margin: 10% 0 0 20%;
+}
+
+
+.headerClass{
+ height:50px;
+}
+.col {
+  float: left;
+}
+
+.col-3 {
+  width: 40%;
+}
+
+.col-middle {
+  margin: 0 20px;
+}
+.col_r{
+  float:right;
+}
+.float_down{
+  margin-top:75%;
+}
+.rightportion {
+    width:400px;
+    box-sizing: border-box;
+
+}
+
+.leftportion{
+
+  width:400px;
+  box-sizing: border-box;
+}
+
+.page_footer {
+  /*margin: 0 auto 0 0 ;
+  position:absolute;*/
+  padding-top: 10px;
+  height:50px;
+  vertical-align:text-bottom;
+  width:400px;
+  clear: both;
+}
+.page_links li {
+  float: left;
+  display:inline-block;
+  height:20px;
+  /*vertical-align: text-top;*/
+  width:400px;
+
+}
+
+.page_links a{
+  display: inline-block;
+  float: left;
+}
