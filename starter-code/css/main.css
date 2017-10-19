@@ -6,5 +6,96 @@ light blue: #1c5380
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  margin: 0 100px 0 100px;
+background: linear-gradient(to bottom, #06365f 0%,#06365f50%,#000000 50%,white 50%,white 100%); /* W3C */
+}
+
+
+}
+header{
+  padding-right: 35px;
+  float: left;
+  color:white;
+
+
+}
+
+a{
+  width: 10px;
+  height: 10px;
+
+  text-decoration: none;
+  color: white;
+
+}
+
+.background-split{
+  position: absolute;
+  background-color: #06365f;
+  height: 350px;
+}
+
+
+button{
+
+  margin-left: 10px;
+  margin-top: 20px;
+  float: right;
+  border-radius: 5px;
+  color:white;
+  background-color: #125688;
+  border: 1px solid #06365f;
+
+
+}
+
+
+
+div{
+  overflow: auto;
+  width: 800px;
+  margin: 25px auto;
+
+}
+
+aside{
+width: 300px;
+padding: 10px;
+
+float: left;
+
+
+}
+
+
+.backimage{
+  padding: 10px;
+  background-image: url("../images/frame.png");
+  width: 400px;
+  height: 400px;
+  background-repeat: no-repeat;
+}
+
+main {
+
+
+    margin-left: 25px;
+    box-sizing: border-box;
+    float: left;
+    width: 450px;
+
+    padding: 0px 10px 0px 10px;
+    margin-top: 40px;
+
+
+}
+h1 {
+  text-align: left;
+  color:#06365f;
+  font-size: 30px;
+}
+footer{
+  text-align: center;
+  color:#1c5380;
+  background-color: white;
 }
