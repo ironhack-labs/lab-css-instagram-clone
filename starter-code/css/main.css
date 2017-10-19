@@ -46,6 +46,13 @@ body {
  padding: 1px 10px;
 }
 
+.blue-heading-container {
+  position: fixed;
+  z-index: -1;
+  width: 100%;
+  height: 280px;
+  background-color: #1c5380;
+}
 
 /*----TEXT----*/
 
