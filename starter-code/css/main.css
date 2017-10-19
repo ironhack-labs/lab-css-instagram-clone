@@ -7,4 +7,97 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+
+}
+
+
+/*----CONTAINERS----*/
+.body-container {
+  width: 1000px;
+  height: 600px;
+  margin: 0 auto;
+
+}
+
+.main-txt-container {
+  width: 500px;
+  height: 200px;
+  background-image: url('../images/frame.png');
+  float: right;
+  margin-right: 80px;
+  margin-top: 130px;
+  text-align: left;
+}
+
+.footer-container {
+  margin-left: 10px;
+  text-align: center;
+  font-weight: 400;
+}
+
+.log-btn-container {
+ position: absolute;
+ bottom: 595px;
+ left: 1039px;
+ border: 2px solid #06365f;
+ border-radius: 3px;
+ background-color: #1c5380;
+ color: white;
+ text-align: center;
+ padding: 1px 10px;
+
+}
+
+.blue-heading-container {
+  position: fixed;
+  z-index: -1;
+  width: 100%;
+  height: 280px;
+  background-color: #125688;
+  border-bottom: 2px solid #06365f;
+}
+
+/*----TEXT----*/
+
+p {
+  font-size: 15px;
+  width: 440px;
+  margin-left: 12px;
+}
+
+h2 {
+  margin-left: 12px;
+  color: #06365f;
+}
+
+a {
+  text-decoration: none;
+  color: #1c5380;
+  margin-left: 20px;
+}
+
+
+/*----IMAGES----*/
+
+.phones {
+  float: left;
+  margin-left: 50px;
+  margin-top: 65px;
+}
+
+.badge {
+  position: absolute;
+  top: 520px;
+  right: 470px;
+}
+
+.logo {
+  position: relative;
+  top: 124px;
+  left: 51px;
+}
+
+.log-in {
+  padding: 1px 1px;
+  margin-top: 5px;
 }
