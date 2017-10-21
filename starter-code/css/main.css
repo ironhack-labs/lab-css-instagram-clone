@@ -8,3 +8,29 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.backgroundTop {
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+}
+
+.mainContent {
+  margin : 100px 100px 50px 100px;
+}
+
+.col1 {
+  float: left;
+  width: 50%;
+}
+
+.textAndLinks{
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 20px 50px;
+}
+
+.footerStyle{
+  margin: 200px auto 50px auto;
+  text-align: center;
+}
