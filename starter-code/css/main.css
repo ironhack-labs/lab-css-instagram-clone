@@ -4,7 +4,96 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900');
+
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 200 16px/1.5 "Source Sans Pro", Helvetica, Arial, sans-serif;
   margin: 0;
+  height: 100vh;
+  background: linear-gradient(0deg, #F4F5F7 60%, #437295 30%);
+}
+
+.container {
+  height: 90vh;
+  width: 100vw
+}
+
+.left , .right {
+  margin: 20vh 0 20vh 0;
+  float: left;
+}
+
+.right {
+  margin-left: 10vh;
+  width: 
+}
+
+.phones {
+  margin-left: 30vh
+}
+
+.brand {
+  width: 50%;
+  display: inline;
+}
+
+h2 {
+  font-weight: 900;
+  font-size: 2em;
+  color: #06365f
+}
+
+p {
+  letter-spacing: 1px;
+  font-size: 0.9em;
+}
+
+.home {
+  display: inline;
+  background-color: #5D89A9;
+  color: white;
+  margin-top: 10px;
+  float: right;
+  height: 50px;
+  width: 15%;
+  border-radius: 5px;
+  font-size: 1.2em;
+  font-family: "Source Sans Pro"
+}
+
+.home > img {
+  float: left;
+  margin-left: 15px;
+}
+
+.box {
+  background-image: url(../images/frame.png);
+  padding: 5vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 40vw
+}
+
+.footer {
+  height: 
+}
+
+/* .nav {
+  margin: 0 auto;
+  /* justify-content: center; */
+} */
+
+ul {
+  text-align: center;
+  
+}
+
+li {
+  display: inline;
+  color: #1c5380;
+  margin-left: 1em;
+}
+
+.grey {
+  color: #E7E3E5;
 }
