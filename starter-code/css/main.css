@@ -8,3 +8,122 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.header {
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat;
+  height: 280px;
+}
+
+.left {
+  margin: 100px 10px 0px 100px;
+  float: left;
+  width: 510px;
+}
+
+/*Éléments placer à droite */
+.right {
+  margin: 100px 200px 50px 25px;
+  float: right;
+  width: 510px;
+}
+
+.top-element{
+  margin: 0 0 80px;
+}
+
+.instagram {
+  float: left;
+}
+
+.instagram img{
+  max-width: 60%;
+  height: auto;
+}
+
+button{
+  margin: 10px auto;
+  background-color: #4186bf;
+  float: right;
+  width: 80px;
+  color: white;
+  border: 1px solid #466e92;
+  font-size: 12px;
+  height: 30px;
+  padding: 0;
+}
+
+button > img {
+  float: left;
+  margin: 3px 5px 0px;
+}
+
+.button-center {
+  float: right;
+  margin: 7px 3px 0px;
+}
+
+/*Éléments de la box droite */
+.middle-element {
+  text-align: left;
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: auto;
+}
+
+h1 {
+  color: #06365f;
+  margin: 15px 40px 1px 25px;
+  padding: 17px;
+  font-size: 30px;
+}
+
+.retrait {
+  margin: 0px 40px 10px 40px;
+  font-size: 15px;
+}
+
+/*Éléments application */
+.application {
+  margin: 0px 40px 10px 40px;
+}
+
+.apple {
+  float: left;
+  margin-right: 15px;
+}
+
+.android {
+  float: right;
+  margin-right: 90px;
+}
+
+footer{
+  clear: both;
+}
+
+footer > ul {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 400px;
+}
+
+footer > ul > li {
+  list-style-type: none;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  float: left;
+  margin: 50px 10px auto;
+}
+
+footer > ul > li > a:link {
+  text-decoration: none;
+  color: #647f9c;
+}
+
+.grey {
+  color: #afafb5;
+}
