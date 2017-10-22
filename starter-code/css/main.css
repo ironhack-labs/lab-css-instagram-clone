@@ -7,4 +7,92 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;
+
+}
+
+.container {
+  margin: 100px 200px;
+  height: auto;
+  width: 100%;
+}
+
+.phones {
+  float: left;
+}
+
+.the-rest {
+  float: left;
+  width: 50%;
+  margin-left: 50px;
+}
+
+.home img {
+  vertical-align: middle;
+  text-align: center;
+  padding-left: 5px;
+
+}
+
+.login {
+  padding-left: 10px;
+}
+
+.home {
+  color: white;
+  background-color: ##1c5380;
+  border: 2px solid #1c5385;*/
+  width: 100px;
+  height: 25px;
+  float: right;
+  margin-right: 100px;
+  vertical-align: text-top;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.frame {
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  float: left;
+  width: 400px;
+  height: auto;
+  margin-right: 100px;
+  padding: 10px 40px;
+}
+
+footer {
+  clear: both;
+  color: #06365f;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+ul {
+  list-style-type: none;
+  list-style-position: outside;
+}
+
+li {
+  display: inline;
+  padding: 0px 5px;
+  font-size: 10px;
+}
+
+h3 {
+  color: #06365f;
+  font-size: 20px;
+}
+
+.badges {
+  padding-top: 20px;
+}
+
+.copyright {
+  color: grey;
+}
+
+.login {
+  text-align: center;
 }
