@@ -5,6 +5,78 @@ light blue: #1c5380
 */
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  margin:7.5% 15% 15% 15%;
+  background-color: #1c5380;
+
+}
+.fondo1{
+
+}
+
+.img-P{
+  float:left;
+  width: 40%;
+}
+
+.img-S{
+float: right;
+width: 40%;
+}
+.log-in{
+  float: right;
+  width: 10%;
+  height: 50px;
+  color:#FFF;
+  background: #1c5380;
+  border: 5px aliceblue #1c5380;
+  border-radius: 5px;
+
+
+}
+.div-Pag{
+  padding-top: 25px;
+}
+h1{
+  color:#06365f;
+}
+
+.big-text{
+
+
+  float: right;
+  width: 40%;
+  position:relative;
+  bottom: 275px;
+  right:170px;
+}
+.apps{
+padding-top: 17px;
+width: 210px;
+height: 75px;
+position: relative;
+
+left: 30px;
+}
+.appss{
+  padding-top: 17px;
+  width: 210px;
+  height: 75px;
+  position: relative;
+  left: 700px;
+  bottom: 95px;
+}
+.foot{
+  overflow: auto;
+  width: 100%;
+  font-size: 2em;
+  color: #FFF;
+  text-align: center;
+
+}
+
+.foot a {
+  color: white;
+  text-decoration: none;
+
 }
