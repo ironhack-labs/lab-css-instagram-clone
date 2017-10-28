@@ -8,3 +8,53 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+main{
+  width: 100%;
+}
+
+.banner {
+  width: 40%;
+  display: inline-block;
+}
+
+.banner img {
+  margin-left: 30%;
+}
+
+.description {
+  width: 48%;
+  display: inline-block;
+}
+
+h1 {
+  width: 60%;
+}
+
+p {
+  padding-right: 10%;
+}
+
+.ultimo-parrafo {
+  margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+footer ul li{
+  display: inline;
+  padding: 1rem;
+}
+
+footer a{
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
+  margin-top: 4rem;
+}
