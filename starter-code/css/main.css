@@ -1,10 +1,72 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+
+
+
 /*
 Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
 
+/*background-image: url('../images/apple-pie.jpg');*/
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+	background-image: url("../images/bgtile.png");
+	background-repeat: repeat-x;
+}
+
+.box-left{
+	position:	relative;
+	width:40%; /*width of your image*/
+	float: left;
+	height:500px; /*height of your image*/
+	background-image: url("../images/phones.png");
+	background-repeat: no-repeat;
+  border: 1px solid green;
+	margin-top: 70px;
+	margin-left: 100px;
+}
+
+.box-right{
+	position: relative;
+	width:60%;
+	float:right;
+	height:60px;
+	background-image: url("../images/brand.png");
+	background-repeat: no-repeat;
+	margin-left: 400px;
+	display: inline-block;
+}
+
+.box.down{
+
 }
