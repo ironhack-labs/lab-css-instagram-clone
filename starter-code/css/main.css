@@ -12,8 +12,8 @@ body {
   margin: 0;
 }
 header {
-  background-color: #1c5380;
-  height: 250px;
+  background: linear-gradient(#507da2,#316088);
+  height: 289px;
   width: 100%;
   position: absolute;
   z-index: -1;
@@ -26,21 +26,40 @@ header {
 }
 #izquierdo {
   margin-right: 50px;
-  max-width: 30%,
 }
 #derecho {
-  width: 100%;
+  width: 500px;
   min-width: 500px;
+  margin-bottom: 30px;
 }
 #superior-derecho {
   display: flex;
-  margin-bottom: 25px;
+  margin-bottom: 10px;
 }
 #logo {
-  width: 40%;
+  padding-top: 20px;
+}
+.button {
+   color: white;
+   font-size: 0.8em;
+   font-weight: bold;
+   width: 95px;
+   height: 41px;
+   border: 1px solid #316088;
+   padding: 7px;
+   box-sizing: border-box;
+   background: linear-gradient(#5a83a6,#42749c);
+   border-radius: 3px;
+   position:relative;
+   top: 37px;
+   left: 82px;
+}
+.button span {
+  margin: 0px 0px 3px 8px;
+  position: relative;
+  bottom: 5px;
 }
 #inferior-derecho {
-  border: 1px solid red;
   background-image: url(../images/frame.png);
   background-size:contain;
   background-repeat: no-repeat;
@@ -48,20 +67,27 @@ header {
   padding: 30px;
 }
 .title {
-  font-size: 1.3em;
+  font-size: 1.5em;
   color: #06365f;
   font-weight: bold;
   margin-bottom: 15px;
+  max-width: 250px;
 }
 p {
   margin-bottom: 10px;
+}
+p span {
+  font-weight: bold;
+}
+.down-button {
+  margin: 25px 15px 0px 0px;
 }
 footer {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  height: 70px;
-  width: 40%;
+  width: 45%;
+  min-width: 550px;
   margin: auto;
   font-size: 0.7em;
   font-weight: bold;
@@ -71,5 +97,7 @@ footer {
 }
 footer span {
   margin: 5px;
-
+}
+.copyright{
+  color: grey;
 }
