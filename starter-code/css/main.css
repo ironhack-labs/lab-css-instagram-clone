@@ -21,9 +21,16 @@ header {
 #content {
   width: 70%;
   margin: auto;
-  padding-top: 100px;
-  display: flex;
+  padding-top: 90px;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
 }
+.main {
+  display: flex;
+  flex-flow: row no-wrap;
+}
+
 #izquierdo {
   margin-right: 50px;
 }
@@ -84,11 +91,10 @@ p span {
 }
 footer {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
-  width: 45%;
-  min-width: 550px;
   margin: auto;
+  min-width: 550px;
   font-size: 0.7em;
   font-weight: bold;
   text-transform: uppercase;
@@ -96,7 +102,7 @@ footer {
 
 }
 footer span {
-  margin: 5px;
+  margin: 10px;
 }
 .copyright{
   color: grey;
