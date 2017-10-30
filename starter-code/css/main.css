@@ -8,3 +8,133 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.blue-box {
+  height: 400px;
+  background-color: #1c5380;
+}
+
+.grey-box {
+  height: 450px;
+  background-color: #fafafa;
+}
+
+.content {
+  position: absolute;
+  top: 200px;
+}
+
+.content-text {
+  background: linear-gradient(to bottom, white, white, rgba(255, 255, 255, 0)); 
+  padding: 10px 20px 0 40px;
+  border-radius: 10px;
+}
+
+main{
+  width: 100%;
+  margin-left: 60px;
+}
+
+.banner {
+  width: 40%;
+  display: inline-block;
+}
+
+.banner img {
+  margin-left: 200px;
+}
+
+.description {
+  width: 38%;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.home {
+  padding-bottom: 20px;
+}
+
+h1 {
+  color: #06365f;
+  font-size: 1.8em;
+  padding-right: 38%;
+  line-height: 1.2;
+}
+
+p {
+  font-weight: 400;
+  color: rgb(118, 118, 119);
+  padding-right: 20px;
+}
+
+p span {
+  color: #000;
+  font-weight: bold;
+}
+
+.ultimo-parrafo {
+  margin-bottom: 30px;
+}
+
+.button {
+  background: linear-gradient(to bottom, rgba(6, 54, 95, 0), rgba(6, 54, 95, 1));
+  margin-top: 3%;
+  padding: 5px 10px;
+  float: right;
+  border-radius: 2px;
+  border-top: 2px solid rgba(6, 54, 95, 0);
+  border-right: 2px solid rgba(6, 54, 95, 1);
+  border-bottom: 2px solid rgba(6, 54, 95, 1);
+  border-left: 2px solid rgba(6, 54, 95, 1);
+}
+
+.button:hover {
+  background: linear-gradient(to bottom, rgba(6, 54, 95, 1), rgba(6, 54, 95, 1));
+}
+
+.button:active {
+  border: none;
+}
+
+.button img {
+  margin: 5px 10px 0 0;
+}
+
+.button span {
+  position: relative;
+  top: -5px;
+}
+
+a .button {
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.8em;
+  font-weight: 600;
+}
+
+
+
+
+
+
+footer ul li {
+  display: inline;
+  padding: 0.5rem;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #1c5380;
+}
+
+.copyright {
+  color: rgb(181, 181, 182);
+}
+
+footer a{
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
+  margin-top: 4rem;
+}
