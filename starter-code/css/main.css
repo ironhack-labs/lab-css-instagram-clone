@@ -44,27 +44,164 @@ body {
 	background-repeat: repeat-x;
 }
 
+.box-main{
+	border: 1px solid black;
+	width: 80%;
+	height: 700px;
+	margin-top: 5%;
+	margin-left: 5%
+}
+
 .box-left{
-	position:	relative;
-	width:40%; /*width of your image*/
+	position: relative;
 	float: left;
-	height:500px; /*height of your image*/
+	width: 22%;
+	height: 80%;
 	background-image: url("../images/phones.png");
 	background-repeat: no-repeat;
-  border: 1px solid green;
-	margin-top: 70px;
-	margin-left: 100px;
+    border: 1px solid green;
+	margin-top: 1%;
+	margin-left: 15%;
 }
 
 .box-right{
 	position: relative;
-	width:60%;
-	float:right;
-	height:60px;
+	float: left;
+	width: 60%;
+	height: 15%;
+	border: 1px solid blue;
+	margin-top: 1%;
+	margin-left: 2%;
+
+
+}
+
+.box-right-top-left{
+	position: relative;
+	float: left;
+	width: 40%;
+	height: 80%;
+	border: 1px solid blue;
+	margin-top: 1%;
+	margin-left: 2%;
 	background-image: url("../images/brand.png");
 	background-repeat: no-repeat;
-	margin-left: 400px;
-	display: inline-block;
+}
+
+.box-right-top-right{
+	position: relative;
+	float: left;
+	width: 40%;
+	height: 80%;
+	border: 1px solid blue;
+	margin-top: 1%;
+	margin-left: 2%;
+}
+
+.button {
+	position: relative;
+	width: 35%; 
+	margin-top: 5%;
+	margin-left: 30%;
+	background-color: rgb(9, 6, 179);
+    border: none;
+	color: white;
+	background: url("../images/home.png") no-repeat 10px center;
+	background-repeat: no-repeat;
+    padding: 15px 32px;
+    text-align: right;
+    text-decoration: none;
+    display: inline-block;
+	font-size: 16px;
+	box-shadow: 5px 5px #666;
+	
+}
+
+.box-left-body-text{
+	position: relative;
+	float: left;
+	width: 50%;
+	height: 65%;
+	border: 1px solid black;
+	margin-top: 0%;
+	margin-left: 2%;
+	background-image: url("../images/frame.png");
+	background-size: 660px 420px;
+	background-repeat: no-repeat;
+
+}
+
+.box-left-body-text-title{
+	position: relative;
+	float:left;
+	width: 100%;
+	height: 20%;
+	font-family: Verdana;
+	font-size: 160%;
+	font-weight: bold;
+	color : rgb(8, 8, 131);
+	margin-top: 2%;
+	margin-left: 4%
+}
+
+.box-left-body-text-large{
+	position: relative;
+	float:left;
+	width: 100%;
+	height: 20%;
+	font-family: Verdana;
+	font-size: 120%; 
+	color : black;
+	margin-top: 2%;
+	margin-left: 4%
+}
+
+.box-google-play{
+	position: relative;
+	float:left;
+	width: 25%;
+	height: 20%;
+	background-image: url("../images/badge-android.png");
+	background-repeat: no-repeat;
+	margin-top: 25%;
+	margin-left: 1%;
+
+}
+
+.box-app-store{
+	position: relative;
+	float:left;
+	width: 25%;
+	height: 15%;
+	background-image: url("../images/badge-iphone.png");
+	background-repeat: no-repeat;
+	margin-top: 25%;
+	margin-left: 4%;
+}
+.box-top-left{
+	width: 40%;
+	float: left;
+	height:60px;
+	margin-left: 20%;
+
+
+}
+
+.box-links{
+	position: relative;
+	display:inline-block;
+	width: 75%;
+	height: 20%;
+	margin-top: 5%;
+	margin-left: 20%;
+	
+}
+
+.about{
+	position: relative;
+	float:left;
+	width: 20%;
+	height: 20%;	
 }
 
 .box.down{
