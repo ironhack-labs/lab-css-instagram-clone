@@ -1,10 +1,217 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+
+
+
 /*
 Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
 
+/*background-image: url('../images/apple-pie.jpg');*/
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+	background-image: url("../images/bgtile.png");
+	background-repeat: repeat-x;
 }
+
+.box-main{
+	width: 80%;
+	height: 700px;
+	margin-top: 5%;
+	margin-left: 5%
+}
+
+.box-left{
+	position: relative;
+	float: left;
+	width: 22%;
+	height: 80%;
+	background-image: url("../images/phones.png");
+	background-repeat: no-repeat;
+	margin-top: 1%;
+	margin-left: 15%;
+}
+
+.box-right{
+	position: relative;
+	float: left;
+	width: 60%;
+	height: 15%;
+	margin-top: 1%;
+	margin-left: 2%;
+
+
+}
+
+.box-right-top-left{
+	position: relative;
+	float: left;
+	width: 40%;
+	height: 80%;
+	margin-top: 1%;
+	margin-left: 2%;
+	background-image: url("../images/brand.png");
+	background-repeat: no-repeat;
+}
+
+.box-right-top-right{
+	position: relative;
+	float: left;
+	width: 40%;
+	height: 80%;
+	margin-top: 1%;
+	margin-left: 2%;
+}
+
+.button {
+	position: relative;
+	width: 35%; 
+	margin-top: 5%;
+	margin-left: 30%;
+	background-color: rgb(9, 6, 179);
+    border: none;
+	color: white;
+	background: url("../images/home.png") no-repeat 10px center;
+	background-repeat: no-repeat;
+    padding: 15px 32px;
+    text-align: right;
+    text-decoration: none;
+    display: inline-block;
+	font-size: 16px;
+	box-shadow: 5px 5px #666;
+	
+}
+
+.box-left-body-text{
+	position: relative;
+	float: left;
+	width: 50%;
+	height: 65%;
+	margin-top: 0%;
+	margin-left: 2%;
+	background-image: url("../images/frame.png");
+	background-size: 660px 420px;
+	background-repeat: no-repeat;
+
+}
+
+.box-left-body-text-title{
+	position: relative;
+	float:left;
+	width: 100%;
+	height: 20%;
+	font-family: Verdana;
+	font-size: 160%;
+	font-weight: bold;
+	color : rgb(8, 8, 131);
+	margin-top: 2%;
+	margin-left: 4%
+}
+
+.box-left-body-text-large{
+	position: relative;
+	float:left;
+	width: 100%;
+	height: 20%;
+	font-family: Verdana;
+	font-size: 120%; 
+	color : black;
+	margin-top: 2%;
+	margin-left: 4%
+}
+
+.box-google-play{
+	position: relative;
+	float:left;
+	width: 25%;
+	height: 20%;
+	background-image: url("../images/badge-android.png");
+	background-repeat: no-repeat;
+	margin-top: 25%;
+	margin-left: 1%;
+
+}
+
+.box-app-store{
+	position: relative;
+	float:left;
+	width: 25%;
+	height: 15%;
+	background-image: url("../images/badge-iphone.png");
+	background-repeat: no-repeat;
+	margin-top: 25%;
+	margin-left: 4%;
+}
+.box-top-left{
+	width: 40%;
+	float: left;
+	height:60px;
+	margin-left: 20%;
+
+
+}
+
+.box-links{
+	position: relative;
+	display:inline-block;
+	width: 70%;
+	height: 20%;
+	margin-top: 5%;
+	margin-left: 20%;
+	
+	
+	
+}
+
+.link{
+	position: relative;
+	float:left;
+	width: 7%;
+	height: 10%;
+	margin-top: 1%;
+	margin-left: 2%;
+	font-family: verdana;
+	font-weight: bold;
+	color : rgb(8, 8, 131);
+}
+
+.copyright{
+	position: relative;
+	float:left;
+	width: 7%;
+	height: 10%;
+	margin-top: 1%;
+	margin-left: 2%;	
+	
+}
+
