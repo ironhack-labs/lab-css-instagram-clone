@@ -3,8 +3,85 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+* {
+  box-sizing: border-box;
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+.background-top {
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;
+  height: 280px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: -1;
+}
+.main-container {
+  width: 85%;
+  margin: 100px auto 0;
+}
+.home-elements {
+  float: right;
+  width: calc(100% - 318px);
+  padding-left: 60px;
+}
+.copy-text {
+  padding: 30px;
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  border-radius: 8px;
+}
+h1 {
+  font-size: 1.5rem;
+  color: #06365f;
+  margin-top: 0;
+}
+p {
+  font-weight: normal;
+  color: #222;
+}
+.button-login {
+  background: linear-gradient(#6F92B0, #457298);
+  border: 1px solid #1c5380;
+  border-radius: 2px;
+  display: inline-block;
+  float: right;
+  padding: 5px;
+  margin-top: 21px;
+}
+.button-login a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 10px 10px 40px;;
+  font-weight: bold;
+  font-size: 0.8rem;
+  background-image: url(../images/home.png);
+  background-repeat: no-repeat;
+  background-position: 5px center;
+}
+.logo-login span {
+  background-image: url(../images/home.png);
+  width: 25px;
+  height: 22px;
+}
+nav {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  text-align: center;
+}
+nav > ul > li {
+  display: inline-block;
+}
+nav > ul > li > a {
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  text-decoration: none;
+  color: #1c5380;
+  font-weight: bold;
+  padding: 0 10px;
 }
