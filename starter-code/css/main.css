@@ -7,4 +7,97 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  align-content: center;
+  background-color: #f6f7f9;
+}
+
+.blue-box {
+  background: linear-gradient(to bottom, rgba(38,93,138,1) 0%, rgba(38,93,138,1) 57%, rgba(10,56,94,1) 100%);  height: 300px;
+  position: relative;
+}
+
+.content {
+  position: absolute;
+  top: 100px;
+  padding: 20px;
+  width: 100%;
+}
+.left{
+  float: left;
+  width: 45%;
+}
+
+.right {
+  float: left;
+  width: 55%;
+}
+
+.image-phone {
+  position: relative;
+  float: right;
+  padding-right: 50px;
+}
+
+.image-brand {
+  position: relative;
+  float: left;
+}
+
+.button-log {
+  position: relative;
+  float: right;
+  margin-top: 15px;
+  margin-right: 10px;
+  width: 100px;
+  height: 40px;
+  box-sizing: border-box;
+  box-shadow: 0 0 2px #06365f;
+  padding: 8px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  border-color: #1c5380;
+  background: linear-gradient(to bottom, rgba(38,93,138,1) 0%, rgba(38,93,138,1) 57%, rgba(10,56,94,1) 100%);
+}
+
+.button-log>div {
+  position: relative;
+  float: right;
+  color: lightgrey;
+  font-weight: bold;
+}
+
+.about {
+  width: 510px;
+}
+
+.info {
+  background-image: url('../images/frame.png');
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  height: 300px;
+  width: 510px;
+  padding: 20px 45px;
+  float: left;
+  margin-top: 20px;
+}
+
+.footer {
+  position: relative;
+  float: left;
+  margin-top: 180px;
+  margin-left: -195px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #4b7396;
+}
+
+.footer>span{
+  color: #b1b1b1;
+}
+
+h1{
+  color: #06365f;
+  font-weight: bold;
+  font-size: 24px;
 }
