@@ -3,8 +3,90 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
+*{
+  margin: 0;
+  padding: 0;
+}
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  text-align: center;
+}
+section{
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;
+  background-position: top;
+  margin: 0 auto;
+  padding-top: 100px;
+  margin-bottom: 50px;
+}
+.phones-img{
+  display: inline-block;
+}
+.section-part-right{
+  display: inline-block;
+  box-sizing: border-box;
+  margin: 20px 0 0 35px;
+  width: 45%;
+  vertical-align: top;
+}
+.logo{
+
+  text-align: left;
+}
+.instagram-logo{
+
+}
+.btn-login{
+  float: right;
+  margin-right: 93px;
+  margin-top: 17px;
+  border: 1px solid #27435c;
+  background-color: #4684ba;
+  padding: 7px 10px;
+  border-radius: 4px
+}
+.clearfix{
+  clear: both;
+}
+.btn-login a{
+  color: #ddeaf6;
+  text-decoration: none;
+}
+.btn-login img{
+  vertical-align: sub;
+}
+.info{
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  width: 504px;
+  box-sizing: border-box;
+  padding: 30px 30px 0 30px;
+  text-align: left;
+}
+.info h1{
+  color:#3A6890;
+  margin-bottom: 20px;
+}
+.info-paragraphs{
+  margin-bottom: 32px;
+  line-height: 20px;
+  color:rgb(69, 69, 69);
+  line-height: 1.4rem;
+}
+.img-download img{
+  padding-right: 20px;
+}
+
+footer li{
+  display: inline-block;
+  color:#959595;
+  box-sizing: border-box;
+  padding: 0 5px;
+  font-weight: bold;
+  font-stretch: extra-condensed;
+  font-size: 13px;
+}
+footer a{
+  text-decoration: none;
+  color:#3A6890;
 }
