@@ -4,7 +4,127 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+a {
+  text-decoration: none;
+  color: #1c5380;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #1c5380;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  padding: 0;
+  min-width: 842px;
+}
+
+.copyRight {
+  color: gray;
+}
+
+.down {
+  height: 402px;
+  margin: 0 auto;
+  width: 842px;
+}
+
+footer {
+  margin: 0 auto;
+  width: 842px;
+}
+
+.instagram {
+  float: left;
+  vertical-align: middle;
+}
+
+.left {
+  float: left;
+  height: 512px;
+  margin-right: 10px;
+  position: relative;
+  top: -30%;
+  width: 318px;
+}
+
+.link {
+  color: #1c5380;
+  font-weight: bold;
+}
+
+.loginButton {
+  border: 1px solid #06365f;
+  color: white;
+  display: block;
+  float: right;
+  font-weight: bold;
+  height: 30px;
+  /*line-height: 50px;*/
+  margin: 12px 0;
+  padding: 12px 0;
+  text-align: center;
+  vertical-align: middle;
+  width: 100px;
+}
+
+.right {
+  float: left;
+  height: 512px;
+  margin-left: 10px;
+  position: relative;
+  top: -30%;
+  width: 504px;
+}
+
+.rightContent {
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  height: 284px;
+  padding: 20px;
+  clear: both;
+}
+
+.rightContent h1 {
+  color: #06365f;
+  width: 55%;
+}
+
+.rightHeader {
+  margin-bottom: 20px;
+  height: 78px;
+}
+
+section {
+}
+
+.storeButtons {
+  text-align: center;
+  margin-top: 30px;
+  
+}
+
+ul {
+  list-style-type: none;
+  text-align: center;  
+  width: 780px;
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  top: -60px;
+}
+
+li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.up {
+  /* El path es relativo a la carpeta donde está el archivo .css NO el .html */
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+  /* 280px es la altura de bgtile.png */
+  height: 280px;
 }
