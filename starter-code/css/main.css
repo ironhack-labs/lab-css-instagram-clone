@@ -56,15 +56,23 @@ footer {
 }
 
 .loginButton {
-  border: 1px solid #06365f;
+	background: rgba(117,151,177,1);
+	background: -moz-linear-gradient(top, rgba(117,151,177,1) 0%, rgba(96,134,164,1) 40%, rgba(74,118,151,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(117,151,177,1)), color-stop(40%, rgba(96,134,164,1)), color-stop(100%, rgba(74,118,151,1)));
+	background: -webkit-linear-gradient(top, rgba(117,151,177,1) 0%, rgba(96,134,164,1) 40%, rgba(74,118,151,1) 100%);
+	background: -o-linear-gradient(top, rgba(117,151,177,1) 0%, rgba(96,134,164,1) 40%, rgba(74,118,151,1) 100%);
+	background: -ms-linear-gradient(top, rgba(117,151,177,1) 0%, rgba(96,134,164,1) 40%, rgba(74,118,151,1) 100%);
+	background: linear-gradient(to bottom, rgba(117,151,177,1) 0%, rgba(96,134,164,1) 40%, rgba(74,118,151,1) 100%);
+  border: 2.5px solid rgba(28, 83, 128, .7);
+	border-radius: 7px;
   color: white;
   display: block;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7597b1', endColorstr='#4a7697', GradientType=0 );
   float: right;
   font-weight: bold;
   height: 30px;
-  /*line-height: 50px;*/
   margin: 12px 0;
-  padding: 12px 0;
+  padding: 8px 0;
   text-align: center;
   vertical-align: middle;
   width: 100px;
