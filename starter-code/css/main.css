@@ -8,3 +8,76 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+/*header*/
+.head {
+    background-image: url(../images/bgtile.png);
+    height: 275px;
+}
+
+.container {
+    display: block;
+    padding : 8% 20% 8% 45%;
+    
+    
+}
+
+#buttonLogin {
+    background-color: #1c5380;
+    border-color: rgba(6, 54, 95,0.2);
+    padding: 7px;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    margin: 18px 0 0  200px;
+}
+
+#phones{
+    z-index: 1;
+    position: absolute;
+    top: 15%;
+    left: 10%;
+}
+
+#frame{
+    background-image: url(../images/frame.png) ; 
+    background-size: cover;
+    z-index: 1;
+    position: absolute;
+    top: 30%;
+    left: 45%;
+    padding: 0 3%;
+    width: 38%;
+}
+
+h1 {
+    color: #06365f;
+}
+.paragraph{
+    margin-bottom: 1px;
+}
+
+#frameImg img{
+    padding-top: 5%;
+    padding-right: 3%;
+}
+
+
+.menuFooter {
+    position: absolute;
+    bottom: 2%;
+    font-size: 12px;
+    width: 100%;
+    text-align: center;
+}
+
+.menuFooter a{
+    text-decoration: none;
+    color: #1c5380;    
+    font-weight: bold;
+    padding-right: 2%;
+}
+
+#copy{
+    color: darkgray;
+}
