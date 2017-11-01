@@ -6,5 +6,17 @@ light blue: #1c5380
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #06365f;
   margin: 0;
+}
+
+.images{
+ float: left;
+}
+
+.text{
+  background-image: url("/Users/ameliasalgado/Documents/Ironhack/lab-css-instagram-clone/starter-code/images/frame.png");
+  background-repeat:no-repeat;    
+  /*background-size: 100% 100vh;*/
+  
 }
