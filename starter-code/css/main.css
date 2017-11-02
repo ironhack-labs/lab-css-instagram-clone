@@ -1,10 +1,83 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
-
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-color: white;
+
+}
+
+header {
+background-color: #1c5380;
+height: 300px;
+box-sizing: border-box;
+padding-left: 550px;
+padding-top: 150px;
+padding-bottom: 200px;
+position: relative;
+}
+
+
+h1 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #1c5380;
+}
+
+button {
+  background-color: #497599;
+  border: 1px solid #1c5380;
+  margin-right: 400px;
+  padding-right: 70px;
+  position: relative;
+  float: right;
+  color: white;
+
+}
+button.p {
+  color: white;
+  float: right;
+}
+.content {
+  margin-left: 150px;
+  float:left;
+  position: absolute;
+  margin-top: -220px;
+}
+.main {
+  border-top: 2px solid #1c5380;
+  border-left: 2px solid #1c5380;
+  border-right: 2px solid #1c5380;
+  padding-left: 30px;
+  padding-right: 20px;
+  margin-left: 580px;
+  margin-right: 400px;
+  box-sizing: content-box;
+
+
+}
+.downloads {
+  padding-top: 20px;
+  padding-left: 650px;
+}
+
+footer {
+  margin-bottom: 150px;
+  margin-top: 50px;
+  padding-bottom: 100px;
+
+}
+footer li{
+  background-color: white;
+  float: center;
+  display: inline-block;
+  text-decoration: none;
+  list-style: none;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  color: #1c5380;
+  font-weigth: bold;
+  padding-right: 25px;
+
+
+
 }
