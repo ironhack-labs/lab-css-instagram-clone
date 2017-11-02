@@ -8,3 +8,33 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.general-container{
+  width:1200px;
+  margin-top: 100px;
+  height: 1000px;
+}
+.button{
+  background:
+}
+.left-container{
+  float: left;
+  width: 35%;
+  margin-left: 50px;
+}
+.top-box{
+  position:relative;
+}
+.side-message{
+  float: left;
+  width:50%;
+
+}
+.message-box{
+position:absolute;
+margin-top:0px;
+
+}
+.footer{
+  clear:both;
+}
