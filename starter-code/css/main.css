@@ -4,7 +4,123 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+.container {
+  display: inline-block;
+}
+
+.centercontainer {
+  text-align: center;
+  padding-top: 95px;
+  z-index: 0;
+  background: linear-gradient(to bottom, rgba(95, 125, 155, 1) 10%, rgba(55, 95, 135, 1) 100%);
+  position: absolute;
+  height: 185px;
+}
+
+.left {
+  display: inline-block;
+  width: 45%;
+}
+
+.right {
+  display: inline-block;
+  text-align: left;
+  vertical-align: top;
+  margin-top: 15px;
+  width: 45%;
+}
+
+.righttop {
+  display: inline-block;
+}
+
+.backgroundWhite {
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: 86%;
+}
+
+.logo {
+  text-align: left;
+  margin-right: 10px;
+  width: 72%;
+}
+
+.rightbottom {
+  float: right;
+  color: white;
+  display: inline-block;
+  background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #3c6184)), color-stop(1, ##547491));
+  width: 50px;
+  height: 50px;
+  padding: 10 10 10 10;
+  border: 1px solid #84bbf3;
+  border-radius: 5px;
+  background-color: #557491;
+  font-size: 15px;
+  font-weight: bold;
+  font-style: normal;
+  height: 40px;
+  line-height: 40px;
+  width: 100px;
+  text-align: center;
+  text-shadow: 1px 1px 0px #528ecc;
+}
+
+.rightbottom:hover {
+  background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #378de5), color-stop(1, #79bbff));
+  background: -moz-linear-gradient( center top, #378de5 5%, #79bbff 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#378de5', endColorstr='#79bbff');
+  background-color: #378de5;
+  color: white;
+}
+
+.rightbottom:active {
+  position: relative;
+  top: 1px;
+  color: white;
+}
+
+.textright {
+  border-radius: 5px;
+  width: 80%;
+  padding: 17px;
+  margin-top: 15px;
+  margin-left: 7px;
+}
+
+h1 {
+  margin: 0 0 0 0;
+  color: #06365f;
+}
+
+footer {
+  display: inline-block;
+  text-align: center;
+  margin: 0 0 0 20px;
+}
+
+nav>ul>li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 13px;
+  font-size: 13px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+a:link {
+  text-decoration: none;
+  color: #06365f;
 }
