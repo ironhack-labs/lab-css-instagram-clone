@@ -8,3 +8,66 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.left {
+  clear: left;
+  display: inline-block;
+  margin-top: 100px;
+  margin-left: -380px;
+}
+.right {
+  float: left;
+  width: 20%;
+  margin-top: 100px;
+  margin-left: 80px;
+}
+.below {
+  float: left;
+  margin: 0;
+  width:20%;
+  margin-top: 200px;
+}
+p {
+  background-image: url("../images/frame.png");
+  background-position: left top;
+  background-size:100% auto;
+}
+.badgediv1 {
+  display: inline;
+}
+.badgediv2 {
+  display: inline;
+
+}
+.badgeA {
+  float: left;
+  margin-left: 180px;
+
+  .badgeI {
+    float: left;
+    margin-left: 180px;
+    display:inline;
+}
+.block {
+   text-transform: uppercase;
+   text-decoration: none;
+   padding-bottom: 5px;
+   position: relative;
+
+}
+ul {
+  list-style-type: none;
+  margin-right: 800px;
+}
+footer {
+   text-align: center;
+   display: inline-block;
+   margin-top: 300px;
+}
+li {
+  float: left;
+  padding: 16px;
+}
+a {
+  text-decoration: none;
+}
