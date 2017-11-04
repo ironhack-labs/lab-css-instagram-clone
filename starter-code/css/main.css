@@ -6,27 +6,99 @@ light blue: #1c5380
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #06365f;
-  margin: 0;
+  margin: 8% 18%;
+  background: transparent url("../images/bgtile.png") repeat-x;  
+  
 }
-.blue{
-  background-color: #06365f;
-  height: 50vh;
-}
-.images{
-  padding-left: 40px;
-  padding-right: 20px;
+.main-section{
   float: left;
-  z-index: 3;
-  position: relative;
+  padding-bottom: 10px;
+}
+.phones{
+  width: 50%;
+  float: left;
 }
 
-.text{
-  padding-left: 20px;
-  background-image: url("/Users/ameliasalgado/Documents/Ironhack/lab-css-instagram-clone/starter-code/images/frame.png");
-  background-repeat:no-repeat;   
-  z-index: 3; 
-  
-  /*background-size: 100% 100vh;*/
-  
+.phones img{
+  width: 80%;
+}
+.main-text-section{
+  width: 50%;
+  float: right;
+}
+
+.logo{
+  display: inline-block;
+  width: 50%;
+}
+
+.logo img{
+  width: 70%;
+}
+
+.home-button {
+  display: inline-block;
+  background-color: #06365f;
+  padding: 2%;
+  width: 30%;
+  border-radius: 3px;
+  height: 30px;
+}
+.home-button img,p{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.home{
+  display: inline-block;
+  vertical-align: middle;
+  width: 30%;
+}
+
+.home-text{
+  display: inline-block;
+  vertical-align: middle;
+  color: white;
+  width: 30%;
+}
+
+ul{
+  width: 100%;
+}
+
+.iphone{
+  float: left;
+  padding-right: 5%; 
+}
+
+.main-text{
+  background-image: url("../images/frame.png");
+  background-size: cover;
+  font-size: 90%;
+  padding: 5%; 
+
+}
+.main-buttons{
+  padding: 5%;
+}
+
+.main-text h1{
+  font: 80% 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #06365f;
+}
+
+ul li{
+  text-transform: uppercase;
+  display: inline-block;
+  font-size: 70%;
+  font-weight: bold;
+  color: #1c5380;
+}
+
+.copyright{
+  color: grey;
+}
+
+.navigation{
+  margin: 10%;
 }
