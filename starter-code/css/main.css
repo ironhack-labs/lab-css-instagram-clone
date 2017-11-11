@@ -7,4 +7,51 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  margin: 8% 18%;
+  color: #06365f;
+  background: transparent url("../images/bgtile.png") repeat-x;
 }
+.phone{
+  position: absolute;
+}
+section {
+  position: relative;
+  float: right;
+  padding-top: 20px;
+  margin-left: 400px;
+
+}
+.button2 {
+  padding-top: 350px;
+  margin-left: 20px
+}
+
+.contentBox {
+   font-size: 1.2rem;
+   width: 27%;
+   float: left;
+   padding: 3%;
+   background-image: url('../images/frame.png');
+   background-repeat: no-repeat;
+   background-size: contain;
+  
+}
+
+
+ .pageHead button{
+   background: linear-gradient(#6F92B0, #497499);
+   width: 22%;
+   color: #fff;
+   font-size: 1.2rem;
+   float: right;
+   border-radius: 3px;
+   padding: 0;
+   margin: 20px 0;
+   border: 1px solid #2F5980;
+   box-shadow: 0.2px 0.2px 10px #2F5980;
+  }
+button img {
+   width: 25%;
+   float: left;
+   margin: 7% 9%;
+ }
