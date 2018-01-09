@@ -88,7 +88,22 @@ h1{
 .footer{
   clear: both;
   width: 100%;
+  margin-top: 50px;
   text-align: center;
+  font-size: .8em;
+  text-transform: uppercase;
+  font-weight: 800;  
+}
+
+.footer a{
+  color: #1c5380;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.copyright{
+  margin-left: 20px;
+  color: #aaa;
 }
 
 .clearfix{
