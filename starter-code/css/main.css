@@ -7,4 +7,112 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+  background-color: #f6f7f9;
+
+
+}
+
+/* MAIN CONTAINER */
+
+#container-global {
+  display: flex;
+  width: 90%;
+  margin-left: 5%;
+}
+
+/* BLOC IMAGE */
+
+#iphone-img {
+  margin: 9% 7%;
+}
+
+
+/* BLOC CONTENT */
+
+
+  /* Content Header */
+#content_left {
+  margin:10% 5% 2% 0;
+  width: 45%;
+}
+
+#header-content {
+width : 100%;
+margin-bottom: 20px;
+display: flex;
+justify-content: space-between;
+
+}
+
+#button {
+  display: flex;
+  height: 27px ;
+  padding: 6px 20px;
+  margin: 20px 0 0 0;
+  border-radius: 3px;
+  border: 1px solid #094a80;
+ background-image: -webkit-linear-gradient(top, #609ed1, #094a80);
+
+}
+
+
+#button img {
+  margin-right: 10px;
+  height: 25px;;
+}
+
+#button a {
+  text-decoration: none;
+  color: white;
+  }
+
+#button:hover {
+  background-image: -webkit-linear-gradient(top, #094a80, #609ed1);
+
+}
+/* Content text */
+
+#content-text {
+  padding: 2% 5% 2% 5%;
+  border-radius: 6px;
+  background: linear-gradient(to bottom, #ffffff 48%, #f6f7f9 84%);
+  color : #06365f;
+}
+
+#content-text ul{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+#content-text h2 {
+  font-size: 1.8em;
+}
+
+#content-text span {
+  font-weight: bold;
+}
+
+
+/* FOOTER */
+
+#footer ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#footer li  {
+  list-style-type: none;
+  margin-left: 25px;
+
+}
+
+#footer a {
+  text-decoration: none;
+  font-weight: bold;
+  color : #1c5380;
 }
