@@ -21,30 +21,68 @@ html {
 }
 
 
-body, p, ul, li {
-
-	margin: 0;
-
-	padding: 0;
-
-}
-
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0 auto;
   background: url("/home/david/Documents/Ironhack/Week 1/Day 2/lab-css-instagram-clone/starter-code/images/bgtile.png");
-  margin: 0;
-  background-repeat: repeat-x
+  background-repeat: repeat-x;
+  max-width: 900px;
+
+
 }
 
 /* --------- typography ---------- */
 
-
+p {
+  text-align: right;
+  text-justify: auto
+}
 
 
 /* --------- layout ---------- */
 
+#border-style{
+  margin-bottom: 90px;
+}
+
+.main-body{
+  margin: 0 auto;
+}
+
+#login-style{
+  max-width: 400px;
+}
 
 /* --------- components ---------- */
+
+#phone-style .phone{
+  float: left;
+  margin-right: 50px;
+
+}
+
+#logo-style .logo{
+  float: left;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+#logo-style .login{
+  float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #site-nav li{
   color: #06365f;
