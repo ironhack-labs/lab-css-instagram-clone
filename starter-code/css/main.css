@@ -42,7 +42,6 @@ h2 {
 }
 
 .img-phone{
-
 }
 
 .box-container-info{
@@ -53,6 +52,7 @@ h2 {
   margin: 0 1%;
   width: 50%;
 }
+
 
 .info-box{
    font-size: 1.7em;
@@ -67,14 +67,17 @@ h2 {
 
 }
 
-
-
 .info-instagram{
 
-  border: 1px solid #fff;
+  background-image: url("../images/frame.png");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  /*border: 1px solid #fff;
   border-radius: 20px;
   box-sizing: border-box;
-  box-shadow: 2px 2px 10px 0 #eee;
+  box-shadow: 2px 2px 10px 0 #eee;*/
 }
 
 .relative{
@@ -82,12 +85,24 @@ h2 {
 }
 
 .box-info-instagram{
-  position: absolute;
-  margin: 5px;
+  
+  padding-top: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
   
 }
 
+
 .button{
+  border: 1px solid black;
+  color: black;
+  background-color: white;
+  padding: 9px;
+  margin: 5px 0 0 0;
+  width: 20%;
+}
+
+.box-img-button{
 
 }
 
@@ -98,8 +113,9 @@ h2 {
 .footer-bar{
 
   text-align: center;
-  padding: 0 100px;
-  margin: 0 0 25px 0;
+  padding: 0 60px;
+  /*margin: 0 0 25px 0;*/
+  margin: auto;
 
 }
 
@@ -120,8 +136,11 @@ h2 {
   float: left;
   text-transform: uppercase;
   font-size: 0.8em;
-  width: 6%;
+  padding-left: 10px;
+ 
 }
+
+
 
 .footer-bar-item{
   color: grey;
@@ -130,4 +149,5 @@ h2 {
   text-transform: uppercase;
   font-size: 0.8em;
   width: 10%;
+  padding-left: 10px;
 }
