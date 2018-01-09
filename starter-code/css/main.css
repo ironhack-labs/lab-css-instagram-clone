@@ -33,11 +33,17 @@ body {
 
 /* --------- typography ---------- */
 
-p {
+.paragraph-style {
   text-align: right;
   text-justify: auto
 }
 
+h1{
+  position: absolute;
+  right: 150px;
+  top: 225px;
+  color: #06365f;
+}
 
 /* --------- layout ---------- */
 
@@ -68,7 +74,22 @@ p {
 }
 
 #logo-style .login{
+  float: left;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  margin-left: 80px;
+  border: 1px solid #06365f;
+  padding: 10px 70px 10px 8px;
+  border-radius: 2px;
+  background: #54789A;
+}
+
+#logo-style .login-button{
+  color: white;
   float: right;
+  margin-right: 50px;
+  margin-top: -63px;
+
 }
 
 
@@ -86,6 +107,9 @@ p {
 
 #site-nav li{
   color: #06365f;
+  list-style: none;
+  text-transform: uppercase;
+  float: left;
 }
 
 
