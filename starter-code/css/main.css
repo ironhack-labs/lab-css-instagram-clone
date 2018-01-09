@@ -3,8 +3,80 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
+*{
+  font-family: 'Open Sans', sans-serif;
+}
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url(../images/bgtile.png);
+  background-attachment:fixed;
+  background-repeat: repeat-x;
+  }
+
+.context{
+  padding: 90px 200px;
 }
+.right_context{ 
+  padding-left: 400px;
+}
+.img_phone{
+  float: left;
+}
+.img_phone img{
+  height: 450px;
+}
+.img_bottom{
+  padding-bottom:50px;
+}
+#btn_login{
+  border-color:  #06365f;
+  border-radius: 5px;
+  color: white;
+  background-color: #4b7397; 
+  position: absolute;
+  padding: 10px 20px;
+}
+.icon_login {
+  padding-left: 70px;
+  padding-top: 20px;
+ }
+
+ .icon {
+  background: url(../images/home.png) no-repeat;
+  width: 24px;
+  height: 20px;
+  display: inline-block;
+  margin-right: 20px;
+ }
+
+ h3 {
+   color: #06365f;
+   font-weight: bold;
+   font-size: 20px;
+ }
+
+ p {
+  font-size: 15px;
+ }
+
+ .description{
+  background: url(../images/frame.png) no-repeat;
+  padding: 30px;
+  background-size: 100%;
+ }
+
+ .words_bold{
+   font-weight: bold;
+ }
+
+ .img_item img{
+  padding-left: 20px;
+ }
+ 
+ .footer a{
+   padding: 10px;
+ }
+ 
+
+
