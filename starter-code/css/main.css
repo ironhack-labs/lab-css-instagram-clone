@@ -1,10 +1,103 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
-
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;
+}
+
+h2{
+  color: #06365f;
+  margin-top: 20px;
+}
+
+li {
+  color: #1c5380;
+}
+
+#main{
+  margin-top: 100px;
+  width:75%;
+  margin: auto;
+}
+
+#brand{
+  display: inline;
+  width: 270px;
+  margin-right: 10px;
+}
+
+#login-btn{
+  border:2px solid #446d8f;
+  display:inline-block;
+  background: linear-gradient(#6f93af, #4f789b);
+  border-radius:10%;
+  padding:7px 10px;
+  position: absolute;
+  margin-top: 12px;
+  margin-left:60px;
+  float:right;
+}
+
+#login-text{
+  color:#e4eaed;
+  padding: 0 0 4px 7px;
+  font-weight: 700;
+}
+
+#phones{
+  display: inline-block;
+  margin-left:70px;
+}
+
+#main{
+  position: relative;
+  margin-top: 100px;
+}
+
+#content{
+  display: inline-block;
+  margin-left: 50px;
+  position:absolute;
+  width:450px;
+}
+
+#bottom-content{
+  background-color: white;
+  border-radius: 1%;
+  padding: 0 15px 0 15px;
+  box-shadow:0 -4px 5px 1px rgba(0,0,0,0.1);
+
+}
+
+ul{
+  list-style-type: none;
+  margin: auto;
+  padding:10px;
+  display:inline;
+}
+
+li {
+  display: inline;
+  margin: 0 5px;
+}
+
+#footer{
+  width: 60%;
+  margin:50px 0 0 270px;
+}
+
+#footer-span {
+  margin-left: 50px;
+}
+
+#top-content{
+  position:relative;
+}
+
+a{
+  text-decoration:none;
+}
+
+#iphone{
+  margin-right: 15px;
 }
