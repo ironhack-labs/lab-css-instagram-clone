@@ -4,7 +4,124 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+/* ---- Reset ---- */
+
+html {
+  box-sizing: border-box ;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+/* ---- Typografie ---- */
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: auto;
+  width: 1000px;
+  background: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+}
+
+h2 {
+  padding: 30px 40px 10px 40px;
   margin: 0;
+  color: #3a6890;
+  font-weight: 500;
+}
+
+p {
+  padding: 5px 40px;
+  margin: 0;
+}
+
+/* ---- Layout ---- */
+
+#site-main {
+  margin: 10% 5%;
+}
+
+
+/* ---- Components ---- */
+
+/* -- main -- */
+
+.phone {
+  float: left;
+  width: 40%;
+}
+
+.info {
+  float: right;
+  width: 500px;
+}
+
+.info-abstract {
+  background: url("../images/frame.png");
+  background-repeat: no-repeat;
+}
+
+.info-header {
+  overflow: hidden;
+  padding: 10px;
+  position: relative;
+}
+
+.logo {
+  float: left;
+}
+
+.info-header a {
+  text-decoration: none;
+  color: white;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  background: linear-gradient(#335e82,#1c5380);
+  padding: 5px 10px;
+  border-radius: 2px;
+}
+
+.info-links {
+  padding: 30px 40px;
+}
+
+.info-links a:last-child {
+  padding-left: 20px;
+}
+
+/* -- footer -- */
+
+#site-footer {
+  clear: both;
+}
+
+#site-footer ul {
+  list-style: none;
+  overflow: hidden; 
+  margin-left: 50%;
+  transform: translateX(-50%);
+  width: 70%;
+}
+
+#site-footer li {
+  float: left;
+  padding-right: 10px;
+  padding-left: 10px; 
+}
+
+#site-footer li:first-child {
+  padding-left: 0px;
+}
+
+#site-footer li:last-child {
+  color: #ccc;
+  padding-right: 0px;
+}
+
+#site-footer li a{
+  text-decoration: none;
+  color: #3a6890;
 }
