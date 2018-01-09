@@ -5,6 +5,63 @@ light blue: #1c5380
 */
 
 body {
+  background-image: url(../images/bgtile.png);
+  background-repeat:repeat-x;
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+.Phone{
+float: left;
+    margin-left: 20%;
+    margin-top: 9%;
+    clear: both;
+    
+}
+.parrafo{
+    margin-left: 40%;
+    padding-left: 2%;
+    margin-right: 26%;
+    margin-top: 1%;
+    width: 421.993px;
+    
+}
+
+.frame{
+    position: absolute;
+    z-index: -1;
+    margin-top: -2%;
+    padding-left:4%;
+    }
+.tittle{
+    color: #1c5380;
+    font-size: 2em;
+    } 
+.lista{
+    display: inline-flex;
+    list-style: none;
+     margin-top: 3%;
+    margin-left: 22%;
+}
+li{
+  padding:10px;
+   color:#1c5380
+}
+body > div:nth-child(1) > div:nth-child(2) > b:nth-child(2){
+  color: white;
+}
+#login{
+      position: absolute;
+    margin-left: 59%;
+    border-color: white;
+    border-style: solid;
+margin-top:-3%;  
+}
+.brand{
+    float: initial;
+    margin-top: 6%;
+}
+#cr{
+  color:darkgray;
+  font-weight: bold;
+
 }
