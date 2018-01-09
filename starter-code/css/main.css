@@ -42,7 +42,7 @@ button {
   margin-top: 10px;
   border-radius: 2px;
   border: 1px solid #06365f ;
-  background-color: #1c5380
+  background-color: #1c5380;
 }
 
 .home-logo{
@@ -70,6 +70,7 @@ footer li {
 
 .special {
   color: #1c5380;
+  font-weight: 300
 }
 
 .main {
