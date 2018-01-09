@@ -65,6 +65,10 @@ ul li a {
   color: #1c5380;
 }
 
+ul li span {
+  color: grey;
+}
+
 #text p {
   font-size: 15px;
 }
