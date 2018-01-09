@@ -39,9 +39,9 @@ body {
 }
 
 h1{
-  position: absolute;
-  right: 150px;
-  top: 225px;
+  float: left;
+  margin-left: 30px;
+  margin-top: -265px;
   color: #06365f;
 }
 
@@ -92,6 +92,22 @@ h1{
 
 }
 
+.frame{
+  float: left;
+
+}
+
+.apple{
+  float: right;
+  margin-right: 80px
+
+}
+
+.google{
+ float: right;
+ margin-right: 60px
+
+}
 
 
 
