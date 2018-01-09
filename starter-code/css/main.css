@@ -5,6 +5,52 @@ light blue: #1c5380
 */
 
 body {
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  padding: 110px 50px ;
+}
+a {
+  font-weight: bold;
+}
+h1 {
+  color: white;
+}
+h2 {
+  color: #06365f;
+}
+.p {
+  color: #808080cf;
+
+}
+.menu{
+  color: #1c5380;
+  text-align: center;
+}
+.imgIphones {
+  position: relative;
+  float: left;
+  padding: 10px;
+  width:275px;
+
+}
+.box {
+  display: block;
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  padding: 35px;
+  margin-left: 300px;
+}
+.clear {
+  clear:both;
+}
+.home {
+  display: block;
+  background-color:#5798d061 ;
+  border: 1px solid #6791b5;
+  color: white;
+  margin-left: 660px;
+  padding: 3px;
+  font-weight: bold;
 }
