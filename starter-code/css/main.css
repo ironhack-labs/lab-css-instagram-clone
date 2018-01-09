@@ -3,14 +3,11 @@ body {
   margin: 0;
   background: url(../images/bgtile.png);
   background-repeat: repeat-x;
-  
 }
 #wrapper{
   margin: 0 auto;
   margin-top: 80px;
   max-width: 874px;
-}
-#cover{
   margin-bottom: 50px;
 }
 #cover-image{
@@ -18,7 +15,6 @@ body {
   width: 318px;
   margin-right: 52px;
 }
-
 #cover-info{
   float: left;
   width: 504px;
@@ -56,16 +52,35 @@ body {
   vertical-align: sub;
   margin: 0 10px;
 }
-
+/*-- info box --*/
 #message{
   background: url(../images/frame.png) no-repeat;
   padding: 40px;
+  margin-bottom: 30px;
 }
 #message h2{
   margin: 0;
   color: #06365f;
 }
-
+/*-- Footer --*/
 #site-footer{
   clear: both;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ccc;
+  font-size: 14px;
+  font-weight: bold;
+}
+#site-footer ul{
+  list-style: none;
+  display: inline;
+  margin-right: 25px;
+}
+#site-footer li{
+  display: inline-block;
+  margin: 0 5px;
+}
+#site-footer a{
+  color: #6a8fae;
+  text-decoration: none;  
 }
