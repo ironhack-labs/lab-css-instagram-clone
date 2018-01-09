@@ -4,7 +4,165 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+/* --------- reset ---------- */
+
+
+
+html {
+
+  box-sizing: border-box;
+
+}
+
+*, *:before, *:after {
+
+  box-sizing: inherit;
+
+}
+
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  margin: 0 auto;
+  background: url("/home/david/Documents/Ironhack/Week 1/Day 2/lab-css-instagram-clone/starter-code/images/bgtile.png");
+  background-repeat: repeat-x;
+  max-width: 900px;
+
+
 }
+
+/* --------- typography ---------- */
+
+.paragraph-style {
+  float: right;
+  text-align: left;
+  margin-top: -225px;
+  margin-right: 150px;
+ font-size: smaller;
+}
+
+h1{
+  float: left;
+  margin-left: 30px;
+  margin-top: -325px;
+  color: #06365f;
+}
+
+ul{
+  margin-top: 600px;
+}
+
+li {
+	line-height: 30px;
+  font-size: 10px
+}
+
+/* --------- layout ---------- */
+
+#border-style{
+  margin-bottom: 90px;
+}
+
+.main-body{
+  margin: 0 auto;
+}
+
+#login-style{
+  max-width: 400px;
+}
+
+/* --------- components ---------- */
+
+#phone-style .phone{
+  float: left;
+  margin-right: 50px;
+
+}
+
+#logo-style .logo{
+  float: left;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+#logo-style .login{
+  float: left;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  margin-left: 80px;
+  border: 1px solid #06365f;
+  padding: 10px 70px 10px 8px;
+  border-radius: 2px;
+  background: #54789A;
+}
+
+#logo-style .login-button{
+  color: white;
+  float: right;
+  margin-right: 50px;
+  margin-top: -63px;
+
+}
+
+.frame{
+  float: left;
+  margin-bottom: 50px
+
+}
+
+.apple{
+  float: right;
+  margin-right: 30px;
+  margin-top: -20px;
+}
+
+.google{
+ float: right;
+ margin-right: 150px;
+ margin-top: -20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#site-nav li{
+  color: #06365f;
+  list-style: none;
+  text-transform: uppercase;
+  float: left;
+  padding-right: 20px;
+}
+
+li:first-child{
+  margin-left: 150px;
+}
+
+#site-footer{
+  font-size: small;
+  margin-top: 3px;
+  color: darkgrey;
+}
+/* --------- pages ---------- */
+
+
+
+
+
+
+
+/* --------- TEMP ---------- */
+
+div, header, footer, nav, article {
+
+	border: 1px solid transparent;
+
+} 
