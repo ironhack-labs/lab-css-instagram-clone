@@ -4,7 +4,65 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+/* --------- reset ---------- */
+
+
+
+html {
+
+  box-sizing: border-box;
+
+}
+
+*, *:before, *:after {
+
+  box-sizing: inherit;
+
+}
+
+
+body, p, ul, li {
+
+	margin: 0;
+
+	padding: 0;
+
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: url("/home/david/Documents/Ironhack/Week 1/Day 2/lab-css-instagram-clone/starter-code/images/bgtile.png");
   margin: 0;
+  background-repeat: repeat-x
 }
+
+/* --------- typography ---------- */
+
+
+
+
+/* --------- layout ---------- */
+
+
+/* --------- components ---------- */
+
+#site-nav li{
+  color: #06365f;
+}
+
+
+/* --------- pages ---------- */
+
+
+
+
+
+
+
+/* --------- TEMP ---------- */
+
+div, header, footer, nav, article {
+
+	border: 1px solid black;
+
+} 
