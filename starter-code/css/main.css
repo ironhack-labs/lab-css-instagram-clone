@@ -78,9 +78,23 @@ body {
   margin-right: 15px;
 }
 
+.list-container {
+  margin: 0 auto;
+  width: 500px;
+}
+
 li {
   float: left;
+  list-style: none;
+  font-size: 10px;
+  font-weight: bold;
+  line-height: 60px;
 }
+
+nav li {
+  color: #1c5380;
+  padding-right: 15px;
+  }
 
 /* Typography */
 .log-in{
@@ -102,7 +116,6 @@ p {
   background-repeat: repeat-x;
   width: 800px;
   margin: 0 auto;
-  
 }
 
 #up-container {
@@ -113,4 +126,5 @@ p {
 
 #botton-container {
   clear: both;
+  height: 80px;
 }
