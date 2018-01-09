@@ -7,4 +7,84 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url("../images/bgtile.png");
+  background-repeat : repeat-x;
+  width:100%;
+  min-width:1024px;
+}
+
+#content{
+	width:1024px;
+	margin: 100px auto;
+}
+
+.left-side{
+	float:left;
+	width:30%;
+}
+
+.right-side{
+	float:left;
+	margin-left:5%;
+	width:50%;
+}
+
+.clear-fix{
+	clear: both;
+}
+
+.top{
+	height:80px;
+	width:100%;
+}
+
+.top-left{
+	float:left;
+	width:315px;
+	height:100%;
+}
+
+.top-right{
+	float:right;
+	height:50%;
+	background-color:#1c5380;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-top:20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.top-right a{
+	margin: 25px;
+	text-decoration:none;
+	color:#c8d4de;
+	font-weight:bold;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.top-right span{
+	margin-left:10px;
+}
+
+.main{
+	background-image:url("../images/frame.png");
+	background-repeat: no-repeat;
+	padding: 20px;
+	margin: 10px;
+	font-size: 0.9em;
+}
+
+.main h1{
+	color: #06365f;
+}
+
+.download{
+	width:100%;
+}
+
+.download-right{
+	margin-left:20px;
 }
