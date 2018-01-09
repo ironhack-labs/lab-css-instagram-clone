@@ -1,10 +1,79 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
-
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+.background {
+  height: 300px;
+  background-color: #06365f;
+}
+
+.box {
+  display: flex;
+  align-content: center;
+  align-items: flex-start;
+  padding: 100px 0;
+}
+  
+.above {
+  flex: .4 1 auto;
+  align-self: auto;
+  margin: 0 50px 40px 50px;
+  max-width: 575px;
+}
+
+.instagram {
+  position: relative;
+  margin-bottom: 15px;
+}
+  
+.button {
+  background-color: #3486cb;
+  color: white;
+  padding: 8px 8px 8px 8px;
+  border-radius: 3px;
+  position: absolute;
+  right: 20px;
+  border: .5px solid #154166;
+}
+  
+#login {
+  position: relative;
+  bottom: 4px;
+  padding-left: 6px;
+}
+  
+.text {
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 10px 40px 15px 40px;
+  background-color: white;
+  box-sizing: border-box;
+  border-radius: 15px 15px 15px 15px;
+}
+  
+h1 {
+  color: #1c5380;
+}
+
+h2 {
+  color: #06365f;
+}
+  
+.footer {
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 5px;
+}
+  
+.liste li {
+  display: inline-block;
+  list-style-type: none;
+  margin-right: 20px;
+  color: #06365f;
+  font-weight: bold;
+}
+  
+#copy {
+  color: grey;
 }
