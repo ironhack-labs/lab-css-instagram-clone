@@ -8,3 +8,123 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+
+/* content */
+
+.one {
+  float: left;
+  width: 250px;
+}
+.phone {
+  margin: 0 auto;
+  width: 250px;
+}
+
+.two {
+  float: right;
+  width: 430px;
+  margin-left: 20px;
+}
+
+.brand {
+  width: 300px;
+  float: left;
+}
+
+.content-button {
+  width: 100px;
+  margin-left: 30px;
+  float: right;
+  height: 74.52px;
+  position: relative;
+  top: 24px;
+}
+
+.button {
+  width: 80px;
+  border: 1px solid #06365f;
+  background-color: #1c5380;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.home{
+  position: relative;
+  top: 4px;
+}
+
+.log-in{
+  margin-left: 10px;
+  position: relative;
+  top: -1px;
+}
+
+.twotwo {
+  background-image: url("../images/frame.png");
+  clear: both;
+  height: 270px;
+}
+
+.description{
+  width: 350px;
+  margin: 0 auto;
+  position: relative;
+  top: 30px;
+}
+
+.badge-iphone {
+  margin-left: 40px;
+  margin-right: 15px;
+}
+
+.list-container {
+  margin: 0 auto;
+  width: 500px;
+}
+
+li {
+  float: left;
+  list-style: none;
+  font-size: 10px;
+  font-weight: bold;
+  line-height: 60px;
+}
+
+nav li {
+  color: #1c5380;
+  padding-right: 15px;
+  }
+
+/* Typography */
+.log-in{
+  color: white;
+}
+
+h2 {
+  color: #1c5380;
+}
+
+p {
+  font-size: 12px;
+}
+
+/* layaut */
+
+#main-container {
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+  width: 800px;
+  margin: 0 auto;
+}
+
+#up-container {
+  width: 700px;
+  margin: 0 auto;
+  padding-top: 130px;
+}
+
+#botton-container {
+  clear: both;
+  height: 80px;
+}
