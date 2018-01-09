@@ -1,10 +1,85 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
+
+/* ---- reset ---- */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* ---- typography ---- */
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  margin: 0px 85px;
+  background-image: url('../images/bgtile.png');
+  background-repeat: no-repeat;
+  background-size: 100% 40%;
+  
 }
+
+h2 {
+  color: #06365f;
+}
+
+
+/* PHONES LOGO P */ 
+.container {
+  margin-top: 87px;
+  clear:both;
+  float: right;
+}
+
+/* ---- layout ---- */
+/* BRAND AND LOGIN */
+#site-header {
+padding-top: 41px;
+padding-bottom: 43px;
+float:right;
+padding: 43px 129px 10px 3px;
+}
+
+/* NAV */
+nav {
+  clear:both;
+}
+
+
+#site-main {
+float: right;
+  background-image: url('../images/frame.png');
+  background-repeat: no-repeat;
+  background-size: 101% 93%;
+  padding: 0px 53px 17px 86px;
+}
+
+/* ---- components ---- */
+#phones {
+  float: left;
+  margin-right: 16px;
+  padding-bottom: 13px;
+}
+#button {
+  color:rgba(255, 255, 255, 0.603);
+  border-radius: 2px;
+  border: 1px solid #06365f;
+  width: 90px;
+  height: 40px;
+  background-color: #1c5380 ;
+  float: right;
+  margin: 20px -29px -14px 6px;
+}
+
+ul li {
+  list-style: none;
+  display: inline;
+  color: #1c5380;
+  font-weight: bold; 
+  padding: 0px 5px;
+}
+
+
+
+
+
