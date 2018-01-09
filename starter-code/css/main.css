@@ -11,3 +11,61 @@ body {
   background-repeat: repeat-x;
 }
 
+h1{
+  font-weight: 800;
+  font-size: 1.6em;
+  line-height: 1.2em;
+  color: #06365f;
+}
+
+.container{
+  width: 875px;
+  margin: 90px auto 30px auto;
+}
+
+.phones{
+  width: 320px;
+  height: auto;
+  float: left;
+  margin-right: 50px;
+  display: block;
+  position: relative;
+}
+
+.ig-content{
+  float: left;
+  position: relative;
+  width: 505px;
+}
+
+.ig-brand{
+  margin-bottom: 18px;
+}
+
+.ig-logo{
+  float: left;
+}
+
+.login{
+  float: right;
+}
+
+.ig-info{
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  padding: 20px 40px;
+}
+
+.ig-download{
+  margin: 30px 10px 0 0;
+}
+
+.footer{
+  clear: both;
+  width: 100%;
+  text-align: center;
+}
+
+.clearfix{
+  clear: both;
+}
