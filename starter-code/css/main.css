@@ -1,7 +1,7 @@
 /*
 Colors to use:
 dark blue: #06365f
-light blue: #1c5380
+light blue: 1c5380
 */
 
 body {
@@ -9,6 +9,38 @@ body {
   margin: 0%;
   background-image: url("../images/bgtile.png");
   background-repeat: repeat-x;
+  filter: drop-shadow(50px);
+  height: 100%;
 }
 
+.center {
+  position: absolute;
+  background-color: red;
+  top: 100px;
+  bottom: 160px;
+  margin: 0 180px;
+}
 
+.mobile {
+  float: left;
+}
+
+.secondHeader {
+  background-color: blueviolet;
+  margin: 0%;
+}
+
+.home {
+  float: left;
+}
+
+.instagram {
+  background-color: bisque;
+  padding-left: 350px;
+  width: 350px;
+}
+ .button {
+   float: right;
+   top: -100px;
+   background-color: aquamarine;
+ }
