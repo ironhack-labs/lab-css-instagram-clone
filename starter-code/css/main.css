@@ -8,3 +8,92 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.header{
+  height: 450px;
+  background-color: #06365f;
+}
+
+.image-iphone{
+  position: absolute;
+  left:40%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: inline-block
+}
+
+.image-brand{
+  position: absolute;
+  left: 52%;
+  top: 30%;
+  float: left;
+  display: inline-block
+}
+
+.image-home{
+  float: right;
+  position: absolute;
+  top: 31%;
+  right: 23%;
+  background: #5eb2f7;
+  color: #e5e9ee;
+  border-radius:5px;
+  padding:10px;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.texto-promote{
+  position: absolute;
+  float: right;
+  position: absolute;
+  margin:[40%, 20%, 60%, 80%];
+  top: 70%;
+  right: 17%;
+}
+
+.image-frame{
+  text-align: center;
+  float: right;
+  position: absolute;
+  top: 41%;
+  right: 20%;
+}
+
+  .image-applestore{
+    float: left;
+    position: absolute;
+    top: 70%;
+    right: 36%;
+  }
+
+  .image-googleplay{
+    float: right;
+    position: absolute;
+    top: 70%;
+    right: 23%;
+  }
+
+  .links{
+    float: right;
+    position: absolute;
+    top: 90%;
+    right: 17%;
+    text-decoration-line: none;
+    text-decoration-color: #5eb2f7;
+  }
+
+  .cuadro-master{
+    position: relative;
+  }
+
+  .inception{
+    position: absolute;
+    top:
+  }
+
+ li{
+    display:line block;
+    margin-left: 10px;
+    margin-right:10px;
+  }
