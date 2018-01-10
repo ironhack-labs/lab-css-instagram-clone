@@ -35,12 +35,12 @@ body {
   margin: 0;
 }
 
-.box{
+/*.box{
   border-radius: 5px;
   box-shadow: -5px -5px 10px black;
   padding: 10px;
   text-align: center;
-}
+}*/
 
 .btn{
   background-color: #06365f;
@@ -66,7 +66,12 @@ li{
 }
 
 .box{
-  margin:50px;
+  margin-right: 100px;
+  padding:30px;
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  text-align: center;
 }
 
 .footer{
