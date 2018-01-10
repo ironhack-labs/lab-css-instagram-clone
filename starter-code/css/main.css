@@ -8,3 +8,67 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+header {
+  background-image:url('../images/bgtile.png');
+  background-repeat: repeat;
+  height: 350px;
+}
+
+section {
+
+  position: absolute;
+  top: 30%;
+  left: 20%;
+}
+
+.phoneColor{
+  background : none;
+}
+
+.detail{
+  margin-left: 50px;
+  width: 500px;
+  padding: 40px;
+}
+
+.homeStyle{
+  padding: 30px 0 0 30px ;
+  color: white;
+}
+
+.detail2 {
+  background-color: white;
+  padding: 40px;
+  border-radius: 5%;
+}
+
+.flexStyle {
+  display: flex;
+}
+
+.brandStyle{
+}
+
+footer{
+position: absolute;
+top: 100%;
+margin: 20px 20px 40px 20px;
+}
+
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer li {
+   float: left;
+   display: block;
+   margin-right: 20px;
+}
+
+footer li a {
+  text-decoration: none;
+  color:blue;
+}
