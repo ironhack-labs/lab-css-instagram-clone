@@ -7,4 +7,104 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+}
+
+#container{
+  /* background: black; */
+  margin: 100px auto auto auto;
+  max-width: 800px;
+  height: 500px;
+}
+
+#img-phone{
+  width: 350px;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-image: url("../images/phones.png");
+  float:left;
+}
+
+#container-mid-top{
+  width: 450px;
+  height: 80px;
+  /* background-color: red; */
+  float:right;
+  margin-top: 20px;
+}
+
+#buttonHome{
+  margin-top: 15px;
+  margin-right: 20px;
+  width: 100px;
+  height: 50px;
+  background-color:#06365f;
+  float: right;
+  border-radius: 5px;
+}
+  #but{
+position:relative;
+top: 15px;
+left: 10px;
+}  
+  
+
+
+
+
+#home{
+  color: white;
+  text-align:center;
+  vertical-align: middle;
+  font-size: 20px;
+  position:relative;
+  top: 8px;
+  left: 12px;
+}
+#container-mid-bot{
+  width: 350px;
+  height: 320px;
+  background-image: url("../images/frame.png");
+  float:right;
+  margin-top: 20px;
+  margin-right: 50px;
+  padding: 20px 20px 20px 20px;
+  border-radius: 15px;
+  background-repeat: no-repeat;
+}
+#title{
+  font-size: 18px;
+  color: #06365f;
+  font-weight: bold;
+  font-family: arial;
+}
+#links{
+  height: 100px;
+  width: 750px;
+  /* background-color: red; */
+  margin: 50px auto 20px;
+
+}
+
+#copy{
+  color: grey;
+  font-weight: bold;
+    font-size: 14px;
+    margin-left:20px;
+}
+
+a:link{
+
+color: #06365f;
+text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+margin-left:20px;
+}
+
+
+
+#container-mid-bot img{
+  margin-left: 10px;
 }
