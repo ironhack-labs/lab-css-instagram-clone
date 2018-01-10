@@ -79,12 +79,15 @@ body {
   bottom: 7%;
     left: 36%;
     position: absolute;
+    text-align: center;
 }
 
 .footer p {
   margin-right: 20px;
+  
 }
 
 ul.footer li {
   float: left;
+  list-style-type: none;
 }
