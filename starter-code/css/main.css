@@ -51,11 +51,11 @@ li{
   margin: 0 10px 0 0;
 }
 .android{
+  right: 492px;
   position: absolute;
-  padding-left: 200px;
+  top: 760px;
 }
 .iphone{
   float: right;
-  margin-right: 100px;
 }
 
