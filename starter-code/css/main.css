@@ -27,6 +27,9 @@ body {
 .content{
   display: inline-block;
   padding: 0 10%;
+  clear: both;
+  padding: 20px;
+  padding-right: 20px;
 }
 .home{
   float: right;
@@ -37,6 +40,9 @@ body {
   color: #e5e7e8;
   font-weight: 400;
 }
-.context{
-  clear: both;
+.lista{
+     display:inline;
+}
+.socialmedia{
+  display: inline-block;
 }
