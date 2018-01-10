@@ -42,15 +42,25 @@ body {
   background-color:#06365f;
   float: right;
   border-radius: 5px;
-
-
-
 }
+  #but{
+position:relative;
+top: 15px;
+left: 10px;
+}  
+  
+
+
+
+
 #home{
   color: white;
   text-align:center;
   vertical-align: middle;
   font-size: 20px;
+  position:relative;
+  top: 8px;
+  left: 12px;
 }
 #container-mid-bot{
   width: 350px;
