@@ -4,66 +4,65 @@ body {
   background: url(../images/bgtile.png);
   background-repeat: repeat-x;
 }
-#wrapper{
+.wrapper{
   margin: 0 auto;
   margin-top: 80px;
   max-width: 874px;
   margin-bottom: 50px;
 }
-#cover-image{
+.cover-image{
   float: left;
   width: 318px;
   margin-right: 52px;
 }
-#cover-info{
+.cover-info{
   float: left;
   width: 504px;
 }
-#welcome{
-  height: 65px;
-  position: relative;
+.welcome{
+  overflow: hidden;
   padding-top: 20px;
   margin-bottom: 17px;
 }
 #logo{
   height: 65px;
+  float: left;
 }
 /*-- Button Log in --*/
-#buton-ini{
-  height: 40px;
-  width: 100px;
-  position: absolute;
-  top: 20px;
-  right: 8px;
+.buton-ini{
+  float: right;
+  margin: 10px 8px 0 0;
+  padding: 0 10px;
   background: linear-gradient(#6a8fae, #4d779c);
   border: 1px solid #4d779c;
   border-radius: 2px;
+  font-size: 14px;
 }
-#buton-ini a{
+.buton-ini a{
   text-decoration: none;
   color: #fff;
 }
-#buton-ini p{
+.buton-ini p{
   display: inline-block;
   line-height: 40px;
   margin: 0px;
 }
-#buton-ini img{
-  vertical-align: sub;
-  margin: 0 10px;
+.buton-ini img{
+  vertical-align: middle;
+  margin-right: 10px;
 }
 /*-- info box --*/
-#message{
+.message{
   background: url(../images/frame.png) no-repeat;
   padding: 40px;
   margin-bottom: 30px;
 }
-#message h2{
+.message h2{
   margin: 0;
   color: #06365f;
 }
 /*-- Footer --*/
-#site-footer{
+.site-footer{
   clear: both;
   text-align: center;
   text-transform: uppercase;
@@ -71,16 +70,16 @@ body {
   font-size: 14px;
   font-weight: bold;
 }
-#site-footer ul{
+.site-footer ul{
   list-style: none;
   display: inline;
   margin-right: 25px;
 }
-#site-footer li{
+.site-footer li{
   display: inline-block;
   margin: 0 5px;
 }
-#site-footer a{
+.site-footer a{
   color: #6a8fae;
   text-decoration: none;  
 }
