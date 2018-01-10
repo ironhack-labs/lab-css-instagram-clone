@@ -2,9 +2,121 @@
 Colors to use:
 dark blue: #06365f
 light blue: #1c5380
-*/
+
+
+/* --------- reset ---------- */
+
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, p, ul, li, h1 {
+  margin: 0;
+  padding: 0;
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
 }
+/*-------------------------------------*/
+
+
+/*components*/
+.floating{
+  float: left;
+}
+
+#logo{
+  padding-left:10px;
+}
+
+.container{
+  width:100%;
+
+  background: url('../images/bgtile.png') no-repeat;
+  background-size: 100% 40%;
+  padding: 100px;
+  }
+
+.container-left{
+  width:40%;
+  overflow: hidden;
+  padding:0 50px;
+}
+.container-right{
+  width:60%;
+}
+.box-content{
+  clear:both;
+  background: url("../images/frame.png") no-repeat;
+  background-size: 100% 100%;
+  height:330px;
+  padding:10px 50px;
+}
+
+.box-content h1{
+  color:#06365f;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.boxes{
+  height:100px;
+  padding:20px 50px;
+  overflow:hidden;
+}
+
+.boxes img{
+  padding-right:20px;
+}
+
+.floating-right{
+  float:right;
+  position: relative;
+  top: 20px;
+  margin-right:10px;
+
+}
+
+.footing{
+  clear:both;
+  margin:0px 10%;
+  color:grey;
+  text-transform: uppercase;
+  padding:0 10% 5% 10%;
+
+}
+
+.footer-list li{
+  float:left;
+  padding-right:30px;
+  list-style: none;
+  color:#1c5380;
+
+}
+.button-element{
+  background-color:#1c5380;
+  color:white;
+  border:solid 2px #1c5380;
+  border-radius: 5px;
+  box-shadow:2px;
+  padding:5px;
+  font-weight:bold;
+}
+
+.button-element img
+{
+  padding-right:10px;
+  vertical-align: middle;
+}
+
+
+
+/* --------- TEMP ----------
+div, header, footer, nav, article {
+	border: 1px solid black;
+} */
