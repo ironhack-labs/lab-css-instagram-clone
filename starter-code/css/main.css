@@ -69,7 +69,7 @@ body {
   text-align: justify;
   right: -400px;
   top: 100x;
-  bottom: 60px;
+  bottom: 40px;
   width: 110%;
   margin-right: 200px;
   padding-right: 100px;
@@ -78,10 +78,15 @@ body {
 
 .footerimages {
   position: absolute;
-  bottom: -20px;;
-  left: 300px;
+  bottom: -51px;
+  left: 140px;
   padding: 1rem;
   text-align: center;
   border-right: 100px;
 }
 
+.footerimages2 {
+  position: absolute;
+  bottom: -35px;
+  left: 0px;
+}
