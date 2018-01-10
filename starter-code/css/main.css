@@ -31,6 +31,8 @@ body {
   padding: 20px;
   padding-right: 20px;
   padding-left: 100px;
+  position: absolute;
+  top: 23px;
 }
 .home{
   float: right;
@@ -42,8 +44,12 @@ body {
   font-weight: 400;
 }
 .lista{
+  position: absolute;
   list-style-type: none;
   text-align: center;
+  top: 590px;
+  left: 379px;
+
 }
 li{
   display: inline;
@@ -53,7 +59,7 @@ li{
 .android{
   right: 492px;
   position: absolute;
-  top: 760px;
+  top: 480px;
 }
 .iphone{
   float: right;
