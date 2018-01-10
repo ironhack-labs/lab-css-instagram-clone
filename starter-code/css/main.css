@@ -4,7 +4,118 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
-body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+html {
+  box-sizing: border-box;
 }
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+/* ---- typography ---- */
+
+button p{
+  color: white;
+}
+
+
+/* ---- layout ---- */
+
+body {
+  background: url(../images/bgtile.png);
+  background-repeat: repeat-x;
+}
+
+.everything {
+  padding-top: 80px;
+  margin: auto;
+  width:90%;
+}
+
+/* ---- components ---- */
+
+button {
+  background-color:#1c5380;
+  float: right;
+  width: 100px;
+  height: 40px;
+  margin-top: 10px;
+  border-radius: 2px;
+  border: 1px solid #06365f ;
+  background-color: #1c5380;
+}
+
+.home-logo{
+  float: left;
+  margin-top: 6px;
+}
+
+.text-logo{
+ line-height: 26px; 
+ margin:0;
+ margin-left: 8px;
+ font-size: 1.3em;
+}
+
+footer ul {
+  list-style: none;
+  clear: both;
+  margin-left: 140px;
+  margin-bottom: 30px;
+}
+
+footer li {
+  display: inline;
+  clear: both;
+  margin:auto;
+}
+
+footer li :last-child{
+  margin-left: 20px;
+}
+
+.special {
+  color: #1c5380;
+  font-weight: 300
+}
+
+.main {
+  margin: auto;
+  float: right;
+  width: 500px;
+  height: 600px;
+  padding-top: 12px;
+}
+
+.phones {
+  margin: auto;
+  float: left;
+}
+
+.insta-logo {
+  width:55%;
+}
+
+.white-frame {
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+}
+
+h1,p {
+  width: 80%;
+  margin-left: 30px;
+  padding-top: 5%;
+}
+
+.apple-logo {
+  padding-top: 600px;
+}
+
+.bottom-logo {
+ margin-top: -555px;
+ margin-left: 30px;
+}
+
+/* .everything, .main, footer {
+  border: 1px solid black;
+} */
