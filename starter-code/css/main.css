@@ -4,7 +4,181 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+/* ==== Reset ==== */
+
+/* ==== Reset ==== */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* ==== Typography ==== */
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  
+}
+
+.gradient {
+ 
+  width:100%;
+  background: linear-gradient(to bottom, rgba(96,120,150,0.5), rgb(37, 84, 124));
+  background-size: 100% 280px ;
+  background-repeat: no-repeat;
+  
+}
+
+.title {
+  color:#06365f;
+  font-size:1.7em;
+  font-weight: 500;
+}
+/* ==== Layout ==== */
+
+.wrapper {
+  width: 800px;
+  margin: 100px auto 100px auto;
+
+}
+
+#logo-text{
+  margin-left: 30px;
+  width: 400px;
+  float: left;
+
+}
+
+.text {
+  background: url(../images/frame.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+  margin: 10px 10px 10px 10px;
+  position: relative;
+  float: left;
+  padding: 30px;
+}
+
+.frame {
+  width: 40%;
+}
+
+.phone-picture {
+  display: block;
+  float: left;
+  width: 280px;
+}
+/* ==== Components ==== */
+
+.button {
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 90px;
+  height: 50px;
+  background-color:  #1c5380;
+}
+
+.home-icon {
+  float: left;
+
+}
+
+.login {
+  display: block;
+  color: white;
+  font-weight: 400;
+  font-size: 1.2em;
+  line-height: 0.2em;
+}
+
+.logo {
+  float: left;
+  width: 270px;
+}
+
+.button {
+margin-left: 20px;
+float: right;
+background: linear-gradient(to bottom, rgba(96,120,150,0), rgb(60, 109, 151));
+}
+
+.header {
+margin-left: 20px;
+}
+
+ul.footer {
+
+  clear: both;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  float: left;
+  position: relative;
+  left: 20%;
+  
+}
+
+.footer li {
+  float: left;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 0.8em;
+  color: #1c5380;
+  padding-right: 10px;
+
+  
+}
+
+.last-text-line {
+  margin-bottom: 40px;
+}
+
+.picture-text-wrapper {
+  margin-bottom: 50px;
+  overflow: hidden;
+
 }
