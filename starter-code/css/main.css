@@ -1,10 +1,92 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
-
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  margin: 0%;
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+  filter: drop-shadow(50px);
+  height: 100%;
+}
+
+.center {
+  position: absolute;
+  top: 100px;
+  bottom: 160px;
+  margin: 0 180px;
+}
+
+.mobile {
+  float: left;
+}
+
+.secondHeader {
+  margin: 0%;
+}
+
+.home {
+  float: left;
+}
+
+.instagram {
+  padding-left: 350px;
+  padding-top: 20px;
+  width: 350px;
+}
+ .button {
+   display: inline-block;
+   width: 100px;
+   height: 60px;
+   position: absolute;
+   right: -50px;
+   top: 15px;
+ }
+
+ .footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+}
+
+.container {
+  position: absolute;
+  width: 40%;
+  right: 70px;
+  height: 80%;
+  opacity: 0.5;
+  padding-right: 0%;
+}
+
+.apple, .android {
+  display: inline-block;
+  float: left;
+  position: relative;
+}
+
+.text {
+  position: absolute;
+  text-align: justify;
+  right: -400px;
+  top: 100x;
+  bottom: 40px;
+  width: 110%;
+  margin-right: 200px;
+  padding-right: 100px;
+  border-right: 100px;
+}
+
+.footerimages {
+  position: absolute;
+  bottom: -51px;
+  left: 140px;
+  padding: 1rem;
+  text-align: center;
+  border-right: 100px;
+}
+
+.footerimages2 {
+  position: absolute;
+  bottom: -35px;
+  left: 0px;
 }
