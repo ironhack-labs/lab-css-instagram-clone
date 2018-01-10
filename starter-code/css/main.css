@@ -49,7 +49,7 @@ h1{
 .login{
   box-sizing: border-box;
   height: 38px;
-  margin-top: 20px;
+  margin: 20px 8px 0 0;
   padding: 0 10px;
   text-align: center;
   float: right;
