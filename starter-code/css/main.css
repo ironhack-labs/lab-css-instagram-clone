@@ -7,4 +7,98 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
 }
+
+.blue-box{
+  background-color: #06365f;
+  height: 450px;
+}
+
+
+img{
+  max-width: 100%;
+}
+
+.absolute-master-div{
+  position: absolute;
+  left: 60%;
+  margin-left:-600px;
+  top: 15%;
+  display: inline-block;
+  width:1200px;
+  max-width: 100%;
+}
+
+.phones{
+  float: left;
+  width: 30%;
+
+}
+
+.info-degradation h2{
+  color: #06365f;
+}
+
+.info-degradation p{
+  font-size:15px;
+}
+
+
+
+.instagram-logo{
+display: inline-block;
+float: left;
+}
+
+.login-button{
+  display: inline-block;
+  float:right;
+  color: white;
+  padding-top:20px;
+  }
+
+.info-degradation{
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  padding: 32px;
+
+  }
+
+  .container-text{
+    float: left;
+    width: 40%;
+    height: 300px;
+  }
+
+  .inline-block{
+    display: inline-block;
+    padding-left: 30px;
+  }
+
+  .clear{
+    clear:both;
+  }
+
+  .app-download{
+    position: absolute;
+    width: 100%;
+    bottom:0;
+    display: inline-block;
+
+  }
+
+  .footer{
+    position: absolute;
+    width: 100%;
+    bottom:50px;;
+    left: 50%;
+    margin-left:-200px;
+  }
+
+  .footer ul{
+    color:#1c5380;
+  }
