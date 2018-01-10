@@ -9,7 +9,6 @@ body {
 
 .center {
   position: absolute;
-  background-color: red;
   top: 100px;
   bottom: 160px;
   margin: 0 180px;
@@ -29,6 +28,7 @@ body {
 
 .instagram {
   padding-left: 350px;
+  padding-top: 20px;
   width: 350px;
 }
  .button {
@@ -37,7 +37,7 @@ body {
    height: 60px;
    position: absolute;
    right: 75px;
-   top: 6px;
+   top: 15px;
  }
 
  .footer {
@@ -48,3 +48,23 @@ body {
   padding: 1rem;
   text-align: center;
 }
+
+.container {
+  height: 80%;
+  opacity: 0.5;
+  padding-right: 0%;
+}
+
+.apple, .android {
+  display: inline-block;
+  float: left;
+  position: relative;
+}
+
+.text {
+  position: static;
+  margin: auto auto;
+  top: 100px;
+  bottom: 100px;
+}
+
