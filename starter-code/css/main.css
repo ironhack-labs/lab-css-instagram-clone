@@ -7,4 +7,50 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-color: #06365f;
+}
+
+.header{
+  position: relative;
+  padding-left: 50%;
+  padding-right: 30%;
+
+}
+
+.description{
+  position: relative;
+  float: right;
+  padding-left: 50%;
+  padding-right: 30%;
+  background-color: white;
+}
+.description img{
+  position: relative;
+  float: left;
+  padding-left: 20%;
+  padding-right: 50%
+}
+
+.description h2{
+  color:#1c5380;
+}
+.button{
+  padding-left: 30%;
+  padding-right: 30%;
+}
+
+#android{
+  background-image:url(images/badge-android.png);
+  position: relative;
+  float: center;
+}
+#iphone{
+  background-image:url(images/badge-iphone.png);
+  position: relative;
+  float: center;
+}
+
+footer{
+  color:#1c5380;
+  text-align: center;
 }
