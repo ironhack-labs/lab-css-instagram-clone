@@ -7,4 +7,103 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  height: 1000px;
 }
+
+.logoAndLogin {
+  width: 100%;
+  height: 40%;
+  background-color: #4d7498;
+  position: relative;
+}
+
+.container {
+  width: 80%;
+  height: 700px;
+  margin-bottom: 400px;
+  margin-left: 150px;
+  display: inline-flex;
+  position: absolute;
+  top: 150px;
+  z-index: 1;
+}
+
+.phones {
+  float: left;
+  padding: 0 25px 40px 0;
+}
+
+.instaLogin {
+  height: 150px;
+  width: 800px;
+  position: relative;
+  display: inline-flex;
+}
+
+.logocontainer {
+  display: block;
+  padding: 13px 25px 20px 25px;
+  width: 314px;
+  position: relative;
+  margin-left: 55px;
+}
+
+.logButton {
+  float: right;
+  margin: 25px 0 10px 140px;
+}
+
+.btn {
+  font-family: Arial;
+  background-color: #4d7498;
+  font-size: 20px;
+  color: white;
+  border-radius: 6px;
+  -webkit-box-shadow: 0px 1px 3px #666666;
+  -moz-box-shadow: 0px 1px 3px #666666;
+  box-shadow: 0px 1px 3px #666666;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.claim {
+  font-size: 18px;
+  line-height: 25px;
+  width: 600px;
+  height: 400px;
+  position: absolute;
+  margin-left: 420px;
+  margin-top: 100px;
+  background-image: url("../images/frame.png"); 
+  background-size: 600px 400px;
+  background-repeat: no-repeat;
+}
+
+.claim h2 {
+  font-size: 30px;
+  padding: 10px 0 0 35px;
+}
+
+.claim p {
+  padding: 10px 10px 0 35px;
+}
+
+.footer {
+  float: bottom;
+}
+
+
+ 
+/* .button {
+  background-color: #f09233;
+  outline: none;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  height: 24px;
+  width: 134px;
+  padding: 7px 26px 8px 26px;
+  display: inline-block;
+  border: 1px solid transparent;
+  border-radius: 20px;
+  */
