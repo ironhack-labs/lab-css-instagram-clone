@@ -36,31 +36,45 @@ body {
   margin: 100px auto 20px auto;
 }
 
+.phone-img{
+  float: left;
+  margin-right: 50px;
+}
+
+.info-area  {
+  float: left;
+  width: 500px;
+}
+
 .phone-img img{
   float: left;
   margin-right: 7%;
 }
 
-.info-area .brand-login{
+.brand-login{
   float: left;
 }
 
-.log-in-button {
+.text {
+  background-image: url('../images/frame.png');
+  background-repeat: no-repeat;
+  position: relative;
+  top: 65px;
+}
+
+/* .log-in-button {
   float: right;
   background-image: url('../images/home.png');
   background-repeat: no-repeat;
   padding: 10px 6px 5px 30px;
 }
-
-
-
-div .text h1 {
+ */
+/* div .text h1 {
   color:#06365f;
   font-size: 30px;
   position: relative;
   bottom:100px;
-  overflow: hidden;
-}
+} */
 
 footer {
   clear:both;
