@@ -77,7 +77,7 @@ a {
   text-decoration: none;
 }
 
-footer div {
+footer /*div*/ {
   clear: both;
   text-transform: uppercase;
   padding: 60px 10px 0 0;
