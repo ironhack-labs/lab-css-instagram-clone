@@ -4,7 +4,66 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+/* ---- reset ---- */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+/* ---- typography ---- */
+
+body {
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  
+}
+
+/* ---- layout ---- */
+
+body {
+  background-image: url('../images/bgtile.png');
+  background-repeat: repeat-x;
+}
+
+#wrapper {
+  max-width: 1000px;
+  margin: 100px auto 20px auto;
+}
+
+.phone-img img{
+  float: left;
+  margin-right: 7%;
+}
+
+.info-area .brand-login{
+  float: left;
+}
+
+.log-in-button {
+  float: right;
+  background-image: url('../images/home.png');
+  background-repeat: no-repeat;
+  padding: 10px 6px 5px 30px;
+}
+
+
+
+div .text h1 {
+  color:#06365f;
+  font-size: 30px;
+  position: relative;
+  bottom:100px;
+  overflow: hidden;
+}
+
+footer {
+  clear:both;
+}
+
+/* ---- components ---- */
