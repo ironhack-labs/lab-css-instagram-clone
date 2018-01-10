@@ -66,10 +66,11 @@ body {
 
 .text {
   position: absolute;
-  text-justify: justify-content: flex-start;
-  top: 150x;
-  bottom: 30px;
-  width: 100%;
+  text-align: justify;
+  right: -400px;
+  top: 100x;
+  bottom: 60px;
+  width: 110%;
   margin-right: 200px;
   padding-right: 100px;
   border-right: 100px;
