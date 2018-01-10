@@ -60,8 +60,12 @@ body {
   background-repeat: no-repeat;
   position: relative;
   top: 65px;
+  padding: 20px;
 }
 
+.info-area .info-text {
+  margin-bottom: 50px;
+}
 /* .log-in-button {
   float: right;
   background-image: url('../images/home.png');
@@ -69,15 +73,31 @@ body {
   padding: 10px 6px 5px 30px;
 }
  */
-/* div .text h1 {
+.text h1 {
   color:#06365f;
   font-size: 30px;
-  position: relative;
-  bottom:100px;
-} */
+}
 
 footer {
   clear:both;
+  margin: 0 auto;
+}
+
+footer ul li {
+  list-style: none;
+  float: left;
+  margin-left: 20px;
+}
+
+li {
+  color: #1c5380;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+li a {
+  text-decoration: none;
+  color: #1c5380;
 }
 
 /* ---- components ---- */
