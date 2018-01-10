@@ -1,9 +1,3 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: 1c5380
-*/
-
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0%;
@@ -26,7 +20,6 @@ body {
 }
 
 .secondHeader {
-  background-color: blueviolet;
   margin: 0%;
 }
 
@@ -35,12 +28,23 @@ body {
 }
 
 .instagram {
-  background-color: bisque;
   padding-left: 350px;
   width: 350px;
 }
  .button {
-   float: right;
-   top: -100px;
-   background-color: aquamarine;
+   display: inline-block;
+   width: 100px;
+   height: 60px;
+   position: absolute;
+   right: 75px;
+   top: 6px;
  }
+
+ .footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+}
