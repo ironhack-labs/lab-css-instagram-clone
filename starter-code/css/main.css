@@ -7,4 +7,46 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: white url(../images/bgtile.png);
+  background-repeat: repeat-x;
+
+}
+main{
+  width: 960px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding-top: 150px;
+}
+.columna{
+  float: left;
+}
+.columna-5{
+  width: 41.6%;
+  }
+.columna-7{
+  width: 58.3%;
+}
+.clearfix{
+  clear: both;
+}
+.logo{
+  float: left;
+  
+}
+.button{
+  float: right;
+}
+.caja-blanca{
+  background: url(../images/frame.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  padding: 40px;
+
+}
+.image-app-store{
+  padding-top: 20px;
+}
+footer{
+text-align: center;
 }
