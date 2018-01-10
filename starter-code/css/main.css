@@ -30,6 +30,7 @@ body {
   clear: both;
   padding: 20px;
   padding-right: 20px;
+  padding-left: 100px;
 }
 .home{
   float: right;
@@ -41,8 +42,20 @@ body {
   font-weight: 400;
 }
 .lista{
-     display:inline;
+  list-style-type: none;
+  text-align: center;
 }
-.socialmedia{
-  display: inline-block;
+li{
+  display: inline;
+  text-align: center;
+  margin: 0 10px 0 0;
 }
+.android{
+  position: absolute;
+  padding-left: 200px;
+}
+.iphone{
+  float: right;
+  margin-right: 100px;
+}
+
