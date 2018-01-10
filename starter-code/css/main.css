@@ -6,5 +6,96 @@ light blue: #1c5380
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  background: url("/Users/santiagoramos/Ironhack/Week1/lab-css-instagram-clone/starter-code/images/bgtile.png");
+  background-repeat: repeat-x;
 }
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+
+.left-block {
+  float: left;
+  max-width: 300px;
+
+}
+
+.right-block {
+  float: right;
+  max-width: 450px;
+}
+
+.instaBlock {
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.instaBrand {
+float: left;
+height: 60px;
+}
+
+.buttonHome {
+float: right;
+border: none;
+background-color: rgb(51, 95, 161);
+color: rgb(218, 223, 233);
+position: relative;
+top: 14px;
+padding: 5px 10px;
+border-radius: 5px;
+}
+
+.logIn {
+  position: relative;
+  top:-6px;
+  padding-left: 5px;
+}
+
+h2 {
+  color: rgb(51, 95, 161);
+  line-height: 15px;
+}
+
+.description {
+  clear:both;  
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.donwloadApp {
+  border: none;
+  padding-left: 20px;
+}
+
+.container::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.site-footer {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+li {
+  display: inline;
+  color: rgb(51, 95, 161);
+  font-size: 12px;
+  font-weight: bold;
+  padding: 0px 8px;
+}
+
+.cterms {
+  color: grey;  
+}
+
+/* --------- TEMP ----------
+div, header, footer, nav, article {
+	border: 1px solid black;
+}  */
