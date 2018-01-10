@@ -40,15 +40,14 @@ footer h3{
   font-size: 12px;
   float: right;
   position: relative;
-  right: 380px;
-  bottom: 10px;
+  right: 650px;
+  bottom: 12px;
   color: grey;
 }
 
 /* --- layout --- */
 .container{
-  margin-left: 15%;
-  width: 70%;
+  width: 100%;
 }
 .main{
   background: url('../images/bgtile.png');
@@ -65,14 +64,14 @@ footer h3{
 .phone-image{
   float:left;
   position:relative;
-  left: 80px;
+  left: 300px;
 }
 
 .right-cnt{
-  width: 50%;
+  width: 35%;
   float: right;
   position: relative;
-  right: 80px;
+  right: 300px;
 }
 
 .logo{
@@ -115,6 +114,7 @@ footer h3{
   position: relative;
   text-align: right;
   top: 20px;
+  right: 10px;
 }
 
 ul li{
@@ -123,7 +123,7 @@ ul li{
   padding: 0 8px 0 8px;
   float: left;
   position: relative;
-  left: 300px;
+  left: 600px;
   font-size: 12px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-weight: bold;
