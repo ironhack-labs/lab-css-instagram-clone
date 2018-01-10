@@ -8,3 +8,91 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+.blue{
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-y;
+  background-size: 100%;  
+  height: 280px;
+}
+.main-div{
+  position: absolute;
+  top: 90px;
+  left: 17%;
+  text-align: center;
+  /*margin:0 auto;*/
+  width: 900px;
+  height: 512px;
+}
+.phone{
+float: left;
+text-align: left;
+
+}
+.main-text{
+  float:left;
+  margin: 15px;
+  margin-left:50px; 
+  
+}
+.logo{
+text-align: left;
+
+height: 100%;
+}
+
+  
+
+.words{
+  width: 400px;
+  background-image:url(../images/frame.png);
+  background-size:100%;
+  background-repeat: no-repeat;
+  padding: 30px;
+  padding-top: 20px;
+  text-align: left;
+  font-size:14px;
+}
+ h2{
+  
+  color:#06365f ; 
+  text-align: left; 
+ 
+}
+#download-badge{
+  text-align: left;
+  padding-left: 30px;
+}
+#extras{
+  padding-top: 30px;
+  clear: both;   
+  font-size: 12px;
+  color:#1c5380;
+  text-transform: uppercase;
+  padding-bottom: 15px;
+   
+}
+.button{
+  
+  width:115px;
+  display: inline-block;
+  background-color:#125688;
+  border: 1px solid rgb(5, 0, 29);
+  border-radius: 3px;
+  color: white;
+  padding: 8px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  vertical-align: middle;
+}
+.brand{
+ height: 78px;
+ width: 313px;
+}
+.button-box{
+  width:117px;;
+  
+}
