@@ -8,7 +8,7 @@ One of the best ways to sharpen your CSS skills is to try to recreate an existin
 
 There's a bit of starter code, so you can jump right into it.
 
-## Exercise
+## Exercise.
 
 ## Requirements
 
