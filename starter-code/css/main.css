@@ -30,12 +30,10 @@ h1{
   float: left;
   margin-right: 50px;
   display: block;
-  position: relative;
 }
 
 .ig-content{
   float: left;
-  position: relative;
   width: 505px;
 }
 
