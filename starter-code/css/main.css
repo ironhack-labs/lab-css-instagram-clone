@@ -36,7 +36,7 @@ body {
    width: 100px;
    height: 60px;
    position: absolute;
-   right: 75px;
+   right: -50px;
    top: 15px;
  }
 
@@ -50,6 +50,9 @@ body {
 }
 
 .container {
+  position: absolute;
+  width: 40%;
+  right: 70px;
   height: 80%;
   opacity: 0.5;
   padding-right: 0%;
@@ -62,9 +65,22 @@ body {
 }
 
 .text {
-  position: static;
-  margin: auto auto;
-  top: 100px;
-  bottom: 100px;
+  position: absolute;
+  text-justify: justify-content: flex-start;
+  top: 150x;
+  bottom: 30px;
+  width: 100%;
+  margin-right: 200px;
+  padding-right: 100px;
+  border-right: 100px;
+}
+
+.footerimages {
+  position: absolute;
+  bottom: -20px;;
+  left: 300px;
+  padding: 1rem;
+  text-align: center;
+  border-right: 100px;
 }
 
