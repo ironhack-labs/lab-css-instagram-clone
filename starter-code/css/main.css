@@ -3,8 +3,137 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+*{
+	font-family: 'Open Sans', sans-serif;
+	list-style: none;
+	text-decoration: none;
+}
+
+img{
+	max-width: 100%;
+}
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  padding: 0;
+}
+
+div#all{
+	height: 615px;
+}
+
+div#all div#fondo-azul{
+	width: 100%;
+	height: 280px;
+	background: url(../images/bgtile.png);
+}
+
+div#all section#banner{
+	position: absolute;
+    top: 110px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+div#all section#banner div#iphone{
+	display: inline-block;
+}
+
+div#all section#banner div#contenido{
+	display: inline-block;
+    margin-left: 50px;
+}
+
+div#all section#banner div#contenido div#login div#div-img{
+	display: inline-block;
+}
+
+div#all section#banner div#contenido div#login a{
+	float: right;
+	border: 1px solid rgba(6, 54, 95, 0.5);
+	border-radius: 3px;
+	padding: 7px 10px;
+	background:  linear-gradient(to bottom, rgba(111,147,177,1) 0%, rgba(70,114,151,1) 100%);
+	color: #dde4ea;
+	font-weight: 300;
+	margin-top: 20px;
+	margin-right: 10px;
+	-webkit-box-shadow: 0px 0px 10px -5px rgba(6,54,95,0.55);
+	-moz-box-shadow: 0px 0px 10px -5px rgba(6,54,95,0.55);
+	box-shadow: 0px 0px 10px -5px rgba(6,54,95,0.55);
+	display: flex;
+	align-items: center;
+	font-size: 14px;
+}
+
+div#all section#banner div#contenido div#login a span{
+	margin-left: 5px;
+}
+
+div#all section#banner div#contenido div#cont-info{
+	clear: both;
+	position: relative;
+}
+
+div#all section#banner div#contenido div#cont-info div#pos-a{
+	position: absolute;
+	top: 0;
+	padding: 40px;
+}
+
+div#all section#banner div#contenido div#cont-info div#pos-a h1{
+	margin-top: 0;
+	font-size: 30px;
+	color: #06365f;
+}
+
+div#all section#banner div#contenido div#cont-info div#pos-a h1 span{
+	display: block;
+}
+
+div#all section#banner div#contenido div#cont-info div#pos-a p{
+	color: #5d5c5c;
+}
+
+div#all section#banner div#contenido div#cont-info div#pos-a p#p-3{
+	margin-bottom: 40px;
+}
+
+div#all section#banner div#contenido div#cont-info div#pos-a a#a-1{
+	margin-right: 20px;
+}
+
+footer{
+	width: 100%;
+	padding: 40px 0;
+}
+
+footer div{
+	text-align: center;
+}
+
+footer div ul{
+	display: inline-block;
+	padding: 0;
+}
+
+footer div ul li{
+	display: inline-block;
+	margin: 0 10px;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: 700;
+}
+
+footer div ul li a{
+	color: #1c5380;
+}
+
+footer div p{
+	display: inline-block;
+    font-size: 12px;
+    font-weight: 700;
+    color: #9e9e9e;
+    margin-right: 10px;
 }
