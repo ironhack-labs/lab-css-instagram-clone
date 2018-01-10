@@ -8,3 +8,65 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+.azul {
+  width: 100%;
+  height: 280px;
+  background-color:#1c5380;
+}
+.movil{
+position: absolute;
+ top:90px;
+ left:200px;;
+}
+.instagram{
+  position: absolute;
+  top:100px;
+  right:400px;;
+}
+.home{
+  border-radius: 3;
+  padding: 10px;
+  background:#5ea8e4;
+  color:#add0ec;
+  position: absolute;
+  top:100px;
+  right:200px;
+}
+.cuadro{
+  position: absolute;
+  top:200px;
+  right:200px;
+  background-image:url("../images/frame.png");
+  background-repeat: no-repeat;
+}
+.iphone{
+  position: absolute;
+  bottom: 50px;
+  right: 500px;
+}
+.android{
+  position: absolute;
+  bottom: 50px;
+  right: 300px;
+}
+.final{
+  color: #5ea8e4;
+  float: left;
+  list-style: none;
+  text-decoration: none;
+  position: absolute;
+  top:600px;
+}
+.paginas{
+  list-style-type: none;
+  color: #5ea8e4;
+}
+a{
+  text-decoration: none;
+}
+li{
+  display: inline-block;
+  clear: both;
+}
+
+
