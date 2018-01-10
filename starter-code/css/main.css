@@ -9,6 +9,7 @@ body {
   margin: 0;
   background-image: url(../images/bgtile.png);
   background-repeat: repeat-x;
+  background-color: #f5f6f8;
 }
 
 h1{
