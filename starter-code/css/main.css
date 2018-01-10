@@ -43,8 +43,8 @@ body {
   float: right;
   border-radius: 5px;
 
-  
-  
+
+
 }
 #home{
   color: white;
@@ -70,14 +70,31 @@ body {
   font-family: arial;
 }
 #links{
-  height: 50px;
-  width: 550px;
+  height: 100px;
+  width: 750px;
   /* background-color: red; */
-  margin: 0 auto;
+  margin: 50px auto 20px;
+
 }
 
 #copy{
   color: grey;
   font-weight: bold;
+    font-size: 14px;
+    margin-left:20px;
 }
 
+a:link{
+
+color: #06365f;
+text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+margin-left:20px;
+}
+
+
+
+#container-mid-bot img{
+  margin-left: 10px;
+}
