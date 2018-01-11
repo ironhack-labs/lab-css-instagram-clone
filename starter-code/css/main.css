@@ -3,8 +3,65 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
+*{
+  list-style: none;
+  text-decoration: none;
+}
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+.blue {
+  width: 100%;
+  height: 280px;
+  background-color: #1c5380;
+}
+.mobile{
+  display: inline-block;
+  width: 30%;
+}
+.central{
+  display: inline-block;
+  width: 69%;
+}
+.content{
+  display: inline-block;
+  padding: 0 10%;
+  clear: both;
+  padding: 20px;
+  padding-right: 20px;
+  padding-left: 100px;
+  position: absolute;
+  top: 23px;
+}
+.home{
+  float: right;
+  background-color:darkblue;
+  border: #06365f 1px solid;
+  border-radius: 3px;
+  padding: 5px;
+  color: #e5e7e8;
+  font-weight: 400;
+}
+.lista{
+  position: absolute;
+  list-style-type: none;
+  text-align: center;
+  top: 590px;
+  left: 379px;
+
+}
+li{
+  display: inline;
+  text-align: center;
+  margin: 0 10px 0 0;
+}
+.android{
+  right: 492px;
+  position: absolute;
+  top: 480px;
+}
+.iphone{
+  float: right;
+}
+
