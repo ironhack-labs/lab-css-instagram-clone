@@ -7,4 +7,115 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
+
+button{
+  background: linear-gradient(#7a96b0,#1c5380);
+  box-shadow: 20px #06365f;
+  height: 40px;
+  width: 90px;
+  border: 1px solid #06365f;
+  border-radius: 3px;
+  position: relative;
+  right: 8px;
+}
+
+h3{
+  color: #06365f;
+  width: 70%;
+  font-size: 26px;
+  margin-bottom: 0;
+}
+
+p{
+  font-weight: 500;
+  color: #7A7A7A;
+}
+
+ul{
+  padding-top: 40px;
+}
+
+#tm{
+  color: #BEBEBF;
+}
+
+li{
+  padding-left: 15px;
+  font-weight: 600;
+}
+
+a{
+  text-decoration: none;
+  color: #5B7C9C;
+}
+
+.lazy-container-blue{
+  position: absolute;
+  background: radial-gradient(#517091, #375A7D);
+  width: 100%;
+  height: 38%;
+  bottom: 62%;
+  z-index: -1;
+}
+
+.outer-container{
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 85px;
+}
+
+.container-text{
+  width: 550px;
+  padding-left: 45px;
+  margin-left: 20px;
+  position: relative;
+  top: 20px;
+}
+
+    
+
+.text-header-container{
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+.text-body-container{
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 90%;
+}
+
+
+.text-body-container .text{
+  width: 80%;
+  height: 80%;
+}
+
+.text-body-container strong{
+  color: #383838;
+}
+
+.container-links{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.container-links li{
+  display: inline;
+}
+
