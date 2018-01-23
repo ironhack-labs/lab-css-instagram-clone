@@ -7,4 +7,99 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  height: 100vh;
+}
+
+ul {
+  list-style: none;
+  text-transform: uppercase;
+  margin: 0 auto;
+}
+
+.main-container {
+  padding: 4% 20%;
+}
+
+.blue-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 40vh;
+  background-image: url(../images/bgtile.png);
+  background-size: cover;
+  z-index: -1;
+}
+
+.inner-container {
+  float: right;
+  width: 55%;
+  padding-top: 2%;
+}
+
+.log-in {
+  float: right;
+  border: 1px solid rgba(6,54,95,0.5);
+  background: linear-gradient(#6E91AD,#4C7495);
+  width: 20%;
+  margin-top: 3%;
+  margin-right: 1%;
+}
+
+.log-in p{
+  float: right;
+  color: white;
+  font-size: 125%;
+  text-shadow: 2px 2px #4C7495;
+  font-weight: 500;
+  margin-right: .5em;
+}
+
+.log-in img{
+  padding-top: 12.5%;
+  margin-right: .5em;
+}
+
+.text-container{
+  background-image: url(../images/frame.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 4% 10%;
+  font-weight: 400;
+  font-size: 80%;
+}
+
+.text-container h1{
+  color: #06365f;
+  line-height: 1.25em;
+}
+
+.right {
+  float: left;
+}
+
+.android {
+  margin-left: 3%;
+}
+
+footer {
+  clear: both;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 75%;
+  padding-top: 4%;
+}
+
+footer li {
+  color: #4C7495;
+  margin-left: 2%;
+}
+
+.first {
+  margin-left: 15%;
+}
+
+.copyright {
+  color: lightgray;
+  margin-left: 2%;
 }
