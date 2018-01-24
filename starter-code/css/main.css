@@ -3,14 +3,14 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-* {
-  
-}
+
+/* Start of Body */
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
 
+/* Background Color on fix position pushed back with a z-index */
 .background {
   position: fixed;
   top: 0;
@@ -20,20 +20,21 @@ body {
   z-index: -1;
 }
 
+/* Containg div to position all the content to the center */
 .container {
   width: 60%;
   margin: 100px auto 0;
 }
 
+/* class to float image and push the other float away */
 .phone {
-  /* display: inline-block; */
   float: left;
   margin-right: 100px;
 }
 
+/* Container to float all the body of inforamtion together */
 .float {
   float: left;
-  /* display: inline-block; */
   width: 50%;
 }
 
@@ -41,6 +42,7 @@ body {
   clear: both;
 }
 
+/* Main Content where all the information is stored */
 .main-info {
   background-image: url("../images/frame.png");
   background-repeat: no-repeat;
@@ -64,22 +66,6 @@ h1 {
 p {
   padding-bottom: 10px;
 }
-li {
-  list-style-type: none;
-  display: inline-block;
-  padding-right: 20px;
-}
-
-li a {
-  text-decoration: none;
-  color: #577797;
-}
-
-footer {
-  position: fixed;
-  bottom: 35px;
-  left: 450px;
-}
 
 button {
   margin-left: 100px;
@@ -96,4 +82,22 @@ button {
 
 .download {
   margin: 25px 0 0 50px;
+}
+
+/* Footer and all the containg elements */
+li {
+  list-style-type: none;
+  display: inline-block;
+  padding-right: 20px;
+}
+
+li a {
+  text-decoration: none;
+  color: #577797;
+}
+
+footer {
+  position: fixed;
+  bottom: 35px;
+  left: 450px;
 }
