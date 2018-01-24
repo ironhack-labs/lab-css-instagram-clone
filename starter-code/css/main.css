@@ -8,3 +8,85 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.container{
+  position: relative;
+  top: -200px;
+  left: 5%;
+  margin: 0 auto;
+  width: 70%;
+}
+
+#phones{
+  float: left;
+}
+
+#brand{
+  float: left;
+  position: absolute;
+  left: 390px;
+}
+
+#log-button{
+  height: 40px;
+  width: 90px;
+  float: left;
+  position: absolute;
+  top: 20px;
+  left: 750px;
+  background-color: hsl(207, 48%, 42%);
+  border: 1px solid #06365f;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+#casita{
+  vertical-align: middle;
+}
+.blue-top{
+  height: 300px;
+  background-color: #1c5380;
+}
+
+.description{
+  position: absolute;
+  top: 100px;
+  left: 350px;
+  width: 400px;
+  padding: 10px 50px;
+}
+
+.frame{
+  position: absolute;
+  top: 100px;
+  left: 350px;
+  width: 500px;
+}
+
+h2{
+  width: 250px;
+  color: #06365f;
+}
+
+footer{
+  position: absolute;
+  top: 700px;
+  left: 300px;
+}
+
+li{
+  display: inline-block;
+  margin: 0 20px 0 0;
+  color: rgb(158, 157, 157);
+  font-weight: bold;
+}
+
+a{
+  text-decoration: none !important;
+  list-style-type: none;
+  color: #1c5380;
+  font-weight: bold;
+}
+
+
