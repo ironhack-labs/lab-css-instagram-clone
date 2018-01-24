@@ -8,3 +8,81 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+h1 {
+  color: #06365f;
+  font-size: 1.5em;
+  width: 50%;
+  padding: 15px 0 0 15px;
+}
+.description p {
+  width: 60%;
+  margin: 0 0 0 15px;
+}
+.blue-bg{
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat;
+  background-size: cover;
+  height: 400px;
+}
+.middle-content{
+  height: 600px;
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+  bottom: 200px;
+}
+.third-width{
+  width: 33%;
+  height: 600px;
+  float: left;
+}
+.two-third-width{
+  width: 60%;
+  height: 600px;
+  float: left;
+  margin-left: 60px;
+}
+.description{
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  margin: 0 auto;
+}
+.two-image-box{
+  padding: 30px 0 0 0;
+
+}
+.home-button {
+  background-color: #1c5380;
+  border: 1px solid black;
+  color: white;
+  float: right;
+  font-weight: bolder;
+  padding: 10px 30px;
+  margin: 15px 120px 0 0;
+}
+.link-images {
+  margin: 15px 0 0 75px;
+}
+footer {
+  width: 60%;
+  margin: 0 auto;
+  position: relative;
+  bottom: 200px;
+}
+footer ul li, span {
+  text-transform: uppercase;
+  color: #1c5380;
+  font-size: 12px;
+  font-weight: bold;
+  display: inline-block;
+  float: left;
+  margin: 0 12px;
+}
+span{
+  color: grey;
+  font-size: 12px;
+  font
+}
+
+
