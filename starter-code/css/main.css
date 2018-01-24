@@ -8,3 +8,79 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.background-azul {
+  height: 40vh;
+  background-color: #1c5380;
+}
+
+.container {
+  padding: 10%;
+}
+
+.float {
+  float: left;
+}
+
+.col1 {
+  width: 30%;
+}
+
+.col2 {
+  width: 70%;
+}
+
+.inline {
+  display: inline;
+}
+
+.clearFix {
+  clear: both;
+}
+
+.inline li{
+  display: inline;
+}
+
+.center {
+  text-align: center;
+}
+
+.background-pic {
+  background: url("../images/frame.png") no-repeat center center;
+  width: 70%;
+}
+
+
+.btn {
+  background-color: #698ead;
+  color: white;
+  border-radius: 5px;
+  width: 90px;
+  text-align: center;
+  float: right;
+}
+
+.inline img, p {
+  display: inline;
+}
+
+footer {
+  padding: 60px;
+  text-align: center;
+}
+
+ol li, h2 {
+  color: #06365f;
+  font-weight: 800;
+  padding: 10px;
+}
+
+#grey {
+  color: black;
+  font-weight: 100;
+}
+
+.container-left {
+  margin-left: 120px; 
+}
