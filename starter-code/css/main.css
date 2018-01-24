@@ -1,10 +1,87 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
-
+/* Colors to use: dark blue: #06365f light blue: #1c5380 */
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+/* Main Header & Logo */
+.blue-header {
+  background-color: #1c5380;
+  width: 100%;
+  height: 400px;
+  position: relative;
+}
+.img-logo {
+  position: absolute;
+  left: 40%;
+  top: 50%;
+}
+.phone-img{
+  position: absolute;
+  left: 100px;
+  top: 120px;
+}
+
+/* Box of content & Login */
+.white-box-content {
+  width: 500px;
+  height: 400px;
+  padding: 10px 25px;
+  position: absolute;
+  top: 320px;
+  left: 40%;
+  background-image: url('../images/frame.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.badge-img {
+  float: left;
+  padding:5px;
+}
+.login{
+  position: absolute;
+  left:71%;
+  top: 51%;
+  border-radius: 3px;
+  font-size: 14px;
+  height: 20px;
+  width: 90px;
+  margin: 5px;
+  padding: 10px;
+  text-align: center;
+  background: linear-gradient(#6491c4, #1c5380);
+  box-shadow: 0 3px 3px #1c5380;
+  color: rgb(247, 241, 241);
+}
+.login p{
+  font-weight: 600;
+  display: inline;
+  text-align: center;
+  margin: 10px 3px;
+}
+.login img{
+  vertical-align: middle;
+}
+.main-heading {
+  color:#06365f;
+  padding: 5px 10px;
+  font-size: 1.5em;
+}
+
+/* Footer and Links */
+.footer-nav{
+  display: block;
+  list-style: none;
+  padding-left: 310px;
+}
+.footer-nav li {
+  float: left;
+  padding:350px 8px 20px 10px;
+  font-weight: 600;
+}
+a:link {
+  text-decoration: none;
+  color: #1c5380;
+}
+span{
+  color: #999;
 }
