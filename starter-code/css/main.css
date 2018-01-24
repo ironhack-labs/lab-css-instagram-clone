@@ -8,3 +8,91 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.section1{
+  background-color: #1c5380;
+  height: 350px;
+}
+
+.imgPhone{
+  position: relative;
+  top: 120px;
+  left: 320px;
+  float: left;
+}
+
+.section1Part2{
+  position: relative;
+  float: left;
+  top: 120px;
+  left: 400px;
+  width: 35%;
+}
+
+.souspart1Section1Part2{
+  border-radius: 5px;
+  font-size: 0.9em;
+  padding: 20px 0 0 50px;
+  background-image: url('../images/frame.png');
+  background-repeat:no-repeat ;
+  background-size: auto;
+}
+
+button{
+  background-color: #7094B0;
+  border: 1px solid #06365f;
+  border-radius: 3px;
+  color: white;
+  font-weight: 500;
+  padding: 5px 12px;
+ position: relative;
+ top: -30px;
+ left: 70px;
+}
+
+.casita{
+  align-content: center;
+}
+
+.login{
+  position: relative;
+  padding: 10px 10px 30px 10px;
+}
+
+.h1Section2{
+  color:#06365f;
+  font-weight: bold;
+}
+
+.section2 {
+  background-color: white;
+  height: 330px;
+}
+
+.section3{
+  background-color: white;
+  height: 50px;
+}
+
+footer{
+  font-weight: bold;
+  color: #1c5380;  
+  position: relative;
+  left: 400px;
+  text-transform: uppercase;
+  font-size: 0.7em;
+}
+
+.ulFooter{
+  list-style: none;
+}
+
+footer li{
+  float: left;
+  padding: 8px;
+  
+}
+
+footer span{
+  color: #CFD0D1;
+}
