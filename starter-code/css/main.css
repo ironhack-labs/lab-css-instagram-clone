@@ -4,7 +4,100 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+/* Start of Body */
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+/* Background Color on fix position pushed back with a z-index */
+.background {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 30%;
+  background-color: #577797;
+  z-index: -1;
+}
+
+/* Containg div to position all the content to the center */
+.container {
+  width: 60%;
+  margin: 100px auto 0;
+}
+
+/* class to float image and push the other float away */
+.phone {
+  float: left;
+  margin-right: 100px;
+}
+
+/* Container to float all the body of inforamtion together */
+.float {
+  float: left;
+  width: 50%;
+}
+
+.clearfix {
+  clear: both;
+}
+
+/* Main Content where all the information is stored */
+.main-info {
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  width: 500px;
+}
+
+h1, p {
+  margin: 0;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+h1 {
+  padding-bottom: 10px;
+  padding-top: 20px;
+  font-size: 25px;
+  width: 51%;
+  color: #06365f;
+}
+
+p {
+  padding-bottom: 10px;
+}
+
+button {
+  margin-left: 100px;
+  margin-top: 15px;
+  padding: 8px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: #6B89A6;
+}
+
+.something{
+  float: left;
+}
+
+.download {
+  margin: 25px 0 0 50px;
+}
+
+/* Footer and all the containg elements */
+li {
+  list-style-type: none;
+  display: inline-block;
+  padding-right: 20px;
+}
+
+li a {
+  text-decoration: none;
+  color: #577797;
+}
+
+footer {
+  position: fixed;
+  bottom: 35px;
+  left: 450px;
 }
