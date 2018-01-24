@@ -8,3 +8,65 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.backgroundBlue{
+  background-color:#06365f;
+   width: 100%;
+   height: 300px;
+}
+.backgroundWhite{
+  background-color:white;
+   width: 100%;
+   height: 380px;
+}
+.phoneImg{
+position: absolute;
+top:150px;
+left:100px;
+}
+.titleInstagram{
+  position: absolute;
+  top: 150px;
+  left: 450px;
+}
+button{
+  border: none;
+  background-color: #1c5380;
+  width: 100px;
+  height: 50px;
+  font-size: 15px;
+}
+.imgLogin{
+  position: absolute;
+  top: 160px;
+  left: 800px; 
+} 
+.text {
+  background-image: url("../images/frame.png");
+  width: 500px;
+  height: 200px;
+  position: absolute;
+  top: 240px;
+  left: 450px;
+}
+p{
+  margin: 20px;
+  width: 400px;
+}
+.border{
+  border:1px solid black;
+}
+h1{
+  text-align:left; 
+  color:darkblue; 
+  width: 350px;
+  padding-top:10px; 
+  margin: 0 auto;
+}
+.footer{
+  text-align: center;
+}
+.appleImg{
+  padding-left: 20px; 
+ margin: 0 auto; 
+}
