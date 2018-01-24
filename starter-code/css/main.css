@@ -8,3 +8,120 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+.blue-box{
+  height: 300px;
+  width: 1000px;
+  background:#386D9B;
+  margin: 0 auto;
+}
+.white-box{
+  height: 400px;
+  width: 430px;
+  position: absolute;
+  left: 590px;
+  bottom: 130px;
+}
+
+
+.phone{
+  position: relative;
+  margin-left: 250px;
+  margin-top: -220px;
+}
+
+.logo-inst{
+  position: relative;
+  margin-left: 460px;
+  margin-top: 105px;
+  height: 65px;
+  width: 250px;
+
+}
+
+.log-in {
+  position:absolute;
+  background-color: #4177A6 !important;
+  top: 120px;
+  margin-left: 50px;
+  padding: 9px 28px;
+  color: white;
+  font-weight: bold;
+  font-size: 10px;
+  text-decoration: none;
+  border: 2px solid #24629A;
+  border-radius: 5%;
+  
+}
+
+.home{
+  position:absolute;
+  top: 126px;
+  margin-left: 53px;
+
+  
+}
+h1 {
+  color: #06365f;
+  font-size: 23px;
+  margin-left: 630px;
+  margin-top: 40px;
+  position: absolute;
+  bottom: 420px;
+  padding-right: 300px;
+}
+
+p{
+  color: #06365f;
+  font-size: 13px;
+  margin-left: 630px;
+  position: absolute;
+  bottom: 240px;
+  font-family: "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+  font-weight: 400;
+}
+
+
+
+.google-play{
+  margin-left: 225px;
+  position: absolute;
+  bottom: 180px;
+  height: 40px;
+  width: 140px;
+
+} 
+.app-store{
+  margin-left: 60px;
+  position: absolute;
+  bottom: 180px;
+  height: 40px;
+  width: 140px;
+
+}
+
+ul > a{
+  text-align: center;
+  display:inline;
+  text-decoration: none;
+  font-family: "arial";
+  color: #1c5380;
+  right: 90px;
+  padding: 5px;
+  font-size: 13px;
+  
+}
+
+.footer{
+  margin-left:320px;
+  font-weight: bold;
+  margin-top:30px;
+  
+}
+
+.arroba{
+  color: #B0AFAD;
+}
+
+span{
+  font-weight: bold;
+}
