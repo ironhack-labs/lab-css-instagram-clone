@@ -8,3 +8,117 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.blue_div{
+  background-color: #1c5380;
+  width: 100%;
+  height: 300px;
+  position: absolute;
+  top: -3%;
+}
+
+.main_container{
+  margin: 0 auto;
+  position: relative;
+  width: 1000px;
+  top: 100px;
+}
+
+.minor_container{
+  width: 50%;
+}
+
+.left_floating{
+  float:left;
+}
+.top_floating{
+  float:top;
+}
+
+.btn{
+  background: linear-gradient(#1665aa,#156ab1); 
+  display: inline;
+  color: white;
+  padding: 10px 10px 5px 10px;
+  float: right;
+  margin: 22px 15px 0 0;
+  border-radius: 5%
+
+}
+
+.btn h4, .btn figure{
+  display: inline;
+}
+
+.btn figure{
+  margin: 0;
+  vertical-align: middle;
+}
+
+.image_text{
+  float: left;
+  position: absolute;
+  top: 120px;
+  left: 30px;
+  width: 450px;
+}
+
+.frame_container{
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-align: left;
+  padding: 10px 7%;
+  
+}
+
+.frame_container p {
+  margin: 8px;
+}
+
+.frame_container h1{
+  width: 60%;
+}
+
+.clearfix{
+  clear: both;
+}
+
+.apps{
+  display: inline;
+}
+
+footer{
+  height: 40px;
+  padding-bottom: 14px;
+  padding-top: 120px;
+  padding-left: 270px;
+  width: 100%;
+}
+
+footer ul{
+ display:inline
+}
+
+.footer_li{
+  font-size: 12px;
+  display: inline;
+  list-style-type: none;
+  text-align: center;
+  margin-left: 2%;
+  text-transform: uppercase;
+  color: #1c5380;
+  font-weight: bold;
+}
+
+footer p{
+  font-size: 12px;
+  display: inline;
+  list-style-type: none;
+  text-align: center;
+  margin-left: 2%;
+  text-transform: uppercase;
+  color: lightgrey;
+  font-weight: bold;
+}
+
