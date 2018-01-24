@@ -8,3 +8,78 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+html, body {
+  height: 100%;
+}
+
+.top {
+    background-image: url('../images/bgtile.png');
+    background-repeat: repeat-x;
+    width: 100%;
+    height: 500px;
+}
+
+.container {
+  position: relative;
+  top: -400px;
+  width: 900px;;
+  display: table;
+  margin: 0 auto;
+}
+
+.picture {
+  float: left;
+}
+.main {
+  float: left;
+  width: 500px;
+  margin-left: 50px;
+  padding-top: 20px;
+}
+
+.logIn {
+  color:white;
+  font-size: 14px;
+  position:relative;
+  top: 22px;
+  right: 5px;
+  float: right;
+  width: 90px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  background: #648EAF;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.main-content {
+  margin-top: 15px;
+}
+.logIn img {
+  margin-right: 7px;
+  padding-left: 5px; 
+}
+
+.main-content {
+  background-image: url('../images/frame.png');
+  background-repeat: no-repeat;
+  height: 350px;
+  padding: 5px 20px;
+}
+
+h1 {
+  color: rgb(2, 85, 129);
+}
+
+p {
+  font-size: 16px;
+}
+
+.download-app{
+  padding-left: 20px;
+}
+
+.download-app img {
+  margin-right: 20px;
+}
