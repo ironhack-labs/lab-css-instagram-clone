@@ -6,5 +6,84 @@ light blue: #1c5380
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+}
+.dark-background {
+  background-color: #517091;
+  height: 300px;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+.container{
+  width: 50%;
+  float: left;
+  padding-top: 100px;
+}
+
+.phones-image{
+    float: left;
+    padding-left: 10%;
+    padding-right: 5%;
+    padding-top: 100px;
+    }
+
+.text{
+    width: 40%;
+    background-image: url("../images/frame.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 20px;
+    padding-left: 70px;
+    padding-right: 70px;
+    float: left;
+}
+
+.text img{
+    padding: 0 2%;
+}
+
+.text h2{
+    color: #06365f;
+    width: 60%;
+}
+
+.container-two{
+    background: #567799;
+    color: #DAE2E9;
+    display: inline-block;
+    border: 1px groove #3A6585;
+    float: right;
+    margin-top: 20px;
+    padding: 5px;
+    margin-right: 10%;
+}
+
+.container-two img, .container-two h3{
+    display: inline;
+    vertical-align: middle;
+}
+
+.container-two h3{
+    padding: 0 5px;
+}
+
+
+.footer{
+  align-items: center;
+  padding-top: 10px;
+  padding-left: 200px; 
+  padding-bottom: 50px;
+  clear: both;
+  color: #939393;
+  text-decoration: none;
+}
+
+.footer li{
+  display: inline;
+  list-style: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #6180A0;
+  text-decoration: none;
 }
