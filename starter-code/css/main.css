@@ -8,3 +8,68 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+.top-blue{
+  background-color:#06365f;
+  height: 300px;
+  width: 100%;
+}
+.phones{
+  position:absolute;
+  left:250px;
+  top:50px;
+  
+}
+.brand{
+  position:absolute;
+  left:600px;
+  top:50px;
+}
+.home{
+  position:absolute;
+  left:700px;
+  top: 50px;
+}
+.log-in{
+  position:absolute;
+  color:#1c5380;
+}
+.appstore{
+  position:absolute;
+  bottom:100px;
+}
+
+.googleplay{
+  position:absolute;
+  left:230px;
+  bottom:100px;
+
+}
+.container-info{
+  background-image: url("../images/frame.png");
+  background-repeat:no-repeat;
+  position:relative;
+  left:600px;
+  top:150px;
+  width:400px;
+  height:500px;
+  color: #06365f;
+  padding:10px 40px;
+  border-radius:3%;
+  font-weight:400;
+  
+}
+.bottom-white{
+  background-color:white;
+  height: 400px;
+}
+.bottom{
+  text-align:center;
+  text-transform:uppercase;
+  font-weight:500;
+}
+.bottom a{
+  background-color:white;
+  color:#1c5380;
+  text-decoration:none;
+  margin:0 5px;
+}
