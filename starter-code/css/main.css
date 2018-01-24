@@ -49,10 +49,11 @@ body {
 }
 
 .container-two{
-    background: #567799;
+    background: linear-gradient(#6c90ad, #4a7598);
     color: #DAE2E9;
     display: inline-block;
-    border: 1px groove #3A6585;
+    border: 1px solid #1c5380;
+    border-radius: 2px;
     float: right;
     margin-top: 20px;
     padding: 5px;
@@ -84,6 +85,6 @@ body {
   list-style: none;
   text-transform: uppercase;
   font-weight: bold;
-  color: #6180A0;
+  color: #1c5380;
   text-decoration: none;
 }
