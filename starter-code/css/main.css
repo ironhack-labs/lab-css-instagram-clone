@@ -5,6 +5,101 @@ light blue: #1c5380
 */
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 200 16px/1.5 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  height: 100%;
   margin: 0;
+  overflow: scroll;
+}
+
+.background {
+  background-image: url('../images/bgtile.png');
+  width: 100%;
+  height: 300px;
+}
+.container {
+  width: 80%;
+  margin-top: -270px;
+  margin-left: auto;
+  margin-right: auto;
+}
+header {
+  display: inline;
+}
+
+header h1 {
+  font-size: 1.8em;
+  color: #06365f;
+  line-height: 1;
+  letter-spacing: 1px;
+  width: 65%;
+}
+.home-btn {
+  background-color: #1c5380;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: white;
+  padding: 5px;
+  height: 30px;
+  width: 100px;
+  text-align: middle;
+  margin-left: 85px;
+  border-radius: 3px;
+  font-weight: bold;
+}
+
+.home-btn img {
+  margin-right: 5px;
+}
+section.phones {
+  float: left;
+  width: 40%;
+  position: relative;
+  top: 60px;
+}
+
+section.branding {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+section.main {
+  font-weight: 300;
+  float: right;
+  width: 48%;
+  position: relative;
+  top: 60px;
+}
+
+section.main-text {
+  background-image: url('../images/frame.png');
+  background-repeat: no-repeat;
+  padding: 30px;
+}
+
+.footer-bdg {
+  margin: 5px;
+}
+.page-footer {
+  text-align: center;
+}
+.page-footer ul {
+  list-style: none;
+  width: 100%;
+}
+
+.page-footer li {
+  display: inline;
+  margin: 6px;
+}
+
+.page-footer a {
+  text-decoration: none;
+  color: #1c5380;
+  font-weight: bold;
+}
+
+footer.page-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
