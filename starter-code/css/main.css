@@ -7,7 +7,6 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
-  
 }
 
 .top{
@@ -28,9 +27,12 @@ body {
   background-color: #1c5380;
   color: white;
   padding: 10px;
-  border-radius: 2px;
+  border-radius: 3px;
   display: inline-block;
   float: right;
+  position: relative; 
+  top: 15px;
+ 
 }
 
 .clearfix{
@@ -57,11 +59,12 @@ body {
 
 .text p{
   padding-left: 30px;
+  
 }
 
 .text h2{
   color: #1c5380;
-  padding: 30px;
+  padding: 30px 30px 0px;
 }
 
 .phone-buttons{
@@ -75,7 +78,7 @@ footer{
   font-size: .8em;
   font-weight: bold;
   position: relative;
-  bottom: 25px;
+  bottom: 70px;
 }
 
 footer ul{
