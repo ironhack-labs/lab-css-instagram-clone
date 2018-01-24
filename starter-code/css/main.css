@@ -16,6 +16,7 @@ body {
 
 .container {
   padding: 10%;
+  width: 100%
 }
 
 .float {
@@ -23,11 +24,11 @@ body {
 }
 
 .col1 {
-  width: 30%;
+  width: 500px;
 }
 
 .col2 {
-  width: 70%;
+  width: 500px;
 }
 
 .inline {
@@ -46,10 +47,10 @@ body {
   text-align: center;
 }
 
-.background-pic {
+.img-background {
   background: url("../images/frame.png") no-repeat center center;
-  width: 70%;
 }
+
 
 
 .btn {
@@ -59,7 +60,10 @@ body {
   width: 90px;
   text-align: center;
   float: right;
+  padding: 5px
 }
+
+
 
 .inline img, p {
   display: inline;
@@ -84,3 +88,24 @@ ol li, h2 {
 .container-left {
   margin-left: 120px; 
 }
+
+.position {
+  position: relative;
+  top: -600px;
+
+}
+
+.container-img {
+  padding: 20px;
+}
+
+.border-box {
+  border: 1px solid black;
+}
+
+.text {
+  padding:0 30px;
+}
+
+
+
