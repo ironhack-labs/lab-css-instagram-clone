@@ -8,3 +8,84 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+.fondo{
+  background-image: url(../images/bgtile.png);
+  height: 300px;
+
+}
+.phone-comtainer{
+  float: left;
+  width: 30%;
+  padding-left: 10%;
+  padding-top: 100px;
+}
+.phone-comtainer img{
+  position: relative;
+  right: 60px;
+  top: 40px;
+}
+.home-page{
+  margin-left: 10px;
+  padding-top: 40px;
+  width: 50%;
+  float: left;
+}
+.log-in{
+  display: inline;
+  position: relative;
+  left: 200px;
+  bottom: 35px;
+}
+.log-in h3{
+  display: inline;
+  position: relative;
+  bottom: 4px;
+  left: 2px;
+}
+.boton{
+  background-color: #1c5380;
+  text-align: center;
+  color: #fff;
+  border-color: #1c5380;
+}
+.text-container{
+  margin: 0 auto;
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+.moments-container{
+  color: #06365f;
+  text-align: left;
+  position: relative;
+  top: 30px;
+  left: 45px;
+}
+
+.description p{
+  position: relative;
+  top: 20px;
+  left: 35px;
+  text-align: justify;
+  width: 80%;
+  margin: 3px;
+  padding: 10px;
+}
+.download img{
+  position: relative;
+  top: 20px;
+  padding-left: 20px;
+}
+
+.about{
+  color: #06365f;
+  position: relative;
+  clear: both;
+  text-align: center;
+  top: 70px;
+}
+.about li{
+  display: inline;
+  margin: 10px;
+  
+}
