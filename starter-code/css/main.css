@@ -6,5 +6,93 @@ light blue: #1c5380
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: -4px;
+}
+
+.fondoazul{
+  background-color: #06365f;
+  width:100%; 
+  height:219px ;
+  position: relative;
+}
+
+.imageninstagram img{
+  position: absolute;
+  top: 63px; 
+  left:437px;
+  width:251px;
+}
+
+.telefonos img{
+  position: absolute;
+  top:58px;
+  left:82px;
+}
+
+.section1 h1{
+  position:absolute;
+  top:129px;
+  left:463px;
+  color: #1c5380;
+  z-index: 1000;
+  
+}
+
+.fondoblanco{
+  position: absolute;
+  left: 430px;
+  top:132px;
+}
+
+.parrafos{
+  position: absolute;
+  left: 463px;
+  text-align:justify;
+}
+
+.imagen1{
+position: absolute ; 
+top:510px;
+left: 664px;
+}
+
+.imagen2{
+  position: absolute ; 
+top:510px;
+left: 466px;
+}
+
+.footer{
+  position:absolute;
+  top: 615px;
+  left:283px;
+  word-spacing: 9px;
+}
+
+.boton img{
+  position:absolute;
+top:84px;
+left:779px;
+display: block;
+z-index: 1000;
+}
+
+.login{
+  position: absolute;
+  top: 87px;
+  left: 808PX;
+  color: aliceblue;
+  z-index: 1000;
+  font-size: 15px
+}
+
+button{
+  position:absolute;
+  top: 87px;
+  left: 808px; 
+  z-index: 1000; 
+  background-color:#1c5380;
   margin: 0;
+  border: 0; 
+  color: aliceblue;
 }
