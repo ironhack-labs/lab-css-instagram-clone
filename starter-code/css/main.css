@@ -8,3 +8,66 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+.background_one{
+  background-color:#1c5380;
+  min-height:300px;
+}
+.iphone{
+  float:left;
+  position: relative;
+  left:100px;
+  top:-200px;
+  
+}
+.brand_logo{
+float:left;
+position:relative;
+top:-200px;
+left:170px;
+}
+.log_in{
+  float:left;
+  position:relative;
+  top:-180px;
+  left:200px;
+  background-color: #1c5380;
+  border-color: #06365f;
+  color: white;
+  margin:auto;
+}
+.paragraph{
+  float:left;
+  position:relative;
+  top:-100px;
+  left:-230px; 
+  width:400px;
+}
+.iphone_badge{
+  float:left;
+  position:relative;
+  bottom:-220px;
+  left:-610px;
+}
+.android_badge{
+  float:left;
+  position:relative;
+  bottom:-220px;
+  left:-580px;
+}
+.overlay{
+
+}
+.footer{
+  clear: both;
+  position:relative;
+  left:300px;
+  top:-180px;
+}
+.overlay {
+  position: relative;
+  background-image:url("/home/patrick/ironhack/lab-css-instagram-clone/lab-css-instagram-clone/starter-code/images/frame.png");
+  width: 100%;
+  height: 200px;
+  padding:20px;
+  
+}
