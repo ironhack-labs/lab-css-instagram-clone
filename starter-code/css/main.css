@@ -4,7 +4,42 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+* {
+  margin: 0px;
+  paddig: 0px;
+
+}
+
+header, section, footer {
+  display: block;
+}
 body {
+  text-align:center;
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+#enchilada {
+  border: 2px solid #1c5380;
+  width: 1000px;
+  margin: 10px auto;
+  text-align:left;
+}
+
+.steel-blue {
+  height: 20em;
+  width: 100%;
+  background-color: #1c5380;
+}
+
+h2 {
+  color:#1c5380;
+}
+
+.body-class {
+  font-size: 15px;
+}
+
+#phone-pic {
+
 }
