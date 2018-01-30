@@ -1,10 +1,77 @@
 /*
 Colors to use:
 dark blue: #06365f
-light blue: #1c5380
+light blue: 
 */
-
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.section1 {
+ background-color : #06365f;
+ height: 300px;
+}
+.top {
+  margin-left: -90px;
+  display: flex;
+  flex-direction: row-reverse;
+  padding-top: 100px;
+  justify-content: center;
+}
+
+.casa{
+  background-image: url(../images/bgtile.png);
+  font-family: Arial, Helvetica, sans-serif; 
+  display: flex;
+  border: 1px solid black;
+  color: white;
+  height: 50px;
+  width: 150px;
+}
+.section2{
+  height: 350px;
+}
+.fondo{
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  width: 500px;
+  position: rative;
+  float: right;
+  margin-right: 250px;
+  margin-top: -90px;
+}
+.texto {
+margin-left: 50px;
+}
+.fondo h1 {
+  color: #06365f;
+}
+.descargas {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-right: 30px;
+}
+.section3 {
+  margin-top: 30px;
+  height: 100px;
+}
+
+.pie ul {
+  font-family: Arial, Helvetica, sans-serif;  
+  list-style: none;
+  justify-content: space-around; 
+  display: flex;
+  flex-direction: row;
+  margin-left: 275px;
+  margin-right: 275px;
+  color: rgb(78, 165, 194);
+}
+
+.clarito {
+  opacity: 0.5;
+}
+/*
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+*/
