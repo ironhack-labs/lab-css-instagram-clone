@@ -4,7 +4,124 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+
+.clearfix {
+  clear: both;
+}
+
+header {
+  margin-top: 9%;
+  height: 50px;
+  height: 100%;
+}
+
 body {
+  
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  width: 70%;
+  margin: 0 auto;
+  background-image: url("../images/bgtile.png");
+  background-position: center top;
+  background-repeat: repeat-x;
 }
+
+#container {
+  width: 100%;
+}
+
+#mobiles {
+  display:block;
+  float: left;
+  height: 100%;
+  width: 40%;
+  text-align: center;
+}
+
+#derecha {
+  display:block;
+  float: left;
+  width: 60%;
+  height: 100%;
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+}
+
+footer li {
+  text-transform: uppercase;
+  display: inline-block;
+  font-size: 13px;
+  color: #1c5380;
+  font-weight: bold;
+}
+
+.grey {
+  color: lightgray;
+}
+
+.apps {
+  height: 100%;
+  margin: 6% 0% 0% 10%;
+  
+}
+
+.apps img {
+  margin-right: 20px;
+}
+
+.logo {
+  float:left;
+  display: flex;
+  margin: 7px 0% 0px 33px
+}
+
+.home {
+  float: right;
+  height: 43px;
+  display: inline-block;
+  border-radius: 2px;
+  border-width: thin;
+  border-color: #06365f;
+  background-image: linear-gradient(#2c74b0, #06365f);
+  color: white;
+  margin: 23px 79px 0px 0px;
+  border-style:solid;
+  font-weight: bold;
+  font-size: 0.8em;
+  padding-right: 15px;
+}
+
+.home img {
+  margin: 10px 10px 10px 10px;
+  vertical-align: middle;
+}
+
+.botones {
+  display: block;
+  height: 30px;
+}
+
+.texto {
+  height: 100%;
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  margin: 50px 20px 20px 30px;
+}
+
+.texto h2 {
+  padding: 23px 0px 0px 33px;
+  color: #06365f;
+}
+
+.texto p {
+  margin: 28px 15% 10px 34px;
+  
+}
+
+.texto span {
+  font-weight: 400;
+}
+
