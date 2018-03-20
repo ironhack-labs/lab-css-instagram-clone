@@ -64,24 +64,49 @@ body {
 }
 
 .text-down p {
-  padding: 0 25px 0 25px;
+  padding: 0 35px 0 35px;
 }
 
 .apple {
-  width: 40%;
-  
-  
-  vertical-align:bottom;
-  bottom: 0;
+  float:left;
+  padding: 35px 5px 0 35px;
 }
 
 .android{
-  width:40%;
-  vertical-align:bottom;
+  float: left;
+  padding: 35px 0 0 5px;
+  
+  
+}
 
+.apps {
+  margin: 0 auto;
+}
+
+footer {
+  text-align: center;
+  float: none;
+    position:relative;
+    top: auto;
+    right:auto;
+    width: 100%;
+    margin: 20px 0 0;
+    height: auto;
+    line-height: auto;
+    
+    
+}
+
+footer li {
+  text-transform:uppercase;
+  float:none;
   display:inline-block;
-  right:30px;
-  float:right;
+  margin: 0 auto;
+  color: #1c5380;
+}
+
+.footer-link {
+  color: grey;
 }
 
 
