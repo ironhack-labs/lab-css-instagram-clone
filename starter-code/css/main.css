@@ -5,6 +5,122 @@ light blue: #1c5380
 */
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  box-sizing: border-box;
+}
+
+p {
+  font: 300;
+}
+
+.inline {
+  display: inline-block;
+  width: 50%;
+}
+
+.left{
+  float: left;
+}
+
+.right{
+  float: right;
+}
+
+.pad-top {
+  padding-top: 20vh;
+}
+
+.short {
+  display: inline-block;
+  width: 32vw;
+}
+
+.blue-back {
+  background: rgba(0,0,0,0) url("../images/bgtile.png") repeat fixed right bottom / cover;
+  height: 40vh;
+  width: 100%;
+  position: absolute;
+  z-index: -900;
+}
+
+header a {
+  font: 200 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  color: #d9e1e8;
+}
+
+.space-right {
+  padding-right: 20px; 
+}
+
+.space-left {
+  padding-left: 20px; 
+}
+
+#button {
+  border: 1px solid #346087;
+  background: #6b90af;
+  border-radius: 3px;
+  padding: 5px 10px;
+  display: inline-flex;
+  vertical-align: middle;
+}
+
+#button img {
+  margin-right: 5px;
+}
+
+#house {
+  vertical-align: middle;
+}
+
+#text {
+  background: rgba(0,0,0,0) url("../images/frame.png") no-repeat;
+}
+
+.texto {
+  width: 450px;
+  margin: auto;
+}
+
+.dark-blue {
+  color: #06365f;
+}
+
+footer::before {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.middle {
+  display: table;
+  margin: 0 auto;
+}
+
+li {
+  list-style: none;
+  text-transform: uppercase;
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 10px;
+  font-weight: 600;
+}
+
+li a {
+  text-decoration: none;
+  color: #1c5380;
+}
+
+ul {
+  padding: 50px 0;
+}
+
+.grey {
+  color: #c6c6c7;
 }
