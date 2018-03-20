@@ -86,8 +86,13 @@ footer ul{
   display: flex;
   width: 70%;
   margin: auto;
+  margin-bottom: 4%;
 }
 footer li{
   margin-right: 2%;
-  
+  color: #1c5380;
+  font-weight: 300;
+}
+#copyR{
+  color: grey;
 }
