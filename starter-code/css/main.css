@@ -19,14 +19,15 @@ body {
 }
 
 .container {
-  padding-top: 100px;
+  background: url('../images/bgtile.png') repeat-x;
 }
 
 .content {
   width: 70%;
-  margin: 0 auto;
+  padding-top: 100px;
+  margin: 0 auto 50px auto;
 }
-
+ 
 .clearfix {
   clear: both;
 }
@@ -34,6 +35,10 @@ body {
 .col {
   width: 50%;
   float: left;
+}
+
+.header-presentation {
+  padding: 30px 0;
 }
 
 .header-presentation .logo {
@@ -44,8 +49,36 @@ body {
   float: right;
 }
 
+.header-presentation .login button {
+  background: #1c5380;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+.header-presentation .login button::before {
+  content: " ";
+  background-image: url('../images/home.png');
+}
+
+.intro-presentation {
+  background: url('../images/frame.png') no-repeat;
+  padding: 30px 30px 0 30px;
+  margin-bottom: 30px;
+}
+
 .intro-presentation h2 {
   color: #06365f;
+}
+
+.intro-presentation p {
+  margin-bottom: 10px;
+}
+
+.badge-iphone,
+.badge-android {
+  display: inline-block;
+  margin: 0 20px;
 }
 
 .nav li {
