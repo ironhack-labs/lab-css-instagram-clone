@@ -58,6 +58,8 @@ footer {
   border-radius: 5px;
   color: white;
   cursor: pointer;
+  vertical-align: middle;
+  margin-left: 80px;
 }
 
 .button::before {
@@ -73,4 +75,13 @@ footer {
 .badge {
   width: 328px;
   margin: 0 auto;
+}
+
+footer {
+  clear: both;
+  margin: 0 auto;
+}
+
+footer li {
+  display: inline-block;
 }
