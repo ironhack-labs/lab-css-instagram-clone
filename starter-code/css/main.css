@@ -4,7 +4,56 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+*{
+  margin: 0;
+  padding: 0;
+}
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: url(https://res.cloudinary.com/esponjita/image/upload/v1521580164/bgtile.png) 0 0;
+  background-position: top;
+}
+
+main{
+  margin: 120px auto 0;
+  width: 85%;
+}
+
+.mobile{
+    background-image: url(https://res.cloudinary.com/esponjita/image/upload/v1521582642/phones.png);
+    height: 32em;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    position: relative;
+    float: left;
+    padding: 0 0 0 25em;
+}
+
+.insta{
+  background-image: url(https://res.cloudinary.com/esponjita/image/upload/v1521582642/brand.png);
+  height: 25em;
+  background-repeat: no-repeat;
+  float: left;
+  background-position-x: center;
+  width: 20em;
+  vertical-align: baseline;
+  margin-top: 2em;
+}
+
+.logo {
+  width: 314px;
+  height: 78px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.input {
+  width: 90px;
+  height: 32px;
+  background: linear-gradient(#06365f,#a5b3c1);
+  color: white;
+  display: inline-block;
+  text-align: right;
+  padding-top: 8px;
 }
