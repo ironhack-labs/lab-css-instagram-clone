@@ -12,7 +12,6 @@ light blue: #1c5380
 header {
   margin-top: 9%;
   height: 50px;
-  /*background-color: rebeccapurple;*/
   height: 100%;
 }
 
@@ -22,7 +21,6 @@ body {
   margin: 0;
   width: 70%;
   margin: 0 auto;
-  /*background-color: blue;*/
   background-image: url("../images/bgtile.png");
   background-position: center top;
   background-repeat: repeat-x;
@@ -30,7 +28,6 @@ body {
 
 #container {
   width: 100%;
-  /*background-color: yellow;*/
 }
 
 #mobiles {
@@ -38,7 +35,6 @@ body {
   float: left;
   height: 100%;
   width: 40%;
-  /*background-color: red;*/
   text-align: center;
 }
 
@@ -47,13 +43,10 @@ body {
   float: left;
   width: 60%;
   height: 100%;
-  /*background-color: green;*/
-
 }
 
 footer {
   width: 100%;
-  /*background-color: yellowgreen;*/
   text-align: center;
 }
 
@@ -90,41 +83,26 @@ footer li {
   height: 43px;
   display: inline-block;
   border-radius: 2px;
+  border-width: thin;
   border-color: #06365f;
   background-image: linear-gradient(#2c74b0, #06365f);
   color: white;
   margin: 23px 79px 0px 0px;
+  border-style:solid;
+  font-weight: bold;
+  font-size: 0.8em;
+  padding-right: 15px;
+}
+
+.home img {
+  margin: 10px 10px 10px 10px;
+  vertical-align: middle;
 }
 
 .botones {
   display: block;
   height: 30px;
 }
-
-./* botones button {
-  background-color: #1c5380;
-  background-image: url("../images/home.png");
-  background-repeat: no-repeat;
-  height: 32px;
-  width: 104px; 
-  color: white;
-  padding: 10px 10px 10px 10px;
-  border: 3px;
-  border-radius: 2px;
-} */
-
-.home {
-  background-color: #1c5380;
-  background-image: url("../images/home.png");
-  background-repeat: no-repeat;
-  height: 32px;
-  width: 104px; 
-  color: white;
-  padding: 10px 10px 10px 10px;
-  border: 3px;
-  border-radius: 2px;
-}
-
 
 .texto {
   height: 100%;
