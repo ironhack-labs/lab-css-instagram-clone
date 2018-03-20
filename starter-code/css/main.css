@@ -7,17 +7,27 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+.background {
   background-image: url("../images/bgtile.png");
   background-size: cover;
+  height: 200px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
 .content {
-  padding-top:50px;
-
+  position: relative;
+  top: 50px;
+  width: 90%;
 }
+
 .left {
   height: 516px;
-  display:block;
+  display: block;
   width: 50%;
   float: left;
   box-sizing: border-box;
@@ -26,7 +36,7 @@ body {
 
 .phones {
   display: block;
-  margin: 0 auto;
+  margin: 0 0 0 50%;
 }
 
 h2 {
@@ -75,4 +85,5 @@ ul li{
 .text {
   background-color: white;
   padding: 20px;
+  border-radius: 2px;
   }
