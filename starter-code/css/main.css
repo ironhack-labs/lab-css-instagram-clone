@@ -34,7 +34,10 @@ li{
   font-weight: 700;
   margin: 0 5px;
 }
-h2, footer li{
+h2{
+  color: #06365f;
+}
+footer li{
   color: #1c5380;
   text-transform: uppercase;
   font-size:0.8em;
