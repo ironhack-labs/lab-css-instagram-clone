@@ -15,7 +15,7 @@ body {
 }
 
 .main {
-  background-image: url(../images/bgtile.png);
+  background-image: url("../images/bgtile.png");
   background-repeat: repeat-x;
   height: 650px;
   width:100%;
@@ -46,12 +46,25 @@ body {
 
 }
 
-.home {
+button {
+  background-image: url("../images/home.png");
+  background-repeat: no-repeat;
+  background-position-y: center;
   display:inline-block;
   float:right;
-  padding:10px 0 0 0;
-  width:10%;
+  width:25%;
+  height:40px;
+  background-color:#1c5380;
+  border-color: #06365f;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin:15px 0 0 0;
+
 }
+
 
 .text-down {
   background-image: url("../images/frame.png");
@@ -84,15 +97,15 @@ body {
 }
 
 footer {
-  text-align: center;
-  float: none;
+    text-align: center;
     position:relative;
     top: auto;
     right:auto;
     width: 100%;
     margin: 20px 0 0;
-    height: auto;
+    height: 40px;
     line-height: auto;
+    text-decoration: none;
     
     
 }
@@ -102,13 +115,19 @@ footer li {
   float:none;
   display:inline-block;
   margin: 0 auto;
+ 
+  
+}
+
+.grey{
+  text-decoration: none;
+  color:grey;
+}
+
+
+footer a {
   color: #1c5380;
+  text-decoration: none;
 }
-
-.footer-link {
-  color: grey;
-}
-
-
 
 
