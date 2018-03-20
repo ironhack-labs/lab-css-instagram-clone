@@ -1,10 +1,89 @@
+
 /*
 Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
 
+.clearfix {
+  clear:both;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.main {
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;
+  height: 650px;
+  width:100%;
+}
+
+.movil {
+  float:left;
+  width:40%;
+  display: inline-block;
+  margin:100px 0 0 0;
+  padding:15px 0 0 150px;
+  box-sizing:border-box
+}
+
+.text {
+  
+  float:left;
+  width:40%;
+  display:inline-block;
+  margin: 100px 0 0 0;
+  box-sizing:border-box;
+  padding: 15px 15px 0 0;
+}
+
+.insta{
+  display:inline-block;
+  float:left
+
+}
+
+.home {
+  display:inline-block;
+  float:right;
+  padding:10px 0 0 0;
+  width:10%;
+}
+
+.text-down {
+  background-image: url("../images/frame.png");
+  background-size: cover;
+}
+
+.text-down h1 {
+  color: #06365f;
+  padding:25px 0 0 25px;
+}
+
+.text-down p {
+  padding: 0 25px 0 25px;
+}
+
+.apple {
+  width: 40%;
+  
+  
+  vertical-align:bottom;
+  bottom: 0;
+}
+
+.android{
+  width:40%;
+  vertical-align:bottom;
+
+  display:inline-block;
+  right:30px;
+  float:right;
+}
+
+
+
+
