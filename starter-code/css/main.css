@@ -35,7 +35,9 @@ li{
   margin: 0 5px;
 }
 h2, footer li{
-  color: #06365f;
+  color: #1c5380;
+  text-transform: uppercase;
+  font-size:0.8em;
 }
 h2{
   font-weight: 700;
