@@ -61,13 +61,15 @@ footer {
 }
 
 footer li {
-  
+  text-transform: uppercase;
   display: inline-block;
+  font-size: 13px;
+  color: #06365f;
 }
 
 .apps {
   height: 100%;
-  margin: 10% 0% 0% 8%;
+  margin: 6% 0% 0% 8%;
   
 }
 
@@ -86,7 +88,16 @@ footer li {
 }
 
 .botones {
-  display: flex;
+  display: inline;
+}
+
+.botones button {
+  background-color: #1c5380;
+  background-image: url("../images/home.png");
+  background-repeat: no-repeat;
+  height: 32px;
+  width: 104px; 
+  color: white;
 }
 
 .texto {
