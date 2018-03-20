@@ -12,7 +12,7 @@ light blue: #1c5380
 header {
   margin-top: 9%;
   height: 50px;
-  background-color: rebeccapurple;
+  /*background-color: rebeccapurple;*/
   height: 100%;
 }
 
@@ -22,18 +22,15 @@ body {
   margin: 0;
   width: 70%;
   margin: 0 auto;
-  background-color: blue;
+  /*background-color: blue;*/
   background-image: url("../images/bgtile.png");
   background-position: center top;
   background-repeat: repeat-x;
-
-
-
 }
 
 #container {
   width: 100%;
-  background-color: yellow;
+  /*background-color: yellow;*/
 }
 
 #mobiles {
@@ -41,7 +38,7 @@ body {
   float: left;
   height: 100%;
   width: 40%;
-  background-color: red;
+  /*background-color: red;*/
   text-align: center;
 }
 
@@ -50,13 +47,13 @@ body {
   float: left;
   width: 60%;
   height: 100%;
-  background-color: green;
+  /*background-color: green;*/
 
 }
 
 footer {
   width: 100%;
-  background-color: yellowgreen;
+  /*background-color: yellowgreen;*/
   text-align: center;
 }
 
@@ -64,7 +61,12 @@ footer li {
   text-transform: uppercase;
   display: inline-block;
   font-size: 13px;
-  color: #06365f;
+  color: #1c5380;
+  font-weight: bold;
+}
+
+.grey {
+  color: lightgray;
 }
 
 .apps {
@@ -80,6 +82,7 @@ footer li {
 .logo {
   float:left;
   display: flex;
+  margin: 7px 12% 0px 33px;
 }
 
 .home {
@@ -98,6 +101,9 @@ footer li {
   height: 32px;
   width: 104px; 
   color: white;
+  padding: 10px 10px 10px 10px;
+  border: 3px;
+  border-radius: 2px;
 }
 
 .texto {
@@ -109,6 +115,7 @@ footer li {
 
 .texto h2 {
   padding: 23px 0px 0px 33px;
+  color: #06365f;
 }
 
 .texto p {
@@ -116,7 +123,7 @@ footer li {
   
 }
 
-.negrita {
+.texto span {
   font-weight: 400;
- }
+}
 
