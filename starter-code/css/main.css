@@ -3,8 +3,56 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  padding: 0;
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;
+  
+  
+}
+
+/*-- layout --*/
+/*
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 100px 100px 5px 100px;
+}
+#phone-img {
+  width: 25%;
+}
+#info {
+  width: 40%;
+}
+*/
+header {
+  display: flex;
+  flex-direction: row;
+  padding: 15px;
+  height: 20vh;
+}
+/*.logo {
+  background-image: url(../images/brand.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 60%;
+}
+*/
+
+.block {
+  display: block;
+  width: 100%;
+}
+
+header button {
+  width: 35%;
 }
