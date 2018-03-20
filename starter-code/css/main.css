@@ -36,13 +36,34 @@ h2 {
 
 
 button {
+  display: inline-block;
   float: right;
+  background-color: #1c5380;
 }
 
+button img {
+  vertical-align: middle; 
+}
+
+button p {
+  display:inline-block;
+  color: white;
+  font-weight: 400;
+}
 
 footer {
   width: 80%;
   margin: 0 auto;
+  clear: both;
+}
+ul li{
+  display: inline-block;
+  color: grey;
+  text-transform: uppercase;
+}
+
+.link {
+  color: #1c5380;
 }
 
 .logo {
