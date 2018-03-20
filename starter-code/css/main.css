@@ -1,10 +1,116 @@
+/* ---- reset ---- */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #111;
+}
+
+
+/* ---- typography ---- */
+
+
+h1 {
+  color: #06365f;
+}
+
+h2 {}
+
+h3 {}
+
+p {
+  margin: 0;
+}
+
+
+
+/* ---- layout ---- */
+
+#site-header {
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;
+  background-size: cover;
+  height: 150px;
+  padding: 0 30px;
+  position: relative;
+}
+
+#site-footer {
+
+}
+
+#site-main {
+  background-image: url(../images/frame.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  top: 14px;
+  padding: 25px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 728px;
+    margin: 0 auto;
+  }
+}
+
+
+
+
+/* ---- components ---- */
+
 /*
-Colors to use:
+Colors to use:{
 dark blue: #06365f
 light blue: #1c5380
 */
+ .main-title {
+ }
+ .logo {
+  width: 200px;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+ }
 
-body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
-}
+ .login-btn {
+  background-color: #1c5380;
+  border-radius: 2px;
+  border: 1px solid #06365f;
+  width: 100px;
+  height: 45px;
+  position:absolute;
+  top: 30px;
+  right: 30px;
+ }
+
+ .login-btn p {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: white;
+ }
+
+ .icon {
+   position: absolute;
+   top: 10px;
+   left: 10px;
+ }
+
+ #site-main p {
+   margin-bottom: 10px;
+ }
+
+ .main-body img {
+   width: 150px;
+ }
