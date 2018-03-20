@@ -71,7 +71,7 @@ footer li {
 
 .apps {
   height: 100%;
-  margin: 6% 0% 0% 8%;
+  margin: 6% 0% 0% 10%;
   
 }
 
@@ -82,19 +82,38 @@ footer li {
 .logo {
   float:left;
   display: flex;
-  margin: 7px 12% 0px 33px;
+  margin: 7px 0% 0px 33px
 }
 
 .home {
   float: right;
-  height: 25px;
+  height: 43px;
+  display: inline-block;
+  border-radius: 2px;
+  border-color: #06365f;
+  background-image: linear-gradient(#2c74b0, #06365f);
+  color: white;
+  margin: 23px 79px 0px 0px;
 }
 
 .botones {
-  display: inline;
+  display: block;
+  height: 30px;
 }
 
-.botones button {
+./* botones button {
+  background-color: #1c5380;
+  background-image: url("../images/home.png");
+  background-repeat: no-repeat;
+  height: 32px;
+  width: 104px; 
+  color: white;
+  padding: 10px 10px 10px 10px;
+  border: 3px;
+  border-radius: 2px;
+} */
+
+.home {
   background-color: #1c5380;
   background-image: url("../images/home.png");
   background-repeat: no-repeat;
@@ -105,6 +124,7 @@ footer li {
   border: 3px;
   border-radius: 2px;
 }
+
 
 .texto {
   height: 100%;
