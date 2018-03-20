@@ -7,46 +7,87 @@ light blue: #1c5380
   margin: 0;
   padding: 0;
 }
+.clearfix {
+  clear:both;
+}
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+ 
+}
+h1{
+  color: #06365f;
+
+}
+li{
+  margin-top: 2%;
+  list-style: none;
+}
+footer{
+  width: 80%;
+  margin: auto;
 }
 /* -- Section1 -- */
 .section-movil {
-  background-color: red;
+
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   float: left;
  /*  width: 45%; */
-  margin: 5% 0% 0% 5%;
-  height: 600px;
+  margin: 10% auto 10% 10%;
+  position: relative;
+
 
 }
 
 .section-movil img{
-  display: flex;
   margin: 5% auto;
+  position: relative;
 }
 /* -- Section2 -- */
 .section-logo{
   float: left;
-  background-color: blue;
+  position: relative;
   display: flex;
   width: 45%;
-  margin: 5% auto 0%;
+  margin: 12% auto 0% 5%;
 }
-
+.section-logo p{
+  color: aliceblue;
+  margin: auto;
+  margin-left: 70px;
+}
 /* -- Section3 -- */
 .section-texto {
-  background-color: yellow;
+  background-image: url("../images/frame.png");
+  background-size: cover;
   float: left;
-  width: 45%;
-  margin: 0% auto;
-  height: 600px;
+  position: relative;
+  width: 40%;
+  margin: 0% auto 0% 4%;
+  padding-left: 6%;
+  padding-top: 6%;
+}
+.section-texto img{
+  margin-top: 10%;
+  margin-right: 4%;
 }
 
 /* -- Section-fondo -- */
 .section-fondo{
-  background-image: url("../images/bgtile.png")
+  background-image: url("../images/bgtile.png");
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+  position: absolute;
+}
+/* -- footer -- */
+footer ul{
+  display: flex;
+  width: 70%;
+  margin: auto;
+}
+footer li{
+  margin-right: 2%;
+  
 }
