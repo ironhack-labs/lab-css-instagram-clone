@@ -4,7 +4,122 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+
+/* ---- reset ---- */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+/* ---- typography ---- */
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+}
+
+h1 {
+  color: #06365f;
+}
+
+p {
+  margin: 20px 0;
+}
+
+
+
+/* ---- layout ---- */
+
+#site-header {
+  padding: 30px 0;
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat;
+  background-size: cover;
+  height: 30vh;
+}
+
+#site-footer {
+
+  padding: 20px 0;
+}
+
+#site-main {
+  margin-bottom: 0px;
+  margin-top: -20vh;
+}
+
+
+.container {
+  margin: 0 20px;
+}
+
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 728px;
+    margin: 0 auto;
+  }
+}
+
+/**{border: 1px solid red;}*/
+
+/* ---- components ---- */
+.main-text, .download{
+  padding: 30px;
+}
+.main-text {
+  clear: both;
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  background-size: cover;  
+}
+.download{
+  padding-top: 0;
+}
+
+.download img {
+  margin: 0 10px;
+}
+.header-main a {
+  float: right;
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat;
+  background-size: cover;
+  border: 1px solid #06365f;
+  border-radius: 3px;
+  padding: 10px;
+}
+
+.logo {
+  float: left;
+}
+
+#site-footer ul {
+  text-align: center;
+
+}
+
+#site-footer li{
+  list-style-type: none;
+  color: gray;
+  font-weight: bold;
+  display: inline-block;
+}
+
+#site-footer a {
+  text-decoration: none;
+  color:#1c5380;
+  text-transform: uppercase;
+  font-weight: bold;
 }
