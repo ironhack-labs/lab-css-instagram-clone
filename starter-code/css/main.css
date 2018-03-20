@@ -7,4 +7,70 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+  background-position: top;
+}
+
+main {
+  width: 80%;
+  margin: 120px auto 0;
+}
+
+footer {
+  width: 100%;
+}
+
+.left {
+  background-image: url("../images/phones.png");
+  background-position-x: center;
+  background-repeat: no-repeat;
+  float: left;
+  height: 500px;
+  width: 50%;
+
+}
+
+.right {
+  background-image: url("../images/brand.png");
+  background-repeat: no-repeat;
+  float: left;
+  height: 500px;
+  width: 504px;
+}
+
+.left:after, .right:after {
+  clear: both;
+}
+
+.logo {
+  width: 314px;
+  height: 78px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.button {
+  display: inline-block;
+  width: 100px;
+  height: 40px;
+  background: linear-gradient(#06365f,#1c5380);
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.button::before {
+  content: url("../images/home.png");
+}
+
+.text {
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  padding: 20px 10%;
+}
+
+.badge {
+  width: 328px;
+  margin: 0 auto;
 }
