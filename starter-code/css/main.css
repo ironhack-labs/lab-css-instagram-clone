@@ -8,3 +8,120 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.header {
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+  width: 100%;
+  height: 500px;
+  box-sizing: border-box;
+}
+
+.phones {
+  display: inline-block;
+  position: absolute;
+  top: 150px;
+  left: 300px;
+  width: 30%;
+  height: 400px;
+}
+
+.content {
+  position: absolute;
+  top: 150px;
+  left: 900px;
+  width: 40%;
+  height: 400px;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  top: 30%;
+  left: 60%;
+}
+
+.main img {
+  margin-right: 60px;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  background-color: #6B91AE;
+  float: right;
+  border: 1px solid #6B91AE;
+  border-radius: 3px;
+}
+
+.button img{
+  margin: 5px;
+  padding: 5px;
+}
+
+.button p {
+  color: white;
+  font-size: 1.2em;
+  font-weight: bolder;
+  float: right;
+  padding: 5px;
+  margin: 0;
+  vertical-align: middle;
+}
+
+.text-content {
+  background-image: url("../images/frame.png");
+  background-size: auto;
+  width: 61%;
+  border-radius: 4px;
+  padding: 5px 10px 0 20px;
+}
+
+.text-content h1 {
+  color: #0C3C5D;
+  font-size: 1.5em;
+  padding: 0;
+}
+
+.content-text {
+  padding: 0;
+  margin: 0;
+  line-height: 1em;
+}
+
+.markets {
+  display: inline-block;
+  margin: 30px 10px 10px 10px;
+}
+
+.market-item {
+  margin-left: 50px;
+}
+
+.float-fix{
+  clear: both;
+}
+
+.footer {
+  position: absolute;
+  bottom: 200px;
+  left: 30%;
+}
+
+.contact ul {
+  list-style-type: none;
+  text-transform: capitalize;
+}
+
+.contact ul li {
+  color: #6D91AD;
+  font-weight: bold;
+  float: left;
+  margin: 5px;
+}
+
+.copy {
+  color: black;
+}
+
+
