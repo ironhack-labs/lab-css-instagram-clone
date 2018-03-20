@@ -7,4 +7,126 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url('../images/bgtile.png');
+  background-repeat: repeat-x; 
+}
+
+.main{
+  padding-top:100px;
+  min-height: 100%;
+}
+
+.left{
+  box-sizing: border-box;
+  float: left;
+  padding-right:40px;
+  text-align: right;
+  width:50%;
+}
+
+.title-box{
+  padding-top:20px;
+  position: relative;
+}
+
+.title-box-brand{
+  position:relative;
+  left:0
+}
+
+.title-box-button{
+  float:left;
+  margin:15px 0px 0px 70px;
+}
+
+.textbox {
+  box-sizing: border-box;
+  border-radius: 5px;
+  max-width: 450px;
+  padding: 10px 30px;
+  background-image: url('../images/frame.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.textbox-title{
+  width:80%;
+  color:#1f4a6f;
+}
+
+.textbox-brand{
+  position:relative;
+  left:0;
+}
+
+.textbox-home{
+  position: relative;
+  left: 110px;
+  margin:10px 0px 0px 112px;
+}
+
+.right{
+  float: left;
+  width:50%;
+}
+
+.footer{
+  display:block;
+  margin-top:50px;
+  font-size: 8pt;
+  font-weight: bolder;
+  min-height: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #b4b4b4;
+}
+
+.footer a{
+  text-decoration: none;
+  font-weight: bolder;
+  color: #4d7ba1;
+}
+
+.inline{
+  display: inline-block;
+}
+
+.float-left{
+  float:left;
+}
+
+.float-right{
+  float:right;
+}
+
+.footer li{
+  display:inline-block;
+  margin: 0 10px;
+}
+
+.clear-fix {
+  clear: both;
+}
+
+
+.home-btn {
+  width: 65px;
+  max-height:16px;
+  margin-bottom:40px;
+  background: #5091ba;
+  background-image: -webkit-linear-gradient(top, #6992b2, #42749c);
+  background-image: -moz-linear-gradient(top, #6992b2, #42749c);
+  background-image: -ms-linear-gradient(top, #6992b2, #42749c);
+  background-image: -o-linear-gradient(top, #6992b2, #42749c);
+  background-image: linear-gradient(to bottom, #6992b2, #42749c);
+  -webkit-border-radius: 3;
+  -moz-border-radius: 3;
+  border-radius: 3px;
+  text-shadow: 0px 1px 2px #3b3b3b;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 13px;
+  padding: 10px 10px 10px 10px;
+  border: solid #4c85a8 1px;
+  text-decoration: none;
 }
