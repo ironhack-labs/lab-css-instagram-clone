@@ -16,10 +16,13 @@ body {
   margin: 0;
   box-sizing:border-box;
 }
+/*Soluciones generales*/
+.center{
+  margin: auto;
+}
 #main, footer{
   /*Mismo width para el footer y main*/
-  width:60%;
-  margin:auto;
+  width: 920px;
   /* Overflow auto para marcar mejor nuestro main en Dev tools*/
   overflow: auto;
 }
@@ -28,13 +31,13 @@ body {
 }
 /* ----- Parte de HEADER ------ */ 
 header{
-  float:left;
   overflow:auto;
   z-index: 98;
   /*Por hartura de responsive en este caso decidí hacer el width de article y header fijo*/
   width: 500px;
-  margin-left: 10%;
+  margin-left: 50px;
 }
+/*Aquí solucionamos el espacio entre botón y imagen de marca*/
 #brand-name{
   float:left;
 }
@@ -53,31 +56,30 @@ button{
   -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
 }
+/*Alineación del imagen con el texto*/
 button > img{
   vertical-align: middle;
 }
+/*Solución para espacio entre texto y la imagen en botón*/
 button > span{
   margin-left: 5px;
 }
-aside, article{
+/*--------- CENTRO (aside, article) -----*/
+aside, article, header{
   float:left;
 }
 aside{
-  width: 30%;
+  width: 320px;
 }
 article{
   width:500px;
   background: url('../images/frame.png') no-repeat;
-  margin-left: 10%;
-  position:relative;
-  z-index:1;
+  margin-left: 50px;
 }
 article section{
   background:white;
   width: 80%;
-  margin:auto;
   border-radius:5px;
-  z-index:99;
 }
 article img{
   margin-right:15px;
@@ -89,7 +91,10 @@ article div{
 }
 h2{
   color: #06365f;
+  font-weight: 700;
+  width: 70%;
 }
+/* -------- FOOTER ---------*/
 footer p{
   color: grey;
 }
@@ -106,19 +111,15 @@ footer li{
   font-weight: 700;
   margin: 0 5px;
 }
-h2{
-  font-weight: 700;
-  width: 70%;
-}
 footer{
   position:absolute;
   bottom:0;
   left: 20%;
 }
+/* Agrupación de la lista y el párrafo en footer*/ 
 footer > div > * {
   display: inline-block;
 }
 footer > div{
-  margin:auto;
   width: 80%;
 }
