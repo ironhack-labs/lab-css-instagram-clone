@@ -4,7 +4,71 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  padding: 0;
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-image: url("/home/fredrik/lab-css-instagram-clone/starter-code/images/bgtile.png");
+  background-repeat: repeat-x;
+  
+
+}
+
+footer {
+display: flex;
+justify-content: space-around;
+flex-direction: column;
+width: 50%;
+margin: 0 auto;
+color: grey;
+text-transform: uppercase;
+font-weight: 800;
+
+
+}
+
+footer a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: rgb(18,86,136);
+}
+
+
+.mainbody {
+text-align: center;
+margin: 0 auto;
+margin-top: 220px;
+background-image: url("/home/fredrik/lab-css-instagram-clone/starter-code/images/frame.png");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+padding-top: 25px;
+margin-bottom: 30px;
+}
+
+
+
+@media only screen and (min-width: 300px) {
+  footer {
+      display: flex;
+      flex-direction: row;
+      text-align: center;
+      
+  }
+} 
+
+
+
+.applogos {
+  display: flex;
+  justify-content: space-around;
+  display: row;
 }
