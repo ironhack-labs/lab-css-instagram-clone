@@ -31,49 +31,39 @@ body {
   width: 50%;
   float: left;
   box-sizing: border-box;
-  /*background-color: red;*/
 }
 
 .phones {
   display: block;
-  margin: 0 0 0 50%;
+  margin: 0 auto;
 }
 
 h2 {
   color: #06365f;
-  width: 80%;
+  width: 70%;
+  margin-top: 0;
 }
 
 
 button {
   display: inline-block;
   float: right;
-  background-color: #1c5380;
+  background-color: #5982a4;
+  width: 20%;
+  border-radius: 3px;
+  border-color: #376187;
 }
 
 button img {
+  position: relative;
+  right: 10px;
   vertical-align: middle; 
 }
 
 button p {
   display:inline-block;
   color: white;
-  font-weight: 400;
-}
-
-footer {
-  width: 80%;
-  margin: 0 auto;
-  clear: both;
-}
-ul li{
-  display: inline-block;
-  color: grey;
-  text-transform: uppercase;
-}
-
-.link {
-  color: #1c5380;
+  font-weight: 800;
 }
 
 .logo {
@@ -84,6 +74,35 @@ ul li{
 
 .text {
   background-color: white;
-  padding: 20px;
-  border-radius: 2px;
+  padding: 7%;
+  border-radius: 4px;
+  box-sizing: border-box;
+  }
+
+  .stores {
+    margin-top: 20px;
+  }
+
+  footer {
+    width: 80%;
+    clear: both;
+    margin: 0 auto;
+    position: relative;
+    top: 60px;
+  }
+  
+  ul {
+    margin: 0 auto;
+  }
+  
+  ul li{
+    display: inline-block;
+    color: grey;
+    text-transform: uppercase;
+    font-size: 14px;
+  }
+
+  .link {
+    color: #1c5380;
+    margin-right: 20px;
   }
