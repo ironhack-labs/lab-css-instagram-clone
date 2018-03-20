@@ -4,7 +4,104 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+/* ---- reset ---- */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  padding: 120px 0 0;
 }
+
+section{
+  border: 2px red solid;
+}
+
+.background-blue{
+  background-image: url(../images/bgtile.png);
+  height: 280px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+  background-repeat: repeat-x;
+}
+
+.big-one{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.header{
+  display: block;
+}
+
+.instagram-image{  
+  display: inline-block;
+}
+
+.login-button{
+  display: inline-block;
+}
+
+
+.login{
+  background-color: #1c5380;
+  color: white;
+  padding: 10px;
+  float: right;
+}
+.login img{
+  padding-right: 10px;
+}
+
+
+.phone{
+  float: left;
+  display: none
+}
+
+h1{
+  color: #06365f;
+}
+
+
+footer{
+  padding: auto;
+}
+
+footer ul{
+  text-align: center;
+}
+
+footer li {
+  list-style: none;
+  display: inline-block;  
+  
+}
+footer a{
+  color: #1c5380;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+  padding-right: 5px;
+  
+}
+
+#copyright{
+  color: grey;
+  padding-left: 40px;
+  text-transform: uppercase; 
+}
+
+
+.clear{
+  clear: both;
+}
+
