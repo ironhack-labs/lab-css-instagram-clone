@@ -7,7 +7,9 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
-  background-image: url("../images/bgtile.png")
+  background-image: url("../images/bgtile.png");
+  background-position: center top;
+  background-repeat: repeat-x;
 }
 main {
   width: 880px;
@@ -34,17 +36,20 @@ main section.section2 nav button.login {
   color: white;
   background-color: #06365f;
 }
-
+main section div.texto{
+  background: url("../images/frame.png");
+  background-repeat: no-repeat;
+}
 main section.section2 h1 {
   color: #06365f;
   font-size: 20px;
   margin-top: 0;
+  padding: 20px;
   
 }
 
 main section.section2 p {
-  background: url("../images/frame.png");
-  padding: 30px;
+  padding: 8px 40px 9px 27px;
 }
 
 footer ul {
@@ -61,7 +66,7 @@ footer ul li.azul{
 }
 
 footer ul li {
-  color: #9c9c9c;
+  color:#1c5380;
   display: inline;
   font-size: 12px;
   font-weight: bold;
@@ -69,8 +74,8 @@ footer ul li {
   text-transform: uppercase;
 }
 
-footer ul li.azul{
-  color: #1c5380;
+footer ul li.gris{
+  color:#9c9c9c;
   
 }
 
