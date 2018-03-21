@@ -50,12 +50,14 @@ button {
   background-image: url("../images/home.png");
   background-repeat: no-repeat;
   background-position-y: center;
+  background-position-x: 7%;
   display:inline-block;
   float:right;
   width:25%;
   height:40px;
   background-color:#1c5380;
   border-color: #06365f;
+  border-radius: 5%;
   color: white;
   text-align: center;
   text-decoration: none;
@@ -73,7 +75,7 @@ button {
 
 .text-down h1 {
   color: #06365f;
-  padding:25px 0 0 25px;
+  padding:25px 0 0 35px;
 }
 
 .text-down p {
@@ -106,6 +108,7 @@ footer {
     height: 40px;
     line-height: auto;
     text-decoration: none;
+    font-weight: bold;
     
     
 }
