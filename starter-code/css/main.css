@@ -7,4 +7,88 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image : url("../images/bgtile.png");
+  background-repeat: repeat-x;
+}
+
+.container{
+  
+  margin: 0 auto;
+  margin-top:100px;
+  width: 900px;
+  /*vertical-align:center;*/
+}
+
+.phone{
+  float:left;
+  margin-left:5px;
+}
+h1{
+  color:#06365f;
+}
+
+.header-img{
+ margin-top:10px;
+}
+ .img-brand{
+  float:left;
+  width:70%;
+  margin-left:22px;
+}
+.img-home{
+  float:right;
+  width:24%;
+  border: 2px solid #1c5380;
+  color:white;
+  display:inline;
+  margin-top:30px;
+  margin-left:0px;
+} 
+
+.img-home p{
+  width:50px;
+  display:inline;
+}
+.img-home img{
+  margin-left:10%;
+  margin-right:10%;  
+}
+.Container-Text{
+  float:right; 
+  width:500px;
+  margin-right:5px;
+}
+.box{
+  width:425px;
+  background-image: url("../images/frame.png");
+  background-repeat:no-repeat;
+  margin:100px 20px ;
+  padding:1px 44px;
+}
+.footer-badge{
+ margin-top:20px;
+}
+.img-androide{
+  float:left;
+  margin-right:20px;
+}
+.img-iphone{
+  float:left;
+}
+.clearfix {
+  clear: both;
+}
+footer{
+  width:900px;
+}
+ul {
+  list-style-type: none;
+  margin-top: 100px;
+  padding-left:100px;
+}
+.nav-bar-li { 
+  display:inline;
+  float:left;
+  margin:4px;
+  color: #1c5380;
 }
