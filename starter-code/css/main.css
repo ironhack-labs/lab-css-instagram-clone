@@ -4,7 +4,118 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+.body1 {
+  background: linear-gradient(to bottom,#3570b3 0%,#14447a 40%,white 40%,white 100%);
+  background-repeat: no-repeat;
+  background-
+  margin-bottom: 30px;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-color: white;
+}
+
+
+.capture {
+  border-style: none;
+  font-size: 16px;
+  padding: 30px;
+}
+
+.white-backg {
+  background-image: url("../images/frame.png");
+  background-size: 375px 450px;
+  background-repeat: no-repeat;
+}
+.curve {
+  border-radius: 10px;
+}
+
+.main-boxes {
+  border-style: none;
+  box-sizing: border-box;
+  height: 600px;
+  padding: 0px;
+  width: 400px;
+  margin-left: 50px;
+  margin-top: 50px;
+  position: relative;
+}
+
+.button-box {
+  border: 1px solid navy;
+
+}
+
+.phone-size {
+  width: 140px;
+  height: 40px;
+}
+
+.float {
+  float: left;
+}
+
+.float-c {
+  float: center;
+}
+
+.clearfix { 
+  clear: both; 
+}
+
+.blue {
+  background-color:#3570b3;
+}
+
+.padding-head {
+  padding: 10px;
+}
+
+.insta-size {
+  height: 50px;
+  width: 250px;
+}
+
+h3 {
+  color: #1c5380;
+  margin: 0;
+}
+
+.no-marg {
+  margin: 0px;
+}
+.footer {
+  color: #1c5380;
+  font-weight: bold;
+  width: 90px;
+  margin: 10px;
+}
+
+.center {
+  text-align: center;
+}
+.marg-bottom {
+  margin-bottom: 50px;
+}
+
+.image {
+  
+    border: none; 
+    color: white; 
+    padding: 12px 16px; 
+    font-size: 16px; 
+    cursor: pointer;
+}
+
+.button {
+  background-color:#3570b3;
+  padding: 0px 15px 0px 0px;
+  margin: 5px;
+  border-radius: 3px;
+  border-color: none;
+  box-shadow: 0px 0px 5px 0px;
+  border: 0px;
 }
