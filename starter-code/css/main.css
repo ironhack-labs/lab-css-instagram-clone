@@ -9,119 +9,108 @@ body {
   margin: 0;
 }
 
-.header {
+.main {
+  position: relative;
   background-image: url("../images/bgtile.png");
   background-repeat: repeat-x;
   width: 100%;
-  height: 500px;
+  padding: 15vh 0 1vh 0;
+}
+
+.wrapper-column {
+  position: relative;
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.phone-column {
+  position: relative;
+  width: 49%;
+  float: left;
+  text-align: right;
+  padding-right: 100px;
   box-sizing: border-box;
 }
 
-.phones {
-  display: inline-block;
-  position: absolute;
-  top: 150px;
-  left: 300px;
-  width: 30%;
-  height: 400px;
-}
-
-.content {
-  position: absolute;
-  top: 150px;
-  left: 900px;
-  width: 40%;
-  height: 400px;
-}
-
-.main {
-  display: flex;
-  align-items: center;
-  top: 30%;
-  left: 60%;
-}
-
-.main img {
-  margin-right: 60px;
+.content-column {
+  box-sizing: border-box;
+  position: relative;
+  width: 49%;
+  float: left;
+  text-align: left;
 }
 
 .button {
-  display: flex;
-  align-items: center;
+  position: relative;
+  float: right;
   background-color: #6B91AE;
-  float: right;
-  border: 1px solid #6B91AE;
+  padding: 10px;
   border-radius: 3px;
+  margin: 1vh 1vh;
 }
 
-.button img{
-  margin: 5px;
-  padding: 5px;
+.button a {
+  text-decoration: none;
 }
 
-.button p {
-  color: white;
-  font-size: 1.2em;
-  font-weight: bolder;
-  float: right;
-  padding: 5px;
-  margin: 0;
+.button img {
   vertical-align: middle;
 }
 
-.text-content {
-  background-image: url("../images/frame.png");
-  background-size: auto;
-  width: 61%;
-  border-radius: 4px;
-  padding: 5px 10px 0 20px;
+.login {
+  color: white;
+  text-decoration: none;
 }
 
-.text-content h1 {
-  color: #0C3C5D;
-  font-size: 1.5em;
-  padding: 0;
+.content-links {
+  padding-bottom: 0;
 }
 
 .content-text {
-  padding: 0;
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  background-size: contain;
   margin: 0;
-  line-height: 1em;
+  padding: 15px;
 }
 
-.markets {
-  display: inline-block;
-  margin: 30px 10px 10px 10px;
+.content-text h1 {
+  color: #0C3C5D;
+  font-size: 2em;
 }
 
-.market-item {
-  margin-left: 50px;
+.content-markets {
+  text-align: center;
 }
 
-.float-fix{
+.content-markets img {
+  margin-right: 40px;
+}
+
+.clear-fix {
   clear: both;
 }
 
 .footer {
-  position: absolute;
-  bottom: 200px;
-  left: 30%;
+position: relative;
+padding: 0 10%;
+text-align: center;
 }
 
-.contact ul {
+.footer ul {
   list-style-type: none;
-  text-transform: capitalize;
 }
 
-.contact ul li {
+.footer ul li {
+  text-transform: uppercase;
   color: #6D91AD;
   font-weight: bold;
-  float: left;
   margin: 5px;
+  display: inline-block;
 }
 
 .copy {
-  color: black;
+  color: grey;
+  text-transform: none;
 }
-
-
