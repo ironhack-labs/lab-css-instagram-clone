@@ -45,6 +45,7 @@ footer ul {
 footer li {
   display: inline-block;
   color: #1c5380;
+  margin: 50px 10px 0 10px;
 }
 .copyright {
   color: grey;
@@ -65,11 +66,14 @@ footer li {
 .description {
   box-sizing: border-box;
   background-image: url("../images/frame.png");
-  background-position: center;
+  background-position: cover;
   background-size: cover;
+  object-fit: cover;
+  background-repeat: no-repeat;
   border-radius: 15px;
   height: 250px;
   padding: 30px 40px 20px 40px;
+  margin: 0 auto;
 }
 .description ul {
   position: relative;
@@ -81,6 +85,7 @@ footer li {
 }
 .description li {
   display: inline-block;
+  margin: 0 10px;
 }
 .right {
   float: left;
@@ -120,7 +125,7 @@ footer li {
 }
 
 .logos a {
-  background-color:#1c5380;
+  background: linear-gradient(#f1f1f17e, #26669b);
   color: white;
   font-size: 1.2em;
   font-weight: 300;
@@ -129,15 +134,25 @@ footer li {
   width: 50px;
   margin: 0 auto;
   padding: 10px 10px;
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
-  border-top-right-radius: 5px;
+  border: 1px solid rgba(0,0,0,0.2);
+  border-radius: 5px;
   vertical-align: -webkit-baseline-middle;
+
+  text-align: right;
+  margin-left: 120px;
 }
 
 .items{
   float: left; 
-  width: 50%;
+  width: 40%;
+  align-items: center;
+}
+.items2{
+
+  box-sizing: border-box;
+  position: relative;
+  margin-top: 20px;
+  float: right; 
+  width: 40%;
   align-items: center;
 }
