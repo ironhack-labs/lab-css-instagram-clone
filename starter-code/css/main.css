@@ -12,7 +12,7 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
   background: url(https://res.cloudinary.com/esponjita/image/upload/v1521580164/bgtile.png) 0 0;
-  background-position: top;
+  background-repeat: repeat-x;
 }
 
 main{
@@ -31,7 +31,6 @@ main{
 }
 
 .insta{
-  background-image: url(https://res.cloudinary.com/esponjita/image/upload/v1521582642/brand.png);
   height: 25em;
   background-repeat: no-repeat;
   float: left;
@@ -56,4 +55,5 @@ main{
   display: inline-block;
   text-align: right;
   padding-top: 8px;
+  margin: 25px;
 }
