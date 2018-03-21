@@ -7,4 +7,75 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url("../images/bgtile.png");
+  background-position: center top;
+  background-repeat: repeat-x;
 }
+main {
+  width: 880px;
+  margin: 80px auto 0;
+  background-color: white;
+}
+
+
+main section.section1{
+  float: left;
+}
+
+main section.section2 {
+  float: right;
+  width: 500px;
+}
+
+main section.section2 nav button.login {
+  float: right;
+  margin-top: 15px;
+  border: 1px solid #1c5380;
+  border-radius: 2px;
+  padding: 5px 7px;
+  color: white;
+  background-color: #06365f;
+}
+main section div.texto{
+  background: url("../images/frame.png");
+  background-repeat: no-repeat;
+}
+main section.section2 h1 {
+  color: #06365f;
+  font-size: 20px;
+  margin-top: 0;
+  padding: 20px;
+  
+}
+
+main section.section2 p {
+  padding: 8px 40px 9px 27px;
+}
+
+footer ul {
+  clear: both;
+  margin: 0 0 20px;
+  padding: 0;
+  text-align: center;
+  list-style: none;
+}
+
+footer ul li.azul{
+  color: #1c5380;
+  
+}
+
+footer ul li {
+  color:#1c5380;
+  display: inline;
+  font-size: 12px;
+  font-weight: bold;
+  margin: 0 10px;
+  text-transform: uppercase;
+}
+
+footer ul li.gris{
+  color:#9c9c9c;
+  
+}
+
