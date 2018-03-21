@@ -71,8 +71,9 @@ header a {
   margin-right: 5px;
 }
 
-#house {
+.center {
   vertical-align: middle;
+  margin-top: 20px;
 }
 
 #text {
