@@ -60,13 +60,16 @@ footer{
 /* -- Section3 -- */
 .section-texto {
   background-image: url("../images/frame.png");
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
   float: left;
   position: relative;
   width: 40%;
   margin: 0% auto 0% 4%;
   padding-left: 6%;
   padding-top: 6%;
+  padding-right: 6%;
+  max-width: 1200px;
 }
 .section-texto img{
   margin-top: 10%;
