@@ -7,4 +7,135 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;
 }
+
+/* .top{
+  background-color: #1c5380;
+  width: 100%;
+  height: 250px;
+} */
+
+
+.veryTop{
+  height: 800px;
+}
+.phone{
+ float: left;
+ margin: 0 20px 0 0;
+}
+
+.position{
+ /* float: left; */
+ width: 60%;
+ margin: 5% 20% 0;
+}
+
+.headImgLeft{
+  width: 200px;
+  float: left;
+}
+
+.headImgRight{
+  width: 100px;
+  float: right;
+  background-color: #1c5380;
+  border: 1px solid #06365f;
+  color: white;
+  margin: 10px 0 0 0;
+}
+
+.midd{
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  text-align: left;
+  float: left;
+  width: 55%;
+  padding: 20px;
+}
+
+footer{
+  text-align: center;
+  color: #1c5380;
+}
+
+h2{
+  color: #06365f;
+}
+
+
+
+/* .phone{
+  position: fixed;
+  top: 130px;
+  left: 80px;
+  /* margin: 50px; */
+/* } */ */
+
+/* .position{
+  position: fixed;
+  left: 500px;
+  top: 130px;
+  width: 500px;
+  text-align: left; */
+  /* font-size: 15px; */
+/* } */
+
+/* button{ */
+  /* background-color: black; */
+  /* color: white; */
+  /* border-radius: 10px; */
+  /* padding: 0px;
+  margin: 0px; */
+  /* text-align: left; */
+}
+
+
+
+/* footer{ */
+/* float: left; */
+/* color: #1c5380;
+position: float;
+}
+
+h2{
+  color: #06365f;
+}
+
+.midd{ */
+  
+  /* background-image: url(/Users/mgad/code/labs/lab-css-instagram-clone/starter-code/images/frame.png); */
+  /* background-color: white; */
+  
+  /* font-size: 10px; */
+  /* text-align: left;  */
+  /* float: left;  */
+  /* width: 600px; */
+  /* height: 300px; */
+  /* margin: 20px, 40px, 20px 20px;  */
+  /* background-repeat: no-repeat;
+
+} */
+
+
+
+/* .headImgLeft{
+  width: 200px;
+  float: left;
+  /* margin: 50px, 60px, 30px, 200px; */
+}
+/* .headImgRight{
+  width: 100px;
+  float: right; */
+  /* border-radius: 10px; */
+  /* background-color: #1c5380;
+  border: 1px solid black;
+
+} */ */
+
+/* .container{
+  width: 150px;
+  text-align: left;
+
+} */
