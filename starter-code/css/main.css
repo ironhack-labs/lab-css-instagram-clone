@@ -7,4 +7,99 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  }
+header{
+  background-image: url("../images/bgtile.png");
+  width: 100%;
+  height: 200px;
+}
+.movil{
+
+  float: left;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  bottom: 100px;
+}
+.iphone{
+  text-align: center;
+}
+.cuadro{
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  float: left;
+  width: 466px;
+  margin: 0 auto;
+  text-align: left;
+  position: relative;
+  bottom: 100px;
+  padding: 30px;
+  font-family: 'Nunito', sans-serif;
+}
+
+.instagram{
+  float: left;
+  width: 50%;
+  margin: 0 auto;
+  display: inline-block;
+  position: relative;
+  left: 600px;
+  top: 30px;
+}
+.casa{
+  border: 1px solid black;
+  background-color: #06365f;
+  float: right;
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  position: relative;
+  right: 130px;
+  top: 45px;
+  border-radius: 5px;
+  width: 99px;
+  text-align: center;
+
+}
+.log{
+  color:white;
+  display:inline-block;
+  font-family: 'Nunito:400,800', sans-serif;
+}
+.market{
+  
+  float: left;
+  width:40%;
+  text-align: center;
+}
+.store{
+  
+  float: left;
+  width:40%;
+  text-align: center;
+}
+.android{
+  display: inline-block;
+}
+.manzana{
+  display: inline-block;
+}
+footer{
+  
+  float: left;
+  width:100%;
+  margin:0 auto;
+  text-align: center;
+  font-family: 'Acme', sans-serif;
+  color:#1c5380;
+}
+h1{
+  font-family: 'Nunito', sans-serif;
+  color:#06365f;
+}
+.copy{
+  display:inline-block;
+  color:grey;
 }
