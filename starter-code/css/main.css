@@ -7,4 +7,98 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url("../images/bgtile.png");
+  background-size: 50% 50vh;
+  background-repeat: repeat-x;
+
 }
+
+.principal-container {
+  margin: auto;
+  width: 70%;
+  margin: 5% 15%;
+}
+.container-1{ 
+width: 30%;
+margin: 0 auto;
+height: auto;
+float: left;7
+margin: 15%
+}
+.container-2 {
+  width: 50%;
+margin: 0 10%;
+height: auto;
+  float: left;
+}
+.container-3 {
+  margin: 0 auto;
+ /* float: left; */
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+padding: 5% 10%;
+}
+
+.h2 {
+  color: #06365f;
+}
+
+
+}
+.container-4 {
+  width: 100%;
+  margin: 0 auto;
+  height: 
+  float: left;
+
+}
+
+.brand {
+width: 35%;
+}
+
+.header {
+  width: 100%;
+}
+
+.button {
+  display: inline-block;
+  width: 90px;
+  color: white;
+  font-weight: bold;
+  text-decoration-line: none;
+  border-width: 2px;
+border-color: #06365f;
+border-style: solid;
+margin: auto 0px auto 50px;
+background-color: #1c5380;
+padding: 5px;
+  
+}
+
+
+.img {
+  vertical-align: middle;
+}
+
+.list{
+  color: #1c5380; 
+  list-style-type: none;
+}
+ul {
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.position{
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  font-size: 18px;
+color: red;
+}
+
