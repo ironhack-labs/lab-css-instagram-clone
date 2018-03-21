@@ -7,4 +7,86 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: linear-gradient(to bottom,#1c5380 0%,#1c5380 40%,white 40%,white 100%);
+  background-repeat: no-repeat;}
+
+#container{
+  width: 100%;
+  height: 800px
+}
+.section-right {
+  float: left;
+  height: 400px;
+  width: 50%;
+  margin: 50px 5% 50px 10px;
+}
+
+.section-left {
+  text-align: right;
+  float: left;
+  height: 400px;
+  width: 30%;
+  margin: 50px 10px 50px 5%;
+}
+
+h1{
+  word-wrap: normal 
+}
+
+.boxlogin {
+  border-color : grey;
+  text-color: grey;
+  background : blue;
+  border-radius : 5px;
+  margin : 10px;
+  width: 50px;
+  height: 30px;
+  box-shadow: 6px -6px 0px grey;
+}
+
+.house {
+  margin : 4px;
+  width: 5px;
+  height: 5px;
+}
+
+.boxtext {
+  width: 400px;
+  height: 320px;
+  background-color: antiquewhite;
+  padding : 5px;
+  box-shadow: 6px -6px 0px grey;
+  text-align: left;
+}
+
+.a{
+  font-style: bold;
+}
+.image{
+  margin: 30px 10px;
+}
+
+.link{
+  border : none;
+  background-color: none;
+}
+
+.span {
+  align : center;
+  display: inline;
+  text-decoration: none; 
+  text-transform : Uppercase;
+  text-color: rgba (12,12,250)
+}
+
+.grey{
+  display: inline;
+  text-align: center;
+  text-decoration: none; 
+  text-color:grey
+}
+
+.footer {
+  width: 100%;
+  float: center;
 }
