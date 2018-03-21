@@ -4,7 +4,138 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+* {
+  margin:0;
+  padding:0;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image:url("../images/bgtile.png");
+  background-repeat:repeat-x;
+}
+
+.globalWrap {
+  width:870px;
+  height:500px;
+  margin:100px auto 65px;
+  /*background: #f00;*/
+}
+
+.phonesImage {
+  display:block;
+  float: left;
+}
+
+.colDroite {
+  width:500px;
+  /* height: 500px; */
+  float: right;
+  /*background: #f00;*/
+  overflow: auto;
+}
+
+.loginBtn {
+  display: block;
+  float: left;
+  width:65px;
+  height: 35px;
+  background-image:url("../images/home.png");
+  border-radius: 5px;
+  background-color: #6d91af;
+  background-repeat: no-repeat;
+  background-position: 10px 10px;
+  color:#fff;
+  text-decoration: none;
+  font-weight: bold;
+  padding-left:50px;
+  padding-top:10px;
+  margin-top:10px;
+  box-shadow: 0px 0px 3px #052541;
+  text-shadow:  1px 1px 0px #021322;
+  margin-left: 65px;
+}
+
+.loginBtn:hover {
+  box-shadow: 0px 0px 12px #010911;
+}
+
+.clear {
+  clear: both;
+}
+
+.content {
+  width:100%;
+  /* height:300px; */
+  background-image:url("../images/frame.png");
+  background-repeat: no-repeat;
+  margin-top:20px;
+  box-sizing: border-box;
+  padding: 40px;
+}
+
+.title {
+  color: #06365f;
+  font-weight: bold;
+  font-size:26px;
+  line-height: 32px;
+  margin-bottom: 24px;
+}
+
+.parag {
+  margin-bottom:16px;
+  line-height: 23px;
+  text-align: justify;
+}
+
+.linksSection {
+  margin-top:36px;
+}
+
+.linkBtn {
+  float: left;
+  margin-right: 20px;
+}
+
+.footer {
+  margin:0 auto;
+  width:600px;
+  height: 60px;
+}
+
+.footerNav {
+  float: left;
+  height:20px;
+}
+
+.footerNav li {
+  float: left;
+  list-style: none;
+  margin-right: 17px;
+  height:20px;
+  line-height: 11px;
+}
+
+.footerNav li a {
+  text-decoration: none;
+  color:#1c5380;
+  text-transform: uppercase;
+  font-size:11px;
+  font-weight:bold;
+}
+
+.footerNav li a:hover {
+  /* color:#06365f; */
+  color:#000;
+}
+
+.copyright {
+  float:right;
+  font-size:11px;
+  color:#888;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  height:20px;
+  line-height: 14px;
 }
