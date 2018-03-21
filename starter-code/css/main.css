@@ -4,7 +4,106 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.container {
+  background: url('../images/bgtile.png') repeat-x;
+}
+
+.content {
+  width: 70%;
+  padding-top: 100px;
+  margin: 0 auto 50px auto;
+}
+ 
+.clearfix {
+  clear: both;
+}
+
+.col {
+  width: 50%;
+  float: left;
+}
+
+.header-presentation {
+  padding: 30px 0;
+  position: relative;
+}
+
+.header-presentation .logo {
+  float: left;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.header-presentation .logo img {
+  vertical-align: middle;
+}
+
+.header-presentation .login {
+  float: right;
+}
+
+.header-presentation .login button {
+  background: #1c5380;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+.header-presentation .login button::before {
+  content: "";
+  background-image: url('../images/home.png');
+  background-size: cover;
+  padding-right: 20px;
+  margin-right: 5px;
+}
+
+.intro-presentation {
+  background: url('../images/frame.png') no-repeat;
+  padding: 30px 30px 0 30px;
+  margin-bottom: 30px;
+}
+
+.intro-presentation h1 {
+  color: #06365f;
+}
+
+.intro-presentation p {
+  margin-bottom: 10px;
+}
+
+.badge-iphone,
+.badge-android {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.nav li {
+  list-style-type: none;
+  display: inline-block;
+  color: #666;
+  text-transform: uppercase;
+}
+
+.nav li a {
+  color: #1c5380;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-right: 10px;
 }
