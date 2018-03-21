@@ -46,7 +46,7 @@ h2 {
 
 
 button {
-  display: inline-block;
+  /*display: inline-block;*/
   float: right;
   background-color: #5982a4;
   width: 20%;
@@ -89,6 +89,7 @@ button p {
     margin: 0 auto;
     position: relative;
     top: 60px;
+    left: 25%;
   }
   
   ul {
