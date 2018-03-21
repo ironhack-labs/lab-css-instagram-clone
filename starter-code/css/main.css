@@ -1,10 +1,68 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.emcabezado {
+  width: 1450px; 
+  height: 320px;
+  background-size: 25px 50px;
+  background-image: url();
+}
+.phone {
+  position: absolute;
+  margin: -170px 0px 1000px 270px;
+  width: 320px; 
+  height: 510px;
+  background-image: url("/Users/davidmolina814/IRONHACK-BOOTCAMP/Semana 1/Day 2/lab-css-instagram-clone/starter-code/images/phones.png");
+}
+.logoInstagram {
+  position:absolute;
+  margin: -184px 0px 1000px 640px;
+  width: 314px; 
+  height: 80px;
+  background-image: url("/Users/davidmolina814/IRONHACK-BOOTCAMP/Semana 1/Day 2/lab-css-instagram-clone/starter-code/images/brand.png")
+}
+.logIn {
+  position:absolute;
+  margin: -160px 0px 1000px 1020px;
+  width: 25px; 
+  height: 20px;
+  background-image: url("/Users/davidmolina814/IRONHACK-BOOTCAMP/Semana 1/Day 2/lab-css-instagram-clone/starter-code/images/home.png")
+}
+.button {
+  width:100px; 
+  height:100px;
+  margin: -5px 0px 10px 40px;
+}
+.fondoWhite {
+position:absolute;
+  margin: -110px 0px 1000px 620px;
+  width: 500px; 
+  height: 200px;
+  background-image: url("/Users/davidmolina814/IRONHACK-BOOTCAMP/Semana 1/Day 2/lab-css-instagram-clone/starter-code/images/frame.png")
+}
+h1 {
+color: darkblue;
+font-size:20px;
+margin: 30px;
+}
+p {
+font-size:20px;
+margin: 30px;
+}
+.appStore {
+  position:absolute;
+    margin: 300px 0px 1000px 650px;
+    width: 165px; 
+    height: 52px;
+    background-image: url("/Users/davidmolina814/IRONHACK-BOOTCAMP/Semana 1/Day 2/lab-css-instagram-clone/starter-code/images/badge-iphone.png")
+  }
+  .playStore {
+    position:absolute;
+      margin: 300px 0px 1000px 840px;
+      width: 153px; 
+      height: 52px;
+      background-image: url("/Users/davidmolina814/IRONHACK-BOOTCAMP/Semana 1/Day 2/lab-css-instagram-clone/starter-code/images/badge-android.png")
+    }
