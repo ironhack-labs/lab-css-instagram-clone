@@ -14,11 +14,18 @@ body {
 
 
 .left-box {
+  width: 100%;
+  position: static;
+  box-sizing: border-box;
+  float: left;
 
 }
 
 .right-box{
-  
+  width: 100%;
+  position: relative;
+  float: left;
+
 }
 
 
@@ -40,5 +47,22 @@ ul {
 .nav-bar {
   color: #06365f;
   text-decoration: none;
+  font-size: 10px;
+  text-transform: uppercase;
+  text-align: center;
+  width: 1200px;
+  margin: 0 auto;
+  padding: 75px 0;
+
+}
+
+.nav-bar-li {
+  color: #06365f;
+  text-decoration: none;
+  position: relative;
+}
+
+.col { 
+  float: left; 
 }
 
