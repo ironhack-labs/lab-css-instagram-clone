@@ -1,3 +1,6 @@
+ /*Aquí un pequeño ajuste - como no tenemos derechos de Helvetica, usamos la más próxima de Arimo*/
+@import url('https://fonts.googleapis.com/css?family=Arimo:400,700');
+
 /*
 Colors to use:
 dark blue: #06365f
@@ -5,6 +8,118 @@ light blue: #1c5380
 */
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /*Aquí un pequeño ajuste - como no tenemos derechos de Helvetica, usamos la más próxima de Arimo*/
+  font: 200 16px/1.5 "Arimo:300", Arial, sans-serif;
+  /*majestuoso fondo este que nos funciona mejor que un gradiente*/
+  background-image:url('../images/bgtile.png');
+  background-repeat: repeat-x;
   margin: 0;
+  box-sizing:border-box;
+}
+/*Soluciones generales*/
+.center{
+  margin: auto;
+}
+#main, footer{
+  /*Mismo width para el footer y main*/
+  width: 920px;
+  /* Overflow auto para marcar mejor nuestro main en Dev tools*/
+  overflow: auto;
+}
+#main{
+  margin-top: 5%;
+}
+/* ----- Parte de HEADER ------ */ 
+header{
+  overflow:auto;
+  z-index: 98;
+  /*Por hartura de responsive en este caso decidí hacer el width de article y header fijo*/
+  width: 500px;
+  margin-left: 50px;
+}
+/*Aquí solucionamos el espacio entre botón y imagen de marca*/
+#brand-name{
+  float:left;
+}
+#log-in{
+  float:right;
+}
+button{
+  background: linear-gradient(#487399, #7899b7);
+  color:white;
+  border: none;
+  border-radius: 2px;
+  padding: 5px;
+  margin: 30% 5px 0 0;
+  font-weight: 700;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75); 
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+/*Alineación del imagen con el texto*/
+button > img{
+  vertical-align: middle;
+}
+/*Solución para espacio entre texto y la imagen en botón*/
+button > span{
+  margin-left: 5px;
+}
+/*--------- CENTRO (aside, article) -----*/
+aside, article, header{
+  float:left;
+}
+aside{
+  width: 320px;
+}
+article{
+  width:500px;
+  background: url('../images/frame.png') no-repeat;
+  margin-left: 50px;
+}
+article section{
+  background:white;
+  width: 80%;
+  border-radius:5px;
+}
+article img{
+  margin-right:15px;
+}
+article div{
+  background:white;
+  width: 97%; /*este div lo necesitamos para cubrir la transparencia del fondo fea*/
+  margin-left: 2%;
+}
+h2{
+  color: #06365f;
+  font-weight: 700;
+  width: 70%;
+}
+/* -------- FOOTER ---------*/
+footer p{
+  color: grey;
+}
+footer li{
+  color: #1c5380;
+  text-transform: uppercase;
+  font-size:0.8em;
+}
+footer ul{
+  list-style-type:none;
+}
+footer li{
+  display:inline-block;
+  font-weight: 700;
+  margin: 0 5px;
+}
+footer{
+  position:absolute;
+  bottom:0;
+  left: 20%;
+}
+/* Agrupación de la lista y el párrafo en footer*/ 
+footer > div > * {
+  display: inline-block;
+}
+footer > div{
+  width: 80%;
 }
