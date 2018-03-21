@@ -72,14 +72,12 @@ body {
  }
 
 .final {
-  margin-left: 250px;
-  margin-top: 50px;
+  text-align: center;
+  margin-top: 70px;
 }
 .top-links {
-  display: inline-block;
   padding: 0;
   text-transform: uppercase;
-  margin: 0 auto;
 }
 .top-links li {
   display: inline-block;
