@@ -5,6 +5,132 @@ light blue: #1c5380
 */
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   margin: 0;
+}
+
+.blue-background {
+  position: absolute;
+  background-image: url("../images/bgtile.png");
+  height: 280px;
+  width: 100%;
+  z-index: -1;
+}
+
+
+/************************************************************
+    MAIN CONTENT WRAP
+************************************************************/
+
+.content-wrapper {
+  width: 65%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto 50px;;
+  padding: 100px 0 0 0;
+}
+
+
+
+/************************************************************
+    HEADER
+************************************************************/
+
+header {
+  display: flex;
+  height: 78px;
+  width: 500px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 0 25px 0;
+}
+
+.home-button {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90px;
+  height: 40px;
+  background: linear-gradient(to bottom, rgb(173, 204, 230), #1c5380);
+  justify-content: space-around;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 5px;
+  border: 2px solid #1c5380;
+  border-radius: 3px;
+}
+
+.home-button img {
+  height: 22px;
+  width: 25px;
+}
+
+.home-button p {
+  color: white;
+  font-size: 0.8em;
+}
+
+.phones {
+  width: 318px;
+  height: 512px;
+}
+
+
+
+/************************************************************
+    CONTENT SECTION
+************************************************************/
+
+section {
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  width: 504px;
+  box-sizing: border-box;
+  padding: 40px;
+}
+
+h1 {
+  margin: 0;
+  color: #06365f;
+  font-weight: bolder;
+  font-size: 1.8em;
+}
+
+p {
+  color: #444;
+  font-size: 0.9em;
+}
+
+bold {
+  font-weight: bold;
+}
+
+section img {
+  margin: 42px 0 0 0;
+}
+
+
+
+/************************************************************
+    FOOTER
+************************************************************/
+
+footer {
+  width: 40%;
+  margin: 0 auto;
+  font-size: 0.7em;
+  text-transform: uppercase;
+  color: #1c5380;
+  font-weight: bold;
+}
+
+footer ul {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+  margin: 0 0 50px 0;
+  justify-content: space-between;
+}
+
+footer ul li:last-child {
+  color: #666;
 }
