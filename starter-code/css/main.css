@@ -8,3 +8,104 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+
+.head{
+  height: 300px;
+  background: -webkit-linear-gradient(top, #258dc8 0%,#258dc8 4%,#258dc8 13%,#258dc8 13%,#258dc8 15%,#258dc8 15%,#258dc8 20%,#2070ad 69%); /* Chrome10-25,Safari5.1-6 */
+}
+
+
+.container{
+  display: flex;
+  justify-content: center;
+  margin: -25vh;
+}
+
+section header{
+  display: flex;
+  justify-content: space-between;
+}
+
+section header div{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 120px;
+  margin-top: 2%;
+  border-radius: 5px;
+  border: 2px solid #1c5380;
+  height: 100%;
+  background: -webkit-linear-gradient(top, #258dc8 0%,#258dc8 4%,#258dc8 13%,#258dc8 13%,#258dc8 15%,#258dc8 15%,#258dc8 20%,#2070ad 69%); /* Chrome10-25,Safari5.1-6 */
+}
+
+section header div img{
+  height: 30px;
+}
+
+section header div p{
+  color: white;
+  font-weight: bold;
+  
+}
+
+.right{
+  margin-left: 4vw;
+}
+
+.frame{
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  max-width: 500px;
+  margin-bottom: 30px;
+  margin-top: -30px;
+}
+
+.frame p{
+  margin: 0 50px;
+}
+
+.frame h1{
+  padding-top: 40px;
+  margin-left: 50px;
+  margin-right: 50px;
+  color: #1c5380;
+  font-size: 30px;
+}
+
+.iphone{
+  margin-left: 50px;
+  margin-right: 10px;
+}
+
+
+.footer{
+  margin-top: 35vh;
+  margin-bottom: 10vh;
+}
+
+.buttons{
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 21vw;
+  margin-right: 21vw;
+}
+
+.buttons li{
+  list-style: none;
+}
+
+.buttons a{
+  text-decoration: none;
+  color: #1e65a0;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#special{
+  color: rgba(150, 150, 150, 0.7)
+}
+
+
+
+
