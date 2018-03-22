@@ -8,3 +8,109 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.main {
+  position: relative;
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+  width: 100%;
+  padding: 15vh 0 1vh 0;
+}
+
+.wrapper-column {
+  position: relative;
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.phone-column {
+  position: relative;
+  width: 49%;
+  float: left;
+  text-align: right;
+  padding-right: 100px;
+  box-sizing: border-box;
+}
+
+.content-column {
+  box-sizing: border-box;
+  position: relative;
+  width: 49%;
+  float: left;
+  text-align: left;
+}
+
+.button {
+  position: relative;
+  float: right;
+  background-color: #6B91AE;
+  padding: 10px;
+  border-radius: 3px;
+  margin: 1vh 1vh;
+}
+
+.button a {
+  text-decoration: none;
+}
+
+.button img {
+  vertical-align: middle;
+}
+
+.login {
+  color: white;
+  text-decoration: none;
+}
+
+.content-links {
+  padding-bottom: 0;
+}
+
+.content-text {
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 0;
+  padding: 15px;
+}
+
+.content-text h1 {
+  color: #0C3C5D;
+  font-size: 2em;
+}
+
+.content-markets {
+  text-align: center;
+}
+
+.content-markets img {
+  margin-right: 40px;
+}
+
+.clear-fix {
+  clear: both;
+}
+
+.footer {
+position: relative;
+padding: 0 10%;
+text-align: center;
+}
+
+.footer ul {
+  list-style-type: none;
+}
+
+.footer ul li {
+  text-transform: uppercase;
+  color: #6D91AD;
+  font-weight: bold;
+  margin: 5px;
+  display: inline-block;
+}
+
+.copy {
+  color: grey;
+  text-transform: none;
+}
