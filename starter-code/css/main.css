@@ -1,10 +1,121 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
-
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+.title{
+  font-family: Billabong;
+  float: left;
+}
+
+.topSection{
+  width: 400px;
+  height: 100px;
+  color: white;
+  position: relative;
+  bottom: 480px;
+  left: 420px;
+}
+
+.instagramLogo{
+  width: 60%;
+  height: auto;
+  float: left;
+  margin: 5% 0 0 0;
+  padding: 0;
+}
+
+.signInButton{
+  background-image: url("https://cdn4.iconfinder.com/data/icons/pictype-free-vector-icons/16/home-512.png");
+  background: linear-gradient(#6488A3, #457294);
+  width: 100px;
+  height: 40px;
+  float: right;
+  margin: 25px 0 0 0;
+  padding: 0 10px 0 0;
+  border-radius: 3px;
+  border: 0;
+  text-align: right;
+  color: white;
+  font-weight: bold;
+}
+
+.phoneImage{
+  width: 300px;
+  height: auto;
+  margin: -60% 0 0 30%;
+  float: left;
+}
+
+.phoneSection{
+  float: left;
+}
+
+.textSection{
+  width: 400px;
+  background-color: white;
+  border: 0;
+  float: left;
+  margin: -450px 0 0 180px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 8px lightgray;
+}
+
+.blueBackground{
+  background: linear-gradient(#557D9D, #386182);
+  width: 100%;
+  height: 300px;
+}
+
+.footer{
+  clear: both;
+}
+
+.bottomTitle{
+  width: 300px;
+  margin: 0;
+  padding: 0;
+  color: #14335C;
+  font-weight: bolder;
+} 
+
+.googlePlay{
+  width: 40%;
+  height: auto;
+  float: left;
+  padding: 0 0 20px 0;
+}
+
+.appStore{
+  width: 35%;
+  height: auto;
+  float: left;
+  margin: 8px 0 0 15px;
+}
+
+.bottomButtons{
+  margin: 0 0 0 50px;
+}
+
+p{
+  font-weight: 200;
+}
+
+.container{
+  width: 1000px;
+  height: auto;
+  overflow-x: hidden;
+}
+
+.footer{
+  position: relative;
+  bottom: 50px;
+  left: 150px;
+}
+
+.footer a{
+  text-decoration: none;
+  color: #6087DD;
+  margin: 0 5px;
 }
