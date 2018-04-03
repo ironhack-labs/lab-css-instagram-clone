@@ -4,7 +4,112 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+/* background: url("YOUR-LINK.COM")
+list-style
+text-decoration
+text-transform */
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  margin: 0 0 0 0;
+}
+
+.header {
+  width: 100%;
+  height: 275px;
+  background-color: #1c5380;
+  margin: 0 auto;
+  position: absolute;
+}
+
+.phones {
+  position: relative;
+  top: 100px;
+  padding-left: 100px;
+  float: left;
+}
+
+.rightContent {
+  position: relative;
+  top: 100px;
+  float: left;
+  width: 500px;
+  padding-left: 50px;
+}
+
+.logo {
+  width: 60%;
+}
+
+.login {
+  padding: 15px 15px;
+  border: 1px solid #06365f;
+  border-radius: 5px;
+  display: inline-block;
+  font-size: 16px;
+  background-color: #6D91AF;
+  float: right;
+  margin-left: 20px;
+  color: white;
+  font-weight: 500;
+}
+/* 
+.login p {
+  color: white;
+  position: relative;
+  float: left;
+} */
+
+.homeIcon {
+  position: relative;
+  float: left;
+  vertical-align: baseline;
+  padding-right: 10px;
+}
+
+.mainContent {
+  background: url("../images/frame.png");
+  background-repeat: no-repeat;
+  width: 500px;
+  padding: 20px 50px 20px 50px;
+  position: relative;
+  top: 15px;
+}
+
+.mainContent h2 {
+  width: 400px
+}
+
+h2 {
+  color: #06365f;
+}
+
+.mainContent p {
+  width: 400px
+}
+
+.download {
+  padding-top: 20px;
+}
+
+.footer {
+  clear: both;
+  position: relative;
+  top: 200px;
+  margin: auto;
+  text-align: center;
+  text-transform: uppercase;
+  color: #999;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.footer a {
+  text-transform: uppercase;
+  color: #1c5380;
+  text-decoration: none;
+  font-weight: 600;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: relative;
 }
