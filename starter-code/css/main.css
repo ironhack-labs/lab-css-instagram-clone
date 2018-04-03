@@ -5,6 +5,109 @@ light blue: #1c5380
 */
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+	font: 300 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin: 0;
 }
+
+/* .background-img { 
+	background: url("images/bgtile.png");
+	background-repeat: repeat-x;
+	height: 100px;
+	background-size: cover;
+} */
+
+.background-img {
+	height: 18em; 
+	background-image: url("../images/bgtile.png");
+	background-repeat: repeat-x;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+	padding-top: 8.5%;
+}
+
+.main-content {
+	margin-left: 43%;
+
+}
+
+.logo-and-login {
+	
+}
+
+.brand-desc {
+	background-image: url("../images/frame.png");
+	background-repeat: no-repeat;
+	height: 30em;
+	margin-top: 5.5%;
+}
+
+.brand-desc-text {
+	padding-top: 2%;
+	padding-left: 8%;
+	padding-right: 8%;
+}
+
+.app-links {
+	display: inline-flex;
+}
+
+.phones {
+	float: left;
+	
+}
+
+.logo {
+	float: left;
+}
+
+.login {
+	float: right;
+
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #1c5380);
+  background-image: -moz-linear-gradient(top, #3498db, #1c5380);
+  background-image: -ms-linear-gradient(top, #3498db, #1c5380);
+  background-image: -o-linear-gradient(top, #3498db, #1c5380);
+  background-image: linear-gradient(to bottom, #3498db, #1c5380);
+  /* -webkit-border-radius: 4;
+  -moz-border-radius: 4; */
+  border-radius: 4px;
+  color: #ffffff;
+  font-size: 1em;
+  padding: 3px;
+  border: solid #1f628d 1px;
+	text-decoration: none;
+	display: inline-flex;
+}
+
+
+.clearfloats{
+	clear: right;
+}
+
+h1 {
+	color: #06365f;
+}
+
+footer {
+	font-size: 1em;
+	font-weight: 500;
+	color: #1c5380;
+}
+
+footer a:link {
+	color: #1c5380;
+	text-decoration: none;
+}
+
+footer a:visited {
+	text-decoration: none;
+	color: #1c5380;
+}
+
+/* .main-frame {
+	/* float: left;
+} */
