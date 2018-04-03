@@ -8,3 +8,91 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+
+.logo{
+
+  background-color: #4881ab; 
+  height: 200px;
+  /* text-align: right; */
+  
+  font-family: Billabong;
+ 
+}
+
+
+
+.logo span {
+  position: relative;
+  top:20px;
+  right: 240px;  
+  margin-left: 900px;
+  font-size: 20px;
+}
+
+.logo2  {
+  background-color: #4881ab;
+  position: absolute;
+  top:45px;
+  right: 300px;  
+  margin-left: 900px;
+  font-size: 20px;
+}
+
+.logo2 log{
+  background-color: #4881ab;
+
+}
+
+
+
+  
+
+
+.footer{
+
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  
+  text-align: center;
+}
+
+.img{
+
+  position: relative;
+  left: 70px;
+  bottom: 60px;
+  float: left;
+
+
+}
+
+.content{
+    float: right; 
+    background-image: url("images/frames");
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    border: 25px solid white;
+    border-radius: 12px;
+    padding: 25px;
+    margin-left: 605px;
+    margin-bottom: 00px;
+    position: fixed;
+    left: 60px;
+    bottom: 150px;
+
+}
+
+.social{
+
+    position: absolute;
+    bottom: 100px;
+    right: 350px;
+}
+
+
+
+
