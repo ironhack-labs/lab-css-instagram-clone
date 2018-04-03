@@ -8,3 +8,43 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.head{
+  background-color:#43719A;
+  height: 350px;
+  position:relative;
+
+
+
+}
+
+.head button{
+  font-weight: bold;
+  background-color: #49769F;
+  height: 40px;
+  color:#E2EAF0;
+  width:100px;
+  border: 1px solid #03335E;
+  padding-bottom:20px;
+  text-align: right;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  position: absolute;
+  top: 100px;
+  right:100px;
+  box-shadow: 5px 10px;
+
+  
+}
+#logo{
+  position: absolute;
+  top: 170px;
+  right: 320px;
+}
+
+#cuadrado{
+  position: absolute;
+  bottom: -200px;
+  right: 130px;
+}
