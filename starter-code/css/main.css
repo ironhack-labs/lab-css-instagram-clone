@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
 /*
 Colors to use:
 dark blue: #06365f
@@ -6,5 +7,121 @@ light blue: #1c5380
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0 auto;
+  width: 100%;
+  background-color: white;
+}
+
+.blue {
+  background: radial-gradient( hsl(207, 46%, 42%),#1c5380);
+  width: 100%;
+  margin: 0 auto;
+  height: 40vh;
+  position: absolute;
+}
+
+.phone {
+  padding-top: 14vh;
+  padding-left: 40vh;
   margin: 0;
+ float: left;
+}
+
+.info {
+  margin: 0;
+  width: 600px; 
+  float: left;
+}
+
+#brand_login{
+  padding-top: 20vh;
+  padding-left: 75px;
+  padding-bottom: 20px;
+  width: 600px;
+  margin: 0;
+}
+
+.float {
+  background-image: url("../images/frame.png");
+  background-size: auto;
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 600px;
+  margin: 10px 75px;
+  padding: 20px 40px;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+h1 {
+  font-size: 24px;
+  color: #06365f;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+}
+
+.logo{
+  float: left;
+}
+
+.login-home{
+  display: inline-block;
+  margin: 0px 0px 0px 80px;
+  padding: 22px 10px 0px 0px;
+}
+
+button {
+  width: 100px;
+  background: linear-gradient( #6D90AD, #32648C);
+  border: 1px #1c5380 solid;
+  border-radius: 3px;
+}
+
+.home {
+  padding: 5px;
+  margin-right: 0px;
+  float:left;
+}
+
+.login {
+  padding-left: 5px;
+  margin-bottom: 5px;
+  float: left;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  
+}
+
+footer {
+  clear: both;
+  text-align: center;
+}
+
+.apple {
+  float: left;
+  padding-top: 35px;
+}
+
+.android {
+  float: left;
+  padding: 35px 20px;
+}
+
+.badge {
+  padding-top: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: #1c5380;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 12px;
+  padding: 0px 5px 100px 5px;
+  margin-bottom: 20px;
 }
