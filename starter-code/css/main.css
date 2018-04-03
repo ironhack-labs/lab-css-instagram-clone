@@ -48,7 +48,7 @@ h1{
 
 nav ul li{
 	display:;
-	float:left;
+	float:right;
 	position:absolute;
 	bottom:-200px;
 }
@@ -62,5 +62,6 @@ nav ul li{
 }
 
 button{
-	border-radius: 5px;
+	border-radius: 10px;
+
 }
