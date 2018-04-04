@@ -4,7 +4,64 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+.blue-background{
+  width:100%;
+  height: 250px;
+  background-color:#647fa8;
+  float:left;
+}
+.white-background{
+  width:100%;
+  height:950px;
+  background-color: white;
+}
+
+
+.iphone-floater{
+  position:absolute;
+  top: 100px;
+  left:150px;
+}
+
+.insta-box{
+  width:450px;
+  height:500px;
+  padding:5px 20px;
+  margin: 5px 20px;
+  position:absolute;
+  top: 100px;
+  right:150px;
+}
+.instagram-backgroundColor{
+  width:350px;
+  height:200px;
+  background-color:#647fa8;
+  padding:5px 50px;
+  margin: 5px 20px;
+}
+.home-button{
+  float:right;
+}
+
+h1{
+  color:#3b6099;
+  
+}
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+.white-bg {
+  background-color:white;
+  width:450px;
+  padding:5px 50px;
+  margin: 5px 0px;
+  border-radius:1%;
+}
+footer {
+  text-align:center;
+  clear:both;
+  position:absolute;
+  top:800px;
+  right:400px;
 }
