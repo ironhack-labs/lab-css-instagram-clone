@@ -1,3 +1,5 @@
+
+
 /*
 Colors to use:
 dark blue: #06365f
@@ -7,4 +9,91 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: url("../images/bgtile.png") repeat-x;
+  box-sizing: border-box;
 }
+
+h3{
+  font-size: 21px;
+  line-height: 27px;
+  font-weight: 500;
+  margin: 15px 0 12px;
+  color: #06365f;
+}
+h1{
+  float: left;
+}
+.home-btn{
+  position: relative;
+  top: 29px;
+  right: 5px;
+  color: #fff;
+  font-size: 13px;
+  text-shadow: 0px 1px #182f42;
+  font-weight: 400;
+  text-decoration: none;
+  padding: 10px 10px 10px 40px;
+  border-radius: 2px;
+  border: 1px solid #42627b;
+  box-shadow: 0px 0px 1px 0 rgba(0, 0, 0, 0.3686274509803922);
+  background: #799cb9;
+  background: -moz-linear-gradient(top, #799cb9 0%, #426e90 100%);
+  background: -webkit-linear-gradient(top, #799cb9 0%,#426e90 100%);
+  background: linear-gradient(to bottom, #799cb9 0%,#426e90 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#799cb9', endColorstr='#426e90',GradientType=0 );
+  float: right;
+}
+
+.home-btn:before{
+  content: '';
+  height: 30px;
+  width: 38px;
+  background: url(../images/home.png) no-repeat;
+  background-position: bottom;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+#content_wrapper {
+  width: 870px;
+  box-sizing: border-box;
+  margin: 80px auto 40px;
+}
+#content_wrapper section:first-child {
+  text-align: center;
+  width: 45%;
+  margin-left: 5%;
+}
+
+#content_wrapper section{
+  box-sizing: border-box;
+  width: 50%;
+  float: left;
+}
+.content-frame{
+  background: url(../images/frame.png) no-repeat;
+  background-size: 100%;
+  padding: 20px 40px;
+}
+.content-frame .badges{
+  margin-top: 30px;
+}
+.content-frame p {
+  font-size: 13px;
+  font-weight: 400;
+  color: #484848;
+}
+.footer {
+  clear: both;
+  font-size: 10px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #bbbbbb;
+  text-align: center;
+  padding-top: 70px;
+}
+.footer li{
+  display: inline-block;
+  padding:0 10px;
+}
+.footer a{color:#1c5380;  text-decoration: none;}
