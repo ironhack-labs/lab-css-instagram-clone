@@ -115,9 +115,9 @@ body {
 
 
 .head #celulares{
-  position: relative;
+  position: absolute;
   top: 145px;
-  right: -250px;
+  right: 676px;
 
 }
 
