@@ -8,3 +8,61 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.background-color{
+  height: 375px;
+  background-color: #557495;
+
+}
+
+.phones{
+  float: left;
+  margin-top: -200px;
+  padding-left: 300px;
+}
+
+.main{
+  float: right;
+  width: 50%;
+  margin-top: -200px;
+  padding-right: 50px;
+}
+.main button{
+  float: right;
+  margin: -63px 242px;
+  padding: 8px 10px;
+  background-color: #426284;
+  color: #D9DEE5;
+  border: 10px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+.main button div{
+  float: right;
+  padding: 5px 3px 0 8px;
+}
+
+.explain{
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  
+}
+.explain div{
+  width: 400px;
+  padding: 20px 10px 10px 60px;
+}
+.explain h1{
+  color: #1C385A;
+}
+
+.app-store{
+  padding-left: 55px;
+}
+
+
+footer{
+  clear: both;
+  padding: 100px 0 0 375px;
+}
+footer a{
+  padding: 0 10px 0 20px
+}
