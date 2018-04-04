@@ -8,3 +8,101 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.firstDiv {
+  width: 1440px;
+  height: 335px;
+  background-color: #1c5380;
+  margin: 0px;
+}
+
+.positionPrimerDiv {
+  position: relative;
+}
+
+
+.imageInsta {
+  padding-left: 700px;
+  padding-top: 180px;
+  position: absolute;
+}
+
+.logIn {
+  border: 2px solid #3b78aa;
+  background-color: #3b78aa;
+  margin-left: 1100px;
+  margin-top: 195px;
+  position: absolute;
+  color: white;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 3.5px;
+  box-shadow: 1px 1px #013560;
+}
+
+
+.imageHome {
+  vertical-align: middle;
+}
+
+.imagePhones {
+  position: absolute;
+  margin-left: 200px;
+  margin-top: 180px;
+}
+
+.textFlotant {
+  width: 400px;
+  height: 220px;
+  padding: 60px;
+position: absolute;
+margin-top: -40px;
+margin-left: 690px;
+border: .4px solid #ccced1;
+background: white;
+border-radius: 3.5px;
+}
+
+.headerTextFlotant {
+  color: #06365f;
+  font-size: 26px;
+  margin-top: -40px;
+  margin-left: -20px;
+  font-weight: bolder;
+}
+
+
+p {
+  text-align: left;
+  margin-left: -20px;
+}
+
+.iphone {
+
+  position: absolute;
+  margin-left: 760px;
+  margin-top: 340px;
+
+}
+
+.android {
+
+  position: absolute;
+  margin-left: 972px;
+  margin-top: 340px;
+
+}
+
+.lastClass {
+  position: absolute;
+  margin-top: 450px;
+  margin-left: 468px;
+  color: #06365f;
+  font-weight: bolder;
+}
+
+.lastClass a {
+  text-decoration-line: none;
+  color: #06365f;
+  font-weight: bolder;
+}
