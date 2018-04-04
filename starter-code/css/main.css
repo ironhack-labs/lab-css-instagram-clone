@@ -46,11 +46,17 @@ h1{
 	color:#2b496e;
 }
 
-nav ul li{
-	display:;
-	float:right;
+nav ul {
 	position:absolute;
 	bottom:-200px;
+	left:300px;
+}
+nav ul li{
+	float:left;
+	margin-right: 20px;
+	list-style-type: none;
+	color:#1c5380;
+	font-weight: bolder;
 }
 
 .botones{
@@ -62,6 +68,30 @@ nav ul li{
 }
 
 button{
-	border-radius: 10px;
+	border-radius: 3px;
+	background-color: #6a8cb0;
+	color:white;
+	border: 2px solid #1c5380;
+	padding:10px 2px;
+	width:110px;
+	position:absolute;
+	top: 15px;
+	left:380px;
+	box-shadow: 1px;
+}
 
+
+
+.middle{
+	vertical-align: middle;
+}
+
+.log{
+	margin-left: 6px;
+	font-weight: bolder;
+	font-size: 13px;
+}
+.brand{
+	color:#999;
+	font-weight: bold;
 }
