@@ -8,3 +8,40 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.header {
+    width: 1500px;
+    height: 300px;
+    display: block;
+    background-color:#1c5380
+    
+
+}
+
+.container {
+background-image: url("../images/frame.png");
+background-repeat:no-repeat;
+background-size: 700px;
+  float: right;
+  height:350px;
+  top: 250px;
+  margin: 10px 10px 10px 10px;
+  margin-top: -55px;
+  padding:0;
+  width: 700px;
+border-radius: 12px;
+}
+
+.insta{
+  margin-top: -700px;
+}
+
+.phones {
+  float: right;
+  margin-top: -55px;
+}
+
+
+nav {
+  clear: both;
+}
