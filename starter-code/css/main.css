@@ -1,10 +1,47 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
-
-body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+body{
+  height:780px;
+  width:1080px;
 }
+
+
+header{
+  position: relative;
+  background-color:#1c5380;
+  height:320px;
+  width:1280px;
+} 
+
+section img{
+  position:absolute;
+  left:180px;
+  top:80px;
+}
+
+aside img{
+  position:absolute;
+  top:260px;
+  left:580px;
+}
+article img{
+  position:absolute;
+    top:150px;
+    left:580px;
+  }
+
+  h3{
+    position:absolute;
+    font-size:26px;
+    font-family:arial;
+    top:250px;
+    left:620px;
+    color: #06365f;
+    width:320px;
+}
+
+  p{
+    position:relative;
+    left:600px;
+    width:400px;
+  }
+
+  
