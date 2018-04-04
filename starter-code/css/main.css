@@ -20,20 +20,21 @@ body {
 
 .head button{
   font-weight: bold;
-  background-color: #49769F;
-  height: 40px;
-  color:#E2EAF0;
-  width:100px;
-  border: 1px solid #03335E;
-  padding-bottom:20px;
-  text-align: right;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 10px;
-  position: absolute;
-  top: 100px;
-  right:100px;
-  box-shadow: 5px 10px;
+    background-color: #49769F;
+    height: 37px;
+    color: #E2EAF0;
+    width: 85px;
+    border: 1px solid #03335E;
+    border-radius: 5px;
+    padding-bottom: 3px;
+    text-align: right;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    position: absolute;
+    top: 187px;
+    right: 138px;
+    box-shadow: 1px 1px  #03335E;
 
   
 }
@@ -47,4 +48,115 @@ body {
   position: absolute;
   bottom: -200px;
   right: 130px;
+}
+
+#apple{
+  position: absolute;
+  top: 600px;
+  left: 643px;
+
+}
+
+#android{
+  position: absolute;
+  top: 600px;
+  left: 836px;
+}
+
+.head h3{
+  position: absolute;
+  top: 276px;
+  left: 643px;
+  height: 80px;
+  width: 269px;
+  color: #013560;
+  font-size: 26px;
+}
+
+.head p{
+  font-size: 16px;
+}
+
+.head p span{
+  font-weight: bold;
+  color: black;
+}
+
+#p1{
+  position: absolute;
+  top: 380px;
+  left: 643px;
+  height: 80px;
+  width: 413px;
+  color: #013560;
+
+}
+
+#p2{
+  position: absolute;
+  top: 438px;
+  left: 643px;
+  height: 80px;
+  width: 413px;
+  color: #013560;
+
+}
+
+#p3{
+  position: absolute;
+  top: 547px;
+  left: 643px;
+  height: 80px;
+  width: 413px;
+  color: #013560;
+
+}
+
+#celulares{
+  position: relative;
+  top: 145px;
+  left: 160px;
+
+}
+
+#casita{
+  position: absolute;
+  top: 7px;
+  left: 8px;
+}
+
+.cuadro{
+height: 450px;
+}
+
+
+
+.div{
+
+  position: absolute;
+  top: 800px;
+  left: 200px;
+  height: 80px;
+  width: 600px;
+  color: #013560;
+  word-spacing: 20px;
+  margin-left: 100px;
+
+
+}
+
+.div a {
+  color: #4E7DA5;
+  text-decoration: none;
+  font-weight: bold;
+
+}
+#ultimo{
+  position: absolute;
+  top: 800px;
+  left: 886px;
+  height: 80px;
+  width: 413px;
+  color: #C5C6C7;
+  font-weight: bold;
 }
