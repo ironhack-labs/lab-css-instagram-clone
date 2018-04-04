@@ -44,29 +44,29 @@ body {
   right: 320px;
 }
 
-#cuadrado{
+.head #cuadrado{
   position: absolute;
   bottom: -200px;
   right: 130px;
 }
 
-#apple{
+.head #apple{
   position: absolute;
   top: 600px;
-  left: 643px;
+  right: 411px;
 
 }
 
 #android{
   position: absolute;
   top: 600px;
-  left: 836px;
+  right: 219px;
 }
 
 .head h3{
   position: absolute;
   top: 276px;
-  left: 643px;
+  right: 309px;
   height: 80px;
   width: 269px;
   color: #013560;
@@ -82,40 +82,42 @@ body {
   color: black;
 }
 
-#p1{
+.head #p1{
   position: absolute;
   top: 380px;
-  left: 643px;
+  right: 162px;
   height: 80px;
   width: 413px;
   color: #013560;
 
 }
 
-#p2{
+.head #p2{
   position: absolute;
   top: 438px;
-  left: 643px;
+  right: 162px;
   height: 80px;
   width: 413px;
   color: #013560;
 
 }
 
-#p3{
+.head #p3{
   position: absolute;
   top: 547px;
-  left: 643px;
+  right: 162px;
   height: 80px;
   width: 413px;
   color: #013560;
 
 }
 
-#celulares{
+
+
+.head #celulares{
   position: relative;
   top: 145px;
-  left: 160px;
+  right: -250px;
 
 }
 
@@ -127,6 +129,7 @@ body {
 
 .cuadro{
 height: 450px;
+
 }
 
 
@@ -135,7 +138,7 @@ height: 450px;
 
   position: absolute;
   top: 800px;
-  left: 200px;
+  right: 365px;
   height: 80px;
   width: 600px;
   color: #013560;
@@ -154,7 +157,7 @@ height: 450px;
 #ultimo{
   position: absolute;
   top: 800px;
-  left: 886px;
+  right: -45px;
   height: 80px;
   width: 413px;
   color: #C5C6C7;
