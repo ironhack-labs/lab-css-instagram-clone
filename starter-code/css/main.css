@@ -12,6 +12,9 @@ body {
 button{
   color: white;
   margin: 10px 10px;
+  padding: 0;
+  border-bottom: 1px;
+  border-color: white;
 }
 #login{
   color: white;
