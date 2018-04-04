@@ -1,10 +1,133 @@
+/* General */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: 200 16px/1.5 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  margin: 0 auto;
+  /* box-sizing: border-box; */
+}
+
+h2 {
+  width: 320px;
+  font-size: 30px;
+  color: #143c5e;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.wrapper {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/* Blue background */
+
+.blue-back {
+  background-color: #4e7495;
+  height: 400px;
+  width: 100%;
+}
+
+/* Left Side  */
+.left-side {
+  margin-top: 150px;
+  width: 50%;
+  float: left;
+}
+.phones {
+  width: 420px;
+  float: right;
+  margin-right: 70px;
+}
+
+/* Right Side */
+.right-side {
+  margin-top: 180px;
+  width: 50%;
+  float: right;
+}
+.ig-logo {
+  float: left;
+  width: 320px;
+}
+.home-logo {
+  vertical-align: middle;
+  float: right;
+  margin-left: 12px;
+}
+
+.text-box {
+  height: 300px;
+  background-color: #fff;
+  padding: 30px 50px;
+  border-radius: 2px;
+}
+
+/* Buttons */
+
+.login-btn {
+  height: 50px;
+  width: 50px;
+}
+
+.mobile-btn {
+  margin-top: 40px;
+}
+
+.app-store {
+  width: 200px;
+}
+.google-play {
+  width: 190px;
+}
+
+/* Footer */
+
+.footer-nav {
+  position: relative;
+  top: 60px;
+  clear: both;
+  text-align: center;
+}
+.footer-nav li {
+  list-style: none;
+  display: inline-block;
+  text-transform: uppercase;
+  margin-right: 10px;
+  margin-bottom: 60px;
+  color: #4e7495;
+  font-weight: 500;
+}
+
+.copyright {
+  float: right;
+}
+
 /*
 Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
 
-body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
-}
+/* Use display, clear, and floats to position elements on the page */
+
+/* 
+Look up in MDN and use CSS properties and values that may not have been covered in class, for example:
+background: url("YOUR-LINK.COM")
+list-style
+text-decoration
+text-transform
+
+
+Use the images provided to construct the appropriate elements on the page:
+-the iPhone
+-App Store and Google Play buttons
+-Instagram Logo
+-Login button */
