@@ -7,4 +7,93 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  padding: 0;
+}
+
+
+.divline {
+	width: 100%;
+	padding-top: 20%;
+	position: absolute;
+	background-color: #3a6890;
+	position: absolute; 	
+}
+
+.content {
+	width: 76%;
+	position: absolute;
+	left: 20%;
+	top: 90px;
+
+}
+
+.phones {
+	width: 28%;
+	position: absolute;
+}
+
+.right-side {
+	width: 40%;
+	position: absolute;
+	left: 400px; 
+}
+
+.description {
+	background-image: url(../images/frame.png);
+	background-size: cover;
+	padding: 20px 30px;
+}
+
+.description h2 {
+	color: #06365f;
+}
+
+.description img {
+	margin: 0 auto;
+	padding-left: 15px;
+	width: 45%;
+}
+
+.log-in {
+	float: right;
+	margin-top: 10px;
+	margin-right: 10px; 
+}
+
+.brand {
+	width: 65%;
+}
+
+button {
+	color: white;
+	background-color: #507a9e;
+	border: 1px solid #2f5c83;
+	border-radius: 5px;
+	box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+	width: 100px;
+	padding: 5px 10px;	
+}
+
+button strong {
+	float: right;
+	padding-top: 5px;
+	padding-right: 4px;
+	padding-left: 2px;	
+}
+
+.bottom {	
+	color: #1c5380;
+}
+
+.link {
+	padding: 0px 10px;
+	font-size: 13px;
+	list-style-type: none;
+	float: left;
+	margin-top: 530px;
+}
+
+
+.first {
+	margin-left: 50px;
 }
