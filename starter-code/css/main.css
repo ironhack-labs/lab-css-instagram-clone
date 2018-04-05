@@ -4,7 +4,42 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  /* margin: 0; */
+   
+}
+
+.clearfix {
+  clear: both;
+}
+
+/*==========================================*/
+
+
+
+.container{
+  margin: 5% 10%;
+  position: relative;
+}
+
+.clr{
+  background-color:  #06365f;
+  background-size: 100%;
+  position: absolute;
+  bottom: 60%;
+}
+
+.phone-img{
+  float: left;
+  margin: 0px 5%;
+}
+
+.s-img{
+  float: left;
 }
