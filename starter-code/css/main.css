@@ -8,3 +8,13 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+.head-blue {
+  height: 300px;
+  background: #06365f;
+  }
+.container {
+  margin: -25vh;
+  display: flex;
+}
+
+
