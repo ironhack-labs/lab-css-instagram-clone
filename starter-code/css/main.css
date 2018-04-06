@@ -4,7 +4,85 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+html, head, body, h1{
+  margin: 0;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  margin: 0 auto;
+  width: 70%;
+  max-width: 900px;
+  height: 100%;
+  background: linear-gradient(
+    #1c5380 0%,
+    #06365f 35%, 
+    white 35%,
+    white 100%);
+  background-repeat: no-repeat;
+}
+
+.left-column{
+  float: left;
+  width: 30%;
+  margin-top: 100px;
+}
+
+.right-column{
+  float: right;
+  width: 57%;
+  margin-top: 100px;
+}
+
+h1{
+  height: 75px;
+  padding: 20px 0;
+}
+
+.log-in{
+  float: right;
+  font-size: 16px;
+  color: white;
+  margin: 20px 0 20px 0;
+  background-color: #1c5380;
+  padding: 7px 10px;
+  box-shadow: 0 0 7px black;
+  border-radius: 3px;
+}
+
+.log-in > img{
+  position: relative;
+  top: 4px;
+}
+
+.content{
+  background-image: URL("../images/frame.png");
+  background-repeat: no-repeat;
+  background-color: white;
+  background-size: 100%;
+  padding: 10px 30px;
+  line-height: 25px;
+}
+
+h2{
+  font-size: 30px;
+  line-height: 35px;
+  color: #1c5380;
+}
+
+.content > img {
+  margin: 25px 14px 0 0;
+}
+
+footer{
+  clear: both;
+  margin: 10px; 
+  padding: 60px 0 70px 170px;
+  font-size: 13px;
+}
+
+.links{
+  color: #06365f;
+  word-spacing: 10px;
+  text-transform: uppercase;
 }
