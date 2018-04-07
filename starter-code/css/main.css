@@ -8,3 +8,95 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+#background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 120%;
+    height: 40%;
+    background-color: #1c5380; 
+}
+
+h2 {  
+    font-size: 20px;
+    color: #06365f;
+    position: absolute;
+    top: 10%;
+}
+p {
+  font-size: 12px;
+  position: absolute;
+  padding: 0 10% 0 0;
+  text-align: left;
+  top: 30%;
+}
+
+.phones {
+  padding:  17% 10px 20% 10%;
+  float: left;  
+  position: absolute;
+    /* original size: 312x512 */
+}
+
+.instagram {
+  top: 25%;  
+  left: 48%;
+  position: absolute;
+}
+
+.home {
+  margin-top: 20%;
+  padding: 0 0 0 5%;
+  box-sizing: border-box;
+  float:left;
+}
+.login {
+  width: 100px;
+  height: 50px;
+  border: 2px black;
+  top: 25%;
+  left: 85%;
+  background-color: #1c5380;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: right;
+  color: lightgrey;
+  position: absolute;
+}
+
+.container {
+  top: 35%;
+  left: 42%;
+  position: absolute;
+}
+.frame {
+  padding-left: 52px;
+}
+
+.text-box{
+  padding: 0px 15%;
+  text-align: left;
+}
+
+.buttons{
+  top: 60%;
+  left: 42%;
+  position: relative;
+}
+
+
+footer {
+  bottom: -10%;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  color: #1c5380;
+  font-variant: all-small-caps;
+  font-weight: bold;
+  
+}
+
+.grey {
+  color: lightgrey;
+}
