@@ -58,7 +58,6 @@ h1{
 .content{
   background-image: URL("../images/frame.png");
   background-repeat: no-repeat;
-  background-color: white;
   background-size: 100%;
   padding: 10px 30px;
   line-height: 25px;
