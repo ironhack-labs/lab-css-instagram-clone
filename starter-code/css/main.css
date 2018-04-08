@@ -3,8 +3,110 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
+/*.all {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+*/
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+.BG{
+  height: 400px;
+  position: absolute;
+  width:100%;
+  background-color:#1c5380 ;
+}
+
+.container{
+  z-index:2;
+  width:1000px;
+  height:500px;
+  display:inline-block;
+  margin-left:500px;
+  margin-top:150px;
+  position: absolute;
+}
+
+.phone{
+  display: inline-block;
+  position: relative;
+}
+
+.brand{
+  float:right;
+  display:inline-block;
+  position: absolute;
+  margin-bottom:300;
+  margin-left:100px;
+}
+
+.login{
+  width:150px;
+  height:50px;
+  background-color:#1c5380;
+  display:inline-block ;
+  float:right;
+  color:white;
+  border:2px solid  #06365f
+
+}
+
+.home{
+  margin-right:15px;
+  margin-left:10px;
+}
+
+h3{
+  margin:10px auto;
+}
+
+.frame{
+  display:inline-block;
+  float: right;
+  margin-top:100px;
+  right:100px;
+  position: absolute;
+  background-color:white;
+}
+
+.text{
+  width:460px;
+  position: absolute;
+  display:inline-block;
+  margin:100px;
+}
+h2{
+  color: #06365f
+}
+
+.app{
+  margin-top:20px;
+}
+
+.google{
+  margin-left:15px;
+}
+
+.footer{
+ z-index: 3;
+ display:inline-block;
+ margin-top:800px;;
+ width:100%
+}
+
+
+ul{
+ margin-left:600px;
+  width:1200px;
+}
+li{
+  text-align:center;
+  list-style-type: none;
+  float:left;
+  margin: 0 10px;
+  color:#1c5380; 
 }
