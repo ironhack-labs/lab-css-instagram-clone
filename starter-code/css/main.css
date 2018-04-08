@@ -8,3 +8,110 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+h1 {
+  color: #06365f;
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 50px;
+  margin-top: 40px;
+}
+a {
+  text-decoration:none;
+  color: #ffffff;
+}
+
+ul {
+  list-style: none;
+  color: #1c5380;
+  font-size: 9px;
+}
+
+li{
+  float: left;
+  margin:8px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #1c5380;
+
+}
+
+.blue {
+  color: #1c5380;
+  
+}
+
+.gray {
+  color: #afafaf;
+}
+
+.blue-background {
+  width: 100%;
+  height: 300px;
+  background: linear-gradient(#1c5380, #06365f);
+}
+.white-background {
+  background-color: #ffffff;
+  width: 100%;
+  height: 300px;
+}
+.wrapper {
+  width: 1000px;
+  height: 600px;
+  margin: 0 auto;
+  margin-top: -506px;
+}
+.top-wrapper {
+  width: 617px;
+  height: 80px;
+  margin: 0 auto;
+  margin-left: 373px;
+}
+.phones {
+  float: left;
+  margin-right: 45px;
+  position: relative;
+}
+.insta-logo {
+  float: left;
+  width: 315px;
+  height: 75px;
+  margin-right: 80px;
+}
+.button {
+  width: 82px;
+  height: 25px;
+  background: linear-gradient(#1c5380, #06365f);
+  display: table;
+  border-radius: 2px;
+  border: 1px solid #06365f;
+  position: absolute;
+  margin-left: 515px;
+  margin-top: 15px;
+  padding: 10px;
+}
+
+.middle-wrapper {
+  width: 637px;
+  height: 425px;
+  margin: 0 auto;
+  background-image: url(../images/frame.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: table;
+}
+.copy {
+  width: 414px;
+  color: #06365f;
+  margin-left: 50px;
+}
+.download {
+  width: 323px;
+  margin: 25px 5px 0px 48px;
+  height: 51px;
+}
+.footer {
+  width: 527px;
+  height: 20px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
