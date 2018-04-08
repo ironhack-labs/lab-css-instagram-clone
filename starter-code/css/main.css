@@ -4,7 +4,145 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  height: auto;
+}
+
+.blue-background {
+  background: #1c5380;
+  height: 320px;
+  position: relative;
+}
+
+.main-content {
+  margin: 0px 75px;
+  position: relative;
+  top: -190px;
+  display: flex;
+  justify-content: center;
+  height: 380px;
+} 
+
+.phone-image-align {
+  float:left;
+}
+
+.brand-login {
+  display: flex;
+  justify-content: center;
+}
+
+.main-right {
+  padding: 0px 0px 0px 50px;
+  display: inline-block;
+  width: 500px;
+}
+
+.article2 {
+  margin-top: 20px;
+  position: relative;
+  display: inline-block;
+  /* display: flex;
+  justify-content: center; */
+}
+
+.log-in-button {
+  background-color: #3576AC;
+  border: #06365f solid 1px;
+  border-radius: 3px;  
+  padding: 5px 11px 7px 6px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 14px;
+  margin: 20px 0 0 96px;
+  font-weight: bold;
+  font-size: 0.8em;
+  position: relative;
+}
+
+.home-image {
+  float: left;
+  height: 1.4em;
+  width: 1.5em;
+  margin-top: 3px;
+  /* list-style-image: url('../images/home.png'); */
+}
+
+.log-in {
+  list-style-type: none;
+  display: inline-block;
+  margin-left: 7px;
+  margin-top: 3px;
+  color: #ffffff;
+}
+
+article a:link {
+  text-decoration: none;
+}
+
+.main-text {
+  background: url(../images/frame.png);
+  background-repeat: no-repeat;
+  background-position: cover;
+  border-radius: 10px;
+  display: inline-block;
+  margin-top: 15px;
+  width: 500px;
+  height: 330px;
+}
+
+h2 {
+  color: #06365f;
+  margin-left: 35px;
+  margin-top: 32px;
+  margin-bottom: 20px;
+  line-height: 1.3em;
+}
+
+p {
+  margin-left: 35px;
+  margin-bottom: 10px;
+  margin-right: 45px;
+}
+
+.article4 {
+  margin-left: 35px;
+} 
+
+.badge-spacing {
+  margin-right: 15px;
+}
+
+.footer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+footer li {
+  list-style-type: none;
+  text-align: center;
+  float: left;
+  padding: 0 10px;
+  font-weight: bold;
+  font-size: 0.7em;
+  text-transform: uppercase;
+}
+
+li > a {
+  text-decoration: none;
+  color: #1c5380;
+}
+
+.trademark-color {
+  color: #999;
 }
