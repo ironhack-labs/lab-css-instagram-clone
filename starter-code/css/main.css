@@ -4,7 +4,94 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+.logo {
+  position: relative;
+  padding: 50px 0 0 0;
+  float: left;
+}
+
+.bgimage {
+  background-color: #51789c;
+  height: 300px;
+}
+
+.phones {
+  padding: 30px;
+  height: 600px;
+  float: left;
+  margin: 0 0 0 5%;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  padding: 0;
+}
+
+.lgn-btn {
+  letter-spacing: 0.5px;
+  width: 100px;
+  padding: 3px;
+  box-shadow: 0px 0px 24px 2px rgba(0,0,0,0.43);
+  position: relative;
+  display: inline-block;
+  margin: 0 0 20px 400px;
+  background-color: #51789c;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.lgn-btn a {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  padding: 2px;
+}
+
+.lgn-btn img {
+  top: 4px;
+  position: relative;
+}
+
+.body h1 {
+  color: #51789c;
+  font-size: 2em;
+}
+
+.apps {
+  display: inline-block;
+  position: relative;
+}
+
+.body {
+  padding: 0 40px 40px;
+  background-image: url(/Users/chris/Code/labs/lab-css-instagram-clone/starter-code/images/frame.png);
+  background-repeat: no-repeat;
+  position: relative;
+  align-content: center;
+  width: 418px;
+  display: inline-block;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.footer footer ul li {
+  text-decoration: none;
+  display: inline-block;
+  font-size: .7em;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: grey;
+  padding: 10px;
+}
+
+.footer {
+  clear: both;
+  text-align: center;
+  float: none;
+}
+
+.footer footer ul li a {
+  text-decoration: none;
+  color: #51789c;
 }
