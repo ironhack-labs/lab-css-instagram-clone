@@ -8,3 +8,158 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.head{
+  background-color:#43719A;
+  height: 350px;
+  position:relative;
+
+
+
+}
+
+.head button{
+  font-weight: bold;
+    background-color: #49769F;
+    height: 37px;
+    color: #E2EAF0;
+    width: 85px;
+    border: 1px solid #03335E;
+    border-radius: 5px;
+    padding-bottom: 3px;
+    text-align: right;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    position: absolute;
+    top: 187px;
+    right: 138px;
+    box-shadow: 1px 1px  #03335E;
+
+  
+}
+#logo{
+  position: absolute;
+  top: 170px;
+  right: 320px;
+}
+
+.head #cuadrado{
+  position: absolute;
+  bottom: -200px;
+  right: 130px;
+}
+
+.head #apple{
+  position: absolute;
+  top: 600px;
+  right: 411px;
+
+}
+
+#android{
+  position: absolute;
+  top: 600px;
+  right: 219px;
+}
+
+.head h3{
+  position: absolute;
+  top: 276px;
+  right: 309px;
+  height: 80px;
+  width: 269px;
+  color: #013560;
+  font-size: 26px;
+}
+
+.head p{
+  font-size: 16px;
+}
+
+.head p span{
+  font-weight: bold;
+  color: black;
+}
+
+.head #p1{
+  position: absolute;
+  top: 380px;
+  right: 162px;
+  height: 80px;
+  width: 413px;
+  color: #013560;
+
+}
+
+.head #p2{
+  position: absolute;
+  top: 438px;
+  right: 162px;
+  height: 80px;
+  width: 413px;
+  color: #013560;
+
+}
+
+.head #p3{
+  position: absolute;
+  top: 547px;
+  right: 162px;
+  height: 80px;
+  width: 413px;
+  color: #013560;
+
+}
+
+
+
+.head #celulares{
+  position: absolute;
+  top: 145px;
+  right: 676px;
+
+}
+
+#casita{
+  position: absolute;
+  top: 7px;
+  left: 8px;
+}
+
+.cuadro{
+height: 450px;
+
+}
+
+
+
+.div{
+
+  position: absolute;
+  top: 800px;
+  right: 365px;
+  height: 80px;
+  width: 600px;
+  color: #013560;
+  word-spacing: 20px;
+  margin-left: 100px;
+
+
+}
+
+.div a {
+  color: #4E7DA5;
+  text-decoration: none;
+  font-weight: bold;
+
+}
+#ultimo{
+  position: absolute;
+  top: 800px;
+  right: -45px;
+  height: 80px;
+  width: 413px;
+  color: #C5C6C7;
+  font-weight: bold;
+}
