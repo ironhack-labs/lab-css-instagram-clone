@@ -8,3 +8,85 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.background{
+  background-color: #06365f;
+  width: 100%;
+  height: 300px;
+  position: absolute;
+  z-index: -20;
+}
+.phones{
+  width: 30%;
+  height: 700px;
+  border: 1px;
+  position: relative;
+  margin: 130px 70px 0 130px;
+
+}
+.logo{
+  position: relative;
+  margin: 111px 500px 111px 600px;
+}
+.bttn{
+  text-decoration: none;
+  font-size: 19px;
+  color: white ;
+  border: 1px solid rgba(51, 130, 199, 0.953);
+  background-color: rgba(51, 130, 199, 0.953);
+  box-shadow:-1px 1px rgb(11, 18, 22, 0.8);
+  border-radius: 2px;
+  padding: 5px;
+  position:relative;
+  top: 160px;
+  margin-right: 254px ;
+  margin-left:1000px;
+  
+}
+.info-container{
+background-image: url("frame.png");
+background-size: cover;
+width: 40%;
+position:relative;
+bottom: 600px;
+margin-left: 600px;
+}
+.head-info{
+  width:60%;
+  color:  #1c5380;
+  position: relative;
+  padding-top: 10px;
+  margin: 5px 20px 10px 53px;
+}
+.body-info{
+  width: 80%;
+  font-family: Helvetica, sans-serif, Arial;
+  position: relative;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+span{
+  font-weight: bold;
+}
+.store-link{
+  width: 40%;
+  position: relative;
+  bottom:430px;
+  margin:0 auto;
+  margin-left: 650px;
+
+}
+.app-store-logo {
+  margin-left: 35px;
+}
+.contact-info{
+  width: 100%;
+  position: relative;
+  bottom: 200px; 
+  left: 350px;
+
+}
+.link{
+  text-decoration: none;
+  color: #1c5380; 
+}
