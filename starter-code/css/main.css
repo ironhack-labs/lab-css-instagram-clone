@@ -7,4 +7,108 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: url("/home/teresa/code/lab-css-instagram-clone/starter-code/images/bgtile.png");
+  background-repeat: repeat-x;
+  background-size: 100% 450px;
 }
+
+.phones {
+  float: left;
+  margin: 10% 0 0 20%;
+  position: relative;
+  display: inline-block;
+  width: 20%;
+}
+
+.button {
+  margin: 12.7% 0 0 6%;
+  height: 30px;
+  color: #fff;
+  padding: 10px 10px 10px 10px;
+  height: 50px;
+  width: 130px;
+  font-size: 23px;
+  background: url("/home/teresa/code/lab-css-instagram-clone/starter-code/images/bgtile.png");
+  border-radius: 3px;
+  text-shadow: 0 2px #1f415e;
+  border: 1px solid #334b62;
+  font-weight: bold;
+  background: linear-gradient(white,#1c538009 50%);
+  box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.3);
+}
+
+.home {
+  width: 24%;
+  margin: 3px 3px 0 3px;
+}
+
+.brand {
+  float: left;
+  margin: 12% 0 0 5%;
+}
+
+.head1 {
+  font-size: 200%;
+  width: 60%;
+  text-align: left;
+  color: #06365f;
+  margin-left: 5%; 
+}
+
+.frame {
+  margin: 2% 25% 0 0;
+  background: url("/home/teresa/code/lab-css-instagram-clone/starter-code/images/frame.png") no-repeat;
+  background-size: 100% 100%; 
+  width: 30%;
+  float: right;
+  display: inline-block;
+}
+
+.text {
+  margin-left: 5%;
+  width: 90%;
+  line-height: 30px;
+  font-size: 130%;
+}
+
+.app1 {
+  margin: 1% 0 0 10%;
+}
+
+.app2 {
+ margin: 1% 0 0 2%;
+}
+
+.clearfix {
+  clear: both;
+}
+
+
+.floats {
+  float: left;
+}
+
+.footer {
+  margin-top: 3%;
+  font-size: 20px;
+  color: gray;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+.footer ul {
+  margin-left: 25%;
+  list-style: none;
+}
+
+.footer li {
+  margin-left: 1%;
+  float: left;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #06365f;
+}
+
