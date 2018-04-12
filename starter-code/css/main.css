@@ -4,7 +4,112 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+html {
+  height: 100%
+}
+
+.fontcolor {
+  color: #06365f;
+}
+
+h1 {
+  font-size: 1.8rem;
+}
+
+.wrap-h1 {
+    width:300px;
+    word-wrap: break-word;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  width: 100%;
+  background: linear-gradient(180deg, #1c5380 40%, #FFFFFF 40% );
 }
+
+.iphone img {
+  position: relative;
+  top: 205px;
+  left: 200px;
+}
+
+header {
+  position: absolute;
+  top: 220px;
+  left: 560px;
+}
+
+.brand img {
+  display: inline-block;
+  position: relative;
+}
+
+.login {
+  color: white;
+  background: linear-gradient(180deg, #1f5d8f 60%, #084880 90% );
+  /* background-color: #57a0e0; */
+  border-color: #06365f;
+  border-style: solid;
+  border-width: 1px; 
+  padding: 7px 20px;
+  float: right;
+  margin-top: 3%;
+  margin-left: 60px;
+  border-radius: 10%;
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,0.1);
+  font-weight: bold;
+}
+
+.login span {
+  vertical-align: middle;
+}
+.login img {
+  vertical-align: middle;
+  padding-right: 3px;
+}
+
+
+main {
+  background-image: url(../images/frame.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 100%;
+  height: 300px;
+  left: 560px;
+  top: 320px;
+}
+
+.sectiontext {
+  width: 500px;
+  padding-left: 30px;
+  word-wrap: break-word;
+
+}
+
+.downloadspic {
+  padding-top: 10px;
+}
+
+.footer-container {
+  margin-left: 400px;
+  margin-top: 75px;
+  width: 600px;
+}
+
+.list-center {
+  padding-top: 175px;
+  width: fit-content;
+}
+
+.list-center li {
+  display: inline-block;
+  padding-right: 10px;  
+  font-weight: bold;
+  color: #1c5380;
+}
+
+
+
+
