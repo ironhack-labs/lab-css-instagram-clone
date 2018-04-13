@@ -80,19 +80,33 @@ p{
 
 footer{
   clear: both;
-    padding: 60px 0 30px 100px;
-  width: 600px;
+  padding: 60px 0 30px 100px;  
+  width: 700px;
+   
+}
+
+footer ul{
+clear: both;
+list-style: none;
+margin: 0 0 20px;
+padding; 0;
+text-align: center;
+}
+
+footer ul li{
+    display: inline;
+  font-size: 11px;
+  font-weight: bold;
+  margin: 0 10px;
+  text-transform: uppercase;
+  color: darkblue;
+}
+
+footer ul li a{
+  text-decoration: none;
+}
+
+span[link=insta]{
+  color: #999;
   
 }
-
-.links{
-  word-spacing: 10px;
-  text-transform: uppercase;
-  color: #06365f;
-}
-
-.insta{
-  font-weight: 100;
-  color: grey;
-}
-
