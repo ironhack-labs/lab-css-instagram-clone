@@ -1,10 +1,91 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
-
-body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+html{
+  width:1090px;
+  height:731px;
 }
+body{
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;	   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+   width: 1090px;
+   height:731px;
+   margin:0cm;
+  
+}
+
+#blue{
+  height: 300px;
+  width: 100%;
+  background: linear-gradient(#1c5380, #06365f);
+}
+
+.logo{
+  float:right;
+  position: relative;
+  top: 120px;
+  right: 300px;
+ }
+
+.home{
+  float:right;
+  position: relative;
+  
+  right:-180px;
+  width:100px;
+  top: 140px;
+  color:white;
+  background: linear-gradient(#5d7a9c, #426283);
+  border-radius: 4px;
+}
+
+.phones{
+  position: absolute;
+  bottom:100px;
+  left:100px;
+
+}
+
+.contenido{
+  background-repeat: no-repeat;
+  background-image: url("../images/frame.png");
+  width:500px;
+  position: absolute;
+  left:470px;
+  top:220px;
+  padding-left: 1cm;
+}
+
+.titulo {
+  width: 250px;
+  padding-top: .3cm;
+  font-size: 16;
+  font-family:Arial, Helvetica, sans-serif;
+  color: #06365f;
+}
+
+.texto{
+  width:420px;
+  font-family: Arial;
+  color:grey;
+
+}
+
+.badges{
+  display: flex;
+  justify-content: space-between;
+  width:335px;
+}
+
+.footer{
+font-size: 9px;
+height:200px;
+display:flex;
+justify-content: space-around;
+padding-top:200px;
+padding-left: 240px;
+padding-right:280px;
+align-items:flex-end;
+color:#5d7a9c;
+}
+
+.©{
+  color:grey;
+}
+  
