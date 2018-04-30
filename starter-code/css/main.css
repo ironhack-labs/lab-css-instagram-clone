@@ -7,4 +7,59 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url('../images/bgtile.png');
+  background-repeat: no-repeat;
+  background-repeat: repeat-x;
+}
+.center{
+  margin: 0 auto;
+  padding-top: 9vh;
+  text-align: center;
+}
+.intagramlogo{
+  vertical-align: top;
+  padding-left: 5vh;
+}
+.button{
+  background-color: #6a8ead;
+  vertical-align: top;
+  color: white;
+  border: 1px solid #6a8ead;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 14px;
+  margin-left: 3vh;
+}
+.button img{
+  vertical-align: top;
+}
+.content{
+  background-image: url('../images/frame.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 60vh;
+  padding: 5vh;
+  text-align: left;
+  position: absolute;
+  top: 10rem;
+  left: 46%;
+}
+footer{
+  text-align: center;
+}
+footer ul{
+  list-style-type: none;
+  line-height: 44px;
+}
+footer ul li{
+  display: inline;
+  padding: 1vh;
+  color: #215888;
+  font-weight: bold;
+}
+footer ul li:last-child{
+  color: rgba(0,0,0,.5)
 }
