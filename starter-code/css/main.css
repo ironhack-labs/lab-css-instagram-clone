@@ -8,3 +8,65 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.top-background{
+  height: 250px;
+  background-color: #1c5380;
+}
+
+.bottom-background{
+  background-color: white;
+}
+
+.container{
+  position: absolute;
+  top: 100px;
+  width: 60%;
+  left: 20%;
+  height: 75%;
+}
+
+.left{
+  width: 40%;
+  height: 100%;
+  float: left;
+  text-align: center;
+}
+
+.right{
+  width: 60%;
+  height: 100%;
+  float: right;
+}
+
+.inside-left{
+  float: left;
+  width: 80%;
+  height: 100%;
+}
+.inside-right{
+  float: right;
+  width: 20%;
+  text-align: right;
+  height: 100%;
+  top: 30px;
+}
+
+.bottom-center1{
+  position: relative;
+  top: 32px;
+}
+
+.bottom-center{
+  position: relative;
+  top: 25px;
+}
+
+.aside-container{
+  height: 100%;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 10px;
+}
+
+
