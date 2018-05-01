@@ -7,4 +7,92 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url("./../images/bgtile.png");
+  background-repeat: no-repeat;
+  background-size: 100% 280px;
+
+}
+
+.container-content{
+  margin: 50px 15%;
+  padding: 30px;
+}
+.instagram-content{
+  display: flex;
+}
+.instagram-phones{
+  background-color: white;
+  background-image: url("./../images/phones.png");
+  width: 90%;
+  background-repeat: no-repeat;
+  height: 600px;
+ 
+}
+.instagram-main-content{
+  padding: 0 50px;
+} 
+
+.header-content{
+  display: flex;
+}
+.main-content{
+  background-image: url("./../images/frame.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 30px;
+  margin-top: 15px;
+  width: 410px;
+}
+.main-content h2{
+  color:#06365f;
+  margin-top: 0;
+  width: 250px;
+}
+.button-loggin{
+  position: relative;
+  left: 72px;
+  top: 20px;
+  background-image: url("./../images/bgtile.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border:none;
+  box-shadow: 0px 0px 1px 1px #06365f;
+  color: white;
+  font-weight: bold;
+  height: 35px;
+  width: 80px;
+  border-radius: 3%;
+}
+.button-loggin span{
+  position: relative;
+  top: -6px;
+}
+
+.ios-button{
+  background-image: url("./../images/badge-iphone.png");
+  background-size: cover;
+  width: 164px;
+  height: 51px;
+  border: none;
+}
+
+.google-button{
+  margin-left: 20px;
+  background-image: url("./../images/badge-android.png");
+  background-size: cover;
+  border: none;
+  width: 153px;
+  height: 51px;
+}
+.footer{
+  margin-top: 100px;
+  display:flex;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.footer a{
+  margin-right: 20px;
+  text-decoration:none;
+  color:#1c5380;
 }
