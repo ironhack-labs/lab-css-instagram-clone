@@ -8,3 +8,60 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+img {
+  max-width: 100%;
+}
+
+#instagram-presentation {
+  background: url("../images/bgtile.png") repeat-x;
+  padding: 50px 75px;
+  background-size: 100% 200px;
+
+}
+
+
+.col {
+  float: left;
+}
+
+.col-40 {
+  width: 40%;
+}
+
+.col-60 {
+  width: 60%;
+}
+
+.info-section .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.wrapper button {
+  display: flex;
+  align-items: center;
+  
+}
+
+.wrapper button img {
+  margin-right: 5px;
+}
+
+
+#instagram-intro-box {
+  background: url("../images/frame.png");
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
+  padding: 20px;
+}
+
+#instagram-intro-box h4 {
+  margin-top: 0;
+}
+
+#instagram-intro-box .wrapper .button-left {
+  margin-right: 10px;
+}
