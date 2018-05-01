@@ -8,3 +8,92 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+.blueBar{
+  position: relative;
+  text-align: center;
+  background-color: #4f7799;
+  height: 270px;
+}
+.phone {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+}
+.loginBar{
+  position: absolute;
+  top: 40%;
+  left: 38%;
+}
+.loginButton{
+  height: 50%; 
+  width: 30%;    
+  position: absolute;
+  top: 20%; 
+  left: 120%;
+  color: white;
+  background-size: 110% 110%;
+  background: -webkit-linear-gradient(top,#85bef0,#436a8d);
+  border: 1px solid rgba(34, 83, 131, 0.87);
+  border-radius: 4px;  
+}
+.home{
+  position: absolute;
+  top: 25%;
+  left: 10%;
+}
+.login{
+  position: absolute;
+  top: 0%;
+  left: 45%;
+  font-weight: bold;
+}
+.descriptionBox{
+  position: absolute;
+  top: 80%;
+  left: 38.5%;
+  width: 36%;
+  height: 370px;
+  background-color: white;
+  box-shadow: 1px -1px 5px grey;
+}
+.slogan{
+  position: absolute;
+  top: -2%;
+  left: 7%;
+  color: rgb(23, 68, 105);
+  font-size: 25px;
+  font-weight: bold;
+  text-align: left;
+  width: 55%;
+}
+.description{position: absolute;
+  top: 16%;
+  left: 7%;
+  text-align: left;
+  width: 85%;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif
+}
+.imgIphone{
+  position: absolute;
+  top: 86.5%;
+  left: 7%;
+}
+.imgAndroid{
+  position: absolute;
+  top: 86.5%;
+  left: 50%;
+}
+.infoBar{
+  position: absolute;
+  top: 91%;
+  left: 23%;
+}
+th{
+  border-collapse: collapse;
+  padding: 10px;
+  text-align:center;
+  color: rgb(23, 94, 153);
+  font-size: 12px;
+  text-transform: uppercase;
+}
