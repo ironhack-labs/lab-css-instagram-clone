@@ -4,7 +4,104 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+/*----- Font imported from Google Fonts -----*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
+
+
+
+/*----- Body settings -----*/
+
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  background-image: url('../images/bgtile.png');
+  background-repeat: no-repeat;
+  background-repeat: repeat-x;
+  font: 16px/1.5 "Open Sans", sans-serif;
+  margin: 0 auto;
+}
+
+
+
+/*----- Logo and Login -----*/
+
+.logo-instagram {
+  padding-left: 5rem;
+  vertical-align: top;
+}
+
+.login {
+  background-color: #6a8ead;
+  border: 1px solid #6a8ead;
+  border-radius: 4px;  
+  color: white;
+  display: inline-block;
+  font-size: 1rem;
+  margin-top: 1rem;
+  margin-left: 3rem;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: top;
+}
+
+.login img {
+  vertical-align: top;
+}
+
+
+
+/*----- Text Content -----*/
+
+.content {
+  background-image: url('../images/frame.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 6vh;
+  text-align: left;
+  position: absolute;
+  top: 10rem;
+  left: 46%;
+  width: 60vh;
+}
+
+.content-centered {
+  margin: 0 auto;
+  padding-top: 5rem;
+  text-align: center;
+}
+
+.content h2 {
+  color: #06365f;
+  letter-spacing: 0.05rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.content img {
+  padding-right: 20px;
+}
+
+
+
+/*----- Footer Content -----*/
+
+#footer {
+  text-align: center;
+}
+
+#footer ul {
+  list-style-type: none;
+  line-height: 44px;
+}
+
+#footer ul li {
+  display: inline;
+  padding: 1.5vh;
+  color: #215888;
+  font-weight: bold;
+}
+
+#footer ul li:last-child { /* It gives the last element special styles */
+  color: gray;
+  font-weight: 400;
 }
