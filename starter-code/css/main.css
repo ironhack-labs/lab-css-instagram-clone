@@ -8,3 +8,115 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+.home{
+  float: right;
+  height: fit-content;  
+  left:46%;
+  width: 490px;
+  
+}
+#brand{
+  float: left;
+}
+
+h2{
+  margin-left:20px;
+  margin-right: 45%;
+  color:#06365f;
+}
+p{
+  margin:20px;
+}
+.phoneimage{
+  float: left;
+  margin-left:130px;
+  margin-bottom: 70px;
+  height: fit-content;
+  width: fit-content;
+}
+.footer {
+  font-weight: bold;
+  font-size: 87%;
+  margin-left: 250px;
+  color: #1c5380;
+  width: 100%;
+  clear:both;
+  height: 100%;
+  
+}
+
+.instagramImage{
+  float: left;
+}
+
+.button img{
+  padding: 4px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.button {
+  display: inline-block;
+  float:right;
+  
+  margin-right: auto; 
+  margin-top: 20px;
+  border: none;
+  color: white;
+  padding: 3px 7px;
+  text-align: left;
+  text-decoration: none;
+  font-weight: bold;
+  vertical-align: middle;
+  border: 1px solid #1c5380;
+  font-size: 16px;
+  border-radius: 4px;
+  background: linear-gradient(to bottom,#88c0ee,#1c5380);
+}
+.mainelment{
+  top: 130px;
+  left: 10%;
+  width: 1100px;
+  height: 660px;
+
+}
+.textbox{
+  left: 46%;
+  top: 100px;
+  width: 490px;
+  clear: right;
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#tableFooter td
+{
+  
+  padding: 5px;
+  text-align:center; 
+  vertical-align:middle;
+}
+.absolute {
+  position: absolute;
+  
+}
+
+.box{
+  background:linear-gradient(to bottom,#88c0ee,#1c5380);
+  height: 310px;
+  width: 100%;
+}
+#distribuciones{
+  margin-top: 35px;
+  margin-left:20px;
+  margin-right:130px;
+}
+#iphone{
+  
+  float:left;
+  
+}
+#android{
+  float:right;
+}
