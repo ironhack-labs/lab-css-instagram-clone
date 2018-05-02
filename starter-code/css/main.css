@@ -1,10 +1,116 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-color: white;
+}
+
+.float{
+  float: left;
+}
+
+.left{
+  width: calc(40% - 40px);
+  margin: 0 20px;
+  text-align: center;
+}
+
+.right{
+  width: calc(50% - 240px);
+  margin: 0 20px;
+  padding: 20px;
+  text-align: left;
+}
+
+.phone{
+  width: 60%;
+  margin: 0 auto;
+  display: block;
+}
+
+section{
+  padding: 70px 50px;
+}
+
+.btn{
+  position: absolute;
+  top: 25px;
+  right: 10px;
+  background-color: #5b8fbb;
+  border-radius: 3px;
+  color: white;
+  display: block;
+  width: 90px;
+  height: 30px;
+  text-align: center;
+  border: 1px solid #326fa1;
+}
+
+.home img{
+  padding-right: 10px;
+  width: 15px;
+}
+
+.wrapper{
+  position: relative;
+}
+
+.wrapper2{
+  background: url('../images/frame.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.wrapper2 p{
+  padding: 10px 40px;
+  line-height: 30px;
+}
+
+.wrapper2 > h2{
+  color: #06365f;
+  padding: 20px 40px;
+  width: 50%;
+}
+
+span{
+  font-weight: 500;
+}
+
+
+.clearfix{
+  clear: both;
+}
+
+/* footer */
+footer ul li{
+  display: inline;
+  color: #1c5380;
+  padding: 0 10px;
+}
+
+ul{
+  text-align: center;
+  padding-top: 100px;
+}
+
+.overlay{
+  background-color: #1c5380;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 33vh;
+  z-index: -1;
+}
+
+.imagePhone{
+  padding: 0 10px;
+}
+
+.images{
+  padding-left: 30px;
+}
+
+footer > ul > li:last-child{
+  color: #999;;
 }
