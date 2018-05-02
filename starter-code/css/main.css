@@ -4,36 +4,65 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+/*
+Global styles
+*/
+
+
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 200 16px/1.5 "Roboto", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-color: #F4F5F7;
+  background: url("../images/bgtile.png") repeat-x;
+  background-size: 100% 35%;
+
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 img {
   max-width: 100%;
 }
 
+.dark-blue {
+  color: #06365f;
+}
+
+/*
+Intro section
+*/
+
+
 #instagram-presentation {
-  background: url("../images/bgtile.png") repeat-x;
-  padding: 50px 75px;
-  background-size: 100% 200px;
+  padding: 100px 75px 50px;
+  overflow: auto;
+  display: flex;
 
 }
 
-
-.col {
-  float: left;
+.logo {
+  width: 350px;
 }
 
 .col-40 {
   width: 40%;
 }
 
+
 .col-60 {
   width: 60%;
 }
 
-.info-section .wrapper {
+.info-section .flex-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.info-section .button-wrapper {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -42,26 +71,94 @@ img {
 .wrapper button {
   display: flex;
   align-items: center;
-  
+  background: #3C7793;
+  color: white;
+  padding: 10px 15px;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(32,64,93.75);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(32,64,93.75);
+  box-shadow: 0px 0px 5px 0px rgba(32,64,93.75);
+  border-radius: 1px;
+  border: 0;
+  font-size: 14px;
+  background-image: -webkit-linear-gradient(top, #7596AF, #49759A);
+  background-image: -moz-linear-gradient(top, #7596AF, #49759A);
+  background-image: -ms-linear-gradient(top, #7596AF, #49759A);
+  background-image: -o-linear-gradient(top, #7596AF, #49759A);
+  background-image: linear-gradient(to bottom, #7596AF, #49759A);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#7596AF, endColorstr=#49759A);
+
 }
 
 .wrapper button img {
   margin-right: 5px;
 }
 
-
 #instagram-intro-box {
   background: url("../images/frame.png");
   background-size: contain;
   background-position: top;
   background-repeat: no-repeat;
-  padding: 20px;
+  padding: 40px;
 }
 
-#instagram-intro-box h4 {
+#instagram-intro-box h1 {
   margin-top: 0;
+  color: #06365f;
+  width: 315px;
+
+}
+
+#instagram-presentation a {
+  text-decoration: none;
+
 }
 
 #instagram-intro-box .wrapper .button-left {
-  margin-right: 10px;
+  margin-right: 15px;
+}
+
+#download-wrapper {
+  margin-top: 20px;
+}
+
+
+/*footer section */
+
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding-bottom: 30px;
+}
+
+
+.footer ul {
+  list-style-type: none;
+
+  color: #1c5380;
+}
+
+.footer li {
+  display: inline-block;
+  padding: 0 8px;
+  
+}
+
+.footer span {
+  color: rgb(150, 150, 150);
+  padding: 15px;
+}
+
+/*tried to do media queries but they don't work*/
+
+@media only screen and (max-width: 676px) {
+  .col {
+      width: 100% !important;
+  }
+
+  .phones {
+    display: none;
+  }
 }
