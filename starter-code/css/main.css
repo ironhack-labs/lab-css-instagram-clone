@@ -71,13 +71,13 @@ div.name-insta{
 
 div.name-insta a{
   position: relative;
-  top: 0;
+  top: -40px;
     right:0;
-    left: 100px;
-    bottom: 0;
+    left: 45px;
+    bottom: 80px;
 }
 .button{
-  background-image: url(../images/home.png);
+ position: relative;
   background-color: #5E86AC;
   padding: 10px 40px;
   color: #ffffff;
@@ -85,14 +85,69 @@ div.name-insta a{
   text-decoration: none;
   font-size: 1em;
   margin-top: 20px;
-  display: inherit;
+  display: table-cell(30px);
   border: 2px solid #1c5380;
-  float: inherit;
+ top: 2em;
 
 }
+div.phones{
+  position: relative;
+  right: 400px;
+  bottom: 100px;
+}
+div.aside{
+  top: 200px;
+}
 
+.apartado{
+  position: relative;
+  background-color: white;
+  left:  700px;
+  bottom: 70px;
+  width: 500px;
+  height: 400px;
+  border-radius: 10px;
+  border-style: groove;
+  box-shadow: #5E86AC;
+}
 
+.aside h2{
+  text-align: left;
+  color: #49729B;
+  margin-left: 20px;
+}
 
+.aside img{
+  margin-left: 20px;
 
+}
+.aside img :first-child{
+  padding-right: 20px;
+}
 
+.aside p{
+  margin-left: 20px;
+  font-family: Medium', 'Arial Narrow', Arial, sans-serif  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue';  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-justify: auto;
+  
+}
+
+.footer ul li{
+  list-style-type: none;
+  display: inline-table;
+ 
+  margin-left: 15px;
+}
+
+.footer ul{
+  text-align: center;
+ 
+}
+
+.footer-style{
+  text-shadow: #5E86AC;
+  color: #1c5380;
+  
+}
 
