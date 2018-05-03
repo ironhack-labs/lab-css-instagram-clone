@@ -3,8 +3,93 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+html{
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+.contenedor {
+  width: 98%;
+  margin: 0 auto;
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+@media only screen and (min-width: 480px) {
+  .contenedor {
+      width: 95%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .contenedor {
+      width: 90%;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .contenedor {
+      width: 90%;
+      max-width: 1000px;
+  }
+}
+section.seccion-contenedor {
+  padding: 30px 0;
+}
+div.hero{
+  /*background-image: url(../images/frame.png);*/
+  background-color: #49729B;
+  height: 100vh;
+  background-position: top center;
+  background-size: cover;
+  position: relative;
+  margin-bottom: 0px; /*espacio entre hero y navegador*/
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 320px;
+  background-position: center center;
+}
+
+div h1{
+  font-size: 4em;
+}
+div.name-insta{
+  position: relative;
+  top:  150px;
+    right:0;
+    left: 700px;
+    bottom: 100px;
+    display: inline-block;
+
+}
+
+div.name-insta a{
+  position: relative;
+  top: 0;
+    right:0;
+    left: 100px;
+    bottom: 0;
+}
+.button{
+  background-image: url(../images/home.png);
+  background-image: none;
+  background-color: #5E86AC;
+  padding: 10px 40px;
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1em;
+  margin-top: 20px;
+  display: inherit;
+  border: 2px solid #1c5380;
+  float: inherit;
+
+}
+
+
