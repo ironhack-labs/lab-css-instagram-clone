@@ -78,7 +78,6 @@ div.name-insta a{
 }
 .button{
   background-image: url(../images/home.png);
-  background-image: none;
   background-color: #5E86AC;
   padding: 10px 40px;
   color: #ffffff;
@@ -91,5 +90,9 @@ div.name-insta a{
   float: inherit;
 
 }
+
+
+
+
 
 
