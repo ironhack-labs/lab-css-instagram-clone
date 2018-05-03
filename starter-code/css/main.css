@@ -8,3 +8,83 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+h2{
+	color: #1c5380;
+}
+
+section{
+	float: left;
+	width: 50vw;
+	margin: 0 0 0 10%;
+}
+
+.back {
+	background-color: #1c5380;
+	height: 100px;
+	padding: 100px 0 100px 100px;
+	width: 100vw;
+}	
+
+.floated-phones{
+	float:left;
+	margin: 0 75px 0 0;
+	position: relative;
+	width: 15%;
+}
+
+.floated-instagram{
+	float: left;
+	position: relative; 
+}
+
+.home-btn{
+  background-color: #769DBF;
+  color: white;
+  float: left;
+  height: 26px;
+  margin: 15px 0px 0px 80px;
+  padding:10px 10px 7px 10px ;
+  display: block;
+  position: relative;
+  box-shadow: 0px 0px 9px 0px #06365f;
+}
+
+.home-text{
+	margin: 0 10px 0 10px;
+	font-family: Helvetica;
+	font-weight: bold;
+	text-align: left;
+	float: right;
+}
+
+.box-info{
+	background-color: white;
+	float: left;
+	padding: 5px 25px;
+	margin: 10px 0 0 0;
+	width: 40vw;
+	border-radius: 10px 10px 0 0;
+	box-shadow: 0px -15px 25px -10px #06365f;
+}
+
+footer{
+	width: 100vw;
+	background-color: white;
+	padding: 100px 0 100px 80px;
+}
+
+.footer-style{
+	background-color: white;
+	margin: 10px;
+	padding: 50px;
+	width: 50vw;
+	clear: both;
+	margin: 0 0 0 10%;
+	text-transform: uppercase;
+	text-align: center;
+	color: #06365f;
+	font-weight: bold;
+	font-size: 10px;
+	word-spacing: 10px;
+}
