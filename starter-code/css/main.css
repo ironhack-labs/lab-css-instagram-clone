@@ -7,4 +7,79 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  }
+
+head {
+  background: #06365f;
+}
+
+#square {
+  
+  width:100%;
+  height:250px;
+  background: linear-gradient(#2c6797,#1c5380);
+}
+#fondobox {
+  width: 100%;
+  height: 100%;
+  position: absolute; left: 500px; top:150px;
+  padding: 35px;
+
+}
+#info {
+width: 350px;
+height: 250;
+position: relative; left: 580px; top:-80px;
+padding: 35px;
+
+}
+
+#instagram {
+  position: absolute; left:550px; top:100px; 
+  width:80%;
+  height:80%;
+
+}
+
+#home {
+  position: absolute; left:940px; top:120px; 
+  background: linear-gradient(#2c6797,#1c5380);
+  border: 5px;
+  border-color: #06365f;
+  color: white;
+  padding: 5px;
+}
+#phone {
+  position: absolute; left: 180px; top:90px;
+}
+
+h3 {
+  color: #06365f;
+}
+#texto {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: justify;
+}
+
+#apple {
+  position: absolute; left:-20px; top:400px; 
+  width:80%;
+  height:80%;
+  
+}
+
+#android {
+  position: absolute; left:170px; top:400px; 
+  width:80%;
+  height:80%;
+}
+
+
+li {
+  display: inline;
+  float: left;
+ padding: 40px;
+ color: #06365f;
+ font-variant-caps: all-petite-caps;
+font: bold;
 }
