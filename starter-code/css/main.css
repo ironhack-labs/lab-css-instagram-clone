@@ -3,8 +3,151 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+html{
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+.contenedor {
+  width: 98%;
+  margin: 0 auto;
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+@media only screen and (min-width: 480px) {
+  .contenedor {
+      width: 95%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .contenedor {
+      width: 90%;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .contenedor {
+      width: 90%;
+      max-width: 1000px;
+  }
+}
+section.seccion-contenedor {
+  padding: 30px 0;
+}
+div.hero{
+  /*background-image: url(../images/frame.png);*/
+  background-color: #49729B;
+  height: 100vh;
+  background-position: top center;
+  background-size: cover;
+  position: relative;
+  margin-bottom: 0px; /*espacio entre hero y navegador*/
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 320px;
+  background-position: center center;
+}
+
+div h1{
+  font-size: 4em;
+}
+div.name-insta{
+  position: relative;
+  top:  150px;
+    right:0;
+    left: 700px;
+    bottom: 100px;
+    display: inline-block;
+
+}
+
+div.name-insta a{
+  position: relative;
+  top: -40px;
+    right:0;
+    left: 45px;
+    bottom: 80px;
+}
+.button{
+ position: relative;
+  background-color: #5E86AC;
+  padding: 10px 40px;
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1em;
+  margin-top: 20px;
+  display: table-cell(30px);
+  border: 2px solid #1c5380;
+ top: 2em;
+
+}
+div.phones{
+  position: relative;
+  right: 400px;
+  bottom: 100px;
+}
+div.aside{
+  top: 200px;
+}
+
+.apartado{
+  position: relative;
+  background-color: white;
+  left:  700px;
+  bottom: 70px;
+  width: 500px;
+  height: 400px;
+  border-radius: 10px;
+  border-style: groove;
+  box-shadow: #5E86AC;
+}
+
+.aside h2{
+  text-align: left;
+  color: #49729B;
+  margin-left: 20px;
+}
+
+.aside img{
+  margin-left: 20px;
+
+}
+.aside img :first-child{
+  padding-right: 20px;
+}
+
+.aside p{
+  margin-left: 20px;
+  font-family: Medium', 'Arial Narrow', Arial, sans-serif  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue';  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-justify: auto;
+  
+}
+
+.footer ul li{
+  list-style-type: none;
+  display: inline-table;
+ 
+  margin-left: 15px;
+}
+
+.footer ul{
+  text-align: center;
+ 
+}
+
+.footer-style{
+  text-shadow: #5E86AC;
+  color: #1c5380;
+  
+}
+
