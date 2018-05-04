@@ -7,4 +7,100 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-color: #bfc2c4;
+}
+.phones {
+  float: left;
+  height: 450px;
+  margin: 100px 20px 20px 210px;
+  padding-top: 10px;
+}
+.header {
+  float: left;
+  height: 70px;
+  width: 60%;
+  margin-top: 100px;
+  padding-top: 10px;
+}
+.instagram {
+  float: left;
+  width: 214px;
+  padding: 5px;
+}
+.home {
+  padding: 5px;
+  margin-left: 150px;
+  width: 75px;
+  float: left;
+}
+.login {
+  float: left;
+  height: 78px;
+  width: 314px; 
+  padding: 10px;
+}
+.white {
+  color: white;
+}
+.border {
+  border: 1px solid black;
+  border-radius: 3px;
+  background: linear-gradient(#1c5380, #06365f);
+}
+.content {
+  background-image: url('../images/frame.png');
+  width: 470px;
+  height: 290px;
+  float: left;
+  padding: 0 20px;
+}
+h1 {
+  color: #06365f;
+  padding: 0 20px;
+}
+p {
+  padding: 0 20px;
+}
+.clearfix {
+  clear: both;
+}
+.left {
+  float: left;
+}
+.stores {
+  margin-top: 10px;
+  margin-left: 40px;
+}
+.margin-left {
+  margin-left: 20px;
+}
+.down-menu {
+  margin: 0 10px;
+  list-style: none;
+} 
+.down-menu a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #06365f;
+  font-weight: bold;
+}
+.regist {
+  color: #bfc2c4;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 12px;
+  margin-top: 5px;
+}
+footer {
+  margin: 50px 250px;
+}
+.background {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 300px;
+  background-color:#1c5380;
+  z-index: 1;
 }
