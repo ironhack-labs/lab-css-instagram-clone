@@ -3,8 +3,154 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+
+font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+margin: 0;
+background-image: url("./../images/bgtile.png");
+background-repeat: no-repeat;
+background-size: 150% 290px;
+    
 }
+    
+    
+.containercon{
+    
+padding: 200px;  
+margin: 50px 30%;
+    
+}
+    
+    
+.instagramcon{
+    
+display: flex;
+    
+}
+    
+    
+.instagramphones{
+
+background-color: white;
+background-image: url("./../images/phones.png");
+width: 95%;
+background-repeat: no-repeat;
+height: 700px;
+    
+}
+    
+.instagrammaincontent
+{
+padding: 0 50px;
+    
+} 
+    
+    
+
+    
+.headercon{
+    
+display: flex;
+    
+    }
+    
+    
+.maincon{
+
+background-image: url("./../images/frame.png");
+background-repeat: no-repeat;
+background-size: contain;
+padding: 30px;
+margin-top: 15px;
+width: 410px;
+
+}
+    
+    
+.maincontent h3{
+color:#06365f;
+width: 2600px;
+    
+    
+}
+    
+    
+.buttonlog{
+    
+position: relative;
+left: 72px;
+top: 20px;
+background-image: url("./../images/bgtile.png");
+background-repeat: no-repeat;
+background-size: 100% 100%;
+border:none;
+box-shadow: 0px 0px 1px 1px #06365f;
+color: white;
+font-weight: bold;
+height: 35px;
+width: 80px;
+border-radius: 5%;
+    
+    
+}
+    
+    
+.buttonlo span{
+    
+position: relative;
+top: -6px;
+    
+    
+    }
+    
+    
+    
+    
+    
+.buttonios{
+    
+background-image: url("./../images/badge-iphone.png");
+background-size: cover;
+width: 164px;
+height: 51px;
+border: none;
+
+}
+    
+    
+    
+
+.buttongo{
+
+margin-left: 20px;
+background-image: url("./../images/badge-android.png");
+background-size: cover;
+border: none;
+width: 155px;
+height: 53px;
+
+}
+    
+    
+.footer{
+
+margin-top: 100px;
+display:flex;
+justify-content: center;
+font-weight: bold;
+    
+    
+    }
+
+.footer  a {
+ margin-right: 20px;
+text-decoration: none;
+
+}
+    
+    
+    
+    
+    
+    
+    
