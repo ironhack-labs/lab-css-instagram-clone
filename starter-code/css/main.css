@@ -5,6 +5,50 @@ light blue: #1c5380
 */
 
 body {
+  background-image: url('../images/bgtile.png');
+  background-repeat: repeat-x; 
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+.main-content {
+  margin: 90px auto 0;
+}
+
+.section-left {
+  float: left;
+  padding-left: 10%;
+}
+
+.section-right {
+  float: right;
+  width: 500px;
+  padding-right: 10%;
+}
+
+.home {
+  background-color: #1c5380;
+  border: 2px solid #06365f;
+}
+
+.text-box {
+  background-color: white;
+  padding: 35px;
+  border-radius: 7px;
+}
+
+.clear {
+  clear: both;
+}
+
+.footer {
+  text-align: center;
+}
+
+ul {
+  display: -webkit-inline-box;
+}
+
+li {
+  margin-left: 40px;
 }
