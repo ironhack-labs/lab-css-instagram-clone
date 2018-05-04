@@ -1,10 +1,125 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
+
+:root {
+  --dark-blue: #06365f;
+  --ligth-blue: #1c5380;
+}
+
+* {
+  box-sizing: border-box;
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;
+}
+
+.clearfix:after {
+  content: " ";
+  display: block;
+  height: 0;
+  overflow: hidden; 
+  clear: both;
+}
+
+.wrapper {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.column-6 {
+  float: left;
+  width: 50%;
+}
+
+main {
+  padding-top: 100px;
+}
+
+/* Uncomment this and comment
+from line 49 to 56
+
+section header {
+  display: flex; 
+  justify-content: space-around;
+  align-items: center;
+}*/
+
+header > * {
+  display: inline; 
+  vertical-align: middle;
+}
+
+header button {
+  margin-left: 90px;
+}
+
+.login-button {
+  color: #ffffff;
+  font-weight: 600;
+  padding: 7px;
+  border: 1px solid var(--dark-blue);
+  background: linear-gradient(#ADDFFF, #1c5380);
+}
+
+.login-button:hover {
+  border-color: var(--ligth-blue);
+  background: linear-gradient(#1c5380, #ADDFFF);
+  -webkit-transition: all 150ms ease-in-out;
+  -moz-transition: all 150ms ease-in-out;
+  -ms-transition: all 150ms ease-in-out;
+  -o-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+}
+
+.loggin-button img {
+  vertical-align: middle;
+}
+
+h1 {
+  color: var(--dark-blue);
+  font-size: 2em;
+  padding-top: 30px;
+}
+
+#main-content {
+  background: url('../images/frame.png') no-repeat;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.downloads-container {
+  margin-top: 2em;
+}
+
+.downloads-container a:not(:first-child) {
+  margin-left: 1em;
+}
+
+footer nav {
+  margin-top: 40px;
+}
+
+footer li {
+  float: left;
+  display: block;
+  padding: 1em;
+}
+
+footer a {
+  color: var(--ligth-blue);
+  text-decoration: none;
+}
+
+footer ul {
+  color: gray;
+  list-style-type: none;
+  text-transform: uppercase;
+  font-weight: 800;
+
+}
+
+footer a:hover {
+  color: var(--dark-blue);
 }
