@@ -7,4 +7,101 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+.blue-background {
+  height: 300px;
+  background-color: #1c5380;
+}
+
+.container {
+  width: 850px;
+  margin: 0 auto;
+  position: relative;
+  bottom: 200px;
+}
+
+.left-sight {
+  float: left;
+}
+
+.right-sight {
+  float: right;
+  width: 50%;
+}
+
+.brand-foto {
+  margin-right: 20px;
+  vertical-align: middle;
+}
+
+.login-button {
+  background-color: #336b99;
+  color: white;
+  font-weight: bold;
+  width: 80px;
+  border-color: #0c2f4b;
+  line-height: 30px;
+}
+
+.frame {
+  background-image: url("../images/frame.png");
+  background-size: 100% 100%;
+  padding: 40px;
+}
+
+h1 {
+  font-size: 1.5em;
+  color: #06365f;
+}
+
+p {
+  font-size: 1em;
+}
+
+span {
+  font-weight: bold;
+}
+
+.badge {
+  margin-top: 30px;
+}
+
+.badge-iphone {
+  margin-right: 20px;
+}
+
+.clear {
+  clear: both;
+}
+
+footer {
+  width: 800px;
+  margin: 50px auto 0px auto;
+}
+
+footer ul {
+  list-style: none;
+  display: inline;
+}
+
+footer li {
+  float: left;
+  text-align: center;
+  font-size: 12px;
+  text-transform: uppercase;
+  width: 65px;
+  margin: 0 5px;
+}
+
+footer li a {
+  color: #3089d6;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.copyright {
+  color: rgba(182, 182, 182, 0.7);
 }
