@@ -1,10 +1,77 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  margin: 5%;
+  padding: 80px;
+  height: 100%;
+  background-image: url("./../images/bgtile.png");
+  background-repeat: no-repeat;
+  background-size: 100% 340px;
+}
+.phones {
+float: left;
+margin-left: 22%;
+
+}
+
+section {
+  width: 32%;
+  padding-right: 22%;
+  float: right;
+}
+
+.instagram {
+  vertical-align: middle;
+  margin-right: 17%;
+}
+
+button {
+  padding: 8px;
+  width: 18%;
+  background-color: #1c5380;
+  color: white;
+  border-style: ridge;
+  border-color: #1c5380;
+  font-weight: bold;
+
+
+}
+button > img {
+  vertical-align: middle;
+  margin-right: 4px;
+}
+
+h1 {
+  color: #06365f;
+}
+.description {
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  padding: 15px 20px;
+}
+.logos {
+  padding: 0 20px;
+}
+.logos > img {
+  margin: 0 10px;
+}
+
+footer {
+  clear: both;
+  text-align: center;
+  
+}
+ul {
+padding-top: 2%;
+}
+li {
+  display: inline;
+  text-transform: uppercase;
+  color: #1c5380;
+  font-weight: bold;
+  margin:0 10px;  
+}
+
+.copyright {
+  color: grey;
 }
