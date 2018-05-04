@@ -1,10 +1,89 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
+html {
+  min-height: 100%;
+  position: relative;
+}
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16 px;
+  font-weight: 200;
   margin: 0;
 }
+#top {
+  height: 260px;
+  background-size: cover;
+  background: linear-gradient(#1c5380, #06365f);
+}
+main {
+  display: block;
+  width: 800px;
+  height: 512px;
+  display: block;
+  margin: -12% auto 0 auto;
+}
+
+main img {
+	float:left;
+}
+
+main section {
+    width: 465px;
+    height: 512px;
+    float: right;
+    display: block;
+    margin: 0 auto;
+}
+aside button {
+  margin: 5% 0 5% 5%;
+  padding: 3px 12px;
+  float: right;
+  background: linear-gradient(#1c5380, #06365f);
+  border: 2px solid  #06365f;
+  color: #fff;
+  font-weight: 600;
+}
+
+main section div {
+  background: url("../images/frame.png");
+  background-size: cover;
+  width: 430px;
+  float: right;
+  padding:20px;
+}
+main section div img {
+	margin:auto 15px;
+	}
+main section div p {
+	margin:15px;
+	}
+
+h1 {
+  color: #06365f;
+  margin:15px;
+}
+
+footer {
+  height: 100px;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  font-weight: 600;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+}
+
+footer li{
+  float: left;
+  list-style-type: none;
+  padding: 0 8px;
+  color: #1c5380;
+}
+
+ul {
+  list-style-type: none;
+  counter-reset: item;
+  margin: 0 25%;
+  text-transform: uppercase;
+}
+
