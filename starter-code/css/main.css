@@ -8,92 +8,69 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
-.background-color{
-background-color: #1c5380;
-}
-.text-color{
-  color: #06365f;
-}
-.padding-left-30{
-  padding-left:30px;
-}
-.float{
-  float:left;
-}
-.position-relative{
-  position:relative;
-}
-.position-absolute{
-  position:absolute;
-}
-.height-40{
-  height: 40px;
-}
-.height-70{
-  height: 70px;
-}
-.height-100{
-  height: 100px;
-}
-.height-200{
-  height: 200px;
-}
-.height-400{
+.background-img{
   height: 400px;
-}
-.margin-0{
-  margin:0;
-}
-.margin-top-60{
+  float:left;
+  position:relative;
+  margin-left: 250px;
+  margin-right: 60px;
   margin-top:60px;
 }
-.margin-left-250{
-  margin-left: 250px;
-}
-.margin-left-60{
-  margin-left:60px;
-}
-.margin-right-60{
-  margin-right: 60px;
-}
-.padding-0{
-  padding:0;
-}
-.padding-left-30{
-  padding-left: 30px;
-}
-.padding-top-30{
-  padding-top:30px;
-}
-.background{
+.background-color{
+  position: absolute;
+  background-color: #1c5380;
   height: 50%;
   width:100%;
 }
 .container{
   width:35%;
+  height:400px;
+  float:left;
+  position:relative;
+  margin-top: 60px;
+}
+.brand{
+  height: 70px;
+  padding:0;
 }
 .log-in{
+  height: 100px;
   display:table-cell;
 }
 .log-in img{
   vertical-align: middle;
 }
 .button1{
+  background-color: #1c5380;
   border-color: #06365f;
+  margin-left:60px;
   vertical-align: middle;
   color:white;
+  height: 40px;
 } 
 .text{
   width:100%;
+  height: 200px;
   background-image: url("../images/frame.png");
+  padding:0;
 }
 .text h2{
+  color: #06365f;
   width:60%;
-  padding-top:20px;
+  padding-left: 30px;
+  padding-top:25px;
+  margin:0;
 }
 .text p {
   width:80%;
+  padding-left: 30px;
   font-size:15px;
+}
+.text img {
+  height: 45px; 
+}
+.padding-left-30{
+  padding-left:30px;
 }
 footer{
   clear: both;
@@ -104,6 +81,7 @@ footer a{
   text-decoration:none;
   text-transform: uppercase;
   font-size: 10px;
+  color:#06365f;
   margin: 0px 10px;
   font-weight: bold;
 }
