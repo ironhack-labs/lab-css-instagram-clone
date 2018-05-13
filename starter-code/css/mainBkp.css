@@ -11,7 +11,8 @@ light blue: #1c5380
 /*----- Body settings -----*/
 
 body {
-  background-image: url('../images/bgtile.png');  
+  background-image: url('../images/bgtile.png');
+  background-repeat: no-repeat;
   background-repeat: repeat-x;
   font: 16px/1.5 "Open Sans", sans-serif;
   margin: 0 auto;
@@ -20,13 +21,13 @@ body {
 /*----- Logo and Login -----*/
 
 .logo-instagram {
+  padding-left: 5rem;
   vertical-align: top;
-  padding-left: 5px;  
 }
 
 .login {
   background-color: #6a8ead;
-  border: 1px solid #6a8ead;  
+  border: 1px solid #6a8ead;
   border-radius: 4px;  
   color: white;
   display: inline-block;
@@ -40,7 +41,7 @@ body {
 }
 
 .login img {
-  vertical-align: top;  
+  vertical-align: top;
 }
 
 /*----- Text Content -----*/
@@ -51,7 +52,7 @@ body {
   background-size: 100%;
   padding: 6vh;
   text-align: left;
-  position: absolute;  
+  position: absolute;
   top: 10rem;
   left: 46%;
   width: 60vh;
@@ -60,40 +61,39 @@ body {
 .content-centered {
   margin: 0 auto;
   padding-top: 5rem;
-  text-align: center;  
+  text-align: center;
 }
 
 .content h2 {
   color: #06365f;
   letter-spacing: 0.05rem;
   font-size: 1.6rem;
-  font-weight: 500;  
+  font-weight: 500;
 }
 
 .content img {
-  padding-right: 20px;  
+  padding-right: 20px;
 }
 
 /*----- Footer Content -----*/
 
 #footer {
-  text-align: center;  
+  text-align: center;
 }
 
 #footer ul {
   list-style-type: none;
-  line-height: 44px;  
+  line-height: 44px;
 }
 
 #footer ul li {
   display: inline;
   padding: 1.5vh;
   color: #215888;
-  font-weight: bold;  
+  font-weight: bold;
 }
 
-/* It gives the last element special styles */
-#footer ul li:last-child { 
+#footer ul li:last-child { /* It gives the last element special styles */
   color: gray;
-  font-weight: 400;  
+  font-weight: 400;
 }
