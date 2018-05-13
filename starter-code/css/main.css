@@ -38,6 +38,14 @@ main
   padding: 10px 50px;
   margin-top: 20px;
 }
+.lower h2
+{
+  color: #06365f;  
+}
+.lower p
+{
+  font-size: 14px;
+}
 .frame
 {
   position: absolute;
