@@ -7,4 +7,38 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  padding: 100px;
+  
+  background-color: darkgrey
+}
+header{
+  background-color: lightblue
+}
+section{
+  display: inline;
+  align-content: inherit;
+}
+.brand{
+  vertical-align: center;
+}
+button{
+  background-image: url("../images/home.png");
+  background-repeat: no-repeat;
+  background-color: #1c5380;
+  background-position: left;
+  border: 1px solid white;
+  text-align: right;
+  border-radius: 5px;
+  height: 50px;
+  width: 100px;
+}
+ul{
+  list-style: none;
+  text-align: left;
+}
+li{
+  display: inline;
+}
+ul #copyrigth{
+  text-align: right;
 }
