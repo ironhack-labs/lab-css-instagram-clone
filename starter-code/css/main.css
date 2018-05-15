@@ -5,10 +5,10 @@ light blue: #1c5380
 */
 *{
   border: solid 1px; 
-
 }
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   margin: 0;
   background-color: darkgrey
 }
@@ -17,46 +17,96 @@ header{
   background-color: #06365f;
 }
 section{
+  width: 800px;
   margin: 100px;
   position: absolute;
-  top:-50px ;
-  display: inline-block;
-}
-article{
-  height: 505px;
-  position: relative;
-  display: inline-block;
+  top: -6px; 
 
+}
+aside{
+  position: relative;
+  display:inline-block;
 }
 .brand{
-
   display: inline-block;
-  position: inherit;
-  vertical-align: center;
+  position: relative;
+  vertical-align: top;
+  margin: 25px 0 0 25px; 
 }
 .imageBrand{
-
+  vertical-align: -webkit-baseline-middle;
+  height: 60%;
+  width: 60%; 
 }
 .buttonBrand{
   background-image: url("../images/home.png");
   background-repeat: no-repeat;
   background-color: #1c5380;
-  background-position: left;
-  border: 1px solid white;
-  text-align: right;
-  border-radius: 5px;
-  height: 50px;
+  background-position: 8%;
+  color: white;
+  border: #1c5380 1px solid;
+  border-radius: 5%;
+  height: 45px;
   width: 100px;
-  vertical-align:
+  display: inline-block;
+  position: relative;
+  vertical-align:center;
+  margin: 10px;
+  text-align: right;
+  font-size: 109%;
+}
+
+footer{
+  display: inline;
+
 }
 ul{
   list-style: none;
-  text-align: left;
 }
 li{
+
   display: inline;
+  vertical-align: center;
 }
 #copyrigth{
-  display: inlime;
+  position: relative;
+  display: inline;
   text-align: right;
+  vertical-align: center;
+  width: 30px;
+  height: 40px;
+  
+}
+.promo{
+  margin: 25px 0 0 25px; 
+  position: relative;
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 430px;
+  margin:10px;
+  padding: 15px;
+
+}
+h1{
+width: 70%;
+position: relative;
+margin: 25 0 0 0;
+font-size: 140%;
+font-weight:bold; 
+color: #06365f;
+text-align: center
+vertical-align: -webkit-baseline-middle;
+}
+article{
+    position: absolute;
+    top: 5px;
+    left: 320px;
+    
+}
+.store{
+  position: relative;
+  display: inline;
+  margin : 0 35px 0 30px;
+
 }
