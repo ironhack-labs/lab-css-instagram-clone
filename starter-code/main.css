@@ -1,0 +1,123 @@
+/*
+Colors to use:
+dark blue: #06365f
+light blue: #1c5380
+*/
+
+
+
+body {
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+
+}
+.background {
+  background-image: url("background color .png");
+  background-repeat: no-repeat;
+  background-repeat: repeat-x;
+  width: 100%;
+  height: 100%;
+  background-color: #f5f5f5;
+  margin: 0 auto;
+  float: left;
+}
+.general {
+  position: static;
+  
+  width: 1000px;
+  height: 500px;
+  margin: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.phone {
+  float: left;
+}
+.section {
+  width: 60%;
+  height: 100%;
+  float: left;
+  margin-left: 80px;
+}
+.title {
+  float: left;
+  width: 90%;
+}
+.title img{
+  padding-top: 10px;
+}
+.content {
+  float: left;
+  background-image: url("frame.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 90%;
+}
+.content h1 {
+  padding: 30px;
+  padding-top: 15px;
+  color: #1c5380;
+  padding-right: 230px;
+  padding-bottom: 10px;
+  margin-bottom: 0pX;
+}
+.content p {
+  padding: 30px;
+  padding-top: 0px;
+  margin-top: 0px;
+  width: 85%;
+
+}
+
+.login {
+  float: right;
+  margin-right: 30px;
+  margin-top: 30px;
+  width: 100px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background: linear-gradient(#466f94, #235d8d, #1c5380);
+  color: rgba(255, 255, 255, 0.719);
+  font-weight: 500;
+  border: solid 1px;
+  border-color: rgba(61, 59, 59, 0.164);
+}
+.login img {
+float: left;
+padding-left: 8px;
+}
+.storeLogos {
+  margin-left: 40px;
+  float: left;
+}
+.storeLogos img {
+  margin-right: 40px;
+}
+
+.footerList li {
+  display: block;
+  display: inline;
+  padding: 10px;
+
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #1c5380;
+  font-weight: 500;
+  
+}
+.footer {
+  padding-bottom: 100px;
+}
+.footer p {
+  float: right;
+  
+}
+.info{
+  color: gray;
+}
