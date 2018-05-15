@@ -3,8 +3,103 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
+* {
+}
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", sans-serif;
   margin: 0;
+}
+header {
+  height: 300px;
+  background-color: #06365f;
+}
+section {
+  width: 800px;
+  margin: 100px;
+  position: absolute;
+  top: -6px;
+}
+aside {
+  position: relative;
+  display: inline-block;
+}
+.brand {
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+  margin: 25px 0 0 25px;
+}
+.imageBrand {
+  vertical-align: -webkit-baseline-middle;
+  height: 60%;
+  width: 60%;
+}
+.buttonBrand {
+  background-image: url("../images/home.png");
+  background-repeat: no-repeat;
+  background-color: #1c5380;
+  background-position: 8%;
+  color: white;
+  border: #1c5380 1px solid;
+  border-radius: 5%;
+  height: 45px;
+  width: 100px;
+  display: inline-block;
+  position: relative;
+  vertical-align: center;
+  margin: 10px;
+  text-align: right;
+  font-size: 109%;
+}
+
+footer {
+  display: inline;
+}
+ul {
+  list-style: none;
+  margin: 40px 0 0 130px;
+}
+li {
+  display: inline-block;
+  vertical-align: center;
+  color: #06365f;
+  font-weight: bold;
+  font-size: 80%;
+  margin: 0 5px;
+}
+#copyright {
+  color: grey;
+}
+.promo {
+  margin: 25px 0 0 25px;
+  position: relative;
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 430px;
+  margin: 10px;
+  padding: 15px;
+}
+h1 {
+  width: 70%;
+  position: relative;
+  margin: 25 0 0 0;
+  font-size: 150%;
+  font-weight: bold;
+  color: #06365f;
+  vertical-align: -webkit-baseline-middle;
+}
+article {
+  position: absolute;
+  top: 5px;
+  left: 320px;
+}
+.store {
+  position: relative;
+  display: inline;
+  margin: 0 35px 0 30px;
+}
+strong{
+  font-weight: bold;
 }
