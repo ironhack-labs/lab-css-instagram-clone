@@ -5,6 +5,96 @@ light blue: #1c5380
 */
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 200 15px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: linear-gradient(#417D9D,#3F5F7F) no-repeat;
+  background-size: 100% 46%;
+}
+
+.hcenter {
+  margin: 0 auto;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.content {
+  margin-top: 10%;
+  width: 850px;
+}
+
+.main-image {
+  width: 325px;
+  float: left;
+}
+
+.header {
+  margin: 20px 0;
+}
+
+.log-in-btn {
+  height: 40px;
+  width: 100px;
+  float: right;
+  margin: 18px 0 0 0;
+  background: linear-gradient(#619DBD,#4F6F8F) no-repeat;
+  /* border: 2px solid #3E5E7E; */
+  border: none;
+  box-shadow: 0 0 1px 1px #3E5E7E;
+  border-radius: 3px;
+  font-weight: 500;
+  color: #DDD;
+}
+
+.log-in-btn .home-icon {
+  float: left;
+}
+
+.log-in-btn span {
+  line-height: 23px;
+}
+
+.content-right {
+  width: 500px;
+  float: right;
+}
+
+.text-box {
+  padding: 15px 40px;
+  background: url("../images/frame.png") no-repeat;
+}
+
+.text-box h2 {
+  width: 60%;
+  color: #1C5380;
+}
+
+.text-box span {
+  font-weight: 800;
+}
+
+.store {
+  display: inline-block;
+  margin: 15px 10px;
+}
+
+footer {
+  text-align: center;
+  margin: 40px 0 0 0;
+}
+
+footer ul li {
+  display: inline;
+  list-style: none;
+  font-size: 12px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #CCC;
+  margin: 0 10px;
+}
+
+footer ul li a {
+  color: #4C83B0;
+  text-decoration: none;
 }
