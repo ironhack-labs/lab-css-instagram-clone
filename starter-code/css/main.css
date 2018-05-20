@@ -7,4 +7,86 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: url('../images/bgtile.png') repeat-x;
+}
+
+.container {
+  height: 550px;
+  width: 900px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.phone-img-container {
+  width: 40%;
+  float: left;
+}
+
+.text-container {
+  width: 60%;
+  float: right;  
+}
+
+.text-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.text-header button {
+  padding: 5px;
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom, #708FAE, #385A80);
+  border: 1px solid #06365f;
+  border-radius: 5%;
+}
+
+.text-header button img,
+.text-header button p {
+  display: block;
+  float: left;
+  margin: 0 5px;
+  color: whitesmoke;
+}
+
+.text-content {
+  background-color: whitesmoke;
+  padding: 30px;
+  border-radius: 1%;
+}
+
+.text-content h2 {
+  color: #06365f;
+}
+
+.text-container p span {
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+}
+
+footer ul {
+  margin: 0;
+  padding: 0;
+  display:inline-block;
+  list-style: none;
+}
+
+footer ul li {  
+  display: inline-block;
+  float: left;
+  padding: 10px;  
+}
+
+footer ul li a {
+  display: block;
+  padding: 5px 5px;  
+  text-decoration: none;
+  color: #1c5380;  
 }
