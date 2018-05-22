@@ -54,7 +54,7 @@ img{
 }
 
 .brandLogo{
-  background-image: url("~/../../images/brand.png");
+  background-image: url("./../images/brand.png");
   /* background-repeat:   no-repeat; */
   float:left;
   width: 315px;
@@ -63,7 +63,7 @@ img{
 }
 
 .homeLogo{
-  background-image: url("~/../../images/home.png");
+  background-image: url("./../images/home.png");
   background-repeat:   no-repeat;
   float:left;
   width: 50px;
@@ -90,12 +90,16 @@ img{
   position:absolute;
   left:0px;
   bottom:0px;
-  height:100px;
+  height:50px;
   width:100%;
   text-align: center;
+  color: #1c5380;
+  padding-top: 50px;
   /* background:#999; */
+  
 }
 
 h2{
   color: #06365f;
 }
+
