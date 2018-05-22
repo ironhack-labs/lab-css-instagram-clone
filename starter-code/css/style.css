@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600');
+
+/*
+Colors to use:
+dark blue: #06365f
+light blue: #1c5380
+*/
+
+body {
+    font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    background-color: #1c5380;
+    height: 250px;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    width: 900px;
+    height: 550px;
+    position: relative;
+    bottom: 190px;
+}
+
+.login {
+    background-color:#678daa;
+    border-color: #376185;
+    color: white;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.introduction {
+    position: relative;
+    top: 50px;
+}
+
+.right {
+    margin-left: 30px;
+    border: solid;
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+.header {
+    align-items: center;
+}
+
+.img-logo {
+    float: left;
+}
+
+
+.footer {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: "Montserrat";
+    font-weight: 600;
+    padding-bottom: 50px;
+    position: relative;
+    bottom: 200px;
+}
+
+.footer span{
+    margin-left: 10px;
+    color: #1c5380;
+}
