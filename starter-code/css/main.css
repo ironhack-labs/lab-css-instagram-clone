@@ -2,9 +2,118 @@
 Colors to use:
 dark blue: #06365f
 light blue: #1c5380
+background: linear-gradient(#1c5380, #06365f);
 */
+
+
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+h1 {
+  color: #06365f;
+  margin-bottom: 0;
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  
 }
+/*---COMPLETE PAGE SECTION---*/
+#page {
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;
+}
+
+/*UPPER PART OF PAGE*/
+.upper-part {
+  display: flex;
+  justify-content: center;
+  padding: 120px;
+
+}
+.phone-img {
+  padding-right: 40px;
+}
+/*right-area*/
+.text-content {
+  display: flex;
+  flex-direction: column;
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 10px 40px;
+}
+
+.brand-logo-button {
+  margin: auto;
+  padding-top: 15px;
+  display: flex;
+  flex-direction: row;
+}
+.login-btn {
+  display: flex;
+  width: 120px;
+  height: 45px;
+  border-radius: 3px;
+  background-color: #1c5380;
+  border: 1px solid;
+  margin: auto;
+  text-align: center;
+  line-height: 45px;
+  font-size: 1.1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../images/bgtile.png);
+  background-size: cover;
+}
+.login-btn > img {
+  height: 25px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+}
+
+.store {
+  display: flex;
+  padding: 0px 27px;
+
+
+}
+.store-img {
+  padding: 0px 12px;
+}
+
+footer {
+  display: flex;
+
+}
+.footer-ul {
+  display: flex;
+  margin: auto;
+
+}
+
+.footer-li, .footer-li a {
+  margin: 0px 6px;
+  list-style-type: none;
+  display: flex;
+  color: #1c5380;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 0.9em
+}
+#copyright {
+  color: grey;
+  padding-left: 10px;
+} 
+
+
+/*
+for button?
+line-height as high as the box itself, makes it vertically. 
+There are dangers though
+*/
