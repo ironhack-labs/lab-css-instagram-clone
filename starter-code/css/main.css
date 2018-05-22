@@ -4,7 +4,108 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+* {
+  /* border: 1px solid red; */
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;
+}
+
+h1 {
+  color: #06365f;
+  font-size: 20px;
+  line-height: 1.3em;
+}
+
+p {
+  font-size: 15 px;
+}
+
+.container {
+  width: 820px;
+  margin: auto;
+  padding: 50px 0;
+}
+
+.left-col {
+  float: left;
+  width: 350px
+}
+
+.right-col {
+  float: left;
+  width: 400px;
+  margin: 20px;
+}
+
+.logo-box {
+ float: left;
+ padding: 15px;
+}
+
+.login-box {
+  float: right;
+  padding: 15px;
+  margin: 5px 0px; 
+ }
+
+ .text-box {
+  clear: both;
+  background-color: white;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 15px;
+  box-shadow: 2px 2px 2px lightgray;
+ }
+
+.brand-img {
+  width: 250px;
+}
+
+.home-img {
+  margin: 5px 5px;
+  height: 18px;
+  vertical-align: middle;
+}
+
+.badge-img {
+  height: 35px;
+}
+
+button {
+  padding-right: 15px;
+  border: none;
+  color: white;
+  font-weight: 400;
+  border:1px solid #1c5380;
+  background-color: #1c5380; 
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#1c5380), to(#7089B3));
+}
+
+.footer {
+  clear: both;
+  margin: 0 auto;
+  /* width: 600px; */
+  color: #1c5380;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.footer ul {
+  list-style-type: none;
+}
+
+.footer li {
+  display: inline;
+  margin: 0px 5px;
+}
+
+.copyright {
+  color: grey;
 }
