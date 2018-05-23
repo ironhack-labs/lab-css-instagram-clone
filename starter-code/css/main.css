@@ -4,7 +4,105 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
-body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+* {
+  box-sizing: border-box;
   margin: 0;
+}
+
+body {
+  background: url(../images/bgtile.png) repeat-x;
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding-top: 5rem;
+}
+
+.wrapper {
+  width: 78vw;
+  margin: 0 auto;
+}
+
+.left {
+  float: left;
+  width: 35%;
+}
+.left > img {
+  width: 100%;
+}
+.right {
+  float: right;
+  width: 60%;
+}
+
+.right > .header {
+  padding: 0 .6rem 0 .3rem;
+}
+.right > .header > h1 {
+  float: left;
+}
+.right > .header > button {
+  float: right;
+  color: #fff;
+  font-size: .9rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  background: linear-gradient(#6992b2, #3d719a);
+  border: 1px solid #275b85;
+  border-radius: 3px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, .1), 
+    -1px -1px 4px rgba(0, 0, 0, .1), 
+    inset 1px 1px 1px rgba(255, 255, 255, .1), 
+    inset -1px -1px 1px rgba(255, 255, 255, .1);
+  outline: none;
+  cursor: pointer;
+  padding: .6rem 1rem .7rem .7rem;
+  margin-top: 1rem;
+}
+.right > .header > button > img {
+  vertical-align: middle;
+  margin-right: .7rem;
+}
+
+.right > .frame {
+  clear: both;
+  background: url(../images/frame.png) no-repeat;
+  background-size: contain;
+  padding:   2rem 2.5rem;
+}
+.right > .frame > h2 {
+  color: #06365f;
+  margin-bottom: 1rem;
+}
+.right > .frame > p {
+  margin-bottom: .8rem;
+}
+.right > .frame > p:last-of-type {
+  margin-bottom: 2rem;
+}
+.right > .frame > a:first-of-type {
+  margin-right: 1rem;
+}
+
+footer {
+  clear: both;
+  width: 80vw;
+  text-align: center;
+  font-weight: bold;
+  font-size: .9rem;
+  text-transform: uppercase;
+  padding: 5rem 4rem 2rem;
+  margin: 0 auto;
+}
+footer > ul {
+  list-style: none;
+}
+footer > ul > a > li,
+footer > ul > li {
+  float: left;
+  list-style: none;
+  margin-right: 1rem;
+}
+footer > ul > a > li {
+  color: #1c5380;
+}
+footer > ul > li {
+  color: #333;
 }
