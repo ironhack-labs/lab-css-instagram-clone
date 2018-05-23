@@ -8,3 +8,67 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+h1{
+  color: #06365f;
+}
+
+.page {
+  background: linear-gradient(#1c5380 30%, white 10%);
+  position: absolute;
+}
+.left {
+  padding: 110px 110px 80px 110px;
+  float: left;
+}
+.right {
+  float: left;
+  width: 38%;
+  padding: 110px 10px 0px 0px;
+}
+.content {
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  position: relative;
+  padding: 35px;
+ }
+  footer ul li {
+    color: #1c5380;
+    text-transform: uppercase;
+    list-style-type: none;
+    padding: 10px; 
+    font-size: 11px;
+    display: inline;
+
+  }
+
+  footer{
+    clear: both;
+    text-align: center;
+  }
+
+.store {
+  padding: 0px 35px 30px 35px;
+}
+
+.downloadImg {
+  padding: 0px 15px 0px 0px;
+}
+.instaGrey {
+  color: darkgray;
+}
+
+.btnLogIn {
+  position: relative;
+}
+
+.link-btn {
+  background: linear-gradient(#9bbedb88,#4f779788) ;
+  color: white;
+  font-size: 12px;
+  text-align: center;
+  text-decoration: none;
+  width: 100px;
+  padding: 5px 5px;
+  border: 2px solid #06365f 0.2;
+
+}
