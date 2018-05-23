@@ -28,7 +28,8 @@ img{
   float: left;
   /* background-repeat:   no-repeat; */
   margin-top: 20vh;
-  margin-left: 10vw;
+  margin-left: 10%;
+  margin-right:5%;
   width: 25%;
   height: 600px;
 }
@@ -36,8 +37,8 @@ img{
 .rightBar{
   float: left;
   margin-top: 20vh;
-  margin-left: 5vw;
-  width: 44%;
+  margin-left: 5%;
+  width: 45%;
   height: 600px;
 }
 
