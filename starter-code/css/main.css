@@ -7,4 +7,100 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  /* text-align: center; */
+  
 }
+
+img{
+  /* width: 100%; */
+}
+
+.page{
+  background: linear-gradient( #1c5380 40%, white 10%);
+  position: absolute;
+  z-index: -1;
+
+}
+
+.leftBar{
+  /* background-image: url("~/../../images/phones.png") ; */
+  /* background-size: auto; */
+  float: left;
+  /* background-repeat:   no-repeat; */
+  margin-top: 20vh;
+  margin-left: 10%;
+  margin-right:5%;
+  width: 25%;
+  height: 600px;
+}
+
+.rightBar{
+  float: left;
+  margin-top: 20vh;
+  margin-left: 5%;
+  width: 45%;
+  height: 600px;
+}
+
+.rightHeader{
+  height: 100px;
+}
+
+.rightCotent{
+  height: 350px;
+}
+
+.rightStore{
+  height: 100px;
+}
+
+.brandLogo{
+  background-image: url("./../images/brand.png");
+  /* background-repeat:   no-repeat; */
+  float:left;
+  width: 315px;
+  height: 80px;
+
+}
+
+.homeLogo{
+  background-image: url("./../images/home.png");
+  background-repeat:   no-repeat;
+  float:left;
+  width: 50px;
+  height: 50px;
+  margin: 30px 0px 20px 50px;
+}
+
+.frame{
+  background-image: url("~/../../images/frame.png");
+  /* background: #00D; */
+  background-repeat:   no-repeat;
+  float: left;
+  width: 90%;
+  height: 280px;
+  /* margin: 20px 20px; */
+  text-align: left;
+  padding: 0 0 0 20px;
+
+}
+
+
+.footer {
+  
+  position:absolute;
+  left:0px;
+  bottom:0px;
+  height:50px;
+  width:100%;
+  text-align: center;
+  color: #1c5380;
+  padding-top: 50px;
+  /* background:#999; */
+  
+}
+
+h2{
+  color: #06365f;
+}
+
