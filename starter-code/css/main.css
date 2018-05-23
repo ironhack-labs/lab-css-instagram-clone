@@ -4,7 +4,80 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
-body {
+.body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  margin: 5px;
+  padding: 6% 2% 2% 2%; 
+}
+.footer {
+  height: 30px;
+  min-width: 725px;
+  padding: 50px 25px 10px 25px;
+  width: 100%;
+  text-align: center;
+}
+.clear{
+  clear: both;
+}
+.lightBlueText{
+  color: #1c5380;
+  font-weight: 600;
+  word-spacing: 8px;
+}
+.grey{
+  color: grey;
+  font-weight: 600;
+  word-spacing: 8px;
+}
+.dark-blue{
+  color: #06365f;
+  font-weight: 600;
+  word-spacing: 8px;
+}
+.white{
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 3px 4px;
+}
+.left-bar {
+  float: left;
+  width: 30%;
+  padding: 0% 1% 0% 16%;
+}
+.right-bar {
+  float: left;
+  width: 36%;
+  padding: 0% 17% 0% 0%;
+}
+.left-pic {
+  float: left;
+  width: 60%;
+  padding: 2% 10% 2% 0%;
+}
+.right-pic {
+  float: left;
+  width: 20%;
+  padding: 7% 0% 2% 5%;
+}
+.float-img {
+  float: left;
+  width: 50%;
+}
+.main{
+  padding: 10px 10px 10px 10px;
+  background: linear-gradient(#1c5380, white 60%);
+}
+.whiteBG{
+  background:  white;
+}
+.bold{
+  font-weight: 600;
+}
+.home{
+  background-color: #1c5380;
+  padding: 2% 3% 6% 2%;
+}
+.moveDown{
+  padding: 8% 0% 0% 0%;
 }
