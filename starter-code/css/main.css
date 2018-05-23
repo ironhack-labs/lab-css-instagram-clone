@@ -16,7 +16,7 @@ body {
 }
 
 .wrapper {
-  width: 78vw;
+  max-width: 78vw;
   margin: 0 auto;
 }
 
@@ -96,7 +96,7 @@ footer > ul {
 }
 footer > ul > a > li,
 footer > ul > li {
-  float: left;
+  display: inline-block;
   list-style: none;
   margin-right: 1rem;
 }
