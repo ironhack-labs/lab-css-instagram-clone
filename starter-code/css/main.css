@@ -8,3 +8,120 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.header {
+  margin:0;
+  /* background-color:#1c5380;
+   */
+   background-image: url(../images/bgtile.png);
+   background-repeat: repeat-x;
+   height:500px;
+}
+
+.logo {
+
+  width: 45%;
+
+}
+
+.login {
+  /* background-color:#2a76b4; */
+  background:linear-gradient(#2a76b4,#1c5380) ;
+  margin-left: 42px;
+  margin-top: 12px;
+  padding: 10px;
+  border: 1px solid #1c5380;
+  color:white;
+  font-size: large;
+
+
+}
+
+.headerlogo {
+  display: inline-block;
+  vertical-align:text-top;
+}
+
+.header section {
+  padding-top: 100px;
+  padding-left:500px;
+}
+
+.login a {
+  margin-left: 5px;
+  text-decoration: none;
+  color:white;
+}
+
+.phoneimg {
+  /*margin: -300px 1000px 0 40px;*/
+  clear:both;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
+
+
+.text {
+  margin: -300px 260px 20px 500px;
+  padding: 5px 30px;
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  /* background-size: cover; */
+  /* background-clip: content-box; */
+  height: 400px;
+  /* width: 50%; */
+} 
+
+.text h2 {
+  color: #06365f;
+}
+
+.badge-iphone {
+  background-image: url(../images/badge-iphone.png);
+  /* float:left; */
+}
+
+.badge-android {
+  background-image: url(../images/badge-android.png);
+}
+
+.dimensionimg {
+  height: 51%;
+  margin: 20px 10px;
+  width: 40%;
+  background-repeat: no-repeat;
+   display: inline-block;
+
+}
+.text2 {
+  /* background-color: yellowgreen; */
+  height: 100px;
+  margin: 40px 10px;
+
+}
+.footer {
+  margin-top: 80px;
+  margin-left:200px;
+}
+
+.footer-bar {
+  list-style-type: none;
+}
+
+.footer-bar-li { 
+  float: left;
+  margin:0 10px;
+}
+
+.footer-bar-li a {
+  color:#1c5380;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.lastli {
+  color: grey;
+}
+
