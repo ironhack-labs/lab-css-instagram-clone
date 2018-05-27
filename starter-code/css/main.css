@@ -65,27 +65,34 @@ img{
 }
 
 .home{
-  margin: 10% 0px 0px 0px;
-  text-align:center;
   float:left;
+  margin-left: -20px;
 }
 
 .login{
   color: #FFFFFF;
   font-size: 14px;
   font-weight:600;
-  margin-right: 0 0 5px 5px;
-  text-align:right;
+  text-decoration: none;
+  line-height: 40px;
+  margin-top: -10px;
+  margin-right: -10px;
 }
 
 .button{
-  background: linear-gradient(180deg, #FFFFFF 1%, #1c5380 99%);;
+  background: linear-gradient(180deg, #146fa8 1%, #1c5380 99%);;
   border: 1px solid #06365f;
+  float: left;
+  margin-top: 15px;
   margin-left: 50px;
-  width: 100px;
+  width: 120px;
   height: 40px;
-  border-radius: 5%;
-}
+  border-radius: 4%;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 40px;
+  border: solid #1f628d 1px;
+  }
 
 .badge{
   float:left;
