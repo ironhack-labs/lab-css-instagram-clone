@@ -8,3 +8,106 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.blue-background{
+  padding-top: 20%;
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;
+  height: 300px;
+}
+
+.brand {
+  display: block;
+  margin-left: 45%;
+  margin-right: auto;
+  margin-top: -12%;
+}
+
+.bouton {
+  display: block;
+  position: relative;
+  margin-left: 76%;
+  width: 7%;
+  margin-top: -4%;
+  height: 35px;
+  background-color: rgb(60,105,142);
+  border-radius: 3px;
+}
+
+.box{
+  margin-top : -27%;
+  width: 40%;
+  display: block;
+  margin-left: 45%;
+  margin-right: auto;
+}
+
+.badge {
+display: inline-block;
+margin-left: 10%;
+}
+
+.height{
+  height: 100%;
+}
+
+.before-footer {
+  height: 100px;
+}
+
+.phone {
+  margin-top : -4%;
+  margin-left: 10%;
+}
+
+.padding-box {
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+nav {
+  margin-right: auto;
+  margin-left: auto;
+  width: 40%;
+}
+
+.badge2{
+  margin-left:15px;
+}
+
+.nav-link {
+  margin-left: 7px;
+  font-size: 14px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+h1 {
+  margin-top : -55%;
+  width: 90%;
+  margin-left: auto;
+}
+
+.inside-box {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.home{
+  margin-left: -70%;
+  height: 15px;
+  margin-right: 6px;
+  margin-top:10%;
+}
+.home-button{
+  margin-top: -21%;
+  margin-left: 11%;
+  font-size: 11px;
+  color: rgb(215, 224, 231);
+  font-weight: bold ;
+}
