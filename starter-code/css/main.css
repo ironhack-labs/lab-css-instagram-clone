@@ -8,3 +8,113 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+header{
+  height: 250px;
+  background-size:cover;
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat(x);
+  /* background: linear-gradient(0deg,rgba(6, 54, 95,1),rgba(13, 146, 255, 0.7) );
+  We tried playing with the colors, the gradient and the transparency = no success.*/
+}
+
+section{
+  margin: 100px;
+  position:absolute;
+  top:2%;
+  display:flex;
+  flex-flow: row;
+  justify-content: space-between;
+  /* border: 2px solid black; */
+}
+
+.flexContainer{
+  /* size: 100px; */
+  list-style:none;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  /* justify-content: center; */
+}
+ul{
+  text-decoration-style: none;
+}
+footer{
+  width: 600px;
+  margin: 32% 25% 0 ;
+  text-transform: uppercase;
+  color: #1c5380;
+  font-size: 12px ;
+
+  /* border: 2px solid black; */
+  /* display: flex;
+  flex-direction: row; */
+}
+
+.leftBar{
+  /* border: 2px solid black; */
+}
+
+.rightBar{
+  width: 60%;
+  length : 60%;
+  display:flex;
+  flex-flow: column;
+  justify-content: space-between;
+
+  /* border: 2px solid black; */
+}
+
+.brandBar{
+  margin: :auto;
+  display:flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+
+  /* border: 2px solid black; */
+}
+
+.space{
+  margin: auto;
+}
+
+.textCadre{
+  margin: auto;
+  /* border: 2px solid black; */
+}
+
+.paragraph{
+  background-image: url(../images/frame.png);
+  background-size: cover;
+  padding: 1.5% 6%;
+  /* border: 2px solid black; */
+}
+h1{
+  color: #06365f;
+}
+
+button{
+  background: linear-gradient(rgba(6, 54, 95,10),rgba(28, 83, 128,30));
+  border: 1px inset;
+  position: relative;
+  border-radius: 5px;
+  color: white;
+  width: 110px;
+  height: 40px;
+}
+.text{
+  /* border: 2px solid black; */
+}
+
+.download{
+  padding: 0 6%;
+}
+
+span{
+  color: grey;
+}
+
+link{
+  text-decoration: none;
+}
