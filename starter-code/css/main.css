@@ -17,9 +17,8 @@ h1 {
 
 h2 {
   color: #06365f;
-  font-size: 36px;
-  width: 370px;
-  padding-left: 12px;
+  font-size: 28px;
+  width: 296px;
 }
 
 .container {
@@ -28,60 +27,58 @@ h2 {
   justify-content: space-around;
   margin: 0 auto;
   height: 800px;
-  width: 1200px;
+  width: 972px;
 }
 
 .flex {
   order: 2;
   display: flex;
   flex-direction: column;
+  margin: auto 0;
 }
 
 p {
-  font-size: 20px;
+  font-size: 16px;
   margin: 16px auto;
 }
 
 .text {
-  width: 640px;
-  margin: 0 auto;
-  padding-top: 30px;
+  width: 430px;
+  margin: 0 40px;
+  padding-top: 16px;
 }
 
 .logo {
-  box-sizing: content-box;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-self:flex-start;
-  width: 770px;
+  width: 542px;
 }
 
 button {
   align-self: center;
-  background: #1c5380;
+  background-color: #1c5380;
   border: none;
   color: white;
   padding: 12px 16px;
   font-size: 16px;
   font-weight: bold;
   border-radius: 2px;
-  background: linear-gradient(#1c5380,#06365f);
+  background: linear-gradient(#06365f,#1c5380);
 }
 
 .content {
   order: 3;
   box-sizing: content-box;
   height: 500px;
-  width:  800px;
   background-image: url('../images/frame.png');
   background-repeat: no-repeat;
-  background-size: 800px, 500px;
-  margin: auto;
+  background-size: 548px;
 }
 
 .content img {
-  margin-top: 50px;
+  margin-top: 16px;
+  margin-right: 24px;
 }
 
 p + em {
@@ -91,12 +88,11 @@ p + em {
 .phones {
   order: 1;
   align-self: center;
-  box-sizing: content-box;
-  height: 500px;
+  height: 656px;
 }
 
 footer {
-  width: 800px;
+  width: 816px;
   margin: 0 auto;
 }
 
@@ -107,6 +103,7 @@ footer {
   align-content: center;
   list-style-type: none;
   text-transform: uppercase;
+  font-size: 14px;
 }
 
 .nav-bottom li {
