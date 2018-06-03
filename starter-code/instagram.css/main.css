@@ -3,7 +3,9 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
+body{
+font-family: Arial, Helvetica, sans-serif;
+}
 
 .nav {
 font-weight: 100;
@@ -12,7 +14,7 @@ background-color: #1c5380;
 height: 250px;
 width: 1500px; 
 padding-left: 100px;
-padding-top: 150px;
+padding-top: -15px;
 }
 
 
@@ -21,36 +23,47 @@ display: flex;
 flex-flow: column;
 flex-wrap: nowrap;
 -webkit-flex-wrap: nowrap;
-text-decoration: none;
 background-color: white;
 height: 450px;
-width: 250px;
-padding-left: 700px;
-padding-top: 50;
+width: 450px;
+padding-left: 600px;
+padding-right: 100px;
+padding-top: 0;
 } 
-
+.capture{
+color:#1c5380;
+font-size: 32px;
+padding-right: 115px;
+}
+.flex-item{
+  display: flex;
+  text-decoration: none; 
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
 .flex-item1{
+color: white;
+padding-right: 20px;
 display: flex;
-padding-top: 0px;
-padding-right: 30px;
-padding-bottom: 0px;
-   
+
 }
 .flex-item2{
   display: flex;
-  padding-right: 30px;
-  padding-left:30px;
+  padding-right: 74px;
+  padding-left:8px;
   padding-top: 6px;
   padding-bottom: 6px;
   border: 1px solid;
   margin: 1px;
   border-color: #06365f;
+  border-radius: 5px;
+  box-shadow: 2px;
   height: 33px;
 }
 
-  .flex-item4{
+  .flex-item3{
     display: flex;
-    padding-top: 10px;
+    padding-top: 30px;
     padding-right: 30px;
     padding-bottom: 13px;} */
 
@@ -86,11 +99,11 @@ flex-wrap: nowrap;
 justify-content: flex-end;
 padding-right: 580px;
 padding-top: 100px;
-
-} 
+}
 
 .flex-footer {
   display: flex;
+  text-decoration: none;
   flex-flow: row;
   -webkit-flex-wrap: nowrap;
   flex-wrap: nowrap;
@@ -98,14 +111,10 @@ padding-top: 100px;
   justify-content: space-between;
   padding-right: 435px;
   padding-left: 275px;  
-
 } 
 .flex-foot{
   display: flex;
-  color:#375f80;
-  padding-top: 0px;
-  padding-right: 00px;
-  padding-bottom: 0px;
+  color:#1c5380;
 }
 .flex-reg{
   display: flex;
