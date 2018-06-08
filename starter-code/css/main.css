@@ -7,12 +7,13 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-color: #F6F7F9;
 }
 
 .header {
-    width: 1500px;
-    height: 300px;
-    display: block;
+  width: 100%;
+  height: 272px;
+    /* display: block; */
     background-color:#1c5380
     
 
@@ -25,20 +26,41 @@ background-size: 700px;
   float: right;
   height:350px;
   top: 250px;
-  margin: 10px 10px 10px 10px;
-  margin-top: -55px;
-  padding:0;
-  width: 700px;
+  /* margin-top: -55px; */
+  margin: 0 auto;
+  padding-left: 3%;
+  width: 775px;
 border-radius: 12px;
+margin-top: -102px;
 }
 
 .insta{
-  margin-top: -700px;
+  margin-top: -60%;
+  margin-bottom: 5%;
+  height: max-content;
+  /* position: static; */
+}
+
+.login { 
+  margin-top: -80%;
+  margin-bottom: 9%;
+  height: max-content;
+  border-color: #295B7F;
+  border-radius: 9%;
+  width: 11%;
+  /* text-decoration: bold; */
+  height: 11%;
+  background-color:#6A91AC;
+  image: url("../images/home.png");
+  color:#DEE6EC;
+  
 }
 
 .phones {
   float: right;
-  margin-top: -55px;
+  margin-top: -193px;
+  height: 65%;
+  padding-right: 2%;
 }
 
 
