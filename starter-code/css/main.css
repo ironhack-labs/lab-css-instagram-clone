@@ -13,48 +13,80 @@ body {
 
 .wrapper{
   width: 980px;
- /* max-width: 100%;*/
-  margin:50px auto;
+  max-width: 100%;
+  margin: 100px auto 0;
 }
 
-ul{
-  float: left;
-}
-ul li{
-
-  display: inline-block;
-  list-style-type: none; 
-  text-transform: uppercase;
-}
-
- a {
-  text-decoration: none;
-  color:#7998b3;
-}
-.copy{
-  padding: 15px;
-  float:left;
-}
 .col{
-  width: 33%;
+  width: calc(40%-980px);
   float: left;
 }
 .col-2{
-  width: 66%;
+  width: 500px;
+  float: right;
+}
+
+.logIn {
   float: left;
+  margin: 0 20px 0 20px;
+  padding-left: 30px;
 }
 .logIn p{
   float: left;
+  bottom: 6px;
+  font-size: 13px;
+}
+.logIn img{
+  float: left;
+  padding-top: 5px;
+  padding-right: 5px;
 }
 .text{
-  background: url("../images/frame.png") no-repeat;
+  background: url(../images/frame.png) no-repeat;
   padding: 40px;
   background-size: cover;
+  /* border-radius: 45%; */
+  margin: 30px 0 20px;
+}
+.text img {
+  padding-right: 20px;
 }
 
+.text h1 {
+  color: #06365f;
+  line-height: 1em;
+ 
+}
 .button{
-float: left;
+
+background-color: #4e7394;
+border: 1px solid #1c5380;
+border-radius: 2px;
+float: right;
+margin-top: 20px;
+padding: 5px 8px;
+width: 90px;
+height: 40px;
 }
-footer{
-  padding: 0 auto;
+
+footer ul {
+  list-style-type: none;
+  text-align: center;
+  clear: both;
 }
+footer ul li{
+  display: inline-block;
+  color: #B8B8B8;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: bold;
+  margin: 0 8px;
+}
+footer ul li a {
+  text-decoration: none;
+  color: #7998b3;
+}
+.clearfix {
+  clear: both;
+}
+
