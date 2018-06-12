@@ -8,3 +8,50 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+.container{
+  box-sizing: border-box;
+  margin: 0 auto;
+  position: relative;
+}
+header{
+  height: 280px;
+  width: 100%;
+  background-color: #3e668b;
+  position: relative;
+}
+.brand{
+  position: absolute;
+  margin-top: 9%;
+  margin-left: 50px;
+}
+img.phones {
+  margin-left: 15%;
+  margin-top: 7%;
+}
+button {
+  position: absolute;
+  background-color: #507a9e;
+  color: #fff;
+  border: 1px solid #06365f;
+  padding: 8px 20px;
+  border-radius: 2px;
+  right: 15%;
+  top: 50%;
+}
+button img{
+  vertical-align: middle;
+}
+section{
+  background-image: url(../images/frame.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 13%;
+  width: 45%;
+}
+h1 {
+  margin-left: 7%;
+  width: 50%;
+  color: #06365f;
+  margin-top: 7%;
+}
