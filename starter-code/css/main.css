@@ -4,7 +4,90 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+
 body {
+
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+  text-align: center;
+}
+
+h1 {
+  color: #06365f;
+  font-size: 30px;
+  width: 280px;
+
+
+
+}
+
+
+.main {
+  margin-top:100px;
+  width:70%;
+  margin-bottom:50px;
+}
+
+.iphone{
+  float: left;
+  width: 30%;
+  margin: 0 auto;
+}
+.content {
+  float: right;
+  width: 55%;
+  margin: 0 20px;
+}
+.clearfix {
+  clear: both;
+}
+.text {
+  background-color: white;
+  padding:10px 20px;
+  text-align: left;
+  border-radius: 5px;
+  
+}
+footer {
+  padding: 14px 0;
+  height: 40px;
+  margin: 0 auto;
+  font-size: 0.7em;
+  text-transform: uppercase;
+}
+.bullets {
+  float: right;
+  list-style-type: none;
+  text-align: center;
+  margin: 30px;
+  
+}
+.button {
+  background-color: #1c5380; 
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  width: 100px;
+  margin: 14px auto 0;
+  padding: 5px;
+  border: 1px solid rgba(48, 59, 92, 0.432);
+  float: right;
+}
+.brand {
+  float: left;
+  margin: 0 auto;
+}
+.text p {
+  width: 90%;
+}
+.list {
+  color:#1c5380;
+  font-weight: bold;
+  display: inline-block;
+}
+footer p {
+  color:#06365f; 
 }
