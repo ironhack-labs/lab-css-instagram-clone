@@ -33,7 +33,7 @@ ul li{
 }
 .copy{
   padding: 15px;
-  float: left;
+  float:left;
 }
 .col{
   width: 33%;
@@ -43,6 +43,18 @@ ul li{
   width: 66%;
   float: left;
 }
-.logIn{
+.logIn p{
+  float: left;
+}
+.text{
+  background: url("../images/frame.png") no-repeat;
+  padding: 40px;
+  background-size: cover;
+}
+
+.button{
 float: left;
+}
+footer{
+  padding: 0 auto;
 }
