@@ -1,10 +1,107 @@
 /*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
+RESET
 */
-
+*{
+  box-sizing: border-box;
+}
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: url('../images/bgtile.png') repeat-x;
+}
+/*LAYOUT*/
+.flex-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container{
+  margin-top: 90px;
+  width: 900px;
+  height: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+/*LEFT COLUMN*/
+.left-column{
+  width: 35%;
+}
+
+/*RIGHT COLUMN*/
+.right-column{
+  width: 55%;
+}
+.right-column .top-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+.right-column .top-content .log-in{
+  width: 100px;
+  height: 35px;
+  line-height: 30px;
+  text-align: center; 
+  color: #fff;
+  font-size: 13px;
+  font-weight: 600;
+  background: linear-gradient(to bottom, #6992b2 0%,#42749c 100%); 
+  border: 1px solid #215682;
+  border-radius: 3px;
+  position: relative;
+}
+
+.right-column .top-content .log-in::before{
+  content: '';
+  background: url('../images/home.png') no-repeat center;
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 6px;
+  left: 8px;
+}
+
+.right-column .top-content .log-in .login-text{
+  margin-left: 20px;
+}
+
+.right-column .bottom-content{
+  background: url('../images/frame.png') no-repeat;
+  background-size: contain;
+  border-radius: 5px;
+  padding: 40px;
+  margin-top: 20px;
+}
+.right-column .bottom-content h1{
+  color: #06365f;
+  line-height: 1.2;
+  margin: 0;
+}
+.right-column .bottom-content p{
+  font-weight: 400;
+}
+.right-column .bottom-content .download-wrapper img{
+  margin-right: 20px;
+}
+
+/*FOOTER*/
+
+footer ul{
+  width: 700px;
+  margin: 50px auto 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer ul li{
+  list-style: none;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #215682;
+  font-size: 12px;
+}
+footer ul li.copyright{
+  color: #c7c8ca;
 }
