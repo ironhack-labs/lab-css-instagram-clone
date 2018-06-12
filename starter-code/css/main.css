@@ -4,7 +4,86 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  padding: 0;
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.column-right {
+  float: right;
+  width: 60%;
+}
+
+.column-left {
+  float: left;
+  width: 30%;
+}
+
+.main {
+  max-width: 80%;
+  margin: 5% auto;
+}
+
+.top {
+  overflow: hidden;
+  margin-bottom: 80px;
+}
+
+article {
+  background-color: white;
+  border-radius: 8px;
+  padding: 40px;
+}
+
+h1 {
+  margin: 0;
+  color: #06365f;
+}
+
+nav {
+  padding: 20px;
+}
+
+.log-in-button {
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+  float: right;
+  margin: 20px;
+  margin-right: 50px;
+}
+
+.log-in-text {
+  text-decoration: none;
+  color: white;
+}
+
+footer {
+  clear: both;
+  text-align: center;
+}
+
+li {
+  display: inline;
+  padding: 10px;
+  font-weight: bold;
+  color: #1c5380;
+}
+
+.copyright {
+  color: grey;
+  font-weight: bold;
+}
+
+span {
+  font-weight: bold;
 }
