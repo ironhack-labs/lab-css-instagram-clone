@@ -8,3 +8,92 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.background {
+  background: linear-gradient(#51789c, #06365f);
+  height: 300px;
+}
+
+.heading {
+ margin-left: 37.5rem;
+ display: flex;
+ flex-direction: row;
+ margin-top: -25rem;
+ 
+}
+
+.heading button {
+  background:linear-gradient(#51789c, #06365f);
+  margin-left: 20px;
+  border-radius: 2px;
+  border-color: #144b7a;
+  width: 100px;
+  height: 40px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-top: 20px;
+  margin-left: 80px;
+}
+
+button span {
+  color: white;
+  font-size: 14px;
+  margin-left: 8px;
+  margin-top: -8px;
+}
+
+.info {
+display: block;
+flex-direction: column;
+width: 400px;
+height: 500px;
+margin-left: 640px;
+position: absolute;
+top: 210px;
+}
+
+.info h3 {
+  font-size: 30px;
+  color: #06365f;
+}
+
+.bk-img {
+  position: relative;
+  top: -70px;
+  margin-left: 600px;
+}
+
+.iphones {
+  margin-left: 160px;
+  
+}
+
+.play {
+  margin-left: 680px;
+}
+
+.play img{
+  padding-right: 20px;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  flex-direction: row;
+  margin-top: 55px;
+  margin-left: 360px;
+}
+
+li {
+  padding-right: 20px;
+}
+
+.copy {
+  color: gray;
+}
+
+
+
+
+
+
