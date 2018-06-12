@@ -8,3 +8,180 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.section1 {
+  width:100%;
+  height:300px;
+  background-color:#1c5380;
+  position:relative;
+}
+
+.section2 {
+  width:100%;
+  height:500px;
+
+}
+
+
+
+.brand-img {
+position:absolute;
+height:80px;
+width:300px;
+left:550px;
+top:150px;
+
+}
+
+.phone-img {
+  float:left;
+  position:absolute;
+  left:180px;
+  top:130px;
+ 
+}
+.clearfix {
+  clear:both;
+}
+
+.div-p {
+
+}
+.relative {
+  position:relative;
+
+}
+.log-in-box {
+  width:150px;
+  height:40px;
+  border:1px solid darkblue;
+  border-radius:5px;
+  background-color:#06365f;
+  vertical-align:middle;
+  position:absolute;
+  right:100px;;
+  top: 150px;
+}
+.log-in {
+  float:left;
+  width:30px;
+  height:25px;
+  vertical-align:middle;
+ }
+.button-edit {
+  width:100px;
+  position:absolute;
+  font-size:1em;
+  color:white;
+  background-color:#06365f;
+  right:220px;
+  top:170px;
+  height:40px;
+  border:none;
+  
+  
+  
+}
+
+
+.padre {
+  position:relative;
+}
+
+.text-box {
+  position:absolute;
+  width:450px;
+  height:300px;
+  right:240px;
+  bottom:70px;
+}
+ 
+
+.frame-img {
+  position:relative;
+  bottom:60px;
+  left:550px;
+  width:500px;
+}
+h1{
+  color: #1c5380;
+  width: 350px;
+  font-size: 1.8em;
+  padding-top:20px;
+  padding-left:20px;
+ 
+}
+
+.paragraph {
+  position:absolute;
+  font-weight:400;
+  top:100px;
+  left:20px;
+}
+
+.app-store {
+  position:absolute;
+  right:510px;
+}
+.google-play {
+  position:absolute;
+  right:330px;
+}
+.section3 {
+  width: 100%;
+  height:100px;
+  position:relative;
+}
+ .footer {
+   width:70%;
+   margin-left:300px;
+   margin-bottom:100px;
+   position:absolute;
+   bottom:50px;
+   color:#1c5380;
+   font-weight:500;
+   font-size:0.8em;
+
+ }
+.f1 {
+ display:inline;
+ margin-right:20px;
+}
+  
+.f2 {
+  display:inline;
+  margin-right:20px;
+}
+.f3 {
+  display:inline;
+  margin-right:20px;
+}
+.f4 {
+  display:inline;
+  margin-right:20px;
+}
+.f5 {
+  display:inline;
+  margin-right:20px;
+}
+.f6 {
+  display:inline;
+  margin-right:20px;
+}
+.f7 {
+  display:inline;
+  margin-right:20px;
+}
+.f8 {
+  display:inline;
+  margin-right:20px;
+}
+.f9 {
+  display:inline;
+  margin-right:20px;
+  color: grey;
+  font-size:0.8em;
+
+}
+ 
+
