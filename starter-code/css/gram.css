@@ -1,0 +1,103 @@
+/*
+Colors to use:
+dark blue: #06365f
+light blue: #1c5380
+*/
+
+body {
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0 auto;
+}
+
+.top {
+  background-image: url(../images/bgtile.png);
+  width: 100%;
+  height: 45vh;
+}
+
+.button-one {
+  background-color: #1c5380;
+  color: white;
+  border-color: #06365f;
+  font-size: 1.1em;
+  text-align: center;
+  height: 40px;
+  width: 100px;
+  position: relative;
+  bottom: 30px;
+  left: 15px;
+  padding-right: 10px;
+}
+
+.button-one img {
+  padding-right: 5px;
+  vertical-align: middle;
+}
+
+.capture-and-share {
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  padding: 10px 10px;
+}
+
+.phone-mockup {
+  float: left;
+  width: 40%;
+  position: relative;
+  bottom: 180px;
+  left: 240px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.right-side {
+  float: left;
+  width: 60%;
+  position: relative;
+  left: 80px;
+  bottom: 180px;
+}
+
+p {
+  width: 55vh;
+  margin-left: 30px;
+}
+
+h2 {
+  width: 33vh;
+  margin-left: 30px;
+  color: #06365f;
+}
+
+.download-buttons {
+  width: 55vh;
+  margin-left: 50px;
+}
+
+.btn1 {
+  margin-right: 3%;
+}
+
+.brand-and-logo {
+  margin-bottom: 10px;
+}
+
+.bottom-links a {
+  text-decoration: none;
+  color: #1c5380;
+  font-weight: 500;
+  padding: 0px 10px;
+  text-align: center;
+  position: relative;
+  left: 160px;
+}
+
+.bottom-links p {
+  display: inline-block;
+}
+
+.bottom-links {
+  text-align: center;
+}
