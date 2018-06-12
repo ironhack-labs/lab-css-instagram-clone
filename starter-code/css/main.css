@@ -6,5 +6,63 @@ light blue: #1c5380
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  margin: 0 auto;
+  background-repeat: repeat-x;
+  background-image: url('../images/bgtile.png');
+}
+
+.content {
+  margin: 0 auto;
+  width: 800px;
+  position: relative;
+  top: 130px;
+}
+
+.phone {
+  width: 30%;
+  float: left;
+}
+
+.phoneImage {
+  width: 100%;
+}
+
+.presentation {
+  width: 60%;
+  float: left;
+  margin-left: 20px;
+}
+
+.logoImage {
+  float: left;
+  width: 250px;
+  margin: 15px;
+  position: relative;
+}
+
+.loginBtn {
+  position: relative;
+  float: right;
+  margin-left: 250px;
+
+}
+
+.badge {
+  float: left;
+}
+
+#appStore {
+
+}
+
+#playStore {
+
+}
+
+
+
+.footer {
+  clear:both;
+  text-align: center;
+  text-decoration: none;
 }
