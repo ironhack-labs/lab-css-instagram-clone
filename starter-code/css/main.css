@@ -8,3 +8,53 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+.header{
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;
+  height: 280px;
+}
+.box{
+  height: 600px;
+}
+.parrafo {
+  background-image: url(..//images/frame.png);
+  background-repeat: no-repeat;
+  width: 500px;
+  margin-right:20%;
+  float:right;
+  padding:40px;
+  font-size: 1.1em;
+}
+p{
+  margin-right:60px;
+  margin-bottom:10px;
+}
+h2 {
+  color:navy;
+  margin-top:0;
+}
+.logo{
+  margin-right:34%;
+  margin-top: 5%;
+  float:right;
+
+}
+.phone {
+  float: left;
+  clear: both;
+  margin-top: 5%;
+  margin-left: 20%;
+
+}
+.badges{
+  text-align: center;
+  margin:20px;
+}
+.bottom {
+  clear: both;
+  text-align: center;
+  color: blue;
+  margin-top: 5%;
+  word-spacing: 10px;
+
+}
