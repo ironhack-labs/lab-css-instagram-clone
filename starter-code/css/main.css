@@ -85,8 +85,13 @@ button{
   border:none;
   color: white;
   font-size: 15px;
+  margin-left: 50px;
 }
 
 .button-image{
+  vertical-align: middle;
+}
+
+.logo-image{
   vertical-align: middle;
 }
