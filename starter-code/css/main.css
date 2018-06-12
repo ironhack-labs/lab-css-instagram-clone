@@ -6,5 +6,121 @@ light blue: #1c5380
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0 auto;
+  background-repeat: repeat-x;
+  background-image: url('../images/bgtile.png');
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  margin: 0 6px;
+}
+
+h1 {
+  color: #06365f;
+  font-size: 20px;
   margin: 0;
+}
+
+a {
+  color: #1c5380;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+p {
+  font-size: 14px;
+}
+
+span {
+  font-size: 12px;
+  font-weight: bold;
+  text-shadow: 0 1px 1px #2f5b83;
+  margin: 0 5px;
+  display: inline-block;
+  position: relative;
+  top: -7px;
+}
+
+.content {
+  margin: 0 auto;
+  width: 800px;
+  position: relative;
+  top: 110px;
+}
+
+.phone {
+  width: 36%;
+  float: left;
+}
+
+.phoneImage {
+  width: 100%;
+}
+
+.presentation {
+  width: 60%;
+  float: left;
+  margin-left: 20px;
+}
+
+.logoImage {
+  float: left;
+  width: 290px;
+  margin: 15px;
+}
+
+.loginBtn {
+  float: left;
+  margin: 29px 0 0 46px;
+  border: 1px solid #2f5b83;
+  border-radius: 3px;
+  padding: 0 8px;
+  color: white;
+  background: linear-gradient(#6e92b0, #487499);
+  vertical-align: middle;
+}
+
+.homeImage {
+  margin-top: 8px;
+}
+
+.text {
+  margin: 15px;
+  padding: 30px 38px;
+  clear: both;
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.badge {
+  display: inline-block;
+  margin-top: 15px;
+  margin-right: 15px;
+}
+
+#appStore {
+  width: 140px;
+}
+
+#playStore {
+  width: 130px;
+}
+
+
+
+.footer {
+  clear:both;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 9px;
+  font-weight: bold;
+  padding: 8px 0;
+  color: grey;
 }
