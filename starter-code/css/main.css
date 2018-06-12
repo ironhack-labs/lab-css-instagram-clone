@@ -42,6 +42,8 @@ span {
   text-shadow: 0 1px 1px #2f5b83;
   margin: 0 5px;
   display: inline-block;
+  position: relative;
+  top: -7px;
 }
 
 .content {
@@ -74,7 +76,7 @@ span {
 
 .loginBtn {
   float: left;
-  margin: 28px 0 0 47px;
+  margin: 29px 0 0 46px;
   border: 1px solid #2f5b83;
   border-radius: 3px;
   padding: 0 8px;
@@ -120,4 +122,5 @@ span {
   font-size: 9px;
   font-weight: bold;
   padding: 8px 0;
+  color: grey;
 }
