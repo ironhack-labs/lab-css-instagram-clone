@@ -8,3 +8,73 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+.header{
+background-image: url(..//images/bgtile.png);
+background-repeat: repeat-x;
+height: 280px;
+}
+.box{
+  
+  width:981px;
+  height: 579px;
+  margin-left:22%;
+  padding-top: 140px;
+
+}
+
+.backwh{
+float: right;
+margin-right: 100px;
+margin-top: 0px;
+background-image: url(..//images/frame.png);
+background-size: auto;
+background-repeat: no-repeat;
+}
+.phone{
+  float:left;
+}
+.brand{
+  float:right;
+  margin-right: 220px;
+}
+.boton{
+  border: 1px solid #6C90AF; 
+  padding: 10px; 
+  background-color: #6C90AF; 
+  color: #ffffff; 
+  text-decoration: none; 
+  float:right;
+  margin-top:0px;
+}
+h2{
+  padding-left:20px;
+}
+p{
+  padding-left:20px;
+}
+.logos{
+  
+  height: 150px;
+}
+.android{
+  float:right;
+  margin-right: 70px;
+}
+.iphone{
+  float:left;
+  margin-left: 20px;
+}
+ul{
+  list-style:none;
+  text-align: center;
+}
+li{
+  display: inline;
+  text-align: center;
+  margin: 0 10px 0 0;
+}
+a{
+  text-decoration: none;
+  color: #5F85A6;
+  font-weight: bold;
+}
