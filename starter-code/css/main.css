@@ -8,3 +8,40 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.container {
+  width: 100%;
+}
+
+.phone-image {
+  background-image: url('../images/phones.png');
+  background-repeat: no-repeat;
+  width: 50%;
+  height: 500px;
+  float: left;
+}
+
+.right-content {
+  float: right;
+
+}
+
+.right-content #apple {
+
+}
+
+.right-content #android {
+
+}
+
+footer {
+  position: relative;
+}
+
+footer a {
+
+}
+
+footer p {
+
+}
