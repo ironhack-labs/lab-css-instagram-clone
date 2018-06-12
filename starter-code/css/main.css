@@ -7,4 +7,108 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  height: 850px;
+}
+
+h3 {
+  color: #06365f;
+  font-size: 1.6em;
+  padding: 0 20px;
+}
+
+#header {
+  background-color: #1c5380;
+  height: 350px;
+}
+
+#home-button {
+  height: 50px;
+  width: 120px;
+  position: relative;
+  float: right;
+  background-color: #06365f;
+  padding: 3px 0 0 8px;
+  margin-top: 15px;
+  box-sizing: border-box;
+  font-weight: bold;
+  text-align: center;
+  color: #d3d3d3;
+  border-radius:4%;
+}
+
+  #home-button p{
+    margin-top: 9px;
+    margin-right: 7px;
+  }
+
+  #home-button img {
+    float: left;
+    position: relative;
+    padding: 6px;
+  }
+
+#container {
+  width: 70%;;
+  height: 600px;
+/*  background: pink; */
+  left: 15%;
+  position: absolute;
+  top: 130px;
+  box-sizing: border-box;
+  margin-bottom: 50px;
+}
+
+.phone-image {
+  position: relative;
+  float: left;
+  width: 35%;
+}
+
+.insta-img {
+  margin-left: 90px;
+}
+
+#box {
+  position: relative;
+  padding: 30px;
+/*  border: gray solid 1px;
+  border-radius: 10%; */
+  float: right;
+  width: 50%;
+  margin-top: 20px;
+}
+
+  #box p {
+    padding: 0 20px;
+  }
+
+  #box img {
+    float: left;
+    margin: 5px;
+  }
+
+
+#footer {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: .8em;
+  bottom: -100px;
+  left: 25%;
+  position: absolute;
+}
+
+
+  #footer li {
+    margin: 0 10px;
+    display: inline;
+  }
+
+  #footer a {
+    text-decoration: none;
+    color: #1c5380;
+  }
+
+.gray {
+  color: #d3d3d3;
 }
