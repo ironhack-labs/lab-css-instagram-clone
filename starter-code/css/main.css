@@ -8,3 +8,112 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.background-color {
+  background: linear-gradient(#51789c, #376085);
+  height: 300px;
+}
+
+img .iphone {
+  
+  padding-left: 50px;
+}
+
+.header {
+  float: right;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  margin-right: 15%;
+  margin-top: 8%;
+  align-content: center;
+}
+
+button img {
+  height: 20px;
+  padding-right: 10px;
+}
+button {
+  width: 110px;
+  height: 40px;
+  margin-left: 80px;
+  margin-top: 15px;
+  border-radius: 2px;
+  background: linear-gradient(#51789c, #376085);
+  border-color: #376085;
+}
+button span {
+  color: white;
+  font-style: bold;
+  font-size: 15px;
+}
+
+.info-section {
+  display: block;
+  flex-direction: column;
+  height: 500px;
+  width: 450px;
+  margin-left: 720px;
+  position: absolute;
+  top: 200px;
+}
+
+.info-background img{
+  margin-left: 720px;
+  position: relative;
+  top: -70px;
+  
+}
+
+.info-section h3 {
+  font-size: 25px;
+  width: 300px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  color: #376085;
+}
+
+.info-section p {
+  font-size: 16px;
+  padding-left: 50px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  margin-left: 790px;
+}
+
+.buttons img {
+  padding-right: 20px;
+}
+
+.iphone {
+  margin-top: 120px;
+  margin-left: 300px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  margin-top: 80px;
+  margin-left: 340px;
+}
+
+.footer ul{
+  display: flex;
+  flex-direction: row;
+}
+
+li {
+  padding-right: 30px;
+  color: #51789c;
+}
+
+.copyright {
+  color: gray;
+}
