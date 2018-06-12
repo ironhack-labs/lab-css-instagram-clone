@@ -26,9 +26,15 @@ h1 {
   clear: both;
 }
 
-.main {
+.container {
   width: 825px;
-  margin: 100px auto 60px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main {
+  margin-top: 100px;
+  margin-bottom: 40px;
 }
 
 .main .left-block {
@@ -44,6 +50,7 @@ h1 {
   float: right;
   width: 67%;
   padding-left: 50px;
+  padding-top: 15px;
   box-sizing: border-box;
 }
 
@@ -51,13 +58,13 @@ h1 {
   float: right;
   background-color: #7798b5;
   background-image: linear-gradient(#7798b5, #477399);
-  border: 1px solid #39648a;
+  border: 1px solid #305c83;
   color: #fff;
-  text-shadow: 1px 1px 1px  #39648a;
+  text-shadow: 1px 1px 1px  #305c83;
   font-size: 12px;
   padding: 5px 10px;
-  margin-top: 23px;
-  border-radius: 2px;
+  margin-top: 22px;
+  border-radius: 3px;
 }
 
 .login-btn img {
@@ -68,7 +75,7 @@ h1 {
 .white-box {
   background: url("../images/frame.png") 0 0 no-repeat;
   border-radius: 10px;
-  padding: 40px;
+  padding: 30px 40px;
 }
 
 .white-box p {
@@ -83,4 +90,24 @@ h1 {
   text-decoration: none;
   display: inline-block;
   margin-right: 30px;
-} 
+}
+
+.footer-links {
+  list-style: none;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 10px;
+  font-weight: 700;
+  color: #bcbcbc;
+  margin-bottom: 20px;
+}
+
+.footer-links li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.footer-links li a {
+  text-decoration: none;
+  color: #1c5380;
+}
