@@ -1,10 +1,119 @@
+/* ---- reset ---- */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.principal {
+  background-image: url('../images/bgtile.png');
+  background-repeat: repeat-x;
+}
+
+/* .main {
+  padding-bottom: 5%;
+} */
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.banner {
+  float: left;
+  padding-top: 6rem;
+  /* overflow: hidden; */
+}
+
+.description {
+  float: none;
+  padding-left: 40%;
+}
+
+.nav-bar {
+  padding-top: 8rem;
+  padding-bottom: 2rem;
+}
+
+.nav-bar img {
+  /* padding-top: 2rem; */
+}
+
+.nav-bar a {
+  padding-top: 1rem;
+  float: right;
+}
+
+.btn {
+  background: linear-gradient(#0c487c, #4c96d3);
+  border-radius: 5px;
+  border: 0.5px solid rgb(42, 95, 194);
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 10px 20px;
+}
+
+.text-content {
+  background: linear-gradient(rgb(255, 255, 255), white);
+  border-radius: 8px;
+  padding: 1rem 2rem;
+}
+
+.text-content h1 {
+  width: 60%;
+  color: #06365f;
+}
+
+.last-text {
+  padding-bottom: 2rem;
+}
+
+footer {
+  float: unset;
+  clear: both;
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+footer ul a {
+  color: #1c5380;
+  font-weight: 400;
+}
+
+footer ul li.last-li {
+  color: gray;
+  font-weight: 400;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.btn-download a:last-child {
+  padding-left: 1rem;
+}
+
 /*
 Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
-body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
-}
