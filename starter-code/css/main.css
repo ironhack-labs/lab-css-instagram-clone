@@ -8,3 +8,86 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+.header{
+  background-color: #1c5380;
+  height: 300px;
+  width: 100%;
+}
+.imagenes{
+  position: absolute;
+  top: 100px;
+}
+.phones{
+  position: absolute;
+  left: 250px;
+  top:20px;
+}
+.logo{
+ position: absolute;
+ left: 620px;
+ top: 30px;
+}
+.contenido{
+  width: 30%;
+  height: 500px;
+  position: absolute;
+  left: 670px;
+  top: 240px;
+}
+.frameimg{
+  position: absolute;
+  left: 620px;
+  top: 120px;
+}
+.contenido h1{
+  color: #06365f;
+}
+
+.contenido a{
+  text-decoration: none;
+}
+.homeb{
+  position: absolute;
+  
+}
+.imagenes a{
+  position: absolute;
+  display: block;
+  border: 2px outset;
+  top: 50px;
+  left: 1000px;
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+.iphoneb{
+  position: relative;
+  top: 20px;
+}
+.androidb{
+  position: relative;
+  top: 20px;
+  left: 20px;
+}
+.home{
+  vertical-align: middle;
+}
+.footer{
+  position: relative;
+  width: 100%;
+  top: 400px;
+}
+.footer ul{
+  list-style-type: none;
+  color: #1c5380;
+  font-weight: bolder;
+  padding-left: 300px;
+}
+.footer li{
+  float: left;
+  height: 100px;
+  width: 80px;
+  box-sizing: border-box;
+}
