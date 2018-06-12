@@ -3,8 +3,88 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url("./../images/bgtile.png");
+  background-repeat: repeat-x;
 }
+
+
+header {
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+.logo-description {
+  float: right;
+}
+
+.description {
+  position: center;
+
+}
+
+
+
+.logo{
+  float: right;
+  padding-top: 100px;
+  padding-right: 120px;
+}
+
+.frame-instructions {
+  background-image: url("./../images/frame.png");
+  clear: both;
+  padding-right: 20px;
+  background-repeat: no-repeat;
+  border-radius: 25px
+}
+
+.sales-pitch{
+  float: right;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+
+
+h1 {
+  color: #06365f
+}
+
+.phones {
+  float: left;
+  padding-top: 100px;
+
+}
+
+footer{
+  clear: both;
+  padding-top: 100px; 
+  margin-left: 300px;
+  word-spacing: 8px;
+
+}
+
+.store-logos {
+  padding-left: 50px;
+}
+
+
+
+
+
+
