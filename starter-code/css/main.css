@@ -20,9 +20,9 @@ footer{
 }
 
 .box{
-  margin: auto;
+  margin: 100px auto 0 auto;
   vertical-align: middle;
-  width: 1200px;
+  max-width: 800px;
 }
 
 .mobile-image-container{
@@ -63,7 +63,7 @@ footer{
 
 .image-frame{
   background: url('../images/frame.png') no-repeat;
-  background-size: 100%;
-  padding: 0;
+  background-size: contain;
+  padding: 10px 50px;
   width: 66%;
 }
