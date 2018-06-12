@@ -8,20 +8,6 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
   background:url("images/bgtile.png") repeat-x top;
-
-}
-
-.phone {
-  padding: 30px 0;
-}
-
-.info {
-  float:left;
-}
-
-li {
-  list-style:none;
-  display: inline-block;
 }
 
 .container {
@@ -39,16 +25,36 @@ li {
   padding: 50px;
 }
 
-.home {
-  display:inline-block;
+.phone {
+  padding: 30px 0;
 }
 
-a {
-  color: #7998B3;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-weight: bold;
+.brand {
+  padding: 0 8px;
+}
 
+button {
+  background: #4a7598;
+  color: #ffffff;
+  float: right;
+  width: 100px;
+  margin-top: 20px;
+  padding: 5px 8px;
+  height: 40px;
+  border: 1.5px solid #2A5E9D;
+  border-radius: 3px;
+}
+
+.log {
+  margin: 0 auto;
+  padding: 10px 0;
+  font-weight: bold;
+}
+
+.home {
+  float:left;
+  display:inline-block;
+  padding-top: 4px;
 }
 
 .text {
@@ -60,7 +66,31 @@ a {
 h3 {
   color: #0E325C;
   font-size: 1.5em;
-  padding: 10px;
+}
+
+.badge {
+  padding-right: 20px;
+}
+
+footer {
+  padding: 0 350px;
+}
+
+.info {
+  float:left;
+  word-spacing: 15px;
+}
+
+li {
+  list-style:none;
+  display: inline-block; 
+}
+
+a {
+  color: #1c5380;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 .copy {
@@ -68,7 +98,7 @@ h3 {
   font-weight: bold;
   float:left;
   padding: 15px;
-
+  text-transform: uppercase;
 }
 
 .clearfix {
