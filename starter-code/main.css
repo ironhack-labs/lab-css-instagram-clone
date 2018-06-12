@@ -1,0 +1,68 @@
+/*
+Colors to use:
+dark blue: #06365f
+light blue: #1c5380
+*/
+
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.blue-tile {
+  color: #06365f;
+  max-width: 100%;
+  background-size: cover;
+}
+
+#phones {
+  margin-left: 15%;
+}
+
+.brand {
+  float: right;
+}
+
+.home {
+  float: right;
+  position: relative;
+}
+
+.paragraph {
+  margin: 0 30%;
+}
+
+.frame-resize {
+  float: right;
+}
+
+#apple-store {
+  vertical-align: middle;
+  margin-left: 38%;
+  display: inline;
+}
+
+#google-play {
+  vertical-align: middle;
+  display: inline;
+  margin-left: 1%;
+}
+
+.footer {
+  margin-left: 25%;
+  word-spacing: 1.75em;
+  text-decoration: none;
+}
+
+.footer a {
+  text-decoration: none;
+
+}
