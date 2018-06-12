@@ -7,4 +7,89 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;
+}
+
+#container{
+  margin: 100px auto 0 auto;
+  max-width: 800px;
+  background-color: purple;
+}
+
+#float-left{
+  float: left;
+  width: 40%;
+  
+}
+
+#text{
+  padding:10px 20px;
+  width:55%;
+  float: right;
+}
+
+#button1{
+  background-color: #4982b0;
+  color: white;
+  border: 2px solid #1c5380;
+  border-radius: 5px;
+  float: right;
+  font-size: 1.5em;
+  padding:5px;
+  margin-top:20px;
+}
+
+#text img{
+  float: left;
+}
+#iphone{
+  margin-right: 10px;
+}
+#white-box{
+  background-image:url(../images/frame.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  float:right;
+  padding: 10px 50px;
+  border-radius: 5px;
+  margin-top:20px;
+  
+}
+
+#white-box h1{
+  color: #1c5380;
+}
+
+#button1 img{
+  padding-right: 10px;
+}
+footer{
+  width:60%;
+  clear: both;
+  margin: 0 auto;
+}
+
+footer li{
+  list-style-type: none;
+  text-transform: uppercase;
+  font-size: small; 
+}
+
+footer .li-item{
+  float: left;
+  text-align: center;
+  width: 10%;
+}
+
+#copy{
+  float: left;
+  width: 20%;
+}
+
+footer a{
+  text-decoration: none;
+  color: #1c5380;
+  font-weight: bold;
+ 
 }
