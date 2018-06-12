@@ -7,4 +7,78 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;  
 }
+
+.container {
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 90%;
+  
+}
+
+.phone {
+  float: left;
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  padding-left: 150px;
+  width: 22%;  
+}
+
+.phones_img {
+  height: 580px;
+}
+
+.container_text {
+  float: left;
+  padding-top: 50px;
+  width: 60%;
+}
+
+.brand_img {
+  margin-bottom: 10px;
+}
+
+.paragraph {
+  width: 45%;
+  padding: 30px;
+  background-image: url("../images/frame.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.button {
+  
+}
+
+.iphone_img {
+  float: left;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+footer ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 0, 15px;
+  font-size: 12px; 
+}
+
+.footer {
+  margin: 0, auto;
+  clear: both;
+  text-align: center;
+  padding-top: 15px;
+  width: 65%;
+  text-transform: uppercase;
+  margin-left: 35px;
+}
+ li {
+   margin-left: 20px;
+   color: #06365f;
+ }
+
+
+
