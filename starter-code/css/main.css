@@ -9,6 +9,10 @@ body {
   margin: 0;
 }
 
+h1{
+  color: #06365f;
+  font-size: 20px;
+}
 .header{
   width: 100%;
   height: 280px;
@@ -20,7 +24,7 @@ body {
   width: 95%;
   max-width: 800px;;
   text-align: center;
-  margin-top: -220px;
+  margin-top: -180px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -35,20 +39,21 @@ body {
 }
 
 .col-2{
-  width: 65%;
+  width: 60%;
   float: right;
 }
 
 .col-2 p{
   text-align: left;
   width: 100%;
+  font-size: 16px;
 }
 
 #content-text{
   background-image: url("../images/frame.png");
   background-repeat: no-repeat;
   background-size: contain;
-  padding: 2em;
+  padding: 1em; 
   text-align: left;
 }
 
@@ -59,14 +64,29 @@ body {
 #links{
   margin-top: 40px;
   text-align: center;
+  margin-bottom: 20px;
 }
 
 a{
   text-decoration: none;
-  color: blue;
+  color: #1c5380;
   text-transform: uppercase;
+  
 }
 
-#image{
+#logo{
   text-align: left;
+}
+
+button{
+  height: 40px;
+  width: 100px;
+  background-color: #1c5380;
+  border:none;
+  color: white;
+  font-size: 15px;
+}
+
+.button-image{
+  vertical-align: middle;
 }
