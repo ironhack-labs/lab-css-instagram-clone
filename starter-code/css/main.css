@@ -8,3 +8,79 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+header {
+  height: 350px;
+  width: 100%;
+  background-color: #1c5380;
+}
+
+.header-content {
+  float: left;
+  margin-left: 700px;
+  margin-top: 170px;
+}
+
+.header-content a {
+  position: relative;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.login-button {
+  position: relative;
+  float: right;
+  top: 25px;
+  left: 50px;
+  border-radius: 0.5em;
+}
+
+.left-images {
+  float: left;
+  margin-left: 320px;
+  position: relative;
+  bottom: 200px;
+}
+
+.content {
+  position: relative;
+  bottom: 120px;
+  margin: 50px;
+  width: 450px;
+  float: left;
+  background-color: white;
+  padding: 0 35px;
+  border-radius: 0.5rem;
+  box-shadow: 0px -2px 0.5px #888888;
+}
+
+.content h1 {
+  color: #06365f;
+}
+
+footer {
+  width: 1000px;
+  clear: both;
+  position: relative;
+  bottom: 150px;
+  left: 390px;
+  font-size: 0.8em;
+}
+
+footer ul li {
+  text-transform: uppercase;
+  list-style-type: none;
+  font-weight: 700;
+  color: #06365f;
+  float: left;
+  margin: 10px;
+}
+
+.copyright {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: rgba(0,0,0,0.5);
+  float: left;
+  margin: 10px;
+}
