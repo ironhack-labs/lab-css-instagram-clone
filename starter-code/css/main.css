@@ -8,19 +8,84 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
   background: url("../images/bgtile.png") repeat-x top;
+  font-weight: 300;
 }
-
+h1{
+  font-size: 1.5em;
+  color: #06365f;
+}
 /*** Content ***/
 .content{
   width: 80%;
-  margin: 20% auto;
+  margin: 12% auto;
 }
+/** iphone images **/
 .content_img{
   height: 100%;
   width: 33%;
   float: left;
 }
+
+/** Info **/
 .content_info{
   float: left;
   width: 60%;
+  margin-left: 30px;
+}
+
+/** log in **/
+.logo{width: 250px;}
+.log-in_btn{
+  position: relative;
+  top: 10px;
+  float: right;
+  width: 100px;
+  background: #1c5380;
+  border: 1px solid #06365f;
+  border-radius: 5px;
+  padding: 5px;
+}
+.log-in_btn img{
+  vertical-align: middle;
+  float: left;
+}
+.log-in_btn p{
+  margin: 2px;
+  color: #FFF;
+  font-weight: 600;
+  font-size: 1.3em;
+}
+.content_info_frame{
+  background: url("../images/frame.png") no-repeat;
+  width: 100%;
+  background-size: 100%;
+}
+.content_info_text{
+  padding: 20px 40px;
+}
+.content_info_text img{
+  margin: 20px 10px 0 0;
+}
+
+/** footer **/
+footer{
+  position: relative;
+  top: 60px;
+  clear: left;
+  margin: 0 auto;
+  font-weight: 600;
+  font-size: .7em;
+  text-transform: uppercase;
+}
+ul li{
+  display: inline-block;
+  margin-right: 12px;
+  color: #7998B3;
+}
+.center{
+text-align: center;
+}
+li:last-child{
+  color: #C8C9C9;
+  margin-left: 25px;
 }
