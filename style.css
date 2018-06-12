@@ -1,0 +1,55 @@
+body{
+    background-image: url(./starter-code/images/bgtile.png);
+    background-repeat: repeat-x;
+}
+.principal{
+    margin:10% ;
+    margin-right: 10%;
+    background: blue;
+}
+.cajita{
+    float: right;
+    text-align: center;
+    border:2px solid rgba(97, 97, 180, 0.596);
+    padding: 5px;
+    margin:20px;
+    background-image: url(./starter-code/images/bgtile.png);
+    
+    
+}
+.cajita img{
+    vertical-align: middle;
+}
+.cajita *{
+    display:inline-block;
+    color:rgba(252, 252, 252, 0.945);
+    margin:0 6px;
+}
+#moviles{
+    float: left;
+    margin-right: 50px;
+    
+}
+
+.texto{
+float: left;
+width:50%;
+padding: 20px;
+}
+.texto2 *{
+    margin:15px;
+    margin-bottom: 25px;
+}
+.logos *{
+    margin:10px;
+}
+.texto2{
+    background:white;
+    padding:10px;
+    padding-left: 20px;
+    margin-top:20px;
+}
+h2{
+    color:rgb(71, 71, 184);
+}
+
