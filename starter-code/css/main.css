@@ -7,4 +7,119 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url('../images/bgtile.png');
+  background-repeat: repeat-x;
+}
+
+.row { 
+  width: 800px;
+  display: block;
+  margin: auto;
+  position: relative;
+  padding-top: 50px;
+}
+
+.izq {
+  float: left;
+    width: 41%;
+    height: 500px;
+}
+
+.der {
+  float: left;
+    width: 54%;
+    margin-left: 5%;
+    height: 500px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.subRow { 
+  width: 1024px;
+  display: block;
+  margin: auto;
+  position: relative;
+  padding-top: 50px;
+}
+
+.subIzq {
+  float: left;
+  width: 65%;
+}
+
+.subDer {
+  float: left;
+  width: 25%;
+}
+
+.subRow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.buttonContainer
+{}
+
+
+
+
+.etiqueta {
+  background-image: url('../images/frame.png');
+  padding: 30px 30px 30px 30px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  
+
+
+}
+
+
+
+
+
+.legal {
+  color: rgba(255,255,255,0.8);
+  line-height: 20px;
+  font-size: 16px;
+  height: 20px;
+  margin: auto;
+  width: 800px;
+  text-transform: uppercase;
+}
+
+.top-links {
+  display: inline-block;
+  float: left;
+  clear: left;
+  padding: 0;
+  margin: 0 20px 0 0;
+  font-family: apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.top-left {
+  width: 600px;
+  float: left;
+  clear: left;
+}
+
+
+
+
+
+h3 {
+  font-size: 14px;
+  text-transform: initial;
 }
