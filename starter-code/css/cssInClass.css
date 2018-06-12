@@ -1,0 +1,34 @@
+/*
+Colors to use:
+dark blue: #06365f
+light blue: #1c5380
+*/
+
+body {
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+
+
+#page {
+  background-image: url();
+  background: linear-gradient(#1c5380 30%, white 10%);
+  background-repeat: repeat-x;
+}
+.content {
+    height: 90vh;
+    width: 100vw;
+}
+.left, .right {
+    margin-top: 30vh;
+    float: left;
+    margin-left: 10vw;  
+}
+.header > img {
+    width: 80px;
+}
+
+.box {
+    background: white;
+}
+
