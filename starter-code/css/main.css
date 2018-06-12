@@ -8,3 +8,86 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.fondoAzul{
+  width: 100%;
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+}
+
+h1{
+  color: #06365f;
+  padding:25px 0 0 30px;
+  font-size: 23px;
+  margin-bottom:0;
+  margin-top:0;
+}
+
+p{
+  font-size:16.7px;
+}
+
+.iphone{
+  width: 100%;
+
+}
+
+.iphoneContainer{
+width:40%;
+float: left;
+}
+
+.cuerpo{
+  width: 95%; max-width: 800px;
+  margin: 0 auto;
+  margin-top:90px;
+}
+
+.texto{
+  width:55%;
+  float:right;
+}
+
+.logoInsta{
+  padding:1,5em 0 0 0;
+  margin-bottom: 30px;
+  
+}
+
+.logoInstaImg{
+  width: 250px;
+  vertical-align: middle;
+}
+.info{
+  clear: both;
+  padding-top: 50px;
+  text-align:center;
+}
+
+.fondoBlanco{
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.fondoBlancoTexto{
+  padding:0.5em 1.8em 0 1.8em;
+  margin: 0;
+}
+
+.logos{
+  padding-left: 40px;
+  margin-top:30px;
+}
+
+.login{
+  background-color:#1c5380;
+  margin-left: 70px;
+  margin-bottom:20px;
+  box-shadow: 1px 1px 1px 1px black;
+  border: none;
+}
+
+.appstore{
+  padding-right:20px;
+}
