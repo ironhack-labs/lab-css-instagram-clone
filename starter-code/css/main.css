@@ -37,10 +37,11 @@ footer{
 
 .login-container{
   display: inline;
-  background-color: linear-gradient(#06365f, white) ;
+  background: linear-gradient(#1c5380, #06365f) ;
   border: 1px solid black;
   padding: 10px 5px ;
   border-radius: 8px;
+  margin-left: 60px;
 }
 .login{
   text-decoration: none;
