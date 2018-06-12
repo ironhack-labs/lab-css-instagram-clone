@@ -1,10 +1,73 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
-
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: url(../images/bgtile.png);
+  background-repeat: repeat-x;
+}
+
+.back {
+  width: 90%;
+  text-align: center;
+  margin: 5% auto;
+}
+
+.phone {
+  display: inline-block;
+  width: 33%;
+}
+
+.box {
+  width: 50%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.logo {
+  text-align: left;
+}
+
+h2 {
+  color: #06365f;
+  text-align: left;
+  padding: 35px 0 0px 50px;
+}
+
+p {
+  text-align: left;
+  width: 82%;
+  line-height: 30px;
+  padding-left: 50px;
+}
+
+footer {
+ text-align: center;
+ text-transform: uppercase;
+ color: #1c5380;
+}
+
+.content {
+  background: url(../images/frame.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 75%;
+}
+
+.badges {
+  text-align: left;
+  padding: 0 30px;
+}
+
+.badges img {
+  padding-left: 20px;
+}
+
+ul li {
+  display: inline;
+  padding: 0 10px 30px 10px;
+  font-weight: 600;
+  font-size: 0.9em;
+}
+
+.copyright {
+  color: gray;
 }
