@@ -71,3 +71,17 @@ ul li {
 .copyright {
   color: gray;
 }
+
+button {
+  height: 38px;
+  width: 100px;
+  border: 1px solid gray;
+  background: url(../images/home.png) #1c5380;
+  background-repeat: no-repeat;
+  background-position: 8px 7px;
+  font-size: 15px;
+  padding-left: 28px;
+  vertical-align: top;
+  margin: 20px 0 0 100px;
+  color: white;
+}
