@@ -12,7 +12,7 @@ body {
 
 footer {
   position: relative;
-  margin:0px 50px 25px 50px;
+  margin: 60px 50px 25px 50px;
   clear: both;
   text-transform: uppercase;
   text-align: center;
@@ -26,7 +26,22 @@ button {
   background: linear-gradient(#557c9f, #06365f);
   color: #dee6ec;
   float: right;
-  border-radius: 7px;
+  border-radius: 4px;
+  border-color: #082a47; 
+  box-shadow: #1b1f24;
+  padding: 8px 15px;
+  font-weight: bolder;
+  margin-top: 18px;
+  text-align: center;
+  font-size: 1.2em;
+  
+
+}
+
+h1 {
+  color: #06365f; 
+  opacity: 0.8;
+  margin-top: 3px;
 }
 
 .topInfo {
@@ -35,30 +50,34 @@ button {
 
 .topHalf {
   box-sizing: border-box;
-  height: 50vh;
+  height: 33vh;
   background: linear-gradient(#557c9f, #06365f);
 }
 
 .bottomHalf {
-  margin: 20px 300px; 
+  margin: 20px 250px; 
 }
 
 .rightSide {
   float: right;
-  width: 400px;
-  height: 700px;
+  width: 520px;
+  height: 512px;
+  letter-spacing: 0.02em;
+  font-size: 0.93em;
+  
   
 }
 .textBox {
-  padding: 20px;
+  padding: 35px;
   background-image: url('../images/frame.png');
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
+  
 }
 
 .badge {
-  margin: 5px;
+  margin: 10px;
 }
 
 .bottomHalf {
@@ -69,6 +88,13 @@ button {
 
 .textBox p {
   color: #1b1f24;
+  opacity: 0.8;
+  font-weight: bolder;
+}
+
+button img {
+  margin-right: 13px;
+  
 }
 
 footer a {
@@ -80,5 +106,5 @@ footer a {
 footer p {
   display: inline-block;
   margin: 10px;
-  /* vertical-align: top; */
+
 }
