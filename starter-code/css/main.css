@@ -55,3 +55,8 @@ h1 {
   color: #06365f;
   margin-top: 7%;
 }
+section p{
+  margin-left: 7%;
+  margin-right: 15%;
+  font-size: 18px;
+}
