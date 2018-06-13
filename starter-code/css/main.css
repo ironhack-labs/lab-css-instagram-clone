@@ -7,4 +7,109 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+
+}
+#blue-back{
+  background-color: #1c5380;
+  width: auto;
+  height: 300px;
+}
+
+#insta-logo{
+  width: 400px;
+  height: 150px;
+  background-image:url(/home/ajv/code/week1/lab-css-instagram-clone/starter-code/images/brand.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  position: relative;
+  left: 830px;
+  top: 80px;
+}
+#btn-p{
+  text-align: right;
+  color: white;
+  font-weight: bold;
+
+}
+
+#insta-button{
+
+  width: 100px;
+  height: 200px;
+  background-image: url(/home/ajv/code/week1/lab-css-instagram-clone/starter-code/images/home.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  position: relative;
+  left: 1200px;
+  bottom: 55px;
+
+}
+#white-back{
+  background-color: white;
+  width: auto;
+  height: 500px;
+  padding-top: 30px;
+}
+#phones{
+  width: 315px;
+  height: 504px;
+  background-image: url(/home/ajv/code/week1/lab-css-instagram-clone/starter-code/images/phones.png);
+  background-repeat: no-repeat;
+  background-size:auto;
+  position: relative;
+  left: 450px;
+  bottom: 250px;
+
+
+}
+#p-background{
+  width:900px;
+  height:700px;
+  background-image: url(/home/ajv/code/week1/lab-css-instagram-clone/starter-code/images/frame.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  position: relative;
+  left:850px;
+  bottom:680px;
+
+
+}
+h1{
+  padding: 20px;
+  color: #06365f;
+}
+p{
+  text-align: left;
+  padding: 20px;
+
+}
+#apple-log{
+  width:400px;
+  height:200px;
+  background-image: url(/home/ajv/code/week1/lab-css-instagram-clone/starter-code/images/badge-iphone.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  position: relative;
+  left: 25px;
+}
+#google-log{
+  width: 400px;
+  height: 200px;
+  background-image: url(/home/ajv/code/week1/lab-css-instagram-clone/starter-code/images/badge-android.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  position:relative;
+  left: 225px;
+  bottom: 200px;
+}
+ul{
+  list-style: none;
+  text-align: center;
+
+}
+li{
+  display: inline;
+}
+a{
+  text-decoration: none;
 }
