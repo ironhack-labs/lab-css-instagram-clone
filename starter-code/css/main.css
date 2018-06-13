@@ -8,3 +8,109 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+header {
+  background-image: url("../images/bgtile.png");
+  height: 300px;
+  width: 100%;
+  position: relative;
+}
+
+footer {
+  height: 100px;
+ 
+}
+
+ul {
+  list-style-type: none;
+  margin-left: 90px;
+ 
+}
+li {
+  float: left;
+  text-transform: uppercase;
+  color: #1c5380;
+  text-align: center;
+  font-weight: 700;
+  margin-right: 10px;
+  margin-left: 15px;
+  margin-bottom: 60px;
+  margin-top: 500px;
+  height: 20px;
+}
+footer span {
+  float: right;
+  margin-right: 250px;
+  padding-bottom: 20px;
+  margin-top: 150px;
+  text-transform: uppercase;
+  color: #d6d6d6;
+  font-weight: 700;
+
+}
+
+h1 {
+  color: #06365f;
+  margin-left: 20px;
+}
+h1 span {
+  display: block;
+}
+p {
+ display: block;
+ margin-left: 20px;
+ margin-right: 20px;
+ font-weight: 400;
+}
+p span {
+  font-weight: 600;
+}
+
+button {
+  color:  #e2e2e0;
+  font-weight: 700;
+  background: rgb(60, 104, 142);
+  text-align: center;
+  border-radius: 5%;
+  border: 2px solid rgb(20, 34, 59);
+  float: right;
+ 
+}
+
+.container {
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 40%;
+  position: relative;
+  float: right;
+  margin-right: 200px;
+  margin-top: -50px;
+  height: 400px;
+}
+
+#house-icon {
+  margin: 5px;
+  height: 30px;
+  
+}
+
+#phones {
+  margin-left: 90px;
+  margin-top: 200px;
+}
+
+#brand-logo {
+  float: right;
+  margin-right: 400px;
+  margin-top: 150px;
+  height: 70px;
+}
+
+.logos {
+  margin-top: 10px;
+  margin-left: 50px;
+}
+
+
+
