@@ -8,3 +8,74 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+header{
+padding-top: 10%;
+padding-left: 18%;
+  background-color: #06365f;
+  height: 335px;
+  width:100%;
+  top:0;
+  box-sizing: border-box;
+}
+.phone{
+  box-sizing: border-box;
+}
+.title{
+  vertical-align: top;
+  margin: 10px 40px;
+}
+.boton{
+  text-align: center;
+  width: 100px;
+  height: 35px;
+  display:inline-block;
+  vertical-align: top;
+  padding-top: 1% ;
+  margin-top:20px;
+  background-color: #1c5380;
+  color:white;
+  border:
+}
+
+.boton img{
+  vertical-align:text-bottom;
+  }
+  .cubo{
+    margin-top: 1%;
+    padding: 2% 3% ;
+    width: 30%;
+  float: right;
+  position: absolute;
+  right: 22%;
+  top:29%;
+background-image: url(/home/casher/code/Ironhack/week1/lab-css-instagram-clone/starter-code/images/frame.png);
+background-size: cover;
+border-radius: 9%;
+     }
+h2{
+       color:#06365f;
+     }
+     span{
+       font-weight: bold;
+     }
+
+     section img{
+       margin:5% 3%;
+     }
+.navbar li
+{
+   list-style-type: none;
+   display: inline-block;
+   padding-right: 5px;
+
+}
+.navbar{
+  color: #1c5380;
+  position: absolute;
+  bottom: 3%;
+  padding: 0 25%;
+}
+.grey{
+  color:grey;
+}
