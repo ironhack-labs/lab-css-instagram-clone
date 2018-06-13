@@ -43,15 +43,27 @@ body {
 
 .right{
   float: right;
-  margin-right: 100px;
+  margin-right: 10px;
   margin-top: 25px;
   background-color: #06365f;
-  padding-right: 50px;
+  padding-right: 10px;
   padding-top: 7px;
   padding-bottom: 5px;
   padding-left: 5px;
+  color: white;
+  font-size: 20px;
+}
+
+.right img{
+  margin-right: 10px;
+  vertical-align: middle;
 }
 
 .bottom{
   text-align: center;
+}
+
+.bottom li{
+  display: inline-block;
+  padding: 10px;
 }
