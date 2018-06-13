@@ -8,3 +8,103 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+.blueBackground{
+  height: 300px;
+  background: linear-gradient(#1c5380,#06365f);
+}
+
+.leftDiv{
+  position: relative;
+  margin-top: -150px;
+  margin-left: 140px;
+  padding-left: 180px;
+  width: 400px;
+  float: left;
+  height: 555px;
+}
+
+.rightDiv{
+  float:right;
+  width: 426px;
+  position: relative;
+  width: 326px;
+  height: 518px;
+  padding: 0px 100px 37px 9px;
+  margin: -150px 265px 0 20px;
+}
+
+.instagramNameAndLogo{
+  width: 500px;
+}
+.logInButton{
+width: 99px;
+height: 43px;
+background: linear-gradient(#7592AD,#527497);
+float:right;
+margin: 19px 50px 0 0;
+border-radius: 7px;
+border: #507191;
+color:white;
+font-size: 15px;
+}
+
+.logInText{
+  width: 52px;
+  float: right;
+  padding-top: 2px;
+}
+.text{
+  background-image: url(../images/frame.png);
+  width: 513px;
+  background-repeat: no-repeat;
+  height: 346px;
+}
+
+p{
+  width: 450px;
+  padding-left: 24px;
+  padding-top: 24px;
+}
+
+h1{
+  font-size: 20px;
+  color: #517091;
+  margin-left: 47px;
+  width: 212px;
+  margin-bottom: 14px;
+}
+
+.textAlone{
+  width: 434px;
+  padding-left: 36px;
+}
+
+.downloadButtons{
+
+  height: 67px;
+  width: 345px;
+  margin-top: 21px;
+  margin-left: 77px;
+}
+
+.androidButton{
+  float: right;
+}
+
+.appleButton{
+  float: left;
+}
+
+.footer{
+  width: 527px;
+  padding-left: 454px;
+  padding-top: 24px;
+  color: #1c5380;
+  
+}
+
+.footer > a {
+  text-decoration: none;
+  color: #1c5380;
+  font-weight: 500;
+}
