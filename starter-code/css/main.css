@@ -4,7 +4,48 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  padding: 0;
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;
+  
+}
+
+.main-container {
+    
+    margin: 5% auto;
+    max-width: 80%;
+}
+
+.right-column {
+  float: right;
+  width: 60%;
+}
+
+.logo {
+  float:left;
+  width: 30%;
+}
+
+.article{
+  
+  border-radius: 5px;
+  padding:5px;
+}
+
+.button {
+  color: white
+}
+
+a {
+    text-decoration: none;
+    color:white;
 }
