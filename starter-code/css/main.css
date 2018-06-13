@@ -8,3 +8,59 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.page-top{
+	
+	background-color : #1c5380;
+	height : 400px;
+}
+
+.phone-img{
+	position : relative;
+	float : left;
+	left : 200px;
+	top : -200px;
+}
+
+.insta-frame{
+	
+	background-image: url(../images/frame.png);
+	float : right;
+	width : 700px;
+	height : 500px;
+	background-size : 700px 500px;
+	background-repeat : no-repeat;
+	color : black;
+	
+	position : relative;
+	right : 300px;
+	top : -200px;
+}
+
+.insta-header{
+	width : 300px;
+	padding : 0% 4%;
+}
+
+.insta-text{
+	padding : 1% 5%;
+	font-size : 20px;
+}
+
+.insta-pic{
+	position : relative;
+	left : 350px;
+	top : -200px;
+}
+
+.insta-app{
+	position : relative;
+	left : 370px;
+	top : 180px;
+}
+
+.bottom-text{
+	position : relative;
+	left : 200px;
+	top : 230px;
+}
