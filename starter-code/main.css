@@ -38,7 +38,7 @@ button {
   color: #ffffff;
   float: right;
   width: 100px;
-  margin-top: 20px;
+  margin: 20px 50px;
   padding: 5px 8px;
   height: 40px;
   border: 1.5px solid #2A5E9D;
@@ -58,8 +58,9 @@ button {
 }
 
 .text {
-  padding: 40px;
-  background-size: cover;
+  padding: 10px 60px 0 50px;
+  background-size: content;
+  background-repeat: no-repeat;
   background-image: url("images/frame.png");
 }
 
@@ -73,7 +74,7 @@ h3 {
 }
 
 footer {
-  padding: 0 350px;
+  padding: 0 330px;
 }
 
 .info {
