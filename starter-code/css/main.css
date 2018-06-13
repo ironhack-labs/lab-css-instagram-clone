@@ -8,3 +8,103 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+/* Colors to use:
+dark blue: #06365f
+light blue: #1c5380 */
+
+
+body {
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+
+.blueBackground{
+background: linear-gradient(#1c5380,#06365f);
+height: 300px
+}
+
+a{
+  text-decoration: none;
+  color: 5F85A4;
+}
+
+
+.rightDiv{
+float:right;
+width: 60%;
+height: 500px;
+position: relative;
+bottom: 200px;
+/* padding: 37px 100px 0 9px; */
+}
+    .text{
+      background-image: url(../images/frame.png);
+      background-repeat: no-repeat;
+      padding-right: 60px;
+      padding-left: 50px;
+      padding-top: 20px;
+      padding-bottom: 50px;
+      width: 400px;
+      color: 0C3458;
+      }
+      .homeButton{
+        background-color:#6A8EAC;
+        float: right;
+        margin-right: 355px;
+        width: 83px;
+        height: 46px;
+        margin-top: 15px;
+        color: white;
+        border-radius: 7px;
+        border-color: #6A8EAC;
+      }
+      .logInText{
+        float:right;
+        margin: 5px;
+      }
+      h1{
+        padding-right: 60px;
+        color:#06365f;
+      }
+
+      .badge-iphone{
+        float: left;
+      }
+      .badge-android{
+        float: right;
+      }
+
+.leftDiv{
+padding-left: 100px;
+width: 30%;
+float: left; 
+position: relative;
+bottom: 200px;
+}
+
+.footer{
+clear: both;
+padding-left: 20%;
+padding-right: 20%;
+position: relative;
+margin:0px 50px 50px 50px;
+text-transform: uppercase;
+font-weight: bolder;
+color: slategrey;
+text-align: center;
+}
+
+.footer a{
+  color:#6f91ae;
+  text-decoration: none;
+  margin: 2px;
+}
+
+.footer p{
+  display: inline-block;
+  margin: 5px;
+}
+
+.adjustment{
+}
