@@ -26,12 +26,12 @@ footer{
 }
 
 .mobile-image-container{
-  width:33%;
+  width:30%;
   float: left;
 }
 
 .logo-container{
-  width:66%;
+  width:60%;
   float:right;
 }
 
@@ -39,9 +39,10 @@ footer{
   display: inline;
   background: linear-gradient(#1c5380, #06365f) ;
   border: 1px solid black;
+  box-sizing: border-box;
   padding: 10px 5px ;
   border-radius: 8px;
-  margin-left: 60px;
+  margin-left: 9%;
 }
 .login{
   text-decoration: none;
