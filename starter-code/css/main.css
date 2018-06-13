@@ -8,3 +8,58 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+.container{
+  margin: -15% 15% 0 15%;
+}
+.phones{
+  float:left;
+}
+.loginBtn{
+  float:right;
+  margin-top:22px;
+  text-decoration: none;
+  color:white;
+  border: 1px solid #06365f;
+  border-radius: 10%;
+  box-shadow: 0px 2px 2px #06365f;
+  padding:5px;
+}
+.brand{
+  float:left;
+  margin:0 10%;
+}
+.mainText{
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  padding:10% 0 10% 45%;
+  background-position:98% 35%;
+}
+.blue-background{
+  background-color: #1c5380;
+  width: 100%;
+  height: 300px;
+}
+.downloadBtns{
+  padding-top:15px;
+}
+.iphoneBtn{
+  margin-right: 30px;
+}
+.footer{
+  width: 60%;
+  margin:0 auto;
+  text-align: center;
+  color: #1c5380;
+  font-weight: bold;
+  margin-bottom: 5%;
+}
+h1{
+  color: #1c5380;
+}
+.footerSeparator{
+  margin:0 10px;
+}
+.copyright{
+  float:right;
+  color:gray;
+}
