@@ -7,4 +7,66 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  /* background-color: red; */
+}
+.top-container{
+  height: 250px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #1c5380;
+}
+
+.home-button{
+  height: 100px;
+  width: 150px;
+  right: 25px;
+  float: right;
+}
+.instagram-logo{
+  height: 50px;
+  width: 100px;
+  float: left;
+  top: 50px;
+}
+.instagram-mobile-app{ 
+  float: left;
+  left: 50px;
+}
+.bottom-container{
+  height: 200px;
+  width: 100%;
+
+}
+.bottom-container  h2{
+  color: #06365f;
+}
+.app-description{
+  float: right;
+  padding: 20px;
+  margin: 0 auto;
+}
+.link-app-store{
+  display: inline-block;
+}
+.link-play-store{
+  display: inline-block;
+}
+.bottom-links{
+  display: inline-block;
+  padding: 0;
+  bottom: 20px;
+  color: #1c5380;
+  list-style-type: none;
+}
+
+.bottom-links  li{ 
+  display: inline-block;
+  margin: 0 10px;
+  font-weight: bold;
+  bottom: 10px;
+}
+span{
+  color: grey;
+  float: right;
+  bottom: 10px;
 }
