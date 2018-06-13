@@ -4,7 +4,67 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+* {
+  border: 1px solid red;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+.upperHalf {
+  background-color: #537a9e;
+  height: 200px;
+}
+
+.instagramLogo {
+  position: relative;
+  left: 52%;
+  top: 10%;
+  width: 300px;
+}
+
+.lowerLeftHalf {
+  float: left;
+  width: 49%;
+  height: 470px;
+}
+
+.phoneImage {
+  position:relative;
+  float: left;
+  left: 30%;
+  top: -50px;
+  width: fit-content;
+  
+  /* display: block;
+  margin-left: auto;
+  margin-right: auto; */
+}
+
+.lowerRightHalf {
+  float: right;
+  width: 49%;
+  height: 470px;
+}
+
+.commentBox {
+  position:relative;
+  float: right;
+  left: -60px;
+  top: -50px;
+  width: 400px;
+  background-image: url("../images/frame.png");
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+
+footer {
+  position: relative;
+  bottom: 0px;
+  clear: both;
+  text-align: center;
+  color: #537a9e;
 }
