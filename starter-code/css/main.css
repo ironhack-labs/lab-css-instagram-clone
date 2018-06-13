@@ -8,3 +8,64 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+.himg{
+  background-image:url("./frame.png");
+  background-repeat: no-repeat;
+  background-position: 650px 0px;
+}
+h2{
+  text-align: left;
+  line-height: 1.5;
+  color:#06365f;
+  padding-left: 700px;
+  padding-right: 200px;
+  padding-top: 30px;
+  margin-top: 50px;
+}
+.parrafo{
+  text-align: justify;
+  padding-left: 700px;
+  padding-right: 200px;
+  margin-top: 20px;
+}
+
+.logo{
+  background-image:url("./brand.png");
+  background-repeat: no-repeat;
+  background-position: 650px 70px;
+  padding-left: 700px;
+  padding-right: 200px;
+  padding-top: 135px;
+  padding-bottom: 12px;
+}
+h3{
+  padding-left: 700px;
+  padding-right: 200px;
+  padding-top: 20px;
+  padding-bottom: 12px;
+}
+h4{
+  padding-left: 700px;
+  padding-right: 200px;
+  padding-top: 20px;
+  padding-bottom: 12px;
+  position: absolute;
+  top:  50px;
+  left: -450px;
+}
+h5{
+  margin-top: 0;
+  position: absolute;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    float: left;
+    display: block;
+    padding: 30px;
+    color:#06365f;
+    text-transform: uppercase;
+}
