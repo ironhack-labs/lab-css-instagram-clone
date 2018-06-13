@@ -1,10 +1,160 @@
 /*
 Colors to use:
 dark blue: #06365f
-light blue: #1c5380
+light blue: #1c5380;
+width: 100%;
+height: 33%;
+position: absolute;
 */
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+section
+{
+  position: relative;
+  width: 100%;
+  height: 990px;
+  background-color: white;
+}
+#imagenes
+{
+  margin: 0;
+  width: 100%;
+  height: 40%;
+  background-color: #1c5380;
+}
+#img_tel
+{
+  width: 25%;
+  padding-top: 7%;
+  padding-left: 20%;
+  vert
+}
+
+#img_ista
+{
+  width: 20%;
+  float: left;
+  position: absolute;
+  padding-top: 10%;
+  padding-left: 5%;
+}
+
+#boton
+{
+  float: left;
+  position: absolute;
+  width: 7.5%;
+  background-color:rgb(090 150 189);
+  border: 1 solid black;
+
+  display: inline;
+  top:21%;
+  left: 75%;
+}
+
+h6
+{
+  color:white;
+  font-size: 105%;
+  float: top;
+  display: inline;
+  margin: 40px;
+  margin-left: 5px;
+}
+
+#img_home
+{
+  float: top;
+  display: inline;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+#promo
+{
+  position: absolute;
+  top: 32%;
+  left:50%;
+}
+#frame
+{
+  width: 700px;
+  position: absolute;
+}
+
+h1
+{
+  color:#06365f;
+  font-size: 250%;
+  position: absolute;
+  margin-left: 50px;
+  width: 500px;
+  text-align: justify;
+}
+
+#letras
+{
+  width: 700px;
+}
+#cambio_medidas
+{
+  width: 700px;
+}
+p{
+  font-size: 130%;
+  position: absolute;
+  color: black;
+  margin-left: 50px;
+  padding-top: 175px;
+  text-align: justify;
+}
+#negritas
+{
+
+  font-weight: bold;
+  color: black
+}
+
+#imagenes_descarga
+{
+ margin-left: 50px;
+ padding-top: 450px;
+ position: absolute;
+}
+
+#icono_iphone
+{
+  padding-left: 10px;
+  width: 45%;
+margin: 5px;
+}
+#icono_android
+{
+  width: 45%;
+  margin: 5px;
+}
+#pie_de
+{
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  padding-top: 300px;
+
+}
+
+#letra_pie
+{
+  padding-left: 500px;
+  color:#1c5380;
+  float: left;
+  
+}
+#letra_pie_gris
+{
+  color:gray;
+  float: left;
+  padding-left: 1000px;
 }
