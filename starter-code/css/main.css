@@ -43,6 +43,13 @@ body {
 
 .right{
   float: right;
+  margin-right: 100px;
+  margin-top: 25px;
+  background-color: #06365f;
+  padding-right: 50px;
+  padding-top: 7px;
+  padding-bottom: 5px;
+  padding-left: 5px;
 }
 
 .bottom{
