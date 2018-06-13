@@ -46,6 +46,7 @@ td {
 .bottom-bar {
     float: bottom;
     position: relative;
+    top: -50px;
     right: 150px;
 }
 
@@ -61,4 +62,8 @@ td {
     float: left;
     top: -200px;
     left: 200px;
+}
+
+.top-bar image {
+    padding-left: 10px;
 }
