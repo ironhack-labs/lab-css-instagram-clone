@@ -29,11 +29,20 @@ header {
 }
 
 .login-button {
+  float: right;  
   position: relative;
-  float: right;
-  top: 25px;
-  left: 50px;
-  border-radius: 0.5em;
+  left: 80px;
+  top: 10px;
+  border-radius: 0.2em;
+  padding: 8px 15px;
+  background-color:#1c5380;
+  box-shadow: 0px -0.5px 0.5px 0.03px;
+}
+
+.login-button img {
+  position: relative;
+  top: 5px;
+  right: 5px;
 }
 
 .left-images {
