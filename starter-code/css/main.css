@@ -3,8 +3,125 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
-body {
+html, body .page-div{
+  height: 100%;
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+p{
+  color: black;
+  font-weight: bold;
+}
+
+h2{
+  color: #06365f;
+}
+
+footer{
+  text-align: center;
+  position: relative;
+  top: 350px;
+  left: 200px;
+}
+
+.top-div{
+  background-color: #06365f;
+  background: linear-gradient(to top, rgb(6, 54, 95), rgb(207, 231, 252));
+  height: 420px;
+  margin-bottom: 0px;
+}
+
+.bottom-div{
+height: 620px;
+
+}
+
+.left-div{
+display: block;
+float:left;
+position: relative;
+bottom: 235px;
+left: 550px;
+
+}
+
+.right-div{
+  float:right;
+  height: 300px;
+  width: 600px;
+  box-shadow: 10px 0px 0px -3px #888888;
+  border-radius: 15px;
+  border-bottom: none;
+  background-color: white;
+  position: relative;
+  right: 400px;
+  bottom: 80px;
+}
+
+.login-btn{
+  height: 50px;
+  float:right;
+  background-color: rgb(67, 163, 230);
+  font-size: 2em;
+  letter-spacing: 0.5px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  width: 150px;
+  margin: 40px auto 0;
+  padding: 14px 20px;
+  border: 2px solid rgba(0,0,0, 0.2);
+  position: relative;
+  right: 400px;
+  top: 80px;
+}
+
+.home-image{
+  display: block;
+  position: relative;
+  
+}
+
+.brand-logo{
+  position: relative;
+  left: 125px;
+  top: 230px;
+  background-position: center;
+  background-size: auto;
+  background-image: url("../images/brand.png");
+  background-repeat: no-repeat;
+  height: 120px;
+}
+
+.app-store-btn{
+  font-size: 2em;
+  height: 75px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  right: 150px;
+  width: 150px;
+  padding: 14px 20px;
+  position: relative;
+  float: right;
+  background-image: url("../images/badge-android.png");
+  background-repeat: no-repeat;
+}
+
+.google-play-btn{
+  font-size: 2em;
+  height: 75px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  width: 150px;
+  padding: 14px 20px;
+  position: relative;
+  float: right;
+  right: 150px;
+  background-image: url("../images/badge-iphone.png");
+  background-repeat: no-repeat;
 }
