@@ -3,8 +3,50 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  background: url(../images/bgtile.png);
+  background-repeat: repeat-x;
+  padding: 110px 50px 100px 100px;
 }
+
+h1 {
+  color: #06365f;
+}
+
+.main {
+  width: 90%;
+  margin: 0px;
+  position: relative;
+  align-content: center;
+}
+
+.col-1 {
+  float: left;
+  width: 40%;
+}
+
+.col-2 {
+  float: right;
+  width: 60%;
+  background-image: url(/home/laura/Documentos/DAILY-PROGRAMING/lab-css-instagram-clone/starter-code/images/frame.png);
+  background-repeat: no-repeat;
+}
+
+footer {
+  clear: both;
+  align-content: center;
+}
+
+footer li {
+  display: inline-block;
+  list-style: none;
+  color: #1c5380;
+  align-content: center;
+}
+
+.uppercase {
+  text-decoration: uppercase;
+}
+
+
