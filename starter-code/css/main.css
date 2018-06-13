@@ -1,10 +1,62 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
-
-body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+.secondImage{
+  margin-top: 90px;
+  padding: 290px 60px 0px 399px;
+}
+.firstImage{
+  padding-top: 800px;
+  padding-bottom: -700px;
+  margin-bottom: 100px;
+  margin-top: 500px;
+  border-top: 700px;
+  border-bottom: 400px;
+  float: bottom;
+  top: 500px;
+}
+h2{
+  color: darkblue;
+  font-size:1.7em;
+  font-family: avenir;
+}
+.container{
+ widht: 800px;
+ padding-left: -200px;
+  font-family: avenir;
+  font-size: 0.8em;
+  box-shadow: 1px 1px 1px 1px lightgrey;
+  border: 8px solid white;
+  padding-bottom: -400px;
+  margin-top: 10px;
+  height: 400px;
+  margin-right: 56px;
+  margin-left: 400px;
+}
+.container img{
+  padding-top: 10px;
+  padding-bottom: 50px;
+  margin-bottom: 80px;
+  margin-top: 10px;
+  padding-left: 10px;
+  float: left;
+  
+}
+.container img2{
+  float: left;
+}
+.top-left{
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+     padding-left:400px;
+     padding-right:90px;
+  transform: rotate;
+}
+.btn{
+  float: left;
+  height: 30px;
+  position: relative;
+  left: 290px;
+  width: 70px;
+  margin-top: 95px;
+  left: 999px;
+  background: url("https://github.com/mon0225/lab-css-instagram-clone/blob/master/starter-code/images/home.png?raw=true") no-repeat 0 0 #397ec3;
+font-color: white;
 }
