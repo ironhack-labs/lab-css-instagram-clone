@@ -6,5 +6,113 @@ light blue: #1c5380
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: white;
   margin: 0;
+  width: 100%;
+}
+span {
+  font: 400 16px/1 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color:rgb(206, 205, 205);
+}
+.mainBody {
+width:100%;
+}
+
+.topBody {
+background-color: rgb(75, 118, 150);
+height: 300px;
+width:100%;
+}
+
+
+
+
+.phones {
+  position: relative;
+  bottom:200px;
+  left:17%;
+  width: 45%;
+  float:left;
+}
+.phoneImg {
+  width: 60%;
+}
+.instagram {
+  height: 80px;
+  position: relative;
+}
+.brand {
+  position:relative;
+  right: 31%;
+  float:right;
+
+}
+/* is a submit button dummy */
+.login { 
+  position: relative;
+  left: 65%;
+  top: 25%;
+  float:right;
+  border-radius: 5px;
+  padding-top: .5%;
+  text-align:center;
+  height: 35px;
+  width: 100px;
+  background-image: url("../images/bgtile.png");
+}
+
+.homeImage {
+  position: relative;
+  top:1px;
+  padding-right: 5px;
+  padding-top: 2px;
+}
+
+.logintxt {
+  position: relative;
+  bottom:5px;
+}
+.loginText {
+  position: relative;
+  bottom:2px;
+  font-weight: 800;
+  color:white; 
+}
+
+.aboutInstagram {
+  position: relative;
+  padding:10px 30px 0 30px;
+  background-image:url("../images/frame.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.instaInfo {
+  position: relative;
+  bottom: 150px;
+  right: 15%;
+  width: 470px;
+  padding: 0 10px 0 10px;
+  float: right;
+}
+
+.storeLinks {
+  position: relative;
+  left:13%;
+  margin:0;
+  padding: 0;
+}
+
+.pAbout {
+  text-align: justify;
+}
+
+.instagramLinks {
+  clear: both;
+  position: relative;
+  bottom:150px;
+  left: 28%;
+}
+footer .links{
+  text-decoration: none; 
 }
