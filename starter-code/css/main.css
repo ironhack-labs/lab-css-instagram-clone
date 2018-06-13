@@ -1,10 +1,131 @@
 /*
 Colors to use:
-dark blue: #06365f
-light blue: #1c5380
+color del fondo y letra pricipal dark blue: #06365f
+ color del icono light blue: #1c5380
 */
-
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+ background-image: url("../images/bgtile.png");
+background-repeat: repeat-x;
+}
+
+html {
+ box-sizing: border-box;
+}
+*, *:before, *:after {
+ box-sizing: inherit;
+}
+
+body {
+ margin: 0;
+padding: 0;
+}
+
+
+
+body {
+ color: #111;
+ font-family: Helvetica, Arial, sans-serif;
+ font-size: 16px;
+ line-height: 147%;
+}
+
+h2 {
+ color:#1c5380;
+ font-size: 32px;
+  margin: 0 0 20px 0;
+  line-height: 120%
+}
+
+p .card {
+  margin: 0 0 10px 0;
+}
+
+.footer-bar {
+ text-transform: uppercase;
+ font-weight: 800;
+ color: gray;
+}
+
+.footer-bar a {
+  text-decoration: none;
+ color: #1c5380;
+ margin: 0 20px 0 0;
+}
+
+
+#site-header {
+ padding: 30px 0;
+ color: white;
+ background: #111;
+}
+
+#site-footer {
+ color: white;
+ padding: 60px 0;
+  background: #111;
+}
+
+#site-main {
+  margin-bottom: 60px;
+}
+.section {
+ margin-bottom: 20px;
+ padding-top: 20px;
+}
+
+
+.left-container {
+ float: left;
+ width: 30%;
+ padding: 60px 40px; 
+}
+
+.right-container {
+ float: right;
+ width: 70%;
+ padding: 60px 0;
+}
+
+.footer-bar {
+ clear: both;
+ text-align: center;
+}
+
+login-bar {
+ margin: 20px 0 30px 0;
+ overflow: hidden;
+}
+.login-bar img {
+  float: left;
+}
+
+.login-button {
+ float: right;
+ padding: 10px;
+  background: linear-gradient(#799ebc, #3d719a);
+ color: white;
+  font-weight: 600;
+border: 2px solid #1c5380;
+ border-radius: 5px;
+ margin: 20px 800px 0 0;
+}
+
+.login-button img {
+  padding: 0 10px 0 0;
+}
+
+.card {
+clear: both;
+background-image: url("../images/frame.png");
+background-size: 60% 100%;
+ padding: 50px;
+ background-repeat: no-repeat;
+}
+.appstore-button {
+  margin: 20px 40px 0 0;
+}
+.img1{
+  margin: 0px 0px 0px 180px
 }
