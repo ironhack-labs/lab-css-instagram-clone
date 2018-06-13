@@ -8,3 +8,93 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+.main-background{
+  background: linear-gradient(#1c5380, #06365f);
+  height: 20em;
+}
+.central-content{
+  margin:auto;
+  position: relative;
+}
+.phones{
+  position: relative;
+  top:8em;
+  left:10em;
+}
+.brand{
+  position: absolute;
+  top:8em;
+  left:33em;
+}
+button{
+  position: absolute;
+  top: 13.5em;
+  left: 80em;
+  background: linear-gradient(#1c5380, #06365f);
+  border-color:#06365f;
+  border-radius:.3em;
+  color: #fff;
+  background-color: #06365f;
+  padding: .5em 1em;
+  vertical-align: middle; /*No funciona en browser*/
+  
+}
+button.img{
+  margin-left: 20px;
+}
+.frame{
+  position: absolute;
+  top: 14.5em;
+  left: 33em;
+}
+.article{
+  position: absolute;
+  top: 15em;
+  left: 35em;
+  width: 25em;
+}
+
+h1{
+  color: #06365f;
+  font-size: 1.5em;
+  font-weight: 20px;
+}
+p{
+  font-size: .9em;
+}
+span{
+  font-weight: bold;
+}
+.badge-iphone{
+  position: absolute;
+  top: 36em;
+  left: 35em;
+}
+.badge-android{
+  position: absolute;
+  top: 36em;
+  left: 46.5em;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    float:left;
+    margin-left: 1em;
+}
+a{
+  text-decoration:none;
+  color: #06365f !important; /*No funciona en browser*/
+}
+ul{
+  list-style-type: none;
+}
+.footer{
+  margin:auto;
+  position: absolute;
+  top: 40em;
+  left: 25%;
+  font-size: 1em; /*No funciona en browser*/
+}
+#register{
+  color: #ccc; /*No funciona en browser*/
+}
