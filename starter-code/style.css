@@ -1,0 +1,103 @@
+/* ---- reset ---- */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  
+}
+
+article {
+  background: url(./images/frame.png);
+  background-position: cover;
+  background-repeat: no-repeat;
+  height: 325px;
+  overflow: hidden;
+  padding: 20px 50px 20px 50px;
+  margin-bottom: 10px;
+  line-height: 25px;
+  
+ }
+ 
+ article h1 {
+   font-size: 22px;
+   color: #06365f;
+ }
+ 
+ article p {
+   font-size: 14px;
+ }
+ 
+ article h1, article p, nav {
+   font-family: Arial, Helvetica, sans-serif;
+ }
+ 
+
+.blue-background {
+  background: url(./images/bgtile.png);
+  background-repeat: repeat-x;
+}
+
+.container {
+  max-width: 900px;
+  margin: 60px auto 20px auto;
+}
+
+.float-right {
+  float: right;
+  max-width: 500px;
+}
+
+.button {
+  float: right;
+  font-size: 15px;
+  margin-top: 20px;
+  padding: 6px;
+  color: white;
+  border-radius: 2px;
+  border: 1px solid black;
+  font-weight: 400px;
+}
+
+.img-position {
+  margin-left: 40px;
+}
+
+.img-position img {
+  padding: 10px;
+}
+
+.add-margin {
+  margin-bottom: 30px;
+}
+
+
+.links {
+  display: inline-block;
+  margin: 0 20px 0 280px;
+  padding: 0;
+ 
+}
+
+.links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.links a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #1c5380;
+}
+
+.grey {
+  color: #D3D3D3;
+  font-weight: bold;
+  
+}
