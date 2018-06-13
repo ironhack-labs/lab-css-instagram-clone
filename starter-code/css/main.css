@@ -16,6 +16,7 @@ h2 {
 }
 .container1{
   width: 90%;
+  margin: 0 auto;
   margin-top: 50px;
 }
 .contPhone{
@@ -72,5 +73,5 @@ h2 {
   color: #1c5380;
 }
 .copy {
-  color: lightgrey;
+  color: lightgrey !important;
 }
