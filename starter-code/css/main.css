@@ -7,4 +7,71 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+ /* width: 1200px;*/
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+}
+h2 {
+  color: #1c5380;
+}
+.container1{
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.contPhone{
+  float: left;
+  margin-left: 60px;
+  width: 30%;
+}
+.container2{
+  float: left;
+  width: 50%;
+  margin-left: 25px;
+  margin-top: 50px;
+}
+.container3{
+  float: left;
+  /*margin-left: 25px;*/
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  padding-left: 25px;
+  margin-right: 28px;
+  padding-left:  30px;
+  padding-right: 65px;
+  font-size: 13px;
+}
+.downImg{
+  display: inline-block;
+  margin-left: 70px;
+}
+
+.botonLogin {
+  background-color:#1c5380;
+  border: solid;
+  color: white;
+ /* padding: 15px 32px; */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  /*margin: 4px 2px;*/
+  cursor: pointer;
+  position: relative;
+  right: 150px;
+  top: 76px;
+}
+.footer {
+  margin-top: 120px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.footer ul li{
+  text-decoration: none;
+  display: inline-block;
+  list-style-type: none;
+  color: #1c5380;
+}
+.copy {
+  color: lightgrey !important;
 }
