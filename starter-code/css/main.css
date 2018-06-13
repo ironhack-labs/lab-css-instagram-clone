@@ -1,10 +1,122 @@
 /*
 Colors to use:
-dark blue: #06365f
-light blue: #1c5380
+dark blue: #06365f  <- Degradar Color Inferior
+light blue: #1c5380 <- Degradar Color Superior
 */
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+    font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+  }  
+
+.fondoSuperior {
+background: linear-gradient( #3878a8, #1c5380); /* linear-gradient Permite degradar colores */
+height: 260px; /* Porqué no colorea con porcentaje <-- parenting? // ¿Cuál es más recomendable: px | em | % ? */
+/* 1em = 16px // ¿Cuál es más recomendable: px | em | % ? */
+}
+.container {
+    position: relative; /* */
+    margin:auto;
+}
+
+.phone-main {
+    position: relative;
+    top: 100px; /* Esto es parte del posicionamiento */
+    left: 150px;
+}
+
+.marcoTexto {
+    position: absolute;
+    top: 200px;
+    right: 250px;
+
+    /* Creo que ya le estoy
+    entendiendo a las posiciones. =P */
+}
+
+.titulo {
+    width: 300px;
+    font-family: sans-serif;
+    font-size: 18px;
+    color: #06365f;
+    position: absolute;
+    top: 210px;
+    right: 400px;
+    box-sizing: border-box;
+}
+
+.texto {
+    width: 400px;
+    font-family: sans-serif;
+    text-align: left;
+    font-size: 15px;
+    position: absolute;
+    top: 320px;
+    right: 300px;
+    box-sizing: border-box;
+  }
+
+.logoInstagram {
+    position: absolute; /* La posición absoluta fija en una posición */ 
+    top:100px;          /* Se posiciona en referencia del elemento más cercano */
+    left:550px;         /* con posicion diferente a static */
+    /* 'top' y 'left' son parte del posicionamiento */
+}
+
+button{
+  position: absolute;
+  top: 125px;         /* Esto es parte del posicionamiento */
+  right: 300px;       /* Esto es parte del posicionamiento */ 
+  padding: 8px 15px; 
+  border-color:#06365f; /* Borde del boton mismo color */
+  text-align: center;
+  color:white;
+  border-radius: 7px;
+  background: linear-gradient(#3878a8, #1c5380);
+  
+  /* Mismo efecto de degradado aplicado al botón*/
+  /* El padding es el espacio entre el contenido del elemento 
+  y su borde. No se permiten valores negativos. */
+}
+
+.ios {
+    position: absolute;
+    top: 560px;
+    right: 530px;    
+} 
+
+.android {
+    position: absolute;
+    top: 560px;
+    right: 320px;    
+}
+
+.list{
+    position: relative;
+    text-transform: upperCase;
+    font-weight: 500;
+    font-size: 12px;
+    padding: 5px;
+    color: #1c5380;
+    display: inline-block;
+    top: 370px;
+    left:270px;
+    list-style-type: none; 
+}
+.derechos {
+    position: relative;
+    text-decoration-color: none;
+    list-style-type: none; 
+    display: inline-block;
+    top: 370px;
+    left: 300px;
+    padding: 5px;
+ }
+
+.footer {
+  margin:auto;
+  position: absolute;
+  top: 40em;
+  left: 25%;
+  font-size: 1em;
 }
