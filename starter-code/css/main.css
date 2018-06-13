@@ -8,3 +8,80 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.bodybox {
+  width: 980px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.body1a {
+  float: left;
+  width: 33%;
+}
+
+.body2 {
+    margin-top: 20px;
+    float: left;
+    width: 60%;
+    margin-left: 30px;
+}
+
+.body2a {
+  width: 30%;
+}
+
+.body2b {
+  position: relative;
+  width: 30%;
+  display: block;
+}
+
+.contenedortexto {
+  background-image: url("https://raw.githubusercontent.com/ironhack-labs/lab-css-instagram-clone/master/starter-code/images/frame.png");
+  background-repeat: no-repeat;
+}
+
+.texto {
+  
+}
+
+.body2c {
+  margin-top: 20px;
+  float: left;
+  margin-right: 15px;
+  margin-left: 30px;
+}
+
+.body2d {
+  margin-top: 20px;
+  display: block;
+  margin-left: 20px;
+}
+
+footer {
+  margin-top: 30px;
+  display: inline-block;
+  text-align: center
+}
+
+li {
+  display: inline-block;
+  list-style-type: none;
+  color: #1c5380;
+  font-weight: bold;
+}
+.texto {
+  padding: 15px;
+}
+h1 {
+  padding: 10px;
+  width: 75%;
+  color: #06365f;
+}
+
+p {
+  padding: 10px;
+  font-size: 1em;
+  width: 75%;
+}
