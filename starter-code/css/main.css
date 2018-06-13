@@ -5,6 +5,94 @@ light blue: #1c5380
 */
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  font: 200 16px/1 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0 auto;
+  width: 50%;
+  background-image: linear-gradient(to top, white 50%, #1c5380 50%);
+  background-size: cover;
+  /*background-repeat: no-repeat;*/
+  height: 100%;
+}
+
+
+
+nav li {
+  list-style-type: none;
+  float: left;
+  display: inline-block;
+  margin: 5px;
+  color: #88b0ef;
+}
+.title {
+  position: absolute;
+  top:170px;
+  right: 290px;
+}
+
+.mainInsta{
+  width: 60%;
+  display: inline-block;
+  
+}
+
+img {
+  position: relative;
+}
+
+.mainInfo {
+  background: white;
+  position: absolute;
+  top:250px;
+  right: 300px;
+  width: 25%;
+  border-radius: 10px;
+  padding-right: 10px;
+}
+
+.mainInfo h2 {
+  color: #06365f;
+  padding-left: 15px;
+}
+ .mainInfo img{
+   width: 40%;
+ }
+ .mainInfo p { 
+   padding-left: 15px;
+  
+  }
+
+ .phoneImage img {
+   width: 50%;
+   height: 50%;
+ }
+
+ section {
+  margin-top: 130px;
+}
+
+.button {
+  display: inline-block;
+  color: white;
+  background-color: #1c5380; 
+  position: absolute;
+  top:10px;
+  right: 30px;
+  
+}
+
+.button img{
+  display: inline-block;
+  
+}
+.button p {
+  display: inline-block;
+  
+}
+.copp {
+  color: lightgrey;
+  font-weight: bold;
+  font-size: 14px;
+  position: absolute;
+  bottom: 7px;
+  right: 380px;
 }
