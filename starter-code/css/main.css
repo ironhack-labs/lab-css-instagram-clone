@@ -6,5 +6,103 @@ light blue: #1c5380
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   margin: 0;
+  
+}
+header{
+background-image: url("../images/bgtile.png");
+  position: relative;
+  width: 100%;
+  height: 250px;
+}
+.title-content{
+  color: #1c5380;
+  margin:20px 20px 20px 20px;
+  padding: 18px 40px 20px 40px;
+  width: 76%;
+}
+.content{
+  margin: 10px 5px 25px 25px;
+  padding: 15px; 
+  float: left;
+  text-align: justify;
+  width: 383px;
+  height: 220px;
+  font-family: Helvetica;
+  line-height: 26px;
+
+}
+#imagen0{
+  vertical-align: middle;
+  margin-right: 75px;
+  margin-top: 75px;   
+  box-sizing: content-box;
+  background-repeat: no-repeat;
+  border: 1px solid #1c5380;
+  float: right;
+  color: white;
+}
+.texto-casita a{
+  font-family: sans-serif;
+  text-decoration: none;
+}
+#imagen1{
+  background-image: url("../images/frame.png");
+  position: relative;
+  background-repeat: no-repeat;
+  margin-right: 20px;
+  margin-top: -125px;
+  width: 50%;
+  height: 100%;
+  float: right;
+}
+.imagen2{
+background-image: url("../images/badge-iphone.png");
+background-repeat: no-repeat;
+float: left;
+width: 170px;
+height: 53px;
+margin: 10px 10px 2px 20px;
+
+
+}
+.imagen3{
+background-image: url("../images/badge-android.png");
+background-repeat: no-repeat;
+margin-right: 180px;
+margin-left: 0px;
+margin-bottom: 20px;
+margin-top: 10px; 
+padding: 20px;
+width: 114px;
+height: 25px;
+float: right;
+}
+.imagen4{
+  background-image: url("../images/phones.png");
+  width: 320px;
+  height: 520px;
+  background-repeat: no-repeat;
+  margin-left: 100px;
+  margin-top: 50px;
+ padding-top: 70px; 
+  float: left;
+  position: relative;
+}
+.horizonte li{
+  position: fixed;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+.imagen5{
+  background-image: url("../images/brand.png");
+  height: 76px;
+  width: 472px;
+  position: relative;
+  margin-top: 60px;
+  margin-right: 100px; 
+  background-repeat: no-repeat;
+  float: right;
+  
 }
