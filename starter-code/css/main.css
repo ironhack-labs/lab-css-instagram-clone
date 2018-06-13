@@ -68,3 +68,14 @@ footer{
   padding: 10px 50px;
   width: 66%;
 }
+
+.apple-logo{
+  float:left;
+  width: 45%;
+}
+
+.android-logo{
+  float:right;
+  width:45%;
+  margin-left: 5%;
+}
