@@ -48,6 +48,7 @@ section{
   position: absolute;
   right: 13%;
   width: 45%;
+  top: 75%;
 }
 h1 {
   margin-left: 7%;
@@ -59,4 +60,19 @@ section p{
   margin-left: 7%;
   margin-right: 15%;
   font-size: 18px;
+}
+.iphone{
+  margin-left: 7%;
+}
+li {
+  display:  inline-block;
+  font-size: 13px;
+  text-transform:  uppercase;
+  color: #507a9e;
+  font-weight: bold;
+  margin-left: 10px;
+}
+footer{
+  margin-top: 31%;
+  text-align: center;
 }
