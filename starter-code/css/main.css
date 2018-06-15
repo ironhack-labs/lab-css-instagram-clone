@@ -1,10 +1,160 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
-
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
-}
+ }
+ 
+ .background {
+  background: linear-gradient(#537ba1, #376085);
+  height: 304px;
+ }
+
+  .iphone img {
+  padding-left: 50px;
+ }
+ 
+ .header {
+  float: right;
+  display: flex;
+  margin-right: 15%;
+  align-content: center;
+  flex-direction: row;
+  margin-top: 8%;
+ }
+ 
+ button img {
+  height: 20px;
+  padding-right: 10px;
+ }
+
+ button {
+  width: 112px;
+  height: 42px;
+  border-radius: 2px;
+  margin-left: 82px;
+  margin-top: 14px;
+  background: linear-gradient(#51789c, #345b7e);
+  border-color: #345b7e;
+ }
+
+ .info{
+  display: block;
+  flex-direction: column;
+  height: 500px;
+  width: 450px;
+  margin-left: 720px;
+  position: absolute;
+  top: 200px;
+ }
+
+ button span {
+  font-size: 15px;
+  color: white;
+  font-style: bold;
+ }
+ 
+ .white img{
+  top: -70px;
+  margin-left: 720px;
+  position: relative;
+ }
+ 
+ .info p {
+  font-size: 16px;
+  padding-left: 50px;
+ }
+ 
+ .info h3 {
+  width: 300px;
+  font-size: 25px; 
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-left: 30px;
+  color: #345b7e;
+ }
+ 
+ .play {
+  margin-left: 792px;
+  display: flex;
+  flex-direction: row;
+ }
+ 
+ .play img {
+  padding-right: 21px;
+ }
+ 
+ .iphone {
+  margin-top: 120px;
+  margin-left: 300px;
+ }
+ 
+
+ ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  margin-top: 80px;
+  margin-left: 340px;
+ }
+ 
+ li {
+  padding-right: 30px;
+  color: #345b7e;
+ }
+ 
+ .copy {
+  color: #808080e7;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
