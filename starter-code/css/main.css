@@ -41,7 +41,9 @@ button {
 h1 {
   color: #06365f; 
   opacity: 0.8;
-  margin-top: 3px;
+  margin-top: 100px;
+  margin: auto;
+  vertical-align:middle;
 }
 
 .topInfo {
