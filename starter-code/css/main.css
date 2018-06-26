@@ -1,10 +1,91 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
+/* ---- reset ---- */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 200 14px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background:url('../images/bgtile.png');
+  background-repeat: repeat-x;
+}
+.wrapper{
+  width: 70%;
+  margin: 50px auto;
+  padding: 0 50px;
+}
+.main-image{
+  float:left;
+}
+.main-section,.header{
+  overflow: hidden;
+}
+.main-image{
+  width: 40%;
+}
+.main-content{
+  padding:30px 10px 10px;
+  width:55%;
+  float: right;
+
+}
+.header{
+  padding-right: 10px;
+}
+.header .brand-image{
+  width: 60%;
+}
+.login-button{
+  border-radius:4px;
+  background: #1c5380;
+  border:1px solid #06365f;
+  float:right;
+  overflow: hidden;
+  padding:5px 10px;
+  margin-top: 10px;
+}
+.login-button img{
+  float: left;
+}
+.login-button span{
+  margin:5px 0 0 5px;
+  display: inline-block;
+  color: #fff;
+}
+.content{
+  background:url('../images/frame.png') no-repeat 0 20px;
+  background-size: 100%;
+  padding: 30px;
+}
+.content h2{
+  color: #1c5380;
+  line-height: 1.2em;
+}
+.button-container{
+  margin-top:65px;
+}
+.button-container a{
+  margin-right: 10px;
+}
+.footer-nav ul{
+  list-style:none;
+  text-align: center;
+  padding-left: 0;
+}
+.footer-nav ul li{
+  display:inline-block;
+}
+.footer-nav li a{
+  color:#1c5380;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 0.9em;
+}
+.footer-nav li:last-child a{
+  opacity: 0.6;
 }
