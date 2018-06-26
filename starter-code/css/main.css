@@ -4,7 +4,98 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+/* div,section,header,nav{
+  border:1px solid red;
+} */
+
+/* ---- reset ---- */
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+}
+
+.main-image {
+  width: 40%;
+  float: left;
+}
+
+.main-information {
+  width: 60%;
+  float: left;
+  overflow: hidden;
+  padding: 10px;
+}
+
+.container {
+  overflow: hidden;
+  margin: 0 auto;
+  width: 800px;
+}
+
+.brand-image {
+  width: 70%;
+  float: left;
+}
+
+.login-button {
+  width: 30%;
+  float: left;
+  background: #7ac3ff;
+  background-image: -webkit-linear-gradient(top, #7ac3ff, #1780d6);
+  background-image: -moz-linear-gradient(top, #7ac3ff, #1780d6);
+  background-image: -ms-linear-gradient(top, #7ac3ff, #1780d6);
+  background-image: -o-linear-gradient(top, #7ac3ff, #1780d6);
+  background-image: linear-gradient(to bottom, #7ac3ff, #1780d6);
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.clear {
+  clear: both;
+}
+
+.description {
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0 20px;
+  color: #06365f;
+  padding-top: 10px;
+}
+
+.main-container {
+  margin-top: 150px;
+  overflow: hidden;
+}
+
+.footer-link li {
+  list-style-type: none;
+  color: #06365f;
+  float: left;
+  margin: 10px;
+  font-weight: bold;
+}
+
+.footer-info {
+  list-style-type: none;
+  float: left;
+  margin: 10px;
 }
