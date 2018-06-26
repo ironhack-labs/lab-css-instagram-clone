@@ -4,7 +4,107 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:400,600,800');
+
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 200 16px/1.5 "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+  box-sizing: border-box;
+}
+
+.clear{
+  clear: both;
+}
+
+.container{
+  padding: 100px 250px 0 250px;
+  overflow: hidden;
+}
+
+.phones{
+  float: left;
+  width: 50%;
+}
+.phones img{
+  padding-left: 25%;
+}
+
+.main-info{
+  float: left;
+  width: 50%;
+  margin-left: -30px;
+}
+
+.main-header button{
+  background-color: #1c5380;
+  border: 0;
+  color: white;
+  padding: 1.5%;
+  font-size: 1em;
+  font-weight: 600;
+  margin: 3% 10% 0 0;
+  float: right;
+}
+
+.main-header button img{
+  padding-top: 5px;
+  display: block;
+  float: left;
+}
+
+.text{
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  margin: -5px;
+  margin-top: -15px;
+  padding-right: 20%;
+}
+
+.text h3{
+  color: #06365f;
+  font-size: 1.6em;
+  padding: 30px 20px 0 40px;
+  width: 60%;
+  font-weight: 600;
+}
+
+.text p{
+  padding: 0 0 0 40px;
+  font-size: 0.98em;
+  width: 80%;
+}
+
+.text .buttons{
+  margin: 25px 0 0 35px;
+}
+
+footer{
+  overflow: hidden;
+}
+
+.navbar{
+  padding: 70px 160px 0 250px;
+  display: table;
+}
+
+.navbar ul{
+  display: table-row;
+}
+
+.navbar-item{
+  list-style: none;
+  color: grey;
+  font-size: 0.8em;
+  font-weight: 800;
+  text-align: center;
+  display: table-cell;
+  padding: 0 10px;
+}
+
+.navbar-item a{
+  text-decoration: none;
+  color: #1c5380;
 }
