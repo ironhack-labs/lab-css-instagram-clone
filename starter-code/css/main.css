@@ -4,7 +4,123 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+}
+
+.full-section {
+  padding: 100px 200px 0px 200px;
+  overflow: hidden;
+}
+
+
+.left-img {
+  width: 50%;
+  float:left;
+  overflow: hidden;
+}
+
+.right-info {
+  width:50%;
+  float:left;
+  overflow: hidden;
+}
+
+.clear {
+  clear: both;
+}
+
+.bottom-info{
+  overflow: hidden;
+  padding: 0px 200px 0px 200px;
+}
+
+.footer-elements {
+  width:11%;
+  float: left;
+}
+
+.main-wrapper {
+  overflow: hidden;
+}
+
+.home-logo {
+  height: auto;
+  float: right;
+  margin: 25px 10px 0px 0px;
+  background-color:#1c5380;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  padding: 5px 5px 5px 5px;
+  color:white;
+  border-radius: 1px;
+  border-color:#1c5380;
+}
+
+.container-info {
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.market {
+  padding: 0px 20px 0px 20px;
+}
+
+.light-font {
+  color: #1c5380;
+}
+
+.strong-font {
+  color:#06365f;
+}
+
+.title-decoration {
+  color:#06365f;
+  font-size:1.4em;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.market-images {
+  margin-top: 60px;
+}
+
+.text-left {
+  padding: 0px 30px 0px 30px;
+}
+
+.iphone4s {
+  padding-left: 140px;
+}
+
+.bottom-list {
+  text-align: center;
+  list-style-type: none;
+}
+
+.floter {
+  float:right;
+}
+
+.color-copyRight {
+  color: gray;
 }
