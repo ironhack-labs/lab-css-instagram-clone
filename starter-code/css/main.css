@@ -5,6 +5,108 @@ light blue: #1c5380
 */
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+  padding: =0;
+  font: 2 00 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  
+
+}
+
+.wrapper{
+  /*background-image:url(../images/frame.png);
+  background-repeat: no-repeat;
+  background-size: cover;*/
+  
+  background-color: grey;
+  width: 80%;
+  margin:auto auto;
+  
+}
+
+.header{
+  border: 1px solid black;
+  overflow:hidden;
+}
+
+
+.image{
+  
+  width: 48%;
+  float:left;
+
+  
+}
+
+.main{
+ 
+  width: 40%;
+  float:left;
+
+}
+
+.section-a{
+  overflow: hidden;
+}
+.logo{
+  width: 50%;
+  float: left;
+  background-color: red;
+}
+
+.img-logo{
+  width: 100%;
+}
+
+.user{
+  background-color:blue;
+  width: 50%;
+  float:left;
+  overflow: hidden;
+  
+}
+
+.img-home{
+  width: 30%;
+  float:left;
+  background-color: green;
+}
+
+
+.log-in{
+  width: 100%;
+  
+}
+
+.section-b{
+  background-color: white;
+}
+
+.info-container{
+  margin-bottom: 40px;
+}
+
+.info-container h1{
+  color:blue;
+}
+
+.info-container span{
+  font-weight: bolder;
+}
+
+.footer{
+height: 40px;
+
+}
+
+footer ul{
+  list-style: none;
+
+}
+
+footer li {
+  display:inline-block;
+  text-decoration: none;
+  float:left;
+  margin:10px;
 }
