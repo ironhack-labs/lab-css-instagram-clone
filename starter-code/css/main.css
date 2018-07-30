@@ -8,3 +8,97 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+header {
+  width: 100%;
+  height: 400px;
+  background-color: #1c5380;
+}
+
+.main-content {
+  position: relative;
+  width: 852px;
+  margin: 0 auto;
+  padding-top: 150px;
+}
+
+.right-side {
+  width: 504px;
+  height: 450px;
+  position: absolute;
+  right: 0px;
+  top: 160px;
+}
+
+.iPhones {
+  position: absolute;
+  width: 318px;
+}
+
+main {
+  width: 100%;
+  height: 300px;
+}
+
+button {
+  background-color: #1c5380;
+  border-color: #06365f;
+  border-radius: 6%;
+  color: white;
+  padding: 6px;
+}
+
+.right-align {
+  position: absolute;
+  top: 20px;
+  right: 0px;
+}
+
+.content {
+  width: 504px;
+  height: 304px;
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+h2 {
+  padding: 30px 220px 10px 40px;
+  color: #06365f
+}
+
+p {
+  padding: 10px 40px;
+}
+
+/* Alineacion del icono en el boton Login */
+
+.vertical-align {
+  vertical-align: middle;
+}
+
+/* Alineacion centrada en el div de los iconos del app store y google play */
+.app-store-icons{
+  text-align: center;
+}
+
+
+/* Formato del footer */
+
+.footer-menu {
+  text-align: center;
+}
+
+li {
+  text-transform: uppercase;
+  font-size: .6em;
+  font-weight: bold;
+  list-style: none;
+  display: inline;
+  padding: 10px;
+  color: #1c5380;
+}
+
+.color-grey {
+  color: lightgray;
+}
