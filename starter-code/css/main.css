@@ -3,8 +3,93 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+* {
+  box-sizing: border-box;
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+/*.wrapper{
+  position:relative;
+}*/
+.wrapper-header{
+  background-image: url("../images/bgtile.png");
+  background-size: cover;
+  height: 40vh;
+}
+.content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.moments{
+  background-image: url("../images/frame.png");
+  background-size: cover;
+  padding: 20px 70px;
+
+}
+
+.content-right{
+  float: left;
+  width: 40%;
+}
+.content-left{
+  float: right;
+  width: 60%;
+  padding-left: 20px;
+}
+.clearfix{
+  clear: both;
+}
+h2{
+  color: #06365f;
+
+}
+.footer{
+  text-align: center;
+  margin-top: 20px;
+}
+.apps{
+  margin-left: 40px;
+}
+.apps img{
+  margin-right: 30px;
+}
+.home{
+  float: right;
+  margin-top: 20px;
+  margin-right: 5px;
+
+}
+.button {
+  background: linear-gradient(#1c5380, #06365f);
+  border: none;
+  color: white;
+  padding: 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 3px;
+  font-weight: bold;
+  
+}
+.button img{
+  vertical-align: middle;
+}
+.footer-left{
+  float:left;
+  margin-left: 20%;
+}
+.footer-left a{
+  color: #1c5380;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-right: 10px;
+}
+.footer-right{
+  color: lightgrey;
 }
