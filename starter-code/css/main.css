@@ -88,12 +88,13 @@ left: 500px;
 color: #1c5380;
 letter-spacing: 2px;
 font-weight: bold;
+word-spacing: 0.9em;
 
 }
 .copyright{
   position: relative;
   top: 305px;
-  left: 980px;
+  left: 1080px;
   letter-spacing: 2px;
   font-size: 0.8em;
   }
