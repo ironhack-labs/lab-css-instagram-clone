@@ -6,5 +6,100 @@ light blue: #1c5380
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+  background-size: 100vh 40vh;
+  margin: 0px;
+}
+
+main {
+  width: 70%;
+  margin: 0 auto;
+  padding: 150px 150px 0 150px;
+}
+
+h1 {
+  color: #06365f;
+}
+
+.collumn1 {
+  float: left;
+  width: 35%;
+}
+.collumn1 img {
+  float: left;
+  width: 100%;
+  height: auto;
+}
+
+.text {
+  padding: 30px;
+  background-image: url("../images/frame.1.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 1.1em;
+}
+
+.collumn2 {
+  width: 60%;
+  margin-left: 40%;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.footer {
+  text-align: center;
+}
+
+.button {
+  background-color: #5b95c5;
+  display: inline-block;
+  padding: 10px;
+  box-shadow: 2px 2px 2px grey;
+  text-align: center;
+  float: right;
+  margin: 15px 60px 15px 0;
+}
+
+.button a {
+  text-decoration: none;
+  color: white;
+  margin-left: 12px;
+}
+
+.button img {
+  float: left;
+}
+
+
+.text .bottomPic {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.text .bottomPic img {
+  margin: 0 15px;
+}
+
+.footer {
+  padding: 70px;
+}
+
+.logo {
+  margin-left: 10px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #1c5380;
+  font-weight: bold;
+  margin: 7px;
+}
+
+.footer p {
+  display: inline;
+  color: grey;
+  margin: 7px;
 }
