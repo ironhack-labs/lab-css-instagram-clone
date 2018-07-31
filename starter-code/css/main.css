@@ -1,10 +1,99 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.imginfo {
+  height: 350px;
+  margin-bottom: 10px;
+  min-width: 725px;
+  padding-top: 10px;
+  width: 100%;
+  position: relative;
+}
+.brand {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 60px;
+  width: 250px;
+  position: absolute;
+  top: 175px;
+  left: 610px;
+}
+
+h3{
+  color: #06365f;
+}
+
+.rbox{
+  background-image:url("../images/frame.png");
+  position: absolute;
+  background-repeat: no-repeat;
+  margin-left: 600px;
+  height: 390px;
+  width: 35%;
+  top: 250px;
+  line-height: 1,5;
+
+}
+
+
+.appbutton{
+  position: relative;
+  top: 30px;
+}
+
+.phones{
+  position: absolute;
+  top: 150px;
+  left: 100px;
+}
+
+h3
+{
+  margin: 25px 50px 75px 100px;
+}
+
+p {
+  margin: 25px 50px 75px 100px;
+}
+
+.login{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: right;
+  height: 18px;
+  width: 20px;
+  position: absolute;
+  top: 190px;
+  left: 980px;
+}
+
+.frame {
+height: 30px;
+margin-bottom: 10px;
+width: 70px;
+position: absolute;
+top: 175px;
+left: 1020px; 
+}
+
+.footer{
+position: relative;
+top: 350px;
+left: 500px;
+color: #1c5380;
+letter-spacing: 2px;
+font-weight: bold;
+
+}
+.copyright{
+  position: relative;
+  top: 305px;
+  left: 980px;
+  letter-spacing: 2px;
+  font-size: 0.8em;
+  }
