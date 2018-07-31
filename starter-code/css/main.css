@@ -7,4 +7,54 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  
+}
+
+.firstdiv {
+  background:linear-gradient(#1c5380,#06365f);
+  height: 200px;
+  
+  }
+
+  h2{
+    color: #06365f;
+  }
+
+ .firstbox{ 
+   width: 50%;
+   float:right;
+   position:relative;
+   bottom: 120px;
+   }
+
+   .bottomline{
+  bottom: 0;
+  color: #06365f;
+  text-align: center;
+   }
+
+.phone{
+  position:relative;
+  bottom: 80px;
+}
+
+.homebutton{
+  float:right;
+  padding-right:0px;
+  padding-bottom: 60px;
+  padding-top:10px;
+
+}
+
+.whitething{
+  background-image: url('../images/frame.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+.bigcenter {
+  width:60%;
+  padding-left:200px;
 }
