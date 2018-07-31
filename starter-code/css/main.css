@@ -4,7 +4,101 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
-body {
+* {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;
+}
+.container {
+  width: 70%;
+  margin: 100px auto 0 auto;
+}
+.right {
+  float: right;
+}
+.clearfix {
+  clear: both;
+}
+#logo {
+  float: left;
+  margin: 20px 0;
+}
+.log-in {
+  float: right;
+  background: linear-gradient(#628aa7, #21629b);
+  border: 0px;
+  border-radius: 2px;
+  box-shadow: 0px 0px 4px #06365f;
+  margin: 43px 0;
+  padding: 10px;
+}
+.log-in p {
+  display: inline-block;
+  font-size: 0.9em;
+  align-self: center;
+}
+.log-in a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  align-self: center;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+.log-in img{
+  padding-right: 10px;
+}
+.info {
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  width: 504px;
+  padding: 30px 40px;
+  box-sizing: border-box;
+}
+.info h1 {
+  color: #06365f;
+  font-size: 1.5em;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+.text {
+  margin-bottom: 30px;
+}
+.text p {
+  margin-bottom: 15px;
+}
+.text p b {
+  font-weight: bold;
+}
+.info a {
+  text-decoration: none;
+}
+#first {
+  margin-right: 20px;
+}
+.footer {
+  text-align: center;
+  margin: 40px 0;
+}
+.footer p {
+  display: inline-block;
+  color: grey;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+.footer a {
+  text-decoration: none;
+  color: #628aa7;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+.footer a, .footer p {
+  margin: 0 5px;
+  text-transform: uppercase;
 }
