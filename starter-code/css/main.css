@@ -8,3 +8,94 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+header {
+  position: relative;
+  height: 300px;
+  background-color: #06365f;
+
+}
+header > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  width: 40%;
+  top: 45%;
+  left: 50%;
+}
+header button { 
+  display: block;
+  float: right;
+  padding: 0 6px;
+  border-radius: 3px;
+  /* border: 1px black solid; */
+  background-color: #1c5380;
+  color:white;
+  height: 34px;
+  line-height: 30px;
+  font-size: 1.1em;
+}
+.login div {
+  height: 30px;
+  float: left;
+  margin: 1px 3px;
+}
+.login img {
+  padding-top: 5px;
+}
+
+.login span {
+  text-align: center;
+}
+.clear {
+  clear: both;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+  bottom: 160px;
+  left: 150px;
+}
+#iphone {
+  position: absolute;
+  
+}
+/* intro */
+.intro {
+  position: relative;
+  bottom: 60px;
+  background-image: url(../images/frame.png);
+  background-size: cover;
+  padding: 0 5%;
+  margin-right: 10%;
+  width: 30%;
+  float: right;
+}
+.intro a {
+  margin: 8px;
+
+}
+.intro h2 {
+  color: #06365f;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+}
+
+footer li {
+  margin: 15px;
+  list-style-type: none;
+  text-transform: uppercase;
+  font-size: 0.8em;
+}
+footer span {
+  color: darkgray;
+  font-weight: bold;
+}
+footer .link {
+  color: #06365f;
+  font-weight: bold;
+}
