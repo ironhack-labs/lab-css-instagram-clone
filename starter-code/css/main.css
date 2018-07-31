@@ -1,10 +1,113 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
+* {
+	margin: 0;
+	padding: 0;
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+}
+
+footer {
+  width: 50%;
+  margin: 20px auto 0 auto;
+  position: absolute:
+  bottom: 10;
+}
+
+h2 {
+  color: #11395E;
+  margin-bottom: 20px;
+}
+
+#top-gradient {
+  height: 240px;
+  background: linear-gradient(#557C9E, #386186);  /*first light, then dark colour*/
+}
+
+.brand{
+  display: inline-block;
+}
+
+.login {
+  background: linear-gradient(#6A8EAD, #386186);
+  width: 80px;
+  display: inline-block;
+  position: absolute;
+  top: 30%;
+  right: 0%;
+  padding: 5px;
+}
+
+.login img {
+  float: left;
+  width: 26px;
+}
+
+.login p {
+  color: #DFE7ED;
+  margin: 0 0 0 35px;
+}
+
+.phone {
+  display: inline-block;
+}
+.phone img {
+  width: 310px;
+}
+
+.content-pos{
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.content-wrapper{
+  width: 65%;
+  margin: 80px auto 0 auto;
+  position: relative;
+}
+
+.content {
+  width: 54%;
+  display: inline-block;
+  margin: 16px 0 0 40px; 
+  position: absolute;
+}
+
+.top-row {
+  position: relative;
+}
+
+.white-block {
+  box-shadow: 0px 0px 10px #888888;
+  background-color: white;  
+  padding: 25px 25px 25px 30px;
+}
+
+.white-block p {
+  margin-bottom: 8px
+}
+
+.download img {
+  margin: 30px 20px 0 0;
+  width: 120px
+}
+
+.links, .copyright {
+  display: inline-block;
+}
+
+.links p{
+  color: #1c5380;
+  padding: 0 5px;
+  display: inline-block;
+}
+
+.copyright p{
+  color:#A4A4A5;
+  padding: 0 5px;
+}
+
+#brand {
+  width: 240px;
 }
