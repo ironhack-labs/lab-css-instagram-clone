@@ -3,8 +3,79 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
+*{
+  margin: 0%;
+}
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-color: #f5f7f8;
+
+}
+header{
+  background-color: #4c7397;
+  height: 350px;
+}
+.IL {
+    margin: 160px 0 0 650px;
+}
+button {
+  background-color: #6288a9;
+  width: 90px;
+  padding: 7px 0 7px 0;
+  margin: 177px 205px 0 0;
+  box-shadow: 1px 1px 8px #336087;
+  border: 1px solid #6288a9;
+  border-radius: 2px;
+  float: right;
+}
+.LG {
+  color: white;
+  text-align: center;
+  text-align: center;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 2px 5px 0 0;
+}
+.buttonImage {
+  float: left;
+  padding: 0 0 0 5px;
+}
+.phones{
+  margin: -195px 0 0 280px;
+}
+.Moments {
+  float: right;
+  width: 400px;
+  margin: -420px 300px 0 0;
+}
+h1 {
+  font-size: 26px;
+  width: 69%;
+  margin: -260px 0 0 40px;
+  color: #4c7397;
+}
+.pFrame{
+  font-size: 15px;
+  margin: 20px 0 0 42px;
+}
+.store1 {
+  margin: 32px 0 0 40px;
+}
+.store2 {
+  margin:0 0 0 20px;
+}
+ul{
+  list-style: none;
+  margin: 90px 0 70px 375px;
+}
+ul li {
+  display: inline;
+  margin: 0 0 0 10px;
+}
+.IN{
+  color: #adadae;
+}
+a {
+  text-decoration: none;
 }
