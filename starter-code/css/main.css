@@ -4,7 +4,109 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+html, body, h1 {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+.copyright {
+  color: gray;
+}
+
+.phone-pic {
+  width: 40%;
+  float: left;
+  top: 5%;
+  position: relative;
+}
+
+.ad-text {
+  float: right;
+  width: 50%;
+  position: relative;
+}
+
+h3 {
+  color: #1c5380;
+}
+
+.header-wrapper {
+  background-color: #06365f;
+  height: 300px;
+  width: 100%;
+  position: absolute;
+
+}
+
+.home {
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.log-text{
+  padding: 5px 5px;
+  display: inline-block;
+}
+
+.log-in {
+  background-color: #1c5380;
+  border: 1px black;
+  display: inline-block;
+  color: white;
+  text-align: center;
+  width: 35%;
+  padding: 3px;
+  border-radius: 4px;
+}
+
+.brand {
+  position: relative;
+  top: 10px;
+  right: 10px;
+  width: 60%;
+  border-bottom: 10px;
+}
+
+.frame {
+  clear: top;
+  background-color: white;
+  border-top: 10px;
+  border-radius: 10px;
+  padding: 0px 15px;
+  box-shadow: 1px 1px 8px #888888;
+}
+
+.buttons {
+  display: inline-block;
+  width: 40%;
+  padding-left: 15px;
+}
+
+.contact {
+  display: inline-block;
+  padding: 3px;
+}
+
+
+
+.footer {
+  clear: both;
+  margin: 0 10%;
+  width: 100vh;
+  height: 100px;
+}
+
+.main {
+  width: 600px;
+  height: 100vh;
+  position: absolute;
+  margin: 50px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
