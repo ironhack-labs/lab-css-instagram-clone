@@ -7,4 +7,54 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: url(../images/bgtile.png);
+  background-repeat: repeat-x;
+}
+
+.container {
+  width: 1000px;
+  border: 1px solid black;
+  margin: 100px;
+}
+
+.content {
+  width: 40%;
+  float: right;
+  border: 1px solid black;
+  padding: 20px;
+  background-image: url(../images/frame.png);
+  background-size: cover;
+}
+.iphone {
+  width: 30%;
+  float: left;
+  border: 1px solid black;
+}
+.floatLeft {
+  float: left;
+}
+
+.floatRight {
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
+
+.contentTop {
+  background-color: red;
+  border: 1px solid black;
+}
+.contentMiddle {
+  padding: 20px;
+}
+.contentBottom {
+  margin-left: 20px;
+}
+h3 {
+  color: #1c5380;
+}
+.badge-iphone {
+  padding: 20px;
 }
