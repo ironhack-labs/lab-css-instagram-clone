@@ -7,4 +7,116 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  
+}
+
+.gradient{
+  position: absolute;
+  margin: 0;
+  background: linear-gradient(#41779f, #125688);
+  width: 100%;
+  height: 40%;
+  z-index: -1;
+}
+
+.homebutton{
+  width: 100px;
+  height: 35px;
+  background: linear-gradient(#41779f, #125688);
+  float:right;
+  border: 1px solid #0e446c;
+  margin-top: 15px;
+}
+
+.homebutton img{
+  float:left;
+  margin: 5px;
+}
+.homebutton span{
+  color: white;
+  margin: 5px;
+  line-height:2em;
+}
+
+.phones{
+ width: 38%;
+ height: 60%;
+ float: left;
+
+
+}
+
+.things{
+  width: 60%;
+  height: 60%;
+  float: left;
+  z-index: 5;
+  
+}
+.contents{
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/frame.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+#content-wrapper{
+  margin: 0 auto;
+  padding-top: 6%;
+  width: 60%;
+}
+
+footer{
+  clear: both;
+  text-align: center;
+}
+
+.insta{
+  height: 100px;
+  width: 98%;
+
+}
+
+
+h1{
+  clear: both;
+}
+
+.texts{
+padding: 30px;
+padding-bottom: 17px;
+height: 60%;
+
+}
+
+.platforms{
+  padding:20px;
+}
+
+.platforms img{
+  margin: 5px;
+}
+
+
+ul{
+  white-space:nowrap;
+}
+
+li{
+  display:inline;
+}
+
+.heading{
+  width: 70%;
+}
+
+h1{
+  color:#125688;
+  font-size: 25px;
+}
+
+footer a{
+  color: #41779f;
+  text-decoration: none;
 }
