@@ -4,7 +4,121 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-color: #F5F6F8;
+}
+.background {
+  background-color: #49769D;
+height: 400px;
+}
+.header {
+  height: 400px;
+  width: 800px;
+  margin: 0%;
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+}
+.content {
+  position: relative;
+  float: left;
+
+}
+
+.content-body {
+  position: relative;
+}
+
+.phone {
+  position: relative;
+  float: left;
+}
+.logo {
+  width: 50%;
+  position: relative;
+  float: right;
+}
+.info-content {
+  background-color: #f5f6F8;
+  border-color: #17212e;
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 1px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top:80px;
+  height:420px;
+  box-shadow: 1px 0px 21px -4px rgba(51,55,79,1);
+  
+}
+
+.instagram-image {
+  position: relative;
+  float: left;
+  width: 250px;
+  
+}
+p {
+  padding-bottom: 0px;
+  font-size: 18px;
+}
+
+.button {
+  background-color: #49769D;
+  border: none; 
+  border-radius: 10px;
+  display: flex;
+  align-items:center;
+  color: white; 
+  padding: 12px 16px; 
+  font-size: 16px; 
+  box-shadow: 2px 2px 2px rgb(26, 59, 88);
+  position: relative;
+  float: right;
+ 
+}
+
+.appstore {
+  position: relative;
+  float: left;
+}
+
+h1 {
+  color: #06365f;
+}
+
+.footer {
+  background-color:#F5F6F8;
+  overflow: hidden;
+  bottom: 0;
+  width: 100%;
+  left:50%;
+  
+}
+
+/* Style the links inside the navigation bar */
+.footer a {
+  float: left;
+  display: block;
+  color: #06365f;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+/* Change the color of links on hover */
+.footer a:hover {
+  background-color:#F5F6F8;
+  color: #06365f;
 }
