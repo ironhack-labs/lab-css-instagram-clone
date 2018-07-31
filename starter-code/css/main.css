@@ -8,3 +8,105 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.top{
+  height: 40vh;
+  background-image: linear-gradient(to top,#1c5380, #06365f)
+}
+
+.bottom{
+  height: 300px;
+  background-color: white;
+}
+
+.button{
+  background: linear-gradient(#6a8ead, #386186);
+  display: inline-block;
+  color: white;
+  padding: 8px;
+  text-align: center;
+  text-decoration: none;
+  font-size:16px;
+  border-radius: 3px;
+  font-weight: bold;
+  vertical-align: middle;
+  float: right;
+  margin-right: 5px;
+  margin-top: 10px;
+}
+.iphone {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+}
+
+.button img{
+  vertical-align: middle;
+}
+
+.content{
+  height: 500px;
+  width: 500px;
+  position: absolute;
+  top: 20%;
+  right: 20%;
+}
+
+.wrapper1{
+  float: left;
+}
+/* .wrapper1 img{
+  width: 60%;
+} */
+
+/* .wrapper1 button{
+  width: 30%;
+  float: right;
+} */
+
+.wrapper2{
+  background-image: url('frame.png');
+  background-position: cover;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  clear: both;
+}
+
+.wrapper2 img{
+  float: left;
+  padding-left: 20px;
+}
+
+.text{
+  padding: 10%;
+}
+
+.text h3{
+  color: #06365f;
+}
+
+.p{
+  padding: 10%;
+}
+
+.footer{
+  position: absolute;
+  top: 90%;
+  left: 30%;
+  transform: translateX(-20%);
+  padding-bottom: 50px;
+
+}
+
+a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #06365f;
+  padding-left: 15px;
+}
+
+.copyright{
+  padding-bottom: 50px;
+  color: lightgrey;
+  padding-left: 100px;
+}
