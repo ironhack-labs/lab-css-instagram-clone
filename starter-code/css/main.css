@@ -22,8 +22,11 @@ body {
   float: right;
   border: 1px solid black;
   padding: 20px;
-  background-image: url(../images/frame.png);
+}
+.middleBottom{
   background-size: cover;
+  background-image: url(../images/frame.png);
+
 }
 .iphone {
   width: 30%;
@@ -43,8 +46,16 @@ body {
 }
 
 .contentTop {
-  background-color: red;
+  /* background-color: red; */
   border: 1px solid black;
+}
+button {
+  background: #1c5380;
+  color: white;
+}
+
+.contentTop img {
+  width:60%;
 }
 .contentMiddle {
   padding: 20px;
@@ -52,9 +63,22 @@ body {
 .contentBottom {
   margin-left: 20px;
 }
+.contentBottom img {
+  margin-right: 20px;
+  
+}
 h3 {
   color: #1c5380;
 }
-.badge-iphone {
-  padding: 20px;
+li{
+  list-style: none;
+  float: left;
+  padding: 5px;
+  color:#06365f;
+  font-weight: bolder;
+}
+#copy{
+  color: grey;
+  font-weight: lighter;
+
 }
