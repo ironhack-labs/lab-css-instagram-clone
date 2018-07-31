@@ -4,7 +4,105 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+* {
+  box-sizing: border-box;
+}
+
+html,
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  height: 100vh;
+  width: 100%;
+}
+
+h1,
+p {
+  margin: 0;
+}
+
+.blue {
+  height: 40vh;
+  background-color:  #1c5380;
+}
+
+.wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 900px;
+  height: 500px;
+}
+
+.phone {
+  float: left;
+}
+
+.top img {
+  margin-left: 40px;
+}
+
+.top a {
+  text-decoration: none;
+  color: white;
+  float: right;
+  padding: 0 10px;
+  border: 1px solid #06365f;
+  background: linear-gradient(#1c5380, #06365f);
+}
+
+.top a p{
+  display: inline-block;
+}
+
+.top a img {
+  vertical-align: middle;
+  margin-right: 15px;
+}
+
+.bottom {
+  margin-left: 350px;
+  padding: 30px 40px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 -5px 12px 2px rgba(0, 0, 0, .2);}
+
+.bottom h1 {
+  text-align: left;
+  line-height: 1.2em;
+  margin-bottom: 20px;
+  color: #06365f;
+}
+ 
+.bottom p {
+  font-size: 14px;
+  margin-bottom: 30px;
+
+}
+.badge {
+  /* text-align: center; */
+  margin-left: 0;
+}
+
+.nav {
+  position: absolute;
+  bottom: 10px;
+  left: 50%; 
+  transform: translate(-50%, 0);
+}
+
+.nav ul {
+  margin: 0;
+}
+
+.nav li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #06365f;
 }
