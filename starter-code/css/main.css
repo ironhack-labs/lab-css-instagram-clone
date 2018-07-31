@@ -8,3 +8,105 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.header{
+  height: 300px;
+  background-color: #1c5380;
+}
+
+.box{
+  width: 100%;
+  position: relative;
+}
+
+.main{
+  width: 900px;
+  
+  margin: 0 auto;
+  position: relative;
+  padding: 0 5px;
+  top: -200px;
+}
+
+.phones{
+  padding: 0 10px;  
+  margin-right: 20px;
+  float: left;  
+}
+
+.info{
+  width: 500px;
+  margin-left: 20px;  
+  float: left;  
+}
+
+.footer{
+  float: left;
+  text-align: center; 
+  margin: 4% auto;
+  padding: 0 14.2%;
+  color: #1c5380; 
+}
+
+.footer span{
+  font-size: 0.9em;
+  color:grey;
+  margin-left: 15px;
+}
+
+.top-info{
+  margin: 3% 2px 0;
+}
+  
+.middle-info{
+  right: 10px;
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat; 
+  padding: 0 35px;
+}
+  
+.badge-buttons{  
+  padding: 4% 5% 0;
+}
+
+.badge-buttons img{
+  margin: 0 2%;
+}
+
+h1{
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 25px;
+  font-size: 1.5em;
+}
+
+ul li{
+  list-style: none;
+  text-align: center;
+  float: left;
+  margin: 0 7px;
+  text-transform: uppercase;
+  font-size: 0.7em;
+  font-weight: 800;  
+}
+
+.clearfix {
+  clear: both;
+}
+
+.btn{
+  position: absolute;
+  color: whitesmoke;
+  top: 32px;
+  right: 4%;
+  background-color: #1c5380;
+  line-height: 20px;
+  border-color: #06365f;
+  border-width: 1px;
+}
+
+.btn img{
+  padding: 4px 0;
+  vertical-align: middle;
+  height: 20px;
+}
