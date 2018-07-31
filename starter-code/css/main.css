@@ -4,7 +4,101 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+}
+
+h1 {
+  color: #06365f;
+  font-size: 2em;
+  padding-bottom: 3%;
+}
+
+.centered-wrapper {
+  width: 950px;
+  height: 550px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.info-wrapper {
+  width: 450px;
+  float: right;
+  margin-top: 4%;
+  margin-right: 5%;
+  padding: 2%;
+}
+
+.iPhones {
+  float: left;
+  margin-top: 2%;
+  margin-left: 3%;
+}
+
+.info-text-wrapper {
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-left: 7%;
+  padding-right: 7%;
+  padding-top: 5%;
+}
+
+.log-in {
+  width: 80px;
+  height: 35px;
+  float: right;
+  padding-top: 3%;
+  padding-left: 2%;
+  padding-right: 2%;
+  margin-top: 1%;
+  background-color: #1c5380;
+  border: none;
+  border-radius: 2px;
+  box-shadow: 2px 2px 2px #06365f;
+}
+
+.home {
+  float: left;
+}
+
+.log-in-txt {
+  float: right;
+  color: white;
+}
+
+.download-btns {
+  margin-top: 6%;
+}
+
+.navigation {
+  margin-top: 57%;
+  heigt: 30%;
+  width: 95%;
+  text-align: center;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #1c5380;
+  font-size: 14px;
+}
+
+.navigation p {
+  color: rgb(182, 182, 182);
+  font-size: 14px;
+}
+
+.clearfix { 
+  clear: both;
 }
