@@ -6,5 +6,86 @@ light blue: #1c5380
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  margin: 120px 80px 50px 80px;
+  /* margin:auto; */
+  background:linear-gradient(#1c5380 30%,#06365f 40%,white 0);
+  /* background:#1c5380; */
+  width:80%;
+  background-repeat:no-repeat;
+
+}
+#white-box{
+  background-image: url("/starter-code/images/frame.png");
+  font-size:2vh;
+  color:black;
+text-align:left;
+width: 450px;
+margin:0px auto 50px 20px;
+padding:0px 25px 10px 25px;
+/* float: right; */
+/* position: */
+/* display:block; */
+
+}
+.text1{
+  text-align: left;
+  color:#06365f;
+  font-size: 2.5vh
+}
+
+.iphone{
+  float:left;
+  /* margin:auto; */
+}
+.logos{
+  float:left;
+ padding: 0 0 0px 10px; 
+margin: 0 0 10px 15px;
+text-align: center
+}
+.button{
+  float:right;
+padding: 10px 30px 10px 15px;
+border: 1px, solid, black;
+font-weight: bold;
+font-size: 12px;
+text-align:right;
+  text-decoration:none;
+  /* display:block; */
+  /* vertical-align: text; */
+  /* width:60px; */
+  margin: 10px 0px 10px 10px;
+  
+  border: 2px  rgba(0,0,0,0.2) solid;
+/* background-color: #1c5380; */
+background:linear-gradient(#1c5380 30%, #06365f 60%);
+color:white;
+/* box-sizing: border-box; */
+}
+
+.clear-fix{
+  clear: both;
+
+}
+
+footer{
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 30px;
+  font-size: 1.5vh;
+  /* width:80%; */
+  /* margin:0px 200px; */
+}
+
+.text2{
+  /* text-align: left; */
+  color:#1c5380;
+  font-weight:bold;
+  font-size: 1.5vh;
+}
+.text3{
+  /* text-align: left; */
+  color:lightgrey;
+  font-weight:bold;
+  font-size: 1.5vh;
 }
