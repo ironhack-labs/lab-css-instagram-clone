@@ -7,4 +7,69 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: url("../images/bgtile.png");
+  background-size: 1.5px; 
+  background-repeat: repeat-x;
+}
+
+.container {
+  width: 1200px;
+  margin: 200px auto 20px;
+}
+
+#phones {
+  margin: 0px 25px 100px 150px;
+  float: left;
+}
+
+#logo {
+  position: absolute;
+  padding-top: 60px;
+  padding-left: 25px;
+}
+
+#login {
+  width: 100px;
+  height: 30px; 
+  background: #678dac;
+  border: 2px solid #375975;
+  border-radius: 5px;
+  position: absolute;
+  right: 500px;
+  bottom: 6px;
+}
+
+#login p {
+  color: white;
+  float: right;
+  width: 50px;
+  margin: 5px;
+}
+#loginimg {
+  padding: 5px;
+}
+
+h1 {
+  color: #0a355b;
+  font-size: 2em;
+  padding-left: 30px;
+}
+
+.padded {
+  padding: 30px;
+}
+.content  {
+  background: url("../images/frame.png");
+  background-size: cover;
+  height: 200px;
+  width: 600px;
+  float: left;
+  margin: 150px 25px 25px 25px;
+}
+
+.content p {
+  padding: 0px 30px;
+}
+.footer {
+  clear: both;
 }
