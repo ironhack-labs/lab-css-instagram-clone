@@ -1,10 +1,144 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
 
-body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+* {
+  box-sizing: border-box;
 }
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  color: rgb(28, 83, 128);
+}
+.blue-bg {
+  position: absolute;
+  background-color: RGB(63, 99, 135);
+  height: 300px;
+  width: 100%;
+}
+.wrapper {
+  width: 900px;
+  height: 600px;
+  /*background-color: grey;*/
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.upperdiv {
+  width: 850px;
+  height: 560px;
+  position: relative;
+  /*background-color: white;*/
+  top: 20px;
+  left: 25px;
+}
+.rightbox{
+  width: 505px;
+  height: 500px;
+  position: relative;
+  /* background-color: white;  */
+  top: 10px;
+  left: 340px;
+  border-radius: 5px;S
+}
+.rightbox-upperlogo{
+  width: 492px;
+  height: 155px;
+  position: relative;S
+  /*background-color: yellow;*/
+  top: 3px;
+  left: 7px;
+}
+.rightbox-lowerlogo{
+  width: 496px;
+  height: 240px;
+  position: absolute;
+  background-color: white;
+  top: 160px;
+  left: 0px;
+  border-radius: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height:0.8;
+  box-shadow:1px 0px 100px grey;
+}
+.rightbox-upperlogo2{
+  position: absolute;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 50%; */
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.lowest-logo{
+  position: absolute;
+  width: 496px;
+  height: 86px;
+  background-color: white;
+  top: 405px;
+  left: 0px;
+  display: block;
+  margin-left: auto;
+  margin-right:auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+
+}
+.leftbox{
+  width: 330px;
+  height: 510px;
+  position: relative;
+  /* background-color:palegreen; */
+  top: 5px;
+  left: 5px;
+  float: left;
+}
+.navigation {
+  position: absolute;
+  left: 35%;
+  transform: translate(-50%, 0);
+  top: 510px;
+  font-weight:700;
+  width: 600px;
+}
+.floatleft{
+  float: left;
+}
+.floatright{
+  float: right;
+}
+.home-img{
+  padding-top:15px;
+  padding-left:5px;
+ 
+}
+.log-in{
+  padding-left:40px;
+  color:white;
+  font-size:17px;
+  font-weight: 700;
+}
+
+.upperlogo-right{
+  width: 170px;
+  height: 70px;
+  padding-top: 10px;
+  padding-left: 80px;
+  /* background-color:lavender; */
+}
+
+.app-store{
+  padding-left: 25px;
+}
+
+h3{
+  padding-right: 210px;
+  font-size: 25px;
+  line-height: 1;
+}
+
+p{
+  color:black;
+}
+
+
