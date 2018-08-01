@@ -3,8 +3,32 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
 body {
+  background-color: #1c5380;
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  margin: 1;
+}
+
+div {
+  background-color: rgb(191, 192, 194);
+  border: 1px solid #17212e;
+  border-radius: 12px;
+  width: 250px;
+  padding: 10px 20px;
+}
+
+h1 {
+  font: 350 20px/2.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #a2baec;
+  color: rgb(11, 14, 68);
+  width:  100px;
+  height: 50px;
+  
+}
+p {
+  color: rgb(79, 180, 48);
+}
+
+first-button {
+color:blue;
 }
