@@ -8,3 +8,72 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+.header{
+  background-color: #51799c;
+  height: 280px;
+  width: 100%;
+}
+.main{
+  height: 380px;
+  width: 100%;
+  position: relative;
+}
+#btnHome{
+  background-color: #51799c;
+  text-decoration: none;
+  padding: 18px 12px 8px 12px;
+  font-size: 14px;
+  border: 2px solid #1c5380;;
+  color: white;
+  position: relative;
+  bottom: 30px;
+  left:2px;
+}
+.leftSide{
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  left: 20px;
+  top: -150px;
+  padding: 0 150px;
+}
+.rithgSide{
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  right: 20px;
+  top: -150px;
+  padding: 0 20px;
+}
+.downSide{
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 80%;
+  height: 100%;
+  padding: 20px;
+}
+.downSide h3{
+  color: #0a355a;
+}
+.downSide-img{
+  position: relative;
+  margin-left: 60px;
+}
+.footer-nav{
+  position: relative;
+}
+.footer{
+  position: relative;
+  margin-left: 200px;
+  color: #0a355a;
+}
+.footer li{
+  display: inline-block;
+  margin: 50px 10px;
+}
+
+.footer-copy{
+  color: gray;
+}
