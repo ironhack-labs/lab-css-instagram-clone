@@ -3,8 +3,73 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
-body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+* {
   margin: 0;
+  padding: 0; 
+}
+body {
+  background-color: white;
+  background-image: linear-gradient(to bottom, #3a6890, #386185);
+  background-size: 100% 50%;
+  background-repeat: no-repeat;
+}
+
+.container {
+  width: 1100px;
+  margin: 0 auto;
+  
+  padding: 10vh
+}
+.rightDivs {
+  float: right;
+  width: 600px;
+
+
+}
+.rightDivTop {
+  padding-bottom: 10vh
+}
+.logo {
+  float:left;
+}
+.button{
+  float: right;
+  width: 50px;
+}
+.home {
+  float: right;
+}
+.rightDivMiddle {
+  background-image: url(../images/frame.png);
+  background-size: 100%;
+  padding: 2vh;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+  .rightDivBottom {
+  padding: 2em;
+  position: absolute;
+}
+.iphone {
+  float: left;
+  width: 20%;
+}
+.text {
+  text-decoration: none;
+  padding: 1em;
+  display: block; 
+  clear: both;
+}
+
+.link {
+  color: #06365f;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.footer {
+  text-align: center
 }
