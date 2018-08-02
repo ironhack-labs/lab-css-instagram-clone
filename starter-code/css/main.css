@@ -43,8 +43,6 @@ main {
   border-radius: 5%; 
   border-color: #1c5380;
   box-shadow: 0 4px 8px 0 rgba(6, 54, 95, 0.85);
-  text-align: center;
-  vertical-align: middle;
   position: relative;
   left: 300px;
   bottom: 610px;
@@ -99,4 +97,10 @@ h1 {
 
 .container {
   height: 850px;
+}
+
+.image-log {
+  position: relative;
+  right: 5px;
+  top: 3px;
 }
