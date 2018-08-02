@@ -8,3 +8,95 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+main {
+  width: 100;
+  height: 600px;;
+}
+
+.fondo-azul {
+  background-color:#1c5380;
+  height: 35%;
+  width: 100%;
+}
+
+.fondo-blanco {
+  width: 100%;
+  height: 65%;
+  background-color: #fff;
+}
+
+.phones {
+  position: relative;
+  border: 1px;
+  left: 100px;
+  bottom: 150px;
+}
+
+.button-log {
+  width: 100px;
+  height: 40px;
+  background-color: #1c5380; 
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+  border-radius: 5%; 
+  border-color: #1c5380;
+  box-shadow: 0 4px 8px 0 rgba(6, 54, 95, 0.85);
+  text-align: center;
+  vertical-align: middle;
+  position: relative;
+  left: 300px;
+  bottom: 610px;
+}
+
+.logo {
+  position: relative;
+  left: 185px;
+  bottom: 580px;
+  height: 70px;
+}
+
+.moments {
+  width: 450px;
+  height: 240px;
+  background-color: #fff;
+  border-radius: 1%;
+  position: relative;
+  left: 510px;
+  bottom: 575px;
+  padding: 25px;
+  font-size: 16px;
+  font-weight: 400;
+  box-shadow: 0 -4px 8px 0 rgba(0, 0, 0, 0.35);
+  border-bottom: 2px;
+  border-color: white;
+} 
+
+h1 {
+  color: #06365f;
+  font-size: 25px;
+  margin-top: 0;
+}
+
+.botones{
+  position: relative;
+  left: 535px;
+  bottom: 520px;
+}
+
+.menu li {
+  margin: 10px;
+  display: inline;
+  color: #1c5380;
+  list-style-type: none;
+  font-size: 12px;
+  font-weight: 600;
+  position: relative;
+  left: 185px;
+  bottom: 480px;
+}
+
+.container {
+  height: 850px;
+}
