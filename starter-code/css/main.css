@@ -6,6 +6,7 @@ light blue: #1c5380
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
   margin: 0;
   background-color: #f5f6f8;
 }
@@ -17,34 +18,36 @@ span{
   font-weight: 700;
 }
 #background{
-  background-color: #4c7397;
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat;
   width:100%;
   position: absolute;
-  height:320px;
+  height:272px;
   top:0;
   left:0;
 }
 .content-wrapper{
   position: absolute;
-  width: 920px;
+  width: 1000px;
   top:50%;
   left:50%;
   transform:translate(-50%,-50%);
+  margin:auto auto;
 }
 .phone-wrapper{
   position: relative;
   float:left;
-  margin-right: 30px;
+  margin-right:36px;
 }
 .copy-wrapper{
   position:relative;
   width:60%;
   float:left;
 }
-
-h1{
-display: inline-block;
-content:url(../images/brand.png);
+.header{
+  padding-bottom:18px;
+}
+.logo{
 float:left;
 }
 h2{
@@ -53,17 +56,19 @@ h2{
 }
 
 #log-in{
-  margin:auto auto;
-  background-color:#4c7397;
+margin:18px auto;
+background-color: rgba(76, 115, 151, 0.6);
   padding:10px;
   float:right;
   box-shadow: 0px 0px 8px rgba(28,42,55,0.4);
-}
-#log-in a{
   text-decoration: none;
   font-weight: 700;
   color:#f5f6f8;
 }
+#log-in:hover{
+  box-shadow: 0px 2px 8px rgba(28,42,55,0.8);
+}
+
 .home{
   content:url(../images/home.png);
   float:left;
@@ -71,19 +76,26 @@ h2{
 }
 
 .copy{
-  background-color: #f5f6f8;
-  border-radius: 4px;
-  padding:6px 20px;
-  box-shadow: 0px -4px 8px rgba(28,42,55,0.4);
+  background-image:url(../images/frame.png);
+  background-size: cover;
+  height: 100%;
+  width:100%;
+  position: relative;
+  background-repeat: repeat-y;
 }
+.copy-text{
+  padding:8px 36px 16px;
+}
+.copy-text p{
+  color:rgb(28,42,55);
+}
+
 .apple-store{
   display: inline-block;
 content:url("../images/badge-iphone.png");
-float:left;
 }
 
 .google-play{
-  float:left;
   margin-left:12px;
   display: inline-block;
   content:url("../images/badge-android.png");
@@ -97,15 +109,15 @@ float:left;
   padding-bottom: 10px;
 }
 .footer a{
-  display: inline-block;
+  white-space: nowrap;
   text-decoration: none;
   color:#4c7397;
   font-weight:700;
-  float:left;
-  margin:0 8px;
+  margin:0 12px;
 }
 .footer span{
+  white-space: nowrap;
   font-weight: 700;
-  float:left;
+  
   color:#90a9b7;
 }
