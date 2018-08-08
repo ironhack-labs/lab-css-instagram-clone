@@ -3,8 +3,100 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  padding: 0;
+  width: 100vw;
+  /* height: 100vh; */
+  display: flex;
+  
+
+}
+
+.both-content {
+  display: flex;
+  justify-content: space-around;
+  /*width: 70%;*/
+  margin-top: 100px;
+}
+
+.font{
+  /* position: absolute; */
+  height: 300px;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  background-image: url(../images/bgtile.png);
+ }
+
+
+.left-content {
+  margin-left: 150px;
+}
+
+.right-content {
+  width: 40%;
+  margin-right: 100px;
+}
+
+.right-content header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+color: #1c5380;
+padding-left: 25px;
+padding-top: 25px;
+padding-right: 300px;
+}
+
+.content p {
+  padding-left: 25px;
+  padding-right: 25px;
+  text-align: left;
+  font-size: 20px;
+}
+
+.content {
+  /*background: url(../images/frame.png);
+  background-repeat: no-repeat;*/
+  background-color: white;
+  box-shadow: 0px -5px 15px 1px black;
+  border-radius: 10px;
+}
+
+.login-btn {
+  background-color: #1c5380;
+  border-radius: 5px;
+  width: 100px;
+  height: 30px;
+  color: white;
+  font-size: 15px;
+  border: none;
+}
+
+.badges {
+ padding: 20px;
+ margin-bottom: 10px;
+ margin-left: 10px;
+}
+
+footer {
+  height: 40px;
+  position: fixed;
+  bottom: 50px;
+  width: 100vw;
+  text-align: center; 
+}
+
+footer a {
+  text-decoration: none;
+  color: #1c5380;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 12px;
+  margin-right: 15px;
 }
