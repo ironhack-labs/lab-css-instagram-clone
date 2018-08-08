@@ -4,7 +4,82 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+}
+
+h2 {
+  font-size: 26px;
+  color: #06365f;
+}
+
+p {
+  font-weight: 400;
+}
+
+.login-button {
+  display: flex;
+  align-items: center;
+  color: #c9d5e2;
+  font-weight: 600;
+  background: linear-gradient(#7C9CB5,#4B7597);
+  padding: 5px 10px;
+  border-radius: 2px;
+  box-shadow: 0 0 0 1px #7c9cb5 inset, 0 0 6px #3d6485 inset;
+}
+
+span {
+  padding-left: 9px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 10% 17% 4%;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-color: #3D6485;
+}
+
+.text {
+  width: 550px;
+  padding: 0 40px;
+}
+
+.details {
+  background-color: white;
+  border-radius: 5px;
+  padding: 2% 5% 4%;
+
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-bottom: 70px;
+}
+
+li {
+  padding: 0 10px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 12px; 
+  color: #1c5380;
+}
+
+.copyright {
+  color: #c1c1c1;
+}
+
+.white-box {
+  height: 800px;
+  background-color: white;
+  margin-top: -500px;
 }
