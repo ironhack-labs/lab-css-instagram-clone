@@ -7,4 +7,98 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image : linear-gradient(to bottom, #1c5380 223px, #fff 203px);
+}
+
+.container{
+ 
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+  margin: 30px auto;
+}
+
+.img-left{
+  
+  padding: 20px;
+}
+
+.right{
+  
+  padding: 20px;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  margin-bottom: 15px;
+  padding: 0 9px;
+}
+
+.logo-insta{
+  height: 100%;
+  width: auto;
+}
+
+.image-appli{
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.img-space{
+  margin: 0 10px;
+}
+
+h2{
+  text-align: left;
+  color: #06365f;
+  margin-top: 0;
+}
+
+.paragraph{
+
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: top center;
+  padding: 35px;
+}
+
+bouton{
+  display: flex;
+  color: white;
+  border: 1px solid #06365f;
+  align-content: center;
+  padding: 10px;  
+  background-color:  #06365f;
+  border-radius: 2%;
+  font-weight: bold;
+}
+
+.bouton{
+  margin-right: 7px;
+}
+
+p{
+  font-size: 14px;
+  line-height: 2em;
+}
+
+footer{
+  text-align: center;
+
+}
+
+footer a{
+  color: #1c5380;
+  text-decoration: none;
+  font-weight: 700;
+  margin:10px;
+}
+
+.instagram{
+  color: grey;
 }
