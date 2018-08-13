@@ -8,3 +8,38 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.imagephone {
+  position: fixed;
+  bottom: 32%;
+  left: 27%;
+}
+
+.div1 {
+  height: 400px;
+  background-color: #0277bd;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.imageinsta {
+  position: fixed;
+  bottom: 76%;
+  left: 48%;
+}
+
+.boton {
+  position: fixed;
+  bottom: 78%;
+  left: 68%;
+  color: white; background-color: #0277bd;
+  border-radius: 10%;
+ }
+
+ .div2 {
+  position: fixed;
+  bottom: 35%;
+  width: 450px;
+  margin-left: 900px;
+  color: #06365f;
+}
