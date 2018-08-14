@@ -7,4 +7,110 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.blue-background {
+  background-image: url(https://github.com/willjthorp/lab-css-instagram-clone/blob/master/starter-code/images/bgtile.png?raw=true);
+  height: 280px;
+  width: 100%;
+  background-repeat: repeat-x;
+  z-index: -1;
+}
+
+.wrapper {
+  width: 100%;
+  margin: auto;
+  padding: 0;
+  position: relative;
+  bottom: 200px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: flex-start;
+}
+
+#image {
+  width: 113%;
+}
+
+.flex-item {
+  margin: 1.5%;
+}
+
+.flex-item:nth-child(1) {
+  max-width: 300px;
+  margin-right: 70px;
+}
+
+.flex-item:nth-child(2) {
+  max-width: 500px;
+  position: relative;
+}
+
+.log-in {
+  background: linear-gradient(#5885ce, #3c69b2);
+  padding: 0;
+  position: absolute;
+  right: 0;
+  top: 5px;
+  border-radius: 5px;
+  color: white;
+  border: 1px solid #255bb2;
+  box-shadow: 1px 1px 2px 2px #3c69b2;
+  height: 50px;
+  line-height: 50px;
+  padding-left: 15px;
+  min-width: 102px;
+}
+
+#home-img {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.content {
+  background-image: url(https://github.com/willjthorp/lab-css-instagram-clone/blob/master/starter-code/images/frame.png?raw=true);
+  background-position: center-top;
+  background-repeat: no-repeat;
+  padding: 1.5em 3em;
+  z-index: 3;
+}
+
+nav {
+  position: relative;
+  margin: 20px 0;
+}
+
+.logo {
+  width: 60%;
+}
+
+h1 {
+  color: #06365f;
+}
+
+.buttons {
+  margin-top: 30px;
+}
+
+.clear {
+  clear: both;
+}
+
+ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 5px;
+}
+
+footer {
+  margin: 0 auto;
+  width: 70%;
 }
