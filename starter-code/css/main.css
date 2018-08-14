@@ -1,10 +1,101 @@
 /*
 Colors to use:
-dark blue: #06365f
-light blue: #1c5380
+dark blue: #06365f rgb(6, 54, 95)
+light blue: #1c5380 #6086a7
 */
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.topSection {
+background-color: rgb(28, 83, 128);
+height: 300px;
+width: auto;
+}
+
+.cameraImg {
+
+	padding-left: 550px;
+	padding-top: 120px;
+}
+
+
+.phoneImg {
+
+	padding-left: 200px;
+	margin-top: -200px;
+}
+
+.frameImg{
+	padding-left: 550px;
+	margin-top: -400px;
+
+		}
+
+	.box{
+		.padding-top: 300px;
+
+
+	
+}
+
+.title h2{
+	color: rgb(6, 54, 95);
+	padding-left: 600px;
+	margin-top: -265px;
+
+
+}
+
+.paragraph {
+
+	padding-left: 600px;
+}
+
+.badgeImg {
+
+	padding-left: 600px;
+	padding-top: 30px;
+}
+
+.androidImg {
+
+	padding-left: 800px;
+	margin-top: -56px;
+}
+
+.bottom a {
+
+	text-decoration: none;
+	font-size: 15px;
+    color: rgb(28, 83, 128);
+}
+
+.about {
+
+	padding-left: 370px;
+	padding-top: 50px;
+}
+
+.extraspace {
+
+	height: 300px;
+	width: auto;
+
+
+
+}
+
+.home {
+
+margin-top: -875px;
+margin-left: 950px;
+color: rgb(255,255,255);
+font-size: 15px;
+
+}
+
+
+
