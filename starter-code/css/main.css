@@ -1,10 +1,141 @@
-/*
-Colors to use:
+
+/* Colors to use:
 dark blue: #06365f
-light blue: #1c5380
-*/
+light blue: #1c5380 */
+
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  /* background-color: #1c5380; */
+
+}
+
+.wholePage{
+  /* background-color: #1c5380; */
+  background: linear-gradient( #1c5380 40%, white 40%);
+  height: 800px;
+
+}
+
+.secondWholePage{
+
+}
+
+.navBar1{
+  /* background-color: red */
+}
+
+.leftPart1{
+  float: left;
+  margin-left: 15%
+}
+
+.iphone2{
+  height: 370px;
+  margin-top: 70%;
+  margin-left: 65%
+}
+
+.rightPart{
+  float: right;
+  /* background-color: red; */
+  width: 30%;
+  margin-top: 10%;
+  margin-right: 18%;
+  margin-left: 1%
+}
+
+.link{
+  float: left
+}
+
+.logo{
+  height: 65px;
+  float: left
+}
+
+.login{
+  float: right
+}
+
+.whiteBox{
+  float: left
+}
+
+.loginButton{
+  background-color: rgb(84,125,160);
+  color: white;
+  border-radius: 4px;
+  padding-left: 8px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  margin-right: 0px;
+  margin-top: 15px
+}
+
+.house{
+  /* background-color: red; */
+  float: left;
+  margin-right: 7px
+}
+
+.littleHouse{
+  float: left
+}
+
+.whiteBox{
+  /* background-image: url('/images/frame.png') no-repeat center center fixed; */
+  background-color: white;
+  margin-top: 20px;
+}
+
+.secondTitle{
+  color: #06365f;
+  width: 46%;
+ margin-left: 8%;
+}
+
+.description{
+  width: 90%;
+  /* background-color: red; */
+  margin-left: 20px
+}
+
+.apps{
+  margin-left: 10%
+}
+
+.apple{
+  float: left
+}
+
+.android{
+  float: left;
+}
+
+.apple1{
+  height: 44px
+}
+
+.android1{
+  height: 44px;
+  margin-left: 20px
+}
+
+.links{
+  float: right;
+  position: static;
+  width: 60%;
+  margin-top: 50px;
+  color: #1c5380;
+  font-size: 18px
+  /* display: inline-block; */
+}
+
+.copyright{
+  color: rgb(200,200,201);
+  float: right;
+margin-right: 22%;
 }
