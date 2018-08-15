@@ -29,6 +29,8 @@ h1{
   font-size: 16px;
   color: white;
   padding-left: 9px;
+  position: relative;
+  bottom: 5px;
 }
 
 .bottom-half{
@@ -47,6 +49,7 @@ h2{
   color:#06365f;
   display: inline-block;
   padding-left: 2em;
+  font-weight: 525;
 }
 
 p{
@@ -58,10 +61,12 @@ p{
   display: block;
   margin-left: 99em;
   margin-top: -6.5em;
-  background-color: #1c5380;
+  background-color: #6c90af;
   height: 4em;
   width: 10em;
   border-radius: 2px;
+  border-color: #6c90afdb;
+  padding-top: 5px;
 }
 
 .btn-2{
