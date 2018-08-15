@@ -74,7 +74,9 @@ p{
 }
 
 .btn-2{
-  margin-left: 47em;
+  margin-left: 46.5em;
+  position: relative;
+  bottom: 38em;
 }
 
 .btn-Ios{
@@ -91,6 +93,8 @@ footer{
   text-align: center;
   margin-top: 4em;
   word-spacing: 10px;
+  position: relative;
+  bottom: 39em;
 }
 
 .footerLink{
