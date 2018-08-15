@@ -25,7 +25,7 @@ h1{
   padding-top: 4em;
 }
 
-span{
+.span1{
   font-size: 16px;
   color: white;
   padding-left: 9px;
@@ -56,8 +56,8 @@ p{
 
 .btn-LogIn{
   display: block;
-  margin-left: 101em;
-  margin-top: -8.5em;
+  margin-left: 99em;
+  margin-top: -6.5em;
   background-color: #1c5380;
   height: 4em;
   width: 10em;
@@ -81,4 +81,28 @@ p{
 footer{
   text-align: center;
   margin-top: 4em;
+  word-spacing: 10px;
+}
+
+.footerLink{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #3d8ce5;
+  font-size: 10px;
+  font-weight: 500;
+
+}
+
+.footerLink1{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #3d8ce5;
+  font-size: 10px;
+  font-weight: 500;
+  word-spacing: 1px;
+}
+
+.span2{
+  word-spacing: 0.5px;
+  color: lightgray;
 }
