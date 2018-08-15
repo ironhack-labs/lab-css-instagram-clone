@@ -25,16 +25,17 @@ header {
 .loginButton {
   color: white;
   font-weight: bold;
-  font-size: 10px;
+  font-size: 16px;
   padding-bottom: 10px;
   background-color: #1c5380;
   float: right;
-  height: 40px;
-  width: 85px;
+  height: 42px;
+  width: 112px;
   margin-right: 222px;
   margin-top: -60px;
   left: 100px;
   border: -1px solid #1c5380;
+  padding: 8px 10px;
 }
 
 .home {
