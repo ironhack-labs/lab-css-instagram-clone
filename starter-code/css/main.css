@@ -6,5 +6,108 @@ light blue: #1c5380
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0 auto;
+}
+
+header {
   margin: 0;
+}
+
+.insta-logo {
+  float: left;
+  margin-top: 100px;
+  margin-left: 90px;
+}
+
+.login-button {
+  float: right;
+  margin-right: 240px;
+  margin-top: 120px;
+  color: white;
+  font-weight: 200;
+  font-size: 16px;
+  background: #6992b2;
+  height: 40px;
+  width: 100px;
+  border-radius: 3px;
+  border: 1px solid #06365f;
+}
+
+.home-icon {
+  float: left;
+}
+
+.header {
+  display: block;
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+  height: 300px;
+}
+
+.demo-img {
+  float: left;
+  margin-left: 220px;
+  margin-top: 100px;
+}
+
+.insta-content {
+  width: 35%;
+  float: right;
+  margin-right: 220px;
+  margin-top: 10px;
+  padding: 20px;
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+}
+
+.insta-content p {
+  margin: 20px;
+  text-align: justify;
+}
+
+.insta-content h1 {
+  margin: 20px;
+  color: #1c5380;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.badges {
+  display: block;
+  margin-left: 20px;
+}
+
+.badge-iphone {
+  display: inline-block;
+  padding-right: 10px;
+}
+
+.badge-android {
+  display: inline-block;
+  padding-left: 10px;
+}
+
+.divClear {
+  float: none;
+}
+
+.footer {
+  display: block;
+  text-align: center;
+  padding-top: 350px;
+  padding-bottom: 50px;
+  text-transform: uppercase;
+  color: #1c5380;
+  font-size: 14px;
+  font-weight: bolder;
+  word-spacing: 12px;
+  margin-top: 50px;
+}
+
+.footer-menu {
+  display: block;
+}
+
+.footer-menu li {
+  display: inline-block;
 }
