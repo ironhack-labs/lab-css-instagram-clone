@@ -2,9 +2,87 @@
 Colors to use:
 dark blue: #06365f
 light blue: #1c5380
+#4f769a actual
 */
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 200 18px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.background-color {
+  position: absoulte;
+  top: 0;
+  right: 0;
+  height:350px;
+  background-color: #4f769a;
+}
+.button{
+  background-color:#4c779c;
+  color: white;
+  border: 0.5px solid  #06365f;
+  /*position: relative;
+  left:800px;
+  top:180px;*/
+  float:right;
+  margin-top:150px;
+  margin-right: 230px;
+  font-size:14px;
+  padding-bottom:7px;
+  width: 100px;
+}
+
+.little-house{
+  margin-right:5px;
+  margin-top: 5px;
+
+}
+.iphones{
+  position: relative;
+  bottom: 250px;
+  right: 190px;
+  width:30%;
+}
+
+.logo{
+  position: relative;
+  bottom: 750px;
+  left: 540px;
+}
+h2{
+  color: #0c355a;
+}
+.content-text{
+  color: black;
+}
+.content{
+  width: 35%;
+  height: 200px;
+  padding: 10px 50px 100px 50px;
+  position: relative;
+  bottom: 750px;
+  left: 530px;
+  background-image: url("https://www.dropbox.com/s/zvqrqzpr1uzs2wg/frame.png?raw=1");
+  background-size: cover;
+}
+
+span{
+  font-weight:bold;
+}
+
+.app-store{
+  margin-right: 10px;
+}
+
+footer{
+  font-size: 12px;
+  position:relative;
+  bottom: 500px;
+  left: 300px;
+  width: 1000px;
+  margin: 0 auto;
+  color: #4f769a;
+}
+
+
+
