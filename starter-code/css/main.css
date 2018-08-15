@@ -7,4 +7,78 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  
+}
+
+h1{
+  margin: 0 auto;
+}
+
+.top-half{
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;
+  height: 20em;
+}
+
+.img-logo{
+  padding-left: 23em;
+  padding-top: 4em;
+}
+
+span{
+  font-size: 16px;
+  color: white;
+  padding-left: 9px;
+}
+
+.bottom-half{
+  background-image: url(../images/frame.png);
+  width: 31.5em;
+  margin-left: 45em;
+  margin-top: -24em; 
+  background-repeat: no-repeat;
+}
+
+.img-phone{
+  margin-top: -14em;
+  margin-left: 20em;
+}
+h2{
+  color:#06365f;
+  display: inline-block;
+  padding-left: 2em;
+}
+
+p{
+  padding-left: 2em;
+  display: inline-block;
+}
+
+.btn-LogIn{
+  display: block;
+  margin-left: 101em;
+  margin-top: -8.5em;
+  background-color: #1c5380;
+  height: 4em;
+  width: 10em;
+  border-radius: 2px;
+}
+
+.btn-2{
+  margin-left: 47em;
+}
+
+.btn-Ios{
+  border-style: none;
+  padding: 0;
+}
+
+.btn-Gplay{
+  border-style: none;
+  padding: 0;
+}
+
+footer{
+  text-align: center;
+  margin-top: 4em;
 }
