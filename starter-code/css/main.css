@@ -11,10 +11,13 @@ body {
 
 header {
   margin: 0;
+  padding-top: 100px;
 }
 
 .brand {
   display: block;
+  position: relative;
+  left: 110px;
   margin: 0 auto;
   text-align: center;
 }
@@ -26,10 +29,11 @@ header {
   padding-bottom: 10px;
   background-color: #1c5380;
   float: right;
-  height: 30px;
-  width: 80px;
-  margin-right: 330px;
+  height: 40px;
+  width: 85px;
+  margin-right: 222px;
   margin-top: -60px;
+  left: 100px;
   border: -1px solid #1c5380;
 }
 
@@ -48,6 +52,7 @@ header {
 .phoneFloat {
   float: left;
   margin-left: 180px;
+  margin-top: -80px;
 }
 
 .instaBox {
