@@ -6,5 +6,88 @@ light blue: #1c5380
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+}
+
+h1{
+  position: relative;
+  color: white;
+  margin-top: 0px;
+  font-size: 20px;
+}
+
+
+footer{
+  position: absolute;
+  right: 20%;
+  left: 35%;
+  font-size: 12px;
+  bottom: 0px;
+}
+
+section{
+  background-color: white;
+  position: absolute;
+  padding-left: 2%;
+  padding-right: 2%;
+  margin-left: 38.5%;
+  margin-right: 18%;
+  margin-top: 15%;
+  background-image: url('../images/frame.png');
+  background-size: cover;
+}
+
+.blue-background{
+  float: top;
+  height: 40%;
+  width: 100%;
+  background-color: #1c5380;
+  position: absolute;
+  margin-bottom: 50px;
+}
+
+.insta-logo{
+  float: right;
+  margin-right: 35%;
+  margin-top: 8%;
+}
+
+.phone-pic{
+  float: left;
+  position: absolute;
+  margin-left: 8%;
+  margin-top: 8%;
+}
+
+.app-store{
+  position: relative;
+  margin-top: 5%;
+  margin-left: 8%;
+}
+
+.play-store{
+  position: relative;
+  margin-top: 5%;
+  margin-left: 3%;
+}
+
+.log-in-logo{
+  position: absolute;
+  margin-left: 72.5%;
+  margin-top: 10.4%;
+}
+
+.log-in{
+  position: absolute;
+  margin-left: 75%;
+  margin-top: 10%;
+  /* border-style: double; Was having problems creating the login button, I think it was because both the image and the text had
+  border-color: lightblue; absolute positioning. I'll be more careful and try using relative in the future.
+  background: lightblue;
+  padding: 5px 8px 5px 40px;
+*/
+}
+
+h1 > a{
+  text-decoration: none;
+  color: white;
 }
