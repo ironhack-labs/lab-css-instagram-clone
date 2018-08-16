@@ -11,53 +11,63 @@ body {
   background-repeat: repeat-x;
 }
 
-.descr article {
-  box-shadow: 10px 10px 8px #888888;
-}
-.container img {
- float: left;
- margin: 150px 50px;
-}
-.container h1{
-  color: #06365f;
+button {
+  background: #06365f;
+  border: #06365f;
+  color: white;
+  padding: 15px 32px;
+  margin-left: 20px;
+  margin-bottom: 30px;
 }
 
-.brand {
-  width: 300px;
-  
-
+.row {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
 }
 
-.descr {
-  float: right;
-  width: 500px;
-  height: 500px;
-  padding: 20px;
-  margin: 100px;
+
+.column {
+  display: flex;
+  flex-direction: column;
+  width: 480px;
+}
+
+.column > .text {
   background: white;
-  background-image: url("../images/frame.png");
-  background-repeat: no-repeat;
-  background-size: auto;
+  /* background-image: url("../images/frame.png"); */
+  /* background-size: 100%;
+  background-repeat: no-repeat;*/
+  border-radius: 8px; 
+  padding: 10px;
+  margin: 10px;
 }
 
-.badge {
-  float: left;
-  margin: 0 auto;
-  float: right;
-  width: 500px;
-  height: 100px;
-  padding: 50px;
-  display: cover;
-  margin: 50px;
+.column > .text > h1{
+  margin-left: 20px;
+  margin-right: 20px
 }
 
-footer ul {
+.column > .text > p{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.column > .download > .badge {
+  margin-left: 40px;
+}
+footer > ul{
+  list-style-type: none;
   display: flex;
   justify-content: center;
+  align-content: space-between;
 }
- footer li {
-  margin: 15px;
-  list-style-type: none;
-  text-transform: uppercase;
-  font-size: 0.8em;
- }
+
+footer > ul > li {
+  margin-right: 10px;
+  margin-top: 20px;
+  color: #1c5380;
+  font-weight: bold;
+}
+
+
