@@ -80,8 +80,8 @@ section{
   position: absolute;
   margin-left: 75%;
   margin-top: 10%;
-  /* border-style: double;
-  border-color: lightblue;
+  /* border-style: double; Was having problems creating the login button, I think it was because both the image and the text had
+  border-color: lightblue; absolute positioning. I'll be more careful and try using relative in the future.
   background: lightblue;
   padding: 5px 8px 5px 40px;
 */
