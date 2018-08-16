@@ -8,3 +8,71 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+.top-blue-div{
+  background-color: #1c5380;
+  height: 400px;
+}
+
+.instagram-logo-and-button{
+  position: relative;
+  left: 45%;
+  top: 36%;
+  width: 550px;
+}
+
+.login{
+  background-color: #6c90af;
+  color: white;
+  float: right;
+  margin-top: 15px;
+  font-size: 18px;
+  padding: 10px 18px;
+  
+}
+.little-house{
+  margin-right: 5px;
+  position: relative;
+  top: 5px;
+}
+
+.insta-logo{
+  float:left;
+}
+
+.phone-picture{
+  position: relative;
+  left: 10%;
+  bottom: 180px;
+  width: 350px;
+  display: inline-block;
+}
+
+.capture-and-share{
+  display: inline-block;
+  width: 500px;
+  position: relative;
+  left: 14%;
+  bottom: 215px;
+  background-image: url('../images/frame.png');
+  background-size: cover;
+  padding: 25px;
+  border-radius: 20px;
+}
+
+.cap-share-heading{
+  color: #06365f;
+  width: 65%;
+}
+
+.iphone, .android{
+  width: 180px;
+  margin: 0 10px;
+}
+
+.bottom-white-div{
+  h3{
+    color: #06365f
+  }
+}
+
+
