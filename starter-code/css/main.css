@@ -3,8 +3,98 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
+*{
+  margin: 0;
+}
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  
+}
+
+h2 {
+  color: #06365f
+}
+
+.fondo {
+  background-image: linear-gradient(#1c5380,#06365f);  
+  background-size: cover;
+  /*background-image: url(../images/bgtile.png);  */
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 260px;
+  position: relative;
+}
+.top-img{
+  margin-top: 10%;
+  margin-left: 40%;
+  height: 20%;
+}
+
+.img-phones {
+  position: absolute;
+  top:45%;
+  left: 10%;
+}
+
+button{
+  position: absolute;
+  width: 100px;
+  height: 40px;
+  text-align: right;
+  background-image: url(../images/bgtile.png);
+  background-size: cover;
+  background-repeat: repeat;
+  top: 50%;
+  left: 70%;
+  padding: 3px 10px;
+  color: white;
+  font-size: 1em;
+  border: 1px solid #06365f
+}
+button img {
+  position: absolute;
+  right: 65%;
+  bottom: 7px;
+}
+.contenido{
+  width: 33%;
+  margin: 0 40%;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  padding: 30px;
+  background-color: white;
+  height: 120%;
+  border: 1px solid transparent;
+  -moz-border-image: -moz-linear-gradient(top, #000000 0%, #eeeeee 100%);
+  -webkit-border-image: -webkit-linear-gradient(top, #000000 0%, #eeeeee 100%);
+  border-image: linear-gradient(to bottom, #000000 0%, #eeeeee 100%);
+  border-image-slice: 1;
+  border-bottom: #eeeeee;
+}
+
+.footer {
+  position: relative;
+  height: 420px;
+  width: 100%;
+}
+
+.footer ul {
+  position: absolute;
+  bottom: 5%;
+  left: 25%;
+  font-size: 0.75em;
+}
+
+.footer ul li{
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.footer a{
+  text-decoration: none;
+  color: #1c5380;
+  font-weight: 600;
+}
+.footer span {
+  color: gray;
 }
