@@ -5,6 +5,75 @@ light blue: #1c5380
 */
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+	font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin: 0;
+}
+
+.bg-top {
+	width: 100%;
+	height: 280px;
+	background-image: url('../images/bgtile.png');
+	background-repeat: repeat-x;
+	position: absolute;
+	top: 0;
+	z-index: -1;
+}
+
+.container {
+	border: 1px solid #000;
+	width: 900px;
+	margin: 0 auto;
+	margin-top: 80px;
+}
+
+.movile-pic {
+	float: left;
+}
+
+.main-wrap {}
+
+.main {
+	/* background-image: url('../images/frame.png'); */
+	border: 1px solid black;
+	/* background-repeat: no-repeat; */
+	float: right;
+	width: 504px;
+	padding: 20px;
+}
+
+.main-head {
+	position: relative;
+}
+
+
+.footer {
+	clear: both;
+}
+
+.btn-login {
+	color: #FFF;
+	font-size: 18px;
+	padding: 15px 15px 15px 10px;
+	border-radius: 5px;
+	position: absolute;
+	transform: translateY(-50%);
+	top: 50%;
+	right: 0;
+	background: #6e9dcc;
+	background: -moz-linear-gradient(top, #6e9dcc 0%, #4a6a8b 100%);
+	background: -webkit-linear-gradient(top, #6e9dcc 0%, #4a6a8b 100%);
+	background: linear-gradient(to bottom, #6e9dcc 0%, #4a6a8b 100%);
+}
+
+.btn-login span, .btn-login img {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.btn-login span {
+	padding-left: 8px;
+}
+
+.main-text h2 {
+	color: #003569;
 }
