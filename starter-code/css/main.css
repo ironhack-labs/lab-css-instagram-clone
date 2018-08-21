@@ -7,4 +7,62 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url("../images/bgtile.png");
+  background-repeat: no-repeat;
+  background-size: 100% 280px;
+}
+
+main{
+  margin: 100px auto;
+  width: 60%;
+}
+
+.button{
+  border: solid 1px #06365f;
+  background-color: #1c5380;
+  width: 100px;
+  padding: 5px; 
+  float: left;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+.button img{
+  vertical-align: middle; 
+  margin-left: 6px;
+  margin-right: 10px;
+}
+
+.white{
+  color: white;
+}
+
+.phones{
+  float: left;
+  width: 40%;
+}
+.left{
+  float: left;
+  width: 55%;
+  margin-left: 5%;
+}
+footer{
+  position: absolute;
+  bottom: 5%;
+  width: 60%;
+  margin-left: 30%;
+  color: #1c5380;
+}
+.instagram{
+  float: left;
+}
+.clean{
+  clear: both;
+}
+.text{
+  background-image: url("../images/frame.png");
+  padding: 30px;
+  background-repeat:no-repeat;
+}
+h2{
+  color: #06365f;
 }
