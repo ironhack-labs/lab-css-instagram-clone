@@ -5,6 +5,134 @@ light blue: #1c5380
 */
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+	font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin: 0;
+}
+
+.bg-top {
+	width: 100%;
+	height: 280px;
+	background-image: url('../images/bgtile.png');
+	background-repeat: repeat-x;
+	position: absolute;
+	top: 0;
+	z-index: -1;
+}
+
+.container {
+	width: 930px;
+	margin: 0 auto;
+	margin-top: 80px;
+}
+
+.movile-pic {
+	float: left;
+}
+
+.main {
+	float: right;
+	width: 504px;
+	padding: 20px;
+}
+
+.main-head {
+	position: relative;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.btn-login {
+	color: #FFF;
+	font-size: 16px;
+	padding: 15px 15px 15px 10px;
+	border-radius: 5px;
+	position: absolute;
+	transform: translateY(-50%);
+	top: 50%;
+	right: 0;
+	cursor: pointer;
+	background: #6e9dcc;
+	background: -moz-linear-gradient(top, #6e9dcc 0%, #4a6a8b 100%);
+	background: -webkit-linear-gradient(top, #6e9dcc 0%, #4a6a8b 100%);
+	background: linear-gradient(to bottom, #6e9dcc 0%, #4a6a8b 100%);
+}
+
+.btn-login span, .btn-login img {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.btn-login span {
+	padding-left: 8px;
+}
+
+.main-text-wrap {
+	padding: 10px 35px;
+	background-image: url('../images/frame.png');
+	background-repeat: no-repeat;
+}
+
+.main-text {
+	margin-bottom: 30px;
+}
+
+.main-text h1 {
+	font-size: 28px;
+    width: 68%;
+	color: #003569;
+}
+
+.main-text p {
+	font-size: 18px;
+}
+
+.main-buttons a {
+	text-decoration: none;
+}
+
+.main-buttons a:first-child {
+	padding-right: 15px;
+}
+
+.main-buttons img {
+	display: inline-block;
+}
+
+.footer {
+	width: 768px;
+	margin: 0 auto;
+	clear: both;
+	padding-top: 10px;
+	padding-bottom: 40px;
+}
+
+.footer nav {
+	list-style-type: none;
+	margin: 0 auto;
+	display: inline-block;
+	font-size: 12px;
+}
+
+.footer li {
+	font-weight: bold;
+	text-align: center;
+	display: inline-block;
+	margin-left: 8px;
+	margin-right: 8px;
+}
+
+.footer a {
+	text-transform: uppercase;
+	display: block;
+	cursor: pointer;
+	color: #003569;
+	text-decoration: none;
+}
+
+.footer span {
+	font-size: 12px;
+	text-transform: uppercase;
+	padding-left: 8px;
+	padding-right: 8px;
+	color: #999;
 }
