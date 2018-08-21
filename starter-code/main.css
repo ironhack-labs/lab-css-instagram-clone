@@ -1,0 +1,89 @@
+/*
+Colors to use:
+dark blue: #06365f
+light blue: #1c5380
+*/
+
+body {
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  background-image: url(images/bgtile.png);
+  background-repeat: no-repeat;
+  background-size: 100% 35%;
+  
+}
+h1 {
+  color:#06365f;
+}
+.phones {
+  position: relative;
+  top:80px;
+  left:200px;
+
+}
+
+.text-container {
+  background-image: url(images/frame.png);
+  background-repeat: no-repeat;
+  background-size: 600px 600px;
+  margin: 0 ;
+  width: 600px;
+  height: 40px;
+  box-sizing: border-box;
+  position: relative;
+  text-align: left;
+  padding:50px;
+  left:600px;
+  top:-420px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.text-img {
+  margin-top: 30px;
+}
+
+.button-box {
+  position: relative;
+  left:600px;
+  top:-420px;
+  width: 400px;
+}
+
+.searchButton-icon {
+  background-color: #008CBA;
+  border: none;
+  color: white;
+  font-size: 14px;
+  border: 1px solid #008CBA;
+  border-radius: 4px;
+  position: relative;
+  top: -37px;
+  left: 90px;
+  text-decoration: none;
+  padding-left: 30px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  display: inline-block;
+  background: url(images/home.png) #008CBA no-repeat scroll 5px center;
+  }
+
+
+
+  .footer-text {
+    text-align: center;
+  padding-bottom: 30px;
+  margin-top: -25px;
+  color:#008CBA;
+  text-transform: uppercase;
+  font-weight: bold;
+  word-spacing: 10px;
+  }
+
+  .footer-instagram {
+    color: grey;
+  font-weight: 200;
+  word-spacing: 1px;
+  }
