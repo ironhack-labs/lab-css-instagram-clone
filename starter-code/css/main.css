@@ -7,4 +7,115 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+  background-color: #fcfcfc;
+}
+
+.home-main {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px; 
+}
+
+.iphone-screenshot {
+
+}
+
+.home-main-content {
+  padding-top: 20px;
+}
+
+.home-header {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  align-items: center;
+  width: 504px;
+  padding: 0 10px 20px 4px;
+}
+
+.instagram-logo {
+  display: block;
+}
+
+.log-in-button {
+  display: block;
+  padding: 8px 10px;
+  color: white;
+  font-size: 12px;
+  font-weight: 500;
+  text-decoration: none;
+  text-shadow: #00000052 0px 2px 1px;
+  background: #1c5380;
+  border: 1px solid #06365f;
+  border-radius: 2px;
+}
+
+.log-in-icon {
+  vertical-align: middle;
+}
+
+.log-in-text {
+
+}
+
+.info-box {
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  width: 504px;
+  padding: 30px 40px;
+}
+
+.home-title {
+  margin: 0;
+  font-weight: 500;
+  font-size: 25px;
+  width: 255px;
+  line-height: 1.3;
+  margin-bottom: 15px;
+  color: #06365f;
+}
+
+.home-text {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.stores-buttons {
+  margin-top: 35px;
+}
+
+.stores-buttons img{
+  margin-right: 15px;
+}
+
+.footer-section {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.footer-list {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  justify-content: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #c6c6c6;
+  font-size: 10px;
+}
+
+.footer-list li {
+  margin-right: 20px;
+}
+
+.footer-list a {
+  text-decoration: none;
+  color: #1c5380;
+}
+
+.copyright {
+  margin-left: 10px;
 }
