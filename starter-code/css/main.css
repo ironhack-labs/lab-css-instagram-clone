@@ -7,4 +7,88 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+
 }
+
+h2 {
+  color: #25415d;
+}
+
+.background-top {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(71,112,154,1) 0%, rgba(68,109,151,1) 100%);
+  height:450px;
+}
+
+.container{
+  width:1200px;
+  margin:0 auto;
+  position:relative;
+  margin-top:-200px;
+}
+
+.phones {
+  position:absolute;
+  width:30%;
+}
+
+.content-top{
+  position:absolute;
+  right:20px;
+  width:65%;
+
+}
+
+.content{
+  width:60%;
+  position:absolute;
+  background-image: url(../images/frame.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  right:20px;
+  top:100px;
+  padding: 40px;
+
+}
+ button{
+ background: rgb(2,0,36);
+ background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(103,142,178,1) 0%, rgba(67,111,156,1) 100%);
+ color:white;
+ padding:15px;
+ border:1px solid #366089;
+ float: right;
+ font-size:16px;
+ font-weight:700;
+ }
+
+ button i {
+margin-right:5px; 
+}
+
+footer {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+ nav {
+  position: absolute;
+  bottom: 70px;
+  width: 1200px;
+  text-align:center;
+ }
+
+ nav li {
+   list-style: none;
+   display:inline-block;
+   text-align:center;
+   margin-right:5px;
+   color:#25415d;
+   font-weight:700;
+  }
+
+  nav li span {
+    color:grey;
+   }
+ 
+
+
