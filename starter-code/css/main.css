@@ -7,4 +7,82 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+}
+.main{
+  width: 870px;
+  position: relative;
+  border: 1px solid green;
+  margin: 100px auto 0;
+}
+.content{
+  width: 500px;
+  float: right;
+  position: relative;
+  right: 0;
+}
+h1{
+  display: none;
+}
+h2{
+  color: #06365f;
+  font-weight: bold;
+}
+.login-menu{
+  border: 1px solid red;
+  width: 500px;
+  float:right;
+}
+.brand{
+}
+button{
+  position:relative;
+  right: 0;
+  background: #06365f;
+  color: white;
+}
+.home-icon{
+}
+.home-button{
+  display: inline-block;
+}
+.phones{
+ position: relative;
+ left: 0px;
+}
+.card{
+  float: right;
+  width: 500px;
+  border: 1px solid #1c5380;
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  padding: 30px 40px;
+  box-sizing: border-box;
+}
+.app-links{
+  
+}
+footer{
+  border: 1px solid red;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 10px;
+  width: 70%;
+  margin: 0 auto;
+  clear: both;
+}
+.footer-menu{
+  display: inline-block;
+}
+.footer-menu-item{
+  display: inline-block;
+  text-decoration: none;
+  color: #06365f;
+  margin: 5px;
+}
+.copyright{
+  display: inline-block;
+  color: grey;
+  margin-left: 30px;
 }
