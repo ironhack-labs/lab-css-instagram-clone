@@ -74,6 +74,11 @@ body {
 	padding-left: 8px;
 }
 
-.main-text h2 {
+.main-text h1 {
+	width: 65%;
 	color: #003569;
+}
+
+.main-text p {
+	font-size: 18px;
 }
