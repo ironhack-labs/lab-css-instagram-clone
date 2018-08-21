@@ -13,7 +13,6 @@ body {
 .main{
   width: 870px;
   position: relative;
-  border: 1px solid green;
   margin: 100px auto 0;
 }
 .content{
@@ -30,19 +29,24 @@ h2{
   font-weight: bold;
 }
 .login-menu{
-  border: 1px solid red;
   width: 500px;
   float:right;
+  box-sizing: border-box;
+  padding: 5px;
 }
 .brand{
+  vertical-align: middle;
 }
 button{
-  position:relative;
-  right: 0;
-  background: #06365f;
+  float:right;
+  background: #1c5380;
+  font-weight: bold;
   color: white;
+  border: 1px solid #06365f;
+  transform: translate(0, 50%);
 }
 .home-icon{
+  vertical-align: middle;
 }
 .home-button{
   display: inline-block;
@@ -54,35 +58,33 @@ button{
 .card{
   float: right;
   width: 500px;
-  border: 1px solid #1c5380;
   background-image: url("../images/frame.png");
   background-repeat: no-repeat;
   padding: 30px 40px;
   box-sizing: border-box;
 }
 .app-links{
-  
+  margin: 5px;
 }
 footer{
-  border: 1px solid red;
   text-transform: uppercase;
   font-weight: bold;
   font-size: 10px;
-  width: 70%;
-  margin: 0 auto;
+  width: 50%;
+  margin: auto;
   clear: both;
 }
 .footer-menu{
-  display: inline-block;
+  display: inline-block;    
 }
 .footer-menu-item{
   display: inline-block;
   text-decoration: none;
-  color: #06365f;
+  color: #1c5380;
   margin: 5px;
 }
 .copyright{
   display: inline-block;
   color: grey;
-  margin-left: 30px;
+  margin-left: 20px;
 }
