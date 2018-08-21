@@ -20,18 +20,48 @@ body {
   background-color: #1c5380;
 }
 .instagram-image {
-  margin: 120px;
   position: relative;
+  margin: 120px;
   left: 450px;
 }
 .login-button {
+  position: relative;
   text-align: center;
-  background: #1c5380;
   float: right;
   margin: 150px;
-  position: relative;
   right: 45px;
+  background: #1c5380;
   border-color: #06365f;
 }
+.instagram-description {
+  /* lets load the frame (white box) */
+  background-image: url(../images/frame.png);
+  background-size: cover;
+  text-align: left;
+  position: relative;
+  bottom: 100px;
+  margin-left: 700px;  
+}
+.instagram-text {
+  padding: 40px;
+  margin: 25px;
+  width: 400px;
+}
+.ios-image {
+  float: left;
+  padding: 15px;
+}
+.android-image {
+  float: left;
+  padding: 15px;
+}
+ol {
+  float: right;
+  list-style: none;
+  margin: 12px;
+  padding: 20px 20px;
+}
 
-
+li {
+  float: right;
+}
