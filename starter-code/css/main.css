@@ -59,6 +59,7 @@ body {
 	transform: translateY(-50%);
 	top: 50%;
 	right: 0;
+	cursor: pointer;
 	background: #6e9dcc;
 	background: -moz-linear-gradient(top, #6e9dcc 0%, #4a6a8b 100%);
 	background: -webkit-linear-gradient(top, #6e9dcc 0%, #4a6a8b 100%);
@@ -81,4 +82,16 @@ body {
 
 .main-text p {
 	font-size: 18px;
+}
+
+.main-buttons a{
+	text-decoration: none;
+}
+
+.main-buttons a:first-child {
+	padding-right: 15px;
+}
+
+.main-buttons img {
+	display: inline-block;
 }
