@@ -8,3 +8,30 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+.iphones-image {
+  position: absolute;
+  left: 100px;
+  top: 150px;
+}
+.instagram-slogan {
+  color: #06365f;
+}
+.instagram-logo {
+  background-color: #1c5380;
+}
+.instagram-image {
+  margin: 120px;
+  position: relative;
+  left: 450px;
+}
+.login-button {
+  text-align: center;
+  background: #1c5380;
+  float: right;
+  margin: 150px;
+  position: relative;
+  right: 45px;
+  border-color: #06365f;
+}
+
+
