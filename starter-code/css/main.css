@@ -43,7 +43,7 @@ body {
 
 .btn-login {
 	color: #FFF;
-	font-size: 18px;
+	font-size: 16px;
 	padding: 15px 15px 15px 10px;
 	border-radius: 5px;
 	position: absolute;
@@ -102,26 +102,36 @@ body {
 	width: 768px;
 	margin: 0 auto;
 	clear: both;
+	padding-top: 10px;
+	padding-bottom: 40px;
 }
 
 .footer nav {
 	list-style-type: none;
 	margin: 0 auto;
 	display: inline-block;
+	font-size: 12px;
 }
 
 .footer li {
-	text-transform: uppercase;
-	color:  #003569;
 	font-weight: bold;
-	font-size: 12px;
 	text-align: center;
 	display: inline-block;
-	padding-left: 8px;
-	padding-right: 8px;
+	margin-left: 8px;
+	margin-right: 8px;
+}
+
+.footer a {
+	text-transform: uppercase;
+	display: block;
+	cursor: pointer;
+	color: #003569;
+	text-decoration: none;
 }
 
 .footer span {
+	font-size: 12px;
+	text-transform: uppercase;
 	padding-left: 8px;
 	padding-right: 8px;
 	color: #999;
