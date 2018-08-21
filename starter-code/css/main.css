@@ -20,8 +20,7 @@ body {
 }
 
 .container {
-	border: 1px solid #000;
-	width: 900px;
+	width: 930px;
 	margin: 0 auto;
 	margin-top: 80px;
 }
@@ -44,7 +43,6 @@ body {
 .main-head {
 	position: relative;
 }
-
 
 .footer {
 	clear: both;
@@ -94,4 +92,32 @@ body {
 
 .main-buttons img {
 	display: inline-block;
+}
+
+.footer {
+	width: 768px;
+    margin: 0 auto;
+}
+
+.footer nav {
+	list-style-type: none;
+	margin: 0 auto;
+	display: inline-block;
+}
+
+.footer li {
+	text-transform: uppercase;
+	color:  #003569;
+	font-weight: bold;
+	font-size: 12px;
+	text-align: center;
+	display: inline-block;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+.footer span {
+	padding-left: 8px;
+	padding-right: 8px;
+	color: #999;
 }
