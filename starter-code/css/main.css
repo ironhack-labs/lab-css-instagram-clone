@@ -96,7 +96,8 @@ footer a{
   text-decoration: none;
   color: #1C5380;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 14px;
+  text-transform: uppercase;
 }
 
 footer span{
