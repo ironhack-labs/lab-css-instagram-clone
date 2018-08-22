@@ -7,4 +7,99 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url("../images/bgtile.png");
+  height: 300px;
+  background-repeat: repeat-x;
+}
+
+.outter-box{
+  display: flex;
+  flex-direction: row;
+  margin: 100px 400px;
+}
+
+.phones{
+  width: auto;
+  height: 512px;
+  flex-shrink: 2;
+  margin-right: 100px;
+}
+
+.inner-box{
+  flex-shrink: 1;
+  width: 100%;
+  max-width: 700px;
+}
+
+
+.icons{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin: 0px;
+  justify-content: space-between;
+}
+
+.log-in{
+  background-image: linear-gradient(#1C5380, #06365F);
+  padding-left: 5px;
+  display: flex;
+  align-content: center;
+  border: 1px solid #06365f;
+  height: 50px;
+  align-items: center;
+  width: 100px;
+  min-width: 100px;
+  justify-content: space-evenly;
+}
+.log-in img{
+  padding: 4px 4px 4px 0;
+  margin: 0;
+
+}
+
+
+.instagram{
+  margin-right: 80px;
+}
+
+.log-in p{
+  font-weight: bold;
+  color: white;
+  font-size: 16px;
+  margin: 0;
+}
+
+.description{
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 30px 60px 30px 66px;
+}
+
+.description h2{
+  color: #06365F;
+  font-weight: bold;
+  font-size: 30px;
+  max-width: 320px;
+}
+
+footer{
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 700px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+footer a{
+  text-decoration: none;
+  color: #1C5380;
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+footer span{
+  color: gray;
 }
