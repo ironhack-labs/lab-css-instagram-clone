@@ -35,10 +35,10 @@ body {
 }
 .instagram-description {
   /* lets load the frame (white box) */
-  background-image: url(../images/frame.png);
-  background-size: cover;
-  text-align: left;
   position: relative;
+  background-image: url(../images/frame.png);
+  background-size: contain;
+  text-align: left;
   bottom: 100px;
   margin-left: 700px;  
 }
