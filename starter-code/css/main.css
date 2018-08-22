@@ -1,3 +1,8 @@
+html, body {
+  margin: 0%;
+  padding: 0%;
+}
+
 /*
 Colors to use:
 dark blue: #06365f
@@ -6,5 +11,51 @@ light blue: #1c5380
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  margin: o;
+}
+
+header {
+  background-color:#1c5380;
+  height: 320px;
+}
+
+section {
+  
+  
+  
+}
+
+.content {
+  top:13%;
+  left:20%;
+  right:20% ;
+  position: absolute;
+  
+}
+
+section .content {
+  margin: 0 auto;
+  width: 900px;
+}
+
+section .content .box-1, section .content .box-2 {
+  float: left;
+  width: 49%;
+
+}
+
+section .content .box-2 .box-2-text{
+  background-color: aliceblue;
+  border-radius: 10px;
+}
+
+footer {
+  position: absolute;
+  right: 25%;
+  left: 25%;
+  top: 700px;
+}
+
+span {
+  opacity: .5 ;
 }
