@@ -21,17 +21,27 @@ body {
 }
 .instagram-image {
   position: relative;
+  padding-left: 10px;
   margin: 120px;
   left: 450px;
+}
+.login-image {
+  padding-right: 10px;
 }
 .login-button {
   position: relative;
   text-align: center;
+  padding: 5px 5px;
   float: right;
   margin: 150px;
   right: 45px;
+  top: 15px;
   background: #1c5380;
   border-color: #06365f;
+  border: 1px solid black;
+  /*text*/
+  color: white;
+  font-family: sans-serif;
 }
 .instagram-description {
   /* lets load the frame (white box) */
