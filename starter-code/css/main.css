@@ -3,8 +3,131 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+*{
+  margin:0;
+  padding: 0;
+}
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: white;
+  font-family: 'Montserrat', sans-serif;
   margin: 0;
+  padding: 0;
+}
+.main{
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background: rgb(28,83,128);
+  background: linear-gradient(180deg, rgba(28,83,128,1) 50%, rgba(6,54,95,1) 50%, rgba(255,255,255,1) 50%); 
+}
+.container{
+  position:absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 80vw;
+  height: 70vh;
+}
+.button-login a{
+  position: relative;
+  top: 20px;
+  right: 60%;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 20px;
+  width: 300px;
+  height: 150px;
+  background-color: #1c5380;
+  border:1px solid  #06365f;
+}
+.button-login img{
+  margin-right: 15px;
+ 
+}
+.phone-img{
+  margin: 20px;
+  display: inline-block;
+  width: 30%;
+}
+.brand-title{
+  margin: 20px;
+  display: inline-block;
+  width: 30%;
+  position: absolute;
+  float: right;
+}
+.button-login{
+  margin-top: 20px;
+  display: inline-block;
+  width: 20%;
+  float: right;
+}
+.article-description{
+  border-radius: 5px;
+  border-top: 2px solid gray;
+  border-right: 2px solid gray;
+  border-left: 2px solid gray;
+  background: white;
+  top: -450px;
+  padding: 70px;
+  position: relative;
+  float: right;
+  width: 40%;
+  height: 30%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: inline-block;
+  right: 15em;
+}
+.article-description h2{
+  font-size: 2em;
+  text-align: left;
+  color: #1c5380;
+}
+.article-description p{
+  font-size: 20px;;
+  font-weight: 300;
+  color: gray;
+}
+.phone-brand{
+  margin-top: 20px;
+  display: inline-block;
+  float: left;
+}
+.footer{
+  padding: 35px;
+  text-align: center;
+  width: 100%;
+  height: 5%;
+  right: auto;
+  left: auto;
+  margin-top: 50px;
+}
+.footer ul{
+  float:left;
+  left:50%;
+  list-style-type:none;
+  margin:0 auto;
+  padding:0;
+  position:relative;
+  display: inline-block;
+  
+}
+.clearfix{
+  clear: both;
+}
+.footer li{
+  font-size: 15px;
+  font-weight: bold;
+  margin-right: 20px;
+  float:left;
+  position:relative;
+  right:50%;
+  color: #1c5380;
+}
+.footer li>span{
+  color: gray;
 }
