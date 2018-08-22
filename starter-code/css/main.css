@@ -12,7 +12,7 @@ body {
 }
 
 .principal {
-  border: 1px solid black;
+  
   position: relative;
   width: 60%;
   margin: 0 auto;
@@ -22,7 +22,6 @@ body {
 
 .bigPhone {
   box-sizing: border-box;
-  border: 1px solid black;
   display: inline-block;
   float: left;
   width: 45%;
@@ -30,7 +29,7 @@ body {
 
 }
 .rigth-part {
-  border: 1px solid black;
+  
   display: inline-block;
   float: left;
   width: 500px;
@@ -38,14 +37,14 @@ body {
 
 }
 .titleLog {
-  border: 1px solid black;
+  
   position: relative;
   height: 100px;
   
 }
 
 .titleLog img {
-  border: 1px solid black;
+  
   box-sizing: border-box;
   position: relative;
   top: 10px;
@@ -65,16 +64,18 @@ body {
 }
 .button-log img {
   display: inline-block;
+  position: absolute;
+  left: 20px;
 }
 .button-log p {
   display: inline-block;
-  padding-left: 6px;
+  padding-left: 35px;
   color: white;
   font-weight: bold
 }
 
 .rigth-txt {
-  border: 1px solid black;
+  
   background-image: url("../images/frame.png");
   background-repeat: no-repeat;
   width: 500px;
@@ -105,7 +106,6 @@ body {
   color: #1c5380;
   position: relative;
   top: 100px;
-  border: 1px solid black;
   padding: 0 200px;
 
 }
@@ -114,7 +114,6 @@ body {
   
   display: inline-block;
   color: rgb(141, 140, 140);
-  border: 1px solid black;
   font-size: 0.7em;
   position: relative;
   left: 40%;
@@ -125,7 +124,6 @@ body {
 
 .footer .bottom-links {
   display: inline-block;
-  border: 1px solid black;
   font-size: 0.8em;
   position: relative;
   left: 40%;
