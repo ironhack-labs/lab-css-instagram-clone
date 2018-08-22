@@ -7,4 +7,89 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image:url("../images/bgtile.png");
+  background-repeat: repeat-x ;
+  padding: 8% 9%;
+}
+#img-side{
+  float:left;
+  width:318px;
+  margin-right: 50px;
+}
+header{
+  margin:20px 0;
+}
+#logo{
+  vertical-align: middle;
+}
+header button{
+  color:white;
+  font:inherit;
+  font-weight: 600;
+  vertical-align: middle;
+  padding: 10px 10px 8px;
+  background-image: linear-gradient(#6f92b0,#467398);
+  border-radius: 3px;
+  border-style: none;
+  box-shadow: #06365f 0 1px 0 1px;
+  margin-left:90px;
+
+}
+header button img{
+  vertical-align: middle; 
+  
+}
+main{
+  float:left;
+  width: 430px;
+  background-color: white;
+  padding:30px 40px;
+  border-radius: 5px;
+  box-shadow: white 0px 220px 40px 10px,black 0px 0px 30px -10px ;
+}
+h1{
+  font-size: 24px;
+  width: 57%;
+  color:#06365f;
+  margin:0;
+  padding: 0
+}
+main button{
+  height: 52px;
+  border: none;
+  border-radius: 7px;
+  background-repeat: no-repeat;
+  margin:10px 10px 0 0;
+}
+#app-store{
+  width: 162px;
+  background-image: url("../images/badge-iphone.png")
+}
+#google-play{
+  width: 155px;
+  background-image: url("../images/badge-android.png")
+}
+footer{
+  background-color:white;
+  clear:both;
+  padding: 10px;
+  text-transform: uppercase;
+  color:#06365f;
+  font-size: 12px;
+}
+footer .wrap{
+  margin:15px auto;
+  text-align:center;
+}
+footer ul{
+  display: inline;
+}
+footer ul li{
+  margin-left:10px;
+  display:inline;
+  list-style: none;
+}
+footer span{
+  margin-left: 20px;
+  color:gray;
 }
