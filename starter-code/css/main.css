@@ -8,3 +8,53 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+h2 {
+  color: #06365f;
+}
+.banner {
+  width: 100%;
+  height: 300px;
+  background-color: #1c5380;
+  margin-bottom: -90px;
+}
+#phone {
+  display: inline-block;
+  padding-left: 5%;
+  padding-top: -120px;
+  float: left;
+}
+#instacam {
+  padding-top: 7%;
+  padding-left: 30%;
+}
+#home {
+  display: inline-block;
+  margin-top: -70px;
+  margin-right: 170px;
+  float: right;
+}
+#description-text {
+  margin-top: 10%;
+  margin-left: 10%;
+}
+#description {
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+  width: 70%;
+  float: right;
+}
+button {
+  background-color: #1c5380;
+  color: white;
+}
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: #06365f;
+  text-align: center;
+  font-size: 12px;
+}
