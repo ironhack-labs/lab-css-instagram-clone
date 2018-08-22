@@ -48,19 +48,8 @@ h2{
   
 }
 
-.log-in img {
-  float: left;
-  padding-top: 3px;
-  padding-right: 3px;
-}
-
-.log-in p {
-  position: relative;
-  bottom: 6px;
-  font-size: 13px;
-}
-
 .text {
+  position: relative;
   background: url("../images/frame.png") no-repeat;
   padding: 40px;
   color: #808080;
