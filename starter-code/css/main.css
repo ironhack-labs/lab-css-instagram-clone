@@ -8,3 +8,108 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.upper-half {
+  background-image: url("../images/bgtile.png"); 
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: 0 0;
+  height: 280px;
+}
+
+.logos-box {
+  position: relative;
+  top: 100px;
+  left: 600px;
+}
+
+.login-box {
+  background-color: #1c5380;
+  color: white;
+  font-size: 0.7em;
+  letter-spacing: 1px;
+  width: 80px;
+  padding: 10px;
+  margin: 20px 0 5px 80px;
+  border: 1px solid #06365f;
+  text-decoration: none;
+  position: absolute;
+}
+
+.login-text {
+  display: inline;
+  margin-left: 10px;
+  font-size: 1.1em;
+  font-weight: 500;
+}
+
+.logos-img {
+  vertical-align: middle;
+}
+
+.phones {
+  position: relative;
+  margin: -180px 30px 30px 150px;  
+}
+
+.main-box {
+  background-image: url("../images/frame.png"); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 284px;
+  position: absolute;
+  left: 600px;
+  bottom: 210px;
+  width: 504px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 1.7em;
+  color: #06365f;
+  margin: 30px 190px 10px 30px;
+}
+
+.main-text {
+  font-family: Arial;
+  margin: 0 30px;
+  font-weight: 300;
+}
+
+span {
+  font-weight: 700;
+}
+
+.apple-store-img {
+  margin: 30px 10px 30px 30px;;
+}
+
+.google-store-img {
+  margin: 30px 0;
+}
+
+footer{
+  position: absolute;
+  padding: 0 25%
+}
+
+.footer-links li {
+  list-style-type: none;
+  display: inline;
+  margin: 0 5px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #1c5380;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.7em;
+}
+.copyright-text {
+  color: grey;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.7em;
+  display: inline;
+}
