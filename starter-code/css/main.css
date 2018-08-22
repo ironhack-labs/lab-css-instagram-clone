@@ -7,4 +7,94 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  
+
+}
+
+.cuerpo div{
+  position: relative;
+  background: white;
+  width: 100%;
+  height: 50%;
+}
+.pierna{
+  position: absolute;
+  left:150px;
+  top: 90px;
+  width: 30%;
+  }
+  
+  .texto{
+    
+    position: absolute;
+    right: 400px;
+    padding: 30 150 40 200;
+    width: 30%;
+    bottom:180px;
+    top:140;
+    
+
+    }
+  .iphone{
+    position:absolute;
+    right: 200px;
+    padding: 70 200 40 200;
+    width: 30%;
+    bottom:60px;
+    top:530px;
+  }
+  .android{
+    position: absolute;
+    right: 400px;
+    padding: 70 80 40 200;
+    width: 30%;
+    bottom:15px;
+    top:530px;
+
+  
+  }
+  
+    
+
+  
+  .logo{
+    position: absolute;
+    padding: 20 80 20 200;
+    right:500px;
+    top:130px;
+  }
+  .mando{
+    position: absolute;
+    right: 0px;
+    width: 30%;
+    bottom:50px;
+    top:150px;
+    
+  }
+  ul > li {
+    display: inline-block;
+  
+    
+    
+
+  }
+  h1{
+    color:#06365f;
+  }
+.fondo{
+  background-color:#06365f;
+  position: absolute;
+  top:0;
+  width: 100%;
+  height: 30%;
+}
+.letras{
+  color: blue;
+  position: absolute;
+  right: 400px;
+  padding: 70 80 40 200;
+  width: 30%;
+  bottom:15px;
+  top:600px;
+
 }
