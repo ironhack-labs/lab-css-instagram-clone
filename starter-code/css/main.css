@@ -4,7 +4,118 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+* {
+  margin: 0;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+}
+.afterBlock {
+  margin: 0 15%;
+}
+.degrade { 
+  background-image: linear-gradient(#1c5380, #06365f);
+  height: 30%;
+  width: 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: -100;
+}
+
+.dark-blue-text {
+ color: #06365f;
+}
+
+.right-block {
+  width: 40%;
+}
+
+.text-background {
+  width: 45%;
+  position:absolute
+}
+
+.left-img-float {
+  margin-top: 5%;
+  float: left;
+  max-width: 40%;
+  max-height:100%;
+  width: auto;
+  height: auto;
+}
+.left-text-float {
+  margin-top: 5%;
+  float: left;
+  width: 40%;
+}
+
+.ig-head-align {
+  margin: 0 0 0 15px;
+}
+.ig-logo {
+  margin: 2%;
+  float: left;
+  width:45%;
+}
+.button-format {
+  color: white;
+  background-color:#1c5380;
+  text-align:center;
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  text-decoration: none;
+  margin: 2%;
+  float: right;
+  width:auto;
+  border-style: solid;
+  border-width: 1px;
+  border-color: RGBA(0, 0, 0, 0.3);
+}
+.text-block {
+  position: absolute;
+  max-width: 40%;
+  margin: 3%;
+  padding: 0;
+}
+.float-clear {
+  clear: both;
+}
+
+.text-pad {
+  padding: 10px 10px;
+}
+
+
+
+.dl-positioner {
+  position: absolute;
+  top: 65%;
+  margin: 0 0 0 5%;
+}
+
+.dl-floats {
+  float: left;
+  align-items: center;
+  max-height:100px;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.footer-format{
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  color: #1c5380;
+  text-align: center;
+}
+
+.footer-text {
+  font-size: 8pt;
+  padding: 5% 1%;
+  text-transform: uppercase;
+  text-decoration: none;
 }
