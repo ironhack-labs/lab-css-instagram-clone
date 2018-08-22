@@ -89,7 +89,7 @@ span {
 .list li{
   display: inline-block;
   margin: 0 10px;
-  font-size: 20px;
+  font-size: 15px;
   color: darkblue;
 }
 
@@ -97,7 +97,8 @@ span {
   margin-bottom: 0;
   float: left;
   margin-top: 170px;
-  margin-left: 450px;
+  margin-left: 480px;
+  text-transform: uppercase;
 }
 
 .list .number{
