@@ -6,5 +6,101 @@ light blue: #1c5380
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  margin: 8% 12%;
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+}
+
+.clearfix {
+  clear: both;
+}
+
+h1 {
+  color: #06365f;
+  margin-left: 30px;
+  margin-right: 30px;
+  font-size: 28px;
+}
+
+span {
+  font-weight: bold;
+}
+
+section {
+  position: relative;
+  float: right;
+  padding-top: 30px;
+  margin-left: 380px;
+}
+
+.img-phones {
+  position: absolute;
+}
+
+.header button {
+  background: #1c5380;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 2px 2px 10px 0 #06365f;
+  position: relative;
+  float: right;
+  padding: 1px 15px;
+  margin: 3px 100px;
+  font-size: 16px;
+  color: white;
+}
+
+.header button p {
+  color: white;
+  float: right;
+}
+
+.header button img {
+  float: left;
+  vertical-align: middle;
+  padding-top: 14px;
+  padding-right: 6px;
+
+}
+
+.whiteBox {
+  float: left;
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  background-size: 620px 620px;
+  margin: -5px;
+  margin-top: -15px;
+  padding-right: 15%;
+}
+
+.whiteBox p {
+  padding-left: 30px;
+  font-size: 18px;
+  width: 90%;
+}
+
+
+.downloadButtons {
+  margin: 40px 30px;
+}
+
+.footer {
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 14px;
+  clear: both;
+  padding-top: 45px;
+}
+
+.footer a{
+  text-decoration: none;
+  color: #2a71ac;
+  font-weight: bold;
+  padding-right: 4px;
+  padding-left: 4px;
+}
+
+.footer p {
+  color: grey;
 }
