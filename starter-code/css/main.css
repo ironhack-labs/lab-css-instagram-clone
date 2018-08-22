@@ -47,10 +47,12 @@ body {
   /* lets load the frame (white box) */
   position: relative;
   background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
   background-size: contain;
   text-align: left;
   bottom: 100px;
-  margin-left: 700px;  
+  width: 500px;
+  margin-left: 800px;  
 }
 .instagram-text {
   padding: 40px;
@@ -73,5 +75,8 @@ ol {
 }
 
 li {
+  float: right;
+}
+.info-footer {
   float: right;
 }
