@@ -4,7 +4,73 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  padding: 0;
+  background-color: #06365f
+  text-align: center;
+    width:500px;
+  float: left;
+  margin-left:35px;
+
+ 
+
+
 }
+
+  .back{
+    text-align: center;
+    background-color: #06365f;
+    float: left;
+
+  }
+  #phone{
+   background-image: url(./images/phones.png);
+    position: absolute;
+    margin: 30px;
+    padding: 20px;
+
+  }
+ .main-container{
+   position:absolute;
+   float:left;
+ }
+ .icons-title-box{
+   display: inline-block;
+   position: relative;
+   float: left;
+
+ }
+ .button{
+   color: white
+   display:inline-block;
+   position:relative;
+   float: left;
+   border:1px;
+ }
+ .icons-bottom{
+   position: relative;;
+   float: left;
+   display: inline-block;
+ }
+}
+footer{
+ width:auto;
+ clear:both;
+ float:left;
+ list-style: none
+ padding: 30px;
+}
+ul {
+ list-style: none;
+ margin:0;
+ padding:0;
+}
+li{
+ text-decoration: none;
+ float: left;
+}
+
+
