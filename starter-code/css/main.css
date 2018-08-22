@@ -1,10 +1,103 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
-
+*{
+  margin: 0;
+  padding: 0;
+  
+}
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  
+  background: linear-gradient( #3d658a 70%, white 60%);
+  background-repeat: no-repeat;
+  
+ 
 }
+
+.moviles{
+  position: relative;
+  left: 50px;
+  top:150px;
+  left: 400px;
+  width: 70%;
+}
+
+.contenido{
+  position: absolute;
+  top:280px;
+  left:800px;
+  margin-top: 20px;
+  background: white;
+  width: 450px;
+  height: 350px;
+  color: #06365f;
+  padding: 30px;
+  border-radius: 0.5%;
+ 
+  
+}
+
+button{
+ position: absolute;
+ top:220px;
+ left: 1219px;
+ width: 90px;
+ height: 35px;
+ color: white;
+ border-radius: 3px;
+ border: 1px solid #3a5574;
+ background-color: #6f8aa0;
+ font: bold;
+ font-weight: 600;
+ padding-left: 15px;
+}
+
+.casita{
+  position: relative;
+  width: 20px;
+  top: 220px;
+  left: 1219px;
+  padding-top: 8px;
+  padding-left: 5px;
+  padding-right: 8px;
+}
+
+.contenido img{
+
+  margin-right: 2.5%;
+  margin-top: -10%;
+}
+
+h2{
+  font: bold;
+  font-size: 25px;
+
+}
+.encabezado{
+ position: absolute;
+ left:795px;
+ top: 195px;
+
+
+}
+
+.piePagina ul{
+  list-style: none;
+  position: absolute;
+  left:500px;
+  top: 700px;
+  
+ 
+}
+
+.piePagina li{
+  display: block;
+  float: left;
+  text-align: center;
+  color: #06365f;
+  text-transform: uppercase;
+  font-size: 15px;
+  padding-top: 60px;
+  padding-right: 10px;
+  font:bold;
+  
+}
+
