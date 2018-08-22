@@ -39,6 +39,7 @@ body {
 .login-text {
   display: inline;
   margin-left: 10px;
+  font-size: 1.1em;
   font-weight: 500;
 }
 
@@ -52,7 +53,6 @@ body {
 }
 
 .main-box {
-
   background-image: url("../images/frame.png"); 
   background-repeat: no-repeat;
   background-size: cover;
@@ -65,18 +65,19 @@ body {
 }
 
 h1 {
-  font-size: 1.4em;
+  font-size: 1.7em;
   color: #06365f;
-  margin: 30px 240px 10px 30px;
-}
-
-span {
-  font-weight: bolder;
+  margin: 30px 190px 10px 30px;
 }
 
 .main-text {
+  font-family: Arial;
   margin: 0 30px;
   font-weight: 300;
+}
+
+span {
+  font-weight: 700;
 }
 
 .apple-store-img {
