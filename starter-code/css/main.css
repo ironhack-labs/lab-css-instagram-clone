@@ -8,3 +8,76 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.contenedor{
+  position: relative;
+}
+.arriba{
+  background-color:#1c5380;
+  height: 300px;
+}
+.cuadro{
+  position: absolute;
+  right: 80px;
+  background-image: url(file:///Users/prueba/Ironhack/semana-1/dia2/lab-css-instagram-clone/starter-code/images/frame.png);
+  background-repeat: no-repeat;
+  width: 480px;
+  top: 200px;
+  padding-right: 20px;
+  padding-left: 20px;
+  border-radius: 10px;
+  padding-bottom: 120px;
+}
+
+.cuadro h2{
+  color:#06365f;
+
+}
+
+.fondo{
+  text-align: center;
+  position: absolute;
+  bottom: 40px;
+  left: 400px;
+  font-weight: 500;
+  color:#06365f;
+  text-transform: uppercase;
+  font-size: 10px;
+}
+
+.imagen img{
+  position: absolute;
+  left: 180px;
+  top: 100px;
+}
+.arriba img{
+  position:absolute;
+  right: 340px;
+  top: 100px;
+  width: 20%;
+}
+
+.arriba a{
+  position:absolute;
+  right: 200px;
+  top: 110px;
+  width: 80px;
+  height: 30px;
+  background-color: #1c5380;
+  color: white;
+  font-weight: 400;
+  text-decoration: none;
+  border: solid 1px grey;
+  padding: 8px 5px 5px 15px;
+  border-radius: 5px;
+}
+
+.cuadro img{
+  float: left; 
+  margin-top:50px;
+  padding-right: 20px;
+}
+
+.cuadro p{
+  font-size: 14px;
+}
