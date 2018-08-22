@@ -8,3 +8,80 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+section{
+  position: relative;
+  height: 40vh;
+  background-color:#06365f;
+  background-image: url(../images/bgtile.png);
+}
+section div{
+  position: absolute;
+  float: left;
+}
+.text-box{
+  width: 500px;
+  height: 420px;
+  background-image:url(../images/frame.png); 
+  background-size: contain;
+  background-repeat: no-repeat; 
+  right: 15%;
+  top: 27vh;
+}
+.telefono{
+  left: 15%;
+  top: 13vh;
+}
+.marca{
+  right: 29%;
+  top: 15vh;
+}
+.info{
+  padding-left: 30px;
+  padding-top: 30px;
+}
+.info h2{
+  width: 53%;
+  color: #06365f;
+}
+.info p{
+  width: 90%;
+}
+.marcas{
+  padding-left: 30px;
+}
+.button{
+  right: 16%;
+  top: 18vh;
+}
+.button button{
+  position: relative;
+  background-color: #1c5380;
+  border: 1px solid black;
+  border-radius: 5%;
+  width: 80px;
+  height: 30px;
+
+}
+.button span{
+  position: absolute;
+  color: white;
+  bottom: 5px;
+}
+.button img{
+  position: absolute;
+  left: 0;
+  bottom: 2px;
+}
+.footer{
+  bottom: -58vh;
+  left: 24%;
+  display: inline;
+  padding: 10px;
+}
+.footer span{
+  color: gray;
+  margin: 7px;
+}
+.footer a{
+  margin: 7px;
+}
