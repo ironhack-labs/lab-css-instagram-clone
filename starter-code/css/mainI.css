@@ -1,0 +1,105 @@
+/*
+Colors to use:
+dark blue: #06365f
+light blue: #1c5380
+*/
+body {
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+  background-size: 100vh 40vh;
+  margin: 0px;
+}
+
+main{
+  width: 70%;
+  margin: 0 auto;
+  padding: 0 150px 0 0;
+}
+
+.phones{
+  position: relative;
+  float: left;
+  margin: 20% 0 0 8%;
+  }
+
+.phones img {
+  float: left;
+  width: 100%;
+  height: auto;
+  }
+    
+.logo{
+  margin-left: 60%;
+  margin-top: 10px;
+}
+
+.home-button {
+  background-color: #5b95c5;
+  padding: 10px;
+  text-align: center; 
+  box-shadow: 2px 2px 2px grey;
+  float: right;
+  margin: -8% -15% 15px 0;
+}
+
+.home-button a{
+  text-decoration: none;
+  color: white;
+  margin-left: 12px;
+}
+
+.home-button img{
+  float: left;
+}
+
+.text-box{
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  margin: 10% 0 0 40%;
+  padding: 30px;
+  font-size: 1.1em;
+}
+
+.text-box-info{
+  margin: 7% 0 0 6%;
+}
+
+
+.text-box p{
+  margin-left: 6%;  
+}
+
+.text-box button{
+  margin-left: 6%; 
+}
+
+.text-box .bottom-pic {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.text .bottom-pic img {
+  margin: 0 15px;
+}
+
+h2 {
+  color: #06365f;
+}
+ a {
+  color: #1c5380;
+  text-decoration: none;
+}
+
+.footer{
+  margin: 50% 0 0 0 ;
+  text-align: center;
+  color:  #06365f;
+}
+
+.grey-letter {
+  color: grey;
+} 
+
