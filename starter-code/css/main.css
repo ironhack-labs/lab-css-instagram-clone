@@ -8,3 +8,115 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+.header {
+background-image: url("../images/bgtile.png");
+height: 350px;
+background-repeat: no-repeat;
+background-size: 100%;
+
+}
+.brand {
+  position: relative;
+  left: 40%;
+  top: 180px;
+  
+  height: 60px;
+}
+.phones {
+  position: absolute;
+  left: 10%;
+  top: 130px;
+}
+.login {
+ 
+  height: 35px;
+  width: 70px;
+  position: relative;
+  left: 70%;
+  top: 130px;
+
+box-shadow: 0 0 10px #06365f;
+
+  
+}
+.home {
+  
+  
+  height: 20px;
+  
+  margin: 8px 3px 3px 3px;
+
+  
+}
+.login p {
+  position: relative;
+  left: 32px;
+  top: -25px;
+  
+  width: 35px;
+  margin: 0;
+  height: 20px;
+  font-size: 11px;
+  color: white;
+  
+}
+.text-images {
+  position: relative;
+  left: 40%;
+  
+  width: 45%;
+}
+h1 {
+  width: 19%;
+  position: relative;
+  left: 43%;
+  top: -140px;
+  font-size: 25px;
+  color: #06365f;
+}
+.text {
+ 
+  font-size: 15px;
+  width: 30%;
+  position: relative;
+  left: 43%;
+  top: -140px;
+  
+}
+.frame {
+  position: absolute;
+  width: 80%;
+  top: -100px;
+}
+.android {
+  position: relative;
+  left: 37%;
+  top: 240px;
+
+}
+.iphone {
+  position: relative;
+  left: -20%;
+  top: 240px;
+  
+}
+.footer {
+  margin-left: 250px;
+  
+  position: relative;
+  bottom: 10px;
+}
+.footer ul {
+  color: #1c5380;
+  font-size: 14px;
+  
+}
+.footer ul li{
+  list-style-type: none;
+  float: left;
+  margin: 0 8px 0 8px;
+  font-weight: bold;
+}
+.date {
+  color: gray;
+}
