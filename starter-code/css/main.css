@@ -8,3 +8,141 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.background {
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+}
+
+li {
+  display: inline;
+}
+
+.info-box {
+  margin-top: 0px;
+  width: 504px;
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+
+
+}
+.info-box-content {
+  width: 90%;
+  overflow: hidden;
+  display: inline-block;
+  margin: 25px;
+  
+}
+
+.img-store {
+  float: right;
+  width: 100%;
+
+}
+.img-store div{ 
+  float:left;
+}
+.brand {
+  float: left;
+  margin: 0 0 0px 4px;
+}
+.login-button {
+  float: right;
+  padding: 25px 20px;
+}
+
+
+.phones-container {
+  float: left;
+  margin: 0 0 0 370px;
+  
+}
+
+.store-box {
+  margin: 0 0 0 10px;
+}
+
+.main-container {
+  float: left;
+  margin: 0 0 0 50px;
+}
+
+.header {
+  width: 504px;
+  display:inline-block;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.footer {
+  position: absolute;
+  width: 100%;
+  top: 700px;
+  left: 26%;
+}
+
+.home-icon {
+  margin: 0 4px 0 0;
+  vertical-align: bottom;
+}
+
+.page-content {
+  position: absolute;
+  top: 125px;
+}
+
+h1 {
+  color: #0E3559;
+}
+ul {
+  color: #4F799C;
+  font-weight: bold;
+}
+ul li + li {
+  margin-left: 1%;
+}
+
+.instagram-copy {
+  color: #BBBCBD;
+}
+
+
+span {
+  margin: 0 0 0 7px;
+}
+
+.button {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #7892c2), color-stop(1, #476e9e));
+	background:-moz-linear-gradient(top, #7892c2 5%, #476e9e 100%);
+	background:-webkit-linear-gradient(top, #7892c2 5%, #476e9e 100%);
+	background:-o-linear-gradient(top, #7892c2 5%, #476e9e 100%);
+	background:-ms-linear-gradient(top, #7892c2 5%, #476e9e 100%);
+	background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#7892c2', endColorstr='#476e9e',GradientType=0);
+	background-color:#7892c2;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	padding:5px 15px;
+	text-decoration:none;
+}
+.button:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #476e9e), color-stop(1, #7892c2));
+	background:-moz-linear-gradient(top, #476e9e 5%, #7892c2 100%);
+	background:-webkit-linear-gradient(top, #476e9e 5%, #7892c2 100%);
+	background:-o-linear-gradient(top, #476e9e 5%, #7892c2 100%);
+	background:-ms-linear-gradient(top, #476e9e 5%, #7892c2 100%);
+	background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#476e9e', endColorstr='#7892c2',GradientType=0);
+	background-color:#476e9e;
+}
+.button:active {
+	position:relative;
+	top:1px;
+}
