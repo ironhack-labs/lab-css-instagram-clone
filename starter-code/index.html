@@ -2,30 +2,51 @@
 <html lang="en">
 <head>
   <title>Instagram</title>
+  <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-  Instagram
-
-  Capture and Share the World's Moments
-
-  Instagram is a fast, beautiful and fun way to share your life with friends and family.
-
-  Take a picture or video, choose a filter to transform its look and feel, then post to Instagram &mdash; it's that easy. You can even share to Facebook, Twitter, Tumblr and more. It's a new way to see the world.
-
-  Oh yeah, did we mention it's free?
-
-  Download on the App Store
-  Get it on Google Play
-
-  About Us
-  Support
-  Blog
-  Press
-  API
-  Jobs
-  Privacy
-  Terms
-
-  &copy; 2014 Instagram
+  <!-- As Giorgio told me, i joined both iphone-images and description frames-->
+  <div class="instagram-webpage-content">
+  <!--Instagram logo and login button-->
+    <div class="iphones-image">
+      <img src="./images/phones.png" alt="iphones-image"/>
+    </div>
+    <div class="instagram-logo">
+      <img class="instagram-image" src="./images/brand.png" alt="instagram-image"/>
+      <button class="login-button"><img src="./images/home.png" class="login-image"><strong>Log in</strong></button>
+    </div>
+    <!--Instagram description, slogan, etc..(mostly formatted text)-->
+    <div class="instagram-description">
+      <div class="instagram-text">
+        <h2 class="instagram-slogan">Capture and Share the World's Moments </h2>
+        <div class="container">
+          <p>Instagram is a <strong>fast</strong>, <strong>beautiful</strong> and <strong>fun</strong> way to share your life with friends and family.</p>
+          <p>Take a picture or video, choose a filter to transform its look and feel, then post to Instagram &mdash; it's that easy. You can even share to Facebook, Twitter, Tumblr and more. It's a new way to see the world.</p>
+          <p>Oh yeah, did we mention it's free?</p>
+        </div>
+      </div>
+      <!--Are we on iOS or Android?-->
+      <div class="user-platform">
+        <div class="google"> <img class="android-image" src="./images/badge-android.png" alt="android-image"/></div>
+        <div class="ios"> <img class="ios-image" src="./images/badge-iphone.png" alt="ios-image"/></div>
+      </div>
+    </div>
+    </div>
+  <!--Footer (Links and copytight (i couldnt get it to work)-->
+  <div class="info-footer">
+    <footer>
+      <ol class="info-links">
+        <li class="about-us">About Us</li>
+        <li class="support">Support</li>
+        <li class="blog">Blog</li>
+        <li class="press">Press</li>
+        <li class="api">API</li>
+        <li class="jobs">Jobs</li>
+        <li class="privacy">Privacy</li>
+        <li class="terms">Terms</li>
+      </ol>
+      <span>&copy; 2014 Instagram</span>
+    </footer>
+  </div>
 </body>
 </html>
