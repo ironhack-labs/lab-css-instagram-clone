@@ -7,4 +7,107 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  
+}
+
+.color-azul {
+  background-color: #06365f;
+  height: 400px;
+}
+
+.contenido {
+  background-image: linear-gradient(#06365f,#1c5380);
+  position: relative;
+  height: 260px;
+  padding: 50px;
+}
+
+
+.brand-imagen {
+  padding-left: 40px;
+  margin: 10px;
+  display: inline-block;
+}
+
+.botonhome {
+  background-color: #1c5380;
+  color:#fff;
+  padding:10px 10px;
+  border-radius:5px;
+  font-size:1em;
+  float: right;
+  margin-right: 230px;
+  margin-top: -80px;
+  border: none;
+}
+
+.imgmac {
+margin-left: 40px;
+margin-right: 10px;
+margin-top: 10px;
+}
+
+.imgandr {
+  margin-left: 20px;
+}
+
+.contenido-1 {
+  position: absolute;
+  padding-top: 50px;
+}
+
+.phone-imagen {
+  float: left;
+  margin: 40px;
+  padding-left: 150px;
+}
+
+.contenido-de-la-caja {
+  background-color: white;
+  height: 300px;
+  margin-left: 590px;
+  margin-right: 200px;
+  padding: 20px;
+  border-top:2px solid grey;
+  border-right:2px solid grey;
+  border-left:2px solid grey;
+  border-radius: 3%;
+}
+
+h2 {
+  color: #1c5380;
+}
+
+nav {
+  padding-bottom: 10px;
+  padding-top: 350px;
+  padding-left: 10px;
+  height: 25px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: #06365f;
+}
+
+.bot-links {
+  padding: 0;
+  margin: 0 20px 0 0;
+  text-align: center;
+}
+
+.bot-links li {
+  display: inline-block;
+  margin: 0 10px 10px;
+}
+
+.copyin {
+  font-weight: 10;
+  opacity: .6;
+}
+
+.loginin {
+  display: inline-block;
 }
