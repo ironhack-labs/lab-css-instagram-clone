@@ -1,10 +1,87 @@
 /*
 Colors to use:
 dark blue: #06365f
-light blue: #1c5380
+light blue: 
 */
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.boton{
+  position: relative;
+  background-color: #06365f;
+  color:white;
+  top:-60%;
+  height: 35px;
+  margin-left: 20px;
+}
+
+.insta{
+  position: absolute;
+  top: 15%;
+  right: 13%;
+  height: 35px;
+}
+
+.imagen-telefonos{
+  position: absolute;
+  left:22%;
+  top: 15%;
+  width:100%;
+  height:100%;
+}
+
+.section2{
+  position:relative;
+  background-color:white;
+}
+
+.contenido{
+  position: absolute;
+  background-image: url("../images/frame.png");
+  top:30%;
+  padding: 20px 30px;
+  right:10%;
+  width: 430px;
+  height: 180px;
+}
+
+.contenido h2{
+  color:#06365f;
+}
+
+.contenido img{
+  max-width:100%;
+  margin:5%;
+}
+
+.seccion1{
+  background-color: #1c5380;
+  height: 40Vh;
+  position:relative;
+}
+
+.links{
+  position: absolute;
+  color:#1c5380;
+  bottom:2%;
+  right: 30%;
+  left:30%;
+  text-transform: uppercase;
+  font-size: 12px;
+  margin:20px;
+  font-weight: bold;
+}
+
+.links a{
+  text-decoration: none;
+}
+
+.copyright{
+  color:gray;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
