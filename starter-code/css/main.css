@@ -8,3 +8,88 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+/*---PARTE 1---*/
+.part1{
+  position: relative;
+  background: #06365f;
+  height: 350px;
+}
+
+.part1 img{
+  position:absolute;
+  bottom: 90px;
+  right: 585px;
+}
+
+.part1 a{
+  position: absolute;
+  bottom: 105px;
+  right: 410px;
+  width: 100px;
+  height: 30px;
+  background-color: rgb(56, 104, 177);
+  border-radius:4%;
+  text-decoration: none;
+  color: #A2A2A2;
+  font-weight: 800;
+  text-align: center;
+  padding: 15px 15px 10px 15px;
+
+}
+
+
+/*---PARTE 2---*/
+.part2 .phones {
+  position: absolute;
+  top: 170px;
+  left: 400px;
+}
+
+.part2 .frame{
+  width: 504px;
+  height: 284px; 
+  padding-left: 40px; 
+  padding-right: 10px;  
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 280px;
+  right: 400px;
+  box-sizing: border-box;
+}
+
+.part2 .apple{
+  position: absolute;
+  bottom: 220px;
+  right: 710px;
+}
+
+.part2 .android{
+  position: absolute;
+  bottom: 220px;
+  right: 530px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.part2 .footer{
+  position: absolute;
+  bottom: 60px;
+  left: 30%;
+  padding-right: 10px;
+}
+
+.part2 .footer a{
+  text-decoration: none;
+  color: #06365f;
+  font-weight: 600;
+  margin-right: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.part2 .footer span{
+  color: rgb(177, 177, 177);
+  font-weight: 550;
+}
