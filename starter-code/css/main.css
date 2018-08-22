@@ -5,6 +5,83 @@ light blue: #1c5380
 */
 
 body {
+  
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+ }
+
+.contenedor{
+  position: relative;
+}
+.blue{
+  height: 300px;
+  background: linear-gradient(#1c5380,#06365f);
+}
+.telefonos{
+  position: absolute;
+  right: 800px;
+  top:100px;
+}
+.box{
+  background-image: url(../images/frame.png);
+  background-size: cover;
+   position: absolute;
+  width: 500px;
+  height: 400px;
+  top:250px;
+  right: 100px; 
+  padding: 25px;  
+  /*border:solid black;*/
+  max-width: 100%;
+  background-repeat: no-repeat;
+  /*border: 1px solid black;*/
+
+}
+.instagram{
+  position: absolute;
+  top: 140px;
+  right: 330px;
+}
+
+.contenedor button{
+
+ width: 110px;
+ height: 50px;
+  background: linear-gradient(#1c5380,#06365f);
+  position: absolute;
+  top:150px;
+  right: 100px;
+  color:white;
+  border:solid #06365f ;
+  padding: 2px;
+  border-radius: 15%;
+
+}
+.iphone{
+  position: absolute;
+}
+.android{
+  position: absolute;
+  right: 70px;
+}
+.abajo{
+  position: absolute;
+  width: 100vw;
+  text-align: center;
+  top: 700px;
+  text-decoration: none;
+}
+
+.abajo a{
+  text-decoration-line: none;
+  color:#1c5380;
+  margin: 10px; 
+  
+}
+.login{
+  vertical-align: center;
+}
+.abajo span{
+  margin: 10px;
+  color: gray;
 }
