@@ -8,3 +8,82 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+h1 {
+  color:#1c5380
+}
+
+.titulo{
+ 
+  position: relative;
+  width: 488px;
+  height: 100px;
+  left:1020px;
+  top: -700px;
+background-color:#06365f;
+}
+
+.contenedor{
+
+  position: relative;
+  display: inline-block;
+  width: 400px;
+  height: 500px;
+  left:700px;
+  top: -200px;
+}
+
+.texto-encima{
+  
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.centrado{
+  border: solid black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.boton{
+  position: relative;
+  display: aline-block;
+  top:-85px;
+  right: -410px;
+  color: blue;
+}
+
+.ios{
+  position: relative;
+  float:left;
+}
+.android{
+  position: relative;
+  float:right;
+}
+
+
+.izquierda{
+  
+  position: relative;
+  float:left;
+  top:-200px;
+  left:400px;
+}
+.azul{
+  border: solid black;
+  position: absolut;
+  background-color:#06365f;
+  width: 1900px;
+  height: 300px;
+
+}
+.blanco{
+  border: solid black;
+  position:absolute;
+  background-color: white;
+  width: 1910px;
+  height: 500;
+}
