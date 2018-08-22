@@ -7,4 +7,134 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
 }
+
+.principal {
+  
+  position: relative;
+  width: 60%;
+  margin: 0 auto;
+  top: 100px;
+
+}
+
+.bigPhone {
+  box-sizing: border-box;
+  display: inline-block;
+  float: left;
+  width: 45%;
+  padding-left: 120px
+
+}
+.rigth-part {
+  
+  display: inline-block;
+  float: left;
+  width: 500px;
+  height: 520px;
+
+}
+.titleLog {
+  
+  position: relative;
+  height: 100px;
+  
+}
+
+.titleLog img {
+  
+  box-sizing: border-box;
+  position: relative;
+  top: 10px;
+ 
+  
+}
+.titleLog .button-log {
+  border: 1px solid #06365f;
+  position: absolute;
+  display: inline-block;
+  background-image: linear-gradient(#517999, #175d9b);
+  top: 30px;
+  left: 368px;
+  width: 130px;
+  border-radius: 1px;
+
+}
+.button-log img {
+  display: inline-block;
+  position: absolute;
+  left: 20px;
+}
+.button-log p {
+  display: inline-block;
+  padding-left: 35px;
+  color: white;
+  font-weight: bold
+}
+
+.rigth-txt {
+  
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  width: 500px;
+  box-sizing: border-box;
+  padding: 30px 30px 0px 30px;
+
+
+}
+
+.rigth-txt h2{
+  color: #06365f;
+  width: 58%;
+  margin-top: 0;
+}
+.rigth-txt p {
+  font-size: 0.9em;
+  width: 88%;
+}
+.rigth-txt img{
+  padding-right: 20px; 
+  padding-top: 38px;
+
+}
+
+
+.footer {
+  clear: both;
+  color: #1c5380;
+  position: relative;
+  top: 100px;
+  padding: 0 200px;
+
+}
+
+.footer p {
+  
+  display: inline-block;
+  color: rgb(141, 140, 140);
+  font-size: 0.7em;
+  position: relative;
+  left: 40%;
+  margin-left: 6px;
+  font-weight: bold
+  
+}
+
+.footer .bottom-links {
+  display: inline-block;
+  font-size: 0.8em;
+  position: relative;
+  left: 40%;
+  margin-left: -210px;
+  margin-bottom: 50px
+}
+
+.bottom-links li {
+  display: inline-block;
+  padding: 0 6px;
+  font-weight: bold
+}
+
+.clearfix {clear: both;}
