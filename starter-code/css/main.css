@@ -4,7 +4,95 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
-body {
+body{
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url("../images/bgtile.png");
+  background-repeat: no-repeat;
+  background-size: 100% 350px;
+}
+
+h2{
+  color: hsl(240, 100%, 50%);
+}
+
+.container {
+  width: 890px;
+  margin: 100px auto 0;
+}
+
+.pic-text{
+  background-repeat: no-repeat;
+}
+
+.phone-pic {
+  float: left;
+  width: calc(33% - 980px);
+}
+
+.insta-logo {
+  float: right;
+  width: 500px;
+}
+
+.butt {
+  color:#ffffff;
+  background: hsl(207, 35%, 44%);
+  border: 1px solid hsl(207, 64%, 31%);
+  border-radius: 2px;
+  float: right;
+  margin-top: 20px;
+  padding: 5px 8px;
+  width: 90px;
+  height: 40px;
+  
+}
+
+.log-in img {
+  float: left;
+  padding-top: 3px;
+  padding-right: 3px;
+}
+
+.log-in p {
+  position: relative;
+  bottom: 6px;
+  font-size: 13px;
+}
+
+.text {
+  background: url("../images/frame.png") no-repeat;
+  padding: 40px;
+  color: #808080;
+  position: relative;
+  background-size: contain;
+}
+.text h1 {
+  color: hsl(208, 88%, 20%);
+  line-height: 1.2;
+  margin-top: 0;
+}
+
+.text img {
+	padding-right: 20px;
+}
+
+footer ul {
+  list-style-type: none;
+  text-align: center;
+  clear: both;
+}
+
+footer ul li{
+  display: inline-block;
+  color: #b8b8b8;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: bold;
+  margin: 0 8px;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: hsl(208, 28%, 59%);
 }
