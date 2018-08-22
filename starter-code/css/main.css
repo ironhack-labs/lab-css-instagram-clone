@@ -7,4 +7,88 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+
+}
+
+.background {
+  background-color: #1c5380;
+  height: 300px;
+  width: 100%;
+  background-image: linear-gradient(#06365f,#1c5380);
+
+}
+
+.footer {
+  width: 100%;
+  margin-bottom: 25px;
+  padding: 10px;
+  text-align: center;
+}
+
+.link {
+  text-align: center;
+  clear: both;
+}
+
+.link a{
+  text-decoration:none;
+  color:#06365f
+
+}
+.phone{
+  float: left;
+  margin-left: 200px;
+  margin-top: -200px;
+}
+
+.boxx {
+  position: relative;
+  float: left;
+  width: 40%;
+  margin-top: -100px;
+  margin-left: 60px;
+
+}
+
+.content {
+  float: left;
+  padding: 30px;
+  width: 40%;
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: 60px;
+  margin-top: -100px;
+
+}
+
+h1 {
+  color: #06365f; 
+}
+
+p {
+  font-size: 20px;
+}
+.brand{
+  position: absolute;
+  margin-top: -80px;
+  margin-left: 0px;
+  
+}
+button {
+  position: absolute;
+  background-color: #1c5380;
+  border-color:#06365f;
+  color: white;
+  padding: 10px 30px;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 5%;
+  right:-50px;
+  bottom:20px;
+  background-image: linear-gradient(-90deg, #06365f,#1c5380);
+
+}
+.boxx span{
+  margin: 10px;
 }
