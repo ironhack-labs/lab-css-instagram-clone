@@ -1,10 +1,205 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  background: rgba(81,126,163,1);
+  background: linear-gradient(to bottom, rgba(81,126,163,1) 0%, rgba(50,96,136,1) 42%, rgba(255,255,255,1) 42%, rgba(255,255,255,1) 100%);
+  background-repeat: no-repeat;
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+ul, ol {
+  list-style-type: none;
+}
+
+ul li {
+  display: inline;
+  margin-right: 1em;
+}
+
+ul li:last-child {
+  margin-right: 0;
+}
+
+ul li a {
+  color: #1c5380;
+  font-size: .8em;
+  font-weight: 500;
+  text-decoration: none;
+  text-transform: uppercase;
+  opacity: 1;
+  transition: all .25s ease-out;
+}
+
+ul li a.copyright {
+  color: #adadae;
+}
+
+ul li a:hover {
+  opacity: .5;
+  transition: all .25s ease-in;
+}
+
+h1 {
+  color: #06365f;
+  font-size: 1.8em;
+  font-weight: 900;
+}
+
+section.unique-section {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 60%;
+  height: 70%;
+  margin: auto;
+}
+
+section.unique-section .section_column.section_column_left {
+  float: left;
+}
+
+section.unique-section .section_column.section_column_right {
+  width: 60%;
+  float: right;
+}
+
+section.unique-section .section_column.section_column_right .section_header {
+  position: relative;
+  height: 7em;
+}
+
+section.unique-section .section_column.section_column_right .section_header button {
+  position: absolute;
+  top: 1.5em;
+  right: 0;
+  padding: .7em .9em;
+  border: .1em solid #235883;
+  border-radius: .3em;
+  outline: none;
+  background-image: linear-gradient(to bottom, #6993b3 0%,#41739b 100%);
+  z-index: 1;
+}
+
+section.unique-section .section_column.section_column_right .section_header button:hover {
+  cursor: pointer;
+}
+
+section.unique-section .section_column.section_column_right .section_header button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(to bottom, #41739b 0%, #6993b3 100%);
+  opacity: 0;
+  transition: opacity 0.25s ease-in;
+  z-index: -1;
+}
+
+section.unique-section .section_column.section_column_right .section_header button:hover::before {
+  opacity: 1;
+  transition: opacity 0.25s ease-out;
+}
+
+section.unique-section .section_column.section_column_right .section_header button .login_butt {
+  display: inline-block;
+  color: #d8e3eb;
+  font-size: 1.5em;
+  font-weight: 900;
+  vertical-align: middle;
+}
+
+section.unique-section .section_column.section_column_right .section_header button .login_butt::before {
+  display: inline-block;
+  content: url('../images/home.png');
+  margin-right: .5em;
+  vertical-align: middle;
+}
+
+section.unique-section .section_column.section_column_right .main_text {
+  position: relative;
+  padding: 2em 3em 1em;
+  border-radius: .5em;
+  background-color: white;
+  font-size: 1.15em;
+  font-weight: 400;
+}
+
+section.unique-section .section_column.section_column_right .main_text::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 30%;
+  left: 0;
+  border-radius: .5em;
+  box-shadow: 0px -1px 19px 0px rgba(50, 50, 50, 0.4);
+  z-index: -1;
+}
+
+section.unique-section .section_column.section_column_right .main_text .main_title {
+  margin-bottom: .5em;
+  line-height: 1.2em;
+}
+
+section.unique-section .section_column.section_column_right .download_img {
+  padding: 0 3em;
+}
+
+section.unique-section .section_column.section_column_right .download_img a {
+  opacity: 1;
+  transition: opacity 0.25s ease-in;
+}
+
+section.unique-section .section_column.section_column_right .download_img a:hover {
+  opacity: .7;
+  transition: opacity 0.25s ease-out;
+}
+
+section.unique-section .section_column.section_column_right .download_img .d_img_iphone {
+  margin-right: 1em;
+}
+
+footer {
+  position: absolute;
+  bottom: 4em;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
+
+/*--------- RESPONSIVE ADJUSTMENTS FOR THE WIDTH OF THE MAIN CONTAINER & THE FOOTER --------*/
+
+@media (max-width: 1500px) {
+  section.unique-section {
+    width: 70%;
+  }
+}
+
+@media (max-width: 1300px) {
+  section.unique-section {
+    width: 80%;
+  }
+  footer {
+    left: 43%;
+    transform: translateX(-43%);
+  }
 }
