@@ -4,7 +4,145 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+*{
+	margin:0;
+	padding:0;
+	text-decoration:none;
+	list-style:none;
+  }
+  
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  height:732px;
 }
+/* HEADER STYLES  */
+header{
+	position:relative;
+	margin:auto;
+	width:1090px;
+	height:277px;
+	background:#06365f;
+  }
+  
+  .logo{
+    position:absolute;
+    top: 107px;
+    left: 474px;
+    }
+
+  .logIn ul{
+    position:relative;
+    top:0;
+    left:0;
+    width:100px;
+    height:42px;
+    top: 124px;
+    left: 867px;
+    background:rgba(0,255,0,.5);
+    list-style-image: url('./images/home.png');
+    }
+    
+  .logIn ul li{
+    float:left;
+    width:100px;
+    line-height:42px;
+    text-align:center;
+    font-size:14px;
+    color:white;
+    background:rgba(0,0,255,.5);
+    border:1px solid white;
+
+    }
+  
+/* SECTION  STYLES  */
+  section {
+  position:relative;
+	margin:auto;
+	width:1090px;
+	height: 350px;
+  }
+  
+  .phones {
+    position:absolute;
+    margin-top: -188px;
+    top: 0px;
+    left: 111px;
+  }
+
+  .contentAll {
+    position: absolute;
+    margin-top: -65px;
+    top: 0px;
+    left: 481px;
+    width: 499px;
+    height: 285px;
+    background-image: url("../images/frame.png")
+  }
+
+  .contentHeader {
+    position:relative;
+    top: 23px;
+    left: 37px;
+    width: 264px;
+    height: 59px;
+  }
+
+  .contentText {
+    position:relative;
+    top: 50px;
+    left: 34px;
+    width: 412px;
+    height: 188px;
+  }
+
+  .appStore {
+    position:relative;
+    top: 85px;
+    left: 34px;
+
+  }
+
+  .androidStore {
+    position:relative;
+    top: 28px;
+    left: 217px;
+
+  }
+
+/* FOOTER  STYLES  */
+  footer {
+  position:relative;
+	margin:auto;
+	width:1090px;
+	height: 105px;
+  }
+  
+ 
+  footer ul {
+    position:absolute;
+    top: 31px;
+    left: 267px;
+    width:441px;
+    height:21px;
+    }
+    
+  footer ul li {
+    float:left;
+    width:55px;
+    line-height:21px;
+    text-align:center;
+    font-size:13px;
+    color:#06365f;
+    font-style: bold;
+  }
+
+  .copyRight {
+  position:relative;
+  top: 31px;
+  left: 713px;
+	width:100px;
+  height: 21px;
+  font-size:13px;
+  }
+
