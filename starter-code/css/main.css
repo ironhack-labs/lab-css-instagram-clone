@@ -3,8 +3,86 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
+h2 {
+  color: #06365f
+}
+h4{
+  color: white
+}
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: linear-gradient(to bottom, rgb(75, 120, 159) 0%, rgb(75, 120, 159) 40%, white 0%, white 60%);
+  background-attachment:fixed;
+  background-repeat: no-repeat;
+    
 }
+.phonePadding{
+  margin-left: 25%
+}
+.imagesleft{
+  float: left;
+  }
+
+.box {
+  padding-top: 10%;
+  margin: 0, auto
+}
+.clearfix{
+  clear: both;
+}
+.brandtext{
+  width: 45%;
+  padding-left: 50px;
+ float:left;
+ padding-top: 2%
+}
+.boxtext{
+background-image: url(../images/frame.png);
+background-repeat: no-repeat;
+  float: left;
+  width: 45%;
+  margin-left: 50px;
+  padding-left: 50px;
+
+}
+
+
+.button {     
+  background-color: rgb(99, 141, 175); 
+  border-color: rgb(50, 98, 136);
+  width: 100px;     
+  height: 35px;
+  float: left;
+  margin-top: 22px;
+  margin-left: 80px;
+  border-radius: 5px;
+}
+.marginText{
+  margin-left: 10px;
+  margin-top: 7px
+} 
+.marginHome{
+
+  margin-top: 4px
+} 
+.footerStyle{
+ 
+  text-align: center;
+  padding-top: 60px
+  }
+
+  .styleTrademark{
+   color: rgb(197, 197, 197);
+   margin-left: 10px;
+   font-size: 14px
+  }
+
+  .styleLink{
+margin-left: 8px;
+margin-right:8px;
+text-decoration: none;
+color: rgb(75, 120, 159);
+font-size: 14px
+
+  }
