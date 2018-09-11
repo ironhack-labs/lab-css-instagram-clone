@@ -7,4 +7,84 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
 }
+.main{
+  width: 870px;
+  position: relative;
+  margin: 100px auto 0;
+}
+.section{
+  width: 500px;
+  float: right;
+  position: relative;
+  right: 0;
+}
+
+h2{
+  color: #06365f;
+  font-weight: bold;
+}
+.login-menu{
+  width: 500px;
+  float:right;
+  box-sizing: border-box;
+  padding: 5px;
+}
+.brand{
+  vertical-align: middle;
+}
+button{
+  
+  float:right;
+  background: #1c5380;
+  font-weight: bold;
+  color: white;
+  border: 1px solid #06365f;
+  transform: translate(0,15px);
+}
+.home-icon{
+  vertical-align: middle;
+}
+.home-button{
+  display: inline-block;
+}
+.phones{
+ position: relative;
+ left: 0px;
+}
+.card{
+  float: right;
+  width: 500px;
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  padding: 30px 40px;
+  box-sizing: border-box;
+}
+.app-links{
+  margin: 7px;
+}
+footer{
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 10px;
+  width: 50%;
+  margin: auto;
+  clear: both;
+}
+.footer-menu{
+  display: inline-block;    
+}
+.footer-menu-item{
+  display: inline-block;
+  text-decoration: none;
+  color: #1c5380;
+  margin: 5px;
+}
+.copyright{
+  display: inline-block;
+  color: grey;
+  margin-left: 20px;
+}
+  
