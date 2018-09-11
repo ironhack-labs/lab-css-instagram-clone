@@ -1,10 +1,115 @@
 /*
 Colors to use:
-dark blue: #06365f
-light blue: #1c5380
+dark blue: #06365f = rgb(6, 54, 95)
+light blue: #1c5380 = rbg(28, 83, 128)
 */
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  margin: 0 auto;
+  background: linear-gradient(to bottom, rgba(28, 83, 128, 0.8), rgba(6, 54, 95, 0.8) 32%, white 0%);
+  height:100vh;
+  padding: 100px 18% 0 18%;
 }
+
+.main-container {
+  margin-bottom: 50px; 
+  width: 100%;
+}
+.main-phones {
+  position: relative; 
+  width: 25%;
+  height: auto;
+  float: left;
+  padding-left: 0;
+}
+
+.main-right {
+  position: relative;
+  float: right;
+  width: 60%;
+  padding-left: 15%; 
+  padding-top: 20px; 
+}
+
+.main-right .main-right-header {
+  padding-bottom: 40px; 
+}
+
+.instagram-img {
+  float: left;
+}
+
+.main-right .main-right-button {
+  background: linear-gradient(to top, rgba(28, 83, 128, 0.8),  rgba(234, 237, 240, 0.3));
+  border: 2px solid rgba(28, 83, 128, 0.8);
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  border-radius: 4px;
+  margin-left: 40px;
+  margin-top: 12px; 
+  line-height: 1.5;
+}
+
+.home-icon {
+  vertical-align: 0%;
+  padding-right: 10px; 
+  float: left; 
+}
+
+h1 {
+  color: #06365f;
+}
+
+#frame .main-right-frame {
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  float: left; 
+  width: 100%; 
+  padding-left: 50px;
+  padding-top: 15px;  
+}
+
+#frame .capture-and-share {
+  padding-bottom: 25px; 
+}
+
+.footer {
+  clear: both;
+  font-size: 11px;
+  padding-top: 50px; 
+  width: 100%;
+}
+
+#footer-nav .ol-nav-bar {
+  text-align: center; 
+  margin: 0 auto; 
+  padding-left: 120px;
+  padding-right: 120px;  
+}
+
+.nav-bar-li {
+  float: left;
+  text-transform: uppercase;
+  text-align: center; 
+  list-style-type: none;
+  padding: 0 10px;
+  font-weight: bold; 
+}
+
+aside {
+  float: left;
+  padding: 0 10px; 
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: bold; 
+}
+
+.footer-link {
+  text-decoration: none;
+  color: rgba(28, 83, 128, 0.8);
+}
+
+
