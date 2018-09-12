@@ -6,5 +6,70 @@ light blue: #1c5380
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  margin: 100px 20%;
+  background: linear-gradient(to top, white 50%, #06365f 50%) no-repeat;
+}
+
+.sectionLeft {
+  float: left;
+  margin-right: 50px;
+}
+
+.sectionLeft {
+  clear: both;
+}
+
+.appleApp {
+  margin-right: 15px;
+}
+
+.middleImg {
+  vertical-align: middle;
+}
+
+button {
+  background-color: #6c8dac;
+  color: white;
+  font-weight: bold;
+  border: 0;
+  border-radius: 5px;
+  vertical-align: middle;
+  margin-left: 30px;
+  padding: 10px;
+}
+
+h1 {
+  padding-top: 16px;
+  color: #06365f;
+}
+
+.menuInf {
+  clear: both;
+  text-align: center;
+  color: gray;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-top: 40px;
+}
+
+.menuInf a {
+  clear: both;
+  text-align: center;
+  color: #06365f;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin: 5px;
+}
+
+.contenido {
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 500px 400px;
+  padding: 20px;
+}
+
+.contenido p {
+  padding: 5px;
 }
