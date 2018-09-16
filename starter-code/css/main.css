@@ -4,7 +4,111 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
-body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+/* AFECTA A TODO*/
+* {
   margin: 0;
+  font-family: sans-serif;
+}
+
+/* FONDO DEGRADADO*/
+.back-body {
+  width: 100%;
+  height: 650px;
+  background-image: linear-gradient(#06365f, #1c5380);
+  display: block;
+  position: relative;
+}
+/* PRINCIPALES TEXTO E IMAGENES*/
+
+section {
+  width: 70%;
+  margin-left: 20%;
+  height: 60%;
+  position: absolute;
+  top: 300px;
+}
+
+.telefonos {
+  width: 30%;
+  float: left;
+  height: 100%;
+}
+
+.description {
+  width: 50%;
+  height: 100%;
+  float: left;
+  position: relative;
+}
+
+
+.logo-instagram {
+  float: left;
+}
+
+.caja-home {
+  float: left;
+  width: 20%;
+}
+
+.home{
+  margin-left: 15%;
+  width: 50%;
+  height: 50%;
+}
+.texto-home{
+  position: absolute;
+  left: 60%;
+  top: 3%;
+  float: left;
+  font-size: 2em;
+  width: 40%;
+  color: white;
+}
+
+.caja-texto{
+clear: both;
+height: 60%;
+}
+
+.frame{
+  height: 100%;
+  
+}
+
+
+.texto {
+  text-align: center;
+  float: left;
+  width: 70%;
+  margin-left: 10%;
+  font-size: 1.5em;
+  color: black;
+  position: absolute;
+  top: 20%;
+}
+
+strong {
+  font-size: 2em;
+  color: #06365f;
+}
+
+/* PIE DE PAGINA*/
+
+.clear{
+  clear: both;
+}
+.copyrigth{
+  color: gray;
+  float: right;
+}
+footer {
+  color: #06365f;
+  font-weight: bold;
+  clear: both;
+  width: 40%;
+  font-size: 1.5em;
+  position: absolute;
+  bottom: 10%;
+  left: 30%;
 }
