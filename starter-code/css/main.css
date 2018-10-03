@@ -8,3 +8,32 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+container {
+}
+
+.text {
+  margin: 600px;
+}
+
+
+footer {
+  height: 100px;
+  background-color: white;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  margin: 50px 100px;
+}
+
+a {
+  text-decoration: none;
+  color: #06365f;
+  font-weight: bold;
+  text-transform: uppercase;
+
+}
+
