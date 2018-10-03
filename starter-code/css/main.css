@@ -8,3 +8,36 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.top {
+  display: flex;
+}
+
+.login{
+  border-radius: 2px;
+  padding: 2px 2px;
+}
+
+#phones {
+  flex-direction: column;
+}
+
+
+
+.container {
+  display: flex;
+  align-content: center;
+  width: 60%;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  width: 60%;
+  margin: 50px 20%;
+  justify-content: space-evenly;
+}
+
+footer li {
+  padding-right: 30px;
+}
