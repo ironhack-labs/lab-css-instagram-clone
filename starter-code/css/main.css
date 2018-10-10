@@ -7,4 +7,88 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  color: #1c5380;
+}
+
+.darkBlue {
+  background: linear-gradient(#366d99, #06365f);
+  height: 40vh;
+}
+
+.container {
+  position: absolute;
+  top: 100px;
+  left: 300px;
+  display: flex;
+  width: 70%;
+  justify-content: center;
+  margin: auto;
+}
+
+.innerContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  padding-left: 10%;
+}
+.top-inner-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 490px;
+  width: 100%;
+}
+
+.icon-and-button {
+  display: flex;
+  align-self: center;
+  border: 1px #06365f solid;
+  border-radius: 2px;
+}
+
+.home-icon {
+  background: linear-gradient(#366d99, #06365f);
+  padding: 5px;
+  border-right: none;
+}
+
+.button {
+  display:flex;
+  align-items: baseline;
+  color: white;
+  background: linear-gradient(#366d99, #06365f);
+  text-decoration: none;
+  padding: 5px;
+  border-left: none;
+}
+
+.pitch-text{
+  position: absolute;
+  top: 110px;
+  padding-left: 20px;
+  padding-top: 10px;
+  max-width: 473px;
+}
+
+.black{
+  color: black;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.download-buttons {
+  margin-top: 75px;
+  margin-left: 30px;
+}
+
+.footer-menu {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.copyright {
+  color: gray;
+  margin-left: 30px;
 }
