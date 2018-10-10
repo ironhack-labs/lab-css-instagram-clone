@@ -26,7 +26,7 @@ h2 {
 
 
 .container-logos-text { 
-  width: 450px;
+  width: 400px;
   display: flex;
   flex-direction: column;
 }
@@ -54,18 +54,7 @@ h2 {
 }
 
 
-.log-in-button {
-  border: 2px solid #06365f; 
-  width: 75px;
-  height: 25px;
-  background-image: url("../images/bgtile.png");
-  background-repeat: repeat-x;
-  /*background-color: #06365f;*/
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 5px 10px;
-}
+
 
 .log-in-text {
   color: white;
@@ -99,12 +88,7 @@ h2 {
   width: 250px;
 }
 
-.smartphone {
-  border: 1px solid black;
-}
-
-.container-logos-text {
-  border: 1px solid black; 
+.container-logos-text { 
   width: 500px;
   display: flex;
   flex-direction: column;
@@ -116,30 +100,21 @@ h2 {
   align-items: center;
 }
 
-.instagram-logo {
-  border: 1px solid black;
-}
-
-.log-in-button {
-  border: 1px solid black; 
-  width: 105px;
-  height: 50px;
+.log-in-button { 
+  width: 75px;
+  height: 25px;
   background-color: #06365f;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+  padding: 5px 10px;
 }
 
 .login-in-button p {
   color: white;
   font-style: bold;
-}
-
-.text-container {
-  background-image: url("/Users/anthony/Desktop/Ironhack/lab-css-instagram-clone/starter-code/images/frame.png");
-  background-repeat: no-repeat;
-  display: flex;
-  justify-content: space-evenly;
 }
 
 .main-text {
