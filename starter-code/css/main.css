@@ -34,35 +34,88 @@ body {
 }
 
 .phones {
-  padding-top: 17vh;
+  margin-top: 17vh;
   height: 1;
 }
 
+.brandandtxt {
+  
+  width: 50%;
+
+}
+
 .brand {
-  padding-top: 17vh;
-  padding-left: 7vh;
+  margin-top: 17vh;
+  margin-left: 7vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 80%
  
 }
 
 .login {
   width: 20% ;
   height: 28px;
-float: right;
-padding: 20px 10px 0 0 ;
+
+margin: 20px 10px 0 0 ;
 margin: 10px
 
   
 }
 
 .frame {
-  padding-top: 1vh;
-  padding-left: 7vh;
+  margin-top: 1vh;
+  margin-left: 7vh;
+  background-image: url("/images/frame.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 80%;
+  height: 500px;
 
 }
 
 .button {
   background-color: #5880A3;
+  height: 40px;
+  width: 110px;
+  display: flex;
+  justify-items: center;
+  flex-wrap: wrap;
+  padding: 5px;
+margin-left: 40px;
+align-items: center;
+
+
 }
-.button img {
-  margin-bottom: 15px
+
+
+.buttonimg  {
+  width: 30%;
+  padding: 9px 0 0 9px
+
+}
+
+.buttonlogin {
+  width: 60%;
+  text-align: center;
+  text-justify: auto;
+  
+}
+
+.frametxt {
+  width: 90%;
+  padding: 20px 0 0 20px;
+
+}
+
+.frametxt span {
+  font-size: 40px;
+  color: #153357
+
+}
+
+.companyimg {
+  display: flex;
+  flex-wrap: wrap;
 }
