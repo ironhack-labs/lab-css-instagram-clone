@@ -7,4 +7,62 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  display: flex;
+  justify-content: center;
+
 }
+
+.back-image {
+
+  background-image: url("../images/bgtile.png");
+  height: 300px;
+
+}
+
+.general1 {
+  background-color: lightblue;
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  top: 150px;
+  margin: 0 auto;
+  width: 800px;
+}
+
+.iphone-img {
+  height: 400px;
+  order: -1;
+}
+
+.brand {
+  order: 0;
+  height: 50px;
+}
+
+.home-login a {
+  text-decoration: none;
+  order: 2;
+}
+
+.content {
+  order: 3;
+  width: 600px;
+}
+
+.content.h2
+
+footer { 
+  background-color: lightgoldenrodyellow;
+}
+
+footer ul {
+
+  display: inline-block;
+  list-style: none;
+  text-decoration: none;
+}
+
+.list-item {
+  width: 12px;
+}
+
