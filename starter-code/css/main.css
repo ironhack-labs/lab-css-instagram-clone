@@ -8,3 +8,43 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.blue-box {
+  position: fixed;
+  background-color: #50779B;
+  width: 100%;
+  height: 250px;
+}
+
+.logo {
+  position: relative;
+  left: 45%;
+  top: 40%;
+}
+
+.phone-picture {
+  position: relative;
+  left: 8%;
+}
+
+.text-box {
+  background-color: white;
+  padding: 20px 35px 70px 35px;
+  position: relative;
+  left: 45%;
+  bottom: 400px;
+  width: 400px;
+  height: 300px;
+  box-shadow: 0px 0px 7px 5px rgba(0,0,0,0.30);
+  border-radius: 5px;
+}
+
+h2 {
+  color: #06365f;
+}
+
+.brands {
+  display: flex;
+  padding-top: 25px;
+  justify-content: flex-start;
+}
