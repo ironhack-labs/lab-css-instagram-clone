@@ -118,4 +118,10 @@ align-items: center;
 .companyimg {
   display: flex;
   flex-wrap: wrap;
+  padding-top: 30px;
+  padding-left: 20px
+}
+
+.androidimg {
+  padding-left: 20px
 }
