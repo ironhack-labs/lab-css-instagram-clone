@@ -7,4 +7,29 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url("../images/bgtile.png");
+  background-repeat:repeat-x; 
+}
+
+.content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top:100px;
+}
+
+.maintext {
+  width:550px;
+}
+.text {
+  background-image: url("../images/frame.png");
+  background-repeat: repeat-y;
+}
+
+.footermenu {
+  display: flex;
+  justify-content: center;
+  margin-top:100px;
+  align-items:flex-end;
+  text-transform: uppercase;
 }
