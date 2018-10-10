@@ -7,4 +7,83 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+}
+
+.bluebox {
+  background-color: #1c5380;
+  height: 200px;
+
+}
+
+.title2 {
+  color: #06365f
+}
+
+.textcontainer {
+  margin-left: 50px;
+}
+.containerTop {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.instaIcon {
+  width: 250px;
+  height: 62px;
+  margin: 10px;
+}
+.iconButton {
+  height: 35px;
+  width: 90px;
+  background-color: #0E5E9C;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 1px solid grey;
+  border-radius: 2px;
+}
+
+.logIn {
+  color: white;
+  font-size: 15px;
+  font-family: sans-serif;
+}
+.textbox {
+  width:450px;
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  background-size: 500px;
+  padding: 20px 40px 0px 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.bottomBar{ 
+  display: flex;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 50px 0px 0px 0px;
+}
+
+.container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 100px;
+  
+}
+.links {
+  color: #1c5380;
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: space-around;
+}
+.bottomLinks {
+  margin: 8px;
+}
+.logo {
+  color: #7A7E7B;
+  padding: 0px 0px 0px 30px;
 }
