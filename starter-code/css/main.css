@@ -93,3 +93,65 @@ h2 {
 .app-logos img {
   margin-left: 25px;
 }
+
+h2 {
+  color: #06365f;
+  width: 250px;
+}
+
+.smartphone {
+  border: 1px solid black;
+}
+
+.container-logos-text {
+  border: 1px solid black; 
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+.logos-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.instagram-logo {
+  border: 1px solid black;
+}
+
+.log-in-button {
+  border: 1px solid black; 
+  width: 105px;
+  height: 50px;
+  background-color: #06365f;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login-in-button p {
+  color: white;
+  font-style: bold;
+}
+
+.text-container {
+  background-image: url("/Users/anthony/Desktop/Ironhack/lab-css-instagram-clone/starter-code/images/frame.png");
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.main-text {
+  padding: 25px;
+}
+
+.app-logos {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.app-logos img {
+  margin-left: 25px;
+}
+
