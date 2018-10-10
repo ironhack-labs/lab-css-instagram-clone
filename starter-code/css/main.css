@@ -4,7 +4,26 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+.header {
+  display: flex;
+  background-color:#06365f;
+  height: 400px;
+}
+.container{
+  background-color: white;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+}
+
+footer.box{
+  display: flex;
+  flex-direction: row;
+  
 }
