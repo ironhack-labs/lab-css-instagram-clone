@@ -7,4 +7,89 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  height: 100vh;
+  background-image: linear-gradient(#013859, #013859 40%, white 40%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
+
+.main-flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.main-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  height: 511px;
+  margin-left: 30px;
+}
+
+.brand-container {
+  background-color: #013859;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+  align-content: center;
+}
+
+.log-in {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #3498db;
+  height: 50px;
+
+
+}
+
+.brand-container .log-in button {
+  color: white;
+  background: none;
+  border: none;
+}
+.text-container {
+  background: url("../images/frame.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: space-between;
+  flex-grow: 3;
+  padding: 0 50px;
+}
+
+.text-container p {
+  flex-grow: 3;
+}
+
+.main-btn-container img {
+  margin: 10px;
+}
+
+.footer {
+  display: flex;
+  list-style: none;
+  margin: 50px auto;
+  color: #013859;
+  text-transform: uppercase;
+  width: 50%;
+  justify-content: space-between;
+}
+
+.footer .copy-right {
+  color: grey;
+}
+
+
+
+.
+
+
