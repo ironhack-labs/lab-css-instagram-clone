@@ -1,19 +1,18 @@
-
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
-  --insta-blue: rgb(56,97,134);
-  --insta-light-blue: rgb(87,126,160);
+  --insta-blue: rgb(56, 97, 134);
+  --insta-light-blue: rgb(87, 126, 160);
   box-sizing: border-box;
 }
 
-a{
+a {
   text-decoration: none;
   color: var(--insta-blue);
-  
+
 }
 
-button{
+button {
   border: none;
   height: 40px;
   margin-right: 30px;
@@ -25,29 +24,30 @@ button{
   width: 100%;
 }
 
-.content{
-position: absolute;
-top:80px;
+.content {
+  position: absolute;
+  top: 80px;
 }
 
 .left {
-  float:left;
+  float: left;
   margin-left: 10vw;
   margin-right: 5vw;
 }
+
 .right {
   display: inline-block;
   width: 50%;
 }
 
-.instaLogo{
+.instaLogo {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 #login {
-  padding:5px;
+  padding: 5px;
   background-image: linear-gradient(to top, var(--insta-blue), var(--insta-light-blue));
   color: white;
   font-weight: 600;
@@ -58,7 +58,7 @@ top:80px;
   justify-content: center;
 }
 
-#home{
+#home {
   margin-right: 5px;
 }
 
@@ -70,11 +70,11 @@ top:80px;
   background-size: contain;
 }
 
-.text > h2 {
+.text>h2 {
   display: inline-block;
   width: 50%;
   margin: 0;
-  color: rgb(24,63,99);
+  color: rgb(24, 63, 99);
 }
 
 #download {
@@ -82,15 +82,15 @@ top:80px;
   justify-content: space-evenly;
 }
 
-footer{
+footer {
   position: absolute;
   display: block;
   width: 90%;
-  bottom:10px;
+  bottom: 10px;
   text-align: center;
 }
 
-.foot{
+.foot {
   position: relative;
   display: inline-block;
   padding: 0;
@@ -99,11 +99,12 @@ footer{
   text-align: center;
 }
 
-.foot > ul {
+.foot>ul {
   padding: 0;
-  margin:0;
+  margin: 0;
 }
-.foot > ul > li{
+
+.foot>ul>li {
   display: inline-block;
   margin: 0 10px;
 }
