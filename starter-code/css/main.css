@@ -8,3 +8,31 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.bluebox {
+  width: 100%;
+  height: 200px;
+  background: linear-gradient(180deg, #1c5380,#06365f); 
+}
+
+.brand-image {
+  position:relative ;
+  left: 300px;
+  top: 100px;
+  padding: 0 0 0 0;
+  float: left;
+}
+
+.login-button {
+  background: linear-gradient(180deg, #1c5380,#06365f);
+  font: arial 10px;
+  width: 100px;
+  height: 40px;
+  float: left ;
+  color: white;
+  position:relative ;
+  left: 300px;
+  top: 100px;
+  margin: 0 0 0 10px;
+}
+
