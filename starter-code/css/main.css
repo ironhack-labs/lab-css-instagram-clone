@@ -7,62 +7,128 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
-  display: flex;
-  justify-content: center;
-
 }
 
-.back-image {
-
-  background-image: url("../images/bgtile.png");
-  height: 300px;
-
+h2 {
+  color: #06365f;
 }
 
-.general1 {
-  background-color: lightblue;
-  position: absolute;
-  display: flex;
-  flex-wrap: wrap;
-  top: 150px;
+* a { 
+  text-decoration: none;
+}
+
+p {
+}
+
+.background {
+  height: 350px;
+  background-image: url("/starter-code/images/bgtile.png");
+  width: 100%;
+}
+
+#main {
+  position: relative;
+  top: -200px;
   margin: 0 auto;
-  width: 800px;
+  width: 900px;
+  height: 550px;
 }
 
-.iphone-img {
+#iphones {
+  float: left;
+  width: 33%;
+  height: 600px;
+}
+
+#iphones img {
+  margin: 0 auto;
+  height: 90%;
+  position: relative;
+  left: 50px;
+}
+
+#content {
+  float: right;
+  width: 500px;
   height: 400px;
-  order: -1;
 }
 
-.brand {
-  order: 0;
-  height: 50px;
+#description {
+  background-image: url('/starter-code/images/frame.png');
+  background-size: cover;
 }
 
-.home-login a {
+#description h2 {
+  position: relative;
+  left: 30px;
+  top: 20px;
+}
+
+#description p {
+  position: relative;
+  left: 30px;
+  top: 20px;
+  width: 85%;
+
+}
+
+#description a {
+  position: relative;
+  left: 30px;
+  top: 50px;
+}
+
+#title {
+  height: 100px;
+}
+#logo {
+  float: left;
+  clear: both;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+#login-button {
+  float: right;
+  background-color: #1c5380;
+  width: 100px;
+  height: 40px;
+  border: none;
+  font-weight: bold;
+  text-align: center;
   text-decoration: none;
-  order: 2;
+  position: relative;
+  top: 35px;
+  right: 10px;
+  box-shadow: 0 0 30px 3px #06365f;
+  border-radius: 5px; 
+}
+#login-button:hover {
+  background-color: rgb(44, 108, 160);
+  cursor: pointer;
 }
 
-.content {
-  order: 3;
-  width: 600px;
+#login-button a {
+  color: white;
+  position: relative;
+  bottom: 5px;
+  left: 5px;
+  margin: 10px;
 }
 
-.content.h2
-
-footer { 
-  background-color: lightgoldenrodyellow;
+footer {
+  width: 100%;
+  text-transform: uppercase;
+  color: rgb(28, 83, 128);
+  font-size: 0.7em;
+  position: relative;
+  bottom: 125px;
+  left: -100px;
+  font-weight: bold;
 }
 
-footer ul {
+footer a {
+  margin: 0 10px;
 
-  display: inline-block;
-  list-style: none;
-  text-decoration: none;
-}
-
-.list-item {
-  width: 12px;
 }
 
