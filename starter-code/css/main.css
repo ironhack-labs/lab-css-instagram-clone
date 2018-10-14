@@ -8,3 +8,84 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+.blue{
+  background-color:#1c5380;
+  height: 300px;
+  width:100%;
+}
+
+
+#phones{
+  position:relative;
+  margin-top: 120px;
+  margin-left:80px;
+  float:left;
+
+}
+#brand-image{
+  position: relative;
+  display:inline;
+  margin-top: 120px;
+  margin-left: 60px;
+  float:left;
+
+}
+button{
+  background-color:#1c5380;
+  background-image: linear-gradient(#1c5380, #06365f);
+  heigth: 15px;
+  width:100px;
+  position: relative;
+  display: inline-block;
+  color: white;
+  float:left;
+  margin-left: 40px;
+  margin-top: 140px;
+  border-color: #06365f;
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#home img{
+  display: inline;
+  vertical-align:bottom;
+  position: relative;
+  width: 30px;
+  padding-top:5px;
+  padding-left:0px;
+
+}
+
+#info{
+  color:#06365f;
+  background-image:url("/Users/sarahdroese/Desktop/Ironhack/labs/lab-css-instagram-clone/starter-code/images/frame.png");
+  background-repeat: no-repeat;
+  width: 420px;
+  height:auto;
+  position: relative;
+  margin:-80px 20px 100px 50px;
+  padding: 20px 20px;
+  display: inline-block;
+
+}
+#info img{
+  padding-left: 20px;
+}
+#footer{
+  clear:both;
+  float:left;
+  display:inline;
+  position: ;
+  width: 100%;
+  color:#06365f;
+  margin-left:20%;
+
+}
+#footer span{
+  margin-left:10px;
+  margin-right:10px;
+  text-transform: uppercase;
+}
+#copyright{
+  color:grey;
+  float: ;
+}
