@@ -8,3 +8,114 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+#background{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background-color:#1c5380;
+}
+
+.content {
+  width: 75%;
+  margin: 100px auto;
+  overflow: auto;
+}
+
+.phones {
+  float: left;
+  margin-bottom: 30px;
+}
+
+
+.branding-right {
+  width: 50%;
+  float: left;
+  margin-left: 30px;
+}
+
+.branding-right img {
+  float: left;
+}
+
+.branding-right p {
+  float: left;
+} 
+.log-in {
+  background-color: #1c5380;
+  padding: 10px;
+  border-radius: 2px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  float: left;
+  margin-left: 38px;
+  margin-top: 10px;
+}
+
+.content-right {
+  width: 50%;
+  float: left;
+  margin-left: 20px;
+  background-image: url("../images/frame.png");
+  background-size: cover;
+  margin-bottom: 20px;
+}
+
+.content-right p, h1 {
+  margin-left: 30px;
+
+}
+
+.content-right h1 {
+  color: #06365f;
+  line-height: 40px;
+}
+
+.logo-apple {
+  margin-left: 30px;
+  margin-top: 20px;
+  float:left;
+}
+
+.logo-android {
+  float:left;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+.footer {
+  clear: left;
+}
+
+.footer-nav {
+display: inline-block;
+width: auto;
+text-align: center;
+margin-left: 80px;
+float: left;
+}
+
+.footer nav ul {
+  margin-top: 0px;
+}
+
+.footer-nav li {
+  list-style-type: none;
+  color: #1c5380;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: inline;
+  margin: 0px 10px;
+  font-size: 12px;
+}
+
+.footer p {
+  color: grey;
+  font-weight: bolder;
+  margin: 0px;
+  font-size: 12px;
+  float: left;
+  margin-top: 5px;
+  margin-left: 30px;
+}
