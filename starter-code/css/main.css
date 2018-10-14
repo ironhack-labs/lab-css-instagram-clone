@@ -2,6 +2,9 @@
 Colors to use:
 dark blue: #06365f
 light blue: #1c5380
+lighter blue: #5b8fb9
+button-text-blue: #d8e1e9
+footer-grey: #999ea3
 */
 
 body {
@@ -9,30 +12,158 @@ body {
   margin: 0;
 }
 
+h1 {
+  font-family: arial;
+  font-size: 30px;
+  color: #06365f;
+  line-height: 1.2;
+}
+
 .bluebox {
   width: 100%;
-  height: 200px;
-  background: linear-gradient(180deg, #1c5380,#06365f); 
+  height: 300px;
+  background: linear-gradient(180deg, #5b8fb9
+  ,#1c5380); 
 }
 
 .brand-image {
   position:relative ;
-  left: 300px;
-  top: 100px;
+  left: 60px;
+  top: 120px;
   padding: 0 0 0 0;
   float: left;
 }
 
-.login-button {
-  background: linear-gradient(180deg, #1c5380,#06365f);
-  font: arial 10px;
+.button-box {
+  background: linear-gradient(180deg, #5b8fb9
+  ,#1c5380);
   width: 100px;
-  height: 40px;
-  float: left ;
-  color: white;
+  height: 35px;
+  float: left;
   position:relative ;
-  left: 300px;
-  top: 100px;
-  margin: 0 0 0 10px;
+  left: 185px;
+  top: 120px;
+  margin: 0 0 0 20px;
+  border-radius: 3px;
+  border: 1px solid #1c5380;
+  box-shadow: 1px 1px 1px #06365f;
 }
 
+.button-text {
+  float: left; 
+  line-height: 0.8;
+  padding: 0 0 0 10px;
+  font-family: arial;
+  font-size: 14px;
+  color: #d8e1e9;
+  text-shadow: 1px 1px 1px #06365f;
+}
+
+.button-icon {
+float: left;
+padding: 8px 0 0 8px;
+}
+
+.phone-img-box {
+  position:relative;
+  float:left;
+  width: 318px;
+  height: 512px;
+  padding: 120px 0 0 100px;
+}
+
+.content-box {
+  position: relative;
+  float: left;
+  width: 200px;
+  height: 504px;
+  left: 60px;
+  top: -100px;
+  }
+
+  .content-text {
+    position: relative;
+    width: 310px;
+    height: 504px;
+    top: -280px;
+    left: 40px;
+  }
+
+  .content-copy {
+    font-family: helvetica;
+    font-size: 15px;
+    width: 420px;
+    color: black;
+  }
+
+  .appstore-button1 {
+  position: relative;
+  float: left;
+  width: 200px;
+  height: 100px;
+  left: 40px;
+  top: -460px;
+  }
+  
+  .appstore-button2 {
+    position: relative;
+    float: left;
+    width: 200px;
+    height: 100px;
+    left: 220px;
+    top: -560px;
+    }
+
+  .footer {
+    position: relative;
+    float: left;
+    left: 220px;
+    top: -100px;
+    width: 700px;
+    font-family: arial;
+    font-size: 12px;
+    font-weight: 900;
+    text-transform: uppercase;
+    clear: both;
+    
+  }
+
+  .footer-links {
+    color: #5b8fb9;
+    text-decoration: none;
+    list-style-type: none; 
+    float: left;
+    padding: 0 5px;
+  }
+
+  .footer-copyright {
+    color: #999ea3;
+    text-decoration: none;
+    list-style-type: none; 
+    float: left;
+    padding: 0 15px;
+  }
+
+
+
+
+
+
+
+/*
+  <br><br><br><br><br><br><br><br><br>
+  <p>
+    Download on the App Store
+    Get it on Google Play
+  
+    About Us
+    Support
+    Blog
+    Press
+    API
+    Jobs
+    Privacy
+    Terms</p>
+  
+    &copy; 2014 Instagram
+    */
