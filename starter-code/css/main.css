@@ -8,3 +8,79 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.blue-background{
+  background-color: #1c5380;
+  height: 400px;
+}
+
+#phones {
+  margin: 200px 80px 20px 120px;
+  float:left;
+}
+
+#brand {
+  margin-top: 230px;
+  float:left;
+}
+
+#log-in{
+  margin: 240px 165px 0px;
+  border: 3px groove rgba(20,61,94,0.3);
+  border-radius: 5px;
+  padding: 15px 15px 10px;
+  color: white;
+  background: #1c5380;
+  width: 120px;
+  font-size: 15px;
+}
+
+#log-in img {
+    vertical-align: middle; 
+    padding-right: 10px;
+  }
+
+.white-background{
+  background-image: url("/Users/susannetunker/Desktop/labs/lab-css-instagram-clone/starter-code/images/frame.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 600px;
+  float: left;
+  margin-top: -60px;
+  margin-bottom: 70px;
+  border-radius: 8px;
+  padding: 20px 40px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.white-background p {
+  text-align: justify;
+  font-size: 20px;
+}
+
+.white-background h1 {
+  color: #06365f;
+  margin: 0;
+}
+
+#iphone{
+  margin-right: 40px;
+}
+
+.footer {
+clear: both;
+margin-left: 350px;
+margin-bottom: 100px;
+}
+
+.footer li {
+  list-style-type: none;
+  float: left;
+  margin-right: 30px;
+  color: #1c5380;
+}
+
+#insta {
+  color: lightgrey;
+}
