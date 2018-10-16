@@ -1,10 +1,78 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
-
-body {
+ /*
+ Colors to use:
+ dark blue: #06365f
+ light blue: #1c5380
+ */
+ 
+ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+ .bckgrnd {
+  height:200px;
+  background-color: #06365f;
+}
+ .card {
+  width:875px;
+  height:505px;
+  position:absolute;
+  top:10px;
+  left:200px;
+}
+ .phones {
+  position:relative;
+  float:left;
+}
+ .logo {
+  width:495px;
+  margin-top:20px;
+  box-sizing:border-box;
+  float:right;
+}
+ .content{
+  background-color: white;
+  width: 500px;
+  float:right;
+  margin-top:20px;
+  box-shadow: 1px 2px black; 
+  border-radius:2%;
+}
+ .content h1{
+  margin: 20px 30px;
+  color:#1c5380;
+  font-size:30px;
+  text-align: center;
+}
+ .content p{
+  margin: 10px 50px;
+
+}
+
+ .login {
+  width:100px;
+  height:30px;
+  border: 2px solid #06365f;
+  color:white;
+  background-color: #1c5380;
+  float:right;
+  padding-top:px;
+  font-size:15pt;
+  margin: 10px;
+  box-shadow: 1px 2px black; 
+  border-radius:5%;
+}
+ .login img {
+  margin: 5px 5px;
+  weight: 50%;
+  float:left;
+}
+
+
+ li {
+  position: absulote;
+  float: right;
+  margin: 10px 15px;
+  color: #1c5380;
+  list-style: none;
+  top:1300px;
 }
