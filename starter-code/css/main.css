@@ -4,12 +4,14 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
   display: flex;
   flex-flow: column;
   align-items: center;
+  background-color: #F5F4F7;
 }
 
 header {
@@ -38,7 +40,12 @@ header {
 
 .headline {
   display: flex;
-  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+}
+
+.headline .headline-img {
+  /* transform: scale(0.9); */
 }
 
 .headline button {
@@ -49,6 +56,9 @@ header {
   background-image: linear-gradient(to top, #1c5380, lightblue);
   color: white;
   font-size: 1.1em;
+  border-radius: 3px;
+  align-self: right;
+  cursor: pointer;
 }
 
 .text {
@@ -62,6 +72,10 @@ header {
 .text h2 {
   width: 300px;
   color: #06365f;
+}
+
+.text img {
+  cursor: pointer;
 }
 
 footer {
