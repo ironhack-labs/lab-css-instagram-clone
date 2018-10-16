@@ -8,3 +8,36 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+
+.header{
+  background-image: linear-gradient(to bottom, #1c5380 0%, #06365f 50%);
+  color: white;
+  font-style: italic;
+  padding: 140px 350px 60px 600px;
+  position: fixed;
+}
+
+.mobilephone{ 
+  padding: 10px;
+  margin: 120px 40px 100px 130px;
+  position: bottom;
+  position: absolute;
+}
+
+.text{
+  background-color: white; 
+  text-align: left;
+  padding: 30px;
+  margin: 260px 100px 100px 600px;
+  position: bottom;
+  position: absolute;
+  border-image-source: url(images/frame.png) 30 stretch;
+}
+
+#container{
+  padding: 140px 60px 60px 200px;
+  position: bottom;
+  margin: 400px 0px 10px 80px;
+  position: fixed;
+}
