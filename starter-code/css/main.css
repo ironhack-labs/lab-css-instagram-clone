@@ -58,7 +58,7 @@ body {
 
 .text {
   width: 70%;
-  background-image: url("/home/gg/Documentos/Ironhack/Week 1/lab-css-instagram-clone/starter-code/images/frame.png")
+  background-image: url("../images/frame.png")
 }
 
 h2 {
