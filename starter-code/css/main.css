@@ -3,8 +3,81 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+* {
+  margin: 0;
+  padding: 0;
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  
+}
+
+header{
+  background-color: #1c5380 ;
+  background-size: 100%;
+  height: 200px;
+  width: 100%;
+ 
+}
+
+.clearfix {
+  clear: both;
+}
+
+.container {
+  border: 1px blue solid;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: -150px;
+}
+
+.img {
+  size: 30%;
+  float: left;
+
+}
+
+
+
+.content {
+  float: right;
+  height: 400px;
+  width: 600px;
+  
+}
+
+.text{
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 30px;
+}
+
+.icon-btn{
+  margin-left: 30px;
+  padding: 30px;
+}
+
+.icon-btn button {
+  background-image: url("../images/bgtile.png");
+  border: 1px 06365f solid ;
+  height: 30px;
+  width: 80px;
+  margin-left: 30px;
+}
+
+.footer {
+  position: absolute;
+  width: 1200px;
+  height: 20px;
+  
+}
+
+.footer >ul {
+  margin-left: 35%;
+}
+.footer > ul > li {
+  display: inline-block;
+  padding: 2px;
 }
