@@ -3,8 +3,139 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+@import url('https://fonts.googleapis.com/css?family=Proxima+Nova');
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  width: 100%;
+  background-repeat: repeat-x;
+  background-image: url("../images/bgtile.png");
+  background-color: #F6F7F9;
+  background-size: auto;
+	font-family: 'proxima-nova', sans-serif;
+}
+
+h2 {
+  color: #06365f;
+  font-weight: 600;
+}
+
+.strong-p {
+  font-weight: bold;
+}
+
+.clear-float {
+  clear: both;
+}
+
+.main-container {
+  margin: 5% 10%;
+}
+
+.header-container {
+  float: left;
+  width: 100%;
+  margin: 15px 0 0 0;
+}
+
+.btn {
+  display: inline-block;
+  float: right;
+  position: relative;
+  top: 20px;
+}
+
+.btn button {
+  height: 40px;
+  border-radius: 3px;
+  border: 2px solid #0b3d69d2;
+  box-shadow: 0 0 1px 1px rgba(57, 92, 145, 0.3);
+  padding: 8px 8px;
+  background: linear-gradient(#6787AD, #40659c);
+  color: white;
+  text-shadow: 0 1px 2px #06365fd7;
+  font-weight: 500;
+}
+
+.btn button img {
+  margin-right: 8px;
+}
+
+.btn button span {
+  vertical-align: super;
+}
+
+.text-section {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 450px;
+  margin: 20px 0;
+  padding: 5% 10%;
+  position: relative;
+  float: right;
+  background-size: 101%;
+  background-repeat: no-repeat;
+  background-image: url("../images/frame.png");
+}
+
+.text-section p {
+  margin-bottom: 10px;
+}
+
+p:nth-of-type(3){
+  margin-bottom: 7.5%;
+}
+
+.header-and-text-container {
+  width: 55%;
+  max-width: 700px;
+  position: relative;
+  float: right;
+  margin-right: calc(6% - 10px);
+}
+
+.web-store-link-container a {
+  margin: 40px 20px 0 0;
+}
+
+.web-store-link-container {
+  position: absolute;
+  bottom: 0;
+}
+
+.footer-container {
+  position: relative;
+  width: 100%;
+  bottom: -15px;
+  height: 100px;
+  text-align: center;
+  float: left;
+}
+
+ul li {
+  display: inline-block;
+  color: #1c5380;
+  text-transform: capitalize;
+  font-weight: 600;
+  margin-right: 20px;
+}
+
+li:last-of-type {
+  color: rgba(0, 0, 0, 0.3);
+  margin-left: 20px;
+}
+
+.left-side-image {
+  display: inline-block;
+  float: left;
+  width: 35%;
+  margin-left: calc(5% - 10px);
+}
+
+.left-side-image img {
+  width: 100%;
+  max-width: 400px;
+  padding-right: 10px;
 }
