@@ -3,8 +3,139 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.clear-fix {
+  clear: both;
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+#header {
+  background-color: #1c5380;
+  height: 300px;
+}
+
+#section-one {
+  background-color: white;
+  height: 330px;
+  position:relative;
+}
+
+.section-one-content {
+  position: absolute;
+  top: -55%;
+  left: 25%;
+  width: 50%;
+}
+
+.section-one-image {
+  position: absolute;
+}
+
+.section-one-login {
+  position: relative;
+  bottom: 20px;
+}
+
+.section-one-login button {
+  float: right;
+  border: 1px solid #06365f;
+  background-color: #1c5380;
+  padding: 10px;
+  color: white;
+  font-size: 20px;
+  line-height: initial;
+  outline: 0;
+  cursor: pointer;
+}
+
+.section-one-login button:hover {
+  background-color: #124f81;
+}
+
+.section-one-login button:before {
+  content: url('../images/home.png');
+  float: left;
+  padding-right: 10px;
+}
+
+.section-one-text {
+  position: absolute;
+  left: 50%;
+  width: 500px;
+}
+
+.section-one-text h2 {
+  color: #06365f;
+  width: 300px;
+  padding-bottom: 20px;
+}
+
+.section-one-text p {
+  padding: 5px 0 5px 0;
+}
+
+.section-one-text button {
+  margin-top: 20px;
+}
+
+.section-one-info  {
+  position: absolute;
+  background-color: white;
+  border: 1px solid grey;
+  border-radius: 3px;
+  padding: 30px;
+}
+
+.section-one-info button {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+}
+
+.buttonGooglePlay:before {
+  content: url('../images/badge-android.png');
+}
+
+.buttonAppStore:before {
+  content: url('../images/badge-iphone.png');
+}
+
+#section-two {
+  background-color: white;
+  padding: 50px 0 50px 0;
+}
+
+#section-two ul {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+#section-two li {
+  display: inline-block;
+  padding-left: 20px;
+}
+
+#section-two a {
+  color: #1c5380;
+  text-decoration: none;
+}
+
+#section-two a:hover {
+  color: green;
+}
+
+.footer {
+  color: gray;
 }
