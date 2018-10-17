@@ -6,5 +6,57 @@ light blue: #1c5380
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  margin: 100px;
+}
+
+header {
+  background-color: #06365f;
+}
+
+.phones-dimensions {
+  width: 310px;
+  height: max-content;
+  margin-right: 20px;
+  float: left;
+}
+
+.pics-position {
+  height: 100px;
+}
+
+.right-position {
+  width: auto;
+  overflow: auto;
+}
+
+h1 {
+  font-size: 25px;
+  padding: 10px 5px 0 20px;
+  width: 360px;
+}
+
+span, p {
+  padding: 0 20px 20px 20px;
+
+}
+.header-img-instagram {
+  float: left;
+}
+
+.header-img-home {
+  float: right;
+}
+
+.frame-content {
+  background-image: url("../images/frame.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+footer {
+  margin-top: 30px;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
 }
