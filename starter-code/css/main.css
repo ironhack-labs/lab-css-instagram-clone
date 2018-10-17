@@ -8,3 +8,97 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+h1{
+  font-size: 1.5em;
+  text-align: left;
+}
+
+p{
+  margin: 5px 45px;
+  font-size: 20px;
+}
+
+header {
+  background-image: url(../images/bgtile.png);
+  height: 400px;
+}
+
+#marg {
+  margin: 0 auto;
+  height: 550px;
+  width: 80%;
+  margin-top: -180px;
+}
+
+.phone {
+  float: left;
+  margin-left: 40px;
+}
+
+.topo {
+  padding: 0 10px;
+}
+
+.limpa{
+  color: #fff;
+  text-decoration: none;
+}
+
+.home {
+  margin-right: 15px;
+  height: 60%;
+}
+
+button { 
+  width: 20%;
+  height: 50px;
+  float: right;
+  background-color: #245883;
+  font-size: 1em;
+  letter-spacing: 0.5px;
+  border-radius: 5px;
+  border: 1px solid #06365f;
+  margin-top: 5px;
+  padding: 5px 10px;
+}
+
+.tresright {
+  width: 60%;
+  float: right;
+  margin-right: 40px;
+  height: 550px;
+}
+
+.image {
+  background: url(../images/frame.png) 0 0 no-repeat;
+  background-size: cover;
+}
+
+.texttitle{
+  width: 40%;
+  margin-left: 40px;
+  padding: 20px 5px;
+  color: #06365f
+}
+
+.img {
+  margin: 40px 45px;
+}
+
+.footer-bar {
+  margin: 0 auto;
+  width: 700px;
+}
+
+.footer-bar-li {
+  float: left;
+  list-style-type: none;
+  padding: 0 10px; 
+}
+
+.nav-bar-item {
+  color: #1c5380;
+  font-size: 1.3em;
+  text-decoration: none;
+}
