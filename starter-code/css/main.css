@@ -11,9 +11,9 @@ body {
   width: 100%;
   background-repeat: repeat-x;
   background-image: url("../images/bgtile.png");
-  background-color: #F6F7F9;
+  background-color: #f6f7f9;
   background-size: auto;
-	font-family: 'proxima-nova', sans-serif;
+  font-family: 'proxima-nova', sans-serif;
 }
 
 h2 {
@@ -55,10 +55,17 @@ h2 {
   border: 2px solid #0b3d69d2;
   box-shadow: 0 0 1px 1px rgba(57, 92, 145, 0.3);
   padding: 8px;
-  background: linear-gradient(#6787AD, #40659c);
+  background: linear-gradient(#6787ad, #40659c);
   color: white;
   text-shadow: 0 1px 2px #06365fd7;
   font-weight: 600;
+}
+
+.left-side-image img {
+  width: 100%;
+  max-width: 360px;
+  min-width: 200px;
+  padding-right: 20px;
 }
 
 .btn button img {
@@ -83,12 +90,11 @@ h2 {
   background-image: url("../images/frame.png");
 }
 
-
 .text-section p {
   margin-bottom: 10px;
 }
 
-p:nth-of-type(3){
+p:nth-of-type(3) {
   margin-bottom: 7.5%;
 }
 
@@ -146,21 +152,16 @@ li:last-of-type {
   z-index: -1;
 }
 
-.left-side-image img {
-  width: 100%;
-  max-width: 360px;
-  min-width: 200px;
-  padding-right: 20px;
-}
-
 @media (max-width: 700px) {
   .left-side-image {
-    width: 0px;
+    width: 0;
   }
+
   .left-side-image img {
     min-width: 0;
   }
-  .header-and-text-container{
+
+  .header-and-text-container {
     width: 100%;
   }
 }
