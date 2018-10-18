@@ -5,6 +5,147 @@ light blue: #1c5380
 */
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  position: absolute;
+  width: 1440px;
+  height: 1024px;
+  background: #FFFFFF;
+}
+
+.homefont {
+  position: absolute;
+  width: 130px;
+  height: 36px;
+  left: 1100px;
+  top: 138px;
+  font-family: Helvetica Neue;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  font-size: 32px;
+  letter-spacing: -0.05em;
+  color: #E5E5E5;
+}
+
+.caption {
+  position: absolute;
+  width: 439px;
+  height: 90px;
+  left: 643px;
+  top: 233px;
+
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 40px;
+  letter-spacing: -0.05em;
+
+  color: #06365F;
+}
+
+.content p{
+  position: absolute;
+  width: 544px;
+  height: 208px;
+  left: 644px;
+  top: 347px;
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 26px;
+  letter-spacing: -0.05em;
+  color: #4F4F4F;
+}
+
+footer{
+  position: absolute;
+  width: 1087px;
+  height: 94px;
+  left: 250px;
+  top: 876px;
+  text-transform: uppercase;
+  font-family: Helvetica;
+  font-size: 14px;
+  font-style: bold;
+  font-weight: bold;
+  color: #1c5380;
+}
+
+footer li{
+  float:left;
+  display:inline;
+  padding: 0 10px 0 10px;
+}
+
+.registry{
+  position: relative;
+  left: 100px;
+  top: 0px;
+  color: #878686;
+}
+
+img[alt="Bg-Title"]{
+  position: static;
+  width: 1440px;
+  height: 331px;
+  left: 0px;
+  top: 0px;
+  background: url(bgtile.png);
+ }
+
+img[alt="Instagram"]{
+  position: absolute;
+  width: 386px;
+  height: 86px;
+  left: 606px;
+  top: 145px;
+  background: url(brand.png);
+ }
+
+img[alt="Home-Icon"]{
+  position: absolute;
+  width: 48px;
+  height: 37px;
+  left: 1043px;
+  top: 168px;
+  background: url(home.png);
+ }
+
+img[alt="Android"]{
+  position: absolute;
+  width: 250px;
+  height: 72px;
+  left: 646px;
+  top: 684px;
+  background: url(badge-android.png);
+ }
+
+img[alt="iPhone"]{
+  position: absolute;
+  width: 250px;
+  height: 72px;
+  left: 958px;
+  top: 684px;
+  background: url(badge-iphone.png);
+ }
+
+
+img[alt="Phone"] {
+  position: absolute;
+  width: 387px;
+  height: 637px;
+  left: 89px;
+  top: 122px;
+  background: url(phones.png);
+}
+
+img[alt="Frame"] {
+  position: absolute;
+  width: 613px;
+  height: 420px;
+  left: 610px;
+  top: 246px;
+  background: url(frame.png);
 }
