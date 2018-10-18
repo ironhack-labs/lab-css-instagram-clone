@@ -7,4 +7,85 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin : 75px;
+}
+
+
+.right-box {
+  width: 40%;
+  height: 450px;
+  display : flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 75px;
+  flex-direction: row;
+  width : 100%;
+  padding : 0 10px; 
+}
+header div img{
+  width: 80%;
+  margin: 0 5px;
+}
+.box {
+  margin: 20px;
+}
+
+button {
+  display: flex;
+  align-items : center;
+  background-color:#4b769b;
+  margin: 0 20px;
+  border: 1px solid #06365f;
+  border-radius: 2px;
+
+}
+button a {
+  padding: 10px;
+  font-size: 12px;
+  color : white; 
+  text-decoration: none;
+}
+
+.text-box {
+  background-image: url("../images/frame.png");
+  padding : 2px 40px;
+  background-repeat: no-repeat;
+  
+}
+
+.text-box h1 {
+  color: #4b769b;
+
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height : 50px;
+}
+
+footer a {
+  margin : 10px; 
+  text-decoration: none; 
+  color: #106fc2;
+}
+footer p{
+  color: grey;
+  margin : 10px;
 }
