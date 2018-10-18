@@ -1,3 +1,4 @@
+
 /*
 Colors to use:
 dark blue: #06365f
@@ -7,4 +8,76 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;
+
+}
+
+.bigsection{
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+  margin: 75px;
+
+}
+rightPart{
+  display: flex;
+}
+.brandImages{
+  display: flex;
+  justify-content: space-between
+
+}
+
+
+
+.inerText{
+  background-color: white;
+  padding: 10px 30px ;
+
+
+}
+.text{
+  height: 330px;
+  width: 430px;
+  padding: 10px 8px 0 7px;
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+
+}
+h2{
+color: #0f3359;
+font: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+
+
+.button{
+  display: flex;
+  background-image: linear-gradient(#487399 , #6F93B1); 
+  border-radius: 4px;
+  border : 1px;
+  height: 50px;
+  width: 100px;
+  color: #ECF0F3;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer{
+  display: flex;
+  justify-content: center
+
+
+}
+
+a {
+  margin: 0 10px
+}
+
+.buttons {
+  padding: 10px 8px 0 30px;
+
 }
