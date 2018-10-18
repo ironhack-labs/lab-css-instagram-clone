@@ -1,10 +1,106 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans: 200,300,400,500');
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  height:100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+  background-size: auto 230px;
+  font-family: "Open Sans", sans-serif;
+}
+
+main{
+	height: 80%;
+	width: 100%;
+	margin: auto;
+}
+
+section{
+	display: flex;
+	justify-content: center;
+	padding: 0 10%;
+}
+
+header {
+	padding: 0 1%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+footer a {
+	text-decoration: none;
+	color: #1c5380;
+	font-size: 0.8em;
+}
+
+#cp {
+	color: #B4B4B4;
+}
+
+footer {
+	display: flex;
+	font-weight: 800;
+	width: 70%;
+	justify-content: space-evenly;
+	margin: 0 auto; 
+	padding-top: 60px;
+	align-items: flex-bottom;
+}
+
+h1 {
+	color: #06365f;
+}
+
+h2 {
+	font-size: 12px;
+	color: white;
+}
+
+
+.brand {
+	width: 314px;
+	height: 78px;
+}
+
+.home-btn {
+	display: button;
+	display: flex;
+	height: 30px;
+	width: 70px;
+	background-image: linear-gradient(#6590b0, #43759d);
+	border: none;
+	border-radius: 3px;
+	padding: 3px 13px;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.dl-links {
+	display: flex;
+	justify-content: space-evenly;
+	width: 390px;
+	margin-right: 130px;
+}
+
+.text-container {
+	width: 520px;
+	display: inline-block;
+	margin-left: 5%;
+}
+
+#phone-image {
+	width: 318px;
+	height: 512px;
+}
+
+.description-container {
+	padding: 2% 5%;
+	background-image: url("../images/frame.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
 }
