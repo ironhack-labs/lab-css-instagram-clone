@@ -1,10 +1,114 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
-
+/*MAIN*/
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url("../images/bgtile.png"); 
+  background-repeat: repeat-x; 
+}
+
+header {
+  display: flex; 
+  justify-content: center;
+  align-items: center; 
+  height: 800px;
+  width: 750px; 
+  margin: 0 auto;
+}
+
+/*PHONE BLOCK*/
+
+/*SECOND BLOCK*/
+.second-block {
+margin-left: 40px; 
+}
+
+.logos{
+display: flex;
+justify-content: space-between;
+align-items:center;
+}
+
+.logos img{
+  margin: 0px 8px 0px 0px;
+}
+
+.logos button {
+  background-color: #4669a0; 
+  border-radius: 5px; 
+  width: 80px; 
+  height: 30px; 
+  box-shadow: 0px 0px 0px 2px black; 
+  color: white;
+  padding: 6px;
+  font-size: 11px; 
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  transition-duration: 5ms;
+}
+
+.logos button:hover{
+  background-color: white;
+  color: black;
+}
+
+.logos button img:hover{ 
+-webkit-filter: invert(100%) !important;
+}
+
+.backwhite {
+  background-image: url("../images/frame.png");
+  background-size: contain;
+  width: 102%;
+  background-repeat: no-repeat;
+}
+
+.title{
+  color: darkblue;
+  padding: 10px 20px 0px 20px;
+  font-weight: bold; 
+  
+}
+
+.text {
+  line-height: 1.8em; 
+  margin-bottom: 20px;
+  padding: 0px 20px;
+  font-size: 13px;
+}
+
+
+.contactlogos img{
+  margin: 0px 8px 0px 0px;
+}
+
+.imgapple {
+  transition-duration: 0.8ms;
+}
+
+.imgapple:hover{
+  box-shadow: black;
+}
+
+/*FOOTER*/
+footer{
+  display: flex;
+  align-items: flex-end; 
+  justify-content: center; 
+}
+
+footer a {
+  margin: 0px 10px; 
+  text-decoration: none; 
+  font-weight: bold; 
+  color: #4669a0;
+  font-size: 13px;
+}
+
+.copyrighttext {
+  color: grey; 
+}
+
+footer a:hover {
+  color: grey; 
 }
