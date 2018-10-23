@@ -4,7 +4,142 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+/* ------------------------------------- */
+/* ------------ GENERAL ---------------- */
+/* ------------------------------------- */
+* {
+  box-sizing: border-box;
+}
+
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  padding-top: 4rem;
+
+  background-color: #f5f5f5;
+  background-image: url(../images/bgtile.png);
+  background-repeat-y: no-repeat;
+  background-size: 1% 35%;
+
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #212121;
+}
+
+/* Layout ------------------------------ */
+/* ------------------------------------- */
+.col {
+  float: left;
+}
+
+.col.col40 {
+  width: 40%;
+}
+
+.col.col60 {
+  width: 60%;
+}
+
+/* Fonts ------------------------------- */
+/* ------------------------------------- */
+p {
+  margin-bottom: 1rem;
+}
+
+b {
+  font-weight: 600;
+}
+
+/* ------------------------------------- */
+/* ---------- MAIN CONTENT ------------- */
+/* ------------------------------------- */
+main {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.clearfix {
+  clear: both;
+}
+
+/* Header ------------------------------ */
+/* ------------------------------------- */
+header {
+  position: relative;
+}
+
+/* Button ------------------------------- */
+button {
+  position: absolute;
+  height: fit-content;
+  margin: auto;
+  padding: .5rem;
+  top: 50%;
+  bottom: 50%;
+  right: 0;
+
+  background-image: linear-gradient(to bottom, #6d8cb0, #3d5f8f);
+  border: 1px solid #395886;
+  border-radius: 5px;
+
+  color: #fff;
+  font-size: .9rem;
+  font-weight: 600;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+}
+
+button img {
+  margin-right: .2rem;
+  vertical-align: middle;
+}
+
+/* Main Content ------------------------ */
+/* ------------------------------------- */
+div.main-content {
+  padding: 2.5rem;
+  background-image: url(../images/frame.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+div.main-content h1 {
+  margin-bottom: 1.5rem;
+
+  color: #06365f;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 2rem;
+}
+
+/* Store Links ------------------------- */
+.store-links a {
+  margin-right: 1rem;
+  text-decoration: none;
+}
+
+/* ------------------------------------- */
+/* ------------- FOOTER ---------------- */
+/* ------------------------------------- */
+footer {
+  font-size: .9rem;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* Nav --------------------------------- */
+/* ------------------------------------- */
+footer nav {
+  display: inline;
+}
+
+footer nav a {
+  margin: 0 .5rem;
+  color: #1c5380;
+  text-decoration: none;
+}
+
+/* Copyright --------------------------- */
+/* ------------------------------------- */
+footer p.copyright {
+  display: inline-block;
+  color: #757575;
 }
