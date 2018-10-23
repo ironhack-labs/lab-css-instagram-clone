@@ -3,8 +3,104 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
+/* Generic Tags */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    
+  }
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+/* Header */
+.header{
+    height: 300px;
+    background-color: #1c5380c3;
+}
+.div-header{
+    float: right;
+    margin-top: 8%;
+    width: 51%;
+}
+.header h1{
+   font-family: 'Miller Ban It';
+   font-size: 3em;
+   margin-bottom: 20px;
+   color:white;
+   font-weight:lighter;
+   text-align:left;
+}
+.brand-img{
+    float:left;
+    margin-right: 110px;
+}
+.div-btn{
+    margin: 20px auto;
+}
+.login-btn{
+    width: 80px;
+    height: 30px;
+    background-color: #1c5380c3;
+    color: white;
+    border-radius: 2px;
+    border: solid 1px #1c5380c3;
+    font-weight: bold;
+}
+
+/* Section1 */
+.section-1{
+   position: absolute;
+   right: 15%;
+   top: 30%;
+   background-image: url(../images/frame.png);
+   background-size: 565px;
+   /* background-repeat: no-repeat; */
+   height: 287px;
+   width: 562px;
+}
+.s1-1{
+    margin:39px;
+}
+.s1-1 h2{
+    color:#1c5380;
+}
+.s2-2{
+    margin:40px;
+}
+.bdg-android{
+    margin: 20px 40px;
+}
+.bdg-iphone{
+    margin: 20px;
+}
+.section-1 p{
+    margin: 20px;
+}
+/* Section-bottom */
+.section-separator{
+    height: 370px;
+    background-color: white;
+    
+}
+.phone-img{
+    position: absolute;
+    top: 14%;
+    left: 12%;
+}
+/* Footer */
+footer{
+    height: 200px;
+    text-align: center;
+}
+.footer-links li {
+    display: inline-block;
+    margin: 0 10px;
+    color: #003569;
+    text-decoration: none;
+    font-size:12px;
+    text-transform: uppercase;
+    font-weight: bold;
 }
