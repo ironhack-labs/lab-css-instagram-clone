@@ -7,4 +7,64 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url("/home/cocobilbao/code/Labs/lab-css-instagram-clone/starter-code/images/bgtile.png");
+  background-repeat: repeat-x;
+}
+
+
+.movil {
+  float: left;
+  margin-left: 220px;
+  margin-top: -20px;
+}
+
+.texto {
+  float: left;
+  background-image: url("/home/cocobilbao/code/Labs/lab-css-instagram-clone/starter-code/images/frame.png");
+  background-repeat: no-repeat;
+  margin: 15px;
+  height: 380px;
+  width: 400px;
+  border-radius: 25px;
+  text-align: left;
+  padding: 15px;
+  position: relative;
+  top:100px;
+  left:60px;
+}
+.texto h4{
+  color: rgb(3, 3, 59);
+}
+.lista-baja{
+  position: relative;
+  top: 600px;
+  text-align: center;
+  color: rgb(52, 63, 158);
+  margin-bottom: 50px;
+}
+
+nav li{
+  list-style: none;
+  display: inline-block;
+  text-decoration: none;
+}
+.iphone{
+  position: relative;
+  top: 400px;
+  right: 360px;
+}
+.android{
+  position: relative;
+  top: 342px;
+  right: 180px;
+}
+.brand{
+  position: relative;
+  left: 615px;
+  top: 110px;
+}
+.bot-log{
+  position: relative;
+  left: 980px;
+  top: 60px;
 }
