@@ -4,7 +4,89 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url(https://github.com/YaredMyers/lab-css-instagram-clone/blob/master/starter-code/images/bgtile.png?raw=true);
+  background-repeat-y: no-repeat;
+  font-family: Helvetica;
+  padding-top: 40px;
+}
+
+button {
+    position: absolute;
+    height: fit-content;
+    margin: auto;
+    padding: 10px;
+    top: 50%;
+    bottom: 50%;
+    right: 0;
+    background-image: linear-gradient(to bottom, #6d8cb0, #3d5f8f);
+    border: 1px solid #395886;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+button img {
+  vertical-align: bottom;
+}
+
+h1 {
+  color: #06365f;
+  margin-bottom: 40px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+ul a {
+  text-decoration: none;
+  color:#1c5380;
+}
+
+ul li {
+  list-style: none;
+}
+
+.sec {
+  float: left;
+  width: 40%;
+}
+
+.section1__container {
+  width: 40%;
+  padding-left: 150px;
+}
+
+.section2__container {
+  width: 60%;
+}
+
+
+.section3__container{
+  background-image: url(https://github.com/YaredMyers/lab-css-instagram-clone/blob/master/starter-code/images/frame.png?raw=true);
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 40px;
+}
+
+.section3__p1 {
+  margin: 0 auto;
+  max-width: 580px;
+  padding-bottom: 15px;
+}
+
+.section3__p2 {
+  margin: 0 auto;
+  max-width: 574px;
+}
+
+.section3__markets {
+  display: inline-block;
+  padding-top: 25px;
 }
