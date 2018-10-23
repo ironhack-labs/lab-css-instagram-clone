@@ -4,7 +4,129 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+*{
+  box-sizing: border-box;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat;
+  background-size: 100% auto;
+
+}
+
+.clear-fix{
+  clear: both;
+}
+
+
+#main-container{
+
+  margin: 5% 0;
+
+  border:1px solid red;
+
+}
+
+h2 {
+  color: #06365f;
+}
+p{
+  color: #424343;
+  font-weight: 400;
+}
+
+.fondo-section{
+  background-image: url("../images/frame.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0;
+  border: 5px dashed darkblue;
+}
+
+.container{
+  width: 40%;
+  float: left;
+  margin-left: 30px;
+  border: 1px dashed purple;
+}
+
+.main-section{
+  padding: 10px 0 0 50px ;
+}
+
+.mobile{
+  float: left;
+  padding-left: 20%;
+}
+
+
+#copy, li, .button-home{
+  
+  font-weight: 600;
+}
+
+ul{
+  padding: auto 0;
+}
+li{
+  float: left;;
+  list-style-type: none;
+  margin-right: 10px;
+  color:#1c5380;
+  padding: 0 auto;
+
+}
+
+#copy{
+ color: #c3c4c4;
+}
+
+.footer{
+  margin-top: 60px;
+  border: 1px solid yellow;
+}
+
+.brand{
+
+  padding: 15px 0 5px 8px;
+
+}
+
+.button-home{
+  width: 90px;
+  height: 37px;
+  border: 1px solid #06365f;
+  border-radius: 2px;
+  background: linear-gradient(#6993b3, #42749c)    ;
+  float: right;
+  margin-top: 35px;
+  color: #fff;
+}
+
+.button-home img {
+  float: left;
+  margin-right: 6px
+}
+
+.login{
+  display: block;
+  padding-top: 5px;
+}
+
+.app-store{
+  float: left;
+}
+
+.google-play{
+  float: left;
+  margin-left: 90px
+}
+
+.google-play, .app-store {
+  margin-top: 70px;
+  width: 98px;
+  height: 50px;
 }
