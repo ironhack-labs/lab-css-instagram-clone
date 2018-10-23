@@ -4,7 +4,109 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+
+
+
+.container{
+  width: 1200px;
+  margin: 0 auto;
+  padding: 75px 0; 
+
+} 
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url("../images/bgtile.png");
+    background-repeat: repeat-x;
+    height: 100%;
 }
+
+.whiteSquare {
+  background-image: url("../images/frame.png");
+  background-size:  cover;
+  width: 600px;
+  height: 600px;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  
+
+}
+
+ul li {
+  list-style-type: none;
+  text-transform: uppercase;
+  text-align: center;
+  float: left;
+  width: 100px;
+  font-weight: bold;
+  
+}
+
+.bigger{
+  margin: 0 0 1% 0;
+  color: grey;
+}
+
+footer{
+  margin: 10px 10px 10px 150px;
+  color: #06365f;
+ 
+  padding: 40px;
+  height: 40px;
+}
+
+.ab{
+  position: absolute;
+  padding: 30px ;
+}
+
+.position{
+  float:left;
+ 
+}
+
+.clearfix { 
+  clear: both; 
+}
+
+
+.box{
+Margin: 5px 25% 5px 50px;
+Padding: 5px;
+Width: 10%;
+  
+}
+
+.button{
+    color: white;
+    
+  font-family: 'Arial';
+    
+    letter-spacing: 0.5px;
+    
+    text-decoration: none;
+    display: in-line;
+    Width: 100px; 
+    height: 30px;
+  Margin:  10px 0px 10px 140px ;
+  Padding: 15px 3px 15px 7px  ;
+  border: 2px solid rgba(0, 0, 0, 0.2); 
+  }
+
+  .box2{
+    Margin: 5px 10% 5px 2px;
+Padding: 1px;
+Width: 8px, 7px;
+  }
+
+  .clearLeft{
+    clear: left;
+  }
+
+  #logoAndLog{
+    width: 600px;
+  }
+
+  
