@@ -8,3 +8,105 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+#top-blue-color{
+  background-color: #416a90;
+  height: 250px;
+}
+#instagram-login{
+  float: right;
+  margin: 93px 222px;
+}
+.login-button{
+  width: 120px;
+  height: 50px;
+  position: relative;
+  top: -34px;
+  left: 59px;
+  background-color:#678bad;
+  border: 2px solid #37638b;
+}
+.house{
+  float: left;
+}
+#instagram-login a{
+  position: relative;
+  top: 3px;
+  font-family: helvetica;
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  
+}
+#bottom-white-color{
+  background-color: #fff;
+  height: 500px;
+}
+#couple-phones{
+  float: left;
+  position: absolute;
+  top: 88px;
+  left: 220px;
+}
+#frame{
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  float: right;
+  width: 499px;
+  position: absolute;
+  top: 181px;
+  right: 163px;
+
+}
+#footer{
+  position: relative;
+  clear: both;
+  text-align: center;
+  font-size: 15px;
+  top: 400px;
+}
+#footer ul{ 
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+
+}
+#footer li{
+  display: inline;
+  margin: 0 10px;
+  color: gray;
+  font-weight: bold;
+  
+}
+#footer a{
+  text-decoration: none;
+  font-weight: bold;
+  color: #4e789e;
+}
+
+#frame h2{
+  width: 50%;
+  position: relative;
+  left: 45px;
+  top: 14px;
+  font-family: Helvetica;
+}
+#frame p{
+  width: 83%;
+  position: relative;
+  top: 10px;
+  left: 44px;
+  font-family: helvetica;
+  font-weight: 350;
+
+}
+#apple-market{
+  position: relative;
+  left: 20px;
+}
+#market-links{
+  position: relative;
+  left: 42px;
+  top: 9px;
+}
