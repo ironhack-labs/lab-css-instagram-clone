@@ -8,3 +8,96 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.header {
+  background-image: linear-gradient(#557C9F, #386186);
+  height: 260px; 
+}
+
+.header > .brand {
+  padding-top: 90px;
+  margin-left: 50%;
+}
+
+.header button {
+  width: 80px;
+  background: linear-gradient(#839AAE, #426B8E);
+  color: white;
+  border: 1px #386186 solid;
+  margin-top: 20px; 
+  margin-left: 10%;
+  padding: 0  10px; 
+  vertical-align: top;
+  border-radius: 3px;
+}
+
+.home {
+  margin-top: 8px;
+  margin-left: -10px;
+}
+
+.header p { 
+  float: right;
+  margin-left: 6px;
+  margin-right: -4px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.phones {
+  position: absolute;
+  top: 90px;
+  left: 15%;
+}
+
+.content {
+  position: absolute;
+  left: 48%;
+  top: 190px;
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: 4%;
+  padding-left: 4%; 
+  padding-right: 4%; 
+}
+
+.content h2 {
+  margin-top: 24px; 
+  color: #2e5476;
+  padding-right: 35%;
+}
+
+.content p {
+  font-weight: 400;
+}
+
+.content img {
+  margin-top: 20px;
+  margin-right: 5%;
+}
+
+.nav {
+  
+}
+
+.nav ul {
+  text-align: center;
+  list-style: none;
+  display: inline;
+  position: absolute;
+  bottom: 10px;
+  margin: 0 0 60px 300px;
+}
+.nav li {
+  display: inline;
+  margin: 0 10px; 
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #2e5476;
+}
+
+.nav p {
+  display: inline;
+  margin-left: 30px;
+}
