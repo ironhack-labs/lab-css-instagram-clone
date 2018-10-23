@@ -18,19 +18,18 @@ body {
 }
 
 button {
-    position: absolute;
-    height: fit-content;
-    margin: auto;
-    padding: 10px;
-    top: 50%;
-    bottom: 50%;
-    right: 0;
-    background-image: linear-gradient(to bottom, #6d8cb0, #3d5f8f);
-    border: 1px solid #395886;
-    border-radius: 5px;
-    color: white;
-    font-size: 14px;
-    font-weight: 600;
+  margin: auto;
+  padding: 10px 15px;
+  position: absolute;
+  top: 60px;
+  bottom: 300px;
+  right: 300px;
+  background-color: #6d8cb0;
+  border: 1px solid #395886;
+  color: white;
+  font-size: 14px;
+  font-family: "Helvetica";
+  font-weight: 600;
 }
 
 button img {
@@ -44,13 +43,21 @@ h1 {
   font-weight: 600;
 }
 
-ul a {
-  text-decoration: none;
-  color:#1c5380;
+footer {
+  font-weight: bold;
+  display: inline-block;
+  padding-left: 325px;
+  padding-top: 15px;
 }
 
-ul li {
-  list-style: none;
+footer nav {
+  display: inline;
+}
+
+footer nav a {
+  margin: 8px;
+  color: #6d8cb0;
+  text-decoration: none;
 }
 
 .sec {
@@ -66,7 +73,6 @@ ul li {
 .section2__container {
   width: 60%;
 }
-
 
 .section3__container{
   background-image: url(https://github.com/YaredMyers/lab-css-instagram-clone/blob/master/starter-code/images/frame.png?raw=true);
@@ -89,4 +95,9 @@ ul li {
 .section3__markets {
   display: inline-block;
   padding-top: 25px;
+}
+
+.section__copy {
+  display: inline-block;
+  color: #757575;
 }
