@@ -4,7 +4,101 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+* {
+  box-sizing: content-box;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+}
+
+.phones {
+  display: flex;
+  justify-items: flex-start;
+  margin: 5rem 0 -27rem 12rem;
+}
+
+.logo {
+  display: flex; 
+  justify-content: flex-end;
+  margin-bottom: 1em;
+  margin-right: 15rem;
+
+}
+
+.logo img{
+  margin: 0 2rem 2rem 0;
+}
+
+.btn {
+  background-color: rgb(90, 130, 167);
+  border: 1px solid lightgray;
+  border-radius: 5%;
+  color: white;
+  padding: 12px 8px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+
+.btn:hover {
+  background-color: rgba(106, 150, 190, 1);
+  transition: 0.25s;
+}
+
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  padding: 1rem;
+}
+
+.login img {
+  padding: rem;
+}
+
+.login span {
+  margin-bottom: 2rem;
+  margin-left: -1rem;
+  color: white;
+  padding-bottom: -20rem;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 2rem;
+  margin-left: 35rem;
+  margin-right: 12rem;
+  background-image: url("../images/frame.png"); 
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 12px;
+}
+
+.contact ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.contact li {
+  padding: 1rem 0.75rem 0 0.75rem;
+  list-style: none;
+  color: rgb(34, 117, 196);
+}
+
+#copyright {
+  color: rgba(128, 128, 128, 0.9)
 }
