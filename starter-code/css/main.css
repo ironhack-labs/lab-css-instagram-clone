@@ -8,3 +8,80 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+#background-top{
+  background-image: url('../images/bgtile.png');
+  height: 350px;
+}   
+#container{
+  width: 65%;
+  margin: 0 auto;
+  position: relative;
+  top: -200px;
+}
+.col-4,.col-6,.instagram,.img-logo{
+  float: left;
+}
+.col-4{
+  width: 40%;
+  margin-right: 5%;
+}
+.col-6{
+  width: 55%;
+}
+.clear{
+  clear: both;
+}
+.col-4 img{
+  width: 100%;
+}
+.login{
+  background: linear-gradient(to bottom, rgb(129, 163, 191) 0%, rgba(98,137,170,1) 51%, rgba(41,73,99,1) 100%);
+  color: white;
+  padding: 1% 1%;
+  border-radius: 3px;
+  border: solid 1px #295071ad;
+  width: 90px;
+  float: right;
+}
+.login:hover{
+  cursor:pointer; cursor: hand;
+}
+.login span{
+  margin-left: 10%;
+  font-weight: bold;
+}
+.text-img{
+  margin-top: 3%;
+  background-image: url(../images/frame.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.text-info{
+  padding: 7%;
+}
+.text-info div{
+  line-height: 1.7;
+  font-size: 1.3em;
+  margin-bottom: 3%;
+}
+footer{
+  text-align: center;
+  color: #1c5380;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom:2%;
+  font-size: 1.2em;
+}
+footer .grey{
+  color:grey;
+}
+footer span{
+  margin-left: 1%;
+}
+h1{
+  color:  #06365f;
+  font-size: 3em;
+}
+.android{
+  margin-left: 9%;
+}
