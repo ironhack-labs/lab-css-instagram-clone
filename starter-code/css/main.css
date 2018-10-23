@@ -1,10 +1,77 @@
 /*
-Colors to use:
 dark blue: #06365f
+Colors to use:
 light blue: #1c5380
 */
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+.topDiv {
+  background-color: #1c5380;
+  height: 230px;
+  text-align: center;
+  padding: 100px 70px 0 20px;
+}
+
+.bottomDiv {
+  height: 65%;
+}
+
+.whiteTextBox {
+  position: relative;
+  width: 620px;
+  height: 450px;
+  float: right;
+  margin-right: 100px;
+  top: -130px;
+  background-image: url("../images/frame.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  clear: none;
+  padding: 20px;
+}
+.whiteTextBox-text {
+  padding: 10px;
+  margin-right: 40px;
+}
+.whiteTextBox h2 {
+  width: 78%;
+  color: #06365f;
+}
+.pictureButtons img{
+  width: 150px;
+  padding: 10px;
+}
+.iphoneImage {
+  position: relative;
+  clear: none;
+  float: left;
+  top: -220px;
+  margin-left: 120px;
+}
+#brandImage {
+  margin-left: 320px;
+}
+.bottomOfTheBottom {
+  padding: 5px;
+  text-align: center;
+  display: inline-block;
+}
+.loginImage {
+  margin-right: 30px;
+}
+.topDiv button {
+  background-color: #1c5380;
+  height: 35px;
+  border: 1 solid darkblue;
+  color: white;
+  float: right;
+  margin-top: 30px;
+  text-align: center;
+}
+footer a {
+  margin: 5px;
 }
