@@ -5,6 +5,95 @@ light blue: #1c5380
 */
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+    font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+    background-image: url("../images/bgtile.png");
+    background-repeat: repeat-x;
+    width: 600px;
+}
+
+#telefonos {
+    display: flex;
+    justify-items: flex-start;
+    margin: 100px 100px;
+}
+
+#contenedorPrincipal {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#captureShare {
+    background-image: url("../images/frame.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 600px;
+    float: right;
+    margin-left: 60px;
+}
+
+.titleCapture {
+    width: 250px;
+    padding: 20px 20px;
+}
+
+#captureShare h1 {
+    color: #06365f;
+}
+
+#captureShare p {
+    padding: 10px 10px;
+    margin: 5px 15px;
+}
+
+.brand {
+    position: relative;
+    left: -10%;
+    bottom: 20px;
+}
+
+.login {
+    background-color: #1c5380;
+    position: relative;
+    bottom: 50px;
+    left: 30px;
+    border: 1px solid lightgray;
+    border-radius: 5%;
+    font-size: 16px;
+    padding: 8px;
+    color: white;
+}
+
+.stores {
+    display: flex;
+    align-items: center;
+    padding: 0px 100px;
+}
+
+.stores img {
+    margin: 0px 10px;
+}
+
+footer {
+    position: relative;
+    left: 50%;
+    font-size: 14px;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+footer li {
+    list-style: none;
+    padding: 5px 5px;
+    font-weight: bold;
+    color: #1c5380;
+}
+
+.insta {
+    color: gray;
 }
