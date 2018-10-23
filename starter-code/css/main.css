@@ -8,3 +8,95 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+header{
+  background-image: url("../images/bgtile.png");
+  width: 100%;
+  height: 300px;
+}
+
+#position-header{
+  position:absolute;
+  top: 120px; 
+}
+
+.logo-insta{
+  margin-right: 70px; 
+  float:left;
+  margin-left: 660px; 
+}
+
+.log-in-button{
+  background-color: rgb(93,129,161);
+  border: 1px solid rgb(38,75,113);
+  box-shadow: 1px 1px rgba(45,80,115,0.6);  
+  color: white; 
+  width: 100px;
+  height: 30px; 
+  float: left; 
+  margin-top:15px; 
+  padding: 5px 5px; 
+  border-radius: 2px; 
+}
+
+.log-in-button img{
+padding: 3px 3px; 
+width: 30px; 
+float:left;
+}
+
+.log-in-button p{
+float:left; 
+position:relative;
+bottom:12px; 
+left:5px; 
+font-weight: 600;  
+}
+
+.mobile-image{
+  position: absolute;
+  top: 110px; 
+  left: 270px;
+}
+
+.floating-text{
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  position:relative;
+  top: -80px; 
+  left:660px;
+  width: 600px; 
+}
+.floating-text div{
+padding: 10px 30px; 
+width: 450px; 
+}
+.floating-text 
+h2{
+  width: 260px; 
+  color: #06365f;
+  font-size: 25px; 
+}
+.floating-text p{
+  font-size: 18px; 
+}
+
+footer{
+margin-left: 350px; 
+font-size: 15px; 
+margin-bottom: 50px; 
+text-transform: uppercase;
+}
+footer ul{
+  
+  list-style-type: none;  
+  
+}
+footer a{
+  text-decoration: none; 
+  color: #1c5380;
+  font-weight: 600;
+  float:left; 
+  margin-right: 15px; 
+  
+}
