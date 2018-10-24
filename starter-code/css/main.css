@@ -22,7 +22,6 @@ body {
 }
 .col-text{
   margin-left: 650px;
-  padding-top: 150px;
   background-image: URl("../images/frame.png");
   background-repeat: no-repeat;
   position: relative;
@@ -55,8 +54,11 @@ h2{
   margin-bottom: 30px;
 }
 footer{
-  color: grey
+  color: grey;
+  float: right;
 }
-.footer-p{
-  float: left;
+.text-content{
+  padding: 10px;
+  width: 400px;
 }
+
