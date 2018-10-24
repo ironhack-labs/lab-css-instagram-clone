@@ -8,3 +8,34 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+.background1{
+  background: #1c5380;
+  height: 300px;
+  margin-bottom: 10px;
+  min-width: 725px;
+  padding-top: 10px;
+  width: 100%;
+  
+}
+
+}
+.brand.png{
+  display: block;
+  position: relative;
+  left: 500px;
+  top: 50px
+}
+.phones.png{
+  position: relative;
+  left: 10px;
+  top: 100px;
+}
+.frame.png{
+  background-image: url('../images/frame.png');
+  float: right;
+  height: 100px;
+  margin: 0 20px 20px 0;
+  padding: 10px;
+  width: 250px;
+  text-align: center;
+}
