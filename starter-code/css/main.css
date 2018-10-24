@@ -8,3 +8,87 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.container{
+  margin:0 auto;
+  width:70%;
+  overflow:hidden;
+  position: relative;
+  bottom: 140px;
+}
+
+.clearfix{
+  clear: both;
+}
+
+header{
+  height:40vh;
+  background-color:#1c5380;
+}
+
+#phone{
+  float:left;
+  width: 45%;
+  padding: 0;
+  margin: 0;
+}
+
+.box-1{
+  float:right;
+  width:55%;
+  box-sizing: border-box;
+}
+
+#logo img{
+  margin-right: 50px;
+  width:60%;
+  
+}
+
+
+#logo button{
+  width:100px;
+  height:50px;
+  margin: 8px;
+  background-color:#1c5380;
+  border: 1px solid white;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  
+}
+
+#logo button img{
+  width: 20px;
+ 
+  vertical-align:middle;
+}
+
+#content {
+  border: 1px solid rgb(28, 83, 128, 0.1);
+  padding: 10px 20px;
+  margin: 30px 0;
+  background: white;
+  border-radius: 10px;
+  
+}
+
+#content p {
+  margin-bottom:40px;
+  font-weight:400;
+  border-radius: 10px
+}
+
+ol{
+  margin-left: 30%;
+  padding: 0;
+
+}
+ 
+ol li{
+  list-style-type: none;
+  display: inline;
+  margin: 0 6px;
+  color: #1c5380;
+  font-weight: 500;
+}
