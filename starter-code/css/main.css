@@ -20,10 +20,11 @@ body {
 button {
   margin: auto;
   padding: 10px 15px;
-  position: absolute;
-  top: 60px;
+  height: 50px;
+  position: relative;
+  top: -30px;
   bottom: 300px;
-  right: 300px;
+  right: -140px;
   background-color: #6d8cb0;
   border: 1px solid #395886;
   color: white;
@@ -46,7 +47,7 @@ h1 {
 footer {
   font-weight: bold;
   display: inline-block;
-  padding-left: 325px;
+  padding-left: 350px;
   padding-top: 15px;
 }
 
