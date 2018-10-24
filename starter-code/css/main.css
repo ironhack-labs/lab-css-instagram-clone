@@ -49,11 +49,12 @@ body {
   position: relative;
   clear: none;
   float: left;
-  top: -220px;
-  margin-left: 120px;
+  top: -180px;
+  margin-left: 190px;
 }
 #brandImage {
-  margin-left: 320px;
+  margin-left: 120px;
+  width: 230px;
 }
 .bottomOfTheBottom {
   padding: 5px;
@@ -61,7 +62,7 @@ body {
   display: inline-block;
 }
 .loginImage {
-  margin-right: 30px;
+  margin-right: 50px;
 }
 .topDiv button {
   background-color: #1c5380;
@@ -69,9 +70,16 @@ body {
   border: 1 solid darkblue;
   color: white;
   float: right;
-  margin-top: 30px;
   text-align: center;
+  margin-right: -50px;
+  margin-top: 16px;
 }
 footer a {
   margin: 5px;
+  text-decoration: none;
+}
+.tryingThis {
+  width: 75%;
+  float: right;
+  margin-right: 100px;
 }
