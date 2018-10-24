@@ -7,20 +7,20 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
-  background-image: url("../images/phones.png");
+  /*background-image: url("../images/phones.png");
   background-repeat: no-repeat;
   background-position: relative;
   background-position-x: 10%;
   background-position-y: 30%;
   background-color: #ffffff;
-  /*background: linear-gradient(to bottom, #1c5380 30%, #ffffff 70%);*/
+  background: linear-gradient(to bottom, #1c5380 30%, #ffffff 70%);*/
 
-  /*background: #ffffff;
+  background: #ffffff;
   background-image: url("../images/phones.png"), linear-gradient(#1c5380, #ffffff);
   background-repeat: no-repeat;
   background-position: relative;
   background-position-x: 10%;
-  background-position-y: 30%;*/
+  background-position-y: 30%;
 }
 
 .logo {
