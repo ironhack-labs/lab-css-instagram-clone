@@ -21,10 +21,13 @@ body {
 
 }
 .col-text{
-  margin-left: 20px;
+  margin-left: 650px;
   padding-top: 150px;
   background-image: URl("../images/frame.png");
   background-repeat: no-repeat;
+  position: relative;
+  top:40%;
+
 }
 .download-images{
 display: inline;
@@ -37,6 +40,7 @@ display: inline;
 li{
   display: inline;
   margin: 10px;
+  color: #1c5380;
 }
 #brand{
   margin-bottom: 20px;
@@ -49,4 +53,10 @@ h2{
 #main-text{
   margin-top: 12px;
   margin-bottom: 30px;
+}
+footer{
+  color: grey
+}
+.footer-p{
+  float: left;
 }
