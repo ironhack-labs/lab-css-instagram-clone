@@ -32,12 +32,13 @@ body {
   top:100px;
   left:60px;
 }
-.texto h4{
+.texto h3{
   color: rgb(3, 3, 59);
+  font-weight: bold;
 }
 .lista-baja{
   position: relative;
-  top: 600px;
+  top: 450px;
   text-align: center;
   color: rgb(52, 63, 158);
   margin-bottom: 50px;
@@ -50,12 +51,12 @@ nav li{
 }
 .iphone{
   position: relative;
-  top: 400px;
+  top: 440px;
   right: 360px;
 }
 .android{
   position: relative;
-  top: 342px;
+  top: 382px;
   right: 180px;
 }
 .brand{
@@ -65,6 +66,14 @@ nav li{
 }
 .bot-log{
   position: relative;
-  left: 980px;
-  top: 60px;
+  left: 960px;
+  top: 50px;
+}
+.bot-log button{
+  color: white;
+  background-color: rgb(140, 149, 231);
+  height: 35px;
+  width: 80px;
+  border: none;
+  border-radius: 2px;
 }
