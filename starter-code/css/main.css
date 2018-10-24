@@ -5,6 +5,19 @@ light blue: #1c5380
 */
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 200 16px "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+.top-half {
+  background-color: #06365f;
+}
+
+.ig-logo {
+position: relative;
+left:400px;
+}
+
+.home-icon {
+
 }
