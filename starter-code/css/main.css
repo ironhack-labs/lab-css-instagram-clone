@@ -1,3 +1,6 @@
+
+
+
 /*
 Colors to use:
 dark blue: #06365f
@@ -7,4 +10,108 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  
+}
+
+.imagen-fondo {
+  background-image: url("../images/bgtile.png");
+  height: 1050px;
+  background-repeat: repeat-x;
+}
+
+.descripcion-instagram {
+  height: 550px;
+  margin-left: 400px;
+  margin-right: 400px;
+  margin-top: -950px;
+  padding: 10px;
+  
+}
+
+.imagen-tlfn {
+  float: left;
+  height: 100%;
+  width: 40%;
+  background-image: url("../images/phones.png");
+  background-repeat: no-repeat;
+  
+  
+}
+
+.texto {
+  float: right;
+  height: 100%;
+  width: 60%;
+}
+
+.encabezado {
+  height: 80px;
+  background-image: url("../images/brand.png");
+  background-repeat: no-repeat;
+  
+}
+
+
+.boton-login {
+  background-image: url("../images/home.png");
+  float: right;
+  background-repeat: no-repeat;
+  height: 40px;
+  width: 300px;
+  margin-top: 30px;
+  
+  
+  }
+
+.login {
+  
+  color: white;
+  display: inline-block;
+  margin-left: 150px;
+  margin-right: 30px;
+  }
+
+  .clearfix {
+    overflow: auto;
+}
+.cuerpo-texto {
+  height: 400px;
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  padding: 3px 200px 0px 30px;
+  
+}
+.titulo {
+  color: #3E85C4;
+}
+
+.app-android{
+height: 50px;
+width: 200px;
+background-image: url("../images/badge-android.png");
+background-repeat: no-repeat;
+margin-left: 400x;
+}
+
+.app-ios {
+  height: 50px;
+  width: 200px;
+  float: right;
+  padding-left: 150px;
+  background-image: url("../images/badge-iphone.png");
+  background-repeat: no-repeat;
+  }
+
+.pie-foto {
+  display: content;
+  color:#3E85C4;
+  text-transform: uppercase;
+  margin-left: 500px;
+}
+
+.copyright {
+  color: grey;
+  float: right;
+  margin-right: 600px;
+  
 }
