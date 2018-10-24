@@ -7,4 +7,92 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url("/images/bgtile.png");
+  background-repeat: repeat-x;
+}
+
+.phones{
+  float: left;
+  width: 25%;
+  margin: 75px 15px 10px 250px;
+}
+
+.ig-logo{
+  position: relative;
+  top:80px;
+  left: 24px;
+}
+
+.right{
+  float: right;
+  width: 50%;
+  margin: 75px 0px 10px 0px;
+}
+
+.btn{
+  color: white;
+  background-color: #1c5380;
+  padding: 7px 10px;
+  font-size: 12px;
+  position: relative;
+  left: 110px;
+  top: 50px;
+  border: rgb(44, 44, 44) 0.10px solid;
+  box-shadow: 0px 1px 1px rgb(0, 0, 0);
+}
+
+.fading-bc{
+  background-image: url("/images/frame.png");
+  background-repeat: no-repeat;
+  padding: 20px 20px;
+}
+
+h3{
+  padding-left: 15px;
+  color: #06365f;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+p{
+  padding-left: 15px;
+  width: 70%;
+}
+
+
+.apple-logo{
+padding-left: 50px;
+float: left;
+width: 11%;
+}
+
+.andriod-logo{
+padding:0px 20px;
+float: left;
+width: 10%;
+}
+
+footer{
+  clear: both;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 12px;
+  padding-right: 6%;
+  padding-top: 10px;
+}
+footer ul li {
+  list-style: none;
+  display: inline;
+  padding: 5px 10px;
+
+}
+
+footer a {
+  text-decoration: none;
+  color: #1c5380;
+  font-weight: bold;
+}
+
+.copyright{
+  color: gray;
 }
