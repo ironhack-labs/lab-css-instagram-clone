@@ -12,9 +12,7 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
   background-image: url("../images/bgtile.png");
-  background-repeat: repeat;
-  background-size: 100% auto;
-
+  background-repeat: repeat-x;
 }
 
 .clear-fix{
@@ -23,16 +21,13 @@ body {
 
 
 #main-container{
-
   margin: 5% 0;
-
-  border:1px solid red;
-
 }
 
-h2 {
+h2{
   color: #06365f;
 }
+
 p{
   color: #424343;
   font-weight: 400;
@@ -43,14 +38,12 @@ p{
   background-size: cover;
   background-repeat: no-repeat;
   padding: 0;
-  border: 5px dashed darkblue;
 }
 
 .container{
   width: 40%;
   float: left;
   margin-left: 30px;
-  border: 1px dashed purple;
 }
 
 .main-section{
@@ -64,20 +57,18 @@ p{
 
 
 #copy, li, .button-home{
-  
   font-weight: 600;
 }
 
-ul{
-  padding: auto 0;
-}
 li{
   float: left;;
   list-style-type: none;
+  font-size: 10px;
   margin-right: 10px;
   color:#1c5380;
   padding: 0 auto;
-
+  text-transform: uppercase;
+  
 }
 
 #copy{
@@ -85,14 +76,16 @@ li{
 }
 
 .footer{
-  margin-top: 60px;
-  border: 1px solid yellow;
+  width: 55%;
+  margin: 0 auto;
+  padding-bottom: 40px;
+  padding-left: 120px; /* HELP: otra manera de hacerlo */
+  border: 1px solid red;
+
 }
 
 .brand{
-
   padding: 15px 0 5px 8px;
-
 }
 
 .button-home{
@@ -126,7 +119,7 @@ li{
 }
 
 .google-play, .app-store {
-  margin-top: 70px;
+  margin-top: 15px;
   width: 98px;
   height: 50px;
 }
