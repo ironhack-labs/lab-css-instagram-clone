@@ -8,3 +8,59 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.divOne {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:rgb(80,120,150); 
+}
+
+.divTwo {
+    position: fixed;
+    top: 40%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:rgb(245,246,248); 
+}
+
+.imageOne {
+  position: relative;
+  left: 47%;
+  top: 20%;
+}
+
+.float {
+  float: right;
+  padding-left: 10px;
+}
+
+.imageTwo {
+  padding-top: 5px;
+}
+
+.buttonDiv {
+  position: relative;
+  top: 10%;
+  left: 80%;
+}
+
+.button {
+  background-color: rgb(101,141,170);
+  border-color: rgb(55,100,133);
+}
+
+.imageThree {
+  position: relative;
+  top: -29%;
+  left: 15%;
+}
+
+.imageFour {
+  position: relative;
+  top: 2%;
+  left: 2%;
+}
