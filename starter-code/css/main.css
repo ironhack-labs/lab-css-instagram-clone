@@ -4,7 +4,71 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.div1 {
+  background-color: #1c5380;
+  height: 230px;
+  width: 100%;
+
+}
+.iglogo {
+  position: relative;
+  left: 550px;
+  top: 75px
+}
+
+h3 {
+  color: #06365f
+}
+.home-button {
+  background-color: #1c5380;
+  float: right;
+  margin-top: 105px;
+  margin-right: 300px;
+  color: white; 
+
+}
+.div2 {
+  background-image: url('../images/frame.png');
+  float: right;
+  width: 47%;
+  position: relative;
+  background-size: cover;
+  bottom: 600px;
+  padding: 6px 45px 0 25px;
+  margin-right: 156px;
+  font-size: 21px;
+  
+}
+.buttons{
+  margin-left: 20px;
+border: 2px;
+}
+
+.phoneImg {
+  position: relative;
+  bottom: 150px;
+  left: 100px;
+ 
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  
 }
+
+footer{
+  
+  color: #06365f;
+  text-align: right;
+  float: right;
+  padding-left: 80px;
+}
+
+
