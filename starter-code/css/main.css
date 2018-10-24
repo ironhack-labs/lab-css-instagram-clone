@@ -1,4 +1,4 @@
-/*
+  /*
 Colors to use:
 dark blue: #06365f
 light blue: #1c5380
@@ -12,6 +12,7 @@ body {
   background-image: url("../images/bgtile.png");
   background-repeat: repeat-x;
   width: 100%;
+  height: 100%;
 }
 
 .container {
@@ -35,13 +36,18 @@ div button {
   padding: 5px;
   border-radius: 5px;
   font-weight: bold;
+  position: relative;
+  bottom: 30px;
+  left: 80px; 
+  
 }
 
-.container p{
-  margin-top: 5px;
-  
-  columns: white;
 
+
+
+
+.container p{
+  margin-top: 2px;
 }
 
 .div-left {
@@ -137,3 +143,15 @@ li a{
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 
 }
+
+
+.button-login{
+  font-size: 15px;
+  padding: 5px;
+}
+
+
+.home-image{
+  padding: 5px;
+}
+
