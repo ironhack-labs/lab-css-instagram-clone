@@ -3,8 +3,98 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+html, body {
+  height: 100%;
+}
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
   margin: 0;
+}
+
+.blue-block {
+  background-color: #1c5380;
+  height: 45%;
+  width: 100%;
+  position: fixed;
+}
+
+.phones {
+  position: absolute;
+  top: 15%;
+  left: 15%;
+}
+
+.content {
+  position: absolute;
+  top: 15%;
+  right: 20%;
+  width: 35%;
+  margin-top: 2%;
+}
+
+.brand {
+  float: left;
+}
+
+.log-in {
+  border: 1px solid #06365f;
+  float: right;
+  margin-top: 3%;
+  padding: 1%;
+  border-radius: 3px;
+}
+
+#home {
+  float: left;
+  vertical-align: middle;
+}
+
+.header-text {
+  color: white;
+  float: left;
+  font-weight: bold;
+  padding: 0;
+}
+
+.text-box {
+  clear: both;
+  background-color: white;
+  margin-top: 20%;
+  padding: 5px 30px;
+  border-radius: 15px;
+  border: 2px solid transparent;
+  border-image: linear-gradient(to top,white 0%, #1c5380 100%);
+  border-image-slice: 1;
+}
+
+h2 {
+  color: #06365f;
+}
+
+p {
+  margin: 5px;
+}
+
+.download {
+  margin: 5%;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 15%;
+  text-transform: uppercase;
+  color: #1c5380;
+  font-weight: 900;
+}
+
+footer li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+#grey {
+  color: grey;
 }
