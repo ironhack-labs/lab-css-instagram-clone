@@ -1,10 +1,171 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
+html {
+  height: 1045px;
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  height: 100%;
   margin: 0;
+  background: linear-gradient(to bottom, rgba(90,125,158,1) 0%, rgba(55,95,133,1) 27%, rgba(55,95,133,1) 27%, rgba(249,250,251,1) 27%, rgba(249,250,251,1) 100%);
+}
+
+ul {
+  list-style: none;
+  color: #4E789D;
+  font-weight: bold;
+  margin: 20px;
+  padding: 0;
+  display: inline-block;
+}
+
+li {
+  display: inline-block;
+  margin: 5px 10px;
+}
+
+.main-container {
+  display: flex;
+  float: left;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+.phones {
+  display: inline-block;
+}
+
+.card-container {
+  display: inline-block;
+  margin-left: 5%;
+  width: 50%;
+}
+
+.card-header {
+  display: flex;
+}
+
+.logo {
+  display: block;
+  width: 70%;
+}
+
+.logo img {
+  height: auto;
+  width: auto;
+}
+
+.login-container {
+  display: flex;
+  width: 30%;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-button {
+  text-align: center;
+  text-decoration: none;
+  color: #E8EDF2;
+  font-weight: bold;
+  padding: 6px 15px;
+  border: 1px solid #50779B;
+  background-image: linear-gradient(to top, #41678a, #4c7293, #577d9d, #6288a6, #6e93b0);
+  border-radius: 3px;
+  -webkit-box-shadow: -5px 9px 78px -13px rgba(0,0,0,0.47);
+  -moz-box-shadow: -5px 9px 78px -13px rgba(0,0,0,0.47);
+  box-shadow: -5px 9px 78px -13px rgba(0,0,0,0.47);
+}
+
+.login-button img {
+  position: relative;
+  top: 2.5px;
+}
+
+.login-button span {
+  position: relative;
+  bottom: 2px;
+}
+
+.card {
+  display: inline-block;
+  width: 90%;
+  height: 250px;
+  padding: 5%;
+  background-image:url("../images/frame.png");
+  background-size: cover;
+}
+
+.button-footer {
+  display: flex;
+  margin: 10px 5%;
+}
+
+.download-button {
+  width: 40%;
+}
+
+.phones2 {
+  display: none;
+  justify-content: center;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+/* .testborder {
+  border: 1px solid black;
+}
+.testborder2 {
+  border: 1px solid red;
+}
+.testborder3 {
+  border: 1px solid green;
+} */
+
+@media only screen and (max-width: 935px) {
+  .main-container {
+    display: inline;
+  }
+  .card-container {
+    width: 90%;
+  }
+  .phones {
+    display: none;
+  }
+  .card-header {
+    display: inline;
+  }
+  .logo {
+    width: 100%;
+  }
+  .login-button {
+    display: inline-block;
+    margin: 0 0 10px 7px;
+  }
+  .login-container {
+    width: 90%;
+    display: inline;
+  }
+  .button-footer {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .download-button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  .phones2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  ul {
+    color: white;
+    font-weight: bold;
+  }
 }
