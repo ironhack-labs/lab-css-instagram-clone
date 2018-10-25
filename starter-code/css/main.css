@@ -7,4 +7,171 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  height: 100%;
+}
+
+.top-header {
+  background-color: #1c5380;
+  height: 200px;
+}
+
+.header {
+  display: inline-block;
+  width: 100%;
+  margin-top: -200px;
+  padding-top: 40px;
+}
+
+.header-phone {
+  float: left;
+  width: 20%;
+  margin-left: 150px;
+  padding-left: 100px;
+}
+
+.header-phone img {
+  width: 320px;
+  height: 450px;
+}
+
+.header-right {
+  width: 40%;
+  float: right;
+  margin-right: 100px;
+  height: 400px;
+}
+
+.header-logos {
+  display: inline-block;
+  width: 100%;
+  
+}
+
+.insta-left img{
+  width: 200px;
+  float: left;
+  margin-right: 20px;
+}
+
+.home-right {
+  
+  box-shadow: 0px -1px 12px 0px rgba(6,54,95,1);
+  outline: none;
+  background-image: linear-gradient(#06365f, #1c5380);
+  margin-top: 10px;
+  float: right;
+  width: 100px;
+  padding-left: 15px;
+  padding-top: 5px;
+}
+
+.home-logo {
+  float: left;
+  color: #fff;
+}
+
+.log-in {
+  display: inline-block;
+  margin: 0 0 0 10px;
+}
+
+.log-in span{
+  color: #fff;
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+
+.white-box {
+  background-color: white;
+  box-shadow: 1px 1px 29px -3px rgba(240,231,240,1);
+  border-radius: 10px 10px 10px 10px;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+}
+
+.white-box-words {
+  padding: 10px 20px;
+}
+
+.white-box-words p {
+  padding-top: 0;
+}
+
+.white-box-words span {
+  font-weight: bolder;
+}
+
+.white-box-words h2 {
+  font-weight: bolder;
+  color: #1c5380;
+}
+
+.badges {
+  margin-top: 20px;
+  display: inline-block;
+  width: 100%;
+}
+
+.badges-right {
+  float: right;
+  margin-right: 50px;
+}
+
+.badges-left {
+  float: left;
+  margin-left: 50px;
+}
+
+.footer {
+  width: 100%;
+  align-items: center;
+}
+
+.footer-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 100px;
+  vertical-align: text-bottom;
+  font-weight: bold;
+  color: #1c5380;
+  text-transform: uppercase;
+}
+.footer-list span{
+  color: #808080;
+  font-weight: bolder;
+}
+
+@media only screen and (max-width: 1000px) {
+  .header-phone {
+  margin-left: 10%;
+  }
+  .header-right {
+    margin-top: 50px;
+    margin-right: 180px;
+  }
+  .home-right {
+    margin-right: 80px;
+  } 
+  .insta-left {
+    margin-left: 30px;
+  }
+  .white-box {
+    visibility: hidden;
+  }
+  .white-box-words {
+    visibility: visible;
+    width: 100%;
+  }
+  .badges {
+    margin-top: 75%;
+    display: flex;
+    justify-content: center;
+    }
+  .footer {
+    display: none;
+  }
 }
