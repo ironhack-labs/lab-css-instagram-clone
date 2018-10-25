@@ -21,6 +21,11 @@ body {
   clear: both;
 }
 
+a{
+  text-decoration: none;
+  color:#1c5380;
+}
+
 header{
   height:40vh;
   background-color:#1c5380;
@@ -47,7 +52,7 @@ header{
 
 
 #logo button{
-  width:100px;
+  width:120px;
   height:50px;
   margin: 8px;
   background-color:#1c5380;
@@ -55,13 +60,16 @@ header{
   color: white;
   font-weight: 600;
   font-size: 16px;
+  position:relative;
   
 }
 
 #logo button img{
   width: 20px;
- 
+  position:absolute;
   vertical-align:middle;
+  top:13px;
+  left:10px;
 }
 
 #content {
@@ -79,6 +87,11 @@ header{
   border-radius: 10px
 }
 
+#content img{
+  position:relative;
+  left:85px;
+}
+
 ol{
   margin-left: 30%;
   padding: 0;
@@ -92,3 +105,10 @@ ol li{
   color: #1c5380;
   font-weight: 500;
 }
+
+li:last-of-type{
+  color: black;
+  font-weight:200;
+}
+
+
