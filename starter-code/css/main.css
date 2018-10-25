@@ -24,6 +24,7 @@ justify-content: space-between;
 align-items: center;
 
 }
+
 header {
   margin: 20px 0;
 
@@ -54,7 +55,7 @@ h1 {
 }
 
 ul {
-  list-style: none;d
+  list-style: none;
 }
 
 li a {
@@ -65,7 +66,8 @@ li a {
 }
 
 footer { 
-  margin: 0 200px;
+  margin: 0 auto;
+  width: 76%;
 }
 
 .sp-b-img {
