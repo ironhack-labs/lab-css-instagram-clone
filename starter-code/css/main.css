@@ -8,3 +8,80 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+#container {
+  background: linear-gradient(to bottom, #4d779a 35%, #fff 0%);
+}
+
+#content {
+  display: flex;
+  width: 1020px;
+  margin: 0px auto;
+  padding: 50px 0;
+  justify-content: space-between;
+}
+.box {
+  width: 498px;
+}
+
+.logo-login {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 1em;
+  color: #fff;
+  border: none;
+  background-color: #699eca;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button img {
+  margin-right: 20px;
+}
+
+.text {
+  padding: 5px 20px;
+  background: url(../images/frame.png);
+  background-repeat: no-repeat;
+}
+.text h1 {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #4d779a;
+}
+.download {
+  display: flex;
+  padding: 0 20px;
+}
+
+.download img {
+  margin-right: 10px;
+}
+
+.foot-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 630px;
+  margin: 0 auto;
+}
+
+.foot-nav a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #4d779a;
+}
+
+.foot-nav p {
+  color: grey;
+}
+
+
