@@ -1,10 +1,180 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
 
-body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+html,body{
+  height: 100%;
+  overflow: auto;
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif; 
   margin: 0;
 }
+
+#maincontainer{
+  width: 65%;
+  margin: 0 auto;
+  height: 100%;
+  position: relative;
+  z-index: 0;
+  }
+
+.BlueBackground{
+  background-color: #1c5380;
+  height: 35%;
+  width: 100%;
+}
+  
+.whiteBackground{
+background-color: white;
+height:55%;
+width: 100%;
+}
+
+.subcontainer{
+  height: 100%;
+  z-index: 1;
+  position: absolute;
+  top: 95px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 85%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+#phones{
+  width: 37%;
+  float: left;
+  margin: 0 40px 0 0;
+}
+
+#phones img{
+  width: 100%;
+  height: 100%;
+}
+
+#header{
+  float: left;
+  width: 53.2%;
+}
+
+.menu{
+  margin-top: 25px;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.menu li{
+  display: inline-block;
+ 
+}
+
+.instagramLogo{
+  margin: 0;
+  padding: 0;
+  width: 63%;
+  margin-left: 10px;
+}
+
+.instagramLogo img{
+    width: 100%;
+}
+
+.logIn {
+  float:right;
+}
+
+.logIn  button{
+  color: #e6e6e6;
+  background-color:#205f92;
+  border: none;
+  padding:10px 14px;
+  font-size: 1.2em;
+  font-weight: 700;
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.2);
+-moz-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.2);
+box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.2);
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.logIn  button:focus{
+  outline: none;
+}
+
+.textButton{
+  position: relative;
+  top: 2px;
+}
+
+.homeImage{
+  margin: 0 10px 2px 0;
+  vertical-align: middle;
+  width: 30px;
+}
+
+#textArticle{
+  background-image: url(../images/frame.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  float: left;
+  width: 45%;
+  padding: 3.6% 4.5% 3%  4.5% ;
+}
+
+h1{
+  color:#06365f;
+  width: 64%;
+  font-size: 1.8em;
+  margin: 0;
+}
+
+p{
+  width: 100%;
+  font-size: 1.13em;
+}
+
+.clearfix{
+  clear: left;
+}
+
+#buttons{
+margin: 0 0 5%  4.5%;
+display: inline-block;
+width: 45%;
+}
+
+.apple{
+  width: 40%;
+  height: 65px;}
+
+.google{
+  height: 65px;
+  width: 40%;
+  padding-left: 20px;
+}
+
+#footerNav{
+width: 75%;
+margin: 0 auto;
+}
+
+.menuDown{
+list-style-type: none;
+}
+
+.menuDown li{
+  display: inline-block;
+  padding-left: 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.8em;
+}
+
+.menuDown li a{
+  text-decoration: none;
+  color: #1c5380;
+}
+.copyrightInstagram{
+  color: #cccccc !important;
+  margin: 0 35px 0 10px;
+  }
