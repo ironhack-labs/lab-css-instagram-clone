@@ -7,4 +7,81 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: linear-gradient(180deg,rgb(53,96,130) 39%, #fff 39%);
+  width: 1200px;
 }
+#section-1{
+  float: left;
+  margin: 10% 3% 4% 16%;
+}
+#section-2{
+  float: left;
+  width: 500px;
+  margin: 10% 9% 4% 3%;
+}
+#section-3{
+  clear: both;
+  margin-bottom: 5%;
+  padding: 0% 0% 0% 10%;
+}
+#home-b{
+  border: 2px solid rgb(43,92,127);
+  color: white;
+  background-image: linear-gradient(rgb(111,147,174),rgb(66, 115, 149));
+  width: 20%;
+  height: 35px;
+  padding-top: 5px;
+  text-align: center;
+  float: right;
+  border-radius: 7px;
+  vertical-align: middle; 
+  margin-top: 14px;
+}
+#home-img{
+  vertical-align: middle; 
+}
+#login-text{
+  float: right;
+  padding-top: 2px;
+  padding-right: 15px;
+}
+#box-botons{
+  background: url("../images/frame.png") no-repeat; 
+  text-align: left;
+  padding: 30px;
+}
+.header-box-bottons{
+  color: rgb(5,49,84);
+  font-size: 30px;
+  width: 320px;
+}
+#apple-id{
+  float: left;
+  margin: 2%;
+}
+#google-id{
+  float: left;
+  margin: 2%;
+}
+#list{
+  list-style-type: none;
+  width: 800px;
+  margin: 0 auto;
+}
+li{
+  float: left;
+  margin: 0% 8px;
+}
+#list-item{
+  text-decoration-line: none;
+  width: 800px;
+  float: right;
+  color: rgb(166,166,166);
+  padding-left: 20px;
+}
+ a{
+    text-decoration-line: none;
+    color: rgb(70,118,150);
+    font-weight: bold;
+    text-transform: uppercase;
+  }
