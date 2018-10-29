@@ -3,8 +3,121 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+@font-face{
+	font-family: 'Billabong';
+	src:url('../font/Billabong.ttf');
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+}
+
+body section{
+	margin-left: auto;
+	margin-right: auto;
+	width: 850px;
+	margin-top: 90px;
+}
+
+.phones{
+	background-image: url('../images/phones.png');
+	background-repeat: no-repeat;
+	float: left;
+	width: 350px;
+	height: 600px;
+}
+
+.content{
+	float: right;
+	width: 500px;
+	margin-top: 20px;
+}
+
+.instagram-cam{
+	background-image: url('../images/brand.png');
+	background-repeat: no-repeat;
+	width: 310px;
+	height: 80px;
+	float: left;
+}
+
+.instagram-home{
+	background-image: url('../images/home.png');
+	background-repeat: no-repeat;
+	background-position: left;
+	width: 25px;
+	height: 25px;
+	float: left;
+}
+
+.instagram-login{  
+	text-align: right;
+	width: 80px;
+	height: 30px;
+	float: right; 
+	color: white; 
+	background-image: linear-gradient(#7E9EB8, #4B7699);
+	border-style: solid;
+	border-width: 1px;
+    border-color: #06365f;
+    border-radius: 3px;
+    font-weight: bold;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    margin-top: 20px;
+}
+
+.instagram-title{
+	font-family: 'Billabong';
+	font-size: 80px;
+	color: #fff;
+}
+.instagram-header{  
+	height: 90px;
+}
+.content-description{
+	clear: both;
+	background-image: url('../images/frame.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 280px;
+	padding-left:50px;
+	padding-right: 50px;
+	padding-top: 20px;  
+}
+.content-description h1{
+	color: #06365f;
+
+}
+
+.content-description p span{
+	font-weight: bold;
+}
+.content-description a img{
+	margin-right: 20px;  
+	margin-top: 5px;
+}
+
+footer{
+	clear: both;
+	width: 100%; 
+	text-align: center;
+}
+footer ul li a {
+	color: #3A688F;
+	text-decoration: none;
+}
+footer ul li {
+  display: inline-block;
+  margin: 0 10px;
+  font-weight: bold; 
+}
+
+.copyRight{
+	color: grey;
+	
 }
