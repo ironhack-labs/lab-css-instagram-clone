@@ -3,8 +3,127 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+/* 
+Jesus Zuñiga */
+
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  
+  
 }
+
+/* Primer Div */
+
+.firstDiv{
+  background-color: #1c5380;
+  height:325px;
+  width: 100%;
+  position: absolute;
+  top: 10px;
+}
+
+.secondDiv{
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 325px 0 0 0;
+}
+
+.section2{
+  position: absolute;
+  margin: 150px;
+}
+
+
+.iphones{
+  
+    float: left;
+    margin: 1px;
+    width: 10%;
+    position: relative;
+    bottom: 0px;
+}
+
+.instagram-logo{
+  float: right;
+  position: relative;
+  right: 31px;
+}
+
+.log-in{
+
+  position: relative;
+  left: 630px;
+  top:21px;
+  color: white;
+}
+
+.logea{
+
+    padding: 8px 8px 8px 32px;
+    font-family: Arial, Verdana;   
+    background: #1c5380 url(../images/home.png);
+    background-position: 8px 8px;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 630px;
+    top:21px;
+    border: none;
+    
+}
+
+#texto-log{
+
+  color: white;
+  position: relative;
+  top: 8px;
+  left: 3px;
+
+}
+
+
+.right-content{
+  float: right;
+}
+
+
+
+.text {
+
+  /* clear: right; */
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  padding: 25px;
+  position: relative;
+  left: 400px;
+  top: 100px;
+  width: 700px;
+  padding-right: 10px;
+
+}
+
+.apps {
+  margin: 20px 0 0 0;
+}
+
+.app-store {
+  float: left;
+  margin: 100px 25px 25px;
+  position: relative;
+  left: 374px;  
+}
+
+.google-play {
+  float: right;
+  margin: 100px 25px 25px;
+  position: relative;
+  left: 109px;
+
+}
+
+
