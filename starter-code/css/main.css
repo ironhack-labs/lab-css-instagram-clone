@@ -7,4 +7,86 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  height: 100%;
+  background-color: #fff;
+}
+.container { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to bottom, #386991 40%, #fff 40%);
+}
+.container .content-info {
+  width: 90%;
+}
+.container .content {
+  display: flex;
+}
+.container .content-info .mockup {
+  width: 40%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.container .content-info .info{
+  width: 60%;
+  padding-top: 5%;
+}
+.container .content .info .text {
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 20px 40px;
+  width: 80%;
+}
+.container .content .info .log {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px 10px 0;
+  width: 80%;
+}
+.container .content .info .log img {
+  margin-left: 0;
+}
+.container .content .info .log .login button {
+  min-width: 100px;
+  background: linear-gradient(to bottom, rgba(105,141,171,1) 0%, rgb(36, 92, 137) 100%);
+  border: 1px solid #1c5380;
+  color: white;
+  font-size: 16px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.container .content .info .text p {
+  font-size: 18px;
+}
+.container .content .info .text h1 {
+  color: #1c5380;
+  width: 65%;
+  line-height: 36px;
+}
+.container .content-info img {
+  margin-left: 40px;
+}
+.container .content-info img:last-child {
+  margin-left: 20px;
+}
+.container .content-info nav {
+  width: 70%;
+  margin: 50px auto 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.container .content-info nav a {
+  text-transform: uppercase;
+  color: #1c5380;
+  text-decoration: none;
+  font-weight: 500;
+}
+.container .content-info nav a:last-child {
+  color: #b8bdc2;
 }
