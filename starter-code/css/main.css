@@ -8,3 +8,52 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.blue-container {
+  width: auto;
+  height: 400px;
+  background-color: #547b9e;
+}
+
+.white-container {
+  width: auto;
+  height: 600px;
+}
+
+.main-content {
+  position: absolute;
+  display: flex;
+  top: 20%;
+  right: 20%;
+  bottom: 20%;
+  left: 20%;
+}
+
+.mobile-img-content {
+  margin-right: 20px;
+  padding-right: 20px;
+}
+
+.info-content {
+  margin-left: 20px;
+  padding-left: 20px;
+}
+
+.header-content {
+  display: flex;
+}
+
+.text-content {
+  background: url('../images/frame.png');
+}
+
+.nav-container {
+  position: absolute;
+  bottom: 15%;
+  left: 25%;
+  right: 25%;
+  margin: 0 auto;
+  text-transform: uppercase;
+  text-decoration: none;
+  
+}
