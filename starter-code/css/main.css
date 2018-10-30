@@ -7,4 +7,88 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.blue {
+  height: 300px;;
+  background: #1c5380;
+}
+
+.content {
+  display: flex;
+  padding: 100px;
+  height: 300px;
+}
+
+.image {
+  position: relative;
+  top: -300px;
+}
+
+.sub_section {
+  position: relative;
+  top: -334px;
+  padding: 50px;
+}
+
+.btn {
+  margin-top: 20px;
+  background-color: #55a0e0;
+  height: 30px;
+  width: 80px;
+  border-radius: 4px;
+  color: white;
+  border-style: none;
+  position: absolute;
+  display: inline-flex;
+  right: 50px;
+  padding: 5px;
+}
+
+.btn img {
+  width: 25px;
+  height: 25px;
+}
+
+
+.information {
+  background: white;
+  border-radius: 15px;
+  padding: 16px;
+}
+
+.title {
+  display: inline-flex;
+  margin-bottom: 24px;
+}
+
+ul {
+  list-style:none;
+  display: inline-flex;
+  color: #06365f;
+  font-size: medium;
+}
+
+ul li {
+  margin: 16px;
+}
+
+.footer {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+h1 {
+  color: #06365f;
+}
+
+p {
+  font-size: 1.3em;
+}
+
+.copy {
+  font-size: 1em;
+  color: grey;
 }
