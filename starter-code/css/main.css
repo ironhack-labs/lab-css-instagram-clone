@@ -8,3 +8,46 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.blue-background {
+  height: 400px;
+  background-color: #4f7fcc;
+}
+
+.logo {
+  width: 50%;
+  position: fixed;
+  top: 250px;
+  right: 0px;
+  left: 550px;
+  bottom: 0px;
+}
+
+.login {
+  width: 50%;
+  position: fixed;
+  top: 250px;
+  right: 0px;
+  left: 1000px;
+  bottom: 0px;
+}
+
+.phones {
+  position: fixed;
+  top: 250px;
+  right: 0px;
+  left: 50px;
+  bottom: 0;
+}
+
+.white-background {
+  background-image: url("../images/frame.png");
+  background-repeat: none;
+  width: 50%;
+  float: right;
+  position: fixed;
+  top: 350px;
+  right: 0px;
+  left: 550px;
+  bottom: 0px;
+}
