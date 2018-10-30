@@ -5,6 +5,147 @@ light blue: #1c5380
 */
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 200 16px/1.5 'Montserrat', sans-serif;
   margin: 0;
+}
+
+#instagram{
+  width: 100%;
+  height: 100vh;
+  overflow-y: none;
+  overflow-x: none;
+}
+
+.div-blue{
+  background: #48769b;
+  width: 100%;
+  height: 40vh;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+
+.container{
+  width: 1170px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+
+.img-celphone{
+  width: 100%;
+  height: auto;
+  padding-top: 10%;
+  text-align: center;
+  padding-left: 10%;
+}
+
+.img-brand{
+  width: 109%;
+  height: auto;
+  padding-top: 18%;
+  display: inline-block;
+}
+
+.col-50{
+  width: 50%;
+  height: auto;
+  float: left
+}
+
+.f-left{
+  float: left;
+}
+
+.button-login{
+  float: right;
+  border:1px solid #285c86;
+  border-radius: 3px;
+  background:#06365f ;
+  padding: 10px 10px 10px 10px;
+  font-size: 16px;
+  color: #fff;
+  margin-top: 20px;
+  background-image: linear-gradient(#6992b2, #43759d); /* Standard syntax (must be last) */
+
+}
+
+.text-bg{
+  width: 100%;
+  height: auto;
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 15px;
+
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+  width: 487px;
+  display: inline-block;
+
+}
+
+li {
+  float: left;
+  padding-left: 10px;
+  color: #1c5380;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+li a {
+  display: block;
+  color: #1c5380;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+footer{
+  position: fixed;
+  z-index: 100;
+  text-align: center;
+  top: 95%;
+  width: 100%;
+  height: 50px;
+  display: table;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.text-button{
+  padding-left: 10px;
+}
+
+h1{
+  color: #06365f ;
+}
+
+.btn-android{
+  padding-left: 20px;
+}
+
+
+.copyright{
+  padding-left:30px;
+  color: #c1c1c1;
+  font-weight: 500;
+  position: absolute;
 }
