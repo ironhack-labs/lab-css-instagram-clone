@@ -7,4 +7,154 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  min-height: 100%;
+}
+
+img {
+  display: block;
+}
+
+h1 {
+  width: 50%;
+  color: #06365f;
+  padding: 4% 5% 2%;
+  margin: 10% 0 0;
+  line-height: 1em;
+}
+
+p {
+  padding: 0 5%;
+}
+
+.top--blue {
+  /* background-color: #06365f; */
+  background-image: url('../images/bgtile.png');
+  /* background-size: cover; */
+  width: 100%;
+  height: 200px;
+  /* height: 300px; */
+  /* Cambiar esto */
+  box-shadow: 0 2px 3px #222222;
+}
+/* 
+.bottom {
+  width: 100%;
+  height: 57%;
+} */
+
+.floating {
+  position: absolute;
+  top: 5em;
+  margin: 0 6%;
+  /* background-color: rgba(0,0,0,0.1); */
+  /* para pruebas */
+}
+
+/* Aquí, sumo 34% de margen + width de izquierda
+y 66% de margen + width de derecha */
+.floating--left {
+  height: 50%;
+  width: 30%;
+  margin: 0 2%;
+  display: block;
+  float: left;
+}
+
+.floating--right {
+  height: 50%;
+  width: 60%;
+  margin: 0 3%;
+  display: block;
+  float: right;
+}
+
+.logos {
+  height: 25%;
+  width: 100%;
+}
+
+.text--framed {
+  background-image: url("../images/frame.png");
+  background-size: cover;
+  height: 50%;
+  width: 100%;
+  color: #222222;
+}
+
+footer {
+  position: relative;
+  top: 26em;
+  height: 67%;
+  width: 100%;
+  text-align: center;
+}
+
+footer ul {
+  list-style: none;
+  display: inline-flex;
+  width: 50%;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 10pt;
+  color: #1c5380;
+}
+
+.copyright {
+  color: #AAAAAA;
+}
+
+li {
+  margin: 0 1%;
+}
+
+img.phone {
+  height: 30em;
+}
+
+img.logo {
+  float: left;
+}
+
+.btn-login {
+  float: right;
+  background: #06365F;
+  /* background-image: url('../images/bgtile.png'); */
+  background-image: linear-gradient(#6992B2, #43759D);
+  height: 50px;
+  width: 100px;
+  text-align: right;
+  border: 1px solid #1c5380;
+  border-radius: 6px;
+  box-shadow: 0 1px 2px #222222;
+  margin: 2% 4% 2%;
+  /* Cambiar? */
+}
+
+.btn-login img {
+  display: inline;
+  position: relative;
+  /* margin: 1% 0; */
+  left: -1.5em;
+  top: 0.5em;
+}
+
+.btn-login span {
+  padding: 0;
+  margin: 0 0.2em 0 0;
+  /* vertical-align: middle; */
+  color: #FFFFFF;
+  text-align: left;
+  line-height: 40px;
+  font-weight: 400;
+}
+
+.badge {
+  display: inline-block;
+  margin: 2% 1%;
+  position: relative;
+  left: 5%;
+}
+
+.clearfix {
+  clear: both;
 }
