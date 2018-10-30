@@ -1,0 +1,92 @@
+/*
+Colors to use:
+dark blue: #06365f
+light blue: #1c5380
+*/
+
+body {
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+
+h2{
+  color: #06365f;
+}
+
+h4{
+  color: #06365f;
+  margin-left: 20px;
+}
+h5{
+  color: gray;
+  margin-left: 20px;
+}
+
+p{
+  font-family: Arial;
+  font-size: 14px;
+}
+
+#main-container{
+  display: flex;
+  flex-direction: column;
+}
+
+#top-section{
+  display: flex;
+  background-color: #1c5380;
+  height: 360px;
+  width: 100%;
+}
+
+
+
+.phone-image-positioning{
+  height: 450px;
+  padding: 200px 0px 0px 200px;
+}
+
+.logo-positioning{
+  height: 100px;
+  padding: 200px 0px 0px 100px;
+}
+
+.login-button{
+  margin: 230px 0px 0px 100px;
+  background-color: #06365f;
+  height: 40px;
+  width: 80px;
+  border-radius: 4px;
+  color: white;
+  border-style: none;
+}
+
+#text-introduction{
+  background-image: url(frame.png);
+  width: 390px;
+  margin-left: 610px;
+  border: 1px none ;
+  border-radius: 4px;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+#parragraph{
+  padding-top: 300px;
+  margin-right: 80px;
+  float: left;
+  background-image: url(frame.png);
+}
+
+#stores{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 25px;
+}
+
+#bottom-links{
+  margin: 50px 0px 50px 0px;
+  display: flex;
+  justify-content: center;
+  padding-left: 20px;
+}
