@@ -8,3 +8,83 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+div {
+    /* border: solid greenyellow; */
+}
+
+.background {
+    height: 300px;
+    width: 100%;
+    position: fixed;
+    background-color: #1c5380;
+}
+
+.container {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    z-index: 1;
+    position: absolute;
+    margin: 100px 110px;
+}
+.phone {
+    float:left;
+    
+}
+.phone img {
+    width: 100%;
+    height: auto; 
+}
+
+.information {
+    float: right;
+    width: 60%;
+}
+button{
+    float: right;
+    margin-top: 16px;
+}
+#button {
+    float: right;
+    margin: 10px;
+    color: black;
+    font-weight: bolder;
+    font-size: 16px;    
+}
+
+.text-block {
+    position: relative;
+    background-color: white;
+    padding: 12px 0;
+    box-shadow: -1px 7px 76px 7px rgba(99,98,99,1);
+    border-radius: 10px 10px 10px 10px;
+}
+
+.text-block p, .text-block h3 {
+    margin: 30px 50px;
+    text-align: justify;
+}
+
+.buttons-buy {
+    margin: 20px;
+    padding: 0 20px;
+    justify-content: space-around;
+    float: left;   
+}
+.footer {
+    margin: auto;
+    text-align: center;   
+}
+
+li {
+    display: inline;
+    list-style-type: none;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+#home {
+    padding: 9px; 
+}
