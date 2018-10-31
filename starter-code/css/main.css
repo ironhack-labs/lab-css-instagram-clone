@@ -7,4 +7,110 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  padding: 0;
+  height: 200px;
+  min-width: 1000px;
+  width: 100%;
+}
+
+.backblue{
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+  width: 100%;
+  height: 300px;
+  position: absolute;
+}
+
+.upper {
+  position: absolute;
+  height: auto;
+}
+
+.phones{
+
+  display: inline-block;
+  width: 49%;
+  box-sizing: border-box;
+  margin: 100px auto;
+}
+
+.phones img{
+  float: right;
+  padding-right: 40px;
+}
+
+.contenido {
+  display: inline-block;
+  width: 50%;
+  margin-top: 100px auto;
+  vertical-align: top;
+  padding-top: 100px;
+}
+
+.instagram {
+  width: 
+}
+
+.instagram button{
+padding: 5px 10px;
+background-color: rgb(101, 137, 173);
+color: white;
+border: 0;
+float: right;
+margin-right: 17%;
+margin-top: -60px;
+border-radius: 1px;
+border: 1px solid #06365f;
+}
+
+.instagram button img{
+  vertical-align: middle;
+  margin-right: 7px;
+}
+
+.parrafo{
+  background-image: url("../images/frame.png");
+  background-size: cover;
+  padding-top: 1px;
+  padding-left: 20px;
+  padding-right: 3px;
+  border-radius: 10px;
+  box-shadow: 0 15px 30px 0 rgba(0,0,0,0.11),
+  0 5px 15px 0 rgba(0,0,0,0.08);
+  margin-right: 15%;
+}
+
+.parrafo h1{
+color: #06365f;
+font-size: 2em;
+margin-bottom: 0px;
+}
+
+.app {
+margin:20px 10px;
+display: inline-block;
+}
+
+
+footer{
+  position: relative;
+  display: block;
+  width: 100;
+  height: 40px;
+  text-align: center;
+}
+
+ul{
+  margin:auto;
+  display: inline-block;
+  text-align: center;
+}
+
+li{
+  float: left;
+  list-style: none;
+  padding: 5px 20px;
+  margin: auto;
+  color: #1c5380;
+  font-weight: bold;
 }
