@@ -8,3 +8,66 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.instagram {
+  background-color: #1c5380;
+  height: 150px;
+  padding-top: 150px;
+}
+
+
+.telefonos {
+  position: relative;
+  float: left;
+  margin-left:200px;
+  top: -200px;
+}
+
+
+.instagram img{
+  float: right;
+  position: relative;
+  margin-right:550px;
+  top: -25px;
+
+}
+.instagra button{
+  float: left;
+}
+
+
+.texto{
+  color: black;
+  float: right;
+  position: relative;
+  height: 300px;
+  width: 600px;
+  padding-left: 30px;
+  box-sizing: border-box;
+  margin-right:260px;
+  top: -60px;
+ 
+}
+
+h1{
+  color: #06365f;
+  text-align: left;
+}
+
+.footerInstagram {
+  position: fixed;
+  left: 350px;
+  bottom: 0;
+
+}
+
+li{
+  display: inline;
+  text-transform: uppercase;
+  color: darkblue;
+  font-weight: bolder;
+}
+
+ul{
+  float: center;
+}
