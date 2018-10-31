@@ -1,0 +1,94 @@
+/*
+Colors to use:
+dark blue: #06365f
+light blue: #1c5380
+*/
+
+body {
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+
+div{
+  position: fixed;
+}
+
+#toppart{
+  height: 300px;
+  width: 100%;
+  background: #1c5380;
+}
+
+#logo{
+  position: relative;
+  right: 0;
+  top: 0;
+  margin-top: 10%;
+  margin-left: 50%;
+}
+
+button{
+  color: whitesmoke;
+  background-color: #1c5380;
+  position: relative;
+  right: 0;
+  top: 0;
+  border: 2px solid #1d4f78 ;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+}
+
+#phones{
+  float:left;
+  margin-left: 20%;
+  margin-top: 10%;
+}
+
+#square{
+  padding-top: 15px;
+  position: relative;
+  margin-left: 700px;
+  margin-top: 20%;
+  width: 550px;
+  height: 350px;
+  background-image: url('./frame.png');
+  background-repeat: no-repeat;
+}
+
+h1{
+  color: #06365f;
+  margin-left: 40px;
+}
+
+p{
+  margin-left: 40px;
+}
+
+.bigbutton{
+  margin-left: 40px;
+}
+
+.footer li{
+  display: inline;
+  text-align: center;
+  color: #1c5380;
+  padding:15px;
+}
+
+.footer a{
+  color: #1c5380;
+  text-decoration: none;
+
+}
+
+.footer{
+  width: 100%;
+  position: relative;
+  left: calc(30%);
+  margin-top: 670px;
+}
+
+#copyright{
+  color:#aeb3b6;;
+}
