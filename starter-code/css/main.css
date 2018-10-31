@@ -8,3 +8,62 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+#azul{
+  height:250px;
+  background-color:rgb(15,90,225);
+  text-align: center;
+  padding-top: 200px;
+  box-sizing: border-box;
+}
+
+#azul .button{
+  display: inline;
+}
+#cajota{
+  position: absolute;
+}
+
+#container{
+  width:1200px;
+  height:400px;
+  float: left;
+  padding-left: 400px;
+  box-sizing: border-box;
+  position: relative;
+  padding-bottom: 0px;
+}
+
+.footer{
+  width:800px;
+  height:80px;
+  position: fixed;
+  bottom: 0px;
+  list-style-type:none;
+  float:bottom;
+  padding-left: 450px;
+}
+
+li{
+  display: inline;
+}
+
+.loguito{
+  text-align: center;
+  padding-left: 400px;
+  float:left;
+}
+
+.descrip{
+  width:470px;
+  height:400px;
+  margin:0px;
+  float: right;
+  border:solid;
+  background-color: white;
+  position: relative;
+}
+
+#container .img{
+  float:left;
+}
