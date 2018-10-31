@@ -7,4 +7,108 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  
+}
+section{
+  position: absolute;
+  float: left;
+  padding-left:100px;
+}
+article{
+  position: absolute;
+  padding: 10px;
+  margin: 130px 30px 130px 130px ;
+}
+#blue{
+  background-image: url("../images/bgtile.png");
+  width: 100%;
+  height: 60%;
+}
+
+#logo{
+  margin: 0;
+  padding-top: 150px; 
+  padding-left: 30px;
+}
+#right{
+  width: 570px;
+  height: 500px;
+  padding-left: 500px;
+}
+
+#logo button{
+  background-color:#608bad;
+  top: 64%;
+  position:absolute;
+  margin: 0;
+  border: 0.5px solid #295c86;
+  border-radius: 2.5px;
+  width: 85px;
+}
+#logo a{
+  padding-left : 425px;
+}
+#logo strong{
+  color: white;
+  padding-top: 11px ; 
+  font-weight: bold;
+  position: relative;
+  float: left;
+}
+#logo button img{
+  padding-top: 6px;
+  padding-bottom: 4px;
+  padding-right: 6px;
+  position: relative;
+  float: left;
+}
+
+#content{
+  background-image: url("../images/frame.png" ) ; 
+  background-size: 100%;
+  background-repeat: no-repeat; 
+  top: 45%;
+  margin: 20px;
+  padding: 30px 50px;
+
+}
+#content img{
+
+  padding:5px;
+
+}
+a{
+  text-decoration:none; 
+}
+h2{
+  text-align: left;
+  font-size: 30px;
+  color: #06365f;
+  margin:0;
+}
+p{
+  text-align: justify;
+}
+#foot{
+  position: absolute;
+  padding-top: 90px;
+  padding-left: 70px;
+}
+
+li{
+  display: inline;
+  list-style: none;
+  padding: 5px;
+  left: calc(50%-50);
+  color:#1c5380;
+
+}
+
+ul{
+  font-weight: bold;
+  padding-left: 20px;
+}
+span{
+  color: darkgrey;
+  padding-left: 10px;
 }
