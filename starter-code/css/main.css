@@ -4,7 +4,58 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+header
+{
+position:absolute;
+height: 25%;
+width: 100%;
+background-color:#06365f;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+#title {
+  position:absolute;
+  margin-left:50%;
+}
+
+li
+{
+  display: inline;
+  font-weight: bold;
+
+}
+
+ul{
+  color:#1c5380;
+  text-align: center;
+  position:fixed;
+  bottom: 10px;
+  margin-left: 25%;
+}
+
+section{
+  height: 400px;
+  width: 400px;
+  position: absolute;
+  left: 400px;
+  top:10%;
+  border-radius:10px;
+  padding:15px;
+  ;
+}
+
+#android {float: right;}
+#apple {float: left;}
+#phones {
+  position: absolute;
+  top: 15%;
+  left: 3%;
+}
+
+#brand{
+
 }
