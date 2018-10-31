@@ -7,4 +7,98 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-color: #D4E0E9;
+}
+
+#home-btn {
+  background: url('../images/home.png')no-repeat scroll 0 0 transparent;
+  cursor: pointer;
+  height: 30px;
+  width: 100px;
+  background-color: #096DBB;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  display: inline-block;
+}
+
+ul {
+  list-style-type: none;
+  float: right;
+}
+
+li {
+  display: inline;
+  margin-right: 10px;
+  color: rgb(122, 130, 136);
+}
+
+h3 {
+  width: 60%;
+  color: #015291;
+}
+
+.left-section {
+  float: left;
+  width:40%;
+  height: 500px;
+}
+
+.right-section {
+  float: right;
+  height: 500px;
+  width:60%;
+  padding: 0px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+#phone-img {
+  margin: 0 100px;
+  width: 60%;
+}
+
+#logo {
+  margin-left: 100px;
+  height: 50px;
+  
+}
+
+.info {
+  margin-left: 100px;
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  width: 50%;
+  padding: 50px;
+}
+
+.foot-div {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.section-container {
+  margin-top: -130px;
+}
+
+
+
+button {
+  display: inline-block;
+  height: 50px;
+  padding: 2px;
+  margin-left: 180px;
+  vertical-align: top;
+  width: 100px;
+  color: white;
+}
+
+#copy-right {
+  color: #A8A9A9;
+}
+
+.blue-bk {
+  height: 200px;
+  background-color: #015291;
 }
