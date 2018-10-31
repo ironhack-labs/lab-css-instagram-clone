@@ -7,4 +7,108 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  padding: 0;
+  
+
 }
+.clear-float{
+  float:none;
+  clear: both;
+}
+#azul{
+  width:100%;
+  height:385px;
+  background-color: rgb(82, 106, 145);
+}
+#hueso{
+  width:100%;
+  height:591px;
+  background-color:rgb(244, 245, 247);
+  position:aboslute;
+
+}
+#contenido{
+  width:80%;
+  margin:0 auto;
+  height:590px;
+  position:relative;
+  top:-235px;
+}
+#imagen{
+  background-image: url("../images/phones.png");
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: 0 0;
+  width:34%;
+  height:590px;
+  float:left;
+
+  
+}
+
+.boton{
+  display:block;
+  text-align:center;
+  width: 150px;
+  text-decoration: none;
+  float:right;
+  background-color:rgb(129, 169, 232);
+  font-weight: 700;
+  border: 1px solid black;
+  line-height: 150%;
+  border-radius: 2px;
+  
+  color: white;
+  font-size:1.2em;
+
+}
+.boton img{
+  padding-right:8px;
+  padding-top:1px;
+  box-sizing: border-box;
+}
+#texto{
+  height:590;
+  width:50%;
+  float:left;
+  padding-left:6%;
+  
+}
+#header{
+  width: 100%;
+  height:150px;
+  background-color:rgb(82, 106, 145);
+}
+#parrafo{
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: 0 0;
+  height:440px;
+  background-color:white;
+  border-radius: 10px;
+
+}
+#parrafo h1{
+  color:rgb(82, 106, 145);
+  font-size: 2em;
+}
+footer{
+  text-align: center;
+}
+.lista{
+  
+  width:75%;
+  margin:0 auto;
+  text-transform: uppercase;
+  color:rgb(82, 106, 145);
+}
+.lista li{
+  display:inline;
+  margin-left:8px;
+  
+}
+#iphone, #android{
+  padding:30px;
+}
+
