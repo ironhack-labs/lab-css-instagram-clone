@@ -5,6 +5,101 @@ light blue: #1c5380
 */
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 200 25px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+.blue-band{
+  height: 300px;
+  background-color: #1c5380;
+  position: absolute;
+  width: 100%;
+  
+}
+.main-container{
+  width: 85%;
+  height: 800px;
+  
+  position: absolute;
+  margin-top: 5%;
+  margin-left: 10%;
+  display: block;
+  
+  
+}
+
+.text-box{
+  background-image: url(../images/frame.png);
+  background-size: cover;
+  padding: 60px;
+  height: 500px;
+}
+
+
+.right-half{
+  width: 30%;
+margin-left: 5%;
+float: left;
+height: 750px;
+width: 50%;
+
+}
+.phones-img{
+  float: left;
+  width: 30%;
+  height:750px;
+  
+}
+.phones-img img{
+  height:100%;
+  width: 100%;
+}
+
+.img-apple,.img-googlePlay{
+  height:90px;
+  margin-bottom: 0px;
+  margin-left:5%;
+  
+}
+.button{
+  background: #256da7;
+  display:inline-block;
+  float:right;
+  margin-top: 1%;
+  padding: 5px;
+  color:white;
+  border-radius: 2px;
+  height: 50px;
+  width: 15%;
+  line-height: 50px;
+  
+}
+.insta{
+  display:inline-block;
+margin-left: 1%;
+  
+}
+nav{
+  position: absolute;
+  bottom: 0;
+height: 50px;
+width: 100%;
+text-align: center;
+
+}
+.nav-bar ul li{
+  list-style-type:none;
+  display:inline-block;
+  margin-left: 10px;
+  text-transform: uppercase;
+  color: #1c5380;
+  
+}
+.text-box h2{
+  color: #06365f;
+}
+.bold {
+  font-weight: bold;
+}
+.nav-bar .nav-insta li{
+  color: rgb(150, 160, 158)
 }
