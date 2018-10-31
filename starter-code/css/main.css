@@ -8,3 +8,42 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.container {
+  overflow: hidden;
+  margin-top: 100px;
+}
+.leftColumn, .rightColumn {
+  width: 50%; float: left;
+}
+
+.rightColumn div {
+  float: left;
+}
+.rightColumn img{
+  float: left;
+}
+
+.rightBox{
+  margin: 10px 80px 0 0;
+  padding: 30px;
+  background-image: url('../images/frame.png');
+  background-size: cover;
+}
+.lista{
+  color: blue;
+}
+.lista li{
+  padding-left: 100px;
+  display: inline;
+  list-style-type: none;
+  padding: 0 10px;
+}
+
+.nose{
+  padding: 20px 70px 20px;
+}
+
+.logos{
+  margin: 0 20px;
+}
