@@ -8,3 +8,92 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+h1{
+  color:#0f2f56;
+  font-size: 2em;
+  margin: 0;
+}
+
+header{
+  height: 300px;
+  background-image: url('../images/bgtile.png');
+  background-repeat: repeat-x;
+}
+
+header img{
+  vertical-align: middle;
+}
+
+.logo{
+  position: relative;
+  width: 539px;
+  top: calc(50% - 39px);
+  left: calc(47%);
+  
+}
+
+.boton{
+  color: white;
+  background: #6d91af;
+  margin-left: 133px;
+  border: 1px solid #315e84;
+  padding: 10px;
+}
+
+.boton img{
+  vertical-align: middle;
+}
+
+#image{
+  width: 50%;
+  position: relative;
+  float: left;
+  text-align: center;
+  margin-top: -210px;
+}
+
+#description{
+  width: 45%;
+  position: relative;
+  float: left;
+  text-align: center;
+  margin-top: -80px;
+  margin-left: -50px;
+}
+
+.texto{
+  padding: 35px;
+  text-align: left;
+  border-radius: 2%;
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0px 0px;
+}
+
+.logos{
+  text-align: left;
+  padding-left: 20px;
+}
+
+#footer{
+  margin-top: 410px;
+}
+
+ul{
+text-align: center;
+}
+
+li{
+  display: inline;
+  padding: 0 10px;
+  color: #6d8fad;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.copy{
+  padding: 0 15px;
+  color: #aeaeaf;
+}
