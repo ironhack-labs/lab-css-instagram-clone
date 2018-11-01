@@ -8,3 +8,48 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.main-container footer {
+	border: 1px solid black;
+
+}
+
+.main-container{
+	background: linear-gradient(to bottom, #06365f 50%, white 50%);
+	border: 1px solid black;
+	width: 100%;
+	height: 600px;
+}
+.teleph-container {
+	width: 50%;
+	height: 600px;
+	
+	float: left;
+	margin: 0;
+}
+
+
+.Inst-container {
+	width: 50%;
+	height: 600px;
+	
+	float: right;
+	margin: 0;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+li {
+    display: inline-block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.copy {
+	display: inline-block;
+}
