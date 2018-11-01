@@ -9,40 +9,85 @@ body {
   margin: 0;
 }
 
-.main-container footer {
-	border: 1px solid black;
-
-}
-
 .main-container{
 	background: linear-gradient(to bottom, #06365f 50%, white 50%);
-	border: 1px solid black;
 	width: 100%;
-	height: 600px;
+	height: 800px;
 }
 .teleph-container {
 	width: 50%;
-	height: 600px;
+	height: 800px;
 	position: relative;
 	float: left;
 	margin: 0;
 }
-
+#telephone {
+	position: absolute;
+	bottom: 5%;
+	right: 10%;
+	width: 390px;
+	height: 600px;
+}
 
 .Inst-container {
 	width: 50%;
-	height: 600px;
+	height: 800px;
 	
 	float: right;
 	margin: 0;
 }
 
+.title {
+	height: 300px;
+	margin-right: 20%;
+	position: relative;
+}
+.log-in {
+	width: 120px;
+	height: 55px;
+	position: absolute;
+	right: 5px;
+	bottom: 50px;
+	background-color: #1c5380;
+	color: whitesmoke;
+	font-size: 18px;
+	text-align: center;
+	border-color: #1c5380;
+	border-radius: 5px;
+}
+#brand {
+	position: absolute;
+	left: 5px;
+	bottom: 30px;
+	height: 100px;
+	width: 400px;
+}
+#home {
+	margin: auto;
+	padding-right: 15px;
+	vertical-align: middle;
+}
 .text-container {
 	background-image: url("../images/frame.png");
 	background-size: cover;
 	background-repeat: no-repeat;
-	padding: 20px;
-	margin-right: 15%;
+	padding-top: 20px;
+	padding-left: 47px;
+	padding-right: 47px;
+	margin-right: 20%;
+	
+}
+h1{
+	color: #06365f;
+
+}
+p {
+	font-size: 18px;
+}
+.text-container img {
+	height: 60px;
+	margin-top: 20px;
+	margin-right: 15px;
 }
 
 .clearfix::after {
@@ -54,21 +99,25 @@ body {
 footer {
   text-transform: uppercase;
   text-align: center;
+  font-size: 15px; 
 }
 
 li {
     display: inline-block;
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+	padding: 16px 12px;
+	margin-top: 10px;
+    
    
 }
 
-a {
+footer a {
   text-decoration: none;
-  color: #06365f;
+  color: #1c5380;
+  text-decoration: none;
 }
 
 .copy {
 	display: inline-block;
+	color: rgb(132, 141, 150);
 }
