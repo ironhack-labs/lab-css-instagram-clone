@@ -80,6 +80,7 @@ body {
   margin-left: -35px;
   margin-top: -3px;
 }
+
 .container-text{
   margin-top: 50px;
   background: url('../images/frame.png');
@@ -95,13 +96,13 @@ body {
   line-height: 1.2em;
 }
 
-
 .container-text p{
   font-size: 0.92rem;
   color: black;
   margin-top: 0;
   line-height: 1.55em;
 }
+
 .container-text img{
   margin-top: 25px;
   padding-right: 15px;
