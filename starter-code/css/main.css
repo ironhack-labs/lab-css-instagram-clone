@@ -4,7 +4,102 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+* {
+  /* always use border box so that the elements 
+  only affect thamselves not each other.
+  Asterisco es para todo los elementos */
+  box-sizing: border-box; 
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: #06365f;
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.footer a {
+  padding: 20px 20px 20px 20px;
+  text-decoration: none;
+  color: #1c5380;
+}
+
+#footer-date {
+ color: #D3D3D3;
+}
+
+.first-div {
+  height: 300px;
+  background-color: #06365f;
+}
+
+h1 {
+  color:  #1c5380;
+}
+
+#frame {
+  width: 45%;
+  position: absolute;
+  bottom: 25%;
+  /* half of image height */
+  right: 110px;
+}
+
+.text {
+  width: 32%;
+  position: absolute;
+  bottom: 27%;
+  /* half of image height */
+  right: 230px;
+}
+
+#phones {
+  position: absolute;
+  bottom: 20%;
+  left: 20%;
+}
+
+#brand {
+  position: absolute;
+  top: 17%;
+  right: 30%;
+}
+
+#badge-iphone {
+  position: absolute;
+  bottom: 17%;
+  right: 36%;
+}
+
+#badge-android {
+  position: absolute;
+  bottom: 17%;
+  right: 25%;
+}
+
+button {
+  background:  #1c5380 url("./images/home.png");
+  background-repeat:no-repeat;
+  position: absolute;
+  top: 19%;
+  right: 10%;
+  padding: 10px 13px 10px 45px;
+  font-size: 13px;
+  border: none;
+  color: white;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#home {
+  position: absolute;
+  top: 19%;
+  right: 10%;
 }
