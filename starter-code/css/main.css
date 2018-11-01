@@ -23,10 +23,10 @@ body {
 }
 #telephone {
 	position: absolute;
-	bottom: 5%;
+	bottom: 0;
 	right: 10%;
-	width: 390px;
-	height: 600px;
+	width: 400px;
+	height: 640px;
 }
 
 .Inst-container {
@@ -39,15 +39,15 @@ body {
 
 .title {
 	height: 300px;
-	margin-right: 20%;
+	margin-right: 33%;
 	position: relative;
 }
 .log-in {
 	width: 120px;
-	height: 55px;
+	height: 52px;
 	position: absolute;
 	right: 5px;
-	bottom: 50px;
+	bottom: 40px;
 	background-color: #1c5380;
 	color: whitesmoke;
 	font-size: 18px;
@@ -58,9 +58,9 @@ body {
 #brand {
 	position: absolute;
 	left: 5px;
-	bottom: 30px;
-	height: 100px;
-	width: 400px;
+	bottom: 20px;
+	height: 95px;
+	width: 390px;
 }
 #home {
 	margin: auto;
@@ -73,8 +73,8 @@ body {
 	background-repeat: no-repeat;
 	padding-top: 20px;
 	padding-left: 47px;
-	padding-right: 47px;
-	margin-right: 20%;
+	padding-right: 0px;
+	margin-right: 33%;
 	
 }
 h1{
@@ -82,7 +82,7 @@ h1{
 
 }
 p {
-	font-size: 18px;
+	font-size: 19px;
 }
 .text-container img {
 	height: 60px;
@@ -106,7 +106,7 @@ li {
     display: inline-block;
     text-align: center;
 	padding: 16px 12px;
-	margin-top: 10px;
+	margin-top: 30px;
     
    
 }
@@ -117,7 +117,7 @@ footer a {
   text-decoration: none;
 }
 
-.copy {
+span {
 	display: inline-block;
 	color: rgb(132, 141, 150);
 }
