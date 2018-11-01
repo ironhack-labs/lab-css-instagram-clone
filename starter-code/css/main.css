@@ -2,22 +2,53 @@
 Colors to use:
 dark blue: #06365f
 light blue: #1c5380
+background: url("YOUR-LINK.COM")
+list-style
+text-decoration
+text-transform
+
 */
 
 body {
   font: 200 16px "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  margin: auto;
 }
 
 .top-half {
-  background-color: #06365f;
+  background: linear-gradient(#7298b8, 40%, #2b5e8b 99%);
+  height:400px;
+  width:100%;
+}
+
+.top-container {
+  position:relative;
+  right:100 px;
+  bottom:50px;
 }
 
 .ig-logo {
 position: relative;
-left:400px;
+left:360px;
+top: 180px;
+width:
+}
+
+.house-btn {
+position:relative;
+left:780px;
+top:110px;
+width: 90px;
+text-align:center;
+background: linear-gradient(#7298b8, 90%, #2b5e8b 110%);
+border: 1px solid rgb(43, 66, 110);
+border-radius:7%;
+padding:10px;
+padding-bottom:15px;
+color:white;
+font: 550 16px "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .home-icon {
-
+  float:left;
+  padding-right:15px;
 }
