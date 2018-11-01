@@ -7,4 +7,107 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-color: white;
+}
+h1 {
+  color: #06365f;
+  margin-top: 0px;
+}
+.bgtile {
+  position: absolute;
+}
+
+.container1 {
+  float: left;
+  position: absolute;
+  background-image: url('../images/phones.png');
+  background-repeat: no-repeat;
+  height: 56vh;
+  width: 40vh;
+  padding: 30px;
+  margin: 120px 200px;
+}
+.brand {
+  position: absolute;
+  background-image: url('../images/brand.png');
+  background-repeat: no-repeat;
+  height: 123px;
+  width: 368px;
+  margin: 100px 0px 0 675px;
+}
+.button {
+  position: absolute;
+  float: right;
+  background-color: #1c5380;
+  color: white;
+  width: 110px;
+  height: 50px;
+  margin: 112px 0px 0 1060px;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-position-x: 10px;
+  padding: 0px 0 0 30px;
+  font-size: medium;
+  background-image: url('../images/home.png');
+  border-color: #06365f;
+  border-radius: 4px;
+
+  
+}
+.container2 {
+  display: block;
+  float: right;
+  position: relative;
+  background-image: url('../images/frame.png');
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 460px;
+  padding: 30px 20px;
+  margin: 176px 267px 10px 10px;
+  text-align: left;
+}
+p {
+  font-size: large;
+}
+.button-apple {
+  position: absolute;
+  float: left;
+  color: white;
+  width: 196px;
+  height: 60px;
+  background-image: url('../images/badge-iphone.png');
+  border: none;
+  border-radius: 13px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: inherit;
+}
+.button-android {
+  position: absolute;
+  float:right;
+  color: white;
+  width: 196px;
+  height: 60px;
+  background-image: url('../images/badge-android.png');
+  border: none;
+  border-radius: 13px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: 214px;
+}
+footer{
+  position: absolute;
+  margin-top: 700px;
+  margin-left: 250px;
+  text-align: center;
+}
+ul {
+  text-align: center;
+}
+ul li{
+  display: inline;
+  margin:50px 20px 0 0;
+  text-transform: uppercase;
+  color: #1c5380;
+  font-weight: 500;
 }
