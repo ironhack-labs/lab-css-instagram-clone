@@ -5,6 +5,57 @@ light blue: #1c5380
 */
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+	background: url('../images/bgtile.png') #ffffff repeat-x center top!important;
+	font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin: 0;
 }
+.nopadding {
+	padding: 0 !important;
+	margin: 0 !important;
+}
+.btn {
+	background-image: linear-gradient(to bottom, rgba(255,255,255,0.5), rgba(255,255,255,0.2) 49%, rgba(0,0,0,0.15) 51%, rgba(0,0,0,0.05));
+	background-repeat: repeat-x;
+	background-color: #3a6890;
+	color: white;
+	font-weight: 500;
+	border-radius: 0.4rem;
+	box-shadow: 0 0 5px 2px rgba(0,0,0,.15);
+	border: none!important;
+}
+.row.text h1 {
+	color: #3a6890;
+	font-size: 35px;
+	margin-bottom: 15px;
+}
+.phone-div {
+	text-align: center;
+	width: 318px;
+}
+.right-col {
+	-ms-flex: 0 0 510px;
+	flex: 0 0 510px;
+}
+.container.phone {
+	margin-top: 150px;
+	max-width: 940px;
+}
+.row.logo {
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	-webkit-box-align: center;
+	align-items: center;
+	justify-content: space-between;
+}
+.row.text {
+	background: url(../images/frame.png) no-repeat;
+	padding: 30px 10%;
+	background-size: contain;
+}
+footer .row { text-align: center; padding: 20px 0px }
+footer ul { margin: 0 auto; }
+footer ul li {display: inline; list-style-type: none; text-transform: uppercase; font-weight: 500; color:#3a6890; }
+footer ul li:last-child { color:#c8c8c8; }
