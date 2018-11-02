@@ -8,3 +8,60 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.background-blue {
+  position: relative;
+  background: #1c5380;
+  margin: 0px;
+  width: 100%;
+  height: 400px;
+}
+
+.phone {
+  position: absolute;
+  padding-top: 100px;
+  padding-left: 200px;
+}
+
+.text {
+  position: relative;
+  padding-top: 100px;
+  padding-left: 600px;
+  padding-right: 300px;
+  border: 1px black;
+}
+
+.text h2 {
+  color: #06365f;
+}
+
+.text img {
+  padding-left: 10px;
+}
+
+.text span {
+  font-weight: bold;
+}
+
+.bottom-nav {
+  position: absolute;
+  color: ;
+  padding-left: 300px;
+  padding-top: 50px;
+}
+.bottom-nav li {
+  list-style: none;
+  float: left;
+  padding-top: 60px;
+  padding-left: 20px;
+  padding-bottom: 40px;
+  color: #1c5380;
+  text-align: center;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.bottom-nav span {
+  color: grey;
+  
+}
