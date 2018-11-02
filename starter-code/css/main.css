@@ -49,27 +49,40 @@ body {
   align-content: center;
 }
 
-.text .tittle img {
-  float: left;
+.text .tittle {
+  height: 80px;
+  position: relative;
+}
+
+.text .tittle #img-brand {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+
 }
 
 .text .tittle a {
-  float: right;
-  padding: 10px 20px;
+  padding: 10px 10px;
   background-color: steelblue;
   border-radius: 3px;
   border: 1px solid #02244fbd;
   text-decoration: none;
-  margin-top: 15px;
+  margin: auto 0px;
+  display: block;
+  position:absolute;
+  right: 0px;
+  top: 50%;
+  transform: translateY(-50%);
+}
 
-  
+.text .tittle #img-home {
+  vertical-align: middle;
 }
 
 .text .tittle span {
-  margin-left: 10px;
   color: white;
   font-weight: bold;
-  
+  padding: 0 5px;
 }
 
 .text .info {
