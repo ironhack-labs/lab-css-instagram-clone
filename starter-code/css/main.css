@@ -4,7 +4,115 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+* {
+  box-sizing:border-box;
+  margin: 0;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  
 }
+
+
+.background {
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+
+.content {
+  margin: 100px auto;
+  width: 1000px;
+  position:relative;
+  align-content: center;
+  height: 500px;
+  
+}
+
+.img-phone {
+  position: absolute;
+  left: 0;
+}
+
+.text {
+  position: absolute;
+  right: 0;
+  width: 60%;
+  float: left;
+  border-color: #1c5380;
+  align-content: center;
+}
+
+.text .tittle img {
+  float: left;
+}
+
+.text .tittle a {
+  float: right;
+  padding: 10px 20px;
+  background-color: steelblue;
+  border-radius: 3px;
+  border: 1px solid #02244fbd;
+  text-decoration: none;
+  margin-top: 15px;
+
+  
+}
+
+.text .tittle span {
+  margin-left: 10px;
+  color: white;
+  font-weight: bold;
+  
+}
+
+.text .info {
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-content: center;
+  padding: 50px;
+  clear: both;
+  
+  
+}
+
+.text .info h3 {
+  color: #06365f;
+  font-size: 1.7em;
+}
+
+.text .info p {
+  margin: 20px auto;
+  font-size: 1.1em;
+}
+
+.text .info a {
+  margin-right: 20px;
+}
+
+.footer {
+  clear: both;
+  width: 1000px;
+  margin: auto;
+  text-align: center;
+}
+
+.footer a {
+  padding: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #1b68a7;
+  text-decoration: none;
+}
+
+.footer a:last-child {
+  color: #b8b6b1
+}
+
