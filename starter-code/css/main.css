@@ -7,6 +7,7 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  box-sizing: border-box;
 }
 
 .blue-container {
@@ -24,9 +25,9 @@ body {
   position: absolute;
   display: flex;
   top: 20%;
-  right: 20%;
+  right: 15%;
   bottom: 20%;
-  left: 20%;
+  left: 15%;
 }
 
 .mobile-img-content {
@@ -39,21 +40,75 @@ body {
   padding-left: 20px;
 }
 
-.header-content {
-  display: flex;
+
+.header-content h1 {
+  float: left;
+  width: 60%;
+  margin: 5px auto;
+}
+
+
+.header-content button {
+  float: right;
+  padding: 10px 10px;
+  margin: 20px 5px;
+  vertical-align: middle;
+  border: 1px solid #06365f;
+  background: #6e92b0;
+  color: #FFF;
+  font-weight: bold;
+  font-size: 1em;
+  vertical-align: middle;
+}
+
+.header-content button img {
+  margin-right: 5px;
+}
+
+.clearfix {
+  clear: both;
 }
 
 .text-content {
-  background: url('../images/frame.png');
+  background: url('../images/frame.png') no-repeat;
+  background-position: cover;
+  padding: 15px 40px;
+}
+
+.text-content h2 {
+  color: #06365f;
+  width: 60%;
+}
+
+.app-content {
+  padding: 0 40px;
+}
+
+.app-content img + img {
+  margin-left: 15px;
 }
 
 .nav-container {
   position: absolute;
-  bottom: 15%;
-  left: 25%;
-  right: 25%;
-  margin: 0 auto;
+  bottom: 14%;
+  left: 20%;
+  right: 15%;
   text-transform: uppercase;
   text-decoration: none;
   
+}
+
+.nav-container a {
+  text-decoration: none;
+  color: #547b9e;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+.nav-container a + a {
+  margin-left: 10px;
+}
+
+.nav-container span {
+  margin-left: 10px;
 }
