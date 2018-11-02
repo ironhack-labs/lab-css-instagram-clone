@@ -7,4 +7,72 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+  
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+  display: block;
+  padding-top: 90px;
+  
+
+}
+.img-phones {
+  float: left;
+}
+.img-brand {
+  
+}
+.button {
+  background-color: #1c5380;
+  color: white;
+  text-decoration: none;
+  padding: 15px 10px 15px 50px;
+  font-weight: 600;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #06365f;
+  border-radius: 7px;
+  position: absolute;
+  margin: 10px 0 0 65px;
+}
+
+.button img {
+  position: absolute;
+}
+.description {
+  width: 500px;
+  float: left;
+  margin: 0 0 0 50px;
+}
+.posit {
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  background-position-x: right;
+}
+
+.posit h1 {
+  padding: 25px 35px 10px 35px;
+  color: #06365f;
+  margin-top: 0;
+}
+
+.posit p {
+  padding: 0 35px;
+}
+
+.playstore img{
+  padding-left: 35px;
+  padding-top: 30px;
+}
+
+.nav {
+  width: 900px;
+  margin: 0 auto;
+  display: block;
+  padding-top: 90px;
+  float: left;
 }
