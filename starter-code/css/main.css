@@ -4,7 +4,94 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+}
+.background-body {
+  background-image: linear-gradient(to bottom, #50779A, #50779A 40%, white 40%);
+  background-repeat: no-repeat;
+ 
+
+}
+
+#brand {
+  margin-left: 70px;
+  margin-top: 30px;
+}
+
+
+#phones {
+  margin-left: 200px;
+  float: left;
+}
+
+#log-in {
+  background-color: #5880A3;
+  color: #DFE8F1;
+  padding: 7px 12px;
+  position: relative;
+  top: -27px;
+  left: 75px;
+  border-color: #06365f;
+  border-radius: 3px;
+}
+
+#text {
+padding: 0 0 0 0;
+
+  
+}
+
+#frame {
+  display: inline-block;
+position: absolute;
+top: 130px;
+left: 590px;
+}
+
+#h2-capture {
+  position: absolute;
+  left: 640px;
+  top: 150px;
+  width: 255px;
+  color: #3C6489;
+}
+
+#text-below {
+  position: absolute;
+  top: 240px;
+  left: 640px;
+  width: 400px;
+}
+
+#nav {
+position: relative;
+top: 400px;
+left: -160px;
+}
+
+.link-nav{
+  text-decoration: none;
+  color: #1c5380;
+  font-weight: bold;
+  margin-left: 15px;
+  font-size: 14px;
+}
+
+#copy {
+  color:grey;
+  margin-left: 15px;
+}
+
+#iphone {
+  position: relative;
+  top: 350px;
+  left: 110px;
+}
+
+#android {
+  position: relative;
+  top: 350px;
+  left: 120px;
 }
