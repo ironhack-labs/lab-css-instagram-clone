@@ -1,10 +1,154 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
 
 body {
+  background-color: white;
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+.background-blue {
+  /* background-image: linear-gradient(to bottom, #1c5380, #06365f); */
+  background-image: linear-gradient(to bottom, white, #1c5380);
+  width: 100%;
+  height: 350px;
+}
+
+.container {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  right: 100px;
+  bottom: 20px;
+}
+
+.container-core {
+  position: relative;
+  height: 90%;
+
+}
+
+.phones-img {
+  position: relative;
+  float: left;
+  width: 40%;
+  height: 100%;
+}
+
+.phones-img img {
+  position: absolute;
+  height: 95%;
+  padding: auto;
+  display: block;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-top: -75;
+}
+
+
+.content {
+  position: relative;
+  float: right;
+  width: 55%;
+  height:100%;
+}
+
+.content-header {
+  position: relative;
+  height: 20%
+}
+
+.content-body {
+  background-image: url(file:../images/frame.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 80%
+}
+
+.content-body h3 {
+  color: #06365f;
   margin: 0;
+  font-size: 1.8em;
+  padding: 15px 30% 15px 5%;
+}
+
+.content-body p {
+  margin: 0 0 10px 0;
+  font-size: 1.15em;
+  padding: 0px 5%;
+}
+
+.content-body p span {
+  font-weight: bolder;
+}
+
+.content-body img {
+  height: 15%;
+  padding: 5% 0 0 5%;
+}
+
+.content-header img {
+  position: absolute;
+  width: 60%;
+  padding: auto;
+  display: block;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  margin-top: -75;
+}
+
+.content-header .button {
+  position: absolute;
+  height: 45%;
+  width: 20%;
+  padding: auto;
+  display: block;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin-top: -75;
+  background-color: #1c5380;
+  color: white;
+  border-radius: 5px;
+  border: 2px solid #06365f;
+  font-weight: bolder;
+  font-size: 1.5em;
+  padding-right: 5%;
+  text-align: right;
+} 
+
+.content-header .button img {
+  padding-left: 5%;
+  height: 50%;
+}
+
+.container-footer {
+  position: relative;
+  height: 10%;
+}
+
+.container-footer ul {
+  margin: 0 10px;
+  color: #1c5380;
+  font-weight: bolder;
+  list-style-type: none;
+  padding-top:30px;
+  width: 80%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.container-footer li {
+  display: inline-block;
+  padding: 0 15px;
+  font-size: 1em;
+}
+
+.copyright {
+  color: rgb(141, 140, 140)
 }
