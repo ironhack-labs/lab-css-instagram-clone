@@ -6,8 +6,7 @@ body {
 }
 
 .background-blue {
-  /* background-image: linear-gradient(to bottom, #1c5380, #06365f); */
-  background-image: linear-gradient(to bottom, white, #1c5380);
+  background-image: linear-gradient(to bottom, #1c5380, #06365f);
   width: 100%;
   height: 350px;
 }
@@ -89,7 +88,7 @@ body {
   padding: 5% 0 0 5%;
 }
 
-.content-header img {
+.content-header .logo {
   position: absolute;
   width: 60%;
   padding: auto;
@@ -113,19 +112,30 @@ body {
   right: 0;
   margin-top: -75;
   background-color: #1c5380;
-  color: white;
   border-radius: 5px;
   border: 2px solid #06365f;
-  font-weight: bolder;
   font-size: 1.5em;
   padding-right: 5%;
-  text-align: right;
+  
 } 
 
 .content-header .button img {
-  padding-left: 5%;
+  padding-left: 15px;
   height: 50%;
+  position: relative;
+  top: 15px;
 }
+
+.content-header .button p {
+  color: white;
+  text-align: right;
+  font-weight: bolder;
+  position: absolute;
+  vertical-align: middle;
+  top: -15px;
+  right: 20px;
+}
+
 
 .container-footer {
   position: relative;
