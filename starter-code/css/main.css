@@ -15,7 +15,6 @@ body {
   
 }
 
-
 .background {
   background-image: url("../images/bgtile.png");
   background-repeat: repeat-x;
@@ -27,17 +26,21 @@ body {
 }
 
 .content {
-  margin: 100px auto;
+  margin: 80px auto;
   width: 1000px;
   position:relative;
   align-content: center;
-  height: 500px;
+  height: 550px;
   
 }
 
 .img-phone {
   position: absolute;
   left: 0;
+}
+
+.img-phone img {
+  height: 550px;
 }
 
 .text {
@@ -58,21 +61,21 @@ body {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-
+  left: 5px;
 }
 
 .text .tittle a {
   padding: 10px 10px;
-  background-color: steelblue;
   border-radius: 3px;
   border: 1px solid #02244fbd;
   text-decoration: none;
   margin: auto 0px;
   display: block;
   position:absolute;
-  right: 0px;
+  right: 10px;
   top: 50%;
   transform: translateY(-50%);
+  background-image: linear-gradient(#7aaad2, #19619f);
 }
 
 .text .tittle #img-home {
@@ -86,9 +89,10 @@ body {
 }
 
 .text .info {
+  margin-top: 20px;
   background-image: url("../images/frame.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
   align-content: center;
   padding: 50px;
   clear: both;
@@ -128,4 +132,3 @@ body {
 .footer a:last-child {
   color: #b8b6b1
 }
-
