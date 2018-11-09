@@ -73,7 +73,6 @@ body {
 }*/
         
 
-
 footer{
   width: 100%;
   position: absolute;
@@ -88,8 +87,7 @@ footer{
  .bottom{
 
   padding: 10px;
-  
-  font-weight: 600;
+  font-weight: 500;
   /* position: absolute;
   bottom: 0;
   margin-bottom: 0%; */
