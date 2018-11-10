@@ -28,7 +28,7 @@ body {
 .title-main a {
     float: right;
     border: 1px solid #06365f;
-    border-radius: 5px; 
+    border-radius: 5px;
     text-decoration: none;
     color: #fff;
     padding: 10px;
@@ -82,5 +82,6 @@ body {
     font-weight: bold;
 }
 
-.container-link span{
-  color: gray;
+.container-link span {
+    color: gray;
+}
