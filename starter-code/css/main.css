@@ -23,24 +23,24 @@ body {
     margin-left: 10%;
     
   }
-
       
 
       .img-mobiles{
-      background-image: url("../images/phones.png");
-      margin-top: 120px;
-      height: 510px;
-      width: 320px;
-      background-repeat: no-repeat;
-    
+        border: 1px solid;
+        float: left;
+        background-image: url(../images/phones.png);
+        margin-top: 120px;
+        height: 510px;
+        width: 320px;
+        background-repeat: no-repeat;
     }
 
     .main-content{
-      position: absolute;
-      align-items: stretch;
-      margin-top: 100px;
-      margin-left: 300px;
-    
+      border: 1px solid;
+      width: 60%;
+      float: right;
+      position: relative;
+      top: 130px;
     }
 
         .img-instagram {
@@ -73,23 +73,21 @@ body {
 }*/
         
 
-footer{
+/* footer{
   width: 100%;
   position: absolute;
   text-align:center;
   bottom: 0px;
-  /* margin: 0 auto; */
-  background-color: white;
-  /* padding: 40px; */
-}
+   margin: 0 auto; 
+  background-color: white; 
+  /* padding: 40px; 
+}*/
   
 
  .bottom{
-
+  position: absolute;
   padding: 10px;
   font-weight: 500;
-  /* position: absolute;
-  bottom: 0;
-  margin-bottom: 0%; */
+  bottom: -70px;
+}
  
- }
