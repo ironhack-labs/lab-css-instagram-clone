@@ -7,8 +7,11 @@
 <body>
     <div class="container">
        <div class="phones">
-          <img src="images/inside-photo.jpg"/>
+          <img class="slide fade" src="images/inside-photo.jpg"/>
+          <img class="slide fade" src="images/inside-photo2.png"/>
+          <img class="slide fade" src="images/inside-photo3.jpeg"/>
        </div> 
+       
        <div class="wrapper">
            <div class="box box--white">
                <div class="title text-hide">
@@ -20,16 +23,18 @@
                     <p>Log in with Facebook</p>
                 </a>
                 <div class="bar-or">
-                <div class="bar"></div>
-                <div class="or">or</div>
-                <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="or">or</div>
+                    <div class="bar"></div>
                 </div>
-                <form>
-                    <input type="text" placeholder="Mobile Number or Email"/>
-                    <input type="text" placeholder="Full Name"/>
-                    <input type="text" placeholder="Username"/>
-                    <input type="password" placeholder="Password"/>
-                    <input type="submit"/>
+                <form class="form__sign-up">
+                    <input class="form__sign-up__item" type="text" placeholder="Mobile Number or Email"/>
+                    <input class="form__sign-up__item" type="text" placeholder="Full Name"/>
+                    <input class="form__sign-up__item" type="text" placeholder="Username"/>
+                    <input class="form__sign-up__item" type="password" placeholder="Password"/>
+                    <a class="button" href="#">
+                        <p>Enviar</p>
+                    </a>
                 </form>
            </div>
            <div class="box white"></div>
@@ -37,4 +42,5 @@
        </div>
     </div>
 </body>
+<script src="slides.js"></script>
 </html>
