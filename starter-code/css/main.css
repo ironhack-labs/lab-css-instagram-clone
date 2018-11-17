@@ -6,5 +6,131 @@ light blue: #1c5380
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  margin: 0 auto;
 }
+p {
+  font-size: 15px;
+}
+
+h1 {
+  font-size: 25px;
+  color: #06365f;
+  line-height: 30px;
+}
+
+ul {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.foot {
+  margin: 0 0 0 50px;
+  display: inline-block;
+  z-index: 1;
+}
+
+
+li{
+  float: left;
+  font-size: 15px;
+  text-align: center;
+  margin: 0 10px;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #1c5380;
+  
+}
+
+span{
+  font-weight: bold;
+}
+
+.log span{
+  font-weight: normal;
+  font-size: 13px;
+}
+
+.backgroundphone {
+  background: linear-gradient(to bottom,#1c5380  40%, white 40%);
+  padding: 80px 80px 20px 80px;
+  height: 500px;
+  z-index: -2;
+  position: relative;
+}
+
+.iphone {
+  float: left;
+  margin-right: 50px;
+  
+}
+
+.insta {
+  float: left;
+  margin: 0 0 0 0;
+  display: block;
+  
+}
+
+.home {
+  float: left;
+  line-height: 30px;
+  height: 30px;
+  white-space: nowrap;  
+  margin: 3px 0 0 0;
+
+  }
+
+.log{
+  float: left;
+  line-height: 30px;
+  height: 30px;
+  margin: 0 0 0 5px;
+  white-space: nowrap;
+}
+
+
+.logos{
+  float: left;
+  width: 500px;
+  margin: 0 0 0 0;
+  
+}
+
+.capture {
+  background: url("../images/frame.png") 0 0 no-repeat;
+  background-size: cover;
+  height: 300px;
+  width: 450px;
+  margin-left: 320px;
+  margin-top: 80px;
+  padding: 10px 30px 0 30px;
+  
+}
+
+.button-home {
+  color: white;
+  background-color: #1c5380;
+  display: block;
+  margin: 15px 0 0 0;
+  height: 30px;
+  padding: 0px 10px 0px 10px;
+  width: auto;
+  border-color: #06365f;
+  border-width: 1px;
+  border-radius: 1px;
+  border-style: solid;
+  float: right;
+  position: relative;
+}
+
+.clear {
+  clear: both;
+}
+
+.mark{
+  color: darkgray;
+}
+
