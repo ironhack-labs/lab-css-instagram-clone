@@ -5,6 +5,74 @@ light blue: #1c5380
 */
 
 body {
+  width: 100%;
+  background-color: rgb(239, 239, 240);
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+#one {
+  float: left;
+  margin: 100px 10px 0px 250px;
+}
+
+#two {
+  float: left;
+  margin: 110px 0px 0px 40px;
+}
+
+#instagram {
+  margin: 0px;
+  float: left;
+}
+
+#button {
+  float: left;
+  background-repeat: repeat-x;
+  margin: 20px 0px 0px 80px;
+}
+
+#text {
+  clear: left;
+  width: 400px;
+  height: 300px;
+  margin: 100px 0px 0px 0px;
+  background-image: url("../images/frame.png");
+  background-size: cover;
+  border-radius: 5%;
+  padding: 10px 60px 0 60px;
+}
+
+#text h1 {
+  color: #235077;
+}
+
+#footer {
+  clear: left;
+  padding: 80px;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  word-spacing: 10px;
+  text-align: center;
+  color: #1c5380;
+}
+
+#footer span {
+  word-spacing: 15px;
+  color: grey;
+}
+
+#button button {
+  padding: 5px;
+  background-image: linear-gradient(to top, #4e7699, #7ea1c1);
+  border-color: #52799c;
+  border-radius: 2.5px;
+  box-shadow: 0.5px 0.5px 2px 0.1px rgb(67, 67, 67);
+  color: white;
+  font-weight: bold;
+
+
 }
