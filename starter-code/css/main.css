@@ -13,21 +13,99 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+footer {
+  position: absolute;
+  width: 100%;
+  bottom: 20%;
+  text-align: center;
+  z-index: 2;
+  color: gainsboro;
+  text-transform: uppercase;
+}
+
+footer ul li {
+  display: inline;
+  margin-right: 1em;
+}
+
+footer a {
+  font-weight: bold;
+  color:#8ba6be;
+  text-decoration: none;
+}
+
+h1 {
+  color: #10345a;
+  padding-bottom: 20px;
+}
+
+p {
+  line-height: 2em;
+  width: 95%;
+}
+
 .bg-color {
   position: relative;
   background-image: url("../images/bgtile.png");
-  width: 100%;
-  height: 400px;
+  height: 290px;
   overflow-x: visible;
   z-index: auto;
 }
 
+.button {
+  position: absolute;
+  background-image: linear-gradient(to bottom right, #4b769b, #1c5380);
+  border: 1px solid #06365f;
+  color: white;
+  top: 13%;
+  left: 70%;
+  width: 115px;
+  height: 50px;
+  font-size: 18px;
+  z-index: 10;
+  cursor: pointer;
+  font-weight: bold;
+  text-align: center;
+}
+
+.button img {
+  margin-top: 5px;
+  padding-right: 10px;
+}
+
+.header {
+  position: absolute;
+  top: 12%;
+  left: 51%;
+  z-index: 2;
+}
+
 .site {
   position: absolute;
-  display: inline-block;
-  background-color: burlywood;
-  width: 100%;
-  margin: 100px 150px;
-  height: 700px;
+  background-image: url(../images/frame.png);
+  background-color: transparent;
+  background-repeat: no-repeat;
+  padding: 25px;
+  width: 480px;
+  top: 23%;
+  right: 22%;
+  z-index: 3;
+}
+
+.site p {
+  line-height: 1.5em;
+  padding-bottom: 14px;
+}
+
+.site ul li {
+  text-decoration: none;
+  display: inline;
+  margin-right: 1em;
+} 
+
+.phone {
+  position: absolute;
+  top: 10%;
+  right: 55%;
   z-index: 1;
 }
