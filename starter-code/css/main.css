@@ -11,7 +11,7 @@ light blue: #1c5380
 }
 
 .div1 {
-  background-color: #1c5380;
+  background-color: red;
   height: 230px;
   width: 100%;
 
@@ -31,6 +31,9 @@ h3 {
   margin-top: 105px;
   margin-right: 300px;
   color: white; 
+  width: 105px;
+  height: 40px;
+  border-radius: 8%;
 
 }
 .div2 {
@@ -40,7 +43,7 @@ h3 {
   position: relative;
   background-size: cover;
   bottom: 600px;
-  padding: 6px 45px 0 25px;
+  padding: 55px 45px 0 78px;
   margin-right: 156px;
   font-size: 21px;
   
