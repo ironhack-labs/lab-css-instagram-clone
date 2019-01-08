@@ -4,7 +4,99 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+h2{
+  color: #06365f;
+}
+.footbar{
+  color: #537a9b;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  margin: 5% 0%;
+ 
+}
+.footbar span{
+  margin-right: 1%;
+}
+.content{
+  display: flex;
+  flex-direction: row;
+
+  justify-content: center;
+ 
+  
+}
+.badges{
+  margin-left: 10%;
+}
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+.background-top{
+  background-color: #537a9b;
+  height: 300px;
+  z-index: -1;
+}
+.test{
+display:flex;
+justify-content: space-between;
+
+}
+
+
+.central{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 40%;
+}
+#brand{
+  justify-content: flex-start;
+}
+#phones{
+  order: -1;
+  margin-right: 5%;
+}
+.button-home{
+  align-self: center;
+  height: 100%;
+  width: 19%;
+  position: relative;
+  right: 3%;
+  
+  
+  
+}
+
+.text{
+  background-image: url('/starter-code/images/frame.png');
+  padding:3% 8% 5% 8%;
+  background-repeat: no-repeat;
+  
+}
+.button{
+  color: white;
+  background-color: #658AA8;
+  border: solid 1px #356085;
+  font-size: 15px;
+  font-weight: bold;
+  height: 35px;
+  text-align: center;
+  
+  
+}
+.button img{
+  position: relative;
+  top: 7%;
+  right: 5%;
+}
+.container{
+  position: absolute;
+  top: 35%;
+
+}
+.grey{
+  color: grey;
 }
