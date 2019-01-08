@@ -1,0 +1,84 @@
+/*
+Colors to use:
+dark blue: #06365f
+light blue: #1c5380
+*/
+
+body {
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+
+h2 {
+  color: #063651;
+  width: 60%;
+}
+
+a {
+  text-align: center;
+  width: 400px;
+  margin: 0 20 0 20;
+  text-decoration: none;
+  padding: 0 20px 0 20px;
+}
+
+.div-heading {
+  width: 37%;
+  position: relative;
+  left: 610px;
+  bottom: 190px;
+}
+
+.buttom {
+  position: relative;
+  bottom: 30px;
+  left: 100px;
+  border: 1px solid #1c5380;
+  box-shadow: 1px 1px 1px 1px #06365f;
+  font-size: 16px;
+  background: #1c5380;
+  padding: 5px;
+  color: white;
+}
+
+.background {
+  background-color: #1c5380;
+  height: 300px;
+}
+
+.section-phone {
+  width:25%;
+  position: relative;
+  top: 90px;
+  left: 270px;
+}
+
+.img-frame {
+  position: relative;
+  width: 38%;
+  left: 605px;
+  bottom: 190px;
+  height: 350px;
+}
+
+.text-frame {
+  position: relative;
+  bottom: 540px;
+  left: 645px;
+  width: 32%;
+  height: 320px;
+}
+
+.buttons2 {
+  position: relative;
+  bottom: 520px;
+  left: 635px;
+}
+
+.links-bottom {
+  position: relative;
+  bottom: 470px;
+  left: 285px;
+  color: #1c5380;
+  margin: 0 20 0 20;
+}
