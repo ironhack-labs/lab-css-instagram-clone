@@ -8,3 +8,70 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+h2{
+  color: #06365f;
+}
+
+.left {
+  float: left;
+}
+
+footer li{
+  list-style: none;
+  padding-left: 10px;
+}
+
+footer{
+  padding-left: 300px;
+}
+
+#phone{
+  padding-right: 100px;
+}
+
+#phone .phoneImg {
+  width: 350px;
+}
+
+.clear{
+  clear: both;
+}
+
+.inline {
+  display: inline;
+}
+
+#main {
+  padding: 150px 100px 100px 100px;
+}
+
+#information .topInfo{
+  padding-top: 50px;
+}
+
+#information .textInfo{
+  background-color: white;
+  margin: 10px 340px 0 370px;
+  border-radius: 5px;
+  padding-top: 10px;
+}
+
+#information .loginBtn{
+  position: relative;
+  bottom: 25px;
+  left: 50px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: #1c5380;
+  color: white;
+}
+
+.backgroundColor{
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat;
+  height: 400px;
+  width: 100%;
+  position: absolute;
+  z-index: -40;
+}
