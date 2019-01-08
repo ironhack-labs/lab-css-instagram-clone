@@ -4,7 +4,75 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+h3 {
+  color: #06365f;
+}
+ol ul {
+  float: left;
+  padding: 8px;
+  font-size: 16 
+}
+
+.img-mov {
+  background-image: url('../images/phones.png');
+  background-size: cover;
+  width: 310px;
+  height: 500px;
+  margin-left: 100px;
+  margin-top: 100px;
+  float: left;
+  
+}
+
+.instagram-image {
+  background-image: url('../images/brand.png');
+  width: 310px;
+  height: 80px;
+  margin-top: 120px;
+  margin-left: 50px; 
+  float: left;
+  
+}
+
+#back {
+  background-image: url('../images/bgtile.png');
+  background-repeat: repeat-x;
+  width: 100%;
+  height: 300px;
+  position: absolute;
+  z-index: -1;
+}
+.box-capture {
+  border: 10px;
+  background-color: white;
+  float: left;
+  position: relative;
+  width: 500px;
+  padding: 0px 40px 10px 30px;
+  margin-top: 19px;
+  border-radius: 7px;
+  margin-right: 125px;
+  margin-left: 51px;
+  box-shadow: 0px 0px 1px 0px #888888;
+}
+
+footer {
+  float: left;
+  color: #06365f;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 46px 0px 0px 177px;
+  font-size: 12px;
+}
+.clearfix {
+  clear: both;
 }
