@@ -29,7 +29,7 @@ a {
   bottom: 190px;
 }
 
-.buttom {
+.button {
   position: relative;
   bottom: 30px;
   left: 100px;
@@ -73,6 +73,7 @@ a {
   position: relative;
   bottom: 520px;
   left: 635px;
+  
 }
 
 .links-bottom {
