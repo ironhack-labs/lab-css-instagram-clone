@@ -8,3 +8,136 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.container{
+	width: 1090px;
+	margin: 0 auto;
+}
+
+
+
+.header{
+	background-color:#1c5380;
+	height: 45vh;
+
+}
+
+.header img{
+	
+	position: absolute;
+	top:13%;
+	right: 26%;
+}
+
+
+.content-box{
+	font-size: 16px;
+	text-align: left;
+	border: 2px solid #eee;
+	border-radius: 5px;
+	box-sizing: border-box;
+	box-shadow: 2px 2px 10px 0 #eee;
+	padding: 20px 40px 30px 40px ;
+	width: 35%;
+	height: 480px;
+	position: absolute;
+	right: 13%;
+	top: 25%;
+	background-color: white;
+}
+
+
+.content-box h2{
+	color: #06365f;
+	padding-right: 38%;
+}
+
+.footer{
+	color: black;
+}
+
+.footer ul{
+	text-align: center;
+}
+
+.footer ul li {
+	list-style-type: none;
+	display: inline-block;
+	margin-right: 20px;
+	margin-top: 30%;
+	
+}
+
+.footer ul li a{
+	text-decoration: none;
+	font-weight: bold;
+	color: #06365f;
+
+}
+
+.footer p{
+	display: inline-block;
+	text-align: right;
+	
+}
+
+
+section > img{
+
+	position: absolute;
+	top: 23%;
+	left: 22%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
