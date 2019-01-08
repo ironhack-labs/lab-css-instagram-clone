@@ -1,10 +1,140 @@
 /*
 Colors to use:
 dark blue: #06365f
-light blue: #1c5380
+light blue: #396186
+light gray: #f5f6f8
 */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px; /* 1rem = 10px */
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  background-color: #f5f6f8;
+  height: 100vh;
+}
+
+.upper-blue {
+  height: 40vh;
+  background-image: linear-gradient(#699bc7, #396186);
+}
+
+/* Most outer container */
+.container {
+  display: flex;
+  margin: 0 15rem;
+  position: relative;
+  top: -30vh;
+}
+
+/* Left container */
+.left-container {
+  margin-right: 7rem;
+}
+
+/* landing image */
+.landing-img {
+  height: 450px;
+}
+
+/* Right container */
+.right-container {
+  padding-top: 1rem;
+  width: 50%;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.header .header-logo {
+  width: 300px;
+}
+
+.log-in-btn {
+  align-self: center;
+  border: 1px solid #396186;
+  background-image: linear-gradient(#6fa3d1, #47749b);
+  padding: 7px 10px 7px 7px;
+
+  display: flex;
+}
+
+.log-in-btn .home{
+  width: 22px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.log-in-btn a {
+  text-decoration: none;
+  color: #f5f6f8;
+  font-size: 1.4rem;
+}
+
+/* Content */
+.content {
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  padding: 40px;
+}
+
+.content h1 {
+  font-size: 2.2rem;
+  line-height: 1.3;
+  color: #06365f;
+  margin-bottom: 20px;
+}
+
+.content h1 span {
+  display: block;
+}
+
+.content p {
+  font-size: 1.35rem;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+/* Download images */
+.download {
+  margin-top: 25px;
+}
+
+.download img {
+  width: 130px;
+  height: 40px;
+  margin-right: 15px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 3rem;
+  width: 100vw;
+}
+
+.footer-list {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-list li {
+  list-style: none;
+  margin: 0 0.8rem;
+  font-size: 1.15rem;
+  text-transform: uppercase;
+  color: #47749b;
+  font-weight: 600;
+}
+
+.footer-list li:last-child {
+  color: #b4b4b4;
 }
