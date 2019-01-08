@@ -3,8 +3,122 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
+html {
+  height: 100%;
+}
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  height: 100%;
+}
+.background-top, .background-bottom {
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+.background-top {
+  background: #1c5380;
+  height: 40%;
+}
+.background-bottom {
+  height: 60%;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  height: 80%;
+  justify-content: center;
+  margin: 0 auto;
+  padding-top: 60px;
+  width: 80%;
+}
+.phone-img {
+  background: url(../images/phones.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 260px;
+}
+.left-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+  width: 50%;
+}
+.top-column {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.insta-logo {
+  background: url(../images/brand.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 70px;
+  width: 250px;
+}
+.login-button {
+  background-color: #06365f;
+  border: 1px solid;
+  cursor: pointer;
+  display: flex;
+  height: 20px;
+  margin: 15px 10px 0 0;
+  padding: 5px;
+  width: 80px;
+}
+.login-button p {
+  color: #fff;
+  font-size: 12px;
+  margin: 2px 0 0 10px;
+}
+.white-box {  
+  background: url(../images/frame.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 85%;
+  font-size: 14px;
+  margin: 0;
+  padding: 20px 40px;
+}
+.white-box h1 {
+  color: #1c5380;
+  font-size: 20px;
+  margin: 0;
+  padding-top: 10px;
+  width: 60%;
+}
+.white-box strong {
+  font-weight: bold;
+}
+.white-box img {
+  cursor: pointer;
+  padding-right: 30px;
+  width: 120px;
+}
+.footer-links {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.footer-links p {
+  font-size: 12px;
+  font-weight: bold;
+  margin: 0;
+  opacity: .4;
+  padding: 5px;
+}
+.links {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.links li {
+  color: #1c5380;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 5px;
 }
