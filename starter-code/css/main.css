@@ -10,9 +10,12 @@ body {
   padding: 0;
   /* overflow:hidden; */
 }
-/* .body-color{
+.body-color{
   background-image: linear-gradient( to top, white 51%, #1c5380 35% );
   background-repeat: no-repeat;
+}
+/* #container{
+  border: 1px solid blue;
 } */
 .button1 {
   border-radius: 1px; 
