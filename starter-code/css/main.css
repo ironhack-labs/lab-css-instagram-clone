@@ -3,8 +3,116 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+}
+
+p {
+  margin-bottom: 10px; 
+}
+
+.container {
+  margin: 5% 20% 5% 20%;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.col {
+  float: left;
+}
+
+.col-right {
+  float: right;
+}
+
+.inline {
+  display: inline;
+}
+
+.btn {
+  border: 1px solid;
+  padding: 10px;
+  height: 30px;
+  width: 90px;
+  position: absolute;
+  top: 45px;
+  right: 20px;
+  border-color: #06365f;
+  border-radius: 3px;
+  background-image: linear-gradient(#527694, #305f88);
+}
+
+.text-box {
+  margin-left: 5%;
+  margin-right: 0%;
+  border-radius: 3px;
+  width: 60%;
+  position: relative;
+}
+
+.instagram-logo img {
+  margin-top: 4%;
+}
+
+.box {
+  background-image: url("../images/frame.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.box .text {
+  padding: 5% 10%;
+}
+
+.login {
+  color: white;
+  font-weight: 200;
+  position: absolute;
+  top: 25%;
+  right: 15%;
+}
+
+.btn img {
+  padding-top: 5px;
+}
+
+.badge > img {
+  margin-right: 3%;
+  margin-top: 20px;
+}
+
+h1 {
+  color: #06365f;
+  text-align: left;
+  margin-bottom: 20px;
+  padding-right: 20%;
+}
+
+li {
+  margin-left: 1%;
+  color: #335570;
+  font-weight: 900;
+}
+
+.brand {
+  color: rgb(151, 150, 150);
+  font-weight: bold;
+}
+
+ul {
+  margin-left: 15%;
+  margin-top: 5%;
+}
+
+.strong {
+  font-weight: bold;
 }
