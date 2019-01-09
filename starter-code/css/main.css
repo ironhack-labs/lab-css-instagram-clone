@@ -7,4 +7,67 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url('../images/bgtile.png');
+  background-repeat: repeat-x;
+}
+.div_p{
+  padding-top: 10%;
+}
+.phone{
+  float: left;
+  margin-left: 15%;
+  margin-right: 5%;
+}
+.clearfix{
+  clear: both;
+}
+.button{
+  float: right;
+  margin-right: 10%;
+  background-color: #1c5380;
+  color: white;
+  padding: 10px 20px;
+}
+.div_2{
+  margin-right: 10%;
+  margin-left: 44%;
+  border-style: inset;
+  background-color: white;
+  border-style: inset;
+  border-radius: 10px;
+  
+}
+.house{
+  margin-right: 15px;
+}
+h1{
+  color: #06365f;
+  padding: 0 5%;
+}
+p{
+  font-size: 18px;
+  padding: 0 5%;
+}
+.img_app{
+  margin-top: 15px;
+  padding: 0 5% 5%;
+}
+.list{
+  list-style-type: none;
+  margin: 3% 1% 1% 15%;
+  color: #1c5380;
+  float: left;
+}
+li{
+  display: inline;
+  margin: 0 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.copy{
+  display: inline;
+  float: left;
+  font-size: 12px;
+  margin-top: 3%;
+  text-transform: uppercase;
 }
