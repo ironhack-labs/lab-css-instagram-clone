@@ -58,7 +58,7 @@ body {
 }
 .login-button {
   background-color: #06365f;
-  border: 1px solid;
+  box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.6);
   cursor: pointer;
   display: flex;
   height: 20px;
