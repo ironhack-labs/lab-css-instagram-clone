@@ -8,3 +8,102 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.capaInferior{
+  width: 100%;
+  height: 320px;
+  position: absolute;
+  z-index: 0;
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat;
+}
+
+.capaSuperior{
+  position: absolute;
+  z-index: 1;
+}
+
+.block1{
+  float: left;
+  width: 318px;
+  margin-top: 130px;
+  margin-left: 290px;
+  margin-right: 60px;
+}
+
+.block2{
+  float: left;
+  width: 600px;
+  margin-top: 150px;
+  
+
+}
+
+.blockHeader div img{
+  float: left;
+  padding-bottom: 25px;
+}
+
+.blockHeader div button {
+  background-color: #1c5380;
+  color: white;
+  width: 100px;
+  float: right;
+  margin-top: 20px;
+  border: 0.1px;
+  border-color: #06365f;
+  box-shadow: 1px 0px 1em #06365f;  
+  border-radius: 2px;
+  height: 40px;;
+}
+
+.blockHeader div button img  {
+  margin-right: 7px;
+  padding-top: 5px;
+}
+
+.blockText{
+  clear: both;
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: 1px 0px 1em black ;
+}
+
+.blockText h1{
+  width: 330px;
+  padding-top: 15px;
+  padding-left: 30px;
+  margin-bottom: 10px;
+  color:#06365f;
+}
+
+.blockText p {
+  width: 390px;
+  padding-left: 30px;
+}
+
+.blockButtons{
+  margin-top: 20px;
+  padding-left: 30px;
+}
+
+#apple {
+  margin-right: 15px;
+}
+
+
+footer {
+  clear: both;
+  padding-top: 30px;
+}
+
+footer ul {
+  margin-left: 480px;
+  margin-right: auto;
+
+}
+
+footer ul li {
+  list-style-type: none;
+  display: inline-block;
+}
