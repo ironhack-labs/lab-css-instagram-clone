@@ -1,0 +1,131 @@
+
+/*
+Colors to use:
+dark blue: #06365f
+light blue: #1c5380
+*/
+
+body {
+    font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+  }
+
+
+.logoyhome {
+
+    width: 40%;
+    float: left;
+   
+    margin-top: 120px;
+    
+}
+
+.logo {
+
+    
+}
+
+.home {
+    
+    background-color: #1c5380;
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+   
+    float: right;
+    margin-top: 15px;
+
+
+}
+
+.degradado {
+    background-image: url("/Users/CarlosIM/IronHack/day2/daily/lab-css-instagram-clone/starter-code/images/frame.png");
+    width: 40%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    float: left;
+    height: 400px;
+    
+}
+
+#capture {
+    color: #06365f;
+    
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
+.parrafos {
+    font-size: 14px;
+    width: 90%;
+    
+    margin: auto;
+}
+
+.btn {
+ height: 50px;
+ width: 150px;
+ background-size: cover;
+ margin-top: 20px;
+ 
+}
+
+
+#btn1 {
+background-image: url("/Users/CarlosIM/IronHack/day2/daily/lab-css-instagram-clone/starter-code/images/badge-iphone.png");
+margin-left: 20px;
+border-radius: 8px;
+}
+
+#btn2 {
+background-image: url("/Users/CarlosIM/IronHack/day2/daily/lab-css-instagram-clone/starter-code/images/badge-android.png");
+margin-left: 20px;
+border-radius: 8px;
+}
+
+
+
+.fondoazul {
+
+    background-image: url("/Users/CarlosIM/IronHack/day2/daily/lab-css-instagram-clone/starter-code/images/bgtile.png");
+    z-index: -1;
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    
+}
+
+.phone {
+
+    margin: 120px 100px 60px 120px;
+   
+    float: left;
+
+}
+
+footer {
+
+    clear: both;
+    text-align: center;
+    padding-bottom: 50px;
+
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    text-transform: uppercase;
+    color: #1c5380;
+    font-weight: bold;
+    opacity: 0.8;
+    margin: 0px 5px 0px 5px;
+    font-size: 12px;
+}
+
+#copyrigth {
+
+    color: grey;
+}
