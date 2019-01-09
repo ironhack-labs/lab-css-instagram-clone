@@ -8,3 +8,81 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.main-blue-bar{
+  height: 350px;
+  background-image: url(/home/mocuishla/code/ejercicios/week1/day2/lab-css-instagram-clone/starter-code/images/bgtile.png);
+}
+
+.login-and-content{
+  width: 40%;
+  margin-top: 63px;
+  float: right;
+  position: relative;
+  top: 185px;
+  right: 170px;
+  text-align: center;
+  
+
+}
+
+.home{
+  
+  display: inline;
+  position: relative;
+  background-color: #06365f;
+  font-size: 20px;
+  color: #efefef;
+  bottom: 30px;
+  left: 40px;
+  
+}
+
+.phone{
+
+width: 20%;
+position: relative;
+bottom: 150px;
+left: 350px;
+}
+
+.content{
+  background-color:white;
+  width: 500px;
+  margin-left: 140px;
+}
+
+.content h2{
+ 
+padding-right:100px;
+font-size: 30px;
+color: #06365f;
+
+}
+
+.content p{
+  padding-right: 100px;
+}
+
+
+.footer {
+  color: #06365f;
+  text-align: center;
+
+}
+
+.footer li{
+  color: #06365f;
+  list-style-type: none;
+  display: inline;
+  font-size: 20px;
+  padding-right:20px;
+  padding-left: 20px;
+
+
+}
+
+.footer li a{
+  color: #06365f;
+  text-decoration: none;
+  
