@@ -8,12 +8,14 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
   padding: 0;
+  background-repeat: repeat-x;
+  background-image: url(../images/bgtile.png);
   /* overflow:hidden; */
 }
-.body-color{
+/* .body-color{
   background-image: linear-gradient( to top, white 51%, #1c5380 35% );
   background-repeat: no-repeat;
-}
+} */
 /* #container{
   border: 1px solid blue;
 } */
@@ -22,7 +24,6 @@ body {
   background-color: #1c5380;
   font: Arial, Helvetica, sans-serif;
   height: 70%;
-  /* border: 0px 0px */
  }
 h2{
   color: #06365f;
@@ -64,14 +65,17 @@ div{
 div img{
   margin-right: 15px;
 }
-#footer{
+#footer,a{
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 200px 0 40px 0;
   width: 100%;
-  height: 100px;
-  position: absolute;
-  bottom: 0px;
-  z-index: 0;
-  margin-top: 60px;
+  color: #1c5380;
+  font: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 0.9em;
 }
-/* section > div > p{
-  padding-top: 40px;
-} */
+#footer a:last-child{
+  color:rgba(92, 92, 92, 1);
+  
+}
