@@ -19,6 +19,8 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   background-color: #f5f6f8;
   height: 100vh;
+  /* background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x; */
 }
 
 .upper-blue {
@@ -29,7 +31,7 @@ body {
 /* Most outer container */
 .container {
   display: flex;
-  margin: 0 15rem;
+  justify-content: center;
   position: relative;
   top: -30vh;
 }
@@ -47,7 +49,7 @@ body {
 /* Right container */
 .right-container {
   padding-top: 1rem;
-  width: 50%;
+  width: 40%
 }
 
 /* Header */
@@ -55,6 +57,7 @@ body {
   display: flex;
   justify-content: space-between;
 }
+
 .header .header-logo {
   width: 300px;
 }
@@ -64,8 +67,8 @@ body {
   border: 1px solid #396186;
   background-image: linear-gradient(#6fa3d1, #47749b);
   padding: 7px 10px 7px 7px;
-
   display: flex;
+  margin-right: 10px;
 }
 
 .log-in-btn .home{
