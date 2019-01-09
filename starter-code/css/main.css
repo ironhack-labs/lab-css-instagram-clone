@@ -8,3 +8,68 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.blue{
+  background-image: url("../images/bgtile.png");
+  z-index: -1;
+  width: 100%;
+  height: 300px;
+  position: absolute;
+  top: 0;
+}
+
+.phones{
+  float: left;
+  padding: 165px 0 0 200px;
+}
+
+.phones img {
+  width: 90%;
+}
+
+.brand{
+
+}
+
+.first{
+  background-image:url("../images/frame.png");
+  background-size:contain;
+  background-repeat: no-repeat;
+  height: 400px;
+  padding: 8% 9%;
+  width: 30%;
+  float: left;
+  background-position-y: 88px;
+}
+
+h1{
+  color: #06365f
+
+}
+
+li{
+  color: #06365f;
+  list-style: none;
+  display: inline;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+ul{
+  text-align: center;
+}
+
+footer{
+  margin-top: 640px;
+
+}
+
+.IG{
+  color: grey
+}
+
+.box {
+
+}
