@@ -8,3 +8,46 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.fondoAzul{
+  background-image: url(../images/bgtile.png);
+  height: 300px;
+  width: 100%;
+  background-repeat: repeat;
+  position: absolute;
+  z-index: -2;
+}
+
+.moviles{
+  float:left;
+  /* left:150px;
+  top:100px; */
+}
+
+footer{
+  clear:both;
+  position:relative;
+  left:150px;
+  bottom:50px;
+}
+
+.medio{
+  background-image: url(../images/frame.png);
+  /* position:relative; */
+  height: 280px;
+  width: 500px;
+  /* left:450; */
+}
+
+p{
+  position:relative;
+  left:30px;
+  top:20px;
+}
+
+.derecha{
+  float:right;
+  margin-left:450;
+  
+  width:450;
+}
