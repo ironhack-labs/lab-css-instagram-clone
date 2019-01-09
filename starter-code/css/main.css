@@ -15,6 +15,10 @@ h3 {
   color: #06365f;
 }
 
+ul {
+  list-style-type: none;
+}
+
 .text-color1 {
   color: white;
 }
