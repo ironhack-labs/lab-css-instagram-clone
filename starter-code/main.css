@@ -1,0 +1,127 @@
+/*
+Colors to use:
+dark blue: #06365f
+aght blue: #1c5380
+*/
+
+body {
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  
+}
+.backgroundBlue{
+  background-image: url(images/bgtile.png);
+  height:400px;
+  
+  
+}
+header{
+  height:500px;
+  width: 500px;
+  position:relative;
+  top: 0;
+  left:800px;
+  top: 200px;
+  
+   
+
+}
+button{
+  width: 125px;
+  height: 50px;
+  position: absolute;
+  top: 40px;
+  left:500px;
+  background-color: #6f9cbb;
+ border-color: #6f9cbb;
+}
+ span{
+   font-size: 20px;
+   margin-left: 4px;
+   color:white;
+   
+ } 
+
+.smartphones{
+  width: 418px;
+  position:relative;
+  top: 0;
+  left:200px;
+  top:-200px; 
+}
+.bkframe{
+  width: 418px;
+  position:relative;
+  top: 0;
+  left:800px;
+  top:-600px; 
+
+}
+.text{
+  width: 418px;
+  position:relative;
+  top: 0;
+  left:850px;
+  top:-850px; 
+}
+.imgFoot1{
+  position:relative;
+  top: 0;
+  left:850px;
+  top:-825px; 
+
+}
+.imgFoot2{
+  position:relative;
+  top: 0;
+  left:1050px;
+  top:-885px; 
+
+}
+.nav{
+  position:relative;
+  top: 0;
+  left:300px;
+  top:-800px; 
+  word-spacing: 40pt;
+}
+a{
+  text-decoration: none;
+  display:inline;
+  font-size: 1.2em;
+  color:#477798;
+}
+
+.copy{
+  position:relative;
+  top: 0;
+  left:1210px;
+  top:-825px; 
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
