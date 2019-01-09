@@ -4,7 +4,117 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  font-weight: 400;
 }
+
+h3 {
+  color: #06365f;
+}
+
+.text-color1 {
+  color: white;
+}
+
+.top-background-c {
+  background-color: #06365f;
+  height: 300px;
+}
+
+.background-c1 {
+  background-color: white;
+}
+
+.box1 {
+  position: absolute;
+  top: 100px;
+  left: 200px;
+}
+
+.container1 {
+  display: flex;
+  flex-direction: row;
+}
+.container2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-pad1 {
+  padding: 10px;
+}
+
+.box1 {
+  width: 850px;
+}
+
+.padding-box-1 {
+  padding: 0 40px;
+}
+
+.padding1 {
+  padding: 0 20px;
+}
+
+.padding2 {
+  padding: 0 5px;
+}
+
+.padding3 {
+  padding: 5px 10px 0 0;
+}
+
+.border-type1 {
+  border: 1px solid white;
+  border-radius: 4px;
+}
+
+.btn1 {
+  font-size: 14px;
+  background-color: #1c5380;
+  color: white;
+  border: 1px solid #06365f;
+  border-radius: 4px;
+  margin-left: 45px;
+  text-align: center;
+}
+
+.text-center {
+  margin: 0 auto;
+  padding: 10px 15px 0px 0px;
+}
+
+.logo-size1 {
+  width: 25px;
+  height: 25px;
+}
+
+.position-abs {
+  position: absolute;
+  bottom: 30px;
+  left: 300px;
+}
+
+.font-weight1 {
+  font-weight: 600;
+}
+
+.font-color1 {
+  color: #1c5380;
+}
+
+.font-color2 {
+  color: grey;
+}
+
+.center {
+  align-items: center;
+}
+
+
+
+
+
