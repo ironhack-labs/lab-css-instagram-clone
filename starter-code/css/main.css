@@ -6,5 +6,71 @@ light blue: #1c5380
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  overflow-y: hidden;
   margin: 0;
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x
+}
+.container {
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 6em 0 2em 0;
+}
+.col {
+  height: 100%;
+  width: 50%
+}
+.col.pht {
+  width: 30%;
+  background-color: transparent;
+  background-image: url(../images/phones.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: 100%
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  height: 4.7em;
+}
+.brand {
+  flex-grow: 1;
+  background-color: transparent;
+  background-image: url(../images/brand.png);
+  background-position-x: left;
+  background-repeat: no-repeat;
+}
+.nav button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1c5380;
+}
+.text {
+  background-image: url(../images/frame.png);
+  background-size: contain;
+  height: 100%;
+  padding: 1em 2em;
+  margin-top: 1em;
+  background-repeat: no-repeat
+}
+.store-icons {
+  margin-top: 8em;
+}
+.footer {
+  width: 60%;
+  margin: 0 auto
+}
+.footer, .footer-nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row
+}
+.footer-nav{
+  list-style-type: none;
+  flex-grow: 1
 }
