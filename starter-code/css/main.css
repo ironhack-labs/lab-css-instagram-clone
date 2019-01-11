@@ -8,3 +8,80 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+  padding: 100px 300px 50px 300px;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 5px;
+  background-color: #678cac;
+  border-color: #467299;
+  border-radius: 4px;
+  box-shadow: 0 1px 1px 0 #02223d;
+  height: 33px;
+  width: 79px;
+  font-weight: bold;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+}
+
+h1 {
+  color: #06365f;
+}
+
+.rightside {
+  width: 504px;
+}
+
+.text {
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  width: 420px;
+  height: 284px;
+  padding: 20px 50px 50px 50px;
+}
+
+.badges {
+  display: flex;
+  justify-content: left;
+  padding-top: 40px;
+  padding-left: 30px;
+}
+
+.spaceImage {
+  margin-left: 20px;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 0;
+  list-style: none;
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px 0px 30px 0px;
+  color: #1c5380;
+  font-weight: bold;
+}
+
+.grey {
+  color: lightgrey;
+}
