@@ -6,5 +6,107 @@ light blue: #1c5380
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  margin: 0 auto;
+  width: 60%;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 40%), url("../images/bgtile.png");
+  background-repeat: repeat-x;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+
+}
+
+#logo-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(white, 10%, #1c5380);
+  height: 30px;
+  line-height: 1.5em;
+  border: 1px solid rgba(6, 54, 95, .5);
+  border-radius: 5px;
+  padding: 5px 15px;
+  text-decoration: none;
+  font-weight: bolder;
+  color: rgba(255, 255, 255, .8);
+}
+
+#btn img {
+  padding-right: 10px;
+}
+
+
+.text {
+  /* background-color: white; */
+  box-sizing: border-box;
+  background-image: url('../images/frame.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 20px 30px;
+}
+
+h2 {
+  color: #06365f;
+  line-height: 1.3em;
+}
+
+.text,
+p {
+  font-weight: 300;
+}
+
+.badge {
+  width: 500px;
+  padding: 20px 30px;
+}
+
+
+#sec2,
+#sec1 {
+  margin: 0 25px;
+
+}
+
+
+footer {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 12px;
+}
+
+footer a {
+  text-decoration: none;
+  font-weight: bolder;
+  color: #06365f;
+  text-transform: uppercase;
+  padding: 0 10px;
+
+}
+
+footer p {
+  text-decoration: none;
+  font-weight: bolder;
+  color: lightslategrey;
+  text-transform: uppercase;
+  padding: 0 10px;
+
 }
