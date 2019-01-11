@@ -4,7 +4,85 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+html {
+	background: url(../images/bgtile.png) repeat-x;
+}
+
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+	font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+
+}
+
+h1,
+h2,
+h3 {
+	color: #527897;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+section {
+	width: 25%;
+	margin: 10px;
+}
+
+nav {
+	display: flex;
+	/* QUESTION : is flex wrap useful ???*/
+	flex-wrap: nowrap;
+	justify-content: space-between;
+}
+
+body>div>section:nth-child(2)>nav>img {
+	height: 60px;
+	width: auto;
+}
+
+section button {}
+
+.instructions {
+	background-color: #fff;
+	border-radius: 3px;
+	padding: 0 30px;
+}
+
+footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+ul {
+	display: flex;
+	flex-direction: row;
+}
+
+li {
+	list-style: none;
+	padding-left: 0;
+	padding: 0 12px;
+}
+
+footer a {
+	font-size: 8px/1.5;
+	color: #527897;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
+footer a:hover {
+	color: #6D91AF;
+}
+
+footer p {
+	text-transform: uppercase;
+	color: grey;
 }
