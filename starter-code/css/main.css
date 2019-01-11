@@ -7,4 +7,47 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+}
+.Container {
+  display: flex;
+  justify-content: space-around;
+}
+section {
+  width: 504px;
+}
+.contenu {
+  background-image: url("../images/frame.png");
+  width: 504px;
+  box-sizing: border-box;
+  padding: 12px 24px 18px 38px;
+}
+.contenu p {
+  font-size: 14px;
+  font-weight: 400;
+}
+.contenu h2 {
+  color: #1c5380;
+  line-height: 1.2;
+}
+.login {
+  box-sizing: content-box;
+  background-color: #1c5380;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 15px;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+.instagram {
+  width: 250px;
+  background-color: red;
+  width: 340px;
 }
