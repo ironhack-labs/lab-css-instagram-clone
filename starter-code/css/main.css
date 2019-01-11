@@ -8,3 +8,84 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.bgtile {
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+  padding: 100px;
+}
+
+.leftpadding {
+  padding: 0 40px 0;
+}
+
+.toppadding {
+  margin: 30px 0 0;
+}
+
+.frame {
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  padding: 0;
+  width: 504px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0 0;
+}
+
+.login {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  width: 85px;
+  height: 40px;
+  font-size: 12px;
+  font-weight: 500;
+  text-decoration: none;
+  color: white;
+  background: linear-gradient(#718eaa, #537597);
+  border: 1px solid #1c5380;
+  border-radius: 3px;
+  margin: 5px;
+}
+.imagespacing {
+  margin: 0 20px 0 0;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin: 60px;
+}
+
+h1 {
+  font-size: 24px;
+  color: #06365f;
+  padding: 30px 40px 0;
+  line-height: 30px;
+}
+
+p {
+  font-size: 16px;
+  padding: 0 40px;
+}
+
+a {
+  font-size: 12px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #1c5380;
+  padding: 10px;
+}
