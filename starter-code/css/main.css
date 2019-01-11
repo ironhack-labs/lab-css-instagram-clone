@@ -28,14 +28,16 @@ h1 {
 }
 
 h2 {
+  font-size: 185%;
   color: #396389;
 }
 .main-content {
-  width: 50%;
+  width: 40%;
   margin: 50px 30px;
   display: flex;
   flex-direction: column;
   align-content: space-around;
+  justify-content: space-between;
   
 }
 
@@ -47,6 +49,7 @@ h2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
 }
  
 .btn {
@@ -70,11 +73,43 @@ article {
   background-image: url(../images/frame.png);
   background-repeat: no-repeat;
   background-size: cover;
+  
   padding: 30px 50px;
   
 }
 
 article h2, article p {
-  width: 60%;
+  width: 90%;
 }
 
+article p {
+  font-weight: 400;
+}
+
+.app-market {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  padding: 5px 50px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-content: space-around;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+  padding: 10px 15px;
+}
+
+a {
+  color: #396389;
+  text-decoration: none;
+  font-weight: bold;
+}
