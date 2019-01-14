@@ -1,9 +1,3 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
-
 * {
   margin: 0;
   padding: 0;
@@ -14,92 +8,114 @@ body {
   font-weight: 200;
   font-size: 16px;
   line-height: 1.5;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
 }
-.background-image {
+.header-image {
   background-image: url(../images/bgtile.png);
   background-repeat: repeat-x;
+  height: 100%;
+}
+
+span {
+  font-weight: bold;
 }
 #container {
   display: flex;
   justify-content: center;
   padding-top: 100px;
 }
+.phones-image {
+  margin-right: 30px;
+}
 
 .top-logo {
   display: flex;
+  align-items: center;
   justify-content: space-between;
-  width: 500px;
-  padding-left: 55px;
-}
-.content-wrapper .insta-logo {
-  padding-right: 30px;
+  align-items: center;
+  width: 470px;
+
+  padding-left: 20px;
 }
 .content-wrapper {
-  width: 700px;
-  padding-left: 5px;
+  width: 670px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .log-button {
-  border: 1px solid #06365f;
+  border: 1px solid #1c5380;
   border-radius: 4px;
-  width: 90px;
+  width: 80px;
   height: 30px;
-  background-color: #1c5380;
-  padding: 5px;
 }
 
 .log-button a {
   text-decoration: none;
   color: white;
 }
-
-.log-button img {
-  padding-top: 5px;
-}
 .content {
   background-image: url(../images/frame.png);
   background-size: contain;
   background-repeat: no-repeat;
-  width: 500px;
+  width: 470px;
+  height: 420px;
+  display: flex;
+  flex-flow: column wrap;
+  padding-left: 20px;
+  justify-content: space-between;
+  padding: 20px;
 }
-
+.content-container {
+  height: 200px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+}
+.app-play {
+  margin-top: 50px;
+  display: flex;
+  width: 300px;
+}
 .content h2 {
   color: #06365f;
   width: 250px;
   padding-bottom: 10px;
 }
-.text {
-  font-size: 16px;
-  padding-left: 50px;
-}
 
-.app-play {
-  display: flex;
-  justify-content: space-between;
-  /* background-color: red;*/
-  width: 300px;
-  margin-right: 5px;
-}
-
-footer {
-  display: flex;
-  justify-content: center;
-  padding-top: 30px;
-}
-
-footer a {
+.footer-list a {
   text-decoration: none;
   color: #1c5380;
-  padding-right: 10px;
-  font-weight: 700;
+  font-weight: 500;
+  font-size: 18px;
+}
+.footer-list li {
+  list-style: none;
+  font-weight: bolder;
+  font-weight: 500;
 }
 
-.insta {
-  color: gray;
+.googleapp {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.insta-grey {
+  color: lightslategray;
+  font-size: 18px;
 }
 
-.text .size {
-  padding-left: 50px;
-  padding-top: 50px;
+footer .footer-list {
+  display: flex;
+  font-size: 16px;
+  width: 800px;
+  justify-content: space-around;
+}
+
+.footer-container {
+  display: flex;
+  height: 60px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
 }
