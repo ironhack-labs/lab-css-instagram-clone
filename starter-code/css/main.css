@@ -8,3 +8,14 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.container-1{
+  background-color: rgb(10,121,189);
+  height:30%;
+}
+
+h1{
+ font-family:"Alex Brush";
+ font-size: 60px;
+ color:white;
+}
