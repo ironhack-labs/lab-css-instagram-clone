@@ -8,3 +8,83 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.blue-background{
+  background-color: #1c5380;
+  width: 100vw;
+  height: 40vh;
+}
+.link-btn{
+  font-size: 1.5em;
+  background-color: #1c5380;
+  position: absolute;
+  right: 30px;
+  top: 120px;
+}
+.txt-btn{
+  color:white;
+}
+.frame{
+  position: absolute;
+  top:20%;
+  left:10%;
+}
+a {
+  text-decoration: none;
+}
+.footer-links{
+  color: #1c5380;
+  text-decoration: none;
+  list-style: none;
+}
+.gral-foot{
+  list-style:none;
+  position: absolute;
+  top:700px;
+  left: 400px;
+}
+li{
+  display:inline;
+}
+
+.last-link{
+  color:gray;
+  text-decoration: none;
+  list-style: none;
+}
+
+.box{
+  width: 400px;
+  height: 200px;
+  position: absolute;
+  top:200px;
+  background-image: url('../images/frame.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  left:500px;
+}
+h3{
+  color: #1c5380;
+  font-size: 1em;
+  text-align: center;
+}
+.pos-2{
+  position: absolute;
+  top: 600px;
+  left: 600px;
+}
+.pos-3{
+  position: absolute;
+  top: 600px;
+  left: 800px;
+}
+.pos-4{
+  position: absolute;
+  left: 100px;
+  top: 100px;
+}
+.logo{
+  position: absolute;
+  left: 550px;
+  top: 100px;
+}
