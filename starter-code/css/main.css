@@ -8,3 +8,19 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+nav{
+  height:33vh;
+  width:auto;
+  background-image: linear-gradient(#1c5380,#06365f);
+}
+section {
+  height:67vh;
+  width:auto;
+  background-image: linear-gradient(white,rgb(244,245,247)); 
+  box-sizing: border-box;
+  display:inline-block;
+}
+ul{
+  float:left;
+}
