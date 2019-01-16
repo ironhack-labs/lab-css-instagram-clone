@@ -32,8 +32,9 @@ header {
 }
 .login{
   position: absolute;
-  width: 90px;
+  width: 70px;
   height: 30px;
+  padding: 5px 5px;
   background-image: linear-gradient(lightblue, #1c5380);
   top: 20%;
   right: 2%;
@@ -60,7 +61,7 @@ h2 {
 
 nav {
   flex: 1 100%;
-  color: #666666;
+  color: #999999;
   font-weight: bold;
   font-size: 14px;
   text-transform: uppercase;
