@@ -8,3 +8,146 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.general-container{
+  position: relative;
+  height:731px;
+  width:1090px;
+  box-sizing:border-box;
+  /*border: solid 2px;*/
+}
+
+.background{
+  background-color:#1c5380;
+  /*background-image: url(../images/frame.png);*/
+  background-position: absolute;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 40%;
+
+}
+
+.image-phones{
+  height: 500px;
+}
+
+.phone-container{
+  padding:70px;
+  float: left;
+}
+
+.instagram-logo{
+  width:60%;
+  float:left;
+}
+
+.logo-and-button{
+  /*background-color:red;*/
+  position:absolute;
+  width:98%;
+  left:4%;
+  top:3%;
+}
+
+.home{
+  position:absolute;
+  right:65%;
+  top:18%;
+}
+
+
+
+.home-and-button{
+  border:solid white 3px;
+  position: absolute;
+  width:20%;
+  top:25%;
+  right:5%;
+  background-color:#1c5380;
+}
+
+
+.article-container{
+  box-sizing: border-box;
+  /*background-color:blue;*/
+  position:absolute;
+  height: 70%;
+  width: 50%;
+  position: absolute;
+  top: 15%;
+  right: 5%;
+}
+.content{
+  box-sizing: border-box;
+  /*background-color:orange;*/
+  height: 90%;
+  width: 90%;
+  position: absolute;
+  top: calc(3%);
+  left: calc(5%);
+}
+button{
+  color: white;
+  background-color: #1c5380; 
+  padding:10px;
+  float:right;
+  border:none;
+  
+}
+h2{
+  color:#06365f
+}
+
+a {
+  text-decoration:none;
+  color: #06365f;
+  text-transform:uppercase;
+  font-weight:bold;
+  padding: 0 5px;
+}
+
+.text-container-block{
+  position: absolute;
+  width:95%;
+  height:80%;
+  left:3%;
+  bottom:1%;
+  /*background-color:purple;*/
+  background-image:url(../images/frame.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+}
+
+.text-container-h2{
+  left:7%;
+  position: absolute;
+  line-height: 120%;
+
+}
+
+.text-container-description{
+  position:absolute;
+  width:90%;
+  top:22%;
+  left:7%;
+}
+
+.download-images{
+  position:absolute;
+  left:8%;
+  bottom:1%;
+}
+
+.footer{
+  left:18%;
+  position:absolute;
+  bottom:6% ;
+  /*background-color:green;*/
+}
+
+
+html{
+  margin:0px;
+  padding:0px;
+}
