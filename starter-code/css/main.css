@@ -8,3 +8,128 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+#background div {
+  width: 100vw;
+  height: 270px;
+  opacity: 0.9;
+  background-image: linear-gradient(#1c5380, #06365f);
+  float: left;
+  margin: 0;
+}
+
+#iPhone {
+  float: left;
+  position: absolute;
+  left: 230px;
+  top: 90px;
+}
+
+#home-icon {
+  width: auto;
+  height: 20px;
+  float: left;
+}
+
+#home {
+  background-image: linear-gradient(#1c5380, #06365f);
+  border: 1px solid #06365f;
+  border-radius: 5px;
+  padding: 10px;
+  position: absolute;
+  left: 395px;
+  top: 15px;
+  display: block;
+  width: 100px;
+}
+
+#home h4 {
+  color: white;
+  float: right;
+  position: absolute;
+  left: 40px;
+  top: -7px;
+  font-size: 1.3em;
+}
+
+#logo-header {
+  float: left;
+  position: absolute;
+  left: 600px;
+  top: 100px;
+}
+
+#logo {
+  width: auto;
+  height: 70px;
+}
+
+#information {
+  position: absolute;
+  left: 580px;
+  top: 160px;
+}
+
+#information div {
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+#information h3 {
+  position: absolute;
+  left: 60px;
+  top: 30px;
+  font-size: 1.7em;
+  line-height: 35px;
+  color: #06365f;
+}
+
+#information p {
+  position: absolute;
+  left: 60px;
+  top: 140px;
+  width: 420px;
+  font-weight: 400;
+  color: #353535;
+  font-size: 0.95em;
+}
+
+#app-store {
+  position: absolute;
+  left: 60px;
+  top: 380px;
+}
+
+#android-store {
+  position: absolute;
+  left: 240px;
+  top: 380px;
+}
+
+#footer-menu {
+  float: left; 
+  position: absolute;
+  left: 300px;
+  top: 620px; 
+  width: 1000px;
+  height: 50px;
+}
+
+.line-up {
+  display: inline;
+  font-weight: 600;
+  color: #1c5380;
+  font-size: 0.8em;
+  margin: 0 10px 0 0;
+}
+
+#footer-menu ul {
+  list-style: none;
+}
+
+.copyright {
+  font-weight: 600;
+  color: grey;
+  font-size: 0.8em;
+  display: inline;
+}
