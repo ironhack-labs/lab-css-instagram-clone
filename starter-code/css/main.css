@@ -8,3 +8,64 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+.heading{
+  height: 50vh;
+  background-color:#1c5380;
+  padding-left: 10%;
+  box-sizing: border-box;
+  
+}
+#Instagram {
+  position: absolute;
+  right: 300px;
+  top: 150px;
+}
+.button-log {
+  position: absolute;
+  right: 200px;
+  top: 170px;
+  display: inline-block;
+  background-color: #1c5380;
+}
+.button-log button{
+  text-align: justify;
+}
+.capture{
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 130px;
+  left: 520px;
+  opacity: 1;
+  line-height: 33px;
+text-align: inherit;
+width: 690px;
+color: #06365f;
+}
+.words{
+padding-left: 12px;
+border: 1px;
+color: black;
+}
+.phone{
+  position: absolute;
+  bottom: 100px;
+  left: 30px;
+}
+.bottom{
+  position: absolute;
+  bottom: 19px;
+  left: 28%;
+}
+#last{
+  font-size: 13px;
+  color: gray;
+  letter-spacing: 2px
+} 
+#lost{
+  font-size: 13px;
+  color: #1c5380;
+  letter-spacing: 2px;
+}
