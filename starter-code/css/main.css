@@ -9,20 +9,16 @@ body {
   margin: 0;
 }
 
-.container-1-m{
-
-}
-
 .imagen-brand{
   position: absolute;
   top:20%;
-  right:40%;
+  right:34%;
 }
 
 .container-button{
   position: absolute;
-  top:24%;
-  right: 20%;
+  top:23%;
+  right: 22%;
 }
 
 .boton{
@@ -30,7 +26,14 @@ body {
   border-color: #0033cc;
   color:white;
   font-weight: 700;
-  text-align: center
+  width: 100px;
+  height: 35px;
+}
+
+.telefonos{
+  position: absolute;
+  top:20%;
+  left:5%;
 }
 
 .container-1{
@@ -47,16 +50,13 @@ h1{
  color:white;
 }
 
-.container-info-m{
-  
-  
+.container-info-m{ 
 }
 
 .container-info-s{
   width:480px;
   height: 400px;
   padding-top: 5px;
-  border:1px solid;
   background-image: url("../images/frame.png");
   background-repeat: no-repeat;
   position:absolute;
@@ -66,21 +66,40 @@ h1{
 
 h2{
   color:rgb(10,121,189);
+  width: 70%;
+  margin-left: 5%;
 }
 
+p{
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: justify;
+}
 
 ul{
   list-style: none;
+  float: left;
 }
 
 .container-footer{
   position: absolute;
-  bottom:10%;
+  bottom:-20px;
+  right: 25%;
+
 }
+
 li{
   color:rgb(10,121,189);
   font-weight: bold;
+  float:left;
+  margin:10px;
+}
 
+.arroba{
+  color:#ccc;
+  font-weight: bold;
 }
 
 
+.lista{
+}
