@@ -4,6 +4,7 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+/* general selectors */
 *{
   margin: 0;
   padding: 0;
@@ -20,29 +21,78 @@ h2{
   line-height: 1em;
 }
 
+/* class selectors */
+
+/* vertical align - apply to images that has text next to it */
+.vert-align{
+  vertical-align: middle;
+}
+
+/* blue back section */
 .blue-section{
   background: url("../images/bgtile.png") repeat-x;
   height: 400px;
 }
 
+/* position absolute to move spite of other containers */
 .img-phone{
   position: absolute;
   left: 20%;
   top: 10%;
 }
 
+/* main section, goes to the side of phones image */
 .main-sec{
   position: absolute;
   left: 40%;
   top: 10%;
-  width: 40%;
+  width: 35%;
   margin: 0 auto;
 }
 
-.sec-title{
-  font-size: 4em;
+/* styles for login button */
+.log-button{
+  background-image: linear-gradient(#6692ad, #3f7697);
+  border: 1px solid #2D6A8D;
+  border-radius: 5px;
+  padding: 10px 10px;
+  float: right;
+}
+
+/* styles for a href of login button */
+.log-button a{
+  text-decoration: none;
+  font-weight: bold;
   color: white;
-  vertical-align: middle;
+}
+
+/* container for main text */
+.main-text{
+  padding: 40px;
+  background-image: url("../images/frame.png");
+  background-size: cover;
+}
+
+/* styles for paragraphs */
+.main-text p{
+  line-height: 1.5em;
+  padding-bottom: 20px;
+}
+
+/* style for header 2 */
+.main-text h2{
+  padding-bottom: 20px;
+}
+
+/* em tag style */
+.main-text em{
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* to have some space between badges */
+.badge{
+  padding-right: 20px;
 }
 
 /* container for footer */
@@ -57,6 +107,7 @@ h2{
   margin: 0 auto;
 }
 
+/* styles for links in footer */
 .lk-footer{
   text-decoration: none;
   text-transform: uppercase;
@@ -68,6 +119,7 @@ h2{
   display: inline;
 }
 
+/* style for copyright TM */
 .copyright{
   text-transform: uppercase;
   font-weight: bold;
