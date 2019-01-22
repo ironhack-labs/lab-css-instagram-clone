@@ -8,3 +8,61 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.sectionOne{
+  background-color: #1c5380;
+  background-repeat: no-repeat;
+  position: fixed;
+  height:40%;
+  top:0;
+  left:0;
+  width:100%;
+}
+
+.logo{
+  position: absolute;
+  height: 70px;
+  padding: 8% 0% 0% 45%;
+}
+
+.h1{
+  color: #1c5380;
+  font-weight: 400;
+}
+
+.sectionThree{
+  position: relative;
+  padding: 15% 27% 0% 45%;
+}
+
+.text{
+  position: absolute;
+  top: 172px;
+  left: 574px;
+  right: 200px;
+}
+
+.download{
+  position: relative;
+  padding: 5% 2% 0% 47%;;
+}
+
+.get-it{
+  position: relative;
+  padding: -1% 0% 0% 45%;
+}
+
+.sectionFour{
+  text-transform: uppercase;
+  padding: 0% 10% 0% 30%;
+  color: #1c5380;
+}
+
+.copy{
+  color: grey;
+}
+
+.telefonos{
+  position: absolute;
+  padding: 7% 0% 0% 15%;
+}
