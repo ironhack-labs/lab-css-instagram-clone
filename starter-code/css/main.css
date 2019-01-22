@@ -8,3 +8,92 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.bluediv {
+  position: relative;
+  height: 370px;
+  background-color: #1c5380;
+  z-index: -2;
+}
+
+.whitediv {
+  height: 350px;
+}
+
+.main-content {
+  display: inline;
+}
+
+.phones-img {
+  position: absolute;
+  top: 160px;
+  left: 150px;
+}
+
+.right-content {
+  position: absolute;
+  left: 525px;
+  top: 178px;
+}
+
+.login {
+  position: absolute;
+  margin-left: 70px;
+  margin-top: 30px;
+}
+
+.login p {
+  margin-top: -27px;
+  margin-left: 38px;
+  position: absolute;
+  width: 42px;
+}
+
+.login a:link {
+  color: #d4dee6;
+  text-decoration: none;
+}
+
+.frame {
+  position: absolute;
+  left: -15px;
+  top: 90px;
+  z-index: -1;
+}
+
+.main-text {
+  width: 450px;
+  padding: 20px 20px 0 20px;
+}
+
+h1 {
+  color: #06365f;
+  font-size: 25px;
+}
+
+.download {
+  padding-left: 20px;
+}
+
+footer {
+  color: #1c5380;
+  margin-left: 50px;
+}
+
+.whole-list {
+  margin-left: 180px;
+  font-size: 12px;
+  font-weight: 580;
+}
+
+.inline-list {
+  display: inline;
+  list-style-type: none;
+  margin-right: 10px;
+  color: #1c5380;
+}
+
+.copyright {
+  color: grey;
+  margin-left: 40px;
+}
