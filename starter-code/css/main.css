@@ -7,4 +7,69 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  text-align: center;
+}
+.background{
+  background-image: linear-gradient(to bottom, #3d6487, #3d6487 50%, white 50%);
+  background-attachment:fixed;
+  background-repeat: no-repeat;
+  height: 1200px;
+  
+}
+.main{
+  text-align: center;
+  margin-right: 100px;
+  margin-left: 600px;
+  padding-top: 110px;
+}
+.button{
+  background-color: #53799c;
+  border: none;
+  color: white;
+  padding: 8px 12px;
+  font-style: bold;
+  font-size: 18px;
+  cursor: pointer;
+  text-align: right;
+}
+.top{
+  padding-bottom: 25px;
+  text-align: left;
+  padding-left: 15px;
+}
+h2{
+  color: #06365f;
+  padding-top: 50px;
+}
+.sub-main{
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  height: 300px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: left;
+  font-size: 20px;
+}
+.contenido{
+  padding-left: 20px;
+  padding-right: 30px;
+}
+.bar{
+  padding-bottom: 30px;
+  padding-top: 240px;
+  text-align: center;
+  color: gray;
+}
+a{
+  text-decoration: none;
+  color: #06365f; 
+  word-spacing: 15px;
+}
+.telefonos{
+  text-align: left;
+  padding-top: 140px;
+  padding-left: 150px;
+  position: absolute;
 }
