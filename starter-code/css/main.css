@@ -8,3 +8,85 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+.azul {
+  background-color: #1c5380;
+}
+#instagram {
+  padding-top: 100px;
+  padding-bottom: 75px;
+  padding-left: 525px;
+}
+#home {
+  position: absolute;
+  padding-top: 125px;
+  padding-left: 915px;
+  color: lightgray;
+}
+#phones {
+  position: absolute;
+  padding-top: 90px;
+  padding-left: 150px;
+}
+#frame{
+  position: absolute;
+  padding-top: 190px;
+  padding-left: 525px;
+}
+p {
+  position: absolute;
+  padding-top: 20px;
+  padding-left: 575px;
+}
+h2 {
+  color: #06365f;
+  position: absolute;
+  padding-top: 195px;
+  padding-left: 575px;
+}
+#appStore {
+  position: absolute;
+  padding-top: 500px;
+  padding-left: 575px;
+}
+#googlePlay {
+  position: absolute;
+  padding-top: 500px;
+  padding-left: 775px; 
+}
+footer {
+  color: silver;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 400px;
+}
+.nav-bar-li {
+  list-style-type: none;
+  text-align: center;
+  float: left;
+  width: 5%;
+}
+.nav-bar-item {
+  padding-left: 300px;
+  text-align: center;
+  color: #1c5380;
+  text-decoration: none;
+  font-size: 10px;
+}
+.link-btn{
+  position: absolute;
+  padding-top: 200px;
+  padding-left: 300px;
+  color: lightgray;
+  background-color: #1c5380;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  text-decoration: none;
+  width: 85px;
+  margin-top:115px;
+  margin-left: 900px;
+  padding: 8px 0px 8px 30px;
+  border: 2px solid #06365f;
+}
