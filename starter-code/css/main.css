@@ -52,8 +52,10 @@ h2{
 
 /* styles for login button */
 .log-button{
+  /* margin to position button centered to brand image*/
+  margin-top: 15px; 
   background-image: linear-gradient(#6692ad, #3f7697);
-  border: 1px solid #2D6A8D;
+  border: 2px solid #2D6A8D;
   border-radius: 5px;
   padding: 10px 10px;
   float: right;
