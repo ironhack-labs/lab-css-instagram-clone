@@ -3,8 +3,157 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+* {
+    margin: 0;
+  padding: 0;
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+}
+
+.clearfix{
+  clear: both;
+}
+
+#top {
+  background-image: linear-gradient(#537a9c, #1c5380);
+  height: 290px;
+  position: relative;
+} 
+
+#bottom {
+  background-color: #f5f6f8;
+  height: 500px;
+}
+
+#content {
+  width: 80%;
+  margin: 0 auto;
+  position: absolute;
+  top: 125px;
+  left: 200px;
+}
+
+#content-left img {
+  width: 80%;
+}
+
+#content-left {
+  float: left;
+}
+
+#content-right {
+  width: 90%;
+}
+
+#title-bar {
+  height: 80px;
+}
+
+#login-button {
+  border: 1px solid #06365f;
+  width: 100px;
+  height: 40px;
+  float: right;
+  margin-top: 15px;
+  background-image: linear-gradient(#537a9c, #1c5380);
+  position: relative;
+  right: 100px;
+}
+
+#login-button a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+#login-button-wrapper {
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+  left: 5px;
+  top: 4px;
+}
+
+#login-button-wrapper img {
+  position: relative;
+  top: 4px;
+  padding-right: 4px;
+}
+
+#text {
+  background: url('../images/frame.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 10px;
+  margin-left: 320px;
+  border-radius: 8px;
+  padding: 30px 20px;
+  width: 50%;
+}
+
+#text-wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#text h2 {
+  color: #1c5380;
+  line-height: 30px;
+}
+
+#text p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #777;
+  margin: 20px 0px;
+  width: 85%;
+  line-height: 20px;
+}
+
+#insta-logo {
+  width: 35%;
+  float: left;
+}
+
+#buttons img {
+  margin-right: 10px;
+}
+
+footer {
+  width: 100%;
+  display: inline;
+  position: relative;
+  top: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* footer {
+  width: 100%;
+  display: inline;
+  position: relative;
+  top: 400px;
+  margin: 0 auto;
+} */
+
+footer li {
+  display: inline;
+}
+footer li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 500;
+  color: #1c5380;
+  padding: 0 5px;
+}
+
+#copyright {
+  font-size: 12px;
+  font-weight: 500;
+  color: lightgray;
+  margin-left: 20px;
 }
