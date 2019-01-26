@@ -8,3 +8,98 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+button {
+  background-color: #1c5380;
+  color: white;
+  border: 2px solid #06365f;
+  border-radius: 4px;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  float: right;
+  height: 40px;
+  width:100px;
+  margin-top:15px;
+}
+
+.main_box_bottom {
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.link_blue {
+  color: #1c5380;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.link_grey {
+  color: lightgray;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.back_blue_box {
+  background-color: #1c5380;
+  height: 20vw;
+  margin-bottom: 10px;
+  min-width: 725px;
+  padding-top: 10px;
+  width: 100%;
+}
+
+.main_background {
+  background-image: url("../images/frame.png");
+  background-size: 100% auto;
+}
+
+.main_box {
+  position: absolute;
+  top: 100px;
+  left: 300px;
+  right: 300px;
+}
+
+.main_box_top {
+  display: flex;
+}
+
+.main_left {
+  float: left
+}
+
+.main_right {
+  margin-left: 20px;
+}
+
+.main_content {
+  background-image: url(../images/frame.png);
+  background-size: 100% auto;
+  background-repeat-y: no-repeat;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 10px;
+  position: relative;
+}
+
+.main_content h1 {
+  padding-top: 10px; 
+  font-size: 29px;
+  width: 300px;
+}
+
+.motto {
+  color: #06365f;
+  font-size: 1em;
+}
+
+.badges {
+  padding-top: 30px;
+  padding-left: 40px;
+}
