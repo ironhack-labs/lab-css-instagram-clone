@@ -8,3 +8,142 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+h3{
+  color: #1c5380;
+  
+}
+#blue{
+ height: 40vh;
+ width: 100vw;
+ background-color: #1c5380;
+}
+
+#white{
+  height: 60vh;
+  width: 100vw;
+  background-color: azure;
+ }
+
+ #bigbox{
+   height: 80%;
+   width: 80%;
+   position: absolute;
+   top: 10vh;
+   left: 10vw;
+ }
+
+ #phone{
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 50%;
+   height: 80%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   
+ }
+
+ #iphoneImage{
+   height: 100%;
+ }
+ #right{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 48%;
+  height: 80%;
+  
+  display: flex;
+  flex-direction: column;
+}
+#insta{
+  height: 20%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+#logo{
+  height: 80%;
+  width: 80%;
+  
+}
+
+#button{
+  background-color: #1c5380;
+  height: 40px;
+  width: 80px;
+  color: #ffffff;
+  text-align: center;
+  border: 1px solid #05243f;
+  box-shadow: 1px 1px 2px #05243f;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8em;
+  font-weight: 500;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+}
+.butt{
+  display: flex;
+  align-items: center;
+}
+#home{
+  height: 80%;
+  width: 80;
+  padding: 5px;
+}
+
+#text{
+  height: 80%;
+  width: 90%;
+  background-color: #ffffff;
+  padding: 5%;
+  border-radius: 10px;
+}
+
+#bottom{
+  width: 100%;
+  height: 20%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  
+}
+.bot{
+  
+  margin: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  color: #1c5380;
+  font-weight: 500;
+}
+
+#textCompare{
+ font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#badge{
+  display: flex;
+  flex-direction: row; 
+  align-items: center;
+  justify-content: center;
+  padding-top: 10%;
+}
+div.badges{
+  display: flex;
+  align-items: center;
+  padding: 0.5em;
+  justify-content: center;
+}
+
