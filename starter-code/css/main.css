@@ -8,3 +8,106 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.containerFirst {
+  background-color: #4D7495;
+  height: 40vh;
+}
+
+.containerSecond {
+  background-color: White;
+  height: 60vh;
+}
+
+.content {
+  position: absolute;
+  top:15vh;
+  left:15vw;
+  height: 65vh;
+}
+
+.phones{
+  position: relative;
+}
+
+.texte{
+  position: absolute;
+  top: 0;
+  left: 30em;
+}
+
+.header{
+  display: flex;
+  align-items: baseline
+}
+
+.button{
+  background-color: #6E92AE;
+  border: #6E92AE;
+  height: 6vh;
+  width: 7vw;
+  position: absolute;
+  top: 10px;
+  left: 30vw;
+  text-align: center;
+  vertical-align: middle;
+  font-size: bold;
+  color: white;
+  padding-bottom: 2px;
+}
+
+.login {
+  margin-left: 7px;
+  font-weight: 600;
+}
+
+h1{
+  color: #2E5271;
+}
+
+.proposal{
+  background-image: url(../images/frame.png);
+  background-size: cover;
+  padding:20px 20px 0;
+  width: 35vw;
+  height: 50vh;
+}
+
+
+
+.telechargement{
+  display:flex;
+  margin-top: 8vh;
+}
+
+.telechargement img{
+  margin: 0px 15px 0 10px;
+
+}
+
+.menu{
+  position: absolute;
+  margin-top: 20px;
+  left: 10vw;
+  width: 70vw;
+  display: flex;
+}
+
+.menu ul{
+  display: flex;
+ 
+}
+
+.menu ul li{
+  list-style-type: none;
+  margin-right: 20px;
+  text-transform: uppercase;
+  color: #96ADC2;
+  font-weight: 400;
+}
+
+.copyright{
+  color: #BDBDBE;
+  text-transform: uppercase;
+  font-weight: 400;
+}
