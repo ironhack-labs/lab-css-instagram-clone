@@ -8,3 +8,74 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+.inBlockVAgn {
+  display: inline-block;
+  vertical-align: middle;
+}
+header {
+  padding: 0px 13em;
+  background-image: url('../images/bgtile.png');
+  background-repeat: repeat-x;
+  height: 280px;
+}
+.header-content {
+  color: white;
+  position: relative;
+  top: 40%;
+  width: 500px;
+  float: right;
+}
+.button {
+  background-image: url('../images/bgtile.png');
+  padding: 8px;  
+  background-repeat: repeat-x;
+  float: right;
+  position: relative;
+  top: 1.1em;
+  background: rgba(43, 102, 160, 1);
+  border: 1px solid rgba(42, 92, 142, 1);
+}
+.button span {
+  font-weight: bold;
+  margin-left: .3em;
+}
+.main {
+  background-color: transparent;
+  position: relative;
+  top: -10em;
+  padding: 0px 13em;
+}
+.phones{ display: inline-block;}
+.frame{
+  background-image: url('../images/frame.png');
+  max-width: 500px;
+  padding: 2em 3em;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  float: right;
+  margin-top: 5em;
+}
+
+.frame h1{ 
+  color: #3a688f;
+  margin: 0px;
+}
+.links{
+  width: 100%;
+  text-align: center;
+}
+.links ul {
+  padding: 0px;
+  text-align: center;
+  margin-top: 2em;
+  display: inline-block;
+}
+.links ul li {
+  display: inline;
+  color: #3a688f;
+  font-weight: bold;
+  padding: 0px .5em;
+}
+.links span {
+  font-size: .9em;
+}
