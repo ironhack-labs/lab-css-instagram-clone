@@ -3,8 +3,148 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
+*{
+  margin: 0;
+  padding: 0;
+}
+div{
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+}
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+.clearfix{
+  clear: both;
+}
+.MainContainer{
+  width: 100%;
+  height:  100%;
+  position: relative;
+}
+.MainTop{
+  width: 100%;
+  height: 300px;
+  background: url(../images/bgtile.png);
+  background-repeat: repeat-x;
+  background-size: contain;
+}
+.IgBlock{
+  width: 67%;
+  position: absolute;
+  top: 110px;
+  left: 19%;
+  max-width: 875px;
+}
+.IgBlock__left{
+  display: inline-block;
+  vertical-align: top;
+  width: 40%;
+}
+.IgBlock__left img{
+  max-width: 100%;
+  height:  auto;
+}
+.IgBlock__right{
+  display: inline-block;
+  vertical-align: top;
+  width: 54%;
+  margin-left: 5%;
+}
+.IgBlock__header {
+  width: 100%;
+  height: 85px;
+  margin-top: 15px;
+}
+.IgBlock__header-logo{
+  float: left;
+  width: 250px;
+  margin-top: 10px;
+}
+.IgBlock__header-logo img{
+  max-width: 100%;
+}
+.IgBlock__header-login{
+  float: right;
+  margin-right: 10px;
+  padding: 4px 12px;
+  background-color: rgba(28, 83, 128, 0.4);
+  text-decoration: none;
+  margin-top: 23px;
+  -webkit-box-shadow: 1px 0px 6px 1px rgba(6,54,95,1);
+-moz-box-shadow: 1px 0px 6px 1px rgba(6,54,95,1);
+box-shadow: 1px 0px 6px 1px rgba(6,54,95,1);
+}
+.IgBlock__header-login img{
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+.IgBlock__header-login span {
+  color: white;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 16px;
+  font-weight: 400;
+}
+.IgBlock__content{
+  width: 100%;
+  padding: 28px;
+  background: url(../images/frame.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.IgBlock__content__title{
+  color: #06365f;
+  margin: 0;
+  font-size: 28px;
+  line-height: 35px;
+  max-width: 76%;
+  margin-bottom: 15px;
+}
+.IgBlock__content__text{
+  margin-bottom: 35px;
+}
+.IgBlock__content__text p{
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 12px;
+  font-weight: initial;
+  color: #2b2b2b;
+}
+.IgBlock__content__badge{
+
+}
+.IgBlock__content__badge-item{
+  height: 50px;
+  width: auto;
+}
+.IgBlock__content__badge-item.iphone {
+  margin-right: 20px;
+}
+.MainBottom{
+  width: 90%;
+  margin: 40px auto;
+}
+.MenuList{
+  list-style-type: none;
+  width: 100%;
+  margin: 0 auto;
+}
+.MenuList__item{
+  display: inline-block;
+  margin: 0 10px;
+}
+.MenuList__item a {
+  color: #1c5380;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 13px;
+}
+.MenuList__item.Copy a{
+  color: #cccccc;
 }
