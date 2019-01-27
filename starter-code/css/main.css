@@ -17,22 +17,95 @@ header{
 .box1{
   border: 2px solid red;
   width: 60%;
-  position: fixed;
-  top: 140px;
+  position: absolute;
+  top: 120px;
   left: 20%;
+  box-sizing: border-box
 }
 .box-phones{
   display: inline;
   float: left;
+  width: 45%;
 }
-.box-information{
-  display: inline;
-  float: right;
+.phones{
+  width: 85%;
+}
+.box-2{
+  display: inline-block;
+  width: 55%;
+  border: 1px solid green;
+  vertical-align: middle;
+  box-sizing: border-box;
 }
 .brand{
   display: inline-block;
+  float: left;
 }
 .home{
   display: inline-block;
-  text-align: center
+  vertical-align: middle;
+ }
+.button{
+  width: 120px;
+  border: 1px solid black;
+  background-color: rgba(255, 255, 255, 0.2);
+  display: inline-block;
+  float: right;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  vertical-align: middle;
+  padding: 7px 2px;
+  box-sizing: border-box;
+  margin-top: 18px;
+  box-shadow: -2px -2px 4px 0px #06365f;
+}
+.login{
+  vertical-align: middle;
+  display: inline-block;
+}
+.box-white{
+  background-image: url("../images/frame.png");
+  background-size: cover;
+  display: inline-block;
+}
+.h1{
+  margin: 40px;
+  color: #06365f
+}
+.h2{
+  margin: 40px;
+  font-weight: lighter;
+}
+.appstore{
+  display: inline-block;
+  float: left;
+  height: 60px;
+  margin: 0 40px;
+}
+.playstore{
+  display: inline-block;
+  height: 60px;
+}
+.list{
+  margin-top: 80px;
+}
+.list ul{
+  width: 80%;
+  list-style-type: none;
+  color: #1c5380;
+  text-transform: uppercase;
+  display: block;
+  margin: 0 auto;
+  padding: 0; 
+}
+.list li{
+  display: inline;
+  padding: 0 14px;
+  text-align: center;
+  font-weight: bold;
+}
+.list li.last-li{
+  color: gray;
+  font-weight: bolder;
 }
