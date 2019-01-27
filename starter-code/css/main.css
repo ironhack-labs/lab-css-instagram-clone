@@ -4,7 +4,66 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  box-sizing: border-box;
+  background-image: url('../images/bgtile.png');
+  background-repeat: repeat-x;
+}
+h1 {
+  color: #1c5380;
+  font-size: 1.75rem;
+}
+
+.container{
+  width: 860px;
+  margin: 100px auto;
+}
+.col-1-2 {
+  width: 320px;
+  margin-right: 36px;
+  float: left;
+
+}
+.col-2-2 {
+  width: 504px;
+  float: left;
+}
+.header {
+  padding-top: 15px;
+}
+.content-wrap {
+  display: relative;
+  background-image: url('../images/frame.png');
+  background-position: top;
+  background-repeat: no-repeat;
+}
+.content {
+  display: relative;
+  top:40px;
+  left:20px;
+
+}
+
+.footer {
+  position: relative;
+  top: 50px;
+  clear:both;
+  text-align: center;
+}
+.menu-bottom li a{
+  color: #1c5380;
+  text-decoration: none;
+}
+.menu-bottom li {
+  list-style: none;
+  display: inline-block;
+  text-transform: uppercase;
+  margin: 5px;
+  font-weight: bold;
+}
+.copy {
+  color: grey;
 }
