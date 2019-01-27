@@ -8,3 +8,113 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+/*Main Content*/
+section{
+  background-image: url("../images/bgtile.png");
+  height: 500px;
+  margin: 0 auto;
+}
+
+.phones {
+  height: 900px;
+}
+ 
+.left-section {
+  margin-left: 10%;
+  float: left;
+  margin-top: 10%;
+}
+
+.middle-section {
+  float: left;
+  width: 100px;
+  margin-top: 10%;
+  margin-left: 5%;
+}
+
+.brand {
+  height: 140px;
+}
+.right-section {
+  height: 100px;
+  float:right;
+  margin-right: 10%;
+  margin-top: 12%;
+}
+
+.button {
+  background-color: #1c5380;
+  border-color: #06365f;
+  border-style: solid;
+  border-width: 2px;
+  color: white;
+  padding: 10px 10px;
+  font-size: 25px;
+  width: 150px;
+}
+
+.home{
+  height: 35px;
+  margin: 0;
+}
+
+span {
+  padding-left: 10px;
+  top: 5px;
+}
+
+.frame {
+  background-repeat: no-repeat;
+  padding-left: 5%;
+  width: 900px;
+  padding-top: 2%;
+}
+
+.share {
+  position: absolute;
+  top: 50%;
+  left: 48%;
+}
+
+h1 {
+  font-size: 50px;
+  margin-top: 0;
+  line-height: 60px;
+  color: #06365f;
+}
+
+p {
+  font-size: 28px;
+}
+
+.apple {
+  height: 100px;
+}
+
+.google {
+  height: 100px;
+  padding-left: 30px;
+}
+
+
+/*Footer*/
+footer{
+  clear: both;  
+  text-align: center;
+  padding-top: 10%;
+  padding-bottom: 2%;
+}
+
+li {
+  display: inline;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #1c5380;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.copyright {
+  color: grey;
+}
