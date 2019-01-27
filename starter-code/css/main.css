@@ -4,7 +4,73 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+/* Reseteo de estilos*/
+* {
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+
+  background-image: url("../images/bgtile.png");
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+  background-size: 100% 40%;
+  position: relative;
+  /*width: 1280px;*/
+  height: 800px;
+}
+
+.iphone-box {
+  background-image: url("../images/phones.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  position: absolute;
+  width: 25%;
+  height: 500px;
+  top: 20%;
+  left: 10%;
+}
+
+.main-box {
+  background-image: url("../images/frame.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  
+  position: absolute;
+  background-color: yellowgreen;
+  width: 50%;
+  height: 500px;
+  position: absolute;
+  top: 20%;
+  left: 40%;
+}
+
+.logo-box {
+  background-color: aqua;
+  height: 150px;
+  color: white;
+  list-style-type: none;
+}
+
+.frame-title {
+  color: #06365f;
+}
+
+.frame-box {
+  background-color: lawngreen;
+}
+
+.footer-box {
+  background-color: pink;
+  width: 60%;
+  height: 300px;
+  position: absolute;
+  top: 90%;
+  left: 20%;
+  color: #1c5380;
 }
