@@ -3,8 +3,53 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+* {
+  padding: 0px;
+  margin-left: 0px;
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.contenedor-1 {
+position: relative;
+width: 489px;
+left: 9.3%;
+}
+
+.logo {
+ 
+ }
+
+ .button {
+   width: 102px;
+   height: 46px;
+ }
+
+ .contenedor-2 {
+   position: absolute;
+   left: 37.5%;
+
+ }
+
+ .contenedor-3 {
+   background-image: url("../images/frame.png");
+   width: 492px;
+   top: 20%;
+   left: 37.5%;
+   position: absolute;
+ }
+
+ .box {
+   float: left;
+ }
+
+ footer {
+   clear: both;
+   display: block;
+ }
+
+ .no-list {
+  list-style-type: none;
