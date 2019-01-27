@@ -8,3 +8,78 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+.barraAzul{
+  width:100%;
+  height:250px;
+  background-image: url("../images/bgtile.png");
+ position:fixed;
+}
+.imgTlf{
+  width:40%;
+  height:auto;
+  content: url("../images/phones.png");
+  background-repeat: no-repeat;
+  float: left;
+  /*no consigo hacer que se reajuste al alto del div dependiendo de la resolucion*/
+}
+.parrafo{
+  width:50%;
+  height:auto;
+  float:left;
+  margin-left:5%;
+  margin-right:5%;
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  word-wrap: break-word;
+  /*Si la pantalla es muy ancha se me sale el texto del div no he sabido como hacerlo*/
+}
+.insLogin{
+  width:50%;
+  height:100px;
+  background-image: url("../images/brand.png");
+  background-repeat: no-repeat;
+  position:relative;
+  float: left;
+  margin-left:5%;
+  background-size: contain;
+}
+.links{
+  width:100%;
+  height:20px;
+  top:700px;
+  position:relative;
+  padding-top: 20px;
+  text-align:center;
+  text-transform:uppercase;
+  color:#06365f;
+  word-spacing: 7px;
+  font-size: 12px; 
+}
+.cajaPadre{
+  width:80%;
+  height:600px;
+  position:fixed;
+  top:100px;
+  left:10%;
+  right:10%;
+  overflow:hidden;
+}
+.h1{
+  color:#06365f;
+  font-size: 20px;  
+  margin-left:3%;
+}
+*{
+  font-family:"arial"
+}
+.botones{
+  width:100%;
+  background-repeat: no-repeat;
+ }
+  
+p{
+  margin-left:3%;
+  margin-right:3%;
+  overflow:hidden;
+} 
