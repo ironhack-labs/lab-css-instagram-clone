@@ -15,7 +15,6 @@ header{
   height: 280px;
 }
 .box1{
-  border: 2px solid red;
   width: 60%;
   position: absolute;
   top: 120px;
@@ -33,7 +32,6 @@ header{
 .box-2{
   display: inline-block;
   width: 55%;
-  border: 1px solid green;
   vertical-align: middle;
   box-sizing: border-box;
 }
@@ -66,8 +64,9 @@ header{
 }
 .box-white{
   background-image: url("../images/frame.png");
-  background-size: cover;
+  background-size: contain;
   display: inline-block;
+  background-repeat: no-repeat;
 }
 .h1{
   margin: 40px;
@@ -89,6 +88,7 @@ header{
 }
 .list{
   margin-top: 80px;
+  margin-bottom: 40px;
 }
 .list ul{
   width: 80%;
