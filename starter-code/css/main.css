@@ -14,7 +14,8 @@ body {
 }
 h1 {
   color: #1c5380;
-  font-size: 1.75rem;
+  font-size: 1.65rem;
+  line-height: 2.6rem;
 }
 
 .container{
@@ -32,24 +33,39 @@ h1 {
   float: left;
 }
 .header {
-  padding-top: 15px;
+  padding-top: 10px;
+}
+.header a {
+  border: 2px outset rgba(100, 100, 100, 0.65) ;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 10px;
+  margin-top: 10px;
+  background-image: linear-gradient(rgba(135,185,232,1),rgba(28,83,128,1));
+  float: right;
+}
+.header a span {
+  margin: 0px 5px;
+  color: white;
+  font-weight: bold;
 }
 .content-wrap {
-  display: relative;
+  position: relative;
   background-image: url('../images/frame.png');
   background-position: top;
   background-repeat: no-repeat;
+  bottom: 10px;
 }
 .content {
-  display: relative;
-  top:40px;
-  left:20px;
-
+  position: relative;
+  top:25px;
+  left:37px;
+  width: 430px;
 }
 
 .footer {
   position: relative;
-  top: 50px;
+  top: 80px;
   clear:both;
   text-align: center;
 }
@@ -66,4 +82,10 @@ h1 {
 }
 .copy {
   color: grey;
+}
+.store {
+  margin-top: 30px;
+}
+.store .android {
+  margin-left: 30px;
 }
