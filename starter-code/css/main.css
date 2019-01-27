@@ -31,30 +31,44 @@ body {
   position: absolute;
   width: 25%;
   height: 500px;
-  top: 20%;
+  top: 15%;
   left: 10%;
 }
 
 .main-box {
-  background-image: url("../images/frame.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: auto;
-  
-  position: absolute;
-  background-color: yellowgreen;
+  /*background-color: yellowgreen;*/
   width: 50%;
   height: 500px;
   position: absolute;
-  top: 20%;
+  top: 15%;
   left: 40%;
 }
 
 .logo-box {
-  background-color: aqua;
-  height: 150px;
+  /*background-color: aqua;*/
+  height: 100px;
   color: white;
   list-style-type: none;
+}
+
+.logo-li1 {
+  float: left;
+  width: 75%;
+  list-style-type: none;
+}
+
+.logo-li2 {
+  float: right;
+  width: 15%;
+  list-style-type: none;
+}
+
+.login-button {
+  background-color: #1c5380;
+  border: 2px solid #06365f;
+  padding: 5px;
+  margin-right: 12px;
+  margin-top: 30px;
 }
 
 .frame-title {
@@ -62,15 +76,42 @@ body {
 }
 
 .frame-box {
-  background-color: lawngreen;
+  /*background-color: lawngreen;*/
+  background-image: url("../images/frame.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  padding: 2% 7% 0 7%;
+}
+
+.frame-download {
+  float: left;
+  width: 50%;
+  list-style-type: none;
 }
 
 .footer-box {
-  background-color: pink;
-  width: 60%;
-  height: 300px;
+  /*background-color: pink;*/
+  width: 70%;
+  height: 15%;
   position: absolute;
   top: 90%;
-  left: 20%;
+  left: 15%;
   color: #1c5380;
+}
+
+.footer-float {
+  float: left;
+  width: 9%;
+  list-style-type: none;
+  margin-left: 1%;
+}
+
+.no-link {
+  text-decoration: none;
+}
+
+.cap-style {
+  text-transform: capitalize;
 }
