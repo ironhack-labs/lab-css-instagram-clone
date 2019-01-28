@@ -19,15 +19,15 @@ header {
   height: 278px;
 }
 
-/*.tile {
+.tile {
   position: relative;
   width: 100%;
-  bottom: 50px;
-}*/
+  top: 95.5%;
+}
 
 .contenedor-1 {
   position: absolute;
-  left: 37.5%;
+  left: 44.5%;
   top: 38%;
 }
 
@@ -56,7 +56,7 @@ header {
 
  .contenedor-2 {
   position: absolute;
-  left: 9.3%;
+  left: 16.3%;
   top: 14%;
   }
 
@@ -65,11 +65,10 @@ header {
    background-repeat: no-repeat;
    width: 500px;
    top: 30%;
-   left: 37.5%;
+   left: 44.5%;
    position: absolute;
    height: 405px;
-  /* text-align: left;*/
- }
+   }
 
  .box {
    float: left;
@@ -79,11 +78,24 @@ header {
    clear: both;
    bottom: -410px;
    position: relative;
-   /*text-align: center;*/
- }
+   }
 
  .no-list {
   list-style-type: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-left: 2%;
+  text-align: center;
+ }
+
+ a:link {
+   text-decoration: none;
+   color: #1c5380;
+ }
+
+ a:visited {
+   text-decoration: none;
+   color: #1c5380;
  }
 
  .title {
@@ -100,26 +112,27 @@ header {
  }
 
  .col-2 {
-   width: 44%;
+   
    vertical-align: middle;
    left: 34px;
    position: relative;
  }
- 
- footer li {
-  width: 11%;
- }
+
+ .img-android{
+  left: 54px;
+  position: relative;
+   }
 
  .links {
    width: 55%;
    text-align: center;
-   left: 19%;
+   left: 20%;
    position: relative;
- }
+   }
 
  .copy {
    position: relative;
-   left: 288px;
+   left: 23%;
  }
 
  footer p {
