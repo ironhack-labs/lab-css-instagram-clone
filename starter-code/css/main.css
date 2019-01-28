@@ -3,8 +3,100 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
+*{
+  box-sizing: border-box;
+}
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  
 }
+
+.background {
+  background-image : url("../images/bgtile.png");
+  height:300px;
+}
+
+.position-main{
+  position: absolute;
+  top: 100px;
+  padding: 0 10% 0 15%;
+}
+
+.position-phones {
+  float: left;
+  width: 35%;
+  
+ 
+}
+
+.position-text {
+  float: left;
+  width: 47.5%;
+  position: relative;
+}
+
+.clearfix {
+  clear: both;
+ 
+}
+
+.home {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.position-log-in {
+  margin:0 5px 0 5px;
+}
+
+.button {
+  position: absolute;
+  right:0px;
+  top:20px;
+  background-color: #1c5380;
+  padding: 5px;
+  border-radius: 4px;
+ }
+
+ .button p {
+   color:white;
+   font-weight: 500;
+ }
+
+ .main-text {
+   background-image: url("../images/frame.png");
+   width: 100%;
+   background-size: cover;
+   padding:25px 60px;
+   border-radius: 4px;
+ }
+
+ h2 {
+   color:#1c5380;
+   font-size:  1.8rem;
+ }
+
+
+ li {
+   float:left;
+   list-style-type: none;
+   text-align: center;
+   width: 8%;
+   color:#06365f;
+   font-weight: 500;
+   font-size: 12px;
+ }
+
+ .footer {
+   padding:50px 100px;
+ }
+
+.grey {
+  width: 12%;
+  color: grey;
+ }
+
+ .mayuscula {
+  text-transform: uppercase;
+ }
