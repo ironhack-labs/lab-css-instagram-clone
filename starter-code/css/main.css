@@ -59,16 +59,33 @@ body {
 
 .logo-li2 {
   float: right;
-  width: 15%;
+  /*width: 15%;*/
   list-style-type: none;
+  margin-right: 12px;
+  margin-top: 30px;
 }
 
 .login-button {
   background-color: #1c5380;
   border: 2px solid #06365f;
   padding: 5px;
-  margin-right: 12px;
-  margin-top: 30px;
+}
+
+.btn {
+  padding: 10px;
+  border-radius: 4px;
+  text-decoration: none;
+  color: currentColor;
+}
+
+.btn-login {
+  position: relative;
+  padding-left: 35px;
+}
+
+.btn-login > img { /* Aplica a las imágenes hijas de la clase .btn-login, con '>' aplica a descendientes directos */
+  position: absolute;
+  left: 5px;
 }
 
 .frame-title {
@@ -113,5 +130,5 @@ body {
 }
 
 .cap-style {
-  text-transform: capitalize;
+  text-transform: uppercase;
 }
