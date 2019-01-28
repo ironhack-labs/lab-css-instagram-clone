@@ -5,6 +5,122 @@ light blue: #1c5380
 */
 
 body {
+  width: 100%;
+  height:100%;
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+.wrapper{
+  width: 100%;
+  height: 710px;
+
+}
+.cabecera{
+  position: relative;
+
+width: 100%;
+height: 400px;
+background-image: url(../images/bgtile.png);
+
+}
+.centro{
+position: absolute;
+  width: 64%;
+  height: 410px;
+  top: 250px;
+  margin-left: 200px;
+
+}
+
+.cuerpo{
+
+  position: relative;
+
+  width: 100%;
+  height: 310px;
+background-color: azure;
+}
+
+.telefonos{
+  position: relative;
+  width: 50%;
+  height:410px;
+  display: inline-block;
+
+
+}
+
+#iphones{
+position: relative;
+height: 350px;
+margin-left: 70px;
+}
+
+
+#brand{
+  position: relative;
+  height: 80px;
+  margin-left: 0px;
+  }
+
+.ig{
+  position: absolute;
+
+  width: 50%;
+  height:410px;
+  display: inline-block;
+  
+}
+
+.cabecera2{
+  width: 100%;
+
+  position: relative;
+}
+
+.cuerpo2{
+width: 500px;
+height: 200px;
+position: relative;
+background-image: url(../images/frame.png);
+padding-top: 30px;
+
+background-repeat: no-repeat;
+font: 1em sans-serif;
+text-align: center;
+
+}
+
+.pieDePagina{
+  position: relative;
+  /* Altura total del footer en px con valor negativo */
+  /* Altura del footer en px. Se han restado los 5px del margen
+     superior mas los 5px del margen inferior
+  */
+
+  text-align: center;
+  width: 100%;
+  height: 60px;
+  color: grey;
+  padding-top: 35px;
+}
+
+a{
+color: blue
+}
+
+
+#bandroid{
+
+position: relative;
+display: inline-block;
+padding-top: 20px;
+}
+#biphone{
+
+  position: relative;
+  display: inline-block;
+
+
+}
+
