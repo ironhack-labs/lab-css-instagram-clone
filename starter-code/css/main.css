@@ -19,17 +19,38 @@ body {
   top: 100px;
   float: left;
 }
+
+.logo{
+  display: inline;
+}
 .log-in{
   background-color: #1c5380;
   border-color: #06365f;
   color: white;
+  position: relative;
+  right: -100px;
+  bottom: 30px;
 }
 .right-box{
   position: relative;
-  left:300px;
-  top: 200px; 
+  left:200px;
+  top: 100px; 
   font-size: 16px;
 }
+
+.text-box{
+  position: relative;
+  bottom:400px;
+  left: 375px;
+  width:400px;
+}
+
+.footer{
+  position: relative;
+  top:-250px;
+  right: -400px;
+}
+
 .h2{
   color: #06365f;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -37,10 +58,11 @@ body {
 .text{
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-.footer{
-  position: relative;
-  top:375px;
-}
+
 .button{
   display: inline;
+}
+
+.link{
+  
 }
