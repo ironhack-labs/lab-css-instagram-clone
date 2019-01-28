@@ -20,10 +20,37 @@ body {
   position: relative;
   left:100px;
   top: 100px;
-
   float: left;
 }
 
 .text{
-  
+  position: relative;
+  left:500px;
+  top: 200px; 
+}
+
+.white-box{
+  display: block;
+  position: relative;		
+  width: 400px;
+  height: 100px;
+}
+
+.text-box{
+  background-color: rgba(255,255,255);
+  display: block;
+  position: absolute;
+  bottom: -20x;
+  left: 0;
+  padding: 5px;
+  width: 400px;
+}
+
+.footer{
+  position: relative;
+  top:375px;
+}
+
+.button{
+  display: inline;
 }
