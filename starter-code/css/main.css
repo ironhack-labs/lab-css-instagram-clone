@@ -8,3 +8,83 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+h2 {
+  color: #1c5380;
+}
+
+.bck-color {
+  background: #06365f;
+  height: 45%;
+  width: 100%;
+  position: absolute;
+}
+
+.foot {
+  margin-left: 190px;
+  position: relative;
+  height: 40px;
+  
+}
+
+.footer p {
+  float: left;
+  margin: 0 15px;
+}
+
+.footer a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.sct-block {
+position: relative;
+margin-left: 525px;
+margin-top: 110px;
+}
+
+.text {
+  width: 400px;
+  position: relative;
+  bottom: 280px;
+  left: 40px;
+}
+
+.phones {
+  display: block;
+  position: absolute;
+  top: 90px;
+  left: 140px;
+}
+
+.form {
+  position: absolute;
+  top: 0;
+  left: 397px;
+}
+
+.button {
+  background: #1c5380;
+  padding: 10px 10px;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  border-radius: 5%;
+}
+
+span {
+  color: white;
+  margin-right: 5px;
+  font-size: 1.3em;
+}
+
+.bttn-icon {
+  vertical-align: -45%;
+  padding-right: 5px;
+}
+
+.button2 {
+  margin-top: 30px;
+}
+
+.bttn-icon2 {
+  border: none;
+}
