@@ -10,47 +10,37 @@ body {
   background-image: url("/Users/victorgarcia/Desktop/IH/dia3/lab-css-instagram-clone/starter-code/images/bgtile.png");
   background-repeat: repeat-x;
   }
-  
-}
 .header-img{
   background-repeat: repeat-x;
 }
-
 .iphone{
   position: relative;
   left:100px;
   top: 100px;
   float: left;
 }
-
-.text{
+.log-in{
+  background-color: #1c5380;
+  border-color: #06365f;
+  color: white;
+}
+.right-box{
   position: relative;
-  left:500px;
+  left:300px;
   top: 200px; 
+  font-size: 16px;
 }
-
-.white-box{
-  display: block;
-  position: relative;		
-  width: 400px;
-  height: 100px;
+.h2{
+  color: #06365f;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-
-.text-box{
-  background-color: rgba(255,255,255);
-  display: block;
-  position: absolute;
-  bottom: -20x;
-  left: 0;
-  padding: 5px;
-  width: 400px;
+.text{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-
 .footer{
   position: relative;
   top:375px;
 }
-
 .button{
   display: inline;
 }
