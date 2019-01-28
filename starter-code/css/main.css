@@ -5,6 +5,130 @@ light blue: #1c5380
 */
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 200 16px/1.5 "HelveticaNeue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+.clearfix {
+  clear: both;
+}
+
+.container {
+  width: 100%;
+  }
+
+.header {
+  height: 350px;
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat;
+}
+
+.content {
+  width: 50%;
+  margin: 0 auto;
+  height: 650px;
+  margin-top: -180px;
+}
+
+.content-box-phones {
+  float: left;
+  width: 40%;
+  height: 650px;
+  background-image: url("../images/phones.png");
+  background-repeat: no-repeat;
+}
+
+.content-box {
+  float: right;
+  width: 60%;
+}
+
+.icons {
+  width: 100%;
+  height: 100px;
+  margin-top: 20px;
+}
+
+.icons-logo {
+  width: 75%;
+  height: 100px;
+  float: left;
+  background-image: url("../images/brand.png");
+  background-repeat: no-repeat;
+  background-size: 80%;
+
+}
+
+.icons-button {
+  float: right;
+  margin-right: 0px;
+  width: 25%;
+  
+}
+.icons-button button {
+  margin-top: 20px;
+  color: #d4dee5;
+  padding: 9px 18px;
+  border: 1px solid #06365f; 
+  border-radius: 2px;
+  background-color: #6892b2; background-image: -webkit-gradient(linear, left top, left bottom, from(#6892b2), to(#225782));
+  font-size: 16px;
+  font.style: bold;
+
+}
+.button img {
+  vertical-align: text-bottom;
+}
+
+.box-text {
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.text {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+h1 {
+  color: #06365f;
+}
+
+p {
+  color: #383838;
+}
+.download-icons {
+width: 100%
+}
+
+.down-icon {
+  float: left;
+  width: 50%
+}
+
+.footer {
+  margin: 0 auto;
+  width: 42%;
+  text-align: center;
+  height: 100px;
+}
+
+.footer ul {
+  display: inline;
+  color: #1c5380;
+  text-decoration: none;
+  list-style: none;
+  margin: 0 auto;
+  padding-left: 100px;
+
+}
+
+.footer li {
+  float: left;
+  margin: 0px 12px;
+
+}
+.footer-copy {
+  color: grey;
+} 
