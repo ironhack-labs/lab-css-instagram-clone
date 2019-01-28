@@ -13,33 +13,62 @@ body {
   margin: 0;
 }
 
+header {
+  background-color: #1c5380c7;
+  position: relative;
+  height: 278px;
+}
+
+/*.tile {
+  position: relative;
+  width: 100%;
+  bottom: 50px;
+}*/
+
 .contenedor-1 {
-position: relative;
-width: 489px;
-left: 9.3%;
+  position: absolute;
+  left: 37.5%;
+  top: 38%;
 }
 
 .logo {
- 
+ width: 314px;
+ height: 78px;
  }
 
  .button {
    width: 102px;
    height: 46px;
+   top: 20px;
+   position: relative;
+   left: 79px;
+   border: #06365f81 1px solid;
+   background-color: #1c538036;
+   text-align: center;
+   border-radius: 2.5px;
+   color: white;
+   font-weight: bold; 
+ }
+
+ .middle {
+  vertical-align: middle;
  }
 
  .contenedor-2 {
-   position: absolute;
-   left: 37.5%;
-
- }
+  position: absolute;
+  left: 9.3%;
+  top: 14%;
+  }
 
  .contenedor-3 {
    background-image: url("../images/frame.png");
-   width: 492px;
-   top: 20%;
+   background-repeat: no-repeat;
+   width: 500px;
+   top: 30%;
    left: 37.5%;
    position: absolute;
+   height: 405px;
+  /* text-align: left;*/
  }
 
  .box {
@@ -48,8 +77,52 @@ left: 9.3%;
 
  footer {
    clear: both;
-   display: block;
+   bottom: -410px;
+   position: relative;
+   /*text-align: center;*/
  }
 
  .no-list {
   list-style-type: none;
+ }
+
+ .title {
+   width: 255px;
+   left: 35px;
+   position: relative;
+   color: #06365f;
+ }
+
+ .text {
+   left: 35px;
+   width: 427px;
+   position: relative;
+ }
+
+ .col-2 {
+   width: 44%;
+   vertical-align: middle;
+   left: 34px;
+   position: relative;
+ }
+ 
+ footer li {
+  width: 11%;
+ }
+
+ .links {
+   width: 55%;
+   text-align: center;
+   left: 19%;
+   position: relative;
+ }
+
+ .copy {
+   position: relative;
+   left: 288px;
+ }
+
+ footer p {
+   color: grey;
+   font-weight: bold;
+ }
