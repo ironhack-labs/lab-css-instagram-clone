@@ -8,3 +8,79 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+.instagramPage{
+  background:#06365f; 
+  background-size: cover;
+  margin: 0 auto;
+}
+.information{
+  background: url("../images/phones.png") no-repeat left;
+  height: 520px;
+  width: 900px;
+  margin: 0 auto;
+  padding: 80px 0;
+}
+.instaInformation{
+  width: 500px;
+  float: right;
+}
+.logo{
+  display: inline;
+}
+.logo img{
+  width: 200px;
+}
+.instaHeader{
+  width: 100%;
+}
+.instaHeader p{
+ display: inline;
+ float: right;
+ margin: 0;
+ padding: 12px;
+ background-color:#1c5380;
+ color: rgb(210, 216, 223);
+ font-weight: bold;
+ border-radius: 3px;
+ box-shadow: 0.5px 0.5px 3px 1px lightslategrey;
+}
+.casa{
+  margin: 0 10px 0 0;
+}
+.instaBody{
+  background: url("../images/frame.png") no-repeat center;
+  background-size: cover;
+  padding: 20px;
+  margin-top: 15px;
+
+}
+.instaBody h1{
+  color:#06365f 
+}
+.instaBody span{
+  font-weight: bold;
+}
+.badgeImg{
+  margin-top: 60px;
+}
+.badgeImg img{
+  margin-right: 20px;
+}
+footer{
+  text-align: center;
+}
+.footerInformation{
+  margin-top: 30px;
+}
+footer p{
+  display: inline;
+  margin-right: 25px;
+  color: #06365f;
+  font-weight: bold;
+}
+.instaGrey{
+  color: darkgray;
+}
+.clearfix{
+  clear: both;
+}
