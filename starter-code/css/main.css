@@ -19,7 +19,7 @@ body {
 .phones {
   float: left;
   margin-left: 10%;
-  margin-top: 10%;
+  margin-top: 15%;
 }
 
 .logo {
@@ -38,27 +38,34 @@ body {
   box-shadow: 5px solid rgba(0, 0, 0, 0.6);
   border: none;
   color: white;
+  font-weight: bold;
   font-size: 14px;
-  text-align: center;
+  text-align: right; 
   padding: 0.5em;
   position: absolute;
-  float: right;
+  float: left;
   right: 20%;
   top: 60%;
 }
 
+#login {
+  float: right;
+  padding:0.5em;
+}
 
 /* Box  */
 
 .box {
   background-image: url("../images/frame.png");
-  background-size: cover;
-  width: 660px;
-  height: 400px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 530px;
+  height: 500px;
   float: right;
-  margin-right: 20%;
-  margin-top: -5%;
+  margin-right: 19%;
+  margin-top: 10%;
   position: relative;
+  top: -230px;
   padding: 3em 3em;
 }
 
@@ -71,10 +78,9 @@ body {
 
 .footer {
   position: absolute;
-  bottom: 10px;
+  bottom: -10px;
   width: 50%;
-  margin: auto 30%;
- 
+  margin: auto 20% 0%;
 }
 
 .footer a {
@@ -85,14 +91,16 @@ body {
   font-weight: bold; 
   line-height: 1em;
   vertical-align: baseline;
+  float: left;
   
 }
 
 .footer h5 {
   float: right;
   color: gray;
-  line-height: 1em;
+  line-height: 0,5em;
   vertical-align: baseline;
+  padding: 1px;
+  margin: auto -10% 5%;
 }
-
 
