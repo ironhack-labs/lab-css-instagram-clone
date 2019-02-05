@@ -1,0 +1,98 @@
+/*
+Colors to use:
+dark blue: #06365f
+light blue: #1c5380
+*/
+
+body {
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  background-color:white; 
+  
+}
+
+main{
+  background: linear-gradient(#1c5380 50%,  white 50%);
+}
+
+#phones{
+  margin-top: 50px;
+  display: inline-block;
+  margin-left: 17%;
+  width: 30%;
+  
+}
+
+#rightContent{
+  margin-top: 100px;
+  float: right;
+  width: 36%;
+  
+  margin-right: 17%;
+
+}
+
+#rightText{
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  border-radius: 10px;
+  padding: 30px;
+  font-weight: 300;
+  font-size: 14px;
+  color: rgb(36, 36, 36);
+}
+
+#rightText h1{
+  color: #06365f;
+}
+
+#instagramTitle{
+  display: inline-block;
+}
+
+.buttonLogin{
+  text-decoration: none;
+  color: white;
+  float:right;
+  background: linear-gradient(#286ca3 20%, #1e598d 80%);
+  background-size: cover;
+  border-radius: 2px;
+  padding: 7px 10px;
+  box-shadow: 1px 1px 3px rgb(54, 54, 54);
+  font-weight: 800;
+  margin-right: 5%;
+  margin-top: 15px;
+  
+}
+
+.buttonLogin img{
+  margin-right: 10px;
+}
+
+
+footer{
+  margin: 50px auto;
+  width: 100%;
+  text-align: center;
+  background: white;
+  
+}
+
+footer a{
+  
+  text-decoration: none;
+  color:#1c5380;
+  font-size: 14px;
+  margin: 5px;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+footer p{
+  display: inline;
+  color: gray;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
