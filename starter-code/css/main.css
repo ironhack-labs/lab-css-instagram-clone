@@ -18,9 +18,16 @@ body {
   height: 400px;
   background: url("../images/bgtile.png") repeat;
   position: relative;
-  box-shadow: inset 0px -20px 100px 100px #174f80;
-}
 
+}
+.backgradient {
+  height: 400px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(to top, rgba(35, 35, 37,0.4), rgba(255,0,0,0));
+}
 
 .container{
   position: absolute;
@@ -71,7 +78,7 @@ body {
   display: block;
   width: 120px;
   height: 30px;
-  background-color:#1c5380;
+  background-image: linear-gradient(to top, rgb(56, 68, 95),  rgb(72, 120, 165));
   border-radius: 5px;
   text-decoration: none;
   color: white;
