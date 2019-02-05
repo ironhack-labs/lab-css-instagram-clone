@@ -4,7 +4,117 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  font-family: "Roboto", sans-serif;
+/* }
+
+nav { */
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+  height: 280px;
+}
+
+.container {
+  width: 960px;
+  margin: 110px auto 20px;
+  /* border: 1px solid black; */
+  background-image: url("../images/phones.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  height: 512px;
+}
+
+.right {
+  min-width: 384px;
+  float: right;
+  /* border: 1px solid red; */
+  width: 55%;
+  margin-right: 50px;
+}
+
+#sign-in {
+  text-decoration: none;
+  padding: 8px 22px;
+  background-image: linear-gradient(#2989d8 , #1e5799); /* Standard syntax (must be last) */
+  color: white;
+  font-weight: bold;
+  margin: 0 10px 80px 79px;
+}
+
+#sign-in img {
+  margin: 0;
+  padding: 0;
+  height: 14px;
+  margin-right: 7px;
+}
+
+.info {
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.info h3 {
+  padding: 30px 0 0 40px;
+  width: 250px;
+  color: #003569;
+}
+
+.info p {
+  padding: 0 48px 0 40px;
+}
+
+p:last-of-type {
+  margin-bottom: 35px;
+}
+
+#google-play {
+  background-image: url("../images/badge-iphone.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 10px 60px;
+  margin-left: 40px;
+}
+
+#apple {
+  background-image: url("../images/badge-android.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 10px 60px;
+  margin-left: 20px;
+}
+
+footer {
+  width: 960px;
+  margin: 0 auto;
+  
+}
+
+footer ul {
+  margin: 0 auto;
+  width: 600px;
+}
+
+footer li {
+  display: inline;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+footer li a {
+  color: #2980b9;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+footer li a:hover {
+  text-decoration: underline;
+}
+
+.footer-container {
+  margin: 0 auto;
 }
