@@ -7,4 +7,142 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  font-size: 14px;
+}
+
+ul{
+  padding: 0;
+  margin: 0;
+}
+
+a{
+  text-decoration: none;
+}
+
+.wrapper{
+  height: auto;
+  overflow: hidden;
+  background-image: url('../images/bgtile.png');
+  background-repeat: repeat-x;
+}
+
+.row{
+  width: 1120px;
+  margin: 0 auto;
+}
+
+section{
+  margin: 100px 0 30px 0; 
+  width: 50%;
+  float: left;
+}
+
+.brand-container{
+  width: 500px;
+  margin-bottom: 20px;
+}
+
+.btn-primary{
+  float: right;
+  margin-top: 20px;
+  padding: 8px 10px;
+  color: #ffffff;
+  border: 2px solid #3B6588;
+  border-radius: 4px;
+  background: #7e9eb8; /* Old browsers */
+  background: -moz-linear-gradient(top, #7e9eb8 0%, #497498 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #7e9eb8 0%,#497498 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #7e9eb8 0%,#497498 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7e9eb8', endColorstr='#497498',GradientType=0 ); /* IE6-9 */
+}
+
+.btn-text{
+  font-size: 1em;
+  font-weight: 400;
+  vertical-align: bottom;
+  display: inline-block;
+}
+
+.icon-home{
+  background: url('../images/home.png') no-repeat;
+  height: 21px;
+  width: 24px;
+  margin-right: 7px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+article.info{
+  margin: 40px;
+}
+
+.info h2{
+  color: #06365f;
+  font-size: 1.8em;
+  line-height: 1.4em;
+  width: 70%;
+}
+
+.info p{
+  font-weight: 400;
+  color: #333333;
+  line-height: 1.7em;
+}
+
+.frame{
+  width: 504px;
+  overflow: hidden;
+  background: url('../images/frame.png') no-repeat;
+}
+
+ul.app-download{
+  margin: 30px 0 0 0;
+}
+
+ul.app-download li{
+  display: inline-block;
+  margin-right: 15px; 
+}
+
+.download-ios{
+  background: url('../images/badge-iphone.png') no-repeat;
+  display: block;
+  width: 163px;
+  height: 51px;
+}
+
+.download-android{
+  background: url('../images/badge-android.png') no-repeat;
+  display: block;
+  width: 163px;
+  height: 51px;
+}
+
+.phones{
+  margin: 0 auto 0 30%;
+  display: block;
+}
+
+ul.footer-menu{
+  padding: 0;
+  margin: 0 auto 40px auto;
+  text-align: center;
+}
+
+ul.footer-menu li{
+  list-style: none;
+  display: inline-block;
+  font-size: 0.9em;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+ul.footer-menu li a{
+  margin: 10px;
+  color: #6185A5;
+}
+
+ul.footer-menu li .copyright{
+  margin-left: 10px;
+  color: #BCBCBE; 
 }
