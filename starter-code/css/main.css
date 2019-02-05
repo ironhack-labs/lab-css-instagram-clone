@@ -3,8 +3,85 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
+button {
+  background: none;
+  border: 0;
+  color: inherit;
+  font: inherit;
+  line-height: normal;
+  overflow: visible;
+  padding: 0;
+}
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+}
+
+.container{
+  margin-left: 15%;
+  margin-top: 6%;
+  float:left;
+}
+
+.container2{
+  position:absolute;
+  margin-top: 6%;
+  margin-left: 44%;
+  margin-right: 17%;
+}
+
+.dark-blue {
+  color:#06365f;
+}
+
+.background-black{
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  padding-top: 1%;
+  padding-left:8%;
+  padding-right:8%;
+  border-radius: 8px;
+}
+
+.images-x{
+  margin-top:8%;
+}
+
+.imagen-3 {
+  position:relative;
+  margin-top:5%;
+}
+
+.buttom1 {
+  position: absolute;
+  margin-top: 3%;
+  margin-left: 16%;
+  border-radius: 4px;
+  background-color:#1c5380;
+  color: white;
+  padding-left:10px;
+  padding-right:12px;
+  padding-top:9px;
+  padding-bottom:9px;
+  border: 1px solid #06365f;
+
+}
+
+footer{
+  position:absolute;
+  bottom: 0;
+  margin-left:25%;
+}
+
+li {
+  display: inline;
+  margin-right: 10px;
+  color: #06365f;
+  font-weight: 600;
+}
+
+.color-normal {
+  color:grey;
 }
