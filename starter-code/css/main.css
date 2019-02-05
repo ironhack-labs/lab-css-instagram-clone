@@ -3,8 +3,77 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+}
+.container{
+  position: relative;
+  margin-left: 20%;
+  margin-top: 5%;
+  float: left;
+}
+.container-right{
+  position: absolute;
+  margin-top: 5%;
+  margin-left: 45%;
+  margin-right: 15%;
+}
+h2{
+  color: #06365f;
+  margin-right: 15%;
+  width: 45%;
+  line-height: 1.5em;
+}
+.text-container{
+  border-radius: 8px;
+  padding-top: 5px;
+  padding-left: 5%;
+  background-image:url("../images/frame.png");
+  background-repeat: no-repeat;
+}
+.text-container p{
+  font-size: 18px;
+  margin-right: 15%;
+}
+.container-logo{
+  position: relative;
+  margin-top: 5%;
+}
+.container-home{
+  position: absolute;
+}
+.home-button{
+  background: -webkit-linear-gradient(white, #1c5380);
+   background: -moz-linear-gradient(white, #1c5380);
+   background: -o-linear-gradient(white, #1c5380);
+  background-repeat: repeat-x;
+  border-color: #06365f;
+  color: white;
+  margin-top: 5%;
+  margin-left: 15%;
+  position: absolute;
+  font-size: 16px;
+  padding-top: 5px;
+
+}
+.image{
+  margin-left: 5%;
+}
+footer{
+  color: #1c5380;
+  position: absolute;
+  bottom: 5%;
+  margin-left: 25%;
+}
+li{
+  display: inline;
+  margin-right: 5px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.li-color{
+  color: grey;
 }
