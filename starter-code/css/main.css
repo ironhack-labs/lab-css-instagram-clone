@@ -7,4 +7,127 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url("../images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+main {
+  position: absolute;
+  width: 1200px;
+  height: 600px;
+  top: 100px;
+  left: 200px;
+}
+
+.phone {
+  position: relative;
+  width: 400px;
+  height: 600px;
+  left: 50px;
+}
+
+.top {
+  height: 80px;
+  width: 600px;
+  top: 70px;
+  left: 600px;
+  position: relative;
+} 
+
+.logo {
+  position: absolute;
+  left: 20px;
+  top: 2px;
+}
+
+.log {
+  background-color: #1c5380;
+  display: block;
+  width: 100px;
+  height: 40px;
+  position: absolute;  
+  right: 20px;
+  top: 20px;
+}
+
+.log a {
+  color: white;
+  text-decoration: none;
+  position: relative;
+  left: 20px;
+  top: 5px;
+}
+
+.log img {
+  position: relative;
+  left: 5px;
+  top: 10px;
+}
+
+.cont {
+  background-color: white;
+  height: 370px;
+  width: 600px;
+  top: 200px;
+  left: 600px;
+  position: absolute;
+}
+
+h1 {
+  color: #06365f;
+  font-size: 2em;
+  word-spacing: 10px;
+  width: 350px;
+  margin-left: 30px;
+}
+
+.cont p {
+  font-size: 1.2em;
+  margin-left: 30px;
+  margin-right: 20px;
+}
+
+.app {
+  position: absolute;
+  width: 200px;
+  height: 60px;
+  left: 650px;
+  top: 600px;
+}
+
+.goog {
+  position: absolute;
+  width: 200px;
+  height: 60px;
+  left: 900px;
+  top: 600px;
+}
+
+
+
+footer {
+  width: 900px;
+  height: 50px;
+  position: absolute;
+  bottom: 30px;
+  left: 400px;
+  text-transform: uppercase;
+  word-spacing: 8px;
+  font-weight: bold;
+}
+
+.foot {
+  color: #1c5380;
+  position: relative;
+  left: 55px;
+  top: 10px;
+}
+
+.cr {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: grey;
 }
