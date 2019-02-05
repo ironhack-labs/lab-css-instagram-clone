@@ -3,8 +3,70 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+* {
+  padding: 0;
+  margin: 0;
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  
+}
+.container{
+  border-top:300px solid #4a7296;
+}
+.box{
+  width: 40%;
+  float: right;
+  position: relative;
+  top: -142px;
+  right: 100px;
+}
+.iphone {
+  position: relative;
+    top: -125px;
+    left: 150px;
+    float: left;
+}
+.logo{
+  width: 50%;
+position: relative;
+float: left;
+}
+.boton{
+  position: relative;
+  float: right;
+  background: #739cc1;
+  padding: 10px;
+  margin-top: 14px;
+  border-radius: 7px;
+}
+.boton img{
+  position: relative;
+  float: left;
+}
+.boton p{
+  position: relative;
+    float: right;
+    margin-left: 15px;
+}
+
+.info {
+  background-image: url(../images/frame.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 62px;
+    margin-top: 75px;
+}
+
+footer{
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  float: left;
+}
+
+.clearfix {
+clear: both;
 }
