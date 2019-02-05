@@ -11,15 +11,12 @@ body {
 
 .blue {
   position: absolute;
-  top: 0;
-  left: 0;
   width: 100%;
-  height: 300px;
-  margin: 0 auto;
+  height: 40%;
   background-image: url("../images/bgtile.png");
   background-repeat: repeat-y;
-  background-size: 100% 100px;
-  z-index: -1000;
+  background-size: 100% 100%;
+  z-index: -100;
 }
 
 .container {
@@ -34,12 +31,23 @@ body {
 
 .login {
   border: 1px solid;
-  border-color: blue;
-  border-radius: 10px;
+  border-color: #06365f;
+  border-radius: 5px;
+  background-image: linear-gradient(#1c5380, #06365f);
   margin: 10px 20px 0 0;
-  padding: 10px 30px;
+  padding: 10px 0px 10px 10px;
   color: white;
+  font-weight: bolder;
   float: right;
+}
+
+.login a {
+  box-sizing: border-box;
+  padding: 0 20px 0 30px;
+  background-image: url("../images/home.png");
+  background-position: left;
+  background-repeat: no-repeat; 
+  background-size: auto 100%;
 }
 
 .big {
@@ -53,14 +61,16 @@ body {
   box-sizing: border-box;
 }
 
-header {
-}
-
 main {
-  padding: 20px 20px 0 40px;
+  box-sizing: border-box;
+  padding: 20px 40px;
   background-image: url("../images/frame.png");
   background-repeat: no-repeat;
   background-size: content;
+}
+
+main img {
+  padding: 10px;
 }
 
 h2 {  
@@ -68,12 +78,36 @@ h2 {
   color: #082F56;
 }
 
+footer {
+  padding: 20px;
+}
+
+.footer-container{
+  width: 70%;
+  margin: 0 auto;
+}
+
 nav li {
-  text-transform: uppercase;
   float:left;
+  padding: 10px;
+  color: #1c5380;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  list-style: none;
+}
+
+.copyright {
+  float: left;
+  padding: 10px;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: lightgrey;
+  font-weight: 600;
 }
 
 .clearfix {
   clear:both;
+
 }
 
