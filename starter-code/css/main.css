@@ -4,7 +4,133 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+/* ---- reset ---- */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+a{
+  text-decoration: none;
+}
+
+p{
+  font-weight: 400;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  padding: 0;
+}
+
+h1{
+  display: inline-block;
+}
+
+h2{
+  font-size: 1.75rem;
+  line-height: 2rem;
+  width: 70%;
+  color: #06365f;
+}
+
+.clearfix{
+  clear: both;
+}
+
+.all{
+  position: relative;
+}
+
+.bg-section{
+  position: absolute;
+  background: #1c5380;
+  width: 100vw;
+  height: 300px;
+  z-index: 1;
+}
+
+main{
+  padding: 3rem 0rem 1rem;
+}
+
+.container {
+  position: relative;
+  max-width: 960px;
+  margin: 0 auto;
+  z-index: 2;
+}
+
+.img-phones{
+  float: left;
+  width: 40%;
+}
+
+.content{
+  float: left;
+  width: 60%;
+}
+
+.content .description{
+  background: #fff;
+  padding: 1rem;
+  border-radius: 3px;
+  box-shadow: 6px 6px 20px 8px rgba(0, 0, 0, 0.2);
+}
+
+header{
+  padding: 1rem 0;
+}
+
+header .brand{
+  width: 212px;
+  height: 100%;
+  float: left;
+}
+
+header .button{
+  display: inline-block;
+  float: right;
+  padding: 0.75rem 1rem;
+  background: #06365f;
+  color: #fff;
+  border-radius: 3px;
+}
+
+header .button img{
+  width: 18px;
+  height: 100%;
+  margin-right: 0.5rem;
+  vertical-align: middle;
+}
+
+header .button span{
+  font-weight: 400;
+  vertical-align: middle;
+}
+
+.download-app{
+  height: 100%;
+  width: 130px;
+  margin: 0.5rem 1rem 0 0;
+}
+
+footer > nav {
+  text-align: center;
+}
+
+.link-footer{
+  display: inline-block;
+  margin: 0 0.5rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.link-footer > a{
+  color: #1c5380;
 }
