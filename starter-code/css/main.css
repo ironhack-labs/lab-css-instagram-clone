@@ -5,6 +5,97 @@ light blue: #1c5380
 */
 
 body {
+  
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+.blue-background{
+  background-image: url(../images/bgtile.png);
+  height: 60%;
+  padding-top: 5%;
+  padding-bottom: 15%;
+  
+}
+.main{
+  position: absolute ;
+  top: 20px;
+  left: 110px;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-top: 100px;
+}
+.main div{
+   width: 25%;
+   height: 60px;
+   position: relative;
+   float: left;
+   box-sizing: border-box;
+}
+
+.phones{
+  width: 40%;
+  position: relative;
+  margin-right: 1000px;
+}
+
+.instagram-logo{
+  width: 20%;
+  float: left;
+  position: relative;  
+  margin-right: 100px;
+  margin-left: 400px;
+  width: 40%;
+  
+}
+.instagram-logo img{
+  float: left;
+  width: 80%;
+}
+.capture{  
+  float: left;
+  margin-left: 400px;  
+  margin-right: 150px;
+  background-image: url(../images/frame.png);
+  height: 100%;
+}
+
+.capture .app-store{
+  width: 30%;
+  margin-right: 50%;
+}
+.google-play{
+  float: left;
+}
+.clearfix{
+  clear: both;
+}
+section ul{
+  list-style-type: none;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 380px;
+  margin-left: 0;
+  margin-right: 0;
+  word-spacing: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+    
+}
+.contact-main li{
+ display: inline;
+ color: blue;
+}
+a{
+  text-decoration: none;
+}
+.home-button{
+  background-color: cornflowerblue;
+  border: 0;
+  width: 100px;
+  padding: 10px;
+  margin-right: 200px;
+}
+p{
+  text-align: initial;
 }
