@@ -1,10 +1,83 @@
-/*
+    /*
 Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
-body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
-}
+    
+    body {
+        font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+        margin-top: 100px;
+        background-image: url("../images/bgtile.png");
+        background-repeat: repeat-x;
+        height: 300px;
+    }
+    
+    #phones {
+        margin: 0 auto;
+        float: left;
+        margin-left: 150px;
+    }
+    
+    #title {
+        color: #1c5380;
+        width: 90%;
+        margin-left: 20px;
+    }
+    
+    .contenido {
+        width: 90%;
+        margin-left: 70px;
+    }
+    
+    .content {
+        float: right;
+        width: 40%;
+        margin-right: 200px;
+        background-color: transparent;
+    }
+    
+    .both {
+        clear: both;
+    }
+    
+    .backgrimage {
+        background-image: url("../images/frame.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    
+    footer {
+        text-align: center;
+    }
+    
+    .text {
+        margin-left: 20px;
+        font-weight: 350;
+    }
+    
+    a {
+        margin-left: 20px;
+        text-decoration: none;
+        font-weight: 600;
+        color: #1c5380;
+    }
+    
+    .paddingtop {
+        padding-top: 20px;
+    }
+    
+    #login {
+        text-decoration: none;
+        padding: 8px 10px;
+        background-image: linear-gradient(#2989d8, #1e5799);
+        color: white;
+        font-weight: bold;
+        float: right;
+    }
+    
+    #login img {
+        margin: 0;
+        padding: 0;
+        height: 14px;
+        margin-right: 5px;
+    }
