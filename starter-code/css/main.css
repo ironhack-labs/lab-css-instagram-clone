@@ -20,13 +20,14 @@ span {
 .contPrincipal {
   margin: 7% 20% 7% 20%;
   position: relative;
+  min-width: 800px;
 }
 
 .contText {
   position: absolute;
   top:0;
   right: 0;
-  left: 400px;
+  left: 45%;
 }
 
 .descripcio {
