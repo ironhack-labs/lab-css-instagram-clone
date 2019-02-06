@@ -8,3 +8,22 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+.brand-text {
+  position: relative;
+  background-color: lightblue;
+  left: 100px;
+  top: 100px;
+  width: 35%;
+}
+.phones{
+  width: 60%;
+  background-color: red;
+
+}
+ul a{
+
+  text-decoration: none;
+  text-transform: uppercase;
+  color: blue;
+}
+
