@@ -1,10 +1,67 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  padding: 0;
+}
+
+.header{
+background-color: #2970B6;
+height:250px;
+
+}  
+.aside{
+  position:relative;
+  bottom:200px;
+  left:30px;
+}
+
+.footer{
+  text-transform: uppercase;
+  position:relative;
+  bottom:400px;
+}  
+.link{
+  text-decoration:none ;
+  color:#5C9EDF ;
+}
+.h3 {
+  color:#2970B6 ;
+
+}  
+.icono-de-instagram{
+  position: relative;
+  left:500px;
+  top:90px;
+  height:80px;
+  width:400px;
+}
+.home{
+  height:15px;
+  width:15px;
+}
+.button-home{
+  position: relative;
+  left: 600px;
+  top:58px;
+  height:50px;
+  width:100px;
+  background-color:#5C9EDF;
+  color:white;
+}
+.p-footer{
+  color:gray;
+}
+.section{
+  background-image: url(frame.png);
+  position:relative;
+  left:500px;
+  bottom:600px;
+  padding-left: 80px;
+  padding-top: 20px;
 }
