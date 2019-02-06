@@ -25,14 +25,14 @@ body {
 }
 .iphone {
   position: relative;
-    top: -125px;
-    left: 150px;
-    float: left;
+  top: -125px;
+  left: 150px;
+  float: left;
 }
 .logo{
   width: 50%;
-position: relative;
-float: left;
+  position: relative;
+  float: left;
 }
 .boton{
   position: relative;
@@ -48,16 +48,16 @@ float: left;
 }
 .boton p{
   position: relative;
-    float: right;
-    margin-left: 15px;
+  float: right;
+  margin-left: 15px;
 }
 
 .info {
   background-image: url(../images/frame.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    padding: 62px;
-    margin-top: 75px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 62px;
+  margin-top: 75px;
 }
 
 footer{
@@ -68,5 +68,5 @@ footer{
 }
 
 .clearfix {
-clear: both;
+  clear: both;
 }
