@@ -4,7 +4,147 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+/* ---- reset ---- */
+
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  padding: 0;
+  
 }
+
+h2 {
+  color: #06365f;
+
+}
+
+#banner {
+  background-color: #1c5380;
+  height: 300px;
+}
+
+.title {
+  
+  height: 100px;
+  width: 600px;
+  position: relative;
+  top: 25%;
+  left: 50%;
+}
+
+.title img {
+  
+  height: 100%;
+  display: block;
+  float: left;
+}
+
+.sign-in {
+  position: absolute;
+  border-radius: 10%;
+  display: flex;
+  box-shadow: 1px 0 15px rgba(0,0,0, 0.4);
+  width: 110px;
+  height: 40px;
+  margin-top: 30px;
+  margin-left: 450px;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  
+}
+
+.sign-in img {
+  display: block;
+  float: left;
+  height: 20px;
+}
+
+.sign-in a {
+  padding-left: 10px;
+  color: white;
+  padding: 10px;
+}
+
+
+.phones img {
+  position: absolute;
+  top: 10%;
+  left: 23%;
+  height: 70%;
+}
+
+.information {
+  background-color: white;
+  position: absolute;
+  margin-left: 50%;
+  box-shadow: 1px 0 15px rgba(0,0,0,0.3);
+  border-radius: 3%;
+  width: 600px;
+  padding: 0px 30px 30px 30px;
+  top: 25%;
+  
+}
+
+.information h2 {
+  font-size: 1.8em;
+}
+
+.information p {
+  font-size: 1.2em; 
+  color: rgba(0,0,0,0.6);
+  padding-right: 15px;
+}
+
+.information img {
+  width: 180px;
+  height: 70px;
+  margin-right: 20px;
+}
+
+
+.footer {
+  left: 35%;
+  
+  position: absolute;
+  top: 90%;
+  width: 40%;
+  
+}
+
+a {
+  text-decoration: none;
+  color:#1c5380;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  
+}
+
+.nav-bar li {
+  font-weight: 600;
+  margin-right: 16px;
+}
+
+.gray {
+  color: rgba(0,0,0, 0.5);
+}
+
+
+
+
+
+
+
