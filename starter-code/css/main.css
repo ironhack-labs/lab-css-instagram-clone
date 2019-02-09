@@ -5,6 +5,120 @@ light blue: #1c5380
 */
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 200 16px/1.5  sans-serif;
   margin: 0;
+}
+.top{
+  background-image: url('../images/bgtile.png');
+  height: 350px;
+  
+}
+#imagemCelular{
+  position: fixed;
+  left: 25%;
+  top:20%;
+  background-image: url('../images/phones.png');
+  background-repeat:no-repeat;
+  background-size: 400  px;
+  height: 520px;
+  width: 330px;
+  overflow:auto;  
+}
+
+#logo-botao{
+
+  background-image: url('../images/brand.png');
+  background-repeat:no-repeat;
+  height: 100px;
+  width: 500px;
+  height:px;
+  position: fixed;
+  left: 50%;
+  top:20%;
+
+}
+#logo-botao button{
+   margin: 15px 5px 0 0 ;
+  border:1px solid #23538a; -webkit-border-radius: 1px; -moz-border-radius:1px;border-radius: 1px;font-size:12px;font-family: sans-serif; padding: 0px 0px 10px 0px; text-decoration:none; text-shadow: -1px -1px 0 rgba(0,0,0,0.3);font-weight:bold; color: #ffffff;
+  background-color: #a7cfdf; background-image: -webkit-gradient(linear, left top, left bottom, from(#a7cfdf), to(#23538a));
+  background-image: -webkit-linear-gradient(top, #a7cfdf, #23538a);
+  background-image: -moz-linear-gradient(top, #a7cfdf, #23538a);
+  background-image: -ms-linear-gradient(top, #a7cfdf, #23538a);
+  background-image: -o-linear-gradient(top, #a7cfdf, #23538a);
+  background-image: linear-gradient(to bottom, #a7cfdf, #23538a);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#a7cfdf, endColorstr=#23538a);
+ float:right;
+ height: 40px;
+ width: 95px;
+ text-align: center;
+ display: inline-block;
+}
+#img-home
+{
+  float: left;
+  margin: 7px 0 5px 5px;
+  
+  display: inline-block;
+}
+#logb{
+  
+  padding: 10px;
+  display: inline-block;
+
+}
+#info-insta{
+  
+  background-image: url('../images/frame.png');
+  background-repeat:no-repeat;
+  height: 440px;
+  width:500px;
+  height:px;
+  position: fixed;
+  left: 50%;
+  top:30%;
+}
+
+h1{
+
+   font-size: 20px;
+   width: 260px;
+   margin: 40px 30px 0px 40px;
+   color: rgb(35, 35, 124);
+}
+article{
+  font-family: inherit;
+  margin: 40px 30px 0px 40px;
+  font-size: 14px;
+}
+#fundo{
+  background-color: white;
+  margin: 0 0 0 8px;
+  height: 400px;
+  width:487px;
+}
+#stores{
+  margin: 40px 30px 0px 40px;
+}
+
+footer{
+  text-transform: uppercase;
+  left: 25%;
+  color: rgb(35, 35, 124);
+  font-weight: bold;
+  font-size: 14px;
+  clear: both;
+ position:fixed;
+ bottom: 10px;
+ position: absolute;
+ display:inline-block;
+}
+footer ul{
+  display:inline-block;
+}
+footer ul li{
+  display:inline-block;
+  padding: 0 4px 0 4px;
+}
+
+#copyr{
+  color:gray;
 }
