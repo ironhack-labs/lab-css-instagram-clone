@@ -4,7 +4,101 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url(../images/bgtile.png);
+}
+
+.phone {
+  float: left;
+  margin: 45px 35px 35px 220px ;
+  display: inline-block;
+}
+
+.aside {
+  display: inline-block;
+  width: 40%;
+}
+
+.logo {
+  display: block;
+  float: left;
+  margin-top: 30px;
+  width: 100%;
+}
+
+.container {
+  display: block;
+  float: left;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.paragraph h1 {
+  padding: 30px;
+  font-size: 26px;
+  font-weight: bold;
+  color: #3a6890;
+}
+
+.paragraph p {
+  padding: 10px 30px 10px 30px;
+}
+
+.app {
+  display: inline-block;
+  margin-left: 30px;
+  margin-top: 30px;
+  
+}
+
+.bg-white {
+  background-color: white;
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  height: 60%;
+  z-index: -99;
+}
+
+.aside .logo .button {
+  float: right;
+  display: inline-block;
+  background-color: #226cad;
+  text-align: center;
+  align-content: center;
+  padding: 10px;
+  margin-top: 10px;
+  vertical-align: center;
+}
+
+.aside .logo .button img {
+ vertical-align: middle;
+ height: 18px;
+}
+
+.aside .logo .button a {
+  color: white;
+  vertical-align: middle;
+}
+
+
+nav {
+  width: 100%;
+  margin-top: 35px;
+  display: block;
+}
+
+nav ul {
+  align-content: center;
+  text-align: center;
+}
+
+nav ul li {
+  font-size: 14px;
+  display: inline-block;
+  padding:5px;
+  text-transform: uppercase;
 }
