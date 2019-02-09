@@ -8,3 +8,104 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+#header {
+  min-height: 40vh;
+  background: url("../images/bgtile.png");
+}
+
+#section {
+  min-height: 45vh;
+}
+
+.brand {
+  position: absolute;
+  right: 20%;
+  top: 20%;
+  width: 40%;
+}
+
+.imagem-brand {
+  float: left;
+}
+
+.brand-caixa {
+  float: right;
+  margin-top: 15px;
+  padding: 10px;
+  background-image: linear-gradient(#1c5380, #06365f); 
+  border: 1px solid #06365f;
+}
+
+.brand-casa {
+  display: block;
+  float: left;
+}
+
+.brand-texto {
+  margin: 0;
+  float: right;
+  margin-left: 10px;
+  font-weight: 500;
+}
+
+.brand-texto a {
+  text-decoration: none;
+  color: white;
+}
+
+.phone {
+  position: absolute;
+  left: 20%;
+  top: 20%;
+}
+
+.caixa {
+  clear: both;
+  position: absolute;
+  top: 30%;
+  right: 20%;
+  width: 40%;
+  background-color: white;
+  border: 1px solid lightgrey;
+  padding: 2.5%;
+  padding-bottom: 0.7%;
+  box-sizing: border-box;
+}
+
+.caixa h2 {
+  color: #1c5380;
+  width: 60%;
+  margin-top: 0;
+}
+
+.caixa p {
+  font-weight: 500;
+  color: #555;
+}
+
+.imagens-badge {
+  margin-top: 5%;
+}
+
+.lista {
+  list-style: none;
+  padding: 0;
+  display: block;
+  text-align: center;
+}
+
+.lista li {
+  display: inline;
+  margin: 0 5px;
+}
+
+.lista a {
+  text-decoration: none;
+  color: #1c5380;
+  font-weight: 500;
+}
+
+#copyright {
+  color: grey;
+}
