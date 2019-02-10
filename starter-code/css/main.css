@@ -6,22 +6,78 @@ light blue: #1c5380
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-image: url("../images/bgtile.png" );
+  background-size: 700px 300px;
+  background-repeat: repeat;
   margin: 0;
 }
-.brand-text {
-  position: relative;
-  background-color: lightblue;
-  left: 100px;
-  top: 100px;
-  width: 35%;
-}
-.phones{
-  width: 60%;
-  background-color: red;
+  
+ 
 
+#brand-text {
+  margin: 80px 80px;
+  height: 600px;
+  width: 800px;
+  display: grid;
+  grid-template-columns: 40% 10% 40% 10%;
+  grid-template-rows: 10% 60% 20%;
 }
+#brand-text article{
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  background-color: white;
+}
+#brand-text #logo{
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  background-image: url("../images/brand.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#brand-text #logging{
+  grid-column-start: 4;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  background-image: url("../images/home.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#brand-text #phones{
+  background-image: url("../images/phones.png" );
+  background-size: contain;
+  background-repeat: no-repeat;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  }
+
+img #apple {
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 3;
+  background-image: url("../images/badge-iphone.png" );
+  background-size: contain;
+  background-repeat: no-repeat;
+}  
+img #android{
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 3;
+  background-image: url("../images/badge-android.png" );
+  background-size: contain;
+  background-repeat: no-repeat;
+
+}  
+
 ul a{
-
   text-decoration: none;
   text-transform: uppercase;
   color: blue;
