@@ -8,3 +8,88 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.fundo {
+  background-image: url("../images/bgtile.png");
+  height: 300px;
+  position: relative;
+}
+
+/* TEXT */
+.text {
+  background-image: url("../images/frame.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin: 20px 295px 0 620px;
+  padding: 15px 60px;
+  line-height: 1.4;
+}
+
+.text h2 {
+  color: #06365f;
+}
+
+/* IPHONE */
+.phones {
+  float: left;
+  position: relative;
+  margin: 115px 0 0 250px;
+}
+
+/* LOGO E LOG IN */
+.instagram-logo {
+  float: left;
+  margin: 140px 0 0 55px;
+
+}
+
+.logo-login {
+  display: inline-block;
+  background-color: #1c5380;
+  border: #1c5380;
+  padding: 8px;
+  margin: 160px 0 0 100px;
+  border-radius: 2px;
+}
+
+.logo-login a {
+  letter-spacing: 2px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
+/* STORES */
+.stores {
+  padding-top: 10px;
+}
+
+.stores img {
+  padding: 10px;
+}
+
+/* FOOTER */
+.footer {
+  color:#1c5380;
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 0 15px;
+  font-weight: 400;
+}
+
+.footer-list {
+  list-style-type: none;
+  clear: both;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.corporate {
+  color: darkgrey;
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-weight: 400;
+
+}
