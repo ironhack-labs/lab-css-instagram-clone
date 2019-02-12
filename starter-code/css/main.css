@@ -8,3 +8,98 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.fundo {
+  background-image: url("../images/bgtile.png");
+  height: 300px;
+
+  position: relative;
+}
+
+/*---Text and Frame*/
+.img-frame {
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin: 0 155px 30px 590px;
+  position: relative;
+  padding-left: 50px;
+  padding-top: 10px
+}
+
+h2 {
+  color: #06365f;
+}
+
+/*---Image Phone--*/
+.phones {
+  float: left;
+  position: relative;
+  margin: 100px 0 0 230px;
+}
+
+/*---Instagram Icon---*/
+.img-brand {
+  float: left;1
+  display; inline;
+  margin: 100px auto 0 30px;
+}
+
+/*---Home Icon---*/
+.img-login {
+  margin-right: 15px;
+  height: 25px;
+
+}
+
+/*---Button Color---*/
+.lnk-btn-login {
+  color: white;
+  font-size: 1.1em;
+  letter-spacing: 0.5px;
+  background-color: #3d78a8;
+  text-align: center;
+  text-decoration: none;
+  width: 120px;
+  height: 25px;
+  margin: 115px auto 0 90px;
+  padding: 9px 1px;
+  float: left;
+  position: relative;
+  box-shadow: 0.5px 0.5px 0.5px 0.5px #06365f;
+}
+
+.lnk-app {
+  margin-bottom: 50px;
+  margin-right: 250px;
+  float: right;
+}
+ .lnk-ios {
+  margin-right: 15px;
+ }
+
+.lnk-android{
+  margin-left: 15px;
+}
+/*---Footer---*/
+.footer-list {
+  list-style-type: none;
+  clear: both;
+  text-align: center;
+}
+
+.footer {
+  color:#1c5380;
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  padding: 10px;
+}
+
+.corporate {
+  color: darkgrey;
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: bold;
+}
