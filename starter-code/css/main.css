@@ -1,10 +1,131 @@
 /*
 Colors to use:
+
 dark blue: #06365f
 light blue: #1c5380
+
+sempre utilize bordas:
+border: 1px solid red;
 */
 
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700');
+
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    background: url(../images/bgtile.png) repeat-x;
+    background-size: 600px 237px;
+  }
+
+.page {
+    margin: 50px calc((100% - 800px)/2) ;
+    width: 800px;
+    overflow:auto;
+
 }
+
+/*celular com o app*/
+#mockup{
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: top;
+
+}
+/*informações */
+.info {
+    display: inline-block;
+    width: 467px;
+}
+/*topo das informações*/
+.top {
+    display: block;
+    right: 30px;
+    padding-bottom: 20px;
+    margin-top: 25px;
+}
+
+#logo {
+    display: inline-block;
+    padding-right: 30px;
+}
+/*resize do logotipo*/
+#logo img{
+    width: 70%;
+    height: auto;
+}
+
+/*botão de login*/
+#login {
+    float: right;
+    display: inline-block;
+    padding: 10px;
+    width: 20%;
+    text-align: center;
+    background: url("../images/frame.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 3px;
+}
+
+#login a{
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+/*conteúdo*/
+#content {
+    clear: both;
+    background-color: #fff;
+    border-radius: 5px;
+    background-size: 467px 350px;
+    padding: 10px;
+}
+
+h1{
+    margin:0px;
+    padding: 25px;
+    color: #06365f;
+}
+
+#content h1{
+    clear:both;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+article p {
+    font-size: 14px;
+    margin:0;
+    padding: 5px 20px; 
+}
+
+.download {
+    clear: both;
+    padding: 30px;
+}
+/*footer*/
+.footer{
+    text-transform: uppercase;
+    font-size: 11px;
+    color: #000000;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+}
+
+.footer a{
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #1c5380;
+    padding: 10px;
+    
+} 
