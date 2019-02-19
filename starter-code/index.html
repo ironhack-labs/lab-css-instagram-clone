@@ -1,31 +1,155 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>Instagram</title>
-</head>
-<body>
-  Instagram
 
-  Capture and Share the World's Moments
+<html>
 
-  Instagram is a fast, beautiful and fun way to share your life with friends and family.
-
-  Take a picture or video, choose a filter to transform its look and feel, then post to Instagram &mdash; it's that easy. You can even share to Facebook, Twitter, Tumblr and more. It's a new way to see the world.
-
-  Oh yeah, did we mention it's free?
-
-  Download on the App Store
-  Get it on Google Play
-
-  About Us
-  Support
-  Blog
-  Press
-  API
-  Jobs
-  Privacy
-  Terms
-
-  &copy; 2014 Instagram
-</body>
-</html>
+  <style>
+  nav {
+    background-color: #1c5380;
+    height: 200px;
+    z-index: 1;
+    top: 1px;
+    margin:0;
+    width: 100%;
+  }
+  
+  #brand {
+    position: relative;
+    top: 60px;
+    width: 20%;
+    clear: both;
+    margin-left: 700px;
+  }
+  
+  nav button {
+    float: right;
+    position: relative;
+    top: 80px;
+    background-color: #1c5380;
+    width: 10%;
+    color: white;
+    font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 0.9em;
+    margin-right: 80px;
+    border: none;
+    border-radius: 5%;
+    font-weight: bold;
+    box-shadow: 0.5px 0.5px 0.5px 2px #06365f;
+  }
+  
+  #home {
+    position:relative;
+    right: 1px;
+  }
+  
+  body {
+    font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+  }
+  
+  #phones {
+    z-index: 2;
+    position: relative;
+    top: 600px;
+    margin-left: 300px;
+    width: 15%;
+  }
+  
+  #texto{
+    background: url("images/frame.png") no-repeat;
+    width: 40%;
+    position: relative;
+    float: right;
+    right: 10px;
+    display:inline-block;
+    z-index: 2;
+    padding: 20px;
+    margin-left: 20px;
+    padding-top: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  #downloads {
+    position: relative;
+    bottom:3px;
+    left: 720px;
+  }
+  
+  #block1 {
+    float: right;
+    margin-right: 200px;
+  }
+  
+  h1{
+    color:  #1c5380;
+  }
+  
+  ul {
+    margin-top: 30px;
+    margin-left: 400px;
+  }
+  
+  ul li {
+    color: #1c5380;
+    display: inline-block;
+    font-size: 0.7em;
+    font-weight: bold;
+    padding: 5px;
+    text-transform: uppercase;
+  }
+  
+  #copyright {
+    color: #bbbbbb
+  }
+  
+  </style>
+  
+  <head>
+    <title>Instagram</title>
+  </head>
+  
+  <body>
+    
+    <div id="phones">
+  <img src="images/phones.png">
+  </div>
+  
+    <div id="block1">
+        <nav>
+            <img src="images/brand.png" id="brand">
+            <button>
+              <img src="images/home.png" id="home">
+              Log in
+            </button>
+          </nav>
+  
+    <div id="texto"><h1>Capture and Share <br>the World's Moments</h1>
+  
+    <p>Instagram is a <strong>fast</strong>, <strong>beautiful</strong> and <strong>fun</strong> way to share your life with friends and family.</p>
+  
+    <p>Take a picture or video, choose a filter to transform its look and feel, then post to Instagram &mdash; it's that easy. You can even share to Facebook, Twitter, Tumblr and more. It's a new way to see the world.</p>
+  
+    <p>Oh yeah, did we mention it's free?</p>
+  </div>
+    </div>
+  
+    <div id="downloads">
+    <img src="images/badge-iphone.png">
+    <img src="images/badge-android.png">
+  </div>
+  
+    <footer>
+      <ul>
+        <li>About Us</li>
+        <li>Support</li>
+        <li>Blog</li>
+        <li>Press</li>
+        <li>API</li>
+        <li>Jobs</li>
+        <li>Privacy</li>
+        <li>Terms</li>
+        <li id="copyright">&copy; 2014 Instagram</li>
+    </footer>
+  
+  </body>
+  
+  </html>  
