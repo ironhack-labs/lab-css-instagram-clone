@@ -4,7 +4,7 @@ dark blue: #06365f;
 light blue: #1c5380;
 \\ */
 
-body {
+/* body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
   box-sizing: border-box;
@@ -68,5 +68,71 @@ h1 {
 }	
 
 .copy {
-  color: grey;
-}
+  color: grey; */
+
+  body {
+    font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;	  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;	 
+    /* box-sizing: border-box; */
+    background-image: url('../images/bgtile.png');
+    background-repeat: repeat-x;
+  }
+  h1 {
+    color: #1c5380;
+    font-size: 1.75rem;
+  }
+  
+   .container{
+    width: 860px;
+    margin: 100px auto;
+  }
+  .phone {
+    width: 320px;
+    margin-right: 36px;
+    float: left;
+  
+   }
+  .homeLogo {
+    width: 504px;
+    float: left;
+  }
+  .header {
+    padding-top: 15px;
+  }
+  .content-wrap {
+    display: relative;
+    background-image: url('../images/frame.png');
+    background-position: top;
+    background-repeat: no-repeat;
+  }
+  .content {
+    display: relative;
+    top:40px;
+    left:20px;
+  
+   }
+  
+   .footer {
+    position: relative;
+    top: 50px;
+    clear:both;
+    text-align: center;
+  }
+  .menu-bottom li a{
+    color: #1c5380;
+    text-decoration: none;
+  }
+  .menu-bottom li {
+    list-style-type: none;
+    margin-right: 20px;
+    text-transform: uppercase;
+    color: #96ADC2;
+    font-weight: 400;
+  }
+  .copy {
+    color: #BDBDBE;
+    text-transform: uppercase;
+    font-weight: 400;
+  } 
+       
+  
