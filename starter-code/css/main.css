@@ -1,100 +1,86 @@
-
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
 
-.imginfo {
-  height: 350px;
-  margin-bottom: 10px;
-  min-width: 725px;
-  padding-top: 10px;
-  width: 100%;
+body {
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+ }
+ 
+ .back {
+  height: 400px;
+  background: url("../images/bgtile.png") repeat;
   position: relative;
-}
-.brand {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  height: 60px;
-  width: 250px;
+ }
+ 
+ 
+ .container{
   position: absolute;
-  top: 175px;
-  left: 610px;
-}
-
-h3{
-  color: #06365f;
-}
-
-.rbox{
-  background-image:url("../images/frame.png");
-  position: absolute;
-  background-repeat: no-repeat;
-  margin-left: 600px;
-  height: 390px;
+  width: 1000px;
+  top: 180px;
+  left: 50%;
+  margin-left: -500px;
+ }
+ 
+ .image{
   width: 35%;
-  top: 250px;
-  line-height: 1,5;
-
-}
-
-
-.appbutton{
-  position: relative;
-  top: 30px;
-}
-
-.phones{
-  position: absolute;
-  top: 150px;
-  left: 100px;
-}
-
-h3
-{
-  margin: 25px 50px 75px 100px;
-}
-
-p {
-  margin: 25px 50px 75px 100px;
-}
-
-.login{
+  float: left;
+  margin: 0;
+ }
+ 
+ .image img{
+  width: 100%;
+ }
+ 
+ .content{
+  width: 60%;
+  float:left;
+  box-sizing: border-box;
+  margin-left: 5%;
+ }
+ 
+ .clearfix{
+  clear: both;
+ }
+ 
+ .title {
+  height: 80px;
+ }
+ 
+ .title img{
+  height: 100%;
+ }
+ 
+ .homebutton{
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  float: right;
-  height: 18px;
-  width: 20px;
-  position: absolute;
-  top: 190px;
-  left: 980px;
-}
-
-.frame {
-height: 30px;
-margin-bottom: 10px;
-width: 70px;
-position: absolute;
-top: 175px;
-left: 1020px; 
-}
-
-.footer{
-position: relative;
-top: 350px;
-left: 500px;
-color: #1c5380;
-letter-spacing: 2px;
-font-weight: bold;
-word-spacing: 0.9em;
-
-}
-.copyright{
-  position: relative;
-  top: 305px;
-  left: 1080px;
-  letter-spacing: 2px;
-  font-size: 0.8em;
+  width: 100px;
+  background-color: #06365f;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  float:right;
+ }
+ 
+ .textmain {
+  background-image: url("../images/frame.png");
+  background-size: cover;
+  box-sizing: border-box;
+  padding-left: 20px;
+  padding-top: 20px;
   }
+ 
+ h1{
+  color:  #06365f;
+  max-width: 400px;
+ }
+
+ footer li {
+   list-style-type: none;
+   display: inline;
+   margin-right: 10px;
+ }
+
+ footer {
+   margin: 0 auto;
+ }
