@@ -16,7 +16,7 @@ html{
 body {
   font: 200 1.6rem/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
-  background-image: linear-gradient(to bottom, transparent 0, transparent 35%, #ffff 35%), url("../images/bgtile.png");
+  background-image: linear-gradient(to bottom, transparent 0, transparent 37.5%, #ffff 37.5%), url("../images/bgtile.png");
   background-size: cover;
 }
 
@@ -39,7 +39,7 @@ h2 {
 }
 
 .main{
-  padding: 5rem 3rem;
+  padding: 12rem 3rem;
   max-width: 90rem;
   margin: 0 auto;
 }
