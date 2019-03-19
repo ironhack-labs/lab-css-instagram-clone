@@ -9,8 +9,14 @@ html {
     padding: 0;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 .back-img {
   width: 100%;
+  height: 400px;
+  position: absolute;
 }
 
 body {
@@ -18,22 +24,64 @@ body {
   margin: 0;
 }
 
-* {
-    box-sizing: border-box;
-}
-
 .phones {
-
+  margin-left: 550px;
+  margin-top: 200px;
+  position: absolute;
 }
 
 .logo {
-
-}\
-
-.button {
-
+  margin-left: 960px;
+  margin-top: 195px;
+  position: absolute;
 }
 
-.download-but {
+.logo li {
+  display: inline;
+  text-decoration-style: none;
+}
 
+.btn {
+  position: absolute;
+  margin-left: 1330px;
+  margin-top: 220px;
+  padding-bottom: 5px;
+  background-color: #06365f;
+  color: white;
+  text-align: right;
+}
+
+.text {
+  margin-left: 950px;
+  margin-top: 300px;
+  position: absolute;
+  background-color: white;
+  padding: 0 30px; 
+  border: 1px solid white;
+}
+
+p {
+  line-height: 1,5;
+}
+
+.download-but li {
+  display: inline;
+  text-decoration-style: none;
+  margin-top: 30px;
+}
+
+.about {
+  margin-left: 30%;
+  margin-top: 850px;
+  position: absolute;
+}
+
+.about li {
+  display: inline;
+  margin: 10px;
+  color: #1c5380;
+}
+
+span {
+  font-size: 14px;
 }
