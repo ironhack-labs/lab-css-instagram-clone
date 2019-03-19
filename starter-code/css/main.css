@@ -16,7 +16,7 @@ html{
 body {
   font: 200 1.6rem/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
-  background-image: linear-gradient(to bottom, transparent 0, transparent 37.5%, #ffff 37.5%), url("../images/bgtile.png");
+  background-image: linear-gradient(to bottom, transparent 0, transparent 42%, #ffff 42%), url("../images/bgtile.png");
   background-size: cover;
 }
 
