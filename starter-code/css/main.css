@@ -4,7 +4,86 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
-body {
+* {
+  box-sizing: content-box;
+}
+
+container {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  width: 1600px;
+}
+
+header {
+  height: 300px;
+
+}
+section {
+  height: 500px;
+}
+
+footer {
+  text-align: center;
+}
+footer ul li{
+  display: inline;
+  margin: 10px;
+  color: #1c5380;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+footer ul li:last-child{
+  color: gray;
+}
+.phone{
+  position: absolute;
+  width: 30%;
+  height:50%;
+  margin-top: -200px;  
+  margin-left: 10%;
+}
+.texto{
+  font-size: 1.2rem;
+  position: absolute;
+  width: 45%;
+  height:9  0%;
+  margin-top: -200px;
+  margin-left: 45%;
+
+}
+h2{
+  color: #06365f
+}
+p{
+  line-height: 1.8rem;
+}
+.cabecera{
+  display: flex;
+  margin: 10px;
+  vertical-align: center;
+}
+.boton{
+  display: inline;
+  padding: 5px 20px ;
+  margin-left: 18%;
+  background-color:  #1c5380;
+  font-size: 1.5rem;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+} 
+.textoContent{
+  background-image: url(./../images/frame.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 20px;
+}
+.contentImg{
+  text-align: center;
+}
+
+.contentImg img{
+  padding-left: 20px;
+  padding-right: 20px;
 }
