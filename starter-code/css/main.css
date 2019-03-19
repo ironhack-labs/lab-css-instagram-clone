@@ -1,10 +1,143 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
+
+:root{
+  --dark-blue: #06365f;
+  --light-blue: #1c5380;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+}
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 200 1.6rem/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: linear-gradient(to bottom, #fff0 0, #fff0 35%, #ffff 35%, #ffff 100%), url("../images/bgtile.png");
+  background-size: cover;
+}
+
+h2 {
+  color: var(--dark-blue);
+}
+
+.btn{
+  padding: .5rem;
+  background-image: linear-gradient(to bottom, hsl(207, 29%, 56%) 0%, hsl(207, 34%, 50%) 30%, hsl(207, 34%, 46%) 60%, hsl(207, 34%, 46%) 100%);
+  border: 1px solid #0007;
+  text-align: center;
+  color: white;
+  border-radius: 2px;
+  cursor: pointer;
+
+}
+
+.clearfix{
+  clear: both;
+}
+
+.main{
+  padding: 5rem 3rem;
+  max-width: 90rem;
+  margin: 0 auto;
+}
+
+.section{
+  float:left;
+}
+
+.side-image{
+  width: 40%;
+}
+
+.actions{
+  width: 60%;
+}
+
+.actions > .nav{
+  position: relative;
+  margin-left: 2rem;
+  margin-bottom: -2rem;
+}
+
+.actions > .nav > .brand{
+  float: left;
+  width: 70%;
+}
+
+.actions > .nav > .login{
+  position: absolute;
+  right: 0;
+  width: 20%;
+}
+
+.login .login-button{
+  height: 80%;
+  width: auto;
+  display: inline-block;
+  padding: .5rem 1rem .25rem 1rem;
+}
+
+.login .login-button span{
+    display: inline-block;
+    margin-left: .5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.description-box{
+  background-image: url(../images/frame.png);
+  background-size: cover;
+  padding: 2rem 5rem;
+}
+
+.description-box .description h2{
+  display: inline-block;
+  width: 60%;
+  margin-bottom: -2rem;
+}
+
+.downloads{
+  margin-top: 4rem;
+}
+
+.platform{
+  display: inline-block;
+  margin-right: 2rem;
+  cursor: pointer;
+}
+
+.footer .nav{
+  min-width: 60%;
+  max-width: 80%;
+  margin: 0 auto;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+
+.footer .related-links{
+  display: inline-block;
+}
+
+.footer .related-links .list-item{
+  list-style: none;
+  display: inline;
+  margin-right: 1.2rem;
+}
+
+.footer .related-links .list-item .item-link{
+  text-decoration: none;
+  color: var(--light-blue);
+}
+
+.footer .copyright{
+  display: inline-block;
+  color: grey;
+  padding: 1.2rem;
+  font-size: 1.1rem;
 }
