@@ -32,6 +32,16 @@ h2 {
   color: white;
   border-radius: 3px;
   cursor: pointer;
+  transition: all 300ms;
+}
+
+.btn:hover{
+  background-image: linear-gradient(to bottom, hsl(207, 29%, 46%) 0%, hsl(207, 34%, 40%) 30%, hsl(207, 34%, 36%) 60%, hsl(207, 34%, 36%) 100%);
+  transform: scale(1.02);
+}
+
+.btn:active{
+  transform: scale(.98);
 }
 
 .clearfix{
@@ -39,7 +49,7 @@ h2 {
 }
 
 .main{
-  padding: 12rem 3rem;
+  padding: 12rem 3rem 4rem 3rem;
   max-width: 90rem;
   margin: 0 auto;
 }
@@ -123,6 +133,15 @@ h2 {
   display: inline-block;
   margin-right: 2rem;
   cursor: pointer;
+  transition: all 300ms;
+}
+
+.platform:hover{
+  transform: scale(1.02);
+}
+
+.platform:active{
+  transform: scale(.98);
 }
 
 .footer .nav{
@@ -148,6 +167,10 @@ h2 {
 .footer .related-links .list-item .item-link{
   text-decoration: none;
   color: var(--light-blue);
+}
+
+.footer .related-links .list-item .item-link:hover{
+  text-decoration: underline;
 }
 
 .footer .copyright{
