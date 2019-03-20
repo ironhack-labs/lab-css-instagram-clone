@@ -45,19 +45,24 @@ body {
   position: absolute;
   margin-left: 1330px;
   margin-top: 220px;
-  padding-bottom: 5px;
+}
+
+.btn-btn{
   background-color: #06365f;
   color: white;
-  text-align: right;
+  border: 1px solid #06365f;
 }
 
 .text {
   margin-left: 950px;
   margin-top: 300px;
   position: absolute;
-  background-color: white;
-  padding: 0 30px; 
-  border: 1px solid white;
+  width: 500px;
+  padding-top: 10px;
+  padding-left: 40px; 
+  background-image: url(../images/frame.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 p {
