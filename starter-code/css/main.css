@@ -3,8 +3,108 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+* {
+  margin: 0;
+  padding: 0;
+}
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 200 1rem/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url(".../images/bgtile.png");
+  background-repeat: repeat-x;
+}
+
+footer {
+  font-size: 12px;
+  width: 100%;
+  clear: both;
+  text-align: center;
+  padding: 30px 0;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  font-weight: bold;
+  color: #1c5380;
+}
+ul li {
+  display: inline;
+  text-transform: uppercase;
+  color: #1c5380;
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+ul li:last-child {
+  color: grey;
+  margin: 0;
+  padding: 0;
+}
+
+.mainContainer {
+
+  width: 900px;
+  clear: both;
+  margin: 100px auto;
+}
+
+.textContainer {
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  width: 504px;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 2em;
+}
+
+.textContainer p {
+  margin-bottom: 1em;
+}
+
+.textContainer h2 {
+  padding-top: 1em;
+  color: #06365f;
+}
+
+.leftSide {
+	float: right;
+	margin: 0;
+  background-image: url("images/frame.png");
+}
+
+.botonLog {
+  float: right;
+  color: #d7dee7;
+  padding: 1em;
+  border-radius: 10px;
+  background-image: linear-gradient(#3b6790, #06365f);
+  box-shadow: 0px 0px 8px black, inset 0px 0px 5px #1c5380;
+  text-shadow: inset 0px 0px 1px white;
+  margin-right: 8px;
+}
+
+.botonLog img {
+  vertical-align: sub;
+}
+
+.paragraphs {
+  margin-top: 1.5em;
+  width: 450px;
+}
+
+.rightMargin10 {
+  margin-right: 30px;
+}
+
+.headContainer {
+  width: 504px;
+}
+
+.imgContainer {
+	margin:0;
+	float: left;
 }
