@@ -70,7 +70,6 @@ ul li:last-child {
 
 .leftSide {
 	float: right;
-	margin: 0;
   background-image: url("images/frame.png");
 }
 
@@ -94,7 +93,7 @@ ul li:last-child {
   width: 450px;
 }
 
-.rightMargin10 {
+.rightMargin30 {
   margin-right: 30px;
 }
 
@@ -103,6 +102,5 @@ ul li:last-child {
 }
 
 .imgContainer {
-	margin:0;
 	float: left;
 }
