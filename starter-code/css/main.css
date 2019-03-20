@@ -38,11 +38,11 @@ body {
 }
 
 .brand_margin{
-  margin-left: 50px;  
+  margin-left: 45px;  
 }
 
 .head_padding{
-  padding-left: 50px; 
+  padding-left: 45px; 
   font-family: 'Source Sans Pro', 'Lucida Grande', sans-serif;
 }
 
@@ -82,15 +82,24 @@ body {
 }
 
 .button-login{
-  margin-top: 30px;
-  margin-left: 45px;
+  margin-top: 10px;
+  margin-left: 15px;
 }
 
 .button-text{
   color: silver;
-  margin-bottom: 20px;
-  padding-bottom: 10px;
+
   text-decoration: none;
   font-weight:bold;
   font-family: 'Source Sans Pro', 'Lucida Grande', sans-serif;
+}
+
+.div-button{
+  float: left;
+  height: 40px;
+  width: 100px;
+  margin-top: 20px;
+  margin-left: 20px;  
+  border: 1px solid #06365f;
+  border-radius: 5px;
 }
