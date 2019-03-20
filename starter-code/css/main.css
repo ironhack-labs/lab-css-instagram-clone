@@ -7,4 +7,76 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+}
+#phones{
+  margin-left: 250px;
+  margin-top: 90px;
+  width: 320px;
+  float: left;
+}
+#content{
+  width: 500px;
+  float: right;
+  margin-top: 90px;
+  margin-right: 250px
+}
+#frame {
+  background-image: url("../images/frame.png");
+  margin-top: 20px;
+  background-size: 100%;
+  background-repeat: no-repeat
+}
+
+ul li {
+  list-style-type: none;
+  display: inline;
+  color: #1c5380;
+  padding-left: 20px;
+  font-weight: bold 
+}
+
+footer {
+  clear: left;
+  padding-top: 20px;
+  margin-bottom: 50px;
+}
+
+ul {
+  margin-left: 200px;
+  margin-bottom: 50px
+}
+
+li:last-child{
+  color: grey
+}
+
+button {
+  float: right;
+  margin-top: 20px;
+  margin-right: 10px;
+  height: 40px;
+  width: 100px;
+  border-radius: 3px;
+  background-image: linear-gradient(#1f77c5, #1c5380); 
+  text-align: center;
+  border: 0.5px solid #1c5380;
+  color: white
+}
+#text {
+  width: 420px;
+  margin-left: 40px;
+}
+
+h2 {
+  color: #06365f;
+  padding-top: 25px
+}
+
+#apps {
+  margin-left: 40px
+}
+#android{
+  margin-left: 40px
 }
