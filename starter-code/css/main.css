@@ -3,8 +3,74 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
+* {
+  box-sizing: content-box;
+}
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+header {
+  background-image: url(/images/badge-iphone.png);
+  height: 500px;
+}
+section{
+  height: 400px;
+  margin-top: -400px;
+}
+footer {
+  text-align: center;
+  margin-top: 100px;
+}
+footer ul li{
+  display: inline;
+  margin: 10px;
+  color:rgb(106, 106, 199);
+} 
+footer ul li:last-child{
+  color:grey;
+}
+.phone {
+  position: absolute;
+  height: 60%;
+  float: left;
+  margin-left: 25%; 
+}
+.texto{
+  position: absolute;   
+  width: 38%;
+  height: 70%;
+  margin-left: 47%;
+}
+.instalogo {
+  position: absolute;
+  display: inline;
+}
+.loginBox {
+  position: absolute;
+  padding-left: 350px;
+  display: inline;
+}
+.loginButton{
+  background-color: blue;
+  border-color: rgb(0, 0, 173);
+  border-radius: 10%;
+}
+.tittle{
+  padding: 15px 30px;
+  background-color: white;
+}
+.maintext{
+  padding: 15px 30px;
+  background-color:white;
+}
+.IOS{
+  position: absolute;
+  float: left;
+  padding-left:30px;
+}
+.Android{
+  position: absolute;
+  float: right;
+  padding-left: 200px;
 }
