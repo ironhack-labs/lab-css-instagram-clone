@@ -7,4 +7,111 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x; 
+}
+
+
+h2 {
+  font-size:1.5em;
+  color: #06365f; 
+}
+
+.container {
+  margin-top:15vh; 
+}
+
+.section {
+  height: 512px;
+  float: left;
+}
+
+.sectRight {
+  width:40%;
+}
+
+.sectLeft {
+  margin-left:15%; 
+  width: 30%;
+}
+
+.logo {
+  float: left;
+}
+
+.logoLogin {
+  width: 495px; 
+}
+
+.loginButton {
+  float:right;
+  padding: 15px 15px 15px 40px;
+  background-color:  #1c5380;
+  border: 0;
+  cursor: pointer;
+  border-radius:5px;
+  position: relative;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 40px 0 rgba(0, 0, 0, 0.10);
+  margin-top:7px; 
+}
+
+.loginButton img {
+  display: inline;
+  position: absolute;
+  left: 10px;
+  top:14px;
+}
+
+.loginButton span {
+  margin-left: 8px; 
+  font-size: 1.5em;
+  color: white; 
+}
+
+.article {
+  background-image:url(../images/frame.png);
+  background-repeat:no-repeat;
+  padding: 20px 30px;
+  width: 495px;
+  box-sizing: border-box;
+}
+
+.buttonBagde {
+  padding-left:30px; 
+}
+
+.buttonBagde #badgeAndroid{
+  margin-left:20px; 
+}
+
+.clear {
+  clear: both;
+}
+
+footer {
+  text-align: center;
+  padding:50px 0; 
+}
+
+footer ul {
+  margin: 0;
+  padding: 0;
+}
+
+footer ul li:first-child {
+  margin-left:0;
+}
+
+footer a {
+  text-decoration: none;
+  color: #1c5380; 
+}
+
+footer ul li {
+  margin-left: 25px;
+  display: inline-block;
+  list-style: none;
+  color: grey;
+  font-weight: bold; 
+  text-transform: uppercase;
 }
