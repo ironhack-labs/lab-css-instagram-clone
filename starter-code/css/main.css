@@ -3,8 +3,35 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+*{
+  box-sizing: border-box;
+  
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  font: 200 16px/1.5 “Helvetica Neue”, Helvetica, Arial, sans-serif;
+
+ background-image: url(../images/bgtile.png);
+ background-repeat: repeat-x;
+}
+.header{
+  position:relative;
+}
+#imgInsta{
+  position:absolute;
+  left:500px;
+  top:100px;
+}
+.header h1 img{
+  position:absolute;
+  z-index:10;
+  top:100px;
+  left:500px;
+
+}
+footer ol li{
+  list-style: none;
+  display:inline;
 }
