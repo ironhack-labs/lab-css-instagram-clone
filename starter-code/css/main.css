@@ -4,7 +4,93 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+h3 {
+  color: #06365f;
+  font-size: 25px;
+}
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+.blueline {
+  position: relative;
+  background-image: url("../images/bgtile.png");
+  height: 400px;
+  
+}
+
+.updivphone {
+  margin: 0 20%;
+  top: 200px;
+  width: 100px;
+  position: absolute;
+  height: 200px;
+}
+
+.updivtext {
+  margin: 0 50%;
+  top: 200px;
+  width: 450px;
+  position: absolute;
+  height: 200px;
+}
+
+
+.but {
+  box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.2);
+  background-color: #1c5380;
+  height: 40px;
+  width: 100px;
+  float: right;
+  margin-top: 20px;
+  border-radius: 2px;
+}
+
+.butimg {
+  float: left;
+  margin-left: 7px;
+  margin-top: 10px;
+
+}
+
+.login {
+  font: bold 85% monospace;
+  color: white;
+  float: right;
+  margin-right: 7px;
+  margin-top: 15px;
+
+}
+
+.white {
+  background-image: url("../images/frame.png");
+  background-size: cover;
+  border-radius: 30px;
+  padding: 30px;
+}
+
+.foot {
+  margin-top: 370px;
+ 
+}
+
+.brand {
+  float: left;
+  right: 20px;
+  color: grey;
+}
+
+ul {
+  float: left;
+  margin-left: 250px;
+  margin-right: 20px;
+}
+
+li {
+  font-family: Helvetica, sans-serif;
+  color: #1c5380;
+  float: left;
+  list-style: none;
+  padding-right: 20px;
 }
