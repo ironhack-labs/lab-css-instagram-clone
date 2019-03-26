@@ -8,3 +8,60 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+.back-header{
+  background-image: url("../images/bgtile.png");
+  height: 300px;
+  background-repeat: repeat-x;
+  ;  
+  
+}
+.master-flex{
+  border: 3px solid red;
+  position: absolute;
+  display: flex;
+  flex-direction:row;
+  justify-content:center;
+  z-index: 2;
+  top:150px;
+  left:25%;
+}
+.phone{
+  border: 3px solid blue;
+  width: 400px;
+  align-items: center;
+  display: flex;
+  justify-content:center;
+}
+.content{
+  border: 3px solid green;
+  width: 500px;
+  display: inl;
+}
+.footer-ul{
+  display: flex;
+  text-align: center;
+  align-items: flex-end;
+    
+}
+.footer-ul li{
+  display: inline-block;
+  text-align: center;
+
+  align-items: flex-end;
+  padding: 0 1%;
+}
+.logo-home{
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+}
+.text{
+  border-radius: 15px;
+  height:300px;
+  background-color:white ;
+
+}
+.footer{
+  align-items: flex-end;
+  justify-content: center;
+}
