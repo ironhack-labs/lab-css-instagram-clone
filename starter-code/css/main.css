@@ -4,7 +4,102 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+  list-style: none;
+  text-decoration: none;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+#section-first {
+  display: flex;
+  background-image: url(../images/bgtile.png);
+  height: 300px;
+  margin-bottom: 380px;
+  padding: 30px;
+  justify-content: center;
+}
+
+#section-first > div {
+  width: 40%;
+  margin-top: 100px;
+}
+
+.txt-section-first > h1 {
+  width: 60%;
+  color: #06365f;
+  margin-bottom: 20px;
+}
+
+.txt-section-first > p {
+  margin-bottom: 12px;
+}
+
+.txt-section-first {
+  background-image: url(../images/frame.png);
+  background-size: 100% 100%;
+  box-sizing: border-box;
+  padding: 40px;
+}
+
+.btn-login {
+  background-color: #1c5380;
+  color: white;
+  height: 40px;
+  width: 100px;
+  border: none;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-image: url(../images/bgtile.png);
+  filter: brightness(120%);
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, .3); 
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.apps {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#footer ul, #footer li, #footer{
+  display: flex;
+}
+
+#footer {
+  justify-content: center;
+  position: relative;
+}
+
+#footer > .nav-footer li {
+  margin: 0 5px;  
+}
+
+#footer > .nav-footer a {
+  color: #1c5380;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 900; 
+}
+
+.copyright {
+  margin-left: 15px;
+  color: #666;
+}
+
+.nav-footer {
+  display: flex;
+  align-items: center;
 }
