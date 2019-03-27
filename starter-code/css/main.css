@@ -1,10 +1,163 @@
 /*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
+  Colors to use:
+  dark blue: #06365f
+  light blue: #1c5380
+  */
 
-body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font: 200 16px/1.5 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+    margin: 0;
+}
+
+body
+{
+    background: url('../images/bgtile.png');
+    background-repeat: repeat-x;
+}
+
+strong
+{
+    font-weight: 800;
+}
+
+.content
+{
+    min-width: 750px;
+    max-width: 960px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.content aside,
+.content article
+{
+    float: left;
+}
+
+.content aside
+{
+    width: 40%;
+}
+
+.content aside img
+{
+    width: 90%;
+}
+
+.content article
+{
+    width: 60%;
+}
+
+.content header
+{
+    margin: 20px 0;
+}
+
+.content img
+{
+    vertical-align: middle;
+}
+
+.content .button
+{
+    font-weight: 600;
+
+    float: right;
+
+    margin-top: 15px;
+    padding: 10px 15px;
+
+    text-decoration: none;
+
+    color: rgb(255, 255, 255);
+    border: 2px solid #1c5380;
+    border-radius: 5px;
+    background-color: #7091af;
+}
+
+.content .button img
+{
+    margin-right: 5px;
+}
+
+.content main
+{
+    padding: 30px 40px;
+
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    /* from internet */
+    box-shadow: -50px -50px 5px -50px rgba(0, 0, 0, .2), 50px -50px 5px -50px rgba(0, 0, 0, .2);
+}
+
+.content h2
+{
+    margin-bottom: 15px;
+
+    color: #06365f;
+}
+
+.content p
+{
+    line-height: 1.7em;
+
+    margin-bottom: 15px;
+}
+
+.content .appstore-links
+{
+    margin-top: 40px;
+}
+
+.content .appstore-links img
+{
+    margin-right: 20px;
+}
+
+.clearfix
+{
+    clear: both;
+}
+
+.content footer
+{
+    margin-top: 50px;
+
+    text-align: center;
+}
+
+.content .bottom-links li
+{
+    font-weight: 800;
+
+    display: inline-block;
+
+    margin-right: 20px;
+
+    list-style-type: none;
+
+    color: gray;
+}
+
+.content .bottom-links li:last-child
+{
+    font-weight: 500;
+}
+
+.content .bottom-links a
+{
+    text-decoration: none;
+    text-transform: uppercase;
+
+    color: #1c5380;
 }
