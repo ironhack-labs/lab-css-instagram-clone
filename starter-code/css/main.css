@@ -8,3 +8,83 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+.container{
+  width: 100%;
+/*  text-align: center;*/
+  margin: 0 auto;
+  background-image: url('../images/bgtile.png');
+  height: 500px;
+}
+.con{
+  padding-top: 150px;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+.box1{
+  text-align: center;
+  width: 38%;
+  height: 500px;
+}
+.box2{
+  width: 38%;
+  height: 500px;
+}
+.box3{
+  width: 100%;
+  height: 100px;
+}
+.box3 .login{
+  float: right;
+  height: 50px;
+}
+.box4{
+  width: 90%;
+  height: 250px;
+  padding: 20px 20px;
+  background-color: #fff;
+  border-radius: 10px;
+ display: block;
+}
+.box4 h2{
+  color: #133b5f;
+}
+.box4 h2, .box4 p{
+  text-align: left;
+} 
+.box5{
+  width: 100%;
+  height: 50px;
+  padding-top:70px;
+  
+}
+.box5 img{
+  padding-left: 15px;
+}
+.container2{
+  padding-top: 200px;
+  width: 80%;
+  display: inline-block;
+  justify-content: center;
+  margin: 0 auto;
+}
+.nav-links{
+  display: inline-block;
+  float: right;
+  font-size: 20px;
+  padding: 50px 0 0 30px;
+  margin: 0 40px 0 0;
+  font-size: 1.2em;
+}
+.nav-links li {
+  display: inline-block;
+  margin: 0 20px;
+}
+.nav-links li a{
+  text-decoration: none;
+  color: #3a6890;
+}
+li > .insta{
+  color: grey;
+}
