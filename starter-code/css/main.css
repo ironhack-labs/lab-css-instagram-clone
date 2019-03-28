@@ -7,4 +7,53 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  padding: 0;
+
 }
+
+#mainSection {
+  width: 70%;
+  height: auto;
+  margin: 10% 15%;
+  
+}
+
+#mainImage {
+  width: 30%;
+  height: auto;
+  float: left;
+}
+
+#mainInfo {
+  width: 50%;
+  float: left;
+}
+
+
+#plainInfoText {
+  
+}
+/* #phone {
+  padding-top:130px;
+  padding-left: 90px;
+  display:block;
+  float:left;
+
+}
+#text{
+  margin: 0;
+   padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align:baseline;
+}
+#logo{
+  display: block
+}
+#iphone{
+  display: block
+}
+
+#playstore{
+  display: block
+} */
