@@ -37,8 +37,8 @@ body {
 
 .header{
 float:right;
-padding-top: 4%;
-padding-right: 7%;
+padding-top: 6%;
+padding-right: 14%;
 image-resolution: 100%
 }
 
@@ -81,7 +81,7 @@ image-resolution: 100%
 .right{
   position: absolute;
   margin: 10% 0 0 33%;
-  bottom: 11%
+  bottom: 6%
 }
 
 .whiteGradient{
@@ -98,9 +98,9 @@ image-resolution: 100%
 
 .righters{
   display: inline-block;
-  padding-top: 1%;
+  padding-top: 0%;
   padding-left: 2%;
-  padding-right: 0%;
+  padding-right: 1%;
   margin-right: 10%;
   max-width: 900px;
   text-align: justify;
@@ -131,7 +131,7 @@ footer{
   margin: 2px;
   padding-left: 13%;
   width: 60%;
-  padding-top:26%;
+  padding-top:29%;
 }
 
 footer ul li{
