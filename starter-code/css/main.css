@@ -3,8 +3,131 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
+*{
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+}
+ul{
+  list-style:none;
+}
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: url(../images/bgtile.png) repeat-x;
+}
+#container{
+  position: relative;
+  margin: 0 auto;
+  margin-top: 80px;
+  width: 700px;
+}
+#hero{
+  margin-right:45px;
+}
+#main-content, #hero{
+display: inline-block;
+float: right;
+}
+#main-content:after{
+  clear: both;
+}
+header{
+  margin-bottom: 10px;
+  display: block;
+  height: 65px;
+}
+
+header h1, header a{
+  float: left;
+  display: inline-block
+}
+header a{
+  margin-top: 15px;
+  background: black;
+  box-sizing: border-box;
+  padding: 8px;
+  font-size: .7em;
+  font-weight: bold;
+  border-radius: 5%;
+  -webkit-box-shadow: 4px 6px 5px -4px rgba(0,0,0,0.46);
+-moz-box-shadow: 4px 6px 5px -4px rgba(0,0,0,0.46);
+box-shadow: 4px 6px 5px -4px rgba(0,0,0,0.46);
+background: #6892b2; /* Old browsers */
+background: -moz-linear-gradient(top, #6892b2 0%, #6892b2 44%, #42749c 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #6892b2 0%,#6892b2 44%,#42749c 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #6892b2 0%,#6892b2 44%,#42749c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6892b2', endColorstr='#42749c',GradientType=0 ); /* IE6-9 */
+display: block;
+color: #fff;
+line-height: 17px;
+float:right;
+
+}
+header a img{
+  line-height: 17px;
+  margin-right: 8px;
+}
+header:after{
+  clear: both;
+}
+section{
+  background: url(../images/frame.png) no-repeat;
+  padding: 28px;
+  box-sizing: border-box;
+  width: 400px;
+}
+section a{
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 20px;
+}
+section a:first-child{
+  margin-right: 15px;
+}
+section h1{
+  color:#06365f;
+  font-size: 1.3em;
+}
+p{
+  margin-bottom: 15px;
+  font-size: .8em;
+}
+
+footer{
+  width: 100%;
+  display: block;
+  position: relative;
+
+  
+}
+footer:after{
+  clear: both;
+}
+footer ul{
+  /* position: relative; */
+  margin: 0 auto;
+  display: block;
+  width: 500px;
+  text-align: center;
+  height:20px;
+  overflow: hidden;
+}
+footer ul li{
+  display: inline-block;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: .6em;
+  margin-right: 7px;
+  line-height: .5em;
+  color:#999;
+}
+footer ul li:last-child{
+  margin-right: 0px;
+}
+footer ul li a{
+  color:#1c5380;
+  height: 20px;
 }
