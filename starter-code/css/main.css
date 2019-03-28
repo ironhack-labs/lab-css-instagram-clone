@@ -1,10 +1,125 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
-
-body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+* {
+  box-sizing: border-box;
   margin: 0;
+  padding: 0;
+}
+
+body
+{   font-family: 'Raleway', Arial, sans-serif;
+  margin: 0;
+  background-image: url(..//pruebas/images/bgtile.png);
+  background-repeat: repeat-x;
+}
+
+strong
+{   font-weight: 900;
+}
+
+.insta
+{   width: 900px;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+.insta div,
+.insta article
+{   float: left;
+}
+
+.insta div
+{   width: 45%;
+}
+
+.insta div img
+{   width: 85%;
+}
+
+.insta article
+{   width: 55%;
+}
+
+.insta header
+{   margin: 30px 0;
+}
+
+.insta img
+{   vertical-align: middle;
+}
+
+.insta .button
+{   font-weight: 800;
+  float: right;
+  margin-top: 10px;
+  margin-right: 5px;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: white;
+  border: 2px solid #2c6390;
+  border-radius: 5px;
+  background-color: #7393b2;
+}
+
+.insta .button img
+{   margin-right: 10px;
+}
+
+.insta main
+{   padding: 30px 40px;
+  border-radius: 5px;
+  background-color:white;
+  box-shadow: -50px -50px 5px -50px rgba(0, 0, 0, .2), 50px -50px 5px -50px rgba(0, 0, 0, .2);
+}
+
+.insta h2
+{   margin-bottom: 10px;
+  color: #06365f;
+  font-weight: 800;
+}
+
+.insta p
+{   margin-bottom: 15px;
+}
+
+.insta .appleandroid
+{   margin-top: 30px;
+  display: flex;
+}
+
+.insta .appleandroid img
+{   margin-right: 20px;
+  display: inline;
+  width: 140px;
+}
+
+.clearfix
+{   clear: both;
+}
+
+.insta footer
+{   width: 900px;
+  margin-top: 50px;
+  text-align: center;
+  float: left;
+}
+
+.insta .footerlinks li
+{   font-weight: 600;
+  display: inline-block;
+  margin-right: 20px;
+  list-style-type: none;
+  color: gray;
+}
+
+.insta .footerlinks a
+{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #1b4a70;
+  margin: 0 0 200px 0;
+  margin-bottom: 40px;
+}
+
+.spacefooter{
+  margin-bottom: 40px;
 }
