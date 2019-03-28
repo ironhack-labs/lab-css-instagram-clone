@@ -7,4 +7,140 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  height: 100%;
+  box-sizing: border-box;
+  /*background: rgb(255,255,255);*/
+  /*background: linear-gradient(360deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 60%, rgba(12,40,64,0.5228466386554622) 60%, rgba(60,99,133,1) 60%);background: linear-gradient(360deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 60%, rgba(12,40,64,0.5228466386554622) 60%, rgba(60,99,133,1) 60%);*/
+  /*background: mistyrose;*/
 }
+
+#container {
+  margin: 0 auto;
+  width: 80%;
+}
+
+/* -------------------IPHONE SECTION ---------------- */
+#iphone-section {
+  width: 45%;
+  height: 90vh;
+  float: left;
+  /*background: red;*/
+  position: relative;
+}
+
+#iphone-section img {
+  position: absolute;
+  bottom: 80px;
+  right: 60px;
+}
+
+/* --------------------------------------------------- - */
+/* ---------------------INFO SECTION ------------------- */
+#info-section {
+  width: 55%;
+  height: 90vh;
+  float: left;
+  /*background: gray;*/
+}
+
+/* ----INFO SECTION TOP ---- */
+
+#info-section-top {
+  width: 100%;
+  height: 35%;
+  float: left;
+  /*background: orange;*/
+  position: relative;
+}
+
+#info-section-top #ig-img {
+  position: absolute;
+  bottom: 10px;
+}
+
+#info-section-top #home-button {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;;
+  padding: 10px;
+  background: #1c5380;
+  border: 1px solid #1c5380;
+  box-shadow: ;
+  color: white;
+}
+
+/* ----INFO SECTION MIDDLE ---- */
+
+#info-section-middle {
+  width: 100%;
+  height: 45%;
+  float: left;
+  background: url(../images/frame.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#info-section-middle h1 {
+  padding-left: 40px;
+}
+
+#info-section-middle ul {
+  list-style: none;
+}
+
+#info-section-middle li {
+  padding: 0 30px 10px 10px;
+  font-size: 1.1em;
+}
+
+/* ----INFO SECTION BOTTOM ---- */
+
+#info-section-bottom {
+  width: 100%;
+  height: 20%;
+  float: left;
+  /*background: purple; */
+  position: relative; 
+}
+
+#info-section-bottom #badge-iphone {
+  position: absolute;
+  top: 10px;
+  left: 50px;
+  width: 200px;
+  height: auto;
+}
+
+#info-section-bottom #badge-android {
+  position: absolute;
+  top: 10px;  
+  left: 280px;
+  width: 185px;
+  height: auto;
+}
+
+/* --------------------------------------------------- - */
+/* --------------------- FOOTER SECTION ------------------- */
+
+#footer {
+  width: 100%;
+  height: 10vh;
+  /*background: yellowgreen;*/
+  float: left;
+}
+
+#footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  width: 60%;
+  padding-top: 20px;
+}
+
+#footer li {
+  display: inline;
+  color: #1c5380;
+  font-weight: 500;
+  padding: 0 7px;
+}
+
