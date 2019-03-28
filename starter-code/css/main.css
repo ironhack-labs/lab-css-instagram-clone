@@ -4,7 +4,155 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+html{
+  min-height: 100%;
+  position: relative;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  margin: 1%;
+  box-sizing: border-box;
+  margin: 0;
+  margin-bottom: 40px;
+  padding: 0;
 }
+.webPage{
+  display: inline;
+  min-width: 760px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+#darkBlue{
+  background: #1c5380;
+  background-size: 100%;
+  padding-top: 0%;
+  height: 250px;
+  float: center;
+  position: fixed absolute;
+  z-index: -1;
+}
+
+.header{
+float:right;
+padding-top: 80px;
+padding-right: 130px;
+}
+
+.house{
+  float: left;
+  margin-top: 3%;
+  margin-left: 3%;
+  margin-right: 4%;
+  display: inline-block;
+}
+
+#logIn{
+  display: inline-block;
+  vertical-align: middle;
+  text-decoration:none;
+  line-height: 27px;
+  font-weight: 620;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color:white;
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-left:6px;
+  padding-right:10px;
+  background:linear-gradient(to bottom, #2d71a8 5%, #06365f 100%);
+  background-color:#1c5380;
+  border-color: #06365f;
+  border-width: 1px;  
+  border-radius:6px;
+  display:inline-block;
+  box-shadow: 0px 2px 5px -1px #333
+  }
+
+.phones{
+  position: absolute;
+  margin: 2% 0 0 7%;
+  bottom: 15%
+}
+
+.whiteGradient{
+  background: url('../images/frame.png') no-repeat;
+  background-size: 800px;
+  top: 230px;
+  padding: 9%;
+  margin: 10 auto;
+  text-align: justify;
+  position: absolute fixed;
+  z-index: 1;
+  bottom: 15%;
+}
+
+.righters{
+  display: inline-block;
+  padding-top: 1%;
+  padding-left: 2%;
+  padding-right: 0%;
+  margin-right: 10%;
+  max-width: 900px;
+  text-align: justify;
+  float: right;
+}
+
+h2{
+  color: #052b51;
+  text-align: left;
+}
+
+footer{
+background-color: white;
+display: inline-block;
+list-style: none;
+text-align: justify;
+position: relative fixed bottom;
+margin: 5px;
+padding-left: 13%;
+padding-bottom: o;
+border: 0;
+bottom: 0;
+height: 40px;
+justify-content: space-evenly;
+width: 60%;
+}
+
+footer ul li{
+  display: inline-block;
+  list-style: none;
+  color: #06365f ;
+  align-items: flex;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  
+}
+
+
+footer ul li a{
+  display: flexbox;
+  color: #6a8dac;
+  font-weight: bold;
+  display: inline-block;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+#copy{
+  color:grey;
+  vertical-align: baseline;
+  border: 0;
+  padding: 0;
+  margin: 0 auto;
+  text-transform: uppercase;
+  width: 100%;
+  font-weight: 600;
+  font-size: 12px;
+}
+
