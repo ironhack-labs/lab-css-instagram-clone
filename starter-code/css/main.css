@@ -65,7 +65,7 @@ header {
   width: 570px;
   height: 500px;
   margin-left: 560px;
-  background-image: url(/images/frame.png) ;
+  background-image: url('../images/frame.png');
   background-repeat: no-repeat;
   background-size: 100%;
   margin-top: -85px;
