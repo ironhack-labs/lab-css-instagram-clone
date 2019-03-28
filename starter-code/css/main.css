@@ -3,8 +3,85 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
 body {
+  background: url('../images/bgtile.png') repeat-x;
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 1%;
+  box-sizing: border-box;
   margin: 0;
+  padding: 0;
+}
+aside{
+  position: absolute;
+  margin: 10% 0 0 10%;
+
+}
+h3{
+  color: #052b51;
+}
+
+footer ul{
+  display: inline-block;
+  list-style: none;
+  text-decoration: none;
+}
+footer ul li {
+  display: inline-block;
+  list-style: none;
+  text-decoration: none;
+}
+footer ul li a {
+  display: flexbox;
+  justify-content: space-between;
+  color: #6a8dac;
+  font-weight: bold;
+  display: inline-block;
+  text-decoration: none;
+}
+.main{
+  display: inline;
+  min-width: 760px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.container-cont{
+  display: inline-block;
+  margin: 10% 15% 0 0;
+  max-width: 40%;
+  float: right;
+}
+.block-content{
+  background: url('../images/frame.png') no-repeat;
+  padding: 5%;
+  margin: 0 auto;
+}
+#button-id{
+  clear: both;
+  padding-top: 0;
+  margin-top: -15px;
+}
+#links-downloads{
+  clear: both;
+  height: 40px;
+}
+footer{
+  margin-left: 15%;
+  margin-right: 15%;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+}
+#button-login{
+  color: white;
+  vertical-align: middle;
+  display: inline-block;
+  background: #678cac;
+  border-radius: 0.4em;
+  margin: 2% 2% 0 0;
+  padding: 2%;
+  height: 20px;
+  width: 70px;
+  text-decoration: none;
 }
