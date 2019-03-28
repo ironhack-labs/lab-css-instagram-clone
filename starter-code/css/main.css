@@ -7,4 +7,117 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  padding: 0;
+  background-image: url('file:///Users/ifrank/IronHack/Day3/lab-css-instagram-clone/starter-code/images/bgtile.png');
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header{
+  height: 310px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+article{
+  width: 480px;
+  height: 75px;
+  position: relative;
+  float:left;
+  margin-top: 150px;
+  margin-left: 40%;
+  box-sizing: border-box;
+}
+
+#instagram{
+  position: relative;
+  float:left;
+  box-sizing: border-box;
+  height: 80px;
+}
+
+#log{
+  background-image: url("file:///Users/ifrank/IronHack/Day3/lab-css-instagram-clone/starter-code/images/bgtile.png");
+  color: white;
+  width:90px;
+  position: relative;
+  float: rigth;
+  margin-top: 16px;
+  margin-left: 380px;
+  box-sizing: border-box;
+}
+
+h1{
+  color:#06365f;
+}
+
+#phone{
+  position: absolute;
+  float: left;
+  height: 510px;
+  width: 320px;
+  margin-left:160px;
+}
+
+#info{
+  background-image: url("file:///Users/ifrank/IronHack/Day3/lab-css-instagram-clone/starter-code/images/frame.png");
+  background-repeat: no-repeat;
+  width:504px;
+  height: 600px;
+  position:absolute;
+  float:left;
+  margin-top:0px;
+  margin-left:40%;
+  box-sizing: border-box;
+}
+ h1{
+   width: 52%;
+   margin-left:50px; 
+ }
+
+ #info-p{
+  width: 90%;
+  height: 50px;
+  margin-left:50px; 
+ }
+
+ #brand{
+  position: relative;
+  width: 65%;
+  margin-left:50px;
+  margin-top: 180px; 
+ }
+
+#footer{
+  margin-top:65px;
+  background: white;
+  border: 1px solid;
+}
+
+ul{
+  color:#1c5380;
+  width: 55%;
+  height: 20px;
+  clear:both;
+  margin-top: 600px;
+  margin-left: 25%;
+  margin-bottom: 70px;
+  box-sizing: border-box;
+  border: 1px solid white;
+}
+
+li{
+  float: left;
+  list-style-type: none;
+  margin-left:15px;
+  margin-right: 2px;
+}
+
+strong {
+  text-transform: uppercase;
+}
+
+#txt {
+  color:gray;
 }
