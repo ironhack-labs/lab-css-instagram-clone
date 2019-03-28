@@ -4,7 +4,114 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: url('../images/bgtile.png'); 
+  background-repeat: repeat-x;
 }
+
+.container {
+  min-width: 750px;
+  max-width: 960px;
+  margin: 0 auto;
+  padding-top: 100px;
+
+}
+
+.container aside, .container div {
+  float: left;
+}
+
+.container aside {
+  width: 40%;
+}
+
+.container aside img{
+  width: 90%;
+}
+
+.container div {
+  width: 60%;
+}
+
+.container header {
+  margin: 20px 0;
+}
+
+.container img {
+  vertical-align: middle;
+}
+
+.container .button {
+  font-weight: 400;
+  float: right;
+  margin-top: 20px;
+  padding: 8px 13px;
+  color: white;
+  border: 2px solid #1c5380;
+  background: #1f598a;
+}
+
+.content .button img {
+  margin-right: 5px;
+}
+
+.boxSection {
+  background-color: white;
+  border-radius: 5px;
+  box-sizing: 600px;
+  box-shadow: 10px 10px 5px grey;
+}
+.boxSection h3 {
+  margin-bottom: 15px;
+  color: #06365f;
+}
+
+.boxSection p {
+  line-height: 1.5em;
+  margin-bottom: 10px;
+}
+
+.boxSection .applinks {
+  margin-top: 35px;
+  width: 40px;
+}
+
+.boxSection .applinks img {
+  margin-right: 20px;
+  float: left;
+}
+
+.clearfix {
+  clear: both;
+}
+
+footer {
+  margin-top: 50px;
+  text-align: center;
+}
+
+ul {
+  display: inline-block;
+  margin-right: 20px;
+  padding-top: 40px;
+  color: gray;
+  font-weight: 700;
+  text-decoration: none;
+  vertical-align: middle;
+}
+
+li {
+  display: inline;
+  margin-right: 20px;
+  padding-top: 40px;
+  text-decoration: none
+}
+
