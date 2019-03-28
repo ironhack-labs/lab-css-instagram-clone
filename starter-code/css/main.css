@@ -1,10 +1,71 @@
+*{
+  font: 200 16px/1.5 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
 /*
 Colors to use:
-dark blue: #06365f
 light blue: #1c5380
 */
 
+
+h2{
+  font-size: 25px;
+  color: dark  #06365f;
+}
+
+.fulldiv{
+  width: 700px;
+  position: relative;
+  margin: 0 auto;
+  display: block
+}
+  body {
+    background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+  
+}
+
+.left {
+  float: left;
+  width: 50%;
+  display: inline-block;
+  margin-top: 20%;
+}
+
+.right {
+  border-radius: 5px;
+  float: right;
+  width: 50%;
+  display: inline-block;
+
+}
+.photoig{
+  margin-top: 30%;
+}
+.white {
+  padding: 5%;
+  background: url("../images/frame.png") no-repeat;
+  width: 400px;
+}
+.clearfix {
+  clear: both;
+}
+
+.bottom {
+}
+footer {
+  margin-top: 50px;
+
+  text-align: center;
+}
+
+il {
+  display: inline-block;
+}
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+nav ul li{
+  display: inline-block;
+  float: left;
 }
