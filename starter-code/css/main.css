@@ -4,7 +4,100 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+*{
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  background-image: url('../images/bgtile.png');
+  background-repeat: repeat-x;
+}
+
+.dark-blue {
+  color: #06365f;
+}
+
+.light-blue {
+  color: #1c5380;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 30px 0px;
+  
+}
+
+.col {
+  float: left;
+}
+
+.col-2 {
+  width: 45%;
+}
+
+.col-middle {
+  margin: 0 5%;
+}
+
+.clearfix {
+  clear: both;
+}
+
+#main{
+  margin-top: 50px;
+}
+
+.main-img {
+  text-align: center;
+}
+
+.img-brand {
+  margin-right: 20px;
+  vertical-align: middle;
+}
+
+.button-login {
+  
+  padding: 12px 12px;
+  vertical-align: middle;
+  background-color: #1c5380;
+  color: white;
+  border: 3px solid #1c5380;
+  border-radius: 3px;
+  float: right;
+  font-size: 20px;
+}
+
+.article {
+  background: white;
+  margin: 30px 0;
+  padding: 10px 30px;
+  border-radius: 20px;
+  box-sizing: border-box;
+  border: 2px solid #eee;
+  line-height: 30px;
+}
+
+.apple-store {
+  margin-right: 20px;
+}
+.google-play{
+  margin-left: 20px;
+}
+#footer {
+  text-align: center;
+  
+}
+
+.footer-ul {
+  list-style-type: none;
+  text-transform: uppercase;
+}
+
+.footer-li {
+  display: inline;
+  margin: 0 5px;
 }
