@@ -3,8 +3,115 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+@import url(@import url('https://fonts.googleapis.com/css?family=Gothic+A1');
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 200 16px/1.5 Gothic A1 , sans-serif;
   margin: 0;
+  background: url(../images/bgtile.png);
+  background-size: 1px 280px;
+  background-repeat: repeat-x;
+}
+
+h1{
+  font-family: Gothic A1 = , sans-serif;
+  font-size:1.7em;
+  color:#1c5380;
+  margin-right:70px;
+}
+
+.phones >img{
+  width: auto;
+  height:580px;
+
+}
+
+.instruction{
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width:90%;
+ 
+  
+}
+
+.text-instruction {
+width:90%;
+margin: 4% 8% 8% 5%;
+padding-top: 30px;
+padding-left: 20px;
+
+}
+
+.text-instruction  img{
+ margin-right:15px;
+}
+
+button{
+  margin:0;
+  width:100px;
+  height:50px;
+  background-color:#1c5380;
+  color:white;
+}
+
+.column2>img{
+  width:60%;
+  
+}
+
+.button{
+  width:100px;
+  float:right;
+  margin: 10px 60px 0 0;
+  
+}
+
+.icon-bottom {
+  margin-top:40px;
+}
+ 
+
+.container{
+  display:flex;
+  justify-content: space-evenly;
+  padding-top: 100px;
+  border: 1px solid;
+}
+
+.column2{
+  width:50%;
+  
+  
+}
+
+.icon-top{
+  zborder:1px solid orange;
+  widht:70%;
+}
+
+footer{
+  display:block;
+  width:100%;
+  text-align:center;
+}
+
+a{
+  padding:0 10px 0 10px;
+  color:#1c5380;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size:0.8em;
+}
+
+.not-a-link {
+  color:lightgray;
+}
+
+span{
+  font-weight: bold;
+}
+
+p{
+  font-size:0.9em;
 }
