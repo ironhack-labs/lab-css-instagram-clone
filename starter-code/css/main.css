@@ -7,40 +7,41 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image:url("../images/bgtile.png");
+  background-repeat: repeat-x; 
 }
-.back-header{
+/* .back-header{
   background-image: url("../images/bgtile.png");
   height: 300px;
   background-repeat: repeat-x;
   ;  
-  
-}
-.master-flex{
-  border: 3px solid red;
-  position: absolute;
-  display: flex;
   flex-direction:row;
+  justify-content:center;}
+   */
+
+.master-flex{
+  display: flex;
+  flex-direction: row;
   justify-content:center;
-  z-index: 2;
-  top:150px;
+  top:100px;
+  padding: 100px 0px 0px 0px;
   left:25%;
 }
 .phone{
-  border: 3px solid blue;
   width: 400px;
   align-items: center;
-  display: flex;
-  justify-content:center;
+
 }
 .content{
-  border: 3px solid green;
-  width: 500px;
+  width: 600px;
   display: inl;
+  padding: 10px;
 }
 .footer-ul{
   display: flex;
   text-align: center;
   align-items: flex-end;
+  padding: 0px 30%;
     
 }
 .footer-ul li{
@@ -59,6 +60,7 @@ body {
   border-radius: 15px;
   height:300px;
   background-color:white ;
+  padding: 10px
 
 }
 .footer{
