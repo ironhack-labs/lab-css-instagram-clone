@@ -1,10 +1,99 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
-
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+footer{
+  width: 100%;
+  text-align: center;
+  padding-top: 5%;
+}
+
+footer span{
+  color: #06365f;
+  padding: 0 20px;
+  font-weight: 500;
+}
+
+h2{
+  color: #06365f;
+}
+
+button{
+  display: inline-block;
+  width: 22%;
+  height: 40px;
+  background-color: #1c5380;
+  border: 1px groove #06365f;
+}
+
+p{
+  font-weight: 400;
+}
+
+
+.col-2{
+  
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.col{
+  display: inline-block;
+  width: 35%;
+  margin: 10px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.space-evenly{
+  justify-content: space-around;
+  align-items: center;
+  padding: 0;
+}
+
+.blue{
+  background-color: #1c5380;
+}
+
+.white{
+  background-color: white;
+}
+
+.padding-center{
+  padding: 20px;
+}
+
+.top_blue{
+  height: 250px;
+}
+
+.move-up{
+ margin-top: -13%;
+}
+
+.half-size{
+  width: 60%;
+}
+
+#login-but{
+  color: white;
+  font-weight: 600;
+  font-size: 17px;
+}
+
+#white-color{
+  color: grey;
+}
+
+#box-corner{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
