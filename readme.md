@@ -14,7 +14,7 @@ There's a bit of starter code, so you can jump right into it.
 
 - [Fork this repo](https://guides.github.com/activities/forking/)
 - Clone this repo into your `~/code/labs`
-- Use [display](https://developer.mozilla.org/en-US/docs/Web/CSS/display), [clear](https://developer.mozilla.org/en-US/docs/Web/CSS/clear), and [floats](https://developer.mozilla.org/en-US/docs/Web/CSS/float) to position elements on the page
+- Use one of the CSS layout techniques to position elements on the page ([display](https://developer.mozilla.org/en-US/docs/Web/CSS/display), [float](https://developer.mozilla.org/en-US/docs/Web/CSS/float), [flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox), or [grids](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Grids))
 - Look up in [MDN](https://developer.mozilla.org/en/) and use CSS properties and values that may not have been covered in class, for example:
   - `background: url("YOUR-LINK.COM")`
   - `list-style`
