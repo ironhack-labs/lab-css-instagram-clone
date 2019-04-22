@@ -3,8 +3,98 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
+*{
+	margin:0;
+	padding:0; 
+}
 body {
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+  
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+.container1 {
+  width: 779px;
+  margin: 75px auto;
+}
+.container2 {
+  display: inline-block;
+  width: 56%;
+  margin-left: 45px; 
+}
+.container div {
+  padding: 35px;
+  border: 1px solid black;
+}
+#logo {
+  height: 70px;
+  margin-bottom:18px ;
+}
+#phone {
+  height: 461px;
+}
+footer, a {
+  color: #5381aa;
+  text-transform: uppercase;
+  font-size: 10px;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 62px;
+  font-weight: bold;
+}
+footer, span {
+  margin-left: 36px;
+  color: rgb(181, 181, 181);
+}
+button {
+  text-shadow: 2px 2px #1c5380;
+  font-weight: bold;
+  border: 1px solid #1c5380;
+  background-image: linear-gradient(#6b98be, #3f6c91);
+  color: white;
+  height: 34px;
+  display: inline-block;
+  position: relative;
+  bottom: 48px;
+  left: 73px;
+  text-align: center;
+  width: 77px;
+  line-height: 28px;
+}
+button img {
+  height: 16px;
+  
+}
+button + div {
+  border-radius: 3px;
+  box-shadow: 0 -39px 34px -25px #1c5380;
+  background-color: white;
+}
+p + a img {
+  padding-left: 34px;
+}
+a img {
+  padding-top: 24px;
+  height: 44px;
+}
+a + a {
+  padding-left: 0px;
+  margin-left: 13px;
+}
+h1 {
+  color: #06365f;
+  line-height: 31.6px;
+  font-size: 25px;
+  padding-top: 21px;
+  padding-left: 30px;
+  padding-right: 93px;
+}
+p {
+  color: rgb(77, 77, 77);
+  font-weight: normal;
+  font-size: 13px;
+  padding-left: 34px;
+  padding-top: 19px;
+  padding-right: 26px;
 }
