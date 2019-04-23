@@ -22,11 +22,15 @@ body {
 }
 
 .button{
-  background-color:darkblue;
+  background-image: url("../images/bgtile.png");
   margin-left: 40px;
-
-  padding: 10px;
-
+  padding: 5px;
+  position: absolute;
+  right: 280px;
+  top:150px;
+  border-radius: 2px;
+  border-style: groove;
+  border-color: rgb(155, 213, 233);
 }
 
 .content {
