@@ -3,8 +3,37 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
+/**{
+  margin:0;
+  padding:0;
+}*/
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+.bg{
+  background: url("../images/bgtile.png");
+  background-size: 100%;
+  background-position: center;
+  background-attachment: fixed;
+}
+.phones{
+  padding:2em 1em; 
+}
+.column{
+  width: 45%;
+  padding: 0 10px;
+  display: inline-block;
+}
+.footer{
+  text-align: center;
+}
+li{
+  display: inline-block;
+  color: gray;
+}
+a{
+  text-decoration: none;
+  color: #1c5380;
+  margin: 0.1em ;
 }
