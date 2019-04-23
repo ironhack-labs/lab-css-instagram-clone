@@ -3,8 +3,90 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+}
+
+.container {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 100px;
+  background-image: url("../images/phones.png");
+  background-repeat: no-repeat;
+}
+.content {
+
+  width: 65%;
+  margin-bottom: 80px;
+  margin-left: 35%;
+}
+header {
+  padding-left: 20px;
+}
+header .logo {
+  display: inline-block;
+
+}
+header .login {
+  display: inline-block;
+  border: 1px solid red;
+}
+
+header a {
+  padding: 10px 30px;
+}
+
+h1 { 
+  font-size: 30px;
+  color: #06365f;
+  width: 65%;
+  font-weight: 900;
+}
+section {
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  padding: 40px;
+}
+section p {
+  font-size: 20px;
+  line-height: 30px;
+  padding: 10px 0;
+}
+section a img {
+  padding-top: 20px;
+}
+footer {
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+}
+footer ul {
+  display: inline-block;
+}
+footer ul li {
+  display: inline-block;
+}
+footer ul li a {
+  text-decoration: none;
+  margin: 0 15px;
+  color: #1c5380;
+  font-weight: 1000;
+  letter-spacing: 2px;
+}
+footer small {
+  font-size: 16px;
+  color: gray;
+  font-weight: 600;
+
 }
