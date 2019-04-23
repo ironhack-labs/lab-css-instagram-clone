@@ -51,14 +51,22 @@ img {
 
 
 .box-right {
-  background-color: white;
+  background-image: url('../images/frame.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  /*  padding: 200px; */
+  /*  background-color: white;
   padding: 30px;
   box-shadow: 0px -2px 2px 1px #0000001a;
-  border-radius: 30px;
+  border-radius: 30px; */
   display: inline-block;
   position: absolute;
   top: 50;
   margin-top: -400px;
+}
+
+.box-content {
+  padding: 30px;
 }
 
 .box-header {
