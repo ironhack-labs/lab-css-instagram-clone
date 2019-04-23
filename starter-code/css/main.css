@@ -8,3 +8,108 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+a {
+   text-decoration: none;
+}
+
+a:visited{
+  color: white;
+}
+
+a:link{
+  color: white;
+}
+
+span {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 1.8em;
+  color: #06365f;
+}
+
+.container{
+  width: 70%;
+  text-align: center;
+}
+
+
+.container-left{
+  width: 25%;
+  display: inline-block;
+  margin-right: 7em;
+  margin-top: 8em;
+}
+
+.container-right{
+  width: 35%;
+  display: inline-block;
+  position: absolute;
+  margin-top: 8em;
+}
+
+.container-right-content{
+  background-color: white;
+  padding: 2em;
+  border-radius: 3px;
+  text-align: left;
+  /* TUVE QUE REPETIR EL TEXT-ALIGN PORQUE HE UTILIZADO T.A. PARA CENTRAR EL CONTAINER PRINCIPAL */
+
+}
+.login-button{
+  padding: 1em;
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;
+  border-radius: 4px;
+  position: absolute;
+  right: 0;
+  box-shadow: 2px 2px 3px 1px rgba(53, 53, 53, 0.75);
+}
+
+#logo{
+  position: absolute;
+  left: 0;
+}
+
+
+
+.container-right-header{
+  position: relative;
+  height: 5em;
+  margin-bottom: 2em;
+}
+
+li{
+  display: inline-block;
+  margin: 0 1em;
+  color: #1c5380;
+}
+
+li span{
+  color: rgb(170, 170, 170);
+  font-weight: inherit
+}
+
+.footer{
+  margin-top: 6em;
+  text-align: center;
+}
+
+.container-background-line{
+  height: 35em;
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;
+}
+
+a img {
+  vertical-align: middle;
+}
+
+/* 
+ 1: PORQUE LA LINEA DETRAS NO ME SUBE MAS DE 18 EM DE HEIGHT?
+ 2: TUVE QUE HACER TEXT ALIGN CENTER PARA CENTRAR EL CONTENIDOR GRANDE, ME SIENTO SUCIO
+ 3: TUVE QUE ARREGLAR EL LOGOTIPO Y EL HOME BUTTON CON POSITION ABSOLUTE, LO SIENTO
+ 4: TUVE QUE QUITAR EL FOOTER DEL CONTENEDOR PORQUE SI NO NO PODIA CENTRARLO DE NINGUNA FORMA... PS: EL TAG FOOTER SE COMPORTA DE IGUAL FORMA QUE UN DIV? 
+*/
