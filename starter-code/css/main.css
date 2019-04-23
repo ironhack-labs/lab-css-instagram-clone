@@ -20,6 +20,51 @@ header {
   background-image: url('../images/bgtile.png');
   background-size: cover;
   padding: 200px;
+  position: relative;
+}
+
+section {
+  /*   background-color: white;
+  border: 3px solid black;
+  padding: 250px;
+  width: 80%;
+  margin: 0 auto; */
+  position: absolute;
+  top: 200px;
+  left: 10%;
+  width: 80%;
+  margin: 0 auto;
+  /*  */
+}
+
+.column-50 {
+  width: 49%;
+  display: inline-block;
+  /*  background-color: red;
+  border: 3px solid black;
+  padding-bottom: 400px; */
+}
+
+img {
+  display: inline-block;
+}
+
+
+.box-right {
+  background-color: white;
+  padding: 30px;
+  box-shadow: 0px -2px 2px 1px #0000001a;
+  border-radius: 30px;
+  display: inline-block;
+  position: absolute;
+  top: 50;
+  margin-top: -400px;
+}
+
+.box-header {
+  position: absolute;
+  top: 0;
+  width: 50%
 }
 
 h1 {
@@ -28,34 +73,6 @@ h1 {
 
 p {
   line-height: 1.5;
-}
-
-.margin-left-10 {
-  margin-left: 10%;
-}
-
-.box-header {
-  position: relative;
-}
-
-.column-right {
-  background-color: red;
-  padding: 200px;
-}
-
-section {
-  position: absolute;
-  top: 100px;
-}
-
-
-img {
-  display: inline-block;
-}
-
-
-.logo-ig {
-  width: 60%;
 }
 
 button {
@@ -75,24 +92,12 @@ button {
   font-weight: bold;
 }
 
-.column-40 {
-  width: 40%;
-  display: inline-block;
-}
-
-.box {
-  background-color: white;
-  padding: 30px;
-  box-shadow: 0px -2px 2px 1px #0000001a;
-  border-radius: 30px;
-
-}
-
 .download-img {
   text-align: center;
   margin: 15px 0;
 
 }
+
 
 footer {
   width: 100%;
