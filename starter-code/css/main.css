@@ -35,6 +35,7 @@ header {
   padding: 10px;
   border-radius: 8%;
   color: white;
+  
 }
 .col {
   display: inline-block;
@@ -76,4 +77,8 @@ footer a{
   width: 8%;
   text-decoration: none;
   
+}
+
+.img-phones {
+  margin-left: 200px;
 }
