@@ -8,4 +8,33 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
   background-color: lavender;
+  background-image: url('../images/bgtile.png');
+  background-repeat: repeat-x;
+}
+
+main{
+  display: flex;
+  width: 800px;
+  margin:  0 auto;
+
+}
+
+.panFotoPrincipal {
+  width: 340px ;
+  text-align: center;
+  margin: 20px;
+
+}
+
+
+
+
+ul.linksFooter {
+  list-style: none;
+}
+ul.linksFooter li {
+  display: inline-block;
+  padding: 2px 5px;
+  text-transform: uppercase;
+  color: blue ; /* TODO pickcolor*/
 }
