@@ -1,12 +1,15 @@
 const gulp = require("gulp");
 const $ = require("gulp-load-plugins")();
 
+
+let listaDirToWatch = ["./public/*.*", "./public/css/*.*"];
+
 function crearPublic() {
     console.log("crear public");
     $.livereload.listen();
 
     return gulp
-        .src("./public/**.*")
+        .src(listaDirToWatch)
         .pipe($.livereload())
         ;
 }
@@ -22,7 +25,7 @@ function validar() {
 
 
 gulp.task("watch", () => {
-    gulp.watch("./public/**.*", crearPublic)
+    gulp.watch(["./public/*.*", "./public/css/*.*"], crearPublic)
 });
 
 gulp.task("validar", validar);
