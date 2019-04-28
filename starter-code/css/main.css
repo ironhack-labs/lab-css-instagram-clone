@@ -8,3 +8,147 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+
+
+
+
+/*------------------------------------*\
+  #HEADER
+\*------------------------------------*/
+
+header{
+  margin: 0;
+  height: 350px;
+  background-color: #1c5380;
+  background-image: url('/starter-code/images/bgtile.png');
+}
+
+
+
+
+
+/*------------------------------------*\
+  #MAIN-SECTION
+\*------------------------------------*/
+
+#main{
+  position: relative;
+  margin: 0;
+}
+
+.container{
+  display: table-cell;
+  text-align: center;
+  position: absolute;
+  top: -200px;
+}
+
+.wrapper{
+  display: inline-block;
+  width: 40%;
+  margin: 0 30px;
+  box-sizing: border-box;
+}
+
+    .wrapper--left{ width: 27.1%; }
+    .main-img{ width: 100%; }
+    .wrapper--right{ width: 50% }
+
+.brand-and-login{
+
+}
+
+.logo{
+  width: 200px;
+  float: left;
+  margin: 10px;
+}
+
+.button{
+  display: block;
+  color: white;
+  font-weight: 500;
+  font-size: 0.9em;
+  text-align: left;
+  text-decoration: none;
+  width: 80px;
+  margin: 10px;
+  padding: 10px 10px;
+  float: right;
+  border: 1px solid #06365f;
+  border-radius: 4px;
+  background-image: url('/starter-code/images/bgtile.png');
+  
+}
+
+.button__image{
+  margin: 0 10px 0 0;
+  float:left;
+}
+
+
+.clearfix{
+  clear: both;
+}
+    
+.content{
+  position: relative;
+  text-align: left;
+  padding: 2em 3em;
+  border-radius: 10px;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  z-index: 0;
+}
+
+  .content__h{
+    position: relative;
+    z-index: 2;
+    color: #06365f;
+    line-height: 1.2em;
+  }
+
+  .content__p{
+    position: relative;
+    z-index: 2;
+    font-weight: 400;
+  }
+
+.frame{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.stores a{
+  margin: 1em;
+}
+
+.menu{
+  display: inline-block;
+}
+
+.menu li{
+  display: inline-block;
+  margin: 80px 7px;
+  list-style: none;
+}
+
+.menu__item{
+  color: #06365f;
+  font-weight: 600;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.copyright{
+  font-size: 0.8em;
+  display: inline-block;
+  margin-left: 20px;
+}
+
