@@ -65,3 +65,16 @@ ul.linksFooter li {
   width: 30px;
 }
 
+
+h1{margin: 0; padding: 0}
+
+.btn-icon{
+  padding: 3px 4px 4px  40px;
+  background-repeat: no-repeat; display: inline-block;
+}
+
+a.btn-icon { color:#fff; text-decoration: none}
+.bg-icon-home{
+  background-image: url('../images/home.png');
+"
+}
