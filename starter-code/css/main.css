@@ -6,5 +6,99 @@ light blue: #1c5380
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  margin: 0;  
 }
+
+.background-container{
+  background: url("../images/bgtile.png");
+  height: 220px;
+  width: 100%;  
+}
+
+.content{
+  box-sizing: border-box;
+  position: absolute;
+  top: 10%;
+  left:15%;
+  height: 80%;
+  width: 70%;      
+  padding: 0 50px;  
+}
+
+.content-left{
+  background: url("../images/phones.png") no-repeat;
+  background-size: contain;
+  height: 100%;
+  width: 38%;  
+  float: left;
+}
+.content-right{
+  height: 100%;
+  width: 59%;
+  float: right;   
+  padding-top: 10px;
+}
+.description-container{
+  background: url("../images/frame.png") no-repeat;
+  background-size: contain;
+  text-align: left;  
+  box-sizing: border-box;
+  padding: 10px 30px 0 35px;
+}
+
+.description-title{
+  color: #06365f;
+}
+
+.home-icon{
+  vertical-align: bottom;
+}
+
+.login{
+  background: url("../images/bgtile.png");
+  border-radius: 3px;
+  text-decoration: none;
+  float: right;  
+  color: white;
+  font-weight: bold;
+  margin: 25px; 
+  border: 1px solid #06365f;
+  padding: 5px 10px;
+}
+
+.nav-bar{
+  position: absolute; 
+  bottom: 25px;    
+  width: 100%; 
+  margin-top: 25px;
+}
+
+.nav-bar-ul{     
+  width: 50%;
+  margin: 0 auto;    
+}
+
+.nav-bar-li{
+  list-style-type: none;   
+}
+
+.nav-bar-item{
+  text-decoration: none;
+  color: #1c5380;
+  float: left;  
+  margin: 0 8px;   
+}
+.gray{
+  color: darkgray;
+}
+
+strong{
+  font-weight: bold;
+}
+
+.appstore{
+  margin-right: 15px;
+}
+
+
+
