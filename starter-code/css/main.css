@@ -23,17 +23,46 @@ main{
 }
 
 .capture{
-  width: 540px;
+  width: 500px;
   height: 500px;
   background-image: url("../images/frame.png");
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: contain;
   background-position: auto, 0;
-  padding: 20px;
+  padding: 45px;
+  position: absolute;
+  top: 220px;
+  left: 50%;
+  margin: 0 auto;
+}
+
+.log-in-button{
+  background-image: url("../images/home.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-color: rgb(87, 119, 151);
+  background-position: 15px center;
+  color: white;
+  width: 115px;
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  text-shadow: 10px;
+  font-weight: 500;
+  border: 2px solid rgb(14, 69, 123);
+  border-radius: 4px;
+
+}
+
+.upper-buttons{
   position: absolute;
   top: 140px;
   left: 50%;
-  margin: 0 auto;
+  width: 600px;
+
 }
 
 .image{
@@ -55,4 +84,55 @@ main{
 
 .clearfix{
   clear:both;
+}
+
+footer{
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+}
+
+.links{
+  width: 800px;
+  margin: 0 auto;
+}
+
+li{
+  display: inline;
+}
+
+li a{
+  color: rgb(162, 162, 162);
+  text-decoration: none;
+  margin: 10px;
+  font-weight: 500;
+}
+
+.app-store{
+  
+  position: absolute;
+  left: 20px;
+  margin: 60px;
+}
+
+.play-store{
+  position: absolute;
+  left: 220px;
+  margin: 60px;
+}
+
+.about{
+  color: rgb(87, 119, 151);
+}
+
+span{
+  font-weight: 600;
+}
+
+h2{
+  width: 380px;
+  font-weight: 600;
+  margin: 0px 0 20px 20px;
+  font-size: 2em;
+  color: rgb(50, 88, 126);
 }
