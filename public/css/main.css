@@ -5,76 +5,94 @@ light blue: #1c5380
 */
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
-  background-color: lavender;
-  background-image: url('../images/bgtile.png');
-  background-repeat: repeat-x;
-}
-
-main{
-  display: flex;
-}
-
-main , footer{
-  width: 800px;
-  margin:  0 auto;
+    font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+    background-color: lavender;
+    background-image: url('../images/bgtile.png');
+    background-repeat: repeat-x;
 }
 
 main {
-  padding-top: 120px;
+    display: flex;
+}
+
+main, footer {
+    width: 800px;
+    margin: 0 auto;
+}
+
+main {
+    padding-top: 120px;
 }
 
 .panFotoPrincipal {
-  width: 340px ;
-  text-align: center;
-  margin: 20px;
+    width: 340px;
+    text-align: center;
+    margin: 20px;
 
 }
-
-
 
 
 ul.linksFooter {
-  list-style: none;
+    list-style: none;
 }
+
 ul.linksFooter li {
-  display: inline-block;
-  padding: 2px 5px;
-  text-transform: uppercase;
-  font-size: 14px; font-weight: bold;
-  color: #194164 ;
+    display: inline-block;
+    padding: 2px 5px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    color: #194164;
 }
 
 .panContenedorFlex {
-  display: flex;
+    display: flex;
 
 }
 
-.panHistoria{
-  background-image: url("../images/frame.png");
-  background-repeat: no-repeat;
-  padding: 30px;
+.panHistoria {
+    background-image: url("../images/frame.png");
+    background-repeat: no-repeat;
+    padding: 30px;
 }
 
-.panHistoria h2{ color:#194164 ;
-  padding-right: 30px}
-
-
-#separadorImagesLink{
-  width: 30px;
+.panHistoria h2 {
+    color: #194164;
+    padding-right: 30px
 }
 
 
-h1{margin: 0; padding: 0}
-
-.btn-icon{
-  padding: 3px 4px 4px  40px;
-  background-repeat: no-repeat; display: inline-block;
+#separadorImagesLink {
+    width: 30px;
 }
 
-a.btn-icon { color:#fff; text-decoration: none}
-.bg-icon-home{
-  background-image: url('../images/home.png');
+
+h1 {
+    margin: 0;
+    padding: 0
+}
+
+.btn-icon {
+    padding: 10px 16px 10px 40px;
+    background-repeat: no-repeat;
+    background-position: 10px 5px;
+    border-radius: 4px;
+    border:1px solid #335F85;
+
+/* https://cssgradientbutton.com/ */
+
+
+    background-color: #6A8EAD
+}
+
+
+a.btn-icon {
+    color: #fff;
+    text-decoration: none
+}
+
+.bg-icon-home {
+    background-image: url('../images/home.png');
 "
 }
