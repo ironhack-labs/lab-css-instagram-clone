@@ -1,0 +1,138 @@
+/*
+Colors to use:
+dark blue: #06365f
+light blue: #1c5380
+*/
+
+body {
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+
+#primero{
+  background-color: #1c5380;
+  height: 320px;
+  margin-top: 50px #1c5380;
+  width: auto;
+}
+#photo-cel{
+  width:400px;
+  height:650px;
+  padding-right:10px;
+  position: absolute;
+  top:120px;
+  left:140px;
+  margin: auto;
+}
+#fondo-blanco{
+  width:605px;
+  height:400px;
+  position:relative;
+  top: 235px;
+  left: 600px;
+}
+#instagram-Logo{
+  width:360px;
+  height: 90px;
+  position: absolute;
+  top: 125px;
+  left: 610px;
+}
+#div-boton {
+  position: relative;
+  top:-260px;
+  left:1065px;
+  width: 130px;
+  height:55px;
+  border: 1px solid #06365f;
+  border-radius: 5px;
+  box-shadow: 10px; 
+  background-color: #1c5380;
+  background-image: linear-gradient(#6BABE0,#1c5380 );
+}
+
+#casa{
+  width:35px;
+  height:30px;
+  position: absolute;
+  top:13px;
+  left:12px;
+}
+h3{
+  color:white;
+  font-size:18px;
+  position: absolute;
+  left:59px;
+  top:-4px;
+  
+}
+.clearfix{
+  clear:both;
+}
+h1{
+  font-size: 30px;
+  color:#06365f;
+  position:absolute;
+  left: 645px;
+  top: 260px;
+  font-weight: 550;
+  letter-spacing: 1px;
+}
+#par1{
+  font-size: 18px;
+  position:absolute;
+  top: 370px;
+  left:645px;
+  letter-spacing: 0.3px;
+  line-height: 30px;
+  font-weight: 400;
+} 
+#par2{
+  font-size:18px;
+  position: absolute;
+  top:440px;
+  left:645px;
+  letter-spacing: 0.4px;
+  line-height: 30px;
+  font-weight: 400;
+}
+#par3{
+  font-size:18px;
+  position:absolute;
+  top:570px;
+  left:645px;
+  letter-spacing: 0.4px;
+  line-height: 30px;
+  font-weight: 400;
+}
+#apple{
+  height:60px;
+  width: 190px;
+  position: absolute;
+  top:670px;
+  left:650px;
+}
+#android{
+  height:60px;
+  width: 190px;
+  position: absolute;
+  top:670px;
+  left:865px;
+}
+
+#copyright{
+  color:#C8C7C7;
+}
+.elementos-listas{
+  float:left;
+  list-style-type: none;
+  color:#1c5380;
+  padding-right: 1.5%;
+  font-size: 13px;
+  text-transform: uppercase;
+  position: relative;
+  top:480px;
+  left: 300px;
+  font-weight: 600;
+  letter-spacing: 0.1px;
+}
