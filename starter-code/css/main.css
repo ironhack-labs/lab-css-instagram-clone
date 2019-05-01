@@ -8,3 +8,27 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+#blue-top{
+  margin: 0;
+  height: 350px;
+  background-color: #1c5380;}
+#bottom-white{
+  margin: 0;
+  height: 670px;
+  /* background-color: gray; */
+}
+#iphone{
+  height: 500px;
+  background-image: url("/starter-code/images/phones.png");
+  background-repeat: no-repeat;
+  /* display: inline-block; */
+  /* float:left; */
+}
+#text-top{
+  height: 100px;
+  background-color: red;
+}
+#text-and-links{
+  height: 500px;
+  background-color: blue;
+}
