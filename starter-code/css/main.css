@@ -8,3 +8,64 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.bluediv {
+  position: relative;
+  height: 370px;
+  background-color: #3b5998;
+  
+}
+
+.whitediv {
+  height: 550px;
+}
+
+.main-content{
+  display: inline;
+}
+.telefonos{
+  position: absolute;
+  top: 200px;
+  left: 150px;
+}
+
+.brand {
+  position: absolute;
+  left: 525px;
+  top: 208px;
+}
+.logIn{
+  position: absolute;
+  margin-left: 380px;
+  margin-top: 30px;
+ 
+}
+
+.frame {
+  position: absolute;
+  left: -15px;
+  top: 90px;
+  z-index: -1;
+}
+.textoprincipal {
+  width: 450px;
+  margin-left: 490px;
+  padding: 40px 50px 0 40px;
+}
+
+.download {
+  padding-left: 20px;
+}
+
+.lista {
+  margin-left: 80px;
+  font-size: 15px;
+  font-weight: 570;
+}
+
+.enLinea {
+  display: inline;
+  list-style-type: none;
+  margin-right: 10px;
+  color: #3b5998;
+}
