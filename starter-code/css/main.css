@@ -5,6 +5,108 @@ light blue: #1c5380
 */
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 300 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  
+ }
+
+ .clearfix{
+   clear: both;
+ }
+
+ header{
+   background-color: #1c5380;
+   height: 300px;
+ }
+
+h2{
+  color: #06365f;
 }
+
+p{
+  font-weight: 400;
+}
+
+  section{
+    position: absolute;
+    top: 100px;
+    height: 600px;
+  }
+
+ .first-div{
+   margin:auto;
+   height: 550px;
+   width: 80%;
+   top: -500px;
+  
+ }
+
+ .second-div{
+   padding: 20px;
+   width: 35%;
+   height: 550px;
+   position: relative;
+   float: left;
+   padding:10px;
+ }
+
+ .third-div{
+  width: 55%;
+  height: 550px;
+  float: left;
+  position: relative; 
+  margin-top: 25px;
+
+ }
+ 
+
+ .fourth-div{
+ 
+  padding: 20px;
+ }
+
+ .fifth-div{
+   height: 400px;
+   background-image: url(../images/frame.png);
+   background-size: cover;
+   padding-top: 30px;
+   padding-left: 50px;
+   }
+
+   button{
+     top: 150px;
+     background-color: #1c5380;
+     color: white;
+     font-weight: 400;
+     border-radius: 2px;
+     border:1px solid #06365f;
+     opacity: 0.9;
+     padding: 5px;
+     width: 80px;
+     height: 40px;
+   }
+
+   .btn{
+     position: absolute;
+     top: 40px;
+     right:150px;
+   }
+  
+   li{
+     display: inline;
+     font-weight: 500;
+   }
+
+   a{
+     text-decoration: none;
+     color: #1c5380;
+   }
+
+   .end{
+    width: 60%;
+    height: 100px;
+    position: absolute;
+    top:700px;
+    margin: 10px 400px 10px;
+    line-height: 4em;
+   }
