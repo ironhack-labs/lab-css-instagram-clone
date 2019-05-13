@@ -1,0 +1,38 @@
+.wrapper{
+  background-color: red;
+  width: 100%;
+  height: 600px;
+}
+.container{
+  background-color: blue;
+  width: 99%;
+  height: 80%;
+}
+.footer {
+  background-color: green;
+  width: 99%;
+  height: 20%;
+  
+}
+.izquierda{
+  width: 50%;
+  height: 100%;
+  background-color: yellow;
+  display: inline-block;
+}
+.derecha {
+  width: 49%;
+  height: 100%;
+  background-color: pink;
+  display: inline-block;
+}
+.upper {
+  width: 100%;
+  height: 25%;
+  background-color: orange;
+}
+.bottom{
+   width: 100%;
+   height: 74%;
+   background-color: violet;
+  }
