@@ -5,6 +5,88 @@ light blue: #1c5380
 */
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.blue-background {
+    height: 300px;
+    width: 100%;
+    background-color: #1c5380;
+}
+
+.wrapper {
+    width: 100%;
+    position: relative;
+    bottom: 200px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-picture {
+    margin: 25px;
+    width: 300px;
+    margin-right: 70px;
+}
+
+.flex-content {
+    margin: 25px;
+    width: 500px;
+    position: relative;
+}
+
+#image {
+    width: 110%;
+}
+
+.logo {
+    width: 60%;
+}
+
+.log-in {
+    background: linear-gradient(#1c5380, #06365f);
+    position: absolute;
+    right: 0;
+    top: 5px;
+    border-radius: 5px;
+    color: white;
+    height: 50px;
+    width: 102px;
+    padding-left: 15px;
+}
+
+#home-img {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.content {
+    background-image: url("/images/frame.png");
+    padding: 24px 48px 24px 48px;
+    background-color: white;
+    border-radius: 1%;
+}
+
+h1 {
+    color: #06365f;
+}
+
+.buttons {
+    margin-top: 30px;
+}
+
+footer {
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+}
+
+ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 5px;
 }
