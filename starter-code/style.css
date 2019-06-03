@@ -1,0 +1,42 @@
+body {
+    background-image: linear-gradient(to bottom, #2883ce, #2883ce 40%, #ffffff 40%);
+    background-repeat: no-repeat;
+}
+
+section {
+    background: white;
+}
+
+.box-left {
+    display: inline-block;
+    width: 40%;
+}
+
+.box-right {
+    float: right;
+    width: 60%;
+}
+
+.container {
+    width: 900px;
+    margin: auto;
+    margin-top: 70px;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+}
+
+li {
+    display: inline;
+    margin-right: 10px;
+}
+
+ul :last-child(1) {
+    color: gray;
+}
+
+a {
+    text-decoration: none;
+}
