@@ -3,8 +3,101 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  margin-top: 80px;
+  background: white;
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+  
+}
+
+h2 {
+  width: 70%;
+  color: #06365f;
+}
+
+p {
+  width: 70%;
+}
+.boldSpan{
+  font-weight: bold;
+}
+
+.upper-frame {
+  display: inline-block;
+background-color: blue;
+  height: 1000px;
+  }
+
+.centered-section {
+  display: inline-flex;
+  padding: 0px;
+  margin: 10px;
+}
+
+.right-content-box {
+  padding: 0px;
+  margin-left: 0px;
+  margin-top: 70px;
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  background-size: 80%;
+}
+.right-upper-content {
+  display: inline-flex;
+  
+  text-align: center;
+  vertical-align: middle;
+  width: auto;
+  height: auto;
+  margin: auto;
+}
+.left-content {
+  padding: 0px;
+  width: 60%;
+  margin-left: 80px;
+}
+
+.footer-content {
+  display: inline-flexbox;
+  padding: 5px;
+  color: grey;
+  text-align: center;
+  vertical-align: middle;
+  width: auto;
+  height: auto;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.footer-links li {
+  display: inline-block;
+  list-style: none;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 8px;
+  height: 50px;
+}
+.copyright {
+  color: grey;
+}
+
+
+
+.button-logIn {
+  /* background-color: blue; */
+  border: 1px solid #1c5380;
+  color: white;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: text-bottom;
+  display: inline-block;
+  font-size: 12px;
+  border-radius: 2px;
+  margin-left: 100px;
+  margin-top: 20px;
+  width: 80px;
+  height: 40px;
 }
