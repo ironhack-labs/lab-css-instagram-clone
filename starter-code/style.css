@@ -1,0 +1,44 @@
+#fullpic {
+  
+}
+
+.box-left {
+  float: left;
+  margin-left: 10%;
+  
+  
+}
+.box-right {
+  
+  float: left
+  
+   
+    
+  
+}
+
+.box-text {
+  height : 300px;
+  width : 600px;
+  border :1px solid black ; 
+  padding: 15px;
+  
+  margin-right: 400px;
+  
+  
+}
+.links {
+  margin-top: 50px;
+  list-style:none;
+  text-align: center;
+  display: inline-block;
+  
+}
+.links li {
+  display: inline-block;
+}
+body {
+  text-align: center;
+  background-image: linear-gradient(blue, white);
+  background-repeat: no-repeat;
+}
