@@ -7,4 +7,91 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: linear-gradient(#1c5380 40%, white 20%);
+}
+
+h2{
+  color: #06365f;
+  margin-top: -230px;
+  position: absolute;
+  width: 320px;
+  margin-left: 40px;
+}
+
+button{
+  color: white;
+  background-color: #3e8fd1d8;
+  border-color: #1c5380;
+  border-radius: 3px;
+  padding: 4px 12px;
+  font-weight: bold;
+  margin-left: 30px;
+  position: absolute;
+  margin-top: 20px;
+}
+
+.buttonText{
+  padding-left: 5px;
+  padding-bottom: 5px;
+}
+
+ul{
+  text-align: center;
+}
+
+ul li{
+  list-style: none;
+  display:inline-block;
+  margin: 7px;
+}
+
+a{
+  text-decoration: none;
+  color: #06365f;
+  font-weight: bold;
+}
+
+.phonesPict{
+  padding: 100px;
+  position: absolute;
+}
+
+.textBox{
+  width: 400px;
+  padding-left: 600px;
+}
+
+.frame{
+  width: 450px;
+}
+
+.p1{
+  margin-top: -140px;
+}
+
+p{
+  margin-left: 40px;
+}
+
+.p2{
+  margin-bottom: 40px;
+}
+
+.title{
+  position: relative;
+  padding-left: 600px;
+  padding-top: 120px;
+}
+
+.container{
+  margin-bottom: 80px;
+}
+
+.logos{
+  padding-left: 640px;
+  position:relative;
+}
+
+.pict1{
+  margin-right: 20px;
 }
