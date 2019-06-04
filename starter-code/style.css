@@ -1,23 +1,25 @@
-#fullpic {
-  
+.fullbox {
+  width: 900px;
+  display:flex;
 }
 
 .box-left {
-  float: left;
-  margin-left: 10%;
+  
+  margin-left: 40%;
   
   
 }
 .box-right {
   
-  float: left
+  margin-left: 10%;
+  width: 400px
   
    
     
   
 }
 
-.box-text {
+.box-tex {
   height : 300px;
   width : 600px;
   border :1px solid black ; 
@@ -39,6 +41,14 @@
 }
 body {
   text-align: center;
-  background-image: linear-gradient(blue, white);
+  background-image: url(images/bgtile.png);
+  background-repeat: repeat-x;
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+.frame-img {
+  background-image: url(images/frame.png);
   background-repeat: no-repeat;
+  width: 500px ;
+  
 }
