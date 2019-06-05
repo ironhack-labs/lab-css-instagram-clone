@@ -8,3 +8,31 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+#left-bar{
+  float: left;
+  padding: 25%;
+  position: absolute;
+  margin-left: 100px;
+}
+#headT{
+  background-color:rgb(81, 127, 164); 
+  
+  height: 50%;
+  float: center;
+}
+h3{
+  color: #f3f5f7;
+  color-adjust: rgba(111, 151, 182, 0.5);
+}
+#frame{
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  margin: 0 20%;
+  padding-top: 10px;
+  float: right;
+  
+}
+aside{
+  top: right;
+
+}
