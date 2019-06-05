@@ -6,5 +6,76 @@ light blue: #1c5380
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  height: 700px;
+}
+
+header {
+position: relative;
+display: inline-flex;
+}
+
+.section-insta {
+  display: flexbox;
+  align-content: center;
+  justify-content: center;
+  margin: 0 180px;
+  
+}
+
+.section-1 {
+  display: inline-block;
+  width: 33%;
+  float: left;
+}
+
+.section-2 {
+  display: inline-block;
+  width: 33%;
+ align-content: center;
+ float: right;
+
+}
+
+.section-2 h2 {
+  font-weight: bold;
+  font-size: 20px;
+  color: #1c5380;
+  text-align: left;
+  margin-right: 150px;
+}
+
+.nav-end {
+  display: flex;
+  align-content: center;
+  justify-content: flex-end;
+  margin: 0 180px;
+  
+}
+
+.nav-item-1 {
+display: inline-block;
+
+}
+
+.nav-item-2 {
+display: inline-block;
+
+}
+
+.navigator-links {
+  color: #1c5380;
+  display: inline-block;
+
+}
+
+.navigator-links a{
+  color: #1c5380;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.download {
+  position: absolute;
+  left: 600px;
+  top: 500px;
 }
