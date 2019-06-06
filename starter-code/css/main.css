@@ -3,8 +3,95 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
+* {
+  margin: 0;
+}
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+.container {
+  position: relative;
+  border: 1px solid black;
+}
+.top-container {
+  width: 100vw;
+  height: 40vh;
+  background-color: #4d7598;
+}
+.half-top-box {
+  float: right;
+  width: 60vw;
+  height: 40vh;
+  vertical-align: middle;
+}
+.left-box {
+  position: absolute;
+  top: 15vh;
+  left: 20vw;
+}
+.right-box {
+  position: absolute;
+  top: 17vh;
+  right: 10vw;
+  width: 45vw;
+  height: 60vh;
+}
+.title-box {
+  width: 35vw;
+}
+.title-text {
+  background-color: #678cac;
+  width: 70px;
+  float: right;
+  padding: 5px 10px 5px 5px;
+  margin-right: 10px;
+  margin-top: 20px;
+  color: white;
+}
+button {
+  border: none;
+  background-color: #678cac;
+  float: right;
+  margin-top: 20px;
+  margin-right: 10px;
+  padding: 5px 20px 5px 5px;
+  color: white;
+  text-align: center;
+}
+.frame-box img {
+  width: 100%;
+  height: 100%;
+}
+.frame-box {
+  position: relative;
+  text-align: center;
+  font-weight: 300;
+  width: 35vw;
+  height: 75%;
+}
+.right-box h1 {
+  color: #06365f;
+  font-size: 1.8rem;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.frame-text {
+  position: absolute;
+  width: 80%;
+  top: 20px;
+  left: 10px;
+  text-align: left;
+  padding-left: 20px;
+}
+.phone-logos img {
+  margin-left: 10px;
+}
+footer {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: 10vh;
+  color: #4d7598;
+  font-weight: bold;
 }
