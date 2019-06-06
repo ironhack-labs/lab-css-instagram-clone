@@ -7,4 +7,75 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: linear-gradient(to bottom, #1c5380 36%, white 0%);
+  height:100vh;
+
+}
+#todo{
+  position: relative;
+  height: 40%;
+  width: 100%;
+  margin: 13vh 30vh;
+}
+#logo{
+  position: absolute;
+  top: 0vh;
+  left: 55vh;
+  width: 80vh;
+}
+#logo button{
+  position: absolute;
+  top:4vh;
+  right:8vh;
+  width: 14vh; 
+  height: 5vh;
+  color: white;
+  background:linear-gradient(to bottom, white .1%,#1c5380 100%);
+  border-color:#06365f;
+}
+#iphones{
+  position: absolute;
+}
+#textos{
+  position: absolute;
+  background-image: url(../images/frame.png);
+  background-size:cover;
+  height: 100%;
+  width: 80vh;
+  background-repeat: no-repeat;
+  left: 55vh;
+  top: 13vh;
+}
+#textos p{
+  position: absolute;
+  top: 20vh;
+  left: 5vh;
+  right: 10vh;
+  font-weight:1;
+}
+#textos h1{
+  position: absolute;
+  top: 2vh;
+  left: 5vh;
+  right: 10vh;
+  color: #06365f;
+}
+#ultimo{
+  position: absolute;
+  right: 85vh;
+  top:67vh;
+}
+footer{
+  position:absolute;
+  color:#1c5380;
+  left:55vh;
+  top:95vh;
+  word-spacing: 15px;
+  font-weight:1;
+}
+#copy{
+  position:absolute;
+  color:gray;
+  top:95vh;
+  left:130vh;
 }
