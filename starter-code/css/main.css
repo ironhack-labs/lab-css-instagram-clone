@@ -9,6 +9,30 @@ body {
   margin: 0;
  
 }
+.lg{
+  padding-top: 3px;
+  margin-left: 27px;
+  margin-top: 2px;
+
+}
+.home{
+  position: absolute;
+  left: 5px;
+  top: 6px;
+}
+.login{
+  position: absolute;
+  height: 40px;
+  width: 90px;
+  background: linear-gradient(to bottom, rgb(89, 141, 201) 0%, #50779a 100%);
+  left:910px;
+  top: 90px;
+  border: #385779 1px solid;
+  border-radius: 4px;
+  color: aliceblue;
+  text-align: center
+
+}
 p{
   margin-top: 0px;
 }
