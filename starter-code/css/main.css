@@ -27,9 +27,7 @@ light blue: #1c5380
   #brand {
     position: absolute;
     left: .4vw;
-    top: 1vw;
-    width: 300vw;
-    
+    top: 1vw; 
   }
 
   #home {
@@ -72,7 +70,7 @@ light blue: #1c5380
   #descarga {
     left: 3vw;
     top: 28.5vw;
-    width: 100vw;
+    width: 50vw;
     position: absolute;
   }  
 
@@ -89,6 +87,35 @@ light blue: #1c5380
     position: absolute;
     top: 0vh;
     left: 12vw;
+  }
+
+  footer {
+    position: absolute;
+    bottom: 2vw;
+    width: 50vw;
+    left: 21.5vw;
+  }
+
+  footer ul {
+    display: inline-block;
+  }
+  
+  footer li {
+    display: inline-block;
+    text-transform: uppercase;
+  }
+  
+  footer a {
+    text-decoration: none;
+    padding-left: 10px;
+    width: 100%;
+    font-weight: bold;
+    color: #547da1;
+  }
+
+  .copy {
+    padding-left: 30px;
+    color:#aaabac;
   }
 
   body {
