@@ -8,3 +8,86 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+#back-image{
+  position: absolute;
+  margin: 180px  600px;
+  width: 500px;
+  height: 500px;
+  background-repeat: no-repeat;
+  
+  background-image: url("../images/frame.png")
+}
+#log-in-button{
+  position: absolute;
+  color: white;
+  box-sizing: border-box;
+  padding-left: 35px;
+  padding-top: 5px;
+  margin: 125px  1000px;
+  width: 90px;
+  height: 35px;
+  border:  #315a7a 1px solid;
+  border-radius: 5px;
+  background-image: url("../images/bgtile.png")
+}
+#blue-square{
+  height: 250px;
+  background-color: #3f729b;
+}
+#phone{
+  position: relative;
+  width: 300px;
+  margin-left: 250px;
+  margin-top: 95px;
+  padding: 0;
+}
+#brand{
+  position: absolute;
+  margin-left: 600px;
+  margin-top: 100px;
+  padding: 0;
+}
+#log-in{
+  position: absolute;
+  margin-left: 1005px;
+  margin-top: 132px;
+  padding: 0;
+}
+#h1-cpture{
+  position: relative;
+  margin-top: 30px;
+  margin-left: 30px;
+  font-size: 25px;
+  color:  #3f729b;
+}
+p{
+  color: #696969;
+  position: relative;
+  font-size: 15;
+  margin: 25px;
+}
+#iphone{
+  position: relative;
+  margin-left: 625px;
+  margin-right: 25px;
+  margin-top: 250px;
+  padding: 0;
+}
+footer{
+  position: absolute;
+  text-align: center;
+  margin-top: 100px;
+  margin-left: 400px;
+}
+span{
+  font-weight: bold;
+  color: #3f729b;
+  margin: 5px;
+}
+#copy-right{
+  color: darkgrey;
+}
+a{
+  color: #3f729b;
+  text-decoration: none;
+}
