@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 /*
 Colors to use:
 dark blue: #06365f
@@ -7,4 +13,125 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+/* 
+.background {
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat;
+  height: 30vh;
+}  */
+
+.container {
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+  height: 100vh;
+  padding-top: 50px;
+}
+
+.flex-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 80vh;
+} 
+
+.content-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.image-column-wrapper {
+  margin-right: 50px;
+}
+
+.content-column-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-basis: 35%;
+}
+
+.content-row-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 3px 15px 3px;
+}
+
+button {
+  height: 40px;
+  padding: 0 5px;
+  margin-right: 5px; 
+  text-align: center;
+  border-radius: 5%;
+  border: 1px solid #1c5380;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(#6c9fc9, #1c5380);
+}
+
+button > span {
+  margin: 10px;
+  color: white;
+  font-weight: bold;
+}
+
+.content-row-2 {
+  background-image: url("../images/frame.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+.content-row-2 span {
+  font-weight: bold;
+}
+
+.content-row-2 h1 {
+  font-size: 1.8em;
+  font-weight: bold;
+  color: #06365f;
+  width: 90%;
+}
+
+.content-row-2 p {
+  font-size: .8em;
+  margin: 10px 0;
+}
+
+.download-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: 30px 0;
+}
+
+.download-buttons img {
+  margin-right: 20px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #06365f;
+  margin: 10px;
+}
+
+.footer > * {
+  margin: 10px;
+}
+
+.footer :last-child {
+  color: lightslategray;
 }
