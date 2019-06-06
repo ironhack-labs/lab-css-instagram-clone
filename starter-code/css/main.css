@@ -5,6 +5,89 @@ light blue: #1c5380
 */
 
 body {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height:100%;
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+#the-blue-one {
+  position: absolute;
+  top:0;
+  left:0;
+  height: 40%;
+  width: 100%;
+
+  background-color: #50769A;
+}
+
+
+
+
+#middle-part {
+  position: relative;
+  margin: 100px;
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-evenly;
+}
+
+#brand-login {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#login {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 150px;
+  height: 30px;
+}
+
+
+#text-content {
+  width: 500px;
+  height: auto; 
+
+}
+
+#white-bg {
+  padding: 15px;
+  width: 500px;
+  height: auto; 
+  background-image: url(/starter-code/images/frame.png);
+  background-size:cover;
+
+}
+
+div#download-cta>a:nth-child(1) {
+  margin: 0 15px 0 0;
+}
+
+
+
+/* FOOTER Links */
+
+footer>ul {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+ list-style-type: none;
+}
+
+footer>ul>li {
+  margin: 0 30px 40px 0;
+
 }
