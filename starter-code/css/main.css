@@ -3,8 +3,55 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+#bigcontainer {
+position: relative;
+}
+
+#rightcontainer {
+  width: 45vw;
+  height: 65vh;
+  position: absolute;
+  top: 18vh;
+  right: 18vw;
+  border: 1px solid black
+
+}
+
+#fondoazul {
+  background: #4d7598;
+  height: 45vh;
+  width: 100vw;
+
+}
+
+#brand {
+  position: absolute;
+  left: 2vw;
+  top: 1vw;
+  width: 300vw;
+  
+}
+
+#frame {
+  left: 2vw;
+  top: 8vw;
+  position: relative;
+  border: 1px solid green;
+}
+
+#mensaje {
+
+  width: 45vw;
+  left: 2vw;
+  top: 12vw;
+  position: absolute;
+ 
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+
+
 }
+
