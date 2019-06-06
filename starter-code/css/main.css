@@ -8,3 +8,85 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.cuadro-de-texto {
+  background-image: url("../images/frame.png");
+  background-size: cover;
+  position: absolute;
+  left: 29%;
+  bottom: 35%;
+  width: 500px;
+  padding-top: 20px;
+  padding-left: 35px;
+  padding-right: 40px;
+}
+
+h2 {
+  color: #06365f;
+}
+
+.link-btn {
+background-color:#658AAB;
+border: 2px solid #02195733;
+color:#E3E9EF;
+font-size: 1.4em;
+letter-spacing: 0.5px;
+padding: 10px 10px;
+text-decoration: none;
+width: 120px;
+border-radius: 4px;
+float:right;
+margin-top: 120px;
+margin-right: 400px;
+box-shadow:-2px -2px 2px #06365f, 2px 2px #06365f;;
+}
+
+.instagram {
+  margin-top: 120px;
+  width: 350px;
+  margin-left: 538px;
+}
+
+.f-bar-li {
+  float: left;
+  text-align: center;
+}
+
+.f-bar-item {
+  text-decoration: none;
+  color: #06365f;
+}
+
+.f-bar-ul {
+  padding-left: 40px;
+  padding-right: 40px;
+  list-style-type: none;
+}
+
+footer {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  position: absolute;
+  bottom: 20%;
+  left: 20%;
+}
+
+header {
+  background-color: #4E7699;
+  height: 300px;
+}
+
+.phones {
+  position: absolute;
+  bottom: 35%;
+  left: 10%;
+}
+
+.info {
+  position: absolute;
+  left: 400px;
+}
+
+footer li {
+  margin-left: 20px;
+}
