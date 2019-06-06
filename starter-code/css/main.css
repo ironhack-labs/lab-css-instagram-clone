@@ -4,7 +4,98 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url("/starter-code/images/bgtile.png");
+  background-repeat: repeat-x; 
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 5rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  background-color: #1c5380;
+  height: 3rem;
+  border: 1px solid #06365f;
+  border-radius: 10%;
+  
+}
+
+span {
+  position: relative;
+  bottom: 5px;
+  left: 3px;
+}
+
+button [href] {
+  text-decoration: none;
+  color: lightblue;
+  font-size: 1rem;
+  padding: 5px;
+  text-shadow: 1px 1px 2px #06365f;
+}
+
+.input{
+  background-image: url("/starter-code/images/home.png");
+}
+
+.box {
+  margin: 2rem;
+}
+
+.capture-text {
+  background-image: url("/starter-code/images/frame.png");
+  background-size: 100% 100%;
+  padding: 4rem;
+  text-align: left;
+}
+
+.capture-text h1 {
+  color: #06365f;
+  padding-right: 13rem;
+}
+
+.capture-text p {
+  font-size: 1.2rem;
+}
+
+.badges {
+  margin: auto 10%;
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  margin: 3rem 20%;
+  font-weight: bold;
+}
+
+.footer:last-child {
+  color: grey;
+ 
+}
+
+li {
+  list-style: none;
+}
+.list-item {
+  text-decoration: none;
+  color: #1c5380;
 }
