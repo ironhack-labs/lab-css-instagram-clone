@@ -44,10 +44,8 @@ div{
 }
 #cel{
   position: absolute;
-  width: 250px;
-
-  left: 200px;
-    top: 100px;
+  left:110px;
+  top: 100px;
 }
 #logo{
   position: absolute;
