@@ -17,57 +17,56 @@ h1{
   font-family:  Helvetica;
   font-size: 20px;
   color: #1c5380;
-  margin-left: 35px;
+  margin-left: 40px;
   margin-top: 25px;
 }
 nav{
-  margin-top: 50% ;
-  margin-bottom: 10px;
+  margin-top: 400px;
   text-align: center;
   color: #1c5380;
   font-size: 10px;
+  
 }
 .i-p{
-  width: 250px;
-  position:relative;
+  width: 260px;
   float: left;
   margin-top: 70px;
-  margin-left: 25px;
- 
+  margin-left: 150px;
 }
 .container{
+  
    background: url(https://github.com/ironhack-labs/lab-css-instagram-clone/blob/master/starter-code/images/frame.png?raw=true) 0 0 no-repeat ;
- 
+ position: relative;
   width: 52%;
   float: left;
   margin-top: 10px;
-  margin-left: 25px;
+  margin-left: 100px;
+ 
 }
 .i-f{
-   font-size: 0.8em;
-  margin: 10px auto;
+   font-size: 0.9em;
+  margin-right: 130px ;
   text-align: center;
-  padding-top: 5px;
-  padding-left: 29px;
-  padding-right: 29px;
+  padding-top: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
    text-align: justify;
   font-family: Arial;
-  line-height: 1.3em;
+  line-height: 1.4em;
   
 }
 
 
 .i-l{
   width: 230px;
-  position:relative;
-  float: right;
+  float: left;
   margin-top: 85px;
-  margin-right:230px;
+  margin-left: 100px;
 }
 .i-ios{
   width: 140px;
   margin-top: 15px;
-  margin-left: 25px; 
+  margin-left: 35px; 
   
   
 }
@@ -78,16 +77,16 @@ nav{
 }
  
 #text{
-  position: absolute;
   color: white;
   font-size: 10px;
   text-align: center;
   padding-right: 14px;
   padding-bottom: 10px;
   padding-top: 5px;
-  padding-left: 14px;
-  right: 70px;
+  padding-left: 14px; 
   margin-top: 90px;
+  margin-left: 178px;
+  float: left;
   background-color:#3F729B; 
    border: 1px solid #272727;
   border-radius: 2px;
