@@ -3,8 +3,85 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+* {
+  box-sizing: border-box;
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  
 }
+
+h1 {
+  color: #06365f;
+
+}
+
+#heading {
+  padding-top: 5%;
+  padding-bottom: 10%;
+  background:#1c5380;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#insta {
+  margin-left: 39.5%;
+}
+
+#button {
+  color: white;
+  float: right;
+  background-color: #658AAB;
+  background-image: linear-gradient(#658AAB, #316ca0e1);
+  padding: 10px 10px;
+  border-radius: 4px;
+  margin-right: 15%;
+  font-weight: bold;
+}
+
+#button a {
+  text-decoration: none;
+  color: white;
+}
+
+#phone {
+  position: absolute;
+  left: 10%;
+  bottom: 20%;
+}
+
+#content {
+  background: white;
+  width: 45%;
+  box-shadow: -2px -2px 2px #ccc, 2px 0px 2px #ccc;
+  position: absolute;
+  left: 40%;
+  bottom: 10%;
+  
+  padding: 3%;
+  border-radius: 4px;
+}
+
+#footer {
+  left: 25%;
+  position: fixed;
+  bottom: 0;
+}
+
+#apple {
+  margin-right: 10px;
+}
+
+#footer a {
+   color: #06365f;
+   margin: 10px;
+   font-weight: 400;
+   text-decoration: none;
+  
+ }
+
+ #copy {
+   color: gray;
+ }
