@@ -6,5 +6,134 @@ light blue: #1c5380
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: sans-serif;
   margin: 0;
+}
+
+.bg-image {
+  background-image: url('../images/bgtile.png');
+  height: 40vh;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  height: 100vh;
+  position: relative;
+}
+
+.content {
+  height: 65vh;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.phones {
+  float: left;
+  height: 100%;
+}
+
+.phones img {
+  height: inherit;
+}
+
+.description-container {
+  width: 55%;
+  margin-left: 5%;
+  height: calc(100% - 15px);
+  float: left;
+  padding-top: 15px;
+}
+
+.log-in {
+  width: 100%;
+  float: left;
+  position: relative;
+  height: 70px;
+}
+
+.log-in a {
+  background: #6c90af;
+  border-radius: 3px;
+  color: white;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  border: 1px solid #305c84;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+.log-in a img {
+  vertical-align: middle;
+}
+
+.description {
+  float: left;
+  position: relative;
+  width: 100%;
+  margin-top: 18px;
+}
+
+.description-text {
+  position: absolute;
+  top: 0;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 30px;
+}
+
+.description-text p {
+  font-size: 14px;
+}
+
+.description h1 {
+  color: #06365f;
+  margin: 0;
+  font-size: 24px;
+  padding-right: 115px;
+}
+
+.description img {
+  width: inherit;
+}
+
+.badges {
+  padding-left: 40px;
+  bottom: 0;
+  position: absolute;
+}
+
+.links {
+  float: left;
+  width: 100%;
+  position: absolute;
+  bottom: 5%;
+}
+
+.links ul {
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+}
+
+.links li {
+  display: inline;
+  text-transform: uppercase;
+  padding: 0 5px;
+}
+
+.links li a {
+  color: #1c5380;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.copy {
+  font-size: 12px;
+  color: #a4a4a5;
+  font-weight: bold;
 }
