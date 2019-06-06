@@ -4,54 +4,96 @@ dark blue: #06365f
 light blue: #1c5380
 */
 #bigcontainer {
-position: relative;
-}
-
-#rightcontainer {
-  width: 45vw;
-  height: 65vh;
-  position: absolute;
-  top: 18vh;
-  right: 18vw;
-  border: 1px solid black
-
-}
-
-#fondoazul {
-  background: #4d7598;
-  height: 45vh;
-  width: 100vw;
-
-}
-
-#brand {
-  position: absolute;
-  left: 2vw;
-  top: 1vw;
-  width: 300vw;
-  
-}
-
-#frame {
-  left: 2vw;
-  top: 8vw;
   position: relative;
-  border: 1px solid green;
-}
+  }
+  
+  #rightcontainer {
+    width: 45vw;
+    height: 70vh;
+    position: absolute;
+    top: 12.5vh;
+    right: 10vw;
+    border: 1px solid black
+  
+  }
+  
+  #fondoazul {
+    background: #4d7598;
+    height: 37vh;
+    width: 100vw;
+  
+  }
+  
+  #brand {
+    position: absolute;
+    left: .4vw;
+    top: 1vw;
+    width: 300vw;
+    
+  }
 
-#mensaje {
+  #home {
+    float: right;
+    width: 5vw;
+    left: 24vw;
+    top: 1vw;
+    padding: 10px;
+    background-image: linear-gradient(to bottom, #678cac, #3d6486);
+    color: white;
+    box-shadow: 2px 2px 10px 0 #456c8d;
+    border-radius: 3px;
+    position: absolute;
+  }
+  
+  #frame {
+    left: 0vw;
+    top: 6.5vw;
+    position: relative;
+    border: 1px solid green;
+    height: 55vh;
+    width: 30vw;
+  }
+  
+  #mensaje {
+  
+    width: 27vw;
+    left: 3vw;
+    top: 7.8vw;
+    position: absolute;
+    font: 200 16px/1.5 "sans-serif"
+   
+  }
 
-  width: 45vw;
-  left: 2vw;
-  top: 12vw;
-  position: absolute;
- 
-}
+  #mensaje h1 {
+    font-size: 30px;
+    color: #0d365c;
+  }
 
-body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  #descarga {
+    left: 3vw;
+    top: 28.5vw;
+    width: 100vw;
+    position: absolute;
+  }  
 
+  #leftcontainer {
+    width: 45vw;
+    height: 70vh;
+    position: absolute;
+    top: 12.5vh;
+    left: 10vw;
+    border: 1px solid grey
+  }
 
-}
+  #telefono {
+    position: absolute;
+    top: 0vh;
+    left: 12vw;
+  }
 
+  body {
+    font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+  
+  
+  }
