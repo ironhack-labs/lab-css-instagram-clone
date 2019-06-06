@@ -3,8 +3,100 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
+header{
+  background: #1c5380;
+  height: 250px;
+  position: relative;
+}
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: white;
+  
+}
+.container{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  
+}
+.container-phone{
+  position: absolute; top:-180px;
+  margin-left: 300px;
+
+}
+.container-text{
+  width: 500px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 9px 0px #868686;
+  position: absolute; top:-50px;
+  margin-left: 700px;
+  background: white;
+}
+.capture{
+  margin-left: 20px;
+  margin-top:20px;
+  padding-right: 30px;
+}
+.capture p{
+  font-weight: bold;
+  color:#06365f;
+  font-size: 20px;
+  margin-top: 3px;
+  margin-bottom: 0;
+}
+.info{
+  margin-left: 20px;
+}
+.images{
+  margin-bottom: 20px
+}
+.images img{
+  margin-left: 20px;
+}
+
+.footer-div{
+  width: 100%;
+  padding-top: 400px;
+  position: absolute;
+  color:#06365f;
+  text-align: center;
+  font-weight: bold;
+}
+.footer-div a{
+  color:#1c5380;
+  text-decoration: none;
+}
+.logo{
+  position: absolute;
+  margin-left: 700px;
+  margin-top: 100px;
+}
+.login{
+  position: absolute;
+  width: 100px;
+  height: 50px;
+  margin-left: 1100px;
+  margin-top: 110px;
+  box-sizing: border-box;
+  padding: 5px 5px 5px 5px;
+  background: #1c5380;
+  border-radius: 4px;
+  border: 0.5px solid #06365f;
+  box-shadow: 0px 0px 3px 0px #06365f;
+}
+.login a{
+  color:white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 15px;
+  margin-left: 35px;
+  margin-top: 10px;
+  position: absolute;
+}
+.login img{
+ padding-top:10px;
+ padding-right: 5px;
+ position: absolute;
+  
 }
