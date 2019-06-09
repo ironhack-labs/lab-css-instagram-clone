@@ -5,6 +5,77 @@ light blue: #1c5380
 */
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  font: 200 16px/1.5 "open-sans", Helvetica, Arial, sans-serif;
+  padding: 100px 280px; 
+  background: #1e5799;
+  background: linear-gradient(to bottom, #1e5799 43%,#ffffff 43%,#ffffff 46%)
+}
+
+header {
+  background-repeat : no-repeat;
+  overflow : auto;
+}
+
+.photo {
+  float :left; 
+  margin : 10px;
+}
+
+.homeButton {
+  background-image : url(../images/home.png);
+  background-color : #1c5380;
+  background-repeat: no-repeat;
+  border : 2px solid #06365f; 
+  padding : 20px;
+  margin : 20px;
+  float : right;
+  width : auto;
+  height :1px;
+  text-align : center;
+  color : white;
+  text-decoration : none;
+  border-radius : 5px;
+
+}
+
+.grosBloc {
+  float : left;
+  margin : 10px;
+  padding : 15px; 
+  border : 100px;
+
+}
+
+.fondTexte {
+  border : 2px solid grey;
+  padding : 15px;
+  background-color : white;
+  border-radius : 10px;
+
+}
+
+.titreBloc{
+  color : #06365f;
+}
+
+.trait {
+  text-decoration : none;
+}
+
+footer {
+  text-align : center ;
+  float : right;
+  margin : 20px 80px;
+  font-size : 10px;
+  text-decoration : none;
+  color : #1c5380;
+}
+
+.footerEnd {
+  text-align : center ;
+  float : right;
+  margin : 10px 70px;
+  font-size : 16px;
+  text-decoration : none;
+  color : #1c5380;
 }
