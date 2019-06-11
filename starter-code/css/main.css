@@ -8,3 +8,75 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.content {
+  float: right;
+}
+
+.top {
+  background-image: linear-gradient(#5f95c2, #357db8);
+  height: 340px;
+}
+
+.logo-login-bar {
+  position: absolute;
+  top: 150px;
+  right: 135px;
+  width: 538px;
+}
+
+.login-button {
+  color: white;
+  background-image: linear-gradient(#5f95c2, #357db8);
+  float: right;
+  line-height: 65px;
+  position: relative;
+  top: 11px;
+  right: 0px;
+  height: 58px;
+  width: 90px;
+  padding: 0 0 0 17px;
+  border: 2px solid #1c5380;
+}
+
+.bottom {
+  background-color: none;
+}
+
+.info-section {
+  position: relative;
+  bottom: 100px;
+  right: 125px;
+  float: right;
+  background-image: url(../images/frame.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 500px;
+  padding: 25px;
+}
+
+.info-header {
+  color: #06365f;
+  font-size: 20px;
+}
+
+.phone-image {
+  position: relative;
+  bottom: 250px;
+  left: 300px;
+  height: 500px;
+}
+
+.footer {
+  text-align: center;
+  position: relative;
+  bottom: 100px;
+  text-transform: uppercase;
+}
+
+.links {
+  margin: 5px;
+  font-weight: bolder;
+  text-decoration: none;
+  color: #1c5380;
+}
