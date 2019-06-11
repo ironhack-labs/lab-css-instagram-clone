@@ -21,7 +21,7 @@ body {
 
 .main-content {
   display: flex;
-  justify-content:center;
+  justify-content: center;
   align-items: center;
   margin-top: 8%;
 }
@@ -92,46 +92,43 @@ p {
   list-style: none;
   margin-right: 3%;
   text-transform: uppercase;
-  font-weight: 800; 
+  font-weight: 800;
 }
 .list-footer a {
   text-decoration: none;
   color: #1c5380;
 }
 
-.footer span{
+.footer span {
   color: lightgrey;
   text-transform: uppercase;
   font-weight: 800;
 }
 
-@media (max-width:1440px) and (min-width: 1025px){
-  body{
+@media (max-width: 1440px) and (min-width: 1025px) {
+  body {
     background-size: 1.2px;
   }
-  
 }
-@media (max-width:1024px) and (min-width: 931px){
-
-  body{
+@media (max-width: 1024px) and (min-width: 931px) {
+  body {
     background-size: 1px;
     height: auto;
   }
-.list-footer {
-  width: 80vh;
-}
-}
-
-@media (max-width:930px)  and (min-width: 300px){
-
-  .main-content{
-    display: flex;
-  flex-direction: column-reverse;    
+  .list-footer {
+    width: 80vh;
   }
-  body{
+}
+
+@media (max-width: 930px) and (min-width: 300px) {
+  .main-content {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  body {
     background-size: 1px;
   }
-  .phone-img img{
+  .phone-img img {
     padding-top: 2%;
     height: 50vh;
   }
