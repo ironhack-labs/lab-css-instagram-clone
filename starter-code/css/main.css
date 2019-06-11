@@ -8,3 +8,93 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.blue-half {
+  background-color: #4D7599;
+  height: 40vh;
+  width: auto;
+}
+
+.logo {
+  padding: 12vh 23vh 0 69vh;
+}
+.login {
+  box-shadow: 0 0 5px 5px rgba(0,0,0,0.15);
+  position: relative;
+  bottom: 27px;
+  right: 42px;
+  border-radius: 3px;
+  color: white;
+
+}
+.login span {
+  position: relative;
+  bottom: 5px;
+}
+
+.gradient-bnt{
+  border:1px solid #7d99ca; 
+  border-radius: 3px;
+  font-size:12px;
+  padding: 7px 10px 7px 10px; 
+  text-decoration:none; 
+  display:inline-block;
+  text-shadow: -1px -1px 0 rgba(0,0,0,0.3);
+  font-weight:bold; 
+  color: #FFFFFF;
+  background-color: #A5B8DA; 
+  background-image: linear-gradient(to bottom, #A5B8DA, #7089B3);
+  filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#A5B8DA, endColorstr=#7089B3);
+}
+
+.big-phone {
+  position: relative;
+  margin-top: -200px;
+  margin-left: 8%;
+  height: 540px;
+}
+
+.info {
+  background: url(../images/frame.png) no-repeat;
+  background-size: contain;
+  width: 450px;
+  float: right;
+  padding: 10px 45px ;
+  position: relative;
+  bottom: 80px;
+  right: 480px;
+  
+}
+
+h1 {
+  color: #073358;
+  width: 55%;
+}
+
+.info img {
+  margin: 25px 0;
+}
+
+.info img:first-of-type {
+  margin-right: 25px;
+}
+
+footer {
+  margin-top: 80px;
+  margin-bottom: 50px;
+  margin-left: 100px;
+  text-align: center;
+  
+}
+footer a {
+  text-decoration: none;
+  color: #4D7599;
+  margin-left: 15px;
+  font-weight: 600;
+}
+
+.faded {
+  font-size: 14px;
+  color: grey;
+  margin-left: 30px;
+}
