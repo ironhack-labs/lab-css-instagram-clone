@@ -3,8 +3,97 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+#div-general{
+  background-image: linear-gradient(#1c5380 50%, white 50%);
+  display: flex;
+  height: 600px;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#div-right-side{
+  
+  height: 512px;
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+}
+#div-logo{
+  display: flex;
+  width:100%;
+  height: 16%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#btn-log-in{
+  background-color: #1c5380;
+  padding: 10px;
+  height: 60%;
+  width: 100px;
+  border: 1px solid  #06365f;
+  border-radius: 4px;
+  box-shadow: 0 0 1px 0.5px #06365f; 
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color:white;
+  font-weight: bold;
+}
+#text-content{
+  background-color: white;
+  border-radius: 7px;
+  box-shadow: 0 0 5px 1px gray;
+  height: 75%;
+
+  padding: 40px;
+}
+
+#text-content h2{
+  color: #06365f;
+  margin-bottom: 30px;
+}
+
+#text-content p{
+  line-height: 30px;
+  margin-bottom: 15px;
+}
+
+
+#buttons{
+  display: flex;
+  width: 70%;
+  justify-content: space-around;
+}
+.button-stores{
+  background-color: rgba(0,0,0,0);
+  border: none;
+}
+
+#div-list li{
+  display: inline;
+  padding: 10px;
+  color: #06365f;
+  font-weight: bold;
+}
+
+#div-list span{
+  color: grey;
+}
+
+#div-list{
+  display: flex;
+  justify-content: center;
 }
