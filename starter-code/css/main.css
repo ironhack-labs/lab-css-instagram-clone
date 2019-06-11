@@ -1,10 +1,95 @@
+
+* {
+  margin: 0;
+}
+
+body {
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;
+}
+
+.bigger-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-side {
+  width: 60%;
+}
+
+button {
+  background-color: #1c5380;
+  color: #e8ecf0;
+  border: lightblue;
+  border-width: 2px;
+  font-weight: bolder;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 89px;
+  height: 38px;
+  border-radius: 6px; 
+  font-size: 14px;
+}
+
+.outer-div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 70%;
+  margin-top: 100px;
+}
+
+.box-on-the-right {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+h1 {
+  color: #06365f;
+  margin-bottom: 8px;
+}
+
+a {
+  text-decoration: none;
+  color: #06365f;
+  text-transform: uppercase;
+}
+
+.box-on-the-right > p {
+  padding: 10px;
+}
+
+.icon-collection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer > ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 32px;
+}
+
+footer > ul > li {
+  padding: 10px;
+}
+
+.download-logos {
+  margin-left: 24px;
+}
+
+.img-padding {
+  padding-left: 18px;
+}
+
 /*
 Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
-body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
-}
