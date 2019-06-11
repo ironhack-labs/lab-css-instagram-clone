@@ -7,4 +7,90 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url('../images/bgtile.png');
+  background-repeat: repeat-x;
+  background-position: 0 0;
+}
+
+.main {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+}
+
+.phones {
+  width: 40%;
+  display: flex;
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #06365f;
+  width: 50%;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 20%;
+  padding-top: 20px;
+  width: 81%;
+}
+
+.home-btn {
+  color: white;
+  font-weight: 900;
+  background-image: linear-gradient(#6c90af, #39668e);
+  display: flex;
+  align-items: center;
+  border: 0px;
+  box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.4);
+  height: 35px;
+  width: 85px;
+  justify-content: space-around;
+}
+
+.description {
+  background-image: url('../images/frame.png');
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  padding-left: 30px;
+}
+
+.description p {
+  width: 70%;
+}
+
+.stores span {
+  padding-right: 25px;
+}
+
+.footer {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 900;
+}
+
+.footer ul li {
+  list-style: none;
+  display: inline;
+  padding-left: 20px;
+  color: #1c5380;
+}
+
+.footer span {
+  color: #b5b6b7;
+  padding-left: 60px;
 }
