@@ -8,3 +8,76 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+header {
+  background-color: #06365f;
+  height: 340px;
+}
+
+button {
+  background-color: #1c5380;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  display: flex;
+  align-items: center;
+}
+
+button > img {
+  margin-right: 10px;
+}
+
+h2 {
+  color: #06365f;
+  width: 250px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+li {
+  font-size: 14px;
+  color: #1c5380;
+  font-weight: 700;
+}
+
+.copyright-li {
+  color: gray;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  margin-top: -200px;
+}
+
+.ig-info-container {
+  width: 40%;
+  margin-left: 45px;
+}
+
+.ig-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ig-text-container {
+  background-image: url('../images/frame.png');
+  background-size: cover;
+  padding: 20px 55px;
+}
+
+.android-img-store {
+  margin-left: 15px;
+}
+
+footer {
+  margin: 60px 0;
+}
