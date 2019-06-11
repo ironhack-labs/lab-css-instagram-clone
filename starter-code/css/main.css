@@ -7,4 +7,146 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;
+  background-size: 1.5px;
+}
+
+header {
+  height: 500px;
+  background-image: url(../images/bgtile.png);
+}
+.celular {
+  height: 70vh;
+}
+
+section {
+  margin-top: 150px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.masterright {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+.right1{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-right: 20px;
+  
+}
+
+.frame {
+  padding: 20px 40px;
+  display: flex;
+  flex-wrap: wrap;  
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  font-size: 25px;
+}
+  
+.right2{
+  display: flex;
+}
+
+
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1em;
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat;
+  height: 50px;
+  width: 150px;
+  color: white;
+  border-radius: 5px;
+  font-size: 20px;
+  box-shadow: #1c5380;
+  border-color: #1c5380;
+}
+
+button img{
+  margin-right: 5px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+
+footer a {
+  color: #1c5380;
+  text-decoration: none;
+}
+
+footer p {
+  margin-left: 10px;
+  color: gray;
+}
+@media (min-width: 650px) and (max-width: 999px) {
+  section {
+    flex-direction: column;
+  }
+  .celular {
+    height: 50vh;
+  }
+  .masterright {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+  }
+  .right2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1400px) {
+  section {
+    flex-direction: column;
+  }
+  .celular {
+    height: 100vh;
+  }
+  .masterright {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+  }
+  .right2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (min-width: 1400px) and (max-width: 1800px) {
+  section {
+    margin-top: 200px;
+  }
+  .celular {
+    height: 100vh;
+  }
+  .masterright {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+  }
+  .right2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
