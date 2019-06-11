@@ -55,6 +55,7 @@ body {
   position: absolute;
   top: 190px;
   left: 700px;
+
 }
 
 .loginButton{
@@ -62,9 +63,18 @@ body {
   position: relative;
   top: -25px;
   left: 50px;
-  height: 40px;
+  height: 30px;
+  background: linear-gradient(0deg, #41739B 50%, #6993B3 100%);
+  border: solid 1px #6993B3;
 
-  background-color: #426B8F;
+
+  /*background-color: #426B8F;*/
+
+}
+
+.home{
+  position: relative;
+  top: 5px;
 
 }
 
