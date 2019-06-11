@@ -8,3 +8,91 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.frame{
+  /*background-color: black;*/
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 284px;
+  width: 504px;
+  position: absolute;
+  top: 290px;
+  left: 700px;
+}
+
+.whitebox{
+  height: 400px;
+  background-color: white;
+}
+
+.bluebox{
+  height: 350px;
+  background-color: #3D6488;
+}
+
+
+.whitebox h1{
+  width: 250px;
+  color: #1D4466;
+}
+
+.info{
+  padding-left: 50px;
+}
+
+.downloadButtons{
+  margin-right: 25px;
+  float: left;
+}
+
+.iphoneDownloadButton{
+  float: left;
+  margin-right: 25px;
+}
+
+.brandLogoLogin{
+  position: absolute;
+  top: 190px;
+  left: 700px;
+}
+
+.loginButton{
+  color: white;
+  position: relative;
+  top: -25px;
+  left: 50px;
+  height: 40px;
+
+  background-color: #426B8F;
+
+}
+
+.phones{
+  position: absolute;
+  top: 175px;
+  left: 340px;
+}
+
+.footerSection{
+  margin-left: 300px;
+}
+
+.footerTabs{
+  list-style: none;
+  /*display: inline-block;*/
+}
+
+.footerTabs li{
+  color: #426B8F;
+  float: left;
+  margin: 20px 20px;
+}
+
+.urlImg{
+  position: absolute;
+  background-repeat: no-repeat;
+  background-image: url("../images/urlheader.png");
+  width: 100%;
+  height: 81px;
+}
