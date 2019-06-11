@@ -5,6 +5,116 @@ light blue: #1c5380
 */
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+	font: 200 16px/1.5 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	margin: 0;
+}
+
+.top-div {
+	width: 100%;
+	background-image: linear-gradient(to bottom, #1c5380, #06365f);
+	height: 200px;
+	padding-top: 60px;
+}
+
+.top-div-nav {
+	float: right;
+	margin-right: 20%;
+	margin-top: 50px;
+}
+.top-div-nav-element {
+	display: inline-block;
+}
+
+.top-div-nav-element.logo {
+	height: 65px;
+	margin-bottom: -20px;
+	margin-right: 50px;
+}
+.log-button {
+	border-radius: 2px;
+	color: white;
+	background-color: #1c5380;
+	width: 85px;
+	padding-left: 35px;
+	line-height: 40px;
+	position: relative;
+	border: none;
+}
+
+.log-button > img {
+	position: absolute;
+	left: 10px;
+	top: 10px;
+}
+
+.bottom-content {
+	width: 70%;
+	height: 60vh;
+	margin: 0 auto;
+	margin-top: -160px;
+	margin-bottom: 30px;
+}
+.phones {
+	float: left;
+	margin-bottom: 15px;
+}
+.description {
+	background-color: white;
+	float: left;
+	margin-top: 15px;
+	margin-left: 50px;
+	margin-bottom: 25px;
+	width: 50%;
+	border-top-right-radius: 8px;
+	border-top-left-radius: 8px;
+	box-shadow: 5px 0 5px -5px rgba(31, 73, 125, 0.2),
+		-5px 0 5px -5px rgba(31, 73, 125, 0.2);
+	/* box-shadow: 12px 0 15px -4px rgba(31, 73, 125, 0.2),
+		-12px 0 15px -4px rgba(31, 73, 125, 0.2); */
+	/* box-shadow: 4px 0 0.25px rgba(31, 73, 125, 0.2), */
+	/* -4px 0 0.25px rgba(121, 121, 121, 0.2); */
+	padding: 5px 40px 0px 40px;
+}
+
+.description h2 {
+	color: #1c5380;
+	font-size: 30px;
+	width: 350px;
+	margin-bottom: 0;
+}
+
+.stores {
+	width: 115%;
+	text-align: center;
+	background-color: white;
+	position: relative;
+	bottom: -13px;
+	left: -7.5%;
+}
+
+.app-store,
+.google-play-store {
+	display: inline-block;
+}
+
+.footer {
+	clear: both;
+	width: 80%;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 30px auto;
+}
+
+.footer > ul > li {
+	display: inline;
+}
+
+.footer-nav-item {
+	color: #1c5380;
+	font-weight: 800;
+}
+
+.footer-nav-item.copyright {
+	color: grey;
+	margin-left: 20px;
 }
