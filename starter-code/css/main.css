@@ -1,10 +1,225 @@
-/*
+  /*
 Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
 
-body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
-}
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html,
+  body {
+    height: 100%;
+  }
+
+  body {
+    font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+
+
+  .header-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url('../images/bgtile.png');
+    height: 40%;
+    width: 100%;
+    z-index: -1;
+  }
+
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 12%;
+  }
+
+  .content-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+  }
+
+  .main-content {
+    width: 40%;
+  }
+
+  .content-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 5px;
+  }
+
+  .content {
+    background: url('../images/frame.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    margin-top: 2rem;
+    width: 100%;
+  }
+
+  .content h1 {
+    color: #1c5380;
+    font-weight: 900;
+    width: 75%;
+    line-height: 2rem;
+    font-size: 1.8rem;
+  }
+
+  .content p {
+    margin-top: 1.2rem;
+    font-size: .95rem;
+  }
+
+  .login-btn {
+    background: linear-gradient(rgba(255, 255, 255, .2), #1c5380);
+    border-radius: 3px;
+    padding: .5rem;
+    border: 1px solid #06365f;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-weight: 600;
+    flex-shrink: 1;
+  }
+
+  .logo {
+    width: 75%;
+    padding-right: 1.5rem;
+  }
+
+  .login-btn img {
+    width: 30%;
+  }
+
+  .login-text {
+    color: rgba(255, 255, 255, .7);
+    margin-left: .5rem;
+  }
+
+
+  .stores-btn {
+    display: flex;
+    margin-top: 2rem;
+  }
+
+  .stores-btn figure {
+    margin-right: 1rem;
+  }
+
+  footer {
+    text-transform: uppercase;
+    font-size: .8rem;
+    font-weight: 900;
+    margin: 1rem auto;
+    text-align: center;
+  }
+
+  footer ul,
+  footer ul li {
+    text-align: center;
+    display: inline;
+  }
+
+  footer ul li {
+    color: #1c5380;
+    margin: 0 .5rem;
+  }
+
+  .trendmark {
+    color: #a5a5a5;
+  }
+
+  @media (max-width: 1790px) {
+    main {
+      width: 100%;
+    }
+
+    .logo {
+      width: 50%
+    }
+  }
+
+  @media (max-width: 897px) {
+    .content-header {
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+    }
+
+    .login-btn {
+      margin-top: 1rem;
+    }
+
+    .logo {
+      width: 100%;
+      padding-right: 0
+    }
+
+    .stores-btn {
+      flex-direction: column;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .header-bg {
+      height: 100vh;
+      background: #1c5380;
+    }
+
+    main {
+      margin-top: 2rem;
+    }
+
+    .content-container {
+      flex-direction: column-reverse;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .main-content {
+      width: 100%;
+    }
+
+    .content {
+      background: none;
+      color: #fff;
+      align-items: center;
+      background: #1c5380;
+    }
+
+    .content p {
+      width: 100%;
+    }
+
+    .content h1 {
+      color: #fff;
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    .content-header {
+      padding: 0 2rem 1rem 2rem;
+      flex-direction: row;
+      justify-content: space-between;
+      border-bottom: 1px solid #fff;
+    }
+
+    .logo {
+      width: 50%;
+    }
+
+    .stores-btn {
+      flex-direction: row;
+      justify-content: center;
+    }
+  }
