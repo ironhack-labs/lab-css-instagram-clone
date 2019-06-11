@@ -4,7 +4,138 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
-body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body {
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+  background-size: 1.5px;
+}
+
+.main-content {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  margin-top: 8%;
+}
+.main-div {
+  margin-left: 1%;
+}
+.middle-content {
+  width: 65vh;
+  background-image: url("../images/frame.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 5% 5%;
+}
+.middle-content h2,
+p {
+  padding: 5% 5% 0 5%;
+}
+.middle-content h2 {
+  font-size: 1.7rem;
+  width: 35vh;
+  color: #06365f;
+}
+.top-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 3%;
+  padding: 2%;
+}
+.logo-img img {
+  width: 40vh;
+}
+.logIn {
+  width: 12vh;
+  height: 6vh;
+  background-image: linear-gradient(#678cac, #1c5380);
+  border: 1px solid #06365f;
+  border-radius: 0.4em;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-weight: 800;
+}
+.logIn img {
+  margin: 13%;
+}
+.phone-img img {
+  height: 70vh;
+  padding-right: 5vh;
+}
+.download-content {
+  width: 40vh;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+}
+.list-footer {
+  display: flex;
+  width: 50%;
+}
+.list-footer li {
+  font-size: 0.9em;
+  list-style: none;
+  margin-right: 3%;
+  text-transform: uppercase;
+  font-weight: 800; 
+}
+.list-footer a {
+  text-decoration: none;
+  color: #1c5380;
+}
+
+.footer span{
+  color: lightgrey;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+@media (max-width:1440px) and (min-width: 1025px){
+  body{
+    background-size: 1.2px;
+  }
+  
+}
+@media (max-width:1024px) and (min-width: 931px){
+
+  body{
+    background-size: 1px;
+    height: auto;
+  }
+.list-footer {
+  width: 80vh;
+}
+}
+
+@media (max-width:930px)  and (min-width: 300px){
+
+  .main-content{
+    display: flex;
+  flex-direction: column-reverse;    
+  }
+  body{
+    background-size: 1px;
+  }
+  .phone-img img{
+    padding-top: 2%;
+    height: 50vh;
+  }
+  .footer {
+    font-size: 0.9em;
+  }
 }
