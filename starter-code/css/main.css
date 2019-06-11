@@ -3,8 +3,110 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 10px;
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+.bg {
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat;
+  height: 50vh;
+  padding: 1px;
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 90px 0;
+}
+
+.content {
+  width: 45vw;
+  margin: 40px;
+}
+
+.content h2 {
+  font-size: 2.7rem;
+  color: #06365f;
+  margin-bottom: 25px;
+  max-width: 28vw;
+}
+
+.frame-bg {
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40vh;
+  padding: 30px;
+}
+
+.content p {
+  max-width: 100%;
+  font-size: 1.6rem;
+  padding-bottom: 20px;
+}
+
+.content p strong {
+  font-size: 1.6rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 8px;
+}
+
+.logo {
+  width: 115%;
+}
+
+.home-btn {
+  background: #2d6491;
+  border: 1px solid #06365f;
+  border-radius: 5%;
+  width: 110px;
+  height: 46px;
+  text-decoration: none;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 8px 6px;
+}
+
+.store-images {
+  margin-right: 15px;
+}
+
+/*FOOTER*/
+
+footer ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 30px 0;
+}
+
+footer ul li {
+  padding: 0px 12px;
+  list-style-type: none;
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #1c5380;
+}
+
+footer ul li:last-child {
+  color: #b6b6b6;
 }
