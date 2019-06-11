@@ -3,8 +3,94 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
 
 body {
+  font-family: "Raleway", sans-serif;
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+button {
+  border: none;
+  color: white;
+  float: right;
+  font-weight: bold;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.container {
+  margin: 5% 12%;
+}
+.container figure {
+  float: left;
+  max-width: 30%;
+}
+.container figure img {
+  margin-right: 5%;
+  max-width: 100%;
+}
+
+.content {
+  float: right;
+  width: 60%;
+}
+.content .header-content {
+  float: left;
+  margin-top: 40px;
+  width: 100%;
+}
+.content .header-content span.logo img {
+  height: 70px;
+}
+.content .header-content button.btn-app {
+  background: url(../images/home.png) left 10px center no-repeat,
+    linear-gradient(rgba(255, 255, 255, 0.3), #1c5380);
+  border: 1px solid #06365f;
+  border-radius: 5px;
+  margin-top: 13px;
+  padding: 10px 10px 10px 45px;
+}
+.content section {
+  background-image: white;
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  float: left;
+  padding: 5% 7% 2%;
+}
+.content h1 {
+  color: #06365f;
   margin: 0;
+}
+.content img.app {
+  margin: 0 3% 0 7%;
+}
+
+.footer {
+  margin-top: 5%;
+  text-align: center;
+}
+.footer ul li {
+  display: inline;
+  padding: 0 10px;
+  font-weight: bold;
+}
+.footer ul li:last-child {
+  color: gray;
+}
+.footer ul li a {
+  text-decoration: none;
 }
