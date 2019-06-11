@@ -1,10 +1,91 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
-
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+#container {
+  background-image: url("../images/bgtile.png");
+  background-size: 1px;
+  background-repeat: repeat-x;
+  display: flex;
+  justify-content: center;
+  margin: 0% 0% 10px 0%;
+  padding: 5% 0% 2% 0%;
+}
+
+#center {
+  width: 30px;
+}
+#telefones {
+  display: flex;
+  justify-content: center;
+}
+
+#lateral {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 25%;
+}
+
+#sub-lateral-div {
+  background-image: url("../images/frame.png");
+  background-size: 100% 100%;
+  padding: 0 5%;
+}
+
+#login {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10px 0;
+  background-color: transparent;
+}
+
+#login > button{
+  width: 120px;
+  height: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+  font-size: 16px;
+  background-color: #1c5380;
+  border: none;
+}
+
+#bodytext > h2 {
+  color: #06365f;
+}
+
+#download-div {
+  display: flex;
+  justify-content: space-evenly;
+  width: 400px;
+}
+  
+#download-div > button {
+  width: 120px;
+  height: 40px;
+  background-color: gray;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#footer {
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#footer > nav > ul > li {
+  display: inline-block;
+}
+
+#footer > nav > ul > li > a {
+  text-decoration: none;
+  color: #06365f;
+  display: inline-block;
 }
