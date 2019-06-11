@@ -3,8 +3,110 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
-body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:400,700&display=swap');
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Nunito Sans', sans-serif;
 }
+
+h1{
+  font-size: 1.8em;
+  line-height: 1.2em;
+}
+
+.bg-container {
+  background-image: linear-gradient(#3B688F,#06365f); 
+  height:42vh;
+}
+
+.double-column {
+  position:absolute;
+  width: fit-content;
+  top: 200px;
+  margin-left: 25%;
+  display: flex;
+  align-content: center;
+
+}
+
+.cellphone img {
+  height: 95%;
+}
+
+.content{
+  margin-left: 40px;
+}
+
+.logo-login{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 530px;
+  margin-left: 30px;
+}
+
+.login{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 110px;
+  height: 50px;
+  background-image: linear-gradient(#3B688F,#06365f);
+  border-radius: 3px;
+  color: white;
+  box-shadow: 0px 1px 5px 1px #06365f;
+}
+
+.login:hover{
+  background-image: linear-gradient(#06365f,#3B688F);
+}
+
+.about-app {
+  background-image: url(../images/frame.png);
+  background-size: 100%;
+  width: 540px;
+  background-repeat: no-repeat;
+  margin-left: 27px;
+  margin-top: 30px;
+  padding: 40px;
+}
+
+.about-app p {
+  line-height: 1.4em;
+  margin-top: 20px;
+  width: 430px;
+}
+
+.about-app h1 {
+  color:#06365f;
+}
+
+.downloads {
+  margin-top: 40px;
+}
+
+.footer{  
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-end;
+  height: 45vh;
+  color:#06365f;
+}
+
+.footer ul li{
+  display: inline-block;
+  padding: 10px;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.superli{
+  color:grey;
+  font-weight: 700;
+}
+
