@@ -8,3 +8,97 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.background {
+  background-image: url("../images/bgtile.png");
+  height: 300px; 
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: -150px;
+}
+
+.instagram-logo {
+  height: 90%;
+}
+
+.home-logo {
+  height: 20px;
+  margin: 5px;
+}
+.way-to-instagram {
+  width: 450px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5px;
+}
+
+.log-button {
+  border: 0.1px solid black;
+  background-color: rgba(0, 191, 255, 0.5); 
+  display: flex;
+  align-items: center;
+  color: #FFF;
+  font-weight: 80px;
+
+}
+
+.main-content {
+  margin: 30px;
+  display:flex;
+  flex-flow: column;
+  width: 430px;
+}
+
+.text-content {
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  background-size: 460px 460px;
+  width: 430px;
+  padding: 0 15px;
+}
+
+.button-store {
+  display:flex;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  align-content: space-between;
+  text-align: center;
+  justify-content: center;
+}
+
+li {
+  margin: 0 5px;
+}
+
+h1 {
+  width: 320px;
+  color: rgb(25, 22, 192); 
+  font-size: 30px;
+}
+
+.text-content p {
+  font-weight: 400;
+}
+
+.app-store-button {
+  margin-right: 20px;
+}
+
+.button-store {
+  padding: 7px 7px;
+}
+
+.footer-section { 
+  display:flex; 
+  justify-content: center;
+  align-items: 
+
+}
