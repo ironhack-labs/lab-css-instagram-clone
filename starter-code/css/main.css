@@ -1,10 +1,99 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
-
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* .white-background {
+  height: 500px;
+} */
+
+.blue-background {
+  background-color: #1c5380;
+  /* background-image: radial-gradient(circle, #1c5380, #06365f); */
+  height: 350px;
+}
+
+.blue-background .phones {
+  position: absolute;
+  width: 400px;
+  right: 60%;
+  top: 100px;
+}
+
+.instagram-logo {
+  position: absolute;
+  width: 25rem;
+  right: 28%;
+  top: 17%;
+}
+
+.login-btn {
+  position: absolute;
+  right: 12.6%;
+  top: 20%;
+  background-image: linear-gradient(#5a85a8, #1c5380);
+  border: 2px solid #144166;
+  color: #bed0df;
+  font-weight: 500;
+  font-size: 1.2rem;
+  line-height: 3rem;
+  padding: 0 1rem 0 .6rem;
+}
+
+.login-btn img {
+  width: 2rem;
+  margin: 0 .4rem -.4rem 0;
+}
+
+.white-background {
+  position: absolute;
+  right: 12%;
+  top: 250px;
+  width: 36%;
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 15px 4%;
+}
+
+footer p {
+  display: inline;
+  padding-left: 1rem;
+  color: #c9c9c9;
+}
+
+footer {
+  position: absolute;
+  bottom: -150px;
+  right: calc(50% - 23rem);
+  font-weight: 800;
+  font-size: .9rem;
+  padding-bottom: 1rem;
+  color: #5988b1;
+}
+
+footer a {
+  padding-right: 1rem;
+}
+
+.block h1 {
+  color: #06365f;
+  line-height: 2.5rem;
+  letter-spacing: .04rem;
+}
+
+.block p {
+  padding-top: .2rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.download-btn {
+  height: 65px;
+  margin: 1.5rem 1.4rem 0 0;
 }
