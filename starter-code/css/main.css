@@ -8,3 +8,101 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.login{
+  background-color:#1c5380;
+  height: 350px;
+}
+
+.login-button{
+  background-color:#1c5380;
+  border: solid 2px #06365f;
+  border-radius:3px;
+  float:right;
+  margin-top:18px;
+  margin-left: 5%;
+  color:white;
+  height:28%;
+  width:25%; 
+  padding:0;
+}
+
+.home{  
+position: absolute;
+top:160px;
+right:11%;
+width:35%;
+height:20%;
+}
+
+.phone-img{
+  position:absolute;
+  top:150px;
+  left:10%;
+  margin:0;
+}
+
+.insta-logo{
+  width:60%;
+  margin:1px;
+  padding:0 5px 0 0;
+}
+
+.home-img{
+  margin: 5% 10% 0 0;
+  padding:0;
+}
+
+.home p{
+  display: inline-block;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+.moments{
+ background-image: url(../images/frame.png);
+ background-size:contain;
+ background-repeat: no-repeat;
+ width:30%;
+ padding:40px;
+ position:absolute;
+ right:10%;
+ top:250px;
+ 
+}
+
+.store-img{
+ margin-top: 4%;
+}
+
+h1{
+  margin:0;
+  text-align: left;
+  color:#06365f;
+}
+.moments p {
+  text-align: left;
+  font-size: 0.9em;
+  font-weight: 300;
+}
+
+.information{
+  height:350px;
+}
+
+footer a{
+  text-decoration:none;
+  color:#1c5380;
+}
+footer{ 
+text-align: center;
+height:90px;
+font-size: 0.7em;
+font-weight: bold;
+margin: 5vh 0 0 0 ;
+}
+a{
+  margin:1vh;
+}
+
+
+
