@@ -8,3 +8,37 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.container {
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;
+  width: 100%;
+  float: left;
+}
+
+.wrapper {
+  background: red;
+  width: 1000px;
+  margin: 50px auto 0 auto;
+}
+
+.right {
+  background: green;
+  width: 500px;
+  float: right;
+  margin: 0px;
+}
+
+.left {
+  background: red;
+  width: 318px;
+  float: left;
+  margin: 0;
+}
+
+.bottom {
+  background: blue;
+  width: 100%;
+  float: left;
+  margin: 0;
+}
