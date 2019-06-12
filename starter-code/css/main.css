@@ -1,10 +1,106 @@
+/* main.css */
 /*
 Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+} 
+
+.header {
+  background-image: linear-gradient(#1c5380, #06365f);
+  height: 300px;
+  margin-bottom: 0;
 }
+
+
+.brand {
+    width: 317px;
+    height: 78px;
+    position: relative;
+    left: 45%;
+    margin-top: -183px;
+    
+    
+}
+
+
+.frame {
+  background-image: url("../images/frame.png");
+  font-size: 16px;
+  line-height: 1.5em;
+  text-align: left;
+  margin: 1px 1px;
+  position: absolute;
+  left: 45%;
+  bottom: 35%;
+  width: 504px;
+  height: 284px;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+#capture {
+  color: #1c5380;
+  line-height: 1em;
+}
+
+button {
+  border-radius: 4px;
+  background-color: #1c5380;
+  border-style: none;
+  padding: 5px 10px;
+  font-size: 16px;
+  color: white;
+  position: relative;
+  left: 1020px;
+  top: -60px;
+  border: solid 1px #06365f;
+  box-shadow: #06365f;
+
+}
+
+.phone {
+  position: relative;
+  margin-left: 250px;
+  /* left: 250px; */
+  top: -143px;
+}
+
+.line {
+  display: inline-block;
+  margin-left: 70px;
+}
+
+.frame p {
+  width: 402px;
+  margin-left: 40px;
+}
+
+.frame h1 {
+  width: 330px;
+  margin-left: 40px;
+  font-weight: 500;
+  margin-top: 35px;
+}
+
+.links a{
+  text-decoration: none;
+  color: #1c5380;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0 10px; 
+}
+
+.links {
+  position: relative;
+  left: 370px;
+  bottom: 50px;
+}
+
+
