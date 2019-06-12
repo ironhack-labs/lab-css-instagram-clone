@@ -8,3 +8,86 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.top-banner{
+  height: 400px;
+  background-color: #1c5380;
+}
+
+.button{
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 1px 1px #888888;
+ float: right;
+ margin-top:200px;
+ margin-right:200px;
+ background-color: #1c5380;
+ padding-top: 10px;
+ padding-bottom: 15px;
+ padding-left:10px;
+ color: white;
+ font-weight:bold;
+ font-size: 20px;
+ border-radius: 15px;
+}
+
+.brand-title{
+position: absolute;
+top:200px;
+right:400px;
+bottom:400px;
+
+ 
+}
+
+.main-content{
+background:url("../images/frame.png") no-repeat;
+background-size: cover;
+position:absolute;
+left:700px;
+top:300px; 
+}
+
+
+.text-content{
+  width:550px;
+  margin-left:17px;
+  
+}
+
+.phones{
+position: absolute;
+left:350px;
+bottom:10px;
+top:238px;
+}
+
+.title-content{
+  color: #06365f;
+  font-size: 40px;
+
+}
+
+.apps{
+ position: absolute;
+ top:675px;
+ left: 790px;
+ 
+  
+text-align:right;
+ 
+}
+.total-foot{
+
+  font-weight:bold;
+  padding-top: 400px;
+  bottom:200px;
+  text-align: center;
+}
+
+.foot{
+  color: #1c5380;
+}
+.foot-two{
+  color:grey;
+}
