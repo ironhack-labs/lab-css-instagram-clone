@@ -8,3 +8,65 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+.header{
+  background: #06365f;
+  height:250px;
+}
+.instagramLogo{
+  position:relative;
+  left: 40%;
+  top:60%;
+}
+.logIn{
+  position: relative;
+  left:45%;
+  top:50%;
+  width: 150px;
+  height:40px;
+  border: 2px;
+  background: lightblue;
+  font-size:20px;
+  
+}
+.houseIcon{
+  float:left;
+}
+.login{
+  width: 100px;
+  margin-left:20%;
+  position:relative;
+  bottom:10px;
+}
+.PhotoIphones {
+  display: inline-block;
+}
+.Square  {
+  text-align:left;
+  font-size: 12.5px; 
+  position:relative;
+  left:50px;
+}
+.frameImage{
+  display: inline-block; 
+  background-image:url("../images/frame.png");
+  width: 445px;
+  height: 250px;
+  padding : 25px 35px 15px 25px;
+
+}
+.wholeBlock{
+  margin-top: -150px;
+  margin-left:340px;
+  margin-right:280px;
+}
+footer{
+position:relative;
+width:1000px;
+left:18%;
+}
+footer ul li {
+  text-align:center;
+  list-style:none;
+  display:inline-block;
+  margin: 70px 30px;
+} 
