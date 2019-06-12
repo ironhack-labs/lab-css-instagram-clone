@@ -7,4 +7,99 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  padding: 0;
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+}
+.full-section{
+  display: flex;
+  flex-flow: wrap row;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.phone-image {
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 30%;
+}
+.phone-image img{
+  width: 100%;
+}
+.text-right-section {
+  display: flex;
+  flex-flow: wrap column;
+  width: 50%;
+}
+.login-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0;
+}
+.instagram-image {
+  width: 60%;
+  margin: 5% 0 0 0 ;
+}
+.instagram-image img{
+  width: 100%;
+}
+.login-button {
+  background-color: #1c5380;
+  background-image: url("../images/home.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  padding-left: 30px;
+  width: 15%;
+  margin-top: 20px;
+  align-self: center;
+  height: 40px;
+  border: 2px solid #06365f;
+  border-radius: 3px;
+  color: white;
+}
+
+.info-section{
+  background-color: white;
+  padding: 20px;
+}
+.info-section h2{
+  margin-top:0;
+  color: #06365f;
+}
+.separate-button{
+  margin-right: 5%;
+}
+.download-buttons{
+  margin-top: 15%;
+  display: flex;
+}
+.apple-icon {
+  background-image: url("../images/badge-iphone.png");
+  background-repeat: no-repeat;
+  background-position: left;  
+  padding:0;
+  border: none;
+  width: 25%;
+  height: 50px;
+}
+.google-icon {
+  background-image: url("../images/badge-android.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  padding:0;
+  width: 24%;
+  border: none;
+  height: 50px;
+}
+.footer-section {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  margin: 5% 20%;
+}
+.footer-section a{
+  text-decoration: none;
+  color: #06365f;
 }
