@@ -7,4 +7,69 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  
+}
+
+.instagram{
+  background-color: #06365f;
+  height: 300px; 
+}
+
+.images{
+  margin-top: 10%;
+  float: right;
+}
+.images2{
+  margin-right: 9%; 
+}
+
+.button {
+      border-style: solid;
+      border-color: #1c5380;
+      background: #1c5380;
+      color: #bbb7b7;
+      width: 10%;
+      float: right;
+      margin-top: 120px;
+      font-weight: bold;
+      font-size: 10px;
+      text-align: center;
+}
+
+.bothimages{
+margin-right: 25%;
+}
+
+.heading{
+  color: #06365f;
+}
+
+.iphone{
+  margin-top: -16%;
+  padding-left: 17%;
+}
+.frame{
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+    position: absolute;
+    margin-left: 45%;
+    margin-right: 15%;
+    padding: 40px;
+    top: 30%;
+}
+.paragraph{
+  
+  margin-right: 52px;
+}
+.footer{
+  text-align: center;
+  /* margin-bottom: 0px; */
+  margin-top: 100px;
+  padding-bottom: 50px;
+  word-spacing: 10px;
+  font-size: x-small;
+}
+.link{
+  text-decoration: none;
+  color: #1c5380
 }
