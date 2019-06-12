@@ -3,8 +3,121 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+*{
+  margin:0;
+}
 
-body {
+body{
+  background-color: white;
+}
+
+.container{
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+  width: auto;
+  height: 300px;
+  
+}
+
+.box2{
+  align-items: center;
+  padding-left: 100px;
+  padding-top: 100px;
+  float: left;
+  
+}
+
+.box2 img{
+  display: block;
+}
+
+.navbar{
+  flex-direction: column; 
+  align-items: center;
+}
+
+
+.navbar img{
+  display: block;
+  margin-right: 15px;
+}
+
+.navbar button{
+  background-image: url("../images/home.png");
+  background-repeat: no-repeat;
+  box-shadow: 1px 2px 5px #1c5380;
+  background-color: #4e789c;
+  background-position: 5px;
+  background-size: 25%;
+  height: 30px;
+  width: 80px;
+  border: none;
+  border-radius: 2px;
+  margin-left: 80px;
+  color: white;
+  font-family: helvetica;
+  font-size: 12px;
+  text-shadow: #06365f;
+  text-align: center;
+  padding-left: 30px;
+  padding-top: 5px;
+  
+}
+
+.info{
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat; 
+  width: 500px;
+  height: 500px;
+  margin-left: 50px;
+
+}
+
+.logos {
+  border: black solid 2px;
+} 
+
+.navcontent{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  
+}
+
+.navbar{
+  margin-top: 120px;
+  margin-left: 50px;
+  display:flex;
+  flex-direction: row;
+}
+
+h1{
+  font-family: helvetica;
+  color: #06365f;
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  
+}
+p{
+  font-family: sans-serif;
+  font-size: 14px;
+  margin-left: 30px;
+  text-align: justify;
+  width: 400px;
+  margin-bottom: 40px;
+  line-height: 2;
+  
+}
+
+.logos{
+  margin-left: 30px;
+}
+
+
+
+
+/* body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
-}
+} */
