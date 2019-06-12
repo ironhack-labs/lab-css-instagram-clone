@@ -4,7 +4,133 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  display: flex;
+  justify-content: flex-end;
+  flex-flow: nowrap column;
+}
+.container {
+  background: url('./../images/bgtile.png') repeat-x top;
+  display: flex;
+  justify-content: center;
+  padding: 0 10px;
+  flex-flow: wrap column-reverse;
+  align-items: center;
+}
+.item {
+  margin: 40px 0;
+  display: flex;
+  flex-flow: nowrap column;
+  justify-content: flex-end;
+}
+.item img {
+  align-self: flex-end;
+}
+.right {
+  margin: 40px 0 0 0;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.banner {
+  max-width: 50%;
+}
+.btn {
+  display: flex;
+  color: rgba(255, 255, 255, 0.8);
+  background-image: linear-gradient(#1c5380,#06365f);
+  border: none;
+  border-radius: 2px;
+  padding: 8px 14px;
+  font: 700 14px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+  outline: transparent;
+  justify-content: center;
+  align-items: center;
+}
+.btn:hover {
+  color: rgba(255, 255, 255, 0.9);
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+}
+.btn img {
+  margin-right: 10px;
+  width: 18px;
+}
+.card {
+  background: url('./../images/frame.png') top no-repeat;
+  max-width: 504px;
+  display: flex;
+  flex-flow: nowrap column;
+  box-sizing: border-box;
+  padding: 40px;
+  background-size: 100% 100%;
+}
+.card .title {
+  color: #06365f;
+  font-size: 20px;
+  font-weight: bold;
+}
+.app {
+  padding-left: 40px;
+}
+.app img {
+  max-width: 40%;
+  margin-right: 20px;
+}
+footer ul {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+li {
+  list-style: none;
+  margin-right: 20px;
+  color: gray;
+  text-transform: uppercase;
+  font: 700 14px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+li a {
+  color: #06365f;
+  text-decoration: none;
+}
+li a:hover {
+  color: #1c5380;
+
+}
+@media (min-width: 600px){
+
+  .container {
+    flex-flow: nowrap row;
+    align-items: stretch;
+    padding: 50px 10px;
+  }
+  .item {
+    margin: 40px 20px 0 0;
+  }
+  .right {
+    margin: 40px 0 0 20px;
+  }
+}
+@media (min-width: 900px)  {
+
+  .container {
+    flex-flow: nowrap row;
+    align-items: stretch;
+    padding: 50px;
+  }
+  .app img {
+    max-width: 100%;
+    margin-right: 20px;
+  }
+  .card {
+    background-size: contain;
+  }
 }
