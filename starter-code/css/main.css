@@ -4,7 +4,135 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+.blue-background {
+  background-image: url("../images/bgtile.png");
+  background-size: cover;
+  background-repeat: repeat;
+  height: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 6px solid purple; */
+}
+
+.main-fix {
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: -300px 0px 0px 0px;
+  /* border: 6px solid orange; */  
+}
+
+.main {
+  display: flex;
+  width: 80%;
+  height: 85%;
+  padding: 40px;
+  align-items: flex-start;
+  justify-content: center;
+  /* border: 2px solid red; */
+}
+
+.main-left {
+  padding: 0px 40px 0px 0px;
+  height: 700px;
+  /* border: 2px solid yellow; */
+}
+
+.phones{
+ height: 89%;
+ width: auto;
+}
+
+.main-right {
+  padding: 0px 60px 0px -30px;
+  width: 570px;
+  height: 700px;
+  font-size: 20px;
+  /* border: 2px solid pink; */
+}
+
+.instagram {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.instagram-logo {
+  padding: 0 10px 0 0;
+}
+
+.log-in {
+  background-color: #4b7ca7;
+  border: 1px solid #06365f;
+  color: white;
+  width: 130px;
+  height: 70px;
+  border-radius: 10px 10px;
+  font-size:20px;
+  font-weight: 600;
+ }
+
+.capture {
+  background-image: url("../images/frame.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+  text-align: left;
+  line-height: 1,2;
+  font-size: 18px;
+  padding: 55px 40px 40px 55px;
+  border-radius: 3px 3px;
+  /* font-weight: 600; */
+  /* border: 2px solid green; */
+}
+
+h1 {
+  color: #06365f;
+  line-height: 40px;
+}
+
+.apple {
+  padding: 0 15px 0 0;
+}
+
+footer {
+  margin: -20px 0px 0px 0px;
+}
+
+ul {
+  justify-content: center;
+  display: flex;
+  list-style-type: none;
+}
+
+li {
+  padding: 25px 10px 40px 10px;
+  /* display: inline-block; */
+}
+
+a {
+  text-decoration: none;
+  color: #1c5380;
+  font-size: 18px;
+  font-weight: 600;
+  /* justify-content: space-around; */
+}
+
+.copyright {
+  color: gray;
+  font-size: 16px;
+  font-weight: 600;
 }
