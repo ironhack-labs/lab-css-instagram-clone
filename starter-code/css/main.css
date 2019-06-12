@@ -35,11 +35,11 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  flex-wrap: wrap;
   width: 100%;
   margin: 0;
 }
 .instagram-image {
-  width: 60%;
   margin: 5% 0 0 0 ;
 }
 .instagram-image img{
@@ -68,34 +68,28 @@ body {
   margin-top:0;
   color: #06365f;
 }
-.separate-button{
-  margin-right: 5%;
-}
 .download-buttons{
   margin-top: 15%;
   display: flex;
 }
-.apple-icon {
-  background-image: url("../images/badge-iphone.png");
-  background-repeat: no-repeat;
-  background-position: left;  
-  padding:0;
+.apple-icon { 
+  padding: 0;
   border: none;
-  width: 25%;
-  height: 50px;
+}
+.apple-icon img{
+  width: 100%;
 }
 .google-icon {
-  background-image: url("../images/badge-android.png");
-  background-repeat: no-repeat;
-  background-position: left;
-  padding:0;
-  width: 24%;
+  padding: 0;
   border: none;
-  height: 50px;
+}
+.google-icon img{
+  width: 100%;
 }
 .footer-section {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
   flex-direction: row;
   margin: 5% 20%;
 }
