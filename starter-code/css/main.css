@@ -8,3 +8,74 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+h1{
+  color:#06365f;
+}
+.top-part{
+  background-image: linear-gradient(#1c5380, #06365f);
+  height: 50vh;
+  padding: 3% 10% 0 10%;
+}
+.bottom-part{
+   height: 30vh; 
+  }
+.phones{
+  position: relative;
+  left: 5rem;
+}  
+.content{
+  width: 50%;
+  position: relative;
+  left: 42%;
+  top: -15rem;
+  background-color: white;
+  border-radius: 1.5%;
+  padding: 2rem;
+  /* background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+.content h1{
+  margin-top: 0;
+}
+
+ .bottom-part, .footer{
+  padding: 0 10%;
+} 
+
+.links li{
+  list-style-type: none;
+  display: inline;
+  margin: 0 10px;
+}
+.links li a{
+  color: #06365f;
+  font-weight: bold;
+  text-decoration: none;
+}
+.copyright{
+  color: lightgrey;;
+  font-weight: bold;
+}
+
+.brand{
+  left: 15%;
+  position: relative;
+  top: -25rem;
+}
+.login{
+  position: relative;
+  top: -27rem;
+  left: 30%;
+  background-image: linear-gradient(#28608e, #104069);
+  padding: 12px 16px;
+  color: white;
+  font-weight: bold;
+  border: .5px #06365f solid;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px #211f1f;
+}
+
+.footer{
+  text-align: center;
+}
