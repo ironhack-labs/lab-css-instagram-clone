@@ -1,10 +1,54 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
-
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-color: #1c5380;
+
 }
+
+img {
+  float: left;
+  left: 10 px;
+  width: 300px;
+  overflow: auto;
+  position: relative ;
+  padding: 45px;
+  margin-left: -35px;
+  height: -300px;
+  margin: 200px auto 0;
+}
+
+.column {
+  float: right;
+  padding: 15px;
+  width: 75%;
+  position: relative ;
+  border-color: #3B3BFF;
+  left: 10px;
+  top: 10px;
+ 
+}
+
+.footer{
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.informacion{
+  display: inline-block;
+  margin-bottom: 7px;
+  margin-right: 16px;
+  padding: 0%;
+}
+
+.divuno{
+  justify-content: space-between;
+  max-width: px;
+  display: flex;
+  box-orient: vertical;
+  box-direction: normal;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+ 
