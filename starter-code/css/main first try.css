@@ -31,11 +31,13 @@ body {
 #content-container {
   background-image: url("../images/bgtile.png");
   background-repeat: repeat-x;
+  background-color: #f4f5f7;
   
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
   padding-top: 115px;
+  height: auto;
 }
 
 #right-container {
@@ -52,32 +54,30 @@ body {
   width: 500px;
 }
 
-#login-button {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-around;
-  align-items: center;
-  
-  padding: 5px;
-  width: 100px;
-  height: 40px;
-  background-image: url("../images/bgtile.png");
-  border: 0.5px solid #06365f;
-  border-radius: 3px;
-  color: white;
-  font-size: 16px;
-  cursor: pointer;
-  box-shadow: 0px 0px 2px #06365f;
-}
+  #login-button {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    
+    padding: 5px;
+    width: 100px;
+    height: 40px;
+    background-image: url("../images/bgtile.png");
+    border: 0.5px solid #06365f;
+    border-radius: 3px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0px 0px 2px #06365f;
+  }
 
 #frame-container {
-  background-image: url(../images/frame.png);
-  background-repeat: no-repeat;
   position: relative;
   justify-self: flex-end;
   margin-top: 20px;
   width: 505px;
-  height: max-content;
+  height: 420px;
   
   display: flex;
   flex-flow: wrap;
@@ -85,7 +85,8 @@ body {
 
 
 #frame-text {
-  padding: 30px 50px 30px 40px;
+  position: absolute;
+  padding: 30px 50px 0 40px;
 }
 
 #frame-text h1 {
@@ -143,11 +144,6 @@ ul a {
 }
 
 @media (max-width: 980px) {
-
-  #content-container {
-    padding: 55px;
-  }
-
   #cellphone-container {
     display: none;
   }
@@ -175,7 +171,6 @@ ul a {
 }
 
 @media (max-width: 550px) {
- 
   #content-container {
     padding-top: 30px;
   }
@@ -209,18 +204,24 @@ ul a {
   }
 
   #login-button {
-    width: 88%;
-    justify-content: center;
-  }
+    align-self: flex-end;
 
-  #login-button img, p {
-    margin: 0 10px 0 0;
+    margin-right: 5px;
+    padding: 5px;
+    width: 100px;
+    height: 40px;
+    background-image: url("../images/bgtile.png");
+    border: 0.5px solid #06365f;
+    border-radius: 3px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0px 0px 2px #06365f;
   }
-
 
   #frame-container {
     width: 100%;
-    background-size: 100% 100%;
+    height: 50vh;
   }
 
   #frame-container h1 {
@@ -237,5 +238,33 @@ ul a {
 
   .store-buttons img {
     width: 100%;
+  }
+}
+
+@media (max-width: 475px) {
+  #frame-container {
+    width: 100%;
+    height: 60vh;
+  }
+}
+
+@media (max-width: 435px) {
+  #frame-container {
+    width: 100%;
+    height: 70vh;
+  }
+}
+
+@media (max-width: 368px) {
+  #frame-container {
+    width: 100%;
+    height: 80vh;
+  }
+}
+
+@media (max-width: 317px) {
+  #frame-container {
+    width: 100%;
+    height: 90vh;
   }
 }
