@@ -1,0 +1,132 @@
+/*
+Colors to use:
+dark blue: #06365f
+light blue: #1c5380
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat;
+  padding-bottom: 6%;
+}
+
+.home-button {
+  padding-top: 8%;
+  margin-bottom: 4%;
+}
+
+.login-button {
+  background-image: url("../images/bgtile.png");
+  border: 1px solid #06365f;
+  color: white;
+  padding: 10px;
+  float: left;
+  margin-left: 11%;
+}
+
+.login-text {
+  padding-left: 10px;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.iphones-picture {
+  padding-top: 7%;
+  padding-left: 10%;
+  float: left;
+  width: 30%;
+  margin-left: 7%;
+}
+
+.logo {
+  float: left;
+  padding-top: 7%;
+  padding-left: 6%;
+}
+
+.links > li {
+  display: inline;
+}
+
+.frame {
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  margin-top: 1%;
+  margin-left: 5%;
+  background-size: cover;
+  width: 35%;
+  float: left;
+}
+
+.text-description {
+  padding: 10%;
+  float: left;
+}
+
+.links {
+  float: left;
+}
+
+.text-description > h1 {
+  float: left;
+  color: #1c5380;
+  font-weight: 900;
+  font-size: 2.2em;
+  line-height: 90%;
+  margin: 0;
+}
+
+.text-description > p {
+  float: left;
+}
+
+.text-description > img {
+  float: left;
+  padding-right: 5%;
+  margin-top: 2%;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.second-paragraph {
+  margin: 0;
+}
+
+.final-sentence {
+  width: 100%;
+}
+
+.footer {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.links {
+  float: left;
+  width: 100%;
+  margin: 2% auto 0;
+  padding-left: 27%;
+}
+
+.links > li {
+  color: #1c5380;
+  font-weight: 900;
+  margin: 0 0.7%;
+  font-size: 0.8em;
+}
+
+.links > .copyright {
+  color: gray;
+}
