@@ -7,7 +7,7 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
-  /* padding: 10% 10% 5%;  */
+  padding: 0;
   background-image: url(/Users/juliaramos/code/labs/week2/lab-css-instagram-clone/starter-code/images/bgtile.png);
   background-repeat: repeat-x;
 }
@@ -17,7 +17,7 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin-top: 150px;
+  margin-top: 100px;
 }
 
 #index > div > img {
@@ -29,7 +29,8 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 0 10px;
+  padding: 0 3px;
+  margin-bottom: 15px;
 }
 
 #login {
@@ -59,7 +60,7 @@ margin-right: 10px;
   box-sizing: border-box;
   background-image: url(/Users/juliaramos/code/labs/week2/lab-css-instagram-clone/starter-code/images/frame.png);
   background-repeat: no-repeat;
-  padding: 35px;
+  padding: 40px 50px 0;
 }
 
 #text > h1 {
@@ -72,7 +73,7 @@ margin-right: 10px;
 }
 
 footer > ul {
-  margin: 75px 0;
+  margin: 70px 0;
   padding: 0;
   text-align: center;
 }
@@ -80,7 +81,7 @@ footer > ul {
 footer > ul > li {
   display: inline;
   list-style: none;
-  margin: auto 10px;
+  margin: 0 10px;
   color: #1c5380;
   font-weight: bold;
   text-transform: uppercase;
