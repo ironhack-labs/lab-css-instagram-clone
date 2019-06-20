@@ -3,8 +3,118 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+* {
+  margin: 0px;
+  padding: 0px;
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url('../images/bgtile.png');
+  background-repeat: repeat-x;
+}
+
+.container {
+  width: 80%;
+  margin: 90px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.container .pictures {
+  width: 42%;
+  display: flex;
+  justify-content: center;
+}
+
+.logo {}
+
+.login-btn {
+  padding: 7px 15px;
+  align-self: center;
+  background: linear-gradient(360deg,  #1c5380 0%,#2379b2 100%);
+  display: flex;
+  align-items: center;
+  border-radius: 3px;
+  border: 1px solid #1c5380;
+}
+ .login-btn img{
+   margin-right: 8px;
+ }
+
+ .login-btn span{
+   color: #fff;
+   font-weight: bold;
+   text-shadow: -1px 1px rgba(0,0,0,0.4);
+ }
+.container .content {
+  
+  width: 46%;
+}
+
+.container .content .content-logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container .links {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+  align-items: center;
+}
+
+.texts {
+  background: url('../images/frame.png');
+  background-repeat: no-repeat;
+  padding: 60px 45px 0 45px;
+}
+
+.texts h1 {
+  line-height: 1.2em;
+  margin-bottom: 20px;
+}
+
+.texts p {
+  margin-top: 10px;
+}
+
+.texts img {
+  margin: 30px 10px 0 0;
+}
+
+.links ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  
+  margin-right: 10px;
+}
+
+.links li {
+  margin: 0 15px;
+}
+
+.links a{
+  margin-bottom: 20px;
+  text-decoration: none;
+  color: #1c5380;
+  font-weight: bold;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+.links span {
+  font-size: 12px;
+  font-weight: bold;
+  color: #8f8e8e;
+  text-transform: uppercase;
 }
