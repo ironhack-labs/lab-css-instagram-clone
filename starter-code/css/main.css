@@ -10,98 +10,110 @@ body {
 }
 
 .login{
-  background-color:#1c5380;
-  height: 350px;
+  background-image: linear-gradient(#567EA0, #386186);
+  height: 430px;
 }
 
 .login-button{
-  background-color:#1c5380;
-  border: solid 2px #06365f;
+  background-image: linear-gradient(#6F93B1, #467298);
+  border: 3px solid #386186;
   border-radius:3px;
   float:right;
-  margin-top:18px;
-  margin-left: 5%;
+  margin-left: 20px;
+  margin-top:25px;
   color:white;
-  height:28%;
-  width:25%; 
-  padding:0;
+  height:50px;
+  width:130px; 
+  text-align: center;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.3em;
 }
 
 .home{  
 position: absolute;
-top:160px;
-right:11%;
-width:35%;
-height:20%;
+top:180px;
+right:145px;
+width:660px;
+height:60px;
 }
 
 .phone-img{
   position:absolute;
-  top:150px;
-  left:10%;
+  width:420px;
+  top:170px;
+  left:140px;
   margin:0;
 }
 
 .insta-logo{
-  width:60%;
-  margin:1px;
-  padding:0 5px 0 0;
+  width:420px;
 }
 
 .home-img{
-  margin: 5% 10% 0 0;
-  padding:0;
+  width:25px;
+  padding-right:15px;
+  padding-top: 10px;
 }
 
-.home p{
-  display: inline-block;
-  font-size: 0.9em;
-  font-weight: bold;
-}
 .moments{
  background-image: url(../images/frame.png);
  background-size:contain;
  background-repeat: no-repeat;
- width:30%;
- padding:40px;
+ width:550px;
+ padding:40px 60px;
  position:absolute;
- right:10%;
- top:250px;
- 
+ right:130px;
+ top:320px;
 }
 
-.store-img{
- margin-top: 4%;
+[src*="iphone"]{
+  margin-top:30px;
+  width:190px;
+}
+[src*="android"]{
+  width:180px;
+  margin-left:25px;
 }
 
 h1{
   margin:0;
   text-align: left;
+  font-size: 1.9em;
   color:#06365f;
 }
 .moments p {
   text-align: left;
-  font-size: 0.9em;
+  font-size: 1.25em;
   font-weight: 300;
+  font-weight: 400;
+  color:#434343;
 }
-
+b{
+  color:black;
+}
 .information{
-  height:350px;
+  height:450px;
 }
 
 footer a{
   text-decoration:none;
-  color:#1c5380;
+  color:#386186;
 }
 footer{ 
 text-align: center;
 height:90px;
-font-size: 0.7em;
+font-size: 1.2em;
 font-weight: bold;
-margin: 5vh 0 0 0 ;
+margin-top: 60px;
+margin-bottom:30px;
 }
 a{
   margin:1vh;
+}
+span{
+  color:#878787;
+  margin-left: 40px;
 }
 
 
