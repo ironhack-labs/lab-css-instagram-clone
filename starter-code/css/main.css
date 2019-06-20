@@ -4,7 +4,92 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-color: #ffffff;
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+}
+
+section {
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  top: 100px;
+  padding: 0 200px;
+}
+
+.left {
+  background-image: url("../images/phones.png");
+  width: 400px;
+  height: 600px;
+  background-repeat: no-repeat;
+
+}
+
+.right {
+  width: 504px;
+  height: 600px;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 10px;
+}
+
+.logo button {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: white;
+  font-weight: 600;
+  background-image: linear-gradient(#7094b0, #4d779b);
+  height: 35px;
+  width: 80px;
+  border: none;
+  box-shadow: 1px 1px #333;
+  border-radius: 5px;
+
+}
+.content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 470px;
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  padding: 40px;
+  
+}
+
+.content-container h1 {
+  color: #1c5380
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 70px;
+  font-size: .8rem;
+  height: 50px;
+  padding: 0 350px;
+  width: 100%;
+
+}
+
+footer a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 600;
+  color: #1c5380;
 }
