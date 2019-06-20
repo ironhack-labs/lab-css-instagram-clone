@@ -108,7 +108,7 @@ footer a {
   width: 85%;
   margin: 0 auto;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   
 }
