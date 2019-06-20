@@ -5,6 +5,88 @@ light blue: #1c5380
 */
 
 body {
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-position: fixed;
 }
+
+.iphone{
+  float: left;
+  padding: 90px;
+  
+}
+
+.pai{
+  display: flex;
+  
+}
+.container{
+  padding-top: 30px;
+  padding: 30px;
+  width: 400px;
+  
+}
+
+.cabecalho{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 450px;
+
+}
+
+.logo{
+
+}
+
+.login{
+  display: flex;
+  background-image: linear-gradient(#1c5380 , white );
+  align-items: center;
+  justify-content: space-around;
+  width: 100px;
+  height: 30px;
+  border-style: solid;
+  border-color: #1c5380;
+  font-weight: bold;
+  border-width: 2px;
+  color: white;
+  
+}
+
+
+.frame{
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  width: 450px;
+}
+
+h2 {
+  padding-top: 10px;
+  padding-left: 20px;
+  color: #06365f;
+}
+
+p{
+  padding-left: 20px;
+}
+
+.appstore{
+  padding-left: 20px;
+}
+
+.googleplay{
+  padding-left: 20px;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  width: 1000px;
+  height: 40px;
+  color: #1c5380;
+}
+
