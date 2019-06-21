@@ -7,6 +7,8 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  margin-top: 100px;
+  /* background-color:; */
 }
 
 section {
@@ -14,23 +16,34 @@ section {
   justify-content: center;
 }
 
+
 .background-div{
-  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 560px;
   background-image: url("../images/frame.png");
-  width: 425px;
+  /* width: 425px; */
   padding-left: 50px;
   padding-top: 30px;
   margin-left:30px;
+  margin-bottom: 60 px;
 
+}
+
+.background-div{
+  width: 500px;
 }
 
 .icone-app{
-  padding-left: 50px;
+  padding-left: 90px;
+ 
 }
 
 .button{
+  display: flex;
   align-items: center;
   margin-left: 30px;
+  justify-content: space-between;
+ 
   
 }
 
@@ -40,17 +53,56 @@ section {
 }
 
 button{
-  height: 40px;
-  width: 100px;
+  display: flex;
+  align-items: center;
+  border: outset;
+  font-weight: bold;
+  color: aliceblue;
+  background-color:#396287;
+  border-color: #396287;  
+  background-image:linear-gradient(180deg, #577ea0, #396287);
+  border-radius: 5px;
 }
 
 
-.rodape{
-  display: flex;
-  justify-content: center;
+.footer{
+  /* display: flex;
+  justify-content: center; */
+  text-align: center;
+  text-decoration-style: none;
+  text-transform: uppercase;
+  word-spacing: 10px;
+  font-size: 14px;
+  margin: 50px;
+}
+
+.footer > a{
+  text-decoration-line: none;
+  font-weight: bold;
+  color: rgb(48, 48, 126);
+}
+
+.background{
+  background-image: url('../images/bgtile.png');
+  background-repeat: repeat-x;
+  /* background-image: linear-gradient(180deg, #577ea0, #396287); */
   
 }
 
-footer > a{
-  word-spacing: 15px;
+
+
+.right-side{
+  margin-bottom: 50px;
+}
+
+h2{
+  color: #396287;  
+}
+
+.icone-app img{
+  margin-right: 15px;
+}
+
+span{
+  color: rgb(82, 80, 80);
 }
