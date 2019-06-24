@@ -8,7 +8,7 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-image: url(/Users/juliaramos/code/labs/week2/lab-css-instagram-clone/starter-code/images/bgtile.png);
+  background-image: url(../images/bgtile.png);
   background-repeat: repeat-x;
 }
 
@@ -58,7 +58,7 @@ margin-right: 10px;
 #content {
   width: 500px;
   box-sizing: border-box;
-  background-image: url(/Users/juliaramos/code/labs/week2/lab-css-instagram-clone/starter-code/images/frame.png);
+  background-image: url(../images/frame.png);
   background-repeat: no-repeat;
   padding: 40px 50px 0;
 }
