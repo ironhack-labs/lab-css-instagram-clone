@@ -7,4 +7,86 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  padding: 0;
 }
+/*ABUELO*/
+#boxBlue {
+	width: 100%;
+	height: 214px;
+	background-color:#06365f;
+}
+/*PADRE*/
+#boxWhite{
+	position: absolute;
+	width: 100%;
+	height: 340px;
+	background-color: white;
+}
+
+#info{
+	position: relative;
+	left: 50px;
+	top: -99px;
+	width: 504px;
+	height: 400px;
+	margin-left: 571px;
+	background-image: url(https://raw.githubusercontent.com/YerimMG/lab-css-instagram-clone/master/starter-code/images/frame.png);
+	background-repeat: no-repeat;
+}
+
+h1{
+	color: #06365f;
+	padding: 36px;
+}
+
+p {
+	color: #06365f;
+	padding: 36px;
+	position: relative;
+	left: 1%;
+	bottom: 19%;
+}
+
+#botones{
+    position: relative;
+    left: 659px;
+    bottom: 118px;
+    margin-right: 15px
+}
+#cell {
+	position: relative;
+	bottom: 645px;
+	left: 250px;
+}
+#insta{
+	position: relative;
+	left: 303px;
+	bottom: 1086px;
+}
+
+button{
+    background-color: #1c5380;
+    border: 0;
+    border-radius: 3px;
+    width: 84px;
+    height: 42px;
+    position: relative;
+    bottom: 1114px;
+		left: 392px;
+    color: white;
+    font-weight: 100px;
+		position: relative;
+
+}
+}
+#home{
+	position: relative;
+	left: 5px;
+	bottom: 5px;
+}
+
+nav {
+	text-decoration: none;
+	position: relative;
+	left: 456px;
+	bottom: 627px;
