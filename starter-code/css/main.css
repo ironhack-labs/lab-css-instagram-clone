@@ -5,6 +5,49 @@ light blue: #1c5380
 */
 
 body {
+  background-image: linear-gradient(#1c5380, #06365f);
+  height: 100px;
+  background-repeat: no-repeat;
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  margin: 100px 300px;
+}
+header{
+  display: flex;
+  align-items: center;
+}
+
+h2{
+  color: #06365f;
+}
+.secctionUno {
+  background-color: white;
+  border: 1px solid rgb(255,255,255);
+  border-radius: 1%;
+  padding: 10px 20px;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  
+}
+
+.encabezado {
+  margin-left: 50px;
+  padding-left:10px;
+}
+
+.casa{
+  color: white;
+  text-decoration: none;
+  font-weight: bolder;
+  border: 2px solid #06365f;
+  padding: 20px;
+
+  
+}
+
+.pie{
+  color: #1c5380;
+  text-decoration: none;
+  font-weight: 400;
+  margin: 0 10px;
+  padding: 0 10px;
 }
