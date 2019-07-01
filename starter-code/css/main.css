@@ -8,3 +8,91 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+header {
+  background-image: url(../images/bgtile.png);
+  background-size: cover;
+  padding: 150px 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+}
+.logo {
+  margin: 0 110px 0 60px;
+}
+button {
+  border-radius: 4px;
+  color: white;
+  background-color: rgb(107, 143, 174);
+  border: 2px solid rgb(54, 96, 134);
+  box-shadow: 2px 2px 0px rgb(54, 96, 134);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 60px 0 20px;
+  padding: 5px 10px;
+}
+section {
+  display: flex;
+  justify-content: space-between;
+}
+.introduction-container {
+  background-image: url(../images/frame.png);
+  background-size: cover;
+  text-align: left;
+  position: absolute;
+  top: 250px;
+  right: 60px;
+  width: 50%;
+}
+h2 {
+  margin: 30px 0 20px 20px;
+  color: rgb(54, 96, 134);
+  line-height: 0.2em;
+}
+ul {
+  color: rgb(107, 143, 174);
+  font-weight: 900;
+  list-style-type: none;
+  text-align: center;
+  margin-left: 120px;
+}
+li {
+  text-align: center;
+  display: inline;
+}
+.phones {
+  position: absolute;
+  left: 80px;
+  top: 130px;
+}
+
+p {
+  justify-content: center;
+  align-content: center;
+  margin: 10px 20px;
+}
+.images-badges {
+  margin: 30px 0 0 20px;
+}
+.android {
+  margin-left: 15px;
+}
+footer {
+  position: relative;
+  margin: 300px 0;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 80%;
+}
+a {
+  text-decoration: none;
+  color: rgb(107, 143, 174);
+  margin: 0 5px;
+}
+.copyright {
+  margin: 0 10px 0 20px;
+}
