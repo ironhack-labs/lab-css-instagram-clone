@@ -8,3 +8,96 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+header{
+  /*background-color: #1c5380;*/
+  background: url(../images/bgtile.png) repeat-x;
+  padding:100px 50px;
+  display: flex;
+  height: 60px;
+}
+
+.caja1{
+  width: 40%;
+  margin-left: 100px;
+}
+.caja2{
+  width: 70%;
+}
+.login{
+  background-color: #1c5380;
+  cursor: pointer;
+  position: relative;
+  left: 95px;
+  bottom: 31px;
+  padding: 15px;
+}
+
+.cabecera3{
+  position: relative;
+  bottom: 28px;
+  left: 30px;
+}
+.login{
+  color:#fff;
+  margin:10px;
+  background: url(../images/bgtile.png) repeat-x;
+  font-weight: bold;
+  -webkit-box-shadow: 0px 5px 5px -2px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 5px 5px -2px rgba(0,0,0,0.75);
+  box-shadow: 0px 5px 5px -2px rgba(0,0,0,0.75);
+}
+
+.texto{
+  background: url(../images/frame.png) no-repeat center /cover;
+  position: absolute;
+  left: 42%;
+  top: 200px;
+  width: 38%;
+}
+.titulo{
+  color:#06365f;
+  font-size: 1em;
+  margin-left: 20px;
+}
+
+.imagenes{
+  position: absolute;
+  left: 44%;
+  top: 500px;
+}
+
+.parrafo{
+  padding: 30px;
+  font-size: 1em;
+}
+.menu{
+  position: relative;
+  top: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav{
+  display: inline;
+}
+
+.top-links{
+  margin-left: 30%;
+  margin: 100px auto;
+  width: 700px;
+}
+
+li{
+   list-style-type: none;
+   display: inline;
+   padding-right: 25px;
+}
+
+li a {
+  font-family: Arial;
+  font-size: 11px;
+  text-decoration: none;
+  color: #06365f;
+  text-transform: uppercase;
+  }
