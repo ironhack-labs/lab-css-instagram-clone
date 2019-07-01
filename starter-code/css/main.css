@@ -1,10 +1,81 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
-
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+.inicio {
+  padding-top: 70px;
+  display: flex;
+}
+.bloque-izq {
+  width: 40%;
+  padding: 20px;
+  text-align: right;
+  margin-right: 40px;
+}
+.bloque-der {
+  width: 60%;
+}
+.logo-btn {
+  width: 60%;
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: space-between;
+}
+.style-bton {
+  background-color: #1c5380;
+  color: white;
+  font-size: 1em;
+  align-items: center;
+  border-radius: 3px;
+  width: 130%;
+  box-shadow: 2.5px 2.5px 2.5px  rgb(204, 215, 247) inset;
+}
+.home {
+  padding: 8px;
+}
+.text-btn {
+  display: flex;
+}
+
+h2 {
+  width: 53%;
+  color: #06365f;
+}
+p {
+  font-size: 1.15em;
+}
+.inline {
+  padding-left: 40px;
+  padding-top: 12px;
+  background-color: white;
+  width: 60%;
+}
+span {
+  font-weight: bold;
+}
+.store {
+  padding-left: 40px;
+}
+.apple {
+  margin-right: 25px;
+}
+.links {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+li {
+  list-style: none;
+  padding-right: 20px;
+  text-transform: uppercase;
+  color: #1c5380;
+  font-size: 0.6em;
+  font-weight: bold;
+}
+a {
+  text-decoration: none;
+}
+.copyright {
+  color: gray;
 }
