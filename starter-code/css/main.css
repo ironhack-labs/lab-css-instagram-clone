@@ -8,3 +8,76 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+header {
+  background-color: #06365f;
+  padding: 15%;
+  display: flex;
+}
+
+header a{
+  text-decoration: none;
+  color: white;
+}
+
+h2 {
+  color: #06365f;
+}
+
+h2, p {
+  margin: 10px 15px;
+}
+
+.loginbutton {
+  position: relative;
+  left: 53%;
+  margin: 3%;
+  font-weight: 900;
+  background-color: #1c5380;
+  padding: 6px;
+}
+
+.instalogo {
+  position: relative;
+  left: 50%;
+}
+
+.content {
+  position: absolute;
+  text-align: left;
+  margin: 0 300px;
+  border: 2px solid black;
+  top: 60%;
+  left: 30%;
+  background-color: white;
+}
+
+.androidbutton{
+  margin-left: 30px;
+}
+
+
+
+.appbutton{
+display: flex;
+margin: 16px;
+}
+
+.phonesimg {
+  position: absolute;
+  top: 24%;
+  left: 11%;
+}
+
+.foot {
+  display: flex;
+}
+
+footer {
+  margin: 300px 450px;
+}
+
+footer a{
+  text-decoration: none;
+  color: #1c5380;
+}
