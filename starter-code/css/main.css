@@ -66,3 +66,8 @@ button {
   box-shadow: 2px 2px 10px #06365f;
   height: 40%
 }
+
+p {
+  line-height: 1.4em;
+  font-size: 1.3em;
+}
