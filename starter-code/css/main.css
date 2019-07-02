@@ -5,6 +5,42 @@ light blue: #1c5380
 */
 
 body {
+  display: flex;
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-color: #06365f;
+}
+
+
+.phone {
+  display:flex;
+  margin-left: 100px;
+  height: 10%;
+  width: 25%;
+    margin-right: auto;
+    padding-top: 100px;
+}
+
+.logo {
+  padding-top: 100px;
+    padding-left: 50px;
+    width: 30%;
+    height: 10%;
+}
+
+.log {
+  background-color: #1c5380;
+  width:400px;
+  height:40px;
+  margin-top:100px;
+}
+.apple, .google {
+  height: 10%;
+}
+.box {
+  display: blockline-flex;
+  background: url("../images/frame.png") no-repeat center /cover;
+  width: 100%;
+  margin-top: 175px;
+  text-align: center;
 }
