@@ -6,5 +6,86 @@ light blue: #1c5380
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  margin: 100px;
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+}
+
+.background-div{
+  width: 510px;
+  height: 360px;
+  padding-left: 95px;
+  display: flex;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  background-size: 550px;
+  background-image: url("../images/frame.png");
+  background-position-x: 45px;  
+}
+
+div > h2{
+  color: #2b699c;
+  font-size: bold;
+}
+
+div > p {
+ width: 450px;
+}
+
+p > span {
+  font-size: bold;
+}
+
+.icone-app{
+  padding-left: 90px;
+  word-spacing: 15px;
+}
+
+.button{
+  display: flex;
+  justify-content: space-around;
+  margin-left: 30px;
+}
+
+.button > img{
+  margin-right: 58px;
+  margin-bottom: 15px;
+
+}
+
+button{
+  display: flex;
+  height: 50px;
+  width: 110px;
+  padding-left: 10px;
+  border-radius: 5px;
+  background-color: #4a7ea8;
+  background-position: right;
+  font-size: 18px;
+  color: azure;
+  border-color: #2b699c;
+  font-size: larger;
+  font-weight: bold;
+}
+
+
+footer{
+  text-align: center;
+  text-transform: uppercase;
+  word-spacing: 12px;
+}
+
+a {
+  text-decoration: none;
+  color: #4a7ea8;
+  font-weight: bold;
+}
+
+#mRegistre {
+  color: slategrey;
 }
