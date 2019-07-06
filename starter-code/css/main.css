@@ -1,10 +1,174 @@
-/*
+.up {
+  background-image: url("../images/bgtile.png");
+  color: black;
+  background-repeat: repeat-x;
+ }
+ .header {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  padding-top: 200px;
+ }
+ 
+ .header-icons {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+ }
+ 
+ .appstore-icons {
+  align-items: center;
+  display: flex;
+ }
+ 
+ .iphonelogo {
+  padding-right: 10px;
+  padding-left: 10px;
+ }
+ .header-text {
+  background-color: white;
+ }
+
+ .footer-row {
+  display: flex;
+  justify-content: center;
+  align-content: flex-start;
+}
+
+.footer-items {
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+  justify-content: space-between;
+  font-weight: bold;
+  list-style-type: none;
+  align-items: baseline;
+}
+
+
+.footer-items .menu {
+  color: #3f729b;
+}
+
+.footer-items .copywrite {
+  color: grey;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* OLD CODE
 Colors to use:
 dark blue: #06365f
 light blue: #1c5380
-*/
+
+
+
+[Bana] questions:
+1. tried to use percentage for height / width. However, header-row height percentage doesn't work
+2. how do I make devices and text overlapp with header
+3. how can I make the login box look more like on the template?
+4. are their best practices for media rules. At what point does it make sense to apply a different css style
+or do I need to test it out myself? If so, are there tools that help with specs of most common screen sizes?
+
+
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+
+
+.header-row {
+  background-color: #3f729b;
+  height: 350px; 
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.header-icons {
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+
+.login-button {
+  background-color: #436b95;
+  border: 1px solid #436b95;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  width: 20%;
+  height: 5%;
+  justify-content: space-around;
+  align-items: center;
+  
+  
+}
+
+
+
+.main-row {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  margin-bottom: 5%;
+}
+
+.description {
+  background-image: url("images/frame.png");
+  width: 40%;
+}
+
+.description h1 {
+  color: #003366;
+}
+
+.description span {
+  font-weight: bold;
+}
+.iphone-badge{
+  margin-right: 5%;
+}
+
+
+
+.footer-row {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-items {
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+.footer-items{
+  list-style-type: none
+}
+
+.footer-items .menu {
+  color: #3f729b;
+}
+
+.footer-items .copywrite {
+  color: grey;
+} 
+
+*/
