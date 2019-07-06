@@ -7,4 +7,49 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background:
+    url(../images/bgtile.png) repeat-x;
+}
+
+h1 {
+  color: blue;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+}
+
+.center>div {
+  flex-direction: row;
+}
+
+.leftColumn {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+}
+
+.rightColumn {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+}
+
+.appstore {
+  display: flex;
+  justify-content: center;
+
+}
+
+.appstore-badge {
+  justify-content: space-between;
+}
+
+.nav {
+  display: flex;
+  flex-flow: row;
+  align-items: baseline;
 }
