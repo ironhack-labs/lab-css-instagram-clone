@@ -7,4 +7,79 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;
+}
+
+.center-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 50px auto 0 auto;
+
+  max-width: 1200px;
+}
+
+#iphone-image  {
+  
+  
+  
+}
+
+#content-block  {
+  max-width: 400px;
+
+
+}
+
+#instagram-logo-log-in  {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#apple-google-logos {
+  display: flex;
+  justify-content: flex-start;
+  margin: 10px;
+}
+
+#log-in-logo {
+
+}
+
+#apple-logo {
+  margin-left: 20px;
+}
+
+#text-block {
+  margin: 20px;
+  background-color: white;
+  border: 10px solid white;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+#headline {
+  font-family: roboto;
+  font-size: 25px;
+  color: #06365f;
+}
+
+#footer {
+  margin-left: 15%;
+  margin-right: 15%;
+  
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-family: roboto;
+  color: #1c5380;
 }
