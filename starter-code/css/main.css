@@ -4,7 +4,7 @@ dark blue: #06365f
 light blue: #1c5380
 */
 .blue-background {
-  height: 300px;
+  height: 220px;
   width: 1400px;
   background-image: url("../images/bgtile.png");
   
@@ -19,44 +19,76 @@ main {
   
 }
 .all-content {
-  margin-top: 200px;
+  margin-top: 80px;
+  
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  padding: 0 40px 0 100px;
+  justify-content: center;
+  padding: 0 10px 0 100px;
   max-width: 1000px;
-  
-  
+  height: 410px;
+  box-sizing: border-box;
+}
+.phones {
+  height: 405px;
+  margin-bottom: 0px;
+ 
 }
 .content-right {
+  margin-left: 30px;
+  margin-top: 15px;
   display: flex;
   flex-direction: column;
-  
+  height: 390px;
+  justify-content: space-between;
+ 
 }
 .content-right-top {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   
+ width: 320;
+}
+.brand {
+  height: 60px;
 }
 .log-button{
   display: flex;
   flex-direction: row;
-  justify-content: center
-  border: 2px solid #06365f;
-  height: 20px;
-  margin-top: 10px;
-  padding: 5px;
+  justify-content: space-around;
+  border: 1px solid #1c5380;
+  height: 25px;
+  width: 75px;
+  margin: auto 3px;
+  padding: 5px 0 0;
   color: white;
-  background-color: #1c5380;
+  font-weight: bold;
+  font-size: 0.6em;
+  background: linear-gradient(to bottom, #b1afaf, #1c5380);
+   border-radius: 2px;
 
 }
+.home-but {
+  height: 18px;
+  padding-top: 1px;
+}
+.log-in {
+ 
+  margin-right: 5px;
+  padding: 3.5px 0 0;
+}
+
 .content-right-body {
   display: flex;
   flex-direction: column;
-  width: 300px;
-  padding: 20px;
+ justify-content: space-around;
+  width: 320px;
+  height: 300px;
+  margin: 10px 4px 0;
+  padding: 0 20px;
   background-color: white;
+  border-radius: 5px;
 }
 h1 {
   font-size: 1.2em;
@@ -66,8 +98,44 @@ h1 {
 .content-right-bottom {
   display: flex;
   flex-direction: row;
+  justify-content: left;
+  
+}
+.content-right-body-text {
+  font-size: 0.8em;
+}
+span {
+  font-weight: bold;
+}
+.store-icons {
+  width: 120px;
+  padding-right: 10px;
+  
+  
 }
 .footer {
   display: flex;
-  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 200px;
+ 
+}
+.footer-li {
+  float: left;
+  list-style-type: none;
+  text-align: center;
+  padding: 0 10px;
+  width: 12,5%;
+  color: #1c5380;
+  font-weight: bold;
+  font-size: 0.8em;
+}
+.copyright {
+  float: left;
+  list-style-type: none;
+  text-align: center;
+  padding: 0 10px;
+  width: 12,5%;
+  color: grey;
+  font-size: 0.8em;
+  font-weight: bold;
 }
