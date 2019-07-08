@@ -3,8 +3,86 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;
+}
+main {
+  display: flex;
+  justify-content: center;
+}
+.content {
+  width: 1000px;
+  margin-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.img {
+  height: 550px;
+}
+.text {
+  width: 500px;
+}
+.headline {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.frame {
+  padding: 20px;
+  background-image: url(../images/frame.png);
+  background-size: cover;
+}
+.button {
+  width: 80px;
+  background-color: #1c5380;
+  border: 1px solid;
+  border-color: #06365f;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding: 15px 32px;
+  margin-top: 10px;
+}
+.frame h1 {
+  color: #1c5380;
+  padding-bottom: 30px;
+}
+.frame p {
+  padding-bottom: 15px;
+}
+.appStore {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+.footer {
+  margin: 50px;
+  align-self: center;
+  height: 50px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+.listElement {
+  list-style-type: none;
+  width: auto;
+  height: 100px;
+  font-weight: bold;
+  margin: 5px;
+  color: #06365f;
+}
+.listElementExtra {
+  list-style-type: none;
+  width: auto;
+  height: 100px;
+  font-weight: bold;
+  margin: 5px;
+  color: lightgrey;
 }
