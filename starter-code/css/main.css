@@ -39,7 +39,7 @@ main {
   margin-top: 5px;
   display: flex;
   flex-direction: column;
-  height: 390px;
+  height: 405px;
   justify-content: space-around;
  
 }
@@ -89,6 +89,7 @@ main {
   padding: 0 20px;
   background-color: white;
   border-radius: 5px;
+  box-shadow: 0 10px 5px lightgrey;
 }
 h1 {
   font-size: 1.2em;
@@ -99,8 +100,9 @@ h1 {
   display: flex;
   flex-direction: row;
   justify-content: left;
-  margin-top: 20px;
-  padding-top: 5px;
+
+  padding-top: 15px;
+  padding-bottom: 5px;
   
 }
 .content-right-body-text {
@@ -113,8 +115,8 @@ span {
 }
 .store-icons {
   width: 130px;
-  margin-top: 5px;
-  padding-top: 5px;
+  
+
   padding-right: 10px;
   
   
