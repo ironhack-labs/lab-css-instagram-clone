@@ -36,11 +36,11 @@ main {
 }
 .content-right {
   margin-left: 30px;
-  margin-top: 15px;
+  margin-top: 5px;
   display: flex;
   flex-direction: column;
   height: 390px;
-  justify-content: space-between;
+  justify-content: space-around;
  
 }
 .content-right-top {
@@ -60,7 +60,7 @@ main {
   border: 1px solid #1c5380;
   height: 25px;
   width: 75px;
-  margin: auto 3px;
+  margin: auto 5px auto 0;
   padding: 5px 0 0;
   color: white;
   font-weight: bold;
@@ -83,9 +83,9 @@ main {
   display: flex;
   flex-direction: column;
  justify-content: space-around;
-  width: 320px;
+  width: 325px;
   height: 300px;
-  margin: 10px 4px 0;
+  margin: 0 4px 0;
   padding: 0 20px;
   background-color: white;
   border-radius: 5px;
@@ -99,16 +99,22 @@ h1 {
   display: flex;
   flex-direction: row;
   justify-content: left;
+  margin-top: 20px;
+  padding-top: 5px;
   
 }
 .content-right-body-text {
   font-size: 0.8em;
+  margin: 0;
+  padding-top: 15px;
 }
 span {
   font-weight: bold;
 }
 .store-icons {
-  width: 120px;
+  width: 130px;
+  margin-top: 5px;
+  padding-top: 5px;
   padding-right: 10px;
   
   
