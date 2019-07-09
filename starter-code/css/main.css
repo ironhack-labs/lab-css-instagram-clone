@@ -10,7 +10,7 @@ body {
 }
 nav {
   padding-top: 200px;
-  flex-direction: row;
+  display: flex;
   justify-content: space-around;
 }
 
@@ -32,12 +32,12 @@ nav {
 }
 .images {
   display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  align-content: space-between;
+  width: 100%;
+  justify-content: space-between;
 }
 
 .logIn {
+  width: 200px;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -47,4 +47,7 @@ nav {
 .textBlock {
   background-color: white;
   padding: 5% 5%;
+}
+.blueText {
+  color: blue;
 }
