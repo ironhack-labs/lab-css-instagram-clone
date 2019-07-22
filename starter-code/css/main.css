@@ -8,3 +8,47 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.image-container {
+	box-sizing: border-box;
+	float: left;
+	display: inline-block;
+	width: 40%;
+	height: 768px;
+	border-style: solid;
+	border-color: red;
+	border-width: 2px;
+}
+
+header {
+	width: 60%;
+	box-sizing: border-box;
+	float: right;
+	display: inline-block;
+	border-style: solid;
+	border-color: blue;
+	border-width: 2px;
+}
+
+.information {
+	float: right;
+	width: 60%;
+	box-sizing: border-box;
+	border-style: solid;
+	border-color: green;
+	border-width: 2px;
+}
+
+.app-download {
+	box-sizing: border-box;
+	border-style: solid;
+	border-color: yellow;
+	border-width: 2px;
+}
+
+footer {
+	box-sizing: border-box;
+	border-style: solid;
+	border-color: purple;
+	border-width: 2px;
+}
