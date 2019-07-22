@@ -6,5 +6,50 @@ light blue: #1c5380
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  background: url("../images/bgtile.png") repeat-x top;
+  background-color: #f5f7f9;
+}
+.container {
+  margin: 0 auto;
+  max-width: 800px;
+  border: 3px solid red;
+}
+h3 {
+  color: #06365f;
+  font-size: 1.8em;
+  width: 70%;
+  line-height: 1.3em;
+}
+.cellphone {
+  float: left;
+  width: 30%;
+}
+
+/* Main container */
+
+.description {
+  padding: 30px 90px;
+  background: url("../images/frame.png") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* Footer */
+
+footer ul {
+  display: flex;
+  flex-wrap: wrap;
+  color: #1c5380;
+  font-weight: 700;
+  justify-content: space-around;
+  list-style: none;
+  text-transform: uppercase;
+  font-size: 0.75em;
+  height: 40px;
+  align-items: center;
+}
+.copyrigth {
+  color: #cbcbcb;
 }
