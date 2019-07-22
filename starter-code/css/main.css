@@ -9,34 +9,42 @@ body {
   margin: 0;
 }
 
+.wrapper {
+	margin: 10% auto;
+	width: 60%;
+	display: grid;
+	grid-template-columns: 2fr 3fr;
+	grid-auto-rows:max-content;
+}
+
 .image-container {
 	box-sizing: border-box;
-	float: left;
-	display: inline-block;
-	width: 40%;
-	height: 768px;
 	border-style: solid;
 	border-color: red;
 	border-width: 2px;
+	align-items: center;
 }
 
-header {
-	width: 60%;
+.image-container img {
+	margin-left: 15%;
+}
+
+.text-container {
 	box-sizing: border-box;
-	float: right;
-	display: inline-block;
 	border-style: solid;
 	border-color: blue;
 	border-width: 2px;
+	overflow: hidden;
+  position: relative;
 }
 
 .information {
-	float: right;
-	width: 60%;
 	box-sizing: border-box;
 	border-style: solid;
 	border-color: green;
 	border-width: 2px;
+	height: 100%;
+	position: absolute;
 }
 
 .app-download {
@@ -44,6 +52,7 @@ header {
 	border-style: solid;
 	border-color: yellow;
 	border-width: 2px;
+	margin-bottom: 25%;
 }
 
 footer {
