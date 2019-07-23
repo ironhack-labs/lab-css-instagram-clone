@@ -21,65 +21,85 @@ body {
 }
 
 .image-container {
+	display: grid;
 	box-sizing: border-box;
 	border-style: solid;
 	border-color: red;
 	border-width: 2px;
-	align-items: center;
+}
+
+.image-container img {
+	align-self: center;
+  justify-self: center;
+	box-sizing: border-box;
+	border-style: solid;
+	border-color: red;
+	border-width: 2px;
 }
 
 .text-container {
+	display: grid;
+	grid-template-columns: 1 fr;
 	box-sizing: border-box;
 	border-style: solid;
 	border-color: blue;
 	border-width: 2px;
-	overflow: hidden;
-  position: relative;
+}
+
+.head {
+	display: grid;
+	grid-template-columns: repeat(2, [col] 1fr);
+	box-sizing: border-box;
+	border-style: solid;
+	border-color: grey;
+	border-width: 2px;
+	grid-auto-rows: (100px, auto);
 }
 
 .brand {
-	margin: 0 auto;
-	display: inline-block;
-	width: 50%;
+	grid-column: 1;
 	box-sizing: border-box;
 	border-style: solid;
 	border-color: yellow;
 	border-width: 2px;
+	margin: auto;
 }
 
 .login {
-	margin: 0 auto;
-	float: right;
+	margin: auto 0;
+	grid-column: 2;
 	box-sizing: border-box;
 	border-style: solid;
 	border-color: yellow;
 	border-width: 2px;
-	width: 50%;
-	height: auto;
+	/*height: auto;*/
 }
 
-.login .login-btn {
-	background-image: url('../images/home.png') no-repeat;
-	width: 30%;
-	float: center;
+.login a {
+	background-image: url('../images/home.png');
+	width: 100%;
+	text-size: 10em;
 	color: white;
 	text-align: center;
   text-decoration: none;
-  display: block;
+  /*display: block;*/
   border: 2px solid rgba(0, 0, 0, 0.2);
 }
 
-#clear {
-    clear: both;
-}
-
 .information {
+	background-image: url("../images/frame.png");
+	background-size: cover;
 	box-sizing: border-box;
 	border-style: solid;
 	border-color: green;
 	border-width: 2px;
-	height: 100%;
-	position: absolute;
+	/*height: 100%;
+	position: absolute;*/
+}
+
+.info-container{
+	width: 60%;
+	margin-left: 5%;
 }
 
 .app-download {
@@ -87,7 +107,7 @@ body {
 	border-style: solid;
 	border-color: yellow;
 	border-width: 2px;
-	margin-bottom: 0%;
+	/*margin-bottom: 0%;*/
 }
 
 footer {
