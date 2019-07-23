@@ -8,6 +8,8 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
   padding: 0;
+  position: fixed;
+  /* background-color: pink; */
 }
 
 .main-div {
@@ -16,17 +18,19 @@ body {
   justify-content: center;
   align-items: center;
   padding: 2em 10em;
+  background-image: linear-gradient(rgb(18, 86, 136) , white);
 }
 
 .main-img-content {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 60%;
 }
 
 .main-img-content {
   padding: 1em 0 1em 1em;
-  width: 90%;
+  width: 60%;
 }
 
 .content {
@@ -35,30 +39,61 @@ body {
   justify-content: center;
   align-content: stretch;
   align-items: stretch;
-  height: 30em; 
+  height: 30em;
 }
 
 .content-header {
-  /* margin: -3em 0em 0em 0em; */
+  margin: 0 3em;
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
+  width: 90%;
 }
 
-.content-header img{
+.content-header img {
   margin-left: 1em;
   /* margin-top: -2em; */
 }
 
+.content-header button {
+  background-color: rgb(18, 86, 136);
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  text-align: center;
+  font-size: 17px;
+  cursor: pointer;
+  margin-right: 3.5em;
+  border-radius: .25em;
+}
+
 .content-body {
-  padding: 0em 5em;
   background: url("../images/frame.png") no-repeat center center;
+  margin: auto;
+  width: 85%;
+}
+
+.content-body h2{
+  color: rgb(18, 86, 136);
+  padding: 2em 2em;
+  width: 75%;
+  margin: 0;
+}
+
+.content-body p{
+  padding: 0 3em;
+  margin: 0;
 }
 
 .content-bottom {
-  padding: 1.5em 4em 0em;
+  padding: 2em 5em;
+  border: 1em;
 }
 
 .content-bottom span:first-child{
   margin-right: 1em;
+}
+
+.main-directory {
+  color: rgb(18, 86, 136);  
 }
