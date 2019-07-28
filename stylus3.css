@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between; /*manda los elementos a los lados*/
+    background-color: #81d4fa;
+    padding: 2%;
+    color: white;
+}
+.header__nav {
+    width: 25%;
+}
+.header__nav .links__container{
+    display: flex;
+    list-style: none;   
+    justify-content: space-around; /* todos los elementos se distribuyen equitativamente*/
+    flex-direction: row;
+}
+
+@media screen and (max-width: 700px) {
+    .header {
+        background-color: green;
+    }
+    
+}
+@media screen and (max-width: 400px) {
+    .header {
+        background-color: #039be5;
+    }
+    
+}
