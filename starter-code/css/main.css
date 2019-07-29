@@ -1,63 +1,83 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
-* {
-  margin: 0;
-  padding: 0;
-}
 body {
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
- 
-  background-image: url(/Users/chanty/Desktop/lab-CSS-instagram/lab-css-instagram-clone/starter-code/images/bgtile.png);
-background-repeat: repeat-x;
-justify-content: center;
-padding-top: 80px;
+  background-position: fixed;
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  justify-content: center; /*centers items on the line (the x-axis by default)*/
+  align-items: center;
 }
 
-main {
-  width: 1200px;
+.phone {
+  float: left;
+  padding: 90px;
+}
+
+.left {
   display: flex;
+  justify-content: center;
+  padding-bottom: 0px;
+}
+.container {
+  padding-top: 30px;
+  padding: 30px;
+  width: 400px;
+}
+.right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 450px;
+}
+
+.login {
+  display: flex;
+  background-image: linear-gradient(#1c5380, white);
+  align-items: center;
   justify-content: space-around;
-  flex-wrap: wrap;
+  width: 100px;
+  height: 30px;
+  border-style: solid;
+  border-color: #1c5380;
+  font-weight: bold;
+  border-width: 2px;
+  color: white;
 }
 
-.img {
-  size: 20vw;
-  display: flex;
-  flex-wrap: wrap;
-  height: 400px;
-  align-content: space-between;
+.frame {
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  width: 450px;
 }
 
+h2 {
+  padding-top: 10px;
+  padding-left: 20px;
+  color: #06365f;
+}
 
-.content {
-  margin: auto;
-  border: 5px solid black;
-  display: flex;
-  flex-wrap: wrap;
-  height: 400px;
-  align-content: space-between;
-  
+p {
+  padding-left: 20px;
+}
+
+.appstore {
+  padding-left: 20px;
+}
+
+.googleplay {
+  padding-left: 20px;
 }
 
 .footer {
-  border: 5px solid red;
-  height: 100px;
-  box-sizing: border-box;
   display: flex;
-  flex-wrap: nowrap;
-  justify-content: center;
+  color: #1c5380;
+  align-content: space-between;
 }
-
-.AboutUS {
-  list-style: none;
-  padding: 5px;
-  margin: 10px;
-  font-size: 1em;
-align-items: 
-  color: #06365f;
-  justify-content: center;
+li.AboutUS {
+  list-style-type: none;
+  align-content: space-between;
 }
