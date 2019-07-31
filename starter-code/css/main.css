@@ -3,9 +3,196 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  margin: 0; 
 }
+
+.seccion1 {
+  height: 300px;
+  background-color: #06365f;
+  padding-top: 3%;
+   
+  /* display: block; */
+  /* display: contents; */
+  /* display: flex; */
+  /* display: flexbox; */
+  /* display: flow-root; */
+  /* display: grid; */
+  /* display: inherit; */
+  /* display: inline; */
+  /* display: inline-block; */
+  /* display: none; */
+  /* display: ruby; */
+  /* display: table; */
+  /* display: unset; */
+  /* display: -webkit-flex */
+  display: flex;
+  justify-content: space-around; 
+  align-items: flex-start;
+  /* display:flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+align-content: center; 
+align-content: flex-start;
+align-items: center; */
+}
+.imgefecto{
+  animation: crece 5s infinite;
+}
+.boton {
+  padding: 10px 20px;
+  box-shadow: 0px 0px 5px #3F6587;
+  background-image: linear-gradient(180deg, #477298 0%, #7295B3 100%);
+  border: 1px solid #335F86;
+  border-radius: 5px;
+  color: white;    
   
+  
+}
+.boton:hover {
+  cursor: pointer;
+}
+
+.seccion2 {
+  /* height: 250px;
+  width: 250px;
+  background-color: red; */
+  /*
+  padding-top: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;  */
+}
+.seccion2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: right; 
+  padding-left: 60%;
+  padding-right: 18%;  
+}
+h2 {
+  color: #1c5380;
+  animation: 3s infinite alternate;
+}
+article{
+  text-align: justify;
+  
+}
+.division2 >.botones{
+  display: flex;
+  flex-direction: row;
+  padding-top: 5%;
+}
+.seccion3 {
+  padding-top: 2%;
+
+}
+ol {
+  text-align: center;
+}
+li {
+  display: inline;
+  padding: 0 10px;
+  color: #6d8fad;
+  font-weight: bold;
+  font-size: 14px;
+  align-items: center;
+}
+
+ol :last-child {
+  padding: 0 15px;
+  color: #aeaeaf; 
+  
+}
+
+@keyframes crece {
+  0.5% {
+      transform: scale(2);
+  }
+  1% {
+      transform: scale(8);
+  }
+  1% {
+      transform: scale(0);
+  }
+}
+/* animación de Mario Bross */
+.mario{
+  background: #000;
+  width: 168px;
+  margin: 0 auto;
+  
+}
+.rotate{
+  background: url('https://martindrapeau.github.io/backbone-game-engine/docs/super-mario-sprite.png') 0 0 no-repeat; 
+  width: 32px;
+  height: 68px;
+  margin: auto;
+  float: left;
+}
+
+.clockwise, .anticlockwise{
+  color: #000;
+  cursor: pointer;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.clockwise{
+  float: right;
+}
+
+.clockwise:hover ~ .rotate{
+  animation: rotate-clockwise 6s steps(21) infinite;
+}
+
+.auto{
+  margin-top: 40px;
+}
+
+.auto:checked ~ .rotate{
+  animation: rotate-clockwise 6s steps(21) infinite;
+}
+
+.auto:checked ~ .clockwise{
+  color: #fff;
+}
+
+.auto:checked ~ .anticlockwise{
+  color: #fff;
+}
+
+
+.anticlockwise:hover ~ .rotate{
+  animation: rotate-anticlockwise 6s steps(21) infinite;
+}
+
+.auto{
+  display: inline-block;
+  margin-left: 0;
+}
+
+.auto-rotate{
+  color: #333;
+  font-weight: bold;
+  font-family: sans-serif;
+  clear: both;
+}
+
+@keyframes rotate-clockwise {  
+  0% {background-position: 0 0; } 
+  100% {background-position: -672px 0; } 
+}
+
+@keyframes rotate-anticlockwise {  
+  0% {background-position: -672px 0; }
+  100% {background-position: 0 0; } 
+}

@@ -21,15 +21,21 @@
     flex-direction: row;
 }
 
+@media screen and (max-width: 1200px) {
+    .header {
+        background-color: #e50303;
+        }
+ } 
 @media screen and (max-width: 700px) {
     .header {
-        background-color: green;
+        background-color: rgb(17, 1, 1);
     }
-    
 }
-@media screen and (max-width: 400px) {
+
+@media screen and (max-width: 320px) { /* Moviles  */
     .header {
-        background-color: #039be5;
+        background-color: #a9e503;
+        
     }
     
-}
+} 

@@ -1,0 +1,84 @@
+*{
+  margin: 0; /* elimina los margenes por default de todo el cuerpo*/
+  padding: 0; /* elimina el padding por default de todo el cuerpo*/
+  box-sizing: border-box;  
+}
+
+main{
+    margin: 10% 5%;  
+    max-width: 1005;
+    display: flex;  
+}
+
+.btn-autline {
+    background: transparent;
+    border: 2px solid white;
+    padding: 2px 5px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 5px;
+    animation: corazon 3s infinite;
+}
+.btn-autline:hover { /*cursor de manita*/
+    cursor: pointer;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;   
+    background-color: rgba(0, 0, 0, .5);
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .3s ease;
+}
+
+/* .card__image:hover> img {
+    filter: blur(3px);
+} */
+.card__image:hover> .overlay { /*evento en padre y se lo da al hijo cardimage es padre y overlay es el hijo*/
+    opacity: 1;
+    visibility: visible;
+}
+.card {
+    width: 25%;
+    /* margin-right: 2%; */
+    height: 400px; /*El height no perjudica el reponsive*/
+    border-radius: 5px;
+    /* border: 1px solid grey; */
+    overflow: hidden;
+    display: inline-block;
+}
+
+.card:not(:last-child) { /*estamos diciendo en esta pseudo clase que solo se aplique al ultimo hijo*/
+    margin-right: 2%;
+
+}
+
+.card .card__image{
+    position: relative;
+    height: 290px;
+    overflow: hidden;
+    /* animation: corazon 3s infinite; */ /*Se le puede dar animación a toda la imagen. */
+}
+
+.card .card__image img { /*img esta indicando que quiere seleccionar la imagen. Solo hacer si esta dentro de card*/
+    width: 100%; /*Se pone 100% porque es el 25% de .card*/
+    height: auto;
+}
+
+@keyframes corazon {
+    0% {
+        transform: scale(2);
+    }
+    50% {
+        transform: scale(8);
+    }
+    50% {
+        transform: scale(0);
+    }
+}
