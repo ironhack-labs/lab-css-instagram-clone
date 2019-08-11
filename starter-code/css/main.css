@@ -8,3 +8,21 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+.background{
+}
+.container-first{
+  display: flex;
+  justify-content: center;
+  margin: 7% 16%;
+}
+.container-second{
+  display: flex;
+  flex-direction: column;
+}
+.frame{
+  background-image: url(/starter-code/images/frame.png);
+  background-image: no-repeat;
+  width: 61%;
+  height: 600px;
+}
+
