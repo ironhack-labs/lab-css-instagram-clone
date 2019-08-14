@@ -1,10 +1,126 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
+/* CSS Variables */
+:root {
+  --darkBlue: #06365f;
+  --darkBlueTrans: rgb(6, 54, 95, 0.5);
+  --lightBlue: #1c5380;
+  --grey: #4b4b4b;
+  --buttonGradient: #6b90af, #477398;
+}
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 200 16px/1.5 'Helvetica Neue', Helvetica, Arial, sans-serif;
   margin: 0;
+  -webkit-font-smoothing: antialiased;
+  background: url('../images/bgtile.png');
+  background-repeat: repeat-x;
+  min-height: 100vh;
+}
+
+/* Main (CSS grid) */
+
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  padding: 6rem 0 0 0;
+}
+
+/* Header (Flexbox && Flexboxception) */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+header .button {
+  background: linear-gradient(var(--buttonGradient));
+  border: 1px solid var(--darkBlueTrans);
+  padding: 8px 14px 8px 10px;
+  border-radius: 4px;
+  box-shadow: var(--darkBlue) 0 0 2px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  text-shadow: 0 1px 1px var(--darkBlue);
+}
+
+header .button img {
+  margin-right: 10px;
+}
+
+/* Box Info */
+
+article {
+  background-image: url('../images/frame.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 3rem;
+}
+
+h1 {
+  color: var(--darkBlue);
+  font-size: 1.75rem;
+  line-height: 1.25;
+  margin-bottom: 1.25rem;
+}
+
+p {
+  font-weight: 400;
+  margin-bottom: 1rem;
+  color: var(--grey);
+}
+
+article .stores {
+  margin-top: 2rem;
+}
+
+article .stores img {
+  margin-right: 1.5rem;
+}
+
+article .stores img:last-child {
+  margin: 0;
+}
+
+/* Footer */
+footer {
+  font-size: 0.825rem;
+  text-align: center;
+  margin: 2rem 0;
+}
+
+footer ul li {
+  list-style: none;
+  display: inline;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 0 0.75rem;
+}
+
+footer ul li a:first-child {
+  margin-left: 0;
+}
+
+footer ul li a:last-child {
+  margin-right: 0;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: var(--lightBlue);
+}
+
+footer ul li:last-child {
+  opacity: 0.325;
 }
