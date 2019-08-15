@@ -7,4 +7,48 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: "../images/bgtile.png";
+  background-repeat: no-repeat;
+  background-size: 100% 350px;
+  
+}
+
+section {
+  width: 35%;
+  padding-right: 26%;
+
+}
+
+#description {
+
+  background-image: "../images/frame.png";
+  background-repeat: no-repeat;
+  padding: 17px 20px;
+}
+
+#logos {
+  padding: 0 20px;
+}
+#logos > img {
+  margin: 0 10px;
+}
+
+footer {
+  clear: both;
+  text-align: center;
+  
+}
+ul {
+padding-top: 2%;
+}
+li {
+  display: inline;
+  text-transform: uppercase;
+  color: #1c5380;
+  font-weight: bold;
+  margin:0 10px;  
+}
+
+.copyright {
+  color: grey;
 }
