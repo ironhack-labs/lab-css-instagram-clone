@@ -7,4 +7,58 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  
+}
+
+.header {
+  display: block;
+  padding: 120px 0 0 50%;
+  background-color: #06365f;
+  height: 200px;
+}
+
+.header button{
+  background-color: #1c5380;
+  border-style: none;
+  color: white;
+  height: 2.1rem;
+}
+
+.simbol{
+  margin: 0 160px 0px -80px;
+}
+
+.contenedor{
+  display: flex;
+}
+
+.phone{
+  margin: -200px 2rem 80px 15rem;
+}
+.card{
+  background-image: url(../images/frame.png);
+  background-size: cover;
+  padding: 33px 60px 228px 60px;
+  width: 500px;
+  height: 0;
+  margin-top: -100px;
+}
+
+.footer{
+  text-align: center;
+}
+
+.footer p{
+  color: lightgrey;
+}
+
+.footer ul li{
+  list-style: none;
+  display: inline;
+  color: #1c5380;
+}
+
+h1{
+  width: 60%;
+  color: #06365f
 }
