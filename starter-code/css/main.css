@@ -8,3 +8,182 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+* {
+  outline: 0;
+}
+
+body {
+  background-color: white;
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  height: 100vh;
+  width: 100%;
+}
+
+h1 {
+  color: #06365f;
+  font-size: 24px;
+}
+
+.space {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.bg-blue {
+  background-color: #1c5380;
+  height: 40%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 0;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 60vh;
+  max-width: 760px;
+  position: relative;
+  z-index: 1;
+}
+
+.row-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 55%;
+}
+
+.info-imgs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 1.5%;
+}
+
+.instagram {
+  background-image: url('../images/brand.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 62px;
+  width: 256px;
+}
+
+.white-box {
+  background-image: url(../images/frame.png);
+  background-position: top;
+  background-size: 100%;
+  margin-top: 5%;
+  padding: 20px 30px;
+  border-radius: 4px;
+  flex-direction: column;
+  background-repeat: no-repeat;
+}
+
+.white-box p {
+  margin: 7% 0;
+  line-height: 1.6em;
+  font-size: 15px;
+}
+
+.big-image {
+  background-image: url('../images/phones.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 45%;
+  height: auto;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 67%;
+}
+
+.buttons img {
+  height: auto;
+  max-width: 47%;
+}
+
+button {
+  background-color: #5f8bb0;
+  background-image: url('../images/home.png');
+  background-position: 10px center;
+  background-repeat: no-repeat;
+  background-size: 25%;
+  border: none;
+  box-shadow: 1px 1px 4px 1px #1E5584;
+  border-radius: 2px;
+  font-size: 12px;
+  font-weight: bold;
+  text-indent: 26px;
+  color: white;
+  height: 38px;
+  width: 90px;
+}
+
+button:hover {
+  background-color: white;
+  color: #1E5584;
+  cursor: pointer;
+}
+
+nav {
+  margin-top: 2%;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+nav ul {
+  display: flex;
+  padding: 0;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  list-style-type: none;
+}
+
+nav ul li {
+  color: #a4a4a5;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+nav ul li:last-child {
+  color: #a4a4a5;
+  font-weight: bold;
+}
+
+nav ul li a {
+  font-size: 12px;
+  color: #5f8bb0;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
