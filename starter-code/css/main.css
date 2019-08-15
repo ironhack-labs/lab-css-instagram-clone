@@ -8,3 +8,69 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+h1 {
+  color: #06365f;
+}
+
+footer li a:link,
+footer li a:active,
+footer li a:visited,
+footer li a:hover {
+  color: #1c5380;
+  text-decoration: none;
+}
+
+footer li a:hover {
+  text-decoration: underline;
+}
+
+body {
+  background-image: url('../images/bgtile.png');
+  background-size: cover;
+}
+
+/* pseudo-element */
+body:before {
+  content: '';
+  display: block;
+  position: fixed;
+  top: 40vh;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  z-index: -1;
+}
+
+main, header, .mobile-badges, footer {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.description {
+  background-color: white;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
+}
+
+footer li {
+  display: inline-block;
+  list-style: none;
+  margin: 0;
+}
+
+/*
+body {
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+
+body {
+  background-color: lightblue;
+  color: white;
+}
+img{
+  float: left;
+  background-position: 0px
+}
+*/
