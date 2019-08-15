@@ -7,4 +7,151 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: linear-gradient(180deg, #1c5380 50%, white 50%)  ;
+  /*background-position: -100px 0 0 0 ;----tried to push up the color so 
+  it wouldn't be exactly the half, but didn't work */
+ 
+}
+
+a{
+  color:black;
+  text-decoration: none;
+}
+
+
+.container{
+  display:flex;
+  
+  position: relative;
+  padding:40px;
+  display: flex;   
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
+.top-elements{
+  position:relative;
+  display:flex;
+  
+}
+
+
+
+.logo{
+  display:inline-block;
+}
+
+
+
+.login{
+  display:inline-block;
+ 
+}
+
+#logo-pic{
+  width:200px;
+  margin-left:10%;
+  margin-top:20px;
+  margin-bottom:50px;
+  position:absolute;
+  
+}
+
+.login-font-color{
+  color:white;
+  background-color: #06365f;
+}
+#login-pic{
+  /*width:200px;
+  margin-left:20%;
+  margin-top:20px;
+  margin-bottom:50px;
+  position:absolute;*/
+  margin-top:32px;
+  margin-left:260px;
+  background-color: #06365f;
+
+}
+
+#instagram-photo{
+  display:inline-flex;
+  /*background-color:lightcoral;*/
+  display:block;
+  
+}
+
+#instagram-mobile{
+  margin:100px;
+}
+
+.about-title{
+  display:block;
+  position: absolute;
+  /*background-color:lightgreen;*/
+  color: #06365f;
+  max-width:300px;
+  margin-top:7%;
+
+  margin-left:5%;
+  
+}
+
+.style-info-text{
+  color:black;
+
+}
+
+
+
+.about-info{
+  width:70%;
+  display:block;
+  position: absolute;
+  /*background-color:lightblue;*/
+  margin-top:165px;
+  width:40%;
+  margin-left:5%;
+  margin-right:10%;
+
+}
+
+
+#instagram-info{
+  display:inline-flex;
+  /*background-color:lightslategray;*/
+  
+}
+
+.download-app{
+  position:relative;
+  display: flex;
+}
+
+#apple-badge{
+  display:inline-block;
+  margin-right:40px;
+
+}
+#google-badge{
+   display:inline-block;
+   
+}
+
+#more-resources-links{
+  display:block;
+  /*background-color:lightcyan;*/
+  color:#1c5380;
+  text-align:center;
+  height:80px;
+}
+
+.contact-link{
+  display:inline-block;
+  padding:10px;
+  font-size:0.8rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+span.gray{
+  color:gray
 }
