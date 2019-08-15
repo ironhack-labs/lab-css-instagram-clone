@@ -1,10 +1,98 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
+
+
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  font-family: 'Lexend Deca', sans-serif;
+  background-image: url('./../images/bgtile.png');
+  background-repeat: repeat-x;
+}
+
+#phone-image {
+  width: 400px;
+  margin-left: 27%;
+  float: left;
+}
+
+#phone-image img {
+  width: 290px;
+  margin-top: 100px;
+}
+
+#right-content {
+  margin-top: 120px;
+  width: 500px;
+  float: left;
+}
+
+#login {
+  margin-top: 5px;
+}
+
+button {
+  margin-top: 15px;
+  float: right;
+  background-color: #1c5380;
+  border-radius: 3%;
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: bold;
+  color: lightgrey;
+  text-align: center;
+}
+
+button a {
+  display: inline-block;
+}
+
+#description {
+
+  padding-top: 10px;
+  background-image: url("./../images/frame.png");
+  background-repeat: no-repeat;
+}
+
+#stores img {
+  margin: 2px 0 0 40px;
+  size: 90%;
+}
+
+#insta-logo {
+  width: 50%
+}
+
+#description h2 {
+  font-size: 20px;
+  color: #06365f;
+  margin: 25px;
+}
+
+#description p {
+  font-size: 14px;
+  color: #06365f;
+  margin: 25px;
+}
+
+#footer {
+  text-transform: uppercase;
+  margin-left: 240px;
+  margin-right: 160px;
+  clear: both;
+  padding: 20px;
+}
+
+ul {
+  list-style-type: none;
+  text-align: center;
+  overflow: hidden;
+}
+
+li {
+  color: #1c5380;
+  font-size: 12px;
+ 
+  display: inline-block;
+  margin: 0 10px;
+}
+
+#copyright {
+  color: lightgrey
 }
