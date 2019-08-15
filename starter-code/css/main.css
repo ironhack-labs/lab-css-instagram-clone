@@ -6,5 +6,81 @@ light blue: #1c5380
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;
+  height: auto;
 }
+
+.copyright {
+  color: grey
+}
+h1 {
+  font-size: 2.0rem;
+  color: #06365f;
+}
+
+#content {  
+  position: absolute;
+  margin: 0 auto;
+  display: inline;
+   }
+.instagram-header{
+  padding-bottom: 30px
+}
+
+
+main {
+  position: relative;
+  padding: 10px;
+  width: 100%;
+  height: 100vh;
+  }
+
+li {
+  list-style: none;
+  color: #06365f;
+  text-transform: uppercase;
+  display: inline;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  }
+
+  
+  #text-and-images {
+    position: relative;
+  }
+
+  .download {
+    padding-left: 50px;
+  }
+
+  .capture {
+    width: 450px;
+    background-image: url(../images/frame.png);
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 2px;
+  }
+
+  .text-info {
+    width: 480px;
+    height: auto;
+    padding: 10px;
+    position: relative;
+    
+  }
+
+
+  #footer {
+    top: 65%;
+    text-align: center;
+    padding-bottom: 20px; 
+    position: relative;
+
+  }
+  #footer a {
+    text-decoration: none;
+  
+  }
+
