@@ -8,3 +8,95 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.blue-rectangle {
+  width: 100%;
+  height: 320px;
+  background-color: #3b6f98;
+}
+
+.logo {
+  position: absolute;
+  top:22%;
+  left: 45.5%; 
+}
+
+.login {
+  position: absolute;
+  top: 24%;
+  left: 71%;
+  width: 85px;
+  height: 35px;
+  border: 1px solid black;
+  text-align: right;
+  color: white;
+  font-size: 1.1rem;
+  text-shadow: 2px 2px 5px black;
+  border-radius: 2px;
+  box-shadow: 1px 1px 3px black;
+  background-color: #4480af;
+}
+
+.login img {
+  position: absolute;
+right: 65%;
+top: 15%
+}
+
+.login p{
+  position: absolute;
+  top: -40%;
+  left: 40%;
+}
+
+.phones {
+  position: absolute;
+  display: flex;
+  box-flex: center;
+  padding-left: 20%;
+  top: 21%
+}
+
+h2{
+  color: #174568;
+}
+
+.content {
+  position: absolute;
+  float: right; 
+  background-repeat:no-repeat;
+  background-color: white;
+  background-size: 600px;
+  align-items: center;
+  padding: 30px;
+  top: 33%;
+  left: 45%;
+  width: 430px;
+  height: 360px;
+  text-align: left;
+  box-shadow: 0px 0px 5px black;
+  border-radius: 4px;
+}
+
+footer{
+  position: absolute;
+  top: 95%;
+  left: 22%;
+}
+footer a {
+  font-size: 0.8em;
+  padding: 20px;
+  color: #3b6f98;
+  align-items: space-evenly;
+  font-weight: bold;
+  text-decoration: none;
+  vertical-align: middle;
+}
+
+footer {
+  clear: both;
+  color: lightslategray;
+  position: absolute;
+  font-weight: bold
+}
+
