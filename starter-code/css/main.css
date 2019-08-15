@@ -4,7 +4,67 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+  margin-left: 100px;
+  margin-top: 80px;
+  
+  
 }
+.insta{
+  max-width: 900px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+
+
+.text1{
+  color: darkblue;
+}
+
+.bg{
+  max-width: 900px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 40% 60%; 
+}
+
+.fondoblanco{
+  background-image: url('../images/frame.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 3rem;
+}
+
+.footer ul li{
+    list-style: none;
+    display: inline;
+    
+    font-weight: 600;
+    margin: 0 0.75rem;
+  }
+  
+.button{
+  
+    background: linear-gradient(var(--buttonGradient));
+    border: 1px solid var(--darkBlueTrans);
+    padding: 8px 14px 8px 10px;
+    border-radius: 4px;
+    box-shadow: var(--darkBlue) 0 0 2px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    text-shadow: 0 1px 1px var(--darkBlue);
+  }
+
+  .button img{
+    margin-right: 10px;
+  }
