@@ -7,4 +7,84 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url('../images/bgtile.png');
+  background-repeat: repeat-x;
+}
+
+#most-great-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#great-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  width: 40%;
+  margin: 50px 20px;
+}
+
+#phone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#main-content h2{
+  color: #042D54;
+}
+
+#marca-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#cuadro {
+  background-image: url('../images/frame.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+.cuadro-content {
+  margin: 100px 50px;
+}
+
+footer {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+li {
+  color: #042D54;
+  font-size: 0.8em;
+  font-weight: 700;
+  display: inline;
+  list-style: none;
+  text-transform: uppercase;
+  margin: 0 5px;
+}
+
+.grey {
+  color: grey;
+}
+
+#button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #2f5575;
+  width: 100px;
+  color: white;
+  font-weight: 700;
+  border-radius: 5%;
+  background: linear-gradient(to bottom, grey, #2f5575)
 }
