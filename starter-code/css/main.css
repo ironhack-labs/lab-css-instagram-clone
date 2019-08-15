@@ -8,3 +8,148 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+#main{
+  background: linear-gradient(to bottom, #1c5380, #06365f 40%, white 40%, white 100%);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+#content{
+  width: 80%;
+  display: flex;
+  margin-top: 10%;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#phones {
+  width: 24%;
+  height: auto;
+  background-image: url('./../images/phones.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#text {
+  display:flex;
+  flex-direction:column;
+  width: 50%;
+  height: auto;
+}
+
+#header{
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  height: 70px;
+}
+
+#header > img {
+  width: 45%;
+}
+
+#header > button {
+  width: 100px;
+  height: 40px;
+  color: white;
+  background: linear-gradient(to bottom, #06365f, #1c5380);
+  border: 1px solid #1c5380;
+  border-radius: 5px;
+  display:flex;
+  align-items:center;
+  justify-content: space-around;  
+}
+
+#description{
+  width: 82%;
+  height: 50%;
+  background-image: url('./../images/frame.png');
+  background: size 100%;;
+  background-repeat: no-repeat;
+  padding: 10px 50px;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 24px;
+  color: #06365f;
+}
+
+#description > p {
+  line-height: 24px;
+}
+
+span {
+  font-weight: bold;
+}
+
+#footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 80%;
+  height: 100px;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+#footer > ul  > li {
+  list-style-type: none;
+  display: inline;
+  margin: 0 10px 0 0;
+}
+
+#footer > ul > li > a {
+  text-decoration: none;
+  font-weight: 600;
+}
+
+@media(max-width: 1300px){
+  #content{
+    width: 80%;
+    display: flex;
+    margin-top: 10%;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  #phones {
+    width: 28%;
+    height: auto;
+    background-image: url('./../images/brand.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #header{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+    height: 70px;
+  }
+  #phones {
+    width: 28%;
+    height: auto;
+    background-image: url('./../images/phones.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #header{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+    height: 70px;
+  }
+}
