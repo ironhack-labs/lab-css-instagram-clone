@@ -4,7 +4,92 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  padding: 0;
+}
+
+.main-container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  /* Background */
+  /* background-image: linear-gradient(tobo #1c5380, #1c5380); */
+  /* background: linear-gradient(to bottom, #06365f 0%, #06365f 50%, #06365f 50%, white 50%, white 100%); */
+  background: linear-gradient(to bottom, #4787bb 0%, #26445e 40%, white 40%, white 100%);
+}
+
+.secondary-container {
+  padding: 0 40px;
+}
+
+.pb-element {
+  padding-bottom: 45px;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  color: #06365f;
+}
+
+.btn {
+  padding: 10px 20px;
+  background: linear-gradient(#4787bb, #26445e);
+  border: 0.5px #26445e solid;
+  border-radius: 5px;
+  color: #a0c2dd;
+  font-weight: bold;
+  display: flex;
+}
+
+.btn img {
+  padding-right: 10px;
+}
+
+/* ======== Main Area ======== */
+
+.main-container .content {
+  display: flex;
+  justify-content: center;
+}
+
+.main-container .content .right .logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-container .content .right .main-content {
+  background: #fff;
+  border-radius: 5px;
+  max-width: 400px;
+}
+
+/* ======== Footer ======== */
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+footer nav ul {
+  display: flex;
+}
+
+footer nav ul li {
+  padding: 0 10px;
+  list-style: none;
+  font-weight: bold;
+}
+
+footer nav ul li a {
+  color: #1c5380;
 }
