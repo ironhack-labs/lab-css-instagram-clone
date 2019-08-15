@@ -20,20 +20,53 @@ h1 {
 }
 
 #content {  
-  position: absolute;
-  margin: 0 auto;
-  display: inline;
+  display: block;
+      width: 50%;
+      height: 100%;
+      float: left;
    }
 .instagram-header{
-  padding-bottom: 30px
+  padding-top: 30px;
+  padding-bottom: 30px;
+  position: relative;
+  
 }
 
 
+.button {
+  background-color: #06365f;
+  border: 1px solid #06365f;
+  padding: 8px 14px 8px 10px;
+  border-radius: 4px;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  position: absolute;
+  left: 380px;
+  
+}
+
+.button img {
+  margin-right: 10px;
+}
+
+
+
+#mobile-image {
+      display: block;
+      width: 40%;
+      height: 100%;
+      float: left; 
+      text-align: center;
+      padding-left: 90px;
+}
+
 main {
   position: relative;
-  padding: 10px;
+  padding-top: 50px;
   width: 100%;
-  height: 100vh;
+  height: calc(100vh - 160px);
   }
 
 li {
@@ -46,12 +79,7 @@ li {
   text-decoration: none;
   }
 
-  
-  #text-and-images {
-    position: relative;
-  }
-
-  .download {
+   .download {
     padding-left: 50px;
   }
 
@@ -60,23 +88,18 @@ li {
     background-image: url(../images/frame.png);
     background-repeat: no-repeat;
     position: relative;
-    padding: 2px;
+    padding: 30px;
   }
-
-  .text-info {
-    width: 480px;
-    height: auto;
-    padding: 10px;
-    position: relative;
-    
-  }
-
-
+.capture p {
+  line-height: 1.5em;
+}
+  
   #footer {
-    top: 65%;
     text-align: center;
+    padding-top: 20px;
     padding-bottom: 20px; 
-    position: relative;
+    clear: both;
+
 
   }
   #footer a {
