@@ -7,4 +7,69 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-color: white
+}
+
+#intro {
+  /*este es el padre*/
+  position: relative;
+  background-color:#3b5998;
+}
+
+/*<img src="images/bgtile.png" alt="encabezado"/>
+        <img src="images/bgtile.png" alt="encabezado"/>*/
+
+#encabezado {
+  position: absolute;
+  margin-top: -150px;
+  margin-left: 150px;
+}
+
+#instagram{
+  position: absolute;
+  margin-top: -100px;
+  margin-left: 650px;
+}
+
+#about{
+  
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 300px;
+}
+
+
+.contenedor{
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  float: right;
+  margin-right: 150px;
+}
+
+.texto-encima{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 10px 10px;
+  text-align: left;
+}
+
+.separador{
+  padding-right: 3px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.flex-container > div {
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
 }
