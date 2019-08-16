@@ -1,10 +1,128 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
-
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  padding: 0;
+}
+
+/* TOP BACKGROUND */
+
+.top-background {
+  width: 100%;
+  height: 40vh;
+  background: linear-gradient(to bottom, #557c9f, #06365f);
+}
+
+
+/* FOREGROUND */
+
+#foreground {
+  padding: 0 9% 4% 9%;
+
+  /*Push  content in the Foreground up*/
+  margin-top: -23vh;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/*Foreground Left Side*/
+
+#foreground>img {
+  width: 27%;
+  height: 27%;
+}
+
+/*Foreground Right Side*/
+
+#foreground-right {
+  width: 33vw;
+  padding-top: 1%;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.foreground-right-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.foreground-right-branding {
+  width: 50%;
+}
+
+.foreground-right-button {
+  width: 20%;
+  padding: 2%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  color: white;
+  font-size: 0.8rem;
+
+  background: linear-gradient(to bottom, #557c9f, #06365f);
+  border-radius: 4px;
+  border: none;
+}
+
+.foreground-right-button img {
+  width: 35%;
+}
+
+
+/* Info-Section */
+
+#info-section {
+  padding: 2% 5% 0 5%;
+  margin-top: 5%;
+
+  background-image: url("../images/frame.png");
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: contain;
+}
+
+#info-section h1 {
+  width: 60%;
+
+  color: #06365f;
+}
+
+.applestore {
+  padding-right: 20px;
+}
+
+
+
+/* FOOTER */
+
+#footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#footer ul {
+  display: flex;
+  justify-content: space-between;
+
+  width: 50vw;
+  padding-right: 4vw;
+
+  list-style: none;
+
+  color: #1c5380;
+}
+
+.copyright {
+  color: lightgray;
 }
