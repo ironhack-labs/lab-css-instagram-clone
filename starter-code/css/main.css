@@ -4,7 +4,116 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url(/images/bgtile.png);
+  background-repeat: no-repeat;
+  background-size: 100% 40%;
+  background-color: white;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+#phones {
+  height: 540px;
+}
+
+.landing-text {
+  margin-left: 50px;
+
+  width: 500px;
+}
+
+.logo-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  font-size: 0.9rem;
+  width: 90px;
+  height: 30px;
+  padding: 10px;
+  box-shadow: 0 0 3px 2px rgba(0, 0, 0, 0.2);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.1), #1c5380);
+}
+
+#login-home-icon {
+  height: 20px;
+}
+
+h1 {
+  color: #06365f;
+  font-size: 1.5rem;
+  width: 75%;
+}
+
+.landing-text p {
+  padding: 15px 0;
+}
+
+.intro-box {
+  margin: 30px 0;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-image: url(/images/frame.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  align-items: flex-start;
+}
+
+.download-buttons > img {
+  margin-right: 15px;
+  margin-top: 20px;
+}
+
+footer {
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  text-transform: uppercase;
+  align-items: center;
+  color: grey;
+}
+
+footer p {
+  font-size: 0.8rem;
+}
+
+footer a {
+  color: #06365f;
+  padding: 0 10px;
+  font-size: 0.8rem;
 }
