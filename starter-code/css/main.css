@@ -8,15 +8,17 @@ light blue: #1c5380
   padding: 0;
 }
 
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+
   background-image: url(../images/bgtile.png);
   background-repeat: repeat-x;
 }
 
 a {
-  color: #06365f;
+  color: #1c5380;
   text-decoration: none;
 }
 
@@ -26,61 +28,55 @@ img {
 
 
 .imgPhone {
-  width: 300px;
+  width: 350px;
 }
 
 .imgBrand {
-  width: 200px;
+  width: 300px;
 }
 
 .imgHome {
-  width: 30px;
-
-
+  width: 25px;
 }
 
 .imgIphone {
-  width: 100px;
+  width: 150px;
 }
 
 .imgAnd {
-  width: 100px;
+  width: 140px;
 }
 
 main {
   width: 100%;
   height: 100vh;
+
   display: flex;
   justify-content: center;
   align-items: center;
   justify-content: space-around;
   flex-direction: column;
-  border: 2px solid blueviolet;
+
+
 
 }
 
 #index {
   width: 70vw;
-  height: 60vh;
+  height: 70vh;
 
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
 
-  border: 2px solid blueviolet;
 }
 
-aside {
-
-  border: 2px solid yellow;
-
-}
 
 .content {
-  width: 40vw;
-  height: 55vh;
+  width: 35vw;
+  height: 60vh;
 
-  border: 2px solid green;
+
 }
 
 .logo {
@@ -90,32 +86,73 @@ aside {
 }
 
 button {
-  width: 6vw;
-  border-radius: 8px;
+  width: 100px;
+  height: 45px;
 
-  display: inline-block;
+  border-radius: 6px;
+  border: 0px;
+  background-color: #1c5380;
+  color: white;
+
+  font-size: 1rem;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
 
 }
 
-article {
+.frame {
+  width: 38vw;
   height: 40vh;
-  background-image: url(../images/frame.png);
-  background-size: cover;
-  background-position: center;
 
-  border: 2px solid palevioletred;
+  background-image: url(../images/frame.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: top;
+
+  display: flex;
+  justify-content: center;
+  align-content: center;
+
+
 }
+
+.text>h1 {
+  font-size: 1.7rem;
+  line-height: 30px;
+  color: #06365f;
+}
+
+.text {
+  width: 85%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+}
+
+
 
 
 .app {
-  width: 20vw;
+  width: 70%;
   height: 8vh;
+
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
-  border: 2px solid green;
+
 }
 
 footer {
-  border: 2px solid green;
+  width: 40vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 0.8rem;
+
 }
