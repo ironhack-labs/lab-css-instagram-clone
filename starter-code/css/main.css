@@ -6,5 +6,87 @@ light blue: #1c5380
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-image: url("/Users/Brais/code/ironhack/week1/day1/lab-css-instagram-clone/starter-code/images/bgtile.png");
+  background-repeat: repeat-x;
   margin: 0;
 }
+
+
+
+.body {
+  display: flex;
+  margin: 100px;
+}
+
+
+.section-left {
+  float: left;
+}
+
+.section-right {
+  float: right;
+  margin: 25px 100px;
+  margin-bottom: 0px;
+  width: 500px;
+}
+
+
+ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+}
+
+h1 {
+  color: #06365f;
+}
+
+li {
+  margin: 0 15px;
+}
+
+.download {
+  margin-top: 40px;
+}
+
+
+button {
+  background-color: #1c5380;
+  border-radius: 4px;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  border: 1px solid black;
+  padding: 5px 7px;
+  
+}
+
+button img {
+  padding-top: 3px;
+  margin-right: 8px;
+}
+
+.text-description {
+  background-image: url("/Users/Brais/code/ironhack/week1/day1/lab-css-instagram-clone/starter-code/images/frame.png");
+  background-repeat: no-repeat;
+  position: relative;
+  padding: 50px;
+}
+
+.footer {
+  padding: 50px;
+  padding-top: 0px;
+  font-weight: bold;
+  justify-content: center;
+  font-size: 12px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #1c5380;
+}
+
+.copyright {
+  color: gray;
+}
+
