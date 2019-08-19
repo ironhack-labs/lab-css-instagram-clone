@@ -4,7 +4,125 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  background: url('../images/bgtile.png') repeat-x;
+  margin-top: 100px;
 }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+  padding: 0px 10px;
+}
+
+h1 {
+  width: 314px;
+  height: 78px;
+  background: url('../images/brand.png') no-repeat;
+}
+
+h2 {
+  color: #06365f;
+  font-size: 1.8rem;
+  line-height: 2rem;
+  font-weight: bold;
+  width: 70%;
+  margin-bottom: 20px;
+} 
+
+h1 span, .btn span {
+  display: none;
+}
+
+
+footer, footer ul {
+  display: flex;
+}
+
+footer {
+    justify-content: center;
+    font-size: .8rem;
+    margin-top: 20px;
+}
+  footer nav a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #1c5380;
+    font-weight: bold;
+    margin-right: 15px;
+  }
+    footer nav a:hover {
+      text-decoration: underline;
+    }
+  footer span {
+    margin-left: 15px;
+    color: #aaa;
+    font-weight: bold;
+  }
+
+.container {
+  width: 850px;
+  margin: 0px auto;
+  
+}
+.row-top {
+  display: flex;
+  justify-content: space-between;
+}
+  .row-top a {
+    align-self: center;
+    text-decoration: none;
+    background: url('../images/bgtile.png') repeat-x;
+    border-radius: 2px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,1);
+    background-size: cover;
+    text-shadow: 0px 0px 1px #000;
+    color: #fff;
+  }
+  .row-top a span {
+    display: block;
+    padding: 10px 8px 8px 40px;
+    background: url('../images/home.png') no-repeat center left 7px;   
+  }
+
+.main-content {
+  width: 504px;
+  background: url('../images/frame.png') no-repeat;
+  padding: 40px;
+}
+  .main-content p {
+    margin: 15px 0;
+  } 
+  .main-content p span{
+    font-weight: bold;
+  } 
+
+.btn {
+  height: 51px;
+  display: inline-block;
+  margin-top: 20px;
+  cursor: pointer;
+}
+  .btn.apple {
+    background: url('../images/badge-iphone.png') no-repeat;
+    width: 164px;
+    margin-right: 15px;
+  }
+  .btn.google {
+    background: url('../images/badge-android.png') no-repeat;
+    width: 153px;
+  }
+
+
+
+
+
+
+
+
