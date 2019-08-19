@@ -15,8 +15,22 @@ body {
   margin: 0;
 }
 
+aside {
+  float: left;
+  margin-left: 150px;
+}
+
 section {
   display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.logo {
+  float: right;
 }
 
 h1 {
@@ -35,10 +49,6 @@ button {
   width: 504px;
   background-image: url("../images/frame.png");
   background-repeat: no-repeat;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
   padding: 35px;
 }
 
@@ -47,6 +57,7 @@ button {
 }
 
 footer {
+  clear: both;
   display: flex;
   justify-content: center;
   flex-direction: row;
