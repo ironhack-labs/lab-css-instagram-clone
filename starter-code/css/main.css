@@ -4,7 +4,212 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
-body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,700&display=swap');
+
+/* Basic reset */
+
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: #F8F8F8;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+.header {
+  background-image: url('./../images/bgtile.png');
+  background-repeat: repeat-x;
+  height: 280px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: inset 0 -40px 30px rgba(0, 0, 0, .15);
+}
+
+.header > div {
+  text-align: center;
+}
+
+.button {
+  padding: 0.5rem;
+}
+
+.button--login {
+  display: inline-flex;
+  align-items: center;
+  background-image: linear-gradient(to bottom, #698ead, #4a759a);
+  box-shadow: 0 0 4px rgba(0, 0, 0, .35);
+  border-radius: 3px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.button--login img {
+  margin-right: .5rem;
+}
+
+.section--left {
+  display: none;
+}
+
+.section--right {
+  padding: 2rem;
+}
+
+.section--right .title {
+  color: #06365f;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+.section--right .text {
+  color: #888888;
+  margin-bottom: 0.75rem;
+}
+
+.downloads {
+  padding-top: 1rem;
+}
+
+.downloads__link {
+  display: inline-block;
+}
+
+.downloads__link:first-child {
+  margin-right: 1rem;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-nav__list {
+  display: flex;
+  list-style-type: none;
+}
+
+.footer-nav__list li {
+  margin-right: 1rem;
+}
+
+.footer-nav__list a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: .8rem;
+  color: #1c5380;
+}
+
+.copyright {
+  color: #AAAAAA;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: .8rem;
+}
+
+/* Untill the viewport has a tablet size, all the content is centered
+and the phones are not shown */
+
+@media screen and (max-width: 768px) {
+
+  .section--right {
+    background-color: #FFFFFF;
+    max-width: 504px;
+    width: 90%;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .35);
+    margin-bottom: 2rem;
+    margin: auto;
+  }
+}
+
+/* Change the white background to the faded image.
+Also the right section keeps centered and has a
+max width of 504px (faded image's width) */
+
+@media screen and (min-width: 768px) {
+
+  .section--right {
+    background-image: url('./../images/frame.png');
+    background-repeat: no-repeat;
+    width: 504px;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+
+  .main {
+    margin-top: 2rem;
+  }
+
+  .brand {
+    display: block;
+    margin-bottom: 2rem;
+  }
+  
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+  }
+
+  .footer-nav__list {
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+    justify-content: center;
+  }
+}
+
+/* New layout. The phones appear and are positioned to the
+left of the screen. On the right, is the main content. */
+
+/* The div inside the header now has a 50% of margin left. */
+
+/* The brand push the Log in button to the right. */
+
+/* The main has display flex and a negative margin top, so the
+margin left section. */
+
+@media screen and (min-width: 1024px) {
+
+  .header > div {
+    margin-left: 50%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+  }
+
+  .brand {
+    margin-bottom: 0;
+    margin-right: 5rem;
+  }
+
+  .main {
+    display: flex;
+    align-items: flex-start;
+    margin-top: -80px;
+    margin-bottom: 3rem;
+  }
+
+  .section--left {
+    display: block;
+    width: 50%;
+    text-align: right;
+    padding-right: 4rem;
+    margin-top: -140px;
+  }
 }
