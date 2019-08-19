@@ -8,3 +8,106 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.background-header {
+  height: 230px;
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat;
+  background-size: contain;
+}
+
+.fixed-body{
+  position: fixed;
+  top: 62px;
+  width: 100%;
+}
+
+.wrap{
+  height: 288px; 
+  width: 800px;
+  margin: auto;
+}
+
+.wrap-photo{
+  float: left;
+  width: 45%;
+}
+
+.wrap-photo img{
+  width: 90%;
+}
+
+.wrap-info{
+  float: left;
+  width: 55%;
+  height: 100%;
+}
+
+.wrap-info-header{
+  padding: 35px 0 15px 0;
+}
+
+.wrap-info-header img{
+  max-width: 60%;
+}
+
+.wrap-info-header-button{
+  float: right;
+  margin-top: 7px;
+  width: 120px;
+  border: 1px solid #06365f;
+  box-shadow: 0px 0px 4px #06365f;
+  background:#1c5380;
+  padding: 5px 10px;
+  color: white;
+  line-height: 35px;
+  font-size: 16px;
+}
+
+.wrap-info-header-button img{
+  height: 16px;
+  margin-right: 3px;
+}
+
+.wrap-info-content{
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 30px;
+}
+
+.wrap-info-content h1{
+  margin-top: 0px;
+  color: #06365f;
+}
+
+.wrap-info-content p{
+  font-size: 14px;
+}
+
+.wrap-info-content-stores img{
+  width: 45%;
+  margin-right: 15px;
+}
+
+.background-footer{
+  position: fixed;
+  bottom: 0px;
+  height: 120px;
+  width: 100%;
+  text-align: center;
+}
+
+.footer-button{
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+  color: #1c5380;
+  margin: 0px 10px;
+}
+
+.footer-copy{
+  text-transform: uppercase;
+  font-weight: bold;
+  color: gray;
+}
