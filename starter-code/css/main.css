@@ -31,7 +31,7 @@ section {
 
 .logo {
   float: right;
-} 
+ }
 
 h1 {
   color: #06365f;
@@ -46,10 +46,17 @@ button {
 
 .container {
   height: 300px;
-  width: 504px;
+  width: 480px;
   background-image: url("../images/frame.png");
   background-repeat: no-repeat;
-  padding: 35px;
+  padding-top: 30px;
+  padding-left: 40px;
+  padding-bottom: 20px;
+  padding-right: 10px;
+}
+
+.container p {
+  margin-right: 50px;
 }
 
 .bold {
