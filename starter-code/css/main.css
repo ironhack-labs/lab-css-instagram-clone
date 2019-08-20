@@ -7,14 +7,15 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
-  background-image: url("./images/bgtile.png");
+  background-image: url("./../images/bgtile.png");
   background-repeat: repeat-x;
+  background-size: 1.4px;
 }
 
 .content {
   width: 1000px;
   margin: 200px auto;
-  display: flex
+  display: flex;
 
 }
 
@@ -33,19 +34,37 @@ body {
   display: flex;
 }
 
+.frame {
+  background-image: url(./../images/frame.png);
+  background-size: 500px 400px;
+}
+
 .text {
   margin: 20px;
 }
 
 .text h2 {
   font-weight: bold;
-  font-size: 30px;
+  font-size: 23px;
   color: rgba(52, 99, 193, 1.0);
-  line-height: 40px;
-  letter-spacing: 4px;
-  margin-bottom: 20px
+  line-height: 30px;
+  letter-spacing: 3px;
+  padding: 30px 0 0 20px;
+  margin-bottom: 20px;
 }
 
+.text p {
+  padding: 0 20px;
+  line-height: 30px;
+  padding: 30px 0 0 20px;
+  margin-bottom: 20px;
+  color: black;
+}
+
+p span {
+  font-weight: bold;
+  color: black;
+}
 .log-in{
   position: absolute;
   top: 20px;
@@ -61,7 +80,12 @@ body {
 .button {
   width: 100px;
   height: 40px;
+  line-height: 40px;
 
+}
+
+.buttons {
+  padding: 0 35px;
 }
 
 footer {
