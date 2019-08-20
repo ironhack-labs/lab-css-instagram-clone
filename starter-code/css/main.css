@@ -11,7 +11,7 @@ body {
 
 .container {
  background-image: url(./../images/bgtile.png);
- background-repeat: repeat;
+ background-repeat: repeat-x;
 }
 
 .phones {
@@ -20,6 +20,7 @@ body {
   width: 320px;
   /* border: 1px solid black; */
   margin-left: 300px;
+  margin-top: 17px;
 }
 
 .content {
@@ -28,17 +29,31 @@ body {
   background-repeat: no-repeat;
   margin-left: 700px;
   padding: 10px;
+  margin-top: 100px;
 }
 
 .content button {
   background-color: #1c5380;
   background-image: url(./../images/home.png);
   background-repeat: no-repeat;
-  border-radius: 1px;
+  border-radius: 2px;
+  border-color: #06365f;
+  width: 100px;
+  height: 40px;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 15px;
 }
 
 .back {
   background-image: url(./../images/frame.png);
+}
+
+.title {
+  width: 400px;
+  overflow-wrap: break-word;
+  padding-left: 10px;
 }
 
 .content h1 {
@@ -48,7 +63,13 @@ body {
 }
 
 .content p {
-  padding: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.badges {
+  margin-left: 70px;
+  margin-top: 15px;
 }
 
 .content span {
