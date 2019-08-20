@@ -52,7 +52,7 @@ body {
 
  }
  header a {
-  background: linear-gradient( #06365f, #1c5380);
+  background: linear-gradient(to bottom, #1c5380, #103e63);
   color: white;
   width: 80px;
   text-decoration: none;
