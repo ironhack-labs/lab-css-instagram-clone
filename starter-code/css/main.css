@@ -3,8 +3,42 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+* {
+  box-sizing: border-box;
+}
 
+html {
+font-size: 10px;
+
+}
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url("./../images/bgtile.png");
+  background-repeat: repeat-x;
+ 
+  
+
 }
+h1 {
+  font-family: "Lato", sans-serif;
+  color: #06365f;
+}
+nav-bar {
+  text-transform: uppercase;
+  color: #1c5380;
+}
+footer {
+  text-transform: uppercase;
+  color: #bec0c2;
+
+}
+.block {
+  margin-top: 200px;
+  margin-bottom: 200px;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
+  text-align: center;
+}
+
+header 
