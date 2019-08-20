@@ -49,6 +49,11 @@ li {
   margin-top: 40px;
 }
 
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: left;
+}
 
 button {
   background-color: #1c5380;
@@ -58,8 +63,10 @@ button {
   font-size: 12px;
   border: 1px solid black;
   padding: 5px 7px;
-  
+  margin-left: 20px;
 }
+
+
 
 button img {
   padding-top: 3px;
@@ -70,7 +77,8 @@ button img {
   background-image: url("/Users/Brais/code/ironhack/week1/day1/lab-css-instagram-clone/starter-code/images/frame.png");
   background-repeat: no-repeat;
   position: relative;
-  padding: 50px;
+  padding: 10px 50px;
+  
 }
 
 .footer {
@@ -90,3 +98,6 @@ button img {
   color: gray;
 }
 
+.strong-words {
+  font-weight: bold;
+}
