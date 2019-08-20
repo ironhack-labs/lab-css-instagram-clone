@@ -3,8 +3,115 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;
+  max-width: 100rem;
+}
+.superior {
+  display: flex;
+  margin-top:9rem;
+}
+
+.box-phones {
+  width: auto;
+  padding: 0 10rem;
+}
+
+.top-bar {
+  display: flex;
+  margin-top: 1rem;
+  box-align: center;
+}
+
+.box-brand img{
+  height: 7rem;
+}
+
+.box-button{
+  width: 19rem;
+  vertical-align: center
+}
+.box-button a{
+  float: right;
+  width: 14rem;
+  height: 5rem;
+  padding:1rem;
+  margin: 1rem 0 0 1rem;
+  font-weight: bold;
+  font-size: 2rem;
+  background-color: #6a8ead;
+  color: white;
+  border-color: #4e7698;
+  border-width: 0.01rem;
+  text-decoration: none;
+}
+
+.description {
+  background-image: url(../images/frame.png);
+  background-size: cover;
+  padding: 4rem;
+}
+
+.tittle-2 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #06365f;
+  margin-bottom: 2rem;
+  width: 78%;
+}
+
+.text-description {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.text-description span {
+  font-weight: bold;
+}
+
+.badges {
+  display: flex;
+  widows: 30%;
+}
+
+.badges img{
+  height: 4rem;
+  width:12rem;
+}
+.iphone{
+  margin-left: 4rem;
+}
+
+.android{
+  margin-left: 4rem;
+}
+
+footer{
+  display:flex;
+  margin: 8rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.list-links{
+  display:flex;
+}
+
+.link{
+  text-decoration:none;
+  margin: 0 1rem;
+  color: #1c5380;
+}
+
+.copyright{
+  color: grey;
 }
