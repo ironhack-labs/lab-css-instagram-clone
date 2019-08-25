@@ -7,8 +7,71 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
 
+.blue-header{
+  width: 100%;
+  height: 230px;
+  position: absolute
+}
 
+.blue-header img{
+  position: absolute;
+  padding: 80px 0 0 545px;
+}
+
+.log-in{
+  display: block;
+  float: right;
+  font-size: 20px;
+  color: white;
+  position: absolute;
+  top: 85px;
+  right: 210px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: 1px solid silver;
+  border-radius: 4px;
+}
+.home img{
+  width: 30px;
+  vertical-align: middle;
+  padding-right: 15px;
+}
+.phone-image{
+  padding-left: 110px;
+	padding-top: 55px;
+	position: absolute;
+}
+.background-image{
+  position: absolute;
+	width: 630px;
+	padding-top: 165px;
+	padding-left: 540px
+}
+.text h2{
+  color: #06365f;
+	font-style: bold;
+	position: absolute;
+	left: 590px;
+	top: 190px;
+}
+.text p{
+  width: 550px;	
+	font-size: 1.1em;
+	left: 590px;
+	position: absolute;	
+	top: 290px;
+}
+.badges{
+  position: absolute;
+	left: 590px;
+	bottom: 70px;
+}
+.badges img{
+  width: 200px;
+	height: 60px;
+	padding-right: 40px;
 }
 .div section{
   background-color: #1c5380;
@@ -20,22 +83,30 @@ body {
 }
 
 .nav-bar-ul {
-  margin: 0 auto;
-  width: 1200px;
-  display: flex;
-  justify-content: space-evenly;
+  position: relative;
+	padding-left: 250px;
+	padding-top: 10px;
 }
 .nav-bar-item {
   color: #1c5380;
   text-decoration: none;
 }
 .nav-bar ul li {
-  float: center;
+  margin-left: 10px;
+  position: relative;
+  display: inline;
   list-style-type: none;
-  text-align: center;
-  width: 33%;
+  color: #1c5380;
+  font-size: 18px;
+  font-weight: bold;
+  top: 570px;
 }
 
 h2{
   color:#06365f;
+}
+
+header{
+  height: 280px;
+  background: url(../images/bgtile.png);
 }
