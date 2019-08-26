@@ -4,7 +4,109 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
-body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+* {
+  font: 200 16px/1.5 'Helvetica Neue', Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+#whole {
+  margin: 0;
+  background: linear-gradient(#5091c5, rgb(50, 84, 114));
+  height: 335px;
+  width: 100vw;
+  position: relative;
+}
+
+#white {
+  margin: 0;
+  background: white;
+  top: 0;
+  height: 300px;
+  width: 100vw;
+}
+
+#square {
+  height: 600px;
+  width: 80vw;
+  position: absolute;
+  left: 13%;
+  top: 150px;
+  position: relative;
+}
+
+#square span {
+  position: absolute;
+  left: 35.5%;
+  top: 0;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  display: flex;
+  width: 685px;
+  align-items: center;
+}
+
+button {
+  width: 130px;
+  height: 50px;
+  justify-content: space-around;
+  display: flex;
+  background-color: #4481b3;
+  border-radius: 2px;
+  border: 2px solid #06365f;
+  color: aliceblue;
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 500;
+}
+
+#mainBox {
+  background: white;
+  top: 110px;
+  left: 400px;
+  height: 400px;
+  width: 600px;
+  position: absolute;
+  padding: 40px;
+  border-radius: 5px;
+}
+
+#mainBox h2 {
+  font-size: 40px;
+  font-weight: 500;
+  color: #06365f;
+  height: 150px;
+}
+
+#mainBox p {
+  font-size: 25px;
+}
+
+#white span ul {
+  list-style: none;
+}
+
+#imagenes {
+  justify-content: flex-start;
+  margin-top: 50px;
+  display: flex;
+  width: 390px;
+}
+
+section div > img:first-child {
+  margin-right: 20px;
+}
+
+footer {
+  align-items: center;
+  align-content: center;
+}
+
+footer div {
+  margin-top: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: space-between;
+  width: 1600px;
+  height: 50px;
 }
