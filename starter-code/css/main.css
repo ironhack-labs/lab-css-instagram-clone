@@ -1,36 +1,125 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
+:root {
+  --darkBlue: #06365f;
+  --darkBlueTrans: rgb(6, 54, 95, 0.5);
+  --lightBlue: #1c5380;
+  --grey: #4b4b4b;
+  --buttonGradient: #6b90af, #477398;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 200 16px/1.5 'Helvetica Neue', Helvetica, Arial, sans-serif;
   margin: 0;
+  -webkit-font-smoothing: antialiased;
+  background: url('../images/bgtile.png');
+  background-repeat: repeat-x;
+  min-height: 100vh;
+}
+
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  padding: 6rem 0 0 0;
+}
+
+/* Header (Flexbox && Flexboxception) */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+header .button {
+  background: linear-gradient(var(--buttonGradient));
+  border: 1px solid var(--darkBlueTrans);
+  padding: 8px 14px 8px 10px;
+  border-radius: 4px;
+  box-shadow: var(--darkBlue) 0 0 2px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  text-shadow: 0 1px 1px var(--darkBlue);
+}
+
+header .button img {
+  margin-right: 10px;
+}
+
+/* Box Info */
+
+article {
+  background-image: url('../images/frame.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 3rem;
 }
 
 h1 {
-  color: #06365f;
+  color: var(--darkBlue);
+  font-size: 1.75rem;
+  line-height: 1.25;
+  margin-bottom: 1.25rem;
 }
 
-footer li a:link,
-footer li a:active,
-footer li a:visited,
-footer li a:hover {
-  color: #1c5380;
+p {
+  font-weight: 400;
+  margin-bottom: 1rem;
+  color: var(--grey);
+}
+
+article .stores {
+  margin-top: 2rem;
+}
+
+article .stores img {
+  margin-right: 1.5rem;
+}
+
+article .stores img:last-child {
+  margin: 0;
+}
+
+footer {
+  font-size: 0.825rem;
+  text-align: center;
+  margin: 2rem 0;
+}
+
+footer ul li {
+  list-style: none;
+  display: inline;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 0 0.75rem;
+}
+
+footer ul li a:first-child {
+  margin-left: 0;
+}
+
+footer ul li a:last-child {
+  margin-right: 0;
+}
+
+footer ul li a {
   text-decoration: none;
+  color: var(--lightBlue);
 }
 
-footer li a:hover {
-  text-decoration: underline;
+footer ul li:last-child {
+  opacity: 0.325;
 }
 
-body {
-  background-image: url('../images/bgtile.png');
-  background-size: cover;
-}
-
-/* pseudo-element */
 body:before {
   content: '';
   display: block;
@@ -43,7 +132,10 @@ body:before {
   z-index: -1;
 }
 
-main, header, .mobile-badges, footer {
+main,
+header,
+.mobile-badges,
+footer {
   display: flex;
   flex-flow: row nowrap;
 }
@@ -58,19 +150,3 @@ footer li {
   list-style: none;
   margin: 0;
 }
-
-/*
-body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
-}
-
-body {
-  background-color: lightblue;
-  color: white;
-}
-img{
-  float: left;
-  background-position: 0px
-}
-*/
