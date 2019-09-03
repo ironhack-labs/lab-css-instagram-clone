@@ -3,8 +3,115 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 10px;
+}
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  height: 100vh;
+}
+
+.bgcBlue {
+  background-image: linear-gradient(to bottom, #567ea0, #305a7f);
+  height: 40%;
+  width: 100%;
+  background-size: cover;
+}
+
+.phones {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  height: 50rem;
+}
+
+.card {
+  width: 48rem;
+  height: 50rem;
+  position: absolute;
+  top: 53%;
+  left: 66%;
+  transform: translate(-50%, -50%);
+}
+
+.card > img:nth-of-type(1) {
+  margin-left: 2.5rem;
+}
+
+.card > img:nth-of-type(2) {
+  margin-left: 1.5rem;
+}
+
+.card-header > img {
+  height: 7.3rem;
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2.1rem;
+}
+
+.card-header > a {
+  display: flex;
+  color: white;
+  text-decoration: none;
+  justify-content: space-around;
+  align-items: center;
+  width: 9rem;
+  height: 4.5rem;
+  background-image: linear-gradient(to bottom, #567ea0, #305a7f);
+  border: 1px solid #06365f;
+  padding: 0 7px 0 5px;
+}
+
+.content {
+  background-color: white;
+  border-radius: 7px;
+  padding: 2.5rem;
+  padding-bottom: 1.5rem; 
+}
+
+.content > h1 {
+  color: #305a7f;
+  font-size: 3rem;
+  width: 74%;
+  padding-bottom: 1rem;
+}
+
+.content > p {
+  padding-bottom: 1rem;
+}
+
+footer {
+  position: absolute;
+  width: 100%;
+  bottom: 1%;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: center;
+}
+
+footer > a, span {
+  margin: 0 0.5rem;
+}
+
+footer > a {
+  text-decoration: none;
+  outline: none;
+  color: #305a7f;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+}
+
+footer > span {
+  color: #666;
+  font-size: 1.2rem;
 }
