@@ -7,4 +7,90 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+}
+
+#main-div {
+  height: 600px;
+  width: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding-top: 46px;
+}
+
+#main-div > img {
+  width: 100px;
+}
+
+#lb-div {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  align-items: center;
+}
+
+#right-div {
+  height: 100%;
+  padding: 112px 20px 20px 20px;
+}
+
+#capture-div {
+  background-image: url(../images/frame.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 30px;
+  width: 400px;
+  margin: 13px;
+}
+
+#capture-div > h2 {
+  margin-top:0;
+  font-size: 21px;
+}
+
+#capture-div > p {
+  font-size: 13px;
+}
+
+#capture-div > img {
+  margin-left: 15px;
+  margin-top: 42px;
+}
+
+#btn-div {
+  display: flex;
+  height: 20px;
+  color: aliceblue;
+  font-size: small;
+  background-color: #5483a9;
+  padding: 8px;
+  align-items: center;
+  justify-content: space-between;
+  width: 70px;
+  border: 1px solid #305777;
+  margin-right: 6px;
+  font-weight: bold;
+}
+
+#footer > ul {
+  display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    margin: 0 210px;
+    text-decoration: none;
+    color: #06365f;
+    font-size: small;
+    font-weight: bold;
+}
+
+#li-grey {
+  color: grey;
+  text-transform: uppercase;
+  font-size: smaller;
 }
