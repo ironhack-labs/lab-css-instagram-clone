@@ -3,8 +3,117 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  width: 100%;
+  padding-top: 75px;
+  /* position: absolute; */
+  background: url(../images/bgtile.png) center top repeat-x;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+.container-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: space-around;
+  align-items: center;
+}
+.container > div {
+  padding-left: 40px;
+}
+
+#logo {
+  height: 70px;
+  margin: 0;
+}
+.details {
+  /* height: 300px; */
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  align-items: center;
+}
+.details img {
+  height: 40px;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+/* .between {
+  align-items: space-between;
+} */
+button {
+  background: rgb(104, 142, 173);
+
+  border: none;
+  width: 110px;
+  height: 50px;
+  border-radius: 4px;
+
+  color: white;
+  font-size: 1.1em;
+}
+#button-img {
+  margin: 0;
+  width: 20%;
+  height: 40%;
+}
+.content {
+  position: absolute;
+}
+.text {
+  width: 455px;
+  background: url(../images/frame.png) center top no-repeat;
+  background-size: contain;
+  padding: 25px;
+  padding-top: 40px;
+  padding-left: 35px;
+  font-size: 0.9em;
+  font-weight: 400;
+}
+.text p {
+  padding-bottom: 10px;
+  padding-right: 10px;
+}
+.text h1 {
+  padding-right: 155px;
+  padding-bottom: 10px;
+  font-size: 1.6em;
+  color: #06365f;
+}
+footer {
+  padding-top: 80px;
+}
+li {
+  font-size: 0.8em;
+  list-style-type: none;
+  padding: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #1c5380;
+}
+.copywrite {
+  color: lightgray;
+  font-weight: 600;
+}
+.container-between {
+  display: flex;
+  width: 455px;
+  padding: 30px 0;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
 }
