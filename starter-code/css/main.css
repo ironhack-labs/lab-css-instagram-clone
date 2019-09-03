@@ -7,4 +7,111 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url(/images/frame.png);
+  background-repeat: no-repeat;
+  background-size: contain; 
+}
+
+.blue{
+  padding: 90px;
+  background-color:rgba(28,83,128,1);
+  height: 180px;
+}
+
+footer ul {
+  display: flex;
+  text-align:center;
+  list-style: none;
+  justify-content: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  margin-bottom: 30px;
+  margin-top: 40px;
+}
+
+footer ul li {
+  margin-right: 23px;
+}
+
+.display {
+  display: flex;
+}
+
+#logo {
+  height: 100px;
+  width: 350px;
+}
+
+#login {
+  height: 25px;
+  width: 25px;
+  margin-top: -3px;
+  margin-right: 9px;
+}
+
+.text {
+  background-color: white;
+  padding: 3px 50px 0px 50px;
+  height: 400px;
+  width: 500px;
+  border-radius: 6px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+.alignment {
+  justify-content: center;
+  position: relative;
+  top: -250px;
+  height:360px;
+}
+
+.bloco {
+  padding: 10px 0px 19px 0px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.phone{
+  position: relative;
+  padding: 0px 100px 0px 20px;
+  width: 350px;
+}
+
+h1 {
+  color:#06365f;
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.juntos {
+  border-bottom: black;
+  border-style: solid;
+  height: 19px;
+  width: 85px;
+  display: flex;
+  background-image: linear-gradient(rgba(255,255,254,0.2),rgba(100,115,261,0.7),rgba(28,83,128,1));
+  border-radius: 4px;
+  padding: 10px 10px 11px 10px;
+  justify-content: center;
+  border-width: 1px;
+}
+
+span {
+  color: white;
+  font-weight: 800;
+  letter-spacing: 0.2px;
+}
+
+#copy{
+  color:gray;
+}
+
+p{
+  margin: 28px 0px 25px 0px;
+}
+
+.android {
+  margin-left: 20px;
 }
