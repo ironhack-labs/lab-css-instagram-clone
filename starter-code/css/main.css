@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: "Segoe UI", Helvetica, Arial, sans-serif;
   box-sizing: border-box;
 }
 
@@ -22,12 +22,14 @@
   width: 227px;
 }
 
-#btn-home {}
+#btn-home {
+  padding-bottom: 8px;
+}
 
 h2 {
   font-size: 25px;
   margin-bottom: 22px;
-  color: #487093;
+  color: #19466e;
 }
 
 .btn-and-logo button {
@@ -60,13 +62,13 @@ h2 {
   display: flex;
   justify-content: space-between;
   margin: auto;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 50px;
+  margin-bottom: 40px;
 }
 
 .navbar a {
   text-decoration: none;
-  color: #003569;
+  color: #3a6890;
   font-size: 12px;
   font-weight: bold;
   text-transform: uppercase;
@@ -89,13 +91,16 @@ h2 {
 }
 
 button {
-  border: 1px solid #1a4d61;
+  border: 1px solid #236079;
   text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
   font-weight: bold;
   color: #a7cfdf;
   background-color: #a7cfdf;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#a7cfdf), to(#23538a));
-  background-image: linear-gradient(to bottom, #4a8197, #23538a);
+  background-image: linear-gradient(to bottom, #6e92b0, #3a6890);
 }
 
-#img-home {}
+#img-home {
+  position: relative;
+  bottom: -4px;
+}
