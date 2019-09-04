@@ -19,7 +19,7 @@
 }
 
 #logo-insta {
-  width: 227px;
+  width: 286px;
 }
 
 #btn-home {
@@ -35,10 +35,10 @@ h2 {
 .btn-and-logo button {
   width: 18%;
   height: 10%;
-  margin-left: 139px;
+  margin-left: 115px;
   padding: 2px 5px 5px 5px;
   background-color: #487093;
-  margin-top: 9px;
+  margin-top: 13px;
   color: white;
 }
 
