@@ -8,3 +8,94 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+#background {
+	display: flex;
+	height: 47vw;
+	background-image: linear-gradient(to bottom, #3F688C 0%,#3F688C 40%,#F4F5F7 40%,#F4F5F7 100%);
+	justify-content: center;
+	align-items: center;
+}
+
+
+#background #phone {
+	display: flex;
+	max-width: 90%;
+}
+
+#square-info {
+	display: flex;
+	flex-direction: column; 
+	width: 32vw;
+	height: 32vw;
+}
+
+#top-login {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	height: 20%;
+	align-items: center;
+}
+
+#top-login #logo img {
+	max-width: 85%;
+}
+
+#login-button {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: row-reverse;
+	width: 100px;
+	height: 40px;
+	border-radius: 4px;
+	box-shadow: 1px 1px black;
+	border: 1px #505050;
+	background-image: linear-gradient(to bottom, #ffffff -120%, #3F688C 100%);
+}
+
+#login-button p {
+	color: white;
+	text-shadow: 1px 1px #505050;
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+
+#info {
+	background-image: url(../images/frame.png);
+ 	background-repeat: no-repeat;
+  	background-size: 100%;
+  	padding: 40px 45px 0px 45px;
+}
+
+#info > div > span {
+	font-size: 20px;
+	font-weight: 700;
+	color: #06365f;
+}
+
+#info p {
+	font-size: 12px;
+}
+
+#store-action {
+	display: flex;
+	justify-content: flex-start;
+	padding-left: 40px;
+	padding-top: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
