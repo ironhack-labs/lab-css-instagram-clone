@@ -3,8 +3,112 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
+html{
+  font-size:62.5%;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale
+}
+*,
+*:before,
+*:after {
+  -webkit-box-sizing:border-box;box-sizing:border-box
+}
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 150%;
   margin: 0;
 }
+
+.intro {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  padding: 10rem 15% 5rem 15%;
+  margin-bottom: 2rem;
+}
+  .intro:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 28rem;
+    background-image: url(../images/bgtile.png);
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  .intro__text {
+    width: 60%;
+  }
+    .intro__text__header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 10px;
+    }
+      .intro__text__header a {
+        position: relative;
+        padding: 15px 25px 15px 50px;
+        border: 1px solid #1c5380;
+        border-radius: 2px;
+        background: linear-gradient(to bottom, rgba(179,220,237,0.5) 0%, rgba(28,83,128,0.5) 100%);
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 1.3rem;
+        border-radius: 3px;
+      }
+      .intro__text__header a::after {
+        content: "";
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        top: calc(50% - 9px);
+        left: 15px;
+        background: url(../images/home.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
+    .intro__text__card {
+      margin-top: 2rem;
+      /* background-color: #fff; */
+      background-image: url(../images/frame.png);
+      background-repeat: no-repeat;
+      background-size: 100%;
+      padding: 3rem 5rem;
+      border-radius: 0.8rem;
+    }
+      .intro__text__card h1 {
+        font-size: 2.8rem;
+        line-height: 120%;  
+        color: #06365f;
+        max-width: 60%;
+      }
+      .intro__text__card p {
+        font-size: 1.5rem;
+        line-height: 150%;
+      }
+      .intro__text__card__download {
+        margin-top: 4rem;
+      }
+      .intro__text__card__download img {
+        margin-right: 1.5rem;
+      }
+
+footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  max-width: 80rem;
+  margin: 0 auto;
+}
+  footer ul li a {
+    text-transform: uppercase;
+    color: #1c5380;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-decoration: none;
+  }
+  footer ul li:last-child {
+    color: grey;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
