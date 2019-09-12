@@ -4,7 +4,89 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: url("../images/bgtile.png") repeat-x right top;
+}
+
+.container{
+  margin: auto;
+  width: 90%;
+  margin-top: 100px;
+}
+
+.container-rigth{
+  width: 60%;
+  float: right;
+}
+
+.container-left{
+  width: 39%;
+  float: left;
+  display: flex;
+  justify-content: center;
+}
+
+header{
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header button{
+  background-color: transparent;
+  height: 40%;
+  width: 15%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid #1c5380;
+  color: white;
+}
+
+.bg-text{
+  padding: 0 30px;
+  background: url("../images/frame.png") no-repeat;
+  background-size: 100%;
+
+}
+
+.bg-text h1{
+  color: #06365f;
+  width: 60%;
+  padding-top: 20px;
+}
+
+.bg-text p{
+  margin-left:  5px;
+  margin-right: 5px;
+}
+
+.apps img{
+  margin-right: 20px;
+}
+
+.links{
+  padding-top: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.link ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.links ul li{
+  list-style: none;
+  color: #1c5380;
+  float: left;
+  margin-right: 15px;
 }
