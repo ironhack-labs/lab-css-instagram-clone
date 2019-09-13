@@ -20,7 +20,7 @@ body {
   }
 
   .main {
-    margin:8% 3%;
+    margin:6% auto;
   }
 
   .col-2 {
@@ -28,12 +28,18 @@ body {
   }
 
   .footer {
-    margin:0 15% 5%;
+    margin: 0 auto;
+    max-width: 780px;
+    margin-bottom:5%;
+  }
+
+  .container{
+    max-width: 965px;
   }
 
 }
 
-@media (max-width: 1000px){
+@media (max-width: 879px){
 
   .col-2.align-center{
     display:none;
@@ -54,16 +60,12 @@ body {
 
 @media (max-width: 529px){
   body{
-    min-width: 445px;
+    min-width: 496px;
     overflow-x: auto;
   }
 
   .main {
     margin:8% 0;
-  }
-
-  .col-2 {
-    padding: 2rem 0;
   }
 
   .footer {
