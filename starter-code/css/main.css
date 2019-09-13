@@ -23,13 +23,39 @@ a{
 
 /* header */
 header{
-  height: 15rem;
+  height: 20rem;
   background-image: url(../images/bgtile.png);
   background-size: cover;
 }
 header > .container{
   display: flex;
   justify-content: flex-end;
+}
+
+/* service-info */
+#service-info > .container{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  position: absolute;
+    top: 5rem;
+    left: 5%;
+}
+.service-image{
+  width: 30%;
+}
+.service-content{
+  width: 70%;
+}
+.section-content{
+  background-image: url(../images/frame.png);
+  background-size: cover;
+  padding:1.5rem  3rem;;
+}
+.logo-btn{
+  display: flex;
+  justify-content: space-between;
+  padding:1rem 2rem;
 }
 .login-btn{
   background-color: #1c5380;
@@ -44,24 +70,16 @@ header > .container{
   color: #ffffff;
   padding-left: 1rem;
 }
-
-/* service-info */
-#service-info > .container{
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-}
-.section-content{
-  background-image: url(../images/frame.png);
-  background-size: cover;
-  width: 50%;
-  padding:1.5rem  3rem;;
-  margin: 1rem;
-}
 .section-title{
   color: #06365f;
 }
+
 /* footer */
+footer{
+  position: absolute;
+  bottom: 1px;
+  left: 15%;
+}
 .footer-lists{
   display: flex;
   justify-content: center;
