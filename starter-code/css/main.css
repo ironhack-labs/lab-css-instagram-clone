@@ -3,8 +3,141 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+* {
+  box-sizing: border-box;
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: URL("../images/bgtile.png");
+  background-repeat: repeat-x;
+}
+
+@media (max-width: 1920px){
+  .footer ul {
+    font-size: 0.7rem;
+  }
+
+  .main {
+    margin:8% 3%;
+  }
+
+  .col-2 {
+    padding: 2rem;
+  }
+
+  .footer {
+    margin:0 15% 5%;
+  }
+
+}
+
+@media (max-width: 1000px){
+
+  .col-2.align-center{
+    display:none;
+  }
+
+  .footer ul{
+    flex-direction: column;
+    text-align: center;
+    font-size: 1.4rem;
+    line-height: 2.5rem;
+  }
+
+  .container{
+    justify-content: center;
+  }
+
+}
+
+@media (max-width: 529px){
+  body{
+    min-width: 445px;
+    overflow-x: auto;
+  }
+
+  .main {
+    margin:8% 0;
+  }
+
+  .col-2 {
+    padding: 2rem 0;
+  }
+
+  .footer {
+    margin:0 15% 0;
+  }
+}
+
+.container {
+  display: flex;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+h2.c-darkblue {
+  inline-size: 17rem;
+}
+
+.title button {
+  width: 21%;
+  margin: 1rem 1rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: linear-gradient(180deg, #678cac, #487399 56%);
+  border-radius: 0.3rem;
+  border: 1px;
+  color: #fff;
+  font-size: 1.1rem;
+  box-shadow: 0rem 0rem 0.1rem 0.1rem rgba(0, 0, 0, 0.2);
+}
+
+.c-darkblue {
+  color: #06365f;
+}
+
+.c-silver {
+  color: silver;
+}
+
+.degraded-bg {
+  background: URL("../images/frame.png") no-repeat fixed #fff;
+  background-size: cover;
+  padding: 0rem 1.3rem 0rem 1.3rem;
+  border-radius: 0.4rem;
+  font-size: 1.1rem;
+  box-shadow: 0 2rem 0 0 white, 0 -9px 0px 0px white,
+    -0.1rem -12rem 2rem -4px rgba(31, 73, 125, 0.3),
+    -0.1rem -9rem 2rem -4px rgba(31, 73, 125, 0.3);
+}
+
+.container > img {
+  margin: 0rem 1rem 0rem 0rem;
+}
+
+
+
+.footer ul {
+  padding: 0 ;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  color: #6589a9;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.footer a {
+  text-decoration: none;
 }
