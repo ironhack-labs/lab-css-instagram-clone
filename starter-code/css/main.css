@@ -8,3 +8,70 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+ul{
+  padding: 0;
+}
+li{
+  list-style: none;
+}
+.container{
+  padding: 2rem 5rem;
+}
+a{
+  text-decoration: none;
+}
+
+/* header */
+header{
+  height: 15rem;
+  background-image: url(../images/bgtile.png);
+  background-size: cover;
+}
+header > .container{
+  display: flex;
+  justify-content: flex-end;
+}
+.login-btn{
+  background-color: #1c5380;
+  height: 40px;
+  width: 100px;
+  border: #06365f solid 1px;
+  border-radius: 5%;
+  padding-top:1rem;
+  margin-left:3rem;
+}
+.btn-text{
+  color: #ffffff;
+  padding-left: 1rem;
+}
+
+/* service-info */
+#service-info > .container{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.section-content{
+  background-image: url(../images/frame.png);
+  background-size: cover;
+  width: 50%;
+  padding:1.5rem  3rem;;
+  margin: 1rem;
+}
+.section-title{
+  color: #06365f;
+}
+/* footer */
+.footer-lists{
+  display: flex;
+  justify-content: center;
+}
+
+.list-item{
+  padding: 1rem;
+  color: #1c5380;
+  font-weight: 500;
+}
+.copy-right{
+  color: lightgray; 
+}
