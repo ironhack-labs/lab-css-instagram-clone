@@ -7,4 +7,244 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+
+}
+
+.wrapper{
+  position: relative;
+  width: 100;
+  margin: 0 auto;
+}
+
+.blue-header{
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;
+  position: absolute;
+  height: 280px;
+  width: 100%;
+  z-index: -1;
+}
+
+.container{
+    padding: 10% 0% 0% 0%;
+    display: table;
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+
+.container-left{
+    width: 50%;
+    float: left;
+    position: relative;
+    text-align: center;
+    display: table;
+}
+
+.container-left img{
+    display: inline-block;
+}
+
+
+.container-right{
+  width: 50%;
+  float: left;
+}
+
+.container-right-ig{
+    float: left;
+    position: relative;
+}
+
+.container-right-ig img{
+  width: 250px;
+  position: absolute;
+}
+
+.container-right-log{
+    float: right;
+    margin-top: 0px;
+    /* position: absolute; */
+    /* bottom: 0; */
+    /* right: 0; */
+    padding: 10px 20px 10px 20px;
+    border: 1px solid #2a5a7e;
+    background: rgba(73,155,234,1);
+    background: -moz-linear-gradient(top, rgba(108,147,174,1) 0%, rgba(71,118,151,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(108,147,174,1)), color-stop(100%, rgba(71,118,151,1)));
+    background: -webkit-linear-gradient(top, rgba(108,147,174,1) 0%, rgba(71,118,151,1) 100%);
+    background: -o-linear-gradient(top, rgba(108,147,174,1) 0%, rgba(71,118,151,1) 100%);
+    background: -ms-linear-gradient(top, rgba(108,147,174,1) 0%, rgba(71,118,151,1) 100%);
+    background: linear-gradient(to bottom, rgba(108,147,174,1) 0%, rgba(71,118,151,1) 100%);
+  }
+
+
+.container-right-1{
+    display: table;
+    width: 504px;
+    position: relative;
+    text-align: center;
+    margin: 0px;
+    height: 65px;
+}
+
+
+.container-right-home{
+  float: left;
+  margin-right: 10px;
+}
+
+.container-right-login{
+  float: left;
+  color: #d7e1ea;
+  font-weight: 500;
+}
+
+
+
+
+.container-difuminado-wrapper {
+  padding: 7.5%;
+}
+
+.container-difuminado{
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  position: relative;
+  width: 504px;
+  z-index: -1;
+}
+
+.container-difuminado-title{
+  color: #0f3b5d;
+  font-weight: 900;
+  font-size: 2em; /*25px*/
+}
+
+.container-difuminado-text{
+  margin-top: 30px
+}
+
+
+
+.boton-1{
+  background-image: url(../images/badge-iphone.png);
+  background-repeat: no-repeat;
+  width: 164px;
+  height: 51px;
+  text-indent: -9999px;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+
+.boton-2{
+  background-image: url(../images/badge-android.png);
+  background-repeat: no-repeat;
+  width: 153px;
+  height: 51px;
+  text-indent: -9999px;
+  display: inline-block;
+  margin-left: 5px;
+}
+
+
+
+
+
+.footer-menu-container{
+    width: 100%;
+    display: table;
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    padding: 5% 0%;
+    color: #3a6890;
+    font-weight: 600;
+}
+
+.footer-menu{
+  display: inline-block;
+}
+
+.footer-menu li{
+  display: inline-block;
+  list-style: none;
+  float: left;
+  margin-right: 20px;
+}
+
+.footer-menu li:last-child{
+  display: inline-block;
+  list-style: none;
+  float: left;
+  margin-right: 20px;
+  color: grey;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 590px) {
+
+.container {
+    padding: 10% 0%;
+    display: table;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.container-left {
+    width: 100%;
+    float: none;
+    position: relative;
+    text-align: center;
+    display: table;
+}
+
+.container-right {
+    width: 100%;
+    float: none;
+    margin: 0 auto;
+}
+
+.container-right-1 {
+    display: table;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    margin: 0px;
+    height: 65px;
+}
+
+.container-difuminado {
+    background-image: url(../images/frame.png);
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    z-index: -1;
+}
+
+.container-right-1 {
+    display: table;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    margin: 0px;
+    height: 65px;
+}
+
+.footer-menu li {
+  display: list-item;
+  list-style: none;
+  float: none;
+  margin-top: 20px;
+}
+
 }
