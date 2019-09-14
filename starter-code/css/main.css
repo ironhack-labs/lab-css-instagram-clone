@@ -3,45 +3,141 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-html{
-  padding:10px 5px 0px 10px;
+
+html {
+	min-width: 100%;
 }
+
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+	font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin: 0;
+	/* padding:10px 5px 0px 10px*/
+	;
 }
-.blueDiv{
-  background-color:blue;
-  /*position:absolute;*/
-  height:40%
-  width:100%;
+
+.blueDiv {
+	background-color: #1c5380;
+	position: absolute;
+	top: -20px;
+	height: 60%;
+	width: 100%;
+	z-index: -10;
 }
-.whiteDiv{
-  justify-content:center; 
+
+.whiteDiv {
+	display: flex;
+	justify-content: center;
+	/*justify-content:center; 
   background-color:white;
- /* position:absolute;*/
-  height:40%
-  width:100%;
+  position:absolute;
+  height:60%;
+  width:100%;*/
 }
-.group{
-  margin:0;
-  padding:10rem 5rem 0rem 10rem;
-  background-color:green;
+
+.group {
+	margin: 0;
+	padding: 10rem 0rem 0rem 0rem;
+	/*background-color:green;*/
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-between;
 }
+
+.head {
+	display: flex;
+	justify-content: space-between;
+}
+
+button {
+	margin: 1.5rem 1rem 1rem 1rem;
+	display: flex;
+	justify-content: space-between;
+	-moz-box-shadow: inset 0px 1px 0px 0px #06365f;
+	-webkit-box-shadow: inset 0px 1px 0px 0px #06365f;
+	box-shadow: inset 0px 1px 0px 0px #06365f;
+	background: -moz-linear-gradient(top, #1c5380 5%, #06365f 100%);
+	background: -webkit-linear-gradient(top, #1c5380 5%, #0061a7 100%);
+	background: -o-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+	background: -ms-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+	background: linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#007dc1', endColorstr='#0061a7', GradientType=0);
+	background-color: #1c5380;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	border: 1px solid #124d77;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
+	font-family: Arial;
+	font-size: 16px;
+	padding: 6px 10px;
+	text-decoration: none;
+	text-shadow: 0px 1px 0px #154682;
+}
+
+
+
+.right {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	margin-left: 5rem;
+}
+
+.paragraphs {
+	background-image: url("../images/frame.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.paragraphs2 {
+	margin: 2rem 1rem 1rem 1rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: Space-between;
+	padding: 0px 2.5rem 10px 3.0rem;
+	color: #1c5380;
+}
+
+h2 {
+	color: #06365f;
+}
+
 ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  text-align:center;
- 
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	/*flex-basis : auto;*/
 }
 
 li {
-  display: inline;
+	display: inline;
 }
-footer{
-  
+
+#copy {
+	color: grey;
 }
-p{
-  text-align:left;
+
+#googleplay {
+	padding-left: 1.5rem;
 }
+
+footer {
+	margin: 5rem 0rem 3rem 0rem;
+}
+
+footer p {
+	text-align: left;
+	margin: 0;
+	/*padding: 7rem, 0rem,5rem, 0rem;*/
+}
+
+a:link {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #1c5380;
+	font-size: 12px;
+}
+
