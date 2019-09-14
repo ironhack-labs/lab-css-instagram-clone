@@ -7,4 +7,111 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #06365f;
+}
+
+.bluediv{
+  background-color: rgb(63, 114, 155);
+  width: 100%;
+  top: 0; 
+  height: 400px;
+  position: fixed;  
+  z-index: -1;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.column{
+  display: flex;
+  flex-direction: column;
+}
+
+.horizontal-center {
+  display: flex;
+  justify-content: center;
+}
+
+.space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.align-items {
+  display: flex;
+  align-items: center;
+}
+
+.space-around {
+  display: flex;
+  justify-content: space-around;
+}
+
+.margin-left-zero {
+  margin-left: 0;
+}
+
+.w75 {
+  width: 75%;
+}
+
+.p10 {
+  padding: 10px;
+}
+
+.p50 {
+ padding: 40px;
+}
+
+.main-background {
+  background: url(../images/frame.png) 0 0 no-repeat;
+  background-size: cover;
+  height: 74%;
+}
+
+.main-box {
+  width: 1120px;
+  padding: 70px;
+  margin-top: 125px;
+}
+
+.login-button {
+  background-color: #1c5380;
+  color: white;
+  border: 1px solid #06365f;
+  height: 50px;
+  width: 123px;
+}
+
+.ul-a {
+  width: 74%;
+  color: rgb(63, 114, 155)
+}
+
+.pad-img-stores {
+  padding-left: 30px;
+  padding-right: 20px;
+}
+
+li {
+  list-style: none;
+}
+
+footer {
+  padding-top: 30px;
+}
+
+footer a {
+  text-decoration: none;
+  color: rgb(63, 114, 155);
+}
+
+footer ul span {
+  color: gray;
 }
