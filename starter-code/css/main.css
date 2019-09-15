@@ -2,9 +2,102 @@
 Colors to use:
 dark blue: #06365f
 light blue: #1c5380
+<img src="images/frame.png" style="max-width: 100% ; max-height: 100sh;">
 */
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+.back-body {
+  width: 100%;
+  height: 650px;
+  background: linear-gradient(to bottom, rgba(79,117,152,1) 30%, white 30%, white 30%);
+  display: block;
+  position: relative;
+}
+
+.prod1 {
+  background-image: linear-gradient(to bottom, red, red 50%, white 50%);
+  background-attachment:fixed;
+  background-repeat: no-repeat;
+}
+
+.part-a {
+  background: gray;
+}
+
+
+.main {
+  display: flex;
+  justify-content: center;
+  margin: 30px auto 0;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 6%;
+  margin-right: 6%;
+}
+
+.imgCellphone{
+  max-width: 100%;
+  max-height: 100%;
+  align-items: center;
+}
+
+.textRight{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.textSquare{
+  text-align: center;
+  width: 74%;
+  position: relative;
+
+}
+
+.wrapper {
+  position:relative;
+  width:90%;
+  max-width:1200px;
+  height:100%;
+  min-height:320px
+}
+.divimage {  
+  position:absolute;
+  top:0;
+  left:0;
+  width:120%;
+  height:100%; background:url(/starter-code/images/frame.png);
+  background-repeat:no-repeat;
+  background-size:100% auto;
+}
+.divtext {
+  position:absolute;
+  top:0;
+  left:0;
+  width:96%;
+  padding-top:3%;  
+  padding-left: 10%;
+  font-weight:bold;
+  font-size:15px;
+  color:black;
+  font-family:arial;
+}
+
+.lastButnotleast {
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+ width: 50%;
+ font-size: 12px;
+ margin-left: 30%;
+}
+
+.login{
+  background-color: white;
+  margin-bottom: 5%;
 }
