@@ -4,7 +4,132 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: url(../images/bgtile.png) repeat-x;
 }
+
+.dark-blue {
+  background-color: #06365f;
+}
+
+.light-blue {
+  background-color: #1c5380;
+}
+
+.main-page {
+  display: flex;
+  justify-content: space-around ;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 5%;
+  height: 600px;
+}
+
+.main-page-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 60%;
+}
+
+.phone {
+  width: 30%;
+}
+
+.main-page-images {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  margin-top: 15px;
+}
+
+.main-page-images .instagram-img {
+  width: 60%;
+  height: auto;
+}
+
+.home-btn {
+  background: url("../images/bgtile.png") repeat-x;
+  display:flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 2px;
+  width: 20%;
+  font-size: 1.5em;
+  color: #d9d9d9;
+  border: 1px solid #06365f;
+  cursor: pointer;
+  height: 50%;
+}
+
+.text-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background: url(../images/frame.png);
+  background-size: cover;
+  padding: 40px;
+  height: 80%;
+}
+
+.text-info h1 {
+  font-size: 1.8em;
+  color: #1c5380;
+}
+
+.text-info p {
+  font-size: 1.3em;
+}
+
+.text-info p span {
+  font-weight: bold;
+}
+
+.download-app {
+ margin-top: 10px;
+}
+
+.download-app .btn-download{
+margin: 10px 20px 0;
+cursor: pointer;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.footer-container-ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  width: 50%;
+}
+
+.footer-container-ul a {
+  text-decoration: none;
+  color: #1c5380;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+.footer-container-ul span {
+  color: #bfbfbf;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
