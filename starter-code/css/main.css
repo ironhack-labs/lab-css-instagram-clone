@@ -78,7 +78,7 @@ h1 {
 .main-box {
   width: 1120px;
   padding: 70px;
-  margin-top: 125px;
+  margin: 125px auto 0 auto;
 }
 
 .login-button {
