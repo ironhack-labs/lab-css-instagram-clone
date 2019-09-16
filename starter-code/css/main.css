@@ -4,7 +4,96 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
-body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+.blue {
+  width: 100%;
+  height: 250px;
+  background-color: #1c5380;
 }
+
+.content{
+  position: absolute;
+  top: 10%;
+  left: 10%;
+}
+
+.insta {
+  position: absolute;
+  top: 2%;
+  left: 35%;
+}
+
+.login {
+  width:11%;
+  height: 35px;
+  border: 1px solid #06365f;
+  border-radius: 3px;
+  background-color: #1c5380;
+  display:flex;
+  position: absolute;
+  top: 3%;
+  left: 70%;
+}
+
+.login img {
+  margin-top: 8px;
+  margin-left: 10px;
+}
+
+button {
+  color:lightgray;
+  background-color: transparent;
+  border:none;
+  font-weight: bold;
+}
+
+.capture {
+  background-image: url("/home/patri/code/lab-css-instagram-clone/starter-code/images/frame.png");
+  background-size: cover;
+  width: 70%;
+  height: 50%;
+  position: absolute;
+  top: 15%;
+  left: 34%;
+}
+
+.capturation {
+  width: 80%;
+  margin-left: 30px;
+  padding-top: 10px;
+}
+
+.capturation p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+}
+
+h2 {  
+  color:#06365f;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.logos {
+  position: absolute;
+  top: 70%;
+  left: 45%;
+}
+
+#apple {
+  margin-right: 20px;
+}
+
+.insta-bottom a {
+  text-transform: uppercase;
+  color:#1c5380;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 1.5em;
+}
+
+h3 {
+  text-transform: uppercase;
+  color:lightgrey;
+  font-size: 14px;
+}
+
