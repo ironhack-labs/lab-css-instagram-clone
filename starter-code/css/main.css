@@ -8,3 +8,64 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.top{
+  
+  background-image: url("../images/bgtile.png");
+  width: 100%;
+  height: 280px;
+  background-repeat: repeat-x;
+  position: absolute;
+  z-index: -1;
+  
+  
+  
+} 
+
+.bottom{
+  background-color: white;
+  height: 100%;
+}
+
+.box{
+  display: flex;
+  justify-content:center;
+  flex-direction: row;
+  padding: 100px;
+  
+  
+
+}
+
+.box-text{
+  
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  width: 480px;
+  font-size: 16px;
+  margin: 50px;
+  padding: 10px;
+  background-position-y: 90px;
+}
+
+.box-text tittle{
+  font-size: 25px;
+  font-weight: bold;
+  color:#1c5380;
+}
+
+.per{
+  display: flex;
+  justify-content: space-between;
+}
+
+nav{
+  display: flex;
+  justify-content: center;
+  color:#06365f;
+  font-weight: bold;
+
+}
+
+
+
