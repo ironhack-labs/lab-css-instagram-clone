@@ -8,3 +8,145 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.pagina {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.blue-background{
+  background-image: url(https://i.ibb.co/vVpyHXr/bgtile.png);
+  background-repeat: repeat-x;
+  position: absolute;
+  height: 30rem;
+  width: 100%;
+  z-index: -1;
+}
+
+.container{
+    padding: 10% 0% 0% 0%;
+    display: table;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.container-left{
+    width: 50%;
+    float: left;
+    position: relative;
+    text-align: center;
+}
+
+.container-left img{
+    display: inline-block;
+}
+
+
+.container-right{
+  width: 50%;
+  float: left;
+}
+
+.container-right-inst{
+    float: left;
+    position: relative;
+}
+
+.container-right-inst img{
+  width: 17rem;
+  position: absolute;
+}
+
+.container-right-sign{
+    float: right;
+    margin-top: 0px;
+    padding: 10px 20px 10px 20px;
+    border: 1px solid #2a5a7e;
+    background: #5784a8
+  }
+
+
+.download{
+    display: table;
+    width: 30rem;
+    position: relative;
+    text-align: center;
+    margin: 0px;
+    height: 5rem;
+}
+
+.container-right-home{
+  float: left;
+  margin-right: 1rem;
+}
+
+.container-right-login{
+  float: left;
+  color: #d7e1ea;
+  font-weight: 500;
+}
+
+.container-white{
+  background-image: url(https://i.ibb.co/cTCLyyS/frame.png);
+  background-repeat: no-repeat;
+  position: relative;
+  width: 30rem;
+  z-index: -1;
+}
+
+.container-2 {
+  padding: 2.2rem;
+}
+
+.capture{
+  color: #06365f;
+  font-weight: 900;
+  font-size: 2rem;
+}
+
+.text{
+  margin-top: 2rem
+}
+
+.apple{
+  background-image: url(https://i.ibb.co/BBbZSS6/badge-iphone.png);
+  background-repeat: no-repeat;
+  width: 11rem;
+  height: 5rem;
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+.android{
+  background-image: url(https://i.ibb.co/zRgBTKk/badge-android.png);
+  background-repeat: no-repeat;
+  width: 10rem;
+  height: 5rem;
+  display: inline-block;
+  margin-left: 1rem;
+}
+
+.links{
+    width: 100%;
+    display: table;
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    padding: 5% 0%;
+    color: #3f729a;
+    font-weight: 600;
+}
+
+.links-list{
+  display: inline-block;
+}
+
+.links-list li{
+  display: inline-block;
+  list-style: none;
+  margin-right: 1.3rem;
+}
+
+
+
