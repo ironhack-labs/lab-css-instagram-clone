@@ -3,8 +3,80 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
+* {
+  box-sizing: border-box;
+}
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: #ffffff url("../images/bgtile.png") no-repeat center top;
+  background-size: 100% 280px;
+  display: flex;
+  justify-content: center;
+}
+.content {
+  width: 1100px;
+  margin-top: 7%;
+}
+.box {
+  display: flex;
+}
+.col-left {
+  padding: 0 2%;
+}
+.col-right {
+  padding: 0 2%;
+}
+.title-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0.7rem 0.5rem 0.5rem;
+}
+.my-button {
+  color: #ffffff;
+  font-size: 15px;
+  padding: 10px;
+  text-decoration: none;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  text-shadow: 1px 1px 3px #666666;
+  border: solid #06365f9c 0.5px;
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#77a0c2), to(#3a6890));
+  background: -moz-linear-gradient(top, #77a0c2, #3a6890);
+  display: flex;
+  align-items: center;
+}
+.logo-button {
+  margin-right: 1rem;
+}
+.main-content {
+  background: url("../images/frame.png") no-repeat center top;
+  background-size: 100%;
+  padding: 4%;
+}
+.main-content h2 {
+  color: #06365f;
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+}
+.menu-footer {
+  width: 80%;
+  text-align: center;
+}
+.element-menu {
+  display: inline;
+  color: #1c5380;
+  margin-right: 0.5rem;
+}
+.copyrigth {
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.3);
+  margin: auto 1rem;
 }
