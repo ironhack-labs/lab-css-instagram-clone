@@ -47,16 +47,36 @@ body {
   padding: 10px;
   background-position-y: 90px;
 }
-
-.box-text tittle{
-  font-size: 25px;
-  font-weight: bold;
-  color:#1c5380;
+.box-text p{
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: 0px;
 }
 
-.per{
+.box-text tittle{
+  display: flex;
+  font-size: 30px;
+  font-weight: bold;
+  color:#1c5380;
+  padding: 30px;
+}
+
+.logo{
   display: flex;
   justify-content: space-between;
+  justify-items: center;
+  align-items: center;
+}
+.logIn{
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+  height: 40px;
+  width: 100px;
+  align-items: center;
+  border-radius: 5px;
+  background: linear-gradient(0deg, rgba(13,82,142,1) 0%, rgba(62,119,166,1) 69%);
+
 }
 
 nav{
@@ -64,6 +84,12 @@ nav{
   justify-content: center;
   color:#06365f;
   font-weight: bold;
+
+}
+
+.app{
+  
+  padding: 10px;
 
 }
 
