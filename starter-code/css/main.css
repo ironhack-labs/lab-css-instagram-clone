@@ -4,7 +4,117 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: url(../images/bgtile.png) repeat-x;
 }
+
+.container {
+  display: flex;
+  align-content: space-between;
+  margin-right: 250px;
+}
+
+/*------------------RIGHT-----------*/
+
+.container-right {
+  margin-top: 120px;
+}
+
+.logo-and-button {
+  display: flex;
+  align-content: space-around;
+}
+
+.login-button {
+  padding-left: 80px;
+  padding-top: 20px;
+}
+
+.login-button button {
+  height: 40px;;
+  width: 100px;
+  border: 1px solid #1c5380;
+  background-color: #3c76a7;
+  display: flex;
+  align-content: space-between;
+}
+
+.button-text {
+  color: white;
+  padding: 5px;
+  font-size: 110%;
+}
+
+.login-button button img {
+  padding-left: 7px;
+}
+
+.image-container img {
+  position: absolute;
+}
+
+.title-text-storesLogos {
+  position: relative;
+  padding-top: 15px;
+  padding-left: 40px;
+  padding-right: 360px;
+}
+
+.title {
+  color: #1c5380;
+}
+
+.text {
+  width: 120%;
+}
+
+.apple-and-google-stores {
+  display: flex;
+  align-content: space-between;
+  padding-top: 43px;
+  padding-left: 5px;
+}
+
+.google {
+  margin-left: 30px;
+}
+
+/*-----------LEFT----------------*/
+.container-left {
+  margin-left: 20%;
+  margin-top: 120px;
+  margin-right: 70px;
+}
+
+.iphone-image img {
+  height: 560px;
+}
+
+/*------------FOOTER-------------*/
+
+footer {
+  padding-top: 3%;
+}
+
+.inlineList li {
+  display: inline;
+  margin-left: 20px;
+  color: #1c5380;
+  font-weight: bold;
+  font-size: 70%;
+}
+
+li:nth-last-child(1) {
+  color: rgb(192, 191, 191);
+}
+
+.inlineList {
+  text-align: center;
+}
+
