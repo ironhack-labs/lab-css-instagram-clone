@@ -4,7 +4,161 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
-body {
+body{
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+
+.background{
+background-image: url(https://i.ibb.co/vVpyHXr/bgtile.png);
+background-repeat: repeat-x;
+position: absolute;
+height: 30rem;
+width: 100%;
+z-index: -1;
+}
+
+.container{
+  padding: 10% 0% 0% 0%;
+  display: table;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.container-left{
+  width: 50%;
+  float: left;
+  position: relative;
+  text-align: center;
+}
+
+.container-left img{
+  display: inline-block;
+}
+
+
+.container-right{
+width: 50%;
+float: left;
+}
+
+.instaLogo{
+  float: left;
+  position: relative;
+  cursor: pointer;
+}
+
+.instaLogo img{
+width: 260px;
+position: absolute;
+}
+
+.log{
+  float: right;
+  margin-top: 0px;
+  padding: 10px 20px 10px 20px;
+  border: 1px solid #2a5a7e;
+  background: #5784a8;
+  cursor: pointer;
+}
+
+.log:hover {background-color: slategray}
+
+.container-text {
+  display: table;
+  width: 30rem;
+  position: relative;
+  text-align: center;
+  margin: 0px;
+  height: 5rem;
+}
+
+.home{
+float: left;
+margin-right: 1rem;
+}
+
+.login{
+float: left;
+color: #d7e1ea;
+font-weight: 900;
+text-shadow: 2px lightcyan;
+}
+
+
+
+.box{
+background-image: url(https://i.ibb.co/cTCLyyS/frame.png);
+background-repeat: no-repeat;
+position: relative;
+width: 30rem;
+z-index: -1;
+}
+
+.container-2 {
+padding: 30px;
+box-shadow: inset 0px 0px 0px 2px rgba(28,83,128,0.07);
+}
+
+.title{
+color: #06365f;
+font-weight: 900;
+font-size: 32px;
+}
+
+.text{
+margin-top: 25px;
+}
+
+.apps{
+  margin-left: 30px;
+  margin-top: -25px;
+}
+
+.ios{
+background-image: url(https://i.ibb.co/BBbZSS6/badge-iphone.png);
+background-repeat: no-repeat;
+width: 170px;
+height: 50px;
+display: inline-block;
+margin-right: 5px;
+cursor: pointer;
+}
+
+.android{
+background-image: url(https://i.ibb.co/zRgBTKk/badge-android.png);
+background-repeat: no-repeat;
+width: 170px;
+height: 50px;
+display: inline-block;
+margin-left: 5px;
+cursor: pointer;
+}
+
+.links{
+  width: 100%;
+  display: table;
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+  padding: 5% 0%;
+  color: #3f729a;
+  font-weight: 600;
+}
+
+.links-list li{
+  display: inline-block;
+  list-style: none;
+  float: left;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.links li:last-child{
+  display: inline-block;
+  list-style: none;
+  float: left;
+  margin-right: 20px;
+  color: grey;
 }
