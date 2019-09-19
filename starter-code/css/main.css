@@ -8,3 +8,85 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.blueHead{
+  width: 100%;
+  background-color: #4e6f91;
+  height: 40%;
+  position: absolute;
+  z-index: -1;
+}
+.container{
+  height: 8000px;
+  width: 1000px;
+  margin:100px;
+  display: inline-block;
+}
+.top-container{
+  
+  height: 600px;
+  width: 1000px;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.in-container-right{
+  width: 500px;
+  height: 600px;
+}
+
+.insta{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0px;
+  width: 500px;
+
+}
+.logIn{
+  display: flex;
+  flex-flow: row;
+  height: 50px;
+  width: 100px;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #587a9c;
+  border-radius: 2px;
+  border: 1px solid #37587e;
+  font-weight: 400;
+  margin-left: 20px;
+  color:white;
+}
+
+.white-box{
+  background: white;
+  width: 460px;
+  padding: 10px 20px;
+}
+.buttons {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-around;
+}
+
+ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: end; 
+  font-weight: bold;
+}
+li{
+  color: #1c5380;
+  display: flex;
+  align-items: center;
+}
+.copyRight{
+  color: lightgrey;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+}
