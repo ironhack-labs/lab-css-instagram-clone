@@ -7,4 +7,63 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  box-sizing: border-box;
+  background-image: url("../images/bgtile.png");
+  background-repeat-y: no-repeat;
+}
+
+.c-dark-blue{
+  color:#06365f;
+}
+
+.bg-dark-blue{
+  background-color:#06365f;
+}
+
+.c-light-blue{
+  color:#1c5380;
+}
+
+.bg-light-blue{
+  background-color:#1c5380;
+}
+section{
+  padding: 10%;
+  display:flex;
+}
+.img-phones{
+  width: 40%;
+}
+.w-60{
+  width:60%;
+}
+.p-5{
+  padding: 5%;
+}
+.title{
+  display:inline;
+}
+.title > img{
+  width:75%;
+}
+.btn-false{
+  width: fit-content;
+  padding: 15px;
+}
+article{
+  box-shadow: -4px -10px 31px -19px rgba(0,0,0,0.3);
+  padding: 10%;
+  background-color: white;
+  border-radius: 10px;
+}
+footer{
+  display: inline;
+}
+ul li{
+  list-style: none;
+  color:blue;
+}
+
+ul li:last-child{
+  color:grey;
 }
