@@ -8,3 +8,117 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.background {
+  display: flex;
+  flex-direction: column;
+}
+
+.blue-box {
+  width: 100%;
+  background-color: #4e6f91;
+  /* background-image: linear-gradient(#5f7e9e #416183); */
+  height: 40%;
+  position: absolute;
+  z-index: -1;
+}
+
+.card {
+  width: 100%;
+  background-color: #fff;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+  padding-left: 30px;
+  border-radius: 2px;
+  box-shadow: 0px 2px 3px grey;
+}
+
+h2 {
+  color: #556e8e;
+}
+
+.white-box {
+  flex-basis: 66%;
+}
+
+.container {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.left-bar {
+  display: flex;
+  flex-direction: column;
+  order: 1;
+  flex-basis: 300px;
+  margin-left: 300px;
+  margin-top: 200px;
+}
+
+.right-bar {
+  display: flex;
+  flex-direction: column;
+  order: 2;
+  flex-basis: 500px;
+  margin-top: 200px;
+  margin-right: 300px;
+  margin-left: 75px;
+}
+
+.download-buttons {
+  display: flex;
+  flex-direction: row;
+  margin-top: 75px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+li {
+  margin-top: 30px;
+  margin-left: 20px;
+  color: #8099b2;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+#copyright {
+  color: #c6c7c7;
+}
+
+.logo-login {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 25px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 40px;
+  width: 80px;
+  color: #fff;
+  background-color: #587a9c;
+  border-radius: 2px;
+  border: 1px solid #37587e;
+  font-weight: 400;
+  margin-left: 20px;
+}
+
+.google-play {
+  margin-left: 20px;
+}
