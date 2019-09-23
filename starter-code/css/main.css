@@ -4,7 +4,156 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+@import url('https://fonts.googleapis.com/css?family=Red+Hat+Text');
+
+* {
+  font-family: 'Red Hat Text';
+}
+
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+h1 {
+  color: #06365f;
+  font-size: 2rem;
+}
+
+/*BACKGROUND*/
+
+.bg-back {
+  background-color: rgb(70, 70, 70);
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/frame.png");
+  opacity: 0.25;
+  background-position: center;
+  background-repeat: no-repeat;  
+  background-size: cover;
+  transform: rotate(180deg);
+  position: fixed;  
+  z-index: -1;
+}
+
+.bg {
+  width: 100%;
+  height: 40%;
+  background-color: #1c5380;
+  position: fixed;  
+  z-index: -1;
+}
+
+.bg-deg {
+  width: 100%;
+  height: 40%;
+  background-image: url("../images/frame.png");
+  opacity: 0.25;
+  background-position: center;
+  background-repeat: no-repeat;  
+  background-size: cover;
+  position: fixed;  
+  z-index: -1;
+}
+
+/*CENTER*/
+
+.center {
+  min-width: 65rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  margin: 0;
+  padding-top: 7%;
+}
+
+/*CENTER-LEFT*/
+
+.phones {
+  height: 35rem;
+}
+
+/*CENTER-RIGHT*/
+
+.block-right {
+  height: 35rem;
+  max-height: 35rem;
+  width: 30%;
+  min-width: 30rem;
+  margin-left: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.log-in {
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 0 2rem 0;
+}
+
+.log-in button {
+  background: linear-gradient(to top, #3f6c8f, #7699b6);
+  color: white;
+  border: 2px solid #375d7c;
+  border-radius: 0.3rem;
+  height: 45px;
+  width: 110px;
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.description {
+  padding: 0.5rem 2rem;
+  background-color: white;
+  border-radius: 0.5rem;
+}
+
+.description p {
+  margin: 1rem 0;
+  font-size: 1.1rem;
+}
+
+.description img {
+  margin-top: 1rem;
+  margin-right: 1rem;
+}
+
+/*FOOTER*/
+
+.footer {
+  height: 5rem;
+  min-width: 65rem;
+  padding: 2rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer ul{
+  display: flex;
+  flex-direction: row;
+}
+
+.footer li {
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  list-style-type:none;
+  margin: 0 1rem;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #1c5380;
+}
+
+.copy {
+  color: lightgrey;
+  padding: 0 2rem;
 }
