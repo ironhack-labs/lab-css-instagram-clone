@@ -38,13 +38,13 @@ section{
   width:60%;
 }
 .p-5{
-  padding: 5%;
+  padding-left: 5%;
 }
 .title{
   display:inline;
 }
 .title > img{
-  width:75%;
+  width:65%;
 }
 .btn-false{
   width: fit-content;
@@ -66,4 +66,21 @@ ul li{
 
 ul li:last-child{
   color:grey;
+}
+
+.mobile{
+  width:50%;
+  float:left;
+}
+footer{
+    margin-bottom: 100px;
+}
+footer ul{
+  margin-left: 15%;
+  list-style-type: none;
+
+}
+footer ul li{
+  float:left;
+  padding-left:15px;
 }
