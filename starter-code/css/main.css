@@ -8,3 +8,134 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+
+.banner{
+  background: #587fa1; /* Old browsers */
+  background: -moz-linear-gradient(top, #587fa1 0%, #376185 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #587fa1 0%,#376185 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #587fa1 0%,#376185 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#587fa1', endColorstr='#376185',GradientType=0 ); /* IE6-9 */
+  height: 300px;
+}
+
+.mainBlock{
+  margin-top: -180px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#phones{
+  margin-left: -130px;
+}
+.container{
+  margin-left: -300px;
+  width: 500px;
+  height: 400px;
+  
+}
+
+.logIn{
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+}
+
+#instagram-logo{
+  width:80%;
+}
+
+.textBlock{
+  background-image: url("/images/frame.png");
+  background-size: 500px;
+  background-repeat: no-repeat;
+  color: #252525;
+}
+
+.textBlock h1{
+  padding-top: 40px;
+  padding-left:40px;
+  color: #173E63;
+  font-size: 27px;
+}
+
+.textBlock p{
+  padding-left:40px;
+  padding-right:40px;
+  font-size: 16spx;
+}
+
+ul {
+  list-style-type: none;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+li{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+strong{
+  font-weight: 400;
+}
+
+.downloads{
+  margin-left: 45px;
+  margin-top: 30px;
+}
+
+.downloads img{
+  padding-right: 20px;
+}
+
+.button {
+  display: flex;
+  align-self: center;
+  border: solid 0.5px #264764;
+  height: 40px;
+  width: 100px;
+  background: #587fa1; /* Old browsers */
+  background: -moz-linear-gradient(top, #749abb 0%, #376185 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #749abb 0%,#376185 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #749abb 0%,#376185 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#587fa1', endColorstr='#376185',GradientType=0 );
+  text-decoration: none;
+  border-radius: 3px;
+  box-shadow: 0px 1px 5px #264764;
+}
+
+.button img{
+  align-self: center;
+  margin-left: 10px;
+
+}
+
+.myButton{
+  padding-left: 10px;
+  align-self: center;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 15px;
+  color: white;
+}
+
+footer a{
+  font-size: 15px;
+  text-decoration: none;
+  color: #1c5380;
+  font-weight: 500;
+
+}
+
+#copywrite{
+  font-size: 15px;
+  padding-left: 40px;
+  color: #a3a3a3;
+  font-weight: 500;
+}
+
+
+
