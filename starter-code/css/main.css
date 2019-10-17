@@ -4,7 +4,135 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+/* Just for visual reference */
+/* border-style: dashed;
+  border-width: 1px; */
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+
+}
+
+.gradientBG {
+  width: 100%;
+  height: 275px;
+
+  position: relative;
+  background-image: linear-gradient(rgb(80, 125, 160), rgb(48, 95, 135));
+
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-top: 50px;
+
+  position: absolute;
+  left: 50%;
+  top: 45%;
+  transform: translate(-50%, -50%);
+}
+
+.bodyContent {
+  width: 950px;
+
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.section2 {
+  width: 500px;
+}
+
+.instagramTitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.loginButton {
+  width: 100px;
+  height: 40px;
+  background-image: linear-gradient(rgb(80, 125, 160), rgb(48, 95, 135));
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  border-style: solid;
+  border-width: 1.2px;
+  border-radius: 3px;
+  border-color: #1c5380;
+}
+
+.login {
+  text-decoration: none;
+}
+
+.homeIcon {
+  height: 25px;
+}
+
+.loginButton>p {
+  color: white;
+}
+
+.textContent {
+  background: URL("./../images/frame.png");
+  background-repeat: no-repeat;
+  padding: 5px 38px 0px 35px;
+}
+
+.bodyTextTitle {
+  width: 250px;
+  color: #06365f;
+}
+
+.downloads {
+  width: 335px;
+  padding-top: 15px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer {
+  width: 550px;
+  height: 30px;
+  text-align: center;
+
+  padding-top: 40px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+
+  text-transform: uppercase;
+  font-size: 0.7em;
+}
+
+.footerLinks {
+  width: 420px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.footerLinks>a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #1c5380;
+}
+
+.copyright>a {
+  text-decoration: none;
+  font-weight: bold;
+  color: lightslategray;
 }
