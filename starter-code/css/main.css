@@ -4,7 +4,145 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 10px;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+
+}
+
+
+.background {
+  height: 100vh;
+  width: 100vw;
+  background-image: url('../images/bgtile.png');
+  background-repeat: repeat-x;
+  display: flex;
+  flex-direction: column;
+}
+
+/* constains all the elements minus the nav list */
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 110px;
+  padding-left: 100px;
+  width: 80%;
+  align-self: center;
+}
+
+/* contains everything to the end of the app store buttons */
+.sub-container-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 50px;
+  width: 600px;
+}
+
+/* constians the logo, title and login */
+.logo-login {
+  display: flex;
+  flex-direction: row;
+  justify-items: space-around;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.logo-login>img {
+  padding-right: 93px;
+}
+
+.login {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 40px;
+  width: 90px;
+  border: 1px solid #06365f;
+  border-radius: 4px;
+}
+
+.login>p {
+  font-weight: 500;
+  color: lightgray;
+}
+
+/* contains the site description */
+.site-description {
+  background-image: url('../images/frame.png');
+  background-repeat: no-repeat;
+  width: 500px;
+  padding: 10px;
+}
+
+.site-description h1 {
+  font-size: 3rem;
+  width: 320px;
+  margin: 20px 0 20px 20px;
+  color: #06365f;
+}
+
+.site-description p {
+  padding-left: 20px;
+  padding-top: 10px;
+  font-weight: 500;
+  width: 420px;
+  color: slategray;
+}
+
+
+/* constians the app store buttons */
+.app-store-buttons {
+  display: flex;
+  justify-items: center;
+  margin-top: 60px;
+  margin-left: 40px;
+}
+
+.app-store-buttons :nth-child(1) {
+  margin-right: 30px;
+}
+
+/* constains the nav list */
+
+nav {}
+
+.list-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.list-container ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+.list-items {
+  color: #06365f;
+  margin: 50px 25px;
+  font-weight: 500;
+}
+
+.list-items:hover {
+  color: lightgrey;
+}
+
+.copyright {
+  color: lightgrey;
+  margin: 50px 25px;
 }
