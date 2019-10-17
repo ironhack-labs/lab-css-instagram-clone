@@ -2,9 +2,133 @@
 Colors to use:
 dark blue: #06365f
 light blue: #1c5380
+rgb(68, 104, 141)
 */
 
+html {
+  font-size: 40px;
+}
+
+.split {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 200 18px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url(/labs/lab-css-instagram-clone/starter-code/images/bgtile.png);
+  background-repeat: repeat-x;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 90vh;
+  padding: 0 5vh;
+}
+
+.shadowed {
+  background: white;
+  height: 400px;
+  margin: 0;
+  padding: 20px;
+  position: relative;
+  border-radius: 10px;
+}
+
+.shadowed::after {
+  border-radius: 0 0 300px 300px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  content: '';
+  display: block;
+  height: 400px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+.content > div {
+  height: 70vh;
+}
+
+.left-block img {
+  height: 100%;
+}
+
+.right-block {
+  width: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: flex-start;
+}
+
+.right-block-head {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2vh 0;
+}
+
+.text-box {
+  width: 80%;
+  height: 40vh;
+  padding: 0 5%;
+}
+
+.homebutton {
+  height: 5vh;
+  width: 14vh;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: rgb(227, 233, 241);
+  border-radius: 10px;
+  background:linear-gradient(to bottom, rgb(107, 140, 184) 5%, rgb(59, 90, 131) 100%);
+  border-color: rgb(31, 62, 104); 
+  text-shadow: 0 1px 3px black;
+  font-size: 0.3rem;
+  font-weight: 800;
+  
+}
+
+.app-store {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.app-store img {
+  padding: 4vh 1vw;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer div {;
+  width: 60vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+footer p {
+  color: rgb(31, 62, 104);
+  font-weight: 800;
+}
+
+footer div :last-child {
+  color:rgb(172, 172, 172);
+  margin-left: 1vw;
 }
