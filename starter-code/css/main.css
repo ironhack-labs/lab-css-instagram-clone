@@ -7,4 +7,100 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: linear-gradient(to bottom, #1c5380, #06365f 35%, white 35%);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+html {
+  font-size: 10px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+section {
+  /* background-color: lightcoral; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10vh 30vh;
+}
+
+content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+h1 {
+  width: 40vh;
+  color: #06365f;
+  padding-top: 2vh;
+  padding-left: 3vh;
+}
+
+p {
+  font-size: 0.9em;
+  width: 50vh;
+  padding: 1vh 3vh 3vh 3vh;
+}
+
+.block-text {
+  /* background-image: url(/images/frame.png); */
+  background-color: white;
+  background-position: -1vh -1vh;
+  border-radius: 5px;
+  -webkit-box-shadow: -3px -10px 20px -10px rgba(0, 0, 0, 0.71);
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  font-size: 1.2rem;
+}
+
+li {
+  padding: 1vw;
+}
+
+li > a {
+  text-decoration: none;
+  color: #06365f;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.appstore {
+  padding-left: 2vh;
+}
+
+button {
+  background-image: linear-gradient(
+    to bottom,
+    rgb(97, 133, 164),
+    rgb(58, 96, 130) 100%,
+    white 100%
+  ); /* Green */
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 11vh;
+  height: 4.5vh;
+  border-radius: 0.4vh;
+  border: 2px solid rgb(40, 80, 119);
+  /* display: inline-block; */
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+img[alt^="logo"] {
+  width: 34vh;
 }
