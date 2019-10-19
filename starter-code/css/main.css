@@ -7,4 +7,124 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  font-size: 15px;
+}
+
+/* images */
+
+#download {
+  height: 45px;
+  width: 150px;
+  margin-top: 30px;
+  margin-right: 15px;
+}
+
+#instagram {
+  width: 320px;
+  height: auto;
+}
+
+#phones {
+  margin-left: 50px;
+  margin-right: 50px;
+  width: 350px;
+  margin-top: 40px;
+  height: 550px;
+}
+
+#home {
+  padding: 5px;
+  border-top: 15px;
+}
+
+.login {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.login button {
+  background-color: #1c5380;
+  border-radius: 3px;
+  color: white;
+  font-weight: bold;
+  margin-left: 45px;
+  width: 85px;
+  display: inline-flex;
+  align-items: flex-end;
+}
+
+.login button p {
+  display: inline-block;
+}
+
+.background {
+  background: #1c5380;
+  height: 330px;
+}
+
+.main-div {
+  display: flex;
+  padding-top: 80px;
+  justify-content: center;
+}
+
+h3 {
+  color: #06365f;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.right-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 70px;
+  align-items: stretch;
+}
+
+.container {
+  background-image: url("../images/frame.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 0px 40px;
+}
+
+.container h3 {
+  font-size: 25px;
+  width: 260px;
+}
+
+.container p {
+  text-align: left;
+  width: 380px;
+}
+
+/* footer */
+
+footer {
+  width: 80%;
+  text-align: center;
+  margin: auto;
+}
+
+footer>ul {
+  display: flex;
+  justify-content: space-around;
+  width: 600px;
+  font-size: 12px;
+  margin: 0 auto;
+  padding-top: 50px
+}
+
+footer>ul>li {
+  list-style: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #1c5380;
+
+}
+
+footer>ul> :nth-child(9) {
+  color: lightgrey;
+  margin-left: 12px;
 }
