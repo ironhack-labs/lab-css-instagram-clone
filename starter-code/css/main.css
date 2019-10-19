@@ -44,7 +44,7 @@ body {
 }
 
 .login button {
-  background-color: #1c5380;
+  background: linear-gradient(0deg, #06365f, 50%, #1c5380);
   border-radius: 3px;
   color: white;
   font-weight: bold;
@@ -59,7 +59,7 @@ body {
 }
 
 .background {
-  background: #1c5380;
+  background: linear-gradient(0deg, #06365f, 50%, #1c5380);
   height: 330px;
 }
 
