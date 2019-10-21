@@ -4,7 +4,74 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;
+  padding: 50px;
+}
+h1 {
+  color: #06365f;
+  font-size: 2em;
+  width: 450px;
+  margin-left: 20px;
+  padding-top: 20px
+}
+
+p {
+  width: 450px;
+  margin-left: 20px;
+
+}
+.capture {
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  margin-left: 470px;
+  margin-top: -400px
+}
+aside {
+  margin-left: 470px;
+  margin-top: 80px
+}
+
+.button {
+  background-image: url(../images/bgtile.png);
+  font-size: 0.9em;
+  color: white;
+  border: 0;
+  box-shadow: 1px 1px 1px 1px #06365f;
+  margin: 20px 100px
+}
+.flex-one{
+  display: flex;
+  flex-direction: row;
+}
+.flex-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: right space-between;
+  text-align: right;
+  height: 50%;
+  padding-left: 150px;
+}
+
+.flex-footer {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin: 0 350px;
+margin-top: 50px;
+color:#1c5380;
+font-weight: bold;
+text-decoration: none
+}
+.footer-insta {
+  color: gray;
+
 }
