@@ -9,37 +9,37 @@ light blue: #1c5380
 }
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
-  padding:0;
-  display:flex;
-  justify-content: center;
   background-image: url("../images/bgtile.png"); 
   background-repeat: repeat-x;
+  display:flex;
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  justify-content: center;
+  margin: 0;
+  padding:0; 
 }
 
 h1{
-  margin:0;
+  color: #06365f;
   font-size:25px;
   font-weight:bold;
-  color: #06365f;
   line-height: 1.2em;
-}
+  margin:0;
+  }
 
 main{
-  display:flex;
   align-content:center;
-  justify-content:center;
-  width:900px;
-  padding-top:100px;
+  display:flex;
   flex-wrap:wrap;
+  justify-content:center;
+  padding-top:100px;
+  width:900px;
 }
 
 .main-content{
   display:flex;
-  width:500px;
   flex-wrap:wrap;
   padding-top: 30px;
+  width:500px; 
 }
 
 .main-image{
@@ -49,29 +49,29 @@ main{
 }
 
 .main-image img{
-  width:100%;
   object-fit: contain;
-}
+  width:100%;
+  }
 
 .description{
   background-color: #ffffff;
-  padding:30px;
-  border-radius: 10px;
-  margin-top:30px;
   background: url("../images/frame.png");
   background-repeat: no-repeat;
+  border-radius: 10px;
+  margin-top:30px;
+  padding:30px;
 }
 
 footer{
   display:flex;
   justify-content: center;
-  width:100%;
   margin:30px;
+  width:100%;
 }
 
 footer ul li{
-  display: inline-block;
   color:#1c5380;
+  display: inline-block;
   font-size:12px;
   font-weight:bold;
   margin:5px;
@@ -79,14 +79,14 @@ footer ul li{
 }
 
 footer ul li:last-of-type{
-  margin-right:0;
   color:#5a5a5a;
+  margin-right:0;
 }
 
 .igLogo{
+  align-items:center;
   display:flex;
   justify-content:space-between;
-  align-items:center;
   width:100%;
 }
 
@@ -100,16 +100,16 @@ footer ul li:last-of-type{
 }
 
 .igLogo a{
-display:flex;
-align-items: center;
-justify-content:center;
-text-align: center;
-padding:5px 10px;
-background: linear-gradient(to bottom,#1c5380 0%,#06365f 100%);
-height:40px;
-color:white;
-text-decoration:none;
-font-weight:bold;
+  align-items: center;
+  background: linear-gradient(to bottom,#1c5380 0%,#06365f 100%);
+  color:white;
+  display:flex;
+  height:40px;
+  font-weight:bold;
+  justify-content:center;
+  padding:5px 10px;
+  text-align: center;
+  text-decoration:none;
 }
 
 .igLogo a:hover{
