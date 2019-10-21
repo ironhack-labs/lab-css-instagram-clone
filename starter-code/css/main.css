@@ -7,4 +7,87 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  padding: 120px;
+}
+
+section{
+  display: flex;  
+  justify-content: space-between;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.content{
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  width: 420px;
+  padding: 32px 40px;
+  background-size: 100% 100%;
+}
+
+h1{
+  color: #06365f;
+}
+
+.em{
+  font-weight: bold;
+}
+
+.gradient-bg{
+  background: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+button{
+  border: none;
+  background: linear-gradient(rgba(255,255,255, 0.3), #1c5380);
+  box-shadow: 0 0 4px #06365f;
+  color: white;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  padding: 8px 12px;
+}
+
+button img{
+  margin-right: 8px;
+}
+
+
+footer{
+  padding-top: 32px;
+}
+
+footer ul{
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+footer ul li{
+  display: inline-block;
+  text-transform: uppercase;
+  margin-right: 18px;
+  font-size: 12px;
+}
+
+footerl ul li:last-child{
+  margin-right: 0;
+}
+
+footer a{
+  color: #1c5380;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer .copyright{
+  color: #999;
 }
