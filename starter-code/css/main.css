@@ -1,10 +1,64 @@
 /*
 Colors to use:
-dark blue: #06365f
+dark blue: 
 light blue: #1c5380
 */
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+  padding: 100px;
+}
+
+.fondo {
+  background: url("../images/frame.png");
+  background-repeat: no-repeat;
+  padding: 40px;
+  width: 400px;
+  background-size: 100%;
+
+
+}
+
+h1 {
+  color: #06365f
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+button {
+  background: linear-gradient(rgba(255, 255, 255, 0.2), #1c5380);
+  box-shadow: 0 0 3px #06365f;
+  border: none;
+  color: white;
+
+}
+
+#title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer {
+  margin: 40px 0 0 240px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #1c5380;
+  text-align: center;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.cp {
+  color: grey;
 }
