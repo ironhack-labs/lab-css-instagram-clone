@@ -4,7 +4,84 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+* {
+  box-sizing: border-box;
+}
+
+.bold-word {
+  font-weight: bold;
+}
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;
+  display: flex;
+  flex-flow: column;
+}
+
+div.container {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+
+div.controls {
+  margin-left: 40px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.header > button.btn-login {
+  align-self: center;
+  height: 40px;
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;
+}
+.header > button.btn-login > img {
+  height: 100%;
+}
+
+section.info {
+  background: url(../images/frame.png) no-repeat;
+  width: 504px;
+  padding: 40px;
+}
+
+section.info > article > h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #06365f;
+  width: 60%;
+}
+
+section.info > article > p {
+  padding: 10px 0;
+}
+
+footer {
+  margin-bottom: 50px;
+}
+footer > ul {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  font-weight: bold;
+}
+
+footer > ul > li > a {
+  text-decoration: none;
+  color: #1c5380;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+footer > ul > li > span.copyright {
+  color: lightgrey;
 }
