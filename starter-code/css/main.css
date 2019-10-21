@@ -3,8 +3,79 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
+*{
+  margin: 10px 15px;
+}
+html {
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x; 
+}
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+ul{
+  list-style-type: none;
+}
+h1{
+  margin: 19px 189px 14px 22px;
+  color: #06365f;
+}
+footer>nav>ul>li>a{
+  color: #1c5380;  
+
+}
+
+footer>nav>ul>li>p{
+  color: #ccc;
+
+}
+.columnas{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: stretch;
+	align-content: space-between;
+}
+.logo{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+}
+.background {
+  background: url(../images/frame.png) 0 0 no-repeat;
+  background-size: cover;
+
+}
+.div2{
+  text-align: left;
+  margin: 16px 40px;
+  
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+  
+}
+.text-section {
+  width: 401px;
+  height: 314px;
+}
+.button-edit{
+  border-width: 0px;
+  border-top: 3px;
+ background-color:rgba(240, 240, 240, 0.2);
+}
+.row{
+  
+  padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
