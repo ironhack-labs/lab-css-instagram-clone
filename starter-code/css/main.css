@@ -8,3 +8,64 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+h2{
+  padding-top: 25px;
+  padding-left: 25px;
+  padding-right: 150px;
+  color: #06365f;
+}
+footer{
+  display: flex;
+  justify-content: space-around;
+}
+a{
+  text-decoration: none;
+}
+ul{
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+p{
+  padding: 10px 60px 0px 20px;
+  text-align: left;
+}
+html{
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;  
+}
+button{
+  background-color: #1c5380 ;
+}
+.flex-container{
+  display: flex;
+}
+.flex-row{
+  flex-direction: row;
+}
+.flex-column{
+  flex-direction: column;
+}
+.img-padding{
+  padding: 100px;
+}
+.flex-center{
+  justify-content: center;
+}
+.back-section{
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+}
+.flex-two{
+  display: flex;
+  justify-content: space-around;
+}
+.general{
+  display: flex;
+  justify-content: space-between;
+  padding: 10% 20%;
+}
+.flex-around{
+  justify-content: space-between;
+}
+
