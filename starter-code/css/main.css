@@ -7,4 +7,115 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+  background-size: 100vw 40vh;
+  
+}
+
+#section-one {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 12vh;
+}
+
+header.top-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+div.left-column {
+  margin-right: 10px;
+}
+
+div.right-column {
+  width: 45%;
+  padding: 20px 40px 40px 40px;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+
+.right-column article {
+  background-image: url("../images/frame.png");
+  background-size: 100% 100%;
+  padding: 30px 40px 0 50px;
+  box-sizing: border-box;
+}
+
+.right-column article h1{
+  color: #06365f;
+  max-width: 250px;
+  font-size: 1.5rem;
+  margin-top:12px;
+}
+
+.right-column article p {
+  font-size: 14px;
+}
+
+.stores {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding: 10px 40px 0 50px;
+}
+
+.stores img{
+  margin-right: 20px;
+}
+
+.login-button {
+  background-image: linear-gradient(rgb(109, 139, 168), rgb(70, 106, 142));
+
+  /* background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+  background-size: contain; */
+
+  /* background-color: #1c5380; */
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #1c5380;
+  border-radius: 3px;
+  margin-right: 8px;
+}
+
+.login-button img {
+  margin-right: 8px;
+}
+
+.bottom-menu{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 15px;
+  padding: 40px 0;
+}
+
+.menu-elements {
+  text-transform: uppercase;
+ 
+  display: inline;
+  font-weight: 500;
+}
+
+.menu-elements a {
+  margin-right: 10px;
+  text-decoration: none; 
+  color: #1c5380;
+}
+
+
+.bottom-menu > span {
+  font-weight: 700;
+  color: grey;
+  margin-left: 20px;
+
 }
