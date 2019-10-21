@@ -3,8 +3,100 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+*{
+  box-sizing: border-box;
+}
 
 body {
+  background-image: url(../images/bgtile.png);
+  background-repeat:repeat-x;
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  padding:0;
+}
+
+main{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 80px;
+}
+
+main img{
+  height: 100%;
+}
+
+.content{
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  width: 504px;
+}
+
+.content h1{
+  color: #06365f;
+  font-size: 30px;
+  padding: 20px 40px 0px;
+}
+
+.content p{
+  font-size: 16px;
+  padding: 0px 40px;
+}
+
+.content span{
+  font-weight: bold;
+}
+
+.navigation{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px;
+  width: 504px;
+}
+
+.login {
+  align-self: center;
+  background-color:rgba(255, 255, 255, 0.1);
+  border: none;
+  border-radius:5%;
+  box-shadow: 0px 0px 1px 1px #1c5380;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  font-size:14px;
+  font-weight: bold;
+  padding: 0px 6px 0px 0px;
+}
+
+.login img{
+  height: 20 px;
+  padding: 6px;
+}
+
+.stores{ 
+  padding:20px;
+  width: 504px;
+}
+
+.stores img{
+  padding-left: 20px;
+}
+footer{
+  width: 700px;
+  margin: auto;
+}
+
+footer ul{ 
+  color: #1c5380;
+  display: flex;
+  flex-direction: row;
+  font-size: 12px;
+  font-weight: bold;
+  justify-content: space-evenly;
+  list-style: none;
+  text-transform: uppercase;
+}
+
+#copy{
+  color: gray;
 }
