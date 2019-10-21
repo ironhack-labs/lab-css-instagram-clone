@@ -7,14 +7,14 @@ light blue: #1c5380
 *{
   box-sizing: border-box;
 }
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
   padding:0;
   display:flex;
-  align-content:center;
   justify-content: center;
-  background-image: url("/images/bgtile.png");
+  background-image: url("../images/bgtile.png"); 
   background-repeat: repeat-x;
 }
 
@@ -39,6 +39,7 @@ main{
   display:flex;
   width:500px;
   flex-wrap:wrap;
+  padding-top: 30px;
 }
 
 .main-image{
@@ -57,18 +58,15 @@ main{
   padding:30px;
   border-radius: 10px;
   margin-top:30px;
- 
+  background: url("../images/frame.png");
+  background-repeat: no-repeat;
 }
 
 footer{
+  display:flex;
+  justify-content: center;
   width:100%;
   margin:30px;
-}
-
-footer ul{
-  display:block;
-  margin: auto;
-  width:80%;
 }
 
 footer ul li{
@@ -77,11 +75,12 @@ footer ul li{
   font-size:12px;
   font-weight:bold;
   margin:5px;
+  text-align:center;
 }
 
 footer ul li:last-of-type{
   margin-right:0;
-  color:#cccccc;
+  color:#5a5a5a;
 }
 
 .igLogo{
@@ -112,6 +111,10 @@ color:white;
 text-decoration:none;
 font-weight:bold;
 }
+
+.igLogo a:hover{
+  background: linear-gradient(to bottom,#06365f 0%,#1c5380 100%);
+  }
 
 .social-buttons a:first-of-type{
   margin-right:10px;
