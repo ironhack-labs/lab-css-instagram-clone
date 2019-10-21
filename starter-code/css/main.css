@@ -4,7 +4,115 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+*{
+  box-sizing: border-box;
+}
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  padding:0;
+  display:flex;
+  align-content:center;
+  justify-content: center;
+  background-image: url("/images/bgtile.png");
+  background-repeat: repeat-x;
+}
+
+h1{
+  margin:0;
+  font-size:25px;
+  font-weight:bold;
+  color: #06365f;
+  line-height: 1.2em;
+}
+
+main{
+  display:flex;
+  align-content:center;
+  justify-content:center;
+  width:900px;
+  padding-top:100px;
+  flex-wrap:wrap;
+}
+
+.main-content{
+  display:flex;
+  width:500px;
+  flex-wrap:wrap;
+}
+
+.main-image{
+  display:flex;
+  padding-right:50px;
+  width:350px;
+}
+
+.main-image img{
+  width:100%;
+  object-fit: contain;
+}
+
+.description{
+  background-color: #ffffff;
+  padding:30px;
+  border-radius: 10px;
+  margin-top:30px;
+ 
+}
+
+footer{
+  width:100%;
+  margin:30px;
+}
+
+footer ul{
+  display:block;
+  margin: auto;
+  width:80%;
+}
+
+footer ul li{
+  display: inline-block;
+  color:#1c5380;
+  font-size:12px;
+  font-weight:bold;
+  margin:5px;
+}
+
+footer ul li:last-of-type{
+  margin-right:0;
+  color:#cccccc;
+}
+
+.igLogo{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  width:100%;
+}
+
+.igLogo img{
+  height:70px;
+  margin-right:10px;
+}
+
+.igLogo a img{
+  height:20px;
+}
+
+.igLogo a{
+display:flex;
+align-items: center;
+justify-content:center;
+text-align: center;
+padding:5px 10px;
+background: linear-gradient(to bottom,#1c5380 0%,#06365f 100%);
+height:40px;
+color:white;
+text-decoration:none;
+font-weight:bold;
+}
+
+.social-buttons a:first-of-type{
+  margin-right:10px;
 }
