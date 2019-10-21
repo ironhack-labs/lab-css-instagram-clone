@@ -7,4 +7,34 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-color: #1c5380;
+  
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.general-content {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  color: #06365f;
+}
+
+ul {
+  display: inline;
+  justify-content: center;
+  align-items: baseline;
+
+}
+
+.log-btn {
+  width: 40px;
+  height: 40px;
 }
