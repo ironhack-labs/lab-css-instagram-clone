@@ -8,3 +8,10 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.father{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
