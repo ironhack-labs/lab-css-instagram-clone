@@ -1,16 +1,22 @@
 body {
-    margin: 200px;
+    margin: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url("./images/bgtile.png");
+    background-repeat: repeat-x;
 }
 
 main {
-    width: 90%;
+    width: 70%;
     display: flex;
     justify-content: center;
     flex-direction: row;
+    margin-bottom: 50px;
+    padding: 0;
+    margin-right: 30px;
 }
 
 footer {
@@ -24,8 +30,59 @@ ul li {
     flex-direction: row;
 }
 
-.login-button {
-    border-style: solid;
-    border-color: black;
+ul li a {
+    text-decoration: none;
 }
 
+.login-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-color: black;
+    padding: 0px 10px;
+    text-decoration: none;
+    background: rgba(46, 137, 223, 0.411);
+    color: white;
+    border-style: none;
+    -webkit-box-shadow: -9px -16px 58px -21px rgba(0,0,0,0.75);
+    -moz-box-shadow: -9px -16px 58px -21px rgba(0,0,0,0.75);
+    box-shadow: -9px -16px 58px -21px rgba(0,0,0,0.75);
+}
+
+.container-1 {
+    margin-right: 10px;
+}
+
+.container-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.container-5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.container-6 {
+    background: white;
+    padding: 5px;
+    box-shadow: 30px;
+    border-radius: 10px;
+    -webkit-box-shadow: -15px -10px 32px -21px rgba(0,0,0,0.75);
+    -moz-box-shadow: -15px -10px 32px -21px rgba(0,0,0,0.75);
+    box-shadow: -15px -10px 32px -21px rgba(0,0,0,0.75);
+}
+
+h1 {
+    color: rgba(13, 13, 160, 0.521);
+}
