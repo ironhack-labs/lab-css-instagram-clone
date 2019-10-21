@@ -1,0 +1,31 @@
+body {
+    margin: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+main {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li {
+    display: inline-block;
+    flex-direction: row;
+}
+
+.login-button {
+    border-style: solid;
+    border-color: black;
+}
+
