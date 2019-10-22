@@ -1,0 +1,56 @@
+/*
+Colors to use:
+dark blue: #06365f
+light blue: #1c5380
+*/
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 50px;
+}
+
+ul {
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  padding: 50px;
+}
+
+.login-button {
+  background-color: #06365f;
+  padding: 15px 15px 12px 12px;
+  text-align: center;
+  color: white;
+  font-weight: 100px;
+}
+
+.box-1 {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-barfit {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box-content { 
+  padding: 50px;
+}
+
+.button-box1 {
+  margin-top: 50px;
+  justify-content: space-around;
+}
+
+.logo-ig {
+  width: 50%;
+  margin-right: 100px;
+}
