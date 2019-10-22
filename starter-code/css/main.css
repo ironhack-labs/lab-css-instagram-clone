@@ -16,13 +16,10 @@ body {
 }
 
 main{
+  align-items: center;
   display: flex;
   justify-content: space-evenly;
   margin: 80px;
-}
-
-main img{
-  height: 100%;
 }
 
 .content{
