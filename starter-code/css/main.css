@@ -20,6 +20,7 @@ ul{
 h1{
   margin: 19px 189px 14px 22px;
   color: #06365f;
+  padding: 6px;
 }
 footer>nav>ul>li>a{
   color: #1c5380;  
@@ -44,7 +45,8 @@ footer>nav>ul>li>p{
 	flex-wrap: nowrap;
 	justify-content: center;
 	align-items: center;
-	align-content: stretch;
+  align-content: stretch;
+  margin: 0px;
 }
 .background {
   background: url(../images/frame.png) 0 0 no-repeat;
@@ -78,4 +80,7 @@ footer>nav>ul>li>p{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.radio{
+  border-radius: 5px;
 }
