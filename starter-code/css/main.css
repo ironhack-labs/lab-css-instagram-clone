@@ -3,8 +3,83 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+*{
+  padding: 0;
+  margin: 0;
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+html {
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;
+}
+.background-p {
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+}
+.log-in {
+  height: 40px;
+  width: 90px;
+  margin-top: 18px;
+  background-color: #507ea3;
+}
+p {
+  margin-left: 25px;
+  margin-right: 15px;
+}
+strong {
+  font-weight: bold;
+}
+h1 {
+  color: #06365f;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  padding-top: 20px;
+}
+
+.flex-container {
+  display: flex;
+ 
+}
+.phones {
+  margin: 50px;
+}
+.right-part {
+  margin: 25px;
+  margin-top: 55px;
+}
+.home{
+  margin-top: 30px;
+
+}
+.photos-bottoms {
+  display: flex;
+  margin-top: 40px;
+  margin-left: 85px;
+}
+.badge-android {
+  margin-left: 25px;
+}
+.photos-top{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+footer ul {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+  color: #1c5380;
+  margin: 0 160px;
+}
+.Mcopy {
+  color: grey;
+}
+li {list-style-type: none;}
+a {
+  text-decoration: none;
 }
