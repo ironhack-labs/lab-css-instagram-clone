@@ -3,8 +3,113 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+* {
+  margin: 0px;
+  padding: 0px;
+  /*border: solid 1px; red;*/
+}
+
+
+
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  padding: 100px 250px;
+  background-image: url('../images/bgtile.png');
+ background-repeat: repeat-x;
+ 
+}
+
+
+main {
+  align-items: center;
+  justify-content: center;
+box-sizing: content-box;
+}
+
+header {
+  padding: 10px;
+  margin-bottom: 5px;
+  
+}
+
+footer {
+display: inline;
+text-align: center;
+padding: 30px;
+ }
+footer li {
+  display:inline;
+  justify-content: space-around;
+  color: #3a688f;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 0.8em;
+
+}
+
+.copy {
+  margin: 5;
+  color: grey;
+
+}
+
+article h2 {
+  padding: 5px;
+  color: #3a688f;
+}
+
+p {
+  padding: 5px;
+}
+
+.laterl-image img{
+  width: 100%;
+  height: auto;
+}
+
+.flex-box {
+display: flex;
+}
+
+.flex-inline {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.space-around {
+  justify-content: flex-end;
+}
+.button {
+  background-color: #3a688f;
+       
+   align-items:center;
+    margin-right: 12px;
+    border: 1px solid #bbb;
+    padding: 10px;
+    font-size: 1em;
+    align-content: center;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.button a {
+  font-weight: 800;
+  color: aliceblue;
+}
+
+
+.right-section {
+  background-image: url('../images/frame.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 15px;
+  
+}
+
+.button-down {
+  padding: 20px 10px;
 }
