@@ -8,3 +8,80 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+h2 {
+  color: #06365f;
+  margin-left: 20px;
+}
+
+p {
+  margin-left: 20px;
+}
+
+html{
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;
+}
+
+
+.instagram {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.log-in {
+  background-color: #1c5380;
+  color: white;
+  margin-top: 20px;
+  border: #06365f 1px;
+  padding: 5px 5px 10px 5px;
+
+
+}
+
+.app-store{
+  display: flex;
+  flex-direction: row;
+}
+
+.capture {
+  display: flex;
+  flex-direction: column;
+  background-image: url(../images/frame.png);
+}
+
+.apple {
+  margin-left: 10px;
+}
+
+.android {
+  margin-left: 40px;
+}
+
+.general {
+  display: flex;
+  margin: 5% 20%;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left: 300px;
+  margin-right: 300px; 
+}
+
+.phones {
+  margin-right: 10%;
+}
+
+a {
+  text-decoration: none;
+  color: #1c5380;
+  font-weight: bold;
+}
+
+li {
+  list-style-type: none;
+}
