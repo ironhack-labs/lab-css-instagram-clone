@@ -1,0 +1,89 @@
+/*
+Colors to use:
+
+light blue: 
+*/
+
+body {
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+
+html {
+ background-image: url(images/bgtile.png);
+ background-repeat: repeat-x;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content : space-around;
+  margin: 10px 280px;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #2d597e;
+}
+.columns {
+  margin: 5% 10%;
+  display: flex;
+}
+
+.space {
+  margin: 30px;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  margin-right: 70px;
+}
+
+.insta {
+  width: 70%;
+}
+
+.block {
+  background-image: url(images/frame.png);
+  background-repeat: no-repeat;
+}
+
+h1 {
+  margin-bottom: 0px;
+  padding: 30px;
+  color: #06365f;
+  margin-right: 250px;
+}
+
+p {
+  padding: 0px 30px;
+  margin-right: 150px;
+  margin-top: 0px;
+}
+
+.botonera {
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  margin-right:100px;
+}
+
+button {
+  border-radius: 5px;
+  background-color: #4c7ba1;
+  height: 40px;
+  width: 100px;
+  margin-top: 20px;
+  color: white;
+  border: 2px solid #3c6382;
+}
+
+.last {
+  color: lightgray;
+  font-weight: bold;
+}
