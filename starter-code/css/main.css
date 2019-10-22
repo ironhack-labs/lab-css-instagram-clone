@@ -60,4 +60,30 @@ body {
 .flex{
   display: flex;
   flex-direction: row;
+  margin: 200px 40px 0 180px;
+}
+
+.flex2{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 50px 300px 0 80px;
+	
+}
+
+.footPosition{
+	display: flex;
+	justify-content: space-between;
+	margin: 40px 200px;
+}
+
+.centerImg{
+	display: flex;
+	align-items: center;
+	margin-bottom: 20px;
+	justify-content: space-between;
+}
+
+.centerText{
+	margin-bottom: 50px;
 }
