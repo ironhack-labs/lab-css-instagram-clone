@@ -10,14 +10,21 @@ body {
   background-color: #1c5380;  
 }
 
-main {
-  margin: 1px 20px 1px 40px;
+main  {
+  width: 1000px;
+  margin: 70px 20px 1px 40px;
   border: 20px;
-  padding: 20px 40px 20px 100px;
+  padding: 10px;
   display: flex;
   flex-direction:row;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+
+}
+
+.mockup {
+  margin: 10px;
+  border: 20px;
 
 }
 
@@ -27,13 +34,51 @@ h1 {
 }
 
 .text-content {
-  border: 10px;
-  padding: ;
+  
   background-color: white;
   font-size: 17px;
+  margin: 20px 10px 20px 10px;
+  border: 20 px 10px 20px 10px;
+  padding: 20px 10px 20px 40px;
+
 
 }
 
 span {
   font-weight: 600;
+}
+
+.download-app {
+  margin: 10px 20px 10px 20px;
+  border: 10px 20px 10px 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  
+}
+
+.branding-ig {
+  margin: 10px 20px 10px 20px;
+  border: 10px 20px 10px 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end 
+}
+
+.log-btn {
+  width: 250px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-start;
+  
+}
+
+.inline-list {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: space-between;
 }
