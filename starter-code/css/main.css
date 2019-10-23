@@ -3,8 +3,103 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+.bck {
+  background-image: url('../images/bgtile.png');
+  height: 300px;
+  width: 100%;
+}
+.main-content{
+  display:flex;
+  justify-content:center;
+  padding-top: 10%;
+}
+.square-thingy-things {
+  display:flex;
+  flex-direction: row;
+  align-self: center;
+  width:70%;
+}
+.left-side{
+  display:flex;
+}
+.right-side{
+  display:flex;
+  flex-direction: column;
+  margin-left: 3%;
+}
+.title{
+  display: flex;
+  flex-direction:row;
+  margin-left:1%;
+  justify-content: space-between;
+  align-content: center;
+}
+.title button{
+  width: 90px;
+  height: 40px;
+  display:flex;
+  margin-left: -10%;
+  margin-top: 15%;
+  align-items:center;
+  justify-content:space-between;
+  color:white;
+  background-image: linear-gradient(to bottom, #678cac, #3d6486);
+  border: none;
+  background-
+}
+
+.inside-container {
+  display:flex;
+  justify-content:flex-end;
+  background-image:url('../images/frame.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  flex-direction: column;
+}
+.text{
+  padding-left: 10%;
+  padding-right: 10%;
+  display: flex;
+  flex-direction:column;
+  padding-top: 2%;
+}
+.text p {
+  padding-top: -5%;
+}
+.text h3{
+  color:  #06365f;
+  font-size: 1.7em;
+}
+
+.download-images {
+  padding-left: 10%;
+  padding-top: 5%;
+  display:flex;
+  text-align: left;
+  width: 55%;
+  justify-content: space-between;
+}
+#android img{
+  margin-left: 10%;
+}
+
+.footer-menu{
+  display: flex;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 3%;
+  justify-content: space-between;
+  margin-top: 30%;
+}
+.footer-menu a{
+  font-size: 0.75em;
+  text-decoration: none;
+  color:  #06365f;
+}
+#mark {
+  color:rgb(170, 170, 170);
 }
