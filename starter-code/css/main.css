@@ -4,7 +4,79 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+head {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  padding: 0;
+}
+
+nav{
+  background-color: #1c5380;
+  height: 400px;
+}
+
+
+
+#brand{
+  margin-left: 700px;
+  margin-top: 180px;
+}
+
+#phonestanding{
+  display: flexbox;
+}
+
+core-text{
+  margin-left: 700px;
+}
+
+#login-image {
+  float: right;
+  margin-top: 200px;
+  margin-right: 150px;
+}
+
+#slogan{
+  color: #06365f;
+  margin: 0;
+  padding: 0;
+}
+
+#lowimgphone{
+  float:center;
+}
+
+
+#foot-item1:hover{
+  cursor: pointer;
+  border-bottom: 2px solid #1c5380;
+}
+#foot-item2:hover{
+  cursor: pointer;
+  border-bottom: 2px solid #1c5380;
+}
+#foot-item3:hover{
+  cursor: pointer;
+  border-bottom: 2px solid #1c5380;
+}
+#foot-item4:hover{
+  cursor: pointer;
+  border-bottom: 2px solid #1c5380;
+}
+#foot-item5:hover{
+  cursor: pointer;
+  border-bottom: 2px solid #1c5380;
+}
+#foot-item6:hover{
+  cursor: pointer;
+  border-bottom: 2px solid #1c5380;
+}
+#foot-item7:hover{
+  cursor: pointer;
+  border-bottom: 2px solid #1c5380;
 }
