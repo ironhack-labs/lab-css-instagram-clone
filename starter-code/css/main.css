@@ -4,7 +4,98 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+
+
 body {
+  
+  margin: 0;
+  position: relative;
+}
+
+header{
+  background-color: #1c5380;
+  height: 250px;
+  position: absolute;
+  width: 100%;
+}
+
+.logo{
+  position: absolute;
+  left: 560px;
+  top: 80px;
+  height: 70px;
+}
+
+h1{
+  color: #06365f;
+}
+aside{
+  position: absolute;
+  top: 200px;
+  width: 600px;
+  left: 47%;
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 17px;
+}
+
+section{
+  background-color: white;
+}
+
+.titulo{
   margin: 0;
 }
+
+.frame{
+  width: 610px;
+  position: absolute;
+  right: 10%;
+  top: 170px
+}
+
+.phones{
+  position: absolute;
+  left: 15%;
+  top: 70px;
+  height: 500px;
+}
+
+.iphone{
+  position: absolute;
+  top: 510px;
+  left: 600px;
+}
+
+.android{
+  position: absolute;
+  top:510px;
+  left: 780px;
+}
+
+.options{
+  font-size: 10px;
+  top: 600px;
+  left: 450px;
+  border: 0;
+  margin: 0;
+}
+
+.home{
+  position: absolute;
+  left: 14%;
+  height: 25px;
+  bottom: 10px;
+}
+
+.boton{
+  position: absolute;
+  top: 100px;
+  left: 1000px;
+  width: 120px;
+  height: 50px;
+  color: white;
+  font-size: 100%;
+  background-color: #1c5380;
+  text-align: end;
+}
+
