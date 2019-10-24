@@ -22,10 +22,6 @@ p {
   padding: 2% 0;
 }
 
-.main{
-
-}
-
 .background{
   display: inline-block;
   background-image: url("../images/bgtile.png");
@@ -36,33 +32,21 @@ p {
   max-width: 1300px;
   margin: 10% ;
   line-height: 1.65;
-  
-  /* padding: 10%; */
-
-  /* padding: 10% 10% 10% 5%;
-  width: 100%;
-  height: 100%; */
-  /* align-items: center;
-  justify-content: center; */
-  /* flex-flow: row wrap; */
-  /* align-content: flex-end; */
 }
 .main-card-1{
   box-sizing: border-box;
   flex-basis: 30%;
-  align-items: stretch;
 }
 .main-card-2{
   box-sizing: border-box;
   flex-basis: 60%;
 }
 
-@media (min-width: 1000px){
-  .main-container{
-    display: flex;
-    justify-content: space-between;
-  }
-} 
+.description {
+  background-color: white;
+  border-radius:3%;
+  padding: 6%;
+}
 
 .brand-nav{
   width: 100%;
@@ -75,18 +59,34 @@ p {
 
 .home {
   display: flex;
-  
+  height: 35px;
+  border: 0.2px solid rgb(1, 35, 98,0.6);
+  background: #8fd2ff;
+  background-image: -webkit-linear-gradient(top, #8fd2ff, #165d70);
+  background-image: -moz-linear-gradient(top, #8fd2ff, #165d70);
+  background-image: -ms-linear-gradient(top, #8fd2ff, #165d70);
+  background-image: -o-linear-gradient(top, #8fd2ff, #165d70);
+  background-image: linear-gradient(to bottom, #8fd2ff, #165d70);
+  -webkit-border-radius: 2;
+  -moz-border-radius: 2;
+  border-radius: 2px;
+  margin: 0 15px;
+  padding: 0 15px;
 }
-
+.img-home {
+  display: flex;
+  align-items: center;
+}
 .log-in {
-  padding-left: 15px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
 }
 
 .log-in p {
   color: white;
   font-weight: bold;
 }
-
 
 .stores{
   padding: 5% 2%;
@@ -124,3 +124,14 @@ p {
 .copy-right{
   color: rgb(171, 179, 187);
 }
+
+@media (min-width: 1000px){
+  .main-container{
+    display: flex;
+    justify-content: space-between;
+  }
+  .home {
+    padding: 0 15px;
+  }
+}
+
