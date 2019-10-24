@@ -4,7 +4,87 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+* {
+  margin: 0;
+}
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+
+}
+.general {
+  background-color: #50789a;
+  height: 20vh;
+  padding-top: 90px;
+}
+.divDos {
+  float: right;
+  margin-right: 5%;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.divDos-img {
+  padding-right: 2%;
+  padding-top: 20px;
+}
+button {
+  background-color: #1c5380;
+  border: 1px solid #50789a;
+  padding: 5px 10px;
+  border-radius: 3px;
+  color: white;
+  width: 80px;
+}
+.iphoneImages {
+  position: relative;
+  float: left;
+  margin-left: 10%;
+  width: 400px;
+}
+.divTres {
+  position: relative;
+  left: 50%;
+  top: 325px;
+}
+.texto {
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 600px;
+  height: 300px;
+  position: absolute;
+  bottom: 100%;
+  margin-right: 8%;
+  padding: 3%;
+  width: 40%;
+}
+h1 {
+  color: #06365f;
+  margin-bottom: 20px;
+}
+.footerInstagram1 {
+
+  position: relative;
+}
+.footerInstagram {
+  position: absolute;
+  top: 510px;
+  left: 25%;
+  width: 100%;
+}
+.footerInstagram li {
+  display: inline;
+  color: #06365f;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-right: 1%;
+}
+.copy {
+  color: gray !important;
+  padding-right: 0 !important;
+}
+ul {
+  padding: 0;
 }
