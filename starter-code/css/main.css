@@ -3,8 +3,130 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: linear-gradient( #1c5380 0%, #06365f 25%, #ffffff 25%);
 }
+#container {
+  width: 80vw;
+  height: 100vw;
+  margin: 0 auto;
+  margin-top: 10%;
+  
+}
+
+#phones {
+  width: 30%;
+  display: inline-block;
+  margin-left: 5%;
+  margin-right: 5% ;
+  
+}
+
+header {
+  position: relative;
+  margin: 5% 0%;
+}
+
+h1 {
+  text-indent: -9999px;
+  display: block;
+  width: 314px;
+  height: 78px;
+  background-image: url('../images/brand.png');
+  background-size: cover;
+}
+#log-in {
+  width: 100px;
+  background-color:#1c5380;
+  display: block;
+  color: rgba(255, 255, 255, 0.6);
+  padding: 2%;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 72px -22px rgba(0,0,0,0.17);
+  -moz-box-shadow: 0px 0px 72px -22px rgba(0,0,0,0.17);
+  box-shadow: 0px 0px 72px -22px rgba(0,0,0,0.17);
+  position: absolute ;
+  right: 10px;
+  top: 10px;
+}
+#log-in p {
+  display: inline-block;
+  text-align: right;
+  margin:0 auto !important ;
+}
+#log-in figure {
+  display: inline-block;
+  margin: 0 10px 0 0 !important;
+  width: 25% !important;
+}
+
+figure {
+  width: 100%;
+}
+
+img {
+  width: 100%;
+}
+
+
+#info {
+  width: 50%;
+  display: inline-block;
+} 
+
+#info section {
+  border-radius: 5px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px -55px 62px -20px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0px -55px 62px -20px rgba(0,0,0,0.2);
+  box-shadow: 0px -55px 62px -20px rgba(0,0,0,0.2);
+  padding: 6%;
+} 
+#info h2 {
+  color: #06365f;;
+  
+}
+
+#info p {
+  font-weight: 400 ;
+  margin: 10px auto;
+}
+
+#info figure {
+  display: inline-block;
+  width: 35%;
+  margin-top: 20px ;
+}
+
+#google-play {
+  width: 33% !important;
+  margin-left: 4%;
+}
+
+footer {
+  width: 100%;
+  margin-top: 4%;
+}
+footer ul{
+  margin: 0 auto;
+  width: 70%;
+}
+footer ul li {
+  font-size: .9em ;
+  list-style: none;
+  display: inline-block;
+  margin-left: 20px;
+  font-weight: 600;
+  color: #1c5380;
+}
+
+footer ul li:last-child {
+  color: gray;
+}
+
