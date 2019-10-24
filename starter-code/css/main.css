@@ -8,3 +8,82 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+nav {
+  background-color: #1c5380;
+  position: relative;
+  height: 250px;
+}
+
+#instragram-brand{
+  margin: 0;
+  position: absolute;
+  left: 620px;
+  top: 100px;
+  height: 150%;
+}
+
+#log-in{
+  margin: 0;
+  background-color: #1c5380;
+  font-size: 18px;
+  color: white;
+  border-block-color: #06365f;
+  position: absolute;
+  left: 1000px;
+  top: 120px;
+  height: 40px;
+}
+
+#phone{
+  margin: 0;
+  position: absolute;
+  left: 200px;
+  top: 80px;
+ 
+}
+
+#frame{
+  margin: 0;
+  position: absolute;
+  left: 600px;
+  top: 200px;
+  height: 500;
+}
+
+h3{
+  color: #06365f;
+  font-size: 25px;
+}
+
+#aside-text{
+  font-size: 16px;
+  margin: 0;
+  position: absolute;
+  left: 630px;
+  top: 200px;
+  width: 400px;
+}
+
+#google{
+  margin: 0;
+  position: absolute;
+  left: 840px;
+  top: 545px;
+}
+
+#appStore{
+  margin: 0;
+  position: absolute;
+  left: 640px;
+  top: 545px;
+}
+
+#footer-text{
+  font-size: 15px;
+  margin: 0;
+  position: absolute;
+  left: 350px;
+  top: 605px;
+  width: 550px;
+}
