@@ -15,16 +15,16 @@ body {
   background-repeat: repeat;
   background-size: cover;
   height: 40vh;
-  margin-bottom: -100px;
+  min-height: 30vh;
+  margin-bottom: -10vh;
 }
 .hero-content {
   padding-top: 150px;
-  padding-left: 5vw;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 40vw;
-  margin-bottom: 1vh;
+  width: 45vw;
+  margin-bottom: 10vh;
 }
 .hero-img {
   float: left;
@@ -44,9 +44,9 @@ body {
 }
 .card {
   background-image: url(../images/frame.png);
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
   width: 40vw;
-
   padding: 3%;
   display: flex;
   flex-direction: column;
