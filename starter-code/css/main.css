@@ -4,7 +4,104 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+*{
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  background: linear-gradient(180deg, #4b7296 300px, rgba(255,255,255,1) 300px);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#left-content{
+  margin: 40px -100px 0 150px;
+}
+
+#phone-pic-section img{
+  height: 20%;
+  width: 20%;
+}
+
+#body-content{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#ig-logo-and-button{
+  height: 300px;
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: -20px;
+}
+#ig-logo-and-button img{
+  padding: 0 5px 0 0;
+}
+
+#ig-logo-and-button button{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5em;
+  color: white;
+}
+
+#app-buttons{
+  margin-left: 20px;
+}
+
+#ig-button{
+  padding: 10px;
+  border: 1px solid #3a648a;
+  border-radius: 5px;
+  background-color: #688dad;
+}
+
+#right-paragraph{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 500px;
+  height: 350px;
+  text-align: left;
+  padding: 10px 10px 10px 25px;
+  margin: -80px 0 50px 0;
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+  border-radius: 7px;
+}
+
+#capture{
+  margin-top: 10px;
+  width: 250px;
+  font-size: 1.2em;
+  color: #2c5275;
+}
+
+#right-paragraph div{
+  padding: 8px;
+}
+
+#bottom-bar{
+  padding: 50px 10px 50px;
+  display: flex;
+  justify-content: center;
+}
+
+#bottom-bar-content{
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#bottom-bar-content div{
+  padding: 0 10px 0 0;
 }
