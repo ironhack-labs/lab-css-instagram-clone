@@ -8,3 +8,116 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.top {
+  background-image: url("/starter-code/images/bgtile.png");
+  height: 300px;
+}
+.main-content {
+  display: flex;
+  justify-content: center;
+}
+
+.right {
+  position: relative;
+  bottom: 200px;
+  right: 100px;
+  width: 45%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.left {
+  position: relative;
+  bottom: 200px;
+  width: 45%;
+  display: flex;
+  justify-content: center;
+}
+
+.left img {
+  height: auto;
+}
+ .instagram {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ }
+ .instagram button{
+   display: flex;
+   position: relative;
+   right: 15px;
+   align-items: center;
+   justify-content: center;
+   border: 1px solid black;
+   width: 14%;
+   height: 40px;
+   background-color: #1c5380;
+   color: white;
+   font-weight: bold;
+ }
+ .instagram button img {
+   height: 55%;
+   margin-right: 8px;
+ }
+
+ .brand {
+   position: relative;
+   left: 10px;
+   width: 45%;
+ }
+
+ .brand img {
+   width: 100%;
+ }
+
+
+.words {
+  background-image: url("/starter-code/images/frame.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 20px 70px;
+}
+
+.words h1 {
+  color: #06365f;
+  margin-bottom: 0;
+  line-height: 1.25em;
+  font-size: 2em;
+}
+
+.words p {
+  font-size: 1.3em;
+}
+
+.words a {
+  text-decoration: none;
+  margin: 30px;
+}
+
+.words a img {
+}
+
+@media (max-width: 1150px) {
+  .left {
+    display: none;
+  }
+  .right {
+    justify-self: center;
+    right: 0;
+    width: 80%;
+  }
+}
+
+@media (max-width: 796px) {
+  .words p {
+    font-size: 1rem;
+   }
+   .words h1 {
+    font-size: 1.4rem;
+   }
+   .instagram button {
+    font-size: 0.5rem;
+   }
+}
