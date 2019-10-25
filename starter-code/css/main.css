@@ -5,6 +5,100 @@ light blue: #1c5380
 */
 
 body {
+  background-color: #fefefe;
+}
+
+.whiteSection {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  height: 400px;
+  /* border: 2px solid black; */
+  /* padding: 55px; */
+  margin: 0 20% 55px 20%;
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+  ;
+}
+
+.blueSection {
+  display: flex;
+  /* justify-content: flex-end; */
+  /* align-items: flex-end; */
+  background-color:#3f729B;
+  height: 200px;
+}
+
+.blueSection img {
+  position: relative;
+  right: 35%;
+  bottom: 30%
+}
+
+.content {
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.text {
+  background-color: white;
+  border: 1px solid lightgrey;
+  border-radius: 8px;
+  padding: 15px;
+  /* width: 60%;
+  height: 300px; */
+  position: relative;
+  bottom: 60px
+}
+
+
+
+.logo {
+  position: relative;
+  bottom: 100px;
+}
+
+.text h3 {
+  color: navy;
+  font-size: 1.5em
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  bottom: 50px;
+}
+
+.footer {
+  display: flex;
+  /* width: 800px; */
+  justify-content: center;
+  padding: 30px;
+}
+
+.footer ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footList li {
+  list-style: none;
+  padding: 10px;
+
+}
+
+
+.top-section {
+  display: flex;
+  flex-direction: 
+}
+
+.log-in {
+  position:relative ;
+  bottom: 90px;
+  left: 55px;
 }
