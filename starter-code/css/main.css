@@ -15,7 +15,6 @@ body {
   background-repeat: repeat;
   background-size: cover;
   height: 40vh;
-  min-height: 30vh;
   margin-bottom: -10vh;
 }
 .hero-content {
@@ -53,7 +52,7 @@ body {
   margin-left: 5vw;
 }
 .card-content {
-
+  /*  */
 }
 .card-title {
   color: #06365f;
@@ -67,6 +66,5 @@ footer {
   bottom: 100px;
 }
 .footer-content {
-  /* width: 75%; */
-
+  font-size: 10px;
 }
