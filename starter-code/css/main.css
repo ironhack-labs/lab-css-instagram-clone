@@ -51,7 +51,8 @@ header{
 }
 .section-content{
   background-image: url(../images/frame.png);
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
   padding:1.5rem  3rem;
 }
 .logo-and-btn{
