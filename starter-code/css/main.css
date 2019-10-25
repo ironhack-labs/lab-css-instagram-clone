@@ -8,3 +8,99 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+h2 {
+  color: rgba(46, 94, 136, 0.933);
+}
+header {
+  height: 40vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(96, 134, 168, 0.933);
+}
+.right-side-header {
+  display:flex;
+  /* flex-direction: row; */
+  justify-content:space-between;
+  align-items: center;
+}
+.login {
+  padding: 4em;
+}
+.login button{
+  height: 3em;
+  background-color: rgba(102, 138, 170, 0.933);
+  border-radius: 2px;
+  border: 1px solid rgba(71, 105, 134, 0.933);
+  box-shadow: 1px 1px 1px 1px rgb(39, 47, 56);
+}
+.login span {
+  font-size: 13px;
+  padding-left: 0.5em;
+  color: white;
+  position: relative;
+  bottom: 3px;
+}
+.web-description {
+  position: relative;
+  bottom: 10vh;
+  right: 3vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.phone-image {
+  z-index:2;
+  position: relative;
+  /* bottom: 25vh; */
+  /* left:5vw */
+  bottom: 15vh;
+}
+.page-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card {
+  height: 50vh;
+  width: 25vw;
+box-shadow: 1px 0px 2px 1px rgb(39, 47, 56);
+border-radius: 4px;
+padding: 20px 50px;
+background-color: white;
+z-index: 2;
+}
+.promotional-images {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: white;
+  height: 10vh;
+  padding: 50px;
+  bottom: 7vh;
+  position:relative;
+  z-index: 3;
+  width: 26vw;
+}
+.promotional-images img {
+  height: 3em;
+  padding: 10px;
+}
+footer {
+  text-align: center;
+}
+footer ul{
+list-style-type: none;
+}
+footer li{
+display: inline-block;
+padding: 10px;
+color: rgba(46, 94, 136, 0.933);
+font-size:15px;
+font-weight: bold;
+}
+footer li:last-child{
+  color:rgba(92, 94, 95, 0.933);
+  opacity: 0.5;
+}
