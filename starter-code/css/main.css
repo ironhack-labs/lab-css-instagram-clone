@@ -6,5 +6,109 @@ light blue: #1c5380
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  margin: 200px;
+  background-image: url(../images/bgtile.png);
+  background-repeat: no-repeat;
+  background-size: 100% 40%;
+  
 }
+
+.whole{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+#inst{
+  width: 250px
+}
+
+.struct{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+
+.rightsq{
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+
+#login{
+  display: flex;
+  background-color:#1c5380;
+  border-radius: 2px ;
+  padding: 3px;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 10px ;
+  color: white;
+  font-weight: bold;
+  height: 30px;
+  width: 70px
+}
+
+
+#login img{
+  width: 15px;
+  height: 15px;
+}
+
+.icons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+
+ .links{
+   margin-top: 20px;
+   list-style: none;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   text-transform: uppercase;
+   flex-wrap: wrap;
+   color: #1c5380;
+   font-weight: bold;
+   font-size: 10px
+   
+
+
+
+ }
+
+ article{
+   background-color:white;
+   border-style: none;
+   border-radius:10px ;
+   padding: 20px;
+   width: 400px;
+   margin-bottom: 5px;
+   margin-top: 5px;
+
+ }
+
+ .cr{
+   color: gray;
+ }
+
+ h1{
+   color: #06365f;
+   margin-right: 150px;
+ }
