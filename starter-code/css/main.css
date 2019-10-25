@@ -81,12 +81,12 @@ body {
    list-style: none;
    display: flex;
    align-items: center;
-   justify-content: space-between;
+   justify-content: space-around;
    text-transform: uppercase;
    flex-wrap: wrap;
    color: #1c5380;
    font-weight: bold;
-   font-size: 10px
+   font-size: 14px
    
 
 
