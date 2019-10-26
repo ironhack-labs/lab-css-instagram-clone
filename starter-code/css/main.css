@@ -49,11 +49,15 @@ header{
 .service-content{
   width: 60vw;
 }
-.section-content{
+.card{
   background-image: url(../images/frame.png);
   background-size: contain;
   background-repeat: no-repeat;
-  padding:1.5rem  3rem;
+  height: 70vh;
+}
+.card-content{
+  padding:3.5rem;
+  box-sizing: border-box;
 }
 .logo-and-btn{
   display: flex;
@@ -104,18 +108,28 @@ footer{
   color: lightgray; 
 }
 
-@media (max-width:1200px){
-  
+@media (max-width:1080px){
   .service-image {
     display: none;
   }
   .service-content {
     width: 90vw;
   }
+  .card-content{
+    padding:4rem 8rem;
+  }
 }
 
-@media (max-width:740px){
+@media (max-width:850px){
   footer {
-    padding-top: 430px;
+    padding-top: 550px;
+  }
+}
+@media (max-width:650px){
+  .card-content{
+    padding:2rem 4rem;
+  }
+  footer {
+    padding-top: 500px;
   }
 }
