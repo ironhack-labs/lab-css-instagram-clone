@@ -1,0 +1,15 @@
+
+    Instagram
+
+    
+  
+    Download on the App Store
+    Get it on Google Play
+  
+    
+    <img src="images/bgtile.png" id="bgtile" />
+    
+              <img src="images/frame.png" />
+    <img src="images/home.png" />
+
+    &copy; 2014 Instagram
