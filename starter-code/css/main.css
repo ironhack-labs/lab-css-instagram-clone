@@ -56,6 +56,7 @@ body {
    background-color: #1c5380;
    color: white;
    font-weight: bold;
+   font-size: 0.7rem;
  }
  .instagram button img {
    height: 55%;
@@ -86,7 +87,6 @@ body {
   line-height: 1.25em;
   font-size: 2em;
 }
-
 .words p {
   font-size: 1.3em;
 }
