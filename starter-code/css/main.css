@@ -121,8 +121,11 @@ footer{
 }
 
 @media (max-width:850px){
+  .service-content{
+    width: 100vw;
+  }
   footer {
-    padding-top: 550px;
+    padding-top: 500px;
   }
 }
 @media (max-width:650px){
