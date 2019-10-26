@@ -7,36 +7,115 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
-  background-repeat: no-repeat;
-  background-image: linear-gradient(to bottom, #1c5380,#1c5380 ) ,linear-gradient(to bottom, white,white );
+  padding: 200px;
+  background: -webkit-linear-gradient(top, #1c5380,  #1c5380 35%, white 35%, white);
+  align-content: justify;  
+}
 
-  position: 0 0, 50vh 100vh;
- }
+.mainsection{
+  width: 1024px;
+  height: 680px;
+  padding-right: 30vw;
+  position: relative;
+  text-align: center;
+  align-content: center;
+  padding: 80px;
+  display: inline-block;
+}
+.asideimg{
+  position: absolute;
+  left: 15%;
+  width: 40%;
+  height: 70%;
+}
 
-#bodybackground {
- 
-  position: fixed;
-  top: 40vh;
-  bottom: 100vh;
-  width: 100%;
-  height: 50%;
+.instaheader{
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  width: 40%;
+  height: 10%;
+
 
 }
-h1{
-  color: #06365f;
+.rightdiv{
+  position: absolute;
+  top: 25%;
+  left: 50%;
+ 
+  width: 40% ;
+  height: 42%;
+}
+ul{
+  top: 40%;
+
+  width: 80%;
+  height: 10%;
+  list-style: none;
+  position: relative;
+
+}
+li{
+  font-weight: bold;
+  display: inline-block;
+  text-transform: uppercase;
+  color: #1c5380;
+
+
+}
+#greyli{
+  color: gray ;
+}
+
+.mainfooter{
+  margin: 5% 10%;
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  width: 80%; 
+  height: 20%; 
+
+}
+
+.imgmobile{
+
+  object-fit: cover;
+
+}
+
+.loginbutton{
+  position: relative;
+  bottom: 30%;
+  border-radius: 2px;
+  box-sizing: border-box;
+  padding: 1%;
+  background-color: #1c5380;
+
+}
+h2{
+  position: relative;
+  left: 10%;
+  color: #06365f ;
+  text-align: left;
+}
+
+p{
+  position: relative;
+  left: 10%;
+  width: 80%;
+  text-align: left;
+
 }
 
 div{
-  position: fixed;
-  left: 20vw;
-  right: 20vw;
-  top: 100px;
+  background-image: url("images/frame.png");
+  background-repeat:no-repeat;
+  background-position: center center;
 }
-#left-image{
-  position: relative;
-  float: left;
+a{
+color: #1c5380;
+text-decoration: none;
 }
-#right-content{
-  align-content: center;
+#abutton{
+  color: white;
 }
-footer{
