@@ -36,36 +36,31 @@ body {
   justify-content: center;
 }
 
-.left img {
-  height: auto;
-}
  .instagram {
    display: flex;
    justify-content: space-between;
    align-items: center;
  }
- .instagram button{
+
+ .instagram a{
    display: flex;
-   position: relative;
-   right: 15px;
    align-items: center;
-   justify-content: center;
+   justify-content: space-around;
    border: 1px solid black;
-   width: 14%;
+   width: 100px;
    height: 40px;
-   background-color: #1c5380;
+   background-color: #4A769A;
    color: white;
    font-weight: bold;
-   font-size: 0.7rem;
+   font-size: 0.9rem;
+   border-radius: 4px;
+   text-decoration: none;
  }
- .instagram button img {
+ .instagram a img {
    height: 55%;
-   margin-right: 8px;
  }
 
  .brand {
-   position: relative;
-   left: 10px;
    width: 45%;
  }
 
@@ -86,9 +81,11 @@ body {
   margin-bottom: 0;
   line-height: 1.25em;
   font-size: 2em;
+  text-align: left;
 }
 .words p {
   font-size: 1.3em;
+  text-align: left;
 }
 
 .words a {
@@ -96,25 +93,66 @@ body {
   margin: 30px;
 }
 
-.words a img {
+.bottom-links {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  
 }
 
-@media (max-width: 1150px) {
+.bottom-links a {
+  margin: 0px 10px;
+  text-decoration: none;
+  color: #1c5380;
+  font-weight: bold;
+}
+
+.trademark {
+  color: gray;
+  margin: 0px 10px;
+}
+
+@media (max-width: 1300px) {
   .left {
     display: none;
   }
   .right {
-    justify-self: center;
     right: 0;
     width: 80%;
   }
-}
-
-@media (max-width: 796px) {
+  .instagram button {
+    width: 100px;
+  }
+  .words {
+    padding: 5%;
+    background-color: white;
+    border-radius: 4px;
+    background-image: none;
+  }
+  .words a {
+    margin: 10px;
+  }
+  .words a img{
+    width: 170px;
+  }
   .words p {
-    font-size: 1rem;
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 0 10%;
    }
    .words h1 {
-    font-size: 1.4rem;
+    font-size: 1.8rem;
+    text-align: center;
+    padding: 0 10%;
+   }
+
+   .bottom-links {
+     flex-wrap: wrap;
+     margin-bottom: 5%;
+   }
+
+   .app-store {
+     display: flex;
+     justify-content: center;
    }
 }
