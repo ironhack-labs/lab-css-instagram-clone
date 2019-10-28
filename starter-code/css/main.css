@@ -1,10 +1,107 @@
 /*
 Colors to use:
 dark blue: #06365f
+/*
+Colors to use:
+dark blue: #06365f
 light blue: #1c5380
 */
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 16px;
+}
+
+.gradient {
+  background-image: linear-gradient(#5C7795, #33597B);
+  height: 360px;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+  margin-bottom: -400px;
+}
+
+.main-wrapper {
+  padding: 10% 18% 1% 18%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.left-wrapper {
+  width: 40%;
+}
+
+#telefono-img {
+  width: 100%;
+  height: 500px;
+
+}
+
+.right-wrapper {
+  width: 500px;
+}
+
+.mini-nav {
+  padding: 8% 0 4% 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button-login {
+  width: 100px;
+  height: 50px;
+  background-image: linear-gradient(#5C7795, #33597B);
+  border-radius: 4px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, .5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-login a {
+  text-decoration: none;
+  color: white;
+}
+
+.contenedor {
+  width: 82%;
+  margin: 0px auto;
+  padding-top: 30px;
+}
+
+.cuadro-texto {
+  background-image: url("../images/frame.png");
+  /*background-repeat: no-repeat;    LO PODRIA HABER OMITIDO */
+  height: 500px;
+}
+
+.iphone-app {
+  padding-right: 20px;
+}
+
+footer {
+  width: 50%;
+  margin: 0 auto;
+}
+
+footer>ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer>ul>li {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #5C7795;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+li:last-child {
+  color: #5C7795;
 }
