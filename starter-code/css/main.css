@@ -3,8 +3,131 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
+html {
+  margin: 0;
+}
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.bgtheme {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 400px;
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;
+  background-size: contain;
+  z-index: -10;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+.layout {
+  padding-top: 150px;
+  box-sizing: border-box;
+  display: flex;
+}
+.mobile-img {
+  width: 30%;
+}
+.mobile-img img, .instagram-logo img, .content-bkgd img {
+  width: 100%;
+  height: auto;
+}
+.instagram-content {
+  width: 70%;
+  padding-top: 10px;
+  padding-left: 60px;
+  padding-bottom: 10px;
+}
+.instagram-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+}
+.instagram-logo {
+  width: 70%;
+}
+.instagram-login {
+  width: 30%;
+  display: flex;
+  justify-content: flex-end;
+}
+.instagram-login a {
+  width: 100px;
+  height: 40px;
+  border: 1px solid #06365f;
+  border-radius: 5px;
+  color: white;
+  background: linear-gradient(#6993b3, #3d719a);
+  text-decoration: none;
+  text-shadow: 1px 1px 3px #212121;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.instagram-login a img {
+  padding-right: 8px;
+}
+.inst-content {
+  position: relative;
+  width: 100%;
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.inst-content:before {
+  content: "";
+      display: block;
+      padding-top: 30px;  
+  }
+.content-bkgd {
+  position: absolute;
+  width: 100%;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.inner-content {
+  background-color: white;
+  padding: 0 40px 30px;
+  margin: 0 1.65%;
+}
+.inner-content h1 {
+  color: #06365f;
+}
+.inner-content p {
+  font-size: 1.2em;
+}
+.download-links {
+  display: flex;
+  padding-top: 15px;
+}
+.applinks:first-child {
+  padding-right: 30px;
+}
+.footer_links {
+  list-style: none;
+  display: flex;
+  justify-content:space-evenly;
+}
+.footer_links li {
+  color: gray;
+}
+.footer_links li a {
+  color: #06365f;
+  padding-right: 10px;
+  text-decoration: none;
+  font-weight: bold;
 }
