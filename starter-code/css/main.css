@@ -14,9 +14,9 @@ h2 {
 header {
   height: 40vh;
   width: 100%;
-  display: flex;
+  /* display: flex;
   justify-content: space-around;
-  align-items: center;
+  align-items: center; */
   background-color: rgba(96, 134, 168, 0.933);
 }
 .right-side-header {
@@ -44,7 +44,7 @@ header {
 }
 .web-description {
   position: relative;
-  bottom: 10vh;
+  bottom: 30vh;
   right: 3vw;
   display: flex;
   flex-direction: row;
@@ -55,7 +55,7 @@ header {
   position: relative;
   /* bottom: 25vh; */
   /* left:5vw */
-  bottom: 15vh;
+  /* bottom: 5vh; */
 }
 .page-details {
   display: flex;
@@ -64,12 +64,13 @@ header {
 }
 .card {
   height: 50vh;
-  width: 25vw;
+  width: 40vw;
 box-shadow: 1px 0px 2px 1px rgb(39, 47, 56);
 border-radius: 4px;
-padding: 20px 50px;
+padding: 10px 20px;
 background-color: white;
 z-index: 2;
+overflow:scroll;
 }
 .promotional-images {
   display: flex;
@@ -77,11 +78,11 @@ z-index: 2;
   justify-content: space-between;
   background-color: white;
   height: 10vh;
-  padding: 50px;
+  padding: 20px;
   bottom: 7vh;
   position:relative;
   z-index: 3;
-  width: 26vw;
+  width: 30vw;
 }
 .promotional-images img {
   height: 3em;
