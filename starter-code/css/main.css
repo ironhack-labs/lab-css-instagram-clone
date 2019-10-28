@@ -3,8 +3,106 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+.fondo1 {
+  background-image: linear-gradient(#5C7795, #33597B);
+  height: 360px;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+  margin-bottom: -400px;
+}
+
+.fondo2 {
+  padding: 10% 18% 1% 18%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.caja-izq {
+  width: 40%;
+}
+
+#iphone {
+  display: flex;
+  padding: 0 0 300px 0;
+}
+
+.caja-der{
+  width: 600px;
+}
+
+.mini-nav {
+  padding: 8% 0 4% 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.button-login a:hover {
+  cursor: pointer;
+  border-bottom: 2px solid slategray;
+}
+
+.button-login {
+  width: 100px;
+  height: 50px;
+  background-image: linear-gradient(#5C7795, #33597B);
+  border-radius: 4px;
+  box-shadow: 2px 2px 4px  rgba(0, 0, 0, .5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-login a {
+  text-decoration: none;
+  color: white;
+}
+
+.frame-container {
+  width: 82%;
+  margin: 0px auto;
+  padding-top: 30px;
+}
+
+.fondoblanco {
+  background-image: url("../images/frame.png");
+  /*background-repeat: no-repeat;    LO PODRIA HABER OMITIDO */
+  height: 500px;
+}
+
+.iphone-button {
+  padding-right: 20px;
+}
+
+footer {
+  width: 50%;
+  margin: 0 auto;
+}
+
+footer>ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer>ul>li {
+  justify-content: space-between;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #5C7795;
+  font-weight: 900;
+  font-size: 13px;
+}
+
+li:last-child {
+  color: #D8D8DA;
 }
