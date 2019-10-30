@@ -2,9 +2,130 @@
 Colors to use:
 dark blue: #06365f
 light blue: #1c5380
+#376085
+rgb(55, 96, 133)
+rgb(126, 158, 186)
 */
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+.background-blue {
+  background-image: linear-gradient(360deg, rgb(55, 96, 133), rgb(126, 158, 186));
+  height: 40%;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+}
+
+.box-left {
+  height: 75%;
+  width: 25%;
+}
+
+.boxes-right {
+  height: 75%;
+  width: 35%;
+}
+
+.first-box-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 25px 0;
+}
+
+.log-in {
+  background-image: linear-gradient(360deg, rgb(55, 96, 133), rgb(126, 158, 186));
+  border: 1px solid rgb(55, 96, 133);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 20%;
+}
+
+.log-in img, .log-in span {
+  margin: 0 5px;
+}
+
+.log-in span {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.second-box-right {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px -25px 50px -55px rgba(0,0,0,0.01);
+}
+
+.text-box {
+  padding: 5%;
+}
+
+.text-box h3 {
+  color: #06365f;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  margin: 0;
+  padding: 0;
+}
+
+.text-box p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.text-box span {
+  font-size: 14px;
+  font-weight: bold;
+}
+.third-box-right {
+  display: flex;
+  justify-content: space-around;
+}
+
+footer {
+  height: 20vh;
+}
+
+.footer-box {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.footer-box ul li {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0 10px;
+}
+
+.links-tags li a, .links-tags li span {
+  font-size: 12px;
+  font-weight: 500;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.links-tags li a {
+  color: #06365f;
+}
+
+.links-tags li span {
+  color: #ccc;
 }
