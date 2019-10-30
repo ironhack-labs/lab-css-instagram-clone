@@ -7,4 +7,30 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  width: 100%;
+}
+
+.section-1 {
+  width: 80%;
+  margin: 0px auto;
+}
+.section-2{
+  width: 100%;
+  display: block;
+}
+.clearfix {
+  clear: both;
+}
+.col-1 {
+  width: 50%;
+  float: left;
+  display: inline-block;
+}
+ul li{
+  display: inline-block;
+  float: left;
+}
+li a{
+  text-decoration: none;
+  padding: 0px 10px;
 }
