@@ -8,3 +8,8 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.main {
+  justify-content:center;
+  padding: 200px;
+}
