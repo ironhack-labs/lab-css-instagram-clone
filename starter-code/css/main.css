@@ -64,3 +64,17 @@ body {
 #download-buttons img:last-child {
   margin-left: 20px;
 }
+#foot {
+  color: #1c5380;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.7rem;
+  margin: 50px auto;
+  text-align: center;
+}
+.copy {
+  color: grey;
+}
+#foot > * {
+  margin: 0 0.8em;
+}
