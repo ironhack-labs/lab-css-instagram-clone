@@ -5,35 +5,100 @@ light blue: #1c5380
 */
 
 body {
+  position: relative;
+  display: flexbox;
+  align-content: center;
+  justify-content: center;
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
 
+.bg{
+  position: relative;
+}
+
 .main {
-  justify-content:center;
-  padding: 100px 150px 0 150px;
+  position: relative;
+  padding: 150px 320px 0 320px;
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
 }
 .box{
   display: flex;
   flex-direction: column;
 }
+
 .topbox{
-  padding-left: 50px;
+  height: 80px;
   display:flex;
   flex-direction: row;
+  justify-content: space-between;
+  padding: 5px 0 20px 0;
 }
 
 .home{
-  width: 100px;
-  color: #1c5380;
+  
+  padding: 15px ;
+  display: flexbox;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.button{
+  width: 80px;
+  background-color: #1c5380;
   border: 3px solid #06365f;
+  border-radius: 4px;
+}
+
+span{
+  padding-left: 10px;
+  color:lightblue;
+  font-size: .8em;
+  
+} 
+
+.box {
+  display: flexbox;
+  justify-content: space-between;
+  background-color: white;
+  border: 0;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0px -150px 8px #1c5380;
+}
+
+.boxTitle {
+  font-size: 1.3em;
+  font-weight: bold;
+  padding: 0 140px 0 20px;
+}
+
+.boxTitle ttb{
+  color:#06365f;
+}
+
+p {
+  font-size: .9em;
+  padding: 0 20px;
+}
+
+.columnRight{
+  display: flexbox;
+  justify-content: space-between;
+  padding-left: 40px;
+}
+
+.boxAppstore{
+  padding-left: 20px;
 }
 
 .bottomBar {
   padding: 30px;
-  text-align: center;  
+  text-align: center;
+  color:06365;
 }
 
 .bottomBar li {
@@ -49,4 +114,6 @@ body {
   padding-left: 15px;
   color:gray;
 }
+
+
 
