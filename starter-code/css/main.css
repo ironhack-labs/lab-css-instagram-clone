@@ -8,3 +8,40 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.header {
+  background-image: linear-gradient(#4c7497, #06365f);
+  height: 320px;
+}
+
+.main_top {
+  float: right;
+  margin-top: 150px;
+  margin-right: 300px;
+}
+
+.title {
+  display: block;
+}
+
+.brand {
+  display: inline;
+  margin-right: 20px;
+}
+
+.buttom {
+  margin-left: 20px;
+  display: inline;
+}
+
+.frame {
+  float: right;
+}
+
+.footer {
+}
+
+.phones {
+  margin-left: 200px;
+  margin-top: -200px;
+}
