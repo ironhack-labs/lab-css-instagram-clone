@@ -10,17 +10,24 @@ body {
 }
 .header {
   background-color: #1c5380;
-  padding: 100px;
+  padding: 100px 100px 250px 100px;
 }
 #logo {
-  float: left;
   margin-top: 20px;
+  float: left;
 }
 #phones {
   float: left;
   margin: 100px 50px 0 100px;
 }
+#login-button {
+  float: right;
+}
 #frame {
+  position: absolute;
+  left: 450px;
+  top: 100px;
 }
 .description {
+  position: relative;
 }
