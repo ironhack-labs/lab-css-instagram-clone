@@ -8,3 +8,85 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+#container {
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+  height: 800px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.content {
+  align-self: center;
+  display: flex;
+}
+
+.content-left {
+  margin: 0 20px;
+}
+
+.content-right {
+  width: 460px;
+  margin: 0 20px;
+}
+
+.top-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.top-icons .login-button {
+  background-color: #1c5380;
+  color: white;
+  text-decoration: none;
+  padding: 7px;
+  border-radius: 7px;
+}
+
+.content-text {
+  width: 420px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.content-text h1 {
+  width: 250px;
+  color: #06365f;
+}
+
+.bottom-icons img {
+  padding: 0 0 0 20px;
+}
+
+
+#footer {
+  font-weight: bold;
+  margin: -60px 0 0 0;
+  padding: 0 0 20px 0;
+}
+
+#footer ul {
+  width: 800px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+#footer li {
+  list-style-type: none;
+}
+
+#footer a {
+  text-decoration: none;
+  color: #1c5380;
+}
+
+#footer .copy {
+  color: gray;
+}
