@@ -4,7 +4,95 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+.blue-part {
+  background-color: #1c5380;
+  height: 300px;
+}
+
+.initial {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding-top: 100px; 
+  margin-left: 690px; 
+}
+
+.logo {
+  padding-right: 70px;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+.btn {
+  background-color: #1c5380;
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  font-size: 22px;
+  border-radius: 5px;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.397),#1c5380);
+}
+
+.text-box {
+  background: url("../images/frame.png");
+  background-repeat: no-repeat; 
+  margin-left: 100px;
+  border-radius: 15px;
+  margin-top: -80px;
+  background-size: 500px 500px; 
+  width: 750px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-right: 100px;
+  padding-top: 20px;
+}
+
+.text h3 {
+  color: #06365f;
+}
+
+.white-part {
+  display: flex;
+  flex-direction: row;
+}
+
+.phones {
+  margin-top: -200px;
+  padding-right: 120px;
+}
+
+.last-items {
+  margin-left: 150px;
+  display: flex;
+  flex-direction: row;
+}
+
+.text {
+  margin-right: 80px;
+}
+
+.list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  color: #06365f;
+}
+
+.list li {
+  padding: 10px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+} 
+
+.footer p {
+  color: grey;
 }
