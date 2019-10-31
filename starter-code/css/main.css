@@ -8,3 +8,10 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.frame{
+  background-image: url(../starter-code/images/frame.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+} 
