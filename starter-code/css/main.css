@@ -4,7 +4,55 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.dark-blue{
+	background-color: #1c5380;
+	display:flex;
+}
+
+.button-blue {
+	background-color: #1c5380;
+	width: fit-content;
+  	padding: 10px;
+}
+
+.phones{
+  width: 40%;
+}
+
+.title {
+	display:inline;
+}
+
+.title > img {
+	width:300px;
+}
+
+article {
+	box-shadow: 4px -10px 31px -19px rgba(0,0,0,0.3);
+	padding: 10%;
+	background-image: url('./images/frame.png');
+
+	border-radius: 20px;
+}
+
+.footer ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer {
+	padding: 1%;
+}
+.footer li {
+  	list-style: none;
+  	color: #06365f;
+  	padding: 20px;
+}
+
