@@ -8,6 +8,7 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
   background: url('../images/bgtile.png') repeat-x;
+  color: #666;
 }
 .clear {
   clear: both;
@@ -20,29 +21,46 @@ body {
   border-radius: 2px;
   background: linear-gradient(#799ab7, #447196);
   border: none;
-  box-shadow: 0 0 2px 1px #06365f;
+  box-shadow: 0 0 2px 2px #305e84;
 }
 .button img {
   vertical-align: middle;
   margin-right: 5px;
 }
 .container {
-  max-width: 850px;
+  max-width: 870px;
   margin: 0 auto;
 }
 #main-content {
-  margin-top: 100px;
+  margin-top: 90px;
 }
 #phones {
   float: left;
-  margin-right: 50px;
+}
+.info-right {
+  float: right;
+  width: 504px;
 }
 #login {
-  padding: 20px 0;
+  padding: 15px 0 10px 0;
 }
 #login-button {
   float: right;
-  margin-top: 18px;
+  margin: 20px 10px 0 0;
 }
-#text {
+#text-box {
+  background: url('../images/frame.png') no-repeat;
+  padding: 10px 40px;
+}
+#text-box h1{
+  color: #06365f;
+  font-size: 1.7rem;
+  line-height: 1.2em;
+  max-width: 280px;
+}
+#download-buttons {
+  margin-top: 35px;
+}
+#download-buttons img:last-child {
+  margin-left: 20px;
 }
