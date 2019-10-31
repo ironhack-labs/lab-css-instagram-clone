@@ -11,5 +11,42 @@ body {
 
 .main {
   justify-content:center;
-  padding: 200px;
+  padding: 100px 150px 0 150px;
+  display: flex;
+  flex-direction: row;
 }
+.box{
+  display: flex;
+  flex-direction: column;
+}
+.topbox{
+  padding-left: 50px;
+  display:flex;
+  flex-direction: row;
+}
+
+.home{
+  width: 100px;
+  color: #1c5380;
+  border: 3px solid #06365f;
+}
+
+.bottomBar {
+  padding: 30px;
+  text-align: center;  
+}
+
+.bottomBar li {
+  list-style-type: none;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: .6em;
+  color:#1c5380;
+  font-weight: bold;
+}
+
+.copy {
+  padding-left: 15px;
+  color:gray;
+}
+
