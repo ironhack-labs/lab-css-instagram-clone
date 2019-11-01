@@ -76,9 +76,18 @@ body {
   margin: 50px auto;
   text-align: center;
 }
+#foot nav {
+  display: inline-block;
+}
+#foot nav ul {
+  list-style: none;
+}
+#foot nav ul li {
+  display: inline-block;
+}
+#foot nav ul > li, .copy {
+  margin: 0 0.8em;
+}
 .copy {
   color: grey;
-}
-#foot > * {
-  margin: 0 0.8em;
 }
