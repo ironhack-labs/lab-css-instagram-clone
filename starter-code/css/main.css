@@ -1,10 +1,101 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  padding: 0px;
+}
+#blue {
+  background-color: #4d7498;
+  width: 100%;
+  height: 37vh;
+
+}
+
+#content {
+  position: absolute;
+  top: 0px;
+  width: 80%;
+  margin-left: 10%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#imagenes_dobles img{
+  vertical-align: middle;
+}
+
+#imagenes_dobles button{
+  vertical-align: middle;
+  background-color: #567ea1;
+  border: none;
+  border-radius: 2px;
+  color: white;
+  font-weight: bold;
+  padding: 5px;
+}
+
+#content-v {
+  display: flex;
+  flex-direction: column;
+}
+
+#blanco {
+  background-image: url('../images/frame.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: initial;
+  height: 60vh;
+  padding-top: 3%;
+}
+
+#blanco h2 {
+  color: #06365f;
+  font-size: 1.4em;
+  text-align: left;
+  margin-right: 30%;
+  margin-left: 10%;
+}
+
+#blanco p {
+  color: rgb(82, 81, 81);
+  text-align: left;
+  margin-right: 10%;
+  font-size: 1.4em;
+  margin-left: 10%;
+}
+
+
+#blanco .bold {
+  color: rgb(39, 39, 39);
+  font-weight: bold;
+}
+
+#segundo {
+  margin-left: 10%;
+}
+
+#blanco img {
+  margin-left: 10%;
+}
+
+#footer {
+  position: fixed;
+  left: 0;
+  bottom: 40px;
+  width: 100%;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  color: #1c5380;
+}
+
+li {
+  margin: auto 15px;
+  display: inline;
+  font-weight: bold;
 }
