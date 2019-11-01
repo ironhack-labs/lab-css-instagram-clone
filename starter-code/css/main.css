@@ -8,3 +8,46 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+header{
+  background: url("../images/bgtile.png"); 
+  background-repeat: repeat-x;
+  height: 250px;
+}
+
+
+.centerbox{
+  background: red;
+  display: flex;
+  width: 900px;
+  margin-top: -150px;
+  margin-left: auto;
+  margin-right: auto
+}
+
+
+.mainblock{
+margin-left: 50px;
+}
+
+.secondblock{
+  background: url("../images/frame.png")
+
+}
+
+
+.phones{
+  margin-left: 20px;
+}
+
+
+h1{
+  font-size: 24px;
+  color: #06365f;
+}
+
+p{
+  font-size: 16px;
+  text-align: center;
+  background-image: url("images/frame.png")
+}
