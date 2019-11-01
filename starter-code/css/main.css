@@ -5,6 +5,133 @@ light blue: #1c5380
 */
 
 body {
+  background: #fff url('../images/bgtile.png') repeat-x top center;
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+/* Main */
+main{
+  display: block;
+  line-height: 0;
+  direction: rtl;
+  font-size: 0;
+  max-width:940px;
+  margin: 90px auto 80px;
+  width: 100%;
+}
+.box-content{
+  direction: ltr;
+  display: inline-block;
+  line-height: 1;
+  font-size: initial;
+  margin-top: 15px;
+  vertical-align: top;
+  width: 50%;  
+}
+.box-content h1{
+  display: inline-block;
+  max-width: 314px;
+  vertical-align: middle;
+  width: 60%;
+}
+.box-content h1 img{
+  display: block;
+  max-width: 100%;
+  width: 100%;
+}
+.box-content .button-log{
+  background: url('../images/bgtile.png');
+  border: 1px solid #1c5380;
+  border-radius: 6px;
+  display: inline-block;
+  color:#fff;
+  text-align: center;
+  text-decoration: none;
+  padding: 8px 0;
+  margin-left: 19%;
+  max-width: 90px;
+  width: 100%;
+}
+.box-content .button-log:before{
+  background: url('../images/home.png') no-repeat center;
+  content:'';
+  display: inline-block;
+  height: 20px;
+  vertical-align: middle;
+  width: 20px;
+}
+.box-content .button-log span{
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: 10px;
+  text-align: center;
+  vertical-align: middle;
+}
+.box-content .box-decription{
+  background: url('../images/frame.png') no-repeat top center;
+  background-size: 103%;
+  margin-top: 25px;
+  padding: 35px 35px 0;
+}
+.box-content .box-decription .title{
+  display: block;
+  color:#06365f;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.4;
+  margin-bottom: 15px;;
+  max-width: 270px;
+  width: 100%;
+}
+.box-content .box-decription p{
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-bottom: 15px;
+}
+.box-content .box-decription p b{
+  font-weight: 700;
+}
+.box-content .box-decription .buttons{
+  display: block;
+  font-size: 0;
+  line-height: 0;
+  margin-top: 35px;
+  text-align: left;
+  width: 100%;
+}
+.box-content .box-decription .buttons a{
+  display: inline-block;
+  height: 51px;
+  overflow: hidden;;
+  text-decoration: none;
+  text-indent: -9999px;
+}
+.box-content .box-decription .buttons a:first-child{
+  background: url('../images/badge-iphone.png') no-repeat center;
+  width: 164px;
+}
+.box-content .box-decription .buttons a:last-child{
+  background: url('../images/badge-android.png') no-repeat center;
+  width: 153px;
+  margin-left: 20px;
+}
+.box-content .box-decription .buttons a:hover{
+  opacity: .8;
+}
+.box-phone{
+  direction: ltr;
+  display: inline-block;
+  font-size: initial;
+  line-height: 1;
+  margin-right: 7%;
+  text-align:right;  
+  vertical-align: top;
+  width: 43%;
+}
+.box-phone img{
+  display: inline-block;
+  max-width: 330px;
+  width: 100%;
+}
+/* end Main */
