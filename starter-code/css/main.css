@@ -10,7 +10,7 @@ body {
 }
 .header {
   background-color: #1c5380;
-  padding: 100px 100px 250px 100px;
+  padding: 100px 100px 200px 100px;
 }
 #logo {
   margin-top: 20px;
@@ -26,8 +26,11 @@ body {
 #frame {
   position: absolute;
   left: 450px;
-  top: 100px;
+  top: 220px;
 }
-.description {
-  position: relative;
+.text {
+  position: absolute;
+  left: 480px;
+  top: 220px;
+  width: 400px;
 }
