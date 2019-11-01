@@ -16,6 +16,7 @@ main{
   line-height: 0;
   direction: rtl;
   font-size: 0;
+  text-align: center;
   max-width:940px;
   margin: 90px auto 80px;
   width: 100%;
@@ -26,8 +27,9 @@ main{
   line-height: 1;
   font-size: initial;
   margin-top: 15px;
+  text-align: left;
   vertical-align: top;
-  width: 50%;  
+  width: 53%;  
 }
 .box-content h1{
   display: inline-block;
@@ -49,7 +51,7 @@ main{
   text-align: center;
   text-decoration: none;
   padding: 8px 0;
-  margin-left: 19%;
+  margin-left: 20%;
   max-width: 90px;
   width: 100%;
 }
@@ -73,7 +75,7 @@ main{
   background: url('../images/frame.png') no-repeat top center;
   background-size: 103%;
   margin-top: 25px;
-  padding: 35px 35px 0;
+  padding: 35px 42px 0;
 }
 .box-content .box-decription .title{
   display: block;
@@ -81,7 +83,7 @@ main{
   font-size: 26px;
   font-weight: 700;
   line-height: 1.4;
-  margin-bottom: 15px;;
+  margin-bottom: 15px;
   max-width: 270px;
   width: 100%;
 }
@@ -103,7 +105,7 @@ main{
 .box-content .box-decription .buttons a{
   display: inline-block;
   height: 51px;
-  overflow: hidden;;
+  overflow: hidden;
   text-decoration: none;
   text-indent: -9999px;
 }
@@ -127,11 +129,43 @@ main{
   margin-right: 7%;
   text-align:right;  
   vertical-align: top;
-  width: 43%;
+  max-width: 330px;
+  width: 40%;
 }
 .box-phone img{
   display: inline-block;
-  max-width: 330px;
+  max-width: 100%;
   width: 100%;
 }
 /* end Main */
+
+/* footer */
+footer{
+  text-align: center;
+  max-width:940px;
+  margin: 0 auto 50px;
+}
+footer ul{
+  display: inline-block;
+  text-align: center;
+}
+footer li{
+  display: inline-block;
+  margin-right: 15px;
+  vertical-align: middle;
+}
+footer li a{
+  color:#1c5380;
+  font-weight: 700;
+  text-decoration: none;
+}
+footer li a:hover{
+  color:#06365f;
+  text-decoration: underline;
+}
+footer p{
+  color:#000;
+  display: inline-block;
+  vertical-align: middle;
+}
+/* end footer */
