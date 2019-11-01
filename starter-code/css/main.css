@@ -8,7 +8,90 @@ light blue: #1c5380
 	margin: 0;
 }
 
+/* GENERAL STRUCTURE */
 body {
 	font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
 	margin: 0;
+	background-image: url('../images/bgtile.png');
+	background-repeat: repeat-x;
+}
+.container {
+	width: 55em;
+	margin: 5.5em auto;
+}
+.phone-img {
+	float: left;
+}
+
+.main-content {
+	width: 32.5em;
+	float: right;
+}
+.clearfix {
+	clear: both;
+}
+
+/* TEXT SECTION */
+.brand-img {
+	float: left;
+}
+.login-btn {
+	background: linear-gradient(#678cac, #4c769c);
+	box-shadow: 0 0.1em 0.1em #366188;
+	border: none;
+	font-size: 0.8em;
+	color: #fff;
+	font-weight: 600;
+	font-size: 0.9em;
+	padding: 0.5em 1em 0.5em 0.8em;
+	border-radius: 0.2em;
+	border: 0.1em solid #366188;
+	float: right;
+	margin-top: 1em;
+	margin-right: 2em;
+}
+.login-btn img {
+	vertical-align: bottom;
+	margin-right: 0.6em;
+}
+.info {
+	background-image: url('../images/frame.png');
+	background-repeat: no-repeat;
+	padding: 2em 2.2em;
+	margin-top: 2em;
+}
+.info h2 {
+	color: #06365f;
+	font-size: 2em;
+	line-height: 1.2em;
+}
+.info p {
+	font-size: 1em;
+	margin-top: 1em;
+}
+.store-img {
+	padding-top: 1em;
+	padding-left: 2em;
+}
+.store-img > img:nth-child(2) {
+	margin-left: 1em;
+}
+
+/* FOOTER */
+.links {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 0.8em;
+	font-weight: 500;
+	color: #bfc0c1;
+	margin-top: 5.5em;
+}
+.links a,
+.links span {
+	margin: 0.5em;
+}
+.links a {
+	text-decoration: none;
+	color: #1c5380;
+	font-weight: 600;
 }
