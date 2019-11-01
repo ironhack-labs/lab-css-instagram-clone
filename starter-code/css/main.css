@@ -63,3 +63,16 @@ body {
 .text{
   padding-top:5px;
 }
+
+.description{
+  background: white;
+  padding: 10px 35px;
+  border:1px solid black;
+  border-radius:10px;
+  height: 400px;
+  color: #06365f;
+}
+
+.reduction{
+  width: 45%;
+}
