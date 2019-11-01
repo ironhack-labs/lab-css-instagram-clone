@@ -27,6 +27,10 @@ body {
   vertical-align: middle;
   margin-right: 5px;
 }
+.button span {
+  display: inline-block;
+  padding-top: 4px;
+}
 .container {
   max-width: 870px;
   margin: 0 auto;
