@@ -16,7 +16,7 @@ body {
 	background-repeat: repeat-x;
 }
 .container {
-	width: 70%;
+	width: 55em;
 	margin: 5.5em auto;
 }
 .phone-img {
@@ -24,9 +24,8 @@ body {
 }
 
 .main-content {
-	width: 50%;
+	width: 32.5em;
 	float: right;
-	margin-right: 6em;
 }
 .clearfix {
 	clear: both;
@@ -49,7 +48,7 @@ body {
 	border: 0.1em solid #366188;
 	float: right;
 	margin-top: 1em;
-	margin-right: 1em;
+	margin-right: 2em;
 }
 .login-btn img {
 	vertical-align: bottom;
