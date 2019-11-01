@@ -8,3 +8,15 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+nav{
+  float: left;
+}
+.clear-fix{
+clear: both;
+}
+
+#phone{
+  float: left;
+
+}
