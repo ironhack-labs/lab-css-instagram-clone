@@ -8,33 +8,43 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
-.background {
-  width: 100%;
-  height: 400px;
-  background: #1c5380;
-  position: absolute;
-}
 main {
   position: absolute;
   top: 0;
   left: 25%;
   right: 25%;
 }
+h2 {
+  color: #06365f;
+  font-size: 1.8em;
+  line-height: 1.3em;
+}
 .relative {
   position: relative;
 }
+.absolute {
+  position: absolute;
+}
 .inline {
   display: inline-block;
+}
+#background {
+  width: 100%;
+  height: 400px;
+  background: #1c5380;
+  position: absolute;
 }
 #phones {
   top: 200px;
 }
 #header {
-  left: 200px;
+  left: 400px;
   top: 220px;
 }
-h2 {
-  color: #06365f;
-  font-size: 1.8em;
-  line-height: 1.3em;
+#description {
+  left: 400px;
+  top: 350px;
+}
+#text {
+  padding: 10px 30px;
 }
