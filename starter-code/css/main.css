@@ -22,7 +22,25 @@ header img {
 
 header button{
   float: right;
+  margin: 20px 8px;
+  width: 100px;
+  height: 40px;
+  background: linear-gradient(#51789B, #3B6890);
+  border: solid .5px #1c5380;
+  border-radius: 3px;
+  box-sizing: border-box;
+  color: #fff;
+  text-align: center;
+  padding: 9px;
 }
+
+button div {
+padding-top: 3px;
+font-weight: 600;
+font-size: 12px;
+}
+
+
 
 .clear {
   clear: both;
