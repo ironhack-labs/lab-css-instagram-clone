@@ -5,14 +5,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Instagram</title>
+  <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 
+  <aside>
+    <img src="images/phones.png">
+  </aside>
+
   <main>
     
-    <header>
+    <header class="title">
       <img src="images/brand.png">
-      <button><img src="images/home.png"> Log in</button>
+      <button><img src="images/home.png"><div>Log in</div></button>
+      <div class="clear"></div>
     </header>
     
     <article>
@@ -27,7 +33,7 @@
           <p>Oh yeah, did we mention it's free?</p>
         </section>
     
-        <div>
+        <div id="images">
           <img title="Download on the App Store" src="images/badge-iphone.png">
           <img title="Get it on Google Play" src="images/badge-android.png">
         </div>
@@ -35,9 +41,7 @@
     </article>
   </main>
 
-  <aside>
-    <img src="images/phones.png">
-  </aside>
+  <div class="clear"></div>
 
   <footer>
     <ul>
@@ -49,7 +53,7 @@
       <li>Jobs</li>
       <li>Privacy</li>
       <li>Terms</li>
-      <li>&copy; 2014 Instagram</li>
+      <li id="copyright" >&copy; 2014 Instagram</li>
     </ul>
   </footer>
 

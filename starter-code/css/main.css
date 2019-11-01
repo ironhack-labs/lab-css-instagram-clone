@@ -7,4 +7,104 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: url('../images/bgtile.png');
+  background-size: 100vw 300px;
+  background-repeat: no-repeat;
+}
+
+.title {
+  padding: 10px 0;
+}
+
+header img {
+  float: left;
+}
+
+header button{
+  float: right;
+  margin: 20px 8px;
+  width: 100px;
+  height: 40px;
+  background: linear-gradient(#51789B, #3B6890);
+  border: solid .5px #1c5380;
+  border-radius: 3px;
+  box-sizing: border-box;
+  color: #fff;
+  text-align: center;
+  padding: 9px;
+}
+
+button div {
+padding-top: 3px;
+font-weight: 600;
+font-size: 12px;
+}
+
+
+
+.clear {
+  clear: both;
+}
+
+main {
+  width: 504px;
+}
+
+article {
+  background-image: url('../images/frame.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 30px 30px 0 30px;
+  margin-top: 0px;
+}
+article h2 {
+  width: 250px;
+  padding: 0;
+  margin: 10px 0px 15px 22px;
+  color: #06365f;
+}
+
+main {
+  float: right;
+  padding: 110px 20% 0 0;
+}
+
+main p {
+  width: 400px;
+  margin: 10px auto;
+}
+
+#images {
+  width: 400px;
+  margin: 0 auto;
+}
+
+#images img {
+  padding: 0 10px 0 0;
+  margin-top: 32px;
+}
+
+aside {
+  float: left;
+  padding: 110px 0 0 20%;
+}
+
+footer ul {
+  width: 800px;
+  padding: 0;
+  margin: 20px auto;
+}
+
+footer li {
+  display: inline-block;
+  vertical-align: middle;
+  list-style-type: none;
+  color: #1c5380;
+  padding: 10px;
+  font-weight: 600;
+}
+
+#copyright {
+  padding: 20px;
+  color: #888;
 }
