@@ -8,8 +8,12 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
   background: url('../images/bgtile.png');
-  background-size: 100vw 250px;
+  background-size: 100vw 300px;
   background-repeat: no-repeat;
+}
+
+.title {
+  padding: 10px 0;
 }
 
 header img {
@@ -20,7 +24,7 @@ header button{
   float: right;
 }
 
-header .clear {
+.clear {
   clear: both;
 }
 
@@ -33,18 +37,23 @@ article {
   background-size: contain;
   background-repeat: no-repeat;
   padding: 30px 30px 0 30px;
+  margin-top: 0px;
 }
-
 article h2 {
   width: 250px;
   padding: 0;
-  margin: 0;
+  margin: 10px 0px 15px 22px;
   color: #06365f;
+}
+
+main {
+  float: right;
+  padding: 110px 20% 0 0;
 }
 
 main p {
   width: 400px;
-  margin: 5px auto;
+  margin: 10px auto;
 }
 
 #images {
@@ -54,6 +63,12 @@ main p {
 
 #images img {
   padding: 0 10px 0 0;
+  margin-top: 32px;
+}
+
+aside {
+  float: left;
+  padding: 110px 0 0 20%;
 }
 
 footer ul {
