@@ -8,6 +8,14 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+main {
+  margin: auto;
+}
+h2 {
+  color: #06365f;
+  font-size: 1.8em;
+  line-height: 1.3em;
+}
 .header {
   background-color: #1c5380;
   padding: 100px 100px 200px 100px;
@@ -28,9 +36,26 @@ body {
   left: 450px;
   top: 220px;
 }
-.text {
+.description {
   position: absolute;
-  left: 480px;
-  top: 220px;
-  width: 400px;
+  left: 490px;
+  top: 230px;
+  width: 410px;
+  padding-bottom: 50px;
+}
+.download-links img {
+  margin-top: 20px;
+  padding-right: 10px;
+}
+footer {
+  clear: both;
+  width: 100%;
+  margin: auto;
+}
+.footer-links {
+  margin: 100px auto;
+  display: inline-block;
+}
+.copyright {
+  display: inline-block;
 }
