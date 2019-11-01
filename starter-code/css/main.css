@@ -8,54 +8,33 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+.background {
+  width: 100%;
+  height: 400px;
+  background: #1c5380;
+  position: absolute;
+}
 main {
-  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 25%;
+  right: 25%;
+}
+.relative {
+  position: relative;
+}
+.inline {
+  display: inline-block;
+}
+#phones {
+  top: 200px;
+}
+#header {
+  left: 200px;
+  top: 220px;
 }
 h2 {
   color: #06365f;
   font-size: 1.8em;
   line-height: 1.3em;
-}
-.header {
-  background-color: #1c5380;
-  padding: 100px 100px 200px 100px;
-}
-#logo {
-  margin-top: 20px;
-  float: left;
-}
-#phones {
-  float: left;
-  margin: 100px 50px 0 100px;
-}
-#login-button {
-  float: right;
-}
-#frame {
-  position: absolute;
-  left: 450px;
-  top: 220px;
-}
-.description {
-  position: absolute;
-  left: 490px;
-  top: 230px;
-  width: 410px;
-  padding-bottom: 50px;
-}
-.download-links img {
-  margin-top: 20px;
-  padding-right: 10px;
-}
-footer {
-  clear: both;
-  width: 100%;
-  margin: auto;
-}
-.footer-links {
-  margin: 100px auto;
-  display: inline-block;
-}
-.copyright {
-  display: inline-block;
 }
