@@ -10,14 +10,14 @@ body {
 
 }
 .header{
-
   text-align: right;
   background: linear-gradient(to bottom, #1c5380, #06365f);
+  height: 400px;
 }
 
 .header button{
   background: #1c5380;
   color:white;
   border:solid 1px #1c5380;
-  
+  margin: 249px 185px 0 71px;
 }
