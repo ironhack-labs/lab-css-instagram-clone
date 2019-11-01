@@ -16,20 +16,54 @@ body {
 }
 .container {
 	width: 70%;
-	margin: 0 auto;
+	margin: 5.5em auto 4em;
+	overflow: auto;
 }
 .phone-img {
 	float: left;
 	position: relative;
-	top: 6em;
 }
 
 .main-content {
 	width: 50%;
 	float: right;
-	position: relative;
-	top: 6.5em;
 }
+.info {
+	background-image: url('../images/frame.png');
+	background-repeat: no-repeat;
+	padding: 2em 2.2em;
+	margin-top: 2em;
+}
+.info h2 {
+	color: #06365f;
+}
+.info p {
+	font-size: 0.9em;
+	margin-top: 1em;
+}
+.store-img {
+	padding-top: 1em;
+	padding-left: 2em;
+}
+.store-img > img:nth-child(2) {
+	margin-left: 1em;
+}
+
+/* FOOTER */
 .links {
 	clear: both;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 0.8em;
+	font-weight: 500;
+	color: #bfc0c1;
+}
+.links a,
+.links span {
+	margin: 0.5em;
+}
+.links a {
+	text-decoration: none;
+	color: #1c5380;
+	font-weight: 600;
 }
