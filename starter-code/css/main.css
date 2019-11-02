@@ -48,13 +48,16 @@ body {
   widows: 501px;
 
 }
+h2{
+  color:#1c5380;
+
+}
 
 .text{
   position: relative;
   right: 87px;
   bottom: 85px;
   margin: 0px 600px 0 0;
-
 }
 
 .apple{
@@ -62,8 +65,6 @@ body {
   float: left;
   right: 91px;
   bottom: 69px;
-
-
 }
 
 .google{
@@ -71,13 +72,14 @@ body {
   float: right;
   right: 786px;
   bottom: 71px;
-
 }
 
 .footer{
   position: relative;
-  right: 422px;
-  top: 20px;
+  right: 430px;
+  top: 101px;
+  color:#1c5380;
+
 }
 
 ul{
