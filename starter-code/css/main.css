@@ -11,6 +11,7 @@ body {
 main {
   position: absolute;
   top: 0;
+  bottom: 0;
   left: 25%;
   right: 25%;
 }
@@ -49,6 +50,16 @@ h2 {
 #text {
   padding: 12px 45px;
 }
-#download-links {
+#download-links img{
   padding-top: 20px;
+  padding-right: 15px;
+}
+#footer {
+  display: inline-block;
+  bottom: 0px;
+}
+#footer-links a {
+  padding: 0 10px;
+  color: #1c5380;
+  text-decoration: none;
 }
