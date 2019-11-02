@@ -63,6 +63,7 @@ body {
   right: 91px;
   bottom: 69px;
 
+
 }
 
 .google{
@@ -70,5 +71,16 @@ body {
   float: right;
   right: 786px;
   bottom: 71px;
+
 }
 
+ul{
+  list-style: none;
+  text-align: center;
+}
+
+li{
+  display: inline;
+  text-align: center;
+  margin: 0 10px 0 0;
+}
