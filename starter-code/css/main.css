@@ -3,10 +3,6 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-* {
-  padding: 0px;
-  margin-left: 0px;
-}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -83,6 +79,7 @@ header {
  .no-list {
   list-style-type: none;
   text-transform: uppercase;
+  font-size: 11.5px;
   font-weight: bold;
   margin-left: 2%;
   text-align: center;
@@ -126,13 +123,19 @@ header {
  .links {
    width: 55%;
    text-align: center;
-   left: 20%;
-   position: relative;
+   left: 24%;
+  /* right: 26%;*/
+   position: absolute;
    }
 
  .copy {
    position: relative;
-   left: 23%;
+   left: 63%;
+   bottom: -4px;
+   font-size: 11.5px;
+   text-transform: uppercase;
+   /*bottom: 150%;*/
+   display: inline-block;
  }
 
  footer p {
