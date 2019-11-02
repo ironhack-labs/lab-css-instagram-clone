@@ -5,45 +5,109 @@ light blue: #1c5380
 */
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 400 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  letter-spacing: 0.5px;
+  color:#333;
   margin: 0;
   width: 100%;
-  background: linear-gradient(to bottom, rgba(75,108,140,1) 0%, rgba(59,92,126,1) 20%, rgba(43,76,113,1) 40%, rgba(255,255,255,1) 40%);
+  background: linear-gradient(to bottom, #517999 0%, #1c5380 30%, rgba(255,255,255,1) 30%);
 }
 /*Dimensiones secciones*/
 .section-1 {
   width: 80%;
   margin: 0px auto;
+  padding: 100px 0px 30px;
 }
-.style-1 {
-  padding: 120px 0px 50px;
-}
+
 .section-2{
   width: 100%;
   display: block;
+  padding: 20px 0px;
+}
+
+.text-description {
+  width: 100%;
+  display: table-cell;
+  background-image: url("../images/frame.png");
+  background-size: contain;
+  padding: 50px;
+  background-repeat: no-repeat;
 }
 .clearfix {
   clear: both;
 }
-.col-1 {
-  width: 50%;
+.col-1{
   float: left;
   display: inline-block;
+}
+.brand-1{
+  width: 65%;
+}
+.brand-2 {
+  width: 35%;
+}
+.columna-1 {
+  width: 40%;
+  float: left;
+  display: inline-block;
+}
+.columna-2 {
+  width: 55%;
+  padding-left: 5%;
+  float: left;
+  display: inline-block;
+}
+.badges{
+  width: 85%;
+}
+.col-1-badge {
+  width: 45%;
+  padding-right: 5%;;
+  float: left;
+  display: inline-block;
+
 }
 /*Estilos*/
 h1 {
-  color: #134178;
+  color: #06365f;
+  font-size: 35px;
+  margin-top: 0px;
+  line-height: 1.2em;
 }
 /*Footer Stylos*/
-footer {
+.footer {
   background: #fff;
-  padding: 0px 0px 100px;
+  width: 80%;
+  margin: 0px auto;
+  height: 30px;
+  text-align: center;
+  padding-bottom: 40px;
 }
-ul li{
+.links-footer {
+  text-align: center;
+}
+.links-footer ul li{
   display: inline-block;
-  float: left;
+  font-weight: 600;
+  color: #999;
+  text-transform: uppercase;
+  font-size: 15px;
 }
-li a{
+.links-footer ul li a{
   text-decoration: none;
   padding: 0px 10px;
+  color: #1c5380;
+}
+/*Botón login*/
+.boton-login {
+  text-align: center;
+    background: linear-gradient(to bottom, #517999 0%, #1c5380 100%);
+    color: #fff;
+    font-weight: 600;
+    padding: 10px 2px;
+    margin: 20px 10px 0px 0px;
+    width: 100px;
+    float: right;
+    border: 2px solid #1c5380;
+    border-radius: 5px;
 }
