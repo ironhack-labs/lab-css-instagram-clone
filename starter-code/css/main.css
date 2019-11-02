@@ -117,32 +117,6 @@ a:visited {
 .img-android {
   left: 54px;
   position: relative;
-<<<<<<< HEAD
-}
-
-.links {
-  width: 55%;
-  text-align: center;
-  left: 24%;
-  /* right: 26%;*/
-  position: absolute;
-}
-
-.copy {
-  position: relative;
-  left: 63%;
-  bottom: -4px;
-  font-size: 11.5px;
-  text-transform: uppercase;
-  /*bottom: 150%;*/
-  display: inline-block;
-}
-
-footer p {
-  color: grey;
-  font-weight: bold;
-}
-=======
    }
 
  .links {
@@ -167,4 +141,3 @@ footer p {
    color: grey;
    font-weight: bold;
  }
->>>>>>> css_branch
