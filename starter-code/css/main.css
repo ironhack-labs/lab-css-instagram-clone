@@ -69,6 +69,13 @@ h2 {
 #text {
   padding: 12px 45px;
 }
+#paragraph {
+  font-weight: 400;
+  color: #555;
+}
+#paragraph p b {
+  color: black;
+}
 #download-links img{
   padding-top: 20px;
   padding-right: 15px;
