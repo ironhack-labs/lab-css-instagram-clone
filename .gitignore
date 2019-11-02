@@ -1,6 +1,6 @@
 
-# Created by https://www.gitignore.io/api/web,visualstudio,visualstudiocode
-# Edit at https://www.gitignore.io/?templates=web,visualstudio,visualstudiocode
+# Created by https://www.gitignore.io/api/visualstudio,visualstudiocode
+# Edit at https://www.gitignore.io/?templates=visualstudio,visualstudiocode
 
 ### VisualStudioCode ###
 .vscode/*
@@ -12,21 +12,6 @@
 ### VisualStudioCode Patch ###
 # Ignore all local history of files
 .history
-
-### Web ###
-*.asp
-*.cer
-*.csr
-*.css
-*.htm
-*.html
-*.js
-*.jsp
-*.php
-*.rss
-*.wasm
-*.wat
-*.xhtml
 
 ### VisualStudio ###
 ## Ignore Visual Studio temporary files, build results, and
@@ -379,4 +364,4 @@ healthchecksdb
 # Backup folder for Package Reference Convert tool in Visual Studio 2017
 MigrationBackup/
 
-# End of https://www.gitignore.io/api/web,visualstudio,visualstudiocode
+# End of https://www.gitignore.io/api/visualstudio,visualstudiocode
