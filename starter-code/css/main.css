@@ -15,6 +15,8 @@ h1{
     font-weight: bold;
 }
 
+
+
 /* General CSS */
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -24,6 +26,11 @@ body {
 
 h1 {
   color: #06365f;
+}
+
+
+.clean {
+  clear: both;
 }
 
 /* CSS Specific */
@@ -41,10 +48,22 @@ h1 {
 
 
 #left-section{
-  width: 40vw;
+  width: 39vw;
+  position: relative;
+  top: -30vh;
+  float: left;
 }
 
 #right-section{
-  display: inline-block;
+  position: relative;
+  top: -15vh;
   width: 60vw;
+  float: left;
+}
+
+.description{
+  width: 60%;
+  padding: 5%;
+  background-image: url(/images/frame.png);
+  background-size: cover;
 }
