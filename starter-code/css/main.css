@@ -53,10 +53,13 @@ body {
   position: relative;
   right: 87px;
   bottom: 85px;
+  margin: 0px 600px 0 0;
+
 }
 
 .apple{
   position: relative;
+  float: left;
   right: 91px;
   bottom: 69px;
 
@@ -64,10 +67,8 @@ body {
 
 .google{
   position: relative;
-  left: 612px;
-  bottom: 126px;
+  float: right;
+  right: 786px;
+  bottom: 71px;
 }
 
-ul{
-  list-style: none;
-}
