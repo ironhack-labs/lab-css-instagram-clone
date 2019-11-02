@@ -7,18 +7,55 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
-  background-color: blue;
+  background: url('../images/bgtile.png') repeat-x;
 }
 
-header {
-  float: right;
+.button {
+  color: #e1e8ed;
+  font-weight: 700;
+  font-size: 0.8rem;
+  padding: 8px;
+  border-radius: 2px;
+  background: linear-gradient(#799ab7, #447196);
+  border: none;
+  box-shadow: 0 0 2px 1px #06365f;
 }
-
-aside img {
-  float: left;
+.button img {
+  vertical-align: middle;
+  margin-right: 5px;
 }
-
+.container {
+  max-width: 850px;
+  margin: 0 auto;
+}
 main {
-  box-sizing: border-box;
-  float: right;
+  margin-top: 100px;
 }
+#phones {
+  float: left;
+  margin-right: 50px;
+}
+#login {
+  padding: 20px 0;
+}
+#login-button {
+  float: right;
+  margin-top: 18px;
+}
+
+.footer {
+  margin-top: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: grey;
+}
+
+.footer a {
+  color: #06365f;
+}
+
+.clear {
+  clear: both;
+}
+
