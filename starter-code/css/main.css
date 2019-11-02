@@ -8,11 +8,15 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
   width: 100%;
+  background: linear-gradient(to bottom, rgba(75,108,140,1) 0%, rgba(59,92,126,1) 20%, rgba(43,76,113,1) 40%, rgba(255,255,255,1) 40%);
 }
-
+/*Dimensiones secciones*/
 .section-1 {
   width: 80%;
   margin: 0px auto;
+}
+.style-1 {
+  padding: 120px 0px 50px;
 }
 .section-2{
   width: 100%;
@@ -25,6 +29,15 @@ body {
   width: 50%;
   float: left;
   display: inline-block;
+}
+/*Estilos*/
+h1 {
+  color: #134178;
+}
+/*Footer Stylos*/
+footer {
+  background: #fff;
+  padding: 0px 0px 100px;
 }
 ul li{
   display: inline-block;
