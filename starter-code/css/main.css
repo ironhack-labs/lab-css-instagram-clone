@@ -46,24 +46,47 @@ h1 {
 }
 
 
-
 #left-section{
   width: 39vw;
   position: relative;
-  top: -30vh;
+  top: -20vh;
   float: left;
 }
 
 #right-section{
   position: relative;
-  top: -15vh;
+  top: -20vh;
   width: 60vw;
   float: left;
 }
 
 .description{
   width: 60%;
+}
+
+.background-description{
+  
   padding: 5%;
-  background-image: url(/images/frame.png);
-  background-size: cover;
+  background-image: url(/starter-code/images/frame.png);
+  background-size: contain;
+}
+
+#left-section img{
+  float: right;
+  margin-right: 6%;
+}
+
+.logo-login{
+  width: 60%;
+}
+
+.logo-login img{
+  float: left;
+  display: inline-block;
+}
+
+.button{
+  float: right;
+  display: inline-block;
+  
 }
