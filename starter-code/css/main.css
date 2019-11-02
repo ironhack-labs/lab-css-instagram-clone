@@ -12,8 +12,8 @@ main {
   position: absolute;
   top: 0;
   bottom: 0;
-  left: 25%;
-  right: 25%;
+  left: 50%;
+  margin-left: -427px;
   width: 855px;
 }
 h2 {
