@@ -45,5 +45,24 @@ body {
   float: left;
   left: 397px;
   bottom: 107px;
+  widows: 501px;
 
+}
+
+.text{
+  position: relative;
+  right: 87px;
+  bottom: 85px;
+}
+
+.apple{
+  position: relative;
+  right: 91px;
+  bottom: 69px;
+
+}
+.google{
+  position: relative;
+  left: 612px;
+  bottom: 126px;
 }
