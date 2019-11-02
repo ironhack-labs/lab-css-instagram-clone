@@ -19,7 +19,7 @@ body {
   background-image: url(../starter-code/images/frame.png);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 800px;
+  height: 750px;
 } 
 
 .top{
@@ -67,7 +67,9 @@ body {
 .description{
   background: white;
   padding: 10px 35px;
-  border:1px solid #06365f;
+  border-width: 1px;
+  border-style: solid;
+  border-image: linear-gradient(to bottom,#1c5380,white)1 100%;
   border-radius:10px;
   height: 400px;
   color: #06365f;
@@ -75,4 +77,11 @@ body {
 
 .reduction{
   width: 45%;
+}
+
+.badge{
+  display: inline-block;
+  position: relative;
+  top:40px;
+  margin-right: 15px;
 }
