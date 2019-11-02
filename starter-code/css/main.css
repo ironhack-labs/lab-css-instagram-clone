@@ -67,3 +67,7 @@ body {
   left: 612px;
   bottom: 126px;
 }
+
+ul{
+  list-style: none;
+}
