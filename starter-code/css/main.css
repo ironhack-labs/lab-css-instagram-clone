@@ -30,20 +30,24 @@ body {
 .iphone{
   position: absolute;
   top:125px;
-  left:200px;
+  left:300px;
 
 }
 
 .box{
   position: absolute;
   top:125px;
-  left: 600px;
+  left: 700px;
   height: 512px;
   width: 500px;
 }
 
 .col-rside{
   float: right;
+  }
+
+  .clear{
+    clear: both;
   }
 
 .button{
@@ -84,4 +88,36 @@ body {
   position: relative;
   top:40px;
   margin-right: 15px;
+}
+
+.footer{
+  
+  position: relative;
+  top:400px;
+  left: 400px;
+  width: 1200px;
+}
+.footer-ul{
+  text-transform:uppercase;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.footer-li{
+  display: inline-block;
+  list-style-type:none;
+  text-align: center;
+  width: 6%;
+}
+
+.footer-li a{
+  text-decoration:none;
+  color: #1c5380;
+}
+
+.footer-li2{
+  display: inline-block;
+  list-style-type:none;
+  text-align: center;
+  color: grey;
 }
