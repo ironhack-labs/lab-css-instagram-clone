@@ -74,6 +74,12 @@ body {
 
 }
 
+.footer{
+  position: relative;
+  right: 422px;
+  top: 20px;
+}
+
 ul{
   list-style: none;
   text-align: center;
