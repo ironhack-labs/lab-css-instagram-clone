@@ -40,8 +40,26 @@ h2 {
   top: 100px;
 }
 #header {
-  left: 360px;
-  top: 120px;
+  width: 57%;
+  left: 43%;
+  top: 16%;
+}
+#logo {
+  width: 100%;
+}
+#login-button {
+  background: linear-gradient(to bottom, rgb(112, 149, 180), #486c8b, #486c8b);
+  padding: 7px 10px;
+  border: 2px solid #2B5881;
+  top: 20%;
+  right: 0;
+}
+#login-text {
+  font-weight: 600;
+  color: #CAD5DF;
+  padding-left: 5px;
+  padding-bottom: 2px;
+  vertical-align: text-bottom;
 }
 #description {
   left: 360px;
