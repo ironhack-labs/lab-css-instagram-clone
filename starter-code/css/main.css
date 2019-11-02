@@ -16,11 +16,6 @@ main {
   margin-left: -427px;
   width: 855px;
 }
-h2 {
-  color: #06365f;
-  font-size: 1.8em;
-  line-height: 1.3em;
-}
 .relative {
   position: relative;
 }
@@ -69,6 +64,12 @@ h2 {
 #text {
   padding: 12px 45px;
 }
+#title {
+  color: #06365f;
+  font-size: 1.1em;
+  line-height: 1.8em;
+  padding-right: 140px;
+}
 #paragraph {
   font-weight: 400;
   color: #555;
@@ -81,7 +82,7 @@ h2 {
   padding-right: 15px;
 }
 #footer {
-  top: 270px;
+  top: 240px;
   left: 0;
   right: 0;
   text-align: center;
