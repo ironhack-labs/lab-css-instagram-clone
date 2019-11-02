@@ -7,26 +7,69 @@ light blue: #1c5380
 body {
 font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
 margin: 0;
-}
-
-.blue-background{
-color:#06365f;
-height: 50%;
-}
+background:linear-gradient(to bottom, #06365f 0, #06365f 33%, white 33%, white 66%, white 66%, white 100%);
+}  
 
 .brand{
-float: right;
-position: absolute;
+float: left;
+position: relative;
 margin:68px;
+margin-top:100px;
+margin-bottom: 50px;
 }
 
 .clear-fix{
 clear: both;
 }
 
-.phone-float{
+.phone{
 float: left;
-margin: 68px;
+position: relative;
+margin: 160px;
 margin-right: 24px;
-margin-left:120px;
+margin-top: 100px;
+}
+
+.button{
+
+margin-top:120px;
+position: relative;
+float:right;
+margin-right: 200px;
+margin-bottom: 50px;
+text-align: center;
+vertical-align: middle;
+color: white;
+background-color: #1c5380;
+border:1px solid #06365f;
+box-shadow: 2px 2px 2px 0 #06365f;
+border-radius: 3px;
+padding: 5px 7px;
+font-size:1em;
+}
+
+.text{
+padding: 35px;
+padding-top: 1px;
+padding-bottom: 1px;
+margin-top: 200px;
+margin-left: 575px;
+margin-right: 200px;
+box-shadow: 0px 11px 17px -6px rgba(0,0,0,0.75);
+float: left;
+position: absolute;
+background-color: white;
+border-radius: 8px;
+font-size: 15px; 
+border-bottom: none;
+}
+
+h1{
+    color: #06365f;
+}
+
+.android{
+    float: right;
+    position: absolute;
+    margin-left: 20px;
 }
