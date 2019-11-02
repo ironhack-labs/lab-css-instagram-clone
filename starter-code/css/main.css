@@ -4,8 +4,11 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+
+/* BLOCK ELEMENTS */
+
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 200 16px/1.5 Verdana, Helvetica, Arial, sans-serif;
   margin: 0;
 }
 
@@ -13,41 +16,92 @@ header{
   background: url("../images/bgtile.png"); 
   background-repeat: repeat-x;
   height: 250px;
+  width: auto;
 }
 
-
-.centerbox{
-  background: red;
-  display: flex;
-  width: 900px;
-  margin-top: -150px;
-  margin-left: auto;
-  margin-right: auto
-}
-
-
-.mainblock{
-margin-left: 50px;
-}
-
-.secondblock{
-  background: url("../images/frame.png")
-
-}
-
-
-.phones{
-  margin-left: 20px;
+footer{
+  font-size: 14px;
+  font-weight: bold;
+  color: #1c5380;
+  text-transform: uppercase;
+  text-align: center;
+  word-spacing: 10px;
+  margin-top: 10px;
 }
 
 
 h1{
   font-size: 24px;
   color: #06365f;
+  padding: 10px 25px 0px 25px;
 }
 
 p{
-  font-size: 16px;
-  text-align: center;
-  background-image: url("images/frame.png")
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: left;
+  padding: 0px 25px 0px 25px;
 }
+
+
+
+/* CLASS SELECTORS */
+
+
+
+.centerbox{
+  width: 900px;
+  height: 600px;
+  margin-top: -150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.phones{
+  display: inline-block;
+  width: 40%;
+  padding;: 5px 5px 5px 5px;
+}
+
+.mainblock{
+display: inline-block;
+height: 600px;
+width: 59%;
+padding;: 5px 5px 5px 5px;
+
+
+
+}
+
+.secondblock{
+background: url("../images/frame.png");
+background-repeat: no-repeat;
+
+}
+
+.logos{
+  display: grid;
+  grid-template-columns: 70% 30%;
+  align-items: center;
+  
+}
+
+.botón{
+  height: 40px;
+  width: 100px;
+  color: white;
+  background-color: rgba(28, 83, 128, 0.2);
+  }
+  
+
+.badges{
+  display: grid;
+  grid-template-columns: 45% 45%;
+  margin-left: 35px;
+  margin-right: 25px;
+  margin-top: 25px;
+  
+}
+
+/* ID SELECTORS */
