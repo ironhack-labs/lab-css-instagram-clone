@@ -10,7 +10,23 @@ body {
 }
 
 .header-container {
+  height: 300px;
   background-color: #1c5380;
+}
+
+.phones-container {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
+
+#phones-img {
+  width: 100%;
+}
+
+.main-container {
+  width: 50%;
+  float: right;
 }
 
 .home-container {
@@ -39,7 +55,7 @@ body {
 }
 
 .info-container {
-  width: 35%;
+  width: 45%;
   background-image: url("../images/frame.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -60,6 +76,12 @@ body {
   font-size: 0.9em;
   margin: 10px 0;
 }
+
+#store-android-img {
+  margin: 0 0 0 20px;
+}
+
+.clear-both { clear: both ;}
 
 .footer-container {
   text-align: center;
