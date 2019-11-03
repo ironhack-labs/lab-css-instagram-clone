@@ -29,7 +29,7 @@ body {
 // -------------------------------------------------- */
 
 .content-wrapper {
-    max-width: 850px;
+    max-width: 860px;
     margin: 100px auto 30px;
 }
 
@@ -68,13 +68,13 @@ body {
 
 .content-header__log-in-btn {
     float: right;
-    margin-top: 40px;
-    padding: 9px 12px 9px 40px;
+    margin-top: 42px;
+    padding: 8px 12px 8px 40px;
     text-decoration: none;
-    border-radius: 2px;
+    border-radius: 3px;
     font-size: 13px;
     font-weight: 600;
-    background: url(../images/home.png) no-repeat 8px center, linear-gradient(#5E81A2, #3B6189);
+    background: url(../images/home.png) no-repeat 8px center, linear-gradient(#5E81A2 60%, #3B6189);
     background-size: 22px auto;
     border: 1px solid #28486B;
     color: #fff;
@@ -93,7 +93,7 @@ body {
 
 .page-description {
     background: url(../images/frame.png) repeat-x;
-    padding: 35px 40px;
+    padding: 32px 40px;
     border-radius: 5px;
     margin-top: -10px;
 }
@@ -109,7 +109,7 @@ body {
 }
 
 .page-description__download-btns {
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 .app-store-btn {
