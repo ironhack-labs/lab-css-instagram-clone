@@ -59,39 +59,56 @@ body {
     width: 504px;
 }
 
-.header__main-logo {
+.content-header__main-logo {
     float: left;
     width: 314px;
     height: 78px;
     background: url(../images/brand.png) no-repeat;
 }
 
-.header__log-in-btn {
+.content-header__log-in-btn {
     float: right;
-    padding: 8px 12px 8px 40px;
+    margin-top: 40px;
+    padding: 9px 12px 9px 40px;
     text-decoration: none;
     border-radius: 2px;
     font-size: 13px;
     font-weight: 600;
     background: url(../images/home.png) no-repeat 8px center, linear-gradient(#5E81A2, #3B6189);
     background-size: 22px auto;
-    border: 1px solid #254A71;
+    border: 1px solid #28486B;
     color: #fff;
+}
+
+.content-header__log-in-btn:hover {
+    background: url(../images/home.png) no-repeat 8px center, linear-gradient(#597d9e, #395e86);
+    background-size: 22px auto;
+    border: 1px solid #22466d;
+}
+
+.content-header__log-in-btn:active {
+    background: url(../images/home.png) no-repeat 8px center, linear-gradient(#507aa1, #335b86);
+    background-size: 22px auto;
 }
 
 .page-description {
     background: url(../images/frame.png) repeat-x;
-    color: #06365f;
     padding: 35px 40px;
     border-radius: 5px;
+    margin-top: -10px;
 }
 
 .page-description__title {
     margin: 0;
     line-height: 32px;
+    color: #06365f;
 }
 
-.download-btns {
+.page-description__text {
+    font-size: 16px;
+}
+
+.page-description__download-btns {
     margin-top: 40px;
 }
 
@@ -117,6 +134,8 @@ body {
 
 .main-footer {
     text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
 }
 
 .footer-nav {
@@ -132,8 +151,18 @@ body {
 
 .footer-nav ul li {
     display: inline-block;
+    margin-right: 15px;
+}
+
+.footer-nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #6082A2;
 }
 
 .copyright-print {
     display: inline-block;
+    font-weight: bold;
+    font-size: inherit;
+    color: #ACACAD;
 }
