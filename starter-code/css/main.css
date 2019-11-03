@@ -91,24 +91,24 @@ body {
     background-size: 22px auto;
 }
 
-.page-description {
+.content-description {
     background: url(../images/frame.png) repeat-x;
     padding: 32px 40px;
     border-radius: 5px;
     margin-top: -10px;
 }
 
-.page-description__title {
+.content-description__title {
     margin: 0;
     line-height: 32px;
     color: #06365f;
 }
 
-.page-description__text {
+.content-description__text {
     font-size: 16px;
 }
 
-.page-description__download-btns {
+.content-description__download-btns {
     margin-top: 30px;
 }
 
