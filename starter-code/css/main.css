@@ -8,3 +8,77 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+.bg {
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+.blue {
+  height: 40%;
+background-color: #1c5380;
+}
+
+.white {
+  height: 60%;
+}
+
+.container {
+  width: 900px;
+  position: absolute;
+  height: 512px;
+  top: 50%;
+  left: 50%;
+  margin-left: -450px;
+  margin-top: -256px;
+}
+
+.mobiles {
+  float: left;
+  width: 318px;
+}
+
+.content {
+  width: 520px;
+  float: right;
+}
+
+.logo {
+  float: left;
+}
+
+.login {
+  float: right;
+  padding: 10px;
+   background-color: #06365f;
+   width: 100px;
+   box-sizing: border-box;
+   -webkit-border-radius: 3px;
+   margin-top: 15px;
+}
+
+.login:hover {
+   background-color: #0f426e;
+   cursor: pointer;
+}
+
+.login img {
+  float: left;
+  width:30%;
+  margin-right: 8px;
+}
+
+.login p {
+  margin: 0;
+  color: #FFF;
+  font-weight: 600;
+  font-size: 14px;
+  width: 100%;
+}
+
+.clear {
+  clear: both;
+}
+
