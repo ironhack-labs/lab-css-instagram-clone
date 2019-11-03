@@ -20,15 +20,17 @@ html {
 body {
     font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin: 0;
+    background: url(../images/bgtile.png) repeat-x;
 }
 
+
 /*
-// Main styles
+// General classes
 // -------------------------------------------------- */
 
 .content-wrapper {
-    max-width: 900px;
-    margin: 0 auto 30px;
+    max-width: 850px;
+    margin: 100px auto 30px;
 }
 
 .clearfix:after {
@@ -37,16 +39,83 @@ body {
     clear: both;
 }
 
+.img-replacement {
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+
+/*
+// Main content classes
+// -------------------------------------------------- */
+
 .main-img-wrapper {
     float: left;
 }
 
 .main-content-wrapper {
-    width: 55%;
     float: right;
+    width: 504px;
 }
 
-footer {
+.header__main-logo {
+    float: left;
+    width: 314px;
+    height: 78px;
+    background: url(../images/brand.png) no-repeat;
+}
+
+.header__log-in-btn {
+    float: right;
+    padding: 8px 12px 8px 40px;
+    text-decoration: none;
+    border-radius: 2px;
+    font-size: 13px;
+    font-weight: 600;
+    background: url(../images/home.png) no-repeat 8px center, linear-gradient(#5E81A2, #3B6189);
+    background-size: 22px auto;
+    border: 1px solid #254A71;
+    color: #fff;
+}
+
+.page-description {
+    background: url(../images/frame.png) repeat-x;
+    color: #06365f;
+    padding: 35px 40px;
+    border-radius: 5px;
+}
+
+.page-description__title {
+    margin: 0;
+    line-height: 32px;
+}
+
+.download-btns {
+    margin-top: 40px;
+}
+
+.app-store-btn {
+    display: inline-block;
+    margin-right: 15px;
+    width: 164px;
+    height: 51px;
+    background: url(../images/badge-iphone.png);
+}
+
+.google-play-btn {
+    display: inline-block;
+    width: 153px;
+    height: 51px;
+    background: url(../images/badge-android.png);
+}
+
+
+/*
+// Footer classes
+// -------------------------------------------------- */
+
+.main-footer {
     text-align: center;
 }
 
