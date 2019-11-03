@@ -4,6 +4,7 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
@@ -29,7 +30,7 @@ em {
 }
 
 main{
-  width: 70%;
+  width: 65%;
   margin: 0 auto;
 }
 
@@ -43,14 +44,20 @@ main #right-side {
  width: 60%;
 }
 
+main #right-side #title {
+  margin-top: 20px;
+}
+
 main #right-side img#brand {
   float: left;
+  padding-left: 15px;
 }
 
 main #right-side #frame {
   background-image: url("../images/frame.png");
   background-size: cover;
   padding: 30px;
+  margin-top: 20px;
 }
 
 main #right-side #frame img{
@@ -59,12 +66,26 @@ main #right-side #frame img{
   margin-right: 30px;
 }
 
+
 main button#login{
   float: right;
+  color: #fff;
+  background-image:  linear-gradient(to bottom, rgba(126,155,180,1) 0%, rgba(19,65,103,1) 100%);
+  border: 1px solid #1c5380;
+  border-radius: 5px;
+  padding: 10px 10px 10px 10px;
+  font-size: 0.9em;
+  text-align: right;
+  margin: 20px 20px 0 0;
+}
+
+main button#login img {
+  vertical-align: middle; 
 }
 
 footer {
   margin: 50px 0;
+  font-size: 0.9em;
   font-weight: bold;
 }
 
