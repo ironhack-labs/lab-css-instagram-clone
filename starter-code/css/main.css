@@ -7,13 +7,30 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
-  background: url('../images/bgtile.png') repeat-x;
+  background: url("../images/bgtile.png") repeat-x;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 30px;
+  color: #06365f;
+}
+
+p {
+  margin-top: 15px;
+}
+
+#text {
+  background-color: coral; /* Estas dos líneas son para ver hasta donde demonios llega la caja */
+  border: solid 1px; /* Estas dos líneas son para ver hasta donde demonios llega la caja */
+  padding: 20px;
+  border-radius: 10px;
 }
 
 .button {
   color: #e1e8ed;
   font-weight: 700;
-  font-size: 0.8rem;
+  font-size: 14px;
   padding: 8px;
   border-radius: 2px;
   background: linear-gradient(#799ab7, #447196);
@@ -58,4 +75,3 @@ main {
 .clear {
   clear: both;
 }
-
