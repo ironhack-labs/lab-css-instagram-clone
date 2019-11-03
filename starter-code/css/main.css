@@ -1,7 +1,4 @@
-body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
-}
+body { font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
 .header-container {
   height: 300px;
@@ -14,9 +11,7 @@ body {
   left: 15%;
 }
 
-#phones-img {
-  width: 105%;
-}
+.phones-container img { width: 105%; }
 
 .main-container {
   position: absolute;
@@ -36,17 +31,17 @@ body {
   text-align: center;
 }
 
-#home-text {
-  display: inline;
-  margin-left: 10px;
-}
-
 .beveled {
   border: 1px solid #104672;
   background: #286393;
   border-radius: 5%;
   box-shadow: inset 3px 3px 3px rgba(0,0,0,.1), inset -2px -2px 3px rgba(0,0,0,.1), 2px 2px 10px rgba(0,0,0,.1);
-  }
+}
+
+.home-container h3 {
+  display: inline;
+  margin-left: 10px;
+}
 
 .info-container {
   background-image: url("../images/frame.png");
@@ -62,20 +57,16 @@ body {
   font-weight: bold;
 }
 
-.text-info-container {
-  margin: 30px 0;
-}
+.text-info-container { margin: 30px 0; }
 
 .text-info-container b {
   font-weight: bold;
   color: #222
 }
 
-.info-container p {
-  margin: 10px 0;
-}
+.info-container p { margin: 10px 0; }
 
-#store-android-img { margin: 0 0 0 20px; }
+.info-container img:last-child { margin-left: 20px; }
 
 .wall-container { height: 350px;}
 
