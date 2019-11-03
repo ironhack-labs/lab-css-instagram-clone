@@ -160,6 +160,10 @@ body {
     color: #6082A2;
 }
 
+.footer-nav a:hover {
+    text-decoration: underline;
+}
+
 .copyright-print {
     display: inline-block;
     font-weight: bold;
