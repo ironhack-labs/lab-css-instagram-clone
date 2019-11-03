@@ -7,4 +7,126 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  padding: 0;
+}
+
+
+/* HEADER AND NAV  */
+
+  #background {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 55%;
+    background-color: #1c5380;
+    z-index: 1;
+  }
+  
+  #content{
+    position: relative;
+  z-index: 2;
+  padding: 30px;
+  }
+
+  .phone{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    z-index: 3;
+  }
+
+  .phone img{
+    position: absolute;
+  left: 20%;
+  top: 130px;
+  height: auto;
+  }
+
+  .brand{
+  position: relative;
+  left: 50%;
+  top: 200px;
+  z-index: 34;
+}
+.brand-home{
+  position: relative;
+  left: 50%;
+  top: 170px;
+  margin-left: 75px;
+  z-index: 34;
+}
+
+/* section */
+
+section{
+  height: 500px;
+  width: 600px;
+  position: relative;
+  left: 50%;
+  top: 60px;
+  margin-top: 80px;
+  z-index: 50;
+  }
+
+.caja{
+  background-image: url(../images/frame.png);
+  position: absolute;
+  top: 10%;
+  height: 250px;
+  font-size: 15px;
+  width: 500px;
+}
+
+h1{
+  color: #1c5380;
+  margin: 30px 0px 0px 45px;
+  width: 260px;
+}
+p{
+  width: 410px;
+  height: 75px;
+  position: relative;
+  left: 10%;
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+
+
+.titulo{
+  height: 50px;
+}
+
+.lineas{
+  margin-top: 2px;
+  margin-bottom: 3px
+}
+
+.p3{
+  height: 35px;
+  margin-bottom: 3px;
+}
+.imagen-caja{
+  left: 60px;
+  position: relative;
+  margin: 5px;
+}
+
+footer{
+  height: 15%;
+  text-align: center;
+  color: #1c5380;
+}
+
+button{
+  
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
