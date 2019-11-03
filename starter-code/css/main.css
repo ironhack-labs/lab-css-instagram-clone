@@ -1,10 +1,126 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
-
+html {
+  font-size: 62.5%;
+}
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 200 1.6rem/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+.clearfix {
+  float: none;
+  display: block;
+  clear: both;
+}
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right;
+}
+.container {
+  background: url(../images/bgtile.png) repeat-x top left;
+}
+.content {
+  max-width: 1090px;
+  margin: 0 auto;
+  padding: 100px 5% 40px 5%;
+  box-sizing: border-box;
+}
+.left {
+  width: 40%;
+  text-align: center;
+}
+.right {
+  width: 60%;
+  padding: 30px;
+  box-sizing: border-box;
+}
+.navigation {
+  margin-top: 26px;
+}
+.title {
+  margin: 0;
+  font-size: 3rem;
+  line-height: 3.4rem;
+  color: #06365f;
+}
+.description {
+  background: #ffffff;
+  padding: 30px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background: url(../images/frame.png) no-repeat top center;
+}
+.description p {
+  color: #333333;
+  font-weight: 400;
+}
+.btn {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+  border: solid 1px 06365f;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1c5380+0,1c5380+63,06365f+100 */
+  background: #1c5380; /* Old browsers */
+  background: -moz-linear-gradient(
+    top,
+    #1c5380 0%,
+    #1c5380 63%,
+    #06365f 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    #1c5380 0%,
+    #1c5380 63%,
+    #06365f 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #1c5380 0%,
+    #1c5380 63%,
+    #06365f 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1c5380', endColorstr='#06365f',GradientType=0 ); /* IE6-9 */
+  -webkit-box-shadow: 0 2px 3px 3px rgba(6, 54, 95, 0.1);
+  box-shadow: 0 2px 3px 3px rgba(6, 54, 95, 0.1);
+}
+.btn > img {
+  margin-right: 7px;
+  height: 14px;
+}
+.download-links {
+  margin-top: 30px;
+}
+.download-links a:first-child {
+  margin-right: 20px;
+}
+.info {
+  max-width: 755px;
+  margin: 0 auto;
+}
+.links ul li {
+  list-style-type: none;
+  display: inline-block;
+  height: 28px;
+}
+.links ul li a {
+  color: #1c5380;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.3rem;
+  text-decoration: none;
+  margin: 10px;
+}
+.copyrigth {
+  float: left;
+}
+.copyrigth p {
+  margin: 15px;
+  line-height: 28px;
+  color: #c4c4c4;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.3rem;
 }
