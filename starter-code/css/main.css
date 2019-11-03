@@ -8,7 +8,7 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
   background: url("../images/bgtile.png") repeat-x;
-  background-color: #F7F7F9;
+  background-color: #f7f7f9;
 }
 
 h2 {
@@ -25,14 +25,13 @@ b {
   font-weight: bold;
 }
 
-
 .button {
-  color: #F7F7F9;
+  color: #f7f7f9;
   font-weight: 700;
   font-size: 14px;
   padding: 8px;
   border-radius: 2px;
-  background: linear-gradient(#6992B2, #3D719A);
+  background: linear-gradient(#6992b2, #3d719a);
   border: none;
   box-shadow: 0 0 2px 1px #06365f;
 }
@@ -49,16 +48,14 @@ b {
   padding: 20px 20px 20px 20px;
   border-radius: 10px;
   position: relative;
-  background-color: #F7F7F9;
+  background-color: #f7f7f9;
   box-shadow: -55px -55px 15px -55px, 45px -45px 15px -45px;
 }
 
 .text-container {
   float: left;
   max-width: 500px;
-  
 }
-
 
 main {
   margin-top: 100px;
@@ -88,7 +85,7 @@ main {
   color: grey;
 }
 
-.footer li{
+.footer li {
   list-style-type: none;
   padding: 10px;
   float: left;
