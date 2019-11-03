@@ -10,12 +10,15 @@ body {
   padding-bottom: 2vw;
 }
 
-html,body{overflow-x: hidden;}
+html,
+body {
+  overflow-x: hidden;
+}
 
 #wrapper {
   min-width: 500px;
 }
-a{
+a {
   text-decoration: none;
 }
 
@@ -48,57 +51,52 @@ a{
   margin-left: 6vw;
 }
 
-
-#right-side{
+#right-side {
   padding: 0 10%;
-
 }
 
 .over-box {
   width: 40vw;
-  margin-bottom:10px;
+  margin-bottom: 10px;
   float: right;
 }
 
 #logo {
-  float:left;
-  margin-bottom:10px;
-  margin-left:2vw;
+  float: left;
+  margin-bottom: 10px;
+  margin-left: 2vw;
 }
 
 #log-in-button {
-  float:right;
-  background: linear-gradient(180deg,#7299b9, #4a779c);
+  float: right;
+  background: linear-gradient(180deg, #7299b9, #4a779c);
   padding: 10px;
-  margin-top:1vw;
-  margin-right:1vw;
+  margin-top: 1vw;
+  margin-right: 1vw;
   border: 1px solid #1c5380;
   border-radius: 4px;
 }
 
 #log-in-button a {
-  color:  white;
+  color: white;
   text-shadow: 0 2px #4a779c;
   font-weight: 550;
 }
 
-
-
 #white-box {
   float: right;
-  width:30vw;
+  width: 30vw;
   background-size: 100%;
   background-image: url("../images/frame.png");
   opacity: 1;
   background-repeat: no-repeat;
-  font-size:11pt;
+  font-size: 11pt;
   letter-spacing: 0.3pt;
-  padding:7%;
+  padding: 7%;
   padding-top: 2.5vw;
   font-weight: 400;
   color: rgb(58, 57, 57);
 }
-
 
 #white-box h1 {
   color: #06365f;
@@ -110,11 +108,10 @@ a{
 
 #white-box .download-buttons {
   margin-top: 40px;
-
 }
 
-#white-box .download-buttons img{
-  margin-right:18px;
+#white-box .download-buttons img {
+  margin-right: 18px;
 }
 
 .clear {
@@ -137,6 +134,6 @@ nav {
   color: rgb(155, 155, 155);
 }
 
-nav a{
-  color:#406c90;
+nav a {
+  color: #406c90;
 }
