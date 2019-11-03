@@ -9,53 +9,96 @@ body {
   margin: 0;
 }
 main {
-  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -427px;
+  width: 855px;
 }
-h2 {
-  color: #06365f;
-  font-size: 1.8em;
-  line-height: 1.3em;
+.relative {
+  position: relative;
 }
-.header {
-  background-color: #1c5380;
-  padding: 100px 100px 200px 100px;
+.absolute {
+  position: absolute;
 }
-#logo {
-  margin-top: 20px;
-  float: left;
+.inline {
+  display: inline-block;
+}
+#background {
+  width: 100%;
+  height: 300px;
+  background: linear-gradient(to bottom, #567D9F, #386286, #1c5380);
+  position: absolute;
 }
 #phones {
-  float: left;
-  margin: 100px 50px 0 100px;
+  top: 100px;
+}
+#header {
+  width: 57%;
+  left: 43%;
+  top: 124px;
+}
+#logo {
+  width: 100%;
 }
 #login-button {
-  float: right;
+  background: linear-gradient(to bottom, rgb(112, 149, 180), #486c8b, #486c8b);
+  padding: 7px 10px;
+  border: 2px solid #2B5881;
+  top: 20%;
+  right: 0;
 }
-#frame {
-  position: absolute;
-  left: 450px;
+#login-text {
+  font-weight: 600;
+  color: #CAD5DF;
+  padding-left: 5px;
+  padding-bottom: 2px;
+  vertical-align: text-bottom;
+}
+#description {
+  left: 360px;
   top: 220px;
+  width: 500px;
 }
-.description {
-  position: absolute;
-  left: 490px;
-  top: 230px;
-  width: 410px;
-  padding-bottom: 50px;
+#text {
+  padding: 12px 45px;
 }
-.download-links img {
-  margin-top: 20px;
-  padding-right: 10px;
+#title {
+  color: #06365f;
+  font-size: 1.1em;
+  line-height: 1.8em;
+  padding-right: 140px;
 }
-footer {
-  clear: both;
-  width: 100%;
-  margin: auto;
+#paragraph {
+  font-weight: 400;
+  color: #555;
 }
-.footer-links {
-  margin: 100px auto;
-  display: inline-block;
+#paragraph p b {
+  color: black;
 }
-.copyright {
-  display: inline-block;
+#download-links img{
+  padding-top: 20px;
+  padding-right: 15px;
+}
+#footer {
+  top: 260px;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+#footer-links a {
+  padding: 0 8px;
+  color: #1c5380;
+  text-decoration: none;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.7em;
+}
+#copyright {
+  padding-left: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.7em;
+  color: #AAA;
 }
