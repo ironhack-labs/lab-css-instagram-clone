@@ -83,6 +83,10 @@ main button#login img {
   vertical-align: middle; 
 }
 
+main button#login span{
+  padding-left: 8px;
+}
+
 footer {
   margin: 50px 0;
   font-size: 0.9em;
