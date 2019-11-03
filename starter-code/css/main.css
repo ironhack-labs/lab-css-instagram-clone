@@ -8,3 +8,128 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+.color-header {
+  padding-top: 0px;
+  background-color: #1c5380;
+}
+
+.instagram-logo {
+  background-image: url(../images/brand.png);
+  height: 150px;
+  width: 270px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 526px;
+  margin-top: 0px;
+  padding-top: 160px;
+  margin-bottom: 100px;
+  position: relative;
+  top: 165px;
+}
+
+.sign-up-logo {
+  background-image: url(../images/home.png);
+  background-repeat: no-repeat;
+  float: right;
+  margin-right: 300px;
+  position: absolute;
+  right: 2px;
+  top: 181px;
+  list-style-type: none;
+  border-style: solid;
+  border-color: #1c5380;
+  box-shadow: 1px 2px 6px #06365f;
+  font-weight: bold;
+  font-size: 0.8em;
+  border-left: 10px;
+  height: 19px;
+  width: 93px;
+  padding: 6px 3px 6px 2px;
+  border-radius: 4px;
+}
+
+.log-in {
+  position: relative;
+  left: 40px;
+  color: white;
+  text-decoration: none;
+}
+
+.phones-logo {
+  background-image: url(../images/phones.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 158px;
+  left: 172px;
+  width: 350px;
+  height: 493px;
+}
+
+.main-location {
+  background-color: white;
+  box-shadow: 1px 2px 6px #888888;
+  padding-left: 27px;
+  margin-left: 526px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 250px;
+  border-radius: 5px;
+  width: 430px;
+  height: 396px;
+  font-size: 1em;
+}
+
+.header2-color {
+  color: #1c5380;
+}
+
+.iphone-logo {
+  background-image: url(../images/badge-iphone.png);
+  position: absolute;
+  top: 338px;
+  left: 27px;
+  width: 164px;
+  height: 50px;
+}
+
+.android-logo {
+  background-image: url(../images/badge-android.png);
+  position: absolute;
+  top: 338px;
+  left: 207px;
+  width: 153px;
+  height: 50px;
+}
+
+.footer {
+  padding-top: 12em;
+}
+
+.nav-left {
+  padding-left: 258px;
+  padding-bottom: 65px;
+  margin-top: 90px;
+}
+.footer-notes > li {
+  text-transform: uppercase;
+  list-style-type: none;
+  display: inline;
+  color: #1c5380;
+  border-left: 20px;
+  padding-left: 15px;
+  font-weight: bold;
+  font-size: 10px;
+  text-decoration: none;
+}
+
+.text-none {
+  text-decoration: none;
+  color: #1c5380;
+}
+
+#copyright {
+  color: grey;
+  padding-left: 30px;
+}
