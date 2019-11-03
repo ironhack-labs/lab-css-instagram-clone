@@ -7,6 +7,7 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  padding-bottom: 4vw;
 }
 
 a{
@@ -34,7 +35,7 @@ a{
 }
 
 #main-container {
-  padding: 10vw 12vw;
+  padding: 6vw 12vw;
 }
 
 #phone {
@@ -58,15 +59,23 @@ a{
 
 .over-box {
   margin-bottom:10px;
+  float: right;
+}
+
+#logo {
+  float:left;
+  margin-bottom:10px;
+  margin-right:5vw;
+  margin-left:2vw;
 }
 
 #log-in-button {
   float:right;
   background: linear-gradient(180deg,#4b7699af, #4a779c);
   padding: 10px;
+  margin-right: 3vw;
   border: 1px solid #1c5380;
   border-radius: 4px;
-  margin-bottom:40px;
 }
 
 #log-in-button a {
@@ -87,14 +96,29 @@ a{
 }
 
 #white-box-content {
+  font-size:11pt;
+  letter-spacing: 0.3pt;
   padding:10%;
   padding-top: 2.5vw;
+  font-weight: 400;
+  color: rgb(58, 57, 57);
 }
 
 #white-box-content h1 {
   color: #06365f;
-  font-weight: 500;
+  font-weight: 520;
+  letter-spacing: 1.2pt;
   font-size: 20pt;
+  line-height: 23pt;
+}
+
+#white-box .download-buttons {
+  margin-top: 40px;
+
+}
+
+#white-box .download-buttons img{
+  margin-right:18px;
 }
 
 .clear {
@@ -107,6 +131,7 @@ a{
 
 nav {
   text-align: center;
+  text-shadow: grey 3px 3px 3px 3px;
   margin: 0 10%;
   text-transform: uppercase;
   font-weight: 700;
