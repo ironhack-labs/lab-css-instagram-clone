@@ -5,15 +5,55 @@ light blue: #1c5380
 */
 
 body {
-  background-color:#1c5380;
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  //height: 100%;
+  //background: linear-gradient(180deg, #1c5380 50%, white 50%);
 }
 
-.textbox {
 
+.background-blue {
+  position:fixed;
+  top: 0;
+  left: 0;
+  height:45%;
+  width:100%;
+  background: linear-gradient(0deg, #1c5380, #1c5380b9);
+  z-index: -1;
 }
 
-#ulist li{
+#main-container {
+  padding: 10vw 12vw;
+}
+
+#phone {
+  float: left;
+  margin-right: 3vw;
+}
+
+#rightbox {
+  margin-right:5vw;
+  width: 40vw;
+  float: right;
+  background-position-y: 8vw;
+  background-size: 100%;
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+}
+
+#text {
+  padding: 10%;
+  padding-top:1vw;
+}
+
+.clear {
+  clear: both;
+}
+
+#ulist li {
   display: inline;
+}
+
+nav {
+  margin:0 auto;
 }
