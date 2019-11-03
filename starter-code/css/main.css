@@ -139,17 +139,14 @@ body {
 }
 
 .footer-nav {
-    display: inline-block;
-}
-
-.footer-nav ul {
     list-style: none;
     padding-left: 0;
     margin-top: 0;
     text-align: center;
+    display: inline-block;
 }
 
-.footer-nav ul li {
+.footer-nav li {
     display: inline-block;
     margin-right: 15px;
 }
