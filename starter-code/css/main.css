@@ -7,9 +7,14 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
-  padding-bottom: 4vw;
+  padding-bottom: 2vw;
 }
 
+html,body{overflow-x: hidden;}
+
+#wrapper {
+  min-width: 500px;
+}
 a{
   text-decoration: none;
 }
@@ -18,7 +23,7 @@ a{
   position: fixed;
   top: 0;
   left: 0;
-  height: 45%;
+  height: 35%;
   width: 100%;
   background: linear-gradient(0deg, #1c5380, #1c5380b9);
   z-index: -1;
@@ -28,7 +33,7 @@ a{
   position: fixed;
   bottom: 0;
   left: 0;
-  height: 55%;
+  height: 65%;
   width: 100%;
   background: linear-gradient(0deg, white, rgba(255, 255, 255, 0.842));
   z-index: -1;
@@ -40,17 +45,9 @@ a{
 
 #phone {
   float: left;
-  margin-right: 3vw;
+  margin-left: 6vw;
 }
 
-.underwhite {
-  background-color: white;
-  border-radius: 2pt;
-  width: 40vw;
-  background-size: 80%;
-  background-position-y: 30vw;
-  float: right;
-}
 
 #right-side{
   padding: 0 10%;
@@ -58,6 +55,7 @@ a{
 }
 
 .over-box {
+  width: 40vw;
   margin-bottom:10px;
   float: right;
 }
@@ -65,15 +63,15 @@ a{
 #logo {
   float:left;
   margin-bottom:10px;
-  margin-right:5vw;
   margin-left:2vw;
 }
 
 #log-in-button {
   float:right;
-  background: linear-gradient(180deg,#4b7699af, #4a779c);
+  background: linear-gradient(180deg,#7299b9, #4a779c);
   padding: 10px;
-  margin-right: 3vw;
+  margin-top:1vw;
+  margin-right:1vw;
   border: 1px solid #1c5380;
   border-radius: 4px;
 }
@@ -81,30 +79,28 @@ a{
 #log-in-button a {
   color:  white;
   text-shadow: 0 2px #4a779c;
-  font-weight: 600;
+  font-weight: 550;
 }
+
 
 
 #white-box {
-  //width: 40vw;
   float: right;
-  //background-position-y: 8vw;
-  padding: 2px;
+  width:30vw;
   background-size: 100%;
   background-image: url("../images/frame.png");
+  opacity: 1;
   background-repeat: no-repeat;
-}
-
-#white-box-content {
   font-size:11pt;
   letter-spacing: 0.3pt;
-  padding:10%;
+  padding:7%;
   padding-top: 2.5vw;
   font-weight: 400;
   color: rgb(58, 57, 57);
 }
 
-#white-box-content h1 {
+
+#white-box h1 {
   color: #06365f;
   font-weight: 520;
   letter-spacing: 1.2pt;
@@ -127,6 +123,7 @@ a{
 
 #ulist li {
   display: inline;
+  margin: 0 8px;
 }
 
 nav {
@@ -136,7 +133,7 @@ nav {
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 2pt;
-  font-size: 11pt;
+  font-size: 10pt;
   color: rgb(155, 155, 155);
 }
 
