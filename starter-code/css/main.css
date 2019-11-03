@@ -37,7 +37,7 @@ main {
 #header {
   width: 57%;
   left: 43%;
-  top: 16%;
+  top: 124px;
 }
 #logo {
   width: 100%;
@@ -82,21 +82,21 @@ main {
   padding-right: 15px;
 }
 #footer {
-  top: 240px;
+  top: 260px;
   left: 0;
   right: 0;
   text-align: center;
 }
 #footer-links a {
-  padding: 0 10px;
+  padding: 0 8px;
   color: #1c5380;
   text-decoration: none;
   font-weight: 600;
   text-transform: uppercase;
-  font-size: 0.8em;
+  font-size: 0.7em;
 }
 #copyright {
-  padding-left: 30px;
+  padding-left: 20px;
   font-weight: 600;
   text-transform: uppercase;
   font-size: 0.7em;
