@@ -62,14 +62,25 @@ h1 {
 
 .description{
   width: 60%;
+  margin-top: 1em;
 }
 
 .background-description{
   
-  padding: 5%;
-  background-image: url(/starter-code/images/frame.png);
-  background-size: contain;
+    padding: 5%;
+    background-image: url(/starter-code/images/frame.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
+
+.iphone{
+  margin-right: 2%;
+}
+
+.description img {
+  margin-top: 3em;
+}
+
 
 #left-section img{
   float: right;
@@ -77,16 +88,33 @@ h1 {
 }
 
 .logo-login{
-  width: 60%;
+  width: 59%;
+  padding: 0.6%;
 }
 
 .logo-login img{
   float: left;
   display: inline-block;
+ 
 }
 
 .button{
   float: right;
-  display: inline-block;
-  
+  position: relative;
+  top: 1em;
+  box-shadow: 0px 0px 3px 0px #2929299c
+ 
+   
 }
+
+.button button{
+  background: linear-gradient(#5a8ab1, #1c5380 );
+  border: none;
+  border-radius: 2px;
+  width: 7em;
+  height: 3em;
+  color: white;
+  font-size: 1.05em;
+  font-weight: 600;
+}
+
