@@ -1,4 +1,8 @@
 /*
+// Base styles
+// -------------------------------------------------- */
+
+/*
 Colors to use:
 dark blue: #06365f
 light blue: #1c5380
@@ -16,4 +20,153 @@ html {
 body {
     font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin: 0;
+    background: url(../images/bgtile.png) repeat-x;
+}
+
+
+/*
+// General classes
+// -------------------------------------------------- */
+
+.content-wrapper {
+    max-width: 860px;
+    margin: 100px auto 30px;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.img-replacement {
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+
+/*
+// Main content classes
+// -------------------------------------------------- */
+
+.main-img-wrapper {
+    float: left;
+}
+
+.main-content-wrapper {
+    float: right;
+    width: 504px;
+}
+
+.content-header__main-logo {
+    float: left;
+    width: 314px;
+    height: 78px;
+    background: url(../images/brand.png) no-repeat;
+}
+
+.content-header__log-in-btn {
+    float: right;
+    margin-top: 42px;
+    padding: 8px 12px 8px 40px;
+    text-decoration: none;
+    border-radius: 3px;
+    font-size: 13px;
+    font-weight: 600;
+    background: url(../images/home.png) no-repeat 8px center, linear-gradient(#5E81A2 60%, #3B6189);
+    background-size: 22px auto;
+    border: 1px solid #28486B;
+    color: #fff;
+}
+
+.content-header__log-in-btn:hover {
+    background: url(../images/home.png) no-repeat 8px center, linear-gradient(#597d9e, #395e86);
+    background-size: 22px auto;
+    border: 1px solid #22466d;
+}
+
+.content-header__log-in-btn:active {
+    background: url(../images/home.png) no-repeat 8px center, linear-gradient(#507aa1, #335b86);
+    background-size: 22px auto;
+}
+
+.content-description {
+    background: url(../images/frame.png) repeat-x;
+    padding: 32px 40px;
+    border-radius: 5px;
+    margin-top: -10px;
+}
+
+.content-description__title {
+    margin: 0;
+    line-height: 32px;
+    color: #06365f;
+}
+
+.content-description__text {
+    font-size: 16px;
+}
+
+.content-description__download-btns {
+    margin-top: 30px;
+}
+
+.app-store-btn {
+    display: inline-block;
+    margin-right: 15px;
+    width: 164px;
+    height: 51px;
+    background: url(../images/badge-iphone.png);
+}
+
+.google-play-btn {
+    display: inline-block;
+    width: 153px;
+    height: 51px;
+    background: url(../images/badge-android.png);
+}
+
+
+/*
+// Footer classes
+// -------------------------------------------------- */
+
+.main-footer {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.footer-nav {
+    display: inline-block;
+}
+
+.footer-nav ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 0;
+    text-align: center;
+}
+
+.footer-nav ul li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.footer-nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #6082A2;
+}
+
+.footer-nav a:hover {
+    text-decoration: underline;
+}
+
+.copyright-print {
+    display: inline-block;
+    font-weight: bold;
+    font-size: inherit;
+    color: #ACACAD;
 }
