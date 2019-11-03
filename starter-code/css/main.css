@@ -8,11 +8,12 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
   background: url("../images/bgtile.png") repeat-x;
+  background-color: #F7F7F9;
 }
 
 h2 {
   font-weight: bold;
-  font-size: 30px;
+  font-size: 32px;
   color: #06365f;
 }
 
@@ -20,20 +21,18 @@ p {
   margin-top: 15px;
 }
 
-#text {
-  background-color: coral; /* Estas dos líneas son para ver hasta donde demonios llega la caja */
-  border: solid 1px; /* Estas dos líneas son para ver hasta donde demonios llega la caja */
-  padding: 20px;
-  border-radius: 10px;
+b {
+  font-weight: bold;
 }
 
+
 .button {
-  color: #e1e8ed;
+  color: #F7F7F9;
   font-weight: 700;
   font-size: 14px;
   padding: 8px;
   border-radius: 2px;
-  background: linear-gradient(#799ab7, #447196);
+  background: linear-gradient(#6992B2, #3D719A);
   border: none;
   box-shadow: 0 0 2px 1px #06365f;
 }
@@ -45,31 +44,59 @@ p {
   max-width: 850px;
   margin: 0 auto;
 }
+
+#text {
+  padding: 20px 20px 20px 20px;
+  border-radius: 10px;
+  position: relative;
+  background-color: #F7F7F9;
+  box-shadow: -55px -55px 15px -55px, 45px -45px 15px -45px;
+}
+
+.text-container {
+  float: left;
+  max-width: 500px;
+  
+}
+
+
 main {
   margin-top: 100px;
 }
 #phones {
   float: left;
   margin-right: 50px;
+  max-width: 300px;
 }
 #login {
   padding: 20px 0;
 }
 #login-button {
   float: right;
-  margin-top: 18px;
+  margin-top: 20px;
+}
+
+.badges {
+  padding-top: 30px;
 }
 
 .footer {
   margin-top: 20px;
-  text-align: center;
+  padding-left: 5%;
   text-transform: uppercase;
   font-weight: bold;
   color: grey;
 }
 
+.footer li{
+  list-style-type: none;
+  padding: 10px;
+  float: left;
+}
+
 .footer a {
   color: #06365f;
+  text-decoration: none;
 }
 
 .clear {
