@@ -9,7 +9,11 @@ body {
   margin: 0;
 }
 
-.header {
+h1 {
+  color: #06365f;
+}
+
+#header {
   background-image: linear-gradient(#4c7497, #06365f);
   height: 320px;
 }
@@ -17,31 +21,55 @@ body {
 .main_top {
   float: right;
   margin-top: 150px;
-  margin-right: 300px;
+  margin-right: 250px;
 }
 
 .title {
-  display: block;
+  justify-content: space-between;
+  float: left;
+  padding-right: 60px;
 }
 
 .brand {
-  display: inline;
   margin-right: 20px;
+  margin-left: 0;
 }
 
 .buttom {
   margin-left: 20px;
-  display: inline;
+  color: white;
+  height: 40px;
+  width: 90px;
+  background-color: #4c7497;
+  border-color: #06365f;
 }
 
 .frame {
+  width: 400px;
+  margin-top: -80px;
+  margin-left: 750px;
+  position: absolute;
+}
+
+.frame_pic {
   float: right;
+  margin-right: 250px;
+  margin-top: -70px;
+}
+
+a {
+  margin-bottom: 30px;
+}
+
+#footer {
 }
 
 .footer {
+  margin-bottom: 0;
 }
 
 .phones {
   margin-left: 200px;
   margin-top: -200px;
+  position: absolute;
 }
