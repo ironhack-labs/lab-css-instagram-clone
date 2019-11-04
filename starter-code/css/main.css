@@ -61,6 +61,18 @@ a {
   margin-bottom: 30px;
 }
 
+.img_google_ios {
+  margin-top: 30px;
+}
+
+.android_logo {
+  margin-right: 10px;
+}
+
+.ios_logo {
+  margin-left: 10px;
+}
+
 #footer {
 }
 
