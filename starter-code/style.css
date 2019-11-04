@@ -1,0 +1,76 @@
+/*
+Colors to use:
+dark blue: #06365f
+light blue: #1c5380
+*/
+
+body {
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding: 100px;
+}
+
+h3 {
+  color:#061968;
+  font-weight: bold;
+}
+
+img {
+  box-sizing: border-box;
+}
+
+.col{
+  padding:20px;
+  margin: 5px;
+  width: 45%;
+  box-sizing: border-box;
+}
+
+.a{
+  float:left;
+}
+.b{
+  float:right;
+}
+
+.clear{
+  clear:both;
+}
+
+.background {
+  background-image: url("images/frame.png");
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4e8cbf;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+footer {
+  text-align: center;
+}
+
+footer a {
+  color:#06365f;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.top-links {
+  display: inline-block;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+footer p {
+  display: inline-block;
+  margin: 0 10px;
+}
