@@ -5,10 +5,24 @@ light blue: #1c5380
 */
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 500 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-color: #405DE6;
 }
 
-.div1 {
-display: flex;
+.textpart {
+  background-color: white;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+.lastpart {
+  margin-top: 100px; 
+  margin-bottom: 100px,
+}
+
+button {
+  background-color: #405DE6;
+}
+.instagramlogo {
+  float: left;
 }
