@@ -4,7 +4,117 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+/* Reset someone elements*/
+h1{
+  display: block;
+    font-size: 2em;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+
+
+/* General CSS */
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  font-weight: 500;
 }
+
+h1 {
+  color: #06365f;
+}
+
+
+.clean {
+  clear: both;
+}
+
+/* CSS Specific */
+
+#blue-color {
+  height: 40vh;
+  background-color:  #1c5380;
+}
+
+#grey-color{
+  height: 60vh;
+  background-color: #efefef;
+}
+
+
+#left-section{
+  width: 39vw;
+  position: relative;
+  top: -20vh;
+  float: left;
+}
+
+#right-section{
+  position: relative;
+  top: -20vh;
+  width: 60vw;
+  float: left;
+}
+
+.description{
+  width: 60%;
+  margin-top: 1em;
+}
+
+.background-description{
+  
+    padding: 5%;
+    background-image: url(/starter-code/images/frame.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.iphone{
+  margin-right: 2%;
+}
+
+.description img {
+  margin-top: 3em;
+}
+
+
+#left-section img{
+  float: right;
+  margin-right: 6%;
+}
+
+.logo-login{
+  width: 59%;
+  padding: 0.6%;
+}
+
+.logo-login img{
+  float: left;
+  display: inline-block;
+ 
+}
+
+.button{
+  float: right;
+  position: relative;
+  top: 1em;
+  box-shadow: 0px 0px 3px 0px #2929299c
+ 
+   
+}
+
+.button button{
+  background: linear-gradient(#5a8ab1, #1c5380 );
+  border: none;
+  border-radius: 2px;
+  width: 7em;
+  height: 3em;
+  color: white;
+  font-size: 1.05em;
+  font-weight: 600;
+}
+
