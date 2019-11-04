@@ -18,7 +18,7 @@ body {
 
 .blue {
   height: 40%;
-background-color: #06365f;
+background-color: #396287;
 }
 
 .white {
@@ -28,11 +28,11 @@ background-color: #06365f;
 .container {
   width: 900px;
   position: absolute;
-  height: 512px;
+  height: 540px;
   top: 50%;
   left: 50%;
   margin-left: -450px;
-  margin-top: -256px;
+  margin-top: -270px;
 }
 
 .mobiles {
@@ -52,11 +52,12 @@ background-color: #06365f;
 .login {
   float: right;
   padding: 10px;
-   background-color: #1c5380;
+   background-color: #658AAB;
    width: 100px;
    box-sizing: border-box;
    -webkit-border-radius: 3px;
    margin-top: 15px;
+   border: 1px solid #234c6d;
 }
 
 .login:hover {
@@ -124,7 +125,7 @@ background-color: #06365f;
 }
 
 .cont-footer ul li a {
-  color: #1c5380;
+  color: #396287;
   font-size: 13px;
   font-weight: 600;
   text-decoration: none;
