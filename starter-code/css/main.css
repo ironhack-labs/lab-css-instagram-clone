@@ -50,11 +50,20 @@ span {
   margin-right: 300px;
 }
 
-.title {
+.login {
   margin-top: -20px;
   justify-content: space-between;
   float: left;
-  padding-right: 60px;
+  padding-right: 10px;
+}
+
+.login_text {
+  color: white;
+  text-transform: lowercase;
+}
+
+.image_home {
+  margin-top: 10px;
 }
 
 .brand {
@@ -69,9 +78,10 @@ span {
   margin-left: 20px;
   color: white;
   height: 40px;
-  width: 90px;
+  width: 100px;
   background-color: #4c7497;
   border-color: #06365f;
+  vertical-align: auto;
 }
 
 .h1 {
