@@ -7,7 +7,7 @@ light blue: #1c5380
 body {
   font: 500 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
-  background-color: #405DE6;
+  background-color: #1c5380;
 }
 
 .textpart {
@@ -17,12 +17,16 @@ body {
 }
 .lastpart {
   margin-top: 100px; 
-  margin-bottom: 100px,
+  margin-bottom: 100px;
+  font: #1c5380;
 }
 
 button {
-  background-color: #405DE6;
+  background-color: #1c5380;
 }
 .instagramlogo {
   float: left;
+}
+h1 {
+  font: #06365f
 }
