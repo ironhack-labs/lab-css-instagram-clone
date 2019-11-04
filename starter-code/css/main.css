@@ -52,7 +52,7 @@ b {
   box-shadow: -55px -55px 15px -55px, 45px -45px 15px -45px;
 }
 
-.text-container {
+#text-container {
   float: left;
   max-width: 500px;
 }
