@@ -3,8 +3,99 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+header {
+  background-color: #1c5380;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 8%;
+  margin: 0;
+  height: 350px;
+}
+
+.logo {
+  margin: 0 88px 0 0;
+  width: 450px;
+  height: 125px;
+}
+.button1 {
+  border-radius: 3px;
+  color: white;
+  background-color: #4f799e;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 21px;
+  font-weight: 500;
+}
+.phones {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 66%;
+  margin: 0;
+  width: 35%;
+  height: 69px;
+}
+
+.recuadro {
+  margin: -162px 0 0 680px;
+  width: 650px;
+  height: 400px;
+}
+.color {
+  color: #06365f;
+}
+
+.texto {
+  font: 200 22px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  position: absolute;
+  top: 277px;
+  padding: 0px 150px 50px 855px;
+  display: flex;
+  flex-direction: column;
+  left: -110px;
+}
+.image-phone {
+  width: 200%;
+  padding: 145px 0 0 80px;
+}
+
+.store1 {
+  position: absolute;
+  top: 277px;
+  display: flex;
+  left: -110px;
+  padding: 530px 100px 0px 860px;
+  width: 18%;
+}
+
+.store2 {
+  position: absolute;
+  top: 277px;
+  display: flex;
+  left: -110px;
+  padding: 530px 100px 0px 1160px;
+  width: 17%;
+}
+
+footer {
+  
+  padding: 295px 16px 29px 395px;
+  font: 200 22px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  color: #06365f;
+ 
+}
+a{
+  text-decoration: none;
+  color: #06365f;
+}
+
+.copy{
+color: gray;
+}
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+ 
 }
