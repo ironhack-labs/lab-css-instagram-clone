@@ -124,14 +124,14 @@ background-color: #1c5380;
 }
 
 .cont-footer ul li a {
-  color: #06365f;
+  color: #1c5380;
   font-size: 13px;
   font-weight: 600;
   text-decoration: none;
 }
 
 .cont-footer ul li a:hover {
-  color: #1c5380;
+  color: #06365f;
 }
 
 .cont-footer ul li:last-child {
