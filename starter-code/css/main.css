@@ -13,9 +13,21 @@ h1 {
   color: #06365f;
 }
 
+p {
+  letter-spacing: 1px;
+}
+
+a {
+  margin-bottom: 30px;
+}
+
 #header {
   background-image: linear-gradient(#4c7497, #06365f);
   height: 320px;
+}
+
+#container {
+  min-height: 100%;
 }
 
 .main_top {
@@ -44,6 +56,10 @@ h1 {
   border-color: #06365f;
 }
 
+.h1 {
+  padding-top: 20px;
+}
+
 .frame {
   width: 400px;
   margin-top: -80px;
@@ -55,10 +71,6 @@ h1 {
   float: right;
   margin-right: 250px;
   margin-top: -70px;
-}
-
-a {
-  margin-bottom: 30px;
 }
 
 .img_google_ios {
@@ -73,11 +85,16 @@ a {
   margin-left: 10px;
 }
 
-#footer {
+#footer_main {
+  position: relative;
+  height: 100px;
+  margin-top: -100px;
+  clear: both;
 }
 
 .footer {
-  margin-bottom: 0;
+  margin-top: 500px;
+  margin-left: 450px;
 }
 
 .phones {
