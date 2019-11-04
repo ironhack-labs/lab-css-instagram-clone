@@ -18,7 +18,7 @@ body {
 
 .blue {
   height: 40%;
-background-color: #1c5380;
+background-color: #06365f;
 }
 
 .white {
@@ -52,7 +52,7 @@ background-color: #1c5380;
 .login {
   float: right;
   padding: 10px;
-   background-color: #06365f;
+   background-color: #1c5380;
    width: 100px;
    box-sizing: border-box;
    -webkit-border-radius: 3px;
