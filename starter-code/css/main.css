@@ -5,6 +5,30 @@ light blue: #1c5380
 */
 
 /* Reset someone elements*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+
 h1{
   display: block;
     font-size: 2em;
@@ -26,11 +50,18 @@ body {
 
 h1 {
   color: #06365f;
+  line-height: 120%;
 }
 
 
 .clean {
   clear: both;
+}
+
+footer{
+  background-color: #efefef;
+  position: relative;
+  bottom: 8em;
 }
 
 /* CSS Specific */
@@ -47,7 +78,7 @@ h1 {
 
 
 #left-section{
-  width: 39vw;
+  width: 45vw;
   position: relative;
   top: -20vh;
   float: left;
@@ -56,12 +87,12 @@ h1 {
 #right-section{
   position: relative;
   top: -20vh;
-  width: 60vw;
+  width: 54vw;
   float: left;
 }
 
 .description{
-  width: 60%;
+  width: 520px;
   margin-top: 1em;
 }
 
@@ -69,7 +100,7 @@ h1 {
   
     padding: 5%;
     background-image: url(/starter-code/images/frame.png);
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
 }
 
@@ -81,6 +112,13 @@ h1 {
   margin-top: 3em;
 }
 
+.description h1{
+  margin-bottom: 0.7em;
+}
+
+.description p{
+  margin-bottom: 0.5em;
+}
 
 #left-section img{
   float: right;
@@ -88,7 +126,7 @@ h1 {
 }
 
 .logo-login{
-  width: 59%;
+  width: 500px;
   padding: 0.6%;
 }
 
@@ -118,3 +156,23 @@ h1 {
   font-weight: 600;
 }
 
+nav{
+
+  text-align: center;
+}
+
+
+ul li{
+  display: inline-block;
+  text-align: center;
+  margin: 0 0.5em;
+  color: #06365f;
+  font-weight: 800;
+  font-size: 1.1em;
+}
+
+li:last-child{
+  color: grey;
+  font-size: 1.1em; 
+  font-weight: 800;
+}
