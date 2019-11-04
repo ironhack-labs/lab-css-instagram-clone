@@ -82,3 +82,63 @@ background-color: #1c5380;
   clear: both;
 }
 
+.text-container {
+  background-image: url(../images/frame.png);
+  width: 100%;
+  padding: 20px 50px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 10px;
+  box-sizing: border-box;
+}
+
+.text-container h1 {
+  color: #06365f;
+}
+
+.app-links {
+  width: 100%;
+  padding: 0px 50px;
+}
+
+.app-links img:first-child {
+  float: left;
+  margin-right: 20px;
+}
+
+.cont-footer {
+  width: 730px;
+  margin: 50px auto;
+}
+
+.cont-footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.cont-footer ul li {
+  display: inline-block;
+  margin-right: 20px;
+  text-transform: uppercase;
+  
+}
+
+.cont-footer ul li a {
+  color: #06365f;
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.cont-footer ul li a:hover {
+  color: #1c5380;
+}
+
+.cont-footer ul li:last-child {
+  color: #AAA;
+  margin-left: 10px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+
