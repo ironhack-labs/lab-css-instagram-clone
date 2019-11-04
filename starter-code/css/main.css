@@ -20,6 +20,10 @@ header{
 }
 
 footer{
+  width: 100%;
+}
+
+#footermenu{
   font-size: 14px;
   font-weight: bold;
   color: #1c5380;
@@ -27,8 +31,10 @@ footer{
   text-align: center;
   word-spacing: 10px;
   margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 900px;
 }
-
 
 h1{
   font-size: 24px;
@@ -43,6 +49,10 @@ p{
   padding: 0px 25px 0px 25px;
 }
 
+a{
+text-decoration:none;
+color: #1c5380;
+}
 
 
 /* CLASS SELECTORS */
@@ -69,22 +79,17 @@ display: inline-block;
 height: 600px;
 width: 59%;
 padding;: 5px 5px 5px 5px;
-
-
-
 }
 
 .secondblock{
 background: url("../images/frame.png");
 background-repeat: no-repeat;
-
 }
 
 .logos{
   display: grid;
   grid-template-columns: 70% 30%;
   align-items: center;
-  
 }
 
 .botón{
@@ -100,8 +105,17 @@ background-repeat: no-repeat;
   grid-template-columns: 45% 45%;
   margin-left: 35px;
   margin-right: 25px;
-  margin-top: 25px;
-  
+  padding-top: 25px;
 }
 
+
 /* ID SELECTORS */
+
+
+#logohome{
+  margin-right: 7px;
+  vertical-align: baseline;
+}
+
+#footermenu{
+}
