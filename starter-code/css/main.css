@@ -15,10 +15,24 @@ h1 {
 
 p {
   letter-spacing: 1px;
+  font-weight: 300;
 }
 
 a {
   margin-bottom: 30px;
+  letter-spacing: 1px;
+  margin-left: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #1c5380;
+  text-transform: uppercase;
+}
+
+span {
+  margin-left: 10px;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: gray;
 }
 
 #header {
@@ -33,21 +47,25 @@ a {
 .main_top {
   float: right;
   margin-top: 150px;
-  margin-right: 250px;
+  margin-right: 300px;
 }
 
 .title {
+  margin-top: -20px;
   justify-content: space-between;
   float: left;
   padding-right: 60px;
 }
 
 .brand {
+  float: left;
   margin-right: 20px;
-  margin-left: 0;
+  padding-left: 10px;
 }
 
 .buttom {
+  float: right;
+  margin-top: 10px;
   margin-left: 20px;
   color: white;
   height: 40px;
@@ -57,7 +75,7 @@ a {
 }
 
 .h1 {
-  padding-top: 20px;
+  padding-top: 0px;
 }
 
 .frame {
@@ -70,7 +88,7 @@ a {
 .frame_pic {
   float: right;
   margin-right: 250px;
-  margin-top: -70px;
+  margin-top: -90px;
 }
 
 .img_google_ios {
@@ -78,11 +96,11 @@ a {
 }
 
 .android_logo {
-  margin-right: 10px;
+  margin-right: 40px;
 }
 
 .ios_logo {
-  margin-left: 10px;
+  margin-right: 20px;
 }
 
 #footer_main {
@@ -93,8 +111,8 @@ a {
 }
 
 .footer {
-  margin-top: 500px;
-  margin-left: 450px;
+  margin-top: 520px;
+  margin-left: 300px;
 }
 
 .phones {
