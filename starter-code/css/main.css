@@ -5,6 +5,66 @@ light blue: #1c5380
 */
 
 body {
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+h2{
+  font-size: 32px;
+  font-weight: bold;
+  color: #06365f;
+}
+
+main{
+  width: 850px;
+  margin: 100px auto 0;
+  /*margin-top: 100px;*/
+}
+
+#phones{
+  float: left;
+  margin: 0 50px 0 0;
+  max-width: 300px;
+  
+}
+
+#textContainer{
+  float: left;
+  max-width: 500px;
+}
+
+#text{
+  padding: 20px;
+}
+
+.customMargin{
+  margin: 20px 0 0 0;
+}
+section{
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  border: 1px;
+}
+
+#clear{
+  clear: both;
+}
+
+footer{
+  width: 850px;
+  margin: 50px auto 0;
+}
+
+ul{
+  list-style: none;
+}
+
+.itemFloated{
+  float: left;
+}
+
+ul li{
+  padding: 10px;
 }
