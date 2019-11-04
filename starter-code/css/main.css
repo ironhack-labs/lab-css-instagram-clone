@@ -7,4 +7,103 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: url("../images/bgtile.png") repeat-x;
+  color: #666666;
 }
+
+.button {
+  color: #e1e8ed;
+  font-weight: 700;
+  font-size: 0.8rem;
+  padding: 8px;
+  border-radius: 2px;
+  background: linear-gradient(#7595b1, #457399);
+  border: none;
+  box-shadow: 0 0 3px 3px #305e84;
+}
+
+.button img {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.button span {
+  display: inline-block;
+  padding-top: 4px;
+}
+
+.container {
+  max-width: 860px;
+  margin: 90px auto;
+}
+
+.phones {
+  float: left;
+}
+
+.right-text {
+  float: right;
+  width: 504px;
+}
+
+.login {
+  padding: 15px 0 10px 0;
+}
+
+.login-button {
+  float: right;
+  margin: 10px;
+  color: #e1e8ed;
+  font-weight: 700;
+  font-size: 0.8rem;
+  padding: 8px;
+  border-radius: 2px;
+  background: linear-gradient(#7595b1, #457399);
+  border: none;
+  box-shadow: 0 0 3px 3px #305e84;
+}
+
+.box {
+  background: url('../images/frame.png') no-repeat;
+  padding: 10px 40px;
+}
+
+.box h1{
+  color: #05335c;
+  font-size: 1.8rem;
+  line-height: 1.3em;
+  max-width: 280px;
+}
+
+.download-buttons {
+  margin-top: 35px;
+  margin-left: 20px;
+}
+
+footer{
+  color: #1c5380;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.7rem;
+  margin: 50px auto;
+  text-align: center;
+}
+
+footer nav {
+  display: inline-block;
+}
+
+footer nav ul li {
+  display: inline-block;
+  margin: 1em ;
+  list-style: none;
+}
+
+.copyright {
+  color: rgb(124, 124, 124);
+}
+
+.clear {
+  clear: both;
+}
+
