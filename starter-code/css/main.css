@@ -4,17 +4,12 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
-
-
-
-
-
-@media(min-width:400px){
+@media (min-width: 400px) {
   body {
-    font: 200 15px/1.3 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font: 200 15px/1.3 'Helvetica Neue', Helvetica, Arial, sans-serif;
     margin: 0;
   }
-  
+
   #main {
     height: 200px;
     background-color: #1c5380;
@@ -22,7 +17,7 @@ light blue: #1c5380
     color: #fff;
     width: auto;
   }
-  
+
   #main2 {
     height: 420px;
     display: flex;
@@ -30,7 +25,7 @@ light blue: #1c5380
     justify-content: flex-end;
     padding: 10px;
   }
-  
+
   section#absolute {
     position: absolute;
     display: flex;
@@ -51,7 +46,7 @@ light blue: #1c5380
     flex-direction: column;
     justify-content: space-between;
   }
-  #header-div p{
+  #header-div p {
     padding: 0 10px;
   }
   #brand-div {
@@ -79,7 +74,7 @@ light blue: #1c5380
   #login-btn:hover {
     border-radius: 5px;
   }
-  #text-page div{
+  #text-page div {
     padding: 5px 0px 0px 5px;
     background-color: #fff;
   }
@@ -87,7 +82,6 @@ light blue: #1c5380
     box-shadow: 0px 0px 10px 0px #666768;
     border-top-right-radius: 1.5%;
     border-top-left-radius: 1.5%;
-    
   }
   .box-text {
     position: relative;
@@ -97,7 +91,7 @@ light blue: #1c5380
     color: #06365f;
     padding: 0 10px;
   }
-  .box-img{
+  .box-img {
     display: flex;
     justify-content: space-around;
   }
@@ -105,9 +99,10 @@ light blue: #1c5380
     padding: 0 0px;
     width: 150px;
   }
-  
-  
-  footer, footer ul, nav ul{
+
+  footer,
+  footer ul,
+  nav ul {
     display: flex;
     list-style: none;
     justify-content: center;
@@ -126,10 +121,9 @@ light blue: #1c5380
   }
 }
 
-
-@media (min-width: 720px) and (max-width: 1000px){
+@media (min-width: 720px) and (max-width: 1000px) {
   body {
-    font: 200 15px/1.2 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font: 200 15px/1.2 'Helvetica Neue', Helvetica, Arial, sans-serif;
     margin: 0;
   }
   #main {
@@ -160,12 +154,12 @@ light blue: #1c5380
   .ab-child {
     width: 400px;
   }
-  
+
   #header-div {
     display: flex;
     flex-direction: column;
   }
-  #header-div p{
+  #header-div p {
     padding: 0 15px;
   }
   #brand-div {
@@ -182,7 +176,6 @@ light blue: #1c5380
     padding: 12px;
     background-color: #1a74be;
     box-shadow: 1px 2px 2px 0 gray;
-  
   }
   #login-btn {
     background: url('../images/home.png') no-repeat 0px 9px;
@@ -195,10 +188,9 @@ light blue: #1c5380
   #login-btn:hover {
     border-radius: 5px;
   }
-  #text-page div{
+  #text-page div {
     padding: 5px 10px 0.1px 20px;
     background-color: #fff;
-    
   }
   .box-shadow {
     box-shadow: 0px 0px 10px 0px #666768;
@@ -217,7 +209,9 @@ light blue: #1c5380
     padding: 0 15px;
     width: 120px;
   }
-  footer, footer ul, nav ul{
+  footer,
+  footer ul,
+  nav ul {
     display: flex;
     list-style: none;
     justify-content: space-around;
@@ -233,22 +227,21 @@ light blue: #1c5380
   footer > ul {
     opacity: 0.4;
   }
-  
 }
 
-@media(min-width:1000px) {
+@media (min-width: 1000px) {
   body {
-    font: 200 15px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font: 200 15px/1.5 'Helvetica Neue', Helvetica, Arial, sans-serif;
     margin: 0;
   }
-  
+
   #main {
     height: 280px;
     background-color: #1c5380;
     opacity: 0.9;
     color: #fff;
   }
-  
+
   #main2 {
     height: 420px;
     display: flex;
@@ -256,7 +249,7 @@ light blue: #1c5380
     justify-content: flex-end;
     padding: 10px;
   }
-  
+
   section#absolute {
     position: absolute;
     display: flex;
@@ -277,7 +270,7 @@ light blue: #1c5380
     flex-direction: column;
     justify-content: space-between;
   }
-  #header-div p{
+  #header-div p {
     padding: 0 10px;
   }
   #brand-div {
@@ -306,7 +299,7 @@ light blue: #1c5380
   #login-btn:hover {
     border-radius: 5px;
   }
-  #text-page div{
+  #text-page div {
     padding: 5px 10px 0.1px 20px;
     background-color: #fff;
   }
@@ -314,7 +307,6 @@ light blue: #1c5380
     box-shadow: 0px 0px 10px 0px #666768;
     border-top-right-radius: 1.5%;
     border-top-left-radius: 1.5%;
-    
   }
   .box-text {
     position: relative;
@@ -328,9 +320,10 @@ light blue: #1c5380
     padding: 0 5px;
     width: auto;
   }
-  
-  
-  footer, footer ul, nav ul{
+
+  footer,
+  footer ul,
+  nav ul {
     display: flex;
     list-style: none;
     justify-content: center;
@@ -346,5 +339,4 @@ light blue: #1c5380
   footer > ul {
     opacity: 0.4;
   }
-  
 }
