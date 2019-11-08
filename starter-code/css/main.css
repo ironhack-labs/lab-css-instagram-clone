@@ -4,7 +4,347 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
-body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+
+
+
+
+
+@media(min-width:400px){
+  body {
+    font: 200 15px/1.3 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+  }
+  
+  #main {
+    height: 200px;
+    background-color: #1c5380;
+    opacity: 0.9;
+    color: #fff;
+    width: auto;
+  }
+  
+  #main2 {
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 10px;
+  }
+  
+  section#absolute {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 10px;
+    left: 0px;
+    padding: 30px;
+  }
+  .ab-child {
+    width: auto;
+  }
+  #phones {
+    width: 0px;
+    opacity: 0;
+  }
+  #header-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  #header-div p{
+    padding: 0 10px;
+  }
+  #brand-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0;
+  }
+  #brand-img {
+    width: 200px;
+  }
+  #login-div {
+    opacity: 0.9;
+    padding: 15px;
+    background-color: #1a74be;
+  }
+  #login-btn {
+    background: url('../images/home.png') no-repeat 0px 3px;
+    border: none;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 5px 5px 30px;
+  }
+  #login-btn:hover {
+    border-radius: 5px;
+  }
+  #text-page div{
+    padding: 5px 0px 0px 5px;
+    background-color: #fff;
+  }
+  .box-shadow {
+    box-shadow: 0px 0px 10px 0px #666768;
+    border-top-right-radius: 1.5%;
+    border-top-left-radius: 1.5%;
+    
+  }
+  .box-text {
+    position: relative;
+    top: -20px;
+  }
+  h2 {
+    color: #06365f;
+    padding: 0 10px;
+  }
+  .box-img{
+    display: flex;
+    justify-content: space-around;
+  }
+  #text-page img {
+    padding: 0 0px;
+    width: 150px;
+  }
+  
+  
+  footer, footer ul, nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-weight: bold;
+    opacity: 0.8;
+    font-size: 10px;
+  }
+  nav a {
+    color: #1c5380;
+    padding: 5px;
+    text-decoration: none;
+  }
+  footer > ul {
+    opacity: 0.4;
+  }
+}
+
+
+@media (min-width: 720px) and (max-width: 1000px){
+  body {
+    font: 200 15px/1.2 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+  }
+  #main {
+    height: 250px;
+    background-color: #1c5380;
+    opacity: 0.9;
+    color: #fff;
+  }
+  #main2 {
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 5px;
+  }
+  #phones {
+    width: 300px;
+    opacity: 1;
+  }
+  section#absolute {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 60px;
+    padding: 20px;
+    width: 700px;
+  }
+  .ab-child {
+    width: 400px;
+  }
+  
+  #header-div {
+    display: flex;
+    flex-direction: column;
+  }
+  #header-div p{
+    padding: 0 15px;
+  }
+  #brand-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #brand-img {
+    width: 230px;
+  }
+  #login-div {
+    opacity: 0.9;
+    border: 1px solid #085ea8;
+    padding: 12px;
+    background-color: #1a74be;
+    box-shadow: 1px 2px 2px 0 gray;
+  
+  }
+  #login-btn {
+    background: url('../images/home.png') no-repeat 0px 9px;
+    border: none;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 7px 10px 30px;
+  }
+  #login-btn:hover {
+    border-radius: 5px;
+  }
+  #text-page div{
+    padding: 5px 10px 0.1px 20px;
+    background-color: #fff;
+    
+  }
+  .box-shadow {
+    box-shadow: 0px 0px 10px 0px #666768;
+    border-top-right-radius: 1.5%;
+    border-top-left-radius: 1.5%;
+  }
+  .box-text {
+    position: relative;
+    top: -20px;
+  }
+  h2 {
+    padding: 0 15px;
+    color: #06365f;
+  }
+  #text-page img {
+    padding: 0 15px;
+    width: 120px;
+  }
+  footer, footer ul, nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    font-weight: bold;
+    opacity: 0.8;
+    font-size: 10px;
+  }
+  nav a {
+    color: #1c5380;
+    padding: 5px;
+    text-decoration: none;
+  }
+  footer > ul {
+    opacity: 0.4;
+  }
+  
+}
+
+@media(min-width:1000px) {
+  body {
+    font: 200 15px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+  }
+  
+  #main {
+    height: 280px;
+    background-color: #1c5380;
+    opacity: 0.9;
+    color: #fff;
+  }
+  
+  #main2 {
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 10px;
+  }
+  
+  section#absolute {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 80px;
+    left: 200px;
+    padding: 20px;
+  }
+  .ab-child {
+    width: 400px;
+  }
+  #phones {
+    width: 300px;
+    opacity: 1;
+  }
+  #header-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  #header-div p{
+    padding: 0 10px;
+  }
+  #brand-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #brand-img {
+    width: 250px;
+  }
+  #login-div {
+    /* border-radius: 5px; */
+    opacity: 0.9;
+    border: 1px solid #085ea8;
+    padding: 7px;
+    background-color: #1a74be;
+  }
+  #login-btn {
+    background: url('../images/home.png') no-repeat 0px 9px;
+    border: none;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 7px 10px 30px;
+  }
+  #login-btn:hover {
+    border-radius: 5px;
+  }
+  #text-page div{
+    padding: 5px 10px 0.1px 20px;
+    background-color: #fff;
+  }
+  .box-shadow {
+    box-shadow: 0px 0px 10px 0px #666768;
+    border-top-right-radius: 1.5%;
+    border-top-left-radius: 1.5%;
+    
+  }
+  .box-text {
+    position: relative;
+    top: -25px;
+  }
+  h2 {
+    color: #06365f;
+    padding: 0 10px;
+  }
+  #text-page img {
+    padding: 0 5px;
+    width: auto;
+  }
+  
+  
+  footer, footer ul, nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    font-weight: bold;
+    opacity: 0.8;
+    font-size: 15px;
+  }
+  nav a {
+    color: #1c5380;
+    padding: 10px;
+    text-decoration: none;
+  }
+  footer > ul {
+    opacity: 0.4;
+  }
+  
 }
