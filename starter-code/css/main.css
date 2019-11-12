@@ -1,10 +1,112 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: linear-gradient(to bottom, #1c5380, #1c5380 50%, #FFF 50%, #FFF);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Main Section */
+section {
+  display: flex;
+  justify-content: center;
+  padding: 100px 0 50px 0;
+}
+
+/* Left box */
+#box-one {
+  width: 32vw;
+  padding-right: 20px;
+}
+
+#box-one img {
+  width: 26vw;
+}
+/* End of left box */
+
+/* Right box */
+#box-two {
+  width: 50vw;
+}
+
+#box-two > div:nth-child(1) {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+#box-two > div:nth-child(1) > img {
+  width: 24vw;
+}
+
+#box-two button {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #1c5380;
+  color: #FFF;
+  width: 8vw;
+  border-radius: 3px;
+  font-size: 1vw;
+  font-weight: 600;
+  padding: 5px;
+  cursor: pointer;
+}
+
+#box-two > div > button img {
+  width: 1.8vw;
+}
+
+#box-two > div:nth-child(2) {
+  background-color: #FFF;
+  border-radius: 5px;
+  padding: 15px 20px;
+}
+
+#box-two > div:nth-child(2) p {
+  font-size: 1.6vw;
+  margin-bottom: 15px;
+}
+
+#box-two > div:nth-child(2) > a img {
+  width: 12vw;
+  padding: 10px 6px;
+  cursor: pointer;
+}
+
+#box-two > div:nth-child(2) > h3 {
+  color: #06365f;
+  font-size: 2.6vw;
+  width: 27vw;
+  margin-bottom: 15px;
+}
+/* End of right box */
+
+/* Footer */
+footer {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+footer a {
+  text-decoration: none;
+  font-size: 1.2vw;
+  padding: 0 10px;
+  color: #1c5380;
+  font-weight: 600;
+}
+
+footer span {
+ font-size: 1.2vw; 
+ color: gray;
+ padding-left: 10px;
+ font-weight: 600;
 }
