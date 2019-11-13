@@ -9,3 +9,25 @@ body {
   margin: 0;
 }
 
+#blue-background {
+  background-color: #1c5380;
+  height: 40vh;
+  width: 100vw;
+  position: absolute;
+  z-index: -1;
+}
+
+#main-content {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 80px 80px 40px 80px;
+}
+
+#text-content {
+  width: 40vw;
+}
+
+#instagram-logo {
+  width: 20vw;
+}
