@@ -17,31 +17,10 @@ body {
   height: 300px;
   background-color: #06365f;
   padding-top: 3%;
-   
-  /* display: block; */
-  /* display: contents; */
-  /* display: flex; */
-  /* display: flexbox; */
-  /* display: flow-root; */
-  /* display: grid; */
-  /* display: inherit; */
-  /* display: inline; */
-  /* display: inline-block; */
-  /* display: none; */
-  /* display: ruby; */
-  /* display: table; */
-  /* display: unset; */
-  /* display: -webkit-flex */
   display: flex;
   justify-content: space-around; 
   align-items: flex-start;
-  /* display:flex;
-flex-direction: row;
-flex-wrap: wrap;
-justify-content: center;
-align-content: center; 
-align-content: flex-start;
-align-items: center; */
+
 }
 .imgefecto{
   animation: crece 5s infinite;
@@ -54,22 +33,11 @@ align-items: center; */
   border-radius: 5px;
   color: white;    
   
-  
 }
 .boton:hover {
   cursor: pointer;
 }
 
-.seccion2 {
-  /* height: 250px;
-  width: 250px;
-  background-color: red; */
-  /*
-  padding-top: 20%;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;  */
-}
 .seccion2 {
   display: flex;
   align-items: flex-start;
