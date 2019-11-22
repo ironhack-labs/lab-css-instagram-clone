@@ -87,3 +87,8 @@ padding-left: 40px;
 .ano {
   color: gray;
 }
+
+a {
+  color: #1c5380;
+  text-decoration: none;
+}
