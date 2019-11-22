@@ -8,3 +8,15 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+
+
+section{
+  background-image: url(../images/bgtile.png);
+
+}
+
+#frame{
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+}
