@@ -11,8 +11,10 @@ body {
 
 
 
-section{
+#blue{
   background-image: url(../images/bgtile.png);
+  background-repeat: no-repeat;
+  background-size: 100% 50%;
 
 }
 
@@ -20,3 +22,20 @@ section{
   background-image: url(../images/frame.png);
   background-repeat: no-repeat;
 }
+
+#instagram{
+  display: flex;
+  justify-content: center;
+ }
+
+ button{
+   background-color: #1c5380;
+   border-style: none;
+ }
+
+ #center{
+  display: flex;
+  align-items: flex-end;
+
+
+ }
