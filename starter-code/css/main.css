@@ -4,7 +4,141 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+/*I've came to conclusion that a full screen div with centered content div is the better approach.*/
+
 body {
+  font-size: 10px;
+  background: white url("../images/bgtile.png");
+  background-position-y: 0;
+  background-size: 100vw 40vh;
+  background-repeat: no-repeat;
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+nav > a {
+    color: #1c5380;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.6rem;
+
+}
+
+h1 {
+  color: #06365f;
+  font-weight: 800; 
+  font-size: 2.0rem;
+}
+
+#outerBox {
+  display: flex;
+  flex-direction: row;
+  height: 86vh;
+}
+
+#leftBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-left: 10.0rem;
+}
+
+#leftBox > img {
+  width: 22vw;
+  height: auto;
+}
+
+#rightBox {
+  margin-top: 7.5rem;
+  display: flex; 
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-right: 10.0rem;
+  width: 60vw;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 40vw;
+  margin: 0px auto 0px auto;
+}
+
+header > img {
+  width: 25vw;
+  height: auto;
+}
+
+header > div {
+  display:flex;
+  align-items: center;
+  border: 3px solid #1d527e;
+  height: 50px;
+  border-radius: 5px;
+  background-image: linear-gradient(#5f809c, #1c5380);
+}
+
+header > div > a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0.8rem;
+}
+
+#home-img {
+  height: 2.0rem;
+  margin-left: 10px;
+}
+
+section {
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 50% 50%;
+  width: 40vw;
+  margin: 35px auto 0px auto;
+}
+
+section h1, p {
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+section p {
+  font-size: 1.2rem;
+}
+
+#twoButtons {
+  display:flex;
+  justify-content: center;
+  size: 3.0rem;
+  width: 40vw;
+  margin: 35px auto 10px auto;
+}
+
+#twoButtons > img {
+  margin: 0px 10px;
+  width: 15vw;
+  height: auto;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 3.0rem;
+  margin-bottom: 3.0rem;
+}
+
+footer > span {
+  font-size: 1.0rem;
+  margin-left: 1.5rem;
+  color: grey;
+}
+
+footer a {
+  text-decoration: none;
+  font-size: 1.0rem;
+  margin: 0.0rem 0.5rem;
 }
