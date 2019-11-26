@@ -4,7 +4,173 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+/* reset */
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+};
+
+img {
+  width: 100%;
+}
+
+/* reset */
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+}
+
+.bg {
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+
+.top {
+  background-image: url(../images/bgtile.png);
+  height: 40%;
+  z-index: -1;
+}
+
+.bot {
+  height: 60%;
+  top: 40%;
+  background-color: #F5F6F8;
+  z-index: -1;
+}
+
+.article-bg {
+  background: linear-gradient(white 50%,  transparent 100%);
+  padding: 2em;
+  border-radius: .3em;
+}
+
+.article-bg h1 {
+  font-size: 1.5em;
+  font-weight: 900;
+  color: #06365f;
+  line-height: 1.25;
+  padding-bottom: 1em;
+}
+
+.article-bg p {
+  font-size: 1.1em;
+  font-weight: 100;
+  padding-bottom: .8em;
+}
+
+.flex {
+  display: flex;
+  /* align-items: center; */
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+.justify-around {
+  justify-content: space-around;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.left {
+  justify-content: left;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.align-baseline {
+  align-items: baseline;
+}
+
+.main {
+  height: 600px;
+  margin: 0% 12% 5%;
+  padding-top: 4%;
+  /* padding: 10% 10% 5%; */
+}
+
+.left-column {
+  height: 100%;
+  padding-right: 3.2em;
+
+}
+
+.left-column img {
+}
+
+.right-column {
+  height: 100%;
+  /* align-self: stretch; */
+}
+
+.login-container {
+}
+
+/* i can't do the shadow right =( */
+
+/* .article-bg { */
+  /* position: relative; */
+  /* z-index: 0; */
+  /* box-shadow: 0px -2px 12px -2px #777777; */
+/* } */
+
+.login-buttom {
+  color: white;
+  width: 110px;
+  font-size: 1.1em;
+  padding: .5rem .5em;
+  background: linear-gradient(#698DAC, #396489);
+  border: 1px solid hsl(208, 49%, 27%);
+}
+
+.login-buttom figure {
+  padding-right: .5em;
+}
+
+/* BUG DOIDO DO FIGURE */
+.login-buttom figure img {
+  vertical-align: middle;
+}
+
+.download-now {
+  margin-left: 2em;
+  /* margin-bottom: 4em; */
+}
+
+.download-now img {
+  padding-right: 1.3em;
+  /* border: 2px solid red; */
+}
+
+footer {
+  font-size: .8em;
+  color: #1c5380;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 0 20%;
+}
+
+footer li:last-child {
+  color: rgba(190, 190, 190);
+  margin-bottom: 5%;
 }
