@@ -4,7 +4,139 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  box-sizing: border-box;
+}
+
+.background {
+  height: 280px;
+  width: 100%;
+  z-index: -1;
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat;
+  position: absolute;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* align-content: center; */
+}
+
+.content {
+  width: 53vw;
+  display: flex;
+  margin-top: 5%;
+}
+
+.logo-login {
+  display: flex;
+  align-items: center;
+}
+
+#login {
+  min-width: 100px;
+  width: 100px;
+  padding: 10px;
+  display: flex;
+  align-content: center;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-end;
+  margin: 2% 5%;
+}
+
+.phones {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#phones-img {
+  height: 65vh;
+}
+
+.logo-login {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3%;
+}
+
+#logo {
+  height: 8vh;
+}
+
+#login {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1.5%;
+  width: 18%;
+  text-decoration: none;
+  color: white;
+  background-image: linear-gradient(#4075a0, #417097);
+  border-radius: 3px;
+  box-shadow: 0 0 3px #06365f;
+}
+
+.main-text {
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  padding: 5%;
+}
+
+.main-text h1 {
+  color: #06365f;
+  margin-bottom: 6%;
+  width: 70%;
+  font-size: 1.9rem;
+  line-height: 2.4rem;
+}
+
+.main-text p {
+  line-height: 1.8rem;
+  margin: 2% 0;
+}
+
+.app-store-links {
+  width: 75%;
+  margin-top: 10%;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer {
+  margin-top: 4vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40vw;
+  text-transform: uppercase;
+}
+
+footer p {
+  font-size: 0.8rem;
+}
+
+.links {
+  width: 65%;
+}
+
+.links a {
+  text-decoration: none;
+  font-size: 0.8rem;
+  margin: 0 1%;
+  color: #1c5380;
+  font-weight: 900;
 }
