@@ -4,7 +4,136 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+h2 {
+  color: #396890;
+  padding: 10px 10px 0 10px;
+  margin-top: 10px
+}
+
+p {
+  padding: 20px;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+.background {
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;
+  background-size: contain;
+  height: 450px;
+}
+
+.resto {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 700px;
+  position: relative;
+  bottom: 269px;
+}
+
+.body {
+  background-color: pink;
+}
+
+.section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.totalInfo {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+}
+
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 62%;
+}
+
+.login button { 
+  width: 85px;  
+  height: 35px;
+  background-color: #4c7da7;
+  background-image: url(../images/home.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 20px;
+  background-position-x: 4px;
+  background-position-y: 6px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 7px;
+  border-radius: 5px;
+  border-color: #2e5e88;
+  color: white;
+  font-weight: 600;
+}
+
+.info {
+  width: 58%;
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0 15px 0 15px;
+  margin: 20px;
+}
+
+.imbagens {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.bottom {
+  width: 30%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 50%;
+  flex-direction: row;
+}
+
+.bottom li {
+  width: 120%;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom li a {
+  text-decoration: none;
+  color: #396890;
+  font-weight: 600;
 }
