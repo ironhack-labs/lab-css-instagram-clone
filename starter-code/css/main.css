@@ -11,27 +11,43 @@ body {
   margin: 0;
 }
 
-.azul {
+.bg-azul {
   background-image: url(/images/bgtile.png);
   background: linear-gradient(#2f6c9e  50%, #084377);  
   height: 350px; 
   
 }
-.main2 {
-  display: flex;
-  margin-top: -200px;
 
+.iphone-img {
+  display: flex;
+  position: relative;
+  margin-left: 200px; 
 }
 
-.logo {
+.iphone img {
+  width: 350px;
+  height: 565px;
+}
+
+.main-body {
+  display: flex; /* flex para poder usar o flexbox com todos as divs filhas */
+  margin-top: -200px;
+}
+
+.main3 {  /*div para colocar todos os outros conteúdos */
+  display: flex;
+  flex-direction: column;
+  margin-left: 180px;
+}
+
+.logo { /* div que engloba insta-logo e login*/
   display: flex;
   justify-content: flex-end;
   align-items: flex-start;
   margin-right: 45px;
-
 }
 
-.buttom {
+.buttom { /* div com o login */
   display: flex;
   height: 45px;
   width: 100px;
@@ -44,7 +60,7 @@ body {
   background-image: url(/images/bgtile.png);
   background: linear-gradient(#2f6c9e 80%, #084377);  
 }
-.buttom p {
+.buttom p { /* centralizar e arrumar texto do buttom*/
   color: whitesmoke;
   font-weight: 700;
   margin-left: 5px;
@@ -52,25 +68,9 @@ body {
   text-align: center;
 }
 
-.iphone {
-  display: flex;
-  position: relative;
-  margin-left: 200px; 
-}
-
-.iphone img {
-  width: 350px;
-  height: 565px;
-}
-.main3 {
-  display: flex;
-  flex-direction: column;
-  margin-left: 180px;
-}
-
-.content {
+.content { /* div para colocar o BG-IMG e o texto */
   background-image: url(/images/frame.png);
-  background-size: contain;
+  background-size: contain; /* arrumar tamanho da imagem de BG - contain faz a imagem caber dentro da DIV - cover ela cobre todo o tamanho da DIV*/
   width: 540px;
   height: 500px;
   background-repeat: no-repeat;
@@ -90,15 +90,15 @@ body {
   color: rgb(83, 82, 82);
 }
 
-.dowload {
+.download {  /*div imagens de download*/
   display: flex;
-  justify-content: center;
 }
 
 .apple {
   display: flex;
   display: inline-block;
-  margin: 20px 30px 20px 40px;
+  margin-right: 30px;
+  margin-left: 40px;
 }
 
 .android {
