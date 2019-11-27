@@ -1,10 +1,109 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#header {
+  display: flex;
+  /* background: url('../images/bgtile.png') repeat left top; */
+  background-image: url('../images/bgtile.png');
+  background-repeat: repeat;
+  background-position: top;
+}
+
+.main-container{
+  display: flex;
+  justify-content: center;
+  margin-top: -11.8rem;
+  width: 57rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo-container {
+  display: inline-block;
+  flex-direction: column;
+  margin-left: 3rem;
+}
+
+.logo-botton-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.3rem;
+}
+
+.button {
+  width: 7rem;
+  margin: 1rem 0;
+  font-size: 1rem;
+  background: #3f729b;
+  color: white;
+  border: none;
+  border-radius: 0.3rem;
+}
+
+.text-container {
+  float: right;
+  justify-content: left;
+  padding: 2rem;
+  background-image: url("../images/frame.png");
+  background-size: cover;
+  border-radius: 0.3rem;
+}
+
+.text-container h1 {
+  color: #3f729b;
+}
+
+.text-container p {
+  font-size: 1.1rem;
+}
+
+.download-container {
+  display: block;
+}
+
+.logo-apple {
+  margin-right: 2rem;
+}
+
+.footer-container {
+  display: flex;
+  width: 60rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer-container ul {
+  display: flex;
+  list-style: none;
+  margin-left: auto;
+  margin-right: auto;
+  color: grey;
+}
+
+.footer-container ul li {
+  margin: 0 1rem;
+  font-weight: 900;
+}
+
+.footer-container ul li a {
+  text-decoration: none;
+}
+
+
+
+
+
 /*
 Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
 
-body {
+/* body, html {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
-}
+  /* background-image: url("./images/frame.png");
+  background-color: #06365f; */
