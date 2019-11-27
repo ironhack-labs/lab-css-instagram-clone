@@ -12,7 +12,7 @@ light blue: #1c5380
 h2 {
   color: #396890;
   padding: 10px 10px 0 10px;
-  margin-top: 10px
+  margin-top: 80px;
 }
 
 p {
@@ -51,6 +51,7 @@ body {
   justify-content: center;
   align-items: center;
   width: 100%;
+  height: 93%;
 }
 
 .totalInfo {
@@ -66,7 +67,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 62%;
+  width: 62%; 
+  position: relative;
+  top: 75px;
 }
 
 .login button { 
@@ -93,7 +96,8 @@ body {
   width: 58%;
   background-image: url(../images/frame.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
+  background-position-y: 79px;
   height: inherit;
   display: flex;
   flex-direction: column;
