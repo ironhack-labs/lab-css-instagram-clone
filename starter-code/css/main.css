@@ -2,9 +2,116 @@
 Colors to use:
 dark blue: #06365f
 light blue: #1c5380
+white smoked: #f5f6f8
 */
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+.blue-top-background{
+  width: 100%;
+  height: 300px;
+  position: absolute;
+  background-image: linear-gradient(#587fa1, #375f84);
+  z-index: -1;
+
+}
+
+.body{
+  /*background-color: rgba(255, 8, 8, 0.3);*/
+  padding: 100 100 100 50;
+  width: auto;
+  height: 600px;
+  padding: 120px;
+}
+
+.content{
+  /*background-color: rgba(201, 255, 8, 0.3);*/
+  width: auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: stretch;
+	align-content: stretch;
+}
+
+
+.phones img{
+  height: 100%;
+}
+
+.right-side{
+  /*background-color: rgba(201, 255, 200, 0.3);*/
+  width: auto;
+  margin-left: 50px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: stretch;
+}
+
+.rs-header{
+  height: 100px;
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+  align-content: stretch;
+  padding: 0 10px;
+}
+
+.rs-buttom{
+  list-style: none;
+  background-image: linear-gradient(#6f92b0, #497499);
+  padding: 10px 20px;
+  border-radius: 2px;
+  box-shadow: 0 0 2px #06365f;
+  color: white;
+  font-weight: bold;
+}
+
+.white-box{
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: auto;
+  height:390px;
+  padding: 20px 50px 0 50px;
+  
+}
+
+.white-box h2{
+  color: #06365f;
+  font-size: 26px;
+  text-shadow: .2px .2px .5px black;
+}
+.footer{
+  width: 100%;
+  margin: 0 auto;
+}
+
+.footer a{
+  color: #06365f;
+  text-decoration: none;
+  font-size: 1em;
+}
+
+.footer ul{
+  width: 800px;
+  margin: 0 auto;
+  display: flex;
+	justify-content: space-between;
+}
+
+.footer li{
+  list-style-type: none;
+  text-align: center;
 }
