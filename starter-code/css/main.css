@@ -3,13 +3,16 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+
 * {
   padding: 0px;
   margin: 0px;
 }
-#empty {
-height: 40%;
+
+#first {
+height: 100%;
 background-image:linear-gradient(to bottom, #577EA0, #305A80);
+
 }
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -24,8 +27,9 @@ section {
 
 }
 #blc1 {
-  padding: 10px;
+  padding: 100px;
 }
+
 body section div a {
   text-decoration:none;
   color: black;
@@ -43,11 +47,100 @@ h1 {
   color: #06365f;
 }
 
-footer nav ul li {
-flex-direction: row;
-float: right;
-text-align: center;
-list-style-type: none;
-justify-content: space-around;
+.footer {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
 
+.footer-nav ul li {
+  display: inline-block;
+  margin-left: 10px;
+  list-style: none;
+  text-transform: uppercase;
+  color: #06365f;
+  font-weight: bold;
+}
+
+.footer span {
+  margin-left: 40px;
+  color: rgb(151, 149, 149);
+  font-weight: bold;
+}
+
+.iphone{
+  display: flex;
+  display: inline-block;
+  margin: 20px 30px 20px 40px;;
+ 
+}
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+#empty {
+height: 100%;
+background-image:linear-gradient(to bottom, #577EA0, #305A80);
+
+}
+body {
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+section {
+  display: flex;
+
+}
+#blc1 {
+  padding: 100px;
+}
+
+body section div a {
+  text-decoration:none;
+  color: black;
+  font-weight: bold;
+
+}
+
+footer a {
+  text-decoration:none;
+  color:#06365f;
+  font-weight: bold;
+}
+
+h1 {
+  color: #06365f;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.footer-nav ul li {
+  display: inline-block;
+  margin-left: 10px;
+  list-style: none;
+  text-transform: uppercase;
+  color: #06365f;
+  font-weight: bold;
+}
+
+.footer span {
+  margin-left: 40px;
+  color: rgb(151, 149, 149);
+  font-weight: bold;
+}
+
+.iphone{
+  display: flex;
+  display: inline-block;
+  margin: 20px 30px 20px 40px;;
+ 
 }
