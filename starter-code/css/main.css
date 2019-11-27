@@ -86,6 +86,7 @@ body {
 .footer-container ul li {
   margin: 0 1rem;
   font-weight: 900;
+  font-size: 0.8rem;
 }
 
 .footer-container ul li a {
