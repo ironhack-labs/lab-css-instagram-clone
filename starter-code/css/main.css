@@ -27,6 +27,7 @@ body {
   display: flex;
   justify-content: flex-end;
   align-items: flex-start;
+  margin-right: 45px;
 
 }
 
@@ -36,8 +37,8 @@ body {
   width: 100px;
   border: 1px solid #06365f;
   border-radius: 4px;
-  padding: 10px;
-  margin-left: 80px;
+  padding: 8px;
+  margin-left: 114px;
   margin-top: 10px;
   box-shadow: 2px 2px #06365f;
   background-image: url(/images/bgtile.png);
@@ -69,7 +70,8 @@ body {
 
 .content {
   background-image: url(/images/frame.png);
-  width: 500px;
+  background-size: contain;
+  width: 540px;
   height: 500px;
   background-repeat: no-repeat;
   margin-top: 30px;
