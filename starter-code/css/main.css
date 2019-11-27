@@ -39,21 +39,31 @@ body {
 
 .top {
   background-image: url(../images/bgtile.png);
-  height: 40%;
+  height: 40vh;
   z-index: -1;
 }
 
 .bot {
-  height: 60%;
+  height: 60vh;
   top: 40%;
   background-color: #F5F6F8;
   z-index: -1;
 }
 
-.article-bg {
-  background: linear-gradient(white 50%,  transparent 100%);
-  padding: 2em;
-  border-radius: .3em;
+@media (max-device-height: 700px ) {
+  .article-bg {
+    background: linear-gradient(white 50%,  transparent 100%);
+    padding: 2em;
+    border-radius: .3em;
+  }
+}
+
+@media (min-device-height: 701px ) {
+  .article-bg {
+    background: linear-gradient(white 80%,  transparent 100%);
+    padding: 2em;
+    border-radius: .3em;
+  }
 }
 
 .article-bg h1 {
@@ -82,6 +92,10 @@ body {
   justify-content: space-around;
 }
 
+.justify-end {
+  justify-content: flex-end;
+}
+
 .justify-center {
   justify-content: center;
 }
@@ -96,10 +110,6 @@ body {
 
 .align-center {
   align-items: center;
-}
-
-.align-baseline {
-  align-items: baseline;
 }
 
 .main {
@@ -168,6 +178,12 @@ footer {
   text-transform: uppercase;
   font-weight: 600;
   padding: 0 20%;
+  flex-basis: 1em;
+  overflow: hidden;
+}
+
+footer ul li {
+  padding: .3em;
 }
 
 footer li:last-child {
