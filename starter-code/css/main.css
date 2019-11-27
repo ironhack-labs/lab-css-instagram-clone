@@ -8,3 +8,106 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+img {
+  width: 100%;
+}
+a {
+  text-decoration: none;
+  color: #1c5380;
+}
+h2 {
+  padding: 20px;
+}
+/* excluir */
+figure {
+  /* height: 100px; */
+  /* width: 100px; */
+}
+/* excluir */
+/* HEADER */
+.bg-blue {
+  width: 100%;
+  height: 17.8rem;
+  background-image: url("/images/bgtile.png");
+  background-repeat: repeat-x;
+}
+/* MAIN */
+main {
+  display: flex;
+  justify-content: center;
+  transform: translateY(-40%);
+}
+.cellphone {
+  height: 100%;
+  width: 25%;
+  box-sizing: border-box;
+  margin: 0 5%;
+}
+.cellphone img {
+  display: flex;
+}
+/* Bloc */
+.logoAndLogin {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.homeButton {
+  width: 30%;
+  padding: 5px 2px;
+}
+.logoAndLogin button {
+  background: linear-gradient(to top, #156db9 , #328dd8);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 25%;
+  height: 100%;
+  color: #fff;
+  padding: 1px;
+  border: 0.5px solid rgb(76, 142, 241);
+}
+.logoAndLogin button strong {
+  font-size: 1.2rem;
+  ;
+}
+/* dark blue: #06365f
+light blue: #1c5380 */
+
+
+
+/* Text Inside */
+.textAbout {
+  background-image: url("/images/frame.png");
+  background-repeat: no-repeat;
+  width: 31.5rem;
+  height: 25rem;
+  padding: 1rem;
+}
+.badges {
+  display: flex;
+  justify-content: flex-start;
+  padding: 20px 0;
+  height: fit-content;
+  width: 25em;
+}
+.badges figure {
+  margin: 0 0.5em;
+}
+/* Footer */
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 5%;
+}
+footer ul {
+  list-style: none;
+}
+footer ul li {
+  display: inline;
+}
