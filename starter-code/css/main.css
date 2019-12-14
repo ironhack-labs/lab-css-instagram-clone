@@ -8,3 +8,85 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+#headermovile{
+  height: 200px;
+  background-color: #06365f;
+}
+
+.fono{
+  float: left;
+  padding-left: 10%;
+  padding-right: 5%;
+  padding-top: 100px;
+}
+.text-box{
+  width: 40%;
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 20px 5% 0 5%;
+  float: left;
+}
+
+.text-box img{
+  padding: 0 2%;
+}
+.text-box h2{
+  color: #06365f;
+  width: 50%;
+}
+
+.header{
+  width: 50%;
+  float: left;
+  padding-top: 100px;
+}
+.log-in{
+  background: linear-gradient(#6B8EAC, #4A7598);
+  color: #F0F4F4;
+  display: inline-block;
+  padding: 8px;
+  border: 1px groove #3A6585;
+  border-radius: 5%;
+  float: right;
+  margin-top: 110px;
+  margin-right: 2%;
+  text-shadow: 1px 1px #43647C;
+}
+.log-in img, .log-in h3{
+  display: inline;
+  vertical-align: middle;
+
+}
+
+.log-in h3{
+  padding: 0 5px;
+}
+
+footer{
+  clear: both;
+  display: block;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+footer ul{
+  width: 50%;
+  list-style: none;
+  display: inline;
+  padding-left: 18%;
+  padding-right: 2%;
+}
+
+footer ul li{
+  display: inline;
+  padding-left: 2%;
+  color: #436C8B;
+  font-weight: bold;
+
+}
+
+footer p{
+  color: #B0B0B2;
+  display: inline;
+  font-weight: bold;
+}
