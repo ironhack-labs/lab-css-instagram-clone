@@ -7,4 +7,18 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-color: aqua;
+}
+.bgroundblue{
+  background-color: #1c5380;
+  height: 350px;
+}
+#login{
+  border: 3px solid #06365f;
+  background-color: #1c5380;
+  color: white;
+  font-size: 16px;
+  float: right;
+  margin-top: 30%;
+  margin-right: 15%; /*importante recordar para luego poner la section al mismo nivel*/
 }
