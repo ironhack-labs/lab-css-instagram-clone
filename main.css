@@ -13,7 +13,7 @@ body {
 .principal-content {
   display: flex;
   justify-content: center;
-  padding-top: 100px;
+  padding-top: 150px;
 }
 
 .secondary-content {
@@ -67,6 +67,7 @@ body {
 
 .text h1 {
   color: #06365f;
+  font-size: 1.5em;
 }
 
 .download-image {
