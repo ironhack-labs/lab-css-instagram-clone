@@ -7,4 +7,107 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: linear-gradient(#527A9D, transparent), url("../images/bgtile.png") no-repeat center; 
+  background-size: 100% 300px; 
+  box-shadow: 0px 10px 20px -5px rgba(0,0,0,.8);
+  background-repeat: no-repeat;
+  background-position: top;
+  padding: 100px;
+}
+
+.container{
+  display: inline;
+}
+
+.main{
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.container{
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+
+.h1-bar {
+  display: inline;
+  margin: 0px;
+}
+
+.info{
+  position: relative;
+}
+
+.text-info{
+  position: absolute;
+  top: 0px;
+  padding: 10px;
+}
+
+
+.text-info *{
+  margin: 0;
+  padding: 13px;
+}
+
+
+.text-info a{
+  margin: 0;
+  padding-left: 0px;
+}
+
+.house-link{
+  background: linear-gradient(#527A9D, transparent), url("../images/bgtile.png") no-repeat center; 
+  background-size: 100% 300px; 
+  box-shadow: 0px 10px 20px -5px rgba(0,0,0,.8);
+  background-repeat: no-repeat;
+  background-position: top;
+  border: 1px #06365f solid;
+  box-shadow: none;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  justify-content: space-evenly;
+  color: white;
+  text-decoration: none;
+  font-size: 13px;
+  width: 80px;
+  padding: 7px;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  color: lightgray;
+  font-weight: bold;
+}
+
+footer *{
+  display: inline;
+}
+
+
+footer li a{
+  text-decoration: none;
+  color: #06365f;
+  font-weight: bold;
+  padding: 10px;
+}
+
+h2{
+  color: #06365f;
+
 }
