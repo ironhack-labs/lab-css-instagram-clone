@@ -1,10 +1,84 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
-
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+.top-color-layer {
+   background: linear-gradient(#52799C, #1c5380);
+  height: 300px;
+}
+
+.main-container {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.img-device-container {
+  margin: -200px 0 0 200px;
+}
+
+.content {
+  width: 35%;
+  margin: -200px 300px 0 100px;
+  display:flex;
+  flex-direction: column;
+}
+
+.logo-login-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 0 10px 0;
+}
+
+.img-home {
+  padding: 0 10px 0 0;
+}
+
+.login-button {
+  display:flex;
+  justify-content: center; 
+  align-items: center;
+  border:solid black 1px;
+  border-radius: 5px;
+  background: linear-gradient(#52799C, #1c5380);
+  margin: 20px 20px 20px 0px;
+  width:100px;
+  color:white;
+}
+
+.presentation {
+  background-color: white;
+  color:#1c5380;
+  height: 100%;
+  padding: 0 30px 0 30px;
+  border-radius: 15px; 
+}
+
+.img-android {
+  padding: 0 0 0 30px;
+}
+
+nav {
+  display:flex;
+  justify-content: center; 
+  align-items: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 0 0 30px 0;
+}
+
+nav a {
+  padding: 0 15px 0 15px;
+  text-decoration: none;
+  color: #1c5380;
+  font-weight: bold;
+}
+
+nav p {
+  color:grey;
 }
