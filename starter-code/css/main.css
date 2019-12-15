@@ -3,8 +3,170 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+.footer-nav li {
+  list-style-type: none;
+}
+
+.footer .copyright {
+  text-align: center;
+  color: grey
+}
+
+@media(min-width:1300px) {
+  .header {
+    position: static;
+  }
+
+  header {
+    background: #1c5380;
+    height: 350px;
+  }
+
+  header>img {
+    position: absolute;
+    top: 15%;
+    left: 40%;
+  }
+
+  .login-button {
+    position: absolute;
+    width: 85px;
+    height: 32px;
+    padding-top: 10px;
+    top: 160px;
+    left: 980px;
+    border-style: solid;
+    border-width: inherit;
+    box-shadow: 0 1px 3px black;
+  }
+
+  .login-buttonlabel {
+    position: relative;
+    color: white;
+    bottom: 5px;
+  }
+
+  .header .phone-images {
+    position: absolute;
+    top: 12%;
+    left: 15%;
+  }
+
+  .instagram-description {
+    position: absolute;
+    color: #06365f;
+    background: white;
+    top: 25%;
+    left: 40%;
+    width: 25.0rem;
+    padding: 10px;
+    border-style: solid;
+    border-width: inherit;
+    box-shadow: 0 -2px 2px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer {
+    position: absolute;
+    bottom: 50px;
+    left: 650px;
+  }
+
+  .footer-nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  /* .footer .copyright {
+    position: absolute;
+    bottom: 50px;
+
+  } */
+
+}
+
+@media (min-width: 375px) and (max-width:600px) {
+  body {
+    font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header>div {
+    width: 100%;
+  }
+
+  .header input {
+    position: relative;
+    bottom: 50px;
+  }
+
+  header {
+    background: #1c5380;
+  }
+
+  header label {
+    display: none;
+  }
+
+  .login-button {
+    position: absolute;
+    left: 340px;
+  }
+
+  .instagram-description {
+    width: 22.0rem;
+    padding: 5px;
+    border-style: solid;
+    border-width: inherit;
+    box-shadow: 0 -7px 8px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  .download-links {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+  }
+
 }
