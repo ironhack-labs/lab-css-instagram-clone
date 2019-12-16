@@ -4,7 +4,101 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+html, body{
+  height: 100%
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;
+}
+
+.container{
+  width: 800px;
+  margin: auto;
+}
+
+.main{
+  padding-top: 100px;
+  display: flex;
+}
+
+.phones{
+  padding-right: 50px
+}
+
+.content-text{
+  background-image: url(../images/frame.png);
+  background-repeat: repeat-x;
+  border-radius: 10px 10px;
+  padding: 10px;
+  background-position: top;
+  background-size: contain;
+}
+
+.content-text-background{
+  padding: 10px 35px;
+  background: #fff;
+}
+
+.content-text h1{
+  color: #06365f
+}
+
+footer{
+  padding-top: 65px;
+}
+
+footer .container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer ul{
+  list-style-type: none;
+}
+
+footer ul li{
+  display: inline-block;
+  margin: 0px 5px;
+}
+
+footer li a{
+  color: #1c5380;
+  text-decoration: none;
+}
+
+footer span{
+  margin-left: 20px;
+  font-size: 14px;
+  color: #9d9d9d
+}
+
+.content-header{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+
+.button{
+  height: 50px;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  border: 0px;
+  background-color: #668bab;
+  color: white;
+  font-size: 14px;
+  padding: 0px 20px;
+}
+
+.button img{
+  margin-right: 10px;
+}
+
+.logo{
+  width: 250px;
 }
