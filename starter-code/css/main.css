@@ -5,6 +5,80 @@ light blue: #1c5380
 */
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 200 16px/1.5 Helvetica;
   margin: 0;
+  background: linear-gradient(to bottom,#1c5380 40%, white 0%);
 }
+.empty-box{
+  height: 150px;
+  width: 100%;
+  background-color: transparent;
+}
+h2{
+  color: #06365f;
+  font-size: 20px;
+}
+
+main{
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: flex-start;
+}
+
+.logo-box{
+
+                
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                justify-content: flex-start;
+                align-items: stretch; 
+              }
+
+.logo{
+  background-color: transparent;
+}
+.phones{
+  background-color: transparent;
+  align-items: left;
+}
+.log-in{
+  color: white;
+ border: 3px solid #06365f;
+  height:30px;
+background-color: transparent;
+position: relative;
+left: 10px;
+top: 20px;
+}
+.text-box { 
+    position: relative; 
+    width: 100%; 
+ }
+ 
+ .text { 
+    position: absolute; 
+    top: 10px; 
+    left: 30px; 
+    right: 30px;
+    width: 80%;
+ }
+ 
+footer{ 
+  color: #06365f;
+text-transform: uppercase;  
+width: 1000px;
+}
+ul{
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+  align-items: center;
+}
+.instagram-grey{
+  color: grey;
+}
+
