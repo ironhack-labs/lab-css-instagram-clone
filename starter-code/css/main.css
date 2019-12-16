@@ -3,8 +3,103 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+    font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 57%, rgba(28, 83, 128, 1) 57%);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    top: 50%;
+    left: 50%;
+    position: relative;
+    transform: translate(-50%, -50%);
+    width: 50vw;
+}
+
+.container .content {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.container .content .content-column {
+    max-width: 60%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+.container .content .content-column .logo-and-login {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.container .content .content-column .logo-and-login .log-in-button {
+    color: white;
+    font-weight: bold;
+    border: 1px solid #06365f;
+    padding: 7px 14px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    text-decoration: none;
+    background: rgb(28, 83, 128);
+    background: linear-gradient(0deg, rgba(28, 83, 128, 1) 31%, rgba(97, 160, 212, 1) 100%);
+}
+
+.container .content .content-column .logo-and-login .log-in-button img {
+    margin-right: 5px;
+}
+
+.container .content .image-column {
+    margin-right: 40px;
+    width: 318px;
+}
+
+.container .content .content-column article {
+    background: white;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: -1px -5px 1px 1px rgba(0, 0, 0, 0.29);
+}
+
+.container .content .content-column .app-store-links {
+    padding: 10px 20px 0px;
+}
+
+h1 {
+    color: #06365f;
+    font-size: 20px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 40px;
+    width: 100%;
+    text-align: center;
+}
+
+.footer a {
+    color: #1c5380;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0px 10px;
+}
+
+.footer span {
+    color: grey;
+    font-weight: bold;
 }
