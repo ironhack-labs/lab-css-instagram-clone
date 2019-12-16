@@ -1,0 +1,97 @@
+/*
+Colors to use:
+dark blue: #06365f
+light blue: #1c5380
+*/
+
+body {
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+ 
+} 
+.bg-color{
+  background-image: url(../images/bgtile.png);
+ 
+
+ height:  30vh;
+
+}
+.loginbtn{
+height: 100%;
+border-radius: 3px;
+background-image: url(../images/bgtile.png);
+border:#06365f solid 1px ;
+margin-left: 10px;
+
+}
+.container{
+  padding: 1%;
+ display: flex;
+ flex-direction: row;
+  margin: 0 auto;
+  width: 90%;
+
+}
+.bigpicturespace img {
+
+margin-right: 20px;
+
+} 
+.logoandbutton{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.whiteboxinfo{
+  
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 10px;
+  width: 50%;
+  padding: 10px;
+  margin: 20px;
+}
+.bigpicturespace{
+
+
+
+  float: left;
+  padding: 25px;
+  height: 80vh;
+}
+.storebuttons{
+  margin-left: 25px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+.infoglobalspace{
+
+
+  height: 80vh;
+  
+
+}
+.footclass li{
+list-style: none;
+}
+.footclass :last-child{
+  color:rgb(15, 15, 15) ;
+ 
+}
+.footclass{
+font-size: 13px;
+  display: flex;
+  flex-direction: row;
+
+
+color:#06365f ;
+  margin: 0 auto;
+  margin-top: 10px;
+  width:40%;
+  justify-content: space-around;
+font-weight: 900;
+
+
+}
