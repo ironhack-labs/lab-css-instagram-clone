@@ -1,10 +1,101 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
-
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url("../images/bgtile.png");
+  background-repeat: no-repeat;
+  background-size: 100% 275px;
+  background-position: top;
+}
+
+article {
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  padding: 40px;
+  margin-top: 15px;
+}
+
+article p {
+  margin: 15px 0;
+}
+
+main {
+  margin: 100px 100px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+h2 {
+  width: 300px;
+  color: #06365f;
+  font-weight: bold;
+  font-size: 1.7rem;
+  margin-bottom: 20px;
+}
+
+section {
+  width: 510px;
+}
+
+.description {
+  margin-bottom: 40px;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 50px 0;
+}
+
+li {
+  margin: 0 10px;
+  text-transform: uppercase;
+}
+
+li a {
+  text-decoration: none;
+  color: #1c5380;
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+
+button {
+  width: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #1c5380;
+  border-radius: 2px;
+  border: thin;
+  padding: 5px;
+}
+
+.log-in {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+button p {
+  color: white;
+  font-weight: bold;
+}
+
+span {
+  font-weight: bold;
+}
+
+.badge-iphone {
+  margin-right: 10px;
+}
+
+.badge-android {
+  margin-left: 10px;
+}
+
+.copy {
+  color: gray;
 }
