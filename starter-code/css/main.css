@@ -3,8 +3,83 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+html{
+  font-size: 16px;
+}
 
-body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+h1{
   margin: 0;
 }
+
+h2{
+  color: #06365f;
+  margin-top: 0;
+}
+
+.flex-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button{
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+  color: #fff;
+  padding: 0.5rem;
+  border: 1px solid #06365f;
+  width: 5rem;
+}
+
+body {
+  font: 200 1rem "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer{
+  flex-shrink: 0;
+  margin: 0 auto;
+  margin-top: 2rem;
+  width: 863px;
+  justify-content: center;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+}
+
+.container{
+  width: 863px;
+  margin: 0 auto;
+  padding-top: 5rem;
+  flex: 1 0 auto;
+}
+
+.content-container{
+  margin-left: 3rem
+}
+
+.content{
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  padding: 2rem;
+}
+
+.badges img{
+  margin-right: 1rem;
+}
+
+nav a{
+  text-decoration: none;
+  color: #1c5380;
+  font-weight: bold;
+  margin-right: 1rem;
+}
+
+
+
+
+
