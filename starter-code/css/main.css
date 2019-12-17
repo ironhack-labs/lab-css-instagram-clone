@@ -7,4 +7,61 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  height: 100vh;
+  background: linear-gradient(to bottom, rgba(6,53,95,1) 0%, rgba(28,83,128,1) 36%, rgba(255,255,255,1) 36%, rgba(255,255,255,1) 71%, rgba(255,255,255,1) 100%)  
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+}
+.container .iphone{
+  flex flex-basis: 40%;
+}
+.container .text{
+  flex-basis: 40%;
+  padding: 25px;
+}
+
+.home-button{
+  
+  
+}
+
+.home-log-in{
+  
+}
+
+.text-log-in{
+
+}
+
+.container-text{
+  position: relative;
+
+}
+
+.content-text{
+  position: absolute;
+
+}
+
+.badges{
+ 
+}
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+.footer-list li {
+
+  padding-top: 40px;
+}
+
+.footer li a{
+
 }
