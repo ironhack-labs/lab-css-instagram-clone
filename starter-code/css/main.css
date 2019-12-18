@@ -7,17 +7,20 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
-  height: 100vh;
-  background: linear-gradient(to bottom, rgba(6,53,95,1) 0%, rgba(28,83,128,1) 36%, rgba(255,255,255,1) 36%, rgba(255,255,255,1) 71%, rgba(255,255,255,1) 100%)  
+  height: 650px;
+  background: linear-gradient(to bottom, #1c5380, white)
 }
-.container{
+
+  .container {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 85vh;
+  height: 600px;
 }
 .container .iphone{
-  flex flex-basis: 40%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 25px;
 }
 .container .text{
   flex-basis: 40%;
@@ -25,43 +28,70 @@ body {
 }
 
 .home-button{
-  
+ padding-left: 10px;
+ padding-right: 10px;
+ padding-bottom: 5px;
+ padding-bottom: 5px;
+ color: white;
+ font-size: 16px;
+ font-weight: bold;
+ display: flexbox;
+ float: right;
+ margin: 20px;
   
 }
 
+.space {
+  height: 10px;;
+}
 .home-log-in{
+  padding-bottom: 5px;
+  padding-top: 5px;
+  padding-right: 9px;
+  padding-left: 9px;
   
 }
 
 .text-log-in{
+  margin: 5px;
 
 }
 
 .container-text{
+  margin-top: 50px;
   position: relative;
 
 }
 
 .content-text{
   position: absolute;
+  left: 30px;
+  right: 80px;
+  bottom: 10px;
+  top: 10px;
 
 }
 
 .badges{
- 
+  padding-top: 30px;
+  padding-left: 30px;
+
 }
 
 .footer{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  list-style: none;
+  color: white;
 }
-.footer-list li {
 
-  padding-top: 40px;
+.footer-list li {
+  padding right: 15px;
 }
 
 .footer li a{
-
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  color: #1c5380;
 }
