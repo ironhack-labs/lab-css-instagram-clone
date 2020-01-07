@@ -4,7 +4,83 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: linear-gradient(180deg, rgba(28,83,128,1) 0%, rgba(28,83,128,1) 26%, rgba(6,54,95,1) 40%, rgba(223,223,223,1) 40%, rgba(243,243,243,0) 64%, rgba(255,255,255,0) 100%);
 }
+
+.screen{
+  width: 80vw;
+  height: 94vh;
+  margin-left: auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.center {
+  align-items: center;
+}
+
+h2 {
+  color: #06365f;
+}
+
+.text {
+  padding: 0 2vw 2vw;
+  background: white;
+}
+
+.right_part {
+  width: 32vw;
+  flex-direction: column;
+  margin-left: 2vw;
+}
+
+.instagram_line {
+  justify-content: space-between;
+  align-items : center;
+  margin-bottom: 30px;
+  height: 70px;
+}
+
+.rounded {
+  border-radius : 5px
+}
+
+.instagram_line button {
+  width: 90px;
+  height: 35px;
+  background: linear-gradient(180deg, rgba(28,83,128,1) 0%, rgba(28,83,128,1) 70%, rgba(6,54,95,1) 100%);
+  border: 1px solid #06365f ;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold ;
+  justify-content: space-around;
+}
+
+.margin-right {
+  margin-right: 20px;
+}
+
+footer {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold ;
+  color: #06365f;
+  margin-bottom: 20px;
+}
+
+footer a{
+  font-size: 13px;
+  margin: 0 8px;
+  text-decoration: none;
+}
+
+footer a:last-child{
+  color: #dfdfdf
