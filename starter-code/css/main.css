@@ -24,7 +24,7 @@ header{
   
   color: white;
   border: 1px solid #06365f;
-  margin: 5px 0 0 60px;
+  margin: 5px 0 0 100px;
   padding: 5px 10px;
   font-weight: bold;
 
@@ -63,7 +63,7 @@ header{
 
 .info{
   float: left;
-  margin-left: 50px;
+  margin-left: 40px;
 }
 .info::after{
   clear: both;
@@ -72,7 +72,7 @@ header{
   position: relative;
   background-image: url('./../images/frame.png');
   background-repeat: no-repeat;
-  width: 400px;
+  width: 440px;
   top: 0;
   margin: 25px 0;
   padding: 30px;
@@ -103,7 +103,7 @@ footer li{
 footer #copy{
   color: grey;
 }
-#title{
+h3{
   color: #06365f;
   font-size: 1.4rem;
   margin: 0;
