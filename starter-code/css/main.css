@@ -8,3 +8,91 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+#div1 {
+  background-image: linear-gradient(#7A9BB7, #1c5380);
+  width: 100mw;
+  height: 350px;
+}
+
+#div2 {
+  background-color: white;
+  width: 100mw;
+  height: 450px
+}
+
+table {
+  position: absolute;
+  margin: 150px;
+  height: 650px;
+}
+
+#phones {
+  height: 650px;
+}
+
+#logoCell {
+  display: flex;
+  flex-direction: row;
+  padding: 20px 8px 2px 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#LogIn {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+  background-image: linear-gradient(#7A9BB7,#1c5380);
+  box-shadow: 1px 1px #06365f;
+  border-radius: 3%;
+  padding: 5px;
+  width: 100px;
+}
+
+#presentationCell {
+  background-image: url(./../images/frame.png);
+  background-repeat: no-repeat;
+  background-size: 550px 550px;
+  padding: 5px 30px 5px 50px;
+  height: 525px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: space-around;
+}
+
+h1 {
+  color: #06365f;
+}
+
+
+p {
+}
+
+#android {
+  margin-left: 20px;
+}
+
+footer {
+  text-transform: uppercase;
+  width: 100%;
+  color: #1c5380;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;;
+}
+
+ul {
+  width: 800px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+}
+
+#CR {
+  color: lightslategray;
+}
