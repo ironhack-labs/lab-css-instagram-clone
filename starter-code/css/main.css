@@ -1,10 +1,74 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
-
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  padding: 5rem;
+  background: rgb(28, 83, 128);
+  background: linear-gradient(180deg, rgba(28, 83, 128, 1) 35%, rgba(255, 255, 255, 1) 35%);
+  background-size: 1500px;
+  background-repeat: no-repeat;
+}
+
+#phones {
+  float: left;
+  margin-left: 160px;
+}
+
+#home {
+  border-radius: 2px;
+  background: rgba(28, 83, 128, .8);
+  padding: 5PX;
+  margin: 0px 0px 0px 220px;
+  width: fit-content;
+  box-shadow: 0 0 10PX;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+#text {
+  background-image: url('../images/frame.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 10px 50px;
+  text-align: justify;
+  width: 550px;
+}
+
+h1 {
+  color: #06365f;
+  width: 70%;
+  font-size: 2em
+}
+
+footer {
+  display: block;
+  margin-left: 210px;
+  padding: 40px;
+}
+
+li {
+  list-style: none;
+  display: inline;
+  color: #1c5380;
+  padding: 0 10px;
+}
+
+#copyRight {
+  color: grey;
+}
+
+section {
+  margin: 0 200px 0 530px;
+}
+
+#download {
+  margin-top: 40px;
+}
+
+#appleStore {
+  float: left;
+  margin-left: 10px;
+}
+
+#googleStore {
+  margin-left: 25px;
 }
