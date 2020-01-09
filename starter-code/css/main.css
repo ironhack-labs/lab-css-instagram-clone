@@ -4,7 +4,62 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+
 body {
+ 
+  background: rgb(28,83,128);
+  background: linear-gradient(180deg, rgba(28,83,128,1) 35%, rgba(6,54,95,1) 36%, rgba(255,255,255,1) 36%);
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+
+}
+.foto1 { 
+  padding: 100px; 
+  margin: 10px;  
+  float: left; 
+  width: 250px; 
+}
+.button {
+	background:#3809e4;
+	color:#fff;
+	display:inline-block;
+	font-size:1.25em;
+	margin:20px;
+	padding:10px 0;
+	text-align:center;
+	width:90px;
+	text-decoration:none;
+	box-shadow:0px 3px 0px #3809e4;
+}
+.contenedor{
+  background-image: url(https://github.com/isra-03/lab-css-instagram-clone/blob/master/starter-code/images/frame.png?raw=true);
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-align: justify;
+  width: 50%;
+  display: inline-block;
+}
+p{
+  width: 60%;
+  padding-left: 50px;
+}
+h1{
+  width: 50%;
+  padding-left: 50px;
+}
+li {
+  list-style: none;
+  display: inline;
+  box-sizing: border-box;
+  color: #1c5380;
+}
+.foto3{
+  float: left;
+  margin: 20px 20px 0px 80px;
+}
+.foto4{
+  margin: 20px 10px;
+}
+#pie{
+  color: dimgray;
 }
