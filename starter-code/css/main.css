@@ -7,4 +7,100 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  position: relative;
+}
+#fondo1{
+  width: 100vw;
+  height: 40vh;
+  background-image: url("../images/bgtile.png");
+  position: absolute;
+}
+#caja{
+  width: 37%;
+  background-image: url("../images/frame.png");
+  position: absolute;
+  margin-left: 37%;
+  margin-top: 11%;
+  background-size: cover;
+}
+#caja h1{
+  color: #244A6C;
+  padding-left: 10%;
+  padding-top: 4%;
+  font-size: 180%;  
+}
+#caja p{
+  padding-left: 10%;
+  padding-top: 0%;
+  font-size: 85%;
+}
+#phone{
+    width: 20%;
+    position: absolute;
+    padding-top: 5%;
+    padding-left: 13%;
+    
+}
+#brand{
+  width: 20%;
+  position: absolute;
+  padding-left: 37%;
+  padding-top: 5%;
+}
+#boton{
+  /*position: absolute;
+  /*color: #DBE4EA;
+  text-decoration: none;
+  padding: 0.5%;
+  border-radius: 6px;
+  border: 1px solid #0016b0;*/
+  
+
+  box-shadow: 0px 10px 14px -7px #276873;
+  background:linear-gradient(to bottom, #4C7497 5%, #4C7397 100%);
+  background-color:#599bb3;
+  border-radius:8px;
+  display:inline-block;
+  cursor:pointer;
+  color:#DFE7ED;
+  font-family:Arial;
+  font: size 8;px;
+  font-weight:bold;
+  padding:0.5%;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #3d768a;
+}
+#dboton{
+  width: 30%;
+  position: absolute;
+  padding-left: 68%;
+  padding-top: 6%;
+}
+
+#iphone{
+  width: 12%;
+  position: absolute;
+  padding-left: 40%;
+  padding-top: 33%;
+}
+#android{
+  width: 11%;
+  position: absolute;
+  padding-left: 53%;
+  padding-top: 33%;
+}
+#footer{
+  width: 70%;
+  height: 10px;
+  position: absolute;
+  padding-left: 18%;
+  padding-top: 38%;
+}
+#footer li{
+  display: inline-block;
+  padding: 1%;
+  color: #456D92;  
+}
+#footer li span{
+  color: grey;
 }
