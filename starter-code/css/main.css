@@ -7,4 +7,73 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  padding: 5rem;
+  
+  background: rgb(28,83,128);
+  background: linear-gradient(180deg, rgba(28,83,128,1) 35%, rgba(255,255,255,1) 35%);
+  background-repeat: no-repeat;
 }
+#telefonos{
+  float: left;
+}
+
+
+
+#home{
+  border-radius: 2px;
+  background: rgba(28,83,128,.8) ;
+  padding: 5PX;
+  width: fit-content;
+  box-shadow: 0 0 10PX;
+  float: right;
+  margin-top: 10px;
+}
+
+
+#mensaje{
+  background-image: url(https://github.com/AleOchoa/lab-css-instagram-clone/blob/master/starter-code/images/frame.png?raw=true);
+  background-repeat: no-repeat;
+background-size: contain;
+padding: 40px;
+text-align: justify;
+
+}
+
+h2{
+  color: #06365f;
+  width:70%;
+}
+
+footer{
+  display: block;
+  margin-left:150px;
+}
+
+li {
+  list-style: none;
+  display: inline;
+  color: #1c5380;
+  padding: 0 10px;
+}
+
+
+#marca{
+  color: grey;
+}
+
+section{
+  margin: 0 200px 0 400px;
+}
+
+#logosDescarga{
+  margin-top: 40px;
+}
+#apple{
+  float:left;
+  margin-left: 10px;
+}
+#google{
+  
+  margin-left: 25px;
+}
+
