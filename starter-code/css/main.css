@@ -3,8 +3,89 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
+* {
+  margin: 0;
+}
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+}
+
+.container {
+  position: relative;
+}
+
+#f-azul{
+  background-color: #4F769A;
+  width: 100%;
+  height: 130%;
+  position: absolute;
+}
+.linea {
+  transform: rotate(180deg);
+}
+
+#phone {
+  position: absolute;
+  left: 11%;
+  top: 150px;
+}
+.nav-insta {
+  position: absolute;
+  left: 34%;
+  top: 50%;
+}
+.nav-homelogo{
+  position: absolute;
+  left: 60%;
+  top: 55%;
+}
+.nav-homelogo button{
+  border-style: none;
+  box-shadow: 2px 2px 10px -4px rgba(0,0,0,0.75);
+  background-color: rgb(118, 151, 182);
+  color: white;
+  padding: 5px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 15%;
+}
+
+#content {
+  background-image: url('../images/frame.png');
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  width: 34%;
+  height: 234%;
+  left: 34%;
+  top: 88%;
+}
+#content h1{
+  padding: 7% 33% 7% 7%;
+  color: #1F4267;
+}
+#content p{
+  padding: 0% 8% 7% 7%;
+}
+#content li {
+  display: inline;
+}
+footer{
+  position: absolute;
+  top: 276%;
+  left: 21%;
+  width: 50%;
+  font-weight: 900;
+}
+footer li {
+  display: inline;
+  padding-left: 25px;
+  color: #4F769A;
+}
+
+footer li span {
+color: grey;
 }
