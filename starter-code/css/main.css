@@ -7,4 +7,97 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  position: relative;
 }
+
+/* Background boxes*/
+
+
+#main {
+  background-image: url("../images/bgtile.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 250px;
+  position: absolute;
+}
+
+
+/* Right box */
+#right-box{
+  width: 60%;
+  float: right;
+  margin-top: 100px;
+}
+
+#info-box {
+  background-image: url("../images/frame.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 80%;
+  height: 15rem;
+
+}
+
+#top-buttons {
+  display: inline-flex;
+  margin-top: 20px;
+  width: 80%;
+}
+
+
+#brand {
+ width: 60%;
+ padding: 15px 10px 5px 5px;
+}
+
+#login-button {
+  background-image: url("../images/bgtile.png");
+  border:  solid #06365f  1px;
+  width: 80px;
+  height: 30px;
+  padding: 5px;
+  
+}
+span{
+  font-weight: bold;
+  color: white;
+ 
+  font-size: smaller;
+}
+#login-button img {
+  padding-top: 3px;
+}
+
+#tittle-box {
+  color: #06365f;
+}
+
+
+
+
+/* Footer */
+footer {
+  
+  display: inline;
+
+}
+
+footer  ul{
+  list-style: none;
+  color: #1c5380;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+footer li {
+  display: inline;
+  padding: 1rem;
+}
+
+#copyright {
+  color: rgb(163, 162, 162);
+}
+
+
