@@ -4,7 +4,99 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
-body {
+body{
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+header{
+  background-image: url(../images/bgtile.png);
+  background-size: contain;
+  background-repeat: repeat;
+  height: 250px;
+}
+
+.top-img{
+position: relative;
+margin: 0;
+left: 655px;
+top:90px;
+margin: 0em;
+display: inline-block;
+}
+.logo-brand{
+  position: relative;
+  display: inline-block;
+  margin: 0;
+  
+}
+.btm{
+  display: inline-block;
+  background-color:#1c5380;
+  position: relative;
+  bottom: 30px;
+  padding: 10px 10px 0 10px;
+  margin: 0 0 0 105px;
+ 
+}
+.btm-txt{
+  color: whitesmoke;
+  position: relative;
+  bottom: 5px;
+  margin: 0;
+}
+
+.section{
+height: 350px;
+background-color: #f5f7f9;
+
+}
+.resume{
+  background-image: url(../images/frame.png);
+  background-size: 536px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 500px;
+  height: 300px;
+  position: absolute;
+  left: 650px;
+  top: 13vw;
+  padding: 18px;
+}
+.resume h2{
+  margin-left: 35px;
+}
+.resume p{
+  margin-left: 35px;
+  width: 430px;
+}
+h2{
+  color: #06365f;
+}
+.imgphones{
+  position: absolute;
+    left: 15vw;
+    top: 5vw;
+}
+.iphone-logo{
+  margin-left: 35px;
+  margin-right: 25px;
+  position: relative;
+}
+footer{
+  background-color: #f5f7f9;
+  padding-bottom: 10px;
+  margin: 0;
+}
+footer a{
+  color: #06365f;
+  text-decoration: none;
+  margin:0 8px 0 8px;
+  font-size: 0.9em;
+}
+footer section{
+margin-left: 330px;
+}
+footer span{
+  color: gray;
+  font-size: .9em;
 }
