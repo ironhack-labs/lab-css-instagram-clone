@@ -7,4 +7,93 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  width: 100vw;
 }
+
+#main-div {
+  background-image: url(../images/bgtile.png);
+  height: 280px;
+  position: relative;
+}
+
+#phones {
+  position: absolute;
+  left: 230px;
+  top: 100px
+}
+
+#brand {
+  position: absolute;
+  left: 630px;
+  top: 120px;
+}
+
+#brand button {
+  position: absolute;
+  left: 380px;
+  top: 25px;
+  color: white;
+  border-color: rgb(88, 88, 88);
+  font-size: medium;
+  background-color: rgb(59, 103, 144);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-color: none;
+  border-radius: 0.2em;
+}
+
+#brand button > img {
+  padding-right: 10px;
+}
+
+.info-background {
+  position: absolute;
+  top: 220px;
+  left: 630px;
+}
+
+.info-text {
+  position: absolute;
+  top: 220px;
+  left: 670px;
+  width: 400px;
+}
+
+.info-text h2 {
+  width: 250px;
+  color: rgb(59, 103, 144);
+}
+
+.info-text button {
+  background: none;
+  border: none;
+}
+
+#nav {
+  position: absolute;
+  top: 660px;
+  margin-bottom: 50px;
+  padding-left: 310px;
+  color: rgb(59, 103, 144)
+}
+
+.navbar li {
+  display: inline;
+  padding-left: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.8em;
+}
+
+.navbar li a {
+  text-decoration: none;
+}
+
+.navbar li a:link, a:visited, a:hover, a:active {
+  color: rgb(59, 103, 144);
+} 
+
+.copyright {
+  color: gray;
+}
+
