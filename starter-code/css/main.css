@@ -4,7 +4,115 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+.back-blue{
+  background: rgb(28,83,128);
+  position: absolute;
+  height: 280px;
+  width: 100vw;
+
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+.contenedor{
+   position: relative;
+}
+
+.brand{
+  position: absolute;
+  left: 600px;
+  top: 125px;
+}
+
+.button1{
+  background-color: blue
+  position: absolute;
+  height: 50px;
+  width: 110px;
+  left: 990px;
+  top: 130px;
+}
+
+.button2{
+  position: absolute;
+  left: 1040px;
+  top: 126px;
+  color: white;
+  font-weight: normal;
+  
+}
+
+.buttonimg{
+  position: absolute;
+  left: 1000px;
+  top: 140px;
+}
+
+
+.degradado{
+  position: absolute;
+  left: 600px;
+  top: 200px;
+}
+
+.title-blue{
+  position: absolute;
+  left: 640px;
+  top: 211px;
+  width: 250px;
+  font-size: 12px;
+  color: #06365f;
+}
+
+.phones{
+  position: absolute;
+  left: 260px;
+  top: 110px;
+
+}
+
+.texto{
+  position: absolute;
+  width: 430px;
+  left: 640px;
+  top: 298px;
+  font-weight: normal;
+}
+
+.dowload{
+  position: absolute;
+  left: 638px;
+  top: 540px;
+}
+
+.list{
+  position: absolute;
+  color: #1c5380;
+  top: 630px;
+  left: 350px;
+  font-weight: bold;
+  font-size: 12px;
+}
+  
+
+.copy{
+  position: absolute;
+  color: gray;
+  top: 650px;
+  left: 820px;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.lista{
+  list-style: none;
+  display: inline-block;
+}
+
+.lista li{
+  display: inline-block;
+  padding: 7px;
 }
