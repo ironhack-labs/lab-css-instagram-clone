@@ -1,10 +1,82 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
-
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+.fondo-top {
+  height: 230px;
+  width: 100%;
+  background-color: #1c5380;
+  position: absolute;
+}
+
+.phone-img {
+  position: absolute;
+  margin: 70px 200px;
+}
+
+.insta-logo {
+  position: absolute;
+  margin: 70px 550px 0;
+}
+
+.logear{
+  position: absolute;
+  margin: 70px 550px 0;
+
+}
+button{
+  background-color: #1c5380;  
+  text-align: center;
+  align-content: center;
+}
+
+
+.informacion {
+  background-image: url("../images/frame.png");
+  position: absolute;
+  margin: 170px 550px;
+  width: 500px;
+  height: 300px;
+
+}
+
+.img-ios-android {
+  position: absolute;
+  margin: 510px 600px 0;
+  width: 325px;
+}
+
+
+
+ul {
+  text-align: center;
+  color: #06365f;
+}
+
+li {
+  display: inline;
+  list-style: none;
+  padding-left: 20px;
+}
+
+h3 {
+  padding-left: 20px;
+  color: #06365f;
+}
+
+p {
+  padding-left: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#gray-color-instagram {
+  color: gray
+}
+
+.footer {
+  position: absolute;
+  margin-top: 610px;
+  width: 100%;
+  height: 30px;
 }
