@@ -6,5 +6,104 @@ light blue: #1c5380
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  margin:0;
+  padding: 0;
 }
+
+h2{
+  color:#06365f
+}
+
+.negrita{
+  font-weight: 500;
+}
+
+.parteazul{
+  margin:0px;
+  width:100%;
+  height:250px;
+  background-image: url(https://github.com/alejandraavaez/lab-css-instagram-clone/blob/master/starter-code/images/bgtile.png?raw=true);
+  background-repeat: repeat-x;
+}
+
+.iphone{
+  margin-top:100px;
+  margin-left:250px;
+  float: left;
+}
+
+.columnatext{
+  width:40%;
+  margin-top: 100px;
+  margin-left:100px;
+  margin-right:150px ;
+  float:left;
+  padding:5px;
+}
+
+.texto{
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100% ;
+  margin-top:0px;
+  padding: 20px;
+  /* padding:10px; */
+  /* background-color:red; */
+}
+
+#home{
+  float:left;
+  color:white;
+}
+
+.login{
+  color:white;
+  float: right;
+  margin:0;
+}
+
+.butonhome{
+  float: right;
+  width:70px;
+  /* background-color:#1c5380; */
+  height:25px;
+  border-style: 2px solid #1c5380;
+  background-color: rgb(115,139,169);
+  border-width: 30px;
+  margin-top:25px;
+  padding-left: 5px;
+  padding-top: 3px;
+  padding-right: 5px;
+  border-radius: 2px;
+  margin-left: 100px;
+  right:10px;
+}
+
+.tiendas{
+  padding:20px;
+  margin: 30px;
+  margin-top: 0px;
+  align-content: center;
+}
+footer{
+  display: inline-block;
+  margin-top:50px;
+  margin-left:-300px;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  color: #1c5380; 
+  padding: 20px;
+  font-weight:400;
+}
+
+.footerp{
+  display: inline-block;
+  margin-right:50px;
+  margin-left:750px;
+  margin-top: 0px;
+}
+
+
