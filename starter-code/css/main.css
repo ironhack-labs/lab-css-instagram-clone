@@ -16,12 +16,13 @@ body {
 #home {
   border-radius: 2px;
   background: rgba(28, 83, 128, .8);
-  padding: 5PX;
-  margin: 0px 0px 0px 220px;
+  padding: 10PX;
+  margin: 20px 0px 0px 220px;
   width: fit-content;
   box-shadow: 0 0 10PX;
   display: inline-block;
-  margin-top: 10px;
+  position: absolute;
+
 }
 
 #text {
