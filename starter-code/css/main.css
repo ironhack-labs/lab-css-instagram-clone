@@ -4,7 +4,86 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+.main-div{
+  position: relative;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+header {
+  position: absolute;
+  z-index: -1;
+  height: 280px;
+  width: 100vw;
+  background-image: url(../images/bgtile.png);
+}
+
+.align-center{
+  width: 32vw;
+  vertical-align: middle;
+}
+
+h4 {
+  padding: 2%;
+  margin: 0;
+  font-size: 1.9rem;
+  color: #06365f;
+}
+
+li {
+  display: inline;
+  padding-right: .5rem;
+}
+
+footer{
+  margin-left: 19rem; /*Centrando el footer*/
+  font-weight: bold;
+  color: #1c5380;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+}
+
+button{
+  margin: 10%, 0%, 0%, 10%;
+  width: 20%;
+  float: right;
+  background-color: #1c5380;
+  border: #06365f;
+  vertical-align: middle;
+  color: #B2B2B2;
+}
+
+#home{
+  padding-right: 10%;
+  vertical-align: middle;
+}
+
+section{
+  margin-top: 3%;
+  width: 60%;
+}
+
+#phone-img{
+  padding: 10% 0% 0% 16%;
+}
+
+.app-img{
+  padding: 1%;
+}
+
+#maintext-div{
+    padding: 10% 0% 0% 5%;
+    position: absolute;
+    display: inline;
+    background-image: url(../images/frame.png);
+    background-repeat: no-repeat;
+    background-position-x: 2.5vw;
+    background-position-y: 30vh;
+}
+
+#instagram-C{
+  color: grey;
 }
