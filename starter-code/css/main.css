@@ -7,4 +7,117 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url('../images/bgtile.png');
+  background-repeat: repeat-x;
+}
+
+#head {
+  height: 200px;
+  padding-top: 100px;
+  padding-left: 480px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+#head img {
+  margin-left: 50px;
+}
+
+#log-button {
+  display: inline-block;
+  height: 45px;
+  width: 100px;
+  background-image: linear-gradient(#6b8da7, #30638a, #1c5580);
+  position: absolute;
+  margin-left: 75px;
+  margin-top: 20px;
+  border-radius: 3px;
+}
+
+#log-button img {
+  position: absolute;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+#log-button p {
+  display: inline-block;
+  color: white;
+  position: absolute;
+  margin: 10px 0 0 45px;
+}
+
+#phones {
+  position: absolute;
+  margin-left: 150px;
+  margin-top: 100px;
+}
+
+#frame {
+  background-image: url('../images/frame.png');
+  background-repeat: no-repeat;
+  width: 500px;
+  height: 300px;
+  margin-left: 525px;
+  position: relative;
+}
+
+h2 {
+  color: #06365f;
+  position: absolute;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+#frame p {
+  font-size: 15px;
+  position: absolute;
+  margin-left: 30px;
+  margin-top: 125px;
+  width: 400px;
+}
+
+#store {
+  position: absolute;
+  margin-left: 30px;
+  margin-top: 355px;
+}
+
+#store img {
+  margin-right: 10px;
+}
+
+footer {
+  position: absolute;
+  margin-top: 150px;
+  width: 100%;
+  align-content: center;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  text-transform: uppercase;
+  color: #1c5380;
+  font-weight: 500;
+  font-size: 12px;
+  padding: 10px;
+}
+
+ul {
+  display: inline-block;
+  margin-left: 20%;
+}
+
+footer p {
+  display: inline-block;
+  font-weight: 500;
+  color: gray;
+  text-transform: uppercase;
+  font-size: 12px;
+  padding: 10px;
 }
