@@ -5,6 +5,142 @@ light blue: #1c5380
 */
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+    font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+    background-image:-webkit-gradient(linear, 0 0, 0 100%, from( #98c1e4), to( #06365f));
+    background-image:-webkit-linear-gradient(#98c1e4, #06365f);
+    background-image:-moz-linear-gradient(#98c1e4, #06365f);
+    background-image:-o-linear-gradient(#98c1e4, #06365f);
+    background-image:linear-gradient(#98c1e4, #06365f);
+    background-size: 100% 50vh;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+section {
+    width:80%;
+    margin: auto;
+    height:90vh;
+    background-position: center ;    
+    display: flex;
+    padding:30px;
+    color: white;
+}
+section div.two-columns {
+    height: 80vh;
+    flex: 1;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+section div.two-columns.small-column {
+    height: 80vh;
+    flex: 1;
+    background-image: url(../images/phones.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center;
+} 
+
+section div.two-columns .first-line {
+    display: flex;
+    flex-direction: row;
+}
+
+section div.two-columns .first-line div {
+    flex:1;
+}
+
+section div.two-columns .first-line div button {
+    font-family: Arial,sans-serif;
+    font-size: 14px;
+    width: 130px;
+    height: 43px;
+    text-align: center;
+    background: #444;
+    background: -webkit-linear-gradient(#1c5380, #06365f);
+    background: -moz-linear-gradient(#1c5380, #06365f);
+    background: -ms-linear-gradient(#1c5380, #06365f);
+    background: -o-linear-gradient(#1c5380, #06365f);
+    background: linear-gradient(#1c5380, #06365f);
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5), 0 -1px 0 rgba(255,255,255,0.4);
+    color: white;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+section div.two-columns .first-line div button:before {
+    content: "";
+    background-image: url(../images/home.png);
+    background-repeat: no-repeat;
+    background-size:contain; 
+}
+
+
+section div.two-columns .second-line {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    color:black;
+    height:337px;
+    filter: drop-shadow(0 0 0.55rem black);
+    padding: 35px
+}
+
+section div.two-columns .second-line > div {
+    flex:1;    
+}
+
+section div.two-columns .second-line .t2 {
+    flex:1; 
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+section div.two-columns .second-line .t2 span{
+    font-weight: bold;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+section div.two-columns .second-line .t3 {
+    font-size: 15px;
+    flex:1; 
+    margin-bottom: 20px;
+}
+
+section div.two-columns .second-line .t4 {
+    flex:1; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+section div.two-columns .second-line .t4 div {
+    flex: 1;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:50%;
+    color:#333;
+    font-size: 11px;
+    margin: auto;
+    font-family: arial;
+    margin-bottom: 80px;
+}
+
+footer a {
+    flex: 1;
 }
