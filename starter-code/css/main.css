@@ -4,7 +4,140 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
-body {
+/*
+h1{
+  color: #06365f;
+  font-size: 2em;
+  width: 330px;
+}
+
+span{
+  font-weight: bold;
+}
+
+article button{
+  margin-top: 30px;
+}
+
+*/
+
+/* GENERAL */
+body{
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  padding: 120px 180px 50px;
+  background-image: url(/starter-code/images/bgtile.png);
+  background-repeat: repeat-x;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
+
+/* GRID */
+section{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  grid-template-areas:
+    "phones" "main-block";
+  grid-column-gap: 50px;
+}
+
+/* PHONES */
+.phones{
+  grid-area: "phones";
+}
+
+/* MAIN-BLOCK */
+.main-block{
+  grid-area: "main-block";
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* HEADER */
+header{
+  padding: 20px 0;
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header button{
+  background: linear-gradient(0deg, #416a8c 0%, #7f9fba 100%);
+  border: 1px solid #1c5380;
+  border-radius: 4px;
+  width: 110px;
+  padding: 10px 05px 10px 0;
+  color: white;
+  font-size: 1em;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/* ARTICLE */
+article{
+  width: 500px;
+  box-sizing: border-box;
+  padding: 25px 35px 0;
+  background: white;
+  border-radius: 6px;
+  font-weight: normal;
+}
+
+article div{
+  margin-bottom: 40px;
+}
+
+article div h1{
+  font-size: 1.8em;
+  color: #06365f;
+  width: 300px;
+  margin: 0;
+  line-height: normal;
+}
+
+article div p{
+  margin: 10px 0;
+}
+
+article div span{
+  font-weight: bold;
+}
+
+article button{
+  background: none;
+  border: none;
+  padding: 0;
+  margin-right: 15px;
+}
+
+/* FOOTER */
+footer{
+  margin-top: 50px;
+}
+
+footer ul{
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+footer ul>li{
+  padding: 0 10px;
+  font-weight: bold;
+  color: silver
+}
+
+footer ul>li>a{
+  text-decoration: none;
+  color: #1c5380;
+}
+
