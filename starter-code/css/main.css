@@ -86,7 +86,8 @@ article{
   width: 500px;
   box-sizing: border-box;
   padding: 25px 35px 0;
-  background: white;
+  background-image: url(/starter-code/images/frame.png);
+  background-repeat: no-repeat;
   border-radius: 6px;
   font-weight: normal;
 }
