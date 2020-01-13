@@ -7,4 +7,107 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url(../images/bgtile.png);
+  background-size: 320px 320px;
+  background-repeat: repeat-x;
+
+
+/*
+background: linear-gradient(180deg, #FFC0CB 50%, #00FFFF 50%);
+*/
+
+}
+
+main{
+  margin-top: 140px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+
+section{
+
+  width: 500px;
+}
+
+.button-log-in{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 10px;
+  border: 1px solid #335e85;
+  background: rgb(109,145,175);
+  background: linear-gradient(180deg, rgba(109,145,175,1) 20%, rgba(73,117,154,1) 100%);
+  
+}
+
+h2{
+
+  color: #06365f;
+  width: 50%;
+  padding-top: 15px;
+}
+
+.logos{
+
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  color:white;
+  margin-right: 8px;
+  
+
+}
+
+.degraded{
+  background-image: url(../images/frame.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding-left: 15px;
+  
+}
+
+
+footer{
+
+  margin: 50px 0px;
+  color:#1c5380;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+li{
+  
+  list-style-type: none ;
+  margin: 0px 15px;
+  text-decoration: none;
+  
+}
+
+ul{
+  
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  text-decoration: none;
+  
+}
+
+.grey{
+
+  color:gray;
+}
+
+footer a{
+
+  text-decoration: none;
+  color:#1c5380;
+  font-weight: bold;
+  
 }
