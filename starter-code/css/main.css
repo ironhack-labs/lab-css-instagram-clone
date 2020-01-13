@@ -80,7 +80,6 @@ background: -o-linear-gradient(top, rgba(76,118,155,1) 0%, rgba(76,118,155,1) 0%
 background: -ms-linear-gradient(top, rgba(76,118,155,1) 0%, rgba(76,118,155,1) 0%, rgba(70,110,146,1) 99%);
 background: linear-gradient(to bottom, rgba(76,118,155,1) 0%, rgba(76,118,155,1) 0%, rgba(70,110,146,1) 99%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c769b', endColorstr='#466e92', GradientType=0 );
-Copy text
 }
 
 .home-button a{
