@@ -51,7 +51,7 @@ section header a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 10px;
+  padding: 10px;
   border: 2px solid #315d84;
   border-radius: 5px;
   color: #f0f2f4;
