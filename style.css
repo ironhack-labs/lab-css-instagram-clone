@@ -1,0 +1,50 @@
+body {
+    font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+  }
+
+.main {
+    background-image: url("./starter-code/images/bgtile.png") ;
+    background-repeat: repeat;
+}
+
+button {
+    color: white;
+    background-color: #06365f;
+    background: linear-gradient(to top, #06365f, #1c5380);
+    border: none;
+    box-shadow: black;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    margin-left: 75px;
+}
+
+.info {
+    background-image: url(../lab-css-instagram-clone/starter-code/images/frame.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 110px;
+    display: flex;
+    flex-direction: column;
+    pa
+
+}
+
+.secondary {
+    display: flex;
+    flex-direction: row;
+    margin-top: -175px;
+
+}
+
+.one {
+    display: flex;
+    flex-direction: space-between;
+
+}
