@@ -3,8 +3,94 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+*{
+  padding: 0;
+  margin: 0;
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
 }
+
+
+h1{
+  color: #06365f;
+}
+.div-box{
+    display: flex;
+    justify-content: center;
+    padding: 100px 0px ;
+}
+
+.div-log {
+  display: flex;
+  justify-content:space-between ;
+  
+}
+
+.div-log-home{
+  border: 1px solid black;
+}
+.div-log-home a {
+  text-decoration: none;
+}
+
+.box-witdh a {
+  border: 1px solid black;
+  text-decoration: none;
+  color: aliceblue;
+  margin-top: 10px;
+  margin-bottom:  30px ;
+  padding: 5px 10px;
+  background: rgba(179,220,237,1);
+  background: -moz-linear-gradient(top, rgba(179,220,237,1) 0%, rgba(58,104,144,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(179,220,237,1)), color-stop(100%, rgba(58,104,144,1)));
+  background: -webkit-linear-gradient(top, rgba(179,220,237,1) 0%, rgba(58,104,144,1) 100%);
+  background: -o-linear-gradient(top, rgba(179,220,237,1) 0%, rgba(58,104,144,1) 100%);
+  background: -ms-linear-gradient(top, rgba(179,220,237,1) 0%, rgba(58,104,144,1) 100%);
+  background: linear-gradient(to bottom, rgba(179,220,237,1) 0%, rgba(58,104,144,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3dced', endColorstr='#3a6890', GradientType=0 );
+}
+
+.div-box section{
+  margin-left: 50px;
+}
+.box-witdh{
+  width: 500px;
+}
+
+.bg-frame {
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;;
+}
+
+.bg-frame h1 {
+  padding: 50px 50px;
+}
+
+.bg-frame p {
+  padding: 5px 50px;
+}
+.div-flex-img img{
+  padding-left:30px ;
+  padding-top:30px ;
+}
+footer{
+  text-align: center;
+}
+
+footer a{
+  margin-left: 10px;
+  text-decoration: none;
+  color: #06365f;
+}
+
+.footer-grey {
+  color: grey;
+}
+
+
+
