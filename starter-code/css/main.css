@@ -7,4 +7,94 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  width: 100%;
+  padding: 5%;
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x
+}
+
+.section1 {
+  width: 90%;
+  margin: 25px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.phones {
+  width: 50%;
+}
+
+
+article {
+  width: 50%;
+  padding: 0 5%;
+  margin: 0 0;
+}
+
+
+.content {
+  margin: 5%;
+  padding: 5% 10%;
+  border-radius: 10px;
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+h2 {
+  color: #06365f;
+}
+
+
+
+a { 
+  text-decoration: none;
+  color: white;
+  font-weight: 200;
+  border: solid #325e85;
+  background-color: #1c5380;
+  height: 2em;
+  padding: 5px 10px; 
+  margin: auto;
+  background: linear-gradient(0deg, rgba(66,111,150,1) 0%, rgba(110,146,177,1) 35%);  
+}
+
+.login a{
+  padding: 10px; 
+}
+ 
+.content p {
+  margin:
+}
+
+
+nav {
+  width: 70%;
+}
+
+footer ul {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 10%;
+  font-weight: 600;
+}
+
+footer li {
+  list-style-type: none;
+  color: #6498c7;
+  text-transform: uppercase;
+}
+
+footer p{
+  font-weight: 200;
 }
