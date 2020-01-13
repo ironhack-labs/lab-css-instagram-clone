@@ -4,7 +4,182 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+
+
+/* starting below */
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;
+}
+
+#main-square {
+  display: flex;
+  align-items: center;
+  
+}
+
+#login-bar {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+
+}
+
+#login-bar div {
+  display: flex;
+  align-items: center;
+
+  margin-left: 75px;
+ 
+  padding-left: 10px;
+  padding-right: 10px;
+
+  border: 1px solid white;
+  border-radius: 3px;
+  height: 40px;
+
+  background-color: rgb(87, 133, 194);
+  
+}
+
+#login-bar div p a{
+  margin-left: 10px;
+
+  font-weight: bold;
+  text-decoration: none;
+
+  color: white;
+
+}
+
+#phone {
+  margin-left: 300px;
+  margin-bottom: px;
+}
+
+#next-to-phone {
+  margin-left: 50px;
+  margin-bottom: 60px;
+  margin-top: 60px;
+  padding-top: 50px;
+}
+
+#below-login-bar {
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+
+  margin-top: 20px;
+
+}
+
+#below-login-bar h1{
+  font-size: 29px;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  font-weight: bold;
+  color:rgb(20, 65, 124);
+
+}
+
+
+#below-login-bar {
+  padding-right: 400px;
+  padding-left: 35px;
+}
+
+em {
+  font-weight: bold;
+}
+
+#below-login-bar p{
+  margin-bottom: 10px;
+}
+
+#below-login-bar div {
+  margin-top: 40px;
+}
+
+#below-login-bar div img {
+  margin: 0 10px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  
+  margin-bottom: 30px;
+}
+
+footer ul {
+  display: flex;
+  color:rgb(37, 93, 167);
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+footer ul li {
+  padding-left: 20px;
+}
+
+footer div {
+  padding-left: 20px;
+  color: grey;
+  text-transform: uppercase;
+  
 }
