@@ -9,10 +9,6 @@ light blue: #1c5380
   padding: 0px;
 }
 
-/*img {
-  width: 100%;
-}*/
-
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 40px;
@@ -20,15 +16,18 @@ body {
   background-repeat: repeat-x;
 }
 
+main{
+  width: 100%;
+}
+
 h1{
  font-size: 2em;
 }
 
 article{
-  background-color: white;
-  background-image: url(../images/frame.png)  /*no-repeat center / cover*/;
+  background-image: url(../images/frame.png);
   background-repeat: no-repeat;
-  width: 70%;
+  width: 72%;
   margin: 20px;
   padding: 30px;
   border-radius: 5px;
@@ -48,10 +47,19 @@ a {
   text-decoration: none;
 }
 
+/*no sé como centrar el footer, por eso lo fuerzo con el margen*/
 footer{
-  margin: 20px;
   text-transform: uppercase;
   font-size: 0.8em;
+  width: 100%;
+  position:fixed;
+  margin: 0px 500px;
+}
+
+nav{
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .display-flex {
@@ -70,7 +78,6 @@ footer{
 }
 
 .login-button{
-  /*background-color: #1c5380;*/
   background: rgb(75,119,156);
   background: linear-gradient(0deg, rgba(75,119,156,1) 28%, rgba(107,143,175,1) 73%);
   width: 100px;
@@ -81,11 +88,12 @@ footer{
 }
 
 .main-section-b{
-  margin: 20px;
+  margin: 20px 40px;
   width: 36%;
 }
 
 .align-center {
+  height: 100%;
   align-items: center;
   justify-content: center;
 }
