@@ -51,16 +51,18 @@ section header a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 20px;
+  padding: 10px 10px;
   border: 2px solid #315d84;
   border-radius: 5px;
-  color: #fff;
+  color: #f0f2f4;
   font-weight: bold;
+  font-size: 1.1em;
   background: rgb(6,54,95);
   background: linear-gradient(180deg, #6f93b2 0%, #4a749a 100%);
 }
 section header a img {
   padding-right: 10px;
+  width: 30px;
 }
 section article {
   background: url('../images/frame.png');
