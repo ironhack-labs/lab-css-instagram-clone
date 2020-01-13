@@ -59,6 +59,7 @@ section header a {
   font-size: 1.1em;
   background: rgb(6,54,95);
   background: linear-gradient(180deg, #6f93b2 0%, #4a749a 100%);
+  cursor: pointer;
 }
 section header a img {
   padding-right: 10px;
