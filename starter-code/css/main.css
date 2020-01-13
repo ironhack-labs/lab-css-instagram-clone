@@ -7,4 +7,91 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;
+}
+
+a{
+  text-decoration: none;
+}
+
+h2{
+  color: #06365f;
+}
+
+.main-section{
+  display: flex;
+  justify-content: space-evenly;
+
+  padding-top: 120px;
+}
+
+.phone-image{
+  padding-right: 40px;
+}
+
+.main-block article{
+  width: 20%;
+}
+
+.white-background{
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  width: 70%;
+  padding: 35px;
+  height: 100;
+}
+
+.main-block header{
+  display: flex;
+  justify-content: space-between;
+  margin-right: 110px;
+}
+
+article header div{
+  padding: 5px ;
+  background-color: #1c5380;
+}
+
+ul{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 50px 70px;
+  list-style: none;
+}
+
+ul a{
+  color:#1c5380 ;
+  font-weight: 550;
+  text-transform: uppercase;
+}
+
+.home-button{
+  border-style: solid;
+  border-radius: 8px;
+  border-width: 1px;
+ 
+  background: rgba(76,118,155,1);
+background: -moz-linear-gradient(top, rgba(76,118,155,1) 0%, rgba(76,118,155,1) 0%, rgba(70,110,146,1) 99%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(76,118,155,1)), color-stop(0%, rgba(76,118,155,1)), color-stop(99%, rgba(70,110,146,1)));
+background: -webkit-linear-gradient(top, rgba(76,118,155,1) 0%, rgba(76,118,155,1) 0%, rgba(70,110,146,1) 99%);
+background: -o-linear-gradient(top, rgba(76,118,155,1) 0%, rgba(76,118,155,1) 0%, rgba(70,110,146,1) 99%);
+background: -ms-linear-gradient(top, rgba(76,118,155,1) 0%, rgba(76,118,155,1) 0%, rgba(70,110,146,1) 99%);
+background: linear-gradient(to bottom, rgba(76,118,155,1) 0%, rgba(76,118,155,1) 0%, rgba(70,110,146,1) 99%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c769b', endColorstr='#466e92', GradientType=0 );
+Copy text
+}
+
+.home-button a{
+  color:white;
+  font-weight: 900;
+}
+
+#instagram{
+  width: 50%;
+}
+
+#copy{
+  color: grey;
 }
