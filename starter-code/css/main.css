@@ -7,4 +7,82 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;
+}
+h2{
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #06365f;
+}
+.box-complete{
+  display: flex;
+  flex-direction: column;
+}
+#float {
+  float: left;
+  flex-direction: column;
+  width: 80%;
+  margin: 100px;
+  margin-bottom: 50px;
+}
+
+.left{
+  width:30%;
+  float:left;
+}
+
+.right{
+  width: 50%;
+  float:right;
+  display: flex;
+  flex-direction: column;
+}
+.logo_button{
+  display: flex;
+  align-items: center;
+}
+
+.logo_button button{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #1c5380;
+  border-color: #06365f;
+  color: white;
+  border: 1px;
+  border-radius: 5px;
+  width: 100px;
+  height: 30px;
+  margin-left: 15px;
+  font-size: 15px;
+}
+
+.white-box{
+  background-color: white;
+  box-shadow: 5px rgba(0, 0, 0, .3);
+  border-radius: 15px;
+  padding: 15px;
+}
+p{
+  margin: 15px 0px;
+}
+.image-logo{
+  width: 60%;
+}
+footer{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.footer-menu{
+  width: 600px;
+  text-transform: uppercase;
+  color: #1c5380;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-around;
+}
+.white-box p span{
+  font-weight: bold;
 }
