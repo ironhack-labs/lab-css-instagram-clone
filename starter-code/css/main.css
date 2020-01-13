@@ -4,7 +4,93 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
-body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+* {
+  padding: 0;
   margin: 0;
 }
+
+body {
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding: 100px;
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;
+}
+
+.header-flex{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+ figure {
+  width: 30%;
+ }
+
+ .main{ 
+  width: 50%;
+
+ }
+
+ .main header{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 20px 0;
+   background-image: url(../images/bgtile.png);
+
+ }
+
+article {
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 50px 60px;
+}
+
+ .main footer{
+   display: flex;
+   justify-content: flex-start;
+ }
+
+ .main footer div{
+   margin: 20px;
+ }
+
+ h2{
+  color:#06365f;
+  font-size: 2em;
+  line-height: 1em;
+  margin-bottom: 20px;
+ }
+
+ .footer-nav {
+   display: flex;
+   justify-content: center;
+   margin-top: 50px;
+ }
+
+ .footer-nav a{
+  text-decoration:none;
+  margin: 0 10px;
+  color: #1c5380;
+  font-weight: 400;
+ }
+
+ .boton{
+   border: 0.5px solid #06365f;
+   border-radius: 8%;
+   background-color: #5689b3;
+   margin: 20px;
+   padding: 12px;
+   background: linear-gradient(to bottom, #84a5c0, #5689b3);
+ }
+
+ .boton a{
+  color: white;
+  text-decoration:none;
+  text-align: center;
+  padding: 0 5px;
+ }
+
+ article p{
+   margin: 10px 0;
+ }
