@@ -8,3 +8,146 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+#container{
+  display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+  background-image: url("../images/bgtile.png");
+  background-repeat:repeat-x;
+  width: 100%;
+  height: 100%;
+}
+
+#main{
+  display: flex;
+  /* background-color: aqua; */
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+  align-content: center;
+  max-width: 1000px;
+  margin: auto;
+  /* margin-top: 100px; */
+  padding: 100px;
+  z-index: 10;
+}
+
+#main-center{
+  display: flex;
+  /* background-color: orange; */
+  flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+  align-content: center;
+  max-width: 1000px;
+}
+
+.phones{
+  display: flex;
+  justify-content: flex-start;
+  /* background-color: yellow; */
+  height: 512px;
+  width: 318px;
+  z-index: 12;
+  background-image: url("../images/phones.png");
+  background-repeat: no-repeat;
+}
+
+.right-content{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: flex-end; */
+  /* background-color: red; */
+  height: 512px;
+  width: 500px;
+  z-index: 13;
+  margin: 30px;
+}
+
+#footer{
+  display: flex;
+  /* background-color: white; */
+  text-transform: uppercase;
+  color: #1c5380;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+#footer > ul{
+    display: flex;
+    align-items: stretch;
+}
+
+#footer > ul > li{
+  margin: 5px;
+}
+
+.pics{
+  display: flex;
+  flex-direction: row;
+  /* background-color: orchid; */
+  height: 100px;
+}
+
+.logo{
+  display: flex;
+  justify-content: flex-start;
+  background-image: url("../images/brand.png");
+  background-repeat: no-repeat;
+  width: 500px;
+  height: 78px;
+}
+
+.login{
+  display: flex;
+  justify-content: center;
+	align-items: center;
+	align-content: center;
+  /* background-image: url("../images/bgtile.png"); */
+  border: none;
+  background-image: linear-gradient(#6D91AF, #4A759A);
+  background-repeat: no-repeat; 
+  width: 100px;
+  height: 35px;
+  margin-top: 20px;
+  z-index: 20;
+}
+
+.buttontext{
+  margin-left: 10px;
+  color: white;
+}
+
+.capture{
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+}
+
+.buttonlinks{
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+}
+
+.googleplay{
+  margin-left: 20px;
+}
+
+h2{
+  color: #06365f;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 20px;
+}
+
+p{
+  margin: 20px;
+  font-size: 12px;
+}
+
