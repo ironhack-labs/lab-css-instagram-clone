@@ -5,6 +5,90 @@ light blue: #1c5380
 */
 
 body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url(/home/mfernandezfreire/Documentos/W1/W1d1/lab-css-instagram-clone/starter-code/images/bgtile.png);
+  background-repeat: repeat-x;
 }
+
+div {
+  display: flex;
+  flex-direction: flex-start;
+  width: 70%;
+  margin: 100px 100px 20px 100px;
+}
+
+section {
+  margin-left: 60px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button {
+  display: flex;
+  justify-content: space-between;
+  width: 100px;
+  height: auto;
+  padding: 10px;
+  border-radius: 10%;
+  background-color: #1c5380;
+  text-decoration: none;
+  color: white;
+  font-weight: bold; 
+}
+
+article {
+  background: url(/home/mfernandezfreire/Documentos/W1/W1d1/lab-css-instagram-clone/starter-code/images/frame.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.logos {
+  margin: 50px 30px;
+  display: inline-block;
+}
+
+article h2 {
+  padding: 30px;
+  color: #06365f;
+}
+
+article p {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+em {
+  font-weight: bold;
+}
+
+
+
+footer {
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  margin-top: 60px;
+}
+
+ul li {
+  display: inline;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 1em;
+  font-weight: bold;
+  color: #1c5380;
+}
+
+ul li:nth-child(10) {
+  color: grey;
+}
+
+
