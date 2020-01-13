@@ -1,28 +1,114 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
-
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  background: url("../images/bgtile.png") repeat-x top;
+  background-color: #f5f7f9;
+
+  margin-top: 2rem;
+  margin-bottom: 0;
 }
-.background{
+h3 {
+  color: #06365f;
+  font-size: 1.8em;
+  width: 85%;
+  line-height: 1.3em;
+  margin-top: 0;
 }
-.container-first{
-  display: flex;
-  justify-content: center;
-  margin: 7% 16%;
+/* Right - Main container */
+
+p {
+  font-size: 0.9em;
 }
-.container-second{
-  display: flex;
-  flex-direction: column;
-}
-.frame{
-  background-image: url(/starter-code/images/frame.png);
-  background-image: no-repeat;
-  width: 61%;
-  height: 600px;
+a {
+  color: white;
+  text-decoration: none;
 }
 
+.container {
+  margin: 0 auto;
+  max-width: 900px;
+  display: flex;
+}
+
+/* Left - Big cellphones */
+.cellphone {
+  float: left;
+  width: 35%;
+  align-items: center;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.cellphone img {
+  width: 100%;
+  padding: 10px;
+}
+
+/* Right - Main container */
+
+.mainInfo {
+  width: 60%;
+  margin: 0 5% 30px;
+}
+
+.description {
+  padding: 40px 40px 20px 40px;
+  background-color: white;
+  background: url("../images/frame.png") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* Big logo */
+
+.instaLogin {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2em 0 1em 0;
+}
+.instaLogin button {
+  background-image: linear-gradient(#6e92b1, #315e86);
+  border: none;
+  color: white;
+  text-align: left;
+  border-radius: 5px;
+  padding: 10px 20px;
+  box-shadow: 0px 0px 5px #06365f;
+  height: 100%;
+}
+.homeIcon {
+  background: url(../images/home.png) no-repeat;
+  float: left;
+  width: 20px;
+  margin-right: 10px;
+  height: 20px;
+  background-size: contain;
+}
+/* Download app */
+
+.store img {
+  display: inline;
+  padding-left: 20px;
+}
+
+/* Footer */
+footer ul {
+  display: flex;
+  flex-wrap: wrap;
+  color: #1c5380;
+  font-weight: 700;
+  justify-content: space-around;
+  list-style: none;
+  text-transform: uppercase;
+  font-size: 0.7em;
+  height: 40px;
+  align-items: center;
+  width: 900px;
+  padding: 0 140px;
+  margin-bottom: 30px;
+}
+.copyrigth {
+  color: #cbcbcb;
+}
