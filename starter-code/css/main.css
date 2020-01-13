@@ -9,20 +9,43 @@ body {
   margin: 0;
   background-image: url("../images/bgtile.png");
   background-repeat: repeat-x;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
+
+.iphoneImg {height: 500px;}
 
 .generalSquare {display: flex;
-width: 70%;
+width: 60%;
+margin: 50px 0px;
 }
 
-.rightColumn {margin-left: 40px;}
-
-.logos {background-color: green;
+.rightColumn {margin-left: 40px;
+height: 500px;
 display: flex;
-;
+flex-direction: column;
+justify-content: space-between;}
+
+.logos {
+display: flex;
+justify-content: space-between;
 }
+
+.text {
+  padding: 0 20px;
+}
+
+h2 {color: #06365f;}
+.logos button {margin: 20px 0px;}
 
 .text {background-color: white;
 margin-top: 20px;}
 
-.button {background-color: red;}
+.button {margin-top: 50px;}
+
+footer a {text-decoration: none;
+text-transform: uppercase;
+color: #1c5380}
+
+.name {color: grey;}
