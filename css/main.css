@@ -1,0 +1,92 @@
+/*
+Colors to use:
+dark blue: #06365f
+light blue: #1c5380
+*/
+*{
+  padding: 0px;
+  border:0px;
+}
+body {
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  background-image: url('../images/bgtile.png');
+  background-repeat: repeat-x;
+}
+main{
+  display:flex;
+  align-content: space-between;
+  justify-content: center;
+  margin:100px auto 50px;
+}
+section{
+  width: 550px;
+}
+header{
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+}
+
+a{
+  text-decoration: none;
+}
+
+header > a{
+  border: 1px solid #1c5380;
+  color:white;
+  background-color: #688dad;
+  background-image: linear-gradient(#688dad, #155990);
+  font-weight: bold;
+  padding:10px;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+a img{
+  margin-right:10px ;
+}
+
+article{
+  background-image:url('../images/frame.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+h2{
+  color:#06365f;
+  padding:20px 50px 0px;
+  font-weight: bold;
+}
+
+p{
+  padding:0px 50px;
+  margin-bottom: 30px;
+}
+
+.buttons{
+  display:flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+#android{
+  margin-left: 30px;
+}
+
+ul{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+li{
+  margin:0px 10px;
+  text-transform: uppercase;
+  color:gray;
+  font-weight: bold;
+}
+li > a{
+  color:#06365f;
+}
