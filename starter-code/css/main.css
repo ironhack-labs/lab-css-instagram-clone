@@ -4,7 +4,138 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  justify-content: center;
+
+}
+
+.horizontalFlex{
+  display: flex;
+  flex-direction: row;
+}
+
+.verticalFlex{
+  display: flex;
+  flex-direction: column;
+}
+
+
+a {
+  text-decoration: none;
+  text-emphasis: none;
+  font-style: normal;
+  font-size: .8em;
+  font-weight: 600;
+}
+
+.allInfo{
+  justify-content: center;
+  align-items: center;
+  background-image: url("/lab-css-instagram-clone/starter-code/images/bgtile.png");
+  background-repeat: repeat-x;
+  justify-content: center;
+  padding-top: 80px;
+}
+
+
+
+.content {
+  width: 500px;
+  padding-top: 0px;
+  margin-left: 50px;
+}
+
+header {
+  height: 100px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.instagramLogo{
+  background-image: url("/lab-css-instagram-clone/starter-code/images/brand.png");
+  background-repeat: no-repeat;
+  padding-bottom: 80px;
+  padding-right: 400px;
+}
+
+.homeLogo {
+ padding: 5px 10px;
+ background-image: url("/lab-css-instagram-clone/starter-code/images/bgtile.png");
+ border: solid #1c5380 2px;
+ align-items: center;
+
+}
+
+article{
+  padding: 30px 30px;
+  background-image: url("/lab-css-instagram-clone/starter-code/images/frame.png");
+  background-repeat: no-repeat;
+}
+
+aside {
+  padding-left: 25px;
+  padding-bottom: 50px;
+}
+.appStore, .googlePlay {
+  padding-bottom: 40px ;
+  padding-right: 180px;
+  background-repeat: no-repeat;
+}
+
+.appStore{
+  background-image: url("/lab-css-instagram-clone/starter-code/images/badge-iphone.png");
+  
+}
+
+.googlePlay{
+  background-image: url("/lab-css-instagram-clone/starter-code/images/badge-android.png");
+}
+
+ul{ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+  padding-top: 50px;
+  color: #06365f;
+  text-decoration: none;
+
+  font-weight: 600;
+}
+
+ul li{
+  padding-left: 15px;
+  color: #06365f;
+}
+
+ul p {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  font-size: 0.8em;
+  color: lightslategrey;
+}
+
+h1{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.5em;
+  color: #06365f;
+}
+
+p{  
+  margin-top: 20px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+em{
+  font-weight: bold;
+  font-style: normal;
 }
