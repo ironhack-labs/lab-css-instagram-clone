@@ -70,6 +70,7 @@ article {
 
  .footer-nav a{
   text-decoration:none;
+  text-transform: uppercase;
   margin: 0 10px;
   color: #1c5380;
   font-weight: 400;
@@ -82,13 +83,16 @@ article {
    margin: 20px;
    padding: 12px;
    background: linear-gradient(to bottom, #84a5c0, #5689b3);
- }
-
- .boton a{
-  color: white;
+   color: white;
   text-decoration:none;
   text-align: center;
-  padding: 0 5px;
+  display: flex;
+  align-items: center;
+ }
+
+
+ .boton img {
+   padding-right: 10px;
  }
 
  article p{
