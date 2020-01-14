@@ -65,7 +65,7 @@ body {
   background-repeat:repeat-x;
   display: flex;
   justify-content: space-between;
-  padding: 70px 175px;
+  padding: 70px 175px 20px 175px;
 }
 
 .logo {
@@ -134,7 +134,7 @@ footer{
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  margin: 20px auto;
+  margin: 0px auto 20px auto;
   width: 80%;
   color: gray
 }
@@ -148,4 +148,8 @@ ul {
 li {
   display: flex;
   margin-right: 20px;
+}
+
+span {
+  font-weight: bold;
 }
