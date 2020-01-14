@@ -4,7 +4,95 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url(/lab-css-instagram-clone/starter-code/images/bgtile.png);
+  background-repeat: repeat-x;
+  background-position: top;
+}
+
+.horizontal {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  margin: 100px 0px 0px 100px;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+}
+
+.phones {
+  width: 40%;
+  padding-left: 80px;
+  margin-right: 100PX;
+}
+
+.home {
+  background-color: #1c5380;
+  color: white;
+  margin-left: 50px;
+  margin-top: 20px;
+  width: 120px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8em;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.logohome {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.textInstagram {
+  background-image: url(/lab-css-instagram-clone/starter-code/images/frame.png);
+  background-repeat: no-repeat;
+  width: 60%;
+  padding-right: 420px;
+  margin-top: 20px;
+}
+
+h1 {
+  margin-top: 50px;
+  padding-right: 47%;
+  color: #06365f;
+}
+
+.parrafo {
+  margin: 10px 0px;  
+}
+
+.download {
+  margin-top: 50px;
+}
+
+.downloadandroid {
+  margin-left: 20px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  text-transform: uppercase;
+}
+
+.enlace {
+  padding-left: 15px;
+  text-decoration: none;
+  color: #1c5380;
+  font-size: 0.7em;
+  font-weight: bold;
 }
