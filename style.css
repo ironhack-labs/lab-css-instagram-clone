@@ -23,6 +23,10 @@ body {
     align-items: center;
 }
 
+.header img {
+    margin-right: 10px;
+}
+
 .information {
       background-color: white;
       width: 600px;
@@ -63,7 +67,8 @@ body {
 }
 
 .button {
-      color: white;
+      color: rgb(224, 221, 221);
+      font-weight: bold;
       background-color: #1c5380;
       background: linear-gradient(0deg, #1c5380, #70b4ec);
       border: 0;
@@ -81,7 +86,7 @@ body {
     color: #1c5380;
     text-transform: uppercase;
     font-weight: bold;
-    margin: 30px 0;
+    margin: 30px;
   }
 
 .nav-bar ul {
