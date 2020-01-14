@@ -72,14 +72,19 @@ li a{
 
 .block2{
   margin-left: 35px;
-
+  
 }
 
 .home{
   text-decoration: none;
   padding: 10px;
-  background-color: #1c5380;
+  background-color:#3897f0;
   color: white;
-  border: 1px solid black;
+  border: 1px solid rgb(82, 82, 214);
   margin-left: 10px;
+  border-radius: 5px;
+}
+.btn-home{
+  margin-top: 20px;
+  float: right;
 }
