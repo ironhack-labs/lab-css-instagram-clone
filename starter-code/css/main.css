@@ -47,10 +47,9 @@ h2{
   display: flex;
   align-items: center;
   justify-content: space-around;
-  background-color: #1c5380;
+  background: url(../images/bgtile.png);
   border-color: #06365f;
   color: white;
-  border: 1px;
   border-radius: 5px;
   width: 100px;
   height: 30px;
@@ -77,6 +76,7 @@ footer{
 }
 .footer-menu{
   width: 600px;
+  font-size: 15px;
   text-transform: uppercase;
   color: #1c5380;
   font-weight: bold;
