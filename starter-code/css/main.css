@@ -36,6 +36,13 @@ justify-content: space-between;
   padding: 0 20px;
 }
 
+.generalSquare button {
+  background-image: linear-gradient(#1c5380, #06365f);
+  border: none;
+  color: white;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
 h2 {color: #06365f;}
 .logos button {margin: 20px 0px;}
 
