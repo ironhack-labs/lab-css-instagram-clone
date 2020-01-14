@@ -16,7 +16,7 @@ body {
 }
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue";
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;;
   background-image: url("/starter-code/images/bgtile.png");
   background-repeat: repeat-x;
 } 
@@ -73,21 +73,23 @@ p {
   margin: 20px 0;
 }
 
+nav {
+  display: flex;
+  justify-content: center;
+}
 footer {
   text-transform: uppercase;
   color: #1c5380;
+ 
 }
 ul {
   display: flex;
-  flex-direction: row;
   list-style-type: none;
-  justify-content: center;
+  justify-content: space-around;
   margin: 150px 0; 
+  width: 70%;
+
   
 }
 
-footer > p {
-  display: flex;
-  flex-direction: row;
-}
 
