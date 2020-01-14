@@ -20,6 +20,10 @@ h2{
   color: #06365f;
 }
 
+span{
+  font-weight: bold;
+}
+
 .main-section{
   display: flex;
   justify-content: space-evenly;
