@@ -81,31 +81,45 @@ body {
 }
 
 .logo {
-  margin-right: 70px;
+  margin-right: 110px;
 }
 
-button {
-  height: 50px;
-  border: 1px solid blue;
+/* button {
+  
+ 
   background: none;
-  border: 0;
   line-height: normal;
   overflow: visible;
-  padding: 5px;
-  color: red;
-  font-size: 16px;
-}
+  margin-top: 2px;
+ 
+ 
+  
+} */
 
 #boton {
     
  
-  border: 1px solid white;
+  border: 1px solid blue;
   height: 30px;
   margin-bottom: 50px;
+  border-radius: 2px;
+  margin-top: 20px;
+  
+
 
   
   
   
+}
+
+#boton button{
+
+  color: white;
+  margin-top: 10px;
+  font-size: 16px;
+  height: 50px;
+  
+
 }
 
 #contenido-lateral{
