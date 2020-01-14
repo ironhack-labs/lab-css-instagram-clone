@@ -4,7 +4,96 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+
+
+}
+
+
+
+header {
+  background-image: url("../images/frame.png");
+  background-repeat: repeat-y;
+  margin: 100px 100px;
+  display: flex;
+  align-items: center;
+
+
+
+}
+
+section {
+  margin
+}
+
+.phones {
+  height: 800px;
+
+}
+
+#left {
+
+  width: 50%;
+  margin-right: 25px;
+
+}
+
+#right {
+
+  width: 50%;
+  margin-left: 25px;
+  flex-direction: column;
+  align-content: ;
+
+}
+
+.brand {
+  height: 120px;
+}
+
+.button {}
+
+article {
+  background-color: white;
+  border-radius: 10% 10% 0 0;
+
+  padding: 10%;
+}
+
+.brand-button {}
+
+button {
+  width: 80px;
+  height: 50px;
+
+}
+
+.download-app {
+  background-color: darkcyan;
+  align-content: center;
+
+
+
+}
+
+
+#footer-bar {}
+
+nav {
+  width: 600px;
+}
+
+nav ul {
+
+  font-size: 1.3em;
+  font:
+    list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
