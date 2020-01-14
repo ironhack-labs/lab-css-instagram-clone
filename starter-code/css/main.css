@@ -90,11 +90,12 @@ body {
   padding-left: 10px;
   padding-right: 10px;
 
-  border: 1px solid white;
+  border: 1px solid rgb(65, 85, 109);
   border-radius: 3px;
   height: 40px;
 
-  background-color: rgb(87, 133, 194);
+  
+  background-image: linear-gradient(rgb(87, 133, 194), rgb(85, 112, 146));
   
 }
 
