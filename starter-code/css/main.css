@@ -1,10 +1,215 @@
 /*
 Colors to use:
 dark blue: #06365f
-light blue: #1c5380
+light blue: #1c5380\
 */
+
+html {
+
+height: 100%;
+
+
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100vh; 
+
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+.top-section {
+
+background-color: #3f729b;
+width: 100%;
+height: 35vh;
+
+}
+
+/* Floating section */
+
+div.phone-image {
+
+position: absolute;
+top: 15vh;
+left: 20vw;
+background-image: url('../images/phones.png');
+height: 500px;
+width: 400px;
+background-repeat: no-repeat;
+
+
+}
+
+div.header-logo {
+
+position: absolute;
+top: 15vh;
+right: 20vw;
+height: 100px;
+width: 35vw;
+
+
+}
+
+div.flex-container {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  
+  }
+
+div.flex-container-center {
+
+  display: flex;
+  justify-content: center;
+
+}
+
+div.instagram-logo {
+background-image: url('../images/brand.png');
+height: 75px;
+width: 320px;
+background-repeat: no-repeat;
+
+}
+
+div.login {
+
+background-color: #46769c;
+border: darkblue;
+border-width: 1px;
+border-style: solid;
+color: white;
+display: flex;
+flex-direction: row;
+align-items: center;
+height: 40px;
+padding: 2px 5px 2px 2px;
+border-radius: 4px;
+  
+  }
+
+div.home-image {
+
+background-image: url('../images/home.png');
+margin: 0 0 0 5px;
+padding: 4px;
+background-repeat: no-repeat;
+width: 20px;
+height: 20px;
+margin-right: 15px;
+
+
+}
+
+span.button {
+
+padding-right: 8px;
+margin-right: 8px;
+
+
+
+}
+  
+
+div.download-box {
+
+position: absolute;
+top: 22vh;
+right: 20vw;
+background-color: white;
+width: 35vw;
+margin-top: 40px;
+
+
+}
+
+div.download-box:after {
+  content: '';
+  z-index: -1;
+  position: absolute;
+  left: 0;
+  height: 50%;
+  width: 100%;
+  box-shadow: 0px 0px 6px 1px;
+  top: 0;
+}
+
+.download-box h1 {
+
+color: #3f729b;
+margin-left: 30px;
+margin-right: 150px;
+
+}
+
+.download-box .text-box {
+
+margin-left: 30px;
+margin-right: 10px;
+
+
+}
+
+
+
+div.android-logo {
+
+  background-image: url('../images/badge-android.png');
+  display: inline-block;
+  height: 50px;
+  width: 170px;
+  background-repeat: no-repeat;
+  margin-top: 15px;
+
+
+}
+
+div.iphone-logo {
+
+  background-image: url('../images/badge-iphone.png');
+  display: inline-block;
+  height: 50px;
+  width: 170px;
+  background-repeat: no-repeat;
+  margin-left: 30px;
+  margin-top: 15px;
+}
+
+
+/* Footer */
+
+div.footer {
+
+flex-shrink: 0; 
+padding: 20px;
+color: #3f729b;
+width: 100%;
+
+
+}
+
+ul.navigation li {
+
+display:inline;
+font-weight: bold;
+margin: 3px;
+text-transform: uppercase;
+font-size: 13px;
+
+}
+
+span.grey {
+
+color: rgb(196, 196, 196);
+
 }
