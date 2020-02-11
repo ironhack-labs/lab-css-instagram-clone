@@ -7,4 +7,109 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  background-image: url("/Users/ruta.zemcugovaite/Desktop/iron/lab-css-instagram-clone/starter-code/images/bgtile.png");
+  background-repeat: repeat-x;
+  background-color: #e8e8e8;
+  
+}
+
+.container {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 66px;
+    
+}
+
+.content {
+  margin: 30px;
+
+} 
+
+.maintext {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  height: 400px;
+  padding: 20px;
+  border-radius: 5px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: white;
+    background-image: linear-gradient(white, #e8e8e8);
+  
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+.logos{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+h2 {
+  color: #06365f;
+}
+
+.login{
+  height:40px ;
+  width:100px ;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #1c5380;  
+  border-radius: 5px;
+  color: white;
+  font-size: 14px;
+}
+
+
+.home{
+  height: 25px;
+  width: 27px;
+}
+
+.download {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.apple{
+  margin-right: 20px;
+}
+
+
+ul{
+  display: inline;
+  list-style: none;
+  display: flex;
+  flex-direction: row; 
+  justify-content: center;
+ 
+
+
+  
+  
+}
+
+li {
+  text-transform: uppercase;
+  padding: 10px;
+    text-align: center;
+    font-size: 12px;
 }
