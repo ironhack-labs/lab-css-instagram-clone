@@ -6,9 +6,13 @@ light blue: #1c5380
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 100px 5% 0 5%;
   background-image: url(../images/bgtile.png);
   background-repeat: repeat-x;
+  margin: 0;
+}
+
+main {
+  margin: 100px 5% 0 5%;
 }
 
 .container-col {
@@ -21,6 +25,10 @@ body {
   flex-direction: row;
 }
 
+h1 {
+  color: #06365f;
+}
+
 .phones {
   margin: 50px;
 }
@@ -29,21 +37,38 @@ body {
   margin: 50px;
 }
 
+/* background gradient for an upcoming div behind the text-background
+background: rgb(0,0,0);
+background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(7,33,66,1) 24%, rgba(255,255,255,1) 54%);
+*/
+
 .text-background {
   background-color: white;
-  box-shadow: lightslategrey;
+  box-shadow: 0 3px 0 3px darkslategray;
   padding: 5%;
+  border: 1px solid darkslategray;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-right: 50px;
 }
 
 footer {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   width: 100%;
+  margin: 0;
+}
+
+footer ul {
+  display: flex;
+  flex-direction: row;
 }
 
 footer ul li {
   color: #1c5380;
   list-style: none;
+  padding: 0 10px 0 10px;
 }
 
 footer ul li a {
@@ -53,4 +78,5 @@ footer ul li a {
 
 .copyright {
   color: lightslategray;
+  margin-left: 40px;
 }
