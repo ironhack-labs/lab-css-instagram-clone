@@ -47,10 +47,43 @@ ul{
 }
 
 .button{
-  height: 50px;
+  height: 40px;
+  width: 80px;
   text-align: center;
+  font-size: 12px;
+  color: white;
+  font-weight: 800px;
+  background-color: #347cba;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
 }
 
 #paragraph{
   background-color: white;
+  padding: 15px;
+  border-radius: 7px;
 }
+
+h3{
+  width: 200px;
+  color: #347cba;
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+}
+
+.color-grey{
+  color: lightgray;
+}
+
+footer a{
+  text-decoration: none;
+  color: #347cba;
+  margin-right: 20px;
+}
+
+
