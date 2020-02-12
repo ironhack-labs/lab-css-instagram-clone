@@ -11,24 +11,70 @@ body {
   background-repeat: repeat-x;
   display: flex;
   flex-direction: column;
-  margin: 0px 100px;
-  justify-content: space-evenly;
+  margin: 50px 100px;
 }
 
 #main {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  width: 900px;
+  box-sizing: border-box;
 }
 
 #content {
-  width: 700px;
+  width: 500px;
+  padding-left: 20px;
 }
 
-
-
-footer {
+#headline {
   display: flex;
-  align-items: baseline;
-	align-content: stretch;
+  justify-content: space-between;
+  width: 480px;
+}
+
+.loginbut {
+  background-color: #1c5380;
+  color: white;
+  height: 40px;
+  width: 80px;
+}
+
+.iglogo {
+  max-width: 250px;
+}
+
+#text {
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  width: 440px;
+  padding: 20px;
+  background-size: 480px 480px;
+}
+
+h2 {
+  color: #06365f;
+}
+
+p {
+  max-width: 420px;
+}
+
+#footer {
+  width: 700px;  
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  align-self: center;
+  justify-content: space-evenly;
+  font-size: 10pt;
+  text-transform: uppercase;
+}
+
+nav {
+  color: #1c5380;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
