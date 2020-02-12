@@ -27,26 +27,57 @@ main {
 
 h1 {
   color: #06365f;
+  font-size: 2em;
+  margin-top: -0.5em;
 }
 
 .phones {
-  margin: 50px;
+  margin: 0 50px 50px 50px;
 }
 
 .right-side {
-  margin: 50px;
+  margin: 0 50px 30px 0;
+  justify-content: space-between;
 }
 
-/* background gradient for an upcoming div behind the text-background
+/* background gradient for an upcoming div behind the text-background 
+.shadow {
 background: rgb(0,0,0);
 background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(7,33,66,1) 24%, rgba(255,255,255,1) 54%);
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+margin-right: 50px;
+padding: -2px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 */
+
+.right-side button {
+  background: rgb(6,54,95);
+background: linear-gradient(360deg, rgba(6,54,95,1) 0%, rgba(213,229,238,0.5) 100%);
+  border: 1px solid #06365f;
+  border-radius: 5px;
+  padding: 10px 50px 10px 50px;
+  color: #d5e5ee;
+  font-size: 1.125em;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.right-side button img {
+  padding-top: 5px;
+}
+
+.right-side button span {
+  padding-left: 20px;
+  padding-bottom: 15px;
+}
 
 .text-background {
   background-color: white;
-  box-shadow: 0 3px 0 3px darkslategray;
+  box-shadow: 0 -4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   padding: 5%;
-  border: 1px solid darkslategray;
+  border: 1px solid white;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   margin-right: 50px;
