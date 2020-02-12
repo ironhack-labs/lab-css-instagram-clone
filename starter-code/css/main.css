@@ -4,7 +4,102 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
+main {
+  display: flex;
+  box-sizing: border-box;
+  margin: 100px 100px 0px 100px;
+  height: 512px;
+  flex-wrap: no-wrap;
+}
+
+h1 {
+  color: #06365f;
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+  line-height: 30px;
+}
+
+.main-text {
+  display: flex;
+  flex-direction: column;
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  padding: 20px 35px 15px 35px;
+  line-height: 23px;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 500px;
+  margin: 0px 0px 0px 50px;
+}
+
+.insta-and-button {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 500px;
+  padding: 10px 0px 10px 0px;
+}
+
+.store-buttons {
+  margin-top: 35px;
+}
+
+.store-buttons > img {
+  margin-right: 20px;
+}
+
+.phone-container {
+  display: flex;
+}
+
+footer > ul {
+  display: flex;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-transform: uppercase;
+  font-size: 12px;
+  padding: 25px;
+  color: #1c5380ab;
+  font-weight: bold;
+}
+
+ul > li {
+  display: flex;
+  padding: 0px 10px 0px 10px;
+}
+
+li > span {
+  color: rgb(168, 168, 168);
+}
+
+strong {
+  color: rgb(82, 82, 82);
+}
+
+.login-box {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-around;
+}
+
+
+
