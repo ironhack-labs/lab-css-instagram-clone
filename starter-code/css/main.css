@@ -4,13 +4,15 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800&display=swap");
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Montserrat;
   margin: 0;
   background-image: url(../images/bgtile.png);
   background-repeat: repeat-x;
   background-color: white;
+  color: rgb(73, 73, 73);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -21,14 +23,13 @@ main {
   box-sizing: border-box;
   margin: 100px 100px 0px 100px;
   height: 512px;
-  flex-wrap: no-wrap;
+  flex-wrap: nowrap;
 }
 
 h1 {
   color: #06365f;
   font-size: 22px;
   font-weight: 600;
-  letter-spacing: 1.2px;
   line-height: 30px;
 }
 
@@ -39,6 +40,7 @@ h1 {
   background-repeat: no-repeat;
   padding: 20px 35px 15px 35px;
   line-height: 23px;
+  font-size: 14px;
 }
 
 .info-container {
@@ -55,8 +57,9 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 500px;
+  width: 496px;
   padding: 10px 0px 10px 0px;
+  margin-right: 100px;
 }
 
 .store-buttons {
@@ -77,9 +80,9 @@ footer > ul {
   list-style-type: none;
   text-transform: uppercase;
   font-size: 12px;
-  padding: 25px;
+  padding: 30px;
   color: #1c5380ab;
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 ul > li {
@@ -87,18 +90,44 @@ ul > li {
   padding: 0px 10px 0px 10px;
 }
 
+li > a {
+  text-emphasis: none;
+  text-decoration: none;
+  color: inherit;
+}
+
 li > span {
   color: rgb(168, 168, 168);
 }
 
 strong {
-  color: rgb(82, 82, 82);
+  color: rgb(36, 36, 36);
+  font-weight: 600;
 }
 
-.login-box {
+button {
   display: flex;
-  box-sizing: border-box;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100px;
+  height: 40px;
+  padding: 0px;
+  margin: 0px; 
+  border: 2px solid #06365f60;
+  border-radius: 7%;
+  background-color:  #b1c6d63a;
+  font-size: 12px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.781);
+}
+
+button:hover {
+  background-color: #b1c6d656;
+}
+
+button > div > img {
+  display: flex;
+  align-items: center;
 }
 
 
