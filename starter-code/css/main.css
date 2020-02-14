@@ -7,4 +7,83 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image:url(../images/bgtile.png);
+  background-repeat:repeat-x;
+}
+
+.main {
+  justify-content:center;
+  align-items: center;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 100px;
+  display: flex;
+  align-items: stretch;
+
+}
+
+.box1 {
+  margin-right:50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box2{
+
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: flex-start;
+  align-items: center;
+box-sizing: border-box;
+
+  
+}
+
+.logo-login {
+display:flex;
+box-sizing: border-box;
+align-items: center;
+
+}
+.box2-text {
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+}
+
+.login{
+background-color: #1c5380;
+  border-radius: 5px;
+  display:flex;
+  justify-content: space-around;
+border: 1px solid #06365f;
+height: 50px;
+padding: 10px;
+align-items: center;
+margin-left: 20px;
+box-sizing: border-box;
+width: 130px;
+}
+
+.login p {
+  color: white;
+  font-weight: bold;
+
+}
+
+footer ul {
+  justify-content: space-around;
+  display:flex;
+  flex-wrap:wrap;
+  list-style-type:none;
+  
+}
+
+#phones {
+  width: 20% vw;
+}
+
+@media (min-width: 768px){
+  #phones {
+    width: 400px;
+  }
 }
