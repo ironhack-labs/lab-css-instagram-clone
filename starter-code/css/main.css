@@ -8,3 +8,63 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.flexAll {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 700px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.flexButtonLogo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 400px;
+}
+.flexContentButton {
+  width: 430px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  height: 500px;
+}
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.logoImg {
+  width: 270px;
+}
+button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 80px;
+  padding: 0;
+  background-image: url(../images/bgtile.png);
+  height: 40px;
+  box-shadow: 0 0 10px #06365f;
+  border: none;
+}
+button span {
+  color: #fff;
+}
+.content {
+  background-image: url(../images/frame.png) no-repeat center;
+}
