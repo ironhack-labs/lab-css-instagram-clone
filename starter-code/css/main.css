@@ -6,5 +6,102 @@ light blue: #1c5380
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  background-image: url("../images/bgtile.png");
+background-repeat: repeat-x;
 }
+
+.phones {
+  margin: 0px 0px 50px 0px; 
+}
+
+.main {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+margin: 100px 0px 0px 0px; 
+flex-flow: row nowrap;
+
+}
+
+.brand {
+  display: inline-flex;
+  justify-content: space-evenly;
+  margin: 0px 0px 0px 0px; 
+  flex-wrap: wrap;
+  height: 100px;
+  width: 510px;
+  align-items: center;
+}
+
+
+#instaLogo {
+height: 60px;
+width: 250px;
+}
+
+.textBlock {
+  background-image: url("../images/frame.png");  
+  display: flex; 
+  flex-direction: column;
+  padding: 3px 20px 0px 25px;
+  width: 470px; 
+  height: 100px;
+  background-repeat: no-repeat;
+  }
+.rightSide {
+  margin: 0px 50px; 
+}
+
+.loginButton {
+  background-color: #094377;
+align-content: center;
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+margin: 2px 2px 2px 2px;
+height: 50px;
+width: 110px;
+align-items: center;
+border-radius: 10px;
+color: #F0EAD6;
+text-decoration: none;
+box-shadow: 0 2px 3px #000;
+font-weight: 400;
+
+}
+
+.loginButton:hover { 
+  box-shadow: 0 2px 10px #000;
+}
+
+h2 {
+  font-size: 30px;
+  color: #06365f;
+}
+
+.badges {
+  display: flex;
+  margin: 30px;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}
+
+.iphone {
+  margin-right: 30px;
+ 
+}
+a {
+  text-decoration: none;
+
+}
+.footer {
+  display: inline-flex;
+  justify-content: space-between;
+  margin-bottom: 90px;
+  width: 600px;
+  position: absolute;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
