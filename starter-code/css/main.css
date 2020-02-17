@@ -118,3 +118,12 @@ button span {
 #iphoneIcon {
   margin-right: 20px;
 }
+
+.content p span {
+  font-weight: bold;
+}
+
+.content img {
+  margin-top: 20px;
+
+}
