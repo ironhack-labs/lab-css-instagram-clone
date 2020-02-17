@@ -3,10 +3,19 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+* {
+  box-sizing: border-box;
+
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url(../images/bgtile.png);
+  background-position: top;
+
+  background-repeat: repeat-x;
+  background-color: white;
 }
 
 .flexAll {
@@ -14,9 +23,11 @@ body {
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  height: 700px;
+  height: 600px;
   margin-left: 100px;
   margin-right: 100px;
+  margin-top: 72px;
+  ;
 }
 
 .flexButtonLogo {
@@ -24,47 +35,86 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: 400px;
+  width: 490px;
 }
+
 .flexContentButton {
-  width: 430px;
+  width: 490px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: flex-start;
   height: 500px;
 }
+
 footer {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
+  width: 650px;
+  margin: 0 auto;
 }
+
 ul {
   list-style: none;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
+  color: #1c5380;
+  font:
+    15px/1.5 "Helvetica Neue",
+    Helvetica,
+    Arial,
+    sans-serif;
+
 }
+
+#grayFooter {
+  color: #d6d9dc;
+}
+
 .logoImg {
-  width: 270px;
+  width: 290px;
 }
+
 button {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  width: 80px;
+  width: 90px;
   padding: 0;
   background-image: url(../images/bgtile.png);
   height: 40px;
   box-shadow: 0 0 10px #06365f;
   border: none;
 }
+
 button span {
   color: #fff;
 }
+
 .content {
-  background-image: url(../images/frame.png) no-repeat center;
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-color: white;
+  width: 490px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.content h1 {
+  font-size: 30px;
+  color: #1c5380;
+}
+
+button span {
+  font-family: "Helvetica Neue",
+    Helvetica,
+    Arial,
+    sans-serif;
+  ;
+}
+
+#iphoneIcon {
+  margin-right: 20px;
 }
