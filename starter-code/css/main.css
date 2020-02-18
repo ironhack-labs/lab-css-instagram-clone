@@ -3,8 +3,241 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+html {
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;
+  background-color: #f3f4f6;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.phone-img {
+  width: 410px;
+}
+
+.text-btn {
+  margin-top: 20px;
+  margin-left: 50px;
+  width: 650px;
+}
+
+.btn-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.logo-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home-img-border {
+  height: 32px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  background-color: #1c5380;
+  padding: 10px;
+  border-radius: 6px 0px 0px 6px;
+  border-bottom: 2px solid #06365f;
+  border-top: 2px solid #06365f;
+  border-left: 2px solid #06365f;
+  justify-content: center;
+}
+
+.home-img {
+  height: 30px;
+}
+
+.login-btn {
+  font-size: 1.4rem;
+  height: 32px;
+  align-items: center;
+  background-color: #1c5380;
+  padding: 10px 20px 10px 10px;
+  text-decoration: none;
+  color: lightgray;
+  border-radius: 0px 6px 6px 0px;
+  border-bottom: 2px solid #06365f;
+  border-top: 2px solid #06365f;
+  border-right: 2px solid #06365f;
+}
+
+.insta-logo {
+  margin-left: 7px;
+  width: 400px;
+  height: 100px;
+}
+
+.text {
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-top: 5px;
+}
+
+h1 {
+  width: 370px;
+  color: #06365f;
+  margin-left: 50px;
+  padding-top: 35px;
+  word-spacing: 2px;
+  font-size: 2rem;
+  margin-top: 0px;
+  font-weight: bold;
+}
+
+.text > p {
+  width: 550px;
+  margin-left: 50px;
+  color: black;
+  font-size: 1.2rem;
+}
+
+.apple {
+  margin-left: 50px;
+  margin-right: 25px;
+  margin-top: 30px;
+  width: 210px;
+  height: 70px;
+}
+
+.android {
+  width: 210px;
+  height: 70px;
+}
+
+footer {
+  width: 60%;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+}
+
+footer > ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  list-style: none;
+  padding: 0px;
+}
+
+.nav-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly
+}
+
+.nav-li-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav-li-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav-button {
+  color: #1c5380;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0px 15px;
+}
+
+.copyright {
+  color: #cecfd1;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+
+/* width: 768px */
+
+@media (max-width: 768px) {
+
+  main {
+    width: 768px;
+  }
+
+  .container {
+    flex-direction: column-reverse;
+    align-items: center;
+    width: 100%;
+  }
+
+  .text-btn {
+    width: 600px;
+    margin-left: 0px;
+  }
+
+  .text > p {
+    width: 500px;
+    margin-left: 50px;
+    color: black;
+    font-size: 1.2rem;
+  }
+
+  .phone-img {
+    margin-top: 30px;
+  }
+
+  footer {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+  }
+ 
+  footer > ul {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px;
+  }
+
+  .nav-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+  }
+
+  .nav-li-1 {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+  }
+  
+  .nav-li-2 {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+  }
+
+  .copyright {
+    color: lightgray;
+    font-weight: bold;
+    margin-top: 20px;
+  }
 }
