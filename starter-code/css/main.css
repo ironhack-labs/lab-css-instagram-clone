@@ -6,5 +6,141 @@ light blue: #1c5380
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  width: 1000px;
+  height: 1000px;
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;
+  margin: 100px auto;
 }
+
+input{
+  background-color: #6C91AF;
+  color: #E6EBF0;
+  border: 0px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.flex-box{
+  /* border: 1px solid green; */
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: stretch;
+}
+
+.flex-box-2{
+  /* border: 1px solid pink; */
+  margin: 20px;
+}
+
+.flex-box-3{
+  /* border: 1px solid orange; */
+  margin: 20px;
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: stretch;
+}
+
+.flex-box-4{
+  /* border: 1px solid red; */
+  padding: 0px;
+  margin: 20px;
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.flex-box-4 h2{
+  color: #0D375B;
+  font-size: 2rem;
+  font-weight: 2000;
+  padding-top: 20px;
+  margin: 10px 40px 0px 40px;
+}
+
+.flex-box-4 p{
+  color: #0D375B;
+  margin: 10px 40px 0px 40px;
+  font-weight: 400;
+}
+
+.flex-box-5{
+  /* border: 1px solid cyan; */
+  margin: 20px;
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: stretch;
+}
+
+footer{
+  /* border: 1px solid blue; */
+  margin: 20px auto;
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+  align-content: space-around;
+  width: 70%;
+}
+
+footer a{
+  text-decoration: none;
+  color: #6186A8;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+footer p{
+  color: #B1B1B2;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.flex-box-7{
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+  align-content: space-around;
+  background-color: #6C91AF;
+  padding: 5px;
+}
+
+@media (max-width: 320px){
+  .flex-box{
+    flex-direction: column-reverse;
+  }
+
+  footer{
+    flex-flow: column wrap;
+  }
+
+  .flex-box-6{
+    display: flex;
+    flex-direction: row;
+
+  }
+
+  .flex-box-6 span{
+    margin-right: 60px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+
+
+
+
+}
+
