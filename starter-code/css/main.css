@@ -7,4 +7,155 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content{
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-background{
+  background-color: #1c5380;
+  float: right;
+  height: 300px;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+.right{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 500px;
+  padding-left: 100px;
+}
+
+.home{
+  height: 50px;
+  color: white;
+}
+
+.home img{
+  margin-right: 10px;
+}
+
+.home span{
+  margin-bottom: 15px;
+}
+
+.right-top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.right-text{
+  padding: 20px;
+  background-color: white;
+  border-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.right-text h1{
+  color: #1c5380;
+}
+
+.right-bottom{
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  border-color: white;
+  border-radius: 10px;
+}
+
+footer{
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+footer a{
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+footer .trademark{
+  margin-left: 15px;
+}
+
+@media (max-width: 600px){
+  body {
+    font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .content{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 320px;
+    padding-left: 0;
+  }
+
+  .right button{
+    height: 50px;
+    width: 30px;
+    color: white;
+    padding-right: 10px;
+    
+  }
+
+  .right button img{
+    margin-right: 0px;
+  }
+  
+  .right button spam{
+    display: none;
+  }
+
+  .right > div {
+    margin-top: 30px;
+  }
+
+  footer{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer a{
+    text-decoration: none;
+    background-color: #1c5380;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    width: 100%;
+  }
+
+  footer .trademark{
+    margin-top: 30px;
+  }
 }
