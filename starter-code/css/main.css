@@ -7,4 +7,179 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url("../images/bgtile.png") ;
+background-repeat: repeat-x;
+
+background-size: 80% 23%;
+} 
+
+#sectionEnvelop{
+
+	background-size: 80% 19%;
+	
+} 
+
+#cellAndBoard{
+	display: flex;
+	flex-direction: row-reverse;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	background-size: 100% 10%;
+	
+	padding: 100px;
+
+}
+
+#brandAdvertise{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	background-size: 80% 19%;
+	
+}
+
+nav{
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: space-around;
+	
+	background-size: 100% 19%;
+}
+
+#imgHome{
+
+background-image: url(../images/home.png);
+background-position: left;
+width: 80px;
+height: 32px;
+background-repeat: no-repeat;
+background-color:#1c5380;
+
+
+
+
+}
+
+
+#textBox{
+
+
+
+
+background-size: 100% 19%;
+height: 300px;
+background-repeat: no-repeat;
+background-image: url("../images/frame.png");
+opacity: 100%;
+padding: 80px;
+width: 300px;
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+justify-content: center;
+align-items: center;
+align-content: center;
+
+
+
+
+}
+
+ #titleBox{
+text-align:left;
+
+/* background-size: 100% 19%; */
+} 
+
+#advertisingText{
+  text-align: left;
+  
+
+
+
+}
+
+.editText{
+  text-align: left;
+  
+  background-size: 100% 19%;
+}
+
+#badgeBrand{
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: space-around;
+	
+	background-size: 100% ;
+	width: 460px;
+	border-block-end: 10px;
+	
+}
+
+#section2Cellphone{
+
+	
+
+}
+
+#menuFooter{
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	
+}
+
+.menuList{
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wSrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: space-between;
+	width: 280px;
+	
+	list-style: none;
+	
+	
+}
+
+.textItensL{
+text-align: center;
+width: 80px;
+height: 30px;
+}
+
+.textItensR{
+	text-align: center;
+	width: 80px;
+	height: 30px;
+}
+
+#id2014{
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+
 }
