@@ -3,8 +3,139 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+/* <link rel="stylesheet" media="(min-width)" href="main.css" /> */
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 200 16px/1.6 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  padding: 0;
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;
+}
+
+.background {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: coral solid;
+  height: 53vw;
+}
+
+/* SECTION1 */
+.section1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: cyan solid;
+}
+
+.right-boxes-in-section1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 37vw;
+  width: 35vw;
+  flex-wrap: wrap;
+  border: yellow solid;
+  margin-left: 3vw;
+  margin-top: 1vw;
+}
+
+/* NAV BAR */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: darkgray solid;
+  box-sizing: border-box;
+  margin: .5vw 0.5vw 0 0.5vw;
+}
+
+nav a {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* background-color: #1c5380; */
+  background-image: linear-gradient(#5b87ad, #1c5380, #5b87ad);
+  height: 3vw;
+  width: 7vw;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 1vw;
+  border-radius: .3vw;
+}
+
+/* SECTION2 */
+.section2 {
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  border: 2px black solid;
+  height: 22vw;
+  background-size: contain;
+}
+
+.section2 h2 {
+  width: 18vw;
+  margin: 2vw 0 0 2vw;
+  font-size: 1.5rem;
+  line-height: 2vw;
+  color: #3a6890;
+}
+
+.section2 p {
+  width: 32vw;
+  line-height: 1.5rem;
+  font-size: 1rem;
+  margin-left: 2vw;
+}
+
+.imgs {
+  border: 2px red solid;
+  padding: 0;
+  margin: 0 0 0 2vw;
+}
+
+/* FOOTER */
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 65vw;
+  font-size: .7rem;
+  text-transform: uppercase;
+  color: #3a6890;
+  font-weight: bold;
+  box-sizing: border-box;
+  padding: 3vw 13vw;
+  border: blue solid;
+}
+
+.column1-footer {
+  display: flex;
+}
+
+.column1-footer div{
+  margin: 0 .7vw 0 0;
+}
+
+.column2-footer {
+  display: flex;
+}
+
+.column2-footer div{
+  margin: 0 .7vw 0 0;
+}
+
+
+.copyright {
+  color: gray
+}
+
+
+@media (max-width: 400) {
+  .section1 {
+    flex-direction: column-reverse;
+  }
 }
