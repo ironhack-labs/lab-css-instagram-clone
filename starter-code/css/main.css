@@ -3,8 +3,138 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+
+}
+
+
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
 }
+
+
+main {
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  margin: 100px, auto, 0px;
+}
+
+.phones-img {
+  height: 100%;
+}
+
+.global-content-container {
+  width: 70%;
+}
+
+.logo-btn-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.logo-btn-container button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  border: 1px solid #06365f;
+  background-color: #1c5380;
+  font-size: 1.6rem;
+  border-radius: 2px;
+  padding: 2px;
+}
+
+.logo-btn-container button img {
+  width: 30px;
+  margin-right: 10px;
+}
+
+.text-container-box {
+  border-radius: 5px;
+  padding: 3rem;
+  background-image: url('../images/frame.png');
+  background-repeat: no-repeat;
+  background-size: 100% 80%;
+  background-repeat: no-repeat;
+}
+
+.text-container-box h2 {
+  width: 70%;
+  font-size: 3rem;
+  font-weight: 800;
+  color: #06365f;
+  line-height: 3.5rem;
+}
+
+.text-container-box p {
+  font-size: 1.5rem;
+  font-weight: 200;
+  color: black;
+  margin-top: 30px;
+}
+
+
+.container-badges img {
+  margin: 20px 20px 0 0;
+}
+
+.footer-items {
+  width: 100vw;
+}
+
+.footer-items ul {
+  display: flex;
+  justify-content: center;
+  padding-right: 0.7rem;
+  font-weight: 700;
+}
+
+li {
+  padding: 10px;
+  color: #06365f;
+  font-size: 1.5;
+  font-weight: 800;
+  text-align: center;
+}
+
+@media screen and (max-width:1300px) {
+
+
+  * {
+    font-size: 8px;
+  }
+}
+
+@media screen and (max-width:1050px) {
+
+  * {
+    font-size: 12px;
+  }
+
+  main {
+    margin-top: 30px;
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+
+  .global-content-container {
+    width: 70vw;
+  }
+
+  .container-badges {
+    display: flex;
+    justify-content: space-around;
+  }
