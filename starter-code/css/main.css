@@ -7,4 +7,164 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;
+}
+
+.sec1 {
+  padding-top: 8em;
+  padding-bottom: 8em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.log {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.app {
+  padding-top: 1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-content: flex-start;
+}
+
+.elem3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.textImg {
+  background-image: url(../images/frame.png);
+  background-size: 100%;
+  height: 23em;
+  width: 40em;
+  padding-left: 2em;
+}
+
+.text {
+  width: 37em;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.small {
+  margin-right: 1em;
+}
+
+.iphone {
+  margin-right: 5em;
+}
+
+nav ul {
+  list-style-type: none;
+  color: #1c5380;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: space-between;
+  margin-right: 2em;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+li {
+  margin-left: 2em;
+  font-weight: bold;
+}
+
+
+h1 {
+  color: #06365f;
+}
+
+p {
+  color: #06365f;
+  font-weight: 300;
+ }
+
+.copy {
+  color: gray;
+  font-weight: bold;
+}
+
+button {
+  color: white;
+  border-color: #06365f;
+  background-image: linear-gradient(to bottom, #1c5380 40%, #06365f);
+  height: 4em;
+  width: 9em;
+  border-radius: 5%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 20em;
+}
+
+@media (max-width: 1000px) {
+  .sec1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .iphone {
+    padding-left: 2em;
+  }
+  .log {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-right: 3em;
+  }
+  .home {
+    padding-right: 12.5em;
+  }
+  .textImg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+  }
+  .app {
+    margin-top: 5em;
+    margin-bottom: 5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+  }
+  ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 3em;
+  }
 }
