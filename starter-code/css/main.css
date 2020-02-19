@@ -6,5 +6,148 @@ light blue: #1c5380
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 100px auto;
+  background-image: url(/images/bgtile.png);
+  background-repeat: repeat-x;
+  width: 900px;
+  height: 1000px;
+}
+
+/* a {
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+} */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
+  padding: 0;
+}
+
+.section {
+  /* width: 75vw; */
+  /* margin: 60px auto 40px auto; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 1px solid red;
+}
+
+.main {
+  /* width: 50%; */
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 20px;
+  border: 1px solid yellow;
+}
+
+.iphone-img {
+  border: 1px solid blue;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px;
+  border: 1px solid violet;
+}
+
+
+.btn-login {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(
+    0deg,
+    #356185 0%,
+    #4883b6 100%
+  );
+  padding: 8px;
+  border-radius: 2px;
+  outline: none;
+  border: 1px solid #06365f;
+}
+
+.btn-login a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  padding: 0 5px;
+}
+
+.main-info {
+  background-image: url(/images/frame.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 30px 40px;
+  margin: 20px;
+  border: 1px solid green;
+}
+
+h1 {
+  color: #1c5380;
+  font-size: 1.5rem;
+  /* width: 70%; */
+}
+
+.download-btn > img {
+  margin-right: 10px;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 40px;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.footer-items {
+  text-transform: uppercase;
+}
+
+.footer-items a {
+  text-decoration: none;
+  color: #06365f;
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 0 2px;
+  margin-right: 10px;
+}
+
+.footer-copyright {
+  color: #929292;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+@media (max-width: 320px) {
+  body {
+    font-size: 32px;
+  }
+
+  .section {
+    flex-direction: column-reverse;
+  }
+  .main-info {
+    background-size: cover;
+  }
+  header {
+    justify-content: space-around;
+  }
+  footer {
+    flex-direction: column;
+  }
+  .footer-items {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 93px;
+    width: 130px;
+  }
 }
