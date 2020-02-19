@@ -151,11 +151,16 @@ h1{
   padding: 10px;
   font-weight: bold;
   font-size: 10px;
-
-  
 }
 
+.bottomLinks{
+  display: flex;
+}
 
+.div2{
+  display: flex;
+  align-items: center;
+}
 
 /*media specifications*/
 
