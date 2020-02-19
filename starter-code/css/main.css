@@ -8,3 +8,160 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.div1 {
+  background-image: url(/lab-css-instagram-clone/starter-code/images/bgtile.png);
+  height: 350px;
+  display: flex;
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  justify-content: space-evenly;  
+}
+
+.div-text {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  padding-top: 150px;
+  margin-right: 200px;
+}
+
+.phone {
+  padding-top: 150px;
+  margin-left: 100px;
+  height: 550px;
+} 
+
+.div-title {
+  background-image: url(/lab-css-instagram-clone/starter-code/images/frame.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 550px;
+  text-align: left
+}
+
+.title {
+  color: #06365f;
+  font-weight: 600;
+  padding-left: 30px;
+  width: 325px;
+}
+
+.text {
+  padding-left: 30px;
+  width: 500px;
+  color: #06365f;
+  font-weight: 400;
+}
+
+.div-store {
+  width: 500px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.store {
+  width: 200px;
+}
+
+.play {
+  padding-right: 50px;
+}
+
+ul {
+  list-style-type: none;
+  margin-top: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.div-logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.div-home {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1c5380;
+  border: #06365f 1px solid;
+  width: 80px;
+  padding: 10px;
+}
+.button {
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+}
+li {
+  text-transform: uppercase;
+  color: #1c5380;
+  padding: 0 10px;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.copy {
+  font-size: 12px;
+  padding-top: 5px;
+  color: lightslategray;
+} 
+
+
+@media (max-width: 600px) {
+ 
+  .div1{
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+  }
+  .phone {
+    padding-top: 0px;
+    margin-left: 0px;
+    height: 300px;
+  } 
+  .title {
+    color: #06365f;
+    font-weight: 600;
+    padding-left: 30px;
+    width: 325px;
+  }
+  
+  .text {
+    padding: 0px;
+  }
+  
+  .div-store {
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .div-text{
+    padding-top: 0px;
+    margin-right: 0px;
+    margin-top: 140%;
+  }
+  .last{
+    display: flex;
+    flex-direction: column;
+    margin-top: 60%;
+  }
+  .last > ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .copy{
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
+}
+
+
+
