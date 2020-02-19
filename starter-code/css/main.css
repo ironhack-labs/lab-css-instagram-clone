@@ -4,7 +4,207 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+
+
+/*GENERAL SPECIFICATIONS*/
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url(../images/bgtile.png);
+  background-repeat: repeat-x ;
+  
 }
+
+p{
+  font-size: 18px;
+}
+
+h1{
+  color: #06365f;
+}
+
+
+
+
+/*DIV 1 SEC 1 SPECIFICATIONS*/
+
+.div1{
+  display: flex;
+  justify-content: space-around;
+  justify-content: start;
+ 
+  padding-top: 100px;
+}
+
+
+.appOnCellphone{
+  width: 99%;
+  margin-right: 30px;
+  
+}
+
+
+/*DIV 1 SEC 2 SPECIFICATIONS*/
+.section2{
+  display:flex;
+  flex-direction: column;
+}
+
+.imageAndButton{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+.imgInstagramLogo{
+  width: 60%;
+}
+
+.imgHome{
+  width: 25px;
+  height: 25px;
+}
+
+.logInButton{
+  color:white;
+  background-color: rgba(0,0,0,0);
+  border: none;
+  font-weight: bold;
+  font-size: 15px;
+  
+}
+
+.div1-sec2-loginButton{
+  background: linear-gradient(rgb(101, 137, 190) ,#3F678C );
+  background-repeat: no-repeat;
+  width: 93px;
+  height: 27px;
+  border: 2px solid rgba(5, 22, 59, 0.116);
+  border-radius: 2px;
+  margin-left: 20px;
+  
+  
+ 
+
+  display:flex;
+  justify-content: space-around;
+  padding: 5px 0px;
+  align-items: center;
+  
+  
+}
+
+.divTexts{
+  display: flex;
+  flex-direction: column;
+  background-image: url(../images/frame.png);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 87% 100%;
+  padding: 20px 0px 40px 20px;
+  margin: 20px 0px 0px 40px;
+  width: 500px;
+  border-radius: 7px;
+}
+
+.divTexts p{
+  font-size: 15px;
+  width: 400px;
+}
+
+.divTexts h1{
+  width: 250px
+}
+
+ .downloadButtons{
+   display: flex;
+   justify-content: center;
+
+ }
+
+.imgDownloadIphone{
+  padding-right: 20px;
+}
+
+/*DIV 2 SPECIFICATIONS*/
+
+.links{
+  padding-top: 30px;
+  padding-bottom: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.links p a{
+  
+  color:#1c5380;
+  text-decoration: none;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 10px;
+
+  
+}
+
+
+
+/*media specifications*/
+
+@media (max-width: 770px) {
+  .div1 {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    align-content: space-around;
+   
+    padding-top: 100px;
+    
+  }
+
+  .appOnCellphone{
+    width: 60%;
+    padding-left: 70px;
+    padding-top: 40px;
+  }
+
+  .bottomLinks{
+    display: flex;
+  }
+  
+
+  .links{
+    padding-top: 30px;
+    padding-bottom: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .links p a{
+    
+    color:#1c5380;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 10px;
+  }
+
+
+}
+  
+
+
+
+
+
+
