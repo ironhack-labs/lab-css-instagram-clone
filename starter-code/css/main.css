@@ -7,15 +7,12 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 100px auto;
-  background-image: url(/images/bgtile.png);
+  background-image: url(../images/bgtile.png);
   background-repeat: repeat-x;
   width: 900px;
   height: 1000px;
 }
 
-/* a {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-} */
 
 h1,
 h2,
@@ -28,24 +25,15 @@ h6 {
 }
 
 .section {
-  /* width: 75vw; */
-  /* margin: 60px auto 40px auto; */
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  border: 1px solid red;
 }
 
 .main {
-  /* width: 50%; */
   flex-direction: column;
   justify-content: space-between;
   margin: 20px;
-  border: 1px solid yellow;
-}
-
-.iphone-img {
-  border: 1px solid blue;
 }
 
 header {
@@ -53,7 +41,6 @@ header {
   align-items: center;
   justify-content: space-between;
   margin: 20px;
-  border: 1px solid violet;
 }
 
 
@@ -80,18 +67,16 @@ header {
 }
 
 .main-info {
-  background-image: url(/images/frame.png);
+  background-image: url(../images/frame.png);
   background-repeat: no-repeat;
   background-size: contain;
   padding: 30px 40px;
   margin: 20px;
-  border: 1px solid green;
 }
 
 h1 {
   color: #1c5380;
   font-size: 1.5rem;
-  /* width: 70%; */
 }
 
 .download-btn > img {
