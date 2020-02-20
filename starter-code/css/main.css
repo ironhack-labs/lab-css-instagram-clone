@@ -7,4 +7,134 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;
+  font-size: 10px;
+
 }
+
+section {
+  /* background-color: rgb(215, 227, 241); */
+  height: 60%;
+  padding-top: 7%;
+
+}
+
+.div-master {
+  display: flex;
+  flex-direction: row;
+}
+
+.phone-photo {
+padding: 0 14%;
+}
+
+.phone-photo img {
+  width: 110%;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 70%;
+  padding-bottom: 5%;
+}
+
+#logo {
+  width: 60%;
+}
+
+.btn button {
+ padding: 15px 15px 15px 40px;
+  background: rgb(60,105,143);
+background: linear-gradient(5deg, rgba(60,105,143,1) 48%, rgba(108,143,170,1) 100%);
+  color: white;
+  border: 0.05rem solid #1c5380;
+  border-radius: 2px;
+  box-shadow: 0px 0px 17px -1px rgba(0,0,0,0.12);
+  
+}
+
+.btn img {
+    position: absolute;
+    padding: 10px 0px 0px 10px;
+    
+}
+
+.text {
+  padding: 13px 60px;
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+font-size: 1.1rem;
+line-height: 1.5rem;
+font-weight: 400;
+}
+
+.text h3 {
+  font-size: 1.7rem;
+  line-height: 2rem;
+  width: 55%;
+  color:#1c5380;
+}
+
+.text p {
+  width: 400px;
+
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: auto;
+  padding-top: 2%;
+}
+
+.footer li {
+  list-style: none;
+  font-weight: 600;
+  color: #1c5380;
+}
+
+.footer ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 40%;
+  font-size: 1rem;
+}
+
+.footer p {
+  color: grey;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+
+/* Responsividade */
+
+ @media (max-width: 650px) {
+ .div-master {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  padding-left: 13%;
+ }
+
+ .phone-photo img {
+
+ }
+ .footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ }
+
+ .footer ul {
+  display: flex;
+  flex-direction: column;
+ }
+ 
+} 
