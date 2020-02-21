@@ -7,4 +7,116 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url(../images/bgtile.png);
+  background-position: top;
+  background-repeat: repeat-x;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-box {
+  margin: 120px 120px 0 120px;
+  display: flex;
+  height: 512px;
+}
+
+.header-text {
+  width: 450px;
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 510px;
+
+}
+
+header button {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-decoration: none;
+  background-color: #668EB1;
+  width: 120px;
+  height: 50px;
+
+  color: rgb(230, 230, 230);
+  font-weight: 600;
+  font-size: 20px;
+  border-radius: 5px;
+  box-shadow: 3px 5px rgba(54, 54, 54, 0.575);
+  font-size: 18px;
+  margin-left: 100px;
+}
+
+
+.text-content {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 30px 40px;
+  background-image: url(../images/frame.png);
+  background-size: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+
+.text-content h1 {
+  text-align: left;
+  font-size: 24px;
+  color: #1c5380;
+  font-weight: 600;
+  width: 250px;
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+
+.app-buttons {
+  margin-top: 15px;
+  display: flex;
+
+}
+
+.app-buttons > img {
+  margin: 0 15px;
+}
+
+
+footer > ul {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 60px 0;
+  list-style: none;
+  
+}
+
+ul > li {
+  text-decoration: none;
+  padding: 0 10px;
+  
+}
+
+ul > li,a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #06365f;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+#copyright {
+  color: grey;
 }
