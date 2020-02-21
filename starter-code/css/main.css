@@ -7,4 +7,125 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+
+  background-image: url("/starter-code/images/bgtile.png");
+  background-repeat: repeat-x;
+  background-attachment: fixed;
+  background-position: top;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  background-color:transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 700px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 130px;
+}
+
+aside img{
+  height: 435px;
+}
+
+section {
+  width: 400px;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header img {
+  width: 256px;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 90px;
+  border: 1px solid #06365f;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #06365f;
+  padding: 10px 10px;
+  font-weight: 700;
+  cursor: pointer;
+  /*For making the gradiant texture*/
+  background: linear-gradient(to bottom, #93cede 0%, #75bdd1 41%, #50789a 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#93cede', endColorstr='#50789a', GradientType=0 ); 
+}
+
+button img {
+  width: 20px;;
+}
+
+article {
+  margin-top: 15px;
+  padding: 15px 35px;
+  width: 330px;
+
+  background-image: url("/starter-code/images/frame.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  /* For making the side blurs without using the frame, using box-shadow instead:*/:
+  /* box-shadow: -70px -70px 6px -70px rgba(142, 142, 142, 0.5), 70px -70px 6px -70px rgba(142, 142, 142, 0.5); */
+  /* background-color: #fff; */
+}
+
+h1 {
+  color: #1c5380;
+  font-size: 22px;
+  font-weight: 600;
+
+  width: 225px;
+}
+
+p {
+  font-size: 12px;
+}
+
+#stores {
+  margin-top: 30px;
+}
+
+#stores img {
+  width: 130px;
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #50789a;
+  margin-right: 8px;
+}
+
+footer {
+  padding-top: 60px;
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: 800;
+}
+
+#copy-right {
+  opacity: 0.25;
 }
