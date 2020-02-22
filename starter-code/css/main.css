@@ -11,65 +11,99 @@ body {
 
 #container-blue {
   background-color: #1c5380;
-  height: 350px;
+  height: 250px;
+  position: relative;
 }
 
 /* Main content */
 
 #container-white {
-  background-color: #fff;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 60px;
+  position: absolute;
+  bottom: 0;
+  top: 80px;
+  right: 0;
+  left: 0;
+}
+
+@media (min-width: 768px) {
+  #container-white {
+    flex-direction: row;
+  }
+}
+
+.content {
+  padding: 35px;
+  box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  width: 520px;
+  margin-top: 25px;
+}
+
+.telephone-container {
+  margin-right: 60px;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.button {
+  background-color: #517b9f;
+  width: 100px;
+  border-color: #2b5a82;
+  color: white;
+  font-size: medium;
+  display: flex;
+  align-items: center;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.home-icon {
+  height: auto;
+  margin-right: 15px;
+}
+
+.downloads {
+  margin-top: 40px;
+}
+
+.apple-down {
+  margin-right: 15px;
 }
 
 h2 {
   color: #06365f;
   font-weight: bold;
-}
-
-.logo {
-  background-color: violet;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.button {
-  background-color: #1c5380;
-  width: 100px;
-  color: white;
-  font-size: medium;
-}
-
-.home-icon {
-  width: 30px;
-  height: 20px;
-}
-
-.content {
-  background-color: turquoise;
-  width: 34%;
+  margin: 0;
 }
 
 p {
   font-weight: bolder;
 }
 
-.downloads {
-  background-color: red;
-  display: flex;
-}
-
-/* Telephones */
-
-.telephone-container {
-  display: flex;
-  background-color: gray;
-}
-
 /* Footer */
 
 .information {
   width: 100%;
+  height: 80vh;
   margin-bottom: 40px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
 }
 
 .information > ul {
