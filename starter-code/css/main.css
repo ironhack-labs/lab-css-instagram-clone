@@ -21,8 +21,9 @@ body {
 .firstdiv {
   display: flex;
   justify-content: flex-start;
-  padding: 80px 40px 50px 80px;
+  padding: 80px 0px 50px 80px;
 }
+
 .seconddiv {
   display: flex;
   flex-direction: column;
@@ -34,15 +35,21 @@ body {
 .text {
   background-image: url("../images/frame.png");
   background-repeat: no-repeat;
-  padding: 20px;
+  background-size: 550px;
+  padding: 10px 50px 0 50px;
   width: 92%;
+  border: 80px;
+  font-size: 15px;
 }
 
 ul {
   list-style: none;
   display: flex;
-  justify-content: space-evenly;
-  text-align: center;
+  justify-content: center;
+}
+
+li {
+  margin: 10px;
 }
 
 .logo {
@@ -50,6 +57,7 @@ ul {
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  margin: 20px;
 }
 
 a {
