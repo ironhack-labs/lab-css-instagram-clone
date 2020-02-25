@@ -1,0 +1,150 @@
+@media only screen and (min-width: 601px) {
+
+* {margin: 0 auto;}
+
+body {
+    
+    width: 80%;
+    height: 100%;
+    margin: 20px auto;
+    
+    box-sizing: border-box;
+    font: 200 16px/1.5 
+        "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+   
+}
+
+/* logo y log in */
+header {
+    width: 100%;
+    height: 300px;
+    
+    background-color:steelblue;
+}
+header .logo {
+    
+    position: relative;
+    top: 120px;
+    left: 550px;
+    
+}
+
+header button {
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    background-color: #2353;
+    
+    border: 2px outset;
+    padding: 5px 10px;
+    
+    float:right;
+    position: relative;
+    top: 140px;
+    right: 80px;
+    
+}
+
+button:hover {cursor: pointer;}
+
+/* section con texto e imagenes */ 
+
+section div {
+    display: flex;
+    flex-direction: column;
+    
+    margin-top: 10px;
+}
+
+section h2 {color: #06365f;} 
+
+
+/* contenido del div con el texto */
+.cuadro {
+    background-color: white;
+    width: 350px;
+    height: auto;
+    text-align: justify;
+    
+    border: 1px solid grey;
+    padding: 15px 15px 10px 15px;
+    z-index: 1;
+
+    position: relative;
+    bottom: 80px;
+    
+} 
+
+
+/* IMAGEN DEL CELULAR ////////////////////////////////////////// */
+.celular {
+    width: 300px;
+    height: auto;
+    float: left;
+    z-index: 1;
+    
+    position: relative;
+    margin: 0 120px;
+    bottom: 180px;
+}
+
+
+/* logos abajo del texto */
+div p {padding-top: 15px;}
+div .txt-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+    padding-bottom: 5px;
+}
+
+
+/* toda la parte del fondo ; */ 
+footer {
+    width: 100%;
+    
+    display: flex; 
+    position: relative;
+    bottom: 120px;
+   
+}
+footer ul {
+    width: 100%;
+    height: 20%;
+    
+    font-size: 0.5em;
+    text-transform:uppercase;
+    font-weight: bold;
+    font-weight: 900;
+    color: #1c5380;
+    
+    display: flex;
+    list-style: none;
+    justify-content:flex-start;
+}
+footer ul li a{
+    text-decoration: none;
+
+}
+
+
+
+
+
+footer span {
+    width: 20%;
+    height: 20%;
+    
+    text-align: center;
+    text-transform:uppercase;
+    font-size: 0.5em;
+    font-weight: bold;
+    font-weight: 900;
+    color: gray;
+    
+    margin-top: 8px;
+}
+
+
+}
