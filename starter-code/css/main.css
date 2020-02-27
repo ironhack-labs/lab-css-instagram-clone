@@ -3,6 +3,12 @@ body {
 	margin: 0;
 	background: url(../images/bgtile.png);
 	background-repeat: repeat-x;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
 }
 
 
@@ -13,12 +19,13 @@ body {
 	flex-wrap: nowrap;
 	justify-content: space-around;
 	align-items: center;
-	margin: 150px;
+	margin: 100px;
 	margin-bottom: 40px;
 }
 
 .sec1-block-right {
-	width: 500px;	
+	width: 500px;
+	margin-left: 100px;
 }
 
 .sec1-top {
@@ -33,21 +40,25 @@ body {
 }
 
 .sec1-top button {
-	width: 90px;
-	height: 40px;
+	width: 100px;
+	height: 45px;
 	border-radius: 5px;
+	background-color: #3871a0;
+	border: 2px solid rgba(0, 0, 0, 0.185);
+}
+
+.sec1-top a {
+	font-size: 15px;
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	font-weight: bold;
+	color: rgb(216, 216, 216);
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-items: center;
-	background-color: #1c5380;
-	color: white;
-	font-weight: bold;
-}
-
-.sec1-top button a {
-	font-family: 'Roboto', sans-serif;
+	align-content: center;
 }
 
 .sec1-mid {
@@ -150,3 +161,124 @@ span {
 	color: gray;
 	font-size: 12px;
 }
+
+/* RESPONSIVE DESIGN */
+@media only screen and (max-width: 650px) {
+	body {
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 650px) {
+	.section1 {
+		margin: 30px 110px 0px 0px;
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 650px) {
+	.sec1-top {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: nowrap;
+		justify-content: center;
+		align-items: center;
+		align-content: center;
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 650px) {
+	.section2 nav {
+		margin-bottom: 20px;
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 650px) {
+	.section2 nav ul {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: stretch;
+		align-content: center;
+	}
+}
+
+@media only screen and (max-width: 650px) {
+	.section2 nav ul li {
+		list-style-type: none;
+		background-color: #1c5380;
+		border-top: 0.5px solid white;
+		width: 100%;
+		height: 50px;
+		display: flex;
+		flex-direction: column;
+		flex-wrap: nowrap;
+		justify-content: center;
+		align-items: center;
+	}
+}
+
+@media only screen and (max-width: 650px) {
+	.section2 nav ul li a { 
+		font-size: 15px;
+		color: white;
+	}
+}
+
+@media only screen and (max-width: 650px) {
+	.sec1-bottom { 
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		align-content: center;
+		margin: 0px;
+		padding: 0px;
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 650px) {
+	.sec1-bottom img { 
+		margin: 20px 20px 0px 20px;
+	}
+}
+
+/* @media only screen and (max-width: 650px) {
+	.sec1-bottom img a { 
+		margin: 0px;
+	}
+} */
+
+@media only screen and (max-width: 650px) {
+	.section2 {
+		margin: 0px;
+		padding: 0px;
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+	}
+}
+
+
+
+
+
+/* HIDDEN */
+@media only screen and (max-width: 650px) {
+	.responsive-hide {
+		display: none;
+	}
+}
+
+
+
+/*
+Colors to use:
+dark blue: #06365f
+light blue: #1c5380
+*/
