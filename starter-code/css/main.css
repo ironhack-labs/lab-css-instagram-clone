@@ -57,7 +57,7 @@ body {
 
 #header {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
 }
 
@@ -112,14 +112,23 @@ footer div a {
   .footer-items {
     display: flex;
     flex-direction: column;
-
-
+  }
+  #main-box {
+    padding-top: 80px;
+  }
+  #information {
+    margin-top: 100px;
+  }
+  #text-box {
+    margin-top: 50px;
   }
   #footer-links {
     display: flex;
     justify-content: space-evenly;
   }
-
+  #phone {
+    margin-top: 50px;
+  }
   
 }
 
