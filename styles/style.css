@@ -8,3 +8,131 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+a {
+  text-decoration: none;
+}
+/*-----------------------TOOLS------------------------*/
+.container-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 5rem;
+  width: 50vw;
+}
+/*-----------------------TOP------------------------*/
+.top {
+  background-image: url(../images/bgtile.png);
+  height: 40vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.top__image {
+  background-image: url(../images/brand.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 30vw;
+  height: 15vh;
+}
+
+.top__btn-login {
+  border-color: 2px solid rgb(16, 66, 128);
+  border-radius: 3px;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(73,115,151,1) 0%, rgba(112,146,174,1) 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0.5em;
+  background-color: rgb(104, 112, 201);
+}
+
+.top__btn-login img {
+  height: 5vh;
+}
+
+.top__btn-login p {
+  color: azure;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.2em;
+  margin: 0.2em;
+}
+/*-----------------------BOT------------------------*/
+.bot {
+  height: 60vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#description {
+  flex-direction: column;
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border: none;
+  height: 40vh;
+  width: 43vw;
+  margin-top: -13em;
+  padding: 1em 2em;
+  align-items: flex-start;
+}
+
+.article__text h1 {
+  color: #06365f;
+  margin-top: 3sem;
+}
+
+.article__container-btns {
+  display: flex;
+  flex-direction: row;
+  width: 35vw;
+}
+
+.article__btn {
+  width: 40vw;
+  height: 10vw;
+  background-repeat: no-repeat;
+}
+
+#ios {
+  background-image: url(../images/badge-iphone.png);
+}
+
+#android {
+  background-image: url(../images/badge-android.png);
+}
+
+/*-----------------------PHONES IMAGE------------------------*/
+.phone-img {
+  background-image: url(../images/phones.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 80vh;
+  width: 35vw;
+  position: absolute;
+  top: 15vh;
+  left: 15vw;
+}
+/*-----------------------FOOTER------------------------*/
+
+.footer {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer li {
+  margin: 0 0.3em;
+  color: #06365f;
+  font-size: 0.8em;
+  font-weight: 900;
+}
+
+#copy {
+  color: lightgray;
+}
