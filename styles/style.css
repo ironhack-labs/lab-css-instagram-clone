@@ -2,9 +2,96 @@
 Colors to use:
 dark blue: #06365f
 light blue: #1c5380
+background blue: #3A6790 // rgb(58,103,144)
 */
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+.background {
+  height: 40vh;
+  background: linear-gradient(to top, rgba(58,103,144,1), rgba(58,103,144,0.7));
+}
+
+/* Container */
+
+.container {
+  padding: 15vh 15vh 10vh;
+  display: flex;
+}
+
+.mobile {
+  margin-right: 8vh;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.brand {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  align-items: center;
+}
+
+.login {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  border: 1px solid #3A6790;
+  border-radius: 2px;
+  box-shadow: 1px 1px 1px 1px #3A6790;
+  background: linear-gradient(to top, rgba(58,103,144,0.8), rgba(58,103,144,0));
+  height: 25px;
+  padding: 10px;
+  margin-right: 20px;
+}
+
+.login img {
+  padding-right: 5px;
+}
+
+.present {
+  background-image: url(/images/frame.png);
+  background-size: cover;
+  padding: 20px 40px;
+}
+
+.moments h2 {
+  color: #06365f;
+}
+
+.apps {
+  margin-top: 30px;
+}
+
+.apps img {
+  margin-right: 15px;
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #1c5380;
+  padding: 0 10px;
+}
+
+footer p {
+  color: lightslategray;
+  margin-left: 20px;
 }
