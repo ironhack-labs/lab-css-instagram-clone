@@ -18,13 +18,10 @@ body {
 }
 .main-flow{
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
 }
 .main-content{
   margin: 50px;
-  float: left;
-  vertical-align: top;
 }
 
 .flex-colum-start{
@@ -45,7 +42,7 @@ body {
   text-transform: uppercase;
   color: #3a678f;
   font-weight: bold;
-  font-size: -3em;
+  font-size: small;
 }
 .footer ul{
   list-style: none;
