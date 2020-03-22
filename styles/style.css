@@ -5,46 +5,87 @@ light blue: #1c5380
 */
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 200 16px/1.5 'Montserrat','Helvetica Neue', Helvetica, Arial, sans-serif;
   margin: 0;
   background-image: url(../images/bgtile.png);
   background-repeat: repeat-x;
   padding: 70px;
 }
-.flex-row-space-bt{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
 .main-flow{
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
+  width: max-content;
 }
-.main-content{
-  margin: 50px;
-}
-
-.flex-colum-start{
+.content{
+  margin-left: 50px;
+  margin-top: 15px;
+  width: 504px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
 }
-.flex-row-center{
+.logoLogIn{
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;  
 }
+.logIn{
+  margin-right: 4px;
+  background: linear-gradient(#b6d7f8, #1c5380);
+  border: 2px solid #1c5380;
+  border-radius: 5px;
+  padding: 5px;
+  height: max-content;
+  width: max-content;
+}
+.logIn img{
+  margin-right: 5px;
+  float: left;
+  width: 25px;
+  height: 25px;
+}
+.logIn span{
+  width: 40px;
+  height: 40px;
+  color: white;
+  vertical-align: middle;
+  font-weight: bold;
+}
+.roundedBox{
+  padding: 5px 30px;
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+}
+.roundedBox h1{
+  color: #06365f;
+  font-size: 2em;
+}
+
 .appButton{
-  width: 250px;
-  margin: 10px;
+  width: 200px;
+  height: 63px;
+  margin: 0 10px 0 0;
 }
 .footer{
+  margin-top: 50px;
+  width: 876px;
   text-transform: uppercase;
   color: #3a678f;
   font-weight: bold;
   font-size: small;
 }
-.footer ul{
+.footer-menu{
   list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.footer-menu li{
+  margin: 0 10px 0 10px;
+}
+.copy{
+  color: grey;
 }
 
