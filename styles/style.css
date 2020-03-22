@@ -4,7 +4,104 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+.tile {
+  background-image: url("/home/claudi/Ironhack/labs/lab-css-instagram-clone/images/bgtile.png");
+  height: 20vw;
+
+
+}
+
+.phones {
+  position: relative;
+  height: 35vw;
+  top: -13vw;
+  left: 20vw;
+}
+
+.brand {
+  position: relative;
+  left: 46vw;
+  top: 10vw;
+}
+
+.btn {
+  background-color: #1c5380;
+  border:1px solid #06365f;
+  border-radius: 2px;
+  color: white; /* White text */
+  padding: 12px 16px; /* Some padding */
+  font-size: 16px; /* Set a font size */
+  cursor: pointer; /* Mouse pointer on hover */
+  position: relative;
+  left: 55vw;
+  top: 8vw;
+}
+
+.home {
+  position: relative;
+  top: 0.2vw;
+  left: -0.5vw;
+}
+
+main {
+  height: 27vw;
+}
+
+.valuep {
+  width: 29.9vw;
+  padding-left: 35px;
+  background-color: white;
+  border-width: 2px;
+  border-style: solid;
+  border-image: 
+    linear-gradient(
+      to bottom, 
+      #1c5380, 
+      white
+    ) 1 100%;
+    border-radius: 7px;
+  position: relative;
+  left: 46.2vw;
+  top: -39vw;
+}
+
+.title {
+  color: #06365f;
+}
+
+
+
+.gplay {
+  position: relative;
+  left: 1vw;
+}
+
+footer {
+  width: 50vw;
+  position: relative;
+  left: 24vw;
+}
+
+.links {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.an {
+  font-weight: bold;
+  text-decoration: none;
+  color: #1c5380;
+}
+
+.copy {
+  color: gainsboro;
+  font-weight: bold;
 }
