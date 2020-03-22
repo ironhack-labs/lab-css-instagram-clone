@@ -1,10 +1,100 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  margin: 5%;
+  padding: 80px;
+  height: 100%;
+  background-image: url("../images/bgtile.png");
+  background-repeat: no-repeat;
+  background-size: 100% 340px;
+}
+
+/* SECTION LEFT */
+
+#phones {
+  float: left;
+  margin-left: 22%;
+}
+
+/* SECTION RIGHT */
+
+section {
+  width: 32%;
+  padding-right: 22%;
+  float: right;
+}
+
+#instagram {
+  vertical-align: middle;
+  margin-right: 17%;
+}
+
+button {
+  padding: 8px;
+  width: 18%;
+  background: linear-gradient(#6E92B0, #06365f);
+  color: white;
+  border-radius: 3px;
+  border-color: #1c5380;
+  font-weight: bold;
+}
+
+button a {
+  text-decoration: none;
+  color: white;
+}
+
+button img {
+  vertical-align: middle;
+  margin-right: 4px;
+}
+
+h1 {
+  color: #06365f;
+}
+
+.box {
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  padding: 15px 20px;
+}
+
+#apps {
+  padding: 0 20px;
+}
+
+#apps img {
+  margin: 0 10px;
+}
+
+/* SECTION FOOTER */
+
+nav {
+  clear: both;
+  text-align: center;
+}
+
+nav ul {
+  padding-top: 2%;
+}
+
+nav li {
+  display: inline;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+nav li a {
+  text-decoration: none;
+  color: #1c5380;
+}
+
+nav li a:hover {
+  
+  color: #06365f;
+}
+
+.copyright {
+  color: grey;
 }
