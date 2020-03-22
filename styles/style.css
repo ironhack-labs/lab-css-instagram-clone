@@ -41,7 +41,7 @@ body main #core-content .sideblock-right .top-block {
   flex-flow: row nowrap;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 body main #core-content .sideblock-right .top-block .top-block-right a {
@@ -121,7 +121,7 @@ body main #home-footer ul.links-list {
 body main #home-footer ul.links-list li a {
   text-transform: uppercase;
   padding: 0 10px;
-  color: #1c5380;
+  color: rgba(28, 83, 128, .9);
 }
 
 body main #home-footer ul.links-list li.grey {
