@@ -1,5 +1,4 @@
 /*
-Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
@@ -7,4 +6,85 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+header {
+  background-image: url("../images/bgtile.png");
+  height: 300px;
+}
+
+.iphone {
+  float: left;
+  padding-left: 100px;
+}
+
+.content {
+  display: flex;
+
+}
+
+.home {
+  border: solid 1px;
+  height: 30px;
+  color: white;
+  font-weight: bolder;
+  padding: 5px;
+  border-radius: 4px;
+  background-image: linear-gradient(white, #1c5380);
+  display: flex;
+  align-items: center;
+}
+
+.text {
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  display: flex;
+}
+
+.text h2 {
+  color: #06365f;
+  font-weight: 550;
+  display: flex;
+}
+
+.text article {
+  
+}
+
+.logos {
+  display: flex;
+  list-style-type: none;
+}
+
+.logos ul {
+  flex-direction: row;
+  display: flex;
+}
+
+.logos li {
+  margin: 10px;
+}
+
+footer {
+  clear: left;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+footer ul {
+  flex-direction: row;
+  list-style-type: none;
+  display: flex;
+}
+
+footer li {
+  margin: 10px;
+  color: #1c5380;
+  font-weight: bold;
+}
+
+.copyright {
+  opacity: 0.3;
+  color: grey;
 }
