@@ -8,3 +8,125 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+a {
+  text-decoration: none !important;
+}
+
+/*HEADER*/
+
+body main .grey-background {
+  background-image: url('../images/bgtile.png');
+  height: 280px;
+  background-repeat: repeat-x;
+}
+
+/*END HEADER*/
+/*CORE CONTENT*/
+
+body main #core-content {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row nowrap;
+  margin-top: -180px;
+}
+
+body main #core-content .sideblock-left {
+  margin-right: 50px;
+}
+
+body main #core-content .sideblock-right .top-block {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+body main #core-content .sideblock-right .top-block .top-block-right a {
+  background: linear-gradient(#7c9cb9, #457298);
+  padding: 9px 13px;
+  color: rgba(255,255,255,.9);
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 3px;
+  border: 1px solid #305d86;
+  box-shadow: 0 0 10px 5px rgb(55, 99, 137);
+  font-weight: 500;
+  font-size: .9em;
+}
+
+body main #core-content .sideblock-right .top-block .top-block-right a img {
+  margin-right: 8px;
+}
+
+body main #core-content .sideblock-right .bottom-block {
+  background-image: url('../images/frame.png');
+  background-repeat: no-repeat;
+  background-size: 101%;
+  padding: 40px 56px 40px 50px;
+}
+
+body main #core-content .sideblock-right .bottom-block .bottom-block-text h1 {
+  color: #06365f;
+  margin-top: 0;
+  font-size: 1.65em;
+  line-height: 1.3em;
+}
+
+body main #core-content .sideblock-right .bottom-block .bottom-block-text p {
+  font-weight: 400;
+}
+
+body main #core-content .sideblock-right .bottom-block .store-buttons {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 23px;
+}
+
+body main #core-content .sideblock-right .bottom-block .store-buttons a {
+  display: block;
+}
+
+body main #core-content .sideblock-right .bottom-block .store-buttons a:first-child {
+  margin-right: 20px;
+}
+
+/*END MAIN CONTENT*/
+/*FOOTER*/
+
+body main #home-footer {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+body main #home-footer ul.links-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  font-weight: 800;
+  font-size: 0.8em;
+  text-transform: uppercase;
+}
+
+body main #home-footer ul.links-list li a {
+  text-transform: uppercase;
+  padding: 0 10px;
+  color: #1c5380;
+}
+
+body main #home-footer ul.links-list li.grey {
+  color: #ccc6c6;
+  padding: 0 0 0 20px;
+}
+
+/*END FOOTER*/
