@@ -4,7 +4,108 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
-body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
   margin: 0;
 }
+body {
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+/* ---------------------------------- TOOLS --------------------------------- */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* ---------------------------------- TOOLS --------------------------------- */
+
+
+/* ------------------------------ MAIN/SECTION ------------------------------ */
+
+main {
+  background: rgb(58,104,144);
+  background: linear-gradient(180deg, rgba(58,104,144,1) 0%, rgba(31,57,79,1) 100%);
+  background-size: 100% 39%;
+  background-repeat: no-repeat;
+  
+}
+/* Section */
+#content {
+  padding: 5vw 0;
+}
+#phones {
+  padding-right: 5em;
+}
+
+#content > article {
+  flex-direction: column;
+}
+#logo-button {
+  width: 100%;
+  justify-content: space-between;
+}
+#login-button a {
+  text-decoration:none;
+}
+button {
+  display: flex;
+  align-items: center;
+  height: 2vw;
+  border-radius: 5px;
+  border-color: rgb(55, 97, 134);
+  background: rgb(53, 100, 138);
+  background:  linear-gradient(180deg, rgba(58,104,144,1) 0%, rgba(31,57,79,0.8) 100%);
+  color: white;
+  font-weight: 700;
+  padding-right: 1em;
+}
+#home-button {
+  padding-right: 1.2em;
+}
+/* Text Zone */
+#text-zone {
+  background-image: url(/images/frame.png);
+  background-repeat: no-repeat;
+  border-radius: 8px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1vw 2vw;
+}
+#text-zone h1 {
+  color: #06365f;
+  font-size: 1.6em;
+  padding: 0.5em 0 0.5em 0;
+}
+#text-zone p {
+  line-height: 1.4em;
+  padding: 0.5em 0;
+}
+/* Download icons */
+#dw-icons {
+  width: 100%;
+  justify-content: flex-start;
+  padding: 0 1vw;
+}
+#dw-icons div {
+  padding: 0 1vw;
+}
+/* ------------------------------ MAIN/SECTION ------------------------------ */
+
+/* --------------------------------- FOOTER --------------------------------- */
+footer ul{
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0 30vw;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #1c5380;
+}
+#copy {
+  color: lightgray;
+}
+/* --------------------------------- FOOTER --------------------------------- */
