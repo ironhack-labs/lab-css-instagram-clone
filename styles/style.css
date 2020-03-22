@@ -62,6 +62,7 @@ button {
   color: white;
   font-weight: 700;
   padding-right: 1em;
+  cursor: pointer;
 }
 #home-button {
   padding-right: 1.2em;
@@ -92,6 +93,9 @@ button {
 }
 #dw-icons div {
   padding: 0 1vw;
+}
+#dw-icons a {
+  cursor: pointer;
 }
 /* ------------------------------ MAIN/SECTION ------------------------------ */
 
