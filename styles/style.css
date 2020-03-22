@@ -46,13 +46,13 @@ main {
   display: flex;
   flex-direction: column;
   background-position: top;
+  width: 800px;
 }
 
 .text h2 {
   color: #06365f;
   font-weight: 550;
   display: flex;
-  width: 250px;
   align-self: center;
 }
 
