@@ -6,5 +6,112 @@ light blue: #1c5380
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;
   margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+.main-container{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.phone{
+  height: 400px;
+  margin-right: 50px;
+}
+
+.container-info{
+  width: 500px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container-info header{
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+	justify-content: space-between;
+  align-items: center;
+}
+
+.instagram-logo{
+  width: 300px;
+}
+
+section{
+  background: url(../images/frame.png);
+  background-repeat: no-repeat;
+  margin-top: 30px;
+  border-radius: 5px;
+  font-size: .7em;
+}
+
+section h2{
+  color: #06365f;
+  font-size: 2em;
+  padding-left: 30px;
+}
+
+section p{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+figure{
+  padding: 0 30px;
+  margin-top: 30px;
+  margin-left: 0;
+}
+
+.button{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  text-decoration: none;
+  padding: 6px 15px;
+  border: 1px solid #06365f;
+  border-radius: 2px;
+  background-color: #1c5380;
+  color: white;
+}
+
+.button img{
+  margin-right: 6px;
+}
+
+footer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: .7em;
+  margin: 40px 0;
+}
+
+ul{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+a{
+  color: #06365f;
+  text-decoration: none;
+}
+
+li{
+  margin: 8px;
 }
