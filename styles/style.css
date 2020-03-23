@@ -3,8 +3,138 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+* {
+  margin: 0;
+  padding: 0;
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url("/home/patylla/Documentos/bootcamp-wemad-0320/week1_day1/lab-css-instagram-clone/images/bgtile.png");
+  background-repeat: repeat-x; 
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  padding: 100px 50px 30px 50px;
+}
+
+.phones-img {
+  width: 350px;
+  display: flex;
+  justify-content: right;
+}
+
+.left-container {
+  margin: 0 40px;
+  width: auto;
+}
+
+.rigth-container {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-content: flex-end;
+  margin: 0 40px 0 0;
+}
+
+header {
+  display: flex;
+  align-items: center;  
+}
+
+.logo-img {
+  width: 350px;
+  margin-right: 60px;
+}
+
+.home-img {
+  width: 25px;
+}
+
+.log-in-container {
+  background: rgb(110,146,177);
+  background: linear-gradient(180deg, rgba(110,146,177,1) 0%, rgba(75,118,155,1) 46%);
+  padding: 8px 25px;
+  box-shadow: 0 0 3px #06365f;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-left: 60px;
+}
+
+.log-in-container a {
+  margin-left: 10px;
+  text-decoration: none;
+  color: white;
+  font-weight: 800;
+  font-size: 14px;
+}
+
+h1 {
+  color: #06365f;
+  font-weight: 900;
+  font-size: 2em;
+  width: 325px;
+}
+
+.info-container {
+  background-color: white;
+  border-radius: 5px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+p {
+  font-size: 14px;
+  font-weight: 400;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.app-buttons {
+  display: flex;
+  justify-content: left;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.appstore-button-img {
+  width: 200px;
+  margin-right: 20px;
+}
+
+.googleplay-button-img {
+  width: 190px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+footer ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #1c5380;
+  margin: 10px;
+}
+
+.copy {
+ color: grey;
 }
