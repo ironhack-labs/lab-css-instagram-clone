@@ -25,7 +25,7 @@ main {
 }
 
 footer {
-  margin: 50px 100px;
+  margin: 50px 320px;
   display: flex;
   flex-direction: row;
   align-items: center;
