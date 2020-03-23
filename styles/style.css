@@ -3,10 +3,126 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+* {
+  margin: 0;
+  padding: 0;
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
-  /* background-image: url(../images/bgtile.png);
-  background-repeat: repeat-x; */
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;
+  padding: 100px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+main {
+  width: 960px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+main #phone {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+main #info {
+  width: 500px;
+  color: #707071;
+  font-weight: 400;
+}
+
+main #info #logo {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+main #info #logo #login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main #info #logo #login a {
+  width: 100px;
+  padding: 10px 0;
+  border-radius: 3px;
+  box-shadow: 0px 0px 10px rgba(33, 32, 32, 0.2);
+  background: linear-gradient(180deg, rgba(76, 142, 195, 1) 25%, rgba(6, 54, 95, 1) 100%);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-size: 0.8em;
+}
+
+
+main #info #white-box {
+  background-color: white;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0px -20px 20px 0px rgba(33, 32, 32, 0.2);
+}
+
+main #info #white-box h1 {
+  text-transform: capitalize;
+  font-size: 1.4em;
+  color: #06365f;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+main #info #white-box p {
+  margin-bottom: 10px;
+}
+
+main #info #white-box #badges {
+  margin-top: 30px;
+}
+
+/* footer */
+footer {
+  width: 960px;
+  margin: auto;
+  padding-top: 40px;
+}
+
+footer nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+footer nav ul li {
+  list-style-type: none;
+}
+
+footer nav ul li a {
+  text-decoration: none;
+  color: #1c5380;
+  text-transform: uppercase;
+  font-size: 0.7em;
+  font-weight: 900;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+footer nav ul #special {
+  color: #707071;
+  text-transform: uppercase;
+  font-size: 0.7em;
+  font-weight: 900;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
 }
