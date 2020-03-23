@@ -5,6 +5,91 @@ light blue: #1c5380
 */
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+    font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+    background-image: url("../images/bgtile.png");
+    background-repeat: repeat-x;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 200px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 50px 100px;
+}
+
+.info {
+    background-color: white;
+    margin-top: 30px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 50px -14px rgba(0, 0, 0, 0.75);
+}
+
+.header-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info header h2 {
+    color: #06365f;
+}
+
+.btn {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: stretch;
+    width: 80px;
+    height: 40px;
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    border: 1px solid #1c5380;
+    box-shadow: 1px 1px 20px -10px rgba(0, 0, 0, 0.75);
+    border-radius: 3px;
+    padding: 0px 15px;
+    background-color: #6289a9;
+}
+
+.download-btn {
+    margin-top: 30px;
+}
+
+.download-btn a {
+    margin-right: 10px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+footer a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    margin-right: 15px;
+    font-size: .8em;
+    font-weight: bolder;
+    color: #1c5380;
+}
+
+footer span {
+    color: grey;
+    font-weight: bolder;
 }
