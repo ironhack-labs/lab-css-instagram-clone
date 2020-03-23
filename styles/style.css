@@ -43,6 +43,14 @@ figure, section {
   margin: 25px 0px;
 }
 
+.app-download-nav {
+  width: min-content;
+}
+
+.app-download-nav div {
+  margin-right: 25px;
+}
+
 article {
   background-color: #ffffff;
   border-radius: 10px;
