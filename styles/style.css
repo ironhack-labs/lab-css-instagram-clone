@@ -6,5 +6,107 @@ light blue: #1c5380
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  padding: 50px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/home/ruben/Escritorio/Ironhack/Week1/Day1/lab-css-instagram-clone/images/bgtile.png);
+  background-position: top;
+  background-repeat: repeat-x;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main section {
+  margin: 30px;
+}
+
+main section header img {
+    max-width: 65%;
+    height: inherit;
+}
+
+main section article img {
+      max-width: 30%;
+      height: inherit;
+      margin: 10px;
+
+}
+
+
+section header {
+  display: flex;
+  flex-direction: row;
+  margin: 30px 0;
+  justify-content: space-between;
+  width: 98%
+}
+
+section header a {
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  background: linear-gradient(0deg, rgba(58,104,144,1) 72%, rgba(68,132,189,1) 100%);
+  box-shadow: 1px 1px 3px  rgb(39, 72, 102);
+  margin: 20px 0;
+  padding: 8px 12px;
+  border-radius: 3px;
+  width: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.definition {
+  width: 27%;
+  }
+
+.capture-share {
+  /*box-shadow: 0px 0px 10px 0.1px darkgrey;*/
+  padding: 10px 30px 0 30px;
+  border-radius: 5px;
+  background-image: url(/home/ruben/Escritorio/Ironhack/Week1/Day1/lab-css-instagram-clone/images/frame.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+h1 {
+  color: #06365f;
+  font-size: 1.4em;
+  width: 53%;
+}
+
+footer {
+  margin: 30px;
+  
+}
+
+footer ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+footer ul a {
+  text-decoration: none;
+  color: #1c5380;
+  margin: 10px;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 0.8em;
+}
+
+.grey-footer {
+  margin: 0 10px;
+  color: rgb(173, 172, 172);
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 0.8em;
+
 }
