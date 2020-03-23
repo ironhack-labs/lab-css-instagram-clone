@@ -15,7 +15,7 @@ body {
 }
 
 main {
-  margin: 50px;
+  margin: 100px 350px;
   display: flex;
 }
 
@@ -28,6 +28,37 @@ figure, section {
   margin: 25px;
 }
 
-header {
-  
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header > div {
+  display: flex;
+}
+
+.logo {
+  margin: 0px 15px;
+}
+
+.login-button {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+  padding: 5px 15px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.login-button img {
+  height: 25px;
+  width: 22px;
+  margin: 0px 5px;
+}
+
+.login-button p {
+  margin: 0px 5px;
 }
