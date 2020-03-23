@@ -29,7 +29,9 @@ main {
   border: 1px solid #1c5380;
   border-radius: 2.5px;
   display: flex;
-  justify-content: flex-start;
+  /* La regla de space-between no debo de haberla declarado correctamente,
+  ya que los elementos internos del botón no se alinean bien.; */
+  justify-content: space-between;
   align-items: center;
   color: white;
   text-decoration: none;
