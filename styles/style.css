@@ -3,11 +3,11 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-/*
+
 * {
   margin: 0;
   padding: 0;
-}*/
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -17,10 +17,18 @@ body {
 }
 
 main {
-  margin: 100px 0;
+  margin: 80px 0;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+figure {
+  margin: 0 25px;
+}
+
+section {
+  margin: 0 25px;
 }
 
 .principal-section {
@@ -34,11 +42,12 @@ main {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 15px;
 }
 
 .login-button {
   background-image: linear-gradient(180deg, rgba(255, 255, 255, .3) 0%, rgba(255, 255, 255, 0) 100%);
-  box-shadow: 0 0 2px #06365f;
+  box-shadow: 0 0 1px #06365f;
   border: #1c5380 solid 1px;
   border-radius: 3px;
 
@@ -55,17 +64,22 @@ main {
 
 h1 {
   color: #06365f;
-  font-size: 2em;
+  font-size: 1.7em;
   padding: 0;
   margin: 0;
+  width: 280px;
 }
 
 .information-box {
   background-color: white;
   border-radius: 8px;
-  box-shadow: 0 -3px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 -3px 2px rgba(0, 0, 0, .3);
 
-  padding: 30px;
+  padding: 20px 30px 30px 30px;
+}
+
+p {
+  margin: 10px 0;
 }
 
 .bold-word {
@@ -75,4 +89,27 @@ h1 {
 .store-button {
   margin-right: 20px;
   text-decoration: none;
+}
+
+.store-button>img {
+  margin-top: 20px;
+}
+
+.nav-bottom {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+
+  width: 35%;
+  margin-left: 32%;
+
+  font-size: .7;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #999;
+}
+
+.nav-bottom>li>a {
+  text-decoration: none;
+  color: #1c5380;
 }
