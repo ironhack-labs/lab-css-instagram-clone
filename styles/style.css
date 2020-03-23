@@ -5,6 +5,89 @@ light blue: #1c5380
 */
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+    font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+    background-image: url(../images/bgtile.png);
+    background-repeat: repeat-x;
+  }
+
+  .layout{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 100px;
+
+  }
+  .information{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 100px;
+  }
+
+  .btnLogo{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .btn{
+    background-color: #1C5380;
+    padding: 5px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    height: max-content;
+    margin: 20px 0 0 20px;
+  }
+a { 
+  color: white;
+  text-decoration: none;}
+
+
+  article {
+    width: 50%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: #06365f;
+    padding: 0 20px 0 20px;
+    box-sizing: content-box;
+
+  }
+  article p{
+    
+  }
+
+  h1{
+    color: #06365f;
+    font-size: 30px;
+  }
+.appDownload{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+ ;
+  
 }
+.appDownload{
+  width:150px;
+  height: 50px;
+}
+
+  footer{
+    text-transform: uppercase;  
+    color: #06365f;
+    font-weight: bold;
+
+  }
+
+  footer ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+
+  }
+
+  footer li{
+    margin: 0 8px;
+  }
