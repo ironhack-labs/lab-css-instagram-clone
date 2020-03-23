@@ -4,7 +4,72 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url("./../images/bgtile.png");
+  background-repeat: no-repeat;
+  padding: 10%;
+  background-size: 100% 350px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* sections */
+
+#left-box {
+  margin-left: 50px;
+}
+
+#right-box .instagram-login {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3%;
+  max-width: 75%;
+} .login {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background: linear-gradient(0deg, rgba(110,146,177,1) 0%, rgba(75,118,155,1) 100%);
+  width: 90px;
+  height: 50px;
+
+} a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.wbox {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 2px 2px 15px 2px rgba(206, 206, 206, 0.3);
+    padding: 8% 8%;
+    width: 60%;
+} .right-box-title {
+   font-weight: 800;
+   color: #06365f;
+   font-size: 30px;
+   margin: 0;
+}
+
+#footer-info {
+    font-weight: 700;
+    text-align: center;
+    color: #1c5380;
+    text-decoration: none;
+} 
+
+#footer-info {
+   align-items: center;
+} li {
+  display: inline;
+  font-weight: 500;
+  color: #1c5380;
+} .copy {
+  font-weight: 200;
 }
