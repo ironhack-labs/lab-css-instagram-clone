@@ -26,36 +26,39 @@ main {
   justify-content: space-around;
 }
 
-main #phone {
+/* Phone Section */
+#phone {
   display: flex;
   justify-content: center;
   align-content: center;
 }
 
-main #info {
-  width: 500px;
+/* Info Section */
+#info {
+  width: 490px;
   color: #707071;
   font-weight: 400;
 }
 
-main #info #logo {
+/* Logo Article */
+#logo {
   display: flex;
   justify-content: space-between;
   padding-bottom: 20px;
 }
 
-main #info #logo #login {
+#logo #login {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-main #info #logo #login a {
+#logo #login a {
   width: 100px;
   padding: 10px 0;
   border-radius: 3px;
   box-shadow: 0px 0px 10px rgba(33, 32, 32, 0.2);
-  background: linear-gradient(180deg, rgba(76, 142, 195, 1) 25%, rgba(6, 54, 95, 1) 100%);
+  background: linear-gradient(180deg, rgba(76, 142, 195, 1) 0%, rgba(6, 54, 95, 1) 100%);
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -65,27 +68,26 @@ main #info #logo #login a {
   font-size: 0.8em;
 }
 
-
-main #info #white-box {
+/* White Box Article*/
+#white-box {
   background-color: white;
   padding: 30px;
   border-radius: 5px;
   box-shadow: 0px -20px 20px 0px rgba(33, 32, 32, 0.2);
 }
 
-main #info #white-box h1 {
+#white-box h1 {
   text-transform: capitalize;
-  font-size: 1.4em;
+  font-size: 1.5em;
   color: #06365f;
-  margin-top: 10px;
   margin-bottom: 10px;
 }
 
-main #info #white-box p {
+#white-box p {
   margin-bottom: 10px;
 }
 
-main #info #white-box #badges {
+#white-box #badges {
   margin-top: 30px;
 }
 
