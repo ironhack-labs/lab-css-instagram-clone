@@ -62,6 +62,10 @@ article p {
   margin: 15px 0px;
 }
 
+p b {
+  font-weight: bold;
+}
+
 h1 {
   color: #06365f;
   font-size: 2em;
@@ -101,9 +105,11 @@ li a:hover {
 .login-button {
   height: 30px;
   padding: 5px 15px;
-  border-radius: 5px;
-  background-color: #1c5380;
-  box-shadow: 5px, #06365f, inset;
+  border: 1px solid #1c5380;
+  border-radius: 3px;
+  background: rgb(47,107,156);
+  background: linear-gradient(180deg, #6E92B1 0%, #4B769B 100%); 
+  box-shadow: 0px 2px 1px 0 #06365f
 }
 
 .login-button a{
@@ -111,13 +117,14 @@ li a:hover {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  text-decoration: none;
+  font-weight: bold;
 
 }
 
 .login-button img {
-  height: 25px;
-  width: 22px;
-  margin: 0px 5px;
+  height: 20px;
+  width: 20px;
 }
 
 .login-button p {
