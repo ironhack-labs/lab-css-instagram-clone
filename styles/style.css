@@ -7,4 +7,79 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  margin-left: 5em;
+  
+  }
+ .header-position {
+   display: flex; 
+   justify-content: space-between;  
+   align-items: flex-end;
+   margin-top: 10px;
+ }
+ .img-height {
+   height: 25em;
+ }
+ .img-logo {
+   width: 17em;
+   height: 3em;
+   margin-bottom: 0em;
+ }
+ .house-log {
+   margin-bottom: 0.5em;
+   margin-right: 0;
+   border: 1px solid #06365f;
+   width: 5em;
+   background-color: #1c5380;
+ }
+ .house {
+   margin-top: 6px;
+ }
+ 
+ .config-art {
+   width: 26em;
+   margin-top: 40px;
+   border: 1px solid #06365f;
+   padding-left: 20px;
+   padding-right: 20px;
+   border-bottom: none;
+   border-top-left-radius: 5px;
+   border-top-right-radius: 5px;
+ }
+
+
+.center-boxes {
+  display: flex;
+  flex-direction: row;
+}
+.cfig-footer {
+  display:flex;
+  justify-content: space-around;
+  list-style: none;
+  margin-left: 7em;
+  margin-right: 10em;
+  margin-top: 2em;
+}
+.foot-box {
+  width: 50em;
+  padding: 0 30px
+}
+
+h1 {
+  width: 200px;
+  color: #06365f;
+}
+
+p {
+  font-size: 13px;
+}
+
+li {
+  text-transform: uppercase;
+  font-size: 10px;
+  color: #1c5380;
+  font-weight: 500;
+}
+#cright {
+  color:grey;
+  font-weight: 200;
 }
