@@ -4,13 +4,60 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Instagram Clone</title>
-    <!-- don't forget to link your styles -->
+    <link rel="stylesheet" href="styles/style.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap" rel="stylesheet">
   </head>
+
   <body>
-    Instagram Capture and Share the World's Moments Instagram is a fast, beautiful and fun way to share your life with
-    friends and family. Take a picture or video, choose a filter to transform its look and feel, then post to Instagram
-    &mdash; it's that easy. You can even share to Facebook, Twitter, Tumblr and more. It's a new way to see the world.
-    Oh yeah, did we mention it's free? Download on the App Store Get it on Google Play About Us Support Blog Press API
-    Jobs Privacy Terms &copy; 2014 Instagram
+    <main>
+      <img id="phones" src='images/phones.png'>
+      <aside>
+        <div id="aside-header">
+          <img id="instagram-logo" src="images/brand.png">
+          <button id="login-btn">
+            <img id="home-icon" src="images/home.png" alt="Home icon">
+            <a href="login.html"> Log in </a>
+          </button>
+
+        </div><!-- aside header -->
+
+        <div id="aside-main">
+          <h3> Capture and Share the World's Moments </h3>
+          <p>
+            Instagram is a <strong>fast</strong>, <strong>beautiful</strong> and <strong>fun</strong> way to share your life with friends and family.
+          </p>
+          <p> 
+            Take a picture or video, choose a filter to transform its look and feel, then post 
+            to Instagram &mdash; it's that easy. You can even share to Facebook, Twitter, Tumblr and more. It's a new way to see the world.
+          </p>
+          <p> 
+            Oh yeah, did we mention it's free?
+          </p>
+        </div><!--aside-main -->
+        <div id="aside-footer">
+          <img class="download-logo" src="images/badge-iphone.png" alt="Get it on the Apple Store">
+          <img class="download-logo" src="images/badge-android.png" alt="Get it on the Google Play">
+        </div><!--aside-footer -->
+      </aside>
+    </main>
+
+    <footer>
+      <nav>
+        <ul class="nav-list">
+          <li class="nav-item"> About us </li>
+          <li class="nav-item"> Support </li>
+          <li class="nav-item"> Blog </li>
+          <li class="nav-item"> Press </li>
+          <li class="nav-item"> API </li>
+          <li class="nav-item"> Jobs </li>
+          <li class="nav-item"> Privacy </li>
+          <li class="nav-item"> Terms </li>
+        </ul>
+        <span class="nav-item insta-logo"> &copy; 2014 Instagram </span>
+      </nav>
+    </footer>
   </body>
 </html>
+
+
+<!-- Download on the App Store Get it on Google Play -->

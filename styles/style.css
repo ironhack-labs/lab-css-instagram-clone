@@ -7,4 +7,115 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url('../images/bgtile.png');
+  background-repeat: no-repeat;
+  background-size: 100vw 40vh;
+}
+
+main {
+  margin: 15vh auto 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+#phones {
+  display: block;
+  margin: 0 20px;
+  height: 425px;
+}
+
+aside {
+  padding: 10px;
+  margin: 0 20px 0 0;
+}
+
+#aside-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 350px;
+}
+
+#instagram-logo {
+  width: 200px;
+  padding: 10px;
+}
+
+#home-icon {
+  width: 20px;
+  padding: 5px;
+}
+
+#login-btn {
+  /* background-image: url('../images/bgtile.png'); */
+  background-color: #3a6890;
+  background-image: linear-gradient(#5085b3,#3a6890);
+  border: none;
+  border-radius: 2px;
+  box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.75);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#login-btn a {
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+}
+
+#aside-main {
+  background-color: white;
+  height:50px;
+  border-radius: 5px;
+  box-shadow: 0px -20px 40px -10px rgba(0,0,0,0.75);
+  height:260px;
+  padding: 20px;
+  margin-left:15px;
+  width: 295px;
+}
+
+#aside-main h3 {
+  margin-top: 0;
+  color: #06365f;
+  width: 190px;
+}
+
+#aside-main p {
+  font-size: 12px;
+}
+
+#aside-footer {
+  margin:0 35px;
+}
+
+.download-logo {
+  height: 40px;
+}
+
+footer nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px auto 40px;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding:0;
+}
+
+.nav-item {
+  text-transform: uppercase;
+  color: #1c5380;
+  margin: 10px;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.insta-logo {
+  color:gray;
 }
