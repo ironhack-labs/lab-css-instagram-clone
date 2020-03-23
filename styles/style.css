@@ -8,14 +8,17 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+#fondoCortado{
+  background-color: white;
+  height: 658px;
+}
 
 .bg-ing{
     position:relative;
     background-image: url(../images/bgtile.png);
     background-position: 0 0;
-    background-repeat: repeat;
-    background-size: cover;
-    height: 120px;
+    background-repeat: no-repeat;
+    background-size: 100% 30%;
     padding:70px 100px;
     display: flex;
     flex-direction: row;
@@ -79,10 +82,23 @@ body {
   margin-left: 15px;
 }
 
-.listaFinal ul{
+.listaFinal{
+  font-size: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
   display: flex;
   flex-direction: row;
-  align-items: flex-end;
-  margin-left: 5px;
+  list-style: none;
+  justify-content: center;
 }
+
+.listaFinal a{
+  color: #1c5380 ;
+text-decoration: none;
+}
+
+.listaFinal li{
+  margin: 0 10px;
+  color: lightgray;
+  }
 
