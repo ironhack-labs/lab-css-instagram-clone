@@ -12,13 +12,14 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
-  background-color: #06365f;  
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
 }
 
 main {
   display: flex;
   margin: auto;
-  margin-top: 150px;
+  margin-top: 68px;
   height: 600px;
   width: 1000px;
 }
@@ -40,7 +41,7 @@ figure, section {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  margin: 25px 0px;
+  margin: 15px 0px;
 }
 
 .app-download-nav {
@@ -57,11 +58,15 @@ article {
   padding: 35px;
 }
 
+article p {
+  margin: 15px 0px;
+}
+
 h1 {
   color: #06365f;
   font-size: 2em;
   width: 340px;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
 }
 
 header > div {
@@ -76,11 +81,17 @@ footer ul {
 }
 
 li {
-  margin: 0px 10px;
+  margin: 0px 5px;
 }
 
 li a {
   color: #1c5380;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+li a:hover {
+  color: #06365f;
 }
 
 .logo {
@@ -90,8 +101,9 @@ li a {
 .login-button {
   height: 30px;
   padding: 5px 15px;
-  border: 2px solid black;
   border-radius: 5px;
+  background-color: #1c5380;
+  box-shadow: 5px, #06365f, inset;
 }
 
 .login-button a{
