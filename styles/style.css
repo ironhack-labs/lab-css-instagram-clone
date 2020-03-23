@@ -12,16 +12,23 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-color: #06365f;  
 }
 
 main {
-  margin: 100px 350px;
   display: flex;
+  margin: auto;
+  margin-top: 150px;
+  height: 600px;
+  width: 1000px;
 }
 
 footer {
-  margin: 50px;
+  margin: 50px 100px;
   display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
 }
 
 figure, section {
@@ -33,10 +40,39 @@ figure, section {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  margin: 25px 0px;
+}
+
+article {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 35px;
+}
+
+h1 {
+  color: #06365f;
+  font-size: 2em;
+  width: 340px;
+  margin-bottom: 25px;
 }
 
 header > div {
   display: flex;
+}
+
+footer ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+}
+
+li {
+  margin: 0px 10px;
+}
+
+li a {
+  color: #1c5380;
 }
 
 .logo {
@@ -44,13 +80,18 @@ header > div {
 }
 
 .login-button {
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
   height: 30px;
   padding: 5px 15px;
   border: 2px solid black;
   border-radius: 5px;
+}
+
+.login-button a{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
 }
 
 .login-button img {
@@ -61,4 +102,5 @@ header > div {
 
 .login-button p {
   margin: 0px 5px;
+  color: #ffffff;
 }
