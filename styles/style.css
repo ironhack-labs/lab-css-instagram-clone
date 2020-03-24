@@ -8,3 +8,110 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.container {
+  width: 100%;
+  height: 38vh;
+  background-image: url(../images/bgtile.png);
+}
+
+main {
+  padding: 5% 20% 0.5%;
+}
+
+.global-flex {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.flex-right-article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 70px;
+  padding-top: 10px;
+}
+
+.flex-logo-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.img-instagram{
+  width: 260px;
+  height: 60px;
+}
+
+.home-image {
+  padding-right: 5px;
+  width: 18px;
+  height: 15px;
+}
+
+.btn-log-in {
+  text-decoration: none;
+  box-shadow: 1px 10px 10px black;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 5px;
+  background: #396890;
+  font-size: .8em;
+}
+
+.flex-text {
+  display: flex;
+  flex-direction: column;
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  padding: 35px;
+}
+
+.p-flex-text {
+  margin: 6px;
+  font-size: .5em;
+  font-weight: 300;
+}
+h2 {
+  color: #06365f;
+  width: 70%;
+}
+
+.download-images{
+  margin-top: 20px;
+}
+
+.g-play{
+  margin-left: 5px;
+  width: 135px;
+  height: 45px;
+}
+
+.a-store{
+  width: 135px;
+  height: 45px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 25%;
+}
+
+.links-foot {
+  text-decoration: none;
+  color: #1c5380;
+  font-size: .5em;
+  margin: 0;
+  font-weight: 600; 
+  text-transform: uppercase;
+}
+
+.copy-r {
+  padding-left: 15px;
+  text-transform: uppercase;
+  font-weight: 600; 
+  color: lightgray;
+}
