@@ -11,7 +11,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url(/home/ruben/Escritorio/Ironhack/Week1/Day1/lab-css-instagram-clone/images/bgtile.png);
+  background-image: url("../images/bgtile.png");
   background-position: top;
   background-repeat: repeat-x;
 }
@@ -70,7 +70,7 @@ section header a {
   /*box-shadow: 0px 0px 10px 0.1px darkgrey;*/
   padding: 10px 30px 0 30px;
   border-radius: 5px;
-  background-image: url(/home/ruben/Escritorio/Ironhack/Week1/Day1/lab-css-instagram-clone/images/frame.png);
+  background-image: url("../images/frame.png");
   background-repeat: no-repeat;
   background-size: 100%;
 }
