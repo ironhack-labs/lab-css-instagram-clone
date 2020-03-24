@@ -1,0 +1,119 @@
+/*
+Colors to use:
+dark blue: #06365f
+light blue: #1c5380
+*/
+
+* {
+  margin: 0px;
+  padding: 0px;
+  
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  
+}
+
+body {
+  font: 200 16px/1.5 "sans-serif";
+  margin: 0;
+  background: linear-gradient(0deg, white 1%, #06365f, #1c5380 );
+  background-repeat: no-repeat;
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+main{
+  margin-top: 225px;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  align-content: center;
+}
+
+#phone_photo{
+  margin-right: 70px;
+}
+
+
+#instagram_log_in{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+
+}
+
+#log_in_button{
+  background: linear-gradient(0deg,#4B769B, #6E92B1);
+  border-radius: 3px;
+  padding: 10px 20px;
+}
+
+
+#main_content{
+  max-width: 504px;
+  height: 284px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-basis: 50%;
+  background-image: url("/home/jotabp94/Documentos/Ironhack/Curso/Semana 1/Dia 1 (23-marzo2020)/lab-css-instagram-clone/images/frame.png");
+  background-repeat: no-repeat;
+
+}
+
+#header_main_content{
+  margin-top: 70px;
+  padding: 70px 30px 10px 30px;
+}
+h1{
+  color: #06365f;
+  font: 900 25px/1.5 "sans-serif"
+}
+
+#main_description{
+  padding: 0px 30px 20px 30px;
+}
+
+#get_aplication_buttons{
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  width: 600px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  color: #06365f;
+}
