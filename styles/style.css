@@ -13,26 +13,21 @@ body {
 header {
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
-  width: 500px;
+  justify-content: end;
+  float: right;
 
-  
 }
 
 .login {
-  border-color:#06365f ;
+  border-color: #06365f;
   border-style: groove;
   background-color: #1c5380;
-  
 
-  
 }
-.degrad {
-  
-}
+
 
 .resume {
-  
+
   border-radius: 7px;
   display: column;
   flex-direction: row;
@@ -42,44 +37,44 @@ header {
   background-color: white;
 
 
-    
+
 }
 
 .title {
-  color:#06365f;
+  color: #06365f;
   font-size: 20px;
+
 }
 
 .text {
   color: black;
-  
+
 }
 
 .stores {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  
+
 }
 
 .mobiles {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
-  float: left; 
+  justify-content: center;
+  float: left;
   width: 500px;
-  background-color: white;
 
 }
 
 
-ul{
+ul {
   color: #1c5380;
   list-style-type: none;
   text-align: center;
   display: flex;
   flex-direction: row;
-  justify-content:space-between;
+  justify-content: space-between;
   padding: 60px 60px 60px 60px;
   text-decoration: none;
   clear: both;
@@ -87,6 +82,5 @@ ul{
 
 #copyr {
   color: rgb(134, 132, 128);
-  
-}
 
+}
