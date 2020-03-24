@@ -3,8 +3,94 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+* {
+  margin: 0;
+  padding: 0;
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url("../images/bgtile.png");
+  background-position: 0 0;
+  background-repeat: repeat-x;
+}
+
+main {
+  margin-top: 50x;
+  margin-bottom: 30px;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.phones {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.content-frame {
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+
+.content-frame>header {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+.log-btn {
+  display: flex;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(169deg, rgba(2, 0, 36, 1) 0%, rgba(110, 146, 177, 1) 0%, rgba(75, 118, 155, 1) 100%);
+  text-decoration: none;
+  border: 1px solid black;
+  margin: 15px;
+  padding: 3px 20px 3px 20px;
+}
+
+.log-btn a {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: 500;
+  text-decoration: none;
+  color: white;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  padding-bottom: 30px;
+}
+
+nav a {
+  font-weight: 500;
+  text-decoration: none;
+  color: #1c5380;
+}
+
+.description {
+  background-image: url("../images/frame.png");
+  padding: 20px;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.description h2 {
+  color: #06365f;
+}
+
+.description p {
+  color: black;
+  font-size: 1.1em;
 }
