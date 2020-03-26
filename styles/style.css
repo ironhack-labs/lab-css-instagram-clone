@@ -1,10 +1,63 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
-
-body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+.background-blue {
+  background-image: url("../images/bgtile.png");
+  height: 50vh;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+.right-big-block {
+  margin-left: 20px;
+}
+.all-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 150px;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+}
+.main-text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: #06365f;
+  width: 70%;
+  padding: 0 30px;
+}
+.grey {
+  color: #2b2b2b;
+}
+.download {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.logo-login {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 78%;
+}
+.login-button {
+  display: flex;
+  flex-direction: row;
+}
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #1c5380;
+}
+ul li {
+  display: inline;
+  list-style-type: none;
+  margin: 0 8px;
+}
+.ig {
+  width: 15vw;
 }
