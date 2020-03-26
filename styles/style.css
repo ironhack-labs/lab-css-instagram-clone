@@ -7,4 +7,116 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-color: #F4F5F6;
+}
+
+.backBlue {
+  width: 100%;
+  height: 300px;
+}
+
+.iphones {
+  height: 516px;
+  position: absolute;
+  left: 15%;
+  bottom: 15%;
+}
+
+.info {
+  height: 516px;
+  width: 505px;
+  position: absolute;
+  left: 43%;
+  bottom: 15%;
+}
+
+.logoInsta {
+  position: absolute;
+  top: 5%;
+}
+
+.homeLogin a {
+  color: white;
+  font-weight: 500;
+  background-color: #648AAB;
+  padding: 9px 12px 9px 38px;
+  border: 1px solid #325E84;
+  border-radius: 4px;
+  text-decoration: none;
+  font: 16px;
+  position: absolute;
+  left: 79%;
+  top: 8%;
+}
+
+.homeLogin img {
+  position: absolute;
+  top: 10px;
+  left: 7%;
+}
+
+.infoInsta {
+  margin-top: 30%;
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.infoInsta h2, p {
+ font-weight: bolder;
+  width: 83%;
+  margin: 3px 0;
+  position: relative;
+  left: 8%;
+}
+
+.infoInsta img{
+  margin-top: 3%;
+  padding-right: 3%;
+  position: relative;
+   left: 8%;
+ }
+
+ .infoInsta h2 {
+  font-weight: bold;
+  width: 50%;
+  color: #06365F;
+  padding: 3% 0;
+ }
+
+ .infoInsta p {
+   margin-bottom: 2%;
+ }
+
+ span {
+  font-weight: bold;
+ }
+
+footer nav {
+  display: inline-block;
+  width: 50%;
+  position: absolute;
+  top: 94%;
+  left: 27%;
+}
+ footer ul { 
+   margin: 0;
+   padding: 0;
+ }
+ footer ul li {
+  display: block;
+  float: left;
+  padding: 0 10px;
+}
+footer ul li a{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  color: #678CAC;
+}
+footer nav span {
+  font-size: 12px;
+  font-weight: bold;
+  color: gray;
 }
