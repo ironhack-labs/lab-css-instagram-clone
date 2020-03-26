@@ -6,5 +6,87 @@ light blue: #1c5380
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+}
+
+.phones {
+  display: inline-block;
+  position: relative;
+  top: 20px;
+}
+
+#phones-img {
+  width: 250px;
+}
+
+.head-nav-bar {
+  text-align: center;
+  vertical-align: top;
+  display: inline-block;
+  position: relative;
+  top: 40px;
+  left: 40px;
+}
+
+#insta-logo {
+  margin-right: 25px;
+  width: 220px;
+}
+
+#home-logo {
+  border: #002f6c solid 1px;
+  border-radius: 7%;
+  padding: 5px 18px;
+  background-color: #1c5380;
+  margin: 0px 0px 15px 20px;
+  width: 15px;
+}
+
+.description {
+  display: inline-block;
+  width: 380px;
+  height: 280px;
+  position: absolute;
+  left: 295px;
+  top: 110px;
+  background-color: white;
+  border-radius: 1%;
+}
+
+.description h1 {
+  color: #06365f;
+  margin: 0px 0px 15px 0px;
+}
+
+.description p {
+  margin: 0px;
+}
+
+.electronic-stores-logo {
+  display: inline-block;
+  position: relative;
+  right: 295px;
+  top: 10px;
+}
+
+#apple-logo {
+  width: 100px;
+  padding-right: 10px;
+}
+
+#android-logo {
+  width: 91px;
+}
+
+.footer-nav-bar {
+  position: absolute;
+  margin-top: 20px;
+  left: 160px;
+  text-align: center;
+  font-size: 12px;
+  word-spacing: 4px;
+}
+
+.footer-nav-bar a {
+  text-decoration: none;
+  color: #1c5380;
 }
