@@ -4,7 +4,161 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+*{
+  margin: 0;
+  padding: 0;
+}
+
+main > img {
+  height: 40%;
+  width: 100%;
+  z-index: -1;
+  position: fixed;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+.mainBox{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 20vh;
+  padding-left: 10vh;
+  padding-right: 10vh;
+}
+
+.phoneImage {
+  background-image: url("../images/phones.png");
+  background-repeat: no-repeat;
+  background-size: 38vh;
+  height: 65vh;
+  width: 40vh;
+}
+.infoBox{
+  display: flex;
+  flex-direction: column;
+  width: 80vh;
+  margin-top: 2vh;
+}
+.infoBoxTop{
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo > img {
+  height: 10vh;
+  margin-left: 1vh;
+}
+
+.login {
+  background-color: #3a6890;
+  background-image: linear-gradient(#6894bb,#2f5a80);
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.40);
+  margin-bottom: 3vh;
+  margin-top: 3vh;
+  padding-left: 2vh;
+  padding-right: 2vh;
+  margin-right: 2vh;
+}
+
+.login a {
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+}
+
+.login:hover {
+  background-image: linear-gradient(#6189ac,#284e70);
+}
+
+.infoBoxMiddle{
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center center;
+  height: 30vh;
+  width: 80vh;
+}
+
+.info {
+  width: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 4vh;
+  margin-left: 10vh;
+}
+
+.info > h1 {
+  flex-wrap: wrap;
+  margin-bottom: 3vh;
+  color: #06365f;
+}
+
+.info > p {
+  margin-bottom: 2vh;
+}
+
+.infoBoxBottom {
+  display: flex;
+  flex-direction: row;
+  margin-top: 11vh;
+  padding-left: 8vh;
+}
+
+.appStore {
+background-image: url("../images/badge-iphone.png");
+background-repeat: no-repeat;
+height: 10vh;
+width: 30vh;
+background-size: 20vh;
+margin-left: 2vh;
+}
+
+.googlePlay{
+background-image: url("../images/badge-android.png");
+background-repeat: no-repeat;
+height: 10vh;
+width: 30vh;
+background-size: 20vh;
+}
+
+footer > nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px auto 40px;
+}
+
+.navList {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding:0;
+  text-transform: uppercase;
+  margin: 10px;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.navList a {
+  text-decoration: none;
+  color: #1c5380;
+  margin-right: 3vh
+}
+
+.navList a:hover {
+  color: #3d7bad;
+}
+
+.copyright {
+  color:lightgray;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;
 }
