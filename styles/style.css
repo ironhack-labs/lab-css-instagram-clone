@@ -8,3 +8,85 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+header {
+  background-color: #1c5380;
+  height: 50vh;
+}
+
+main {
+  margin: -19% 2% 0 2%;
+  display: flex;
+  justify-content: center;
+}
+
+#phones {
+  margin-right: 10vh;
+}
+
+.rightDiv {
+  width: 75vh;
+}
+
+.upperDiv {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2vh;
+}
+
+.button {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    background-color: #1c5380;
+    margin-left: 10vh;
+    padding: 0 10px 0 10px;
+    border-radius: 5%;
+    align-items: center;
+    box-shadow: 0 0 5px #06365f;
+}
+
+.button > img {
+  width: 7vh;
+  height: 5vh;
+}
+
+.button > h2 {
+  margin-left: 2vh;
+  padding: 0 1vh 0 0;
+}
+
+.lowerDiv {
+  background: url("../images/frame.png") no-repeat center;
+  background-size: 75vh;
+  padding: 2vh 5vh;
+}
+
+.lowerDiv > h1 {
+  color: #06365f;
+  font-size: 2.5rem;
+}
+
+.lowerDiv > p {
+  margin: 1vh;
+  font-size: 2.1vh;
+}
+
+.lowestDiv {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 15%;
+}
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 4vh 25%;
+  font-weight: bold;
+  color: #06365f;
+}
+
+#greyShit {
+  font-weight: unset;
+  color: darkgray;
+}
