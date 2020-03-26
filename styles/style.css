@@ -8,3 +8,62 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+#contenedorPpal {
+  background-image: url('../images/bgtile.png');
+  background-repeat: repeat-x;
+  padding: 80px 0;
+}
+
+.flexContainer {
+  display: flex;
+
+}
+
+#login {
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  padding-bottom: 20px;
+}
+
+#loginButton {
+  background-image: linear-gradient(#FFF,#06365f);
+  color: #FFF;
+  border: none;
+  border-radius: 4px;
+  
+}
+
+#miniContenedor {
+  width: 1000px;
+  margin: auto;
+  justify-content: space-between;
+}
+
+#aLaDerecha {
+  flex-direction: column;
+  width: 50%;
+}
+
+#captureMoments {
+  background-image: url('../images/frame.png');
+  background-repeat: no-repeat;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.footer {
+  justify-content: center;
+}
+
+.footer ul {
+  list-style: none;
+  justify-content: space-around;
+  width: 50%;
+  margin: 0;
+}
+
+.footer > ul > li > a {
+  text-decoration: none;
+}
