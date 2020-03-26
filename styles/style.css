@@ -7,4 +7,86 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: repeating-linear-gradient(#1C5380, #1C5380 49.9%, white 50.1%, white 100%);
+}
+
+#bigSection{
+margin: 10%;
+margin-top: 5%;
+margin-bottom: 0%;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+ul {
+  list-style-type: none;
+  margin-left: 30%;
+  margin-right: 30%;
+  color: #1C5380;
+font-size: 8pt;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  }
+ul a{
+  text-decoration: none;
+  color: #1C5380;
+  text-shadow: #1C5380 1px 1px 2px  ;
+}
+.container{
+  width: 70%;
+  display: flex;
+  flex-direction: column ;
+}
+
+.container1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 50%;
+  padding: 20px;
+}
+
+.container2{
+  background-image: url("../images/frame.png");
+  background-size: cover;
+  width: 50%;
+  padding-right: 20px;
+}
+
+.instlogo{
+  width: 200px;
+}
+#footer{
+  margin-top: 10px;
+  
+}
+.homelogo{
+  height: 30px;
+}
+.button {
+  background-color: #1C5380;
+  height: 30px;
+  border: 0px;
+  color: white;
+}
+.first{
+  display: flex;
+  padding-top: 10px;
+
+} 
+h2 {
+  padding-left: 40px;
+}
+p {
+  padding-left: 40px;
+}
+.brandlogo{
+  padding-left: 30px;
+}
+.glogo{
+  padding-left: 15px;
 }
