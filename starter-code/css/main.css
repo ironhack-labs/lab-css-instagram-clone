@@ -1,104 +1,91 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
-
-*{
-padding:0;
-margin:0;
-
-}
-
-#Brand{
-  position: absolute;
-  top: 20%;
-  right: 44%;
-  
-}
-header {
-background-image: url('/Users/franciscoep/Documents/WebDevBootCamp/lab-css-instagram-clone/starter-code/images/bgtile.png');
-width: 100%;
-height: 300px;
-}
-.logContainer{
-  padding-top: 20px;
-}
-
-h1{
-  position: absolute;
-  top: 30%;
-  left: 35%;
-  color: #06365f;
-  display: flex;
-  justify-content: center;
-  font-size: 1.7em;
-  
-}
-body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+html,body{
+  font-family: helvetica;
+  padding: 0;
   margin: 0;
-} 
+  font-size: 16px
+  
+}
 
-.boton{
-  width: 100px;
-  height: 30px;
-  background-color: lightblue;
-  border-radius: 7px;
-  background-image: url("/Users/franciscoep/Documents/WebDevBootCamp/lab-css-instagram-clone/starter-code/images/home.png");
-  background-repeat: no-repeat;
-  font-size: 1.2em;
+.main{
+  position: relative;
+
+}
+.background{
+  background-image: url("../images/bgtile.png");
+  background-size: cover;
+  height: 300px;
+}
+
+.phones{
   position: absolute;
-  top:23%;
-  left:58%;
-  color: white;
+  left: 150px;
+  top: 100px;
 
 }
 
-#iphone {
-  padding-left: 10%;
-  padding-top: 40px;
-  
+.brand{
+  position: absolute;
+  top: 120px;
+  left: 550px;
 }
 
-section{
-  margin-left: 30%;
-  margin-right: 30%;
-  
+.home {
+  height: 40px;
+  width: 90px;
+  background: #8fd2ff;
+  border: 1px solid #1f386d;
+  position: relative;
+  left: 65%;
+  top: 40%;
 }
 
-.lista{
-  display: flex;
-  justify-content:space-around;
-  list-style: none;
-  padding-top: 15%;
-  padding-left: 25%;
-  padding-right: 25%;
-  color: #06365f
-  
+.log-in{
+
+}
+h2{
+  text-align: justify;
+  color: #1f386d;
 }
 
-footer{
-  margin:0;
-  padding:0;
- 
-}
-
-  
-p{
-  text-decoration: none;
-  text-align: center;
-  padding-left: 35%;
-  padding-right: 30%;
-}
-
-
-.contenedor{
-  display:flex;
-  justify-content:flex-end;
+.content{
   background-image: url("../images/frame.png");
-  height: 200px;
-
+  background-repeat: no-repeat;
+  width: 500px;
+  height: 400px;
+  position: absolute;
+  top: 200px;
+  left: 550px;
+  padding-left: 1%;
 }
 
+.text{
+  text-align: justify;
+  font-size: .9em;
+}
 
+.iphone{
+  display:inline;
+  position: absolute;
+  top: 500px;
+  left: 600px;
+  padding: 10px;
+}
+
+.android{
+  display:inline;
+  position: absolute;
+  top: 500px;
+  left: 800px;
+  padding: 10px;
+}
+footer{
+  display: block;
+  margin-left: 350px;
+  padding-top: 330px;
+}
+
+li{
+display: inline;
+margin: 2%;
+color: #1f386d
+}
