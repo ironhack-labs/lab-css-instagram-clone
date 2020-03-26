@@ -5,6 +5,71 @@ light blue: #1c5380
 */
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  padding: 7vh;
+  background: repeating-linear-gradient(#1c5380, #1c5380 49.9%, white 50.1%, white 100%);
+}
+.display{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.text {
+  width: 64vh;
+  -webkit-box-shadow: 1px 1px 30px -4px rgba(6,54,95,1);
+  -moz-box-shadow: 1px 1px 30px -4px rgba(6,54,95,1);
+  box-shadow: 1px 1px 30px -4px rgba(6,54,95,1);
+  background-color: white;
+  padding: 3vh;
+  border-radius: 8px;
+
+}
+.text > h1{
+  color:#06365f;
+  font-size: 6vh;
+  font-weight: bold;
+}
+.text > p{
+  line-height: 1.5em;
+  font-weight: bold;
+}
+.icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1em;
+}
+.brand{
+  width: 15em;
+}
+.login  {
+  background: rgb(28,83,128);
+  border: 1px solid #06365f;
+  display: flex;
+  justify-content: space-around;
+  width: 5em;
+  padding: 1em;
+}
+.login > a{
+  color: white;
+}
+.buttons {
+  display: flex;
+  justify-content: space-around;
+}
+footer > ul{
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+  width: 77%;
+  margin: 0 auto;
+}
+footer > ul > li{
+  list-style: none;
+  color: #06365f;
+  font-weight: bold;
+}
+.year{
+  color: darkgrey;
 }
