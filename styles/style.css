@@ -8,3 +8,121 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+#wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+}
+
+#wrapper-content {
+  background: linear-gradient(180deg, #386186 40vh, white 40vh);
+  height: 85%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#container-phone-image {
+  margin-top: 100px;
+  margin-right: 50px;
+}
+
+#wrapper-text {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+}
+
+#login-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 5px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+#login-area > img {
+  width: 60%;
+}
+
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	background:linear-gradient(to bottom, #6e92b0 5%, #49749a 100%);
+	background-color:#6e92b0;
+	border-radius:2px;
+	border:1px solid #06355f;
+	display: flex;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:16px;
+	font-weight:bold;
+	padding: 10px 20px 10px 10px;
+  text-decoration:none;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 60%;
+}
+.myButton:hover {
+	background: linear-gradient(to bottom, #49749a 5%, #6e92b0 100%);
+	background-color:#49749a;
+}
+.myButton:active {
+	position: relative;
+	top:1px;
+}
+
+.myButton p {
+  margin: 0;
+  padding-left: 10px;
+}
+
+#content-area {
+  background-image: url(../images/frame.png);
+  background-size: cover;
+  padding: 14px 50px 14px 50px;
+}
+
+#content-area h1 {
+  font-size: 22pt;
+  color: #06365f;
+}
+
+#app-buttons {
+  padding-left: 50px;
+}
+
+#app-buttons img {
+  padding-right: 20px;
+}
+
+footer {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+#wrapper-footer {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#wrapper-footer a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #457298;
+}
+
+#wrapper-footer p {
+  color: grey;
+}
