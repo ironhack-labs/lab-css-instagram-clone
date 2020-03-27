@@ -38,7 +38,7 @@ main {
 }
 /* Section */
 #content {
-  padding: 5vw 0;
+  padding: 5em 0;
 }
 #phones {
   padding-right: 5em;
@@ -57,7 +57,7 @@ main {
 button {
   display: flex;
   align-items: center;
-  height: 2vw;
+  height: 3em;
   border-radius: 5px;
   border-color: rgb(55, 97, 134);
   background: rgb(53, 100, 138);
@@ -77,11 +77,11 @@ button {
 /* Text Zone */
 #text-zone {
   background-image: url(/images/frame.png);
+  background-size: 100%;
   background-repeat: no-repeat;
-  border-radius: 8px;
   flex-direction: column;
   align-items: flex-start;
-  padding: 1vw 2vw;
+  padding: 1em 2em;
 }
 #text-zone h1 {
   color: #06365f;
@@ -94,25 +94,31 @@ button {
 }
 /* Download icons */
 #dw-icons {
-  width: 100%;
+  width: 87.5%;
   justify-content: flex-start;
-  padding: 0 1vw;
 }
-#dw-icons div {
-  padding: 0 1vw;
+#dw-icons div:first-child {
+  padding-right: 2em;
 }
+
 #dw-icons a {
   cursor: pointer;
 }
 /* ------------------------------ MAIN/SECTION ------------------------------ */
 
 /* --------------------------------- FOOTER --------------------------------- */
+footer {
+  display: flex;
+  justify-content: center;
+}
 footer ul {
   display: flex;
-  justify-content: space-around;
+}
+footer li {
+  padding: 0 1em;
   list-style: none;
-  padding: 0 30vw;
   text-transform: uppercase;
+  font-size: 0.7em;
   font-weight: 700;
   color: #1c5380;
 }
