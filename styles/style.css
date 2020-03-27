@@ -7,4 +7,114 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: url(../images/bgtile.png) repeat-x;
+
+  }
+
+  .wrap {
+    display: flex;
+    max-width: 1240px;
+  }
+
+  .left-col {
+    margin-top: 7%;
+    margin-left: 15%;
+    display: flex;
+    justify-content: center;
+    flex-basis: 35%;
+  }
+
+  .right-col {
+    max-width: 510px;
+    margin-top: 10%;
+    flex-basis: 50%;
+  }
+
+  .right-col-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px;
 }
+
+
+  .log-in-bt {
+    background: url(../images/home.png) no-repeat center left 7px;
+    background-color: #658aab;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  .log-in-bt span {
+    color: white;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.content-frame {
+  background: url(../images/frame.png) no-repeat;
+  background-size: contain;
+  padding: 20px 40px;
+
+}
+
+h1.slogan-title {
+  color: #1c5380;
+}
+
+.call-to-action {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+
+
+.google-bt {
+  width: 165px;
+  height: 55px;
+  background: url(../images/badge-android.png) no-repeat;
+}
+
+.apple-bt {
+  width: 200px;
+  height: 55px;
+  background: url(../images/badge-iphone.png) no-repeat;
+}
+
+.google-bt span, .apple-bt span {
+  display: none;
+}
+
+.footer-nav {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-nav ul {
+  display: flex;
+  align-items: stretch; /* Default */
+  justify-content: flex-start;
+  width: 55%;}
+
+.footer-nav li {
+  margin: 0 5px;
+  font-weight: bold;
+  color: #658aab;
+  display: block;
+  list-style: none;
+
+}
+
+.footer-nav .copy {
+  color: #ccc;
+} 
+
+
+
+
+}
+
+
