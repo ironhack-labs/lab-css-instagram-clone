@@ -4,7 +4,120 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
-body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+*{
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 200;
+  font-size: 16px;
+}
+
+main{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 80px auto;
+  width: 80%;
+}
+
+section.content{
+  width: 50%;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a.homeLink img{
+  height: 3rem;
+}
+
+nav a.btnPrimary{
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-size: .75rem;
+  text-decoration: none;
+  text-shadow: 0 1px 1px rgba(0,0,0,.32);
+  padding: .5rem;
+  background-color: paleturquoise;
+  border-radius: .25rem;
+  border: 1px solid #06365f;
+  background: linear-gradient(#1c5380, #06365f);
+  box-shadow: #06365f;
+}
+
+nav a.btnPrimary img{
+  height: .75rem;
+  margin-right: .5rem;
+  display: inline-block;
+}
+
+#intro{
+  margin-top: 1rem;
+  padding: 2.5rem;
+  background-image: url(../images/frame.png);
+  background-position: top;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+h1{
+  font-size: 1.5rem;
+  color: #06365f;
+  width: 80%;
+}
+
+#intro p{
+  font-size: 1rem;
+  font-weight: 300;
+  margin-top: 1rem;
+}
+
+#intro img{
+  height: 2.75rem;
+  margin-top: 2rem;
+}
+
+#intro img:not(:last-child){
+  margin-right: 1rem;
+}
+
+footer{
+  margin: 4rem;
+}
+footer ul{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: .6rem;
+  font-weight: 500;
+  color: #bbb;
+}
+
+footer ul li:not(:last-child){
+  margin-right: 1rem;
+}
+
+footer ul li a{
+  color: #06365f;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+#backgroundBody{
+  width: 100vw;
+  height: 40vh;
+  background: linear-gradient(#1c5380, #06365f);
+  position: absolute;
+  z-index: -9;
+  top: 0;
 }
