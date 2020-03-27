@@ -45,6 +45,11 @@
 .login-button {
   display: flex;
   flex-direction: row;
+  background-color: #3a6890;
+  background-image: linear-gradient(#6894bb, #2f5a80);
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 0px 5px -1px rgba(0, 0, 0, 0.4);
 }
 footer {
   display: flex;
@@ -60,4 +65,13 @@ ul li {
 }
 .ig {
   width: 15vw;
+}
+
+.login-text {
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+}
+.login-button:hover {
+  background-image: linear-gradient(#6189ac, #284e70);
 }
