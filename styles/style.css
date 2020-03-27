@@ -1,10 +1,73 @@
 /*
-Colors to use:
+Colors to use:#4e84b1
 dark blue: #06365f
 light blue: #1c5380
 */
 
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  height: 200px;
+
 }
+
+.button {
+  background-image: linear-gradient(to bottom, #a1bfd8, #1a3e5b 30%);
+  border-radius: 5%;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 15px;
+}
+img{
+width: 150px;
+}
+.rightside{
+  display: flex;
+  flex-direction: column;
+}
+.header{
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+  }
+.container{
+  background-color: white;
+  border: floralwhite;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+*  {
+  background-image: linear-gradient(to bottom, #4e84b1, #4e84b1 40%, white 40%);
+  background-attachment:fixed;
+  background-repeat: no-repeat;
+  margin:10px 10px;
+  }
+
+  .mainsection {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: flex-end;
+    align-items: stretch;
+    }
+
+.flex-item:nth-child(1) {
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+    }
+
+.flex-item:nth-child(2) {
+    order: 0;
+    flex: 0 1 auto;
+    align-self: flex-start;
+    }
