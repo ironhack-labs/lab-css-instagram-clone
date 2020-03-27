@@ -1,10 +1,104 @@
+:root{
+  margin: 0;
+}
+
+body {
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;  
+}
+h2{
+  font-weight: 900;
+  color: #1c5380;
+  width: 70%;
+  line-height: normal;
+}
+.position-container{
+  height: 30%;
+  background-color: #1c5380;
+  width: 70%;
+  position: absolute;
+  top: 0;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.main-container{
+  display: flex;
+  justify-content: center;
+  margin: 5% 0 auto;
+}
+
+.login-div{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+.nav{
+margin: 0 auto;
+}
+
+.nav-div {
+  display: flex;
+  align-items: center;
+}
+.login {
+display: flex;
+align-items: center;
+text-align: center;
+background-color:  #1666a7;
+border: none;
+font-weight: 900;
+margin-left: 20px;
+color: white;
+}
+.login img{
+  align-self: center;
+}
+.phones{
+  flex: 0 0 25%;
+}
+.article-section{
+  padding: 10px 40px 20px 40px;
+  box-sizing: border-box;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  text-align: justify;
+  background-color: white;
+}
+
+
+.frame{
+  /* background-image: url(../images/frame.png); */
+  background-position: center;
+  background-size: cover;
+}
+.badges{
+  display: flex;
+}
+.badges img:nth-child(2){
+  margin-left: 10px;
+}
+
+.footnote{
+  display: flex;
+  text-align: center;
+  margin: 40px auto;
+  justify-content: center;
+  font-weight: 900;
+  color: #1c5380;
+}
+
+.footnote ul{
+  display: flex;
+  list-style-type: none;
+  margin: 0 auto;
+}
+.footnote ul li{
+  padding: 0 10px;
+}
 /*
 Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
-body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
-}
