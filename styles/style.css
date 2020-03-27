@@ -7,4 +7,103 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-color: #f3f4f6;
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+  padding-top: 6rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.almost-everything {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  width: 504px;
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+}
+
+.brand-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+  padding: 0 0.3rem;
+}
+
+.brand-button > button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 4em;
+  width: 5.5rem;
+  margin-right: 0.2rem;
+  /* background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x; */
+  background: rgb(104, 146, 178);
+  background: linear-gradient(
+    180deg,
+    rgba(104, 146, 178, 1) 0%,
+    rgba(33, 89, 133, 1) 100%
+  );
+
+  border: 1px solid #26427e;
+  border-radius: 2px;
+}
+
+.brand-button span {
+  color: #f3f4f6;
+  font-size: 1.2em;
+}
+
+.everything-on-the-right {
+  padding-left: 5rem;
+}
+
+.section1 {
+  padding: 2em;
+}
+
+h1 {
+  margin-top: 0;
+  padding-top: 0;
+  color: rgb(5, 55, 96);
+}
+
+.section2 {
+  display: flex;
+  justify-content: flex-start;
+  padding: 0 2em;
+}
+
+.section2 img:first-child {
+  margin-right: 1.6rem;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2em;
+  text-transform: uppercase;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  width: 35rem;
+  justify-content: space-evenly;
+  font-weight: bold;
+  font-size: 0.7em;
+  color: rgb(91, 136, 170);
+}
+
+ul + span {
+  color: rgb(170, 169, 169);
+  font-size: 0.7em;
+  font-weight: bold;
 }
