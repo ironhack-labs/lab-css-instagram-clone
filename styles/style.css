@@ -8,3 +8,115 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+h1 {
+  color:#06365f;
+  font-size: 1.7em;
+  padding-top: 3%;
+  padding-left: 8%;
+  padding-right: 42%
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #1c5380;
+}
+
+#phone-box {
+  margin-top: 10%;
+  margin-left: 8%;
+  margin-right: 10%;
+}
+
+#phone-box > img {
+  height: 100%;
+  width: auto;
+}
+
+#info-box-right {
+  margin-top: 10%;
+  width: 70%;
+  height: 30%
+}
+
+.nav-bar-top {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2%;
+  width: 63%;
+}
+
+.login-button {
+  margin-top: 20%;
+  padding: 20% 20% 20% 60%;
+  width: 160%;
+  color: white;
+  font-size: 1.2em;
+  background-color: #1c5380;
+  border: none;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+
+.login-button + img {
+  position: relative;
+  right: -15%;
+  bottom: 36%;
+  height: auto;
+  width: 40%;
+}
+
+#text-box {
+  background-color: white;
+  width: 67%;
+  font-size: 1.2em;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+#text-box > p {
+  font-size: 1em;
+  padding-left: 8%;
+  padding-right: 10%;
+}
+
+/*img[src] = "badge" {
+  position: relative;
+  left: 0%;
+}  I tried using the attribute selector but it didn't work. I'm not sure why though,
+any thoughts? :)
+*/
+
+#text-box > img {
+  position: relative;
+  left: 5%;
+  margin: 2%
+}
+
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  position: relative;
+  left: 20%;
+  margin-top: 4%;
+}
+
+.nav-bar-footer {
+  width: 70%;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #1c5380;
+}
+footer > p {
+  font-size: 1.2em;
+  color: grey;
+  position: relative;
+  right: 7%; 
+}
