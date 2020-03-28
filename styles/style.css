@@ -20,6 +20,11 @@ body {
 
 }
 
+#imagen > img {
+  height: 100%;
+  width: auto;
+}
+
 #login {
   justify-content: space-between;
   align-items: center;
@@ -28,42 +33,81 @@ body {
 }
 
 #loginButton {
-  background-image: linear-gradient(#FFF,#06365f);
+  background-image: linear-gradient(#7D9CB8, #4A759A);
   color: #FFF;
-  border: none;
+  border: 2px solid #2E5B82;
   border-radius: 4px;
-  
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 8px 15px;
+  align-items: center;
+}
+
+#loginButton > img {
+  padding-right: 3px;
 }
 
 #miniContenedor {
-  width: 1000px;
+  width: 850px;
   margin: auto;
   justify-content: space-between;
 }
 
 #aLaDerecha {
-  flex-direction: column;
-  width: 50%;
+  padding: 20px 0px 0px 40px;
+  width: 60%;
 }
 
 #captureMoments {
   background-image: url('../images/frame.png');
+  background-size: 100%;
   background-repeat: no-repeat;
-  flex-direction: column;
-  padding: 20px;
+  border-radius: 4px;
+  padding: 30px;
+}
+
+#captureMoments > div {
+  height: 100%;
+}
+
+#captureMoments h2 {
+  color: #06365f;
+  margin: 0;
+}
+
+.boldText {
+  font-weight: bold;
+}
+
+#descargarApps {
+  margin-top: 20px;
+}
+
+#descargarApps img {
+  margin-right: 15px;
 }
 
 .footer {
+  padding-bottom: 4%;
   justify-content: center;
 }
 
 .footer ul {
   list-style: none;
   justify-content: space-around;
+  align-items: center;
   width: 50%;
   margin: 0;
 }
 
-.footer > ul > li > a {
+.footerLink{
+  font-weight: 600;
   text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  color: #06365f;
+}
+
+#copyright.footerLink {
+  color: lightgray;
 }
