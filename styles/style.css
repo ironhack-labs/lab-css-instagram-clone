@@ -23,10 +23,53 @@ h3 {
   color: #1c5380;
 }
 
+.brandAndLogin {
+  display: flex;
+  align-items: center;
+}
+
+button {
+  background-color: #3a6890;
+  background-image: linear-gradient(#6894bb,#2f5a80);
+  box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.40);
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  padding: 5px 15px;
+  border-color: #1c5380;
+}
+
+button a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+button:hover {
+    background-image: linear-gradient(#6189ac,#284e70);
+  }
+
+
+.home {
+  padding-right: 5px;
+}
+
 .mainText {
   background-image: url("../images/frame.png");
   background-repeat: no-repeat;
+  position: absolute;
+  padding: 1em 12em 0em 2em;
 }
+
+.googlePlayAppStoreButtons {
+  display: flex;
+  padding-top: 1em;
+
+}
+
+.googlePlay {
+  margin-left: 1em;
+}
+
 
 footer {
   display: flex;
