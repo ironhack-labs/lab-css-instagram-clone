@@ -13,10 +13,15 @@ body {
   padding-top: 6rem;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 article {
   display: flex;
+}
+
+.iphoneImage {
+  padding-right: 50px;
 }
 
 h3 {
@@ -26,6 +31,10 @@ h3 {
 .brandAndLogin {
   display: flex;
   align-items: center;
+}
+
+.instagramBadge {
+padding-right: 65px;
 }
 
 button {
@@ -57,7 +66,9 @@ button:hover {
   background-image: url("../images/frame.png");
   background-repeat: no-repeat;
   position: absolute;
-  padding: 1em 12em 0em 2em;
+  padding: 1em 1em 0em 2em;
+  background-size: 100%;
+  width: 30%;
 }
 
 .googlePlayAppStoreButtons {
@@ -74,6 +85,7 @@ button:hover {
 footer {
   display: flex;
   justify-content: center;
+  padding-top: 40px;
 }
 
 ul {
