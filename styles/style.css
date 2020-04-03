@@ -4,7 +4,116 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
-body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+/* General */
+
+* {
+  /* border: 1px solid red; */
   margin: 0;
 }
+
+body {
+  font: 200 16px/1.5 Helvetica, Arial, sans-serif;
+  margin: 50px;
+  background-image: url(/images/bgtile.png);
+  background-repeat: repeat-x;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Main section */
+
+#main-section {
+  display: flex;
+  justify-items: center;
+}
+
+#right-hand-side {
+  margin: 0px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+#top-part {
+  margin: 10px 5px;
+  flex: 1;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+#log-in {
+  align-self: center;
+  justify-self: flex-end;
+  height: 10px;
+
+  display: flex;
+  align-items: center;
+
+  margin: 0 10px 0 0;
+  padding: 15px 10px;
+  border: 1px solid #1c5380;
+
+  background-color: rgba(255, 255, 255, 0.2)
+}
+
+#log-in p {
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 550;
+  padding: 0px 6px;
+  
+}
+
+#main-text {
+  flex: 5;
+
+  background-image: url(/images/frame.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#main-text h1 {
+  margin: 30px 40px 10px 40px;
+  width: 50%;
+
+  /* font-size: 1.5em; */
+  font-weight: 600;
+  color: #06365f;
+}
+
+#main-text p, div {
+  margin: 0px 40px;
+}
+
+#download-images > *{
+  padding-right: 5px;
+}
+
+/* Footer */
+
+#footer-list {
+  padding: 25px 0px;
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+#footer-list li:not(:last-child) {
+  color: #1c5380;
+  font-size: 12px;
+  padding: 0px 10px;
+  font-weight: 600;
+}
+
+#copywright {
+  color: rgba(190, 190, 190, 1);
+  font-size: 12px;
+  padding: 0px 10px;
+  font-weight: 600;
+}
+
+
+
