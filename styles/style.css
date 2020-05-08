@@ -8,3 +8,126 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+/*Header Style*/
+
+.top{
+  width: 100%;
+  height: 206px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background: linear-gradient(0deg, rgba(28,83,128,1) 0%, rgba(106,137,162,1) 81%);
+}
+
+.top > img {
+  width: 233px;
+  height: 55px;
+}
+
+.top button{
+  height: 30px;
+  width : 75px;
+  margin-right: 92px;
+  margin-left: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(0deg, rgba(28,83,128,1) 0%, rgba(106,137,162,1) 81%);
+  border: 1px solid #06365f;
+  color: white;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.top .littleHouse {
+  width: 16px;
+}
+
+header button:hover{
+  background: linear-gradient(180deg, rgba(28,83,128,1) 0%, rgba(106,137,162,1) 81%);
+}
+
+/*Main Style*/
+
+.phone {
+  height: 380px;
+  width: 236px;
+  position: absolute;
+  left: 220px;
+  top: 70px;
+}
+
+.bottom article {
+  width: 390px;
+  height: 350px;
+  position: absolute;
+  right: 92px ;
+  top: 158px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  background-image: url(/lab-css-instagram-clone/images/frame.png);
+  background-size: cover;
+}
+
+.bottom article h2 {
+  font-size: 20px;
+  position: relative;
+  left: 20px;
+  top: 10px;
+  color: #06365f;
+}
+
+.bottom article span {
+  font-size: 15px;
+  margin: 10px;
+  position: relative;
+  left: 10px ;
+
+}
+
+.bottom div {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  position: relative;
+  right: -25px;
+}
+
+/*Footer Style*/
+
+.footer {
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #1c5380;
+  width: 100%;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 350px;
+}
+
+.footer ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  width: 100;
+}
+
+.footer li{
+  padding: 0 10px;
+}
+
+.footer .grey {
+  color: #868686;
+}
+
+.footer a{
+  text-decoration: none;
+  color: #1c5380;
+}
+
+
