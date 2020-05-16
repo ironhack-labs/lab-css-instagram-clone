@@ -94,20 +94,23 @@ body {
   margin-right: 1.2rem ;
 }
 
-
 footer {
+  margin-top: 4rem;
+}
+
+footer ul{
   font-size: 0.7rem;
-  color: #1c5380;
   text-transform: uppercase;
   display: flex;
   flex-direction: row;
   justify-content: center;
   font-weight: bold;
-  margin-top: 2rem;
+  list-style: none;
 }
 
-footer div {
+footer a {
   margin: 1rem;
+  color: #1c5380;
 }
 
 #copy-right {
