@@ -5,6 +5,155 @@ light blue: #1c5380
 */
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 200;
+  font-size: 15px;
+  font-family: "Neue Helvetica", Helvetica, Arial, sans-serif;
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.background-top{
+  position: absolute;
+  top: 0;
+  background-image: linear-gradient(#1c5380, #06365f);
+  height: 250px;
+  width: 100vw;
+}
+
+main {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  top: 4rem;
+  margin: auto;
+}
+
+.phones-image {
+  height: 33rem;
+}
+
+.right-side {
+  display: flex;
+  flex-wrap: wrap;
+  width: 35rem;
+  margin-left: 3rem;
+}
+
+.nav-bar {
+  display: flex;
+  margin: 1rem 1rem 0 1.2rem;
+  justify-content: space-between;
+  height: 5rem;
+  width: 100%;
+}
+
+.nav-bar > button {
+  display: flex;
+  background-image: linear-gradient(#1c5380, #06365f);
+  height: 2.5rem;
+  border: 2px solid #06365f;
+  color: white;
+  align-items: center;
+  align-self: center;
+}
+
+.nav-bar > button > img {
+  align-self: center;
+}
+
+section {
+  background: url('../images/frame.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding: 1.2rem 2rem 0 2.5rem;
+  margin: 0 1rem;
+  align-content: stretch;
+}
+
+section h1 {
+  color: #06365f;
+  line-height: 2rem;
+}
+
+section p {
+  line-height: 1.5rem;
+  font-size: 1rem;
+}
+.badges img {
+  margin: 1.5rem 1rem 0 0;
+}
+
+
+footer {
+  display: flex;
+  margin-top: 5rem;
+  justify-content: center;
+}
+
+footer > ul {
+  display: flex;
+  list-style: none;
+}
+
+footer li {
+  margin: 1rem;
+  text-decoration: none;
+  font-weight: 600;
+  color: grey;
+}
+
+footer a {
+  text-decoration: none;
+  color: #06365f;
+}
+
+@media (max-width: 900px) {
+  .phones-image {
+    display: none;
+  }
+
+  main {
+    top: 1rem;
+  }
+
+  .right-side {
+    width: 95vw;
+    margin: 0;
+  }
+
+  .nav-bar {
+    margin-top: -1rem;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .nav-bar img {
+    height: 2rem;
+  }
+
+  section {
+    background-color: white;
+    border-radius: 10px;
+  }
+
+  .badges {
+    display: flex;
+    justify-content: center;
+  }
+
+  .badges img {
+    height: 2rem;
+  }
+
+  footer ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80vw;
+  }
 }
