@@ -7,4 +7,109 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.bue-header {
+  position: absolute;
+  background-color: #50789a;
+  height: 17rem;
+  width: 100%;
+}
+
+.main-body {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding-top: 8rem;
+}
+
+.left-body {
+  padding-right: 3rem;
+}
+
+.right-body {
+  width: 30rem
+}
+
+#headers {
+  width: 100%;
+  margin-bottom: 1.1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 0.5rem;
+}
+
+#login {
+  width: 6rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #608bb1;
+  border: 0.001rem solid rgb(92, 91, 91);
+  box-shadow: 1rem lightgrey;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#headers a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold ;
+  font-size: 1rem;
+}
+
+#white-box {
+  width: 100%;
+  height: 100%;
+  box-shadow: 1rem lightgrey;
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  padding: 1rem
+}
+
+#white-box h1 {
+  color: #06365f;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 0 0 0 1.5rem;
+}
+
+#white-box p {
+  font-size: 1rem;
+  padding: 0 1.5rem 0rem 1.5rem;
+}
+
+#stores {
+  padding: 0 1.5rem 0rem 1.5rem;
+  display: flex;
+  justify-content: flex-start;
+}
+
+#stores img {
+  margin-right: 1.2rem ;
+}
+
+
+footer {
+  font-size: 0.7rem;
+  color: #1c5380;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-weight: bold;
+  margin-top: 2rem;
+}
+
+footer div {
+  margin: 1rem;
+}
+
+#copy-right {
+  color: lightgrey;
 }
