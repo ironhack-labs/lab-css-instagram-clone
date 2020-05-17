@@ -104,9 +104,10 @@ h1 {
 
 .description > p {
   height: auto;
-  width: 32rem;
+  width: 40rem;
   padding: 1rem;
   margin: 1rem;
+  font-size: 1.2rem;
 }
 
 .description > h1 {
