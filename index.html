@@ -7,56 +7,61 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Instagram Clone</title>
-    <link rel="stylesheets" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" media="(media-features)" href="./styles/style.css" />
 
   </head>
 
   <body>
 
-    <div>
+    <header>
 
       <div>
         <img src="./images/phones.png" alt="Phones images">
       </div>
 
-      <header>
+      <div class="flex-instagram-and-description">
 
-        <img src="./images/brand.png" alt="Brand-Image">
+        <div class="flex-instagram-and-login">
 
-        <a href="#" class="log-in-button">Log in</a>
-
-        <div>
-
-          <h3>Capture and Share the World's Moments</h3>
-          <p>Instagram is a <strong>fast</strong>, <strong>beautiful</strong> and <strong>fun</strong> way to share your life with friends and family.<br> Take a picture or video, choose a filter to transform its look and feel, then post to Instagram
-    &mdash; it's that easy. You can even share to Facebook, Twitter, Tumblr and more. It's a new way to see the world.<br>
-    Oh yeah, did we mention it's free? </p>
-
-          <img src="./images/badge-iphone.png" alt="Download on the app store image">
-          <img src="./images/badge-android.png" alt="Get it on Google play image">
+          <img class="proportion-brand" src="./images/brand.png" alt="Brand-Image">
+          <a href="#" class="log-in-button"><img src="./images/home.png" alt="Home icon"> Log in</a>
 
         </div>
 
-      </header>
+        <div class="container-description">
 
+          <h2>Capture and Share the World's Moments</h2>
+          <p>Instagram is a <strong>fast</strong>, <strong>beautiful</strong> and <strong>fun</strong> way to share your life with friends and family.</p> 
+          <p>Take a picture or video, choose a filter to transform its look and feel, then post to Instagram
+    &mdash; it's that easy. You can even share to Facebook, Twitter, Tumblr and more. It's a new way to see the world.</p>
+          <p>Oh yeah, did we mention it's free? </p>
 
+          <div class="link-to-app-flex">
+            <img src="./images/badge-iphone.png" alt="Download on the app store image">
+            <img src="./images/badge-android.png" alt="Get it on Google play image">
+          </div>
 
-    </div>
+        </div>
+
+      </div>
+
+    </header>
 
     <footer>
 
       <nav>
 
-        <ul>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Support</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Press</a></li>
+        <ul class="container-ul">
+          <li><a href="#">ABOUT US</a></li>
+          <li><a href="#">SUPPORT</a></li>
+          <li><a href="#">BLOG</a></li>
+          <li><a href="#">PRESS</a></li>
           <li><a href="#">API</a></li>
-          <li><a href="#">Jobs</a></li>
-          <li><a href="#">Privacy</a></li>
-          <li><a href="#">Terms</a></li>
-          <li>&copy; 2014 Instagram</li>
+          <li><a href="#">JOBS</a></li>
+          <li><a href="#">PRIVACY</a></li>
+          <li><a href="#">TERMS</a></li>
+          <li>&copy; 2014 INSTAGRAM</li>
         </ul>
 
       </nav>
