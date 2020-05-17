@@ -14,7 +14,7 @@ html {
 body {
   font: 400 1.6rem/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
-  background: url(../images/bgtile.png) repeat top left;
+  background: none;
   color: #333;
 }
 
@@ -28,7 +28,6 @@ h1 {
   justify-content: start;
   align-items: center;
   width: 100%;
-  height: 100vh;
   flex-direction: column;
 }
 
@@ -38,15 +37,12 @@ main {
 }
 
 .phones {
-  display: flex;
+  isplay: flex;
   justify-content: center;
-  width: 200px;
+  width: 100%;
   height: 200px;
-  border-radius: 50%;
-  background: url(../images/phones.png) no-repeat center center / 50%;
-  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.4);
+  background: #fff url(../images/phones.png) no-repeat top center / 50%;
   margin: auto;
-  margin-top: 20px;
 }
 
 .phones img {
@@ -58,6 +54,7 @@ main {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  background: #335d81;
 }
 
 .logo {
@@ -100,7 +97,7 @@ nav:before {
   font-size: 12px;
 }
 
-nav:hover > ul {
+nav:active > ul {
   position: absolute;
   display: block;
   width: 100%;
@@ -116,10 +113,6 @@ nav:hover > ul {
   z-index: 5;
 }
 
-nav:hover > ul:hover {
-  display: none;
-}
-
 nav ul {
   display: none;
 }
@@ -127,6 +120,7 @@ nav ul {
 a {
   color: #1c5380;
   font-size: 12px;
+  text-decoration: none;
 }
 
 /* Desktop Styles */
@@ -160,6 +154,7 @@ a {
 
   .logo-row {
     justify-content: space-between;
+    background: none;
   }
 
   .home-btn {
@@ -193,5 +188,9 @@ a {
     font-size: 12px;
     font-weight: bold;
     color: #d2d3d4;
+  }
+
+  nav:active > ul {
+    display: inherit;
   }
 }
