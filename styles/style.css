@@ -7,4 +7,101 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: url(../images/bgtile.png) repeat-x top left;
 }
+
+/* .main-container {
+  text-align: center;
+} */
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 43rem;
+  margin-bottom: -1rem;
+}
+
+.container-card {
+  width: 504px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2.5rem;
+}
+
+.capture {
+  width: 16rem;
+}
+
+.card-body {
+  background: url(../images/frame.png) no-repeat top center;
+  width: 504px;
+  padding: 30px;
+  padding: 1rem;
+}
+
+h2.capture {
+  padding: 0 2.8rem;
+}
+
+.card-body p {
+  padding: 0 2.8rem;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 498px;
+  padding: 4.5rem 1.5rem 1rem 1rem;
+}
+
+.login {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px 15px;
+  color: #fff;
+  border: solid 1px #305d83;
+  border-radius: 3px;
+  background: linear-gradient(#7798b6 0%, #426f96 100%);
+}
+
+ .login img {
+  padding: 0 0.6rem 0 0;
+}
+ 
+
+.card-buttons {
+  display: flex;
+  padding: 2rem 0 0 2.4rem;
+}
+
+.app-store-button {
+  padding: 0 1.1rem 0 0;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+    /* width: 41rem; */
+  margin-bottom: 0;
+  padding: 0 5rem;
+}
+
+.footer ul {
+  display: flex;
+  /* justify-content: unset; */
+  /* align-items: center; */
+  list-style: none;
+  font-size: 0.7rem;
+  font-weight: bold;
+  color: #305d83;
+}
+
+footer ul li {
+  padding: 0 0.5rem 0 0;
+}
+ 
+
