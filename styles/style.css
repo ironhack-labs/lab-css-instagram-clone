@@ -7,4 +7,88 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #1c5380;
+  background-image: linear-gradient(to bottom, #1c5380 60%, #06365f);
+  height: 32vh;
+}
+
+#container-header {
+  display: flex;
+  justify-content: space-between;
+    align-items: center;
+    margin: 30px 10px 15px 10px;
+
+}
+
+#container-header > img {
+  width: 14rem;
+}
+#container-header button{
+    display: flex;
+    align-items: center;
+    background-color: #1c5380;
+    background-image: linear-gradient(to bottom, #fff -110%, #1c5380);
+    border-color: #1c5380;
+    color: #f4f4f4;
+    padding: 8px;
+    
+    font-size: .8rem;
+    font-weight: bold;
+}
+#container-header button > img{
+    margin-right: 10px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  margin: -12em 0 0 0;
+
+}
+
+main > section {
+  width: 35%;
+}
+
+
+#section-text {
+  background: url(../images/frame.png) no-repeat;
+  font-size: 1rem;
+  padding: 15px 38px;
+
+}
+
+#section-text > h1 {
+  color: #1c5380;
+  width: 60%;
+
+}
+
+#images-logos {
+  margin-top: 30px;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+footer > ul {
+  list-style-type: none;
+    display: flex;
+    font-weight: 600;
+    color: #1c5380;
+    font-size: .7rem;
+}
+footer > ul :last-child {
+  color:gray;
+}
+
+footer > ul li {
+  margin-left: 2em;
 }
