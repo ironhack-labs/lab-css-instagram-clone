@@ -4,10 +4,6 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
-@media [(media-features) ] {
-  // Styles
-}
-
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0px;
@@ -93,7 +89,7 @@ footer {
 }
 
 .container-ul {
-  padding: 0 120px 0 120px;
+  padding: 0 100px 0 100px;
 }
 
 ul, li {
