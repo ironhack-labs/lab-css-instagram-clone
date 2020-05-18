@@ -20,7 +20,7 @@ header {
   display: flex;
   justify-content: space-between;
     align-items: center;
-    margin: 30px 10px 15px 10px;
+    margin: 30px 12px 15px 10px;
 
 }
 
@@ -52,7 +52,7 @@ main {
 }
 
 main > section {
-  width: 35%;
+  width: 32rem;
 }
 
 
