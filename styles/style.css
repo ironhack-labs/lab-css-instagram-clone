@@ -7,4 +7,97 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: linear-gradient(to bottom, #1c5380 0%, #1c5380 42%, #fff 42%, #fff 100%);
+  /* box-sizing: border-box; */
 }
+
+#web {
+  display: flex;
+  flex-direction:row;
+  justify-content: space-around;
+  align-items:center;
+  padding:5rem;
+  margin-top: 6rem;
+}
+
+#presentation{
+  width: 500px;
+  margin-left:-15%;
+
+}
+
+header {
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content: space-between;
+  padding: 0 7px 0 5px;
+}
+
+h1 {
+  color: #1c5380;
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+#logo {
+  width: 300px;
+}
+
+#home-button {
+  background: linear-gradient(#2e7dbd,#083c69);
+  padding: 10px;
+  border-radius: 2px;
+  border: 1px solid #123f64;
+  text-align: center;
+  color: #fff;
+}
+
+#home-button img{
+  vertical-align: middle;
+}
+
+#home-button a{
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 5px;
+}
+
+#description{
+  background-image: url(../images/frame.png);
+  background-position: center top;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding:1rem 3rem;
+}
+
+#badges > a {
+  margin-right: 10px;
+}
+
+#footer{
+  list-style: none;
+  display: flex;
+  flex-direction:row;
+  justify-content:center;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight:600;
+  padding-bottom:6em;
+
+}
+
+#footer a{
+  text-decoration: none;
+  color: #1c5380;
+  padding:1rem;
+}
+
+#footer span{
+  color: gray;
+  padding-left:1rem;
+}
+
+
