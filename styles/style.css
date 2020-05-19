@@ -4,7 +4,131 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  height: calc(100vh - 30px);
+  background: url(../images/bgtile.png) repeat-x top;
+  justify-content: space-around;
+
+}
+
+.container-instagram {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 10vh;
+  width: 100%;
+}
+
+.phone-col {
+  width: 30%;
+  height: 512px;
+}
+
+.info-col {
+  width: 504px;
+  height: 512px;
+  padding: 0 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.brand-login {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+
+.login-button {
+  display: flex;
+  justify-content: space-around;
+  width: 90px;
+  border-radius: 5px;
+  width: 90px;
+  padding: .5rem;
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+  border: 1px solid #06365f;
+
+  background: rgba(110, 146, 177, 1);
+  background: -moz-linear-gradient(top, rgba(110, 146, 177, 1) 0%, rgba(63, 101, 134, 1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(110, 146, 177, 1)), color-stop(100%, rgba(63, 101, 134, 1)));
+  background: -webkit-linear-gradient(top, rgba(110, 146, 177, 1) 0%, rgba(63, 101, 134, 1) 100%);
+  background: -o-linear-gradient(top, rgba(110, 146, 177, 1) 0%, rgba(63, 101, 134, 1) 100%);
+  background: -ms-linear-gradient(top, rgba(110, 146, 177, 1) 0%, rgba(63, 101, 134, 1) 100%);
+  background: linear-gradient(to bottom, rgba(110, 146, 177, 1) 0%, rgba(63, 101, 134, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#6e92b1', endColorstr='#3f6586', GradientType=0);
+}
+
+.login-text {
+  margin-top: 2px;
+  padding-left: 5px;
+}
+
+.info {
+  background: url('../images/frame.png') no-repeat center;
+  padding: 0.5rem 2rem 0rem 2rem;
+  background-color: white;
+  background-position-y: -8px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.insta-title {
+  color: #06365f;
+  font-size: 25px;
+}
+
+.insta-text {
+  font-size: 14px;
+}
+
+.social-logos img {
+  padding-right: 15px;
+  padding-top: 1rem;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.insta-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  font-size: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.insta-menu li {
+  padding: 0 10px;
+  color: #06365f;
+}
+
+.insta-menu .copy {
+  color: #ccc;
 }
