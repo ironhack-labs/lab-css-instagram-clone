@@ -7,4 +7,93 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: url(../images/bgtile.png) repeat-x top left;
+}
+
+.app-store-button {
+  background-image: url(../images/badge-iphone.png);
+}
+
+.google-play-button {
+  background-image: url(../images/badge-android.png);
+}
+
+.main-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.right-content {
+  width: 500px;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+.upper-right-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.upper-right-content > button {
+  border: none;
+  border-radius: 2px;
+  color: white;
+  font-weight: bold;
+  height: 40px;
+  width: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 0px 2px black;
+  background-image: linear-gradient(#3f719c, #3a6890);
+}
+
+.description-box {
+  padding: 10px 35px;
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+}
+
+.description-box > p {
+  line-height: 22px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  justify-content: center;
+}
+
+ul > li {
+  padding: 0 10px;
+  font-weight: bold;
+  color: rgba(128, 128, 128, 0.452);
+}
+li > a {
+  text-decoration: none;
+  color: #1c5380;
+}
+
+h1 {
+  color: #06365f;
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+
+.mobile-buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.mobile-buttons > img {
+  padding-right: 20px;
+  margin-top: 30px;
+}
+
+footer {
+  margin-top: 60px;
 }
