@@ -7,4 +7,114 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#background {
+  background: url(../images/bgtile.png);
+  position: absolute;
+  height: 40%;
+  width: 100%;
+  z-index: -1;
+  top: 0;
+}
+
+/*MAIN SECTION*/
+main {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  margin: 10vh 8vw;
+}
+
+h2 {
+  width: 55%;
+  color: #052c54;
+}
+
+#phones-img-section img {
+  width: 350px;
+}
+
+.main-content {
+  width: 570px;
+  min-width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 0;
+  margin-left: 45px;
+}
+
+#title-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: #3a6890;
+
+}
+
+#title-section img {
+  width: 60%;
+}
+
+#log-in-button img {
+  width: 1.6rem;
+}
+
+#log-in-button {
+  width: 18%;
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid rgba(5, 50, 82, 0.49) ;
+  padding: 7px 4px;
+  background: linear-gradient(45deg, transparent, #688dad );
+}
+
+#log-in-button a {
+  color: white;
+  text-decoration: none;
+}
+
+.main-content article {
+  background-color: white;
+  padding: 2rem 1.4rem 0 1.4rem;
+  border-radius: 1.5%;
+}
+
+#appstore-links {
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+  padding-top: 1.4rem;
+}
+
+/*FOOTER*/
+
+footer {
+  display: flex;
+  align-items: baseline;
+  font-size: 0.655555rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+ul li {
+  margin: auto 0.9rem 1.2rem auto;
+  color: #3a6890;
+}
+
+footer span {
+  color: rgba(128, 128, 128, 0.7);
 }
