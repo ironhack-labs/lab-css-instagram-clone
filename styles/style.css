@@ -6,5 +6,157 @@ light blue: #1c5380
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  margin-top: 0;
+  padding-top: 0;
+  min-width: 900px;
+  line-height: 20px;
+  color: #222222;
+  height: 100%;
+
+}
+
+h1 {
+  font-size: 27px;
+  font-weight: bold;
+  line-height: 32px;
+  margin-right: 35%;
+  margin-top: 0;
+  color: #06365f;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  margin: 0 0 10px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.apps {
+  margin-top: 25px;
+}
+
+.page {
+  min-height: 600px;
+  position: relative;
+  display: block;
+}
+#home-bg {
+  width: 100%;
+  height: 200px;
+  padding-top: 100px;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #517fa4;
+}
+
+.home-phones {
+  left: 0;
+  bottom: 46px;
+  width: 318px;
+  height: 512px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  padding-right: 50px;
+  margin-left: 4px;
+}
+
+.content {
+  float: right;
+  position: relative;
+  width: 520px;
+  margin-top: 30px;
+}
+
+.display {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 10px;
+}
+
+.container {
+  box-shadow:  #1c4f79;
+  font-size: 16px;
+  padding: 12px 12px;
+  background-color: #517fa4;
+  color: white;
+  border-color: #1c4f79;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  height: 20px;
+  width: 80px;
+}
+
+.container:hover {
+  background-color: #1c4f79;
+}
+
+.disposicion {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.caja {
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  background-image: white;
+  height: 40%;
+  width: 100%;
+  padding: 40px 0px 128px 48px;
+}
+
+#structure {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+
+
+footer {
+  padding: 80px 0 7px;
+  margin: 0 auto;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 16px;
+  display: block;
+}
+
+.div-footer {
+  margin: 0 auto;
+  padding: 0 16px;
+  position: relative;
+}
+
+footer ul {
+  align-items: center;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+footer ul li {
+  display: inline-block;
+  padding-left: 10px;
+}
+
+li > a {
+  text-decoration: none;
+  color: #3F92B3
+}
+
+.copyright {
+  padding: 8px 6px;
+  margin: 0 0 0 8px;
+  color: rgba(0, 0, 0, 0.3);
 }
