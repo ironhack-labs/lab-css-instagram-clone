@@ -6,6 +6,7 @@ light blue: #1c5380
 :root {
   --dark-blue: #06365f;
   --light-blue: #1c5380;
+  --lighter-blue: #208f9e;
 }
 
 * {
@@ -50,6 +51,10 @@ h1 {
 .nav-bar {
   display: flex;
   align-items: center;
+  padding: 10px 15px;
+  background-color: var(--lighter-blue);
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
 }
 
 .card {
