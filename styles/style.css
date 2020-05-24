@@ -25,6 +25,14 @@ body {
   padding: 0 6rem;
 }
 
+.text {
+  padding-bottom: 20px;
+}
+
+h1 {
+  color: var(--dark-blue);
+}
+
 .main-header {
   height: 40vh;
   background-color: var(--light-blue);
@@ -43,6 +51,24 @@ body {
 }
 
 .hero {
-  position: absolute;
-  top: 5.25rem;
+  /* position: absolute;
+  top: 5.25rem; */
+  align-items: center;
+  position: relative;
+  top: -15.5rem;
+}
+
+.hero-text {
+  max-width: 70%;
+  margin-left: 6rem;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.card-container {
+  padding: 15px 30px;
 }
