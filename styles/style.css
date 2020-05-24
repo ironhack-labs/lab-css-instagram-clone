@@ -39,6 +39,8 @@ h1 {
 
   justify-content: flex-end;
   align-items: center;
+  position: absolute;
+  width: 100%;
 }
 
 .title {
@@ -50,19 +52,6 @@ h1 {
   align-items: center;
 }
 
-.hero {
-  /* position: absolute;
-  top: 5.25rem; */
-  align-items: center;
-  position: relative;
-  top: -15.5rem;
-}
-
-.hero-text {
-  max-width: 70%;
-  margin-left: 6rem;
-}
-
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   background-color: #ffffff;
@@ -72,3 +61,25 @@ h1 {
 .card-container {
   padding: 15px 30px;
 }
+
+.relative {
+  position: relative;
+}
+
+.overlayed-item {
+  position: absolute;
+  width: 100%;
+  top: 150px;
+}
+
+.hero {
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-text {}
+
+/* .contenedor {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
