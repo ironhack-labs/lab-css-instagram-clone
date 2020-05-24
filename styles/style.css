@@ -82,9 +82,29 @@ h1 {
 .store {
   padding-top: 1rem;
 }
-.hero-text {}
 
-/* .contenedor {
-  /* display: flex;
+.footer {
+  position: absolute;
+  bottom: 100pt;
+  width: 100%;
+}
+
+.footer-container {
+  padding: 0 6rem;
+  display: flex;
   justify-content: center;
-  align-items: center; */
+}
+
+.footer li {
+  display: inline-block;
+  text-transform: uppercase;
+  color: var(--light-blue);
+  font-weight: 600;
+  padding-right: 1rem;
+  /* display: inline-block; */
+}
+
+.footer li.copyright {
+  color: grey;
+  font-weight: 400;
+}
