@@ -57,7 +57,7 @@ h1 {
   background-color: #ffffff;
   border-radius: 10px;
   margin-left: 8rem;
-  margin-top: 4rem;
+  margin-top: 6rem;
 }
 
 .card-container {
@@ -79,6 +79,9 @@ h1 {
   justify-content: center;
 }
 
+.store {
+  padding-top: 1rem;
+}
 .hero-text {}
 
 /* .contenedor {
