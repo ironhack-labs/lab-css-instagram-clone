@@ -3,8 +3,129 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
+* {
+  padding: 0;
+  margin: 0;
+}
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+header {
+  height: 350px; 
+  background-image: url('../images/bgtile.png');
+  background-size: contain;
+  background-repeat: repeat;
+}
+
+.phone {
+  width: 300px;
+}
+
+.logoLogIn{
+  /*display: flex;
+  flex-wrap: wrap;*/
+}
+
+.logIn {
+  padding: 15px;
+  background-color: #668CAC;
+  background-size: contain;
+  background-repeat: repeat;
+  text-decoration: none;
+  color: white;
+  border-radius: 2px;
+  border-width: thin;
+  box-shadow: darkblue;
+  margin-bottom: 15px;
+
+}
+
+.logInImg {
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+h2 {
+  font-size: 1.7em;
+  color: rgb(8,47,85);
+  padding-left: 50px;
+  padding-top: 50px;
+  margin-bottom: 10px;
+  width: 300px;
+}
+
+span {
+  font-weight: bold;
+}
+
+p {
+  width: 300px;
+  padding-left: 50px;
+  margin-bottom: 10px;
+  
+  
+}
+
+.downloadApp {
+  width: 400px;
+  padding-left: 25px;
+  margin-left: 15px;
+  margin-top: 30px;
+  
+}
+
+/*.sections {
+  display: block;
+  flex-wrap: wrap;
+
+}*/
+
+.mainContent{
+  background-image: url('../images/frame.png');
+  background-size: cover;
+}
+
+.sections {
+  position: fixed;
+  top: 150px;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: nowrap;
+  margin-right: 200px;
+  margin-left: 200px;
+}
+
+.section1 {
+  margin-right: 70px;
+}
+
+.section2 {
+  width: 60%;
+}
+
+.links {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: darkblue;
+  font-weight: bold;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  padding-bottom: 70px;
+  text-align: center;
+  width: 900px;
+}
+
+.linkscopy {
+  color: lightgrey
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+
 }
