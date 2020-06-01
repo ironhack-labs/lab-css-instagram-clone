@@ -3,8 +3,111 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+* {
+  padding: 0;
+  margin: 0;
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  
+}
+
+section {
+  background: linear-gradient(0deg, white 50%, #1c5380 0%) ;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 180px;
+
+}
+
+.principalContainer {
+  margin-top: 20px;
+  width: 600px;
+  margin-left: 80px;
+}
+
+.logoInstagramContainer {
+  display: flex;
+}
+
+.loginbutton {
+  display: flex;
+  align-items: center;
+  border: #06365f;
+  border-width: 1px;
+  border-style: solid;
+  height: 25px;
+  padding: 10px 15px;
+  margin-left:165px;
+  margin-top: 10px;
+  background-color: #1e5c8f;
+  border-radius: 5%;
+}
+
+.homelogo {
+  margin-top: 3px;
+}
+
+.login {
+  color: white;
+  margin-left: 5px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+article {
+  background-image: url("../images/frame.png");
+  background-size: cover;
+  margin-top: 15px;
+  padding: 35px 20px;
+  
+}
+
+h1 {
+  width: 230px;
+  color: #06365f;
+  margin-left: 25px;
+  margin-bottom: 15px;
+  font-size: 1.4em;
+}
+
+p {
+  margin-bottom: 12px;
+  margin-left: 25px;
+  margin-right: 25px;
+
+}
+
+.logosAppstoreContainer {
+  display: flex;
+  margin-left: 45px;
+  margin-right: 220px;
+  justify-content: space-between;
+  
+}
+
+footer {
+  margin-top: 50px;
+}
+
+.footerLinks {
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  width: auto;
+  text-transform: uppercase;
+  list-style: none;
+  padding: 9px;
+  font-size: 0.8em;
+  font-weight: 600;
+  color: #1c5380;
+}
+
+.copyright {
+  color: gray
 }
