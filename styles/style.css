@@ -1,10 +1,87 @@
 /*
 Colors to use:
 dark blue: #06365f
-light blue: #1c5380
+light blue: 
 */
-
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+main {
+  display: flex;
+  justify-content: center;
+  background-image: url("../images/bgtile.png");
+  background-size: 100% 35%;
+  background-repeat: no-repeat;
+}
+.mobile {
+  margin: 2em;
+}
+.container-right {
+  width: 30.5em;
+  margin: 2em;
+}
+.container-right div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1em 0;
+}
+article {
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+article h3 {
+  padding-top: 2em;
+  padding-left: 2em;
+  margin-right: 170px;
+  color: #1c5380;
+}
+article p {
+  padding-top: 1em;
+  padding-left: 2em;
+  width: 27em;
+}
+span {
+  font-weight: bold;
+}
+article figure {
+  margin: 2em;
+}
+article img {
+  margin: 7px;
+}
+.button {
+  background-color: #1c5380;
+  border: 1px solid #06365f;
+  border-radius: 2px;
+}
+.button p a {
+  color: white;
+  text-decoration: none;
+}
+.button p {
+  padding: 10px;
+}
+.button a img {
+  padding-left: 8px;
+}
+ul {
+  display: flex;
+  justify-content: center;
+}
+li {
+  margin: 7px;
+  list-style: none;
+  color: #1c5380;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+.copy {
+  color: grey;
 }
