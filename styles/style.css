@@ -1,10 +1,93 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
-
+*{
+  margin: 0;
+  padding: 0;
+}
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+.relative {
+  position: relative;
+  padding-top: 200px;
+}
+.blue-container {
+  background-color: #1c5380;
+  background-size: 120% 120%;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  height: 53%;
+  width: 100%;
+}
+.section-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 200px;
+}
+.section-2 {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 45px;
+}
+.instagram-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+
+}
+.log-in {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  background-image: linear-gradient(#598ab1, #1c5380);
+  border: 1px solid #06365f;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+}
+.log-in img {
+  margin-right: 10px;
+}
+.article-container {
+  padding: 30px;
+  background-repeat: no-repeat;
+  background-image: url(../images/frame.png);
+  background-size: 100%;
+}
+.article-container h1{
+  margin-bottom: 20px;
+  color: #06365f;
+  font-size: 30px;
+}
+.article-container p {
+  margin-bottom: 10px;
+}
+.buttons-store {
+  margin-top: 15px;
+}
+.buttons-store a{
+  margin: 0 10px
+}
+nav ul{
+  margin: 20px 350px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul li{
+  list-style-type: none;
+}
+nav ul li a{
+  text-decoration: none;
+  color: #1c5380;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+span{
+  text-transform: uppercase;
+  color: lightgray;
+  font-weight: bold;
+}
+
