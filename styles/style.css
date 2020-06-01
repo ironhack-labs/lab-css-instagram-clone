@@ -78,17 +78,29 @@ body {
 footer {
   font-size: 15px;
   display: flex;
+  justify-content: center;
   align-items: baseline;
   text-transform: uppercase;
+  width: 100%;
 }
 footer ul {
   display: flex;
   list-style: none;
+  justify-content: center;
 }
 
 footer li {
   margin: auto 1rem auto;
-  color: #3a6890;
   font-weight: 600;
-  font-size: 13px;
+  font-size: 12px;
+  padding: 0 10px;
+}
+
+.final {
+  color: #979393;
+}
+
+footer a {
+  text-decoration: none;
+  color: #1c5380;
 }
