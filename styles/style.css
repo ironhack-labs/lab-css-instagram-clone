@@ -1,10 +1,117 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
+* {
+  padding: 0;
+  margin: 0;
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: linear-gradient(#1c5380 50%, white 50% ) ;
+  height: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
+
+
+#doble {
+  display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-around;
+  align-items: flex-start;
+  margin: 320px 100px 100px 100px;
+}
+#phones img {
+  margin-right: 40px;
+  width: 400px;
+}
+/*section1*/
+.section1 {
+  display: flex;
+	justify-content: space-between;
+	align-items: center;
+  align-content: center;
+  margin-bottom: 50p;
+}
+
+
+.section1 button {
+  display: flex;
+  color: white;  
+  background-color: rgba(28, 83, 128, 0.8);
+  justify-content: space-between;
+	align-items: center;
+  align-content: center;
+  padding: 5px 15px;
+  font-weight: bold;
+  
+}
+
+.section1 img{
+  margin-right: 4px;
+}
+
+/*section2*/
+
+.section2 {
+  background-image: url(/home/lucianavina/Escritorio/Ironhack/labs/week1/day1/lab-css-instagram-clone/images/frame.png);
+  background-repeat: no-repeat;
+  background-size: 650px; 
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+
+}
+
+h2 {
+  color: #06365f;
+  padding-top: 50px;
+  margin-left: 50px;
+  padding-right: 50px;
+  text-align: justify;
+  font-size: 31px;
+  width: 400px;
+}
+
+.section2 p {
+  margin-top: 20px;
+  width: 400px;
+  margin-left: 50px;
+  font-size: 18px ;
+  text-align: justify;
+  line-height: 1.5;
+}
+span{
+  font-weight: bold;
+}
+
+.apps {
+  display: flex;
+  margin-top: 30px;
+  
+}
+
+.apps img {
+  margin-left: 50px;  
+}
+
+/*footer*/
+
+footer a {
+ text-decoration: none;
+ color: #1c5380;
+ font-weight: bold;
+ text-transform: uppercase;
+ margin-left: 10px;
+ margin-right: 10px;
+}
+
+footer p{
+  display: inline-block;
+  color: #8e8e8e;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
