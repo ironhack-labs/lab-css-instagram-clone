@@ -7,4 +7,96 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: linear-gradient(to bottom, #3F729B 50%, #FFFFFF 50% );
+  
+}
+
+a {
+  text-decoration: none;
+}
+
+.welcome-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.phones {
+
+}
+
+.next-to-phones {
+  width: 612px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+  box-shadow: 20px;
+
+}
+
+.logo-login {  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.login-btn {
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  background-color: rgb(73, 125, 167); 
+  border-color: black;
+  padding: 10px;
+  border-radius: 5px;
+  
+}
+
+.login-btn a {
+  margin-left: 10px;
+  color: white; 
+}
+
+
+.text-box {
+  background-color: white;
+  border-radius: 5px;
+}
+
+.text-box p {
+  margin-left: 30px;
+}
+
+h1 {
+  color: #3F729B ;
+  margin-left: 30px;
+}
+
+
+.apple-android-badge img {
+  margin: 0 10px 0 30px;
+}
+
+.bottom-nav {
+  margin: 100px 0 0 0;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.bottom-nav-links {
+  margin-right: 50px;
+}
+
+.bottom-nav-links a {
+  margin: 0 10px 0 10px;
+  font-weight: bold;
+  color: #3F729B;
+  
+}
+
+.copyright {
+  color: gray;
 }
