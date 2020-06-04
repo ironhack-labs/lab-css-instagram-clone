@@ -73,6 +73,11 @@ section article {
   background-color: white;
 }
 
+section h2 {
+  width: 55%;
+  color: #1c5380;
+}
+
 section .text-block {
   max-width: 450px;
 }
