@@ -7,4 +7,95 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  background: linear-gradient(0deg, #fff 60%, #1c5380 40%);
+  background-repeat: no-repeat;
+  padding:150px;
+}
+a{
+  text-decoration: none;
+}
+ul{
+ list-style: none;
+}
+
+main{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  max-width: 1024px;
+  margin:0 auto;
+  
+}
+.landing-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  margin:0 50px;
+  width: 600px;
+  
+
+  
+}
+.landing-image img{
+  height: 600px;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;  
+  width:100%;
+  margin-bottom: 30px;
+}
+.nav-button{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background:#3e719b;
+  border-radius: 5px;
+  color:#fff;
+  padding:8px 10px;
+}
+.nav-button :nth-child(n){
+  margin: 0 5px;
+}
+.description{
+  background:#fff;
+  padding:20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #222;
+  width:600px;
+}
+.description p{
+  font-size:1.2rem;
+  margin-right: 10px;
+}
+.description-title{
+  color:#06365f;
+  width: 340px;
+}
+.landing-buttons :nth-child(2){
+  margin-left:10px
+}
+footer{
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  margin-top: 20px;
+}
+.footer-links{
+  display: flex;
+}
+.footer-link{
+  margin: 0 5px;
+}
+.footer-link {
+  color: #1c5380;
+  font-weight:bold;
 }
