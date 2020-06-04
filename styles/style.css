@@ -66,15 +66,18 @@ main{
   margin: 0 5px;
 }
 .description{
-  background:#fff;
+  
+  background-image: url(/images/frame.png);
+  background-repeat:no-repeat;
+  background-size: contain;
   padding:20px;
   border-radius: 5px;
-  box-shadow: 0 0 10px #222;
   width:600px;
 }
 .description p{
   font-size:1.2rem;
   margin-right: 10px;
+  
 }
 .description-title{
   color:#06365f;
