@@ -1,10 +1,101 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
-
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  background: url(../images/bgtile.png) repeat-x;
+  padding: 7% 0;
+  font-family: Roboto, sans-serif;
+}
+
+#mainHolder1 {
+  width: 80vw;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+
+  margin-bottom: 5%;
+}
+
+#loginInfoHolder {
+  width: 31rem;
+
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+}
+
+#loginHolder {
+  display: flex;
+  margin-bottom: -6rem;
+  position: relative;
+  top: -2rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#homeHolder {
+  display: flex;
+  align-items: center;
+  /* flex:1; */
+  justify-content: space-around;
+  color: #fff;
+  background: #345B84;
+  width: 9rem;
+  height: 3rem;
+  border: blue;
+  border-radius: 6%;
+  cursor: pointer;
+}
+
+#infoHolder {
+  border-radius: 1.3%;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: flex-start;
+  padding: 1.2rem;
+  background: #fff;
+  background: url(../images/frame.png) no-repeat;
+}
+
+#storesHolder {
+  position: relative;
+  top: 3rem;
+}
+
+h2 {
+  width: 15rem;
+  position: relative;
+  top: 1.2rem;
+  color: #345B84;
+}
+
+#mainHolder2 {
+  display: flex;
+  align-items: center;
+}
+
+#mainHolder2 ul {
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap;
+  width: 25rem;
+  justify-content: space-evenly;
+}
+
+nav ul {
+
+  display: flex;
+  color: cornflowerblue;
+  justify-content: space-between;
+}
+
+ul li {
+  position: relative;
+  left: -2rem;
+}
+
+ul li a {
+  text-decoration: none;
 }
