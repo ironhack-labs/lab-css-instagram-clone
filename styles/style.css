@@ -23,12 +23,12 @@ strong {
 .blue-background {
   position: relative;
   background: linear-gradient(#345b84, #51789f);
-  height: 33vh;
+  height: 40vh;
 }
 
 .container {
   position: absolute;
-  bottom: 8.125rem;
+  top: 5rem;
   margin: 3rem 3rem;
   width: 100%;
 }
@@ -54,10 +54,10 @@ section .logo-header {
 
 .logo-header button {
   padding: 0.8rem 1rem;
-  background: linear-gradient(hsl(207,64.1%,30.6%), hsl(207,64.1%,20.6%));
+  background: linear-gradient(#446f99, #698eb0);
   color: white;
   font-weight: 500;
-  border: 1px solid hsl(207,64.1%,20.6%);
+  border: 1px solid hsl(207,64.1%,30.6%);
 }
 
 
@@ -66,7 +66,8 @@ section .logo-header {
 section article {
   display: flex;
   flex-direction: column;
-  border: 1px solid grey;
+  border: 1px solid white;
+  border-radius: 1%;
   margin-top: 2rem;
   padding: 2rem;
   background-color: white;
@@ -77,7 +78,7 @@ section .text-block {
 }
 
 section .gettheapp {
-  margin: 2rem 0;
+  margin: 1rem 0;
 }
 
 
