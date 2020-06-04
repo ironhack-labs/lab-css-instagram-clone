@@ -7,4 +7,125 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  
+}
+
+.wrapper {
+  
+  
+  /*width: 100%;
+  margin: auto;
+  padding: 0;
+  position: relative;
+  bottom: 200px;*/
+}
+
+
+.headerBackground {
+  height: 35vh;
+  background-color: #1c5380 ;
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+  align-content: stretch;
+  z-index: -1;
+
+  
+}
+
+#Iphones {
+  z-index: 1;
+}
+
+#instaLogo  {
+  
+  }
+
+  #homeLogo {
+  background: linear-gradient(#5885ce, #3c69b2);
+  padding: 0;
+  right: 0;
+  top: 5px;
+  border-radius: 5px;
+  color: white;
+  border: 1px solid #255bb2;
+  box-shadow: 1px 1px 2px 2px #3c69b2;
+  height: 50px;
+  line-height: 50px;
+  padding-left: 15px;
+  min-width: 102px;
+  }
+#homeLogo img {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+#content{
+ /* display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	align-items: baseline;
+  align-content: flex-start;*/
+  display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: center;
+  align-content: flex-end;
+  background-repeat: no-repeat;
+  height: 55vh;
+}
+#Text {
+  background-image: url("/images/frame.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  width:400px ;
+  height: 200px;
+  padding: 1.5em 3em;
+  z-index: 3;
+}
+#Appstore {
+  background-image: url('/images/badge-iphone.png');
+  
+}
+#Android {
+  background-image: url('/images/badge-android.png');
+}
+footer {
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: flex-end;
+  align-content: center;
+  margin: 0 auto;
+  width: 70%;
+ 
+}
+.footerList  {
+  list-style: none;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
+  margin: 0 auto;
+  width: 70%;
+
+  
+}
+
+.list li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 5px;
+}
+#copyright {
+ 
+  opacity: 0.5;
+  
 }
