@@ -36,7 +36,9 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 0.5rem 0 0.5rem;
+  padding: 0 0.5rem 1rem 0.5rem;
+  min-width: 400px;
+  box-sizing: border-box;
 }
 
 #logo {
@@ -48,7 +50,9 @@ header {
   background-image: url("../images/frame.png");
   background-size: contain;
   background-repeat: no-repeat;
+  min-width: 400px;
   padding: 1rem 2rem 1rem 2rem;
+  box-sizing: border-box; /* propriedade que "anula" o valor do padding/border na width do objeto */
 }
 
 #buttons {
