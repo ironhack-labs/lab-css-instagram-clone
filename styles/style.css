@@ -7,4 +7,91 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: linear-gradient(180deg, #06365f 30%, rgba(202, 225, 255, 0.3) 30.5%);
 }
+
+#content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 5%;
+  height: 600px;
+}
+
+#content > div {
+  width: 40%;
+}
+
+#phones {
+  display: flex;
+  justify-content: center;
+}
+
+#phones img {
+  height: 400px;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+
+#home-button {
+  display: flex;
+  align-items: center;
+  width: 100px;
+}
+
+#home-button a {
+  text-decoration: none;
+  color: white;
+  font-size: 0.8rem;
+  margin-top: 2px;
+}
+
+#home-button div {
+  display: flex;
+  justify-content: space-around;
+  background-color: #1c5380;
+  padding: 10px;
+  width: 70%
+}
+
+section {
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  padding: 50px;
+  background-size: 100%;
+  box-sizing: border-box;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  width: 100%;
+  justify-content: center;
+}
+
+li {
+  margin: 0 10px;
+  color: #06365f;
+  text-transform: uppercase;
+  font-size: 0.6rem;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+}
+
+#insta-2014 {
+  color: rgba(0, 0, 0, 0.5);
+}
+
