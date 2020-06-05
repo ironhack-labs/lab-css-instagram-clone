@@ -5,6 +5,92 @@ light blue: #1c5380
 */
 
 body {
+  /* font-family: 'Roboto', sans-serif; */
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+#content {
+  position: absolute;
+  top:20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.blue-background {
+  position: relative;
+  height: 40vh;
+  background-color: #1c538093;
+  /* background-image: linear-gradient(#1c5380, white); */
+}
+
+.phones-and-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.log-in {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 10vw;
+  height: 5vw;
+  /* background-image: url('/images/frame.png'); */
+}
+
+.log-in a {
+  text-decoration: none;
+  color: white;
+}
+
+.description {
+  box-shadow: 0 0 10px grey;
+  background: white;
+  border-radius: 1%;
+  padding: 10px;
+}
+
+.description h1 {
+  font-size: 1.7em;
+}
+
+/*.description-text {
+  margin: 20px;*/
+}
+
+.description a {
+  margin-right: 0.5vw;
+}
+
+.container {
+  width: 50% ;
+  margin-left: 2vw;
+}
+
+.phones {
+  margin-right: 2vw;
+  box-shadow: ;
+}
+
+.footer {
+  margin-top: 4vh;
+}
+
+.footer a {
+  text-decoration: none;
+  margin: 1vw;
+}
+
+.footer span {
+  margin: 1vw;
+  color:rgba(15, 15, 15, 0.397);
 }
