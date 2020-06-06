@@ -104,3 +104,8 @@ footer a {
   text-decoration: none;
   color: #1c5380;
 }
+
+.casita {
+  display: flex;
+  justify-content: space-between;
+}
