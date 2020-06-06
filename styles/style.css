@@ -7,7 +7,7 @@ light blue: #1c5380
 
 /* General styles */
 
-body {
+html, body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
   padding: 0;
@@ -15,6 +15,8 @@ body {
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
+  height: 100%;
+  width: 100%;
 }
 
 strong {
@@ -25,18 +27,21 @@ strong {
 /* apply general layout to main */
 
 main {
-  margin: 7rem;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  flex: 1;
 }
-
 
 
 /* all styles for the principal section */
 
+.iphone {
+  margin: 2rem 0rem 0rem 2rem;
+}
+
 section {
-  padding: 2rem;
+  margin: 2rem 2rem 0rem 2rem;
 }
 
 section .logo-header {
@@ -45,8 +50,13 @@ section .logo-header {
   align-items: center;
 }
 
+.logo-header img {
+  width: 100%;
+}
+
 .logo-header button {
   padding: 0.8rem 1rem;
+  margin-left: 2rem;
   background: linear-gradient(#446f99, #698eb0);
   color: white;
   font-weight: 500;
@@ -72,7 +82,7 @@ section h2 {
 }
 
 section .text-block {
-  max-width: 450px;
+  max-width: 30rem;
 }
 
 section .gettheapp {
@@ -83,7 +93,7 @@ section .gettheapp {
 /* style the footer */
 
 footer {
-  padding: 1rem;
+  margin: 1rem;
 }
 
 footer ul {
@@ -94,7 +104,7 @@ footer ul {
 
 footer li {
   list-style-type: none;
-  padding: 1rem 1rem;
+  padding: 0.3rem 1rem;
   text-transform: uppercase;
   font-size: 0.8rem;
   font-weight: 700;
@@ -104,4 +114,10 @@ footer li {
 footer a {
   text-decoration: none;
   color: hsl(207,64.1%,30.6%);
+}
+
+@media (max-width: 768px) {
+  .iphone {
+    display: none;
+  }
 }
