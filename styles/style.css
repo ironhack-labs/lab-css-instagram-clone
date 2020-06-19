@@ -1,10 +1,105 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
-
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  height: 100vh;
   margin: 0;
+}
+
+#main-page{
+  display: flex;
+  height: 100vh;
+}
+
+.card {
+  text-align: left;
+  background-color: white;
+  background: url('../images/frame.png') no-repeat;
+  background-size: contain;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.phone-img {
+  min-width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.phone-img > img {
+  width: 350px;
+}
+
+article {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.presentation {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 18%;
+  padding-left: 5%;
+}
+
+article > h1 {
+  color: rgb(71, 118, 176);
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+.logo-container > div {
+  background-color: rgb(104, 147, 179);
+  box-shadow: 1px 1px 5px rgb(18, 86, 136);
+  padding: 8px 12px;
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: medium;
+  font-weight: 400;
+  padding-right: 12px;
+}
+
+.logo-container > div > img {
+  padding-right: 12px;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 60%;
+  margin: auto;
+  position: fixed;
+  bottom: 0px;
+  right: 0;
+  left: 0;
+}
+
+.info > a {
+  color: rgb(71, 118, 176);
+  text-decoration: none;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.info > p {
+  color: gray;
+}
+
+.root-container {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to bottom, rgb(74, 121, 179) 40%, white 40% 100%);
+
 }
