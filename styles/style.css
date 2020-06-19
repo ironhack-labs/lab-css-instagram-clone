@@ -14,7 +14,7 @@ h1 {
 }
 
 #blue-section {
-  background-image:linear-gradient(to bottom,rgb(28, 83, 128,0.7),rgb(28, 83, 128,1));
+  background-image:linear-gradient(to bottom,rgb(28, 83, 128,0.7),rgb(28, 83, 128,0.9));
   height: 370px;
 }
 
@@ -23,7 +23,7 @@ h1 {
 }
 
 #phones-div img {
-  height: 500px;
+  height: 480px;
 }
 
 #content-div {
@@ -52,10 +52,10 @@ h1 {
 
 #log-in {
   height: 40px;
-  width: 120px;
+  width: 100px;
   border: 1px solid #1c5380;
   border-radius: 3px;
-  background-image: linear-gradient(to bottom,rgb(28, 83, 128,0),rgb(28, 83, 128,1));;
+  background-image: linear-gradient(to bottom,rgb(28, 83, 128,0),rgb(28, 83, 128,0.6));;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -67,11 +67,12 @@ h1 {
   font-weight: normal; ;
   padding: 5px 25px;
   border-radius: 3px;
-  box-shadow: 30px;
+  box-shadow: 0px -30px 5px 0px rgba(101,128,150,0.2);
 }
 
 #download-icons{
   margin-top: 20px;
+  padding-left: 15px;
 }
 
 #middle-section {
@@ -81,15 +82,15 @@ h1 {
 }
 
 nav {
-  margin: 60px 300px
+  margin: 50px 300px
 }
 
 ul {
   list-style: none;
-  font-size: smaller;
+  font-size: 12px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
 }
 
