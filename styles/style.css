@@ -4,6 +4,10 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+:root {
+  --blue-gradient: linear-gradient(#6f92b0, #457298);
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
@@ -13,6 +17,17 @@ section {
   display: flex;
   justify-content: space-evenly;
   margin: 10vw 0;
+}
+
+.button {
+  background: var(--blue-gradient);
+  border: none;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
 
 .headLogo {
@@ -26,9 +41,16 @@ section {
   width: 27vw;
 }
 
+footer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3vw;
+}
+
 footer ul {
   display: flex;
   justify-content: space-evenly;
+  width: 70vw;
 }
 
 footer li,
@@ -44,5 +66,6 @@ footer a {
   right: 0;
   height: 30vw;
   background-color: #4b7296;
+  background: var(--blue-gradient);
   z-index: -1;
 }
