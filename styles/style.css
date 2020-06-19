@@ -8,3 +8,41 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+section {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10vw 0;
+}
+
+.headLogo {
+  display: flex;
+  align-items: center;
+}
+
+.frame {
+  background: url(/images/frame.png);
+  background-repeat: no-repeat;
+  width: 27vw;
+}
+
+footer ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+footer li,
+footer a {
+  text-decoration: none;
+  list-style: none;
+}
+
+#backgroundBlue {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 30vw;
+  background-color: #4b7296;
+  z-index: -1;
+}
