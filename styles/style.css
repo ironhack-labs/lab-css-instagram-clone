@@ -1,10 +1,92 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
-
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url('../images/bgtile.png');
+  background-repeat: repeat-x;
+
+}
+
+#wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  margin: 100px 0 40px 0;
+
+}
+
+#top {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+#login-btn {
+  width: 100px;
+  background-color: #668bab;
+  color: #dce5ec;
+  border: #214565 1px solid;
+  font-weight: bold;
+  padding-top: 5px;
+  padding-left: 10px;
+
+}
+
+#about-instagram {
+  background-image: url('../images/frame.png');
+  background-repeat: no-repeat;
+  width: 460px;
+  padding: 30px 30px 0px 30px;
+}
+
+h1 {
+  color: #06365f;
+}
+
+span {
+  font-weight: bold;
+}
+
+#badges>img {
+  padding: 0 20px;
+}
+
+footer>ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer li {
+  list-style-type: none;
+  padding: 0 10px;
+}
+
+footer a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #1c5380
+}
+
+@media (max-width: 500px) {
+  main {
+    display: block;
+    margin: 100px 0 40px 0;
+  }
+
+  main>section>img {
+    display: none;
+  }
+
+  footer>ul {
+    display: block;
+  }
+
+  #wrapper {
+    display: block;
+
+  }
 }
