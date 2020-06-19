@@ -1,10 +1,98 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
-
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;	 
+  margin: 0;	  
+  background: linear-gradient(180deg, rgb(78, 118, 153) 30%, rgba(202, 225, 255, 0.3) 30.5%);
+}	
+/* Content */
+#template {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 5%;
+  height: 600px;
+}
+
+#template > div {
+  width: 40%;
+}
+
+#phones {
+  display: flex;
+  justify-content: center;
+}
+
+#phones img {
+  height: 400px;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px;
+  padding-top: 60px;
+}
+
+/* Button */
+
+#home-button {
+  display: flex;
+  align-items: center;
+  width: 100px;
+}
+
+#home-button a {
+  text-decoration: none;
+  color: white;
+  font-size: 0.8rem;
+  margin-top: 2px;
+}
+
+#home-button div {
+  display: flex;
+  justify-content: space-around;
+  background-color: #225f91;
+  padding: 10px;
+  width: 70%;
+  border-radius: 5px;
+}
+
+section {
+
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  padding: 50px;
+  background-size: 100%;
+  box-sizing: border-box;
+
+}
+
+/* footer */
+
+
+footer {
+  display: flex;
+  flex-direction: row;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  width: 100%;
+  justify-content: center;
+}
+
+ul > li {
+  margin: 0 10px;
+  color: #06365f;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: bold;
+  
+}
+
+#picto {
+  color: rgba(0, 0, 0, 0.5);
 }
