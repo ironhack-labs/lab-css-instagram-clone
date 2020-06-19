@@ -4,7 +4,97 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+/* Colors seem a bit darker than the reference photo. Could just be my screen though */
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+.blue-gradient {
+  height: 35vh;
+  width: 100%;
+  background-image: linear-gradient(to bottom, #1c5380, #06365f);
+}
+
+.content {
+  padding-left: 20%;
+  padding-right: 20%;
+  margin-top: -180px;
+  display: flex;
+}
+
+.right-side {
+  margin-left: 10%;
+}
+
+.logo-and-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom, #1c5380, #06365f);
+  border: 1px solid #0d2d44;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  text-shadow: darkgray;
+  list-style: none;
+  width: 100px;
+  height: 50px;
+  padding-right: 15px;
+}
+
+.button img{
+  margin: 10px;
+}
+
+.copy {
+  background-color: white;
+  padding: 1px 30px 25px 30px;
+  border-radius: 8px;
+}
+
+/* I couldn't figure out how to get the fading drop shadow */
+
+h1 {
+  color: #06365f;
+}
+
+p {
+  font-size: 1.1em;
+}
+
+.store-badges {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 10px;
+}
+
+.footer {
+  margin-top: 80px;
+}
+
+.footer ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  color: #1c5380;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+
+.footer ul li{
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+#copyright {
+  color: lightgray;
 }
