@@ -114,6 +114,8 @@ ul{
   font-size: 14px;
 } 
 
+/* 
+add repsonsiveness for tablet */
 @media only screen and (max-width: 890px){
   body{
     background-color: rgb(70,103,140);
