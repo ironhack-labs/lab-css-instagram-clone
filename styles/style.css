@@ -7,4 +7,93 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#background {
+  width: 100%;
+  height: 350px;
+  background-color: #3e688d;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: flex-end;
+  overflow: visible;
+}
+#large-image {
+  margin-top: 10rem;
+  margin-left: 6rem;
+}
+#instagram {
+  margin-top: 10rem;
+  margin-left: 0rem;
+}
+#login {
+  margin-top: 11rem;
+  margin-right: 12rem;
+}
+#button {
+  background-color: #4677a1;
+  background-image: linear-gradient(#5e87aa,#3e668d);
+  border: solid 1px;
+  border-color: #3d6c96;
+  color: white;
+  padding: 0.5rem 1rem;
+  text-align: right;
+  text-decoration: none;
+  box-shadow: 1px 1px #06365f;
+  }
+#main-content {
+  background-image: url("/images/frame.png");
+  background-repeat: no-repeat;
+  max-width: 40%;
+  max-height: 40%;
+  margin-top: -5rem;
+  margin-left: 35rem;
+  overflow: visible;
+}
+#main-content > h1 {
+  color: #06365f;
+  font-size: 1.5rem;
+  padding-left: 2rem;
+  padding-top: 1rem;
+}
+#main-content > p {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-weight: 300;
+}
+#main-content span {
+  font-weight: 900;
+}
+#download-buttons {
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+#app-store {
+  margin-right: 1rem;
+}
+footer {
+  width: 100%;
+  height: 5rem;
+  overflow: hidden;
+}
+
+footer #nav-bar {
+  color: #3e688d;
+  font-weight: 900;
+  font-size: 0.7rem;
+  margin-top: 3rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+#nav-bar li {
+  padding-right: 2rem;
+}
+#copyright {
+  color: rgb(216, 215, 215);
 }
