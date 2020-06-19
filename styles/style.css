@@ -44,6 +44,7 @@ a {
 
 img {
   max-width: 100%;
+  height: auto;
 }
 
 /* Hero Image Section */
@@ -176,12 +177,16 @@ p.copyright {
   }
 
   #hero {
+    background-image: url(../images/phones.png);
+    background-repeat: no-repeat;
+    background-size: contain;
     display: flex;
+    padding: 10px;
     flex: 1;
-    margin-right: 5em;
   }
 
   #info {
+    margin-left: 5em;
     flex: 2;
   }
 
@@ -203,8 +208,6 @@ p.copyright {
   button.login {
     padding: 10px;
   }
-
-  
 
   .info__box {
     width: 100%;
