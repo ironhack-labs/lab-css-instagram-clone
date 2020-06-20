@@ -4,21 +4,17 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
-
-
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 100px;
   background-image: url(../images/bgtile.png);
   background-repeat: repeat-x;
-  
 }
 
 #main {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  
 }
 
 #phones {
@@ -51,8 +47,12 @@ body {
 #login {
   height: 40px;
   width: 100px;
-  background: rgb(28,83,128);
-  background: linear-gradient(0deg, rgba(28,83,128,1) 35%, rgba(27,127,209,1) 100%);
+  background: rgb(28, 83, 128);
+  background: linear-gradient(
+    0deg,
+    rgba(28, 83, 128, 1) 35%,
+    rgba(27, 127, 209, 1) 100%
+  );
   border: 1px solid #06365f;
   border-radius: 5px;
   color: white;
@@ -67,7 +67,6 @@ body {
 #login img {
   padding-right: 12px;
 }
-
 
 #appstore {
   padding-top: 20px;
@@ -97,5 +96,5 @@ body {
 }
 
 #footer ul li span {
-padding-left: 20px;
+  padding-left: 20px;
 }
