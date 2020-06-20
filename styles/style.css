@@ -8,3 +8,92 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.background-top{
+  background-image: linear-gradient(#1c5380, #06365f);
+  height: 250px;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+}
+
+main {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  top: 4rem;
+  margin: auto;
+}
+
+.left {
+  height: 33rem;
+}
+
+.right{
+  display: flex;
+	flex-wrap: wrap;
+	width: 35rem;
+	margin-left: 3rem;
+
+}
+
+.nav-bar {
+  display: flex;
+  margin: 16px  0 19.2px;
+  justify-content:space-between;
+  height: 80px;
+  width: 100%;
+}
+
+.log-in-btn {
+  width: 6rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #608bb1;
+  border: 0.001rem solid;
+}
+
+section {
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  justify-content: space-around;
+  padding: 0 2rem 0 2rem;
+}
+
+.badges {
+  display:flex;
+  justify-content:flex-start;
+}
+
+#iphone{
+  margin-right: 1rem;
+}
+
+footer {
+  margin-top: 8rem;
+}
+
+footer a {
+  text-decoration: none;
+  color: #06365f;
+  margin: 1rem;
+}
+
+footer ul {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-weight: bold;
+  list-style: none;
+}
+
+
+
+
+
+
