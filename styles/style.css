@@ -4,7 +4,98 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  margin: 100px;
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;
+  
+}
+
+#main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+}
+
+#phones {
+  margin-right: 50px;
+}
+
+#content {
+  width: 500px;
+}
+
+#content h1 {
+  display: block;
+  width: 340px;
+  line-height: 120%;
+}
+
+#content-text {
+  padding: 30px;
+  background: url(../images/frame.png) no-repeat;
+  background-position: top 15px center;
+  background-size: auto 60%, cover;
+}
+
+#logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#login {
+  height: 40px;
+  width: 100px;
+  background: rgb(28,83,128);
+  background: linear-gradient(0deg, rgba(28,83,128,1) 35%, rgba(27,127,209,1) 100%);
+  border: 1px solid #06365f;
+  border-radius: 5px;
+  color: white;
+  font-weight: 600;
+  padding-left: 10px;
+  text-align: left;
+  vertical-align: top;
+  display: flex;
+  align-items: center;
+}
+
+#login img {
+  padding-right: 12px;
+}
+
+
+#appstore {
+  padding-top: 20px;
+}
+
+#appstore img {
+  padding-right: 15px;
+}
+
+#footer {
+  text-align: center;
+  padding-top: 25px;
+}
+
+#footer ul li {
+  display: inline;
+  padding: 0 8px;
+  font-size: 0.8rem;
+  color: grey;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+#footer ul li a {
+  text-decoration: none;
+  color: #1c5380;
+}
+
+#footer ul li span {
+padding-left: 20px;
 }
