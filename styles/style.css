@@ -11,61 +11,63 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;
+  height: 100vh;
 }
 
-section {
+#main {
   display: flex;
   justify-content: space-evenly;
-  margin: 10vw 0;
+  align-items: center;
+  margin-top: 4%;
 }
 
-.button {
+#content {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+#login {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2%;
+}
+
+#login button {
+  display: flex;
+  width: 17%;
+  justify-content: space-evenly;
+  align-items: center;
   background: var(--blue-gradient);
   border: none;
+  border-radius: 3px;
+  padding: 0px 10px;
   color: white;
-  padding: 15px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
 }
 
-.headLogo {
-  display: flex;
-  align-items: center;
-}
-
-.frame {
-  background: url(/images/frame.png);
+#description {
+  background-image: url(../images/frame.png);
+  background-size: cover;
   background-repeat: no-repeat;
-  width: 27vw;
+  padding: 4% 6% 0;
 }
 
-footer {
+#footer {
   display: flex;
   justify-content: center;
-  margin-bottom: 3vw;
 }
 
-footer ul {
+#footer ul {
+  width: 50vw;
   display: flex;
-  justify-content: space-evenly;
-  width: 70vw;
-}
-
-footer li,
-footer a {
-  text-decoration: none;
   list-style: none;
+  justify-content: space-around;
 }
 
-#backgroundBlue {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 30vw;
-  background-color: #4b7296;
-  background: var(--blue-gradient);
-  z-index: -1;
+#footer ul a {
+  text-decoration: none;
+  text-transform: uppercase;
 }
