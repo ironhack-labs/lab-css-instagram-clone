@@ -1,10 +1,241 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
-
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  margin: 0 auto;
 }
+
+#background{
+  background-color: rgb(70,103,140);
+  width:100%;
+  height:35vh;
+  border-bottom: 2px solid #1c5380;
+}
+
+#main-container {
+  /* border: 2px solid red; */
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 5% auto;
+}
+
+#app-img{
+  /* border: 2px solid blue; */
+  padding-right: 20px;
+}
+
+#content{
+  /* border: 2px solid blue; */
+  width: 504px;
+}
+
+#logo {
+  /* border: 2px solid purple; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:5px 15px;
+}
+
+#login {
+  width: 100px;
+  height: 40px;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1c5380;
+  color: white;
+  border-radius: 5%;
+}
+
+article {
+  width: 504px;
+  /* border: 2px solid purple; */
+  position: relative;
+  text-align: left;
+}
+
+frame {
+  opacity: 1;
+}
+
+#info{
+  width:81%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  word-wrap: normal;
+}
+
+h3 {
+  color: #06365f;
+}
+
+p{
+  font-size: 14px;
+}
+
+#app-stores{
+  /* border: 2px solid purple; */
+  margin-top: 30px;
+  margin-left: 48px;
+}
+
+#app-stores a{
+  padding-right: 20px;
+}
+
+footer{
+  /* border: 2px solid yellow; */
+  position: absolute;
+  left: 0;
+  top: 90%;
+  width: 100%;
+  text-align: center;
+}
+
+ul{
+  /* border: 2px solid red; */
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  margin: 0 auto;
+  font-size: 14px;
+} 
+
+/* 
+add repsonsiveness for tablet */
+@media only screen and (max-width: 890px){
+  body{
+    background-color: rgb(70,103,140);
+    height: auto;
+  }
+
+  #background{
+    display:none;
+      /* background-color: rgb(70,103,140);
+      width:100%;
+      height:35vh;
+      border-bottom: 2px solid #1c5380; */
+  }
+
+  #main-container {
+    box-sizing: border-box;
+    /* border: 2px solid red; */
+    width: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    position: initial;
+    top: 0;
+    left: 0;
+    transform: none;
+    margin: 0 auto;
+  }
+
+  #app-img{
+    margin: 30px;
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    width: 50%;
+    height: auto;
+    /* margin: 0 auto; */
+  }
+
+  #logo > img{
+    padding-bottom: 20px;
+  }
+
+  #content{
+    /* border: 2px solid blue; */
+    width: 400px;
+    display:  flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #logo {
+    /* border: 2px solid purple; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-between;
+    padding:20px 15px;
+  }
+
+  #login {
+    width: 100px;
+    height: 40px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1c5380;
+    color: white;
+    border-radius: 5%;
+  }
+
+  article {
+    width: 500px;
+    display:flex;
+    justify-content: center;
+    /* border: 2px solid purple; */
+    position: none;
+    text-align: left;
+  }
+
+  #frame {
+    width: 80%;
+  }
+
+  #info{
+    width:75%;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    word-wrap: normal;
+  }
+
+
+  #app-stores{
+    /* border: 2px solid purple; */
+    margin: 80px auto 0 auto;
+
+  }
+
+  #app-stores a{
+    padding: 0px;
+    margin: 0 auto;
+  }
+
+  footer{
+    /* border: 2px solid yellow; */
+    position: initial;
+    display:flex;
+    justify-content: center;
+    /* margin: 10px auto; */
+    width: 100%;
+    /* text-align: center; */
+  }
+
+  ul{
+    /* border: 2px solid red; */
+    list-style-type: none;
+    display: block;
+    justify-content: space-between;
+    width: 60%;
+    line-height: 1.5rem;
+    font-size: 14px;
+    padding:0px;
+    margin: 20px 0;
+  } 
+  } 
