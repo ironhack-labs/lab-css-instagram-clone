@@ -8,7 +8,7 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
-  background:white;
+  background: #b0e0e6;
   margin: 100px;
 
 }
@@ -40,15 +40,52 @@ main {
   justify-content: space-between;
 }
 
-.left{
+.left {
   width: 30%;
 }
+
 .right {
   width: 50%;
 }
 
-h2{
+h2 {
   font-size: 24px;
   color: #06365f;
-  
+  margin: 0px;
+
+}
+
+#text-block {
+  border-bottom: white;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+#text-block img {
+  padding-right: 20px;
+}
+
+footer {
+  display: flex;
+  width: 46%;
+  justify-content: space-around;
+  margin: auto;
+  margin-top: 70px;
+}
+
+footer a {
+  color: #1c5380;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+#copyright {
+  color: grey;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 13px;
 }
