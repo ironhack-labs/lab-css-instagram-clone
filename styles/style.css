@@ -11,7 +11,6 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
-  display: flex;
   flex-direction: column;
   justify-content: space-evenly;
  }
