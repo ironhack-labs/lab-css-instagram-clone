@@ -3,8 +3,121 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+* {
+  margin: 0;
+  padding: 0;
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-image: url("../images/bgtile.png");
+  background-size: 2000px 400px;
+  background-repeat: no-repeat;
 }
+
+main {
+  display: flex;
+  justify-content: center;
+  background-image: url("../images/bgtile.png");
+  background-size: 100% 30%;
+  background-repeat: no-repeat;
+}
+
+.phones {
+  margin: 2em;
+}
+
+.container-one {
+  width: 30.5;
+  margin: 2em;
+}
+
+.container-one div {
+  display:flex;
+  justify-content:space-between;
+  align-items: center;
+  margin:1em 0;
+}
+
+article {
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10px;
+  font-size: 1.1em;
+  margin-bottom: 30px;
+}
+
+article h2 {
+  padding-top: 2em;
+  padding-left: 2em;
+  margin-right: 170px;
+  color: #1c5380;
+}
+
+article p {
+  padding-top: 1em;
+  padding-left: 2em;
+  width: 28em;
+}
+
+article figure {
+  margin: 2em;
+}
+
+article img {
+  margin: 7px;
+}
+
+.button {
+  background-color: #1c5380;
+  border: 1px solid #06365f;
+  border-radius: 2px;
+}
+ 
+.button p a {
+  color: white;
+  text-decoration: none;
+}
+
+.button p {
+  padding: 10px;
+}
+
+.button a img {
+  padding-left: 8px;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+ li {
+  margin: 10px;
+  list-style-type: none;
+  color: #1c5380;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+li a {
+  text-decoration: none;
+  color: #06365f;
+}
+
+span {
+  text-transform: uppercase;
+  color: gray;
+  font-weight: bold;
+}
+
+
+
+
