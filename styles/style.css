@@ -7,4 +7,85 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+}
+.main_part{
+  display: flex;
+  padding: 50px;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.text_part{
+  padding: 30px 40px;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+  margin-bottom: 10px;
+}
+
+.button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(#6d91af,#457298) ;
+  height: 23px;
+  padding: 7px;
+  border-radius: 3px;
+  border: 1px solid #2b5174;
+}
+
+.button p {
+  color: white;
+  padding-left: 10px;
+  font-weight: bold;
+  font-size: 14px;
+
+}
+
+.frame {
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 20px 40px;
+}
+
+.frame h1{
+  color: #06365f;
+  font-size: 26px;
+  line-height: 2rem;
+}
+
+.frame p{
+  font-weight: normal;
+  color: #363636;
+}
+
+.get_it_btn img{
+  padding: 15px 5px;
+}
+
+footer ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+  color: #1c5380;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+footer li {
+  padding: 0px 10px
+}
+
+.copyright{
+  color: lightgray;
+  padding-left: 20px
 }
