@@ -8,3 +8,29 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+section {
+  display: flex;
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+  padding: 150px 150px 20px 150px;
+}
+
+.images-section {
+  display: flex;
+}
+
+.phones-image {
+  width: 250px;
+}
+
+.frame {
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 30px;
+}
+
+.second-div {
+  margin-left: 50px;
+}
