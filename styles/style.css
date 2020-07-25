@@ -55,8 +55,10 @@ section > img {
 
 #divprinc a {
   background-color: #1c5380;
+  background-image: linear-gradient(#b9d8f1, #06365f);
   box-shadow: 1px 1px gray;
   /* border: solid 1px #06365f; */
+  border-radius: 2px;
   padding: 10px 0;
   padding-right: 10px;
   font-weight: bold;
@@ -104,6 +106,13 @@ p {
   margin-top: 20px;
 }
 
+
+@media (min-width: 601px) and (max-width: 800px) {
+  section > img {
+    display: none;
+  }
+}
+
 @media (max-width: 600px) {
   section > img {
     display: none;
@@ -113,10 +122,3 @@ p {
     text-align: center;
   }
 }
-
-@media (min-width: 601px) and (max-width: 800px) {
-  section > img {
-    display: none;
-  }
-}
-
