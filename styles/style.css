@@ -4,25 +4,119 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+*{
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
 
-.header {
-  background-color: #1c5380;
+#global{
   display: flex;
-  flex: row flex-start;
-  border: 2px solid red ;
-  padding: 100px;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
-}
+  margin-top: 10%;
 
-.logo > button {
+}
+#main{
+  display: flex;
+  width: 1040px;
+  height: 640px;
+  align-items: center;
+  padding: 1px;
   background-color: #1c5380;
-  color: white; 
+  background-size: initial;
 }
 
-.footer {
+.content h2{
+  color: #06365f;
+  width: 270px;
+  padding: 10px;
+  margin-left: 20px;
+}
+
+.content p{
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+
+#phones{
+  width: 35%;
+  height: 90%;
+  margin: 20px;
+}
+
+header{
+  display: flex;
+  left: 30%;
+  width: 600px;
+  margin: 30px 20px 20px 20px;
+}
+
+header > img {
+  margin: 20px;
+  width: 50%;
+  height: 50%;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  background-image: url("images/frame.png");
+  width: 600px;
+  height: 400px;
+  margin-left: 20px;
+}
+
+.button{
+  display: flex;
+  margin: 35px 10px 35px 10px; 
+  align-items: center;
+  justify-content: flex-end;
+  width: 115px;
+  height: 50px;
+  background: #1c5380;
+  border-radius: 5%;
+}
+
+.botao img {
+  margin: 10px;
+}
+
+.botao h3 {
+  margin-right: 15px;
+  font-size: 0.93rem;
+  padding-left: 10px;
+  color: #fff;
+}
+
+section{
+  width: 80%;
+  padding-left: 20px;
+  margin-left: 20px;
+}
+
+section img {
+  justify-content: center;
+  margin: 10px;
+}
+
+footer ul{
+  list-style: none;
+  margin: 0;
+  display: flex;
+  flex-wrap: row wrap;
+  justify-content: space-evenly;
+}
+
+footer li{
+  text-decoration: none;
+  display: block;
+  padding: 1em;
   color: #1c5380;
+  font-weight: bold;
 }
