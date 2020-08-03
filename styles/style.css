@@ -8,3 +8,86 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.header {
+  width: 100%;
+  background-color: #1c5380;
+  height:300px;
+}
+
+.phones {
+  margin: 130px 40px 20px 130px;
+  float: left;
+}
+
+.general {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+
+.main-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  width: 500px;
+  padding-top: 130px;
+}
+
+.main-section2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  width: 330px;
+  padding-top: 30px;
+  padding-left: 20px;
+}
+
+.container {
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: white;
+  box-sizing: border-box;
+  border-radius: 5px;
+
+}
+
+.container h1 {
+  color: #1c5380;
+}
+
+.footer {
+  position: absolute;
+	padding: 0 auto;
+	width: 100%;
+  height: 80px;
+  text-align: center;
+  margin-top: 350px;
+}
+
+.footer > ul > li {
+  display: inline; 
+  padding: 8px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #1c5380;
+}
+
+.footer ul li:first-child { 
+  padding-left: 0;
+}
+
+.footer ul li:last-child { 
+  padding-right: 0;
+}
+
+#copy-write {
+  color: gray;
+}
