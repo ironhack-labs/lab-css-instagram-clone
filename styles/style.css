@@ -8,3 +8,92 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+#top {
+    background-image: url(../images/bgtile.png);
+    background-repeat: repeat;
+    height: 25vh;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 120px 100px 120px; 
+}
+
+.header button {
+    background-color: #527C9F;
+    box-shadow: #083257;
+    padding: 8px 24px 8px 24px;
+    margin-left: 30px;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+#middle {
+    display: flex;
+}
+
+h2 {
+    color: #083257;
+}
+
+p {
+    font-weight: 400;
+}
+
+.middle-left{
+    position: relative;
+    bottom: 150px;
+    padding: 0 40px 0 80px;
+}
+
+.middle-right {
+    background-image: url(../images/frame.png);
+    background-repeat: no-repeat;
+    position: relative;
+    bottom:70px ;
+    box-sizing: border-box;
+}
+
+.text {
+    text-align: left;
+    padding: 20px 100px 20px 40px;
+}
+
+.mobile-link {
+    display: flex;
+    padding: 0 0 0 40px;
+}
+.mobile-link img {
+    padding-right: 20px ;
+}
+
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+}
+
+li {
+    padding: 0 8px;
+    color: #7E9DB7;
+}
+
+.copyright {
+    color: #C2C2C2;
+}
+
+
+.main-text {
+
+}
+
+
+
+
