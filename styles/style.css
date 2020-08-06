@@ -1,10 +1,74 @@
-/*
+            /*
 Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
+            
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+}
+
+.centralPart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: 700px;
+  margin: 28px;
+}
+
+#phones {
+  height: 600px;
+}
+
+#info {
+  width: 450px;
+  margin: 0 40px;
+}
+
+header {
+  height: 50px;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-image: url("../images/home.png");
+}
+
+#capture {
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  margin: 50px 0 0;
+  border: none;
+  padding: 20px;
+}
+
+h1 {
+  color: #06365f;
+  line-height: 1.3em;
+}
+
+#getTheApp {
+  margin: 0 10px;
+}
+
+.footy li {
+  display: flex;
+  list-style-type: none;
+  color: #06365f
+}
+
+#copy {
+  color: gray;
 }
