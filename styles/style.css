@@ -45,19 +45,27 @@ body {
 .info{  
   width: 350px;
   height: 300px;
+  padding: 20px;
 }
 
 #stores{
   position: absolute;
 }
 
+#footer{
+  
+}
+
 nav{
   text-decoration: none;
+  
 }
 
 ul{
   position: absolute;
   bottom: 0px;
+  left: 300px;
+  
   }
 
 li{
