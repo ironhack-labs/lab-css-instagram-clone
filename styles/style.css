@@ -4,7 +4,118 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+html {
+    margin: 0;
+}
+
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+    font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+}
+
+.gradient {
+    position: relative;
+    height: 300px;
+    background: url(../images/bgtile.png);
+    background-position: center;
+    background-repeat: repeat;
+}
+
+.phones {
+    position: absolute;
+    top: 100px;
+    left: 200px;
+}
+
+.brand {
+    position: absolute;
+    top: 135px;
+    left: 580px;
+}
+
+.button {
+    position: absolute;
+    top: 135px;
+    left: 955px;
+    background: rgb(66, 116, 156);
+    background: linear-gradient(0deg, rgb(70, 125, 175) 75%, rgb(85, 150, 206) 100%);
+    width: 100px;
+    height: 60px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 5px;
+    display: flexbox;
+    border: 1px solid black;
+}
+
+.button img {
+    margin-top: 20px;
+    margin-right: 10px
+}
+
+.flex {
+    justify-content: center;
+    align-items: center;
+}
+
+.span {
+    position: relative;
+    margin-top: -10px;
+    font-weight: bold;
+    color: white;
+}
+
+#main {
+    position: relative;
+}
+
+.info {
+    position: absolute;
+    top: 235px;
+    left: 565px;
+    width: 500px;
+    box-sizing: border-box;
+    background: url(../images/frame.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px
+}
+
+.h1 {
+    margin-left: 20px;
+    color: #06365f;
+    font-weight: bold;
+}
+
+.para {
+    margin-left: 25px;
+    margin-right: 20px;
+}
+
+.logoiPhone {
+    position: absolute;
+    top: 600px;
+    left: 595px;
+}
+
+.logoAndroid {
+    position: absolute;
+    top: 600px;
+    left: 785px;
+}
+
+.footer {
+    position: absolute;
+    top: 700px;
+    left: 305px;
+}
+
+.footer p {
+    color: #1c5380;
+    font-weight: bold;
+}
+
+.instagram {
+    margin-left: 20px;
+    color: gray;
 }
