@@ -38,12 +38,13 @@ body {
 .background{
   background-image: url("../images/frame.png");
   background-repeat: no-repeat;
-  width: 450px;
+  width: 400px;
+  border-radius: 5%;
 }
 
 .info{  
   width: 350px;
-  text-align: justify;
+  height: 300px;
 }
 
 #stores{
