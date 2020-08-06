@@ -1,10 +1,91 @@
-/*
+    /*
 Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
-body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
-}
+    
+    body {
+        font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+        margin: 0;
+        height: 800px;
+    }
+    
+    .background {
+        width: 100%;
+        height: 300px;
+        background: url('../images/bgtile.png') repeat;
+    }
+    
+    button {
+        background-color: #6B8FAE;
+        color: white;
+        font-size: 14px;
+        height: 40px;
+        width: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 8px;
+        border: 1px solid #06365f;
+        border-radius: 3px;
+    }
+    
+    .list {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .list li a {
+        text-decoration: none;
+        color: #1c5380;
+        margin-right: 20px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    
+    .img-instagram {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .contenido {
+        display: flex;
+        justify-content: space-around;
+        position: relative;
+        top: -200px;
+        padding: 0 100px;
+    }
+    
+    .contenido-text {
+        width: 500px;
+        text-align: justify;
+        background-color: #fff;
+        border-radius: 5px;
+        padding: 5px 30px;
+        box-sizing: border-box;
+        margin-top: 20px;
+    }
+    
+    .contenido h2 {
+        color: #06365f;
+        width: 60%;
+    }
+    
+    .last-paragraph {
+        margin-bottom: 30px;
+    }
+    
+    .logos {
+        padding: 20px 0;
+    }
+    
+    #iphone-badge {
+        margin-right: 20px;
+    }
+    
+    footer {
+        position: relative;
+        top: -150px;
+    }
