@@ -5,6 +5,159 @@ light blue: #1c5380
 */
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+    font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+}
+
+#principal {
+    display: flex;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+}
+
+#overflow-content {
+    width: 670px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    position: fixed;
+    top: 0px;
+    text-align: center;
+    margin: 0 10px;
+    padding: 50px;
+}
+
+#upperBackground {
+    height: 200px;
+    background-image: url(../images/bgtile.png);
+    background-repeat: repeat;
+}
+
+#lowerBackground {
+    width: 100%;
+    background-color: white;
+}
+
+#infoContent {
+    width: 670px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+    margin: 20px;
+}
+
+#headerInsta {
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-around;
+}
+
+#instagram {
+    width: 180px;
+}
+
+#phones {
+    height: 350px;
+    margin-bottom: 40px;
+}
+
+.imagesButtons {
+    width: 380px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: flex-start;
+}
+
+.imageButtonsImg {
+    height: 30px;
+    padding: 0 10px;
+}
+
+#info {
+    padding: 0 10px;
+    background-image: url(../images/frame.png);
+    background-size: 410px;
+    margin: 20px 0;
+}
+
+#info h2 {
+    line-height: 25px;
+    color: #06365f;
+    text-align: left;
+    padding: 20px 50px 0 20px;
+    font-size: 18px;
+    margin: 0;
+}
+
+#info p {
+    padding: 0 20px;
+    font-size: 10px;
+    text-align: justify;
+}
+
+.button {
+    width: 80px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+    background: rgba(110, 146, 176, 0);
+    background: linear-gradient(90deg, rgba(110, 146, 176, 1) 0%, rgba(102, 139, 171, 1) 35%, rgba(57, 98, 135, 1) 100%);
+    border: 1px;
+    color: white;
+    padding: 8px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+.button img {
+    width: 15px;
+    margin: 0 5px;
+    padding: 0;
+}
+
+.button p {
+    margin: 2px 0;
+}
+
+.footerMenu {
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+    position: absolute;
+    bottom: 30px;
+    left: 200px;
+}
+
+.footerMenu a {
+    font-size: 8px;
+    color: #1c5380;
+    text-decoration: none;
+}
+
+.footerMenu p {
+    color: #1c5380;
+    font-size: 8px;
 }
