@@ -17,19 +17,50 @@ body {
 }
 
 #main-frame{
-  position: relative;
+  position: absolute;
+  width: 800px;
+  top: 80px;
+
 }
 
 #iphone{
   position: absolute;
+  left: 200px;
 }
 
 #content{
   position: absolute;
+  left: 600px;
+  width: 350px;
+  height: 600px;
+}
+
+.background{
   background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  width: 450px;
+}
+
+.info{  
+  width: 350px;
+  text-align: justify;
 }
 
 #stores{
   position: absolute;
 }
+
+nav{
+  text-decoration: none;
+}
+
+ul{
+  position: absolute;
+  bottom: 0px;
+  }
+
+li{
+  display: inline;
+  
+  }
 
