@@ -27,19 +27,19 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
 }
 
 .content-container > img {
   padding: 70px;
-  margin: 50px;
-
 }
 
 .text-container {
   display: flex;
   flex-direction: column;
   width: 35vw;
-  height: 60vh
+  height: 60vh;
+  margin-bottom: 100px;
 }
 
 .title-container {
@@ -53,7 +53,8 @@ body {
 .login-button {
   display: flex;
   flex-direction: row;
-  border: 1px solid #06365f;
+  background-color: #648aaa;
+  box-shadow: 0 0 10px #1c5380;
   width: 20%;
   height: 40px;
   align-items: center;
@@ -69,16 +70,29 @@ body {
 
 .pitch-container {
   background-color: white;
-  padding: 35px;
   border-radius: 5px;
-  box-shadow: 2px 2px 20px #888888;
+  position: relative;
+  padding: 0px 30px;
+}
+
+.pitch-container::after {
+  border-radius: 0 0 300px 300px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.25);
+  content: '';
+  display: block;
+  height: 350px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
 }
 
 .pitch-container > h1 {
   font-weight: bold;
   color: #06365f;
   width: 25vw;
-
+  margin-right: 100px
 }
 
 .store-buttons-container {
