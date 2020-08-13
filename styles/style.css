@@ -28,12 +28,6 @@ body {
   padding: 100px 110px 0 110px;
 }
 
-@media (max-width: 900px) {
-  .iphone {
-    display: none;
-  }
-}
-
 .info {
   width: 500px;
 }
@@ -81,6 +75,13 @@ h1 {
   font-weight: bolder;
 }
 
+.text > div {
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 p {
   font-weight: normal;
   font-size: 14px;
@@ -101,6 +102,20 @@ ul {
   font-weight: bolder;
 }
 
+li {
+  padding-right: 5px;
+}
+
+.copyright {
+  color: rgb(173, 170, 170);
+}
+
+@media (max-width: 900px) {
+  .iphone {
+    display: none;
+  }
+}
+
 @media (max-width: 800px) {
   ul {
     display: flex;
@@ -109,12 +124,4 @@ ul {
     justify-content: space-between;
     height: 400px;
   }
-}
-
-li {
-  padding-right: 5px;
-}
-
-.copyright {
-  color: rgb(173, 170, 170);
 }
