@@ -42,6 +42,20 @@ body {
   padding-bottom: 15px;
 }
 
+.myButton {
+  background: linear-gradient(to bottom, #589cd4 5%, #1c5380 100%);
+  background-color:#1c5380;
+  border: 1px solid #1c5380;
+  display: inline-block;
+  padding: 6px 16px;
+  color: white;
+}
+
+.button-text{
+  position: relative;
+  top: -5px;
+}
+
 .headline {
   color: #06365f;
   max-width: 250px;
@@ -62,6 +76,9 @@ body {
   padding-left: 15px;
 }
 
+.store-icons > img {
+  padding-right: 20px;
+}
 nav {
   padding: 0 200px 30px 200px;
 }
