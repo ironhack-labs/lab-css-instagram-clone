@@ -1,10 +1,132 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
+:root {
+  --header-text: #06365f;
+  --footer-text: #1c5380;
+  --main-top-bg: #3a6890;
+  --main-bottom-bg: #fff;
+  --button-dark: #3a6890;
+  --button-border: #2e5374;
+  --button-light: #6f92b0;
+
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  height: 100vh;
+  width:  100vw;
+  background: linear-gradient(180deg, var(--main-top-bg) 350px, var(--main-bottom-bg) 350px);
+  background-position: 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+figure {
+  padding: 0;
+  min-width: 300px;
+}
+
+article {
+  background-image: url("/images/frame.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 20px 40px;
+  max-width: 595px;
+}
+
+article h2 {
+  color: var(--header-text);
+}
+
+article p {
+  font-size: 0.8;
+}
+
+article>div {
+  margin-top: 40px;
+}
+
+article>div>a:first-child{
+  margin-right: 15px;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  padding: 0 30px;
+  align-items: center;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+  font-size: x-small;
+}
+
+footer ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+footer li a {
+  color: var(--footer-text);
+  vertical-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+footer li {
+  color: darkgray;
+  font-weight: lighter;
+  margin: 10px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+/*
+button {
+  height: 40px;
+  padding: 5px 10px;
+  margin: auto 5px;
+  background-color: var(--main-top-bg);
+  border-radius: 3px;
+  border:none;
+}
+*/
+
+button {
+	box-shadow:inset 0px 1px 0px 0px #54a3f7;
+	background:linear-gradient(to top, var(--button-dark) 25%, var(--button-light) 100%);
+	background-color:var(--button-dark);
+	border-radius:3px;
+	border:1px solid var(--button-border);
+	cursor:pointer;
+	color:#ffffff;
+  padding:6px 12px;
+  align-items: center;
+  text-decoration:none;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 15px;
+  width: 100px;
+}
+
+button:hover {
+	background:linear-gradient(to bottom, var(--button-dark) 25%, var(--button-light) 100%);
+	background-color:var(--button-dark);
+}
+button:active {
+	position:relative;
+	top:1px;
 }
