@@ -29,7 +29,7 @@ figure {
 }
 
 article {
-  background-image: url("/images/frame.png");
+  background-image: url("../images/frame.png");
   background-repeat: no-repeat;
   background-size: contain;
   padding: 20px 40px;
