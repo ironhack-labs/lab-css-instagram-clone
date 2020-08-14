@@ -9,6 +9,19 @@
 
 }
 
+@media(max-width:900px){
+  figure {
+    visibility: hidden;
+    min-width: 0 !important;
+    width: 0;
+    padding: 0;
+    margin: 0;
+  }
+  article {
+    margin-left: 15px;
+  }
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
@@ -32,8 +45,8 @@ article {
   background-image: url("../images/frame.png");
   background-repeat: no-repeat;
   background-size: contain;
-  padding: 20px 40px;
   max-width: 595px;
+  padding: 2%;
 }
 
 article h2 {
@@ -45,6 +58,11 @@ article p {
 }
 
 article>div {
+  background-color: white;
+  padding: 20px 40px;
+}
+
+article>div>div {
   margin-top: 40px;
 }
 
@@ -94,16 +112,6 @@ header {
   align-items: center;
   margin-bottom: 30px;
 }
-/*
-button {
-  height: 40px;
-  padding: 5px 10px;
-  margin: auto 5px;
-  background-color: var(--main-top-bg);
-  border-radius: 3px;
-  border:none;
-}
-*/
 
 button {
 	box-shadow:inset 0px 1px 0px 0px #54a3f7;
