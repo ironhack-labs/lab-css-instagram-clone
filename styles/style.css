@@ -5,7 +5,7 @@ light blue: #1c5380
 78 128 159
 */
 html{
-  background: linear-gradient(rgb(78 128 159), rgb(45,99,144));
+  background-image: url("/images/bgtile.png");
   background-size: 100% 40%;
   background-repeat: no-repeat;
 }
