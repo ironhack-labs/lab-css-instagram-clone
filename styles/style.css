@@ -7,17 +7,17 @@ light blue: #1c5380
   margin: 0;
   padding: 0;
 }
+/* Backround Image */
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
-  background-image: url(../images/bgtile.png);
-  background-repeat: repeat-y;
 }
 header {
   background-image: url(../images/bgtile.png);
   background-repeat: repeat;
   padding: 180px;
 }
+/* Log In */
 nav {
   display: flex;
   justify-content: flex-end;
@@ -34,7 +34,7 @@ nav {
   text-decoration: none;
   font: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 600;
-  border: 1px solid #1c5380;
+  border: 1px solid #06365f;
   background-color: #1c5380;
   padding: 6px 15px;
   float: right;
@@ -45,11 +45,13 @@ nav {
   margin-top: 7px;
   float: left;
 }
+/* Phones Image */
 .img-container {
   position: absolute;
   top: 170px;
   left: 220px;
 }
+/* Text Box */
 .text-container {
   position: absolute;
   width: 40%;
@@ -57,6 +59,7 @@ nav {
   top: 300px;
   background-color: white;
   padding: 20px 0px 20px 40px;
+  border-radius: 3%;
 }
 .text-container > h2 {
   color: #06365f;
@@ -67,6 +70,7 @@ nav {
   margin-bottom: 20px;
   width: 85%;
 }
+/* Download Icons */
 .icon-container {
   position: absolute;
   left: 690px;
@@ -75,6 +79,7 @@ nav {
 #android {
   margin-left: 50px;
 }
+/* Navigation Footer */
 footer {
   position: absolute;
   top: 92%;
