@@ -6,5 +6,126 @@ light blue: #1c5380
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-top: 0px;
+  padding: 200px;
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;
+  background-size: 100px 450px;
+  
+  
+}
+
+*{
+  padding: 0;
   margin: 0;
 }
+
+.content{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  
+  
+  
+}
+
+.content .phones{
+  padding: 30px;
+}
+
+.content .phones img{
+  width: 420px;
+}
+
+.content .content-text{
+  padding: 30px;
+  
+}
+
+.content .content-text header{ 
+display: flex;
+justify-content: space-between; 
+align-items: center;
+margin-bottom: 25px;
+}
+
+.content-text header .logo {
+  width: 430px;
+}
+
+.content-text header a{
+  background: linear-gradient(to bottom, rgba(70,131,181,1) 0%, rgba(6,54,95,1) 100%);
+  display: flex;
+  padding: 16px 25px;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  font-size: 1em;
+  border-radius: 6px;
+  align-items: center;
+  margin-right: 10px;
+  
+
+}
+.content-text header a img {
+  height: 30px;
+  margin-right: 10px;
+}
+
+.description{
+  background-image: url("../images/frame.png");
+  background-size: contain;
+  padding: 45px 55px;
+  width: 590px;
+  background-repeat: no-repeat;
+}
+
+.description h1{
+  font-size: 2em;
+  font-weight: 600;
+  width: 57%;
+  color:#06365f ;
+  line-height: 1.4em;
+  margin-bottom: .9em;
+}
+
+.description p{
+  font-weight: 300;
+  font-size: 1.4em;
+  margin-bottom: 20px;
+}
+
+.description strong{
+  font-weight: 350;
+
+
+}
+ .app-links{
+   display: flex;
+ }
+
+ .app-links img{
+   margin-right: 20px;
+ }
+
+ footer{
+  text-transform: uppercase;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 40px;
+ }
+ footer a{
+  margin: 10px;
+  text-decoration: none;
+  color: #1c5380;
+  font-weight: 500;
+ }
+
+ footer p{
+  margin: 10px;
+  
+  color: #757575;
+  font-weight: 500;
+ }
