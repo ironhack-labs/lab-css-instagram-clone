@@ -3,8 +3,112 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+* {
+  margin: 0;
+  padding: 0;
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+  background: url(../images/bgtile.png) repeat-x;
 }
+
+main {
+  display: flex;
+  flex-direction: row;
+  width: 900px;
+  justify-content: space-around;
+
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 496px;
+}
+
+.logo a {
+  background: url(../images/bgtile.png) linear-gradient();
+  padding: 10px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  font-size: small;
+  font-weight: bold;
+  border-radius: 3px;
+  box-shadow: 1px -1px 2px 1px #06365f ;
+  
+  
+
+}
+
+.logo a img {
+  margin-right: 10px;
+}
+
+article {
+  width: 420px;
+  padding: 42px;
+  background: url(../images/frame.png) no-repeat;
+}
+
+article p {
+  margin-top: 20px;
+  font-weight: 400;
+}
+
+h2 {
+  color: #1c5380;
+}
+
+nav {
+  padding-left: 42px;
+}
+
+nav a {
+  margin-right: 20px;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 40px 0;
+  font-size: 10px;
+ 
+}
+
+footer ul {
+  display: flex;
+  flex-direction: row;
+}
+
+footer ul li {
+  margin: 10px;
+  list-style: none;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: #1c5380;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+footer span {
+  margin: 10px 20px;
+  text-decoration: none;
+  color: #aaaaaa;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+
+
