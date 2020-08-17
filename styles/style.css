@@ -4,7 +4,107 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+* {
+  padding: 0;
+  margin: 0;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+
+main > section > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 110px;
+}
+
+section {
+  background: url(../images/bgtile.png);
+  background-repeat: repeat-x;
+}
+
+section > div > article {
+  margin: 0 30px;
+}
+
+.instagram-information {
+  width: 500px;
+  height: 512px;
+}
+
+.instagram-information > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 15px;
+}
+
+.log-in-btn {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  border: solid 1px #1c5380;
+  border-radius: 2px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#6f97b6), to(#3f729b));
+}
+
+.log-in-btn > img {
+  margin-right: 10px;
+}
+
+.description {
+  background-image: url(../images/frame.png);
+  background-size: 100% 100%;
+  height: 300px;
+  flex-direction: column;
+  align-items: flex-start !important;
+  padding:  35px !important;
+}
+
+.description > h1 {
+  color: #06365f;
+  font-size: 1.5em;
+}
+
+.download-btns {
+  justify-content: flex-start !important;
+  padding: 0 40px !important;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 12px;
+  margin-top: 75px;
+}
+
+footer > nav > ul {
+  display: flex;
+	justify-content: center;
+}
+
+
+footer > nav > ul > li {
+  list-style: none;
+}
+
+footer > nav > ul > li > a {
+  text-transform: uppercase;
+  color: #1c5380;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+footer > span {
+  color: #8e8e8e;
+  text-transform: uppercase;
+  margin-left: 20px;
 }
