@@ -2,9 +2,102 @@
 Colors to use:
 dark blue: #06365f
 light blue: #1c5380
+78 128 159
 */
-
+html{
+  background: linear-gradient(rgb(78 128 159), rgb(45,99,144));
+  background-size: 100% 40%;
+  background-repeat: no-repeat;
+}
+main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
   margin: 0;
+  
+}
+
+.main-section{
+  display:flex;
+  margin: 100px;
+  align-items: center;
+  
+}
+.main-text{
+  background-image: url("/images/frame.png");
+  background-repeat: no-repeat;
+  background-size: initial;
+  width: 80%;
+  padding:10px 30px;
+  margin-top:30px;
+  padding:10px 30px;
+}
+.main-text h2{
+ color:#06365f
+}
+.logo{
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 91%;
+}
+.logo a{
+  text-decoration: none;
+  color:white;
+  border:none;
+  border-radius: 4px;
+  padding: 8px 17px;
+  background: linear-gradient(rgb(108, 153, 182), rgb(45,99,144));
+  box-shadow:  1px  black;
+}
+
+.img-logo{
+  
+}
+.links-soft{
+  margin-left:30px;
+}
+.android-help{
+  padding-left:12px;
+
+}
+.right-box{
+  width:550px;
+  margin-left:60px;
+}
+.footer-main{
+  display:flex;
+  justify-content: center;
+  text-align: center;
+ 
+}
+.footer-main ul{
+
+ display: flex;
+ 
+}
+.footer-main ul li{
+  list-style: none;
+  text-align: center;
+  display: flex;
+  
+  padding-left: 20px;
+}
+.footer-main li a{
+  
+  text-decoration: none;
+  color:#1c5380;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 14px;
+}
+.last-text{
+  color:grey;
+  text-transform: uppercase;
+  font-size:14px
 }
