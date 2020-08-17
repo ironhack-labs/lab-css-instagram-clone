@@ -3,8 +3,154 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+* {
+  padding: 0;
+  margin: 0;
+}
+
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 400px;
+  margin: 0 300px;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 100px; 
+  width: 430px;
+  
+}
+
+.full {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 430px;
+  margin-right: 500px;
+  
+}
+
+.Moviles {
+  margin-left: 500px;
+}
+
+.home {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 550px; 
+}
+
+
+
+ 
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 40px;
+  border: 1px solid #1c5380;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 0.8rem;
+  padding: 0px 5px;
+  background: linear-gradient(#3F7EB2,#1c5380);
+  
+}
+
+.button p {
+  margin: 5px;
+}
+
+footer { 
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+margin: 20px 0;
+
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+ul a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #1c5380;
+  font-size: 0.7em;
+  font-weight: bold;
+  margin: 10px;
+}
+
+aside {
+  font-size: 0.7em;
+  color: lightgrey;
+  font-weight: bold;
+  text-transform: uppercase;
+
+}
+
+.nav-bar > {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  }
+
+.nav-bar-home {
+  display: flex; 
+  justify-content: space-between;
+}
+
+article {
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  padding: 30px; 
+}
+
+article p {
+  margin: 10px;
+  width: 400px;
+
+}
+
+.app {
+  margin-right: 30px;
+}
+
+.app img {
+  padding: 10px;
+}
+
+
+h1 {
+  width: 250px; 
+  color: #06365f
+}
+
+
+
