@@ -15,7 +15,7 @@ body {
   flex-direction: column;
   justify-content: space-evenly;
   background-image: url("../images/bgtile.png");
-  background-size: 2000px 400px;
+  background-size: 1700px 400px;
   background-repeat: no-repeat;
 }
 
