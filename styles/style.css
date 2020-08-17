@@ -1,10 +1,120 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
-
-body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+* {
   margin: 0;
+  padding: 0;
+}
+
+/* general styles */
+h1{
+  margin-bottom: 10px;
+  width: 35%;
+  color: #06365f;
+  font-size: 40px;
+}
+a {
+  text-decoration: none;
+}
+body {
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  width: 90%;
+  margin: 0;
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+}
+
+/* main styles */
+main {
+  display: flex;
+
+}
+.phone-img {
+  margin: 2%;
+}
+.phone-img img {
+  width: 450px;
+}
+
+.content {
+  margin: 2%;
+}
+
+/* nav styles */
+nav {
+  width: 100%;
+  margin: auto 15px;
+  margin-bottom: 10px;
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  width: auto;
+}
+.log-in {
+  width: 110px;
+  margin: 10px;
+  padding: 10px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: solid 1px #06365f;
+  border-radius: 4px;
+  background-image: linear-gradient(#598ab1, #1c5380)
+}
+.log-in img {
+  width: 35px;
+  height: 35px;
+}
+.log-in p {
+  margin-top: 5px;
+}
+
+/* container styles */
+.container {
+  padding: 50px;
+  background-image: url(../images/frame.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: left;
+}
+.container p {
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+/* store links styles */
+.store-links ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style-type: none;
+}
+.store-links img {
+  width: 280px
+}
+
+/* footer styles */
+footer {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: gray;
+}
+footer ul {
+  margin-top: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+footer a {
+  color: #669fce;
+  font-weight: bold;
 }
