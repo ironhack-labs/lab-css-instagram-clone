@@ -4,7 +4,85 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+*{
+  padding: 0;
+  margin: 0;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  background-color:  white;
+  font-size: 20px;
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x; 
+}
+
+.box1{
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  margin-top: 40px;
+}
+.moviles {
+  margin-left: 100px;
+  margin-right: 40px;
+}
+
+.boxlog{
+  display: flex;
+  justify-content: space-between;
+}
+
+.boxtext{
+  background-image: url(../images/frame.png);
+  background-size: 100% 100%;
+  margin-top: 20px;
+  padding: 20px 50px 20px 50px;
+}
+
+.boxtext img {
+  margin: 20px 20px 0px 0px;
+}
+
+.home {
+  margin: 15px 0px 15px 0px;
+  box-shadow: 1px 1px #000d18;
+  padding: 10px 10px 0px 10px;
+  background-color:  #1e5d91;
+  text-decoration: none;
+  color: white; 
+  background: linear-gradient(180deg, #1e5d91 0%, #06365f 100%); 
+}
+
+h1 {
+  color: #1c5380;
+}
+
+p {
+  margin-top: 5px;
+}
+
+ul {
+  background-color: white;
+}
+
+.nav-bar ul {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+.nav-bar ul li {
+  padding: 0px 5px 0px 5px;
+  list-style-type: none;
+}
+
+.nav-bar ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #1c5380;
+  font-size: 15px;
+  font-weight: 800;
 }
