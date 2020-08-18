@@ -1,0 +1,136 @@
+/*
+Colors to use:
+dark blue: #06365f
+light blue: #1c5380
+*/
+
+body {
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+
+#background {
+  background-image: url("../images/bgtile.png");
+  height: 50vh;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+  background: linear-gradient(180deg, #65bce8 0%, #306485 100%);
+  width: 100%;
+  background-repeat: repeat-x;
+}
+
+#general {
+  align-content: center;
+  justify-content: center;
+  padding: 10%;
+}
+
+#mobile {
+  align: center;
+  display: flex;
+  align-items:center;
+}
+
+#content {
+  flex-direction: row;
+  align-items: center;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  padding: 10%;
+  grid-row: 1;
+ /*
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  */
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: #06365f;
+  width: 70%;
+  padding: 0 30px;
+}
+
+#logo-block {
+  display: inline-flex;
+  padding: 25%;
+  justify-content: space-evenly;
+}
+
+#logo {
+
+  
+}
+
+h1 {
+  display: none;
+}
+
+
+
+#logIn {
+  size: 100%;
+  display: block;
+  flex-direction: row;
+  justify-content: right;
+  width: 70%;
+  color: #FFFFFF;
+  text-decoration: none;
+  background: linear-gradient(180deg, #65bce8 0%, #306485 100%);
+  border-radius: 8px;
+  padding: 2%;
+}
+
+#text {
+  display: block;
+}
+
+h2 {
+  color: #06365f;
+}
+
+#stores {
+  align-items: center;
+  flex-direction: row;
+  display: inline-block;
+  justify-content: row;
+  
+}
+
+#apple {
+  display: inline-flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+#google {
+  display: inline-flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+#nav-bar {
+  display: flex;
+  justify-items: inline;
+  justify-content: space-evenly;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #06365f;
+}
+
+#nav-bar a {
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #06365f;
+}
+
+#copyright {
+  color: gray;
+  justify-items: inline;
+  justify-content: space-evenly;
+  display: inline-flex;
+}
