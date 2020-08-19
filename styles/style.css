@@ -8,3 +8,112 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.maindiv {
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+  justify-content: center;
+	align-items: center;
+  align-content: stretch;
+  height: 30%;
+}
+
+.homebg {
+  margin-top: 4em;
+  margin-right: 2em;
+}
+
+.maincontent {
+  max-width: 32em;
+  /* margin-left: 10px; */
+
+
+}
+
+.login {
+    box-shadow: 0 0.063em 0.188em rgba(0, 0, 0, 0.1), inset 0.063em 0 0 rgba(255,255,255,0.05), inset -0.063em 0 0 rgba(255,255,255,0.05), inset 0 0.063em 0 rgba(255, 255, 255, 0.1);
+    text-shadow: 0 0.063em 0 rgba(255, 255, 255, 0.1);
+    right: 1.12em;
+    top: 6em;
+    padding: 0.813em 0.813em 0.750em 2.625em;
+    font-size: 16px;
+    text-shadow: 0 0.063em 0 rgba(0, 0, 0, 0.3);
+    background-color: #517fa4;
+    background-image: url(../images/home.png);
+    background-repeat: no-repeat;
+    background-position: 0.5rem;
+    color: white;
+}
+
+.infotab {
+  /* background-image: url(../images/frame.png); */
+  background-repeat: no-repeat;
+  background-color: #ffffff !important;
+  background: linear-gradient(180deg, rgba(255,255,255,0) 51%, rgba(255,255,255,1) 100%);
+  border-radius: 8px;
+  margin-top: 2em;
+  /* z-index: 2147483644 !important; */
+  /* box-shadow: 0 0px 30px 5px #000;
+  -moz-box-shadow: 0 0 30px 5px #ffffff;     */
+  /* -webkit-box-shadow: 0 0 30px 5px #000;  */
+  /* background-color: white; */
+  
+}
+
+h1 {
+  font-size: 1.6em;
+  line-height: 1.5em;
+  color: #06365f;
+  padding: 0.7em 7.8em 0em 1.0em;
+  margin-bottom: 0em;
+}
+
+.infotab p {
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+p {
+  display: block;
+  padding: 0.6em 4em 0em 1.5em;
+}
+
+.logo {
+  position: relative;
+  top: 3em;
+  left: 1em;
+  width: 20em;
+  height: auto;
+}
+
+nav {
+  margin-top: 3em;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* max-width: 70%; */
+  padding-inline-start: 0px;
+
+}
+
+nav a {
+  font-weight: 500;
+  text-decoration: none;
+  color: #517fa4;
+}
+
+nav li {
+  margin-right: 1.5em;
+}
+
+.appstore {
+  margin-left: 1.5em;
+  margin-top: 2em;
+}
