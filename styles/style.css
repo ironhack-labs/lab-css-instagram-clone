@@ -3,8 +3,94 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+* {
+  box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(#1c5380 20%, #06365f) no-repeat;
+  background-size: auto 35vh;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.main {
+  margin: 100px auto;
+  width: 80%;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.flexHorizontal {
+  flex-direction: row;
+}
+
+.flexVertical {
+  flex-direction: column;
+}
+
+.presentation {
+  width: 60%;
+}
+
+.presentationNav {
+  width: 95%;
+  justify-content: space-between;
+}
+
+.presentationNav .loginButton {
+  background: linear-gradient(#1c5380 60%, #06365f) no-repeat;
+  padding: 5px;
+  color: white;
+  font-weight: bold;
+  font-size: 0.8rem;
+  width: 15%;
+}
+
+.presentationText {
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 20px 40px;
+  align-items: flex-start;
+  font-weight: 400;
+}
+
+.icons {
+  width: 92%;
+  justify-content: left;
+}
+
+.icons > img {
+  margin-right: 20px;
+}
+
+.footer {
+  width: 70%;
+  color: #1c5380;
+  font-weight: bold;
+}
+
+.footer ul li:last-child {
+  color: lightgrey;
 }
