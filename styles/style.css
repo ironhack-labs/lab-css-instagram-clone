@@ -7,9 +7,13 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
-  width : 900px;
   background-image: url(../images/bgtile.png);
   background-repeat: repeat-x;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 main {
@@ -18,20 +22,42 @@ main {
   justify-content: space-evenly;
   margin-top : 100px;
   margin-left : 50px;
+  margin-bottom: 50px;;
+  flex-wrap: wrap;
 }
 
 header {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .home-button {
   display: flex;
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;
+  justify-content: space-around;
+  align-items: center;
+  color : white;
+  height: 40px;
+  width : 100px;
+  border-radius: 3px;
+  border-width: 1px;
+  border-color: #1c5380;
 }
 
 .footer-list {
+  width : 650px;
   display: flex;
   list-style: none;
   justify-content: space-evenly;
+  padding : 0px;
+  flex-wrap: wrap;
+  text-transform: uppercase;
+  color: #1c5380;
+  font-weight: bold;
+  font-size : 10px;
 }
 
 .text-section {
@@ -43,6 +69,7 @@ header {
   padding-top : 20px;
   width : 500px;
   box-sizing : border-box;
+  margin-top: 20px;
 }
 
 h1 {
@@ -52,10 +79,39 @@ h1 {
 
 .app-store-button {
   width : 164px;
+  height : 51px;
   background-image: url(../images/badge-iphone.png);
   background-repeat: no-repeat;
   border : none;
 }
 
+.google-play-button {
+  width : 153px;
+  height : 51px;
+  background-image: url(../images/badge-android.png);
+  background-repeat: no-repeat;
+  border : none;
+}
+
+
+.info-container {
+  margin : 10px;
+}
+
+#copyright {
+  color : lightgrey;
+}
+
+.google-play-button:hover { 
+  cursor: pointer; 
+}
+
+.app-store-button:hover { 
+  cursor: pointer; 
+}
+
+footer {
+  margin-bottom : 50px;
+}
 
 
