@@ -7,4 +7,55 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  width : 900px;
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;
 }
+
+main {
+  display: flex; 
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top : 100px;
+  margin-left : 50px;
+}
+
+header {
+  display: flex;
+}
+
+.home-button {
+  display: flex;
+}
+
+.footer-list {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+}
+
+.text-section {
+  border-radius: 3px;
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  padding-left : 50px;
+  padding-right : 50px;
+  padding-top : 20px;
+  width : 500px;
+  box-sizing : border-box;
+}
+
+h1 {
+  color: #06365f;
+  font-size : 23px;
+}
+
+.app-store-button {
+  width : 164px;
+  background-image: url(../images/badge-iphone.png);
+  background-repeat: no-repeat;
+  border : none;
+}
+
+
+
