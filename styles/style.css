@@ -17,24 +17,20 @@ body {
 
 .main{
   display: flex;
-  align-content: center;
-  align-content: space-between;
+  align-items: center;
+  justify-content: center;
   flex-direction: row;
-}
-
-.card {
-  background-image: url(/images/frame.png);
-  background-repeat: no-repeat;
-  width: 500px;
-  padding: 0 50px;
-  box-sizing: border-box;
+  flex-wrap: wrap;
+  margin-top: 100px;
 }
 
 .block_left {
+  margin-right: 40px;
 
 }
 
 .block_right{
+
 display: flex;
 flex-direction: column;
 }
@@ -42,7 +38,7 @@ flex-direction: column;
 .logo_cta{
   display: flex;
   align-items: center;
-  align-content: space-between;
+  justify-content: space-between;
   flex-direction: row;
 }
 
@@ -50,19 +46,62 @@ flex-direction: column;
   display: flex;
   align-items: center;
   flex-direction: row;
-  text-decoration: none;
-  background-color: lightskyblue;
-  color: black;
-  padding: 5px;
+  background-color: rgb(68, 143, 190);
+  color: #dee9f3;
+  padding: 8px 10px;
   border-radius: 4px;
+  font-weight: 500;
+  box-shadow: 0px 0px 10px #3C3B47 ;
+  font-size: 14px;
 }
 
+.button img{
+  margin-right: 5px;
+}
 
+.card {
+  background-image: url(/images/frame.png);
+  background-repeat: no-repeat;
+  width: 500px;
+  padding:  30px;
+  box-sizing: border-box;
+}
+.card h1{
+  color:#11395E;
+  margin: 0 0 16px 0;
+}
 
+.card p{
+  margin: 0 0 32px 0;
+  font-weight: 300;
+}
 
+.download_logos{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.download_logos img{
+  margin-right: 16px;
+}
 
 footer > ul{
+  margin-top: 60px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  letter-spacing: 1px;
+  font-size: 12px;
+  font-weight: 500;
+  flex-wrap: wrap;
+  list-style-type: none;
+  color: rgb(67, 117, 173);
 }
 
+
+footer li{
+  margin-right: 24px;
+}
+
+footer > ul > li:last-child {
+   color: gray;
+ }
