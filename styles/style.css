@@ -3,8 +3,66 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+*{
+  margin:0;
+  padding: 0;
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url(/images/bgtile.png);
+  background-repeat: repeat-x;
 }
+
+.main{
+  display: flex;
+  align-content: center;
+  align-content: space-between;
+  flex-direction: row;
+}
+
+.card {
+  background-image: url(/images/frame.png);
+  background-repeat: no-repeat;
+  width: 500px;
+  padding: 0 50px;
+  box-sizing: border-box;
+}
+
+.block_left {
+
+}
+
+.block_right{
+display: flex;
+flex-direction: column;
+}
+
+.logo_cta{
+  display: flex;
+  align-items: center;
+  align-content: space-between;
+  flex-direction: row;
+}
+
+.button{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  text-decoration: none;
+  background-color: lightskyblue;
+  color: black;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+
+
+
+
+footer > ul{
+  display: flex;
+  justify-content: space-evenly;
+}
+
