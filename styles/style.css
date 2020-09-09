@@ -1,10 +1,105 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
-
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
 }
+
+h1 {
+  color: #06365f;
+  font-size: 20pt;
+}
+
+p {
+  font-size: 12pt;
+}
+  #body-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+
+
+  }
+  #button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6E93B0;
+    height: 30px;
+    width: 80px;
+    border: blue;
+    box-shadow: blue;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 80px;
+    box-shadow: 1px 2px #06365f;
+    border-radius: 3px;
+  }
+
+  #login {
+    color: white;
+  }
+
+  #home {
+    margin-left: 2px;
+    margin-top: 5px;
+    margin-bottom: 8px;
+  }
+
+  #phone-img {
+    margin-right: 20px;
+  }
+
+  #content-container {
+    margin-left: 20px;
+  }
+  #text {
+    background-image: url("../images/frame.png");
+    background-size: cover;
+    width: 450px;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+
+  }
+  #footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+ul {
+  list-style: none;
+}
+
+li {
+  float: left;
+  margin: 5px;
+  color: #6E93B0;
+  font-size: 10pt;
+  font-weight: bold;
+}
+
+#copyright {
+  color: lightgray;
+  margin-left: 15px;
+}
+
+  #header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+  }
+  #download {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  #phone {
+    margin-right: 10px;
+  }
+
