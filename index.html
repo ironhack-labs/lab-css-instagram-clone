@@ -4,13 +4,85 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Instagram Clone</title>
+    <link rel="stylesheet" href="./styles/style.css">
     <!-- don't forget to link your styles -->
   </head>
   <body>
-    Instagram Capture and Share the World's Moments Instagram is a fast, beautiful and fun way to share your life with
-    friends and family. Take a picture or video, choose a filter to transform its look and feel, then post to Instagram
-    &mdash; it's that easy. You can even share to Facebook, Twitter, Tumblr and more. It's a new way to see the world.
-    Oh yeah, did we mention it's free? Download on the App Store Get it on Google Play About Us Support Blog Press API
-    Jobs Privacy Terms &copy; 2014 Instagram
+    <header class="header">
+        <div class="gradient"></div>
+    </header>
+    <main class="container main flex-h-center"> 
+      <div class="flex-between">
+        <img src="images/phones.png" alt="phones">
+        <div class="right">
+          <h1 class="main-title flex-between margin-b-20">
+            <img src="./images/brand.png" alt="Instagram " />
+            <a class="btn btn-log flex-h-center" href="#"><img class="picto-home" src="../images/home.png" alt="picto home"/>Log in</a>
+          </h1>
+         
+          <div class="content flex-col-end">
+            <h2 class="title margin-b-20">Capture and Share<br>the World's Moments</h2>
+            <p class="margin-b-10">
+              Instagram is a <strong>fast</strong>, <strong>beautiful</strong> and <strong>fun</strong> way to share your life with
+              friends and family. 
+            </p>
+            <p class="margin-b-10">
+              Take a picture or video, choose a filter to transform its look and feel, then post to Instagram
+          &mdash; it's that easy. You can even share to Facebook, Twitter, Tumblr and more. It's a new way to see the world.
+            </p>
+            <p class="margin-b-40">
+              Oh yeah, did we mention it's free? 
+            </p>
+            <ul class="list-btns">
+              <li>
+                <a href="#">
+                  <img class="btn-apple" src="./images/badge-iphone.png"  alt="Download on the App Store" />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img class="btn-google" src="./images/badge-android.png"  alt="Get it on Google Play " />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <nav class="flex-h-center">
+        <ul class="nav-links flex-h-center">
+          <li class="nav-item">
+            <a href="#">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a href="#">Support</a>
+          </li>
+          <li class="nav-item">
+            <a href="#">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a href="#">Press</a>
+          </li>
+          <li class="nav-item">
+            <a href="#">API</a>
+          </li>
+          <li class="nav-item">
+            <a href="#">Jobs</a>
+          </li>
+          <li class="nav-item">
+            <a href="#">Privacy</a>
+          </li>
+          <li class="nav-item">
+            <a href="#">Terms</a>
+          </li>
+
+          <li class="nav-item">
+            <span>&copy; 2014 Instagram</span>
+          </li>
+        </ul>
+      </nav>
+      
+    </footer>
   </body>
 </html>

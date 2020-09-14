@@ -4,7 +4,151 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
-body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+* {
+  box-sizing: border-box;
   margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.flex-col-end {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.flex-h-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.margin-b-10 {
+  margin-bottom: 10px;
+}
+
+.margin-b-20 {
+  margin-bottom: 20px;
+}
+
+.margin-b-40 {
+  margin-bottom: 40px;
+}
+
+body {
+  font: 400 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  color: #333;
+}
+
+.header {
+  background-image: url('../images/bgtile.png');
+  background-repeat: repeat-x;;
+  height: 280px;
+}
+
+.right {
+  margin-left: 40px;
+}
+
+.gradient {
+  background-image: linear-gradient(to top, rgba(0,0,0,0.2), rgba(255,255,255, 0.2));
+  width: 100%;
+  height: 280px;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.main {
+  position: relative;
+  margin-top: -180px;
+}
+
+.main-title.flex-between {
+  align-items: center;
+}
+
+
+.content {
+  background-image: url('../images/frame.png');
+  background-repeat: no-repeat;
+  background-position: top right;
+  width: 504px;
+
+  justify-content: flex-end;
+  padding: 30px;
+  border-radius: 30px; 
+}
+
+.list-btns {
+  list-style: none;
+  display: flex;
+}
+
+.list-btns:first-child {
+  margin-right: 20px;
+}
+
+.title {
+  color: #06365f;
+}
+
+.footer {
+  display: flex;
+}
+
+.nav-links {
+  margin: 30px 0;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 11px;
+}
+.nav-links a {
+  color: rgba(28, 83, 128, 0.75);
+}
+
+
+.nav-links:last-child {
+  color: gray;
+}
+
+.nav-item {
+  padding: 5px 8px;
+}
+
+.btn {
+  border-radius:3px;
+  border: solid 2px rgba(28, 83, 128, 0.9);
+ 
+}
+
+.btn-log {
+  color: white;
+  font-size:12px;
+  background-image: linear-gradient(to bottom, rgba(255,255,255, 0.3), rgba(255,255,255,0.01));
+  padding: 8px 10px;
+  margin-right: 10px;
+}
+
+.btn-apple {
+  margin-right: 20px;
+}
+
+.picto-home {
+  padding-right: 10px;
 }
