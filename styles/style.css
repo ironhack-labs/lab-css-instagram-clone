@@ -7,4 +7,84 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url(../images/bgtile.png);
+  background-size: 100% 300px;
+  background-repeat: no-repeat;
+
+}
+
+.main-content {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+
+.info-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.stacked-iphones {
+  padding: 100px;
+}
+
+.info-content-overall {
+  margin: 50px 200px 20px -15px;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.info-content-top {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.log-in-button {
+  background-color: #40688D;
+  border-radius: 3px;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 80px;
+  height: 40px;
+  border: 1px solid grey;
+}
+
+.info-content {
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  padding: 30px;
+}
+
+.info-content-text {
+  margin: 10px;
+  font-weight: 300;
+}
+
+.info-content-text h1 {
+  color: #06365f;
+  width: 65%;
+  font-size: 35px;
+  margin: 0;
+}
+
+.footer {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.footer-links {
+  color: #06365f;
+  word-spacing: 20px;
+}
+
+.IG-copyright {
+  color: grey;
 }
