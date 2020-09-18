@@ -7,16 +7,16 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
-  background-image: url(/images/bgtile.png);
+  background-image: url(../images/bgtile.png);
   background-size: 100% 300px;
   background-repeat: no-repeat;
-  display:flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.page{
-  display:flex;
+.page {
+  display: flex;
   justify-content: space-around;
   margin: 50px;
   padding: 50px 30px 0;
@@ -25,7 +25,7 @@ body {
 .right {
   width: 500px;
   margin: 50px;
-  display:flex;
+  display: flex;
   flex-direction: column;
 }
 
@@ -36,23 +36,24 @@ body {
 }
 
 .text {
-  background-image: url(/images/frame.png);
+  background-image: url(../images/frame.png);
   background-repeat: no-repeat;
-  display:flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
-  
 }
 
 #login {
-height: 40px;
-width: 100px;
-background-color: #1c5380;
-display: flex;
-justify-content: space-around;
-align-items: center;
-border: 1px solid #06365f;
-border-radius: 4px;
+  height: 40px;
+  width: 100px;
+  background-color: #1c5380;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid #06365f;
+  border-radius: 4px;
+  color: #D4DDE6;
+  font-weight: bold;
 }
 
 .intro {
@@ -67,8 +68,8 @@ border-radius: 4px;
 
 #download {
   margin: 10px;
-  width:100%;
-  display:flex;
+  width: 100%;
+  display: flex;
 }
 
 #download picture {
@@ -76,7 +77,7 @@ border-radius: 4px;
 }
 
 footer {
-  display:flex;
+  display: flex;
   width: 60%;
   justify-content: space-around;
 }
@@ -85,8 +86,12 @@ footer span {
   text-transform: uppercase;
   color: #1c5380;
   font-weight: bold;
+  color: gray;
 }
 
-.grey {
-  color: gray;
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #1c5380;
+  font-weight: bold;
 }
