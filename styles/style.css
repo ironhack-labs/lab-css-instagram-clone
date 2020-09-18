@@ -7,4 +7,86 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url(/images/bgtile.png);
+  background-size: 100% 300px;
+  background-repeat: no-repeat;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.page{
+  display:flex;
+  justify-content: space-around;
+  margin: 50px;
+  padding: 50px 30px 0;
+}
+
+.right {
+  width: 500px;
+  margin: 50px;
+  display:flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text {
+  background-image: url(/images/frame.png);
+  background-repeat: no-repeat;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+#login {
+height: 40px;
+width: 100px;
+background-color: #1c5380;
+display: flex;
+justify-content: space-around;
+align-items: center;
+border: 1px solid #06365f;
+border-radius: 4px;
+}
+
+.intro {
+  width: 90%;
+}
+
+.intro h2 {
+  font-size: 32px;
+  width: 75%;
+  color: #1c5380;
+}
+
+#download {
+  margin: 10px;
+  width:100%;
+  display:flex;
+}
+
+#download picture {
+  padding: 0 10px;
+}
+
+footer {
+  display:flex;
+  width: 60%;
+  justify-content: space-around;
+}
+
+footer span {
+  text-transform: uppercase;
+  color: #1c5380;
+  font-weight: bold;
+}
+
+.grey {
+  color: gray;
 }
