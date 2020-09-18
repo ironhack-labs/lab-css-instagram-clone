@@ -7,4 +7,152 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url(../images/bgtile.png);
+  background-size: 100% 300px;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
+
+/*
+.backgroundImage{
+  min-height:100%;
+  background-repeat: repeat-x;
+  background:#fff url(./images/bgtile.png) no-repeat 50% 100%;
+  width:100%;
+  overflow:hidden;
+  }
+  */
+
+  
+  
+.mainBody{
+  margin: auto;
+  width: 75%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-top: 70px;
+
+}
+
+#iphone{
+  max-width: 45%;
+  height: auto;
+  margin-top: 50px;
+
+}
+
+
+.logoButton{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top:30px;
+  margin-right: 60px;
+}
+#loginButtonText{
+  color: white;
+  font-weight: bold;
+  font-size: 10pt;
+  text-transform: capitalize;
+  text-decoration: none;
+ 
+}
+#instaLogo{
+  height: 60px ;
+  margin-top: 30px;
+
+}
+
+
+#loginButton{
+  /* color: linear-gradient(#1c5380,#06365f); */
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  color: #06365f;
+  height: 20px; 
+  margin-top:45px;
+  padding:5px 20px;
+  border: 1px #06365f solid;
+  border-radius: 5px;
+  box-shadow: 0 0 -2px #7db1df;
+
+}
+#homeIcon{
+  padding-right:10px;
+}
+.secondaryContainer{
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0 0 50px;
+}
+
+.Text{
+  background-image: url(../images/frame.png);
+  background-size: 90%;
+  margin-top:10px;
+  padding: 20px 30px;
+  background-repeat: no-repeat;
+}
+.copytext{
+  font-size: 11pt;
+  font-weight: normal;
+  color: #272727;
+  padding:0 50px 0 0;
+}
+h1{
+  color: #06365f;
+  font-size: 20pt;
+  line-height: 24pt;
+
+}
+
+.Text #bold{
+  font-weight: bold;
+}
+
+.apps{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  height: 20%;
+}
+
+#app{
+  height: 50px;
+  margin: 0 10px 0 0;
+}
+
+
+.footer{
+  margin-top:30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+
+.impressum{
+  color: #165994;
+  font-weight: bold;
+  font-size: 10pt;
+  margin: 10px;
+  text-transform: capitalize;
+  text-decoration: none;
+  
+}
+
+#copyright{
+  text-transform: capitalize;
+  color: #4b4b4b;
+  font-size: 10pt;
+  font-weight: bold;
+}
+
