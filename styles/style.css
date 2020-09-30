@@ -6,5 +6,139 @@ light blue: #1c5380
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  margin: 0 250px;
+  background: linear-gradient(
+    to bottom,
+    #1c5380 0%, 
+    #1c5380 40%,
+    #ffff 40%, 
+    #ffff 100%
+  );
+  background-repeat: no-repeat;
+}
+
+.col{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+
+.itemGrow2{
+    flex-grow: 2;
+}
+
+.itemGrow3{
+  flex-grow: 5;
+}
+
+button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.container{
+  font-size: 2rem;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
+}
+
+
+#login{
+  margin-left: 50px;
+  align-self: flex-start;
+}
+
+.button {
+  background-color: #EEEEEE;
+  padding: 8px 10px;
+  text-decoration:none;
+  border-radius:5px;
+  color: #10a2ff;
+  cursor:pointer;
+  font-size: 1.2rem;
+}
+
+.blue {
+  background: linear-gradient(
+    to bottom,
+    #5d8eb6 0%,
+    #385872 50%,
+    #6a8eac 100%
+
+  );
+  color: #FFFFFF;
+}
+
+#card{
+  background-image: url('../images/flipped.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  margin-top: 30px;
+  padding-left: 30px;
+}
+
+#card >div{
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
+#firstRow{
+  justify-content: space-between;
+}
+
+.leftMargin10{
+  margin-left: 70px;
+}
+
+h1{
+  font-size: 1.05em;
+  color: #06365f;
+}
+
+p{
+  font-size: 1.02rem
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+
+.menu li {
+  padding: 20px;
+  margin-top: 25px;
+  color: #06365f;
+  font-size: 1.02rem;
+  font-weight: bold;
+}
+.notBold{
+  font-weight: normal !important;
+}
+
+a {
+  color: #06365f;
+  text-decoration: none;
 }
