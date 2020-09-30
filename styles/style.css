@@ -8,3 +8,82 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+#blue-background{
+  height: 40vh;
+  background-image: linear-gradient(#507b9e, #1c5380);
+}
+
+#positioned{
+  position: absolute;
+  top:12%;
+  left: 15%;
+}
+
+#content{
+  display: flex;
+}
+
+#content > img{
+  height: 100%;
+}
+
+#title{
+  margin: 0 10%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+#title > a{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: linear-gradient(#507b9e, #1c5380);
+  color: white;
+  box-shadow: 0 0 1px black;
+  border: 1px solid black;
+  text-decoration: none;
+  padding: 7px;
+}
+
+#title > a > img{
+  margin-right: 7px;
+}
+
+#box{
+  background-color: white;
+  margin: 10px 10%;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px 50px;
+  box-shadow: 3px 0 3px -4px black, -3px 0 3px -4px black;
+  border-top-left-radius: 1%;
+  border-top-right-radius: 1%;
+}
+
+#box > h1{
+  color: #06365f;
+}
+
+footer{
+  margin-top: 4%;
+  text-align: center;
+  width: 70vw;
+  padding-bottom: 3vh;
+}
+
+footer > a{
+  margin: 0 10px;
+  text-decoration: none;
+  color: #1c5380;
+  font-weight: bold;
+}
+
+footer > span {
+  font-weight: bold;
+  color: darkgrey;
+  margin-left: 10px;
+}
