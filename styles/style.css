@@ -8,3 +8,113 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+#topframe{
+  background: linear-gradient(180deg,#06365f,#1c5380);
+  width: 100%;
+  height: 35%;
+  padding:10%;
+  z-index: -1;
+  position: relative;
+}
+
+button {
+  width: 8%;
+  height: 17%;
+  padding: 0.2% 0.2% 0.2% 0.2%;
+  background: linear-gradient(180deg,#06365f,#1c5380); 
+  font-weight: bold;
+  position: absolute;
+  left: 67%;
+  top: 40%;
+  bottom: 15%;
+  font-size: 1em;
+  border: 1px groove #1c5380f;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  color: white;
+}
+
+img .home{
+  width: 8%;
+}
+
+
+.logo{
+  position: absolute;
+  left: 38%;
+  top: 36%;
+  bottom: 15%; 
+}
+
+#phone{
+  position: absolute;
+  left: 15%;
+  top: 15%;
+  z-index: 1;
+}
+
+#phone img{
+  width:98%;
+
+}
+#Info {
+  width: 100%;
+  height: 55%;
+}
+
+.text{
+  background-color: white;
+  border: 2px hidden white ;
+  border-radius: 3% ;
+  position: absolute;
+  top: 32%;
+  bottom: 5%;
+  left: 45%;
+  z-index: 1;
+  width: 35%;
+  height: 35%;
+  padding: 0% 1% 1% 1%;
+  text-align: left;
+}
+
+.text h2{
+  color: #06365f;
+  font-weight: bold;
+}
+
+#download {
+  position: absolute;
+  top: 85%;
+  left: 47%;
+  width: 40%;
+}
+
+#download img{
+  margin: 2%;
+}
+
+nav {
+  position: absolute;
+  width: 100%;
+  top: 98%;
+  left: 20%;
+}
+
+nav li{
+  list-style-type: none;
+  float: left;
+  text-align: center;
+  padding: 1%;
+}
+
+li a{
+  text-decoration: none;
+  color: #06365f;
+  font-weight: bold;
+}
+
+#copyright{
+ color:#DADDE7;
+ font-size: 0.8em;
+}
+ 
