@@ -8,3 +8,30 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.background {
+  width: auto;
+  background: linear-gradient(#567FA1 0%, #325C82 40%, #fff 40%) no-repeat top center;
+
+}
+
+.phones {
+  padding: 200px 200px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+}
+
+.marcatexto {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.brand {
+  
+}
+
+.home {
+
+}
