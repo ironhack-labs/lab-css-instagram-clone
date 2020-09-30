@@ -7,4 +7,40 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;
+}
+
+#center-content {
+  margin: 0 auto;
+  max-width: 90vw;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 150px;
+}
+
+#center-content section {
+  margin: 0 60px;
+}
+
+button#log-in {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  color: white;
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+#log-in img {
+  margin-right: 10px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
