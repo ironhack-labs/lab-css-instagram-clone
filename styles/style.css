@@ -7,4 +7,105 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url("/Users/acammarata/Desktop/IronHack/Git/Git-IronHack/lab-css-instagram-clone/images/bgtile.png");
+  background-size: auto;
+  background-repeat: repeat-x;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 100px;
 }
+
+a {
+  text-decoration: none;
+  font-weight: 600;
+}
+
+#phone {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+#phone img {
+  width: 80%;
+}
+
+#content {
+  width: 70%;
+  max-width: 500px;
+}
+
+#content .logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#content .logo .log-in {
+  background: linear-gradient(0deg, rgba(66,112,150,1) 0%, rgba(126,158,186,1) 100%);
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  border-radius: 2px;
+  box-shadow: 0 0 2px 0 #000000b0;
+  color: #fff;
+}
+
+#content .logo .log-in img {
+  padding-right: 10px;
+}
+
+#content .text {
+  background-image: url("/Users/acammarata/Desktop/IronHack/Git/Git-IronHack/lab-css-instagram-clone/images/frame.png");
+  background-repeat: no-repeat;
+  padding: 40px;
+  margin-top: 10px;
+}
+
+#content .text h2 {
+  margin-top: 0;
+  color: #1c5380;
+}
+
+#content .text article {
+  margin-bottom: 1em;
+}
+
+#content .text .stores{
+  margin-top: 25px;
+}
+
+#content .text .stores img {
+  margin-right: 10px;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+}
+
+footer ul {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  padding: 20px;
+  list-style: none;
+
+}
+
+footer ul li a {
+  color: #6589A9;
+  padding: 20px;
+}
+
+footer ul .copyright {
+  color: #9A9A9A;
+  font-weight: 500;
+
+} 
