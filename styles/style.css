@@ -7,4 +7,138 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.background {
+  background-image: url(../images/bgtile.png);
+  background-size: 100% 40%;
+  background-repeat: no-repeat;
+}
+
+
+.frame {
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  background-size: 100% 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+
+.left {
+  margin: 100px 0px 40px 0px;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50%;
+  margin: 100px 0px 40px 40px;
+  padding: 0 10px 0 10px;
+}
+
+.logoHome {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 10px;
+}
+
+.homeButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  color: white;
+
+
+}
+
+.loginButton {
+  background-image: linear-gradient(rgb(175, 211, 240), #3c6c94);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  line-height: 1px;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: center;
+  color: white;
+  border: 1px #06365f;
+  border-radius: 2px;
+  padding: 5px;
+  font-weight: bold;
+}
+
+.homeimg {
+  margin-right: 10px;
+}
+
+.mainText {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  max-width: 90%;
+}
+
+.mainText>h2 {
+  color: #06365f;
+}
+
+.storeButtons {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-content: center;
+}
+
+.appstore {
+  margin-right: 10px;
+  margin-left: 25px;
+}
+
+.googlePlayButton {
+  margin-left: 10px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerList {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.footerList>li {
+  margin-right: 5px;
+  margin-left: 5px;
+  font-size: 10px;
+  font-weight: bold;
+  color: #1c5380;
+}
+
+#copy {
+  color: grey;
 }
