@@ -7,4 +7,98 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: linear-gradient(#567fa1 0%, #325c82 40%, #fff 40%) no-repeat;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 100px;
+  margin-bottom: 50px;  
+  margin-left: 50px;
+  flex-wrap: wrap;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-left: 4rem;
+}
+
+.button{
+ box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); 
+ background-image: url(../images/bgtile.png) no-repeat; 
+ border: none;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ color: #fff;
+ padding: 10px 20px;
+ background: linear-gradient(#567fa1 0%, #325c82 100%) no-repeat;
+margin: 10px;
+}
+
+#phones{
+  width: 350px;
+}
+
+.button img{
+  margin-right: 10px;
+}
+
+
+.container{
+  height: 450px;
+  background-image: url(../images/frame.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 10px;
+  padding: 20px 50px 0;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-top: 1rem;
+  margin-left: 4rem;
+}
+
+
+h1{
+  color:#06365f;
+  font-size: 2rem;
+
+}
+
+footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+footer ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+}
+
+footer li{
+  font-size: 15px;
+  font-weight: bold;
+  margin-right: 5px;
+  margin-left: 5px;
+  color: #567fa1;
+}
+
+#copyrigth{
+  color:grey;
+  opacity: 0.3;
 }
