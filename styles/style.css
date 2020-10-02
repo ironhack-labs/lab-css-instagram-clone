@@ -7,4 +7,94 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url("/Users/daina/Desktop/Ironhack/css-insta-clone/lab-css-instagram-clone/images/Instagram-background-new.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
+.content-text > h1 {
+  color: #06365f;
+  font-size: 1.5em;
+  width: 55%;
+}
+
+.content-text p {
+  font-size: 0.9em;
+  font-weight: bolder;
+}
+
+.content-text {
+  width: 450px;
+  padding-top: 15px;
+  padding-left: 30px;
+  background-image: url("/Users/daina/Desktop/Ironhack/css-insta-clone/lab-css-instagram-clone/images/frame.png");
+  background-repeat: no-repeat;
+  padding-right: 15px;
+}
+
+.download-images {
+  padding-top: 30px; 
+}
+
+.apple {
+  padding-right: 15px;
+}
+
+.insta-logo {
+  width: 300px;
+}
+
+.button > a {
+  text-decoration: none;
+  color: #FFF;
+  padding-left: 10px;
+  font-weight: bolder;
+}
+
+.button {
+  background: linear-gradient(180deg, #568eba 10%, #3F729B 90%);
+  border: 1px solid #06365f;
+  border-radius: 5px;
+  padding: 8px 15px;
+  display: inline-flex;
+}
+
+#bottom-menu > ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  font-weight: bold;
+  padding: 30px 0;
+}
+
+#bottom-menu a {
+  text-decoration: none;
+  color: #1c5380;
+}
+
+.copyright {
+  color: #D3D3D3;
+}
+
+#main-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding-top: 100px;
+}
+
+.content-buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
