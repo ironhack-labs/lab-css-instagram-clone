@@ -24,9 +24,6 @@ body {
 
 h6{
   color:floralwhite;
-  background: rgba(28,83,128,1);
-  background-size: ;
-  margin-left: ;
 }
 
 h1 {
@@ -50,13 +47,24 @@ ul {
   flex-direction: row;
   justify-content: space-evenly;
   color:#1c5380;
-  font-style: bold;
+  list-style:none;
   margin-top: 5%;
   font-size: .7em;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 li{
   padding: 0 10px 0 10px;
 }
 
+.div{
+  display:flex;
+  flex-direction:row;
+}
 
+.instagram{
+  height:20%;
+  width: 45%;
+  margin-right: 30%;
+}
