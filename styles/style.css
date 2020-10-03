@@ -8,3 +8,151 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+#logocontent-box .ppal-box{
+  
+  width: auto;
+  height: auto;
+  padding: 100px;
+  
+  }
+
+
+  #logocontent-box .contenedor-esp{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: auto;
+    height: 700px;
+    
+    flex-wrap: wrap;
+    }
+
+  #logocontent-box .logo{
+    
+    background-image: url(../images/phones.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 300px;
+    height: 450px;
+    
+    padding: 50px 50px 30px 50px;
+    
+    }
+
+  #logocontent-box .content{
+      width: 600px;
+      height: 500px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      
+      }
+
+  #logocontent-box .sem-footer{
+        
+        width: auto;
+        height: 50px;
+        
+        max-width: 1600px;
+        }
+      
+
+  #logocontent-box .content-1{
+          
+          width: 400px;
+          height: 80px;
+          background-image: url(../images/brand.png);
+          
+          background-repeat: no-repeat;
+          background-size: contain;
+          background-position: center;
+          padding-right: -200px;
+          }
+
+
+  #logocontent-box .content-2{
+            
+            width: 90px;
+            height: 30px;
+            padding: 0 0 0 0;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            border-top: 1px solid #FFF;
+            border-right: 1px solid #f5f5f5;
+            border-bottom: 1px solid #d5d5d5;
+            border-left: 1px solid #f5f5f5;
+            background: #2a5b83;
+            
+            }
+
+  #logocontent-box .content-2 a{
+            color: white
+              
+              }
+
+  #logocontent-box .content-3{
+              
+              width: 450px;
+              height: 30px;
+             background-color: white;
+              padding-left: 50px;
+              padding: 0 0 350px 50px;
+              border-radius: 10px;
+              }
+
+
+  #logocontent-box .content-3 h1{
+              padding: 0 60px 0 0;
+              font-size: 2em;
+              color: #06365f;
+              }
+
+  #logocontent-box .content-2 a{
+              padding: 0 0 0 10px;
+              text-decoration: none;
+              }
+
+  #logocontent-box .content-3 p{
+              padding: 0px -10px 20px 0px;
+              text-decoration: none;
+              }
+
+#logocontent-box .content-3 img{
+              width: 200px;
+              height: 50px;
+              
+              }
+
+
+.sem-footer li {
+                list-style: none;
+                padding: 0 50px 0 0;
+                text-decoration: none;
+                display: inline;
+                font-size: 14px;
+                color: #28567c;
+                }
+
+.sem-footer a{
+                text-decoration: none;
+                }
+
+.sem-footer {
+                padding: 0 0 0 0px;
+
+}    
+
+
+#fondoppal {
+        
+        width: 1400px;
+        height: 300px;
+        background-color: #28567c;
+        position: absolute; z-index: -1;
+        }
+
+}
