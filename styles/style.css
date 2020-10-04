@@ -8,3 +8,134 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+/* Header */
+header {
+  height: 350px;
+  background-color: #1c5380;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: -200px;
+}
+#instagram-logo {
+  margin-left: 280px;
+  margin-top: 30px;
+}
+
+.login-button a {
+  text-decoration: none;
+  color: white;
+}
+
+.login-button {
+  background-image:  url(/images/home.png);
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: 5px;
+  padding-left: 25px;
+  background-color: #1c5380;
+  margin-right: -100px;
+  margin-left: 100px;
+  margin-top: 30px;
+  border-radius: 4%;
+  border-style: outset;
+  width: 120px;
+  height: 50px;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+/* Main section */
+#main-section {
+  display: flex;
+  justify-content: center;
+
+}
+
+#main-text-box {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  background-image: url(/images/frame.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top;
+  margin-top: 100px;
+  margin-left: 50px;
+}
+
+#main-text-box h2 {
+  color: #06365f;
+  font-size: 29px;
+  font-weight: 550;
+  width: 300px;
+}
+
+#main-text-box article {
+  font-size: 18px;
+  font-weight: 400;
+
+}
+
+#phones-img {
+  height: 550px;
+  width: 350px; 
+}
+
+#main-buttons button {
+  width: 190px;
+  height: 50px;
+  border: none;
+  margin-top: 50px;
+}
+
+button a {
+  text-decoration: none;
+  color: black;
+
+}
+
+.app-store-button {
+  background: url(/images/badge-iphone.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+
+}
+
+.play-store-button {
+  background: url(/images/badge-android.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+/* Footer */
+footer {
+  padding: 60px 0px 30px;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+footer a {
+  text-decoration: none;
+  color: #1c5380;
+}
+
+footer ul li {
+  list-style-type: none;
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 0px 10px;
+  
+}
+
+#copyright-li {
+  color: darkgrey;
+  padding-left: 20px;
+}
