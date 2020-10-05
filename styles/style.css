@@ -5,6 +5,124 @@ light blue: #1c5380
 */
 
 body {
+  position: relative;
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.refDev {
+  width: 680px;
+  background-color: chartreuse;
+}
+
+.block {
+  height: 300px;
+  background-image: url('./images/frame.png');
+  background-color:rgba(28,83,128,0.8); 
+}
+
+
+.phones-img {
+  width: 300px;
+}
+
+.global-flex-container {
+  top: 120px;
+  position: absolute;
+  z-index: 300;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+
+
+.gen-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 40%;
+  /*width: 34%;*/
+}
+
+
+
+.app-desc {
+  background-image: url('./images/frame.png');
+  background-color:white; 
+  border-radius: 5px;
+  border-width: 3px;
+  border-style: solid;
+  border-image: 
+    linear-gradient(
+      to bottom, 
+      whitesmoke, 
+      rgba(0, 0, 0, 0)
+    ) 1 100%;
+}
+
+.app-desc h3 {
+  color:#06365f ;
+  width: 40%;
+  padding-left: 30px;
+  text-align: left;
+}
+
+.app-desc p {
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: left;
+}
+
+.download-buttons {
+  width: 80%;
+  display: flex;
+  margin-top: 35px;
+  justify-content: space-around;
+}
+
+.brand-style {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.login-button {
+ width: 20%;
+ height: 1cm;
+ border: 1px outset #1c5380;
+ border-radius: 3px;
+ box-shadow: 1px -1px 0.1px 0 #1c5380;
+ background-image: url('./images/frame.png');
+ background-color:rgba(28,83,128,0.2); 
+ text-decoration: none;
+ color: whitesmoke;
+ font-weight: bold;
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ align-self: center;
+}
+
+
+footer {
+  width: 60%;
+  position: absolute;
+  left: 250px;
+  top: 650px;
+}
+
+footer ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+  color: #1c5380;
+  font-weight: 940;
+}
+
+footer ul li:nth-child(9) {
+  color: gray;
+}
+
