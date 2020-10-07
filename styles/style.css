@@ -1,10 +1,111 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  box-sizing: border-box;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 12px;
+
+  background: #06365f
+    linear-gradient(
+      180deg,
+      rgba(91, 126, 156, 1) 0%,
+      rgba(60, 98, 133, 1) 38%,
+      rgba(47, 90, 128, 1) 38%,
+      rgba(92, 126, 155, 1) 38%,
+      rgba(244, 245, 247, 1) 38%,
+      rgba(253, 253, 253, 1) 38%,
+      white 100%
+    )
+    top left repeat-x;
+
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+
+  padding-left: 5em;
+  padding-right: 4em;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.column1 {
+  display: flex;
+  align-items: center;
+  
+}
+.imglogo{
+  width: auto;
+  height: 8vh;
+  margin-right: 20px;
+}
+
+.column2 {
+  max-width: 32em;
+  margin: 40px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+}
+
+.login {
+  margin-left: auto;
+}
+
+header {
+  margin-bottom: 1em;
+}
+
+h1.header {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+header .loginButtom {
+  color: white;
+  font-weight: 200;
+
+  padding: 10px;
+  margin-left: 85px;
+  /* icon */
+  padding-left: 2.5em;
+  background: #4b769b url('https://github.com/t4ms/lab-css-instagram-clone/blob/master/images/home.png?raw=true') 0.5em center no-repeat;
+  background-size: 1.5em auto;
+  border-radius: 0.15em;
+  box-shadow: 0 0 1px 1px rgb(0, 0, 0, 0.2)
+}
+
+
+section {
+  background: #fefefe;
+  padding: 2em;
+  border-radius: 0.25em;
+}
+
+section h1{
+  margin-top: 0;
+
+  font-weight: 500;
+  font-size: 170%;
+  line-height: 1;
+  color: #06365f;
+}
+
+footer {
+  text-align: center;
+  margin-top: 2em;
+}
+
+footer a {
+  margin-right: 1em;
+  text-transform: uppercase;
+  font-size: 80%;
+  text-decoration: none;
+  color: #1c5380;
 }
