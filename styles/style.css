@@ -3,8 +3,6 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
-
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
@@ -12,71 +10,68 @@ body {
   background-repeat: repeat-x;
   }
 
-  .mainflow{
-    display: flex;
-    justify-content: flex-start;
-    width: max-content;
-    padding: 70px;
-  }
-
-  .tablas{
-    margin-left: 60px;
-    width: 504px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-  }
-
-.imagen-1 {
-  display: flex;
-  flex-direction: inherit;
-  justify-content: space-between;
-  height: 10rem;
-   
-}
-
-.informacion {
-  background-image: url(../images/frame.png);
-  background-color: white;
-  background-repeat: no-repeat;
-  border-radius: 8px;
-  float: right;
-  flex-direction: row-reverse;
-  display: column;
-  width: 600px;
-  height: 500px;
-  padding: 20px 20px 20px 30px;
-
-}
-
-
-
-.login {
-  border-color: #06365f;
-  border-style: groove;
-  background-color: #1c5380;
-  width: 40px 25px;
-  text-align: center;
-  padding: 20px;
-}
-
-.titulo-1 {
-  color:#06365f;
-  font-size: 25px;
-}
-
-.google-apps {
+.mainflow{
   display: flex;
   justify-content: flex-start;
-  flex-direction: row;
+  width: max-content;
+  padding: 70px;
 }
 
-.celulares {
+.info {
+  position: relative;
+  color: white;
+}
+
+.tablas{
+  margin-left: 60px;
+  width: 504px;
   display: flex;
-  justify-content: center;
-  width: 800px;
-  flex-direction: row;
-  padding-top: initial;
+  flex-direction: column;
+  
+}
+
+.titulo-1 h3 {
+  position: absolute;
+  top: 8px;
+  left: 50px;
+  
+  color:#06365f;
+  font-size: 25px;
+  text-align:left ;
+}
+
+.parrafo {
+  position: absolute;
+  top: 130px;
+  left: 50px;
+  
+  color:black;
+  text-align:left ;
+}
+
+
+.google-apps {
+  position: absolute;
+  top: 350px;
+  left: 50px;
+}
+
+.ingresar{
+  background-color:#1c5380;
+  margin-left: 400px;
+  color: aliceblue;
+  font-weight: bold;
+}
+
+
+
+footer{
+  top: 20px;
+  width: 750px;
+  color: #3a678f;
+  font-weight: bold;
+  font-size: small;
+  text-align: center;
 }
 
 .lista ul {
@@ -86,17 +81,20 @@ body {
   justify-content: space-between;
   text-decoration: none;
   list-style: none;
-  padding: 60px 60px 60px 60px;
+  padding: 20px 0px 60px 200px;
 }
 
 #copy{
   color: grey;
 }
 
-footer{
-  margin-top: 50px;
-  width: 750px;
-  color: #3a678f;
-  font-weight: bold;
-  font-size: small;
-}
+
+
+
+
+
+
+
+
+
+
