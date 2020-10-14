@@ -4,7 +4,107 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+header{
+height:300px;
+background: linear-gradient(#06365f,#1c5380);
+}
+
+#top{
+  display: flex;
+  justify-content: space-evenly;
+  width: 35%;
+  position: relative;
+  margin-left:550px;
+  padding-top: 165px;
+  align-items: center;
+}
+
+.buttom{ 
+  padding: px;
+  border: solid #06365f;
+  width: 90px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(#1c5380, #06365f);
+}
+
+.log-in{
+  display: inline-block;
+  color: white;
+  font-style: bold;
+  font-size: 12px;
+}
+
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-family: "Helvetica Neue";
   margin: 0;
+}
+
+h3{
+  color: #06365f ;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+p{
+  margin-left: 20px;
+}
+
+#middle{
+  position: relative;
+  display: flex; 
+  justify-content:center;
+  top: -170px;
+}
+
+#iphone{
+  position: absolute;
+  
+}
+
+#box-text{
+  margin-top: 130px;
+  margin-left: 60px;
+  width: 35%;
+  background-color: white;
+  box-shadow:  1px 0px 1px 0.5px #888888;
+  padding: 0 35px 0 35px;
+}
+
+
+#tiendas{
+  padding-left: 20px;
+}
+
+#navfooter ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+
+
+nav ul li {
+  padding: 0 5px;
+  list-style: none; 
+  font-family: "Helvetica Neue";
+  font-size: 14px;
+  text-transform: uppercase;
+  
+}
+
+
+#navfooter a {
+  text-decoration:none;
+  color:#1c5380;
+  font-weight: bold;
+}
+
+#copyright{ 
+  font-size: 10px;
+  color:gray;
+  font-weight: bold;
+  text-transform: uppercase;
 }
