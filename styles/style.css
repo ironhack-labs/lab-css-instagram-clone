@@ -7,8 +7,38 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
-  background-image: url("../images/bgtile.png");
-  background-size: 100vw 50px;
+}
+
+h1 {
+  color: #06365f;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+li {
+  list-style-type: none;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 10px;
+  text-align: center;
+  color: #1c5380;
+  font-weight: 500;
+}
+
+a:visited {
+  color: unset;
 }
 
 article {
@@ -17,14 +47,124 @@ article {
   flex-direction: column-reverse;
 }
 
+.logoDiv {
+  background-image: url("../images/bgtile.png");
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a.log {
+  color: #ffffff;
+  font-weight: 600;
+  padding: 8px 10px;
+  border-radius: 1px;
+  box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.41);
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(141, 164, 185, 1) 0%,
+    rgba(78, 118, 153, 1) 37%,
+    rgba(59, 98, 135, 1) 81%
+  );
+}
+
+.log::before {
+  content: " ";
+  background-image: url("../images/home.png");
+  background-position: left center;
+  background-repeat: no-repeat;
+  padding: 16px;
+}
+
+.imgMobile {
+  display: block;
+  height: 40vh;
+  margin: 0 auto;
+}
+
+.textDiv {
+  padding: 1em;
+}
+
 .logo {
   width: 50%;
 }
 
+.imgDesktop {
+  display: none;
+}
+
+footer {
+  padding: 1em;
+}
+
+footer ul li:last-of-type {
+  width: 100%;
+  color: #eaeaea;
+}
+
 @media (min-width: 768px) {
-  .right {
+  body {
+    background-image: url(../images/bgtile.png);
+    background-size: 100vw 40%;
+    background-repeat: no-repeat;
+    padding: 10em 1em;
+  }
+  h1 {
+    margin: 0;
+  }
+
+  .imgDesktop {
+    display: block;
+    width: 100%;
+  }
+  .imgMobile {
+    display: none;
+  }
+  .textDiv {
     background-image: url("../images/frame.png");
     background-position: top center;
-    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 2em;
+  }
+
+  article {
+    padding: 1em;
+    flex-direction: unset;
+    justify-content: space-between;
+  }
+
+  .left {
+    width: 30%;
+  }
+
+  .right {
+    width: 65%;
+  }
+
+  .logoDiv {
+    background-image: unset;
+  }
+
+  footer ul li:last-of-type {
+    width: unset;
+  }
+}
+
+@media (min-width: 1023px) {
+  body{
+    background-size: 100vw 40%;
+    padding: 8em 10em;
+  }
+
+  main{
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
   }
 }
