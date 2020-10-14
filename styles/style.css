@@ -3,6 +3,48 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+.capsula{
+  position: static;
+  width: 100%;
+  height:auto;
+  background: rgb(240,240,240);
+  background: linear-gradient(0deg, rgba(240,240,240,1) 0%, rgba(255,255,255,1) 68%, rgba(47,105,141,1) 68%, rgba(0,212,255,1) 100%);
+  margin-top:5%;
+}
+
+#instagram{
+  position: absolute;
+  top: 10%;
+  left: 50%;
+}
+
+#iphone{
+  position: absolute;
+  top: 10%;
+}
+#frame {
+  position: relative;
+  top: 20%;
+  left: 50%;
+  padding-top: 10%;
+  padding-left: 5%;
+}
+
+#appstore {
+  position: relative;
+  padding-left: 5%;
+}
+
+#pie {
+  text-align:center;
+  
+}
+
+#googleplay{
+  position: relative;
+  left: 30%;
+
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
