@@ -3,10 +3,25 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
-  
+  background: linear-gradient(to top,white , white 50%, #06365f, #06365f);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 100px;
+      
+  }
+#phone {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.imagen-phone {
+  width: 80%;
 }
 .content{
   display: flex;
@@ -24,8 +39,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-left: 20px;
 }
-
 .log-in {
   background: linear-gradient(0deg, rgb(71, 122, 163) 0%, rgb(138, 171, 201) 100%);
   padding: 10px;
@@ -34,17 +49,23 @@ body {
   border-radius: 2px;
   box-shadow: 0 0 2px 0 black;
   color: #fff;
-  margin-right: 10px;
+  margin-right: 20px;
+}
+a {
+  text-decoration: none;
+  font-weight: 600;
 }
 article {
   margin-bottom: 20px;
 }
 .download {
   margin-top: 25px;
+  
 }
 .img-download{
   margin-right: 10px;
 }
+/* footer */
 ul {
   list-style: none;
   display: flex;
@@ -54,10 +75,37 @@ ul {
   font-size: 16px;
   color: #1c5380;
   padding-left: 70px;
-    padding-right: 70px;
+  padding-right: 70px;
+  width: 600px;
 }
 .copyright {
   color: grey;
   font-size: 12px;
   padding-top: 3px;
 }
+
+/* Phone */
+@media (max-width: 768px) {
+  .content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 300px;
+    background-image: url("../images/frame.png");
+    background-repeat: no-repeat;
+    padding: 40px;
+    color: #1c5380;
+    height: 450px;
+    margin-left: 50px;
+    margin-right: 10px;
+    margin-top: 20px;
+  }
+  .download {
+    margin-top: 25px;
+  }
+  .img-download{
+    margin-right: 10px;
+  }
+  }
+
