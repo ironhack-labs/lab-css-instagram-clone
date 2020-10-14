@@ -3,37 +3,61 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
-/* MOBILE FIRST */
-@media (max-width: 768px) {
-  body {
+body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
   
 }
-.download {
-  margin-left: 20px;
-    margin-right: 20px;
-    height: 55px;
-    margin-top: 40px;
-    margin-bottom: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-content: space-between;
-    width: 375px;
+.content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 400px;
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  padding: 40px;
+  margin-top: 10px;
+  color: #1c5380;
+}
+.logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-
-
-/* FOOTER */
-  ul{
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    margin: 25px 10px 25px 10px;
-    padding: 20px 0 20px 0;
-    font-size: 10px;
-    color: #1c5380;
-  }
-
-} 
+.log-in {
+  background: linear-gradient(0deg, rgb(71, 122, 163) 0%, rgb(138, 171, 201) 100%);
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  border-radius: 2px;
+  box-shadow: 0 0 2px 0 black;
+  color: #fff;
+  margin-right: 10px;
+}
+article {
+  margin-bottom: 20px;
+}
+.download {
+  margin-top: 25px;
+}
+.img-download{
+  margin-right: 10px;
+}
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 25px 20px 25px 20px;
+  padding: 20px 0 20px 0;
+  font-size: 16px;
+  color: #1c5380;
+  padding-left: 70px;
+    padding-right: 70px;
+}
+.copyright {
+  color: grey;
+  font-size: 12px;
+  padding-top: 3px;
+}
