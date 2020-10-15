@@ -7,13 +7,108 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-color: white;
+  width: auto;
+
+}
+
+/* blue bar */
+
+.tre {
+  /* background-image: url(images/bgtile.png);  couldn't make work*/
+  background-color: #1c5380;
+  background-size: cover;
+  height: 300px;
+  position: relative;
+  margin: 0px;
+
+}
+
+/* insta and button */
+
+.instagrams {
+  height: 60px;
+  position: relative;
+  top: 35%;
+  left: 50%;
+
+}
+
+button {
+  height: 39px;
+  position: relative;
+  top: 29%;
+  left: 57%;
+  border-radius: 2px;
+  box-shadow: 1px 1px 5px 0px #1c5380;
+  border: white;
+  background-color: #1c5380;
+  color: white;
+  padding: 5px;
+  width: 100px;
+
+
+}
+
+
+
+/* text and phone */
+
+
+.cellphone {
+
+  top: 10%;
+  position: absolute;
+  left: 10%;
+  margin: 0px;
+  padding: 30px;
+}
+
+.parag {
+
+  top: 20%;
+  position: absolute;
+  left: 48%;
+  margin: 0px;
+  padding: 15px 20px;
+  width: 40%;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 1px 1px 5px 0px whitesmoke;
+  height: 450px;
+
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #1c5380;
+}
+
+.parag img {
+  padding: 10px 1px;
+}
+
+/* footer */
+
+.foot {
+  top: 6;
+
+
+
+}
+
+ul {
+
+  list-style: none;
   display: flex;
-  justify-content: space-evenly; 
-  /* justifica todo el cuerpo */
-  
-}
-.title {
-  width: 600px;
-}
+  justify-content: space-evenly;
+  color: #1c5380;
+  font-size: 1.3em;
+  margin: 130px;
+  padding: 0 5% 0 10%;
+  margin-top: 450px;
+  font-style: normal;
 
 
+
+}
