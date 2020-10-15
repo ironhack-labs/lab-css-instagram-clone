@@ -1,10 +1,77 @@
 /*
 Colors to use:
-dark blue: #06365f
+dark blue: #1c5380#1c5380
 light blue: #1c5380
 */
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+.double-color {
+  background-color: #1c5380;
+  height: 95vh;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(to top,white 60%, #1c5380 40%);"
+}
+
+.fondoAzul {
+  background-color: #1c5380 ;
+ 
+}
+
+.row {
+  flex-direction: row;
+  display: -webkit-inline-box;
+}
+
+
+
+.jpg-mobile {
+  margin-left: 40%;
+}
+
+.margin-top {
+  margin-top: 8%;
+}
+
+.btn {
+    background-color: #1c5380;
+    border-radius: 2px;
+    color: white;
+    padding: 5px 6px;
+    font-size: 14px;
+    cursor: pointer;
+    vertical-align: top;
+    border-color: #1c5380;
+    margin-left: 6%;
+}
+
+
+.text-centeredone {
+  position: absolute;
+  top: 34%;
+  left: 63%;
+  transform: translate(-50%, -50%);
+  font-size: 15px;
+  color: #1c5380 ;
+  font-weight: 600;
+}
+
+.text-centeredtwo {
+  position: absolute;
+  top: 49%;
+  left: 68%;
+  transform: translate(-50%, -50%);
+  font-size: 9px;
+  color: grey;
+  
+}
+
+
+.margin-listado {
+  margin-left: 13px;
+  font-size: 8px;
+  color: blue;
 }
