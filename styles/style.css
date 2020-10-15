@@ -7,4 +7,141 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  padding: 0;
 }
+    main {
+      height: 30%;
+      width: 100%;
+      background: linear-gradient(to bottom, rgba(53,138,208,1) 0%, rgba(33,98,151,1) 29%, rgba(255,255,255,1) 29%, rgba(255,255,255,1) 100%);
+    }
+    main .bg{
+      width: 1200px;
+      margin: 0;
+      padding: 10%;
+    }
+    .container{
+      width: 1200px;
+      display: flex;
+      align-content: space-between;
+    }
+    .mobil img{
+      width: 400px;
+      height: auto;
+      padding:40px 0;
+    }
+    .info{
+      padding: 30px;
+    }
+ 
+    .logo{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+        }
+        .brand{
+          width: 300px;
+        }
+        .button{
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          width: 100px;
+          height: 40px;
+          padding: 5px;
+          border-radius: 3px;
+          background-image: linear-gradient(#06365fa6,#1c5380);
+          box-shadow:#06365fa6;
+          color: #ffffff;
+          font-size: 13px;
+          font-weight: bold;
+        }
+        .info .difuminado{
+          background-image: url(/images/frame.png);
+      background-repeat: no-repeat;
+      background-position: top;
+      background-size: contain;
+      border-radius: 4px;
+          padding: 40px
+        }
+        .texto{
+          color:  #06365f;
+        }
+        .texto p{
+          color: #000000
+        }
+        .descargas{
+          padding-top: 30px;
+        }
+        .descargas img{
+          display: inline-block;
+          padding: 5px;
+        }
+.footerclass{
+  padding: 0 20px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20px;
+}
+.footerclass div{
+  font-size: 12px;
+    font-weight: 600;
+    margin: 0 auto;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.footerclass ol{
+ list-style: none;
+}
+.footerclass ol li{
+  display: inline-block;
+  margin-bottom: 7px;
+    margin-right: 16px;
+    color:#1c5380 ;
+    font-weight: bold;
+}
+.footerclass span{
+  color: #8e8e8e;
+  font-weight: bold;
+}
+
+@media (max-width: 700px){
+  main {
+max-width: 700px;
+height: auto;
+width: 100%;
+  }
+  main .bg{
+    width: 700px;
+    margin: 0;
+  }
+  /* movil */
+.mobil img{
+  display: none;
+}
+  /* Información y descarga */
+ 
+  .container{
+    width: 500px;
+    display: flex;
+    align-content: space-between;
+  }
+    
+    footer{
+      max-width: 700px;
+      height: 450px;
+      vertical-align: baseline;
+     align-items: stretch;
+      border: 0 solid #000;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    margin: 0;
+    position: relative;
+    padding: 0 20px;
+    }
+} 
