@@ -8,3 +8,92 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+/*
+Colors to use:
+dark blue: #06365f
+light blue: #1c5380
+*/
+
+///For mobile
+@media only screen and (max-width: 768px) {}
+
+  body {
+    font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+  }
+
+header{
+  background-color: #06365f;
+  background-repeat: no-repeat; 
+  background-size: cover;
+  height:300px;
+}
+centre > .imagetop >.logo{
+  width:25%; 
+  padding : 250px;
+}
+.droite{
+  widows: 20px;%; 
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  float: left;
+}
+
+header > .imagetop > .login >img{
+  width: 30%;
+}
+
+.login{
+  background-color:#06365f;
+  color: white;
+  font: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header > .imagetop{
+  display: flex;
+  align-self: flex-end;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.centre{
+  background-image: url("https://github.com/ironhack-labs/lab-css-instagram-clone/blob/master/images/frame.png?raw=true");
+  background-repeat: no-repeat; 
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  float: right;
+}
+
+.download{
+  display: flex;
+  flex: 1;
+
+ 
+}
+
+span {
+  font-weight: bold;
+}
+
+h1{
+  color: #06365f;
+}
+
+footer{ 
+  color: grey;
+  bottom: 0;
+  text-size: 16px;
+  display: flex; 
+  align-self: flex-end;
+  align-items: center;
+  }
+  
+
+  //for Desktop
+
+  @media only screen and (min-width: 1023px) {}
