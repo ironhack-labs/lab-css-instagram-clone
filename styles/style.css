@@ -1,10 +1,141 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
+/* Colors to use: dark blue: #06365F light blue: #1C5380 */
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+    position: relative;
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 1.5;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+}
+
+b {
+    font-weight: bold;
+}
+
+.button {
+    width: 100px;
+    height: 40px;
+    color: white;
+    background-image: url(../images/bgtile.png);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all ease .3s;
+}
+
+.button:hover {
+    opacity: .8;
+}
+
+
+/* Header */
+
+header {
+    background: -moz-linear-gradient(#1C5380, #06365F);
+    height: 300px;
+}
+
+#logo-box {
+    width: 600px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    float: right;
+    position: relative;
+    top: 100px;
+    box-sizing: border-box;
+    margin-right: 13vw;
+}
+
+#Log-in {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#log-in img {
+    width: auto;
+    height: 100%;
+}
+
+#Log-in p {
+    display: inline-block;
+}
+
+
+/* Main */
+
+main {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 600px;
+}
+
+#phones {
+    position: relative;
+    top: -50px;
+    height: 800px;
+    width: auto;
+}
+
+#box-white {
+    position: relative;
+    top: -50px;
+    display: inline-block;
+    width: 600px;
+    height: 600px;
+    background-image: url(../images/frame.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 600px 600px;
+    margin-left: 40px;
+    padding: 45px;
+    box-sizing: border-box;
+}
+
+#box-white h1 {
+    font-size: 2.3rem;
+    color: #06365F;
+}
+
+#box-white p {
+    font-size: 1.3rem;
+}
+
+#box-white img {
+    margin-top: 40px;
+}
+
+#google-play-btn {
+    margin-left: 20px;
+}
+
+
+/* Footer */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+#menu-footer ul {}
+
+#menu-footer ul li {
+    display: inline-block;
+    margin: 0 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#menu-footer ul li a {
+    color: #1C5380;
+}
+
+#copyright {
+    color: gray;
 }
