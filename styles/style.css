@@ -3,36 +3,99 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-.capsula{
-  position: static;
+
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:700%7CRoboto:100,300,70);
+.fondo{
+  position: absolute;
   width: 100%;
-  height:auto;
+  height: 100%;
   background: rgb(240,240,240);
   background: linear-gradient(0deg, rgba(240,240,240,1) 0%, rgba(255,255,255,1) 68%, rgba(47,105,141,1) 68%, rgba(0,212,255,1) 100%);
-  margin-top:5%;
+}
+#capsula1{
+  display: flex;
+  flex-direction: row;
+  margin: 80px;
+  justify-content:space-around;
+  
+}
+
+.casitaimg{
+  position: relative;
+  width: 30px;
+  height:30px;
+  margin: 5px;
+}
+
+#login{
+  padding-top:10px;
+  padding-left: 20px;
+  text-align: center;
+  font-family: "Roboto";
+  color: white;
+  font-weight: bold;
+}
+
+#casita {
+  display: flex;
+  width: 120px;
+  height:40px;
+  background: rgb(5,55,87);
+  background: linear-gradient(0deg, rgba(5,55,87,1) 15%, rgba(0,153,251,1) 100%);
+  border-radius: 5px;
+
+}
+
+
+#capsula2{
+  display:flex;
+  flex-direction: column;
+  margin:0;
+}
+#capsula3{
+  display:flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content: space-between;
+}
+#capsula4{
+  display:inline-flex;
+  position:relative;
+}
+#capsula5{
+  display:inline-block;
+  position: absolute;
+  top:5%;
+  right:5%;
+  left:5%;
+  bottom:10%;
+}
+
+#capsula6{
+  display:flex;
+  flex-direction:row;
+  padding:15%;
+  justify-content:space-around;
 }
 
 #instagram{
-  position: absolute;
-  top: 10%;
-  left: 50%;
+  display:flex;
 }
 
 #iphone{
-  position: absolute;
+  display: flex;
+  flex-direction: column;
   top: 10%;
 }
 #frame {
-  position: relative;
-  top: 20%;
-  left: 50%;
-  padding-top: 10%;
-  padding-left: 5%;
+  display: flex;
+  flex-direction: column;
+  opacity:100%;
 }
 
 #appstore {
-  position: relative;
-  padding-left: 5%;
+  display: flex;
+  flex-direction: column;
 }
 
 #pie {
@@ -41,12 +104,41 @@ light blue: #1c5380
 }
 
 #googleplay{
-  position: relative;
-  left: 30%;
+  display: flex;
+  flex-direction: column;
 
 }
 
+h1 {
+  display: flex;
+  color:#06365f;
+  font-weight: 300px;
+}
+
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family:"Roboto";
+  /*font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;*/
   margin: 0;
+}
+h3{
+  color: #1C5380;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 12px
+}
+span{
+  color:grey;
+}
+.span1{
+  color:#1c5380;
+}
+
+footer {
+  width:80%;
+  padding-left:10%;
+}
+
+p{
+  line-height:1.8;
 }
