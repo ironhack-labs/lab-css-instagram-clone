@@ -7,4 +7,178 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  display: flex;
+  flex-direction: column;
 }
+
+/*HEADER*/
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 50px 0px 50px;
+  background: linear-gradient(to bottom, #1c5380 0%, #06365f 40%, #ffffff 40%);
+}
+#headerLeft {
+  padding: 10px;
+  text-align: center;
+  display: none;
+}
+#headerRight{
+  padding: 10px;
+}
+#screenshootImg{
+  width: 100%;
+}
+
+/*HEADER RIGHT*/
+#start {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+  align-items: center;
+}
+#button {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: 1px 1px  #06365F;
+  background: linear-gradient(to bottom, #06365F, #1C5380);
+  width: 50%;
+  padding: 0 10px;
+}
+#instaLogoImg {
+  width: 80%;
+} 
+#buttonImg {
+  width: 20%;
+}
+#buttonP {
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: 0.65em;
+}
+/*CONTENT*/
+#content {
+  font-size: 0.85em;
+  padding: 10px 30px 10px 20px ;
+  border-bottom: none;
+  background-image: url(/images/frame.png);
+  background-size: cover;   
+}
+#contentTitle {
+  color: #06365f;
+  font-weight: bolder;
+}
+/*DOWNLOAD*/
+#download {
+  display: flex;
+  justify-content: flex-start;
+}
+#download img {
+  padding-right: 20px;
+  width: 35%;
+}
+
+/*FOOTER*/
+footer {
+  padding: 10px 50px;
+}
+.list {
+  list-style: none;  
+  text-decoration: none;
+  padding-right: 26px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.list > li {
+  font-weight: bold;
+  padding: 7px;
+  align-items: center;
+}
+li > a {
+  text-decoration: none;
+  color: #06365f;
+}
+#footerCopy {
+  color: gray;
+  font-size: 0.90em;
+}
+
+/*MEDIUM DEVICE*/
+@media (min-width:767px) and (max-width: 1024px ) {
+  #headerLeft {
+    display: flex;
+    width: 120%;
+  }
+  #button {
+    width: 30%;
+  }
+  #buttonImg{
+    width: 25%;
+  }
+  #buttonP {
+    font-size: 0.85em;
+  }
+  #instaLogoImg {
+    width: 60%;
+  };
+
+  #screenshootImg {
+    width: 00px;
+  }
+} 
+/*LARGE DEVICE*/
+@media (min-width:1024px) {
+  header {
+    padding-top: 90px;
+  }
+  #headerLeft {
+    display: flex;
+    width: 25%;
+    margin-left: 120px;
+  }
+  #screenshootImg {
+    width: 90%;
+    margin: 0 auto;
+  }
+  #button {
+    width: 10%;
+    margin-right: 30px;
+  }
+  #buttonImg{
+    width: 20%;
+  }
+  #buttonP {
+    font-size: 1em;
+  }
+  #instaLogoImg {
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 80%;
+  }
+  #headerRight {
+    width: 60%;
+    margin-right: 120px;
+  }
+  #content {
+    padding: 20px 60px 10px 60px;
+  }
+  #contentTitle {
+    font-size: 1.5em;
+  }
+  #content p {
+    font-size: 1.5em; 
+  }
+  #download {
+    padding-top: 20px;
+    width: 70%;
+  }
+  footer {
+    margin-top: 10px;
+  }
+  .list > li {
+    font-size: 1.2em;
+  }
+}  
