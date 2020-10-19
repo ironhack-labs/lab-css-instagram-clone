@@ -17,7 +17,9 @@ body {
 }
 
 h1 {
-  color: #06365f
+  color: #06365f;
+  font-size: 1.7em;
+  width: 280px;
 }
 
 .bold {
@@ -32,7 +34,7 @@ h1 {
 }
 
 .content article{
-  padding: 30px;
+  padding: 40px;
   width: 430px;
   margin: 20px 0 0 50px;
   background-image: url(/images/frame.png);
@@ -41,7 +43,7 @@ h1 {
 }
 
 .content article p{
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .nav{
