@@ -40,7 +40,6 @@ h1 {
 
 
   .navegation {
-  align-items: stretch;
   margin:0px 0px 0px 0px;
   font-size:smaller;
   text-transform:uppercase;  
@@ -49,7 +48,7 @@ h1 {
   color: #1c5380;
   position: relative;
   display: flex;
-  
+  flex-direction:column;
   }
 
 
