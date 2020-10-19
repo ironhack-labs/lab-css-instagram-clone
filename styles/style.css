@@ -4,7 +4,118 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
-body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+* {
   margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Helvetica Neue",
+  Helvetica,
+  Arial,
+  sans-serif;
+  font-size: 16px;
+  font-weight: 200;
+  background-color: #fff;
+  background-image: url(/images/bgtile.png);
+  background-position: top;
+  background-repeat: repeat-x;
+  /* font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif; */
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: stretch;
+  width: 90%;
+  margin: 6rem auto;
+}
+
+h1 {
+  color: #06365f;
+  font-size: 1.6rem;
+  letter-spacing: 1.5;
+}
+
+p {
+  font-size: 1.25rem;
+  letter-spacing: 1.5;
+}
+
+section {
+  width: 40%;
+}
+
+section header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1em 0;
+}
+
+section header img {
+  width: 60%;
+}
+
+section header a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  padding: .8em;
+  display: flex;
+  align-items: center;
+  /* background: #1c5380; */
+  background: linear-gradient(#709fc5, #16619e);
+  border-radius: 5%;
+  box-shadow: 1px 2px 2px #06365f;
+}
+
+section header a img {
+  margin-right: 1em;
+}
+
+section article {
+  padding: 1em 2em;
+  background-image: url(/images/frame.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 3px solid red;
+}
+
+section article img {
+  margin-top: 1.5em;
+  
+}
+
+section .btn-margin {
+  margin-left: 1em;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  margin: 7rem auto;
+}
+
+footer ul {
+  color: #1c5380;
+  list-style: none;
+  display: flex;
+}
+
+footer ul a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #1c5380;
+  font-weight: 600;
+  margin-right: 1.5em;
+}
+
+footer p {
+  margin-left: 2em;
+  color: #5e5e5e;
 }
