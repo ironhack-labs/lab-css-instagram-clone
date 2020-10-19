@@ -40,6 +40,10 @@ body {
   margin-bottom: 100px;
 }
 
+.content {
+  background-color: white
+}
+
 .footer {
   text-transform: uppercase;
   text-decoration: none;
