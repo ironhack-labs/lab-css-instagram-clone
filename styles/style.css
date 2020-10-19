@@ -28,6 +28,10 @@ main {
   color: white;
 }
 
+.frame{
+  background-size: 100% 50%;
+}
+
 .section-1 {
   flex-direction: row;
   display: flex;
