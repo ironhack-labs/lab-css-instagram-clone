@@ -13,6 +13,7 @@ body {
   border-radius:5px;
   padding: 15px 5px 0 10px;
   width: 100px;
+
 }
 
   mobiles-section
@@ -38,7 +39,7 @@ h1 {
 }
 
 
-  nav li {
+  .navegation {
   margin:10px;
  font-size:smaller;
   text-transform:uppercase;  
@@ -50,4 +51,5 @@ h1 {
     text-decoration: none;
     color: #1c5380;
   }
+
 
