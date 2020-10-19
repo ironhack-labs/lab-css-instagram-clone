@@ -32,6 +32,14 @@ body {
   margin-bottom: 100px;
 }
 
+.section-2 {
+  flex-direction: row;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+
 .footer {
   text-transform: uppercase;
   text-decoration: none;
