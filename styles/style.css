@@ -1,11 +1,14 @@
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0px;
+  background-color: white;
+  background-image:url(/images/bgtile.png);
+  background-repeat:repeat-x;
+  display: flex;
+  flex-direction: column;
   }
 
   .first-part  { 
-  background-image:url(/images/bgtile.png);
-  background-repeat:repeat-x;
   border: 1px solid #1c5380;
   border-radius:5px;
   padding: 15px 5px 0 10px;
@@ -28,7 +31,11 @@ body {
     max-width:500px;
   }
 
-
+h1 {
+  padding-top:-10px;
+  font-size: 2em;
+  color: #06365f;
+}
 
 
   nav li {
