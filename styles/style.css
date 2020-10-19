@@ -45,11 +45,10 @@ p {
 }
 
 .section-2 {
-  flex-direction: row;
-  display: flex;
-  width: 100%;
-  justify-content: space-around;
-  margin-bottom: 100px;
+  flex-direction:colum;
+  display:flex;
+  background-image: url(/image/frame-png);
+  background-image: no-repeat;
 }
 
 .content {
