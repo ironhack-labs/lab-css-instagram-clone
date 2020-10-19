@@ -9,17 +9,17 @@ body {
   }
 
   .first-part  { 
-  border: 1px solid #1c5380;
-  border-radius:5px;
-  padding: 15px 5px 0 10px;
+  padding: 50px 0px 0px 50px;
   width: 100px;
-
-}
+ }
 
   mobiles-section
 
 
-  .second-part
+  .second-part{
+    display: flex;
+  margin-left: 40px;
+ }
 
 .login{
   background-color: #1c5380;;
