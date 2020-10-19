@@ -66,6 +66,11 @@ p{
   text-align: left;
 }
 
+.Text-2{
+  margin-top: 10px;
+  padding: 0px 50px 30px 40px;
+}
+
 .Frame{
   background-size: auto;
   background-image:url(/images/frame.png);
