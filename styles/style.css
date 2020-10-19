@@ -4,7 +4,103 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
-body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+*{
+  padding:0;
+  margin:0;
 }
+
+body {
+
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-top: 200px;
+  margin-left: 400px;
+  margin-right: 100px;
+  margin-bottom: 200px;
+  background: linear-gradient(#06365f , #1c5380)
+}
+
+h1{
+  color: #06365f;
+  margin-right: 300px;
+}
+
+p{
+  line-height: 2em;
+  letter-spacing: 0.5pt;
+  padding: 0.5em;
+}
+
+
+header{
+  margin-left: 400px;
+  position: absolute;
+  display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	align-content: center;
+}
+
+header button{
+    background: linear-gradient(#1c5380,#06365f);
+    padding: 12px;
+    margin-left: 200px;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    box-shadow: 1 px 1px 1px 1px black;
+    border-radius: 3px;
+  }
+
+.square{
+  margin-left: 390px;
+  width: 660px;
+  position: absolute;
+  bottom: 400px;
+  top: 320px;
+}
+
+.container_text{
+  display: flex;
+  position: absolute;
+  bottom: 400px;
+  top: 350px;
+  left: 300px;
+  align-items: flex;
+  flex-direction: column;
+  margin-left: 505px;
+  margin-right: 400px;
+
+}
+
+.buttons{
+  margin-left: 410px;
+}
+
+
+
+.footer ul{
+  
+  list-style: none;
+  font-weight: 900;
+  color: white;
+  padding-top: 50px;
+  margin-right: 400px;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  align-content: center;
+}
+
+.footer ul a{
+  list-style: none;
+  color: white;
+
+}
+
+.instagram_copy{
+    color: greenyellow;
+  }
