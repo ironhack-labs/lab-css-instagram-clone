@@ -10,5 +10,98 @@ light blue: #1c5380
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
   margin: 0;
+  margin-top: 100px;
+  background: aqua;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  flex-direction: column;
+  padding: 0 19%;
+}
+
+.container {
+  background-color: blueviolet;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: stretch;
+}
+
+.smartphones-pic {
+  background-color: brown;
+  display: flex;
+  align-items: center;
+  width: auto;
+  padding: 0 15px;
+}
+
+.column-display {
+  background-color: chartreuse;
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+  padding: 0 15px;
+  margin: 0;
+}
+
+.Logo-LogIn {
+  background-color: chocolate;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 0;
+}
+
+.login {
+  background-color: aqua;
+  color: white;
+  font-weight: 200;
+  font-size: 1em;
+  padding: 5px 10px;
+  border-radius: 0.25em;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 1px 1px rgb(0, 0, 0, 0.2)
+}
+
+.home-logo {
+  padding-right: 5px;
+}
+
+.text-section {
+  background-color: white;
+  margin-top: 20px;
+  padding: 2.5% 9%;
+  border-radius: 0.25em;
+  box-shadow: 2px 2px rgb(0, 0, 0, 0.2)
+}
+
+.text-section h1 {
+  color: #06365f;
+  margin: 0;
+  font-weight: 800;
+  font-size: 190%;
+  line-height: 1.25;
+  padding-right: 30px;
+  padding-bottom: 15px;
+}
+
+.text-section p {
+  color: rgba(48, 40, 40, 0.95);
+  margin-bottom: 10px;
+}
+
+.downloads {
+  margin-top: 30px;
+}
+
+.download-apple {
+  padding-right: 15px;
+  text-decoration: none;
+}
+
+.download-google {
+  text-decoration: none;
 }
