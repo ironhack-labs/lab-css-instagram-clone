@@ -8,17 +8,16 @@ body {
   flex-direction: column;
   }
 
-  .mobiles-section { 
+  .first-part { 
   padding: 250px 0px 0px 250px;
   width: 100px;
- }
-
-  mobiles-section
-
+   }
 
   .second-part{
     padding: 50% 0px 0px 250px;
    }
+
+  .brand{}
 
 .login{
   background-color: #1c5380;;
