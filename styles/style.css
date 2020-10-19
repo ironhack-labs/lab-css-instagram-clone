@@ -4,7 +4,109 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+*{
+  margin: none;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 50px 50px 50px 50px;
+  background-image: url(https://github.com/LaraMorgana/lab-css-instagram-clone/blob/master/images/bgtile.png?raw=true);
+  background-repeat: no-repeat;
+  background-size: 100% 35%;
+}
+
+.corpus {
+  display: flex;
+  justify-content: space between;
+  flex-direction: row;
+  margin: 0 0 0 50px;
+}
+
+.movil {
+   width: 700px; 
+   height: 550px;
+   margin-left: 50px;
+}
+
+.text {
+  margin: 0 100px 0 50px;
+}
+
+div > form > button {
+  background-image: linear-gradient(#4394d6, #1c5380);
+  border: 1px solid #06365f;
+  border-radius: 2px;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+button img {
+ vertical-align: middle;
+  padding: 0 10px 0 0
+}
+
+div {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin: 20px 120px 20px 20px;
+}
+
+
+article {
+  background-image: url(https://github.com/LaraMorgana/lab-css-instagram-clone/blob/master/images/frame.png?raw=true);
+  background-size: 90%;
+  background-repeat: no-repeat;
+}
+
+article > header, p, a{
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  margin: 0px 20px 20px 20px;
+  padding: 0px 20px 0px 20px;
+  }
+
+article > header {
+  color: #06365f;
+  font-weight: bold;
+  font-size: 30px;
+  padding-top: 40px;
+}
+
+article > p {
+  padding: 0 100px 0 20px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: left;
+  flex-direction: row;
+  margin: 30px 30px 20px 20px;
+}
+
+
+footer > ul {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  list-style: none;
+  margin: 30px 100px 30px 100px;
+}
+
+footer > ul > li > a:link, a:visited, a:active {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #1c5380;
+  font-weight: bold;
+  font-size: 12px;
   margin: 0;
+}
+
+.insta {
+  color: #D3D3D3;
 }
