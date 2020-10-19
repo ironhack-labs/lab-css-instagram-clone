@@ -3,8 +3,116 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+@import url('https://fonts..com/css?family=Helvetica+Neue:300|Helvetica:100,300,700');
+
+* {
+  padding: 0;
+  margin: 0;
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: url(/images/bgtile.png);
+  background-repeat: repeat-x;
+}
+
+.top-part {
+  display: flex;
+}
+
+.left-section {
+  margin-top: 35px;
+  margin-left: 75px;
+  margin-bottom: 50px;
+}
+
+.top-rigth {
+  display: flex;
+  flex-direction: row;
+}
+
+.right-section {
+  margin: 35px 75px 50px 40px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.text-description {
+  background-image: url(https://github.com/ironhack-labs/lab-css-instagram-clone/blob/master/images/frame.png?raw=true);
+  background-repeat: no-repeat;
+  margin-top: 50px;
+  padding: 30px 50px 30px 40px;
+  text-align: left;
+  border-radius: 5%;
+  width: 420px;
+}
+
+.title-text{
+  color: #06365f;
+  text-justify: initial;
+  padding-bottom: 20px;
+}
+
+.text-adv1{
+  padding-bottom: 15px;
+}
+
+.text-adv2{
+  padding-bottom: 15px;
+}
+
+.text-adv3{
+  padding-bottom: 25px;
+}
+
+.house {
+  margin-left: -10px;
+}
+
+#logIn-button {
+  font-family: Helvetica;
+  background: linear-gradient(#68849B, #3D6281);
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 15px 10px;
+  border: 2px solid #06365f;
+  margin-left: 40px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  width: 70px;
+  text-align: right;
+  border-radius: 5px;
+}
+
+.AppStore-image {
+  margin-right: 15px;
+}
+
+.nav-bar ul {
+  color: #06365f;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  list-style: none;
+}
+
+.nav-bar a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 800;
+  color: #06365f;
+  margin: 0px 10px;
+}
+
+#copyright {
+  color: gray;
+}
+
+.nav-bar {
+  align-items: center;
+  font-size: small;
+  display: flex;
+  justify-content: center;
 }
