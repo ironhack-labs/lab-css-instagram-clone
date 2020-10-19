@@ -63,7 +63,7 @@ p{
   background-image:url(/images/frame.png);
   background-repeat:no-repeat;
   margin-top: 50px;
-  padding: 30px 50px 30px 40px;
+  padding: -150px 50px 30px 40px;
   text-align: left;
 }
 
