@@ -26,8 +26,6 @@ body {
 }
 
 .section-1 {
-  padding: 70px;
-  display: flex;
   flex-direction: row;
   width: 100%;
   justify-content: space-around;
