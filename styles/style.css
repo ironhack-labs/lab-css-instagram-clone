@@ -4,7 +4,117 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+}
+
+
+/* MAIN SECTION */
+
+.main-section {
+  display: flex;
+  align-items: center;
+  width: 70%;
+  margin: 10%;
+}
+
+
+/* LEFT SECTION */
+
+#phones {
+  margin: auto 60px;
+}
+
+
+/* RIGHT SECTION */
+
+.right-section {
+  margin: 0;
+  height: 512px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+#login-button {
+  background: linear-gradient(#5f7a91, #1c5380);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  margin: 20px 8px;
+  padding: 10px;
+  font-weight: bold;
+  border-style: none;
+  border: 1px solid #1c5380;
+  border-radius: 5px;
+}
+
+#login-button img {
+  margin-right: 10px;
+}
+
+.article-text {
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.article-text h1 {
+  font-size: 1.5em;
+  margin: 30px;
+  color: #06365f;
+  text-align: left;
+}
+
+.article-text p {
+  margin: auto 30px;
+  font-size: .8em;
+  font-weight: normal;
+}
+
+.links-apps-stores {
+  margin: 30px;
+}
+
+#apple-store {
+  margin-right: 20px;
+}
+
+
+/* FOOTER */
+
+footer {
+  display: flex;
+  justify-content: center;
+  margin: 40px;
+}
+
+footer a, footer p {
+  margin: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+footer a {
+  color: #1c5380;
+}
+
+footer p {
+  color: #808080;
 }
