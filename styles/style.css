@@ -49,6 +49,8 @@ p {
   display:flex;
   background-image: url(/image/frame-png);
   background-image: no-repeat;
+  padding: 30px;
+  max-width:500px;
 }
 
 .content {
