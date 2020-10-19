@@ -42,7 +42,8 @@ body {
   color: white;
   width: 70px;
   text-align: right;
-  border-radius: 5px;
+  border-radius: 10px;
+  border-color: black;
 }
 
 h1 {
