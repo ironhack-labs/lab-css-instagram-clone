@@ -6,7 +6,6 @@ body {
   background-repeat:repeat-x;
   display: flex;
   flex-direction: column;
-  background: linear-gradient(to right, white 0%, white 50%, blue 50%, blue 100%);
   }
 
   .back-colour{
