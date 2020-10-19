@@ -40,13 +40,16 @@ h1 {
 
 
   .navegation {
-  margin:10px;
+  align-items: stretch;
+  margin:0px 0px 0px 0px;
   font-size:smaller;
   text-transform:uppercase;  
   font-weight: 700;
   text-decoration: none;
   color: #1c5380;
+  position: relative;
   display: flex;
+  
   }
 
 
