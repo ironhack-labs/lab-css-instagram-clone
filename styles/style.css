@@ -23,6 +23,8 @@ body {
 
 .footer {
   text-transform: uppercase;
+  text-decoration: none;
+  color: #06365f;
 }
 
 .footer ul { 
