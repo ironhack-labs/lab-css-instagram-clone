@@ -7,13 +7,14 @@ light blue: #1c5380
   padding: 0;
   margin: 0;
 }
-
+/*
+No consigo poner el fondo de pantalla, lo he intentado de todas las maneras...............
+  background-image: url(/images/bgtile.png); 
+  background-repeat: repeat-x;
+*/
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-family: 'Noto Sans JP', sans-serif;
-  margin: 0;
-  margin-top: 100px;
-  background: aqua;
+  margin: 50px;
   display: flex;
   align-items: center;
   justify-items: center;
@@ -22,7 +23,6 @@ body {
 }
 
 .container {
-  background-color: blueviolet;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -30,7 +30,6 @@ body {
 }
 
 .smartphones-pic {
-  background-color: brown;
   display: flex;
   align-items: center;
   width: auto;
@@ -38,7 +37,6 @@ body {
 }
 
 .column-display {
-  background-color: chartreuse;
   display: flex;
   align-items: stretch;
   flex-direction: column;
@@ -47,7 +45,6 @@ body {
 }
 
 .Logo-LogIn {
-  background-color: chocolate;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -59,8 +56,9 @@ body {
 }
 
 .login {
-  background-color: aqua;
-  color: white;
+  background: linear-gradient(#68849B, #3D6281);
+  color: #fff;
+  text-decoration: none;
   font-weight: 200;
   font-size: 1em;
   padding: 5px 10px;
@@ -79,7 +77,7 @@ body {
   margin-top: 20px;
   padding: 2.5% 9%;
   border-radius: 0.25em;
-  box-shadow: 2px 2px rgb(0, 0, 0, 0.2)
+  box-shadow: 2px 0 2px 2px rgb(0, 0, 0, 0.2)
 }
 
 .text-section h1 {
@@ -111,7 +109,6 @@ body {
 }
 
 .footer {
-  background-color: saddlebrown;
   display: flex;
   text-align: center;
   justify-content: space-around;
@@ -127,5 +124,5 @@ body {
 }
 
 .footer .copyright {
-  color: grey;
+  color: rgb(116, 109, 109);
 }
