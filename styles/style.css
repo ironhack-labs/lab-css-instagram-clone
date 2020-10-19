@@ -12,6 +12,8 @@ body {
 .log-in-button {
   display: flex;
   flex-direction: row;
+  background-color: #06365f;
+  color:white
 }
 
 .footer {
