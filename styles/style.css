@@ -8,3 +8,108 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+header {
+  background-color: #1c5380;
+  padding: 100px 0px;
+  display: flex;
+  text-align: right;
+}
+
+.instagramLogo {
+
+  text-align: right;
+  padding-left: 700px;
+}
+
+.homeButton {
+  background-color: #1c5380;
+  color: white;
+  margin-top: 20px;
+  margin-left: 20px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+}
+
+.mainDiv {
+
+display: flex;
+  
+}
+
+.div1 {
+ background-color: white;
+ width: 30%;
+ float: right;
+ margin-top: 100px;
+ margin-right: 250px;
+ padding-left: 20px;
+ border-radius: 10px;
+}
+
+article {
+  justify-content: right;
+  
+  padding: 0px 10px;
+}
+
+article > h1 {
+  color: #06365f
+}
+
+.div2 {
+  margin-top: -170px;
+  margin-left: 250px;
+}
+
+footer > ul {
+  list-style: none;
+  color: #1c5380;
+  text-decoration: none;
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center;
+  padding: 30px 400px;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: bold;
+}
+.hip1 {
+  text-decoration: none;
+  color: #1c5380;
+}
+.hip2 {
+  text-decoration: none;
+  color: #1c5380;
+}
+.hip3 {
+  text-decoration: none;
+  color: #1c5380;
+}
+.hip4 {
+  text-decoration: none;
+  color: #1c5380;
+}
+.hip5 {
+  text-decoration: none;
+  color: #1c5380;
+}
+.hip6 {
+  text-decoration: none;
+  color: #1c5380;
+}
+.hip7 {
+  text-decoration: none;
+  color: #1c5380;
+}
+
+.hip8 {
+  color: grey;
+  text-decoration: none;
+}
+
+.hip1ervinculos {
+  text-decoration: none;
+}
