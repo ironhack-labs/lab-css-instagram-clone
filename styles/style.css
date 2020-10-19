@@ -13,6 +13,7 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   background-image: url(/images/bgtile.png);
   background-repeat: repeat-x;
+  margin-bottom: 100px;
 }
 
 h1 {
