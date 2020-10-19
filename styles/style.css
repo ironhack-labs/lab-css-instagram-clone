@@ -64,8 +64,9 @@ header {
 }
 
 .main {
-  background-image: url("/images/frame.png");
-  background-size: cover;
+  background-image: url("/lab-css-instagram-clone/images/frame.png");
+  background-repeat: no-repeat;
+  background-size: contain;
   display: flex;
   flex-direction: column;
   padding: 10px 30px;
