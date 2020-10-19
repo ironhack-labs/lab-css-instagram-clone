@@ -9,7 +9,7 @@ body {
   background-color:#06365f;
 }
 
-.log-in-bottom {
+.log-in-button {
   display: flex;
   flex-direction: row;
 }
