@@ -67,9 +67,7 @@ p{
 
 .Text-2{
     position: absolute;
-    top: 25%;
-    left: 70%;
-    transform: translate(-50%, -50%);
+    margin: -200px 150px 50px 40px;
 }
 
 .Frame{
