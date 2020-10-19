@@ -3,8 +3,55 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+/*`background: url("YOUR-LINK.COM")`
+  - `list-style`
+  - `text-decoration`
+  - `text-transform`*/
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 150px 50px 50px 275px;
+}
+
+.container-right {
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  width: 50%;
+  margin-left: 50px;
+}
+
+.main-text {
+  border: 1px solid lightgray;
+  width: 75%;
+}
+
+.main-text h1 {
+  color: #1c5380;
+  font-size: 20px;
+  width: 50%;
+}
+
+.footer-section {
+  display: flex;
+  list-style-type: none;
+  flex-direction: row;
+  text-transform: uppercase;
+  justify-content: center;
+  font-size: 11px;
+}
+
+.footer-section li {
+  padding: 9px;
+  color: #1c5380;
+}
+
+#year {
+  color: gray;
 }
