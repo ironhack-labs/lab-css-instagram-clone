@@ -1,10 +1,131 @@
+
+
+
 /*
 Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+*{
+  padding: 0;
+  margin: 0;
+  }
+ 
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
-}
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;  
+  background-size: 0.1%;
+ 
+  }
+  .div1{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+  }
+  .div2{
+    margin: 4%;
+    size: 4.2em;
+    height: 100%;
+  }
+  
+  
+  .div3{
+    margin: 4%;
+    width: 35%;
+   
+  }
+  .div4{
+    padding: 10px;
+    background-color: #38a7e7;
+    border: 1px solid #17212e;
+  }
+  .logIn{
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+  padding: 20px;
+  }
+  .section1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .section2{
+    background-color:#fff;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    padding: 5%;
+    border-radius: 20px;
+box-sizing: border-box
+  }
+
+  .section2 h1{
+    font-size: 40px;
+    color:  #06365f;
+  }
+  .footer{text-transform: uppercase;
+
+    color:gray;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: -1%;
+  }
+  .links{
+    margin-top: 5%;
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+ 
+  .aboutUs {
+    font-weight: bold;
+   text-decoration: none;
+   color: rgb(5, 64, 143);
+  }
+  .support {
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(5, 64, 143);
+   }
+   .blog {
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(5, 64, 143);
+   }
+   .press {
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(5, 64, 143);
+   }
+   .api {
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(5, 64, 143);
+   }
+   .jobs {
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(5, 64, 143);
+   }
+   .privacy{
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(5, 64, 143);
+   }
+   .terms {
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(5, 64, 143);
+   }
+
