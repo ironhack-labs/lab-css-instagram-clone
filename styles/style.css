@@ -30,7 +30,6 @@ body {
 
   .second-part{
     margin: -200px 150px 50px 40px;
-    width: 500px;
   }
 
   .inst{
@@ -69,6 +68,7 @@ p{
 .Text-2{
     position: absolute;
     margin: -250px 150px 50px 40px;
+    width: 200px;
 }
 
 .Frame{
