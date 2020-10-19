@@ -4,7 +4,101 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
-body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
-}
+*{margin:0;
+  padding:0;
+  }
+  
+  body {
+    font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+    background-image: url("https://raw.githubusercontent.com/ironhack-labs/lab-css-instagram-clone/master/images/bgtile.png");
+    background-repeat: repeat-x;
+  }
+  
+  header{
+    padding: 30px;
+    margin: 60px 0px 10px 80px;
+  }
+  
+  header img{
+    width: 370px;
+  }
+  
+  main{
+    display:flex;
+    justify-content: center;
+  }
+  
+  .Up{
+    display:flex;
+    align-items: center;
+  }
+  
+  .logotype{
+    display:flex;
+    padding: 5px;
+    width: 350px;
+    margin: 100px 100px 20px 0px;
+  }
+  
+  .Up a{
+    width: 100px;
+    display:flex;
+    text-decoration: none;
+    color: #ffffff;
+    background: linear-gradient(#1c5380,  #06365f);/* #1c5380;*/
+    border-radius: 3px;
+    margin: 100px 90px 20px 10px;
+    border: 2px solid #06365f;
+    padding: 10px;
+    font-weight: 700;
+    justify-content: space-around;
+    }
+  
+  .Down{
+    background-image: url("https://raw.githubusercontent.com/ironhack-labs/lab-css-instagram-clone/master/images/frame.png");
+    background-size: 600px;
+    background-repeat: no-repeat;
+  }
+    
+  .Down h1{
+    font-weight: bold;
+    font-size: 28px;
+    color: #1c5380;
+    width: 320px;
+    padding: 40px 0px 20px 40px;
+  }
+  
+  .Down article{
+   font-size: 16px;
+   width: 450px;
+   padding-left: 40px;
+  }
+  
+  .Down article p{
+    margin-bottom: 20px;
+  }
+  
+  .Down img{
+    width: 200px;
+    margin-left: 40px;
+  }
+  
+  footer ul{ 
+    display:flex;
+    flex-direction: row;
+    text-decoration: none;
+    justify-content: space-between;
+    list-style: none;
+    margin: 50px 350px;
+    text-transform: uppercase;
+    color: #1c5380;
+    font-weight: 700;
+    font-size: 15px;
+  }
+  
+  .Colorspecialfooter{
+  color: #DFDBDA;
+  }
+  
+  
