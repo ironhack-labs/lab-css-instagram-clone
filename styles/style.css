@@ -10,10 +10,15 @@ body {
 }
 
 .log-in-button {
+  background-color: #06365f;
   display: flex;
   flex-direction: row;
-  background-color: #06365f;
-  color:white
+  padding: 20px 70px;
+  margin-top: 60px;
+  margin-right: 60px;
+  text-decoration: none;
+  font-size: 24px;
+  color: white;
 }
 
 .footer {
