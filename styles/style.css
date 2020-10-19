@@ -17,9 +17,8 @@ body {
 
 
   .second-part{
-    display: flex;
-  margin-left: 40px;
- }
+    padding: 50% 0px 0px 250px;
+   }
 
 .login{
   background-color: #1c5380;;
