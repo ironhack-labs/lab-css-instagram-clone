@@ -14,7 +14,7 @@ body {
 
   .first-part { 
     margin-top: 35px;
-    margin-left: 75px;
+    margin-left: 150px;
     margin-bottom: 50px;
    }
 
@@ -24,7 +24,7 @@ body {
    }
 
   .second-part{
-    margin: 35px 75px 50px 40px;
+    margin: 35px 150px 50px 40px;
   }
 
 .login{
