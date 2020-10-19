@@ -44,6 +44,7 @@ h1 {
   font-size:smaller;
   text-transform:uppercase;  
   font-weight: 700;
+  list-style: none;
   text-decoration: none;
   color: #1c5380;
   }
