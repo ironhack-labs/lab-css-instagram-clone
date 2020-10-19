@@ -7,4 +7,47 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  padding: 0;
+}
+
+#background-color-element {
+  background-image: linear-gradient(180deg, rgb(85,126,160) 10%, rgb(56,97,134) 90%);
+  width: 100vw;
+  height: 300px;
+  position: absolute;
+  z-index: -1;
+}
+
+#main-section {
+  width: 700px;
+  height: 100vh;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-top: 140px;
+}
+
+#phones-image {
+  width: 260px;
+}
+
+#info-container {
+  width: 400px;
+  padding-top: 20px;
+}
+
+#logo {
+  width: 260px;
+}
+
+#card {
+  /* background-color: white; */
+  border-radius: 10px;
+  height: 600px;
+
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* box-shadow: 0px 0px 20px 2px rgba(0,0,0,0.3); */
 }
