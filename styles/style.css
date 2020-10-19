@@ -8,15 +8,12 @@ body {
   flex-direction: column;
   }
 
-  .back-colour{
-    background: #1c5380;
-  }
    .mobiles-section{
     display: flex;
    }
 
   .first-part { 
-    margin-top: 0px;
+    margin-top: 35px;
     margin-left: 250px;
     margin-bottom: 50px;
    }
