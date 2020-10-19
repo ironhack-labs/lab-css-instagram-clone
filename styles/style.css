@@ -31,6 +31,10 @@ body {
     margin: -200px 150px 50px 40px;
   }
 
+  .inst{
+    width: 70px;
+  }
+
 .login{
   background-color: #1c5380;;
   padding: 20px 70px;
