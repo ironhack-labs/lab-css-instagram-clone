@@ -1,10 +1,81 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 200 16px/1.5 "Helvetica Neue",
+  Helvetica,
+  Arial,
+  sans-serif;
   margin: 0;
+}
+
+main {
+  display: flex;
+  align-content: stretch;
+}
+
+main .container1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  margin-top: 190px;
+  margin-left: 50px;
+}
+
+main .container1 .instagramBrand {
+  width: 50%;
+}
+main .container1 .whitebackground {
+  width: 700px;
+}
+
+article {
+  position: absolute;
+  top: 290px;
+  left: 710px;
+}
+
+article h1{
+  color: #06365f;
+  font-size: 30px;
+}
+
+article p {
+  font-size: 1.1em;
+}
+
+header img {
+  position: absolute;
+  background-image: url(images/bgtile.png);
+  width: 100%;
+  height: 360px;
+  margin: 0;
+  z-index: -1;
+}
+.iphone {
+  margin-top: 150px;
+  margin-left: 250px;
+  width: 375px;
+}
+
+footer{
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  color: #1c5380;
+}
+
+footer ul {
+display: flex;
+margin-left: 30px;
+padding-left: 30px;
+list-style: none;
+}
+
+footer ul li a{
+  padding-left: 10px;
+  text-decoration: none;
+  text-size-adjust: 39px;
+}
+
+footer ul p{
+  padding-left: 30px;
 }
