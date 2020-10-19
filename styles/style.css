@@ -14,12 +14,14 @@ body {
     margin-bottom: 50px;
    }
 
-  .second-part{
+  .brand{
     display: flex;
     flex-direction: row;
    }
 
-  .brand{}
+  .second-part{
+    margin: 35px 75px 50px 40px;
+  }
 
 .login{
   background-color: #1c5380;;
