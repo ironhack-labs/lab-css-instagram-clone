@@ -1,0 +1,82 @@
+*{
+    padding:0;
+    margin:0;
+}
+body {
+    font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+    background: white;
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+header{
+    background-color: #1c5380;
+    padding:50px 0;
+    margin:0 auto;
+}
+a{
+    text-decoration: none;
+
+}
+.up{
+    background-color: #1c5380;
+    width: auto;
+    max-height: 100;
+}
+.section1{
+    margin: -80px 10px;
+    float: left;
+    padding-left: 250px;    
+    padding-top: 0px;
+}
+.section2{
+    padding-left: 700px;
+    padding-top: 60px;
+    padding-right: 200px;
+}
+.hello{
+    margin-left: 700px;
+    margin-top: 10px;
+    padding-right:100px;
+    padding-left: 0px;
+    margin-bottom:0px;
+    flex-direction: row-reverse;
+   
+}
+.login{
+    background-color:#1c5380;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 10px;
+   
+  }
+}
+.description{
+    margin-top:-50px;
+    background-image: url("https://raw.githubusercontent.com/evavirseda/lab-css-instagram-clone/master/images/frame.png");
+  
+}
+.getit{
+    margin-top:60px;
+}
+footer{
+    position: absolute;
+    top:900px;
+    width: 100%;
+    height: 40px;
+    margin-bottom:50px;
+    margin-top: 0px;
+
+}
+.list{
+    display:flex;
+    justify-content:space-evenly;
+    color:#1c5380;
+    text-decoration:none;
+    font-size:1em;
+    list-style:none;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
