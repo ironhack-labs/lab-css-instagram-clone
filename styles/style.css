@@ -32,10 +32,6 @@ p {
   color: white;
 }
 
-.frame{
-  background-size: cover;
-}
-
 .section-1 {
   flex-direction: row;
   display: flex;
