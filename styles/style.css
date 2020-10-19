@@ -18,14 +18,7 @@ body {
 
 
 
-  nav ul {
-    display:flex;
-    flex-direction:row;
-    list-style: none;
-    justify-content: center;
-  }
-
-  li {
+  nav li {
   margin:10px;
  font-size:smaller;
   text-transform:uppercase;  
