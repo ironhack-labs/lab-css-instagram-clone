@@ -11,13 +11,13 @@ body {
   .back-colour{
     background: #1c5380;
   }
-  
+
    .mobiles-section{
     display: flex;
    }
 
   .first-part { 
-    margin-top: 35px;
+    margin-top: -35px;
     margin-left: 250px;
     margin-bottom: 50px;
    }
@@ -28,7 +28,7 @@ body {
    }
 
   .second-part{
-    margin: 35px 150px 50px 40px;
+    margin: -35px 150px 50px 40px;
   }
 
 .login{
