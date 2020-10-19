@@ -13,7 +13,16 @@ body {
 
   .second-part
 
-  brand
+  .brand
+
+  .title {
+    flex-direction:column;
+    display: flex;
+    background-image:url(/images/frame.png);
+    background-repeat:no-repeat;
+    padding:30px;
+    max-width:500px;
+  }
 
 
 
