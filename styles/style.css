@@ -25,6 +25,7 @@ body {
   .brand{
     display: flex;
     flex-direction: row;
+    padding: 0px 50px;
    }
 
   .second-part{
