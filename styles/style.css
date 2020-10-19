@@ -4,7 +4,126 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: url(../images/bgtile.png);
+  background-repeat: repeat-x;
+}
+
+a{
+  text-decoration: none;
+}
+
+h1{
+  color:#06365f;
+  font-size: 1.5em;
+  margin-bottom: 10px; 
+}
+
+section{
+  display:flex;
+  align-items: center;
+  justify-content:space-evenly;
+  margin:auto;
+  width:80%;
+  margin-top: 90px;
+}
+
+button{
+  background: url(../images/bgtile.png);
+  background-repeat: repeat-x;
+  color:white;
+  padding: 5px 10px; 
+  font-weight: bold;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+span{
+  margin-right: 0.5em;
+  margin-top:0.3em;
+}
+
+section div{
+  width:50%;
+}
+
+article{
+  background: url("../images/frame.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 0% 0%;
+  width:100%;
+  padding:45px;
+  background-origin: padding-box, content-box;
+  margin-top:20px;
+
+}
+
+article p{
+  margin-bottom: 10px;
+}
+
+nav{
+  display:flex;
+  align-items: center;
+  justify-content:space-between;
+  width: 98%;
+}
+
+.download{
+  margin-top:20px;
+  display:flex;
+  width:80%;
+  justify-content:space-evenly;
+}
+
+.app-store{
+  background: url("../images/badge-iphone.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 0%;
+  height: 51px;
+  width: 48%;  
+}
+
+.google-play{
+  background: url("../images/badge-android.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 0%;
+  height: aut0;
+  width: 48%;
+}
+
+footer {
+  margin: 50px 0 30px;
+  width:100%;
+}
+
+footer ul{
+  display:flex;
+  margin: auto;
+  width:50%;
+}
+
+footer ul li{
+  margin: 10px;
+  list-style-type: none;
+}
+
+footer ul li a{
+  color:#1c5380;
+}
+.grey-color{
+  color:rgb(109, 109, 109);
 }
