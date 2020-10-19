@@ -9,17 +9,14 @@ body {
   }
 
   .first-part { 
-  width: 100px;
-  margin-left: 40px;
+    margin-top: 35px;
+    margin-left: 75px;
+    margin-bottom: 50px;
    }
 
   .second-part{
     display: flex;
-    flex-direction: column;
-    background-image: url(image/frame.png);
-    background-repeat: no-repeat;
-    max-width: 500px;
-    padding:30px;
+    flex-direction: row;
    }
 
   .brand{}
