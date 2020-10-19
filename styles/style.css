@@ -37,15 +37,6 @@ body {
   color: white;
 }
 
-  .title {
-    flex-direction:column;
-    display: flex;
-    background-image:url(/images/frame.png);
-    background-repeat:no-repeat;
-    padding:30px;
-    max-width:500px;
-  }
-
 h1 {
   padding-top:-10px;
   font-size: 2em;
@@ -57,6 +48,18 @@ p{
   font-weight: 300;
   margin-bottom: 30px;
 }
+
+.Text{
+  background-size: auto;
+  background-image:url(/images/frame.png);
+  background-repeat:no-repeat;
+  margin-top: 50px;
+  padding: 30px 50px 30px 40px;
+  text-align: left;
+}
+
+
+
 
 nav ul {
   display: flex;
