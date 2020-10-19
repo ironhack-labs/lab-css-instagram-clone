@@ -22,18 +22,13 @@ body {
   .second-part
 
 .login{
-  margin: 0;
-  position: absolute;
-  left: 50%;
-  margin-bottom:70px;
-  transform: translate(-50%);
+  background-color: #1c5380;;
+  padding: 20px 70px;
+  margin-top: 60px;
+  margin-right: 60px;
   text-decoration: none;
+  font-size: 24px;
   color: white;
-  background-color: black;
-  box-shadow: 8px 8px 0 rgba(128,83,35,.2);
-  padding: 20px 70px; 
-  font-size: 25px;
-  text-align: center;
 }
 
   .title {
