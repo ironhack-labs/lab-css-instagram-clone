@@ -9,7 +9,7 @@ body {
   }
 
   .back-colour{
-    background-color: #1c5380;
+    background: #1c5380;
   }
    .mobiles-section{
     display: flex;
