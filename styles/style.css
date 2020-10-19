@@ -29,7 +29,7 @@ main {
 }
 
 .frame{
-  background-size: 100% 50%;
+  background-size: cover;
 }
 
 .section-1 {
