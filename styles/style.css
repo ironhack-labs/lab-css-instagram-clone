@@ -3,8 +3,90 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
+* {
+  padding: 0;
+  margin: 0;
+}
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  padding: 13%;
+  background: linear-gradient( #1c5380 45%, white 0);
+}
+.phoneImage{
+  float: left;
+  margin-right: 100px;
+}
+.picButton{
+  
+  display: flex;
+  justify-content: left;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+button {
+  background-color: #1c5380;
+  font-size: 20px;
+  padding: 10px 10px;
+  color: white;
+  margin-bottom: 25px;
+  margin-left: 120px;
+  display:flex;
+  border-color:#06365f;
+}
+button img{
+  padding-right: 10px;
+}
+h1{
+  color: #06365f;
+}
+article{
+  padding-top: 20px;
+  margin-left: 30%;
+  margin-right:30%;
+  background-color:white;
+  padding-bottom: 50px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-width: 3px;
+  border-style: solid;
+  border-image: 
+    linear-gradient(
+      to bottom, 
+      grey, 
+      rgba(0, 0, 0, 0)
+    ) 1 40%;
+  
+}
+.appstoreBut{
+  margin: 15px;
+  padding-left: 10px;
+}
+footer{
+  display: flex;
+  text-transform: uppercase;
+  font-weight: bold;
+  bottom: 0;
+  position: fixed;
+  margin-left: 10%;
+  margin-bottom: 5%;
+}
+footer ul{
+  list-style: none;
+  display: flex;
+  
+}
+footer ul li{
+  margin: 10px;
+}
+footer a{
+  color: #1c5380;
+  text-decoration: none;
+}
+footer p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #777;
 }
