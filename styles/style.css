@@ -9,11 +9,10 @@ body {
   background-color:#06365f;
 }
 
-
-head {
-
+.log-in-bottom {
+  display: flex;
+  flex-direction: row;
 }
-
 
 .footer {
   text-transform: uppercase;
