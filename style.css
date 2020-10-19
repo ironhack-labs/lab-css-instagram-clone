@@ -4,7 +4,127 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+}
+
+h1 {
+  font-weight: 600;
+  color: #06365f;
+}
+
+ul {
+  list-style: none;
+}
+
+p {
+  margin-top: 1.5em;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #06365f;
+}
+
+
+.main-section {
+  margin: 40px 20px;
+}
+
+
+
+/* 0.Background */
+.landing {
+  display: flex;
+  margin: 0em 20em;
+
+}
+
+.main-background {
+  background-image: url(./images/bgtile.png);
+  background-repeat: repeat-x;
+  background: linear-gradient(#1c5380, #1c5380);
+  border: 1px solid #1c5380;
+  z-index: -99999;
+}
+
+
+.landing-content {
+  display: flex;
+  flex-direction: row;
+  border-radius: 6px;
+}
+
+
+.general-container {
+  padding: 10px;
+}
+
+/* 1.Mobiles */
+.log-in {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: radial-gradient(#1c5380, rgb(28, 84, 130));
+  border-radius: 5px;
+  padding: 10px 14px;
+  justify-content: space-between;
+  margin-left: 10;
+  box-shadow: -8px -27px 68px -30px hsla(208, 88%, 20%, 0.5);
+}
+
+
+.log-in a {
+  color: #ffffff;
+  justify-content: space-between;
+}
+
+.access {
+  margin-left: 6px;
+}
+
+.content {
+  padding: 40px;
+  box-shadow: -8px -27px 68px -30px rgba(6, 54, 95, 0.30);
+  border-radius: 8px;
+}
+
+
+
+/* 2.Main Content */
+.service {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2em;
+}
+
+.stores {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  align-self: center;
+  margin-top: 20px;
+}
+
+
+
+/* 3.Footer */
+.directories {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2em 26em;
+}
+
+.directories article {
+  font-weight: 300;
+  color: #808080
 }
