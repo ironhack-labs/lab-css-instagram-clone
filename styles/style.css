@@ -4,7 +4,88 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url('/images/bgtile.png');
+  background-repeat: repeat-x;
+}
+
+h1 {
+  color: #06365f;
+  
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5em;
+  margin-left: 5em;
+}
+/* .iphones {
+  display: flex;
+  margin-top: 5em;
+  margin-left: 10em;
+} */
+
+.container {
+  margin-left: 5em;
+}
+
+.container .login {
+  border: 1px solid #06365f;
+  border-radius: 5px;
+  color: aliceblue;
+  text-decoration: none;
+  margin-left: 1em;
+  background-color: #1c5380;
+  font-weight: bold;
+  padding: 8px 15px;
+  /* margin-bottom: 3em; no funciona */
+}
+
+section .frame {
+  display: flex;
+  flex-direction: column;
+  background-image: url('/images/frame.png');
+  background-repeat: no-repeat;
+  padding: 20px 40px;
+}
+
+/* texto cuando se achica se va*/
+.text {
+  padding-top: 1em;
+  padding-right: 30em;
+}
+
+.badges {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 2em;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 2em;
+}
+
+footer ul {
+  display: flex;
+  list-style: none;
+}
+
+footer ul li{  
+  margin: 50px 20px;
+}
+
+footer ul li a {
+  text-decoration: none;
 }
