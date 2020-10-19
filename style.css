@@ -1,0 +1,110 @@
+body {
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  width: 100%;
+}
+
+main {
+ display: flex; 
+ justify-content: center;
+ background-image: url(images/bgtile.png);
+ background-repeat: no-repeat; 
+ background-size: 100% 45%; 
+}
+
+h1 {
+  color: #06365f;
+  text-align: left;
+  padding-top: 40px;
+  padding-left: 40px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  margin: 40px;
+}
+
+footer ul {
+  display: inline-flex;
+  margin-left: 100px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #1c5380;
+  font-size: 11px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+footer li {
+  list-style: none;
+  padding: 5px;
+}
+
+small {
+  margin: 25px;
+  color: #b8b6b6;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 11px;
+}
+
+.phones {
+  margin-top: 90px;
+  margin-left: 80px;
+}
+
+.information {
+  background-image: url(images/frame.png);  
+  background-repeat: no-repeat;
+  background-position: top; 
+  background-size: 100%;
+  margin-left: 40px;
+  width: 100%;  
+}
+
+.app-store {
+  margin-left: 40px;
+  margin-right: 20px;
+}
+
+.instagram-logo {
+  margin-top: 110px;
+  margin-left: 40px;
+  width: 60%;
+}
+
+#login {
+  background-image: url(images/home.png);
+  background-position: 6px;
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-color: #326996;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  margin-left: 50px;
+  padding: 8px 10px 8px 35px;
+  margin-top: 110px;
+  border: 0.1px solid #215885;
+  box-shadow: inset 0 10px 9px -1px #5280a5, inset 0 -10px 9px -7px #1e5079;
+  font-size: 12px;
+}
+
+#description article {
+  text-align: left;
+  margin-left: 40px;
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+
+#description .top-part {
+  display: inline-flex;
+  align-items: center;
+}
+
+
+
