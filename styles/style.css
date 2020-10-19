@@ -38,14 +38,13 @@ body {
 .login{
   background-color: #1c5380;;
   padding: 20px 70px;
-  margin-right: 50px;
   text-decoration: none;
-  font-size: 24px;
+  font-size: 18px;
   color: white;
   width: 70px;
   text-align: right;
-  border-radius: 10px;
-  border-color: black;
+  border-radius: 5px;
+  border-color: whitesmoke;
 }
 
 h1 {
