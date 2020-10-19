@@ -9,12 +9,17 @@ body {
   }
 
   .first-part { 
-  padding: 100px 0px 100px 0px;
   width: 100px;
+  margin-left: 40px;
    }
 
   .second-part{
-    padding: 50% 0px 100px 0px;
+    display: flex;
+    flex-direction: column;
+    background-image: url(image/frame.png);
+    background-repeat: no-repeat;
+    max-width: 500px;
+    padding:30px;
    }
 
   .brand{}
