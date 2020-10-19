@@ -9,15 +9,12 @@ body {
   background-color: white;
   background-image:url(/images/bgtile.png);
   background-repeat:repeat-x;
+  background: linear-gradient(#1c5380,#1c5380);
   display:flex;
-  flex-direction: colum;
+  flex-direction:colum;
 }
 
-p {
-  font-weight: 300;
-  font-size: .9em;
-  margin-bottom: 30px;
-}
+
 
 
 .log-in-button {
@@ -31,6 +28,8 @@ p {
   font-size: 24px;
   color: white;
 }
+
+
 
 .section-1 {
   flex-direction: row;
