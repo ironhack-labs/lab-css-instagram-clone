@@ -1,0 +1,89 @@
+/*
+Colors to use:
+dark blue: #06365f
+light blue: #1c5380
+*/
+*{margin:0;
+padding:0;}
+
+body {
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;  
+   background-repeat: repeat-x;
+  background-image: url("../images/bgtile.png");
+}
+.todo{
+  display: flex;
+  padding-top: 100px;
+  
+
+
+}
+.logo{
+  margin-right
+}
+.telefono{
+  padding-left: 100px;
+}
+header{
+  padding-left: 80px;
+  padding-bottom: 50px;
+  margin: 0 auto;
+  text-align:center;
+  position: relative;
+  justify-content: space-between;
+  display: flex;
+  width: 70%;
+
+}
+header img{
+  zoom:0.8
+}
+.login{
+  background-color: #4F789D ;
+  color:white;
+  padding: 10px 10px;
+  font-family:"Arial" ;
+  font-weight:bold ;
+  background-image: url("../images/home.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position: left;
+  padding-left: 40px;
+  margin-right: 80px;
+}
+
+
+footer ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  width: 70%;  
+  color: #1c5380;
+  padding-top: 50px;
+  margin: 0 auto;
+  text-align:center;
+  position: relative;
+  text-transform:uppercase;
+  font-size:.8em;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+.cuadro{
+  background-color:white;
+  border: 1px solid white;
+  margin: 0 auto;
+  padding: 40px 40px;
+  width: 50%;
+
+}
+.cuadro p{
+  padding-bottom: 20px;
+
+}
+.cuadro h2{
+  color:#1c5380;
+}
+.gris{
+  color:grey
+}
