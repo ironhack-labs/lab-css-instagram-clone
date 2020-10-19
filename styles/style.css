@@ -25,6 +25,15 @@ body {
   color: white;
 }
 
+.section-1 {
+  padding: 70px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+
 .footer {
   text-transform: uppercase;
   text-decoration: none;
