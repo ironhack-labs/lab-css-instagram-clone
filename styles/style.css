@@ -23,6 +23,8 @@ body {
 
 .footer {
   text-transform: uppercase;
-  display: flex;
-  flex-direction: row;
 }
+
+.footer ul { 
+  display: flex;
+  flex-direction: row;}
