@@ -1,10 +1,91 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: linear-gradient(to top, white 60%, white 0%, #1c5380 40%, #1c5380 100%);
+  background-color: #06365f;
+  background-repeat:no-repeat;
+}
+.container{
+  display:flex;
+  flex-direction:row;
+}
+
+#iphone img{
+  display:flex;
+  align-items:flex-start;
+  justify-content:left;
+  margin: 100px;
+}
+
+.section1{
+  display:flex;
+  flex-direction: row;
+  align-items:flex-start;
+  justify-content:flex-start;
+  margin-top:100px;
+}
+
+.section1-2{
+  display:flex;
+  flex-direction:column;
+ 
+  
+}
+.logoInstagram{
+  display:flex;
+  justify-content:left;
+}
+
+.section2{
+  background-color:white;
+  padding: 10px 40px;
+  margin-right: 250px;
+  margin-top: 35px;
+  border-radius: 10px;
+}
+h1{
+  color: #06365f
+}
+
+.barra a{
+  text-decoration:none;
+  color: #1c5380;
+  display:flex;
+  flex-direction:row;
+  
+}
+
+.barra ul{
+  display:flex;
+  flex-direction:row;
+  justify-content: center;
+  list-style: none;
+}
+
+li{
+  text-transform: uppercase;
+  margin:10px;
+  font-size:15px;
+  font-weight:bold;
+}
+
+#logIn{
+  color:white;
+  background-color: #1c5380;
+  margin-left: 100px;
+  margin-top: 15px;
+  text-decoration:none;
+  border: 1px solid  #06365f;
+  background:linear-gradient(rgb(104,132,155), rgb(61,98,129));
+  padding: 7px 12px;
+  font-weight:bold;
+}       
+
+#grey{
+  color:grey;
+}
+
+.googlePlay{
+  margin-left:20px;
 }
