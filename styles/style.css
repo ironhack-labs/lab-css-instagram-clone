@@ -38,6 +38,12 @@ h1 {
   color: #06365f;
 }
 
+p{
+  font-size: 10em;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+
 nav ul {
   display: flex;
   flex-direction: row;
