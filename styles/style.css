@@ -13,3 +13,7 @@ body {
 header {
   background-color:#06365f;
 }
+
+.footer {
+  text-transform: uppercase;
+}
