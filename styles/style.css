@@ -38,17 +38,22 @@ h1 {
   color: #06365f;
 }
 
+.navegation {
+  padding: 70px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
 
-  .navegation {
+  .navegation_2 {
   margin:0px 0px 0px 0px;
   font-size:smaller;
   text-transform:uppercase;  
   font-weight: 700;
   text-decoration: none;
   color: #1c5380;
-  position: relative;
-  display: flex;
-  flex-direction:column;
   }
 
 
