@@ -9,12 +9,12 @@ body {
   }
 
   .first-part { 
-  padding: 250px 0px 0px 250px;
+  padding: 100px 0px 100px 0px;
   width: 100px;
    }
 
   .second-part{
-    padding: 50% 0px 0px 250px;
+    padding: 50% 0px 100px 0px;
    }
 
   .brand{}
