@@ -3,8 +3,121 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+* {
+  margin: 0;
+  padding: 0;
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+section {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  padding: 5rem;
+  background: linear-gradient(180deg, #2977b6e0 20%, #1c5380 39%, transparent 30%);
+  background-color: #F6F7F9;
+  flex-shrink: 0;
+}
+
+article{
+  background-image: url("../images/frame.png");
+  padding: 2rem 3rem 0;
+  background-repeat: no-repeat;
+}
+
+nav {
+  background-color: #F6F7F9;
+}
+
+section header{
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2rem .3rem 1rem .3rem;
+}
+
+header a {
+  text-decoration: none;
+}
+
+article h1 {
+  font-weight: 600;
+  font-size: 1.5em;
+  padding-right: 10rem;
+  color: #06365f;
+  margin-bottom: 20px;
+}
+
+article p {
+  margin-bottom: 18px;
+}
+
+article img {
+  margin: 2rem 10px 0 0;
+}
+
+nav ul {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+
+nav li {
+  list-style: none;
+  padding: 0 .5rem 5rem .5rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #1c5380;
+  text-transform: uppercase;
+  font-size: .75em;
+  font-weight: 450;
+  letter-spacing: .5px;
+}
+
+.phones {
+  flex-basis: 30%;
+  margin-right: 3rem;
+}
+
+.rightsection {
+  flex-basis: 40%;
+}
+
+.phones img {
+  width: 350px;
+}
+
+.login_button {
+  display: flex;
+  align-items: center;
+  background-color: #1c5380;
+  box-shadow: 1px 1px 5px 0px #06365f;
+  padding: .3rem .5rem;
+  border-radius: 3px;
+  font-weight: 400;
+  align-items: center;
+  background: linear-gradient(180deg, #3783c0e1, #1c5380);
+  margin-right: 15px;
+}
+.login_button img {
+  margin-right: 10px;
+  padding-top: 3px;
+}
+
+.login_button a {
+  color: white;
+}
+
+.greylink {
+   color: grey;
+ }
+
+
+
