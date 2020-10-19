@@ -21,7 +21,11 @@ body {
 
   .second-part
 
-  .brand
+  .brand{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
 
   .title {
     flex-direction:column;
