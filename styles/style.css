@@ -8,3 +8,82 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+
+header   {
+  background: url(/images/bgtile.png);
+  height: 50vh;
+  width: 100vw;
+  display: flex; 
+  
+
+}
+
+
+.phones img {
+  padding: 200px; 
+}
+
+
+.navbar {
+margin-top: 220px; 
+margin-left: -120px; 
+}
+
+.nav-element {
+display: flex; 
+flex-direction: row; 
+justify-content: center ;
+float: left;
+}
+
+button {
+  background-color:#1c5380; 
+  color: white; 
+  text-align: center;
+  height: 40px; 
+  width: 90px; 
+  border-image: url(/images/bgtile.png);
+  border-radius: 10px; 
+  float: right; 
+  margin-left: 20px; 
+  margin-top: 15px; 
+}
+
+.container {
+  background-color: white;
+  position: relative; 
+  z-index: 1;
+  height: 300px; 
+  width: 800px;
+  margin-left: 600px;  
+  padding-top: 10px; 
+  padding-left: 50px; 
+  background-image: url(/images/frame.png);
+  background-repeat: no-repeat; 
+  margin-top: -50px;
+}
+
+h1{
+  color:#06365f;
+}
+
+
+.download {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding: 200px; 
+  color: grey; 
+  font-weight: 300; 
+}
+
+a {
+  text-decoration: none;
+  color: #1c5380;
+  font-weight: 500; 
+  text-transform: uppercase;
+  padding: 10px; 
+}
