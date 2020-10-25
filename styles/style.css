@@ -7,4 +7,113 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+
+}
+
+header{
+  background: linear-gradient(0deg, white 50%, #1c5380 25%, #06365f 25%);
+  height: 960px;
+  display: flex;
+  justify-content: space-around;
+}
+
+section{
+  padding-top: 122px;
+  padding-right: 337px;
+  width: 600px;
+  height: 600px;
+}
+
+.two-phones{
+    height: 696px;
+    width: 436px;
+padding-top: 87px;
+padding-left: 356px;
+}
+
+h1{
+  font-size: 30px;
+ color: #06365f
+}
+p {
+  font-size: 20px;
+}
+
+article{
+background-color: white;
+    padding-left: 40px;
+    width: 600px;
+    padding-top: 12px;
+    border-radius: 10px;
+
+}
+
+.app-download-buttons{
+padding-top: 24px;
+display: flex;
+justify-content: space-between;
+padding-right: 261px;
+}
+
+.brand-logo{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 23px;
+  margin-right: -36px;
+}
+
+.brand-logo p{
+  color:white;
+  font-weight: bold;
+}
+
+.link-button{
+    background: linear-gradient( #1c5380 , #06365f );
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-around;
+   text-decoration: none;
+   padding-top: 8px;
+   height: 41px;
+  align-items: center;
+  width: 137.783px;
+  border: midnightblue;
+  border-top-width: 2px;
+  border-top-style: solid;
+  border-left-width: 2px;
+  border-left-style: solid;
+  border-right-width: 2px;
+  border-right-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-radius: 5px;
+}
+
+.link-button img{
+  padding-left: 5px;
+  height: 28px;
+  padding-top: 5px;
+}
+
+nav{
+padding-right: 500px;
+padding-left: 500px;
+}
+
+nav ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+    color: #1c5380;
+    font-weight: bold;
+}
+
+.instagram{
+  color: #b3b3b3;
+}
+
+nav a {
+  text-decoration: none;
 }
