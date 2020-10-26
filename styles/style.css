@@ -33,6 +33,11 @@ header div{
   justify-content: flex-end;
 }
 
+.logo-box{
+  width: 40vw;
+  display: flex;
+  justify-content: space-between;
+}
 
 header div div button{
   position: relative;
