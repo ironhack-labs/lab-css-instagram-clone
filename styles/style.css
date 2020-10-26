@@ -4,7 +4,78 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+/* HELLO */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url(/images/bgtile.png);
+  background-repeat: repeat-x;
+}
+
+.main-box {
+  /* background-color: green; */
+  height: 70vh;
+  width: 80vw;
+  display: flex;
+  margin: 100px auto;
+  justify-content: space-evenly;
+}
+.right-box {
+  display: flex;
+  height: 70vh;
+  width: 50vw;
+  flex-direction: column;
+  /* background-color: red; */
+}
+
+nav {
+  display: flex;
+  width: 50vw;
+  height: 100px;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: orange; */
+}
+
+.frame {
+  width: 50vw;
+  height: 500px;
+  background-image: url(/images/frame.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+.login {
+  display: flex;
+  width: 200px;
+  height: 50px;
+  border: 1px solid darkblue;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+img.home {
+  height: 100%;
+}
+.download {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+footer ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+li {
+  list-style: none;
 }
