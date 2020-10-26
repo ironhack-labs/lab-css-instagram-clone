@@ -3,8 +3,101 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  height: 100vh;
+}
+.blueBack {
+  background-color: #1c5380;
+  height: 35vh;
+}
+.whiteBack {
+  background-color: white;
+  height: 50vh;
+}
+.phoneImage {
+  display: flex;
+  position: absolute;
+  left: 10%;
+  top: 10%;
+}
+.phoneImage img {
+  width: 15rem;
+}
+.rightSide {
+  border: 2px solid pink;
+}
+
+.title {
+  display: flex;
+  position: absolute;
+  left: 45%;
+  top: 13%;
+}
+.loginButton {
+  border: 2px solid white;
+  background-image: linear-gradient(#1c5380, #06365f);
+  display: flex;
+  position: absolute;
+  right: 10%;
+  top: 15%;
+  padding: 0 10px;
+  margin: 10px;
+  width: 100px;
+}
+
+.loginButton a {
+  color: white;
+  text-decoration: none;
+}
+.text {
+  width: 40vw;
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: absolute;
+  top: 23%;
+  left: 50%;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 1px 0px 0 grey;
+}
+h1 {
+  color: #06365f;
+  padding: 20px;
+}
+p {
+  padding: 5px 20px;
+  text-align: left;
+}
+.downloadButtons {
+  display: flex;
+  position: absolute;
+  top: 65%;
+  left: 53%;
+}
+footer {
+  width: 70%;
+}
+footer ul {
+  display: flex;
+  position: sticky;
+  flex-direction: row;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+footer ul li {
+  text-decoration: none;
+  font-size: 12px;
+}
+footer ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #06365f;
 }
