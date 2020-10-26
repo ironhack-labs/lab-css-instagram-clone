@@ -34,7 +34,7 @@ header div{
 }
 
 .logo-box{
-  width: 40vw;
+  width: 500px;
   display: flex;
   justify-content: space-between;
 }
@@ -106,7 +106,7 @@ footer{
   font-size: .8em;
   margin: 2vw 0;
   position: relative;
-  top: -15vw;
+  top: -5vw;
 }
 
 footer a{
