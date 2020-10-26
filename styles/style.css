@@ -17,7 +17,7 @@ body {
 
 .header {
   height: 40vh;
-  background-color: blue;
+  background-color: #1c5380;
 }
 
 .parent-container {
@@ -26,16 +26,18 @@ body {
 
 .container {
   display: flex;
-  justify-content: space-around;
-  background-color: chartreuse;
+  /* justify-content: space-between; */
+  /* background-color: chartreuse; */
   flex-wrap: wrap;
   position: absolute;
   top: 100px;
   transform: translate(50%, -50%);
+  /* width: 50%; */
 }
 
 .container-phone {
   height: 100%;
+  margin: 20px;
 }
 
 #phone {
@@ -48,13 +50,15 @@ body {
   align-items: center;
   justify-content: space-around;
   width: 400px;
-  background-color: coral;
 }
 
 .content-header {
   display: flex;
   justify-content: space-between;
   width: 100%;
+}
+.content-header img {
+  height: 50px;
 }
 
 .content-header button {
@@ -63,7 +67,8 @@ body {
 }
 
 .content-text {
-  background-color: orangered;
+  background-color: white;
+  border-radius: 10px;
   padding: 30px;
 }
 
@@ -80,7 +85,8 @@ p {
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  height: 60vh;
+  height: 50vh;
+  margin: 60px;
 }
 
 footer ul {
