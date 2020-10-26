@@ -3,8 +3,84 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  min-height: 100vh;
+  flex-direction: column;
+  flex: 1;
+}
+
+.blue {
+  background-color: #1c5380;
+  width: 100vw;
+  height: 30vh;
+}
+
+.white {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.white > div {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  bottom: 100px;
+}
+
+#phonePic {
+  height: 400px;
+}
+
+.instagram {
+  width: 40%;
+}
+
+.instagram nav button {
+  background-color: #1c5380;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+}
+
+.text {
+  background-color: white;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+footer,
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  width: 600px;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: #1c5380;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+footer ul li {
+  font-size: 0.7rem;
 }
