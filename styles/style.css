@@ -4,7 +4,80 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+.background {
+  background: linear-gradient(to bottom, #557D9F 0%,#557D9F 30%,#3D668A 35%,white 35%,white 100%);
+}
+
+.structure{
+  display:flex;
+  justify-content: space-between;
+  margin: auto;
+  padding: 75px 0px 50px 0px;
+  width: 1000px;
+}
+
+.text-info{
+  background-image: url(../images/frame.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 500px;
+  padding:15px 25px;
+}
+
+.text-info h1{
+  color:#06365f;
+  margin: 0;
+}
+
+.logo-login{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 525px;
+  margin: 10px 0px;
+}
+.login button {
+  background: linear-gradient(to bottom, #557D9F 0%,#557D9F 80%,#3D668A 100%);
+  border: 2px solid #3D668A;
+  border-radius: 5px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 15px;
+  width: 115px;
+  height: 50px;
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+.download-logos{
+  display: flex;
+  justify-content: space-evenly;
+  margin:0 100px 0 10px;
+  
+}
+
+.nav ul{
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 30% 0 30%;
+  list-style: none;
+  color: #3D668A;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.8em;
+}
+.nav ul a{
+  text-decoration: none;
+  color: #1c5380;
+}
+#instagram{
+  color:grey;
 }
