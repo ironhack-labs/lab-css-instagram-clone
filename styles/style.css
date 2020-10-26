@@ -4,7 +4,87 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+  justify-content: space-between;
 }
+
+main {
+  display: flex;
+  width: 80%;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 10%;
+  max-width: 1000px;
+  flex-wrap: wrap-reverse;
+  margin-bottom: 5%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  font-size: 1rem;
+  
+  color: #06365f;
+}
+
+article {
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-top: 3%;
+  padding: 8%;
+  font-size: 0.8rem;
+  margin-bottom: 10%;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  color: #A7A7A7;
+  font-size: 0.7rem;
+  
+}
+
+footer a {
+  text-transform: uppercase;
+  text-decoration: none;
+  margin: 5px;
+  color: #06365f;
+  font-size: 0.8rem;
+  font-weight: 700;
+
+}
+button  {
+  background: linear-gradient(#1c5380, #06365f);
+  border: 1px solid #06365f;
+  display: flex;
+  align-items: center;
+  color: white;
+  height: 30px;
+  padding: 10px;
+}
+button > img {
+  margin-right: 8px;
+}
+
+.right-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 50%;
+  padding-left: 5%;
+}
+
