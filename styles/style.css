@@ -6,5 +6,116 @@ light blue: #1c5380
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
 }
+
+.container{
+  width: 80vw;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+header{
+  background-color: rgba(28, 83, 128, .75);
+  -webkit-box-shadow: inset 0px -157px 158px -83px rgba(0,0,0,0.45);
+  -moz-box-shadow: inset 0px -157px 158px -83px rgba(0,0,0,0.45);
+  box-shadow: inset 0px -157px 158px -83px rgba(0,0,0,0.45);
+  height: 42vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+header div{
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+header div div button{
+  position: relative;
+  top: 15px;
+  width: 8vw;
+  height: 44px;
+  display: flex;
+  color: white;
+  font-weight: bold;
+  font-size: 1.02em;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgba(28, 83, 128, .34);
+  border-radius: 2px;
+  border:1.5px solid #06365f;
+}
+
+.logo{
+  margin-right: 5vw;
+}
+
+main{
+  display: flex;
+  justify-content: space-around;
+}
+
+.phones{
+  position: relative;
+  top: -30vh;
+}
+
+.text-box{
+  background-image: url('../images/frame.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 46vw;
+  position: relative;
+  top: -10vh;
+  right: -2vw;
+  padding: 2vh 3vw;
+}
+
+.text-box h2{
+  width: 55%;
+  color: #06365f;
+  font-size: 1.6em;
+  line-height: 1.3em;
+}
+
+.text-box p span{
+  font-weight: bold;
+}
+
+.text-box button{
+  background-color: #fff;
+  border: none;
+}
+
+button:hover{
+  cursor: pointer;
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  font-size: .8em;
+  margin: 2vw 0;
+  position: relative;
+  top: -15vw;
+}
+
+footer a{
+  margin-right: 2vw;
+  color: #1c5380;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer span{
+  opacity: .3;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+
