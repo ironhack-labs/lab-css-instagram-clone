@@ -8,3 +8,96 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+h1 {
+  font-size: 1.7rem;
+  color: #06365f;
+}
+
+.blue-background {
+  background-color: #1c5380;
+  height: 40vh;
+  width: 100%;
+}
+
+.center-section {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-flow: wrap;
+  height: 100%;
+  margin: -215px 50px 150px;
+}
+
+.text-section {
+  width: 450px;
+}
+
+.instagram-login {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 55px;
+  width: 590px;
+}
+
+.login-button {
+  width: 80px;
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 10px;
+  background-color: #1c5380;
+  border-radius: 3px;
+  box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.63);
+}
+
+.login-button a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.frame {
+  width: 450px;
+  margin: 20px 50px;
+}
+
+.frame-image {
+  position: absolute;
+  width: 600px;
+}
+
+.frame-content {
+  position: absolute;
+  width: 500px;
+  margin: 15px 50px;
+}
+
+.stores{
+  display: flex;
+  margin: 0 160px 0 0;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+footer {
+  height: 50px;
+  width: 800px;
+  margin: auto;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+  color: #a8a8a8;
+  font-size: 0.8rem;
+}
+
+footer a {
+  text-decoration: none;
+  color: #1c5380;
+  font-weight: bold;
+}
