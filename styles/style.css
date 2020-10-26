@@ -52,6 +52,15 @@ nav {
   background-size: cover;
   display: flex;
   flex-direction: column;
+  /* background-color: orange; */
+}
+
+.frame h2 {
+  margin: 20px 100px 20px 20px;
+}
+
+.frame h3 {
+  margin: 20px 20px;
 }
 
 .login {
@@ -74,8 +83,14 @@ img.home {
 footer ul {
   display: flex;
   justify-content: space-around;
+  text-transform: uppercase;
 }
 
 li {
   list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
