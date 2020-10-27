@@ -7,4 +7,127 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url("/images/bgtile.png");
+  background-repeat: no-repeat;
+  background-size: 100vw 15rem;
+}
+a{
+  text-decoration: none;
+  color #1c5380
+}
+ul{
+  list-style: none;
+}
+.container{
+  display: flex;
+}
+.row{
+  flex-direction: row;
+}
+.column{
+  flex-direction: column
+}
+.justify-center {
+  justify-content: center;
+}
+.align-center {
+  align-items: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-start{
+  justify-content: flex-start;
+}
+section {
+  padding-top: 2rem;
+  width: 90vw;
+}
+section > img{
+  width: 20vw;
+}
+#instagram{
+  width: 37vw;
+  margin: 2rem;
+}
+
+#brand {
+  margin-bottom: 2rem;
+  padding-top: 1rem;
+  padding-left: .5rem
+}
+#brand > img{
+  width: 20vw;
+}
+#store img:hover{
+  opacity: 0.8;
+}
+#card{
+  background-image: url("/images/frame.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.padding-left-2{
+  padding-left: 2rem;
+}
+.padding-right{
+  padding-right: 4rem;
+}
+.margin-right a{
+  margin-right: 1.5rem;
+}
+.dark-blue{
+  color: #06365f;
+}
+.light-blue{
+  color: #1c5380; 
+}
+.white{
+  color:white
+}
+.grey{
+  color:grey
+}
+h2 {
+  font-size: 1.5rem;
+  width: 30vw;
+}
+#login{
+  margin-top: 1rem;
+  margin-right: .9rem;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  background-color: #1c5380;
+  background: linear-gradient(0deg, rgb(60, 99, 133) 0%, rgb(121, 167, 204) 100%);
+  border-radius: 0.1em;
+  padding-top: 0.5em;
+  padding-left: .3em;
+  width: 5.5rem;
+  height: 2em;
+}
+#login:hover{
+  background-color: #1c5380;
+  background: linear-gradient(0deg, rgb(30, 60, 87) 0%, rgb(77, 142, 196) 100%);
+}
+#login ul{
+  margin: auto;
+  padding: 0;
+}
+#login ul li{
+  margin-left:0.3em;
+}
+.negrita{
+  font-weight: bold;
+}
+footer ul li{
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+footer p{
+  margin-left: 1rem;
+}
+.link{
+  font-size: .9rem;
+}
+li a:hover{
+  color: #06365f
 }
