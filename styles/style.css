@@ -20,17 +20,14 @@ body {
   background-color: #1c5380;
 }
 
-.parent-container {
-  /* position: relative; */
-}
 .container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   margin-top: -200px;
-  /* max-width: 800px; */
 }
+
 .container-phone {
   height: 100%;
   margin: 50px;
@@ -124,6 +121,9 @@ li {
 }
 
 @media (max-width: 1023px) {
+  .header {
+    height: 30vh;
+  }
   .content-header {
     justify-content: space-evenly;
   }
@@ -132,5 +132,12 @@ li {
   }
   .content-text {
     border-radius: 0;
+    text-align: center;
+  }
+  #phone {
+    height: 30vh;
+  }
+  .footer ul {
+    justify-content: center;
   }
 }
