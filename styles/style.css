@@ -8,3 +8,43 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+#section1 {
+  background-color: #1c5380;
+  padding-bottom: 200px;
+}
+#insta-logo {
+  position: relative;
+  left: 800px;
+  top: 150px;
+}
+button {
+  background-color: #06365f;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+#section2 {
+  position: relative;
+  float: right;
+  top: auto;
+  margin-bottom: 300px;
+}
+h2 {
+  color: #06365f;
+}
+article {
+  position: relative;
+  bottom: 500px;
+  left: 100px
+}
+#iphone {
+  position: relative;
+  right:500px;
+
+}
+
+
