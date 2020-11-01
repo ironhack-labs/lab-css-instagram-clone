@@ -6,5 +6,107 @@ light blue: #1c5380
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  margin: auto;
+  background-color: #678DAC;
+  background-size: 50vh;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.main-part {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+}
+
+.text-box {
+  width: 420px;
+  margin-left: 55px;
+}
+
+
+.log-in-box {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.logo {
+  position: relative;
+  left: 0px;
+  top: 6px;
+}
+
+.button {
+  position: relative;
+  right: -66px;
+  bottom: 17px;
+  height: 36px;
+  width: 82px;
+  text-align: right;
+  background-color: #537A9C;
+  color: white;
+  font-weight: bold;
+  padding-bottom: 6px;
+}
+
+#house-icon {
+  position: relative;
+  left: -5px;
+  top: 2px;
+}
+
+.just-text {
+  padding-left: 35px;
+  padding-right: 30px;
+  margin-bottom: 60px;
+  padding-top: 5px;
+}
+
+h2 {
+  padding-right: 100px;
+  color:#0D3459
+}
+
+.description {
+  font-size: 14px;
+}
+
+.main-text {
+  background-image: url("/images/frame.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.download {
+  margin-left: 30px;
+}
+
+.apple{
+  margin-right: 20px;
+}
+
+
+
+
+.footer-box {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.footer-box > p {
+  padding: 10px;
+  font-size: 10px;
+  font-weight: bold;
+  color: #537A9C;
+  text-decoration: none;
 }
