@@ -5,6 +5,91 @@ light blue: #1c5380
 */
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 300 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  min-height: 100vh;
+  background: rgb(28,83,128);
+  background: linear-gradient(180deg, rgba(28,83,128,1) 25%, rgba(6,54,95,1) 38%, rgba(255,255,255,1) 38%);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  padding-bottom: 80px;
+}
+
+.left {
+  padding-right: 50px;
+}
+
+.left img {
+  width: 400px;
+}
+
+.right .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.right .button {
+  display: flex;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: 600;
+  padding: 8px;
+  border: solid 1px #06365f;
+  box-shadow: 0px 0px 2px #06365f;
+  background: rgb(28,83,128);
+  background: linear-gradient(180deg, rgba(28,83,128,1) 50%, rgba(6,54,95,1) 100%);
+}
+
+.right .button img {
+  padding-right: 10px;
+}
+
+.text-box {
+  background-image: url('../images/frame.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 30px 60px;
+}
+
+.text-box h1 {
+  color: #06365f;
+}
+
+.download {
+  padding: 0px 60px;
+}
+
+.download img {
+  padding-right: 15px;
+}
+
+footer {
+  color: #06365f;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+footer ul li {
+  padding: 0 15px;
+}
+
+footer li.copyright {
+  color: gray;
 }
