@@ -3,8 +3,60 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
 }
+
+#blue-section {
+  background-color: #517fa4;
+  height: 45vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.iphone {
+object-fit: cover;
+}
+
+.content {
+  width: 600px;
+}
+
+.header {
+  display: flex;
+  width: 
+  justify-content: space-between;
+}
+
+#white-section {
+  background-color: #fff;
+  height: 55vh;
+  width: 100%;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer > ul {
+  display: flex;
+  list-style: none;
+  text-transform: uppercase;
+}
+
+.footer > ul > li > a {
+  text-decoration: none;
+  color: #517fa4;
+  font-weight: bold;
+  padding-right: 15px;
+}
+
+.footer > span {
+  color: rgb(187, 183, 183);
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
