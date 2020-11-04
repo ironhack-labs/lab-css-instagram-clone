@@ -8,3 +8,108 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+h1{
+  color: #06365f;
+}
+p{
+  font-size: 115%;
+}
+#Left-and-right{
+  background-color: #1c5380;
+  height: 240px;
+  background-image: url("https://github.com/anaortez23/lab-css-instagram-clone/blob/8ff371012cd4ae46cbed745b69f596d852a530c0/images/bgtile.png?raw=true");
+  background-repeat: repeat;
+  /* position: relative; */
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  margin-bottom: 56vh;
+}
+#Left-side{
+  width: 500px;
+  height: 710px;
+}
+#Left-side img{
+  height: 100%;
+}
+#Right-side{
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+  width: 600px;
+  height: 710px;
+}
+#right-top{
+  padding-top: 6%;
+  width: 110%;
+  display: flex;
+  justify-content: space-between;
+}
+#login-button{
+  background-image: url("https://github.com/anaortez23/lab-css-instagram-clone/blob/8ff371012cd4ae46cbed745b69f596d852a530c0/images/bgtile.png?raw=true");
+  background-repeat: repeat-x;
+  border-color: #1c5380;
+  border-width: thin;
+  border-style: solid;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  width: 100px;
+  height: 40px;
+}
+#login-button button{
+  background-image: url("https://github.com/anaortez23/lab-css-instagram-clone/blob/8ff371012cd4ae46cbed745b69f596d852a530c0/images/bgtile.png?raw=true");
+  background-repeat: repeat-x;
+  background-color: #1c5380;
+  height: 25px;
+  margin-top: 9px;
+  font-size: 15px;
+  color: white;
+  border-style: none;
+}
+#login-button img{
+  height: 35px;
+}
+#Right-middle{
+  width: 100%;
+  background-image: url("https://github.com/anaortez23/lab-css-instagram-clone/blob/8ff371012cd4ae46cbed745b69f596d852a530c0/images/frame.png?raw=true");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  /* position: relative; */
+}
+#Right-middle {
+  padding: 25px 25px 25px 50px;
+  font-size: 120%;
+}
+#Right-Bottom{
+  display: flex;
+  padding-left: 40px;
+
+}
+#Right-Bottom img{
+  padding: 0 10px;
+}
+footer{
+    display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-bottom: 3vh;
+}
+footer ol{
+  list-style: none;
+  display: flex;
+}
+li{
+  padding: 3px 15px;
+}
+footer p{
+  color: rgb(134 129 129 / 70%);
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
+}
+#footer-list{
+  text-transform: uppercase;
+  color: #1c5380;
+  font-weight: bold;
+}
