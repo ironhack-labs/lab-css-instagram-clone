@@ -7,4 +7,89 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  padding: 0;
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;
 }
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+h1 {
+  color: #06365f;
+  margin: 0;
+}
+
+footer > ul {
+  margin: 70px 0;
+  padding: 0;
+  text-align: center;
+}
+
+footer > ul > li {
+  display: inline;
+  list-style: none;
+  margin: 0 10px;
+  color: #1c5380;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.7em;
+}
+
+footer > ul > li:last-child {
+  color: gray;
+}
+
+.img {
+  margin-right: 50px;
+}
+
+.heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 3px;
+  margin-bottom: 15px;
+}
+
+#login {
+  border: 1px solid #1c5380;
+  background: #2379b2;
+  border-radius: 3px;
+  padding: 0 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+
+#login > img {
+margin-right: 10px;
+}
+
+#login > p {
+  display: inline;
+  color: #FFF;
+  font-weight: bold;
+}
+
+.content {
+  width: 500px;
+  box-sizing: border-box;
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  padding: 40px 50px 0;
+}
+
+.apps {
+  display: flex;
+  justify-content: space-between;
+}
+
