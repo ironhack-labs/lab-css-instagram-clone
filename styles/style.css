@@ -3,8 +3,160 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
+body * {
+  box-sizing: border-box;
+}
+html,body {
+  height: 100%;
+}
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: linear-gradient(180deg, rgb(63, 100, 134) 40%, white 0%);
+  background-repeat: no-repeat;
+}
+
+section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: auto;
+  padding-top: 100px;
+}
+
+.phones img {
+  width: 22vw;
+}
+
+.box {
+  width: 40%;
+}
+
+.box-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.box-header > img {
+  width: 60%;
+}
+
+.box-header button {
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 1vw;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(84, 116, 146);
+  border-radius: 5%;
+  box-shadow: 2px 4px  rgb(57, 77, 95);
+  border: none;
+  padding: 2% 0;
+}
+
+.box-header button:hover {
+  cursor: pointer;
+  box-shadow: 4px 8px rgb(57, 77, 95);
+}
+.box-header button img {
+  width: 30%;
+}
+
+.box-content {
+  text-align: justify;
+  padding: 1px 50px;
+  margin-top: 30px;
+  background-image: url("../images/frame.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.box-content h2 {
+  color: rgb(63, 100, 134);
+  font-size: 2vw;
+}
+
+.box-content p {
+  font-size: 1.3vw;
+}
+
+.box-footer {
+  background-color: white;
+  padding: 1px 50px;
+}
+
+.box-footer img {
+  width: 30%;
+  margin: auto;
+  margin-right: 15px;
+}
+
+footer {
+  width: 50%;
+  margin: auto;
+  margin-top: 5%;
+}
+
+footer ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  font-size: 0.8vw;
+  font-weight: bold;
+  color: grey;
+  text-transform: uppercase;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: rgb(63, 100, 134);
+}
+
+@media only screen and (max-width: 950px) {
+  
+  section {
+    display: block;
+  }
+
+  footer {
+    width: 100%;
+    margin: auto;
+    margin-top: 5%;
+  }
+
+  footer ul {
+    display: block;
+    font-size: 10px;
+  }
+  .phones img {
+    display: none;
+  }
+
+  .box-content h2 {
+    font-size: 25px;
+  }
+
+  .box {
+    width: 100%;
+  }
+  
+  .box-content p {
+    font-size: 15px;
+  }
+
+  .box-header button {
+    width: 20%;
+    height: auto;
+    font-size: 15px;
+  }
+
+  body {
+    background: linear-gradient(180deg, rgb(63, 100, 134) 30%, white 20%); 
+  }
+
 }
