@@ -8,3 +8,204 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+body * {
+  margin: 0;
+  padding: 0;
+}
+
+.background {
+  background-image: url('../images/bgtile.png');
+  width: 100%;
+  height: 270px;
+}
+
+header {
+  padding: 20px 20px 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+button {
+  background-image: url('../images/bgtile.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0 0 2px 0 #06365f;
+  border: 0.5px solid #1c5380;
+  border-radius: 3px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+  width: 100px;
+}
+
+button p {
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+  text-shadow: 0 1px 2px #06365f;
+}
+
+.content {
+  width: 100%;
+  margin-top: -200px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.description {
+  width: 540px;
+  margin-left: 50px;
+}
+
+.text-box {
+  background-image: url('../images/frame.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 20px 55px;
+  line-height: 1.6;
+}
+
+h1 {
+  color: #06365f;
+  font-size: 26px;
+  line-height: 1.3;
+  margin: 20px 0;
+}
+
+.download-buttons {
+  margin-top: 40px;
+}
+
+.download-buttons img {
+  max-height: 100%;
+}
+
+.download-buttons img:hover {
+  cursor: pointer;
+}
+
+#android {
+  margin-left: 15px;
+}
+
+.hero {
+  width: 340px;
+}
+
+footer {
+  margin: 100px 0 30px 0;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+
+li {
+  margin-left: 10px;
+  font-weight: 700;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+li:first-child {
+  margin-left: 0;
+}
+
+li:last-child {
+  color: grey;
+}
+
+li a {
+  text-decoration: none;
+  color: #1c5380;
+}
+
+@media (max-width: 1000px) {
+  .hero {
+    display: none;
+  }
+  .description {
+    margin-left: 0;
+  }
+  li {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 500px) {
+  header {
+    margin-bottom: 15px;
+  }
+  .logo {
+    height: 50px;
+  }
+  button {
+    height: 40px;
+  }
+  .background {
+    height: 200px;
+  }
+  .content {
+    margin-top: -150px;
+  }
+  .download-buttons img {
+    height: 35px;
+  }
+  #android {
+    margin-left: 5px;
+  }
+  footer {
+    margin: 50px 0;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  footer ul {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+}
+
+@media (max-width: 360px) {
+  .logo {
+    height: 40px;
+  }
+  .background {
+    height: 150px;
+  }
+  .content {
+    margin-top: -120px;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 14px;
+  }
+  .download-buttons img {
+    height: 30px;
+  }
+  header button {
+    height: 30px;
+    width: 80px;
+  }
+  header button img {
+    height: 15px; 
+  }
+  header button p {
+    font-size: 14px;
+  }
+}
