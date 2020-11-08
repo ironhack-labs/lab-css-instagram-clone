@@ -1,10 +1,140 @@
 /*
 Colors to use:
 dark blue: #06365f
-light blue: #1c5380
+light blue: #
 */
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+nav {
+  position: relative;
+}
+
+.back-header {
+  height: 300px;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  position: absolute;
+  background-image: url("../images/bgtile.png");
+  background: linear-gradient(to bottom, #1c5380 0%, #557D9F 80%, #3D668A 100%);
+  background-repeat: repeat;
+  background-size: 100%;
+}
+
+.container {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 500px;
+  padding-left: 50px;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  margin-right: 0px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px 0 10px;
+  align-items: center;
+}
+
+.login button {
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat;
+  border: 2px solid #395d7c;
+  border-radius: 4px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 18px;
+  font-weight: 600;
+  width: 120px;
+  height: 45px;
+}
+
+#startBtn:active {
+  border-color: rgba(228, 228, 228, 0.5);
+  ;
+  font-size: 16px;
+}
+
+.login button:hover {
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat;
+  border: 2px solid #b5c8d8;
+  border-radius: 4px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 18px;
+  font-weight: 600;
+  width: 120px;
+  height: 45px;
+}
+
+.content {
+  margin-top: 10px;
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.content h1 {
+  font-size: 24px;
+  color: #06365f
+}
+
+.content p {
+  font-size: 16px;
+  font-weight: 300;
+  color: #2b2b2b
+}
+
+.stores {
+  padding-top: 50px;
+}
+
+.stores img+img {
+  padding-left: 20px;
+}
+
+footer {
+  margin-top: 80px;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer ul {
+  margin-left: 100px;
+  margin-right: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-left: 0px;
+  font-size: 14px;
+  list-style-type: none;
+  font-weight: 700;
+  color: gray;
+  flex-wrap: wrap;
+}
+
+footer a {
+  color: #1c5380;
+  text-decoration: none;
 }
