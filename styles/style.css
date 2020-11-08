@@ -7,6 +7,8 @@ light blue: #
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  height: auto;
+  width: auto;
 }
 
 nav {
@@ -137,4 +139,88 @@ footer ul {
 footer a {
   color: #1c5380;
   text-decoration: none;
+}
+
+@media only screen and (max-width: 950px) {
+  .back-header {
+    height: 200px;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    background-image: url("../images/bgtile.png");
+    background: linear-gradient(to bottom, #1c5380 0%, #557D9F 80%, #3D668A 100%);
+    background-repeat: repeat;
+    background-size: 100%;
+  }
+  .container {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+  }
+  .box {
+    width: 90%;
+    padding-left: 0;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    margin-right: 0px;
+  }
+  .container img {
+    
+    width: 200px;
+  }
+  .login button {
+    font-size: 12px;
+    font-weight: 400;
+    width: 60px;
+    height: 30px;
+    background-size: 20px;
+  }
+  #startBtn:active {
+    border-color: rgba(228, 228, 228, 0.5);
+  }
+  .login button:hover {
+    font-size: 12px;
+    font-weight: 400;
+    width: 60px;
+    height: 30px;
+    background-size: 20px;
+  }
+  .login img {
+    display: none;
+  }
+  .stores {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .stores input {
+    width: 45%;
+    height: auto;
+  }
+  footer {
+    margin-top: 80px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  footer ul {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 12px;
+    list-style-type: none;
+    flex-wrap: wrap;
+  }
+  li {
+    padding: 0 3px 0px 3px;
+  };
 }
