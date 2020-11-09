@@ -9,29 +9,109 @@ body {
 
 #blue-section {
   background-color: #517fa4;
-  height: 45vh;
+  height: 55vh;
   width: 100%;
   display: flex;
-  justify-content: space-evenly;
+}
+
+.all-content {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  height: 80%;
 }
 
 .iphone {
-object-fit: cover;
+  object-fit: cover;
+  margin-right: 70px;
+}
+
+.iphone img {
+  height: 90vh;
 }
 
 .content {
-  width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 44%;
+  margin-top: 300px;
 }
 
-.header {
+.text-content {
   display: flex;
-  width: 
+  flex-direction: column;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 6px;
+}
+
+.content .text-content > span {
+  font-size: 2em;
+  width: 55%;
+  color: #06365f;
+  font-weight: 600;
+  margin: 5% 0 2% 5%;
+}
+
+.content .text-content p {
+  margin: 0 0 2% 5%;
+  color: rgb(75, 74, 74);
+  width: 80%;
+  font-size: 1.1em;
+}
+
+.text-content .images-only {
+margin: 0 0 0 5%;
+}
+
+.images-only {
+  display: flex;
+}
+
+.images-only img {
+  width: 180px;
+  height: 60px;
+  margin-right: 20px;
+  margin-top: 5%;
+}
+
+.content .header {
+  display: flex;
   justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.content .header .login > button {
+  display: flex;
+  background-color: #517fa4;
+  border: 2px solid #3f6991;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  height: 8vh;
+  width: 9vw;
+}
+
+.content .header .logo img {
+  height: 14vh;
+  width: 28vw;
+}
+
+.login a {
+  text-decoration: none;
+  color: #fff;
+  margin-left: 10px;
+  font-weight: 600;
 }
 
 #white-section {
   background-color: #fff;
-  height: 55vh;
+  height: 65vh;
   width: 100%;
 }
 
@@ -39,6 +119,7 @@ object-fit: cover;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 0.9em;
 }
 
 .footer > ul {
@@ -51,7 +132,8 @@ object-fit: cover;
   text-decoration: none;
   color: #517fa4;
   font-weight: bold;
-  padding-right: 15px;
+  padding-right: 20px;
+  letter-spacing: -0.07mm;
 }
 
 .footer > span {
@@ -59,4 +141,3 @@ object-fit: cover;
   text-transform: uppercase;
   font-weight: bold;
 }
-
