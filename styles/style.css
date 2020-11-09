@@ -1,10 +1,91 @@
 /*
 Colors to use:
-dark blue: #06365f
+dark blue:  #06365f
 light blue: #1c5380
 */
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+* h1 {
+color:#06365f;
+}
+
+#backgroundBlue{
+  background-color: #06365f;
+  margin-bottom: -230px;
+  height: 300px;
+  color: white;
+
+}
+
+.btn {
+background-image: url("../images/home.png");
+background-repeat: no-repeat;
+background-color:#1c5380;
+background-position: left;
+color: white;
+font-size: 17px;
+width: 10%;
+height: 40px;
+margin-left: 25px;
+border-radius:0.2vw;
+text-align: end;
+}
+
+#backgroundWhite{
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content:center;
+  flex-direction: column;
+  text-align: justify;
+  padding:0px 20px 0px 20px;
+  
+}
+
+
+#stores { 
+  display: flex;
+  justify-content: space-around;
+}
+#new-box {
+  
+  display: flex;
+  justify-content: space-between;
+  padding: 80px 0 30px 0;
+  
+}
+#box-phone{
+  
+  align-self: center;
+  width: 870px;
+  height: 600px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#footer {
+  margin-top: 20px;
+  margin-bottom: 20px;;
+  display: flex;
+  justify-content: center;
+}
+#footer > span {
+  color:#A9A9A9;
+}
+#logo-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 110px;
+  margin-left: 415px;
+
+}
+section {
+  
+  display: flex;
+  flex-direction: column;
+
 }
