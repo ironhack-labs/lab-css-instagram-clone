@@ -53,3 +53,77 @@ Please find a screenshot of the expected result below:
 - [CSS Reference from MDN](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
 **Happy coding!** :heart:
+Colors to use:
+/*
+dark blue: #06365f
+light blue: #1c5380
+*/
+
+body{
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+
+.background {
+  background: linear-gradient(180deg, #1c5380 50%, white 50%);
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  
+}
+.background > img {
+  padding : 200px 30px 100px 100px ;
+  max-height: 800px;
+  position : relative;
+  width: 60%; 
+  min-width: 10%;
+
+}
+.instadiv {
+  padding: 200px 200px 200px 30px;
+  max-height: 800px;
+  max-height: 600px;
+  position: relative;
+  justify-content: space-between;  
+}
+
+.instadiv > img {
+  min-width: 10%;
+}
+
+.button {
+  background-image: url("./images/home.png");
+  }
+
+.text-box {
+  background-color: white;
+  padding: 20px;  
+  border-radius:1.5% ;
+  line-height: 190%;
+  font-size: 130%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.text-box > h2 {
+  color: #06365f ;
+  line-height: 120%;
+}
+.appstore {
+
+  
+}
+
+
+.ended {
+  color: black;
+  display:flex;
+  position: relative;
+  justify-content: space-around;
+
+    
+  
+
+  
+
+}
+
