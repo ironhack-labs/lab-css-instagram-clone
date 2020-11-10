@@ -3,8 +3,114 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
-body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+*{
   margin: 0;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+html , body *{
+  margin: 0;
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+header {
+  padding-top: 0%;
+  margin-top: 0;
+  width: 100%;
+  height: 400px;
+  background-color:#1c5380;
+}
+section1{
+  display: flex;
+  justify-content: space-around;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+section1 .container1 {
+  margin-top: 20%;
+  display: flex;
+  width: 45%;
+  background-image: url('../images/phones.png');
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position:center;
+  flex-flow: column wrap;
+
+}
+section1 .container2 {
+  margin-top: 10%;
+  display: flex;
+  /*width:  600px;
+  height: 600px;*/
+  width: 55%;
+  flex-flow: column wrap;
+
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+.home-button{
+  display: flex;
+  justify-content: space-around;
+  margin-top:15px;
+  width:  80px;
+  height: 29px;
+  background-color: #1c5380;
+  border:1px;
+  border-style: solid;
+  border-radius: 10%;
+  border-color: #123b5e;
+}
+.home-button img{
+  padding-top: 8%;
+  display: flex;
+  flex-direction: column;
+}
+.home-button p{
+  color:#6a8399;
+  display: flex;
+  flex-direction: column;
+}
+section1 .sub-container2 {
+  position:relative;
+  box-sizing: border-box;
+  width: fit-content;
+  padding: 80px;
+  background-color:white;
+  border-radius: 10px;
+}
+
+.icon {
+  position:absolute;
+  bottom:0px;
+
+}
+h1{
+  width:  350px;
+  font-weight: bold;
+  font-size:30px;
+}
+p {
+  line-height:30px;
+  font-size:18px;
+}
+
+footer-class {
+  clear:left;
+  position: relative;
+  margin: 300px;
+  
+}
+ul {
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-bottom: 20%;
+  padding-top: 5%;
+  list-style-type: none;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  text-decoration-color:#1c5380;
 }
