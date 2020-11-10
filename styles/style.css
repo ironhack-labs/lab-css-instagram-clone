@@ -21,6 +21,20 @@ body * {
 }
 
 header {
+  width: 100%;
+  margin-top: -200px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.content {
+  width: 540px;
+  margin-left: 50px;
+}
+
+nav {
   padding: 20px 20px 0 20px;
   display: flex;
   justify-content: space-between;
@@ -32,14 +46,27 @@ button {
   background-image: url('../images/bgtile.png');
   background-repeat: no-repeat;
   background-size: cover;
+  background: rgb(2,0,36);
+  background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(255,255,255,0.31416316526610644) 0%, rgba(255,255,255,0) 100%);
   box-shadow: 0 0 2px 0 #06365f;
   border: 0.5px solid #1c5380;
   border-radius: 3px;
+  outline: none;
   display: flex;
   justify-content: space-around;
   align-items: center;
   height: 50px;
-  width: 100px;
+  padding: 0 15px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:active {
+  box-shadow: inset 0 0 2px 0 #06365f;;
+  background: rgb(2,0,36);
+  background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(6,54,95,0.7175245098039216) 0%, rgba(255,255,255,0) 100%);
 }
 
 button p {
@@ -47,23 +74,10 @@ button p {
   font-size: 15px;
   font-weight: 700;
   text-shadow: 0 1px 2px #06365f;
+  padding-left: 10px;
 }
 
-.content {
-  width: 100%;
-  margin-top: -200px;
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: center;
-  align-items: flex-start;
-}
-
-.description {
-  width: 540px;
-  margin-left: 50px;
-}
-
-.text-box {
+.box {
   background-image: url('../images/frame.png');
   background-repeat: no-repeat;
   background-size: contain;
@@ -76,6 +90,10 @@ h1 {
   font-size: 26px;
   line-height: 1.3;
   margin: 20px 0;
+}
+
+.box p {
+  margin-bottom: 10px;
 }
 
 .download-buttons {
@@ -132,7 +150,7 @@ li a {
   .hero {
     display: none;
   }
-  .description {
+  .content {
     margin-left: 0;
   }
   li {
@@ -141,7 +159,7 @@ li a {
 }
 
 @media (max-width: 500px) {
-  header {
+  nav {
     margin-bottom: 15px;
   }
   .logo {
@@ -153,7 +171,7 @@ li a {
   .background {
     height: 200px;
   }
-  .content {
+  header {
     margin-top: -150px;
   }
   .download-buttons img {
@@ -186,7 +204,7 @@ li a {
   .background {
     height: 150px;
   }
-  .content {
+  header {
     margin-top: -120px;
   }
   h1 {
@@ -198,14 +216,14 @@ li a {
   .download-buttons img {
     height: 30px;
   }
-  header button {
+  nav button {
     height: 30px;
     width: 80px;
   }
-  header button img {
+  nav button img {
     height: 15px; 
   }
-  header button p {
+  nav button p {
     font-size: 14px;
   }
 }
