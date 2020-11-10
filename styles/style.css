@@ -6,52 +6,37 @@ light blue: #1c5380
 body {
   background-color: white;
   margin: 0;
-  }
-
-header{
-  width: 100%;
-  height: 50%;
-  background-color: #1c5380; 
-  background-color: linear-gradient(360deg, rgba(2,0,36,1) 0%, rgba(28,83,128,1) 21%, rgba(6,54,95,1) 100%);
-  display: flex;
+}
+header{    
+  background: linear-gradient(180deg, #1c5380 50%,white 50%);
+  display:flex;
   position: absolute;
   flex-direction: column;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
-
 .background {
   display: flex;
-  position: relative; 
+  position: relative;   
   justify-content: center;
-  padding: 150px 300px 70px 300px;
-  min-width: 50%;
-  align-items: stretch;
-  height: 600px;
-  
-  
-}
-
+  padding: 150px 350px 70px 300px;
+  align-items: center;
+ }
 .background > img {
-  height: 600px;
+  display:flex;
   position : relative;
   min-width: 40%; 
+  height: 100%;
  }
-
 .instadiv {  
-  position: relative;
-  margin-left: 100px;
-  min-width: 40%;
+  position: relative ;
+  margin-left: 100px; 
   }
-
-
-
   h1 {
    display: flex;
    flex-direction: row;
+   flex-wrap: wrap;
    justify-content: space-between;
   }
-
 .button {
   background-image: url("../images/home.png");
   background-repeat: no-repeat;
@@ -59,7 +44,7 @@ header{
   background-color: #1c5380;
   background-color: linear-gradient(360deg, rgba(2,0,36,1) 0%, rgba(28,83,128,1) 21%, rgba(6,54,95,1) 100%);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  width: 100px;
+  width: 95px;
   height: 40px;
   border-radius:10.5% ;
   color: whitesmoke;
@@ -68,28 +53,27 @@ header{
   text-align: right;
   padding: 12px;
   margin-top: 15px;
+  margin-left: 5px ;
 }
-
 .text-box {
   background-color: white;
   padding: 10px; 
   border-radius:1.5% ;
-  line-height: 190%;
-  font-size: 120%;  
+  line-height: 160%;
+  font-size: 110%; 
+  padding: 10px 20px 0px 30px; 
 }
-
 .text-box > h2 {
   color: #06365f ;
   line-height: 120%;
 }
 .appstore {
   display: flex; 
+  padding-left: 30px;
 }
-
 #separa {
-    margin-right: 20px;
+    margin-right: 10px;
   }
-
 .ended {  
   text-transform: uppercase;
   display: inline-flex;
@@ -105,8 +89,12 @@ header{
   color:gray;
   word-spacing: 1pt;
   margin-left: 20px;
-
 }
 
+@media (max-width: 350px) {
+  .background > img {
+    width: min-content;
+  }
+}
 
 
