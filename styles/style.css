@@ -29,6 +29,7 @@ body {
   display: flex;
   justify-content:space-around;
   align-items: center;
+  align-content: center;
 }
 
 .log-in-btn{
@@ -46,6 +47,7 @@ body {
   text-decoration: none;
 }
 .white-box{
+  background-image: url("./images/frame.png");
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -60,8 +62,9 @@ h1{
 Se eu colocar o seletor 'a' abaixo
 o texto fica em colunas e funciona o text-decoration none
 */
-.footer{
+.footer >a{
   display: flex;
+  flex-direction: row;
   justify-content: space-around;
   align-content: space-around;
   align-items: center;
