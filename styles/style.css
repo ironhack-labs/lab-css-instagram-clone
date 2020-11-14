@@ -3,8 +3,152 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(#1c5380 40%, rgba(255, 255, 255, 1)40%);
+}
+
+.container-child {
+  max-width: 1400px;
+  width: 100%;
+  height: 100%;
+
+  margin: 0 auto 0;
+  padding: 10rem 0 10rem;
+
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex:20;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: start;
+
+  height: 70vh;
+}
+
+.left-container {
+  flex: 1;
+}
+
+.left-container>img {
+  width: auto;
+  height: 70vh;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.right-container {
+  flex: 2;
+
+  height: 70vh;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+.section-logo {
+  flex:1;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-bottom: 2rem;
+  width: 100%;
+  font-size: 5rem;
+}
+
+.logIn {
+
+  align-self: center;
+
+  font-size: 2rem;
+  color: white;
+  text-decoration: none;
+  width: 12rem;
+  height: 4.5rem;
+
+  border-radius: 5px;
+  background: linear-gradient(rgb(67, 129, 180)30%,rgba(28, 83, 128, 1)60%);
+  box-shadow: 0 1px 10px #06365f;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.logIn-icon {
+  width: 2rem;
+  height: 2rem;
+  padding-right: 5px;
+}
+
+.section-content {
+  flex:4;
+
+  padding: 3rem 3rem 0 3rem;
+
+  background-color: white;
+  box-shadow: 10rem -10rem 1rem -10rem grey,
+              -10rem -10rem 1rem -10rem grey;
+  border-radius: 5px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section-content h1{
+  flex:2;
+}
+.section-content p{
+  flex:1;
+  /* padding-bottom: 2rem; */
+}
+
+
+.download-icons{
+  justify-self: flex-end;
+}
+
+/* *************Footer************ */
+
+.footer-list{
+  flex:1;
+  justify-self: flex-end;
+
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  padding:2rem 10rem 0rem 10rem
+}
+
+.footer-list a{
+  text-decoration: none;
+  color: #1c5380;
 }
