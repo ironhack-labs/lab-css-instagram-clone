@@ -4,7 +4,164 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0px;
+  padding: 0px;
+  font-weight: normal;
+}
+
+.hero {
+  background-repeat: repeat-x;
+  height: 300px;
   margin: 0;
+}
+
+.container {
+  max-width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: -180px;
+}
+
+.left-block {
+  width: 35%;
+}
+
+.right-block {
+  width: 60%;
+}
+
+.brand {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand > img {
+  width: 50%;
+}
+
+.frame {
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 20px;
+  padding: 15px 40px;
+}
+
+.frame > h1 {
+  color: #06365f;
+  line-height: 2.3rem;
+}
+
+.downloads {
+  padding-top: 25px;
+}
+
+.downloads > img {
+  width: 33%;
+  margin-right: 15px;
+}
+
+.downloads img:hover {
+  opacity: 0.8;
+}
+
+.login-btn {
+  background: linear-gradient(180deg, #4f7799 0%, #2769a0 100%);
+  padding: 8px 13px;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 1px solid #1c5380;
+  transition: 0.2s;
+}
+
+.login-btn:hover {
+  background: linear-gradient(180deg, #2769a0 0%, #2769a0 100%);
+}
+
+.login-btn > img {
+  vertical-align:middle
+}
+
+.login-btn > span {
+  padding-left: 5px;
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+
+.footer {
+  margin-top: 35px;
+}
+
+.footer > ul {
+  padding: 0 10px;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.footer > ul a{
+  text-transform: uppercase;
+  margin-right: 20px;
+  font-size: 0.8rem;
+  color: #1c5380;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.footer > ul li:last-child{
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  color: #6b6b6b;
+  font-weight: bold;
+}
+
+@media (max-width: 950px){
+
+  .hero {
+    height: 200px;
+  }
+
+  .container {
+    max-width: 80%;
+    margin-top: -120px;
+  }
+
+}
+
+@media (max-width: 650px){
+
+  .hero {
+    height: 150px;
+  }
+
+  .container {
+    max-width: 95%;
+    margin-top: -120px;
+  }
+
+  .left-block {
+    display: none;
+  }
+
+  .right-block {
+    width: 100%;
+  }
+
+  .downloads > img {
+    width: 40%;
+    margin-right: 10px;
+  }
+
 }
