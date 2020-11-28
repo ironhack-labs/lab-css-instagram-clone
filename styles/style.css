@@ -13,13 +13,13 @@ body {
 
 #main {
   width: 90%;
-  margin: 10% auto;
+  margin: 5% auto;
+  max-width: 920px;
 }
 
 #content {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  flex-flow: row wrap;
 }
 
 #left {
@@ -27,12 +27,10 @@ body {
   align-self: center;
 }
 
-#left img {
-  /*width: 80%;*/
-}
-
 #right {
   width: 60%;
+  display: flex;
+  flex-direction: column;
 }
 
 #right-top {
@@ -42,28 +40,50 @@ body {
   align-items: center
 }
 
+@media (max-width: 920px) {
+  #left {
+    display: none;
+  }
+  #right {
+    width: 95%;
+    text-align: center;
+    padding: 0 0 5% 0;
+  }
+  #right-top {
+    display: block;
+  }
+  #button {
+    width: auto;
+    margin: 5% 33%;
+  }
+}
+
 #button {
   border: 1px solid #06365f;
-  border-radius: 10%;
+  border-radius: 5px;
   color: #fff;
   font-weight: bold;
-  background: url(../images/bgtile.png);
+  background-image: url(../images/bgtile.png);
   background-repeat: repeat-x;
-  background-size: contain;
-  height: 66%;
-  padding: 1%;
-  
+  background-size: cover;
+  padding: 1% 2%;
+  box-shadow: .5px .5px #000;
+}
+
+#button img {
+  padding: 0 2% 0 0;
 }
 
 #right-middle {
   background: url(../images/frame.png);
   background-repeat: no-repeat;
-  background-size: cover;
-  padding: 5%
+  background-size: contain;
+  padding: 5% 5% 0 5%;
 }
 
 #right-bottom {
-  margin: 5% 0 0 0
+  margin: 5% 0 0 0;
+  padding: 0 5%;
 }
 
 #right-bottom img {
