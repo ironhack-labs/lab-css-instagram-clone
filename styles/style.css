@@ -4,7 +4,102 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+#container{
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;
+  display: flex;
+  justify-content: center;
+}
+
+section{
+  padding:20px;
+  margin:50px 30px 0px;
+  
+}
+
+#right-section{
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+#top-menu{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#login-button{
+  width:120px;
+  height: 50px;
+  background-color:#3A82Cb;
+  color:white;
+  font-weight: bold;
+  font-size: 1.1rem;
+  border: 2px solid #06365f ;
+  padding-left:5%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  border-radius:5px;
+
+}
+
+button img{
+  padding-right: 10px;
+}
+
+article{
+  background-image:url(../images/frame.png);
+  background-repeat: no-repeat;
+  padding:20px 40px;
+}
+
+article h2{
+  color:#06365f;
+}
+
+#foot-menu{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0 40px;
+}
+
+#boldword{
+  font-weight: bold;
+}
+footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+footer p{
+  color:gray;
+  padding-left: 15px;
+}
+footer ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+footer ul li{
+  color:#1c5380;
+  padding: 0 20px;
+  list-style: none;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+
