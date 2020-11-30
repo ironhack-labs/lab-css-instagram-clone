@@ -29,16 +29,11 @@ section{
   width: 520px;
   padding-top: 20px;
   padding-left: 18px;
-
-  /* display: flex;
-  flex-direction: column; */
 }
 .encabezado{
   display: flex;
-  /* flex-direction: row; */
   justify-content: space-between;
   align-items: center;
-  /* flex-wrap: wrap; */
   height: 130px;
 }
 
@@ -89,9 +84,7 @@ h2{
   text-transform: uppercase;
   font-weight: bold;
   font-size: 14px;
-  font-weight: 750;
- 
-  
+  font-weight: 750;  
 }
 
 .copy{
@@ -99,4 +92,3 @@ h2{
   opacity: 0.5;
   font-weight: bold;
 }
-
