@@ -16,7 +16,7 @@ body {
   background-repeat: repeat-x;
   max-width: 70%;
   max-height: 70%;
-  margin: 150px auto;
+  margin: 125px auto;
 }
 
 .container-main {
@@ -28,7 +28,26 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  max-width: 70%;;
+  max-width: 55%;;
+}
+
+.logo-login {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-login button {
+  color: white;
+  font-weight: bold;
+  height: 2.5rem;
+  background-image: linear-gradient(to bottom, #3d6c92 5%, #06365f 100%);
+  border: 2px solid #3d6c92;
+  border-radius: 5px;
+  flex-grow: 0.4;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .main-text {
@@ -37,4 +56,40 @@ body {
   background-repeat: no-repeat; 
   background-size: contain;
   padding: 2rem;
+}
+
+.main-text h2 {
+  color: #06365f;
+  padding-right: 5rem;
+  line-height: normal;
+  margin-bottom: 2rem;
+  
+}
+
+p {
+   margin: 10px 0;
+}
+
+.mobile-apps {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+footer {
+  padding: 2rem 6rem;
+  font-size: 0.75rem;
+}
+footer ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+footer a {
+  text-decoration: none;
+  color: #1c5380;
+  font-weight: bold;
 }
