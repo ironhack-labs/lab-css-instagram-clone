@@ -5,24 +5,29 @@ light blue: #1c5380
 */
 
 
-
-
-
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 
   display: flex;
   flex-direction: column;
-
-  width: 100%;
+  justify-content: center;
 }
 
 h2{
   color: #06365f;
+  font-size: 1.5rem;
+
 }
 
+img{
+  width: 100%;
+  height: auto;
+}
 
+a{
+  text-decoration: none;
+}
 #container-1{
   background: url("../images/bgtile.png");
   background-repeat: repeat-x;
@@ -33,18 +38,25 @@ h2{
   padding: 100px 100px 50px 100px;
 }
 
+#container-3{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
 section{
- width: 504px;
- padding: 10px 50px;
+  width: 504px;
+  padding: 10px 50px;
+  font-size: 0.9rem;
 
- display: flex;
- flex-direction: column;
-
+  display: flex;
+  flex-direction: column;
 }
 
 article {
   background: url("../images/frame.png");
   background-repeat: no-repeat;
+  background-size:cover ;
   padding: 20px 40px;
 }
 
@@ -53,8 +65,11 @@ header{
   flex-direction: row;
   justify-content:  space-between;
   align-items: center;
-
   padding: 5px;
+}
+
+header a{
+  color: white;
 }
 
 #log-in-bottom{
@@ -63,22 +78,16 @@ header{
   color: white;
 
   padding: 4px 15px;
+  margin-left: 20px;
   border-radius: 3px;
 
   display: flex; 
   flex-direction: row;
   justify-content: center;
   align-items: center;
-
-  font-size: 16px; 
-}
-
-#log-in-bottom img {
-  padding: 5px 5px;
 }
 
 
- 
 #container-2{
   display: flex;
   flex-direction: row;
@@ -93,19 +102,21 @@ header{
 } 
 
 #container-2 img{
- padding: 0px 10px;
+ padding: 0px 15px;
 } 
 footer{
   display: flex;
   flex-direction: row;
-  justify-content: center;
+
+  align-self: center;
+
 }
 
 footer ul{
   display: flex;
   flex-direction: row;
   list-style: none;
-  color:#1c5380;
+  
 }
 
 footer li{
@@ -114,22 +125,25 @@ footer li{
   text-transform: uppercase;
 }
 
+footer a{
+  text-decoration: none;
+  color:#1c5380;
+}
 #copyrigth{
-  color: grey;
+  color:grey;
   padding: 5px 20px;
 }
 
-@media (max-width: 600px){
+@media (max-width: 700px){
+
+  #container-1{
+    padding: 5px;
+  }
   #phones-img{
     display: none;
   }
-
-  #house-logo{
-    display: none;
-  }
   footer{
-    display: flex;
-    flex-direction: column;
-    
+    font-size: 0.5rem;
   }
+  
 }
