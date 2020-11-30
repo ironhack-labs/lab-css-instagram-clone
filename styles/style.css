@@ -4,7 +4,105 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url("https://raw.githubusercontent.com/ironhack-labs/lab-css-instagram-clone/master/images/bgtile.png");
+  background-repeat: repeat-x;
+}
+
+header {
+  padding: 30px;
+  margin: 60px 0px 10px 80px;
+}
+
+header img {
+  width: 370px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+}
+
+.logotype {
+  display: flex;
+  padding: 5px;
+  width: 350px;
+  margin: 100px 100px 20px 0px;
+}
+
+.title a {
+  width: 100px;
+  display: flex;
+  text-decoration: none;
+  color: #ffffff;
+  background: linear-gradient(#6b8ead, #1c5380);
+  /* #1c5380;*/
+  border-radius: 6px;
+  margin: 100px 90px 20px 10px;
+  border: 2px solid #376187;
+  padding: 10px;
+  font-weight: 700;
+  justify-content: space-around;
+}
+
+.square {
+  background-image: url("https://raw.githubusercontent.com/ironhack-labs/lab-css-instagram-clone/master/images/frame.png");
+  background-size: 600px;
+  background-repeat: no-repeat;
+}
+
+.square h1 {
+  font-weight: bold;
+  font-size: 28px;
+  color: #1c5380;
+  width: 300px;
+  padding: 40px 0px 20px 40px;
+}
+
+.square article {
+  font-size: 16px;
+  width: 450px;
+  padding-left: 40px;
+}
+
+.square article p {
+  margin-bottom: 20px;
+}
+
+.square a {
+  width: 200px;
+  margin-left: 40px;
+}
+
+footer ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+  margin: 10px 350px 50px 350px;
+
+}
+
+footer a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #1c5380;
+  font-weight: 700;
+  font-size: .9em;
+}
+
+footer p {
+  color: #DFDBDA;
 }
