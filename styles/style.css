@@ -1,4 +1,4 @@
-/*
+/* /*
 Colors to use:
 dark blue: #06365f
 light blue: #1c5380
@@ -7,4 +7,200 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;  
 }
+
+#container{                              /* Todo menos el footer */
+  display: flex;
+  justify-content: center;
+}
+section{
+  padding: 0 20px 20px 20px;
+  margin: 50px 30px 0px; 
+}
+
+.section-left{
+  padding-right: 0px;
+  margin-right: 0px;
+}
+
+.section-right{
+  width: 520px;
+  padding-top: 20px;
+  padding-left: 18px;
+
+  /* display: flex;
+  flex-direction: column; */
+}
+.encabezado{
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: space-between;
+  align-items: center;
+  /* flex-wrap: wrap; */
+  height: 130px;
+}
+
+.log-button{
+  width:120px;
+  height: 50px;
+  background-color:#1c5380;
+  background: linear-gradient(to top, #1c5380, #6e9abe);
+  color: white;
+  font-size: 1.1rem;
+  border: 1px solid #06365f ;
+  display:flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius:5px;
+}
+
+article{
+  background-image: url("../images/frame.png");
+  flex: auto;
+  background-repeat: no-repeat;
+  padding: 20px 40px;
+  opacity: 1;
+}
+
+h2{
+  color: #06365f;
+}
+.article-footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  width: 440px;
+  opacity: 1;
+}
+
+.footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+}
+.footer li{
+  list-style: none;
+  padding: 0px 5px;
+  color: #1c5380;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+  font-weight: 750;
+ 
+  
+}
+
+.copy{
+  color: grey;
+  opacity: 0.5;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .section-left{
+  margin-left: 400px;
+  border: 1px solid transparent;
+  width: 0px; 
+}
+.section-righ{
+
+}
+ */
+
+/* 
+.section-right{
+    margin-left: 0px;
+    width: 0px;
+
+}
+
+.encabezado{
+  display: flex;
+  flex-direction: row;
+  align-content: flex-end;
+  margin: 0px 450px;
+  width: 500px;
+  padding-top: 0px;
+}
+
+.button{
+  width: 750px;
+  height: 34px;
+  margin-top: 25px;
+  margin-left: 100px;
+  margin-bottom: 20px;
+  color: white;
+  background-color:#1c5380;
+  background: linear-gradient(to top, #1c5380, rgb(92, 127, 168));
+  border-radius: 6px;
+  opacity: 0.6;
+}
+
+.capture{
+  position: absolute;
+  display: flex;
+  margin: 80px 450px;
+  flex-direction: column;
+  width: 500px;
+  background-image: url("../images/frame.png");   /* El cuadrito blanco 
+  border: 1px solid transparent;
+  border-image: 50px;
+  background-repeat: no-repeat;
+  border-image: none;
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 70px;
+}
+.img-casita{
+  display: flex;
+  position: absolute;
+  align-content: center;
+  height: 20px;
+  color: white;
+  opacity: 100%;
+ 
+
+}
+
+.log-in{
+  float: right;
+
+
+}
+p{
+  margin: 10px;
+
+}
+
+ * */

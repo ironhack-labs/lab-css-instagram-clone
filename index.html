@@ -4,13 +4,51 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Instagram Clone</title>
-    <!-- don't forget to link your styles -->
+    <link href="../lab-css-instagram-clone/styles/style.css"
+      rel="stylesheet" type="text/css">
   </head>
   <body>
-    Instagram Capture and Share the World's Moments Instagram is a fast, beautiful and fun way to share your life with
-    friends and family. Take a picture or video, choose a filter to transform its look and feel, then post to Instagram
-    &mdash; it's that easy. You can even share to Facebook, Twitter, Tumblr and more. It's a new way to see the world.
-    Oh yeah, did we mention it's free? Download on the App Store Get it on Google Play About Us Support Blog Press API
-    Jobs Privacy Terms &copy; 2014 Instagram
+    
+    <div id = "container">
+      <section class = "section-left">
+        <img src = "./images/phones.png" alt= "phones"> 
+      </section>     
+      <section class = "section-right">
+        <header class = "encabezado">
+          <div class = "ig-logo">
+            <img src = "../lab-css-instagram-clone/images/brand.png" alt= "Instagram logo">
+          </div>
+            <button class = "log-button" >
+              <img class = "img-casita" src = "../lab-css-instagram-clone/images/home.png" alt="Home">
+              <span class="log">Log in</span>
+            </button>
+        </header> 
+        <article class ="capture">          
+              <h2>Capture and Share<br> the World's Moments</h2>
+              <p>Instagram is a <b>fast</b>, <b>beautiful</b> and <b>fun</b> way to share your life with
+                friends and family.</p>
+              <p> Take a picture or video, choose a filter to transform its look and feel, then post to 
+                Instagram &mdash; it's that easy. You can even share to Facebook, Twitter, Tumblr and more. It's a new way to see the world.</p>
+              <p>Oh yeah, did we mention it's free?</p>
+        </article>      
+        <div class = "article-footer">
+            <img src = "images/badge-iphone.png" alt="applestore">
+            <img src = "../lab-css-instagram-clone/images/badge-android.png" alt="googleplay">
+        </div>
+      </section>
+    </div>
+    <footer>
+      <ul class = "footer">
+        <li>About Us</li>
+        <li>Support</li>
+        <li>Blog</li>
+        <li>Press</li>
+        <li>API</li>
+        <li>Jobs</li>
+        <li>Privacy</li>
+        <li>Terms</li>
+        <li class="copy">&copy; 2014 INSTAGRAM</li>
+      </ul>
+    </footer>
   </body>
 </html>
