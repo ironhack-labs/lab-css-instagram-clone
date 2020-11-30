@@ -4,7 +4,140 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+  background-position: 0% 0%;
+  margin: 80px 60px;
+}
+
+h1 {
+  font-size: 1.6rem;
+}
+
+#phonesPng>img {
+  height: 100%;
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.header>div {
+  padding: 0 25px;
+}
+
+.rightSection {
+  width: 500px;
+  padding: 0px;
+}
+
+#logIn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#logIn>div>img {
+  width: 300px;
+  margin-top: 20px;
+}
+
+#button>button {
+  /* background-image: url("../images/bgtile.png"); */
+  /* background-repeat: repeat-x;
+  background-position-y: 0% 0%; */
+  background: linear-gradient(to top,  
+  rgb(75, 117, 151), 
+  rgb(75, 117, 151),
+   rgba(255, 255, 255, 0.274)),
+  url("../images/bgtile.png");
+  /* background-color: rgb(73, 113, 147); */
+  box-shadow: 2px 2px 2px rgba(75, 117, 151, 0.938);
+  border: 2px solid rgb(75, 117, 151);
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  margin-right: 10px;
+  color: white;
+}
+
+#button>button>img {
+  padding-right: 10px;
+}
+
+#moments {
+  background-image: url("../images/frame.png");
+  background-position-x: 100%;
+  background-repeat: no-repeat;
+  background-blend-mode: color;
+  padding: 15px 40px 0 40px;
+  margin-top: 20px;
+}
+
+#moments>div>img {
+  margin-top: 10px;
+  padding-right: 20px;
+}
+
+.foot>ul {
+  margin-top: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  color: rgb(75, 117, 151);
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 12px;
+}
+
+.foot>ul>li {
+  padding: 0 10px;
+}
+
+#copiF {
+  color: rgba(156, 156, 156, 0.74);
+  font-size: 95%;
+}
+
+@media (min-width: 426px) and (max-width:610px) {
+  #logIn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+}
+
+@media (max-width:425px) {
+  #phonesPng {
+    display: none;
+  }
+
+  body {
+    margin: 20px 15px 20px;
+  }
+
+  #logIn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  .rightSection h1 {
+    font-size: 25px;
+  }
+
+  #moments {
+    padding: 20px 10px;
+  }
 }
