@@ -6,5 +6,121 @@ light blue: #1c5380
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  margin: 0 auto;
+  box-sizing: border-box;
+  background-image: url('./../images/bgtile.png');
+  background-repeat: repeat-x;
+}
+
+.main-container {
+  margin: 5%  27% 1%;
+ /* border: 1px solid red;*/
+  height: 800px;
+  display:flex;
+  flex-direction: column;
+ 
+  
+}
+/* info container*/
+.container {
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  
+  /*border: 1px solid blue;*/
+    margin: 5px;
+}
+.up-container {
+    display:flex;
+ 
+  justify-content: space-around;
+}
+/*photo container*/
+.photo-container {
+   /*border: 1px solid blue;*/
+   margin: 5px;
+
+}
+
+
+/*info container */
+.info-container {
+   margin: 5px;
+     /*border: 1px solid blue;*/
+     display: flex;
+  flex-direction: column;
+  width: 470px;
+
+
+ 
+}
+nav {
+   margin: 5px;
+/*      border: 1px solid  rgb(255, 0, 200); */
+      display:flex;
+      justify-content: space-between;
+      align-items: center;
+}
+nav div {
+  
+  height: 50px;
+ background-color:#1c5380;
+  background-image: linear-gradient(rgba(#1c5380,0,0,0),rgba(#1c5380,0,0,1));
+  border-radius: 4px ;
+  border:#06365f solid 2px;
+  color:white;
+  font-weight: bold;
+  font-size:1rem;
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+ margin-right: 5px;
+  width: 90px;
+
+}
+
+.desc-container {
+    
+      /*border: 1px solid  rgb(255, 0, 200);*/
+      background-image: url('./../images/frame.png');
+      background-repeat: no-repeat;
+      background-size: contain;
+      display:flex;
+      flex-direction: column;
+      justify-content: space-between;
+    
+      padding: 0 25px;
+     
+}
+.desc-container h2 {
+  color:#1c5380;
+  font-weight: 800px;
+  
+  padding-right: 115px;
+}
+/* footer container*/
+
+.footer-container {
+   margin: 5px;
+    /*border: 1px solid rgb(255, 0, 200);*/
+
+  display: flex;
+
+  justify-content: space-around ;
+}
+.footer-menu {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  color:#1c5380;
+  font-size: 0.7rem;
+  font-weight: 800;
+  
+}
+.footer-menu li {
+  margin-right: 10px;
+  
+}
+.footer-menu li > span {
+  color:gainsboro;
 }
