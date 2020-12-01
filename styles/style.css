@@ -3,8 +3,104 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
+*{
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
 body {
+  
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+ /*
+  background-image: url("images/imagen_pequena.png");
+  background-repeat: repeat-x;
+ */background-image: url("/images/bgtile.png");
+ background-repeat: repeat-x;
+
+  
 }
+.principal{
+  position: absolute;
+ display: flex;
+  justify-content: center;
+  height: 600px;
+  padding: 30px;
+}
+.second-div{
+  height: 600px;
+  width: 700px;
+  margin-left: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  flex-wrap: wrap;
+}
+.instagram{
+  display: flex;
+  align-items: center;
+}
+#login-btn{
+  width:130px;
+  height: 50px;
+  background-color:#6caae9;
+  color:white;
+  font-weight: bold;
+  border-radius:5px;
+ margin-left: 60px;
+  padding-left:0px;
+  display:flex;
+  justify-content: space-evenly;
+  align-items: center;
+  
+}
+
+.info{
+  height: 400px;
+  width: 500px;
+  background-image: url("../images/frame.png");
+  background-repeat: repeat-x;
+}
+.info >h2{
+    color: #06365f;
+    padding-top: 20px; 
+    padding-left: 10px ;
+    margin-top: 10px;
+    margin-left: 20px;
+  
+}
+article{
+  padding-left: 10px;
+  margin: 20px;
+}
+.android-apple{
+  display: flex;
+  justify-content: space-evenly;
+}
+footer{
+  margin-top: 80px;
+  display: flex;
+  position: absolute;
+  top: 90%;
+  left: 20%;
+  right: 20%;
+  padding: 14px;
+}
+footer ul{
+  width: 800px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  ;
+}
+footer a{
+  font-size: 15px;
+  color:#1c5380;
+  font-weight: 700;
+}
+
+
+
+
+
+ 
