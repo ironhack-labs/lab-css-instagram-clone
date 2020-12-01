@@ -89,10 +89,9 @@ main {
 footer ul {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   list-style: none;
-  margin: 10px 350px 50px 350px;
-
+  margin: 30px 0px 60px 0px;
 }
 
 footer a {
@@ -101,8 +100,10 @@ footer a {
   color: #1c5380;
   font-weight: 700;
   font-size: .9em;
+  margin-left: 20px;
 }
 
 footer p {
   color: #DFDBDA;
+  margin-left: 20px;
 }
