@@ -17,7 +17,6 @@ body {
   background-repeat: repeat-x;
   display: flex;
   justify-content: center;
-  width: 100%;
   padding: 60px 0px;
 }
 
@@ -182,4 +181,12 @@ footer ul li{
   }
 }
   
+@media (max-width: 450px){
+  #foot-menu{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
   
