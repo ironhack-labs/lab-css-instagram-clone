@@ -20,14 +20,15 @@ h2{
 
 }
 
-img{
-  width: 100%;
-  height: auto;
-}
 
 a{
   text-decoration: none;
 }
+
+
+
+
+
 #container-1{
   background: url("../images/bgtile.png");
   background-repeat: repeat-x;
@@ -60,6 +61,11 @@ article {
   padding: 20px 40px;
 }
 
+
+.keywords{
+  font-weight: bold;
+}
+
 header{
   display: flex;
   flex-direction: row;
@@ -77,7 +83,7 @@ header a{
   border: 1px solid #06365f;
   color: white;
 
-  padding: 4px 15px;
+  padding: 5px 15px;
   margin-left: 20px;
   border-radius: 3px;
 
@@ -87,7 +93,9 @@ header a{
   align-items: center;
 }
 
-
+#house-logo{
+  padding-right: 5px;
+}
 #container-2{
   display: flex;
   flex-direction: row;
@@ -134,7 +142,12 @@ footer a{
   padding: 5px 20px;
 }
 
-@media (max-width: 700px){
+@media (max-width: 800px){
+
+  img{
+    width: 100%;
+    height: auto;
+  }  
 
   #container-1{
     padding: 5px;
