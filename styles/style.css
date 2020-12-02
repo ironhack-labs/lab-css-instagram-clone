@@ -10,34 +10,91 @@ light blue: #1c5380
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0 auto;
-  width: 80%;
+  height: 100%;
+  margin-top: 0;
 }
 
 #background{
   background-image: url(../images/bgtile.png);
-  height: 250px;
+  height: 340px;
   padding: 90px 40px;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .main{
   display: flex;
+  height: 700px;
+}
+
+#phones{
+  height: 700px;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  margin:0 65px 0 20px ;
+  justify-content: space-between;
+  padding: 20px 0;
+  
+  
+}
+
+#lateral{
+  margin: 0 80px;
 }
 
 #log-in{
-  background-color: #1c5380;
+  background-image: url(../images/bgtile.png);
+  border: 1px solid #06365f ;
+  border-radius: 5px;
+  margin: 0mm;
+  display: flex;
+  align-items: center;
+  width: 100px;
+  height: 50px;
+  justify-content: space-around;
+}
+
+#log-in > a{
+  text-decoration: none;
+  color: white;
+
 }
 
 .text{
-  background-color: white;
+  padding: 50px;
+  height: 600px;
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
-#stores{
-  display: flex;
-  justify-content: space-between ;
+h3{
+  color: #06365f;
+  font-size: ;
+}
+
+#stores > a{
+  margin-right: 35px;
 }
 
 footer{
   background-color: white;
+  margin: 0 100px;
   display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+footer > a{
+  color: #1c5380;
+  font-weight: 900 ;
+  text-decoration: none;
+}
+
+footer > p{
+  color: gray;
+  font-weight: 700;
 }
