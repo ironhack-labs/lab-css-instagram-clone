@@ -7,26 +7,19 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
-  display: flexbox;
-  align-items: center;
-  border: 2px solid violet;
-}
-
-#container{
   background: url(../images/bgtile.png);
   background-repeat: repeat-x;
-  display: flex;
-  justify-content: center;
-
-  
-  border: 5px solid red;
 }
 
-.mobiles{
- border: 5px solid green;
- padding-top: 95px;
- padding-right: 30px;
- padding-left: 20px;
+#container {
+  display: flex;
+  justify-content: center;
+}
+
+.mobiles {
+  padding-top: 95px;
+  padding-right: 30px;
+  padding-left: 20px;
 }
 
 .instagram-image {
@@ -34,85 +27,69 @@ body {
   justify-content: space-between;
   align-items: center;
   width: 600px;
-  border: 5px solid orange;
 }
 
 .instagram-text {
-  display:flexbox;
+  display: flexbox;
   width: min-content;
- border: 5px solid black;
- padding-top: 80px;
+  padding-top: 80px;
 }
-
-
 
 .button {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  background-color:#1c5380;
+  background-color: #1c5380;
   color: white;
-  height:50px;
+  height: 50px;
   width: 120px;
-  background: linear-gradient(to top,#1c5380, #6e9abe);
+  background: linear-gradient(to top, #1c5380, #6e9abe);
   border: 2px solid #06365f;
-  
 }
 .capture {
-  display: flexbox;
-  background-color: white;
-  border-top:20px #06365f ;
+  background-image: url("../images/frame.png");
+  background-size: 600px;
+  background-repeat: no-repeat;
+  border-top: #06365f;
   border-radius: 5px;
-  border:2px solid yellow;
+  border: 2px solid transparent;
   padding-right: 125px;
   padding-left: 50px;
-  
 }
 h2 {
-  color:#06365f;
-  
-  border: 2px solid pink;
-}
-.Instagram-is{
-
-  border: 1px solid black;
+  color: #06365f;
 }
 
 .take-a-picture {
-  border: 2px solid greenyellow;
   padding-right: 5px;
   padding-left: 5px;
 }
-.stores{
-  display:flex;
+.stores {
+  display: flex;
   justify-content: space-around;
   padding-right: 210px;
   padding-left: 45px;
   padding-bottom: 10px;
   padding-top: 2px;
-  width:350px;
-  border: 2px solid violet;
+  width: 350px;
+  
 }
 
-ul {
+footer ul {
   display: flex;
+  justify-content: center;
   flex-direction: row;
-  justify-content: space-around;
   list-style: none;
-  padding-top:20px;
+  padding-top: 20px;
   padding-bottom: 20px;
-  margin-left: 600px;
   font-size: 10px;
-  width: 700px;
-  border: 2px solid black;
 }
 li {
-  display: flexbox;
-  align-items: center;
-  color:#1c5380;
+  color: #1c5380;
+  margin-left: 20px;
   font-weight: bold;
   font-size: 10px;
-  border: 2px solid blue;
+
 }
 
 .copy {
