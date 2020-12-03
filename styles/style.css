@@ -72,6 +72,7 @@ body {
 }
 
 .text{
+  width: 910px;
   padding: 20px 100px 20px 50px;
   height: 600px;
   background-image: url(../images/frame.png);
