@@ -28,6 +28,7 @@ main {
 footer {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   width: 80%;
   margin: 0 auto;
   font-size: 0.75rem;
@@ -41,6 +42,7 @@ footer p {
 
 footer ul {
   display: flex;
+  flex-wrap: wrap;
 }
 
 li {
@@ -104,11 +106,52 @@ li a:hover {
   width: 100px;
   font-weight: bold;
   margin-left: 10px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), inset 1px 0 0 rgba(255, 255, 255, 0.05), inset -1px 0 0 rgba(255, 255, 255, 0.05), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1),
+    inset 1px 0 0 rgba(255, 255, 255, 0.05),
+    inset -1px 0 0 rgba(255, 255, 255, 0.05),
+    inset 0 1px 0 rgba(255, 255, 255, 0.1);
 }
 
 #button:active {
   background-image: -webkit-linear-gradient(top, #3f729b, #6f97b6);
   border: 1px solid #133856;
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.15), inset 0 0 1px rgba(0, 0, 0, 0.15), 0 1px 0 rgba(255, 255, 255, 0.2);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.15),
+    inset 0 0 1px rgba(0, 0, 0, 0.15), 0 1px 0 rgba(255, 255, 255, 0.2);
+}
+
+@media (max-width: 768px) {
+  main {
+    width: 100%;
+    margin: 40px auto 20px;
+  }
+
+  #brand-login {
+    margin-bottom: 20px;
+  }
+
+  #brand-logo {
+    width: 70%;
+  }
+
+  #download-buttons img {
+    width: 40%;
+  }
+
+  #download-buttons {
+    text-align: center;
+  }
+
+  #cellphone {
+    display: none;
+  }
+
+  footer li {
+    width: calc(25% - 10px);
+    margin: 5px;
+    text-align: center;
+  }
+
+  footer p {
+    margin: 5px auto;
+  }
 }
