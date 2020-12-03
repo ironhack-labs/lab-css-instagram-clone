@@ -22,7 +22,7 @@ main {
   display: flex;
   justify-content: center;
   width: 80%;
-  margin: 110px auto 0;
+  margin: 110px auto 55px;
 }
 
 footer {
@@ -30,26 +30,34 @@ footer {
   justify-content: center;
   width: 80%;
   margin: 0 auto;
-  }
+  font-size: 0.75rem;
+  font-weight: 700;
+}
 
-  footer p {
-    color:
-  }
+footer p {
+  color: rgba(0, 0, 0, 0.3);
+  margin-left: 10px;
+}
 
 footer ul {
   display: flex;
 }
 
 li {
-  margin: 0 5px;
+  margin: 0 10px;
   list-style: none;
 }
 
 li a {
   text-transform: uppercase;
   text-decoration: none;
-  color:#1c5380;
+  color: #1c5380;
   font-weight: bold;
+}
+
+li a:hover {
+  text-decoration: underline;
+  color: #06365f;
 }
 
 #description {
@@ -74,7 +82,7 @@ li a {
 
 #cellphone {
   margin: 0 50px;
-  }
+}
 
 #download-buttons {
   padding: 0 40px;
@@ -88,7 +96,7 @@ li a {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-image: -webkit-linear-gradient(top, #6f97b6, #3f729b);   
+  background-image: -webkit-linear-gradient(top, #6f97b6, #3f729b);
   color: #fff;
   border: 1px solid #1c5380;
   border-radius: 3px;
@@ -96,10 +104,11 @@ li a {
   width: 100px;
   font-weight: bold;
   margin-left: 10px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), inset 1px 0 0 rgba(255,255,255,0.05), inset -1px 0 0 rgba(255,255,255,0.05), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), inset 1px 0 0 rgba(255, 255, 255, 0.05), inset -1px 0 0 rgba(255, 255, 255, 0.05), inset 0 1px 0 rgba(255, 255, 255, 0.1);
 }
+
 #button:active {
- background-image: -webkit-linear-gradient(top,  #3f729b,#6f97b6);    
-border: 1px solid #133856;
-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.15), inset 0 0 1px rgba(0, 0, 0, 0.15), 0 1px 0 rgba(255, 255, 255, 0.2);
+  background-image: -webkit-linear-gradient(top, #3f729b, #6f97b6);
+  border: 1px solid #133856;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.15), inset 0 0 1px rgba(0, 0, 0, 0.15), 0 1px 0 rgba(255, 255, 255, 0.2);
 }
