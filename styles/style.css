@@ -11,43 +11,42 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   height: 100%;
-  margin-top: 0;
+  margin: 0;
 }
 
 #background{
   background-image: url(../images/bgtile.png);
   height: 340px;
   padding: 90px 40px;
-  width: 80%;
+  width:100%;
   margin: 0 auto;
 }
 
 .main{
   display: flex;
   height: 700px;
+  width: 80%;
+  margin: 0 auto;
 }
 
 #phones{
   height: 700px;
 }
-
-.header{
-  display: flex;
-  align-items: center;
-  margin:0 65px 0 20px ;
-  justify-content: space-between;
-  padding: 20px 0;
-  
-  
-}
-
 #lateral{
   margin: 0 80px;
 }
 
+.header{
+  display: flex;
+  align-items: center;
+  margin:0 0px 0 0px ;
+  justify-content: space-between;
+  padding: 20px 15px;
+}
+
 #log-in{
-  background-image: url(../images/bgtile.png);
-  border: 1px solid #06365f ;
+  background-image: linear-gradient(#7093B1, #3A6890);
+  border: 1px solid #375774 ;
   border-radius: 5px;
   margin: 0mm;
   display: flex;
@@ -60,11 +59,20 @@ body {
 #log-in > a{
   text-decoration: none;
   color: white;
+  font-size: 1.3em;
 
 }
 
+#log-Click{
+ display: flex;
+ align-items: center;
+ justify-content: space-around;
+ height: 100%;
+ width: 100%;
+}
+
 .text{
-  padding: 50px;
+  padding: 20px 100px 20px 50px;
   height: 600px;
   background-image: url(../images/frame.png);
   background-repeat: no-repeat;
@@ -73,17 +81,29 @@ body {
 
 h3{
   color: #06365f;
-  font-size: ;
+  font-size: 2em ;
 }
 
-#stores > a{
-  margin-right: 35px;
+.text > p{
+  font-size: 1.5em
+}
+
+span{
+  font-weight: bold;
+}
+
+#stores > a > img{
+  margin-right: 20px;
+  height: 70px;
+
 }
 
 footer{
   background-color: white;
-  margin: 0 100px;
   display: flex;
+  justify-self: center;
+  width: 55%;
+  margin: 30px auto;
   justify-content: space-around;
   align-items: baseline;
 }
