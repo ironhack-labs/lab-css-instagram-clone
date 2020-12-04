@@ -1,9 +1,139 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
+/* MAIN ELEMENTS */
+body {
+  box-sizing: border-box;
+  font: 200 1rem/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+}
 
+h2 {
+  color: #06365f;
+}
+
+#background img {
+  height: 34%;
+  position: absolute;
+    right: 0;
+    top: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+#whole-content {
+  display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  height: 32rem;
+  margin: 8rem auto 0;
+  width: 80%;
+}
+
+.phones img {
+  height: 31rem;
+  width: 20rem;
+  position: relative;
+    bottom: 1rem;
+}
+
+.main-content {
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+  margin-left: 4rem;
+  width: 40%;
+}
+
+.header {
+  display: flex;
+    align-items: center;
+    justify-content: space-between;
+  margin-left: 0.5rem;
+}
+
+.header img[src="images/brand.png"] {
+  width: 80%;
+}
+
+.header img[src="images/home.png"] {
+  width: 25%;
+  margin-right: 0.5rem;
+}
+
+.header a {
+  background: linear-gradient(0deg, rgb(28, 83, 128, 0.2) 0%, rgba(101, 138, 168, 1) 70%);
+  background-color: rgb(28, 83, 128, 0.2);
+  border: 0.1rem groove rgba(6, 54, 95, 0.2);
+  border-radius: 0.2rem;
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
+  color: white;
+  display: flex;
+    align-items: center;
+    justify-content: space-around;
+  font-size: 0.75rem;
+  font-weight: bold;
+  height: 2rem;
+  margin-right: 0.5rem;
+  padding: 0.1rem 0.5rem;
+  text-decoration: none;
+  width: 4.5rem;
+}
+
+.content {
+  background-image: url('../images/frame.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 20rem;
+  padding: 0 2rem;
+}
+
+.content p {
+  font-size: 1rem;
+  font-weight: bolder;
+}
+
+.downloads {
+  display: flex;
+    justify-content: flex-start;
+  margin-top: 2rem;
+}
+
+.downloads img {
+  margin: 0.5rem 1rem auto auto;
+}
+
+/* FOOTER  */
+footer {
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer ul {
+  display: flex;
+    justify-content: center;
+  list-style: none;
+  margin: 1.5rem;
+}
+
+footer li {
+  margin: 0.5rem;
+}
+
+footer a {
+  color: #1c5380;
+  font-size: smaller;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+footer p {
+  color: lightgray;
+  font-size: smaller;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+@media (max-width: 1200px) {
 /* MAIN ELEMENTS */
 body {
   box-sizing: border-box;
@@ -16,35 +146,33 @@ h2 {
 }
 
 #background img {
+  height: 34%;
   position: absolute;
-  right: 0;
-  top: 0;
+    right: 0;
+    top: 0;
   width: 100%;
-  height: 30%;
   z-index: -1;
 }
 
 #whole-content {
   display: flex;
     align-items: flex-start;
-    justify-content: space-evenly;
-  margin: 5rem auto 0;
-  width: 80%;
+    justify-content: center;
   height: 32rem;
+  margin: 8rem auto 0;
+  width: 80%;
 }
 
 .phones img {
-  width: 20rem;
   height: 31rem;
-  position: relative;
-    bottom: 1.75rem;
-    left: 3rem;
+  width: 20rem;
 }
 
 .main-content {
   display: flex;
     flex-direction: column;
     justify-content: center;
+  margin-left: 5rem;
   width: 40%;
 }
 
@@ -64,24 +192,31 @@ h2 {
   margin-right: 0.5rem;
 }
 
-.header button {
-  background-color: rgb(28,83,128, 0.2);
-  border: 0.1rem solid rgba(6, 54, 95, 0.2);
+.header a {
+  background: linear-gradient(0deg, rgb(28, 83, 128, 0.2) 0%, rgba(101, 138, 168, 1) 70%);
+  background-color: rgb(28, 83, 128, 0.2);
+  border: 0.1rem groove rgba(6, 54, 95, 0.2);
   border-radius: 0.2rem;
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
   color: white;
   display: flex;
     align-items: center;
-  height: 2.5rem;
+    justify-content: center;
   font-size: 0.75rem;
   font-weight: bold;
-  padding: auto 1.5rem;
+  height: 2.5rem;
+  margin-right: 0.5rem;
+  padding: auto 2rem;
+  text-decoration: none;
+  width: 5rem;
 }
 
 .content {
   background-image: url('../images/frame.png');
-  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100%;
   height: 20rem;
-  padding-left: 2rem;
+  padding: 0 2rem;
 }
 
 .content p {
@@ -95,8 +230,7 @@ h2 {
 }
 
 .downloads img {
-  width: 35%;
-  margin-right: 1rem;
+  margin: 0.5rem 1rem auto auto;
 }
 
 /* FOOTER  */
