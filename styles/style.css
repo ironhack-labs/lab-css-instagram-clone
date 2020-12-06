@@ -6,5 +6,61 @@ light blue: #1c5380
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  margin: 50px;
+   background: url("/images/bgtile.png");
+  background-repeat: repeat-x;
+  /*background-image: url("../images/bgtile.png");*/
+  /*background-image: url("../images/frame.png");*/
+
 }
+.text h2{
+  color:#06365f;
+}
+.container{
+  display:flex;
+  justify-content: space-between;
+  /*background-color:red;*/
+  width: 90%;
+  /*background-color: white;;*/
+}
+.content{
+  /*background-color: yellow;*/
+  margin-left:40px;
+}
+.header{
+  /*background-color: pink;*/
+  display:flex;
+  padding: 20px 0px;
+  align-items: space-between;
+  /*background-color: pink;*/
+}
+.button{
+  background-color: #1c5380;
+  border-radius: 10%;
+  width:90px;
+  height: 20px;
+}
+.text{
+  padding:15px;
+  border-radius: 10px;
+  background-color: white;
+  height: 60%;
+  /*line-height:*/
+}
+button{
+  background-color: #1c5380;
+}
+.store-icons img{
+  margin-left:20px;
+  margin-top: 10px;
+}
+footer ul{
+  display:flex;
+  list-style:none;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: capitalize;
+  /*Opacidad transparencia para el @2014 Instagram*/
+  /*opacity: 0.5;*/
+}
+
