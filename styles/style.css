@@ -105,7 +105,7 @@ nav ul li a{
   color:#1c5380;
 }
 
-nav ul li .Copyright{
+nav ul li a .Copyright{
   text-decoration: none;
   color:gray;
 }
