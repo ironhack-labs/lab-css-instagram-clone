@@ -1,6 +1,6 @@
 *{
-  margin:0;
-  padding:0;
+  margin: 0px;
+  padding:0px;
 }
 
 
@@ -45,13 +45,12 @@ body {
   .login{
   background: #326088;
   background: linear-gradient(#608bad,#43759d);
-  margin:20px;
-  padding: 20px 20px;
+  /*margin:20px; */
+  padding: 10px 40px;
   text-decoration:none;
   font-size: 21px;
   color: white;
-  width:100px;
-  height:10px;
+  width:150px;
   text-align: right;
   }
 
