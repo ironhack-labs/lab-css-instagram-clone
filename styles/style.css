@@ -45,8 +45,6 @@ body {
   .login{
   background: #326088;
   background: linear-gradient(#608bad,#43759d);
-  background-image:url(/images/home.png);
-  background-image: no-repeat;
   margin:20px;
   padding: 20px 20px;
   text-decoration:none;
