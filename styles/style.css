@@ -11,10 +11,16 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url(file:///home/veronica/Documents/IRONHACK/week1/lab-css-instagram-clone/images/bgtile.png);
+  background-repeat: repeat-x;
+}
+
+a {
+  text-decoration: none;
 }
 
 article {
-  padding: 150px 150px 50px 150px;
+  padding: 100px 100px 50px 100px;
   display: flex;
   justify-content: center;
 }
@@ -24,21 +30,65 @@ article {
 }
 
 .right-container {
-  width: 500px;
+  width: 550px;
 }
 
 .logo-login-container {
+  padding-left: 5px;
   padding-bottom: 20px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+.login-container {
+  margin-right: 5px;
+  color: white;
+  height: 45px;
+  border: 1px solid #305573;
+  width: 95px;
+  display: block;
+  background-color: darkblue;
+  background-image: url(file:///home/veronica/Documents/IRONHACK/week1/lab-css-instagram-clone/images/bgtile.png);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 3px;
+  background: linear-gradient(1deg, #3c6c9400, #ffffff5e);
+}
+
+.white-container {
+  background-image: url(file:///home/veronica/Documents/IRONHACK/week1/lab-css-instagram-clone/images/frame.png);
+  background-repeat: no-repeat;
+  background-size: 549px;
+}
+
+.general-text-container {
+  padding: 40px 40px 5px 40px;
+}
+
+h1 {
+  color: #06365f;
+  border-top: 0;
+  padding-bottom: 0;
+  font-size: 25px;
+  height: 31px;
 }
 
 p {
-  padding: 10px 0;
+  padding: 7px 0;
 }
 
 .p-container {
   padding: 20px 0;
+}
+
+.stores-container {
+  padding-left: 35px;
+}
+
+.appstore {
+  padding-right: 15px;
 }
 
 footer ul {
@@ -47,8 +97,16 @@ footer ul {
   justify-content: space-evenly;
   text-align: center;
   margin: 0 500px;
+  padding-bottom: 50px;
 }
 
-li {
+li, a {
   list-style-type: none;
+  color: #06365f;
+  font-weight: 600;
+  font-size: small;
+}
+
+.copyright-text {
+  color: gray;
 }
