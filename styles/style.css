@@ -1,3 +1,10 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0px;
@@ -46,6 +53,7 @@ body {
   text-align: right;
   border-radius: 5px;
   border-color: whitesmoke;
+  box-shadow: 2px 2px 10px 0 #EEE;
 }
 
 h1 {
