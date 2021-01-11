@@ -14,8 +14,8 @@ body {
   }
 
   .back-colour{
-   background-image: #1c5380;
-   background-image: linear-gradient( #a2aab1)
+   background: #1c5380;
+   background: linear-gradient( #a2aab1)
   }
 
    .mobiles-section{
