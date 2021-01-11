@@ -1,4 +1,8 @@
-/*
+*{
+  margin:0;
+  padding:0;
+}
+  /*
 Colors to use:
 dark blue: #06365f
 light blue: #1c5380
@@ -7,4 +11,86 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+header {
+  background-color: #1c5380;
+  padding-top: 100px;
+  padding-bottom: 60px;
+
+  }
+.logo{
+  padding-left: 500px;
+}
+.login{
+  background-color:#1c5380;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border: #06365f 2px solid;
+  padding:10px 10px;
+}
+section{
+  margin-top: -80px;
+  display: inline;
+}
+.left{
+  margin: -150px 0px;
+  float: left;
+  padding-left: 100px;
+  padding-top: 0px;
+  padding-right: 40px;
+}
+.right{
+  padding-left: 800px;
+  padding-top: 50px;
+  padding-right: 100px;
+  background-image: url("https://raw.githubusercontent.com/evavirseda/lab-css-instagram-clone/master/images/frame.png");
+  background-size: cover;
+  text-align: center;
+}
+article{
+  justify-content: center;
+}
+h2{
+  font-weight: bold;
+  color: #06365f;
+}
+p{
+  margin: 20px;
+  text-align: center;
+ 
+}
+.download{
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 300px;
+  
+
+}
+
+footer {
+  position: absolute;
+  top: 750px;
+  width: 100%;
+  height: 30px;
+  margin-bottom: 50px;
+  margin-top: 0px;
+      width: 100%;
+
+
+}
+
+.list {
+  display: flex;
+  justify-content: space-evenly;
+  color: #1c5380;
+  text-decoration: none;
+  font-size: 1em;
+  list-style: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+}
+.list .terms{
+  color:#9c9c9c;
 }
