@@ -15,7 +15,7 @@ body {
 
   .back-colour{
    background: #1c5380;
-   background: linear-gradient(bottom, #1c5380, #7593ac)
+   background: linear-gradient( #a2aab1)
   }
 
    .mobiles-section{
@@ -51,7 +51,6 @@ body {
   width:100px;
   height:10px;
   text-align: right;
-  position:right;
 }
 
 h1 {
