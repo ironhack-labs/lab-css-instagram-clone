@@ -4,77 +4,93 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
-*{
-  margin:0;
-  padding:0;
+* {
+    margin: 0;
+    padding: 0;
 }
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
-  background: repeating-linear-gradient(
-    #1c5380 0px,
-    #06365f 30%,
-    white 30%,
-    white 100%
-  );
+    font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+    background: repeating-linear-gradient( #1c5380 0px, #06365f 40%, white 40%, white 100%);
+}
+
+h1 {
+    color: #06365f;
 }
 
 main {
-  margin: 100px;
-  margin-bottom: 40px;
-  display:flex;
+    margin: 150px;
+    margin-bottom: 40px;
+    display: flex;
 }
 
-.main-div{
-  margin-left: 100px;
+.main-div {
+    margin-left: 100px;
 }
 
-.description{
-  background-color: white;
-  padding: 50px;
-  border-radius: 10px;
+.description {
+    background-color: white;
+    padding: 50px;
+    border-radius: 10px;
 }
 
-.description-header{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+.description-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
 }
 
-#img-phone{
-  width: 50%;
-  height: auto;
+#img-phone {
+    width: 50%;
+    height: auto;
 }
 
-#login{
-  color: white;
-  font-weight: 500;
-  text-decoration: none;
-  background-color: #1c5380;
-  border: 1px solid #06365f;
-  width: 80px;
-  padding: 10px;
-  display: flex;
-  justify-content: space-between;
-  border-radius: 5px;
+#login {
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    background-color: #1c5380;
+    border: 1px solid #06365f;
+    width: 80px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
 }
 
-footer{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-transform: uppercase;
-  font-weight: 500;
-  font-size: 12px;
+.download-links {
+    display: flex;
+    margin-top: 40px;
 }
-footer > ul{
-  list-style-type: none;
-  display: flex;
-  justify-content: space-evenly;
-  color:#1c5380;
-  width: 60%;
+
+.download-links>a>img {
+    padding-right: 30px;
 }
-footer > p{
-  color: grey;
+
+p {
+    margin-top: 8px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+
+footer>ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    color: #1c5380;
+    width: 50%;
+}
+
+footer>p {
+    color: grey;
 }
