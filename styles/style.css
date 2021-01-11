@@ -45,11 +45,11 @@ body {
   .login{
   background: #326088;
   background: linear-gradient(#608bad,#43759d);
-  padding: 20px 20px 20px 20px;
+  padding: 20px 20px;
   text-decoration: none;
   font-size: 21px;
   color: white;
-  width:100px;
+  width:50px;
   height:10px;
   text-align: right;
   }
