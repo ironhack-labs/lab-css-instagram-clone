@@ -15,25 +15,26 @@ body {
     background: repeating-linear-gradient( #1c5380 0px, #06365f 40%, white 40%, white 100%);
 }
 
-h1 {
-    color: #06365f;
-    line-height: 1.2;
-}
-
-main {
+.main-container {
     margin: 150px;
     margin-bottom: 40px;
     display: flex;
 }
 
-.main-div {
+.description-container {
     margin-left: 100px;
 }
 
-.description {
+.description-body>h1 {
+    color: #06365f;
+    line-height: 1.2;
+}
+
+.description-body {
     background-color: white;
     padding: 50px;
     border-radius: 10px;
+    padding-bottom: 0;
 }
 
 .description-header {
@@ -43,22 +44,26 @@ main {
     margin-bottom: 30px;
 }
 
-#img-phone {
-    width: 50%;
-    height: auto;
+.description-body>p {
+    margin-top: 8px;
 }
 
 #login {
     color: white;
     font-weight: 500;
     text-decoration: none;
-    background-color: #1c5380;
+    background: repeating-linear-gradient( #1c5380 0px, #06365f 100%);
+    /* background-color: blue; */
     border: 1px solid #06365f;
     width: 80px;
     padding: 10px;
     display: flex;
     justify-content: space-between;
     border-radius: 5px;
+}
+
+#login:hover {
+    background: #06365f;
 }
 
 .download-links {
@@ -68,10 +73,6 @@ main {
 
 .download-links>a>img {
     padding-right: 30px;
-}
-
-p {
-    margin-top: 8px;
 }
 
 footer {
