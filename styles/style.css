@@ -51,8 +51,8 @@ body {
   width: 100px;
   text-align: right;
   border-radius: 5px;
-  border-color: whitesmoke;
-  box-shadow: 2px 2px 10px 0 #EEE;
+  border-color: black;
+  box-shadow: 2px 2px 2px 0 rgb(53, 50, 50);
 }
 
 .Home{
