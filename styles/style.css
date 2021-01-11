@@ -4,7 +4,6 @@
 }
 
 
-
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   background-color: white;
@@ -42,20 +41,20 @@ body {
   .inst{
     height: 70px;
   }
-
-.login{
+  
+  .login{
   background-color: #1c5380;;
   padding: 20px 20px;
   text-decoration: none;
   font-size: 21px;
   color: white;
-  width: 100px;
+  width:100px;
+  height:100px;
   text-align: right;
   /*border-radius: 5px; */
   border-color:8px 8px 8px 8px black;
   /*box-sizing: 8px 8px 8px 8px rgb(10, 10, 10);*/
 }
-
 
 h1 {
   font-size: 2em;
