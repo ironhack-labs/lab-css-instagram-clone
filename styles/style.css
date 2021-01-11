@@ -35,10 +35,12 @@ body {
 }
 
 .description-body {
-    background-color: white;
     padding: 50px;
     border-radius: 10px;
     padding-bottom: 0;
+    background-image: url("../images/frame.png");
+    background-position: center top;
+    background-size: 100% auto;
 }
 
 .description-header {
