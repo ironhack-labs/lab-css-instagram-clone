@@ -18,5 +18,21 @@ body {
     white 30%,
     white 100%
   );
+}
 
+main {
+  margin: 100px;
+  margin-bottom: 40px;
+  display:flex;
+}
+
+.main-div{
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.description{
+  background-color: white;
+  padding: 50px;
+  border-radius: 10px;
 }
