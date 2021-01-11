@@ -52,6 +52,7 @@ body {
   width:100px;
   height:10px;
   text-align: right;
+  border-color: black;
 }
 
 h1 {
