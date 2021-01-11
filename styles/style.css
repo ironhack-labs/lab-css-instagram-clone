@@ -6,7 +6,7 @@
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background-color: white;577494
+  background-color: white;
   background-image:url(/images/bgtile.png);
   background-repeat:repeat-x;
   display: flex;
@@ -43,8 +43,8 @@ body {
   }
   
   .login{
-  background-color: #326088;
-  background-color: linear-gradient(#577494,#326088);
+  background: #326088;
+  background: linear-gradient(#577494,#326088);
   padding: 20px 20px;
   text-decoration: none;
   font-size: 21px;
