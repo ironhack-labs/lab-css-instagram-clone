@@ -52,6 +52,7 @@ body {
   color: white;
   width:150px;
   text-align:center;
+  white-space:normal;
   }
 
 h1 {
