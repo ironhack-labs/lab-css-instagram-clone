@@ -55,6 +55,11 @@ body {
   box-shadow: 2px 2px 10px 0 #EEE;
 }
 
+.Home{
+  padding: 20px 20px;
+}
+
+
 h1 {
   font-size: 2em;
   color: #06365f;
