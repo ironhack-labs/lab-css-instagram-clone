@@ -51,9 +51,6 @@ body {
   width:100px;
   height:10px;
   text-align: right;
-  /*border-radius: 5px; */
-  border-color:8px 8px 8px 8px black;
-  /*box-sizing: 8px 8px 8px 8px rgb(10, 10, 10);*/
 }
 
 h1 {
