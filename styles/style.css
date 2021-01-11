@@ -6,7 +6,7 @@
 
 
 body {
-  font-family: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   background-color: white;
   background-image:url(/images/bgtile.png);
   background-repeat:repeat-x;
