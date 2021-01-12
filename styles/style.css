@@ -18,6 +18,7 @@ body {
 #topbar {
   display: flex;
   justify-content: space-between;
+  margin-bottom: auto;
 }
 
 #textBlock {
@@ -26,7 +27,7 @@ body {
   flex-direction: column;
   background-image: url(/images/frame.png);
   background-size:cover;
-  padding: 15px;
+  padding: 2em;
   text-align: left;
 }
 h1{
@@ -36,6 +37,7 @@ h1{
 #badges {
   display: flex;
   justify-content: space-evenly;
+  margin-right: 5em;
 }
 
 footer ul {
@@ -44,7 +46,15 @@ footer ul {
   justify-content: space-evenly;
   list-style: none;
   color: #06365f;
-  text-decoration: bold;
+  margin-left: 30em;
+  margin-right: 30em;
+  margin-top:5em;
+}
+
+footer ul a {
+  text-decoration: none;
+  color: #06365f;
+  font-weight: bold;
 }
 
 button {
@@ -55,10 +65,17 @@ button {
   display: flex;
   justify-content: space-evenly;
   align-content: center;
+  padding-top: 1.2em;
+  height: 4.5em;
+}
+
+h2 {
+  margin:0;
 }
 
 button img {
-  padding-top: 20px;
+  display: flex;
+  align-content:center;
 }
 
 container {
