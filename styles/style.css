@@ -4,7 +4,72 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+}
+
+
+div {
+  width: 1000px;
+  margin: auto;
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+}
+
+section {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.login-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+  color: white;
+  padding: 10px 15px;
+  background: linear-gradient(#1c5380,#06365f);
+  border-radius: 5px;
+}
+
+h1 {
+  color: #06365f;
+  width: 350px;
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+
+.section-footer {
+  display: flex;
+  align-items: center;
+}
+
+.section-footer > img {
+  margin-right: 20px;
+}
+
+.phone-img {
+  margin-right: 50px;
+}
+
+.main-margin-bottom {
+  margin-bottom: 50px;
+}
+
+.small-margin-bottom {
+  margin-bottom: 10px;
 }
