@@ -45,10 +45,15 @@ footer ul {
   flex-direction: row;
   justify-content: space-evenly;
   list-style: none;
-  color: #06365f;
+  color:#1c5380 ;
   margin-left: 30em;
   margin-right: 30em;
   margin-top:5em;
+  animation: all;
+}
+
+footer ul:hover {
+  color: #6392cc;
 }
 
 footer ul a {
@@ -67,6 +72,7 @@ button {
   align-content: center;
   padding-top: 1.2em;
   height: 4.5em;
+  border-color: #1f5c91;
 }
 
 h2 {
