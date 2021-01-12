@@ -5,6 +5,79 @@ light blue: #1c5380
 */
 
 body {
+  background-image: url(/images/bgtile.png);
+  background-repeat: repeat-x;
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+#iphone {
+  display: flex;
+}
+
+#topbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+#textBlock {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url(/images/frame.png);
+  background-size:cover;
+  padding: 15px;
+  text-align: left;
+}
+h1{
+  color: #06365f;
+}
+
+#badges {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+footer ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  list-style: none;
+  color: #06365f;
+  text-decoration: bold;
+}
+
+button {
+  background-image: linear-gradient(to top,  #11497a, #3a76a7 );
+  border-radius: 5px;
+  width: 150px;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+}
+
+button img {
+  padding-top: 20px;
+}
+
+container {
+  display: flex;
+  flex-direction: row;
+  align-content: left;
+  justify-content: center;
+  padding-right: 30eM;
+  padding-left: 30em;
+  padding-top: 8em;
+}
+
+containersub{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+}
+
+#cr {
+  color: darkgrey;
 }
