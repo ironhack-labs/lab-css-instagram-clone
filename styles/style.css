@@ -28,7 +28,7 @@ h2{
 }
 article{
   padding: 20px 60px 50px 50px;
-  background-image: url("images/frame.png");
+  background-image: url("../images/frame.png");
 }
 
 footer{
@@ -36,6 +36,11 @@ footer{
   display: flex;
   justify-content: space-around;
 }
+
+.fondo { 
+  background-image: url(../images/bgtile.png);
+  background-size: 220px; 
+  background-repeat: repeat-x }
 
 .ul{
   list-style-type: none;
@@ -67,7 +72,7 @@ footer{
   margin-right: 50px;
   display: flex;
   justify-content: space-around;
-  align-content: center;
+  align-items: center;
   height: 30px;
   width: 100px;
   padding: 5px;
