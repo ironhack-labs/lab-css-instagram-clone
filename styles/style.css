@@ -12,7 +12,7 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5  Helvetica;
   margin: 0;
-  background-color: #06365f;
+  background-color: #1c5380;
 }
 
 main {
@@ -32,7 +32,7 @@ article{
 }
 
 footer{
-  
+  margin-bottom: 50px;
   display: flex;
   justify-content: space-around;
 }
@@ -53,10 +53,34 @@ footer{
   margin: 80px 200px 30px 80px;
 }
 
+.headinsection{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.login{
+  border:1px solid black;
+  color: white;
+  text-decoration: none;
+  margin-top: 20px;
+  margin-right: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  height: 30px;
+  width: 100px;
+  padding: 5px;
+}
+
 .app-links{
   padding-left: 50px;
 }
 
 .android-link{
   margin-left: 10px;
+}
+
+.copyright{
+  color: lightslategrey;
 }
