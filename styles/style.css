@@ -4,7 +4,57 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+h2{
+  color:#06365f;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: url("/images/bgtile.png");
+  border: auto 129px;
+}
+
+.phones {
+  display: inline-block;
+  margin: 0;
+  padding: 80px 50px 50px 80px;
+  box-sizing: border-box;
+}
+
+.brand {
+  display: inline-block;
+  margin: 0;
+  padding: 100px 50px 50px 20px;
+  width: 300px;
+  vertical-align: top;
+}
+
+.frame {
+  display: inline-block;
+  margin: 10px ;
+  padding: 30px 100px 30px 30px;
+  width: 300px;
+  background-color: white;
+}
+
+.link-btn {
+  display: inline-block;
+  vertical-align: top;
+  margin: 110px 50px 50px 20px;
+  padding: 10px 30px 10px 30px;
+  background-color: #1c5380;
+  text-decoration: none;
+  color: white;
+}
+
+.iphone {
+  display: inline-block;
+  flex-direction:row;
+  margin: 0;
+  padding: 20px 10px 10px 10px;
+  width: 150px;
+  vertical-align: top;
 }
