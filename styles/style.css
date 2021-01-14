@@ -8,3 +8,63 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.text-box {
+  text-align: left;
+  background: url(/images/frame.png);
+  background-repeat: no-repeat;
+  width: 400px;
+  padding: 30px;
+}
+
+h2 {
+  color: #06365f;
+}
+
+footer {
+  color: #1c5380;
+}
+
+.footer-ul {
+  font-weight: bold;
+  width:900px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-ul li {
+  list-style-type: none;
+}
+
+.images {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 30px;
+  background: linear-gradient(to bottom, #1c5380, #06365f);
+}
+
+.images-scnd-level {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 50px;
+}
+
+.link-btn {
+  background-color: #1c5380;
+  box-shadow: navy;
+  color: white;
+  text-decoration: none;
+  width: 100px;
+  display: flex;
+  justify-content: space-around;
+  padding: 7px;
+  margin-left: 70px;
+  font-weight: bold;
+}
+
+.gray-text {
+  color:grey;
+}
