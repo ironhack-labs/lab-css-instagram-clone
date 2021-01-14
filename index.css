@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(29, 78, 141);
+}
+h2 {
+    color: rgb(71, 71, 192);
+   }
+   .logo{
+       max-width: 1000px;
+       float: right;
+   }
+ 
+   .parrafo {
+       font-family: "Helvetica Neue";
+   }
+
+   .cuadro{
+       box-sizing: border-box;
+       flex-flow: column wrap-reverse;
+       border: rgb(184, 184, 214);
+       width: 500px;
+       height: 500px;
+       float: right;
+   }
+
+   .button {
+       box-sizing: border-box;
+       background-color: rgb(113, 160, 221);
+       color: white;
+       border: 1px solid rgb(0, 38, 87);
+       margin: 0px;
+       padding: 0 1;
+       width: 80px;
+       
+   }
+   .navega {
+       display: flex;
+       justify-content: space-around
+       list-style: none;
+   }
+
+   .foo {
+       background-color: rgb(255, 255, 255);
+       position: absolute;
+       bottom: 0;
+       list-style: none;
+   }
+
+   .foto1 {
+       width: 200px;
+       height: 200px;
+       float: left;
+   }
