@@ -8,3 +8,79 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+button{
+
+padding: 5px 25px 5px 25px;
+margin-left: 57px;
+
+font-size: 17px;
+background-color: #1c5380;
+color: aliceblue;
+}
+
+
+
+h1{
+ 
+  width: 378px;
+  font-size: 27px;
+  text-align: left;
+  color: #1c5380;
+}
+
+p{
+  width: 420px;
+  font-size: 14.5px;
+}
+
+#seccion{
+
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+  align-content: stretch;
+  
+}
+
+.info{
+  background-image: url(/images/frame.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+  width: 500px;
+  height: 360px;
+  display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-end;
+	align-items: center;
+	align-content: stretch;
+
+}
+
+.imgIphone{
+
+  margin-left: 40px;
+  margin-top: 30px;
+  margin-right: 20px;
+
+}
+
+ul{
+  margin-top: 100px;
+  list-style: none;
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+}
+
+li{
+ color: #1c5380 ;
+ margin: 0 10px;
+
+}
