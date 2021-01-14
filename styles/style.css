@@ -7,4 +7,104 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  
+  
+}
+
+#fondoazul{
+  background: linear-gradient(90deg, rgba(6,54,95,1) 0%, rgba(28,83,128,1) 100%);
+  /* position: relative; */
+  background-position: center;
+  background-size: cover;
+  height: 200px;
+
+}
+
+.container{
+  display: flex;
+  width: 80%;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+  top: -100px;
+  position: relative;
+}
+
+#instagram{
+  width: 80%;
+  
+  
+}
+
+#info{
+  
+  -webkit-box-shadow: -2px -9px 6px -6px rgba(0,0,0,0.38); 
+  box-shadow: -2px -9px 6px -6px rgba(0,0,0,0.38);
+width: 70%;
+display: flex;
+justify-content: center;
+background-color: white;
+margin: auto;
+padding: 19px;
+border-radius: 5px;
+font-size: 12px;
+padding: 10px 20px;
+/* box-sizing: border-box; */
+}
+
+#logo{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+#boton{
+  background-color: #1c5380;
+  color: white;
+  padding: 3px 10px;
+  border: rgba(0, 0, 36, 0.431) solid 1px;
+  -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.24); 
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.102);
+  height: 22px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+#texto{
+  position: relative;
+    top: -3px;
+    left: 5px;
+    font-size: 12px;;
+}
+h1 {
+  color: #1c5380;
+}
+
+#links{
+  
+  text-decoration: none;
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: space-around;
+  margin: 10px;
+  list-style-type:none;
+  font-size: 9px;
+}
+
+a{
+  text-decoration: none;
+}
+.piecero{
+  position: relative;
+  top: -80px;
+  width: 50%;
+  position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#appstore{
+  display: flex;
+    justify-content: space-evenly;
 }
