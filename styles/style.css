@@ -8,3 +8,111 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+
+.blue-box {
+  height: 40vh;
+  background-color:#1c5380;
+}
+
+.white-box {
+  height: 60vh;
+  position: relative;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.content-box {
+  position: absolute;
+  height: 75vh;
+  width: 80vw;
+  left: 10%;
+  top: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.image-container {
+  margin-right: 50px;
+}
+
+.button-login {
+  background-color: #467aa5;
+
+  color: white;
+  padding: 6px;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  font-size: bold;
+  margin: 4px 2px;
+  border-radius: 3px;
+}
+
+.button-login img {
+  padding-right: 8px;
+}
+
+.content-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content-header>img {
+  width: 300px;
+}
+
+.text-content {
+  background-color: white;
+  border-radius: 10px;
+}
+
+.content-title {
+  margin: 30px;
+  padding-top: 20px;
+  
+}
+
+.content-title h4 {
+  padding: 0;
+  margin: 0;
+  font-size: 1.5em;
+  color: #06365f;
+}
+
+.content-text {
+  margin: 0 30px 30px 30px;
+}
+
+.content-download {
+  margin-left: 20px;
+}
+
+.content-download a {
+  margin: 10px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 30px;
+}
+
+.footer a {
+  margin: 10px;
+  text-decoration: none;
+  color: #1c5380;
+  font-weight: bold;
+}
+
+.footer span {
+  color: rgb(192,192,192);
+}
