@@ -1,52 +1,74 @@
-body{
+body {
     background-color: rgb(29, 78, 141);
+    margin: 0;
+    width: 100%;
+    height: 100%;
 }
-h2 {
-    color: rgb(71, 71, 192);
-   }
-   .logo{
-       max-width: 1000px;
-       float: right;
-   }
- 
-   .parrafo {
-       font-family: "Helvetica Neue";
-   }
 
-   .cuadro{
-       box-sizing: border-box;
-       flex-flow: column wrap-reverse;
-       border: rgb(184, 184, 214);
-       width: 500px;
-       height: 500px;
-       float: right;
-   }
+.main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
-   .button {
-       box-sizing: border-box;
-       background-color: rgb(113, 160, 221);
-       color: white;
-       border: 1px solid rgb(0, 38, 87);
-       margin: 0px;
-       padding: 0 1;
-       width: 80px;
-       
-   }
-   .navega {
-       display: flex;
-       justify-content: space-around
-       list-style: none;
-   }
+.container-img {
+    display: flex;
+    width: 60%;
+    height: 60%;
+    margin-top: 80px;
+}
 
-   .foo {
-       background-color: rgb(255, 255, 255);
-       position: absolute;
-       bottom: 0;
-       list-style: none;
-   }
+.iphone {
+    width: 45%;
+}
 
-   .foto1 {
-       width: 200px;
-       height: 200px;
-       float: left;
-   }
+.content {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.icon-ins {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.login {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(29, 78, 141);
+    border: black 1px solid;
+}
+
+.moments {
+    background-image: url('./images/frame.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.text-moments {
+    margin: 0 10% 0 10%;
+}
+
+.img-moments {
+    margin: 0 10% 0 10%;
+}
+
+.navega {
+    display: flex;
+    width: 40%;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+    color: white;
+}
