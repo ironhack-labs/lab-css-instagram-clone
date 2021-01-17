@@ -2,9 +2,161 @@
 Colors to use:
 dark blue: #06365f
 light blue: #1c5380
+lighter blue: #517fa4
+darker blue: #306088
 */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+/* Main Page Content */
+
+.main {
+  height: 95vh;
+  width: 100%;
+}
+
+.blue-bg {
+  height: 30vh;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  background: linear-gradient(0deg, #306088 1%, #517fa4 100%);
+}
+
+.content-wrapper {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.phones-img {
+  width: 40%;
+  padding: 80px 0 0 0;
+}
+
+.phones-img img {
+  height: 100%;
+}
+
+.cta-wrapper {
+  width: 60%;
+  padding: 100px 0 0 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.logos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 13px;
+  color: #fff;
+  background: linear-gradient(0deg, #306088 1%, #517fa4 100%);
+  border-radius: 5px;
+  border: 1px solid #1c5380;
+  filter: brightness(115%)
+}
+
+.login > i {
+  color: #fff;
+  font-size: 25px;
+}
+
+.login > p {
+  font-size: 1rem;
+  margin: 0 0 0 10px;
+}
+
+.highlight-text {
+  /* background-image: url("../images/frame.png");
+  background-size: cover;
+  background-repeat: no-repeat; */
+  background-color: #fff;
+  border-radius: 7px;
+  box-shadow: 0px -17px 20px 2px rgba(0, 0, 0, 0.1);
+  padding: 50px;
+}
+
+.text > h2 {
+  font-size: 27px;
+  line-height: 32px;
+  margin-right: 35%;
+  color: #06365f;
+  margin-bottom: 1rem;
+  /*margin: 0 300px 20px 0;*/
+}
+
+.text p {
+  letter-spacing: 0.5px;
+  margin-bottom: 1rem;
+}
+
+.app-stores {
+  margin: 25px 0 0 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* End of Main Page Content */
+
+
+/* Footer */
+
+.footer {
+  height: 5vh;
+  width: 100%;
+  display: flex;
+}
+
+.footer-wrapper {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  width: 100%;
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li {
+  padding: 20px 15px;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  font-weight: 750;
+  color: #517fa4;
+}
+
+.footer-wrapper > p {
+  padding: 8px 6px;
+  margin: 0px 0px 0px 30px;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  font-weight: 750;
+  color: #0000004d;
+}
+
+/* End of Footer
