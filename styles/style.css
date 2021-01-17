@@ -5,6 +5,95 @@ light blue: #1c5380
 */
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+    font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+    width: 100%;
+    background: linear-gradient( #1c5380 50%, #FFFFFF 50%);
+    z-index: 0;
+}
+
+.box {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 80px;
+}
+
+.login {
+    margin: 30px;
+    padding: 10px;
+    background-color: #2a699c;
+    border: 1px solid #2a699c;
+    color: #ffffff;
+    shadow: rgba(255, 255, 255, 0.;
+    )
+}
+
+.phones {
+    width: 400px;
+    height: auto;
+}
+
+.box2 {
+    display: flex;
+    justify-content: left;
+}
+
+h1 {
+    color: #06365f;
+    padding-top: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+aside {
+    display: flex;
+    text-align: right;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.box3 {
+    background-image: url("../images/frame.png");
+    background-size: cover;
+    padding-left: 80px;
+    text-align: left;
+    z-index: 1;
+}
+
+.nav-bar a {
+    color: #1c5380;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+}
+
+footer>div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media (min-width:320px) and (max-width: 480px) {
+    .container {
+        flex-direction: column;
+    }
 }
