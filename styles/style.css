@@ -20,8 +20,46 @@ header {
 }
 
 header > div {
-  margin-top: 200px;
   margin-left: 200px;
-  border: 2px solid red;
-  width: 600px;
+  width: 300px;
+}
+
+.phones {
+  display: flex;
+  margin-right: 100px;
+  margin-left: 200px;
+  top: -180px;
+  position: relative;
+}
+
+#instagram {
+  width: 80%;
+}
+
+#logo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-left: 200px;
+  padding-top: 130px;
+}
+
+#boton {
+  background-color: #1c5380;
+  color: white;
+  padding: 10px 20px 10px 10px;
+  border: rgba(0, 0, 0, 0.431) solid 1px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24);
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.102);
+  height: 45px;
+  border-radius: 2px;
+  cursor: pointer; /*não tá funcionando :(*/
+  font-weight: bold;
+}
+
+#texto {
+  position: relative;
+  top: -3px;
+  left: 5px;
+  font-size: 15px;
 }
