@@ -15,8 +15,7 @@ body {
 }
 
 header {
-  background-color: #1c5380;
-  background: -moz-linear-gradient();
+  background: linear-gradient(to bottom, #7a95ac, #4b759b);
   height: 300px;
 }
 
@@ -41,7 +40,7 @@ header {
   justify-content: flex-end;
   height: 50px;
   padding: 15px ;
-  background-color: #1c5380;
+  background: linear-gradient(to bottom, #7a95ac, #4b759b);
   border: rgba(0, 0, 0, 0.431) solid 1px;
   border-radius: 2px;
   box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.102);
@@ -121,5 +120,6 @@ footer > ul {
 
 footer a {
   color: #1c5380;
+  opacity: .9;
   text-transform: uppercase;
 }
