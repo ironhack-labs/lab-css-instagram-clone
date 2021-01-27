@@ -7,6 +7,17 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  width: 100%;
+  position: sticky;
+  z-index: -1;
+}
+
+header {
+  width: 100%;
+  height: 280px;
+  background-color: #4a6983;
+  position: absolute;
+  z-index: -1;
 }
 
 /* MAIN SECTION STYLING */
@@ -14,26 +25,38 @@ body {
 .main-content {
   display: flex;
   justify-content: space-around;
-  width: 85%;
-  margin-top: 100px;
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 80px;
 }
 
 .top-section {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  margin-left: 50px;
 }
 
 .information {
-  border: solid 1px black;
   border-radius: 5px;
+  margin: 10px 0 0 50px;
+  background: white;
+  box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
 }
 
-.information p, .information h2 {
+.information p {
   padding: 0 30px;
 }
 
+.information h2 {
+  padding: 10px 60px 0 30px;
+}
+
+.information p {
+  color:rgb(83, 83, 83)
+}
+
 #log-in {
-  border: solid 1px #06365f;
   padding: 10px;
   display: flex;
   width: 80px;
@@ -41,9 +64,10 @@ body {
   align-items: center;
   justify-content: space-around;
   border-radius: 3px;
-  background: #517a9c;
+  background: #4a6983;
   color: #e1f1ff;
   font-weight: 800;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 h2 {
@@ -55,7 +79,7 @@ h2 {
 }
 
 .download-links a {
-  margin: 0 30px;
+  margin: 0 0 0 30px;
 }
 
 /* FOOTER STYLING */
@@ -63,13 +87,14 @@ h2 {
 footer {
   display: flex;
   align-items: center;
+  justify-content: center;
   margin: 60px 0;
 }
 
 ul {
   display: flex;
   list-style: none;
-  color: #1c5380;
+  color: #54758f;
   font-weight: 900;
   font-size: small;
   align-items: center;
