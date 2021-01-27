@@ -16,6 +16,7 @@ body {
 
 header {
   background-color: #1c5380;
+  background: -moz-linear-gradient();
   height: 300px;
 }
 
@@ -25,7 +26,7 @@ header > div {
 }
 
 .phones {
-  display: flex;
+  display: inline-flex;
   margin-right: 100px;
   margin-left: 200px;
   top: -180px;
@@ -53,13 +54,63 @@ header > div {
   box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.102);
   height: 45px;
   border-radius: 2px;
-  cursor: pointer; /*não tá funcionando :(*/
+  cursor: pointer;
   font-weight: bold;
 }
 
-#texto {
-  position: relative;
-  top: -3px;
-  left: 5px;
+h1 {
+  color: #06365f;
+}
+
+footer > ul {
+  display: flex;
+  justify-content: space-around;
+  padding-right: 250px;
+  padding-left: 250px;
+  margin: 80px;
+  list-style-type: none;
   font-size: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: #1c5380;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.info {
+  margin-top: -44%;
+  margin-left: 45%;
+  background-image: url ("/images/frame.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.info > h1 {
+  width: 337px;
+  padding-left: 30px;
+  font-size: 28px;
+  margin-top: -35%;
+}
+
+.info p {
+  font-weight: bolder;
+  font-size: 17px;
+  line-height: 1.5em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding-left: 30px;
+  width: 450px;
+}
+
+.appstore {
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 48%;
+  padding-right: 25%;
+}
+
+#list-insta {
+  color: gray;
 }
