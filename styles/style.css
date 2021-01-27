@@ -9,3 +9,19 @@ body {
   margin: 0;
 }
 
+.main-content {
+  display: flex;
+}
+
+footer {
+  display: flex;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+li {
+  margin-left: 1rem;
+}
