@@ -4,7 +4,142 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100vh;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  height: 100%;
+  background-color: #5b7794;
+  background: linear-gradient(
+    to bottom,
+    #5b7794 0%,
+    #5b7794 40%,
+    /* #5b7794 10%, */ white 20%,
+    white 100%
+  );
+
+  /* background-image: url(/images/bgtile.png);
+  background-repeat: repeat-x;
+  background-size: 50% auto; */
+}
+
+/* img {
+  display: block;
+  width: 100%;
+} */
+
+h1 {
+  color: #06365f;
+}
+
+/* Main container  */
+
+.main-container {
+  display: flex;
+  padding-top: 15vh;
+  padding-left: 15vw;
+  width: 1000px;
+}
+
+.iphone-img {
+  width: 400px;
+}
+
+/* Header Logo + Button */
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.logIn-btn {
+  font-size: 17px;
+  color: #d8dfe6;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin: 15px;
+  height: 40px;
+  /* width: 125px; */
+  display: flex;
+  border-radius: 3px;
+  border-color: #06365f;
+  background-color: #678bab;
+}
+
+.logIn-btn img {
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+/* Content text */
+
+.content-text {
+  margin: 70px;
+  background-image: url(/images/frame.png);
+  background-repeat: no-repeat;
+  background-position: -40px -40px;
+  background-size: cover;
+}
+
+.content-text h1 {
+  width: 337px;
+  padding-left: 30px;
+  margin-top: -40px;
+}
+
+.content-text p {
+  font-weight: bolder;
+  font-size: 17px;
+  line-height: 1.5em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding-left: 30px;
+  width: 450px;
+}
+
+span {
+  font-weight: bold;
+}
+
+/* Badges  */
+
+.badges {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 60px;
+  margin-top: -30px;
+}
+
+/* Footer */
+
+.footer-ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  width: 700px;
+  height: 70px;
+  padding-left: 25vw;
+  padding-top: 5vw;
+  margin-top: -40px;
+}
+
+.footer-ul a {
+  text-decoration: none;
+  color: #1c5380;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+#copyright {
+  color: lightslategray;
 }
