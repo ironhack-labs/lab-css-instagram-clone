@@ -17,7 +17,7 @@ body {
   left: 0;
   top: 0;
   height: 40%;
-  width: 100%;
+  width: 100vw;
 }
 
 
@@ -106,10 +106,10 @@ main {
 footer {
   box-sizing: border-box;
   position: absolute;
-  width: 100%;
+  width: 100vw;
   bottom: 0;
   left: 0;
-  padding: 3% 20%;
+  padding: 3% 15%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -120,7 +120,7 @@ footer a {
   color: #06365f;
   font-weight: bold;
   font-size: 0.75rem;
-  margin: 0 15px;
+  margin: 0 10px;
 }
 
 footer span {
@@ -129,7 +129,57 @@ footer span {
   color: gray;
 }
 
-@media only screen and (max-width: 418px) {
+@media only screen and (max-width: 326px) {
+  .phones_image {
+    display: none;
+  }
+
+  .top_header {
+    height: 25%;
+  }
+  
+  main {
+    flex-direction: column-reverse;
+    width: 100%;
+    margin: 20% 0 0;
+  }
+
+  .top-container {
+    width: 100%;
+  }
+
+  .bottom-container {
+    width: 100%;
+  }
+
+  footer {
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+
+  footer a {
+    margin-bottom: 5px;
+  }
+
+  .download-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .download-images {
+    height: 35px;
+  }
+
+  html {
+    font-size: 14px;
+  }
+}
+
+
+@media only screen and (min-width: 326px) and (max-width: 418px) {
 
   .top_header {
     height: 25%;
@@ -156,6 +206,7 @@ footer span {
   footer {
     flex-direction: column;
     justify-content: center;
+    box-sizing: border-box;
   }
 
   footer a {
@@ -164,6 +215,37 @@ footer span {
 
   .download-images {
     height: 35px;
+  }
+}
+
+@media only screen and (min-width: 418px) and (max-width: 600px) {
+
+  .top_header {
+    height: 250px;
+  }
+  
+  main {
+    width: 100%;
+    margin: 25% 0 0;
+    padding: 0 5%;
+    justify-content: space-evenly;
+  }
+
+  .phones_image {
+    width: 100px;
+  }
+
+  .download-images {
+    height: 35px;
+  }
+
+  footer {
+    padding: 0 5%;
+    flex-wrap: wrap;
+  }
+
+  footer a {
+    margin: 0 5px;
   }
 }
 
