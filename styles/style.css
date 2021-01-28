@@ -12,27 +12,39 @@ body {
 }
 
 .top_header{
-  background-color: #06365f;
-  position: fixed;
-  left:0;
-  top:0;
-  height: 200px;
+  background-color: #1c5380;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 40%;
   width: 100%;
 }
 
+
+.phones_image {
+  width: 270px;
+}
+
+
 main {
   box-sizing: border-box;
-  padding: 60px 15% 30px;
+  width: 270px;
+  margin-top: 10%;
+  padding: 0 10%;
   width: 100%;
-  position: absolute;
+  position: relative;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   background-color: transparent;
 }
 
-main div > div {
-  width: 50%;
+.instagram_logo {
+  width: 60%;
+}
+
+.download-images {
+  height: 50px;
 }
 
 .top-container {
@@ -41,20 +53,28 @@ main div > div {
   align-items: center;
   padding: 0 5px;
   box-sizing: border-box;
-  width: 500px;
+  width: 50vw;
+}
+
+.top-container button a {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.top-container button a img {
+  margin-right: 10px;
 }
 
 .top-container button {
-  width: 90px;
   background-color: #1c5380;
   text-align: center;
   font-weight: bold;
   font-size: 0.75rem;
   color: white;
   padding: 5px 10px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   border-radius: 5px;
   box-sizing: border-box;
 }
@@ -64,28 +84,32 @@ main div > div {
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: 0 0;
-  padding: 40px;
+  padding: 7% 7% 0;
   box-sizing: border-box;
-  width: 500px;
+  width: 50vw;
 }
 
 .bottom-container h2 {
   color: #06365f;
   font-weight: bold;
-  font-size: 2rem;
-  line-height: 2.5rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
   margin: 0;
   padding: 0; 
-  
+}
+
+.bottom-container p {
+  font-size: 1rem;
+  margin: 10px 0;
 }
 
 footer {
   box-sizing: border-box;
-  position: fixed;
+  position: absolute;
   width: 100%;
   bottom: 0;
   left: 0;
-  padding: 20px 20%;
+  padding: 3% 20%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -96,6 +120,7 @@ footer a {
   color: #06365f;
   font-weight: bold;
   font-size: 0.75rem;
+  margin: 0 15px;
 }
 
 footer span {
@@ -103,3 +128,42 @@ footer span {
   font-size: 0.75rem;
   color: gray;
 }
+
+@media only screen and (max-width: 418px) {
+
+  .top_header {
+    height: 25%;
+  }
+  
+  main {
+    flex-direction: column-reverse;
+    width: 100%;
+    margin: 20% 0 0;
+  }
+  
+  .top-container {
+    width: 100%;
+  }
+
+  .bottom-container {
+    width: 100%;
+  }
+
+  .phones_image {
+    display: none;
+  }
+
+  footer {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  footer a {
+    margin-bottom: 5px;
+  }
+
+  .download-images {
+    height: 35px;
+  }
+}
+
