@@ -8,3 +8,87 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.body-background {
+  position: absolute;
+  top: 0;
+  background-image: url("../images/bgtile.png");
+  height: 260px;
+  width: 100%;
+  z-index: -1;
+}
+
+.body-foreground {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.foreground-section {
+  padding: 0 20px;
+}
+
+.logo-and-login {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 40px;
+  width: 100px;
+  margin-right: 10px;
+  color: white;
+  border-style: solid;
+  border-color: #1c5380;
+  border-width: 2px;
+  border-radius: 3px;
+  background-image: linear-gradient(#5887ad, #1c5380);
+}
+
+.site-description {
+  width: 504px;
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  padding: 5px 40px;
+  letter-spacing: .02em;
+}
+
+.site-description h1 {
+  font-size: 1.6em;
+  color: #06365f;
+}
+
+.download-buttons {
+  padding-top: 30px;
+}
+
+.google-play-button {
+  padding-left: 15px;
+}
+
+footer {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.footer-item {
+  padding: 10px;
+  text-decoration: none;
+  color:#1c5380;
+  font-size: .8em;
+}
+
+.copyright {
+  color: rgb(173, 173, 173);
+}
+
