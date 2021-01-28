@@ -50,6 +50,7 @@ body {
   border-width: 2px;
   border-radius: 3px;
   background-image: linear-gradient(#5887ad, #1c5380);
+  text-decoration: none;
 }
 
 .site-description {
