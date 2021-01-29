@@ -9,3 +9,94 @@ body {
   margin: 0;
 }
  
+.main-content {
+  background-image: url("../images/bgtile.png");
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 100px;
+  height: 70px;
+}
+
+.phones {
+  margin: 40px;
+}
+
+.logo-and-button {
+  position: relative;
+  width: 500px;
+}
+
+.insta-logo {
+  height: 75px;
+  margin-left: 5px;
+}
+
+button {
+  height: 35px;
+  width: 80px;
+  background: #3273a8 url("../images/home.png");
+  background-position: 5px;
+  background-repeat: no-repeat;
+  text-align: right;
+  color: white;
+  font-weight: 600;
+  font-size: 12px;
+  padding-right: 8px;
+  padding-top: 4px;
+  border: #1c5380 solid 1px;
+  border-radius: 3px;
+  box-shadow: 1px 1px #1c5380;
+  position: absolute;
+  right: 10px;
+  top: 20px;
+}
+
+.text {
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  padding: 10px 40px;
+  margin-top: 10px;
+}
+
+h1 {
+  color: #06365f;
+}
+
+span {
+  font-weight: bold;
+}
+
+.text p {
+  font-size: 13px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.app-store-button {
+  padding-right: 20px;
+  height: 50px
+}
+
+.nav {
+  text-align: center;
+  position: relative;
+  top: 400px;
+}
+
+.nav-bar li {
+  list-style-type: none;
+  color:#1c5380;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 10px;
+  display: inline;
+  padding: 5px;
+}
+
+#copy {
+  color: lightslategray;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 10px;
+}
