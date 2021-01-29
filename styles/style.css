@@ -1,10 +1,85 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
-
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #06365f;
+}
+
+li {
+  list-style: none;
+  color: #1c5380;
+}
+
+footer {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: small;
+  color: lightslategray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 250px;
+}
+
+footer > ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 40vw;
+}
+
+.background {
+  background-image: url("../images/bgtile.png");
+  height: 45vh;
+}
+
+.content {
+  display: flex;
+  justify-content: flex-start;
+  padding: 100px 100px 0px 100px;
+}
+
+.content > img {
+  height: 70vh;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.log-in {
+  color: white;
+  text-decoration: none;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  background-image: url("../images/bgtile.png");
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 5px;
+  border-color: rgba(0, 0, 0, 0.5);
+}
+
+.log-in > * {
+  padding: 0px 5px;
+}
+
+.side-text {
+  padding: 0px 0px 0px 40px;
+}
+
+.side-text > section {
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.side-text > section > div {
+  padding: 10px;
+  margin: 40px;
 }
