@@ -54,12 +54,14 @@ body {
     align-items: flex-end;
     border: 1px #315f86 solid;
     box-shadow: 1px 1px #315f86;
-
+    background-color: #4B769B;
+    border-radius: 2px;
     height: 40px;
     width: fit-content;
     padding-bottom: 10px;
     padding-left: 10px;
 }
+
 .login {
     color: #dae3ea;
     padding: 10px;
