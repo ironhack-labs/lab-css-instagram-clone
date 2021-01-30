@@ -4,57 +4,91 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+body {
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-top: 100px;
+  margin-left: 120px;
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.backgrounduno{
+  background: url("/images/bgtile.png");
+}
+.background2{
+  background: url("/images/bgtile.png");
+}
+
 h2{
   color:#06365f;
   margin: 0;
   padding: 0;
+  font-size: 35px;
 }
 
-body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
-  background: url("/images/bgtile.png");
-  border: auto 129px;
+
+.phones img{
+  margin: 0px;
+  padding: 0px;
 }
 
-.phones {
-  display: inline-block;
-  margin: 0;
-  padding: 80px 50px 50px 80px;
-  box-sizing: border-box;
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  position: relative;
+  margin-top: 20px;
+  margin-left: 45px;
 }
 
-.brand {
-  display: inline-block;
-  margin: 0;
-  padding: 100px 50px 50px 20px;
-  width: 300px;
-  vertical-align: top;
-}
-
-.frame {
-  display: inline-block;
-  margin: 10px ;
-  padding: 30px 100px 30px 30px;
-  width: 300px;
-  background-color: white;
+.brand img{
+  order: 1;
+  margin: 0px;
+  padding: 0px;
 }
 
 .link-btn {
-  display: inline-block;
-  vertical-align: top;
-  margin: 110px 50px 50px 20px;
-  padding: 10px 30px 10px 30px;
+  margin: 19px 0px 0px 100px;
+  padding: 7px 15px 7px 15px;
+  order: 2;
+  border-radius: 3px;
   background-color: #1c5380;
   text-decoration: none;
+  align-self: flex-start;
   color: white;
 }
 
+#frame{
+  margin: 125px 0px 0px 367px;
+  padding: 20px 40px 30px 35px;
+  order: 1;
+  width: 441px;
+  height: 400px;
+  order: 1;
+  position: fixed;
+  border-radius: 10px;
+  background-color: white;
+}
+
 .iphone {
-  display: inline-block;
-  flex-direction:row;
-  margin: 0;
-  padding: 20px 10px 10px 10px;
+  margin: 0px 20px 0px 0px;
+  padding: 0px;
   width: 150px;
-  vertical-align: top;
+}
+
+.end {
+  margin: 220px 0px 0px 207px;
+  padding: 0px;
+  align-content: center;
+  align-self: flex-end;
+  word-spacing: 10px;
+  order: 3;
+}
+
+.frame2{
+  width: 100%;
+  height: 50%;
+  background-color: white;
 }
