@@ -7,4 +7,112 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+.blue-box {
+  height: 40vh;
+  background-image: url(/images/bgtile.png);
+}
+
+.white-box {
+  height: 50vh;
+}
+
+.main-section {
+  position: absolute;
+  top: 15vh;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 150px;
+}
+
+.main-section div {
+  padding: 10px 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.instagram-logo {
+  width: 250px;
+  padding-left: 15px;
+}
+
+button {
+  background-image: url(/images/bgtile.png);
+  border-radius: 5%;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #1c5380;
+  margin-right: 15px;
+}
+
+button span {
+  padding: 0 5px;
+}
+
+.description {
+  background-image: url(/images/frame.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+h1 {
+  color: #06365f;
+  font-size: 1.5em;
+  line-height: 1.3em;
+  font-weight: 500;
+  padding: 0 30px;
+}
+
+.description p {
+  padding: 0 30px;
+}
+
+.app-stores img {
+  padding-left: 30px;
+  padding-top: 50px;
+}
+
+footer {
+  height: 10vh;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 0.8em;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+footer li {
+  padding-left: 10px;
+}
+
+footer p {
+  padding: 0 20px;
+}
+
+footer a {
+  color: #1c5380;
+  text-decoration: none;
+}
+
+footer a:visited {
+  color: #1c5380;
 }
