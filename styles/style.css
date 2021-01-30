@@ -7,4 +7,124 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+
+}
+.background-tile {
+  background-image: url(../images/bgtile.png);
+  height: 260px;
+}
+
+#flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-flow: row wrap;
+  height: 800px;
+  /* align-content: flex-end; */
+}
+
+.phones-container {
+  align-items: left;
+  flex: 1;
+  margin-left: 100px;
+  margin-top: 80px;
+  width: 100px;
+}
+
+.flex-container-right {
+  flex: 2;
+  align-items: left;
+  margin-top: 90px;
+  margin-left: 260px;
+}
+
+.logo {
+  flex: 2;
+  margin-bottom: -5px;
+  flex-direction: row;
+  float: left;
+}
+
+/* .login-button {
+  flex-direction: row;
+  flex: 3;
+  padding-left: 100px;
+  background-color: #1c5380;
+  width: 100px;
+} */
+
+/* .login {
+  border: 1px solid white;
+} */
+
+.login-button a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 40;
+}
+.text-container {
+  background-color: white;
+  width: 500px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  flex: 3;
+  margin-top: 70px;
+}
+
+.text-container p {
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-size: 16px;
+  padding-left: 30px;
+  padding-right: 50px;
+}
+
+h2 {
+  color: navy;
+  font-size: 26px;
+  padding-top: 30px;
+  padding-left: 30px;
+  line-height: 30px;
+}
+
+.apple {
+  padding-left: 35px;
+  padding-top: 20px;
+  padding-right: 20px;
+  flex: 2;
+  flex-direction: row;
+  float: left;
+}
+
+.android {
+  flex: 1;
+  padding-top: 20px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: 40;
+  justify-content: center;
+  margin-top: -50px;
+  width: 800px;
+}
+
+.nav-bar ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  width: 900px;
+}
+
+.nav-bar li {
+
 }
