@@ -8,3 +8,81 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+.top {
+  background-image: url("/images/bgtile.png");
+  height: 30vh;
+}
+.bottom {
+  height: 70vh;
+}
+.images {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 485px;
+  margin-left: 46vw;
+  padding-top: 8vh;
+}
+.logo {
+  width: 250px;
+  padding-right: 20px;
+}
+.button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+  padding: 7px 10px;
+  width: 90px;
+}
+.frame {
+  position: absolute;
+  margin-left: 45vw;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: justify;
+  width: 440px;
+  position: relative;
+  margin-top: -10vh;
+  margin-left: 47vw;
+}
+.text h2 {
+  width: 250px;
+  color: #06365f;
+  margin-bottom: 0;
+}
+.badges {
+  display: flex;
+  justify-content: left;
+  width: 460px;
+  margin-left: 47vw;
+}
+.apple {
+  margin-right: 20px;
+}
+.footer ul {
+  list-style-type: none;
+  color: #1c5380;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 60vw;
+  margin: 0 auto;
+  padding-top: 4vh;
+}
+.copyright {
+  color: gray
+}
+.phones {
+  position: absolute;
+  padding-left: 200px;
+  margin-top: -22vh;
+  width: 300px;
+}
