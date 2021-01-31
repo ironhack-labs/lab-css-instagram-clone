@@ -7,4 +7,84 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background-image: url('../images/bgtile.png');
+  background-repeat: repeat-x;
+  background-size: 100% 40%;
+}
+
+.centered-items {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 85vw;
+}
+
+.main-content {
+  width: 50%;
+}
+
+h1 {
+  color: #06365f;
+}
+
+.logo-and-login {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.login-button {
+  height: 50%;
+  width: ;
+  color: white;
+  align-self: center;
+  background: rgb(49,105,156);
+  background: linear-gradient(180deg, rgba(49,105,156,1) 63%, rgba(10,84,148,1) 100%);
+}
+
+.android-iphone {
+  display: flex;
+  justify-content: space-around;
+}
+
+.content-background {
+  width: 70%;
+  background: url("../images/frame.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 5%;
+}
+
+footer{
+  width: 85vw;
+  display: flex;
+  justify-content: center;
+  
+}
+
+footer ul {
+  display: flex;
+  list-style: none;
+  width: 80%;
+  justify-content: space-around;
+  text-transform: uppercase;
+  font-family: 
+}
+
+footer li {
+  margin-right: 5px;
+}
+
+a:link {
+  text-decoration: none;
+  color: #3570a6;
+}
+
+.foot {
+  color: #C0C0C0;
 }
