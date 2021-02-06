@@ -4,7 +4,158 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px ;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  width: 100vw ;
+  height: 100vh;
+}
+
+#background {
+  width: 100% ;
+  height: 33%;
+  position: relative;
+}
+
+.background-blue {
+  background-color: #1c5380;
+  background-image: url("../images/frame.png");
+  background-size: 110% 110%;
+  background-position: center; 
+}
+
+#foreground {
+  width: 100vw ;
+  height: 100vh ;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  padding: 0 10vw;
+}
+
+.non-main {
+  width: 100%;
+  height: 15vh;
+  z-index: 0;
+}
+
+footer {
+  height: 20vh;
+}
+
+main {
+  width: 100% ;
+  height: 65vh ;
+  display:flex ;
+  justify-content: space-between;
+}
+
+#phones {
+  width: 30vw;
+  height: 100%;
+  background-color:transparent;
+  position:relative;
+  z-index: 10;
+}
+
+#phones > img {
+  height: 100%;
+  width: auto;
+}
+
+#principal {
+  width: 40vw;
+  height: 100%;
+}
+
+#principal > header {
+  height: 20%; 
+  width: 100% ;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#principal > header .background-blue {
+  width: 20%;
+  height: 40px;
+}
+
+#principal > header  input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background-color: transparent;
+  background-image: url(../images/home.png);
+  background-position: 10% 50%;  
+  background-size: initial;
+  background-repeat: no-repeat;
+  text-align: right;
+  padding: 10px;
+  color: white;
+}
+
+#principal > section {
+  height: 80%; 
+  width: 100% ;
+  background-color: white;
+  border-radius: 1%;
+  padding: 10% 10% 0 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#principal > section > h1{
+  color: #06365f ;
+  width: 70% ;
+  font-size: 2.5rem;
+  padding-bottom: 1rem;
+}
+
+#principal > section > article > p{
+  padding-bottom: 1rem;
+  font-size: 1.6rem;
+}
+
+
+.container {
+  width: 100% ;
+  height: 100% ;
+  display: flex ;
+  justify-content: end;
+  flex-direction: column;
+  align-items: center;
+}
+
+#apple {
+  background-image: url(../images/badge-iphone.png);
+}
+
+#android {
+  background-image: url(../images/badge-android.png);
+}
+
+#store-button-footer {
+  height: 7vh;
+}
+
+.store-button {
+  width: 21vh;
+  height: 100%;
+  background-size: 100% 100%;
+  border: none;
+  background-repeat: no-repeat;
+  margin-right: 10%;
+  bottom: 0;
 }
