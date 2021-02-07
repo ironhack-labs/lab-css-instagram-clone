@@ -1,51 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Instagram Clone</title>
-    <link rel="stylesheet" href="./styles/style.css">
-  </head>
-  <body>
-    <div id = "background" class="background-blue"></div>
-    <div id="foreground">
-      <div class="non-main"></div>
-      <main>
-        <div id = "phones" class="container">
-          <img src="./images/phones.png" alt="phones">
-        </div>
-        <div id = "principal" class="container">
-          <header>
-            <img src="./images/brand.png" alt="band">
-            <div class="background-blue">
-              <input type="button" value="Log in">
-            </div>
-          </header>
-          <section>
-            <h1>Capture and Share the World's Moments</h1>
-            <article>
-              <p>Instagram is a fast, beautiful and fun way to share your life with
-                friends and family</p>
-              <p>Take a picture or video, choose a filter to transform its look and feel, then post to Instagram
-                &mdash; it's that easy. You can even share to Facebook, Twitter, Tumblr and more. It's a new way to see the world.</p>
-              <p>Oh yeah, did we mention it's free? </p>
-            </article>
-            <div id = "store-button-footer">
-              <input type="button" id = "apple" class = "store-button" value="">
-              <input type="button" id = "android" class = "store-button" value="">
-            </div>
-          </section>
-        </div>
-      </main>
-      <footer class="non-main">
-        <nav></nav>
-      </footer>
-    </div>
 
-    <!-- Instagram Capture and Share the World's Moments Instagram is a fast, beautiful and fun way to share your life with
-    friends and family. Take a picture or video, choose a filter to transform its look and feel, then post to Instagram
-    &mdash; it's that easy. You can even share to Facebook, Twitter, Tumblr and more. It's a new way to see the world.
-    Oh yeah, did we mention it's free? Download on the App Store Get it on Google Play About Us Support Blog Press API
-    Jobs Privacy Terms &copy; 2014 Instagram -->
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Instagram Clone</title>
+  <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+  <div id="background" class="background-blue"></div>
+  <div id="foreground">
+    <main>
+      <div id="phones" class="container">
+        <img src="./images/phones.png" alt="phones">
+      </div>
+      <div id="principal" class="container">
+        <header>
+          <img src="./images/brand.png" alt="band">
+          <div class="background-blue">
+            <input type="button" class="bold" value="Log in">
+          </div>
+        </header>
+        <section>
+          <h1>Capture and Share the World's Moments</h1>
+          <article>
+            <p>Instagram is a <b>fast</b>, <b>beautiful</b> and <b>fun</b> way to share your life with
+              friends and family</p>
+            <p>Take a picture or video, choose a filter to transform its look and feel, then post to Instagram
+              &mdash; it's that easy. You can even share to Facebook, Twitter, Tumblr and more. It's a new way to see
+              the world.</p>
+            <p>Oh yeah, did we mention it's free? </p>
+          </article>
+          <div id="store-button-footer">
+            <input type="image" src="../images/badge-iphone.png" alt="iphone-button">
+            <input type="image" src="../images/badge-android.png" alt="android-button">
+          </div>
+        </section>
+      </div>
+    </main>
+    <nav>
+      <a href="" class="bold blue-text">Support</a>
+      <a href="" class="bold blue-text">About Us</a>
+      <a href="" class="bold blue-text">Blog</a>
+      <a href="" class="bold blue-text">Press</a>
+      <a href="" class="bold blue-text">API</a>
+      <a href="" class="bold blue-text">Jobs</a>
+      <a href="" class="bold blue-text">Privacy</a>
+      <a href="" class="bold blue-text"></a>
+      <p class="bold">@ copy 2014 Instagram</p>
+    </nav>
+  </div>
+</body>
+
 </html>
