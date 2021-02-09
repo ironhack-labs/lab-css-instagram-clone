@@ -6,7 +6,66 @@ light blue: #1c5380
 
 
 body {
-  background-color: blue;
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  color:white;
+  background-image: url("/images/franjaazul.jpg");
+  background-size:contain;
+  background-position-y: 100px;
+}
+
+#phones {
+  padding-top: 150px;
+}
+
+#login {
+  color:white;
+}
+
+#futer {
+  color:white;
+}
+
+.list {
+  color:white;
+  list-style-type:none;
+  text-decoration:none;
+}
+.conjunto{
+  display:flex;
+  flex-direction:row;
+}
+
+.columna-derecha {
+  display:flex;
+  flex-direction:column;
+  color:black;
+}
+
+.logos-col-der {
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: stretch;
+	align-content: stretch;
+}
+
+#cuadro-base {
+
+  margin: 100px;
+  padding: 30px;
+
+}
+
+.cuadro-blanco {
+  background-color:white;
+  padding-left:50px;
+  padding-right:50px;
+}
+
+#cuadro-inferior {
+  display:flex;
+  justify-content: center;
+  
 }
