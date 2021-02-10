@@ -8,3 +8,82 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+/* É uma excelente prática zerar margin e padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* LEMBRAR QUE O BORDER-BOX SERVE PARA MANTER O TAMANHO DO CONTAINER CASO USE MARGIN E PADDING*/
+}
+/* Start settings of footer */
+footer > ul {
+  display:flex;
+  list-style: none;
+  justify-content:center;
+  margin-top: 25px;
+}
+
+a {
+  text-decoration:none;
+  color: #06365f;
+  font-weight:bold;
+  margin: 5px;
+
+}
+
+
+/* End settings of footer */
+
+main {
+  display:flex;
+  justify-content: center;
+  background-image: url(/images/bgtile.png);
+  background-repeat: repeat-x;
+  padding-top: 50px;
+}
+
+main > div {
+  /* border: 1px solid red; */
+  weight: 550px;
+}
+
+section {
+  /* border: 1px solid red; */
+  weight: 550px;
+  width: 100%;
+  max-width: 500px;
+  margin-left: 36px;
+}
+
+.logoAndLogin {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px solid blue; */
+}
+
+button {
+  background-color: #1c5380 ;
+  color: white;
+  font-weight:bold;
+  border-radius: 1px;
+  /* display: flex;
+  justify-content:space-evenly; */
+}
+
+.divTextRight {
+  background-image: url(/images/frame.png);
+  background-repeat: no-repeat;
+}
+.divTextRight {
+  padding: 25px;
+  width: 100%;
+  max-width: 450px;
+}
+
+h1 {
+  color: #06365f ;
+}
+
+.copyInstagram {
+  color: gray;
+}
