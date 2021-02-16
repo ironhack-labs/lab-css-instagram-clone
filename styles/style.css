@@ -1,10 +1,94 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+body{
+  background-image: url(../images/bgtile.png);
+  background-repeat:repeat-x;
+}
+
+.header {
+ height: 100%;
+ width: 100%;
+ /*position:relative*/
+}
+
+.header-img {
+  display:flex;
+  justify-content:center;
+  margin-left: 500px;
+  padding-top: 100px;
+  
+  /*position:absolute;*/
+}
+
+.login-button {
+  background-image: url(../images/bgtile.png);
+  margin-left: 50px;
+  color:white;
+  padding:5px;
+  border-width:thin;
+  cursor: pointer;
+  height:40px;
+  margin-top: 20px;
+
+}
+
+main {
+  height: 100%;
+  display:flex;
+  justify-content: space-evenly;
+  }
+
+.left-section{
+  margin-top: -70px;
+}
+
+.right-section{
+  width: 400px;
+  background-color: white;
+  padding: 10px 30px;
+  margin-top: 35px;
+}
+
+.right-section h1 {
+  color: #06365f;
+  font-size: 26px;
+  width: 280px;
+}
+
+.right-section p{
+  font-size: 14px;
+}
+
+.right-section span {
+  font-weight: bold;
+}
+
+.right-section img{
+  padding-top: 50px;
+}
+
+.footer{
+  display:flex;
+  justify-content: center;
+}
+
+.footer li {
+  display: inline-block;
+  align-items: center;
+
+}
+
+.footer a {
+  text-decoration: none;
+  color: #1c5380;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  text-align: center;
+
+}
+
