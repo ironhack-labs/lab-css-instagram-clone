@@ -4,56 +4,119 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  font: 200 10px "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 4%;
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-#smartphones {
-  width: 20%;
-  height: 20%;
+main {
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+  padding-top: 125px;
+  display: flex;
+  justify-content: center;
 }
 
-.download-app img {
-  width: 20%;
-  height: 20%;
+main > div {
+  height: 512px;
 }
 
-p {
-  font-size: 0.5rem;
-  color: gray;
+main > div + div {
+  width: 100%;
+  max-width: 700px;
+  margin-left: 80px;
+}
+
+.instagram-logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+}
+
+button {
+  width: 110px;
+  padding: 15px 0;
+  border: 1px solid #1c5380;
+  box-shadow: 1px -1px 5px #1c5380;
+  border-radius: 3px;
+  background-color: #487094;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+button span {
+  color: #fff;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.instagram-logo + div {
+  width: 100%;
+  background-image: url("../images/frame.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 45px 45px 0;
 }
 
 h1 {
-  font-size: 1rem;
+  width: 325px;
   color: #06365f;
+  line-height: 30px;
+  margin-bottom: 30px;
 }
 
-#instagram-logo {
-  width: 20%;
-  height: 20%;
+p {
+  color: #272727;
 }
 
-container > div {
-  width: 50%;
+p + p {
+  margin-top: 20px;
 }
 
-ul {
-  list-style-type: none;
+p > span {
+  font-weight: bold;
 }
 
-a {
+.download-buttons {
+  margin-top: 30px;
+}
+
+.download-buttons > a {
+  text-decoration: none;
+}
+
+.download-buttons > a + a {
+  margin-left: 20px;
+}
+
+footer {
+  margin-top: 120px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+footer a {
   text-decoration: none;
   color: #1c5380;
-  text-transform: uppercase;
   font-weight: bold;
-  font-size: 0.4rem;
+  text-transform: uppercase;
 }
 
-span {
-  text-decoration: none;
-  color: gray;
-  text-transform: uppercase;
+footer a + a {
+  margin-left: 20px;
+}
+
+footer span {
+  margin-left: 25px;
   font-weight: bold;
-  font-size: 0.4rem;
+  color: #c3c3c4;
+  text-transform: uppercase;
 }
