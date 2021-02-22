@@ -7,4 +7,106 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  position: relative;
 }
+
+.blue-background {
+  display: block;
+  height: 35vh;
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat;
+}
+
+.information {
+  margin-top: 1em;
+  display: block;
+  width: 50vw;
+  height: 60vh;
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  padding: 2em;
+}
+
+.move-up {
+  position: relative;
+  bottom: 22vh;
+  left: 8vw;
+}
+
+.mains {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.information p {
+  width: 55%;
+  margin-bottom: 1.1em;
+}
+
+.information h1 {
+  font-size: 1.5em;
+  color: #1c5380;
+  width: 35%;
+  margin-bottom: 0.7em;
+}
+
+.information img {
+  margin-top: 1.2em;
+}
+
+.insta-login {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  right: 6vw;
+}
+
+.button button {
+  padding: 0.2em;
+  background-color: #5e8eb6;
+  height: 4.5vh;
+  width: 7vw;
+  position: relative;
+  right: 8vw;
+  color: white;
+  font-weight: 700;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  border: none;
+}
+
+footer {
+  position: relative;
+  right: 25vh;
+}
+
+footer ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: center;
+}
+
+footer ul li {
+  padding-left: 1vw;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #5e8eb6;
+}
+
+footer ul li:last-child {
+  padding-left: 2vw;
+  color: rgb(184, 179, 179);
+}
+
+.information img {
+  padding-right: 2vw;
+}
+
