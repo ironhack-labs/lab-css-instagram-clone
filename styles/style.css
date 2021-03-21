@@ -7,4 +7,92 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+ 
+}
+
+.main {
+  background: url(../images/bgtile.png);
+  background-repeat: no-repeat;
+  background-size: 100% 40%;
+}
+
+.container {
+  height: 800px;
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.phones{
+  width: 75%;
+  margin: 0 auto;
+}
+
+.headInsta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.login {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 110px;
+  height: 40px;
+  color: rgba(255, 255, 255, 0.7);
+  background-color:hsl(208deg 29% 55%);
+  border-radius: 5px;
+  font-size: 1.3rem;
+  font-weight: 800;
+  border: none;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+ 
+}
+
+.textbg {
+  width: 75%;
+  margin: 0 auto;
+  background: url(../images/frame.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.text {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.text h1 {
+  padding-top: 20px;
+  width: 75%;
+  font-size: 1.8rem;
+  color: #06365f;
+}
+
+.text p {
+  font-size: 1.1rem;
+}
+
+.foot {
+  width:50%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 0.8rem;
+}
+
+.foot a {
+  text-decoration: none;
+  color: #1c5380;
+}
+
+.foot p {
+  color: #8E8E8E;
 }
