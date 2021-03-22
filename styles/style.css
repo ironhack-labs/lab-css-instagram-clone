@@ -3,8 +3,146 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+* {
+  margin: 0;
+  padding: 0
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url(../images/bgtile.png);
+  background-repeat: no-repeat;
+  background-size: 100% 250px;
+
 }
+
+.first {
+  display: flex;
+}
+
+.second{
+  display: flex;
+  flex-wrap: wrap;
+  width: 600px;
+  margin-right: 100px;
+}
+
+
+
+.place{
+  padding-top: 100px;
+  padding-left: 100px;
+}
+
+.logos{
+  display: flex;
+  align-items: center;
+  }
+
+  .insta{
+    width: 300px;
+    margin-right: 50px;
+  }
+
+  .home{
+    width: 30px;
+    margin-right: 15px;
+    margin-left: 5px;
+  }
+
+  .login{
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+    justify-content: space-between;
+    width: 100px;
+    height: 40px;
+    border: 1px solid #06365f;
+    border-radius: 3px
+  }
+
+  .login a{
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    font-weight: heavy;
+  }
+
+  .box{
+    position: relative;
+    text-align: left;
+  }
+
+  img{
+    width: 100%;
+  }
+
+  .frame{
+    height: 460px;
+  }
+
+  .title{
+    position: absolute;
+    top: 40px;
+    font-size: 30px;
+    text-align: left;
+    margin-left: 40px;
+    margin-right: 135px;
+    color: #06365f;
+    background-color: white;
+    line-height: 40px;
+  }
+
+  .text{
+    position: absolute;
+    top: 137px;
+    width: 80%;
+    margin-left: 40px;
+    margin-right: 80px;
+    margin-bottom: 10px;
+  }
+
+  .text p{
+    margin-bottom: 10px;
+  }
+
+  .download{
+    position: absolute;
+    top: 380px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    align-content: center;
+    padding: 20px;
+  }
+
+  ul{
+    display: flex;
+    align-content: space-around;
+    justify-content: center;
+    text-decoration: none;
+  }
+  
+  li{
+    list-style: none;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    color: #06365f;
+    text-transform: uppercase;
+    font-weight: bold;
+  
+  }
+  
+  .lighter{
+    color: rgb(167, 160, 160);
+  }
+
+
+
+
+
