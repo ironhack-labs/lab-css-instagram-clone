@@ -1,10 +1,113 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
+* {
+  margin: 0;
+  padding: 0;
+  line-height: 1.4;
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+}
+
+h1 {
+  color: #06365f;
+  letter-spacing: 1px;
+  font-weight: 800;
+}
+
+
+#capture-share {
+  background-image: linear-gradient(180deg, #517ea3, #316088 40%, white 1px, white 60%);
+  padding-top: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#iphone-article {
+  width: 240px;
+  margin-right: 20px;
+}
+
+#iphone-article img{
+  width: 100%;
+  height: auto;
+}
+
+#instagram-introduction {
+  width: 370px;
+  margin-left: 20px;
+}
+
+.instagram-logo {
+  width: 235px;
+  height: auto;
+}
+
+.log-in-button {
+  background-image: linear-gradient(180deg, #6992b2, #3d719a);
+  border-radius: 2px;
+  padding: 8px;
+  text-decoration: none;
+  display: flex;
+  box-shadow: 1px 1px 2px #275b85, -1px -1px 2px #275b85;
+}
+
+.log-in-button img {
+  width: 20px;
+  height: auto;
+}
+
+.log-in-button span {
+  font-size: 12px;
+  font-weight: 500;
+  color: white;
+  padding-left: 8px;
+}
+
+#instagram-logo-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+.introduction-paragraph {
+  background-image: url("../images/frame.png");  
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  padding: 30px;
+  margin-top: 15px;
+}
+
+.introduction-paragraph p {
+  font-size: 12px;
+  font-weight: 400;
+  padding-top: 12px;
+}
+
+.introduction-paragraph img {
+  height: 40px;
+  margin-top: 30px;
+  padding-right: 10px;
+}
+
+#footer {
+  margin-top: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+#footer a {
+  color: #81a2bd;
+  text-decoration: none;
+  padding-right: 15px;
+}
+
+#footer span {
+  color: #b4b4b5;
+  padding-left: 5px;
 }
