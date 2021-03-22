@@ -4,7 +4,113 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+}
+.main {
+  display: flex;
+  align-items: center;
+  margin-left: 100px;
+}
+
+#phones {
+  margin: 60px 30px 0px 90px ;
+}
+
+#info {
+  padding: 10px 0px 0px 0px;
+  display: flex;
+}
+
+#logo-button {
+  display: flex;
+  flex-direction: row;
+  margin: 10px 10px 10px 20px;
+}
+.button {
+  display: flex;
+  flex-direction: row;
+  margin: 13px 0px 40px 50px;
+  border: 1px solid #1c5380;
+  width: 90px;
+  height: 40px;
+  color: #ffffff;
+  font-weight: bold;
+  background: #06365f;
+  background: linear-gradient(0deg, rgb(57, 102, 139) 83%, rgba(255,255,255,1) 150%);
+}
+#home {
+  padding: 9px 5px;
+  width: 23px;
+}
+#log {
+  padding: 12px 2px;
+  display: flex;
+  flex-direction: row;
+}
+
+#capture {
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  background-size: 70%;
+  display: flex;
+  width: 70%;
+  padding: 10px 10px;
+  border-radius: 6%;
+  flex-direction: row;
+  margin: 10px 10px;
+  flex-wrap: wrap;
+}
+
+
+#title {
+  font-size: 20px;
+  color: #1c5380;
+  font-weight: bold;
+}
+
+.description{
+  font-size: 13px;
+  padding: 5px 200px 5px 1px;
+}
+span {
+  font-weight: bold;
+}
+
+.download-button {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 10px 0px 10px;  
+  
+}
+#button1 {
+  margin-right: 10px;
+}
+#footer-list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  justify-content: stretch;
+  color: #1c5380;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.6em;
+  margin: 30px 0px 0px 400px;
+}
+.li {
+  padding: 10px 10px;
+}
+#copyright {
+  color: rgba(155, 137, 137,0.5);
+}
+
+#logo {
+  width: 280px;
 }
