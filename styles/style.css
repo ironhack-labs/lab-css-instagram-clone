@@ -7,6 +7,8 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
 }
 
 .s1{
@@ -14,7 +16,6 @@ body {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-
 }
 
 .a1{
@@ -30,17 +31,38 @@ body {
   align-items: left;
   height: 500px;
   margin: 50px;
-  margin-right: 200px;
+  margin-right: 180px;
   
 }
 
 .diva1{
   display: flex;
   justify-content: center;
- 
+  margin: 10px;
+  
+}
+.diva11{
+  display: flex;
+  align-items: stretch;
+  flex-direction: row;
+  padding: 10px 50px 10px 0;
+  background: transparent;
+  
 }
 
-
+.buttondiva1 {
+  padding: 30px, 5px;
+  background: transparent;
+  color:white;
+  border-bottom: transparent;
+  height: 56px;
+  width: 78px;
+  text-align: center;
+  align-items:center;
+  border-radius: 6px;
+ 
+ 
+}
 
 .diva2{
   display: flex;
@@ -48,13 +70,13 @@ body {
   align-items: left;
   background-image: url("../images/frame.png");
   background-repeat: no-repeat;
+  padding: 15px;
 
 }
 
 .nav-footer{
   display: flex;
   justify-content: center;
-  font-weight: bold;
 
 }
 
@@ -64,6 +86,8 @@ ul {
   justify-content: space-between;
   align-items: center;
   width: 600px;
+  font-weight: bold;
+ 
 }
 
 
