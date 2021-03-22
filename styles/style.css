@@ -4,7 +4,119 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
-body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+*{
+  padding: 0;
   margin: 0;
 }
+body{
+  background-image: url(https://raw.githubusercontent.com/ironhack-labs/lab-css-instagram-clone/master/images/bgtile.png); 
+background-repeat: repeat-x;   
+}
+ 
+
+.display{
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+ 
+  display: flex;
+  margin-top: 5px;
+ margin-left: 200px;
+ margin-right: 100px;
+
+
+}
+body section{
+  margin-top: 100px;
+}
+}
+iphones{
+  margin-top: 100px;
+  margin-left: 50px;
+  padding-left: 100px;
+  padding-top: 50px;
+
+}
+.cuerpo{
+  margin-top: 120px;
+  margin-right: 100px;
+  justify-content: center;
+  margin-left: 100px;
+  border-color: grey;
+}
+article{
+  margin-left: 50px;
+  padding-left: 20px;
+  background-image: url(https://raw.githubusercontent.com/ironhack-labs/lab-css-instagram-clone/master/images/frame.png);
+  background-repeat: no-repeat;
+ width: 500px;
+}
+
+.logo{
+  margin-left: none;
+ 
+}
+.header{
+  margin-top: 10px;
+  margin-right: 100px;
+  display: flex;
+  padding: 20px;
+}
+
+.logo > .boton{
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.boton{
+ border-style: inset;
+ border-color: blue;
+ border-bottom-left-radius: inherit;
+ height: 40px;
+ margin-left: 50px;
+ box-shadow: lightblue;
+ box-decoration-break: ;
+
+}
+p{
+  justify-content: center;
+  align-items: center;
+}
+.cuerpo div{
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+h1{
+  font-size: 30px;
+  color: rgb(112, 112, 223);
+}
+p, h1{
+  padding: 20px;
+  justify-content: center;
+  margin-right: 50px;
+  padding-right: 20px;
+  position: relative;
+}
+.descargar{
+  display: flex;
+  justify-content: space-evenly;
+  padding-right: 80px;
+}
+ul{
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center; 
+  list-style: none;
+  display: flex;
+  color: blue;
+  padding-left: 300px;
+  padding-right: 400px;
+  margin-top: 50px;
+  padding-top: none;
+  margin-bottom: 200px;
+  font-style: normal;
+  font-family: sans-serif;
+  text-decoration: none;
+  }
+  .terms{
+    font-weight: lighter;
+    color:grey;
+  }
