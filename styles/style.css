@@ -4,7 +4,111 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+*{
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;
+}
+
+.main-container{
+  display: flex;
+  justify-content: center;
+  margin-top: 120px;
+  height: 600px;
+}
+
+.phones{
+  margin-right: 80px;
+ 
+}
+
+.logo-login-bar{
+  width: 580px;
+  height: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+a {
+text-decoration: none;
+}
+
+.login-btn{
+  border: 1px solid #1c5380;
+  border-radius: 3px;
+  padding: 7px;
+  margin-left: 50px;
+  display: flex;
+  color: white;
+  font-weight: bold;
+  background-color: #3a7db4;
+}
+
+.home-icon{
+  margin-right: 8px;
+}
+
+
+.main-box{
+  width: 500px;
+  height: 500px;
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 40px 40px 0 40px;
+  border-radius: 10px;
+  border-color: ;
+}
+
+h1 {
+  font-size: 25px;
+  color: #06365f;
+  margin-bottom: 25px;
+}
+
+p{
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
+.app-store-icon{
+  margin-right: 25px;
+  margin-top: 10px;
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  height: 100px;
+}
+
+.footer-container{
+  display: flex;
+  justify-content: space-between;
+  width: 700px;
+  
+}
+
+li{
+  list-style: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 15px;
+  
+}
+
+li a {
+  color: #1c5380;
+}
+
+.copyrigth{
+  color: grey;
 }
