@@ -4,7 +4,101 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  margin: 0;  
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;
+}
+
+
+.first-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.first-section > div > img {
+  margin-right: 50px;
+  margin-bottom: 40px
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 3px;
+}
+
+.log-in {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  background-color: #1c5380;
+  background-color: #1c5380;
+  padding: 5px 12px;
+  border-style: none;
+}
+
+.log-in > img {
+  margin-right: 10px;
+}
+
+.log-in > p {
+  color: white;
+  font-weight: bold;
+}
+
+.box {
+  width: 510px;
+  box-sizing: border-box;
+  padding: 40px 50px;
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+}
+
+h1 {
+  color: #06365f;
+  padding-bottom: 30px;
+}
+
+footer > ul > li {
+  list-style: none;
+  margin: 0 10px;
+  color: #1c5380;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: inline;
+}
+
+ul {
+  margin: 70px 0;
+  text-align: center;
+  font-size: 0.7em
+}
+
+.parrafo {
+  padding-bottom: 10px
+}
+
+.botones {
+  margin-top: 20px
+}
+
+.botones > img {
+  margin-right: 20px
+}
+
+.list-element {
+  color: gray;
+  margin-left: 20px
 }
