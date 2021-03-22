@@ -4,7 +4,145 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+*{
+  margin: 0;
+  padding: 0;
+}
+
+img {
+   width: 100%
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+h1{
+  color: #06365f;
+  font-size: 20px;
+}
+
+.mainInfo{
+  padding-top: 125px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: flex-end;
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+}
+
+.half{
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 30px;
+}
+
+#leftHalf img{
+  height: 500px;
+  width: auto;
+}
+
+#rightHalf{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  width: 380px;
+}
+
+#rightHalf nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 480px;
+  padding-bottom: 25px;
+}
+
+#loginButton{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100px;
+  height: 35px;
+  background-color: #1c5380;
+  border: 0.1px solid #06365f;
+  box-shadow: 1px 1px 10px 1px ;
+  border-radius: 5%;
+  margin-right: 25px;
+}
+
+#loginButton img{
+  width: 25px;
+}
+
+#loginButton p{
+  font-size: 12.5px;
+  color: white;
+  font-weight: 600;
+}
+
+#rightHalf article{
+  background-image: url("../images/frame.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding: 35px 40px;
+  text-align: left;
+  width: 380px;
+}
+
+article h1{
+  width: 210px;
+  padding-bottom: 20px;
+}
+
+article p{
+  font-size: smaller;
+  padding-bottom: 15px;
+  font-weight: 400;
+}
+
+#rightHalf .downloadApp{
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+  left: 40px;
+}
+
+.downloadApp img{
+  height: 50px;
+  width: auto;
+  padding-right: 20px;
+}
+
+footer{
+  padding: 70px 200px;
+}
+
+footer ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+footer li{
+  margin: 0 10px;
+  list-style-type: none;
+  text-align: center;
+}
+
+footer a{
+  color: #1c5380;
+  text-decoration: none;
+}
+
+#copyright{
+  margin-left: 5px;
+  color: gray;
 }
