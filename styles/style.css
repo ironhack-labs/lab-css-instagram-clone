@@ -4,7 +4,112 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url("../images/bgtile.png");
+  background-size: 100% 270px;
+  background-repeat: repeat-x;
+}
+
+section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 6em 12em 3em;
+}
+
+section > div > img {
+  width: 100%;
+}
+
+section .box {
+  display: flex;
+  flex-direction: column;
+  width: 55%;
+}
+
+section .box nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2em;
+}
+
+section .box nav a {
+  display: flex;
+  text-align: center;
+  text-decoration: none;
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: smaller;
+  background: linear-gradient(#6a8ead, #4a759a);
+  border: 1px solid #1c5380;
+  border-radius: 3px;
+  padding: 10px;
+}
+
+.home {
+  margin-right: 10px;
+}
+
+.square {
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 2em 3em;
+}
+
+h1 {
+  color: #06365f;
+}
+
+p {
+  margin: 0.8em 0;
+}
+
+.images {
+  margin-top: 2em;
+}
+
+.appstore {
+  margin-right: 1em;
+}
+
+footer,
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: smaller;
+}
+
+footer {
+  padding-bottom: 2em;
+  width: 55%;
+  margin: auto;
+}
+
+ul {
+  list-style: none;
+  width: 80%;
+}
+
+ul > li > a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #1c5380;
+}
+
+.copyright {
+  font-weight: bold;
+  color: grey;
 }
