@@ -4,7 +4,153 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+*{
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url('../images/bgtile.png');
+  background-repeat: no-repeat;
+  background-size: 100% 350px;
+}
+
+section{
+  display: flex;
+  /* justify-content: space-around; */
+}
+
+article{
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+img{
+  width: 100%;
+}
+
+.main-page{
+  display: flex;
+  flex-wrap: wrap;
+  width: 600px;
+  margin-right: 100px;
+}
+
+.insta-logo{
+  width: 300px;
+  margin-right: 50px;
+}
+
+.main-logos{
+display: flex;
+align-items: center;
+}
+
+.login{
+  display: flex;
+  align-items: center;
+  align-content: space-between;
+  justify-content: space-between;
+  width: 100px;
+  height: 40px;
+  border: 1px solid #06365f;
+  border-radius: 3px;
+  /* background-image: url('../images/bgtile.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%; */
+  background-image: linear-gradient(0deg,  #1c5380 60%, #2778bb);
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.home-logo{
+  width: 30px;
+  margin-right: 15px;
+  margin-left: 5px;
+}
+
+.login a{
+  font-size: 15px;
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  width: 100%;
+  font-weight: bold;
+}
+
+.container-frame{
+  position: relative;
+  text-align: left;
+}
+
+.frame{
+  height: 460px;
+}
+
+.frame-title{
+  position: absolute;
+  top: 40px;
+  font-size: 30px;
+  text-align: left;
+  margin-left: 40px;
+  margin-right: 135px;
+  color: #06365f;
+  background-color: white;
+  line-height: 40px;
+}
+
+.frame-paragraphs{
+  position: absolute;
+  top: 137px;
+  width: 80%;
+  margin-left: 40px;
+  margin-right: 80px;
+  margin-bottom: 10px;
+}
+
+.frame-paragraphs p{
+  margin-bottom: 10px;
+}
+
+.download-logos{
+  position: absolute;
+  top: 310px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+  align-content: center;
+  padding: 20px;
+}
+
+.download-logos a{
+  padding: 10px;
+}
+
+.download-logos img{
+  width: 150px;
+  height: 50px;
+}
+
+ul{
+  display: flex;
+  align-content: space-around;
+  justify-content: center;
+  text-decoration: none;
+}
+
+li{
+  list-style: none;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  color: #06365f;
+  text-transform: uppercase;
+  font-weight: bold;
+
+}
+
+.copyright{
+  color: gray;
 }
