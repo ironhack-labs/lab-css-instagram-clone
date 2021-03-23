@@ -1,10 +1,122 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
-
-body {
+html {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+body {
+  display: flex;
+  z-index: 1;
+  height: 700px;
+  flex-direction: column;
+  margin: 5px -10px;
+}
+
+h3 {
+  color: #1c5380;
+  font-size: 30px;
+  line-height: 1.25;
+}
+
+.background {
+  position: absolute;
+  z-index: -1;
+  background: rgb(49,97,137);
+  background: linear-gradient(0deg, rgba(49,97,137,1) 0%, rgba(80,126,166,1) 21%);
+  height: 23vw;
+  width: 150vw;
+  margin: -10px -25px;
+  padding: -10px -20px;
+}
+
+main{
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  padding-right: 300px;
+}
+
+#brand {
+  height: 80px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button {
+  background: rgb(49,97,137);
+  background: linear-gradient(0deg, rgb(54, 114, 163)  1%, rgb(134, 191, 241) 95%);
+  color: white;
+  cursor: pointer;
+  width: 100px;
+  height: 40px;
+  border: 2px solid rgba(49,97,137,1);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-decoration: bold;
+  margin: 20px 75px 0 0;
+  border-radius: 5px;
+}
+
+.top{
+  margin: 150px 0 0 -50px;
+  display: flex;
+}
+
+.right{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 900px;
+  margin: 0 300px 0 40px;
+}
+
+.bottom {
+  margin: 0 30px;
+}
+
+.bottom img {
+  cursor: pointer;
+}
+
+#phones {
+  height: 70%;
+  width: auto;
+  margin: 150px 0 0 600px;
+}
+
+article {
+  background: url("../images/frame.png");
+  background-size: cover;
+  width: 430px;
+  padding: 10px 30px 40px 40px;
+  border-radius: 20px;
+  margin: 0 80px 0 0;
+}
+
+footer ul{
+  display: flex;
+  position: relative;
+  justify-content: space-around;
+  list-style-type: none;
+  color:#1c5380;
+  font-weight: 650;
+}
+
+li{
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+footer {
+  display: inline-flex;
+  justify-content: center;
+  padding-top: 40px;
+  font-size: 14px;
+}
+
+footer p {
+  font-weight: 700;
+  color: rgb(170, 170, 170);
+  padding-left: 20px;
 }
