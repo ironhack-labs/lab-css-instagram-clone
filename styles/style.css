@@ -5,6 +5,146 @@ light blue: #1c5380
 */
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 400 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  color: rgba(0,0,0,0.75);
+}
+
+#phones {
+  background-image: url("../images/phones.png");
+  height: 512px;
+  width: 318px;
+}
+
+#insta-img {
+  background-image: url("../images/brand.png");
+  height: 78px;
+  width: 314px;
+}
+
+#apple {
+  background-image: url("../images/badge-iphone.png");
+  height: 51px;
+  width: 164px;
+  margin-right: 25px;
+}
+
+#android {
+  background-image: url("../images/badge-android.png");
+  height: 51px;
+  width: 153px;
+}
+
+#home-icon {
+  background-image: url("../images/home.png");
+  height: 22px;
+  width: 25px;
+}
+
+#page-contain {
+  position: relative;
+}
+
+#banner {
+  height: 275px;
+  background-color: #6989a3;
+  background-image: linear-gradient(#6989a3, #06365f);
+}
+
+#float-holder {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  padding: 50px;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#float-content {
+  display: flex;
+  justify-content: center;
+}
+#f-right {
+  margin-left: 50px;
+}
+
+#f-right-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+#log-in {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 100px;
+  background-color: #6989a3;
+  background-image: linear-gradient(#6989a3, #3d719c);
+  border-radius: 3px;
+  box-shadow: 0 1px 2px 0 rgb(6, 54, 95, 0.4), 0 1px 2px 0 rgb(6, 54, 94, .4);
+}
+
+#log-in span {
+  color: #fff;
+  font-weight: 600;
+  margin-left: 10px;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+
+#body-frame {
+  border-radius: 5px;
+  height: 284px;
+  width: 504px;
+  background-image: url("../images/frame.png");
+}
+
+#body-contain {
+  padding: 30px 40px;
+}
+
+#body-head {
+  color: #06365f;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+#body-content {
+  font-weight: 400;
+}
+
+#badge-contain {
+  display: flex;
+  justify-content: left;
+}
+
+p:nth-child(2) {
+  margin-bottom: 2em;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-link {
+  color: #1c5380;
+  font-weight: 600;
+  font-size: .8rem;
+  margin-right: 20px;
+}
+
+#copyright-tag {
+  color: rgba(168, 168, 168, 0.7);
+  font-size: .8rem;
+  font-weight: 600;
 }
