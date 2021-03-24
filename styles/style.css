@@ -8,3 +8,74 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.blue-bg{
+  background-image:linear-gradient(#1c5380,#06365f) ;
+  width: 100%;
+  height: 300px;
+  position: fixed;
+  z-index: -1;
+
+}
+
+
+.flex-row{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+
+.flex-column{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main-div{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.s1-phones{
+  margin: 5px;
+}
+
+.header{
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: yellow;
+}
+
+.s2-text{
+ display: flex;
+ flex-direction: column;
+}
+.s2-section{
+  color:#06365f ;
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+}
+
+.main-footer{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+.main-footer span{
+  margin: .5rem;
+}
+
+.footer-ul li{
+  color: #1c5380;
+  list-style: none;
+  text-decoration: none;
+  margin: .5rem;
+
+}
+
+
