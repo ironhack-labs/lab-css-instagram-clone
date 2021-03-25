@@ -1,10 +1,101 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
-
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 200 16px/1.5 'Helvetica Neue', Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url('../images/bgtile.png');
+  background-repeat: repeat-x;
+}
+
+section {
+  margin: 10vw 10vw;
+}
+
+article > .container {
+  display: flex;
+  justify-content: center;
+}
+
+.box-1 {
+  padding-right: 3%;
+}
+
+.box-2 {
+  max-width: 50%;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  color: white;
+  display: flex;
+  align-items: center;
+  background-image: linear-gradient(#7798b5, #426e95);
+  border-radius: 3px;
+  border: 1px solid #305d84;
+  padding: 8px 12px;
+}
+
+button > img {
+  padding-right: 8px;
+}
+
+button > span {
+  font-weight: bold;
+  opacity: 0.7;
+}
+
+.bottom {
+  background-image: url('../images/frame.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-blend-mode: color;
+}
+
+.bottom .container {
+  padding: 15px 10%;
+}
+
+h1 {
+  color: #06365f;
+  font-size: 1.75rem;
+}
+
+.bottom p {
+  padding-bottom: 1vh;
+}
+
+.app-buttons img {
+  padding: 5px;
+}
+
+footer {
+  margin: 40px 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+footer .container {
+  width: 70%;
+}
+
+footer ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: space-around;
+}
+
+footer ul > li {
+  font-weight: bold;
+  color: #1c5a91;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+
+li > span {
+  color: grey;
 }
