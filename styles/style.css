@@ -5,6 +5,84 @@ light blue: #1c5380
 */
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 200 16px/1.5 'Helvetica Neue', Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+header {
+  display: inline;
+  position: fixed;
+  top: 0;
+  left: 0;
+  heigth: 606px;
+  width: 100%;
+  background-color: #1c5380;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-content: stretch;
+  align-items: center;
+
+  border: red 1px solid;
+  height: 90vh;
+}
+.mainleft {
+  border: orange 1px solid;
+}
+.mainright {
+  border: yellow 1px solid;
+  width: 504px;
+}
+.brandimg {
+  height: 50px;
+}
+.righttop button {
+  float: right;
+  /* background: url(../images/bgtile.png) repeat; */
+  background-color: #1c5380;
+  border-color: #06365f;
+  border-radius: 2px;
+  color: white;
+  line-height: 2em;
+  text-align: top;
+}
+
+.righttop button span {
+  padding-top: -2px;
+}
+.righttop button img {
+  padding-top: 6px;
+}
+.rightbutton {
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  border: magenta 1px solid;
+  padding: 10px 20px;
+}
+.rightbutton h2 {
+  color: #06365f;
+}
+
+.rightgoto {
+  display: flex;
+  justify-content: space-around;
+}
+footer {
+  margin: 0 auto;
+}
+.navfooter {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+.navfooter li {
+  font-size: 0.8em;
+  font-weight: 400;
+  margin: 5px;
+  text-transform: uppercase;
+}
+.navfooter li a {
+  color: #06365f;
+  text-decoration: none;
 }
