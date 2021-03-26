@@ -7,6 +7,7 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  
 }
 
 .blue-bg{
@@ -17,7 +18,6 @@ body {
   z-index: -1;
 
 }
-
 
 .flex-row{
   display: flex;
@@ -40,24 +40,61 @@ body {
 
 .s1-phones{
   margin: 5px;
-}
-
-.header{
-  width: 75%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: yellow;
+  margin-top: 150px;
 }
 
 .s2-text{
- display: flex;
- flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  width: 55%;
+  margin-top: 150px;
+ }
+
+.header{
+  width: 95%;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }
+
+.login-button{
+  color: #fff;
+  display: flex;
+  align-items: center;
+  width: 90px;
+  justify-content: space-between;
+  background-image: linear-gradient(#1c5380,#06365f);
+}
+
+.house-logo{
+  margin: 5px;
+}
+
 .s2-section{
-  color:#06365f ;
   background-image: url(../images/frame.png);
   background-repeat: no-repeat;
+  background-size: contain;
+  padding: 20px;
+}
+
+.s2-section h2{
+  color:#06365f ;
+  width: 60%;
+}
+
+.icons{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.icons img{
+  margin: 5px;
 }
 
 .main-footer{
