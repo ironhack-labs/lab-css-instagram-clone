@@ -7,58 +7,56 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 'Helvetica Neue', Helvetica, Arial, sans-serif;
   margin: 0;
+
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;
 }
 
-header {
-  display: inline;
-  position: fixed;
-  top: 0;
-  left: 0;
-  heigth: 606px;
-  width: 100%;
-  background-color: #1c5380;
-}
 .main {
   display: flex;
   justify-content: center;
   align-content: stretch;
   align-items: center;
 
-  border: red 1px solid;
-  height: 90vh;
+  /* border: red 1px solid; */
+  height: 70vh;
 }
 .mainleft {
-  border: orange 1px solid;
+  /* border: orange 1px solid; */
+  margin-right: 50px;
 }
 .mainright {
-  border: yellow 1px solid;
-  width: 504px;
+  /* border: yellow 1px solid; */
+  width: 500px;
 }
 .brandimg {
   height: 50px;
 }
 .righttop button {
   float: right;
-  /* background: url(../images/bgtile.png) repeat; */
-  background-color: #1c5380;
-  border-color: #06365f;
+  display: flex;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin-top: 5px;
+  height: 40px;
   border-radius: 2px;
-  color: white;
-  line-height: 2em;
-  text-align: top;
-}
-
-.righttop button span {
-  padding-top: -2px;
+  border-color: #1c5380;
+  background: linear-gradient(#1c5380, #06365f);
+  color: #d8dfe6;
 }
 .righttop button img {
-  padding-top: 6px;
+  padding-right: 10px;
+  padding-bottom: 10px;
 }
+.righttop button span {
+  padding-top: 3px;
+}
+
 .rightbutton {
   background-image: url(../images/frame.png);
   background-repeat: no-repeat;
-  border: magenta 1px solid;
-  padding: 10px 20px;
+  /* border: magenta 1px solid; */
+  padding: 10px 30px;
 }
 .rightbutton h2 {
   color: #06365f;
@@ -77,12 +75,12 @@ footer {
   justify-content: center;
 }
 .navfooter li {
-  font-size: 0.8em;
-  font-weight: 400;
+  font-size: 0.7em;
   margin: 5px;
   text-transform: uppercase;
 }
 .navfooter li a {
+  font-weight: 700;
   color: #06365f;
   text-decoration: none;
 }
