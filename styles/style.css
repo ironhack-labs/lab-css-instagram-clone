@@ -111,6 +111,7 @@ body {
   color: #1c5380;
   list-style: none;
   text-decoration: none;
+  text-transform: uppercase;
   margin: .5rem;
 
 }
