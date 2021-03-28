@@ -8,6 +8,7 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
   background-color: whitesmoke;
+  
 }
 
 
@@ -93,6 +94,7 @@ body {
   border-radius: 3px;
   text-align: center;
   cursor: pointer;
+  color: white;
 
 }
 
