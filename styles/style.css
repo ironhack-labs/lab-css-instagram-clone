@@ -6,5 +6,199 @@ light blue: #1c5380
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #fafafa;
+  color: #262626;
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(#4b7da2, #285f87);
+  background-repeat: no-repeat;
+  background-size: auto 35vh;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  box-sizing: border-box;
+  margin: 60px auto 0;
+  max-width: 900px;
+  padding-bottom: 50px;
+  height: 80%;
+}
+
+.phone-image {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.phone-image img {
+  width: 100%;
+  height: auto;
+}
+
+.intro-text {
+  width: 60%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: stretch;
+  padding-left: 50px;
+}
+
+.login {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.brand-logo {
+  height: 80px;
+}
+
+.button {
+  border-radius: 3px;
+  border: 1px solid #22608a;
+  background-image: linear-gradient(#6a95b6, #3b749c);
+  color: #fff;
+  font-weight: 500;
+  width: 100px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button > img {
+  height: 25px;
+  margin-right: 10px;
+}
+
+.box {
+  background-image: url("/images/frame.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 10px 30px;
+}
+
+h1 {
+  color: #06365f;
+  font-size: 25px;
+  line-height: 1.3;
+}
+
+.download-links {
+  display: flex;
+  justify-content: flex-start;
+  margin: 30px 0 10px 0;
+}
+
+.download-links a:first-of-type {
+  margin-right: 10px;
+}
+
+.download-links img {
+  height: 50px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 20%;
+  margin-bottom: 20px;
+  max-width: 900px;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+footer li {
+  margin: 0 10px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 0.8rem;
+}
+
+footer li:last-of-type {
+  color: rgb(148, 148, 148);
+}
+
+footer a {
+  text-decoration: none;
+  color: #1c5380;
+}
+
+@media (max-width: 900px) {
+  body {
+    background-color: #afc1cf;
+  }
+  main {
+    background-image: none;
+  }
+  .container {
+    padding: 0 50px;
+  }
+  .brand-logo {
+    height: 60px;
+  }
+  footer li:last-of-type {
+    color: #000;
+  }
+}
+@media (max-width: 700px) {
+  .container {
+    height: 100%;
+    margin: 20px auto;
+    padding-bottom: 0;
+  }
+  .phone-image {
+    display: none;
+  }
+  .login {
+    flex-flow: column;
+  }
+  .login .button {
+    margin: 15px 0;
+  }
+  .intro-text {
+    width: 100%;
+    padding: 0 20px;
+  }
+  .download-links {
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .download-links a:first-of-type {
+    margin-right: 0;
+  }
+  .download-links img {
+    width: 150px;
+    height: auto;
+  }
+  footer {
+    height: 100%;
+  }
+  footer ul {
+    flex-flow: column;
+    align-items: center;
+  }
 }
