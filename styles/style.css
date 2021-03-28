@@ -7,4 +7,138 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-color: whitesmoke;
+}
+
+
+
+.bg {
+
+  margin: 0px;
+
+}
+
+.bg-dark-blue {
+
+  width: 100%;
+  height: 50vh;
+  background: linear-gradient( #08579c, #06365f) 
+}
+
+.bg-light-blue {
+
+  width: 100%;
+  height: 50vh;
+  background-color:whitesmoke;
+}
+
+.copy-right-footer {
+
+  color: #79807c;
+}
+
+.footer-links {
+
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  width: 40%;
+  margin: 0px auto;
+
+}
+
+.main-container {
+
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 600px;
+  top: 30%;
+  justify-content: center;
+
+
+}
+
+.container-right {
+
+
+  width: 31%;
+  height: 500px;
+  margin-left: 20px;
+}
+
+
+.logo-login {
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3% 3% 0% 3%;
+
+}
+
+.instagram-logo {
+
+  width: 300px;
+  margin: 10px;
+}
+
+.login-button {
+
+  display: flex;
+  align-items: center;
+  padding: 0.5em 1em;
+  background-color: #2871ad;
+  border: none;
+  border-radius: 3px;
+  text-align: center;
+  cursor: pointer;
+
+}
+
+.login {
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.home-button {
+
+  margin-right: 6px;
+}
+
+.text-right-container {
+
+  border-radius: 0.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.text-right-container > h1 {
+
+  margin-top: 0px;
+  padding-top: 50px;
+
+ 
+
+}
+.footer {
+
+  margin-bottom: 2em;
+}
+section {
+
+  padding: 0.5em;
+
+}
+
+.text {
+
+  width: 80%;
 }
