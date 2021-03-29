@@ -3,8 +3,177 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  height: 85vh;
+}
+
+#right-sec {
+  padding-top: 28px;
+  font-size: 14px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 40%;
+  height: 400px;
+}
+
+#right-sec h2 {
+  margin: 0;
+  color: #06365f;
+}
+
+#top-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+#top-right img {
+  height: 50px;
+}
+
+#top-right button {
+  height: 30px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#7c8eaa), color-stop(58%, #648bb3), to(#5b83aa));
+  background: linear-gradient(180deg, #7c8eaa 0%, #648bb3 58%, #5b83aa 100%);
+  border: 0.2px solid #323e57;
+  font-size: 0.8em;
+  color: white;
+}
+
+#top-right button img {
+  height: 50%;
+}
+
+#top-right button span {
+  position: relative;
+  bottom: 2px;
+  margin: 0 5px;
+  font-weight: bolder;
+}
+
+#white-block-shadow {
+  border-radius: 0px 0px 300px 300px;
+  -webkit-box-shadow: 0 0 25px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 0 25px rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 270px;
+  content: "";
+  z-index: -1;
+}
+
+#white-block {
+  background-color: white;
+  position: relative;
+  padding: 25px 30px;
+  height: 370px;
+}
+
+#white-block p {
+  font-size: 12px;
+}
+
+#store-badges {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#store-badges img {
+  height: 40px;
+}
+
+#background {
+  z-index: -100;
+  height: 40vh;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#5c769e), color-stop(58%, #4d7297), to(#3e5d7c));
+  background: linear-gradient(180deg, #5c769e 0%, #4d7297 58%, #3e5d7c 100%);
+}
+
+#phones {
+  height: 400px;
+  margin-right: 25px;
+}
+
+footer {
+  font-weight: bold;
+  margin-top: 40px;
+  font-size: 0.7em;
+  width: 60%;
+}
+
+footer ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+footer ul a {
+  text-decoration: none;
+  color: #06365f;
+}
+
+footer ul p {
+  margin: 0;
+  color: grey;
+}
+/*# sourceMappingURL=style.css.map */

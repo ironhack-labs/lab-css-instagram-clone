@@ -1,0 +1,130 @@
+/*
+Colors to use:
+dark blue: #06365f
+light blue: #1c5380
+*/
+
+body {
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  height: 85vh;
+}
+#right-sec {
+  padding-top: 28px;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  height: 400px;
+
+  h2 {
+    margin: 0;
+    color: #06365f;
+  }
+}
+#top-right {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 15px;
+  img {
+    height: 50px;
+  }
+  button {
+    height: 30px;
+    background: linear-gradient(
+      180deg,
+      rgb(124, 142, 170) 0%,
+      rgb(100, 139, 179) 58%,
+      rgb(91, 131, 170) 100%
+    );
+    border: 0.2px solid rgb(50, 62, 87);
+    font-size: 0.8em;
+    color: white;
+    img {
+      height: 50%;
+    }
+    span {
+      position: relative;
+      bottom: 2px;
+      margin: 0 5px;
+      font-weight: bolder;
+    }
+  }
+}
+#white-block-shadow {
+  border-radius: 0px 0px 300px 300px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 270px;
+  content: "";
+  z-index: -1;
+}
+#white-block {
+  background-color: white;
+  position: relative;
+  padding: 25px 30px;
+  height: 370px;
+  p {
+    font-size: 12px;
+  }
+}
+#store-badges {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  img {
+    height: 40px;
+  }
+}
+#background {
+  z-index: -100;
+  height: 40vh;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  background: linear-gradient(
+    180deg,
+    rgba(92, 118, 158, 1) 0%,
+    rgba(77, 114, 151, 1) 58%,
+    rgba(62, 93, 124, 1) 100%
+  );
+}
+#phones {
+  height: 400px;
+  margin-right: 25px;
+}
+footer {
+  font-weight: bold;
+  margin-top: 40px;
+  font-size: 0.7em;
+  width: 60%;
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    a {
+      text-decoration: none;
+      color: #06365f;
+    }
+    p {
+      margin: 0;
+      color: grey;
+    }
+  }
+}
