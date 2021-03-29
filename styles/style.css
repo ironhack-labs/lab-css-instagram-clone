@@ -4,7 +4,137 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+html, body {
+  height: 100%;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+.blue-bg {
+  background-color: #1c5380;
+}
+
+.top {
+  position: static;
+  min-height: 35%;
+  background-color: #487499;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0px 50px;
+}
+
+.bottom {
+  position:static;
+  height: 45%;
+}
+
+.smartphones {
+  width: 25%;
+  padding: 0px, 0px;
+}
+
+.log-in {
+  padding: 5px;
+}
+
+.gradient-frame {
+  background-image: url("../images/frame.png");
+  opacity: 0.5;
+}
+
+.main-section {
+  position: absolute;
+  top: 15%;
+  left: 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.info {
+  margin-left: 50px;
+  width: 50%;
+}
+
+.logo-login {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  padding: 10px 0px;
+}
+
+.login {
+  background-image: linear-gradient(#98bfdf, #487499);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 0.8rem;
+  color: white;
+  text-decoration: none;
+  padding-right: 10px;
+  -webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.5); 
+  box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.5);
+}
+
+.login img {
+  margin-top: -3px;
+  padding: 10px;
+}
+
+.info-text {
+  width: 550px;
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  background-size: 600px 600px;
+  line-height: 1.5em;
+  font-size: 0.85rem;
+  padding: 10px 30px 0px;
+  border-radius: 10px;
+}
+
+.info-text h2 {
+  line-height: 1.2em;
+  font-size: 2em;
+  color: #487499;
+}
+
+.download {
+  display: flex;
+  justify-content: center;
+}
+
+.download a {
+  margin: 10px 20px 0px;
+}
+
+.footer {
+  position: static;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.footer ul a{
+  font-weight: 600;
+  color: #1c5380;
+  text-decoration: none;
+  padding: 0px 8px;
+}
+
+#registered {
+  font-weight: 600;
+  color: darkgrey;
+  padding: 0px 30px;
 }
