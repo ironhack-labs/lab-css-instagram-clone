@@ -1,10 +1,95 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
+:root {
+  --dark-blue: #06365f;
+  --light-blue: #1c5380;
+}
+
+li {
+  list-style: none;
+  padding: 1rem;
+  text-transform: uppercase;
+  color: var(--light-blue);
+  font-weight: 800;
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+.top {
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  position: absolute;
+  height: 40vh;
+  background-image: url("../images/bgtile.png");
+}
+
+footer {
+  width: 100%;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+}
+
+.container_right {
+  padding: 2rem;
+  margin-left: 3rem;
+  flex-wrap: wrap;
+  display: flex;
+  width: 600px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.container_main {
+  padding-top: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.homeButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  padding: 0.5rem 1rem;
+  border: 2px solid var(--dark-blue);
+  background-image: linear-gradient(white, var(--light-blue))
+}
+
+.homeButton img {
+  margin-right: 0.5rem;
+}
+
+.textContainer {
+  background-image: url("../images/frame.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 2rem 4rem 2rem 3rem;
+}
+
+.textContainer h1 {
+  margin-top: 0;
+  color: var(--dark-blue)
+}
+
+footer li:last-child {
+  color: lightslategrey;
+}
+
+.badge img {
+  margin-top: 1rem;
+  margin-right: 1rem;
 }
