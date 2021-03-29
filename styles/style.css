@@ -7,4 +7,69 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: rgb(251,251,251);
+background: linear-gradient(0deg, rgba(251,251,251,1) 58%, rgba(28,83,128,1) 58%);
+
+}
+
+.contenedor{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contenedor-moviles{
+  max-width: 33%;
+  margin: 3rem;
+}
+.contenedor-texto{
+  max-width: 35%;
+  margin: 3rem;
+}
+.texto{
+  background-image: url(/images/frame.png);
+  background-repeat: no-repeat;
+  background-size:contain;
+  padding: 2rem;
+}
+.logo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.apps{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  margin:1rem;
+}
+.apps div{
+  margin:1rem 0.5rem;
+}
+button{
+  color: white;
+  padding: 0.3rem 0.6rem;
+  border-radius: 6px;
+  border-width: 0px;
+  background: #2A7EC2;
+background: -moz-linear-gradient(top, #2A7EC2 0%, #1C5380 61%, #06365F 100%);
+background: -webkit-linear-gradient(top, #2A7EC2 0%, #1C5380 61%, #06365F 100%);
+background: linear-gradient(to bottom, #2A7EC2 0%, #1C5380 61%, #06365F 100%);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+button div{
+  margin-right: 0.5rem;
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer a{
+  margin: 0 0.5rem;
+  text-decoration: none;
+  font-weight: bold;
+  color: #06365F;
 }
