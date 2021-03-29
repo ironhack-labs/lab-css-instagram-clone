@@ -9,6 +9,7 @@ body {
   margin: 0;
   background: rgb(251,251,251);
 background: linear-gradient(0deg, rgba(251,251,251,1) 58%, rgba(28,83,128,1) 58%);
+background-repeat: no-repeat;
 
 }
 
@@ -18,29 +19,36 @@ background: linear-gradient(0deg, rgba(251,251,251,1) 58%, rgba(28,83,128,1) 58%
   align-items: center;
 }
 .contenedor-moviles{
+  max-height: 33rem;
   max-width: 33%;
   margin: 3rem;
 }
 .contenedor-texto{
-  max-width: 35%;
-  margin: 3rem;
+  max-height: 33rem;
+  max-width: 43%;
+  margin-top: 1rem;
 }
 .texto{
   background-image: url(/images/frame.png);
   background-repeat: no-repeat;
   background-size:contain;
   padding: 2rem;
+  max-width: 27rem;
+}
+h2{
+  color: #06365F;
+  width: 16rem;
 }
 .logo{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 .apps{
   display: flex;
   justify-content:center;
   align-items: center;
-  margin:1rem;
+  margin: -1rem 0 -1rem 2rem;
 }
 .apps div{
   margin:1rem 0.5rem;
@@ -72,4 +80,9 @@ footer a{
   text-decoration: none;
   font-weight: bold;
   color: #06365F;
+}
+footer div{
+  color:grey;
+  margin-left: 1rem;
+  
 }
