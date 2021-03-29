@@ -7,4 +7,89 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+ }
+
+.divide{
+  height: 80vh;
+  width: 100vw;
+  padding: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center ;
+}
+
+.log-in{
+  color: white;
+  font-size: 1.3rem;
+  width: 180px;
+  border: 2px solid #1C6EA4;
+  border-radius: 8px;
+  background-image: linear-gradient(#4e8dc2, #06365f);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h3{
+  margin: 15px;
+}
+.left{
+  max-width: 45vw;
+  padding: 60px;
+}
+.left>img{
+  height: 800px;
+}
+
+.rigth{
+  padding: 60px;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+}
+.rigth-up{
+  margin: 24px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.rigth-down{
+  background-image: url("/images/frame.png");
+  background-repeat: no-repeat;
+  background-size:contain;
+  width: 640px;
+  padding: 40px
+}
+p{
+  font-size: 1.5rem;
+  max-width: 90%;
+}
+footer{
+  display: flex;
+  justify-content: center;
+}
+footer>ul{
+  width: 60vw;
+  margin: 30px;
+  color:#3988c9;
+  font-size: 2rem;
+  list-style-type: none;
+}
+.link-list{
+  display: flex;
+  justify-content: space-evenly;
+}
+.blue{
+  height: 30vh;
+  width: 100vw;
+  background-image: linear-gradient(#4e8dc2, #06365f);
+  position: absolute; 
+  z-index: -1; 
+} 
+.text-box{
+  padding-left: 40px;
+}
+.stores{
+  height: 70px;
+  width:700px;
+  display: flex;
+  justify-content: space-evenly;
 }
