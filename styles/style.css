@@ -6,5 +6,145 @@ light blue: #1c5380
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #fafafa;
+  color: #262626;
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  background-image: linear-gradient(#4b7da2, #285f87);
+  background-repeat: no-repeat;
+  background-size: auto 42%;
+}
+
+.container {
+  display: flex;
+  box-sizing: border-box;
+  margin: 100px auto 0;
+  max-width: 850px;
+  padding-bottom: 50px;
+  height: 85%;
+}
+
+.phones {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.phones img {
+  width: 100%;
+  height: auto;
+}
+
+.intro {
+  width: 60%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: stretch;
+  padding-left: 50px;
+}
+
+.brand {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.logo {
+  height: 70px;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  border-radius: 3px;
+  border: 1px solid #22608a;
+  background-image: linear-gradient(#6a95b6, #3b749c);
+  color: white;
+  font-weight: 500;
+  width: 90px;
+  padding: 8px 7px 8px 6px;
+  text-decoration: none;
+}
+
+.login img {
+  height: 23px;
+  margin-right: 8px;
+}
+
+.text-box {
+  background-image: url("/images/frame.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 10px;
+  padding: 20px 55px 20px 40px;
+}
+
+h1 {
+  color: #06365f;
+  font-size: 23px;
+  line-height: 1.3;
+  margin-bottom: 1em;
+}
+
+p {
+  font-size: 14px;
+  font-weight: 400;
+  word-spacing: 1px;
+}
+
+.download {
+  display: flex;
+  justify-content: flex-start;
+  margin: 40px 0 10px 0;
+}
+
+.download a:first-of-type {
+  margin-right: 20px;
+}
+
+.download img {
+  height: 48px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 20%;
+  margin-bottom: 20px;
+  max-width: 900px;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+footer li {
+  margin: 0 10px;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: 600;
+}
+
+footer li:last-of-type {
+  color: rgb(184, 179, 179);
+}
+
+footer a {
+  text-decoration: none;
+  color: #1c5380;
 }
