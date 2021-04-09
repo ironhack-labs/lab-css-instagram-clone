@@ -11,7 +11,7 @@ body {
 }
 
 main{display: flex; flex-direction: row; justify-content: center; flex-wrap: wrap; width: 100%; margin:10% auto;}
-main img{width: 50%; max-width: 318px; height: auto;}
+main img{width: 50%; max-width: 318px; height: auto; max-height: 512px;}
 section{margin-left: 5%;}
 header{display: flex; justify-content: space-between; flex-wrap: wrap; align-items: center;}
 header img{width:100%; max-width: 255px}
@@ -19,7 +19,8 @@ header nav{background: linear-gradient(#6f93b1, #457298); border-radius: 2px; pa
 header nav img{max-width:25px}
 header nav a:link{color: #fff;}
 article{background-image:url("../images/frame.png"); background-repeat: no-repeat;  background-size: contain; width: 100%; max-width: 500px; box-sizing: border-box; padding: 5%; display: flex; flex-wrap: wrap; flex-direction: column; }
-article h1{color:#06365f ; font-size: 2rem; width: 80%;}
+article h1{color:#06365f ; font-size: 2rem; width: 80%; margin-bottom: 0}
+article p{margin: 2%;}
 article img{width: 100%; max-height: 51px;}
 .download{display: flex; flex-direction: row;}
 footer{ width: 100%; display: flex; justify-content: center; align-items: center;}
