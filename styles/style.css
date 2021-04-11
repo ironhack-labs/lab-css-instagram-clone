@@ -20,7 +20,7 @@ header {
 }
 
 main {
-  margin: 0 auto;
+  margin: 0 auto;/* Para centrar el parrafo */
   width: 900px;
   display: flex;
   align-items: flex-start;
