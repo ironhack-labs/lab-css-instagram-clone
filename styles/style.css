@@ -10,8 +10,8 @@ body {
 
 }
 
-main{display: flex; flex-direction: row; justify-content: center; flex-wrap: wrap; width: 100%; margin:10% auto;}
-main img{width: 50%; max-width: 318px; height: auto; max-height: 512px;}
+main{display: flex; flex-direction: row; align-items: flex-start; justify-content: center; flex-wrap: wrap; width: 100%; margin:10% auto 2% auto;}
+main img{width: 50%; max-width: 318px;}
 section{margin-left: 5%;}
 header{display: flex; justify-content: space-between; flex-wrap: wrap; align-items: center;}
 header img{width:100%; max-width: 255px}
@@ -19,14 +19,14 @@ header nav{background: linear-gradient(#6f93b1, #457298); border-radius: 2px; pa
 header nav img{max-width:25px}
 header nav a:link{color: #fff;}
 article{background-image:url("../images/frame.png"); background-repeat: no-repeat;  background-size: contain; width: 100%; max-width: 500px; box-sizing: border-box; padding: 5%; display: flex; flex-wrap: wrap; flex-direction: column; }
-article h1{color:#06365f ; font-size: 2rem; width: 80%; margin-bottom: 0}
+article h1{color:#06365f ; font-size: 2rem; width: 80%; margin: 0}
 article p{margin: 2%;}
 article img{width: 100%; max-height: 51px;}
-.download{display: flex; flex-direction: row;}
+.download{display: flex; flex-direction: row; margin-top: 5%;}
 footer{ width: 100%; display: flex; justify-content: center; align-items: center;}
-footer nav{ width: 100%; display: flex; justify-content: center; }
+footer nav{ width: 100%; display: flex; justify-content: center; flex-wrap: wrap; }
 nav ul{display: flex; flex-direction: row; justify-content: space-around; flex-wrap: wrap; list-style-type: none; width: 50%; align-items: center; align-content: center;}
-nav li{flex-wrap: nowrap; width: auto;}
+nav li{flex-wrap: wrap; width: auto;}
 nav a:link{color: #1c5380; text-decoration: none; padding: 0 2%;}
 nav a:hover{color: #457298;}
 
@@ -43,6 +43,6 @@ nav a:hover{color: #457298;}
   article h1{font-size:1.5rem; width: 100%; text-align: center; justify-content: center; align-content: center;}
   article img{width: 100%;}
   footer nav ul{flex-direction: column; align-items: center}
-  footer nav li{ border-bottom: #1c5380 solid thin; text-align: center;}
+  footer nav li{ border-bottom: #1c5380 solid thin; text-align: center; margin: 2%;}
   footer nav li:last-child{border-bottom: none;}
 }
