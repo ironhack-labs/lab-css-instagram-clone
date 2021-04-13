@@ -4,7 +4,107 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+@media (min-width: 280px) {
+  header {
+    background-image: none;
+
+  }
+
+
+}
+
+header {
+  background-color: #06365f;
+  height: 300px;
+  background-image: url('../images/bgtile.png');
+  background-size: cover;
+  
+}
+
+main {
+  margin: 0 auto;
+  width: 800px;
+  display: flex;
+  align-items: flex-start;
+  margin-top: -190px;
+  margin-bottom: 50px;
+  
+}
+
+.iphones {
+  margin-right: 20px;
+}
+
+.top-menu {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin-bottom: 30px;
+
+}
+
+.btn {
+  border-radius: 4px;
+  border: 1px solid #1c5380;
+  color: white;
+  background: linear-gradient(#6F92B0, #457298);
+  display: flex;
+  padding: 10px 20px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-top: 20px;
+  
+
+}
+
+.btn img {
+  margin: 5px;
+}
+
+
+.description {
+  background-image: url('../images/frame.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 30px;
+}
+
+.description h2 {
+ color: #06365f;
+
+}
+
+.app-images {
+  margin-top: 40px;
+}
+
+.app-images img {
+  margin-right: 25px;
+}
+
+footer {
+  margin: 0 auto;
+  width: 700px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #06365f;
+  font-weight: 600;
+}
+
+h5 {
+  font-size: 12px;
+  color:#abb3bb;
 }
