@@ -3,8 +3,93 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
+/* 
+    1. IMPORTACIONES 
+*/
+/*
+    2. ETIQUETAS
+*/
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 200 14px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+* {
+  box-sizing: border-box;
+}
+header {
+  background-image: url("../images/bgtile.png");
+  height: 300px;
+  background-size: contain;
+}
+main {
+  margin: 0 auto;
+  width: 800px;
+  display: flex;
+  align-items: flex-start;
+  margin-top: -200px;
+  margin-bottom: 75px;
+}
+
+footer {
+  text-align: center;
+}
+
+/*
+    4. CLASES
+*/
+.phones {
+  margin-right: 40px;
+}
+
+.login {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 0 40px 0;
+}
+
+.loginbtn {
+  border-radius: 5px;
+  border: 1px solid #1c5380;
+  color: white;
+  background: linear-gradient(#487399, #457298);
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loginbtn img {
+  margin-right: 10px;
+}
+
+.app-links img{
+  margin-right: 20px 
+}
+
+.description {
+  background-image: url("../images/frame.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 30px;
+}
+
+.description h2 {
+  color: #06365f;
+}
+
+.links {
+  display: flex;
+  justify-content: space-evenly;
+  width: 700px;
+  margin: 0 auto;
+  
+}
+
+.links li{
+  list-style-type: none;
+  text-align: center;
+  }
+.links a{
+    color:#06365f;
+    text-decoration: none
 }
