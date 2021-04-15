@@ -4,7 +4,144 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+html,
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+    height: 100% margin 0;
+    font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+    height: 100%!important;
+    min-height: 700px;
+    display: block;
+}
+
+#jumbotron {
+    background-color: #1c5380;
+    height: 200px;
+    text-align: center;
+    padding-top: 30px;
+    display: block;
+}
+
+.img {
+    display: inline-block;
+    float: left;
+    padding-left: 10%;
+    padding-top: 3%;
+}
+
+.DivTexto {
+    background-image: url("/images/frame.png");
+    background-size: cover;
+    display: inline-block;
+    float: left;
+    margin-left: 10%;
+    height: 400px;
+    width: 500px;
+}
+
+.DivInstagram {
+    display: inline-block;
+    float: left;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+.btnLogin {
+    background-color: #1c5380;
+    display: inline-block;
+    height: 40px;
+    position: relative;
+    bottom: 24px;
+    left: 80px;
+    color: white;
+    font-size: 17px;
+    padding-bottom: 5px;
+    border-style: outset;
+    border-width: 0.5px;
+}
+
+.ImgLogin {
+    float: left;
+    margin-top: 5px;
+    margin-left: 3px;
+    margin-right: 8px;
+}
+
+.textButton {
+    float: left;
+    display: inline-block;
+    margin-top: 7px;
+    color: white;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.Titulo {
+    display: inline-block;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 164px;
+    text-align: left;
+    color: #06365f;
+}
+
+.texto {
+    display: inline-block;
+    padding-top: 0 !important;
+    margin: 0;
+    padding-left: 50px;
+    padding-right: 20px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.textoFree {
+    padding-top: 0 !important;
+    margin: 0;
+    padding-right: 20px;
+    padding-left: 50px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Descargas {
+    float: left;
+    padding-left: 50px;
+}
+
+.btnDescargas {
+    margin-left: 25px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    height: 40px;
+}
+
+.footer {
+    padding-top: 8px;
+    padding-left: 25%;
+}
+
+.letrasFooter {
+    font-size: 17px;
+    color: #06365f;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline-block;
+}
+
+.letrasFooter2 {
+    font-size: 12px;
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline-block;
+    opacity: .5;
 }
