@@ -3,8 +3,124 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.background-blue{
+  position: absolute;
+  z-index: -1;
+  background-color: #1c5380;
+  background: linear-gradient(to bottom, #4779a1, #174870);
+  height: 235px;
+  width: 100%;
+}
+
+#main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 110px;
+  padding-bottom: 30px;
+}
+
+.title{
+  width: 480px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.iphone-image > img{
+  height: 410px;
+  padding-right: 30px;
+}
+
+.content{
+  width: 480px;
+}
+.title > img{
+  height: 60px;
+}
+
+.title > a{
+  display: flex;
+  justify-content: center;
+  width: 82px;
+  font-size: 0.9em;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  color: #cddeec;
+  padding: 5px 0 2px 0;
+  background: linear-gradient(to bottom, #5781a3, #215885);
+  border: 1px solid #164266;
+  border-radius: 5px;
+}
+
+.title > a > img{
+  width: 18px;
+  height: 17px;
+  padding-right: 5px;
+}
+
+.description{
+  width: 400px;
+  background-image: url(../images/frame.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 10px 40px;
+}
+
+h1{
+  font-size: 1.4em;
+  line-height: 1.2em;
+  color: #173c5a;
+}
+
+p{
+  font-size: 0.9em;
+}
+
+.download-button img{
+  width: 150px;
+  padding-right: 15px;
+}
+
+footer{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav > ul{
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+nav a{
+  text-decoration: none;
+  text-transform: uppercase;
+  padding-right: 10px;
+  font-size: 0.7em;
+  font-weight: bold;
+  color: #1c5380;
+}
+
+footer span{
+  font-size: 0.7em;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: gray;
 }
