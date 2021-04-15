@@ -8,3 +8,111 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.bgtile {
+  height: 40vh;
+  background-image: url("../images/bgtile.png");
+}
+
+.phones{
+  display: inline-block;
+}
+.stack-info{
+  display: inline-block;
+  width: 500px;
+  margin: 50px;
+  /* background-color: lightgray; */
+}
+
+.stack-header li{
+  display: inline-block;
+  vertical-align: middle;
+
+}
+
+.stack-detail {
+  background-color: white;
+  border-radius: 2%;
+  padding: 5px 38px;
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+}
+button{
+    text-align: center;
+    background-color: #1C5380;
+    border-radius: 3px;
+    padding: 3px 8px;
+    color: rgb(221, 221, 221);
+    font-weight: bold;
+    border-color: #1B5C96;
+    background: rgb(28,83,128);
+    background: linear-gradient(0deg, rgba(28,83,128,1) 0%, rgba(47,143,221,1) 100%);
+}
+
+button > img,
+button > span {
+  vertical-align: middle;
+  padding: 2px;
+}
+.stack-detail li{
+  display: inline-block;
+}
+
+p{
+  text-align: justify;
+  font-weight: normal;
+}
+
+li{
+  list-style: none;
+}
+
+footer li {
+  display: inline-block;
+}
+
+footer{
+  width: 1000px;
+  margin: auto;
+  margin-bottom: 70px;
+ 
+}
+
+footer ul{
+  width: 700px;
+  padding: 0;
+  margin: auto;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  font-weight: bold;
+  color: #06365f;
+}
+
+.container{
+  width: 1000px;
+  margin: auto;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+
+}
+
+h1{
+  color: #06365f;
+  font-size: 28px;
+}
+
+#insta-copyright{
+  color: grey;
+  font-size: 14px;
+}
+
+.position {
+  position: ;
+}
