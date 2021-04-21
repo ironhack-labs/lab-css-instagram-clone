@@ -2,6 +2,10 @@
 Colors to use:
 dark blue: #06365f
 light blue: #1c5380
+
+Responsivo 
+@meida screen and (max-width:700px) {
+}
 */
 
 body {
