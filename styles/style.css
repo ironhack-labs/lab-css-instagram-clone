@@ -10,6 +10,7 @@ body {
 
 }
 
+
 .blue{
   height: 400px;
   background-color:#06365f;
@@ -37,7 +38,6 @@ body {
   background-color: #1c5380; 
   display: flex;
   flex-direction: row;
-  
   border: 0;
   align-items: center;
   justify-content: space-between;
@@ -75,7 +75,7 @@ h2{
   display: block;
   height: 100%;
   left: 450px;
-  position: absolute;
+  position:absolute;
   top: 280px;
   width: 100%;
   align-items: center;
@@ -94,4 +94,41 @@ h2{
   position: absolute;
   top: 400px;
   width: 100%;
+}
+
+footer {
+  width: 100%;
+}
+footer ul {
+  display: flex;
+  justify-content: center;
+
+}
+
+ul a {
+  text-decoration: none;
+  color: #1c5380; 
+}
+
+
+li{
+  list-style: none;
+  font-size: 0.8em;
+  padding: 1rem;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+footer ul .last{
+color: lightslategray;
+}
+
+footer ul{
+  padding: 400px 100px 100px 40px;
+  margin: 25px;
+  display: flex;
+  
+  justify-content: space-around;
+  
+
 }
