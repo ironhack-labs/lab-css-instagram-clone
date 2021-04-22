@@ -7,4 +7,91 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+
+}
+
+.blue{
+  height: 400px;
+  background-color:#06365f;
+  background-image: linear-gradient(#06365f,#1c5380); 
+ display: flex;
+
+}
+
+.phones{
+  display: flex;
+  padding-left: 100px;
+  padding-top: 200px;
+  height: 120%;
+  position: relative;
+  -o-object-fit: cover;
+  object-fit: cover;
+  float: right;  
+  margin-left: 5%;
+  
+}
+
+
+.login{
+
+  background-color: #1c5380; 
+  display: flex;
+  flex-direction: row;
+  
+  border: 0;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1em;
+  border-radius: 4px;
+  color: white;
+  padding: 20px 50px;
+  text-decoration: none;
+  margin: 220px 15px;
+  cursor: pointer;
+
+}
+
+.brand{
+  display: flex;
+  height: 80px;
+  width: auto;
+  padding-left: 55px;
+  padding-top: 200px;
+  height: 20%;
+  position: relative;
+  float: right; 
+  margin-left: 5%;
+}
+
+h2{
+  color: #06365f;
+  font-size: 1.5em;
+}
+
+
+.font{
+  background-image: url("/images/frame.png");
+  background-repeat: no-repeat;
+  display: block;
+  height: 100%;
+  left: 450px;
+  position: absolute;
+  top: 280px;
+  width: 100%;
+  align-items: center;
+  margin-left: 10%;
+ 
+}
+
+.text{
+  padding-left: 4%;
+  padding-top: 3%;
+}
+
+.devices{
+  height: 100%;
+  left: 100px;
+  position: absolute;
+  top: 400px;
+  width: 100%;
 }
