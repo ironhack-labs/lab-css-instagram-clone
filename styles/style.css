@@ -7,4 +7,105 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#structure {
+  display: flex;
+  flex-direction: row;
+  padding: 3% 7% 2%;
+}
+
+div {
+  padding: 2%;
+}
+
+.phones {
+  width: 375px;
+}
+
+.brand {
+  width: 275px;
+}
+
+.home img{
+  width: 75px;
+}
+
+.home {
+  margin-right: 10px;
+}
+
+.logos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logos article{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;  
+  align-items: center;  
+}
+
+.texto {
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.texto h2{
+  color: #06365f;
+  font-size: 30px;
+}
+
+.texto p{
+  font-size: 20px;
+}
+
+.texto article {
+  padding: 2%;
+}
+
+footer {
+  display: flex;
+  margin: 0 20%;
+  justify-content: space-between;
+  padding-bottom: 5%;
+}
+
+footer a{
+  text-decoration: none;
+  color: #1c5380;
+  font-weight: 700;
+}
+
+footer span {
+  color: grey;
+}
+
+.caja {
+  border: 1px solid #1c5380;
+  background-color: #1c5380;
+  padding:1%;
+  border-radius: 3px;
+}
+
+.store {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.store img {
+  width: 175px;
+}
+
+.store1 {
+  margin-right: 5%;
 }
