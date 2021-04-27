@@ -6,5 +6,30 @@ light blue: #1c5380
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  margin: 10px 0;
 }
+#nav-bar {
+  font-size: 12px;
+  margin: 50px 400px;
+}
+
+nav{
+  margin: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+
+a{
+  text-decoration: none;
+  color: #06365f;
+}
+
+ .copy {
+  color: grey;
+ }
