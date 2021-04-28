@@ -109,6 +109,8 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  position: relative;
+  bottom: 160px;
 }
 
 footer ul li {
