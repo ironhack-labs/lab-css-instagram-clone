@@ -99,6 +99,8 @@ body {
   width: fit-content;
   box-shadow: inset 3px 3px 3px black;
   margin-right: 30px;
+  border: solid 1px #074275;
+  border-radius: 3px;
 }
 
 #button {
