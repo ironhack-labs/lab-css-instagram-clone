@@ -51,6 +51,7 @@ body {
   background-image: url(../images/frame.png);
   background-repeat: no-repeat;
   background-size: contain;
+  width: auto;
 }
 
 #text h1 {
