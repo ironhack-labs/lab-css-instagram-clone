@@ -1,10 +1,137 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
+:root {
+  --color-dark-blue:#06365f;
+  --color-light-blue: #1c5380;
+  --color-white: #f7f1f1;
+  --color-text: #505050;
+}
+
+* {
+  padding: 0;
+}
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-X;
+  background-size: auto 325px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.box {
+  position: relative;
+  top: 100px;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  grid-gap: 40px;
+  width: 1024px;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.box-1 {
+  text-align: center;
+}
+
+.box-1 img {
+  height: 600px;
+}
+
+.box-2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.box-2 .box-inside-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 10px;
+}
+
+
+.box-2 .box-inside-top .logo img {
+  width: 400px;
+}
+
+.box-2 .box-inside-top .login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 35px 0px;
+  border-radius: 1px;
+  background-size: cover;
+  background-image: linear-gradient(white -100%, var(--color-light-blue));
+}
+
+.box-2 .box-inside-top .login a {
+  margin-left: 5px;
+  text-decoration: none;
+  color: var( --color-white);
+  font-size: 18px;
+}
+
+.box-2 .box-inside-bottom {
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.box-content {
+  padding: 10px 50px;
+}
+
+.box-2 .box-inside-bottom h4 {
+  margin-bottom: 40px;
+  color: var( --color-dark-blue);
+  font-size: 30px;
+  letter-spacing: 1.5px;
+  text-shadow: 0.5px 0.5px var(--color-dark-blue);
+}
+.box-2 .box-inside-bottom p {
+  margin-bottom: 15px;
+  letter-spacing: 0.5px;
+  line-height: 25px;
+  font-size: 18px;
+}
+
+.box-badge {
+  padding: 25px 50px;
+}
+
+.box-badge img:first-child {
+  padding-right: 10px;
+}
+
+footer {
+  display: flex;
+  position: absolute;
+  bottom: 50px;
+  right: 0;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding-right: 20px;
+}
+
+footer ul li {
+  padding: 10px;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: var(--color-dark-blue);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+footer span {
+  color: #0000008c;
 }
