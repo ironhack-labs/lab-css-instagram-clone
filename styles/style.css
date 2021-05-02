@@ -7,4 +7,80 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+  top: 0;
+  left: 0;
+}
+
+h1{
+  color: #06365f;
+  font-size: 30px;
+  padding-top: 0px;
+}
+.mainFlexItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.logInInstagram {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 500px;
+}
+
+.logInButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 40px;
+  width: 100px;
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+  box-shadow: rgba(149, 157, 165, 0.2) 8px 8px 24px;
+  border-radius: 5px;
+  color: white;
+}
+
+.mainText{
+  background-color: white;
+  border-radius: 5px;
+  margin: 20px;
+  padding: 0px 25px 20px 25px;
+  width: 500px;
+  box-shadow: rgba(149, 157, 165, 0.2) 8px 8px 24px;
+}
+
+.downloadLinks{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 400px;
+  padding-left: 20px;
+}
+
+.informationMenu{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  text-transform: uppercase;
+  list-style-type: none;
+  color: #1c5380;
+  padding-top: 60px;
+  padding-left: 500px;
+  padding-right: 500px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.grey{
+  color: lightgrey;
 }
