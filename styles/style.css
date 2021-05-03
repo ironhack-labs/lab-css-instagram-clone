@@ -20,7 +20,7 @@ body {
   display:flex;
   justify-content: center;
   /*background-color:red;*/
-  width: 90%;
+  /*width: 90%;*/
   /*background-color: white;;*/
 }
 .content{
@@ -51,7 +51,7 @@ body {
   color:white;
   background-color: #1c5380;
   border:none;
-  weight: bold;
+  font-weight: bold;
 }
 .text{
   padding:8px 20px;
@@ -66,13 +66,15 @@ body {
   margin-left:20px;
   margin-top: 10px;
 }
-
+footer{
+  margin: 20px 150px;
+}
 footer ul{
-  margin:30px 90px;
- width: 70%;
+  margin:30px 100px;
+  
   display:flex;
   list-style:none;
-  justify-content: space-between;
+  justify-content: space-around;
   text-transform: capitalize;
   color:#1c5380;
   font-weight: bold;
@@ -80,7 +82,7 @@ footer ul{
   /*opacity: 0.5;*/
 }
 ul .exception{
-  color:gray;
+  opacity:0.5;
   
 }
 
