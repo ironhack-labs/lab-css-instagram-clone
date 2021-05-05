@@ -7,4 +7,106 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-X;
+  }
+
+.structure {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }  
+
+.phones {
+    display: flex;
+    justify-content: left;
+    margin-left: 100px;
+    margin-right: 50px;
+    position:relative;
+    bottom: 60px;
+  }
+
+.section {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+  }
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  }
+
+.brand {
+  padding-right: 60px;
+}
+  
+.button {
+  display: flex;
+  text-decoration: none;
+  border: 0.5px solid black;
+  border-radius: 2px;
+  height: 25px;
+  padding: 5px;
+  margin-top: 18px;
+  background-image: linear-gradient(#6b99ba, #43739b);
+  }
+
+.button a {
+  display: flex;
+  text-decoration: none;
+  color: white;
+  width: 50px;
+  padding-left: 5px;
+}
+
+.frame {
+  background-image: url("../images/frame.png");
+  padding: 20px;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 470px;
+}
+
+h2 {
+  color: #06365f;
+}
+
+h2, p {
+  padding-left: 30px;
+}
+
+.badges {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer ul li {
+  padding: 10px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #06365f;
+}
+
+#copy {
+  color: #bcbcbe;
 }
