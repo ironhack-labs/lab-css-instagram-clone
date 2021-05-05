@@ -6,5 +6,81 @@ light blue: #1c5380
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  margin: 15%;
+  background: url(../images/bgtile.png);
+  background-repeat: repeat-x;
 }
+
+#main-container {
+  width: 95%;
+  margin: 10% auto;
+}
+
+#content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+#phone-left {
+  width: 35%;
+  align-self: center;
+}
+
+#log-in {
+  background-color: #176cb3;
+  border: 1px solid #0a3153;
+  font-weight: bold;
+  padding: 1%;
+}
+
+#log-in > a {
+  color: white;
+}
+
+#right-section {
+  width: 60%;
+}
+
+#top-right {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+
+#text {
+  padding: 20px 100px 20px 50px;
+  height: 600px;
+  background: url(../images/frame.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h3 {
+  color: #06365f;
+}
+
+#download {
+  margin: -40% 0 0 6%
+}
+
+#download > a {
+  margin-right: 35px;
+}
+
+#download img {
+  margin: 0 2% 0 0;
+  height: 65px;
+}
+
+footer {
+  background-color: white;
+  margin: 0 100px;
+  display: flex;
+  width: 60%;
+  margin: 60px auto;
+  justify-content: space-around;
+  align-items: baseline;
+} 
