@@ -8,3 +8,90 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+* {
+  box-sizing: border-box;
+  /*border: 1px dotted; para ver el borde */
+}
+
+header {
+  height: 300px;
+  background-image: url('../images/bgtile.png'); /*está en repeat por defecto */
+  background-size: contain; /*para que se aplane la img y se ve amejor el contenido */
+}
+
+main {
+  margin: 0 auto; /* para que se centre sin flexbox */
+  width: 900px;
+  display: flex;
+  align-items: flex-start;
+  margin-top: -190px;
+  margin-bottom: 50px;
+}
+
+img.phones {
+  margin-right: 40px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.btn {
+  color: white;
+  text-decoration: none;
+  background: linear-gradient(#6F92B0, #457298);
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  border: 1px solid #1C5380;
+  cursor: pointer;
+}
+
+.btn:hover{
+  opacity: 0.8;
+}
+
+.btn img {
+  margin-right: 5px;
+}
+
+.description {
+  background-image: url('../images/frame.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 30px;
+}
+
+.description h2 {
+  color: #06365f;
+}
+.app-links img {
+  margin-top: 50px;
+  margin-right: 20px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 0 10px 10px;
+}
+
+footer a {
+  padding: 0 10px;
+  color: #1c5380;
+  font-weight: bold;
+}
+
+footer p{
+  margin-top: 0px;
+  color: grey;
+  font-weight: bold;
+  padding: 0 10px;
+}
