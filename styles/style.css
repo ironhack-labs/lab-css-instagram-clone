@@ -3,8 +3,81 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+*{
+  margin:0;
+  padding: 0;
+}
+
+img{
+display: flex;
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background:url(../images/bgtile.png);
+  padding-top: 60px;
+  padding-left: 50px;
+}
+
+.container{
+  display: flex;
+  justify-content:space-around;
+}
+.barra{
+  display: flex;
+  justify-content:space-around;
+}
+.instagram{
+  width: 200px;
+  margin-top: 10px;
+}
+.boton{
+  display: flex;
+  justify-content: center;
+  color: white;
+  background-color:#06365f;
+  margin-right: auto;
+  margin-left: auto;
+}
+.home{
+  width: 50px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.texto{
+  width: 500px;
+  background-color: white;
+  color: #06365f;
+}
+.playStore{
+  display:flex;  
+  justify-content: center;
+  }
+.android{
+  margin: 50px;
+  width: 200px; 
+}
+.iphone{
+  margin: 50px;
+  width: 200px;
+}
+h1{
+  color: #06365f;
+  text-transform: capitalize;
+}
+ul{
+  display: flex;
+	justify-content:space-around;
+  width: 500px;
+  margin-left: 30%;
+}
+li{
+  list-style: none;
+  color:#06365f;
+  text-transform: uppercase;
+}
+
+a{
+  text-decoration:none;
 }
