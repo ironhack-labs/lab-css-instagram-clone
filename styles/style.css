@@ -3,8 +3,93 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+*{
+  margin: 0;
+  padding: 0;
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url("../images/bgtile.png");
+  background-repeat:repeat-x;
+}
+
+h1{
+  color: hsl(209deg 45% 30%);
+}
+
+p{
+  line-height: 2;
+}
+
+.group{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: row;
+  padding: 100px
+
+
+}
+
+.first{
+  margin-left: 100px;
+  
+}
+
+.second{
+  width: 500px;
+  background-image: url("../images/frame.png");
+  background-repeat: none;
+  margin-left: 100px;
+  
+}
+
+.third{
+  display: flex;
+  justify-content: center;
+  padding: 50px 0;
+
+}
+
+.badge{
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 80px;
+}
+
+.footer-link{
+  padding: 0 10px ;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: hsl(209deg 45% 30%);
+  font-weight: 800;
+}
+
+.copyright{
+  color: grey;
+  font-weight: 800;
+}
+
+.button{
+ padding: 10px 20px;
+  border: #1c5380 solid 2px ;
+  margin-top: 10px;
+  margin-left: 60px;
+}
+
+.phone{
+  height: 600px;
+  width: 200;
+}
+
+.logo{
+  display: flex;
+  align-items: flex-start;
+}
+
+.home{
+  color: #1c5380 ;
+  margin-right: 10px ;
 }
