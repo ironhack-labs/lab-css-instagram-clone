@@ -4,7 +4,97 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+
+:root {
+  --dark-blue: #06365f;
+  --light-blue: #1c5380;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  padding: 50px;
+  /* background: linear-gradient(
+    var(--light-blue) 40%,
+    white 60%
+  ); */
+  background-image: url(".\images\bgtile.png");
+  background-size:100% auto;
+  
+}
+
+.first-section{
+  display: flex;
+  justify-content: space-around;
+  /* align-items: center; */
+  align-items: stretch;
+
+}
+
+.first-section-left{
+  width: 40%;
+  height: 100%;
+}
+
+.first-section-right{
+  width: 60%;  
+  height: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-self: center;
+  /* align-items: center; */
+  /* align-items: stretch; */
+}
+
+.first-section-right>img{
+  margin: 0 auto;
+}
+
+.insta-login{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--light-blue);
+}
+
+.button{
+  background-color: var(--light-blue);
+  border: 1px solid var(--dark-blue);
+  border-radius: 5px;
+  color: white;
+  padding: 5px;
+  /* align-self: stretch; */
+}
+
+.first-section-content{
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+.first-section-content>h1{
+  color: var(--dark-blue);
+}
+
+
+.footer{
+  display: flex;
+  justify-content: center;
+}
+
+li{
+  list-style: none;
+  padding: 5px;
+}
+
+li:last-child{
+  color: grey
+}
+
+a{
+  text-decoration: none;
+  color: var(--light-blue);
 }
