@@ -3,8 +3,92 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: "images/bgtile.png";
+}
+div{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+section{
+  margin: 0 24px 0 24px;
+}
+
+p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+li{
+  color: #1c5380;
+  display: inline;
+}
+
+.igualar {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.phones{
+  width: max-content;
+}
+
+.image-button{
+  max-height: 50px;
+  max-width: 50px;
+}
+.parejo{
+  display: flex;
+  height: 150px;
+}
+.logo{
+  width: 300px;
+}
+
+.button{
+  background-color:#1c5380 ;
+  text-align: right;
+  height: 30px;
+  display: flex;
+  width: 150px;
+  align-items: center;
+  justify-content: center;
+}
+.image-bot{
+  max-width: 180px;
+}
+
+.blue-title {
+color: #06365f;
+letter-spacing: normal;
+}
+.login{
+  color: white;
+}
+.home{
+  width: 30px;
+  height: 30px;
+}
+
+.gray-li {
+  color: gray;
 }
