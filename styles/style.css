@@ -3,8 +3,119 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+*{
+  margin: 0;
+  padding: 0;
+}
+img{
+  width: 100%;
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+}
+section{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.left-container{
+  margin-right: 70px;
+}
+
+.right-container{
+  width: 500px;
+  height: 512px;
+}
+.top-box{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.top-box img{
+  width: 50%;
+}
+.button-box{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 10px;
+  cursor: pointer;
+  border: 3px solid #335F86;
+  border-radius: 3px;
+  overflow: visible;
+  text-decoration: none;
+  white-space: nowrap;
+  color: #ffffff;
+  background-color: #4C779C;
+  box-shadow: 5px 10px 20px #6A8EAD inset;
+}
+
+.button-box img{
+  width: 22px;
+  margin-right: 10px;
+}
+.button-box a{
+  color: #E5E9EE;
+  text-shadow: 0 1px 0 rgba(0,0,0,.2);
+  text-decoration: none;
+}
+.bottom-box{
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  padding: 50px;  
+}
+.bottom-box h1{
+  background-color: white;
+  line-height: 1.2;
+  font-size: 28px;
+  color: #10375c;
+  margin-bottom: 20px;
+}
+.bottom-box p{
+  line-height: 1.6; 
+  color: #040404;
+  margin-bottom: 10px;
+
+}
+.stores-box{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 40px;
+}
+.stores-box img{
+  width: 150px;
+  height: 50px;
+  margin-right: 25px;
+}
+footer{
+  margin: 70px;
+}
+footer ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+footer li{
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: 800;
+  padding: 8px;
+  color: #999898;
+}
+footer li a{
+  color: #5F85A6;
+  letter-spacing: 1px;
+  text-decoration: none;
 }
