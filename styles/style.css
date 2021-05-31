@@ -1,10 +1,65 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
 
-body {
+:root{
+  --dark-Blue: #06365f;
+  --light-Blue: #1c5380;
+  --color-white:#e2eaf0;}
+
+body, footer {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+h1{
+  color: var(--dark-Blue);
+}
+nav{
+  width: 100%;
+  
+}
+ul li{ 
+  list-style-type: none;
+}
+ul a{
+  text-decoration: none;
+  font-weight: bold;
+ }
+.nav-bar{
+  width: 100%;
+  background-image: url(/images/bgtile.png);
+  padding: 10%;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: row;
+ 
+  }
+  .logo{
+    margin-left: 70%;
+  }
+.log-in-button{
+  width: 100px;
+  height: 40px;
+  margin-left: 90%;
+  border-radius: 5px;
+  box-shadow: 0px 1px 9px 0 rgba(0, 0, 0, 0.603), inset 1px 20px 20px 0px rgba(192, 207, 220, 0.4);
+  padding: 10px 10px;
+  }
+.log-in-button>img{
+  width: 50%;
+  
+}
+.log-in-button>a{
+  color: var(--color-white);
+  
+}
+.container{
+  justify-content: space-evenly;
+  align-items: center;
+  text-align:start;
+}
+.welcome{
+  background-image: url(/images/frame.png);
+  background-size: cover;
+  width: 50%;
+  padding: 10px 10px;
 }
