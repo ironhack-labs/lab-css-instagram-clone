@@ -3,6 +3,10 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+*{
+  margin: 0;
+  padding: 0;
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -10,74 +14,99 @@ body {
   background-image: url("../images/bgtile.png");
   background-repeat: repeat-x;
 }
+section{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  align-items: center;
+}
+div{
+  display: flex;
+}
+h1{
+  color: rgb(89, 89, 202);
+  font-size: 30px;
+}
 
-.s1{
+p{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  letter-spacing: 1.2 px;
+}
+
+img{
+  width: 100%;
+  padding: 0px, 15px, 0px, 15px;
+}
+
+.Instagram{
+  width: 300px
+}
+.button{
+  border: 1px solid rgb(40, 14, 100);
+  width: 150px;
+  background: linear-gradient(to bottom, blue, rgb(131, 116, 211) 80%, rgb(177, 171, 211));
+  border-radius: 15px;
+  
+}
+.home{
+  width: 60px;
+  margin: 15px;
+}
+
+.store{
+  width: 50%;
+  margin-top: 90px;
+}
+
+article{
+  display: flex;
+  width: 30%;
+  margin: 50px;
+}
+
+.right{
+  display: flex;
+  flex-direction: column;
+  
+}
+.header-right{
+  margin: 10px 0px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  align-items: center;
 }
 
-.a1{
-  display: flex;
-  width: 40%;
-  margin: 50px;
-  height: 700px;
-}
-
-.a2{
+.right-box{
   display: flex;
   flex-direction: column;
-  align-items: left;
-  height: 500px;
-  margin: 50px;
-  margin-right: 180px;
-  
+  background: white;
+  padding: 50px 30px;
+  border-radius: 12px;
+  height: 600px;
+  box-shadow: inset 25px 0px 25px -25px rgba(0,0,0,0.45), inset -25px 0px 25px -25px rgba(0,0,0,0.45);
 }
-
-.diva1{
-  display: flex;
-  justify-content: center;
-  margin: 10px;
-  
-}
-.diva11{
-  display: flex;
-  align-items: stretch;
-  flex-direction: row;
-  padding: 10px 50px 10px 0;
-  background: transparent;
-  
-}
-
-.buttondiva1 {
-  padding: 30px, 5px;
-  background: transparent;
+ 
+.login{
+  margin: auto;
   color:white;
-  border-bottom: transparent;
-  height: 56px;
-  width: 78px;
-  text-align: center;
-  align-items:center;
-  border-radius: 6px;
- 
- 
+  
 }
 
-.diva2{
+.fondo{
   display: flex;
   flex-direction: column;
   align-items: left;
   background-image: url("../images/frame.png");
   background-repeat: no-repeat;
   padding: 15px;
-
 }
 
-.nav-footer{
+nav{
   display: flex;
   justify-content: center;
-
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 ul {
@@ -85,9 +114,13 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 600px;
+  width: 800px;
   font-weight: bold;
- 
+ }
+
+a{
+  margin-left: 10px;
+  text-decoration: none;
 }
 
 
