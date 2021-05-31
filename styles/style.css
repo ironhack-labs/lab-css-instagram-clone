@@ -4,7 +4,135 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html { 
+ 
+  }
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  margin-bottom: 30px;
+}
+
+
+.section0 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  background: url(/Users/carola/IronHack/Week1/day1/lab-css-instagram-clone/images/bgtile.png); 
+  height: 400px;
+  background-repeat: round;
+}
+
+.section1 {
+  width: 20%;
+  margin-top: 15%;
+  margin-left: 5%;
+  margin-botton: 5%;
+}
+
+.section2 {
+  margin-top: 16%;
+  height: 200px;
+  width: 70%
+  margin-top: 15%;
+  margin-right: 5%;
+  margin-left: 6%;
+}
+
+.section3 {
+  background: url(/Users/carola/IronHack/Week1/day1/lab-css-instagram-clone/images/frame.png); 
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 5%;
+  margin-botton: 5%;
+  width: 400px;
+  padding: 40px 40px;
+}
+
+h1 {
+  color: #06365f;
+  style: bold;
+  margin-right: 40px;
+}
+
+.head2 {
+  margin-bottom: 30px;
+}
+
+p {
+  font-size: 14px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.instagramLogo {
+  width: 50%;
+}
+
+.home {
+  width: 25%;
+  margin-right: 8px;
+  vertical-align: sub;
+}
+
+.iphone {
+  width: 32%;
+  margin-top: 30px;
+}
+
+.android {
+  margin-top: 30px;
+  margin-left: 20px;
+  width: 30%;
+}
+
+nav {
+  align-text: center;
+  position: absolute;
+  width:100%;
+  display:flex;
+  justify-content: center;
+}
+
+ul {
+  list-style-type: none; 
+}
+
+li {
+  font-size: 12px;
+  color: gray;
+  font-weight: bold;
+  margin-top: 400px;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+  float: left;
+}
+
+li a {
+  color: #1c5380;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  align-text:center;
+}
+
+.btn {
+  color: white;
+  border: 1px solid #1c5380;
+  background-image: linear-gradient(#698dad, #1c5380);
+  padding: 10px 10px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 10px;
+  border-radius: 5px;
+  vertical-align: middle;
+  text-align: center;
+  float: right;
+  
 }
