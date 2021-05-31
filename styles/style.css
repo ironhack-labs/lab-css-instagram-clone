@@ -1,3 +1,5 @@
+/* general settings */
+
 /*
 Colors to use:
 dark blue: #06365f
@@ -6,5 +8,134 @@ light blue: #1c5380
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(0deg, #204666 0%, #779bb8 100%);
+  background-size: 100% 40%;
+  background-repeat: no-repeat;
+}
+
+p {
+  color: rgb(100, 98, 98);
+}
+
+* {
   margin: 0;
+  padding: 0;
+  /* border: 1px solid red; */
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  width: 100%;
+}
+
+/* div general */
+div {
+  width: 30%;
+  margin-top: 70px;
+}
+
+/* segundo div */
+
+div:nth-of-type(2) {
+  width: 45%;
+  margin-left: 30px;
+}
+
+/* instagram logo */
+.logo {
+  padding-bottom: 20px;
+}
+
+.logo a img {
+  width: 13px;
+}
+
+.logo img {
+  width: 63%;
+}
+
+.logo a {
+  box-shadow: 1px 1px 2px #06365f;
+  font-size: 13px;
+  padding: 7px 10px 5px;
+  border-radius: 2px;
+  text-decoration: none;
+  color: white;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(0deg, #204666 0%, #779bb8 100%);
+}
+
+/* solo al nav  div2*/
+div nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* hoja con background blanco */
+section {
+  padding: 20px;
+  background: white;
+  border-radius: 3px;
+  box-shadow: 12px 0 15px -4px rgba(54, 96, 146, 0.2),
+    -7px 0 15px -5px rgba(55, 100, 155, 0.2);
+}
+
+section h1 {
+  font-size: 18px;
+  color: #06365f;
+  line-height: 25px;
+}
+
+section h1 span {
+  display: block;
+}
+
+section p {
+  font-size: 12px;
+  line-height: 20px;
+  margin: 10px 0;
+}
+section figure {
+  margin-top: 20px;
+  display: flex;
+}
+
+figure img {
+  width: 40%;
+  margin-left: 10px;
+}
+
+/* footer */
+footer {
+  margin-top: 40px;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+}
+
+footer ul li {
+  list-style-type: none;
+}
+
+footer ul li a {
+  text-transform: uppercase;
+  padding: 0 10px;
+  text-decoration: none;
+  color: #1c5380;
+  font-weight: bold;
+  font-size: 9px;
+}
+
+footer ul li:last-child a {
+  padding-left: 25px;
+  color: rgb(167, 164, 164);
 }
