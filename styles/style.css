@@ -4,7 +4,126 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #06365f;
+    padding: 0;
+    margin-bottom: 1rem;
+    line-height: 100%;
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+    font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+    background: url("../images/bgtile.png") repeat-x;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    margin: 5rem;
+}
+
+.main-img {
+    margin: 0 2rem;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 0 2rem;
+}
+
+.main-content>header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.log-button>a {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 8px 6px;
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(#ffffff3d, #1c53807e);
+    border: #1c5380 1px solid;
+    border-radius: 5%;
+}
+
+.log-button>a>img {
+    padding: 3px 5px;
+}
+
+.log-button>a>p {
+    padding-right: 10px;
+}
+
+.main-content>section {
+    background-color: white;
+    border: black 20px solid;
+    border-image-slice: 10;
+    border-image-width: 10px;
+    border-image-outset: 9px;
+    border-image-repeat: stretch;
+    border-image-source: url('../images/frame.png');
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main-content>section>p {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+.main-content>section>p>span {
+    font-weight: 700;
+}
+
+.download-buttons {
+    margin-top: 1rem;
+}
+
+.download-buttons>a {
+    margin-right: 1rem;
+}
+
+footer>nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    list-style: none;
+    margin-bottom: 3rem;
+}
+
+footer>nav li {
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin: 0 1rem;
+}
+
+footer>nav a {
+    color: #1c5380;
+    text-decoration: none;
+}
+
+footer>nav p {
+    color: grey;
 }
