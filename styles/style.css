@@ -4,18 +4,21 @@
   --light-Blue: #1c5380;
   --color-white:#e2eaf0;}
 
-body, footer {
+body{
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
   display: flex;
   flex-wrap: wrap;
 }
+header{
+  width: 90%;
+}
+footer{
+  width: 100%;
+ margin-left: 15%;
+}
 h1{
   color: var(--dark-Blue);
-}
-nav{
-  width: 100%;
-  
 }
 ul li{ 
   list-style-type: none;
@@ -27,39 +30,83 @@ ul a{
 .nav-bar{
   width: 100%;
   background-image: url(/images/bgtile.png);
-  padding: 10%;
+  padding: 10% 5.5%;
   justify-content: flex-end;
   align-items: flex-end;
   flex-direction: row;
  
   }
-  .logo{
-    margin-left: 70%;
-  }
-.log-in-button{
-  width: 100px;
-  height: 40px;
-  margin-left: 90%;
-  border-radius: 5px;
-  box-shadow: 0px 1px 9px 0 rgba(0, 0, 0, 0.603), inset 1px 20px 20px 0px rgba(192, 207, 220, 0.4);
-  padding: 10px 10px;
-  }
-.log-in-button>img{
-  width: 50%;
-  
+.nav-bar ul{
+display:flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
 }
-.log-in-button>a{
+
+.nav-bar a{
+  font-size: small;
+  font-weight: lighter;
+  position:absolute;
+  padding: 8px 1%; 
   color: var(--color-white);
-  
+      }  
+.logo{
+width: 80%;
+margin-left: 70%;
+      }
+.log-in-button{
+  margin-left: 10px;
+  width: 90px;
+  height: 10%;
+  border-radius: 2px;
+  box-shadow: 0px 1px 3px 0 rgba(0, 0, 0, 0.603), inset 1px 20px 20px 0px rgba(192, 207, 220, 0.3);
+  text-align: center;
+  }
+.log-in-button img{
+ margin: 5px 0 0 5px;
 }
 .container{
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
   text-align:start;
 }
 .welcome{
   background-image: url(/images/frame.png);
-  background-size: cover;
-  width: 50%;
-  padding: 10px 10px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 40%;
+  padding:20px;
+  margin-top: -8%;
+  margin-left: 5%;
+  justify-content: center;
+  align-items: center;
 }
+.welcome h1, p{
+  padding: 0 10%;
+}
+.smart-phone-img{
+  margin-top: -15%;
+  margin-left: 10%;
+}
+.store-container{
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+}
+
+.footer-links{
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10px;
+}
+.footer-links a{
+  color: #6489a9;
+}
+.footer-links a:hover{
+    color: #6489a973;
+  }
