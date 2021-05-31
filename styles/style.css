@@ -43,10 +43,11 @@ a {
 .login-box {
   display: flex;
   text-align: center;
-  justify-content: left;
+  justify-content: space-between;
   flex-direction: row;
   justify-items: center;
   padding-bottom: 5%;
+  height: 70px;
 }
 
 
@@ -99,5 +100,22 @@ footer a, p {
 }
 
 .login-btn {
-  padding: 10px;
+  padding: 3px 5px;
+  margin-left: 20px;
+  border: 1px solid darkblue;
+  height: 50px;
+  width: 100px;
+  background-color: #4e7699;
+  border-radius: 2px;
+}
+
+.login-btn a {
+  font-weight: 900;
+  color: white;
+}
+
+
+.login-box img {
+  max-width: 100%; 
+  height: auto;
 }
