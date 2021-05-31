@@ -3,8 +3,110 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+* {
+  padding: 0;
+  margin: 0;
+}
+
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url("file:///Users/josezhu/Desktop/IronhackWeb/lab-css-instagram-clone/images/bgtile.png");
+  background-repeat: space;
+  height: 300px;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 700px;
+}
+
+div {
+  padding: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  margin: 0 10px;
+
+}
+
+footer li {
+  text-transform: uppercase;
+  font-weight: 600;
+  color:#3B5998;
+  font-size: 12px;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  margin: 10px 0px;
+}
+
+h1 {
+  color: #3B5998;
+}
+
+.firstBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.secondBox {
+  display: flex;
+}
+
+.buttonInst {
+  border: 1px #3B5998 solid;
+  border-radius: 5px;
+  margin-left: 20px;
+  background-image: linear-gradient(180deg,#3B5998, #3B5998);
+  color: white;
+  font-weight: 600;
+  padding: 10px 15px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 1px 1px 15px -2px rgba(0,0,0,0.44)  ;
+}
+
+.thirdBox {
+  background-image: url("file:///Users/josezhu/Desktop/IronhackWeb/lab-css-instagram-clone/images/frame.png");
+  background-repeat: no-repeat;
+}
+
+.thirdBoxIn {
+  padding: 20px;
+}
+
+.app_button img {
+  padding: 0 20px;
+}
+
+.textInts {
+  max-width: 26.5em;
+}
+
+
+.logoImg {
+  max-height: 100px;
 }
