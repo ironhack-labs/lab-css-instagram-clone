@@ -4,7 +4,102 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+*{
+ margin: 0;
+ padding: 0;
+ 
+}
+
+
+
+.container{
+display: flex;
+flex-wrap: nowrap;
+background-image: url("bgtile.png");
+
+
+
+}
+
+.header{
+
+height: 20%;
+
+}
+
+.left{
+  width: 35%;
+  float: left;
+  padding-left: 10%;
+  
+  }
+
+.right{
+width: 600px;
+float: right;
+padding-right: 3%;
+
+
+}
+
+.brand{
+
+float: left;
+}
+.textbox{
+  background-image: url("frame.png");
+  
+  
+     
+}
+
+H1{
+
+float: left;  
+}
+
+p{
+
+float: left;  
+text-align: justify;
+padding-bottom: 20px;
+}
+
+
+
+
+.apple{
+margin-top: 10%;
+float: left; 
+}
+
+.android{
+margin-top: 10%;
+  float: right; 
+  }
+
+
+
 body {
+ 
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  
 }
+
+footer{
+  width: 100%;
+  
+  
+ 
+  
+  }
+
+  .login{
+    background-image: url("bgtile.png");
+   margin: 5% ; 
+
+  float: right;  
+  }
+
+  
