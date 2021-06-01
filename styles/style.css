@@ -41,7 +41,9 @@ margin-top: 6%;
   width: 15px;
   background-color: white;
   padding-left: .7cm;
-  
+  border: 2px , solid, #eee;
+border-radius: 20px;
+box-sizing: border-box;
 
   
 }
