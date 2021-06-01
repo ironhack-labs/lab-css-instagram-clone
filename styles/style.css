@@ -7,4 +7,91 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+
+  background-image: url("/images/bgtile.png");
+  background-repeat: repeat-x;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 100px;
+}
+
+.main__top {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.left--iphones {
+  width: 350px;
+  height: 500px;
+  margin-right: 50px;
+}
+
+.right__top {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  justify-items: center;
+  align-items: center;
+}
+
+.right__main {
+  background-image: url("/images/frame.png");
+  background-repeat: no-repeat;
+  width: 500px;
+  height: 400px;
+  padding-top: 10px;
+  padding-left: 40px;
+}
+
+.right__main__heading {
+  color: rgb(51, 93, 133);
+}
+
+.right__top--loginButton {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 40px;
+  width: 100px;
+  font-size: 15px;
+
+  background-color: rgb(51, 93, 133);
+  color: white;
+}
+
+.right__bottom {
+  padding-top: 20px;
+  display: flex;
+}
+
+.right__bottom__playStore {
+  margin-left: 20px;
+}
+
+p {
+  font-size: 16px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+  width: 660px;
+  text-transform: uppercase;
+  padding-right: 40px;
+}
+
+.footer__list {
+  display: flex;
+  list-style: none;
+  color: rgb(51, 93, 133);
+  text-transform: uppercase;
+  font-weight: bold;
+  justify-content: space-evenly;
+  margin-left: 0px;
+  width: 550px;
 }
