@@ -3,8 +3,63 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+*{
+  margin:0;
+  padding:0;
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+ 
+}
+header{
+  padding:15%;
+  background-color:#1c5380;
+}
+section{
+  display:flex;
+  flex-direction: row;
+  justify-content:center;
+  align-items: center;
+  padding-left: 20%;
+  padding-right:20%;
+  padding-top:8%;
+}
+h1{
+  color: darkblue;
+  font-size:30px;
+}
+nav{
+  padding-top: 10px;
+  
+}
+a{
+  text-decoration:none;
+  color:#1c5380;
+ 
+}
+ul {
+  display:flex;
+  flex-direction: row;
+  justify-content:center;
+  align-items: center;
+  list-style: none;
+}
+li{
+  padding-left:10px;
+  padding-right:10px;
+}
+article{
+  padding-left:30px;
+  padding-right:10px;
+  background-image:url("images/brand.png");
+}
+p{
+  padding-top: 10px ;
+  padding-bottom: 10px;
+
+}
+footer{
+  padding-top:4%;
 }
