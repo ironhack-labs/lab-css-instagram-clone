@@ -8,3 +8,114 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+#main{
+  background-image: url('../images/bgtile.png');
+  background-repeat: repeat-x;
+  width: 250%;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+#iphonepicbox img{
+}
+
+#textbox{
+background-image: url("../images/frame.png");
+padding: 28px 40px;
+background-repeat: no-repeat;
+}
+
+#header{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.instalogo{
+  padding-right: 30px;
+  justify-content: flex-start;
+  margin-right: auto;
+  height: 60px;
+}
+
+.logInButton{
+  display: flex;
+  justify-content: space-between;
+  background-color: #1c5380;
+  color: white;
+  align-items: center;
+  border: none;
+  border-radius: 3px;
+  height: 30px;
+  margin-left: auto;
+  padding: 25px;
+}
+
+.logInButton img{
+margin-left: auto;
+justify-content: flex-start;
+}
+
+.logInButton p{
+margin-right: auto;
+justify-content: flex-end;
+}
+
+h2{
+  color: #06365f;
+  font-size: 25px;
+}
+
+#infotext{
+  position: relative;
+  margin: 20px;
+  padding: 20px;
+  width: 500px;
+}
+
+
+.downloadButton{
+  display: flex;
+}
+
+.downloadButton button{
+  margin: 10px;
+  background-color: white;
+  border: none;
+}
+
+footer{
+  margin: 40px auto; 
+  display: flex;
+  justify-content: center;
+  width: 250%;
+}
+
+footer ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  text-decoration: none;
+}
+
+footer li a{
+  padding: 5px;
+  list-style: none;
+  text-decoration: none;
+  font-weight: bold;
+  color: #06365f;
+
+}
+
+footer .copyright{
+  color: darkgrey;
+  font-weight: bold;
+  font-size: smaller;
+}
+
+
+
