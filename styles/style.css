@@ -7,4 +7,139 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: linear-gradient(0deg, white 60%, #06365f 40%, #1c5380);
+  background-repeat: no-repeat
+ 
+}
+
+section{
+
+  width: 100%;
+  padding-top: top 80px;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+
+}
+
+#description {
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 500px;
+  height: 350px;
+  padding-left: 40px;
+  padding-top: 20px;
+
+  display: flex;
+  justify-content:flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-content: flex-start;
+
+}
+
+#logo-button{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  padding-top: 20px;
+
+}
+
+#right-side{
+  margin-top: 100px;
+  padding-left: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+#iphone-android{
+  display: flex;
+  align-items: flex-start;
+  padding-left: 40px;
+  padding-top: 20px;
+
+}
+
+.google{
+  padding-left: 20px;
+}
+
+.phone{
+  height: 550px;
+  padding-top:120px;
+}
+
+footer{
+  padding-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  
+  }
+
+ul {
+    list-style: none;
+    width: 1200px;
+    margin: 20 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    text-align: center; 
+    
+}
+
+
+a {
+  color: #1c5380;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  
+}
+
+.instagram{
+  color: gray;
+}
+
+h1{
+  color: #06365f;
+  text-align: left;
+}
+
+p{
+
+}
+
+span{
+  font-weight: bold;
+}
+
+
+
+button{
+  color: white;
+  background-color: #06365f;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px 20px;
+  border-radius: 10%;
+  border-color: #06365f;
+}
+
+button:hover{
+  background-color: #1c5380;
+}
+
+.home{
+  padding-right: 10px;
 }
