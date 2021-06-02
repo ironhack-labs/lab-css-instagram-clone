@@ -7,4 +7,128 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  
+  
 }
+.image-home{
+  position: relative;
+  top: 3px;
+}
+ 
+.log-in{
+ 
+  width: 100px;
+  height: 45px;
+  background-color:  #3271a5;
+  /* border: 1.5px solid #0b1e2c ; */
+  border-radius: 3px;
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.439);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position:  relative;
+  left: -0.9vw;
+  
+}
+.logoInstagram{
+  position: relative;
+  left: 0.2vw;  
+}
+
+.divGeral{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: row-reverse;
+  margin-top: 0;
+  padding-top: 70px;
+ 
+}
+
+.direitaGeral{
+  margin-top: 10px;
+  margin-left: 50px;
+  width: 50vw;
+  padding: 10px;
+
+}
+
+.logo{
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+ 
+ 
+}
+
+section > div > a{
+ 
+  text-align: center;
+  color: white;
+  text-decoration: none;
+}
+section > div > a > img{
+  margin-right: 5px;
+  vertical-align: center;
+  margin-top: 3px;
+}
+
+.direita > h1{
+  color: #06365f;
+  font-size: 1.5rem;
+  width: 40vw;
+  margin-bottom: 3px;
+}
+.direita >p{
+  width: 40vw;
+  font-size: 17px;
+  margin: 10px 10px 0 10px;
+}
+
+.direita{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../images/frame.png") ;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.app{
+align-self: flex-start;
+margin-left: 65px;
+margin-top: 30px;
+
+}
+.android{
+  margin-left: 20px;
+}
+
+.geral{
+  background: linear-gradient(to top, white 58%, #1c5380 10%
+  );
+  margin-top: 0;
+  
+}
+ul{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  margin-top: 8vh;
+  
+
+}
+
+ul > li{
+  color: gray;
+  list-style: none ;
+  font-size: 1rem;
+}
+ul > li > a{
+   text-decoration: none;
+   color: #1c5380;
+ }
