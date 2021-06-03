@@ -12,10 +12,8 @@ body {
   background-color:#1c5380 ;
   height: 50vh;
   width: 100%;
-
   display: flex;
   justify-content: center;
-  
   align-items: center;
  
 }
@@ -28,8 +26,9 @@ body {
   margin-right: 1em;
   margin-top: 1em;
   margin-left: 1em;
-  padding-right: 50px;
-  align-items: left;
+  text-align: left;
+  position: relative;
+  right: 150px;
 }
 
 .login{
@@ -39,7 +38,8 @@ body {
   height: 25px;
   background-color: #1c5380;
   color: white; 
-  
+  position: relative;
+  right: 70px;
   
 }
 
@@ -49,10 +49,10 @@ body {
   height: 50vh;
   width: 100%;
   display: flex;
-  justify-content: center;
-  justify-content: space-around;
+  justify-content: center; 
   align-items: center;
 }
+
 .text{
   height: 350px;
   width: 500px;
@@ -64,14 +64,14 @@ body {
   background-size:2px 100%;
   background-position:0 0, 100% 0;
   background-repeat:no-repeat;
+
 }
-.text h3 {
-  font-weight: bold;
+.text h2 {
+  margin-top: 0%;
   color: #06365f;
 }
 
-.text p {
-  
+.text p {  
   color: black;
 
 }
@@ -81,16 +81,13 @@ ul {
   display: flex;
   list-style-type: none ;
   justify-content: space-between;
-  margin: 20px;
+  
   padding: 0;
 }
-li{
-  
-  margin: 9px;
+li{  
+  margin: 5px;
 }
-footer{
-
-  
+footer{ 
   color: #698aaf;  
   display: flex;
   justify-content: center;
