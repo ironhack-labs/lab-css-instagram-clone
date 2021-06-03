@@ -27,7 +27,6 @@ body {
 
 #textbox{
 background-image: url("../images/frame.png");
-margin-top: 70px;
 padding: 15px 40px;
 background-repeat: no-repeat;
 }
@@ -37,6 +36,7 @@ background-repeat: no-repeat;
   justify-content: space-between;
   width: 100%;
   margin-bottom: 20px;
+  margin-top: 50px;
   align-items: center;
 }
 
