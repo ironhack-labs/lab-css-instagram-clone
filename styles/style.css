@@ -4,7 +4,63 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  font: 200 5vh "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0vh;
+  padding: 0vh;
+}
+
+.section1{
+  height: 60vh;
+  background-color: #06365f;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+#instagram{
+  width: 40vh;
+  height: 15vh;
+  padding: 0vh 0.5vh 0vh 0vh;
+  margin:0vh 14vh 0vh 0vh;
+}
+
+.section1 p {
+  font-size: clamp(0.1vh, 2.5vh, 4vh);
+  padding:0vh 0vh 0vh 0vh;
+  color: white;
+  border: 0.1vh #1c5380 groove;
+  background-color: #1c5380;
+  margin: 0vh 10vh 0vh 0vh;
+  width: 12vh;
+  height: 4vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.telefone {
+  position: relative;
+  align-self: flex-start;
+  margin: 0vh 30vh 0vh 0vh;
+}
+
+.text {
+  display: flex;
+  border:0.1 outset #1c5380;
+
+  flex-wrap: wrap;
+  border-radius: 40vh;
+  margin: 25vh 10vh 25vh 10vh;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.text h2 {
+  align-items: center;
+  font-size: 4vh;
+}
+
+.text p {
+  font-size: 3vh;
+  align-items: center;
 }
