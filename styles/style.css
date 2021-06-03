@@ -4,7 +4,127 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  background: rgb(251, 251, 251);
+  background: linear-gradient(0deg,
+      rgba(251, 251, 251, 1) 58%,
+      rgba(28, 83, 128, 1) 58%);
+  background-repeat: no-repeat;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 92vh;
+}
+
+.container-movel {
+  height: 528px;
+  width: 33%;
+  margin: 48px;
+}
+
+.container-Texto {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 33rem;
+  /* ou 528px */
+  width: 43%;
+  margin-top: 1rem;
+  /* ou 16px */
+}
+
+.textTotal {
+  background-image: url(/images/frame.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 35px;
+  width: 481px;
+
+  margin-top: 46px;
+}
+
+h2 {
+  color: #06365f;
+  width: 256px;
+  font-size: 23px;
+  white-space: pre-line;
+}
+
+.textTotal p {
+  font-size: 11px;
+  white-space: pre-line;
+  font-weight: 200;
+  padding-top: 25px;
+}
+
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.logoInstagram {
+  width: 300px;
+  margin-right: 80px;
+}
+
+button {
+  background-color: #41698d;
+  border-radius: 3px;
+  border-style: none;
+  box-shadow: 0px 1px 0px 1px #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 5px;
+  color: white;
+}
+
+button div {
+  margin-right: 10px;
+}
+
+.appsDownload {
+  display: flex;
+  justify-content: center;
+
+  margin: 0 33px;
+  padding-right: 20px;
+}
+
+.appleStore {
+  margin-right: 20px;
+}
+
+
+/* Footer */
+footer {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+
+footer a {
+  margin-right: 30px;
+  text-decoration: none;
+  color: #06365f;
+  font-size: 14px;
+  font-weight: bolder;
+}
+
+footer div {
+  color: #c6c6c7;
+  font-size: 14px;
+  font-weight: bolder;
 }
