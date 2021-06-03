@@ -8,3 +8,44 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+#cabeçalho {
+  background-color: #1c5380;
+  height: 300px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.login {
+  padding: 8px;
+  margin: 0px 80px;
+  display: flex;
+  background-color: #1c5380;
+  box-shadow: 1px 1px 1px 1px #06365f;
+}
+
+.login a {
+color: white;
+text-decoration: none;
+}
+
+.login img {
+  margin-right: 8px;
+}
+
+#conteudo {
+  display: flex;
+}
+
+#iphone {
+  margin-left: 150px;
+}
+
+#descrição {
+  width: 500px;
+  height: 500px;
+  border: 1px solid black;
+  margin-left: 100px;
+  padding: 40px;
+}
