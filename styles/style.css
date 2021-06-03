@@ -8,3 +8,105 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+h1{
+  color: #06365f;
+  font-size: 2.5em;
+
+}
+
+#container-top{
+  width: 100vw;
+  height: 10vw;
+  background-image: linear-gradient(#1c5380,#06365f);
+  background-size: cover;
+  margin: auto ;
+  display: flex;
+  justify-content: space-around;
+}
+
+#container-top div{
+  margin: auto 100px;
+  width: 850px;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+
+.insta-logo{
+  margin: auto;
+
+}
+
+.button-login{
+  margin: auto;
+  border: 1px solid #06365f;
+  color: white;
+  background-image: linear-gradient(#1c5380,#06365f);
+}
+
+.image-phone{
+  width: 20%;
+  height: 20%;
+  margin: -600px 100px 0;
+}
+
+#container-text{
+  width: 40vw;
+  height: 60vh;
+  margin: -60px auto auto 600px;
+  background-image: url("../images/frame.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-top: 5px;
+}
+
+
+
+.text-instagram{
+  margin: -30px 30px auto 30px;
+  
+}
+
+.text-instagram p{
+  text-align: justify;
+}
+
+.image-apps{
+  margin: 60px 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+#footer{
+  margin: auto 500px;
+}
+
+#footer ul{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+#footer ul li{
+  list-style: none;
+  color: #1c5380;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#footer .insta{
+  color: grey;
+}
+
+
+#container{
+
+}
+
+
