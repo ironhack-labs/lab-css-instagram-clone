@@ -8,3 +8,107 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.blue-background {
+  display: flex;
+  justify-content: flex-end;
+  align-items:center;
+  height: 200px;
+  background-color: #1c5380;                       
+
+}
+
+#logoinsta{
+  padding-right: 7%;
+  padding-top: 2%;
+   
+}
+
+.button{
+  display: flex;
+  padding-top: 2%;
+  padding-right: 20%;
+  
+}
+
+#phones{
+  padding-top: 30%;
+  padding-right: 3%;
+  width: 290px;
+
+
+}
+
+.button a{
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: white;
+   
+}
+
+.log-in {
+  
+  background-color: #1c5380;
+  
+    
+}
+
+.text{
+  margin-left: 42%;
+  margin-top: -4%;
+  
+}
+
+h1 {
+  color: #06365f;
+  font-size: 1.6em;
+  font-weight: 900;
+  line-height: 30px;
+}
+
+.container-box {
+  background-image: url("/images/frame.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 500px;
+  padding: 5px;
+  margin-top: 5px;
+
+}
+
+
+
+.text-container-box {
+  width: 450px;
+  box-sizing: border-box;
+  padding-bottom: 10px;
+  margin: 0 auto; 
+}
+h2{
+  color: #06365f;
+}
+
+
+ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 600px;
+  margin: 10px auto;
+}
+
+li {
+  list-style-type: none;
+  color: #1c5380;;
+  font-weight: 700;
+}
+
+#insta-copy{
+  color: lightgray
+}
+
+a{
+  text-decoration: none;
+  color:#1c5380;
+}
