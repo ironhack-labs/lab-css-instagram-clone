@@ -4,7 +4,61 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
-body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+
+html {
+  font: 200 16px/1.5; 
+  font-family: fantasy;
   margin: 0;
+  text-align: center;
+  background-color: rgb(50, 115, 220);
 }
+
+.content {
+  background-image: url("/images/frame");
+  background-color: white;
+  width:50%;
+	height:300px;
+	margin: auto;
+  text-align: center;
+  padding: 30px; 
+}
+
+.telephones{
+	float:left;
+  width : 200px; 
+  height : 300px;
+}
+
+
+.logo{
+    height:140px;
+	  margin-bottom:15px;
+  }
+
+
+  .badges{
+    width: 100px;
+    height: 100px;
+  }
+
+  .button{
+    width: 100;
+     height: 100;
+  }
+
+ p{
+   text-align: center;
+   vertical-align: 0;
+ }
+
+ footer{
+  clear: both;
+  width: auto;
+  background-color: white;
+  color: #1c5380;
+ }
+
+
+ 
+
