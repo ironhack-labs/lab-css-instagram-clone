@@ -1,10 +1,105 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
-
+/* Seletores básicos */
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+	font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
 }
+h1{
+	font-size: 1.5rem;
+	color: #173c5a;
+}
+p{
+	font-size: 1em;
+}
+/* Fazendo o background com a dica do final da aula */
+#background-blue{
+	position: absolute;
+	background: linear-gradient(to bottom, #4779a1, #174870);
+	background-color: #1c5380;
+	z-index: -1;
+	height: 300px;
+	width: 100%;
+}
+/* container */
+#container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 150px;
+	padding-bottom: 30px;
+}
+
+/* Coluna 1 */
+#iphone img{
+	height: 500px;
+	padding-right: 30px;
+}
+
+/* Coluna 2 */
+#content{
+	width: 580px;
+}
+
+#head{
+	width: 500px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#head img{
+	height: 60px;
+}
+
+#head a{
+	display: flex;
+	justify-content: center;
+	width: 80px;
+	font-size: 1rem;
+	text-align: center;
+	color: #cddeec;
+	padding: 5px;
+	background: linear-gradient(to top, #215885, #5781a3);
+}
+
+#head a img{
+	width: 18px;
+	height: 17px;
+	padding-right: 5px;
+}
+
+#text{
+	width: 400px;
+	background-image: url(../images/frame.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	padding: 20px 60px;
+}
+
+#download-button img{
+	width: 150px;
+	padding-right: 15px;
+}
+
+footer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+section ul{
+	display: flex;
+	flex-direction: row;
+	list-style-type: none;
+}
+
+section a{
+	text-decoration: none;
+	text-transform: uppercase;
+	padding:0 10px 0 0;
+	font-size: 0.5rem;
+	font-weight: bold;
+	color: #1c5380;
+}
+
