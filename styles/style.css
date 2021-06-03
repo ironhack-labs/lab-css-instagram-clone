@@ -7,4 +7,102 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url("/images/bgtile.png");
+  background-repeat: no-repeat;
+  background-size: 100% 37%;
+}
+
+header {
+  margin: 60px 0px 40px 120px;
+  display: flex;
+}
+
+#phone img {
+  height: 400px;
+}
+
+#instagram {
+  margin: 0 14vw 0 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+#instagram-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+#brand {
+  margin-top: 10px;
+  height: 60px;
+}
+
+#log-in {
+  padding: 7px 8px;
+  margin: 20px 10px;
+  background-image: linear-gradient(to bottom, #81a9c9, #4a7599);
+  border-radius: 8%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #1c5380;
+}
+
+#log-in img {
+  padding: 0 10px 0 0;
+}
+
+#log-in a {
+  text-decoration: none;
+  color: white;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+#instagram-bottom {
+  background-image: url("/images/frame.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 20px 40px 0 40px;
+}
+
+#instagram-bottom-text h1 {
+  color: #06365f;
+  font-size: 1.4em;
+  width: 26vw;
+}
+
+#instagram-bottom-text p {
+  font-size: 0.9em; 
+}
+
+#instagram-bottom-text span {
+  font-weight: bold;
+}
+
+#instagram-bottom-downloads img {
+  width: 125px;
+  margin: 10px 10px 0 0;
+}
+
+footer {
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+footer ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+}
+
+footer li {
+  font-size: 0.8em;
+  margin: 0 0 0 15px;
+  text-transform: uppercase;
+}
+
+footer a {
+  text-decoration: none;
+  color: #1c5380;
 }
