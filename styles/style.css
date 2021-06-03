@@ -4,7 +4,89 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
-body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+/*body*/
+body{
+  background: #fff url("../images/bgtile.png") repeat-x;
+  font: 180 18px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+/*Main*/
+main {
+  width: 860px;
+  margin: 80px auto 0;
+}
+
+main section.section-left {
+  float: left;
+}
+
+main section.section-right {
+  float: right;
+  width: 500px;
+}
+
+main section.section-right nav button.home{
+  float: right;
+  margin-top: 18px;
+  background: linear-gradient(#6c90ad, #4a7598);
+  border:2px solid #1c5380;
+  border-radius: 3px;
+  padding: 5px 7px;
+  color: white;
+}
+
+main section.section-right nav button.home img{
+  padding-top: 3px;
+}
+
+main section.section-right nav button.home span{
+  margin-left: 5px;
+  bottom: 5px;
+  position: relative;
+  font-size: 14px;
+
+}
+main section.section-right nav button span:hover{
+  text-decoration: underline;
+
+}
+
+main section.section-right article{
+  background: url("../images/frame.png") no-repeat;
+  padding: 45px;
+}
+
+main section.section-right article h1{
+  color: #06365f;
+  font-size: 30px;
+  margin-top: 0;
+  line-height: 1.4;
+}
+
+/*footer*/
+
+footer ul{
+  clear: both;
+  list-style: none;
+  margin: 0 0 18px;
+  padding: 0;
+  text-align: center;
+}
+
+footer ul li{
+  color: #997;
+  display: inline;
+  font-size: 12px;
+  font-weight: bold;
+  margin: 0 8px;
+}
+
+footer ul li a{
+  color:  #1c5380;
+  text-decoration: none;
+}
+
+footer ul li a:hover{
+  text-decoration: underline;
 }
