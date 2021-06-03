@@ -11,28 +11,109 @@ body {
 
 .blue{
   background-color: #1c5380;
-  height: 33.3vh;
+  height: 50vh;
   width: 100%;
-
   display: flex;
   justify-content: center;
-  justify-content: space-around;
   align-items: center;
- 
 }
 
+/* victor */
+
+
+.phones{ /* ?? nao entendi qual é o elemento original para esse em se basear */
+  margin-right: 10em; 
+  margin-top: 33em;
+  margin-left: 05em;
+}
+
+.logo{ 
+  margin-right: 1em;
+  margin-top: 1em;
+  margin-left: 1em;
+  text-align: left;
+  position: relative;
+  right: 150px;
+}
+
+.login{
+  text-decoration: solid;
+  margin: 0px; 
+  padding: 10px;
+  height: 25px;
+  background-color: #1C5380;
+  color: white; 
+  position: relative;
+  right: 70px;
+}
+
+.white{
+  background-color: white;
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text{
+  height: 350px;
+  width: 500px;
+  background-color: white;
+  margin-bottom: 8em; 
+  margin-left: 25em;
+  padding: 20px;
+  background-size:2px 100%;
+  background-position:0 0, 100% 0;
+  background-repeat:no-repeat;
+  border:1px solid black;
+  border-radius: 5px;
+}
+
+.text h2 {
+  margin-top: 0%;
+  color: #06365F;
+}
+
+.text p {
+  color: black;
+}
+
+ul {
+  display: flex;
+  list-style-type: none ;
+  justify-content: space-between;
+  margin: 10px;
+  padding: 0;
+}
+
+li{
+  margin: 9px;
+}
+
+footer{
+  color: #698AAF;  
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 40px;
+  width: 660px;
+  text-transform: uppercase;
+  margin-left: 420px;
+}
 
 -------
 
-https://github.com/jnothomb/Ironhack-lab-css-instagram-clone-COMPLETE-/blob/master/starter-code/css/main.css
 
-https://github.com/anreb/ironhack-lab-css-instagram-clone/blob/master/starter-code/css/main.css
+/* 
 
-Use one of the CSS layout techniques to position elements on the page (display, float, flexbox, or grids)
+?? nao sei usar esses metodos de css: Use one of the CSS layout techniques to position elements on the page (display, float, flexbox, or grids)
+
 Look up in MDN and use CSS properties and values that may not have been covered in class, for example:
 background: url("YOUR-LINK.COM")
-list-style
-text-decoration
+
 text-transform
+
 Use a single external CSS stylesheet to style all pages
 
+*/
