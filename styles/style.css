@@ -44,6 +44,11 @@ h1 {
   width: 80px;
 }
 
+.log-in-text {
+  padding: 3%;
+  margin-left: 2%;
+}
+
 .content {
   background-color: white;
   border-style: none;
