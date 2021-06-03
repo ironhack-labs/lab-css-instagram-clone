@@ -7,4 +7,119 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  height: 100%;
+  background: linear-gradient(0deg, white 50%, #1c5380 50%);
+}
+
+.topElements {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding-top: 180px;
+  padding: 180px 180px 0 180px;
+}
+
+.wrapper {
+  position: relative;
+}
+
+section {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 350px 150px;
+  padding: 2% 4%;
+  width: 35%;
+  background-color: white;
+  border-radius: 1%;
+  box-shadow: 0 0 7px 0px #797a7a;
+}
+
+#badgeOne {
+  width: 220px;
+  margin-right: 20px;
+}
+
+#badgeTwo {
+  width: 205px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #06365f;
+}
+
+p {
+  font-size: 1.2rem;
+}
+  
+#brandLogo {
+  width: 40%;
+  margin-top: 30px;
+}
+
+#phones {
+  width: 45%;
+  margin-right: 90px;
+  margin-top: 40px;
+}
+
+.bottomLinks {
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 50px 250px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  text-transform: uppercase;
+}
+
+li a {
+  color: #1c5380;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#brandBottom {
+  color: rgb(107, 103, 103);
+  font-weight: bold;
+}
+
+#logInButton {
+  width: 160px;
+  height: 60px;
+  background-color: #1c5380;
+  box-shadow: 0 0 7px 0px #133857;
+  display: flex;
+  flex-direction: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 40px;
+  border-radius: 5%;
+  background-image: linear-gradient(to bottom, rgb(204, 216, 240), rgb(61, 85, 124));
+}
+
+.linkBtn {
+  color: white;
+  font-size: 1.3rem;
+  text-decoration: none;
+  font-weight: bold;
+  opacity: 70%;
+  text-shadow: 2px 2px #363535;
+  margin: 5px 5px;
+}
+
+#homeIcon {
+  width: 40px;
+}
+
+footer img {
+  width: 20px;
 }
