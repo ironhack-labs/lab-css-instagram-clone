@@ -16,12 +16,14 @@ body {
   background-image: url("/00-Classes Labs/lab07-0106-css-instagram-clone/images/bgtile.png");
   /* background-position: top; ---nao sei se faz diferença*/
   background-repeat: repeat-x;
+  /* background-size: 100% 47%; */
   background-size: 100% 47%;
  
 }
 
-#copyRightLogo {
-  color: grey;
+#soTextos {
+  display: flex;
+  justify-content: space-between;
 }
 
 .container {
@@ -33,13 +35,15 @@ body {
   /* color: white; */
   background-image: url("/00-Classes\ Labs/lab07-0106-css-instagram-clone/images/frame.png");
   background-repeat: no-repeat;
-  /* display: flex;
-  align-items: center;  
-  justify-content: center; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
   
   /* background-size: cover; */
   /* background-position: center;
   background-repeat: no-repeat; */
+
+
 }
 
 #infoBox {
@@ -76,14 +80,13 @@ body {
 
 footer {
   margin: 50px;
-  
+  display: inline;
   /* margin: 50px;
   justify-content: space-between;
   align-items: center; */
 }
 
 nav ul {
-  /* display: inline; */
   width: 60%;
   list-style: none;
   display: flex;
@@ -91,13 +94,11 @@ nav ul {
   align-items: center;
 }
 
-
-
 li a {
   font-size: .75em;
-  color: #1c5380;
   text-transform: uppercase;
   font-weight: bold;
+  color: #1c5380;
   text-decoration: none;
   margin: 15px;
 }
