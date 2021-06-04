@@ -8,3 +8,92 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+.backgroundBlue{
+  height: 400px;
+  background-color: #06365f;
+}
+section{
+  height: 600px;
+}
+.doubleFone{
+  width: 400px;
+  position: static;
+  margin-left: 50px;
+  margin-top: 150px;
+  float: left;
+}
+.logotipo{
+  margin-top: 150px;
+  margin-left: 180px;
+  position: static;
+}
+.buttonHome{
+  background-color: #1c5380;
+  color: white;
+  border-radius: 4px ;
+  margin-top: 140px;
+  width: 100px;
+  padding: px  10px ;
+  margin-left: 200px;
+}
+.buttonHome>input{
+  vertical-align: middle;
+  margin-right: 10px;
+  
+}
+.alinhaLogo{
+  width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.backgroundWhite{
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  float: left;
+  width:  610px;
+  height: 600px;
+  background-size: 650px 400px;
+  margin-left: 180px;
+}
+.text{
+  width: 530px;
+  margin-left: 50px;
+}
+.text h1{
+  font-size: 2.5em;
+  color: #06365f;
+}
+.text p{
+  font-size: 1.3em;
+}
+.desce{
+  margin-top: 50px;
+}
+.borderImg{
+  width: 205px;
+  margin-left: 50px;
+}
+.bigBadge{
+  width: 190px;
+  margin-left: 20px;
+}
+footer{
+  display: flex;
+  align-items: center;
+  float: left;
+  width: 1500px;
+  font-size: 1.1em;
+ text-transform: uppercase;
+ color: grey;
+}
+footer ul{
+  display: flex;
+  list-style: none;
+  margin-left: 200px;
+}
+footer > ul > li > a{
+  text-decoration: none;
+  margin-right: 20px;
+  color:  #1c5380;
+}
