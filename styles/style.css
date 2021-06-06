@@ -7,4 +7,82 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+#header {
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: stretch;
+  border: 1px solid green;
+  height: 1000px;
+
+}
+
+#iphoneImage {
+  background-image: url(../images/phones.png);
+  background-size:90% 100%;
+  width: 40%;
+  background-repeat: no-repeat;
+  border: 1px solid red; 
+  margin-top: 10%;
+  margin-left: 10%;
+  margin-bottom: 20%;
+  height: 800px;
+}
+#information {
+  width: 60%;
+  border: 1px solid blue;
+  display: flex;
+  height: 800px;
+  margin-top: 10%;
+  margin-right: 10%;
+  margin-bottom: 20%;
+  flex-direction: column;
+}
+
+.logosTop {
+  display: flex;
+  height: 30%;
+  border: 1px solid red)
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  height: 30%;
+  border: 1px solid red)
+}
+
+.logosBottom {
+  display: flex;
+  height: 30%;
+  border: 1px solid black)
+}
+
+.instagramLogo {
+  width: 40%;
+  border: 1px solid rgb(0, 255, 106)
+}
+
+
+.footer {
+  border: 1px solid redblue)
+  display:flex; 
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+#footer ul { 
+  display: flex;
+  flex-direction: row;
+  border: 1px solid blue);
+  
+}
+
+.trademark {
+  border: 1px solid blue)
 }
