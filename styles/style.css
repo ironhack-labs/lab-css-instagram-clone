@@ -7,4 +7,121 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: rgb(250,249,254);
+  background: linear-gradient(0deg, rgba(250,249,254,1) 63%, rgba(69,102,129,1) 63%, rgba(82,123,157,1) 100%);
+}
+
+#container {
+  height: 120vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#phones img {
+  height: 85vh;
+  margin-left: 2vw;
+}
+
+#intro {
+  height: 70vh;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+header {
+  width: 47vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 0 0 2vw 2vw;
+  padding-top: 3vh;
+}
+
+header > img {
+  width: 30vw;
+  padding-left: 1vw;
+}
+
+#header-button {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid #456681;
+  background: rgb(89,123,150);
+  background: linear-gradient(0deg, rgba(89,123,150,1) 0%, rgba(126,162,191,1) 100%);
+  width: 7vw;
+  height: 6vh;
+}
+
+#header-button p {
+  color: white;
+  font-weight: bolder;
+  padding-right: 1vw;
+}
+
+
+#paragraph {
+  width: 50vw;
+  background-color: #faf9fe;
+  border-radius: 25px 25px 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: space-around;
+  margin: 3vh 0;
+  border-left: 1px groove rgba(82, 123, 157, 0.2);
+  border-right: 1px groove rgba(82, 123, 157, 0.2);
+}
+
+h1 {
+  width: 22vw;
+  font-size: 1.9rem;
+  margin: 3vw 3vw;
+  color: #06365f;
+}
+
+#paragraph p {
+  width: 36vw;
+  margin-left: 3vw;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.iphone {
+  width: 15vw;
+}
+
+#downloadBttns {
+  margin-left: 3vw;
+}
+
+.android {
+  width: 14vw;
+  margin-left: 20px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #7ea2bf;
+  font-weight: bolder;
+}
+
+footer ul {
+  list-style: none;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+footer li {
+  margin: 0 1vw;
+  color: grey;
+  font-weight: bolder;
 }
