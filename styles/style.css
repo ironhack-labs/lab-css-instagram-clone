@@ -10,41 +10,32 @@ body {
 }
 
 .blue{
-  background-color: #1c5380;
   height: 50vh;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-image: linear-gradient(180deg,#1c5380, #06365f)
 }
 
 /* victor */
 
 
-.phones{ /* ?? nao entendi qual é o elemento original para esse em se basear */
-  margin-right: 10em; 
-  margin-top: 33em;
-  margin-left: 05em;
+.phones{ 
+
 }
 
 .logo{ 
-  margin-right: 1em;
-  margin-top: 1em;
-  margin-left: 1em;
-  text-align: left;
-  position: relative;
-  right: 150px;
+
 }
 
 .login{
   text-decoration: solid;
-  margin: 0px; 
   padding: 10px;
   height: 25px;
-  background-color: #1C5380;
-  color: white; 
-  position: relative;
-  right: 70px;
+  color: white;
+  border-radius: 5px; 
+  background-image: linear-gradient(180deg,#1c5380, #06365f)
 }
 
 .white{
@@ -53,21 +44,36 @@ body {
   width: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
 .text{
   height: 350px;
   width: 500px;
   background-color: white;
-  margin-bottom: 8em; 
-  margin-left: 25em;
+  /*margin-bottom: 8em; 
+  margin-left: 25em;8*/
   padding: 20px;
   background-size:2px 100%;
   background-position:0 0, 100% 0;
   background-repeat:no-repeat;
   border:1px solid black;
   border-radius: 5px;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.box {
+  margin-left: 3em
+}
+
+.float {
+  display: flex;
+  position: absolute;
+  top: 350px
 }
 
 .text h2 {
@@ -111,9 +117,5 @@ footer{
 
 Look up in MDN and use CSS properties and values that may not have been covered in class, for example:
 background: url("YOUR-LINK.COM")
-
-text-transform
-
-Use a single external CSS stylesheet to style all pages
 
 */
