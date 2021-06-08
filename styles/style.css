@@ -1,115 +1,118 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
-
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: space-between;
-  justify-content: space-between;
 }
-
-.rectangles {
-	display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap;
-	justify-content: space-between;
-	align-items: stretch;
-	align-content: stretch;
-}
-
-.rectangles #blue-rectangle {
-  background-image: linear-gradient(to bottom, #1c5380, #06365f);
+.main-section {
+  background-image: linear-gradient(to bottom, #1C5380, #06365F);
   position: absolute;
-  height: 40%;
+  height: 45%;
   width: 100%;
   z-index: -1;
 }
-
-.rectangles #white-rectangle {
-  background-color: white;
-  height: 60%;
-  width: 100%;
-  
+.iphones {
+  width: 500px;
+  margin-left: 0;
+  padding-left: 0;
 }
-
-.main-section {
-  border: 5px solid green;
+.insta {
+  width: 400px;
 }
-
-.nav-bar {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: flex-end;
-	align-content: flex-end;
-  margin: 90px 70px 50px 600px;
-  border: 5px solid yellow;
+.all-ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 120px;
 }
-
-.main-section li {
-  list-style-type: none;
-  text-align: center;
+.all-iphones {
+  width: 800px;
 }
-
-.button-image img {
-  width: 50px;
-  height: 45px;
-  padding-top: 30px;
+.logologin {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
-
-.button a {
-  width: 30px;
-  height: 30px;
-  padding-top: 600px;
-  padding-right: 50px;
-  border: 1px solid pink;
+.houselogin {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 160px;
+  border-style: solid, #1C5380;
+  padding: 10px;
+  height: 40px;
+  background-color: #1C5380;
+}
+.houselogin h5 {
+  font-size: 25px;
   color: white;
+}
+.houselogin img {
+  width: 35px;
+}
+.all-iphones{
+  padding-left: 70px;
+  width: 700px;
+}
+.h1p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-image: url(images/frame.png);
+  background-repeat: no-repeat;
+  background-size: 770px;
+  width: 840px;
+  padding-left: 60px;
+  height: 465px;
+  margin-top: 30px;
+}
+.h1p h1 {
+  padding-top: 30px;
+  padding-top: 0;
+  font-size: 40px;
+  width: 420px;
+  color: #06365F;
+}
+.h1p p {
+  width: 620px;
+  font-size: 25px;
+}
+.installapp {
+  padding-left: 90px;
+  width: 250px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+#apple {
+  width: 450px;
+}
+#google {
+  width: 450px;
+  padding-right: 40px;
+}
+ul {
   text-decoration: none;
-  font-size: 2em;
-} 
-
-.main-section main {
-    background-color: white;
-    width: 400px;
-    height: 500px;
-    border: 1px solid red;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-end;
-}
-
-h2 {
-  
-}
-.foot ul {
   list-style: none;
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-  align-items: flex-end;
-  align-content: center;
-  width: 60%;
-  padding-left: 20%;
+  justify-content: center;
+  align-items: center;
+  width: 97%;
+  font-weight: 700;
 }
-
-.foot a {
+ul a {
   text-decoration: none;
-  color: #266ba3;
-  font-weight: bold;
+  color: #1C5380;
 }
-
-.foot .copy {
-  color: rgb(223, 223, 223);
-  font-weight: bold;
-
+ul li {
+  padding: 75px 15px;
+  font-size: 17px;
+}
+#ee {
+  color: grey;
 }
