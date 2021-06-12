@@ -24,13 +24,6 @@ body {
   width: 20%;
 }
 
-.gradient {
-  position: absolute;
-  width: 100%;
-  z-index: -5;
-  background: linear-gradient(#1c5380, #06365f);
-}
-
 .content {
   display: flex;
   flex-direction: column;
@@ -58,7 +51,6 @@ p {
   width: 40%;
   text-align: center;
 }
-
 
 .stores {
   padding-top: 0;
@@ -124,7 +116,6 @@ button {
   flex-direction: row;
   align-items: center;
 }
-
 
 @media (max-width: 1200px) {
   .left-half img {
