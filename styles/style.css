@@ -4,7 +4,7 @@ body {
   margin: 0;
   background-image: linear-gradient(#1c5380, #06365f), url("../images/bgtile.png");
   background-repeat: no-repeat;
-  background-size: 100% 350px;
+  background-size: 100% 300px;
 }
 
 .header {
@@ -42,7 +42,7 @@ body {
   height: 50%;
 }
 
-.content h3,
+.content h2,
 p {
   padding-left: 10%;
   padding-right: 10%;
@@ -80,9 +80,9 @@ p {
   padding: 0;
 }
 
-h3 {
+h2 {
   color: rgb(59, 99, 135);
-  margin-top: 50px;
+  margin-top: 5%;
 }
 
 .footer {
@@ -111,6 +111,7 @@ button {
 }
 
 .right-footer {
+  margin-top: 90px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -133,7 +134,7 @@ button {
   }
 
   .right-half {
-    width: 60%;
+    width: 50%;
     width: 100%;
     margin: 0 auto;
     padding-top: 10%;
