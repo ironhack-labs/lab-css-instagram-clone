@@ -7,4 +7,102 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url(/images/bgtile.png);
+  background-repeat: no-repeat;
+  background-size: 100% 40%;
+  align-items: center;
+  margin-top: 5%;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.phones {
+}
+
+.big-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 41%;
+}
+
+.frame {
+  
+}
+
+.title {
+  width: 60%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.house  {
+  margin-left: 4%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: -50px 0 -50px 0;
+  height: 50px;
+  width: 105px;
+  justify-content: space-around;
+  background-color: #1c5380;
+  color: white;
+  border-radius: 7%;
+}
+
+#house {
+  display: flex;
+  justify-self: flex-end;
+
+}
+
+article {
+  text-align: center;
+}
+
+.subcontent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 20%;
+  background-image: url(/images/frame.png);
+  background-repeat: none;
+  background-size: cover;
+  padding: 5%;
+}
+
+.big-box-buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 30px;
+  margin-right: 0%;
+}
+
+.footer {
+  margin-top: 15%;
+  align-items: flex-end;
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-evenly;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#copyright {
+  color: rgb(139, 139, 139);
 }
