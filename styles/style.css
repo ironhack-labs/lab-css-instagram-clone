@@ -12,8 +12,6 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin-left: 3%;
-  margin-right: 3%;
 }
 
 .button-login {
