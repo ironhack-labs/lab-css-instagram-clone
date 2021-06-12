@@ -3,8 +3,93 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url(../images/bgtile.png);
+  background-size: 100vw 30vw;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  color: #06365f;
+  size: -10%;
+}
+.bigger-box {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10%;
+  margin-left: 10%;
+}
+.title {
+  display: flex;
+}
+article {
+  width: 300px;
+  margin-left: 10px;
+}
+.log-in {
+  display: flex;
+  font-size: 1rem;
+  height: 40px;
+  width: 30%;
+  background-image: url(../images/bgtile.png);
+  border-radius: 5px;
+  align-items: center;
+}
+
+.phone {
+  display: flex;
+  size: 50vw;
+}
+
+.big-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  margin-left: 40px;
+}
+.buttons {
+  display: flex;
+  align-self: flex-start;
+  margin-right: 15%;
+  margin-top: 10%;
+  margin-left: -1%;
+}
+.b1 {
+  margin: 15px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-top: 10%;
+  color: #06365f;
+  text-decoration-color: none;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2%;
+  width: inherit;
+}
+.bg {
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  background-size: 50vw;
+}
+
+#copyright {
+  color: gray;
+}
+
+header button{
+  display: flex;
+  justify-content: flex-end;
 }
