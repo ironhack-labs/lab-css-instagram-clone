@@ -7,4 +7,98 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url(/images/bgtile.png);
+  background-repeat: no-repeat;
+  background-size: 100% 40%;
+  align-items: center;
+  margin-top: 15%;
+  
+}
+
+.contenedor{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+
+  
+}
+
+.instagram{
+  width: 41%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  width: 60%;
+}
+
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.hogar  {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: -50px 0 -50px 0;
+  height: 50px;
+  width: 50%;
+  justify-content: space-around;
+  background-color: #1c5380;
+  color: white;
+  border-radius: 7%;
+  margin-left: 50px;
+  
+}
+
+#hogar {
+  display: flex;
+  justify-self: flex-end;
+
+}
+
+.contenido{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 20%;
+  background-image: url(/images/frame.png);
+  background-repeat: none;
+  background-size: cover;
+  padding: 5%;
+}
+
+.imagenes{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 30px;
+  margin-right: 0%;
+  margin: auto;
+}
+
+.footer {
+  margin-top: 15%;
+  align-items: flex-end;
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-evenly;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#copyright {
+  color: rgb(139, 139, 139);
 }
