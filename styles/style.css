@@ -60,12 +60,48 @@ body {
 .logosBottom {
   display: flex;
   height: 30%;
-  border: 1px solid black)
+  border: 1px solid black;
 }
 
 .instagramLogo {
-  width: 40%;
-  border: 1px solid rgb(0, 255, 106)
+  width: 70%;
+  border: 1px solid rgb(255, 102, 0);
+  
+}
+
+.instagramPic {
+  margin-top: 20%;
+  width: 100%;
+  height: 50%;
+}
+
+.login {
+  width: 20%;
+  height: 30%;
+  border: 1px solid pink;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  margin: 10% -10% 0% 5%;
+  padding: 0 20% 0 0;  */
+}
+.loginLogo {
+  width: 30%;
+  border: 1px solid red;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.logInPic {
+  /* width: 30%;
+  height: 20%; */
+}
+.loginButton {
+  /* display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 30%; */
 }
 
 
@@ -85,4 +121,39 @@ body {
 
 .trademark {
   border: 1px solid blue)
+}
+
+.logosBottom {
+  border: 1px solid rgb(0, 255, 76);
+  display: flex;
+  flex-direction: row;
+}
+
+
+
+.imageAppStore {
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  margin: 5%;
+}
+
+.appStorePic{
+  width: 100%;
+  height: 60%;
+}
+
+.imageGooglePlay {
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  margin: 5%;
+}
+.googleStorePic {
+  width: 100%;
+  height: 60%;
 }
