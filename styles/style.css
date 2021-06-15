@@ -1,10 +1,107 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
-
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+.clearfix {
+  clear: both;
+}
+.container-top{
+  display: -webkit-flex;
+  display: flex;
+  background: rgb(6,54,95);
+  background: linear-gradient(0deg, rgba(6,54,95,1) 12%, rgba(28,83,128,1) 47%);
+  height: 40vh;
+  padding-left:50vh;
+}
+.panel {
+  margin-right:10px;
+ -webkit-flex:1 1 auto;
+  margin: 0 auto;
+  position: center;
+  padding-top: 100px;
+  width: 1000px;
+}
+.container-top div.mobile {
+  margin-right:10px;
+    -webkit-flex:1 1 auto;
+    flex:1 1 auto;
+  position: relative;
+  float: left;
+  width: 20%;
+}
+.panel-text {
+  position: relative;
+  float: right;
+  width: 60%;
+  padding: 10px;
+  padding-bottom: 15vh;
+}
+.panel-header {
+  align-content: space-between ;
+  padding-bottom: 10px;
+}
+.instagram-login {
+  padding-top: 5vh ;
+}
+.button-login {
+  padding-left: 10vh;
+}
+.mobile  {
+  padding-top: 10vh;
+}
+.log-in {
+ padding: 7px 15px;
+  background-color: #1C5380;
+  border-radius: 5px;
+  font-size: 15px;
+  color: #fff;
+  padding-top: ;
+}
+.panel-text-container{
+  max-width: 300vw
+  background-image: ;
+}
+.text-intro>h3 {
+  max-width: 30vw;
+  font-size: 24px;
+  color: #1C5380;
+}
+.badge {
+  width: 100%;
+  height: 50px;
+}
+.badge-android {
+  float: left;
+  width: 150px;
+  height: 50px;
+  padding-left: 5px;
+}
+.badge-iphone {
+  float: right;
+  width: 150px;
+  height: 50px;
+  padding-left: 5px;
+}
+.container-down {
+  margin: 0;
+  background-color: #fff;
+}
+.footer {
+  position: relative;
+  float: left;
+  padding-top: 100px;
+  font-size: 18px;
+  color: #06365F;
+  display: inline-block;
+}
+.footer ul {
+  display: inline-flex;
+}
+.footer ul li {
+  list-style: none;
+  margin-left: 20px;
+  font-weight: 900;
+}
+.copy {
+  color: grey;
 }
