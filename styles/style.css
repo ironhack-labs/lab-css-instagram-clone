@@ -7,4 +7,67 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: rgb(28,83,128);
+  background: linear-gradient(180deg, rgba(28,83,128,1) 0%, rgba(6,54,95,1) 35%, rgba(255,255,255,1) 35%);
+  background-repeat: no-repeat;
+}
+
+#logo {
+  padding-top: 50px;
+  margin-top: 50px;
+  margin-left: 0px;
+}
+
+#login {
+  background-color: #1c5380;
+  border-color: #06365f;
+  border-width: 2px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-left: 50px;
+  font:100, white, 15px;
+}
+
+.column {
+  float: left;
+  width: 40%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#phones {
+  margin-left: 150px;
+  margin-top: 80px
+}
+
+h1 { 
+  color: #06365f;
+  margin-top: -240px;
+  margin-left: 50px;
+  font-size: 25px;
+  padding-right: 100px;
+}
+
+p {
+  font-weight: 400;
+  margin-left: 50px;
+  font-size: 14px;
+  padding-right: 100px;
+}
+#appstore {
+  margin-left: 50px;
+}
+ul {
+  margin-top: 30px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 14px;
+  font-weight: 500;
 }
