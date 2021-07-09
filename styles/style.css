@@ -51,7 +51,7 @@ body {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  height: 40px;
+  height: 39px;
   color: rgb(205, 216, 225);
   background: linear-gradient(#1c5380, #06365f);
   width: 20%;
@@ -66,7 +66,7 @@ body {
   background-image: url(/images/frame.png);
   background-repeat: none;
   background-size: cover;
-  padding: 5%;
+  padding: 6%;
 }
 
 .imagenes{
