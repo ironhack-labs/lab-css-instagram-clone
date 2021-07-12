@@ -40,7 +40,7 @@ margin-right: 10px;
 }
 
 .login-btn span.icon{
-background: url(/images/home.png) no-repeat;
+background: url(../images/home.png) no-repeat;
 float: left;
 width: 35px;
 height: 30px;
@@ -54,7 +54,7 @@ font-weight:600;
 }
 
 .intro-text{
-background-image: url("/images/frame.png");
+background-image: url("../images/frame.png");
 background-repeat: no-repeat;
 background-size: cover;
 padding:10px 30px 30px 40px;
