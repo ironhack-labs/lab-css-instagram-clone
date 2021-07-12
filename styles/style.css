@@ -7,4 +7,77 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: linear-gradient(to bottom, #1c5380 0%, #1c5380 40%, white 0%, white 100%);
+  background-repeat: no-repeat;
+}
+
+.content {
+margin:5% 10% -10% 10%;
+display:flex;
+align-items: center;
+} 
+
+.phones{
+margin:10% 10% 20% 0;
+}
+
+.intro{
+margin-left:1%;
+margin-top:-10%;
+}
+
+#ins-logo{
+margin-left: 10px;
+}
+
+.login-btn{
+float:right;
+margin-top:3%;
+background-color:#2c80c5;
+border-radius: 5px;
+padding:5px 10px 0px 10px;
+margin-right: 10px;
+}
+
+.login-btn span.icon{
+background: url(/images/home.png) no-repeat;
+float: left;
+width: 35px;
+height: 30px;
+}
+
+.login-btn a{
+color:white;
+text-decoration: none;
+font-size: 16px;
+font-weight:600;
+}
+
+.intro-text{
+background-image: url("/images/frame.png");
+background-repeat: no-repeat;
+background-size: cover;
+padding:10px 30px 30px 40px;
+}
+
+.intro-text h2{
+color:#1c5380;
+}
+
+.app-icon{
+margin-left: 35px;
+}
+
+footer{
+display: flex;
+align-items: center;
+justify-content: space-between;
+max-width: 680px;
+margin-left: 360px;
+}
+
+footer a:link{
+  text-decoration: none;
+  color: #06365f;
+  font-weight: 500;
 }
