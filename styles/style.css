@@ -7,4 +7,96 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: #f5f6f8;
+}
+
+h1 {
+  color: #06365f;
+  font-size: 27px;
+}
+
+a {
+  color: #06365f;
+  font-weight: bold;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.background {
+  background-color: #547b9d;
+  height: 40vh;
+  width: 100vw;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  width: 50vw;
+  margin: auto;
+  background: #f5f6f8;
+  height: 10vh;
+  padding-top: 10vh;
+}
+
+.capture {
+  width: 30vw;
+  background: white;
+  margin-top: 5vh;
+  border-radius: 10px;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  background-image: url( 'images/frame.png');
+}
+
+.logo {
+  height:504;
+  width:284; 
+}
+
+.phones {
+  flex: 0 0 auto;
+}
+
+.login {
+  margin-left: 5vw;
+  height: 40px;
+  width: 130px;
+  margin-top: 8px;
+  background-color: #547b9d;
+  color: white;
+  background-image: url( '/images/home.png' );
+  background-size: 25px 25x;
+  background-repeat: no-repeat;
+}
+
+.content {
+  display: flex;
+  position: relative;
+  background-image: linear-gradient(#547b9d 50%, #f5f6f8 50%);
+  padding-left: 20vw;
+  padding-top: 20vh;
+  height: 80vh;
+}
+
+.content-text {
+  margin-top: 1vh;
+}
+
+.right-content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 6vw;
+}
+
+.right-header {
+  display: flex;
+}
+
+.download-img {
+  margin-left: 1vw;
+  margin-top: 3vh;
+}
+
+.copyright {
+  color: lightgray;
 }
