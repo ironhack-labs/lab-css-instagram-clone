@@ -1,10 +1,217 @@
 /*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
+Colors:
+Text: 1A1A1A
+Green: #00B172
+White: #FFF
 */
 
-body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+@import url(chrome://resources/css/roboto.css);
+
+body{
+    margin: 0px;
+    font-family: Roboto, system-ui, sans-serif;
+}
+
+/*first part of the page */
+
+
+.navvar {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: stretch;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.navvarul {
+    display: flex;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: stretch;
+    width: 300px;
+    list-style: none;
+}
+
+.navvar a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.title {
+    background-image: url("/images/landing.jpg");
+    background-position: 0% 50%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-top: 20%;
+    padding-bottom: 25%;
+    position: relative;
+    color: white;
+}
+
+.h1p {
+    display: flex;
+    text-align: center;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+    margin-top: 0px;
+
+}
+
+#logo {
+    width: 140px;
+}
+
+h1 {
+    font-size: 400%;
+    font-weight: 600;
+    width: 100%;
+    align-content: center;
+    margin-top: 0px;
+    margin-bottom: 17px;
+}
+#ptitle {
+    width: 550px;
+    font-size: 24px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    margin-top: 0px;
+}
+
+
+/*second part of the page */
+
+.section2 {
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+    height: 60%;
+}
+
+#music {
+    width: 100px;
+    margin-top: 0px;
+}
+
+#high-quality {
+    width: 100px;
+    padding-bottom: 14px;
+    margin-top: 0px;
+}
+
+#devices {
+    width: 100px;
+    padding-bottom: 22px;
+}
+
+.threeimmages {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+h3 {
+    font-size: 25px;
+    font-weight: 600;
+    border-bottom: solid 3px #00B172;
+    padding-bottom: 1px;
+    margin-bottom: 27px;
+}
+
+.threeimmages div {
+    width: 250px;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+    justify-content: center;
+	align-items: center;
+    text-align: center;
+}
+
+.threeimmages div h4 {
+    font-size: 20px;
+    color: #00B172;
+    margin-top: 0px;
+}
+
+.threeimmages div p{
+    font-size: 17px;
+    font-weight: lighter;
+    margin-top: 0px;
+    letter-spacing: 1px;
+    width: 200px;
+}
+
+
+
+/*third part of the page */
+
+
+.section3 {
+    margin: 26px;
+    color: white;
+}
+
+.everithing {
+    background-color: #00B172;
+    display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+    height: 540px;
+}
+
+.everithing h4 {
+    font-size: 25px;
+    border-bottom: solid 2px white;
+    padding-bottom: 5px;
+    width: 307px;
+    font-weight: 500;
+    margin-top: 0px;
+}
+
+.Spotifyapp {
+    width: 220px;
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-end;
+    margin-right: 7%;
+    margin-bottom: 0px;
+}
+
+#logo {
+   width: 100px;
+}
+
+.everithing-images {
+    display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: flex-start;
+    width: 230px;
+    margin-left: 7%;
+}
+
+.everithing-images h5 {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.everithing-images p {
+    font-weight: 200;
 }
