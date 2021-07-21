@@ -8,3 +8,100 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+/* Generic Classes */
+.primary-color {
+  color: #06365f;
+}
+
+.secondary-color {
+  color: #1c5380;
+}
+
+.logo {
+  padding-right: 64px;
+}
+
+.login {
+  color: white;
+  background-color: #1c5380;
+  border-radius: 2px;
+  border: 1px solid #06365f;
+  font-weight: 600;
+  /* We neeed to center the login elements vertically and also the Instagram logo and the button */
+}
+.login img {
+  padding-right: 8px;
+}
+
+body {
+  width: 100%;
+}
+.right,
+.left {
+  width: 49%;
+  position: relative;
+  display: inline-block;
+  margin-top: 96px;
+}
+
+.left {
+  text-align: right;
+}
+
+.left img {
+  margin-right: 64px;
+}
+
+.right {
+  padding-left: 16px;
+}
+
+/* CARD */
+
+.card {
+  /* border: 1px solid #e1e4e8; */
+  border-radius: 4px;
+  max-width: 480px;
+  padding: 24px;
+  background-image: url("images/phones.png");
+}
+
+.badges {
+  transition: transform ease-in 0.3s;
+  margin-top: 32px;
+}
+
+.badges:hover {
+  transform: translateY(-2px) rotate(-360deg);
+}
+/* FOOTER NAV */
+nav {
+  text-align: center;
+  margin-top: 64px;
+}
+
+/* Common styles for Nav elements */
+nav li {
+  text-transform: uppercase;
+  font-weight: 600;
+  list-style: none;
+  display: inline;
+}
+
+nav li:not(:last-child) {
+  padding-right: 16px;
+}
+
+.copyright {
+  color: grey;
+}
+
+.link {
+  text-decoration: none;
+  transition: color 0.1s ease-in-out;
+}
+
+.link:hover {
+  color: #1c5380;
+}
