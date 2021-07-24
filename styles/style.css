@@ -4,7 +4,177 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
-body {
+html {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+.background {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 40%;
+  background: linear-gradient(
+    0deg,
+    rgb(33, 74, 102) 0%,
+    rgb(84, 155, 197) 100%
+  );
+}
+
+.content {
+  max-height: 80vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  padding-top: 15vh;
+}
+
+.content > img {
+  max-height: 75%;
+  object-fit: contain;
+  margin: 0 50px;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.brand {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand > img {
+  width: 400px;
+  margin-right: 50px;
+}
+
+.brand > button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 125px;
+  background: linear-gradient(
+    0deg,
+    rgb(46, 98, 133) 0%,
+    rgb(128, 181, 211) 100%
+  );
+  border: 2px solid rgb(41, 81, 107);
+  border-radius: 4px;
+}
+
+.brand > button > img {
+  margin-right: 10px;
+  height: 26px;
+}
+
+.brand > button > p {
+  font-size: 1.3em;
+  font-weight: bold;
+  color: white;
+}
+
+.frame > img {
+  z-index: -1;
+  position: absolute;
+  width: 580px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text-container {
+  margin: 25px 0 0 50px;
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  width: 400px;
+}
+
+.text-container > h2 {
+  color: rgb(25, 61, 90);
+  font-weight: bold;
+  font-size: 2em;
+  line-height: 1.2em;
+}
+
+.text-container > p {
+  margin: 10px;
+  font-size: 1.2em;
+  width: 475px;
+}
+
+.text-imgs {
+  margin-top: 25px;
+  margin-left: 10px;
+}
+
+.mac-store {
+  margin-right: 25px;
+}
+
+@media (max-width: 1080px) {
+  .content > img {
+    display: none;
+    margin: 0 10px;
+  }
+
+  .brand > img {
+    width: 175px;
+    margin-right: 10px;
+  }
+
+  .brand > button {
+    height: 25px;
+    width: 68px;
+    border-radius: 2px;
+  }
+
+  .brand > button > img {
+    margin-right: 5px;
+    height: 13px;
+  }
+
+  .brand > button > p {
+    font-size: 0.8em;
+  }
+
+  .frame {
+    background-color: white;
+    box-shadow: 5px 15px 15px rgba(0, 0, 0, 0.486);
+  }
+
+  .frame > img {
+    display: none;
+  }
+
+  .text-container {
+    margin: 10px 0 0 25px;
+    width: 250px;
+  }
+
+  .text-container > h2 {
+    font-size: 1.2em;
+    line-height: 1em;
+  }
+
+  .text-container > p {
+    margin: 5px;
+    font-size: 0.8em;
+    width: 230px;
+  }
+
+  .text-imgs {
+    margin-top: 5px;
+    margin-left: 5px;
+  }
+
+  .mac-store {
+    margin-right: 10px;
+  }
 }
