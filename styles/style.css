@@ -5,6 +5,157 @@ light blue: #1c5380
 */
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 400 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  box-sizing: border-box;
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;
+  
+}
+
+.full-page {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#main-section{
+  margin: 20px;
+  width: 550px;
+}
+
+#smartphones-section{
+  margin: 20px;
+  margin-top: 0;
+}
+
+.log-in {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-top: 20px;
+}
+
+.log-in button{
+  border: thin solid #06365f;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content:space-evenly;
+  padding: 5px;
+  width: 100px;
+  background: rgb(58,98,134);
+  background: linear-gradient(0deg, rgba(58,98,134,1) 35%, rgba(87,126,160,1) 100%);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  margin-right: 8px;
+}
+
+.logo {
+  width: 250px;
+}
+
+.login-text {
+  padding-top: 4px;
+  color: #FFFFFF;
+  font-weight: 700;
+  text-shadow: #BDBDBF;
+}
+
+#main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-text {
+  padding: 10px;
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  background-size: 550px;
+  padding: 40px;
+}
+
+.main-text h1 {
+  color: #143A60;
+  width: 55%;
+  margin-top: 0;
+}
+
+.main-text  p{
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.badges {
+  width: 100%;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 60%;
+}
+
+footer a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #06365f;
+}
+
+footer p {
+  font-weight: 500;
+  color: #BDBDBF;
+}
+
+@media screen and (max-width: 1200px)  {
+  #smartphones-section {
+    display: none;
+  }
+  .full-page {
+    height: auto;
+  }
+  
+  .logo {
+    width: 200px;
+    margin-left: 5px;
+  }
+  .main-text h1{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .footer {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #main-section{
+    width: 370px;
+    margin: 0!important;
+    padding-top: 20px;
+  }
+  .main-text {
+    background-size: 370px;
+  }
+  .log-in button{
+    margin-right: 5px;
+  }
+  .badges img{
+    height: 40px;
+    width: auto;
+  }
 }
