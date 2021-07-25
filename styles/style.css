@@ -1,10 +1,132 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
-
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  box-sizing: border-box;
+  background-image: url(/images/bgtile.png);
+  background-repeat: repeat-x;  
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  justify-content: center;  
+}
+
+/* Header */
+#content {
+  margin-top: 20px;
+  max-width: 500px;
+}
+
+#phones {
+  width: 320px;
+  margin: 20px;
+  margin-top: 0;
+  margin-right: 48px;
+}
+
+.log-in {
+  width: 100%;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.log-in button {
+  width: 90px;
+  background: #4078a8;
+  border: #1f5c8f 0.5px solid;
+  border-radius: 3px;
+  padding: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;  
+}
+
+.logo {
+  width: 245px;
+}
+
+.login {
+  color: #fff;
+  font-weight: 550;
+  padding-top: 5px;   
+}
+
+.log-in button:hover {
+  background-color: #266caa;
+  transition-duration: 0.2s;  
+}
+
+#geral {  
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  margin-top: 90px;
+}
+
+.text {
+  background-image: url(../images/frame.png);
+  background-size: 550px;
+  background-repeat: no-repeat;
+  padding: 20px 28px 40px 40px;
+  margin-right: 0 auto ;   
+}
+
+.text h2 {
+  color: #06365f;
+  width: 60%;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.text p {
+  width: 100%;
+  margin-bottom: 18px;
+}
+
+.download {
+  margin-top: 32px;  
+}
+
+.download a img {
+  height: 48px;
+}
+
+.download a:first-child{
+  margin-right: 12px;
+}
+
+/* Footer */
+footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.end {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;  
+}
+
+footer a{  
+  color:#24669c;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: small;
+  font-weight: 600;
+}
+
+footer p {
+  color: #8b8b8b;
+  font-size: small;
+  font-weight: 500;
 }
