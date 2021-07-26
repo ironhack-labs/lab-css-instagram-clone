@@ -121,6 +121,7 @@ nav li {
 
     nav li {
       line-height: 1rem;
+      font-size: 0.6rem;
     }
 }
 
@@ -136,6 +137,10 @@ nav li {
   .app-stores {
     width: 500px;
     padding-left: 90px;
+  }
+
+  p {
+    font-size: 0.8rem;
   }
 }
 
