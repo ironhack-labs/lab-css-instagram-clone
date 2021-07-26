@@ -1,10 +1,105 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 30px;
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url('/images/bgtile.png');
+  background-repeat: repeat-x;  
+}
+
+main {
+  width: 900px;
+  display: flex;    
+  margin: 115px 23% 90px;  
+}
+
+h1 {
+  font-size: 1rem;
+  color: #06365f;
+  width: 60%;
+  line-height: 1.3rem;
+}
+
+p {  
+  line-height: 1rem;
+  font-weight: light;
+  font-size: 0.6rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 0 50px;  
+}
+
+.log-in {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;  
+  padding: 0 9px 0 7px;  
+}
+
+.login-button {  
+  color: #D0DDE8;  
+  font-weight: bold;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 115px;
+  height: 45px;
+  border: 2px #2B5D8A solid;  
+  background-color: #43749F;
+  border-radius: 5px;
+}
+
+.description {
+  background-image: url(/images/frame.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 40px 50px;
+  line-height: .1rem;  
+}
+
+.description div {
+  padding: 20px 0;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;  
+}
+
+.app-stores {
+  padding: 0 245px 0 48px;  
+  display: flex;
+  justify-content: space-between;  
+}
+
+nav {
+  width: 35%;
+  margin: 0 30%;  
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+nav li {
+  color: #4676A1;
+  text-transform: uppercase;
+  font-size: 0.4rem;
+  font-weight: 900;
+}
+
+#copyright {
+  color: #AFAFAF;
 }
