@@ -3,8 +3,164 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.presentation {
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;
+  padding-top: 125px;
+  display: flex;
+  justify-content: center;
+}
+
+.phones {
+  width: 250px;
+}
+
+section > div + div {
+  width: 100%;
+  max-width: 700px;
+  margin-left: 80px;
+}
+
+.info-container {
+  float: right;
+  display: grid;
+  grid-template-areas:
+  "info-head"
+  "info-body";
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+}
+
+.info-head {
+  display: flex;
+  grid-area: "info-head";
+  justify-content: space-between;
+  align-items: center;
+  padding:  0, 10px;
+}
+
+.brand {
+  width: 240px;
+}
+
+.login { 
+  float: right;
+  width: 110px;
+  padding: 15px;
+  border: 1px solid #1c5380;
+  box-shadow: 1px -1px 5px #1c5380;
+  border-radius: 3px;
+  background-color: #487094;
+}
+
+.login-link {
+  color: white;
+  text-decoration: none;
+  align-items: center;
+}
+
+.info-body {
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  grid-area: "info-body";
+}
+
+.info-body h1 {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 2.5%;
+  padding-bottom: 2%;
+  color: #06365f;
+}
+
+.info-body p {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 1.5%;
+}
+
+.info-body a {
+  margin-left: 5%;
+}
+
+span {
+  font-weight: bold;
+}
+
+footer {
+  margin-top: 120px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+footer a {
+  text-decoration: none;
+  color: #1c5380;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+footer a + a {
+  margin-left: 20px;
+}
+
+footer span {
+  margin-left: 25px;
+  font-weight: bold;
+  color: #C3C3C4;
+  text-transform: uppercase;
+}
+
+@media only screen and (max-width: 1200px) {
+  .header-image-container {
+    display: none;
+  }
+
+  main > div + div {
+    margin-left: 0;
+  }
+
+  main {
+    padding-top: 75px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  footer {
+    margin-top: 50px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  a {
+    font-size: 20px;
+  }
+
+  footer a + a {
+    margin-top: 20px;
+    margin-left: 0;
+  }
+
+  footer span {
+    margin-left: 0;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+}
+
+
+
+
