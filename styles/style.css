@@ -3,8 +3,95 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.togheter {
+  display: flex;
+  align-items: center;
+  /* border: 2px solid green; */
+  width: 100%;
+  justify-content: space-between;
+}
+.logo{
+  max-width: 180px;
+/*   border: 2px solid red; */
+}
+.togheter button{
+  padding: 10px;
+  border: 0;
+  border-radius: 2px;
+  background-color: #1c5380;
+  margin-right: 10px;
+  align-items: center;
+  display: flex;
+  color: white;
+  font-weight: bold;
+}
+header{
+  background-image: url('/home/bartalo/Desktop/IronHack/lab-css-instagram-clone/images/bgtile.png') ;
+  background-repeat: repeat-x;
+/*   border: 2px solid rgb(204, 0, 255); */
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+}
+.togheter2 {
+  display: flex;
+  justify-content: center;
+/*   border: 4px solid green; */
+  width: 100%;
+
+}
+h2 {
+  width: 325px;
+  color: #06365f;
+  line-height: 36px;  
+}
+.textBlock{
+width: 100%;
+background-image: url("/home/bartalo/Desktop/IronHack/lab-css-instagram-clone/images/frame.png");
+background-position: 0;
+background-repeat: no-repeat;
+background-size: cover;
+/* border: 2px solid rgb(55, 55, 211); */
+padding: 40px 35px 0;
+}
+.Section01 {
+/*   border: 1px solid #eee; */
+/*   margin: 0 5% 0px 40%;
+  padding: 80px 5px; */
+  text-align: center;
+  height: 512px;
+  width: 100%;
+  max-width: 550px;
+  margin-left: 40px;
+}
+.Section{
+/*   border: 1px solid #eee; */
+/*   margin: 0 5% 0px 40%;
+  padding: 80px 5px; */
+  text-align: center;
+  height: 512px;
+  margin-left: 80px;
+}
+footer{
+/*   display: flex;
+  justify-content: center; */
+}
+.horizontal-list {
+	min-width: 696px;
+	list-style: none;
+	padding-top: 20px;
+	display: inline;
+	}
+  .horizontal-list li{
+    display: inline;
+  }
