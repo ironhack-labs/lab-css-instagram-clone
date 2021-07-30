@@ -73,13 +73,13 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-top: 30px;
+  margin-top: 29px;
   margin-right: 0%;
   margin: auto;
 }
 
 .footer {
-  margin-top: 15%;
+  margin-top: 14%;
   align-items: flex-end;
 }
 
@@ -88,8 +88,8 @@ body {
   flex-direction: row;
   list-style: none;
   justify-content: space-evenly;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 9%;
+  margin-right: 9%;
 }
 
 #copyright {
