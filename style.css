@@ -1,0 +1,121 @@
+/*
+Colors to use:
+dark blue: #06365f
+light blue: #1c5380
+*/
+
+html{
+
+    height:100%;
+    background-color: white;
+}
+
+body {
+    font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    height: 45%;
+    margin: 0;
+    background-color:#06365f;
+    background-size: 50%;
+    
+    
+  }
+  
+  h1 {
+    color: #1c5380;
+    width: 50%;
+    font-weight: bold;
+    
+  }
+
+ 
+
+  .first-block{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .text-images{
+    
+    text-align: justify;
+    margin-top: 10%;
+    margin-left: 20%;
+    
+    
+    
+  }
+
+
+  .contenedor-imagen-texto{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+  }
+  .texto-centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(16%, -17%);
+
+  }
+
+  .brand-images{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10%;
+    align-items: center;
+    
+    
+    
+  }
+.badges{
+    margin-top: 20%;
+}
+ .boton-home{
+     display: flex;
+     flex-direction: row;
+     width: 20%;
+     height: 15%;
+     margin-left: 15%;
+     align-items: center;
+     background-color:#0e4270;
+     
+ }
+
+ .log-in{
+     font-weight: bold;
+     color: white;
+ }
+
+  .home{
+      
+      height: 35px;
+      width: 35px;
+  }
+  .phone-logo{
+      margin-left: 15%;
+      padding-top: 8%;
+  }
+  p{
+      width: 50%;
+     
+  }
+
+  ul{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      width: 60%;
+      margin: 0 auto;
+      padding-top: 4%;
+      
+  }
+
+  a:link{
+    color: #1c5380;
+    
+    font-weight: bold;
+    text-decoration: none;
+  }
+
