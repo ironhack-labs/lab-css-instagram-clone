@@ -44,6 +44,7 @@ body {
 .login-btn {
     background: linear-gradient(rgb(129, 158, 184) 0%, rgb(85, 120, 150) 100%);
     border: none;
+    border-radius: 3px;
     display: flex;
     align-items: center;
     justify-content: space-around;
