@@ -1,0 +1,38 @@
+[33mcommit 30351baf70be4af2d47db3f7b9d7777a04f81a2c[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: edbd974 8ff3710
+Author: Aleksandra Boskovic <sandraboskovic@hotmail.com>
+Date:   Thu Feb 27 00:02:22 2020 -0500
+
+    Merge pull request #1609 from ironhack-labs/restructure
+    
+    remove starter code, update stale bot
+
+[33mcommit 8ff371012cd4ae46cbed745b69f596d852a530c0[m
+Author: sandrabosk <sandraboskovic@hotmail.com>
+Date:   Sat Feb 22 23:38:28 2020 -0500
+
+    remove starter code, update stale bot
+
+[33mcommit edbd9740d57bbcb032a5ad2d0ccbf68a4694c707[m
+Author: sandrabosk <sandraboskovic@hotmail.com>
+Date:   Tue Dec 17 10:46:32 2019 -0500
+
+    add stale bot
+
+[33mcommit 1260f37932c7b61180791fa05c39163105c40e38[m
+Author: Nizar Khalife Iglesias <khalifenizar@gmail.com>
+Date:   Fri Apr 19 19:38:36 2019 +0200
+
+    Update Ironhack logo
+
+[33mcommit 8aeac0def941d01c21a8f94a5a92e9c2916bfc10[m
+Author: Nizar Khalife Iglesias <khalifenizar@gmail.com>
+Date:   Fri Apr 19 19:30:19 2019 +0200
+
+    Add other alternatives aside from float
+
+[33mcommit e9cb4fa0f9f4d50c2ab28dd44c2775d4fbe97812[m
+Author: fontcuberta <isafontcu@gmail.com>
+Date:   Tue Jan 10 17:51:41 2017 +0100
+
+    First commit

@@ -3,8 +3,112 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 200 16px/1.5 'Helvetica Neue', Helvetica, Arial, sans-serif;
   margin: 0;
+  background-color: #f5f6f8;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+#top-background {
+  margin: 0 0 0 0;
+  height: 300px;
+  background-color: #48759a;
+  z-index: 1;
+}
+
+#centered-items {
+  margin: auto;
+  padding-top: 6%;
+  width: 70%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: flex-start;
+  align-content: flex-start;
+  z-index: 1;
+}
+
+#phones {
+  height: fit-content;
+  width: fit-content;
+  margin-top: 40px;
+}
+
+#right-panel {
+  margin-left: 5%;
+}
+
+#logo-and-button {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+
+a:active {
+  box-shadow: 0px 0px 10px 1px rgba(255, 255, 255, 0.5);
+}
+
+.button {
+  margin-left: 20px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  background-image: linear-gradient(#6e92b0, #48759a);
+  color: white;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  height: 40px;
+  width: 100px;
+  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.5);
+  border-radius: 3px;
+}
+
+#presentation {
+  background-image: url(../images/frame.png);
+  background-size: 100% 100%;
+  padding: 3px 40px 40px 40px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 35px;
+  color: #06365f;
+  margin-bottom: -3px;
+}
+
+nav {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  width: 60%;
+}
+
+nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #06365f;
+}
+
+.break {
+  flex-basis: 100%;
+  height: 40px;
+}
+
+.imgbadges {
+  margin: 10px 15px 0px 0px;
 }
