@@ -4,7 +4,137 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+*{
+  margin: 0;
+  padding: 0;
+}
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url('/images/frame.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: center;
+  background-size: cover;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  background-color: #52799c; 
+  align-items: center;
+  height: 20vw;
+}
+header nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: auto;
+  width: 60%;
+}
+#header-brand-logo {
+  width: 380px;
+}
+header nav a{
+  background-color: #688dad;
+  padding: 6px 10px 6px 10px;
+  color: white;
+  cursor: pointer;
+  margin-left: 8.7rem;
+  font-size: .9rem;
+  border: 1px solid #2e5c83;
+  text-decoration: none;
+  border-radius: 4px;
+}
+#header-home-button {
+  border: #2e5c83;
+  border-width: 2px;
+  position: relative;
+  margin-bottom: -.2rem;
+  margin-right: .5rem;
+  width: 1.2rem;
+  background-color: transparent;
+}
+#section-welcome {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content:center ;
+  align-items: center;
+  bottom: 12.2rem;
+
+}
+#section-welcome  div{
+  width: 40%;
+  padding: 2rem;
+  margin-bottom: -8.1rem;
+  margin-right: 14.5%;
+  background-color: white;
+  border-radius: 4px;
+}
+#section-welcome div div {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  padding: 0;
+  width: auto;
+  margin-top: 3rem;
+  
+}
+#section-welcome div div img {
+  margin-right: 2rem;
+}
+#section-welcome div h2 {
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+  color: #032850 ;
+}
+#section-welcome figure{ 
+  margin-left: 12%;
+  margin-right: auto;
+}
+#section-welcome article{
+  font-size: 1em;
+}
+
+/* footer */
+
+footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 4rem 0 4rem 0;
+}
+footer ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+footer ul li {
+  list-style: none;
+
+}
+footer ul a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #3b6991;
+  font-size: .8rem;
+  font-weight: bold;
+  margin-right: 1.8rem;
+}
+footer div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+footer div h4 {
+  text-transform: uppercase;
+  font-size:  .8rem;
+  color: grey;
+}
+footer div img {
+  width: 18px;
+  opacity: 220px;
+  height: 18px;
+  margin-right: 8px;
 }
