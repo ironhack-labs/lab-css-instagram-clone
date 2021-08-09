@@ -2,9 +2,130 @@
 Colors to use:
 dark blue: #06365f
 light blue: #1c5380
-*/
+*/ 
 
-body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+*{
+  margin: 0px; 
+  padding: 0px;
+} 
+
+
+.content{
+  width: 100%;  
+  height: 40%;
+  
+  display: flex;    
+  position: relative;
+  justify-content: center; 
+  flex-direction: row;     
+  background-color: rgba(63,103,140,255)  ;
+  
+
+}  
+
+.container{
+  display: flex;  
+ 
+  
+} 
+
+button{
+  margin-left: 40px; 
+  height: 40px; 
+  width: 120px; 
+  border: none; 
 }
+
+#login{
+  outline: none;
+}
+
+
+ 
+.features{
+  margin-left: 80px; 
+  transform: translate(0px, 200px); 
+  
+} 
+
+.flex__container{
+  display: flex; 
+  align-items: center;
+} 
+.inst-logo{
+  vertical-align: middle;
+} 
+
+.home_icon{
+  vertical-align: middle;
+} 
+
+
+.flex_column{
+  display: flex; 
+  justify-content: column;
+} 
+
+.rest__content{
+  width: 420px;  
+  background-color: white; 
+  padding: 30px;  
+  margin-top: 20px;
+  border-radius: 2%;
+} 
+
+
+
+.links{
+  display: flex;  
+  margin-top: 15px;
+} 
+
+
+.android{
+  margin-left: 20px; 
+}  
+
+#phone{
+  transform: translate(0px, 200px);
+}
+
+footer{
+  height: 60px; 
+ position: absolute;
+ bottom: 0;
+ width: 100%;  
+ display: flex; 
+ justify-content: center; 
+ flex-direction: row;
+ text-align: center;
+} 
+
+.footer__links ul{
+  display: flex;
+} 
+
+.footer__link{
+  margin-right: 20px; 
+  list-style-type: none; 
+  color: #073763; 
+  font-weight:bolder;
+} 
+.footer__link:last-child{
+  color: #CACACB; 
+  font-weight: bold;
+}
+
+#login a{
+  margin-left: 20px;
+} 
+
+.text{
+  color: white;
+} 
+
+#login{
+  background-color: #618CAE; 
+  outline: none;
+} 
+
