@@ -3,8 +3,117 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+* {
+  margin: 0;
+  padding: 0;
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  margin: 0; 
+  height: 50%;
+  background: #5c7c99;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #5c7c99 0%, #446b8d 37%, #fff 37%);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #5c7c99 0%, #446b8d 37%, #fff 37%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+h1 {
+  color: #06365f;
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+
+.row {
+  display: flex;
+}
+
+.center {
+  align-items: center;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main {
+  margin: 100px 100px 60px;
+}
+
+.main > img {
+  margin-right: 50px;
+}
+
+.logo-button {
+  margin: 0 12px 0 8px;
+}
+
+.log-in {
+  padding: 10px;
+  align-items: center;
+  color: #fff;
+  background: -webkit-linear-gradient(to bottom, #6a8eac, #4a759a);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #6a8eac, #4a759a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-radius: 3px;
+  box-shadow: 0px 0px 1px 1px rgba(6, 54, 95, 0.5);
+}
+
+.log-in img {
+  margin-right: 10px;
+}
+
+.info {
+  margin-top: 20px;
+  padding: 30px;
+  border-radius: 5px;
+  background: no-repeat top/cover border-box url("../images/frame.png");
+}
+
+.info p {
+  margin-bottom: 10px;
+  color: #424242;
+}
+
+.info img {
+  margin-top: 30px;
+  margin-right: 15px;
+  height: 45px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+nav {
+  margin-bottom: 60px;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+
+nav a {
+  color: #4b769a;
+}
+
+.grey {
+  color: #c3c2c4;
+  padding-left: 15px;
+}
+
+.nav-bar {
+  justify-content: center; 
+}
+
+.nav-bar li {
+  margin: 0 10px;
+}
+
+section > div {
+  margin-top: 20px;
 }
