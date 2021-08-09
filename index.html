@@ -1,16 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Instagram Clone</title>
-    <!-- don't forget to link your styles -->
-  </head>
-  <body>
-    Instagram Capture and Share the World's Moments Instagram is a fast, beautiful and fun way to share your life with
-    friends and family. Take a picture or video, choose a filter to transform its look and feel, then post to Instagram
-    &mdash; it's that easy. You can even share to Facebook, Twitter, Tumblr and more. It's a new way to see the world.
-    Oh yeah, did we mention it's free? Download on the App Store Get it on Google Play About Us Support Blog Press API
-    Jobs Privacy Terms &copy; 2014 Instagram
-  </body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Instagram Clone</title>
+        <link rel="stylesheet" href="./styles/style.css" />
+    </head>
+    <body>
+        <!-- ------------------ MAIN ------------------ -->
+        <div class="background"></div>
+        <main class="main container">
+            <figure class="phones__pics">
+                <img
+                    src="./images/phones.png"
+                    alt="black iphone"
+                    class="phones__img"
+                />
+            </figure>
+            <div class="main__text">
+                <div class="menu">
+                    <img
+                        src="./images/brand.png"
+                        alt="instagram logo"
+                        class="logo__img"
+                    />
+                    <a href="#" class="login__container">
+                        <div class="login__btn">
+                            <img
+                                src="./images/home.png"
+                                alt="home icon"
+                                class="login__img"
+                            />
+                            <p class="login__text">Log in</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="copy">
+                    <h1 class="main__title">
+                        Capture and Share the World's Moments.
+                    </h1>
+                    <p class="main__copy">
+                        Instagram is a fast, beautiful and fun way to share your
+                        life with friends and family.
+                    </p>
+                    <p class="main__copy">
+                        Take a picture or video, choose a filter to transform
+                        its look and feel, then post to Instagram &mdash; it's
+                        that easy. You can even share to Facebook, Twitter,
+                        Tumblr and more. It's a new way to see the world.
+                    </p>
+                    <p class="main__copy">Oh yeah, did we mention it's free?</p>
+                    <div class="badges">
+                        <img
+                            src="./images/badge-iphone.png"
+                            alt=""
+                            class="iphone__badge"
+                        />
+                        <img
+                            src="./images/badge-android.png"
+                            alt=""
+                            class="android__badge"
+                        />
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!-- ------------------ FOOTER ------------------ -->
+        <footer class="footer">
+            <ul class="footer__list">
+                <a href="#" class="footer__links"><li>About us</li></a>
+                <a href="#" class="footer__links"><li>Support</li></a>
+                <a href="#" class="footer__links"><li>Blog</li></a>
+                <a href="#" class="footer__links"><li>Press</li></a>
+                <a href="#" class="footer__links"><li>Api</li></a>
+                <a href="#" class="footer__links"><li>Jobs</li></a>
+                <a href="#" class="footer__links"><li>Privacy</li></a>
+                <a href="#" class="footer__links"><li>Terms</li></a>
+                <li class="footer__links footer__links--ig">
+                    &copy 2014 Instagram
+                </li>
+            </ul>
+        </footer>
+    </body>
 </html>

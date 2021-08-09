@@ -4,7 +4,127 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+/*-------------------- VARIABLES --------------------*/
+:root {
+    --darkblue: #103a5f;
+    --lightblue: #2d5c83;
+}
+
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.15;
+    /* 1 */
+    -webkit-text-size-adjust: 100%;
+    /* 2 */
+}
+
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+    font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/*-------------------- MAIN --------------------*/
+.background {
+    background: linear-gradient(
+        0deg,
+        var(--darkblue) 0%,
+        var(--lightblue) 50%,
+        var(--lightblue) 100%
+    );
+    height: 25rem;
+    width: 100%;
+}
+
+.container {
+    width: 60%;
+    margin: 100px auto 0;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    margin-top: -15rem;
+    margin-bottom: 5rem;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.login__container {
+    text-decoration: none;
+}
+
+.login__btn {
+    background: linear-gradient(
+        0deg,
+        var(--darkblue) 0%,
+        var(--lightblue) 50%,
+        var(--lightblue) 100%
+    );
+    border-radius: 3px;
+    box-shadow: 0px 0px 3px 2px var(--darkblue);
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.login__img {
+    width: 2.5;
+    height: 100%;
+}
+
+.login__text {
+    color: #fff;
+    font-weight: bold;
+}
+
+.copy {
+    background-image: url(../images/frame.png);
+    background-position: top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 3rem;
+}
+
+.main__title {
+    color: var(--darkblue);
+}
+
+.badges {
+    display: flex;
+    gap: 2rem;
+    margin-top: 3rem;
+}
+/*-------------------- FOOTER --------------------*/
+.footer__list {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    list-style: none;
+}
+
+.footer__links {
+    color: var(--lightblue);
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.footer__links--ig {
+    color: gray;
 }
