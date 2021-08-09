@@ -8,3 +8,82 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+.first-div {
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+}
+h1 {
+  color: #06365f;
+  width: 250px;
+  margin-top: -20px;
+  padding: 10px 30px;
+}
+.phone {
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+  margin-bottom: -100px;
+}
+.image-button {
+  padding: 10px;
+  margin: 10px 2px -13px;
+}
+.image-download {
+  background-color: #f4f8fc46;
+  margin-left: 15px;
+}
+.button-log {
+  color:rgb(211, 200, 200);
+  font-weight: bold;
+  padding: 15px 15px 10px 10px;
+  margin-left: -6px;
+}
+.image-phone{
+  width: fit-content;
+  height: fit-content;
+  margin-right: 30px;
+}
+.background-image {
+  background-image: url(/images/frame.png);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 560px;
+  padding-top: 50px;
+  position: relative;
+  width: 480px;
+}
+#description {
+  text-align: left;
+  padding-left: 20px;
+}
+
+#description span {
+  font-weight: bold;
+}
+article {
+  width: 90%;
+  padding: 10px 30px;
+}
+.images-download {
+  padding: 20px;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+footer {
+  margin: 50px 0px;
+}
+.footer-ul li {
+  color: lightgrey;
+  list-style-type: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 10px;
+}
+.footer a {
+  text-decoration: none;
+  color: #1c5380;
+}
