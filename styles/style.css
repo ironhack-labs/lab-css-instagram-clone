@@ -8,3 +8,64 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.download {
+  background-color:black;
+  color:white
+}
+
+
+.div-one{
+  margin: 100px;
+  
+}
+
+.div-two{
+  padding-right: auto;
+  margin: 0px;
+  padding: 20px;
+  border-radius: 9%;
+  background: url("../images/frame.png") no-repeat center/130%;
+
+}
+
+.init {
+  display: flex;
+  background:linear-gradient(hsl(208deg 35% 38%) 40%, white 40%);
+}
+
+
+.footer {
+  
+  font-weight: bold;
+  text-align: center;
+  margin: 0px 100px;
+  color:hsl(209deg 28% 55%)
+}
+.parrafo {
+  line-height: 20px;
+}
+
+.log{
+  background-color: hsl(208deg 35% 38%);
+  margin-left: 60px;
+  color: white;
+}
+
+.text {
+  margin: 30px;
+}
+
+.instagram{
+  justify-content: space-between;
+  display:flex;
+  margin-top: 120px;
+  
+}
+.iphone {
+ margin: 0px 0px;
+}
+
+h1{
+  color: hsl(209deg 67% 22%);
+}
