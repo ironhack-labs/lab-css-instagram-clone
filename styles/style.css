@@ -8,3 +8,24 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.container {
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+
+.left_container {
+  grid-column: 1;
+}
+
+.right_container {
+  grid-column: 2;
+}
+
+.title_container {
+  display: flex;
+}
+
+.text_container {
+  background-color: #ffffff;
+}
