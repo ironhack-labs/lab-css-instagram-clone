@@ -7,4 +7,107 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  padding: 0;
+  background-color: white;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  
+
+}
+li{
+  display: inline;
+  text-transform: uppercase;
+  color:cadetblue;
+  padding: 5px;
+  font-weight: 900;
+  font-size: 15px;
+ 
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  margin-top: 20px;
+ 
+}
+.frame{
+  display:flex;
+  flex-direction: column;
+  
+}
+p{
+  text-align: left;
+  width: 450px;
+  
+  
+}
+.texto{
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  width: 450px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+section{
+  width: 500px;
+  padding: 10px;
+}
+.phone{
+  width: 350px;
+}
+.head{
+  display: flex;
+  justify-content:space-between;
+  width: 500px;
+  margin: 0;
+  padding-bottom: 20px;
+  align-items: center;
+  padding-right: 20px;
+  width: 488px;
+  padding-left: 7px;
+
+}
+
+
+span{
+  padding-left:10px;
+  padding-right: 5px;
+  font-weight: 600;
+  padding-top:3px;
+}
+.head button{
+  width: 186;
+}
+.login{
+  display:flex;
+  align-items:center;
+  background-color: rgb(95, 121, 160);
+  border-color:rgb(115, 163, 236);
+  color: white;
+  height: 40px;
+}
+img {
+  padding-top: 5px;
+  padding-left: 0;
+
+}
+header{
+  height: 200px;
+  background-color:rgb(95, 121, 160);
+  width: 100%;
+}
+.prueba{
+  display:flex;
+  flex-direction: column;
+}
+footer{
+  margin-top:420px;
+}
+h2{
+  color:blue;
+}
+.iphone{
+  padding-right: 20px;
 }
