@@ -7,4 +7,72 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: -webkit-linear-gradient(top, #1C5380 45%,#FFFFFF 30%)
+}
+h2{
+  color:#1c5380;
+}
+.phone{
+  display:flex;
+}
+img[src="images/phones.png"]{
+  height:30em ;
+padding-top:9em;
+margin-left:5em ;
+}
+img[src="images/brand.png"]{
+  height:5em;
+  padding-left:55px;
+  padding-top:10em;
+  width:270px;
+}
+img[src="images/home.png"]{
+  
+  padding-top:10em;
+  padding-left:1em;
+}
+.log{
+  display: flex;
+}
+.align{
+  display:flex;
+  flex-flow: column;
+}
+.links{
+  width: 500px;
+  margin: 0 auto;
+  display:flex;
+  justify-content:space-evenly;
+  text-align: center;
+}
+img[src="images/badge-iphone.png"]{
+padding-top: 2em;
+padding-right:20px;
+}
+.header {
+  display: flex;
+  background-image:url(../images/frame.png);
+  width:400px;
+  height:200px;
+  text-align:center;
+  align-items: center;
+  flex-flow: column;
+  margin-right: 100px;
+  margin-left: 50px;
+  padding-left:10px;
+}
+body a{
+  padding-top: 5em;
+  text-decoration: none;
+  color:#1c5380
+}
+button {
+  background-color: #06365F
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
