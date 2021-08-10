@@ -4,7 +4,121 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+
+/* -- GENERAL --*/
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: linear-gradient(180deg, #51799b 20%,#1c5380 50%,  white 30%) 
+
 }
+
+/*.header {
+  background-image: url(../images/bgtile.png);
+  position:absolute;
+}*/
+.color {
+  background-color: #1c5380;
+  height: 50%;
+}
+/*-- BLOCCK --*/
+.block {
+  height: 550px;
+  width: 900px;
+  display: flex;
+  align-content: center;
+  margin: 13rem 15rem 2rem 15rem;
+}
+
+/*-- PHONES --*/
+
+.phones {
+  width: 350px;
+  height: 500px;
+ 
+  margin: 20px;
+  
+}
+
+/*-- BOX --*/
+
+.box{
+width: 650px;
+height: 550px;
+
+padding: 10px;
+}
+
+.insta {
+  width: 250px;
+}
+
+button {
+  font-size: 1em;
+  color: white;
+  background-color: #1c5380;
+  border: 2px solid #06365f;
+  padding: 5px;
+  border-radius: 4px;
+  box-shadow: 0px 0px 8px 0px #06365f;
+  width: fit-content;
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+
+.brand-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  
+}
+
+.home {
+  padding: 5px;
+  height: 1rem;
+  width: 1rem;
+}
+
+.text {
+  background: top/cover border-box url("../images/frame.png");
+  border-radius: 6%;
+  padding: 30px;
+}
+
+p {
+  padding: 5px 0px;
+}
+
+h1 {
+  color: #06365f;
+}
+
+/*-- FOOTER --*/
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 50%;
+  margin: 0px 25% 2rem;
+}
+
+li {
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: bolder;
+  display: inline-block;
+  
+}
+
+a {
+  text-decoration: none;
+  color: #1c5380;
+}
+
+
