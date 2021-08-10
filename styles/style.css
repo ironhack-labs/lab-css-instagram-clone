@@ -7,12 +7,13 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
-  background: linear-gradient(180deg, #51799b 40%, #386186 40%, white 20%);
+  background: linear-gradient(180deg, #51799b 40%, #386186 40%, white 30%);
 }
 
 ul.desplegable li {
   display: inline;
   padding-right: 0.5em;
+  color: gray
 }
 
 button {
@@ -42,7 +43,7 @@ button {
   margin-left: 50px;
   width: 30%;
   justify-content: space-between;
-  aling-items:center;
+  align-items:baseline;
   flex-direction: column;
 }
 
