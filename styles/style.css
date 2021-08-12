@@ -4,7 +4,164 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  height: 100vh;
+  position: relative;
+  font-family: "Open Sans", sans-serif;
+}
+
+.bg-top {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 30%;
+  background: linear-gradient(#1c5380, #06365f);
+  opacity: 0.8;
+  z-index: -1;
+}
+
+.bg-bottom {
+  position: absolute;
+  top: 30%;
+  left: 0%;
+  width: 100%;
+  height: 70%;
+  background: white;
+  z-index: -1;
+}
+
+.container {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.box-contaner {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.left {
+  width: 20%;
+  min-width: 300px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.phone {
+  width: 100%;
+  min-width: 300px;
+}
+
+.right {
+  width: 40%;
+  min-width: 600px;
+  margin-left: 20px;
+}
+
+.right-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  padding: 0;
+  width: 110px;
+  height: 40px;
+  background: linear-gradient(#1c5380, #06365f);
+  border: 1px solid #06365f;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button > img {
+  margin-right: 10px;
+}
+
+.right-contents {
+  margin: 0;
+  padding: 50px;
+  position: relative;
+}
+
+.frame {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.title {
+  margin: 0;
+  line-height: 1.2em;
+}
+
+p {
+  font-size: 1em;
+  margin: 30px 0px;
+}
+
+.images > img {
+  margin-right: 20px;
+}
+
+.footer {
+  width: 100%;
+  position: fixed;
+  top: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.links {
+  display: flex;
+}
+
+.links > ul {
+  margin: 0;
+  list-style: none;
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+}
+
+li {
+  display: inline;
+  margin-right: 10px;
+  color: #497498;
+}
+
+li:last-child {
+  margin-right: 30px;
+}
+
+.copy-right {
+  width: 12%;
+  min-width: 110px;
+  font-size: 12px;
+  opacity: 0.4;
 }
