@@ -3,8 +3,244 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+:root {
+  --main-color: #06365f;
+  --main-color-lighter: #1c5380;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+#full-container-instagram{
+  background: linear-gradient(180deg, rgba(28,83,128,1) 35%, rgba(255,255,255,1) 35%);
+}
+
+.general-container{
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 100px;
+}
+
+.general-container-image{
+  width: 20vw;
+  text-align: right;
+  margin-left:150px;
+}
+
+.general-container-content{
+  width: 30vw;
+  text-align: left;
+  margin-right: 150px;
+}
+
+.gc-header{
+  display: flex;  
+}
+
+.gc-header div{
+  align-self: center;
+  
+}
+
+.gc-header div button{
+  height: 38px;
+  width: 100px;
+  color:white;
+  background-color: var(--main-color-lighter);
+  display: flex;
+}
+
+.gc-header-button{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.gc-header img{
+  margin-bottom: 18px;
+}
+
+#button-home{
+  height: 38px;
+  border-radius: 4px;
+  border-color: var(--main-color);
+  cursor:pointer;
+}
+
+#button-home p{
+  align-self: center;
+  width: 100%;
+  font-weight: bolder;
+}
+
+#button-home img{
+  height: 30px;
+  margin-top:2px;
+}
+
+.gc-content{
+  border-radius: 8px;
+  background-color: white;
+  display:flex;
+  flex-direction: column;
+  box-shadow: -10px 0px 10px -7px #f5f5f5, 10px 0px 10px -7px #f5f5f5, -50px -50px 50px 50px rgba(0,0,0,0);
+}
+
+.gc-content h1{
+  color:#06365f;
+  width: 80%;
+  line-height: normal;
+  padding: 30px 20px;
+  font-size: 25px;
+}
+
+.gc-content p{
+  padding: 5px 20px;
+}
+
+.strong-text{
+  font-weight: bold;
+}
+
+.gc-content-buttons-download{
+  display: flex;
+}
+
+.gc-content-buttons-download div{
+  padding-left: 20px;
+  margin-top: 35px;
+}
+
+.footer{
+  color:black;
+}
+
+.footer ul{
+ width: 50vw;
+ display: flex;
+ justify-content: space-around;
+ flex-wrap: wrap;
+ margin: 80px auto;
+ text-decoration: none;
+ list-style-type: none;
+}
+
+.footer ul li{
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.footer ul li:last-child{
+  color:grey;
+}
+
+.footer a{
+  text-decoration: none;
+  color: var(--main-color-lighter);
+  font-weight: bold;
+}
+
+@media (max-width: 1400px) {
+  .footer ul{
+    width: 80vw;
+   }
+}
+
+
+@media (max-width: 1330px) {
+  .general-container-content{
+    width: 50vw;
+  }
+
+  .general-container-image{
+    width:50vw;
+  }
+}
+
+@media (max-width: 798px) {
+  .general-container-image{
+    margin-left: 120px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer ul{
+    width: 90vw;
+   }
+}
+
+@media (max-width: 711px) {
+  .general-container{
+    display:block;
+  }
+  .general-container-image{
+    display:none;
+  }
+  .general-container-content{
+    width: 90vw;
+    margin:0 auto;
+  }
+
+  .footer ul{
+    display: block;
+    margin: 20px auto;
+  }
+
+  .footer ul li{
+    text-align: center;
+    border:1px solid var(--main-color);
+    cursor: pointer;
+    border-radius: 10px;
+    margin-bottom:5px;
+  }
+
+  .footer ul li:last-child{
+    border:none;
+  }
+}
+
+@media (max-width: 450px) {
+  .gc-header{
+    display:block;
+    text-align: center;
+  }
+
+  .gc-header-button{
+    display: block;
+    text-align: center;
+    margin-bottom:50px;
+  }
+
+  .gc-header div button{
+    display: block;
+  }
+ 
+  #button-home{
+    margin:0 auto !important;
+    height: 100px;
+  }
+}
+
+@media (max-width: 420px){
+  .gc-content-buttons-download{
+    display:block;
+    margin:0 auto;
+  }
+}
+
+@media (max-width: 350px){
+ .gc-header>img{
+   width: 80vw
+ }
+
 }
