@@ -90,6 +90,10 @@ body {
 .bottomRight p {
   font-size: 2rem;
 }
+span {
+  font-weight: 600;
+  font-size: 2rem;
+}
 
 .download img {
   padding-right: 1.5rem;
