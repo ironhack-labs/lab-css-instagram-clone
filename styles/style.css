@@ -7,4 +7,86 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  width: 100%;
+}
+
+.main-container {
+  background: rgb(28, 83, 128);
+  background: linear-gradient(180deg, rgb(42, 129, 201) 0%, rgba(6, 54, 95, 1) 370px, rgba(255, 255, 255, 1) 370px, white 100%);
+  height: 800px;
+  margin-top: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 50px;
+
+}
+
+.plain-text-container {
+  display: flex;
+  flex-direction: column;
+  background-image: url("/images/frame.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 600px;
+  padding: 30px;
+}
+
+.insta-logo-and-button {
+  display: flex;
+  justify-content: space-between;
+  /* width: 500px; */
+  /* width: 610px; */
+  margin: 0;
+  padding: 30px;
+  position: relative;
+  top: 50px;
+
+}
+
+button {
+  background: linear-gradient(180deg, rgb(42, 129, 201) 0%, rgba(6, 54, 95, 1) 370px, rgba(255, 255, 255, 1) 370px, white 100%);
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.button-text {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+h1 {
+  color: #1c5380;
+}
+
+.download-img {
+  padding-right: 15px;
+}
+
+footer {
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: #1c5380;
+  font-weight: bold;
+  padding: 5px;
+
 }
