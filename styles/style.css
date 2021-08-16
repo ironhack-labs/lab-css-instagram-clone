@@ -4,7 +4,128 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
-body {
+body, html{
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: #FFF;
+  background: linear-gradient(180deg, rgba(28,83,128,1) 17.5%, rgba(6,54,80,1) 35%, rgba(255,255,255,1) 35%);
+  background-repeat: no-repeat;
 }
+*{
+  box-sizing: border-box;
+}
+
+
+
+.container{
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  align-items: center;
+  
+  
+}
+.container div{
+  margin: 10px 30px;
+}
+
+.container > img{
+  align-items: baseline;
+  height: 750px;
+  
+  
+}
+
+
+
+.logo-login-box{
+  display: flex;
+  justify-content: space-between;
+  width: 700px;
+  padding-bottom: 30px;
+  
+}
+
+
+.logo-login-box img{
+  width: 400px;
+  padding-top: 5px;
+}
+
+.text-box{
+  background-image: url('../images/frame.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-top: 5px;
+  padding-right: 30px;
+}
+
+.text-box h1{
+  color: #06365f;
+  margin-left: 50px;
+  padding-top: 30px;
+}
+
+.text-box p{
+  margin-left: 50px;
+  font-size: 1.2em;
+  font-weight: 400;
+}
+
+.join{
+  display: flex;
+}
+.join input{
+  margin-left: 20px;
+  margin-top: 10px;
+  width: 100%
+}
+
+
+
+.log-in-button{
+  margin-right: 10px;
+  margin-top: 20px;
+  width: 160px;
+  height: 65px;
+  background: linear-gradient(180deg, rgba(28,83,128,1) 40%, rgba(6,54,80,1) 100% );
+  border-width: 3px;
+  border-color: #06365f;
+  border-radius: 8px;
+  font-style:'Helvetica Neue';
+  font-size: 22px;
+  font-weight: 900;
+  color: white;
+  display: flex;
+  align-items: center;
+  align-content:space-between;
+  justify-content: space-evenly;
+  
+}
+
+.log-in-button img{
+  width: 38px;
+}
+
+ul{
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  list-style-type: none;
+  margin: 70px
+}
+
+li a{
+  margin: 0 15px;
+  text-transform:uppercase;
+  text-decoration: none;
+  color: #1c5380;
+  font-weight: 900;
+}
+
+.copy-insta{
+  color: grey;
+  margin-left: 15px;
+  font-weight: 900;
+}
+
