@@ -7,7 +7,8 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
-  background: linear-gradient(0deg, rgba(255,255,255,1) 65%, rgba(28,83,128,1) 35%);
+  background: rgb(255,255,255);
+  background: linear-gradient(0deg, rgba(255,255,255,1) 65%, rgba(6,54,95,1) 35%, rgba(28,83,128,1) 100%);
   background-repeat: no-repeat;
 }
 
@@ -40,6 +41,26 @@ body {
   justify-content: space-between;
   flex-wrap: nowrap;
   align-items: center;
+}
+
+button.log-button{
+  background: rgb(28,83,128);
+  background: linear-gradient( 180deg , rgba(28,83,128,1) 50%, rgba(6,54,95,1) 100%);
+    border: 0px;
+    box-shadow: 0px 0px 2px rgb(255 255 255 / 50%);
+    border-radius: 2px;
+}
+
+.log-button p{
+  padding: 8px 5px;
+  margin: 0px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+.log-button img{
+  padding-right: 10px;
+  
 }
 
 .info-text{
