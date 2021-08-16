@@ -20,6 +20,10 @@ h4{
   margin: 0;
 }
 
+span.bold{
+  font-weight: 600;
+}
+
 #principal-flex, 
 #footer{
   width: 1000px;
@@ -32,8 +36,12 @@ h4{
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-
 }
+
+#principal-flex .info-text {
+  padding: 35px;
+}
+
 #principal-flex div{
   padding: 20px;
 }
@@ -74,8 +82,10 @@ button.log-button{
 .info-text{
   background-color: #fff ;
   border-radius: 5px;
-  box-shadow: 0px 0px 8px rgb(0 0 0 / 50%);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.30);
+  
 }
+
 
 .badges{
   display: flex;
@@ -85,12 +95,21 @@ button.log-button{
   align-items: center;
 }
 
-#footer{
+.badges img{
+  padding-right: 25px;
+}
 
+#footer .copyRight{
+  font-size: 0.8em;
+  color: #464646;
 }
 
 #footer a{
   text-decoration: none;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  color: #0b3c66;
+  font-weight: 600;
 }
 
 #footer ul{
@@ -102,6 +121,6 @@ button.log-button{
   align-items: center;
 }
 #footer li{
-    padding: 0 20px;
+    padding: 0 10px;
 
 }
