@@ -63,7 +63,9 @@ body {
   padding: 5px;
 }
 
-footer {
-  margin: 60px;
+footer ul {
+  display: flex;
+  justify-content: center;
+  
   
 }
