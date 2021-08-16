@@ -4,7 +4,145 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 10px;
+}
+
 body {
+  background: rgb(78, 118, 153);
+  background: linear-gradient(
+    180deg,
+    rgba(78, 118, 153, 1) 37%,
+    rgba(250, 250, 250, 1) 37%
+  );
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+main {
+  width: 120rem;
+  padding-top: 13rem;
+  display: flex;
+  align-items: flex-start;
+  margin: 0 auto;
+  height: 85vh;
+}
+
+.left-side {
+  width: 45%;
+  display: flex;
+  justify-content: center;
+}
+
+.left-side img {
+  width: 65%;
+}
+
+.right-side {
+  width: 55%;
+}
+
+.right-side-content {
+  width: 77%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.right-side-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.5rem 1.4rem 2rem 1.4rem;
+}
+
+.right-side-top .button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4.5rem;
+  border-radius: 0.3rem;
+  padding: 0.6rem 1.2rem;
+  box-shadow: #06365f 0px 0px 3px;
+  background: linear-gradient(
+    180deg,
+    rgba(250, 250, 250, 0.25) 0%,
+    rgba(78, 118, 153, 0.9) 56%
+  );
+}
+
+.right-side-top span {
+  color: white;
+  font-weight: 900;
+  vertical-align: middle;
+  padding-left: 1rem;
+  padding-top: 0.5rem;
+}
+
+.right-side-bottom {
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 3rem 4rem;
+  border-radius: 0.4rem;
+}
+
+.right-side-text h1 {
+  color: #06365f;
+  font-size: 2.5rem;
+}
+
+.right-side-text p {
+  padding: 1rem 0;
+  line-height: 2.5rem;
+}
+
+.right-side-badges {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0px;
+}
+
+.right-side-badges img {
+  padding-right: 2.2rem;
+}
+
+footer {
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer ul {
+  display: flex;
+}
+
+footer ul li {
+  list-style: none;
+  padding: 0.8rem;
+  text-transform: uppercase;
+  color: #4e7699;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+strong {
+  font-weight: bold;
+}
+
+footer ul li:last-of-type {
+  color: gray;
+  cursor: text;
+  font-weight: bold;
 }
