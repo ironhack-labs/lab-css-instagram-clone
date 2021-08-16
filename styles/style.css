@@ -12,6 +12,14 @@ body {
   background-repeat: no-repeat;
 }
 
+h4{
+  font-size: 1.5em;
+  font-weight: 600;
+  color: #10436e;
+  width: 50%;
+  margin: 0;
+}
+
 #principal-flex, 
 #footer{
   width: 1000px;
@@ -69,6 +77,13 @@ button.log-button{
   box-shadow: 0px 0px 8px rgb(0 0 0 / 50%);
 }
 
+.badges{
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-start;
+  flex-wrap: nowrap;
+  align-items: center;
+}
 
 #footer{
 
