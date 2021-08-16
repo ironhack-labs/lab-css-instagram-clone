@@ -7,4 +7,107 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+#landing {
+  background: rgb(70,110,143);
+  background: linear-gradient(180deg, rgba(70,110,143,1) 40%, rgba(255,255,255,1) 40%);
+  display: flex;
+  height: 90vh;
+  justify-content:center;
+  align-items: center;
+}
+
+#iphones{
+  height: 600px;
+}
+
+/*DESCRIPTION section*/
+#description{
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  height: 500px;
+  margin-left: 100px;
+}
+/*LOGO AND BUTTON*/
+#logo-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 98%;
+}
+
+#logo-insta{
+  height: 70px;
+  width: 300px;
+}
+#login-button{
+  background: rgb(70,110,143);
+  background: linear-gradient(180deg, rgba(106,142,172,1) 0%, rgba(75,119,155,1) 44%);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color:white;
+  height: 35px;
+  width: 100px;
+  border: 1px solid #2c2c2c50;
+  border-radius: 3px;
+  box-shadow: 0px 7px 5px -1px rgba(0,0,0,0.14);
+  text-decoration: none;
+}
+
+/*TEXT ARTICLE*/
+#description-text{
+  display: flex;
+  flex-direction: column;
+  background: url(/lab-css-instagram-clone/images/frame.png);
+  background-size:100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding: 0;
+}
+
+#description-text h2{
+  color: rgba(70,110,143,1);
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding: 20px 40px 0 40px;
+  width: 46%;
+  }
+  #description-text p{
+    color:black ;
+    font-size: 1rem;
+    font-weight:lighter;
+    padding: 0 40px;
+    width: 71%;
+    }
+
+  #download-container{
+    display: flex;
+    justify-content: flex-start;
+     padding: 0 40px;
+
+  }
+  #download-container img{
+    padding: 0 30px 0 0;
+  }
+
+  /*FOOTER*/
+
+  
+
+  footer ul{
+    display:flex;
+    justify-content: center;
+    list-style: none;
+  }
+  footer a{
+    color:#1c5380;
+    font-weight: lighter;
+    font-size: 1rem;
+    text-decoration: none;
+    padding: 0 10px;
+  }
