@@ -7,4 +7,146 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  padding: 0;
+  
+}
+.fondo{
+  background: rgb(28,83,128);
+  background: linear-gradient(180deg, rgb(42, 129, 201) 0%, rgba(6,54,95,1) 370px, rgba(255,255,255,1) 370px, rgba(255,255,255,1) 100%);
+  height: 800px;
+  margin-top: 0;
+  
+  
+}
+
+.contenido{
+  margin: 0;
+  padding-top: 150px;
+  background-color: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 200px;
+ 
+}
+
+.imagenMobil{
+  background-color: none;
+  width: 35%;
+  height: 700px;
+  
+}
+
+.imagenMobil img{
+  width: 100%;
+  height: auto;
+}
+
+.info{
+  background-color: none;
+  width: 57%;
+  height: 500px;
+  background-color: none;
+}
+.top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 10px;
+  margin-bottom: 40px;
+}
+
+.logIn button{
+  width: 110px;
+  height: 50px;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 12px;
+  background: rgb(28,83,128);
+  background: linear-gradient(180deg, rgb(42, 129, 201) 0%, rgb(8, 73, 129) 90%);
+  border: 1px solid rgb(18, 61, 95);
+  border-radius: 3px;
+  cursor:pointer;
+  text-shadow: 1px 0px 9px rgba(0, 0, 0, 0.418);
+  box-shadow: .5px 0px 5px 1px rgba(0, 0, 0, 0.11);
+}
+
+.logIn button img{
+  width: 25%;
+  height: auto;
+  background-color: none;  
+}
+
+
+
+.banner{
+  padding-left: 10px;
+}
+
+.text{
+  background: url("../images/frame.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 370px;
+  margin: 0;
+  padding: 20px 50px 10px 50px;
+}
+
+.text h1{
+  font-size: 1.7rem;
+  color: #06365f;
+}
+
+.text p{
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: rgb(43, 43, 43);
+}
+
+span{
+  font-weight: 600;
+
+}
+
+.store{
+  display: flex;
+  justify-content: space-evenly;
+  width: 70%;
+  background-color: none;
+  padding-left: 25px
+}
+
+.img1 img{
+  width: 180px;
+}
+
+.img2 img{
+  width: 170px;
+}
+.bottom {
+  height: 70px;
+  padding-top: 10px;
+}
+.bottom ul{
+  display:flex;
+  justify-content: space-evenly;
+  margin: 0 300px;
+  background-color: none;
+  list-style: none;
+}
+
+.bottom ul li a{
+  text-decoration: none;
+  color: #06365f;
+  font-size: 1rem;
+  font-weight: 500;
+
+}
+
+.copyright{
+  color: rgb(92, 92, 92);
+  font-size: 1rem;
+  font-weight: 500;
 }
