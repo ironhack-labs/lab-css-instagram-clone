@@ -7,7 +7,7 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
-  padding:0; 
+  padding: 0;
 }
 
 .banner {
@@ -32,15 +32,11 @@ body {
   text-decoration: none;
 }
 
-
-
 .iphone {
   position: absolute;
   top: 20%;
   left: 20%;
 }
-
-
 
 .text-box {
   position: relative;
@@ -54,11 +50,8 @@ body {
   padding-top: 1%;
 }
 
-
-
-
 .phone-img {
-  float: left; 
+  float: left;
   width: 40%;
   padding: 5px;
 }
@@ -66,6 +59,4 @@ body {
 footer ul {
   display: flex;
   justify-content: center;
-  
-  
 }
