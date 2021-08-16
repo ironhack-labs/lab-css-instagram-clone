@@ -40,6 +40,7 @@ body, html{
 
 .logo-login-box{
   display: flex;
+  flex: 1;
   justify-content: space-between;
   width: 700px;
   padding-bottom: 30px;
@@ -48,11 +49,12 @@ body, html{
 
 
 .logo-login-box img{
-  width: 400px;
+  width: 60%;
   padding-top: 5px;
 }
 
 .text-box{
+  flex: 2;
   background-image: url('../images/frame.png');
   background-repeat: no-repeat;
   background-size: 100%;
@@ -73,6 +75,7 @@ body, html{
 }
 
 .join{
+  flex: 3;
   display: flex;
 }
 .join input{
@@ -86,8 +89,8 @@ body, html{
 .log-in-button{
   margin-right: 10px;
   margin-top: 20px;
-  width: 160px;
-  height: 65px;
+  width: 25%;
+  height: 70px;
   background: linear-gradient(180deg, rgba(28,83,128,1) 40%, rgba(6,54,80,1) 100% );
   border-width: 3px;
   border-color: #06365f;
@@ -127,5 +130,7 @@ li a{
   color: grey;
   margin-left: 15px;
   font-weight: 900;
+  text-transform: uppercase;
 }
+
 
