@@ -8,3 +8,167 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+
+
+.bg-top {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 30%;
+  background: linear-gradient(#1c5380, #06365f);
+  opacity: 0.8;
+  z-index: -1;
+}
+
+.bg-bottom {
+  position: absolute;
+  top: 30%;
+  left: 0%;
+  width: 100%;
+  height: 70%;
+  background: white;
+  z-index: -1;
+}
+
+.container {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.box-contaner {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.left {
+  width: 20%;
+  min-width: 300px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.right {
+  width: 40%;
+  min-width: 600px;
+  margin-left: 20px;
+}
+
+
+.right-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 15px;
+}
+
+.right-contents {
+  margin: 0;
+  padding: 50px;
+  position: relative;
+}
+
+
+.frame {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+
+}
+
+
+
+.footer {
+  width: 100%;
+  position: fixed;
+  top: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.links {
+  display: flex;
+}
+
+.links > ul {
+  margin: 0;
+  list-style: none;
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+}
+
+li {
+  display: inline;
+  margin-right: 10px;
+  color: #1c5380;
+  font-size: 16px;
+}
+
+
+
+.phone {
+  width: 100%;
+  min-width: 300px;
+}
+
+
+
+button {
+  padding: 0;
+  width: 110px;
+  height: 50px;
+  background: #1c5380;
+  border: 1px solid  #1c5380;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+button > img {
+  margin-right: 10px;
+}
+
+
+
+
+.title {
+  margin: 0;
+  line-height: 1.2em;
+  color:#1c5380 
+}
+
+p {
+  font-size: 1em;
+  margin: 30px 0px;
+}
+
+.images > img {
+  margin-right: 20px;
+  
+}
+
+.copy-right {
+  
+  font-size: 14px;
+  opacity: 0.4;
+  color: black;
+}
+
