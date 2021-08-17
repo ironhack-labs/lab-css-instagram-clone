@@ -63,7 +63,7 @@ body {
 #description-text{
   display: flex;
   flex-direction: column;
-  background: url(/lab-css-instagram-clone/images/frame.png);
+  background: url(/images/frame.png);
   background-size:100%;
   background-repeat: no-repeat;
   width: 100%;
@@ -110,4 +110,8 @@ body {
     font-size: 1rem;
     text-decoration: none;
     padding: 0 10px;
+  }
+
+  #copy{
+    color: rgba(0,0,0,0.5);
   }
