@@ -39,18 +39,29 @@ nav {
 	display: flex;
 	justify-content: space-between;
 	width: 50%;
+	margin-bottom: 8%;
 }
 
 p {
-	width: 40%;
+	width: 78%;
+	text-align: justify;
+	font-size: 118%;
 }
 
 h5 {
-	width: 40%;
+	width: 74%;
+	font-size: 34px;
+	padding-bottom: 34px;
+	color: #06365f;
 }
 
 .text-container {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+	margin-left: 20%;
+	height: 525px;
+}
+
+.title-text {
+	background-color: white;
+	border-radius: 2%;
+	padding: 25px;
 }
