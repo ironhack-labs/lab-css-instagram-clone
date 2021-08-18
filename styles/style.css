@@ -1,10 +1,61 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
-
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: rgb(2,0,36);
+  background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(227,250,255,1) 0%, rgba(60,110,149,1) 0%, rgba(40,93,136,1) 20%, rgba(255,255,255,1) 70%);
 }
+
+.main {
+  padding: 150px 100px 60px 100px;
+  display: flex;
+  margin-left: 500px;
+}
+
+.right-column {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.top-login {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.top-login button {
+  background-color: #1c5380;
+  border: 1px solid #06365f;
+  height: 40px;
+  border-radius: 1em;
+}
+
+.text-box {
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  background-size: contain; 
+  padding: 20px 50px 50px 50px;
+}
+
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer ul {
+  display: flex;
+  list-style: none;
+
+}
+
+footer ul li {
+  margin-left: 15px;
+}
+
+footer a {
+  color: #1c5380;
+  text-decoration: none;
+  font-weight: 500;
+} 
