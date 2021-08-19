@@ -7,4 +7,97 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  height: 100%;
+}
+
+.background {
+  background: linear-gradient(#1c5380 20%, #06365f 60%);
+  height: 300px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+section {
+  padding: 100px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+  background: linear-gradient(#1c5380 20%, #06365f 60%);
+  padding: 5px;
+  border: 1px solid black;
+}
+
+.button p{
+  width: 60px;
+  text-align: right;
+  color:rgb(255, 255, 255);
+}
+
+.button img {
+  height: 20px;
+}
+
+header {
+  width: 470px;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-evenly;
+}
+
+.download-links {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.description {
+  background-color: white;
+  font-family: sans-serif;
+  padding: 10px;
+}
+
+.description h1 {
+  color: #06365f;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.description span {
+  font-weight: 700;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p {
+  margin: 20px;
+  font-weight: 700;
+  color: lightgray;
+}
+
+footer ul {
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  font-family: Helvetica;
+  font-weight: 700;
+  color: #06365f;
 }
