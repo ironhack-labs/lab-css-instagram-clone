@@ -7,4 +7,117 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  box-sizing: border-box;
+  background: rgb(28, 83, 128);
+  background: linear-gradient(
+    180deg,
+    rgba(28, 83, 128, 1) 50%,
+    rgba(255, 255, 255, 1) 50%
+  );
+}
+.container-web {
+  display: flex;
+  width: 100%;
+  height: 1200px;
+  align-items: center;
+  justify-content: center;
+}
+.container-web-content {
+  display: flex;
+  width: 80%;
+  height: 800px;
+ 
+  align-items: flex-start;
+}
+#container-web-content-movileimg {
+  display: flex;
+  
+  flex-basis: 60%;
+  height: 100%;
+  justify-content: center;
+}
+#container-web-content-instaimgandlogin {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 176px;
+  align-items: center;
+}
+#container-web-content-contenedorderecho {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+
+  flex-basis: 40%;
+  height: 100%;
+  justify-content: center;
+}
+#container-web-content-contenedorderecho-button {
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  background-image: url(/images/home.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 6vw;
+  height: 2vw;
+  background-color: #579fdf;
+  margin-right: 3vw;
+  border-radius: 5px 5px;
+}
+#container-web-content-contenedorderecho-button a {
+  float: right;
+  font-size: 27px;
+  color: white;
+  text-decoration: none;
+}
+#container-web-content-text {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 5px 0px 10px -7px #ffffff, 5px 0px 10px -7px #ffffff,
+    -50px -50px 50px 50px rgba(0, 0, 0, 0);
+  height: 400px;
+  border-radius: 8px;
+  background-color: white;
+  font-family: sans-serif;
+  padding: 10px;
+}
+#container-web-content-text h2 {
+  color: #06365f;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+#container-web-content-text p {
+  font-weight: 600;
+}
+#container-web-content-buttons {
+  margin-top: 20px;
+}
+
+footer {
+  position: absolute;
+  clear: both;
+  margin-top: 60vw;
+  padding-top: 0px;
+
+  justify-content: center;
+  align-items: center;
+}
+
+footer p {
+  margin: 20px;
+  font-weight: 700;
+  color: lightgray;
+}
+
+footer ul {
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  font-family: Helvetica;
+  font-weight: 700;
+  color: #06365f;
 }
