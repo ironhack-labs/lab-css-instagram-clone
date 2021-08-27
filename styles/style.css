@@ -8,3 +8,25 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.main{
+  display: flex;
+  justify-content: center;
+}
+
+#brand{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.footer ul {
+display: flex;
+justify-content: center;
+}
+
+.footer li{
+  list-style: none;
+  
+}
+
