@@ -32,7 +32,7 @@ body {
 
 .insta button {
   background-color: rgb(87, 128, 159);
-  color: white;
+  color:white;
 }
 
 #text {
@@ -42,7 +42,9 @@ body {
   padding: 20px 50px 50px 50px;
 }
 
-
+#titol{
+  color: rgb(15, 55, 84);
+}
 
 footer {
   display: flex;
@@ -61,7 +63,7 @@ footer ul li {
 }
 
 footer a {
-  color: #1c5380;
+  color:rgb(66, 111, 145);
   text-decoration: none;
   font-weight: 500;
 } 
