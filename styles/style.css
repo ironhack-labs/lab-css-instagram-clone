@@ -7,4 +7,104 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-color: #1c5380;
+  background: linear-gradient(180deg, rgba(28,83,128,1) 39%, rgba(255,255,255,0) 39%);
 }
+
+
+
+
+.generalDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.div1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 40px;
+}
+
+.div2 {
+  width: 40%;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 10px;
+  padding: 10px;
+}
+
+.div2-top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 800px;
+}
+
+.div2-top-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.div2-top-title-button {
+  margin-left: 135px;
+}
+.div2-top-title-button button{
+  border: 1px black solid;
+  color: white;
+  background-color: #1c5380;
+  height: 40px;
+  width: 80px;
+}
+
+.div2-bot {
+  margin-top: 15px;
+  border-radius: 3%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.div2-bot h3 {
+  font-size: 28px;
+  width: 55%;
+  color: #06365f;
+  margin-left: 25px;
+}
+
+.div2-bot-p {
+  text-align: left;
+  width: 78%;
+  color: black;
+  margin-left: 25px;
+}
+
+.div2-bot-imgs {
+  margin-top: 10px;
+  margin-left: 25px;
+}
+
+.div3 {
+  display: flex;
+  justify-content: center;
+}
+
+.div3-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  font-size: 12px;
+  color: #1c5380;
+}
+
+.div3-list-name {
+  color: gray;
+}
+
+
+
