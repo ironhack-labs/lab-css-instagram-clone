@@ -3,8 +3,148 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+/**
+ *
+ * Base
+ *
+ */
+/* Variables */
+:root {
+  --dark-blue: #06365f;
+  --light-blue: #1c5380;
+  --white: white;
+  --black: black;
+}
+/* overwrites */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+/* html {
+  font-size: 62.5%;
+}
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6em;
+  line-height: 1.5;
+} */
+body {
+  font: 200 16px/1.5 'Helvetica Neue', Helvetica, Arial, sans-serif;
   margin: 0;
+}
+.bg-gradient {
+  height: 35vh;
+  background: rgb(91, 126, 156);
+  background: linear-gradient(
+    180deg,
+    rgba(91, 126, 156, 1) 0%,
+    rgba(57, 88, 124, 1) 100%,
+    rgba(6, 54, 95, 1) 100%
+  );
+}
+.content-section {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  position: relative;
+  top: -20vh;
+  max-width: 935px;
+  margin: 0 auto;
+}
+.col {
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-items: flex-end;
+  padding: 0 1.5rem;
+}
+.col + .col {
+  align-items: flex-start;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 490px;
+}
+.card {
+  background-image: url('../images/frame.png');
+  background-position: 0px 0px;
+  background-size: 504;
+  background-repeat: no-repeat;
+  width: 504px;
+}
+.card-container {
+  padding: 2rem;
+}
+.card-title {
+  color: var(--dark-blue);
+  line-height: 1.8rem;
+  margin-bottom: 2rem;
+}
+.card-container p {
+  margin-bottom: 1rem;
+}
+
+.card-container p:last-of-type {
+  margin-bottom: 2rem;
+}
+.store-section a {
+  text-decoration: none;
+  margin-right: 1rem;
+}
+.btn-login {
+  text-decoration: none;
+  font-weight: 700;
+  background: rgb(91, 126, 156);
+  background: linear-gradient(
+    180deg,
+    rgba(91, 126, 156, 1) 0%,
+    rgba(57, 88, 124, 1) 100%,
+    rgba(6, 54, 95, 1) 100%
+  );
+  border: 1px solid var(--dark-blue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.7rem 0.7rem;
+  font-size: 0.8rem;
+  border-radius: 2px;
+  color: var(--white);
+}
+.btn-login img {
+  margin-right: 0.8rem;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+ul.nav {
+  display: flex;
+  list-style: none;
+}
+.nav li {
+  margin: 0 1rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: gray;
+}
+.nav li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--light-blue);
 }
