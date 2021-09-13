@@ -81,9 +81,10 @@ main {
 }
 
 .right-main > p {
-  padding: 0 2rem 0 2rem;
+  padding: 1rem 2rem 1rem 2rem;
   width: 60%;
-  font-size: 1rem;
+  font-size: 1.1rem;
+  line-height: 1.6em;
 }
 
 .right-main span {
