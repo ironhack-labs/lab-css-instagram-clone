@@ -8,3 +8,96 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+body {
+  background: rgb(28, 83, 128);
+  background: linear-gradient(180deg, rgba(28, 83, 128, 0.7) 0%, rgba(6, 54, 95, 0.8) 100%);
+  height: 220px;
+  background-repeat: no-repeat;
+}
+
+#main-section {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+#phone-image {
+  padding: 16px;
+  width: 35%;
+  display: flex;
+  justify-content:center;
+  height:fit-content;
+}
+
+#header {
+  display: flex;
+  direction: row;
+  justify-content:space-between;
+}
+
+#log-in button {
+  width: 100px;
+  display: flex;
+  direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border: 1.5px solid #1c5380;
+  border-radius: 4px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) 0%, rgba(6, 54, 95, 0.1) 100%);
+}
+
+#log-in button p {
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+}
+
+#hero {
+  padding: 16px;
+  width: 40%;
+
+}
+
+#description {
+  background-image: url(/images/frame.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+#decription-text {
+  margin: 16px;
+  padding: 30px;
+  font-weight: 250;
+}
+
+h1 {
+  font-size: 26px;
+  color: #06365f;
+  margin-top: 10px;
+}
+
+#download-app {
+  padding-top: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+footer {
+  clear: both;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+footer p {
+  padding: 10px;
+  font-weight: 500;
+  color: lightgray;
+}
+
+.footer-elements {
+  font-weight: 600;
+  color: #1c5380;
+}
