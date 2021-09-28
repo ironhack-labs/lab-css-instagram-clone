@@ -4,7 +4,145 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
-body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --dark-blue: #06365f;
+  --light-blue: #1c5380;
+}
+
+/* Remove default padding */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
   margin: 0;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* Remove list styles on ul, ol elements with a class attribute */
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Natural flow and rhythm in articles by default */
+article > * + * {
+  margin-top: 1em;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+body {
+  font: 200 16px/1.5 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+
+.blue-background {
+  height: 30vh;
+  width: 100%;
+  background: url('../images/bgtile.png');
+}
+
+.main {
+  max-width: 1400px;
+}
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: -150px;
+}
+
+.phone-picture {
+  width: 30%;
+}
+
+.description {
+  max-width: 40%;
+}
+
+.description-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.brand-image {
+  width: 70%;
+}
+
+.log-in-btn {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+button.desc-header-button {
+  width: 120px;
+  padding: 10px 20px;
+  text-align: right;
+}
+
+.home-icon {
+  position: absolute;
+  left: 0;
+  padding: 0 10px;
+}
+
+.description-text {
+  background: url('../images/frame.png') no-repeat left top;
+  background-size: cover;
+  padding: 30px;
+}
+
+.description-apps {
+  display: flex;
+  justify-content: center;
 }
