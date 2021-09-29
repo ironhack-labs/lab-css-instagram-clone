@@ -156,3 +156,13 @@ body {
   display: flex;
   justify-content: space-evenly;
 }
+
+footer ul{
+  display: flex;
+  justify-content: space-around;
+}
+footer li {
+  list-style-type: none;
+  padding: 0; /* Remove padding */
+  margin: 0 5px; /* Remove margins */
+}
