@@ -1,10 +1,220 @@
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Remove default padding */
+ul[class],
+ol[class] {
+	padding: 0;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+	margin: 0;
+}
+
+/* Set core body defaults */
+body {
+	min-height: 100vh;
+	scroll-behavior: smooth;
+	text-rendering: optimizeSpeed;
+}
+
+/* Remove list styles on ul, ol elements with a class attribute */
+ul[class],
+ol[class] {
+	list-style: none;
+}
+/* Make images easier to work with */
+img {
+	max-width: 100%;
+	display: block;
+}
+
+/* Natural flow and rhythm in articles by default */
+article > * + * {
+	margin-top: 1em;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+	font: inherit;
+}
+
 /*
 Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
 
+/* Variables for colors */
+:root {
+  --dark-blue: #06365f;
+  --light-blue: #1c5380;
+  --white: #fff;
+  --grad-dark-blue: rgb(71, 111, 155);
+  --grad-light-blue: rgb(102, 137, 172);
+  --dark-grey: rgba(90, 90, 90);
+}
+
+/* Set core body defaults */
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+p {
+  margin-bottom: 15px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.min-width {
+  min-width: 750px;
+}
+
+/* Background gradient */
+.background-gradient {
+  height: 36vh;
+  background: var(--dark-blue);
+  background: linear-gradient(180deg, var(--grad-dark-blue) 0%, var(--grad-light-blue) 50%, var(--grad-dark-blue) 100%
+  );
+}
+
+/* Main section */
+.main-section {
+  position: relative;
+  margin: 0 auto; /* center the container */
+  top: -17vh;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 960px; /* set the maximum width */
+  padding: 0 1rem;
+}
+
+.login-card img {
+  padding-right: 10px;
+}
+
+.login-card p {
+  font-weight: 400;
+}
+
+.main-img-containter{
+  width: 40%;
+}
+
+.main-section-container {
+  width: 60%;
+  padding-left: 4rem;
+}
+
+.content-card {
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  /*//background-color: var(--white); */
+  background-position: center center;
+  background-size: cover;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+
+.content-card h1 {
+  color: var(--dark-blue);
+  margin-bottom: 15px;
+  padding: 40px 40px 10px 40px;
+}
+
+.content-card p {
+  padding: 0px 40px;
+  font-weight: 400;
+  color: var(--dark-grey);
+}
+
+.main-img-containter img {
+  margin: 0 auto; /* center the image inside the div*/
+  width: 95%;
+}
+
+/* Logo container - Log in */
+.header-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.login-card {
+  width: 120px;
+}
+.login-card a {
+  color: var(--white);
+  font-weight: 400;
+  border: 1px solid var(--grad-dark-blue); 
+  box-shadow: 1px 1px var(--grad-dark-blue);
+  border-radius: 4px;
+  display: flex;
+  padding: 10px;
+  background: rgba(90, 128, 161, 1);
+  background: linear-gradient(180deg, rgba(184, 202, 217, .4) 0%, var(--grad-dark-blue) 50%, rgb(90 128 161)100%)
+}
+
+.download-buttons {
+  display: flex;
+  justify-content: flex-start;
+  padding: 0 40px;
+}
+
+.apple-logo{
+  padding-right: 20px;
+}
+
+
+.nav-list li, .nav-list a {
+  color: var(--grad-light-blue);
+  text-transform: uppercase;
+}
+
+.nav-list li:last-of-type {
+  color: rgb(175, 175, 175);
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+  font-size: .8rem;
+  font-weight: 500;
+}
+
+.nav-list ul {
+  padding-bottom: 5rem;
+}
+
+.nav-list li {
+  padding: 0 5px;
+}
+
+
