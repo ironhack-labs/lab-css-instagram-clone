@@ -141,7 +141,7 @@ body {
 .card {
   width: 100%;
   background-image: url(/images/frame.png);
-  background-repeat: no-repeat;
+  background-size: cover;
   padding: 35px;
 }
 .card h2 {
@@ -157,12 +157,26 @@ body {
   justify-content: space-evenly;
 }
 
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 footer ul{
   display: flex;
   justify-content: space-around;
+  margin-right: 20px;
 }
 footer li {
   list-style-type: none;
   padding: 0; /* Remove padding */
   margin: 0 5px; /* Remove margins */
+}
+footer li a {
+  text-decoration: none;
+  color: #06365f;
+}
+
+footer span {
+  color: gray
 }
