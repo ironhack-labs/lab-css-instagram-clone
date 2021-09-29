@@ -97,10 +97,11 @@ body {
 
 .main {
   max-width: 1400px;
+  margin: 0 auto;
 }
 .main-container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   max-width: 90%;
   align-items: flex-start;
   margin: -180px auto 0 auto;
