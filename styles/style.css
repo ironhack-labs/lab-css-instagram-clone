@@ -152,3 +152,7 @@ body {
   margin-bottom: 1em;
   width: 90%;
 }
+.app-badges {
+  display: flex;
+  justify-content: space-evenly;
+}
