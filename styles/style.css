@@ -16,6 +16,10 @@ light blue: #1c5380
   --light-blue: #1c5380;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 /* Remove default padding */
 ul[class],
 ol[class] {
@@ -43,9 +47,11 @@ dd {
 /* Set core body defaults */
 body {
   min-height: 100vh;
+  max-width: 100%;
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
+  font-family: 'Poppins', sans-serif;
 }
 
 /* Remove list styles on ul, ol elements with a class attribute */
@@ -79,14 +85,14 @@ select {
 }
 
 body {
-  font: 200 16px/1.5 'Helvetica Neue', Helvetica, Arial, sans-serif;
   margin: 0;
 }
 
 .blue-background {
-  height: 30vh;
+  height: 35vh;
   width: 100%;
-  background: url('../images/bgtile.png');
+  background: linear-gradient(to top, var(--light-blue), #547c9f),
+    url('../images/bgtile.png');
 }
 
 .main {
@@ -94,9 +100,10 @@ body {
 }
 .main-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
+  max-width: 90%;
   align-items: flex-start;
-  margin-top: -150px;
+  margin: -180px auto 0 auto;
 }
 
 .phone-picture {
@@ -104,18 +111,18 @@ body {
 }
 
 .description {
-  max-width: 40%;
+  max-width: 50%;
 }
 
 .description-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 0;
+  margin-bottom: 20px;
 }
 
 .brand-image {
-  width: 70%;
+  width: 55%;
 }
 
 .log-in-btn {
@@ -128,6 +135,12 @@ button.desc-header-button {
   width: 120px;
   padding: 10px 20px;
   text-align: right;
+  background: linear-gradient(to top, var(--light-blue), #819dc5);
+  border: 1px solid var(--light-blue);
+  border-radius: 3px;
+  color: white;
+  font-weight: bold;
+  font-size: 1.8rem;
 }
 
 .home-icon {
@@ -136,13 +149,75 @@ button.desc-header-button {
   padding: 0 10px;
 }
 
+h1 {
+  color: #264a6c;
+  font-size: 3.5rem;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
 .description-text {
   background: url('../images/frame.png') no-repeat left top;
-  background-size: cover;
-  padding: 30px;
+  background-size: contain;
+  padding: 50px;
+}
+
+.description-text p {
+  color: #332f2f;
+  padding-top: 20px;
+  font-size: 1.8rem;
 }
 
 .description-apps {
   display: flex;
   justify-content: center;
+}
+
+.description-apps img {
+  margin: 0 20px;
+  width: 30%;
+}
+
+footer {
+  margin-top: 7rem;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+  flex-wrap: wrap;
+}
+
+.footer-links li {
+  padding: 10px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #92aac1;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.footer-links p {
+  color: grey;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+@media (max-width: 1024px) {
+  .main-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .phone-picture {
+    order: 2;
+    margin-top: 20px;
+    text-align: center;
+  }
+  .description {
+    max-width: 80%;
+  }
 }
