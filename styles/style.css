@@ -127,9 +127,11 @@ body {
   width: 90px;
   height: 30px;
   background-image: url(/images/bgtile.png);
-  box-shadow: 0.5px 0.5px 1.5px black;
+  box-shadow: 0px 0px 1.5px rgba(0,0,0,0.5);
   justify-content: space-evenly;
   align-items: center;
+  border-radius: 2px;
+  background: linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.1));
 }
 .button img {
   width: 20px;
