@@ -141,48 +141,6 @@ body {
 .card {
   width: 100%;
   background-image: url(/images/frame.png);
-<<<<<<< HEAD
 }
 
 /* update from private account */
-=======
-  background-size: cover;
-  padding: 35px;
-}
-.card h2 {
-  color: #06365f;
-}
-
-.card p {
-  margin-bottom: 1em;
-  width: 90%;
-}
-.app-badges {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-footer {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-footer ul{
-  display: flex;
-  justify-content: space-around;
-  margin-right: 20px;
-}
-footer li {
-  list-style-type: none;
-  padding: 0; /* Remove padding */
-  margin: 0 5px; /* Remove margins */
-}
-footer li a {
-  text-decoration: none;
-  color: #06365f;
-}
-
-footer span {
-  color: gray
-}
->>>>>>> 775186ed124430fdadf5e46ab85fc7f474dbc5f5
