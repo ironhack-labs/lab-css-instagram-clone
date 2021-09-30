@@ -67,39 +67,122 @@ select {
 	font: inherit;
 }
 
+/*
+Colors to use:
+dark blue: #06365f
+light blue: #1c5380
+*/
 
-
+b {
+  font-weight: bold;
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .blue-background {
   background-image: url(/images/bgtile.png);
   width: 100%;
   height: 30%;
-  position: fixed;
+  position: absolute;
   z-index: -1;
 }
 
 .main-container {
-  width: 100%;
+  width: 90%;
   display: flex;
-  margin: 10%;
+  margin: 5%;
 }
 
 .phones {
-  width: 30%;
+  width: 40%;
 
 }
 
-.describtion {
-  width: 50%;
+.discription-container {
+  width: 60%;
+}
+
+.logo_login {
+  width: 90%;
   margin: 2% 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo_login a {
+  color: white;
+  text-decoration: none;
+}
+.logo_img {
+  width: 50%;
+}
+.button {
+  display: flex;
+  width: 90px;
+  height: 30px;
+  background-image: url(/images/bgtile.png);
+  box-shadow: 0px 0px 1.5px rgba(0,0,0,0.5);
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 2px;
+  background: linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.1));
+}
+.button img {
+  width: 20px;
+  height: 20px;
+}
+
+.card {
+  width: 100%;
   background-image: url(/images/frame.png);
+<<<<<<< HEAD
 }
 
 /* update from private account */
+=======
+  background-size: cover;
+  padding: 35px;
+}
+.card h2 {
+  color: #06365f;
+}
+
+.card p {
+  margin-bottom: 1em;
+  width: 90%;
+}
+.app-badges {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer ul{
+  display: flex;
+  justify-content: space-around;
+  margin-right: 20px;
+}
+footer li {
+  list-style-type: none;
+  padding: 0; /* Remove padding */
+  margin: 0 5px; /* Remove margins */
+}
+footer li a {
+  text-decoration: none;
+  color: #06365f;
+}
+
+footer span {
+  color: gray
+}
+>>>>>>> 775186ed124430fdadf5e46ab85fc7f474dbc5f5
