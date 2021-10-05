@@ -4,7 +4,88 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+html,
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  height: 100%;
+  font: 200 10px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  height: 100%;
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #06365f;
+  background-image: url(/lab-css-instagram-clone/images/bgtile.png);
+  background-repeat: repeat-x;
+  padding-top: 90px;
+}
+main,
+.login-btn,
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main {
+  margin-bottom: 40px;
+}
+.phones img {
+  width: 350px;
+  margin-right: 30px;
+}
+.text-container {
+  background-color: white;
+  background-image: url(/images/frame.png);
+  background-repeat: no-repeat;
+  padding: 20px 40px;
+}
+.info-container {
+  width: 504px;
+}
+.login {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px;
+  margin-bottom: 15px;
+}
+.login-btn {
+  color: white;
+  width: 95px;
+  height: 40px;
+  background-image: linear-gradient(180deg, #6d91af, #1c5380);
+  font-weight: 600;
+  padding: 0px 10px;
+  border: 1px solid var(--dark-blue);
+  border-radius: 3px;
+  box-shadow: 1px 1px 1px 0px rgb(0 0 0 / 40%);
+  cursor: pointer;
+}
+.login-btn img {
+  padding-right: 10px;
+}
+.info-container h1 {
+  color: #06365f;
+  font-size: 2.5rem;
+}
+.info-container p {
+  font-size: 1.5rem;
+}
+.store-img img {
+  padding: 15px 20px 0 0;
+}
+footer ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer ul li {
+  list-style: none;
+  text-transform: uppercase;
+  padding: 0 10px;
+}
+li a {
+  text-decoration: none;
+  color: #1c5380;
+  font-weight: 700;
 }
