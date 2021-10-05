@@ -5,6 +5,77 @@ light blue: #1c5380
 */
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+align-items: center;
+justify-content: center;
+
+
+}
+
+.header {
+  background-color: #06365f ;
+  height: 250px;
+  
+}
+
+h1 {
+  color: #06365f
+}
+
+.container-caja{
+  display: flex;
+  flex-direction: row;
+  padding: 50px;
+  justify-content: center;
+  align-items: center;
+  width: 840px;
+  position: absolute;
+  top: 30px;
+
+  
+}
+
+.logo-inst {
+  display: flex;
+  width: 250px;
+}
+.container-superior {
+  display: flex;
+  padding: 10px;
+  margin: 10px;
+  flex-direction: row;
+  justify-content: space-between;
+  ;
+}
+.container-medio {
+  display: flex;
+  background-image: url(/Users/sebasgranara/lab-css-instagram-clone/images/frame.png);
+  flex-direction: column;
+  padding: 30px;
+  margin: 10px;
+  text-align: left;
+  float: right;
+}
+
+.container-inferior{
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.login-btn {
+  background-color: #1c5380;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border-radius: 2px;
+  width: 100px;
+  box-shadow:#1c5380;
+  padding: 20px 0px;
+  margin: 0px;
+  
+}
+
+.footer {
+  display: flex;
+  align-items: flex-end;
 }
