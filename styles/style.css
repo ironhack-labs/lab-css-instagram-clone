@@ -12,16 +12,16 @@ body {
   box-sizing: border-box;
   width: 100%;
   min-height: 100vh;
-  background: linear-gradient(180deg, #1c5380 40%, #F5F6F8 0%)
+  background:	linear-gradient(180deg, #1c5380 40%, #F5F6F8 0%);
 }
 
 .content-wrapper{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin-top: 15%;
-	margin-right: 15%;
-	margin-left: 15%;
+	padding-top: 10%;
+	padding-right: 16%;
+	padding-left: 16%;
 	gap: 7%;
 }
 
@@ -53,7 +53,6 @@ body {
 .frame-container{
 	background-image: url("frame.png");
 	background-size: cover;
-	padding: 7%;
 }
 
 .frame-container h1{
@@ -62,6 +61,15 @@ body {
 
 .frame-container article{
 	font-weight: 350;
+	padding: 7%;
+}
+
+.frame-container article p{
+	font-size: 0.90rem;
+}
+
+.frame-container article span{
+	font-weight: bolder;
 }
 
 .stores{
@@ -71,8 +79,8 @@ body {
 
 footer{
 	margin-top: 4%;
-	margin-right: 20%;
-	margin-left: 20%;
+	margin-right: 25%;
+	margin-left: 25%;
 }
 
 footer ul {
@@ -89,6 +97,7 @@ footer a {
 
 footer li{
 	font-weight: bold;
+	font-size: 0.90rem;
 }
 
 #copy{
