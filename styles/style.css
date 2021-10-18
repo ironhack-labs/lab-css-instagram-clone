@@ -8,7 +8,47 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(to top, rgb(240, 239, 239) 40%, white 60%, #1C5380 60%);
+  height: 100vh;
+
 }
+
+
+.container {
+  display : flex;
+  justify-content: center;
+  padding: ;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 35%;
+   
+}
+
+.text {
+  background-image: url(frame.png);
+  background-size: cover;
+  /*padding: 10%;*/
+  margin-top: 50px;
+  width: 500px;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-left: 10%;
+  padding-top: 4%;
+  padding-bottom: 10%;
+}
+
+.phone {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+
 
 html, body {
   margin: 0;
@@ -20,6 +60,16 @@ html, body {
   border: 1px solid darkblue;
   border-radius:
   
+  
+}
+
+.button {
+  background: -prefix-linear-gradient(top, blue, white);
+}
+
+.button a {
+  text-decoration: none;
+  color: white;
 }
 
 
@@ -28,10 +78,45 @@ h1, h2 {
 }
 footer {
   color: lightblue
+ /* display:flex;
+  justify-content: center;*/
   
 }
 footer nav {
+  font-weight: bolder;
   text-transform: none;
   list-style: none;
+  display:flex;
+  justify-content: center;
+  margin: 30px;
+  text-transform: uppercase;
+  padding: 20px;
+  margin-left: 30px;
 }
 
+
+a {
+  text-decoration: none;
+}
+
+.blue-letter {
+  
+  color: lightblue;
+}
+
+.android-iphone {
+  display: flex;
+  justify-content:space-evenly;
+
+  
+
+}
+fotter a {
+  margin-left: 17px;
+
+}
+
+.h1-font {
+  font-size: 80%;
+  font:"Helvetica Neue";
+}
