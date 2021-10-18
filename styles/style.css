@@ -7,4 +7,95 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  padding: 200px 200px 0 200px;
+  box-sizing: border-box;
+  background: linear-gradient(180deg, #06365f 40%, #ffff 0%);
+  justify-content: center;
+  
+}
+
+img{
+  width: 100%;
+}
+
+section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+a{
+  text-decoration: none;
+  color: #1c5380;
+}
+
+div{
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+
+}
+
+
+article {
+  border-radius:10px;
+  padding: 40px;
+  background-image: url("/images/frame.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  margin: 40px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  text-transform: uppercase;
+}
+
+li{
+  padding: 0 20px 0 20px;
+}
+
+h2{
+  color: #06365f;
+  font-size: 40px;
+}
+
+
+header img{
+  width: 60%;
+}
+
+.download {
+  width: 30%;
+  padding: 20px;
+}
+
+#phone {
+  width: 80%;
+}
+
+p{
+  font-size: 22px;
+
+}
+
+#copyright {
+  color: rgb(138, 135, 135);
+}
+
+#log-in a{
+  color: white;
 }
