@@ -9,25 +9,94 @@ body {
   margin: 0;
 }
 
-nav {
+nav div {
   background-color: #1c5380;
   display: flex;
-  padding: 100px;
+  padding: 12vw 2vw 12vw 45vw;
 }
 
-.section-one {
- display: flex;
- 
+nav a {
+  padding: 0 7px;
+}
+
+.logoInstagram {
+  width: 300px;
+  
+}
+
+.nav-wrapper a {
+  text-decoration: none;
+  color: white;
+  font-size: 1em;
+  font-weight: bold;
 
 }
 
-.section-one div {
-  border: 1px solid black;
-  border-radius: 10px;
-  width: 45%;
+.nav-wrapper {
+  border: 1px solid #06365f;
+  border-radius: 7%;
+  padding: 20px 15px;
+  height: 10px;
+  background-color: rgb(63, 114, 155);
+  margin: 15px;
+  display: flex;
+  justify-items: baseline;
+  align-items: center;
+}
+
+.nav-wrapper img {
+  width: 30px;
+}
+
+#section-principle {
+  display: flex;
+  justify-content: center;
+}
+
+.general-information {
+  margin: -60px 30px 0;
+  background-color: white;
+  border-radius: 8px;
+  width: 50%;
   padding: 20px;
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  background-position: auto;
+  
 }
 
-#imagePhone {
-  position: 
+h1 {
+  color:#06365f;
+}
+
+
+.imagePhone {
+  margin-top: -150px;
+  padding-left: 70px;
+}
+
+
+.imgAppStore {
+  padding-right: 15px;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  list-style: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.7em;
+}
+
+footer ul a {
+  text-decoration: none;
+  color: #1c5380;
+  padding: 10px;
+}
+
+.copytext {
+  color: rgba(0, 0, 0, 0.5);
 }
