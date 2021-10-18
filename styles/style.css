@@ -7,4 +7,96 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+
+
+  background: linear-gradient(to top, rgb(240, 239, 239) 40%, white 60%, #1c5380 60%);
+  /* background: linear-gradient(to top, white 40%, white 60%, #1c538050%, #1c5380 50%); */
+  height: 100vh;
+}
+
+
+.encabezado{
+margin-left: 720px;
+margin-top: 80px;
+}
+.encabezado{
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+}
+.instagram{
+  margin-bottom: -80px;
+}
+.boton{
+  border: none;
+    color:rgb(255, 255, 255);
+    padding: 10px 30px;
+    background-color:#285e8a ;
+    text-align: center;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    text-decoration:none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5%;
+}
+.principal{
+  display: flex;
+  justify-content: center;
+}
+
+.phones{
+  margin-left: 50px;
+  margin-right: 0px;
+  margin-top: 10px;
+}
+
+
+.div2{
+  margin-top: 140px;
+  margin-left: 50px;
+  margin-right: 100px;
+  position: relative;
+  display: inline-block;
+}
+.div2titulo{
+  text-align:left;
+  position: absolute;
+  top: 10px;
+  left: 20%;
+}
+.div2texto{
+  text-align:left;
+  margin-top: 80px;
+  position: absolute;
+  top: 10px;
+  right: 90px;
+  left: 20%;
+}
+
+.logos{
+  display: flex;
+  justify-content:space-evenly;
+}
+
+
+
+
+
+.final{
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #1c5380;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  
+}
+.final p{
+  margin-left: 17px;
+}
+
+
+.ultinst{
+  color: grey;
 }
