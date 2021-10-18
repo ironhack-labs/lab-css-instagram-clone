@@ -7,4 +7,124 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: linear-gradient(180deg, #1c5380 40%, white 40%);
 }
+
+.global {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.box {
+  height: 94vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.box-1 {
+  width: 50%;
+  text-align: center;
+}
+
+.box-2 {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.box-content-1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px;
+}
+
+.box-content-2 {
+  background-color: white;
+  width: fit-content;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 20px;
+}
+
+
+.pho-pic {
+  width: 300px;
+  height: 500px;
+}
+
+.ig-lg {
+  width: 250px;
+}
+.log-in {
+  padding: 10px;
+  height: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: fit-content;
+  overflow: hidden;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+.log-in a {
+  color: white;
+  text-decoration: none;
+}
+
+.home-pic {
+  width: 25px;
+  height: 25px;
+}
+
+.log-in {
+  display: flex;
+  justify-content: space-around;
+}
+
+.parr {
+  overflow: hidden;
+}
+
+.badge {
+  display: flex;
+  width: 300px;
+  height: 50px;
+  margin-top: 30px;
+}
+
+.badge-and {
+  margin-left: 10px;
+}
+
+.asd {
+  color: gray;
+}
+
+h2{
+  color: #1c5380;
+}
+
+img {
+  width: 100%;
+}
+
+
+footer {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav {
+  display: flex;
+
+}
+
+nav a {
+  text-decoration: none;
+  color: #1c5380;
+  font-weight: 600;
+}
+
