@@ -4,7 +4,117 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+h1 {
+color: #06365f;
+font-weight: bold;
+width: 200px;
+}
+
+.bg {
+  background-image: url(../images/bgtile.png);
+  padding-top: 100px;
+}
+
+/* Login */
+.login {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: stretch;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+.login a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.login-bg {
+  background-color: rgba(6, 64, 114, 0.356)
+}
+
+.login img {
+  margin:5px;
+}
+/* Fix */
+.fix {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  
+}
+
+.fix-login {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.fix-login p{
+  margin-left: 70px;
+}
+
+/* Box */
+.box {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: flex-end;
+	align-content: space-around;
+
+}
+
+.box-text {
+  text-align: left;
+  width: 420px;
+  height: 400px;
+}
+
+.square {
+  background-color: white;
+  padding: 0px 30px;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+.market-logos {
+  margin-top: 40px;
+}
+
+/* Phone image */
+.phone {
+  display: flex;
+  justify-content: left;
+  margin-right: 50px;
+}
+
+/* Links */
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style-type: none;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+ul li {
+  margin: 0 10px 0 10px;
+}
+ul li a{
+  text-decoration: none;
+  font-weight: bold;
+  color: #1c5380;
 }
