@@ -59,9 +59,11 @@ h1 {
   margin-top: 5%;
 }
 .card p {
-  margin: 3% 2%;
+  margin: 3% 0;
+  margin-right: 30px;
   font-weight: 400;
   color: #878788;
+  text-align: justify;
 }
 .btn-app {
   padding-left: 7%;
