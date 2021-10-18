@@ -4,7 +4,93 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(180deg, #1c5380 40%, #F5F6F8 0%)
+}
+
+.content-wrapper{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 15%;
+	margin-right: 15%;
+	margin-left: 15%;
+	gap: 7%;
+}
+
+.top{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+.login button{
+	display: flex;
+	padding: 0.5rem;
+	justify-content: space-between;
+	align-items: center;
+	gap: 5.5px;
+	background-color: #6B8FAE;
+	color: white;
+	border-radius: 10%;
+	border-style: solid;
+	border-color: #2C5A81;
+}
+
+.login-text{
+	font-weight: bold;
+	font-size: 0.8rem;
+}
+
+.frame-container{
+	background-image: url("frame.png");
+	background-size: cover;
+	padding: 7%;
+}
+
+.frame-container h1{
+	color: #0A3358;
+}
+
+.frame-container article{
+	font-weight: 350;
+}
+
+.stores{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+footer{
+	margin-top: 4%;
+	margin-right: 20%;
+	margin-left: 20%;
+}
+
+footer ul {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+footer a {
+	text-decoration: none;
+	color: #527A9D;
+}
+
+footer li{
+	font-weight: bold;
+}
+
+#copy{
+	color: darkgrey;
 }
