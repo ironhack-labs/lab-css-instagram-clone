@@ -38,6 +38,7 @@ div{
 header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin-bottom: 10px;
 
 }
@@ -46,9 +47,11 @@ header {
 article {
   border-radius:10px;
   padding: 40px;
-  background-image: url("/images/frame.png");
+  background-image: url("/images/frame.png") ;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
+ 
+
 }
 
 nav {
@@ -62,6 +65,7 @@ ul {
   justify-content: space-between;
   list-style-type: none;
   text-transform: uppercase;
+  font-size: 14px;
 }
 
 li{
@@ -71,6 +75,8 @@ li{
 h2{
   color: #06365f;
   font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 20px;
 }
 
 
@@ -79,12 +85,13 @@ header img{
 }
 
 .download {
-  width: 30%;
+  width: 40%;
   padding: 20px;
+  align-content: center;
 }
 
 #phone {
-  width: 80%;
+  width: %;
 }
 
 p{
@@ -96,6 +103,28 @@ p{
   color: rgb(138, 135, 135);
 }
 
+#log-in {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-right: 15px;
+  height: 50px;
+  background-color:#1c5380;
+  border-color: #06365f21;
+  border: 1px;
+  border-style: solid;
+}
+
+#log-in img{
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  padding: 5px;
+}
+
 #log-in a{
   color: white;
+  font-weight: bold;
+  padding: 5px;
 }
