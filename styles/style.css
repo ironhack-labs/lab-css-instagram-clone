@@ -12,7 +12,7 @@ body {
   box-sizing: border-box;
   width: 100%;
   min-height: 100vh;
-  background:	linear-gradient(180deg, #1c5380 40%, #F5F6F8 0%);
+  background:	linear-gradient(180deg, #476F92 40%, #F5F6F8 0%);
 }
 
 .content-wrapper{
@@ -29,8 +29,13 @@ body {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	padding-left: 5px;
+	padding-right: 5px;
 }
 
+.login{
+	padding-bottom: 11px;
+}
 
 .login button{
 	display: flex;
@@ -40,7 +45,7 @@ body {
 	gap: 5.5px;
 	background-color: #6B8FAE;
 	color: white;
-	border-radius: 10%;
+	border-radius: 8%;
 	border-style: solid;
 	border-color: #2C5A81;
 }
@@ -75,12 +80,14 @@ body {
 .stores{
 	display: flex;
 	justify-content: space-evenly;
+	padding-right: 10%;
+	padding-left: 10%;
 }
 
 footer{
-	margin-top: 4%;
-	margin-right: 25%;
-	margin-left: 25%;
+	padding-top: 4%;
+	padding-right: 25%;
+	padding-left: 25%;
 }
 
 footer ul {
