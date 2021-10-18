@@ -3,8 +3,98 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: linear-gradient(to top, lightgrey 40%, lightgrey 60%, #1c5380 50%, #1c5380 50%);
+  /*background: linear-gradient(to top, white 73%, white 73%, #1C5380 50%, #1C5380 50%);*/
+}
+ h1{
+   font-size: 0%;
+ }
+
+nav{
+  padding: 10% 0 25px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /*background: linear-gradient(to bottom, #1c5380, #06365f);*/
+}
+nav >img{
+  margin-left: 10%;
+}
+
+.logInBtn{
+  border: solid #06365f 2px;
+  background: linear-gradient(to bottom, #1c5380, #06365f);
+  border-width: 1px;
+  width:fit-content;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 25px;
+  margin-left: 75px;
+  padding: 5px;
+}
+
+.logInBtn a{
+  text-decoration: none;
+  color: white;
+  margin-left: 5px;
+
+}
+
+.textBox{
+  padding: 5px 2% 0 2%;
+  margin-left: 38% ;
+  width: 33%;
+  border-radius: 1%;
+}
+
+.textBox{
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+}
+
+.textBox h2{
+  color:#06365f;
+}
+
+.downloadBtn img{
+  margin: 10px;
+}
+
+footer{
+  text-transform: uppercase;
+  color: grey;
+  font-weight: bold;
+  padding: 5% 0;
+
+}
+footer ul{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+footer li{
+  margin: 0 5px;
+}
+footer a{
+  color: #1c5380;
+    text-decoration: none;
+}
+
+.phones{
+position: absolute;
+display: flex;
+margin-top: 10%;
+margin-left: 10%;
+}
+
+span{
+  font-weight: 600;
 }
