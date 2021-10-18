@@ -4,7 +4,130 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+
+h1 {
+  font-size: 30px;
+  color: #063650;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding-top:0px;
   margin: 0;
+  height: 1200px;
+  background: repeating-linear-gradient(#1c5380, #1c5380 49.9%, #ffffff 50.1%, #ffffff 100%);
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+
+
+.box {
+  position: relative;
+    top: -50px;
+    left: -150px;
+  align-content: center;
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  background-size: 600px 480px;
+  border-radius: 2%;
+  width: 480px;
+  padding: 40px;
+  margin-left: 750px;
+}
+
+
+.home {
+  position: relative;
+  top: 10px;
+  left: 10px;
+  padding: 30px;
+  border: 1px black;
+}
+
+.loghome {
+  position: relative;
+    bottom: 140px;
+
+}
+
+.iphone {
+  position: relative;
+  top: 400px;
+  left: 200px;
+width: 500px;
+height: 519px;
+}
+
+.body {
+  align-content: center;
+  flex-direction: column;
+  margin-right: 230px;
+  margin-left: 240px;
+}
+
+
+.btn-bottom {
+  align-content: center;
+  margin: 10px 20px 10px 20px;
+  padding: 0px 20px 0px 20px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #1c5380;
+  font-weight:700;
+}
+
+.footer {
+  font-weight: bolder;
+  justify-content: center;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  align-self: center;
+  text-transform: uppercase;
+  font-weight:bolder
+  }
+
+.loghome a {
+  justify-content: center;
+  position: relative;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+
+}
+.text {
+  position: relative;
+  top: -80px
+}
+.home {
+  background-image: linear-gradient(to bottom, #1c5380, #06365f );
+  position: relative;
+  left: -34px;
+ top: -21px;
+ padding: 7.5px;
+ border-top: solid 1px #06365f;
+ border-left: solid 1px #06365f;
+ border-bottom: solid 1px #06365f;
+ border-radius:2px;
+}
+
+.log-in {
+  background-image: linear-gradient(to bottom, #1c5380, #06365f );
+  position: relative;
+  left: 80px;
+ top: -35px;
+ padding: 10px;
+ border-top: solid 1px #06365f;
+ border-right: solid 1px #06365f;
+ border-bottom: solid 1px #06365f;
+ border-radius:2px;
+
+}
+
+.btn-1 {
+  margin: 10px;
 }
