@@ -8,18 +8,40 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  height: 600px;
 }
 
 h1 {
 color: #06365f;
 font-weight: bold;
-width: 200px;
+width: 245px;
+font-size: 1.5rem;
+font: helvetica;
 }
 
 .bg {
-  background-image: url(../images/bgtile.png);
   padding-top: 100px;
 }
+
+#bg {
+  position: relative;
+  overflow: hidden;
+}
+
+#bg::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: -60%;
+  bottom: -50%;
+  z-index: -1;
+  background: url(../images/bgtile.png) 0 0 repeat;
+  transform: rotate(180deg);
+}
+
+
+
 
 /* Login */
 .login {
@@ -29,7 +51,7 @@ width: 200px;
 	justify-content: space-around;
 	align-items: center;
 	align-content: stretch;
-  border: 1px solid black;
+  border: 1px solid rgba(0, 0, 0, 0.459);
   border-radius: 3px;
 }
 
@@ -41,7 +63,8 @@ width: 200px;
 }
 
 .login-bg {
-  background-color: rgba(6, 64, 114, 0.356)
+  background-color: #1c53808e;
+  background-image: linear-gradient( rgba(255, 255, 255, 0.425), #1c5380a9)
 }
 
 .login img {
@@ -88,10 +111,13 @@ width: 200px;
   padding: 0px 30px;
   border: 1px solid white;
   border-radius: 5px;
+  border-image: linear-gradient(to bottom, 
+  rgba(0, 0, 0, 0.171), 
+  rgba(255, 255, 255, 0) )1 100%;
 }
 
 .market-logos {
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 /* Phone image */
@@ -100,6 +126,7 @@ width: 200px;
   justify-content: left;
   margin-right: 50px;
 }
+
 
 /* Links */
 ul {
@@ -112,9 +139,15 @@ ul {
 }
 ul li {
   margin: 0 10px 0 10px;
+  font-size: 0.6rem;
+  font-weight: bold;
+  color: rgb(163, 162, 162);
+  text-transform: uppercase;
 }
 ul li a{
   text-decoration: none;
   font-weight: bold;
   color: #1c5380;
+  font-size: 0.6rem;
+  text-transform: uppercase;
 }
