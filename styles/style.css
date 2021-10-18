@@ -5,6 +5,138 @@ light blue: #1c5380
 */
 
 body {
+
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: linear-gradient(
+    to bottom,
+    #4E7699 0%,
+    #386185 30%,
+    white 30%,
+    white 100%
+  );
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
 }
+
+
+.main-section {
+  width: 100%;
+  display: flex;
+  padding: 80px 10%;
+  flex-direction: row;
+  justify-content: center;
+  width: 900px;
+}
+.main-section > div{
+
+  justify-content: center;
+  margin-left: 50px;
+
+}
+
+#icons{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 0px;
+
+}
+#login_bottom{
+ 
+  margin-left: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(
+    to bottom,
+    #6c90af 20%,
+    #386185 100%
+  );
+  height: fit-content;
+  border-radius: 4px;
+  padding: 10px 10px;
+  border-style: solid;
+  border-color: #386185;
+
+}
+#login_bottom a{
+
+  margin-left: 10px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  
+
+}
+.main-section article{
+
+  margin-top: 25px;
+  box-sizing: content-box;
+  background-image: url("/images/frame.png");
+  background-repeat: no-repeat; 
+  opacity: 2;
+  border-radius: 5px;
+  padding: 10px 30px;
+  
+}
+
+.main-section article h2{ 
+
+  max-width: 300px;
+  color: #06365f;
+  font-weight: bold;
+  
+}
+
+article div{
+
+  margin-top: 30px;
+  max-width: 325px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.bold_text{
+
+  font-weight: bold;
+
+}
+.links ul{
+
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+  color: 06365f;
+  font-weight: bold ;
+
+}
+.links ul li {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 15px;
+
+}
+
+
+.links ul li a{
+  
+  text-transform: uppercase;
+  color: hsl(208deg 33% 44%);
+  text-decoration: none;
+} 
+#instagram_copy{
+  color: grey;
+}
+
