@@ -8,3 +8,100 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+
+section {
+  display:flex;
+}
+
+a {
+  text-decoration: none;  
+  }
+
+.iphone{
+  margin-bottom: -550px;
+  padding-left: 120px;
+  padding-top: 35px;
+  
+  position: relative;
+
+}
+.header-blue {
+  background-color:  #1c5380;
+  width: 100%;
+  padding-left: 500px;
+  padding-top: 200px;
+  padding-right: 30px;
+  margin-bottom: -0px;
+  display:flex;
+}
+
+
+.container {
+  flex-wrap: wrap;
+}
+
+
+.login {
+  border:1px solid #06365f;
+  border-radius: 2px;
+  padding: 10px 30px;
+  font-weight: 500;
+}
+
+.text-white {
+  background-image: url(/Users/virginia/Desktop/programación/IronHack/W1/day1/lab-css-instagram-clone/images/frame.png);
+  background-repeat: no-repeat;
+  text-align: left;
+  font-size: 15px;
+  padding-left: 60px;
+  padding-right: 35px;
+  margin-left: 500px;
+  margin-right: 600px;
+  margin-top: -70px;
+
+}
+
+footer ul{
+display: flex;  
+list-style: none;
+justify-content: space-between;
+text-transform: uppercase; 
+margin: 80px 18%;
+font-size: 12px;
+font-weight: 900;
+color: #bbbbbb;
+}
+
+footer ul li a {
+color: #5d84a5;
+}
+
+.badges {
+padding-left: 600px; 
+justify-content: space-between;
+margin-top: 15px;
+}
+
+.login {
+  border: 1px solid #06365f;
+  background-color: #1c5380;
+  color: white;
+  font-size:20px;
+  width: 100px;
+  height: 25px;
+  margin-left: 50px;
+  margin-top: 60px;
+  
+}
+
+h1 {
+  color: #06365f;
+  text-align: center;
+}
+
+.brand {
+  padding-bottom: 60px;
+  margin-top: 45px;
+  margin-bottom: 40px;
+}
