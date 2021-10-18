@@ -2,9 +2,159 @@
 Colors to use:
 dark blue: #06365f
 light blue: #1c5380
+background: linear-gradient(180deg, #1c5380 50%, white 50%);
 */
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  height: 100vh;
+  background: linear-gradient(180deg, #1c5380 40%, white 40%);
+            
+
+    
+  
 }
+
+
+
+.header-abs{
+  width: 75%;
+  margin: 0 auto;
+}
+.global{
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  
+  position: relative;
+}
+.global-flex{
+  display: flex;
+  height: 86vh;
+  justify-content: center;
+  align-items: center;
+  
+}
+.phones, .container{
+  width: 40%;
+}
+
+.phones{
+  text-align: center;
+}
+.phones-img{
+  width: 300px;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.log-in{
+  display: flex;
+  box-shadow: 0 0 4px 0px white;
+  padding: 10px ;
+  background-color: #29608d;
+  border-radius: 4px;
+  
+  align-items: center;
+  width:fit-content
+}
+
+.log-in a{
+  color: white;
+    text-decoration: none;
+    font-family: Helvetica;
+    font-weight: bold;
+    margin: 4px;
+}
+.log-in img{
+  height: 30px;
+  
+}
+
+.content{
+ /* background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  */
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  width: 100%;
+ 
+  
+ 
+  
+}
+.content h2{
+  color: #06365f;
+  font-size: 26px;
+}
+
+.content p{
+  font-size: 18px;
+}
+.badges{
+  margin: 0 2rem;
+}
+
+
+.footer ul{
+  display: flex;
+  list-style: none;
+  
+}
+
+.footer{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.footer ul li {
+  padding: 0 10px;
+ 
+}
+
+.footer ul li a{
+  text-decoration: none;
+ font-family: "Helvetica Neue", Helvetica;
+ color:  #1c5380;
+ font-weight: bold;
+}
+.footer ul li  .a-gray{
+  color: #65686b;
+}
+
+
+@media (max-width: 1200px) {
+
+.phones {
+  display: none;
+}
+.container{
+  width: 80%;
+}
+
+
+
+
+.footer{
+  font-size: smaller;
+}
+}
+
+@media (max-width: 1700px) {
+nav .logo img{
+  width: 80%;
+  height: auto;
+} 
+nav .log-in{
+  transform: scale(0.7);
+}}
