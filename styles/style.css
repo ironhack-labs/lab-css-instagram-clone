@@ -11,14 +11,42 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  height: 800px;
+  padding: 200px;
+  background-image: linear-gradient(to bottom, #1c5380, #06365f );
+
+}
+
+h1 {
+  color: #1c5380;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+p {
+  font-weight: 300;
+  color: rgb(51, 51, 53);
+  font-size: 18px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+em {
+  font-style: normal;
+  text-decoration: none;
+  font-weight: 300;
+  color: rgb(51, 51, 53);
+  font-size: 18px;
 }
 
 .white-box {
   
-  padding: 30px;
-  border-radius: 12px;
-  width: 400px;
+  padding: 5px 40px;
+  border-radius: 8px;
+  width: 480px;
+  background-image: linear-gradient(to bottom, #fff, rgba(255,255,255, 0));
+  box-shadow: 8px, 5px, #000;
   
 }
 
@@ -26,6 +54,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin-bottom: 35px;
 }
 
 .insta-logo {
@@ -36,9 +65,10 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  background-color: #1c5380;
+  background-image: linear-gradient(to bottom, #1c5380, #06365f );
   padding: 10px;
   border-radius: 5px;
+  border: solid 1px #06365f; 
 }
 
 .home-icon {
@@ -59,5 +89,9 @@ body {
 }
 
 .shop-btn {
-  margin: 20px 10px 10px 0px;
+  margin: 30px 10px 10px 0px;
+}
+
+.iphones {
+  height: 650px;
 }
