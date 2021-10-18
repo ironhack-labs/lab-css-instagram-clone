@@ -8,3 +8,109 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+#blue-background {
+  background-color: #1c5385;
+  width: 100%;
+  height: 350px;
+  position: absolute;
+}
+
+#rest {
+  width: 100%;
+  height: 100%;
+  margin-top: 100px;
+  position: absolute;
+}
+
+#parte-fotos {
+  position: relative;
+  margin-left: 200px;
+  display: inline-block;
+}
+
+#parte-cabecero {
+  position: absolute;
+  left: 600px;
+  right: 300px;
+  display: inline-block;
+}
+
+#button {
+  display: inline-block;
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  height: 50px;
+  width: 110px;
+  color: white;
+  background-color: #0072b1;
+  border-radius: 4px;
+  font-size: 1em;
+  font-weight: bold;
+  padding-left: 30px;
+  border: 2px solid #06365f;
+}
+
+#imagen-home {
+  display: inline-block;
+  position: absolute;
+  left: 4px;
+  top: 12px;
+  right: 4px;
+}
+
+.header {
+  height: 90px;
+}
+
+#capture-share {
+  position: absolute;
+  height: 350px;
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+h1 {
+  color: #1c5388;
+  font-size: 2em;
+}
+
+#apple-store {
+  display: inline-block;
+}
+
+#google-store {
+  display: inline-block;
+  margin-left: 200px;
+  margin-bottom: 500px;
+}
+
+.footer {
+  text-transform: uppercase;
+  color: #0072b1;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: 0%;
+  z-index: 1;
+  font-weight: 400;
+  font-size: 0.9em;
+  word-spacing: 20px;
+  font-weight: bold;
+  top: 800px;
+  display: flexbox;
+}
+
+.footer ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #0072b1;
+  text-align: center;
+}
