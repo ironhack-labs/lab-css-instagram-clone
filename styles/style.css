@@ -12,8 +12,9 @@ body {
 .bodycontainer {
   display: flex;
   flex-direction: column;
-  background-color: #06365f;
-  background-image: linear-gradient(#1c5380 40%, #06365f 40%, white 30%, white 0%);
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;
+  height: 500px;
   align-items: center;
 }
 
