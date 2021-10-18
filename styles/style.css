@@ -48,8 +48,11 @@ em {
   padding: 5px 40px;
   border-radius: 8px;
   width: 480px;
-  background-image: linear-gradient(to bottom, #fff 50%, rgba(255,255,255, 0));
-  box-shadow: 0px, 0px, 5px, 10px, #000;
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+
+
   
 }
 
@@ -113,6 +116,12 @@ footer ul {
   font-style: normal;
   color: #06365f;
   font-size: 13px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #316d9e;
+  font-weight: bold;
 }
 
 .footer-txt {
