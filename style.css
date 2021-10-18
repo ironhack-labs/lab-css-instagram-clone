@@ -1,0 +1,88 @@
+body {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    background-color: white;
+    background:
+        linear-gradient( #4682B4 50%, white 50%);
+    background-repeat: no-repeat;   
+}
+.iphones {
+    width: 200px;
+    margin-top: 80 px;
+    margin-left: 20 px;
+}
+.column2 {
+    display: flex;
+    flex-direction: column;
+}
+.instagram {
+    width: 200px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+}   
+.instagram-login {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 40px;
+}
+.log-in {
+    color: white;
+    background-color: #5094cc;
+    margin-top: 80px;
+    margin-left: 80px;
+    padding: 5px;
+    width: 80px;
+    height: 40px;
+    border-color: grey;
+    align-items: center;
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    padding-left: 20px;
+    background-color: white;
+    border-radius: 5px;
+}
+h1 {
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    color: #19507e;
+ }
+p {
+    width: 380px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+.download {
+    display: flex;
+    flex-direction: row;
+    align-items: center;  
+    border-color: white;
+    margin-top: 25px;
+    margin-left: 50px;
+    
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+}
+ul { 
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 0px;
+}
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #4682B4
+}
