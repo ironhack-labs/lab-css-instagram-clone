@@ -8,3 +8,94 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.bodycontainer {
+  display: flex;
+  flex-direction: column;
+  background-color: #06365f;
+  background-image: linear-gradient(#1c5380 40%, #06365f 40%, white 30%, white 0%);
+  align-items: center;
+}
+
+.bigcontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 5% auto 0;
+  width: 50%;
+  padding-bottom: 32px;
+}
+
+.phonecontainer {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.instalogo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.loginbutton {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+  width: 25%;
+  background-color: #1c5380;
+  background-image: linear-gradient(#6389a9, #1c5380 90%);
+  color: white;
+  font-weight: bold;
+  border: solid 1.5px #06365f;
+  border-radius: 3px;
+}
+
+.contentcontainer {
+  position: relative;
+  margin: 10px 10px 0px 10px;
+  padding: 0 10px;
+  border: 1px;
+  border-color: grey;
+}
+
+.textcontainer {
+  background-image: url("../images/frame.png");
+  width: 504px;
+  background-repeat: no-repeat;
+  padding: 5% 10% 5% 10%;
+  box-sizing: border-box;
+  margin-top: 5%;
+}
+
+.logos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 15px;
+  width: 60%;
+  padding-left: 10%;
+  margin-top: 15%;
+}
+
+.totallynotfooter {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.bottomlinks {
+  color: #1c5380;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: small;
+}
+
+h2 {
+  color: #06365f;
+}
