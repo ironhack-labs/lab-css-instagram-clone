@@ -4,7 +4,34 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.btn {
+  padding: 10px 10px;
+  border: 1px solid darkblue;
+  border-radius:
+  
+}
+
+
+h1, h2 {
+  color: darkblue
+}
+footer {
+  color: lightblue
+  
+}
+footer nav {
+  text-transform: none;
+  list-style: none;
+}
+
