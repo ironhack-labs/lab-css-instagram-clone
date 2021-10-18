@@ -1,0 +1,103 @@
+/*
+Colors to use:
+dark blue: #06365f
+light blue: #1c5380
+*/
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  background: url(./images/bgtile.png);
+  background-repeat: no-repeat;
+  background-size: 100% 35%;
+}
+
+h1 {
+  color: #06365f;
+  font-weight: bold;
+  font-size: 22px;
+  padding-bottom: 20px;
+}
+
+.sectionA{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 20px;
+  margin-top: 40px;
+  margin-bottom: 20px; 
+}
+
+.logIn {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items: center;
+}
+
+.logIn a{
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  border: #1c5380 solid 2px;
+  border-radius: 3px;
+  padding: 10px 15px;
+  margin: 10px;
+  background-image: linear-gradient(#5d819e, #215c8dbb)
+ 
+}
+
+.logIn a img{
+  width: 18px;
+}
+.sectionA article{
+  width: 35%;
+  margin: 10px;
+  padding: 20px;
+}
+
+.text{
+  background: url(./images/frame.png) no-repeat;
+  background-size: 100%;
+  padding: 30px;
+  margin-top: 10px;
+}
+
+.text p{
+  width: 100%;
+  padding: 5px;
+}
+
+.download{
+  display: flex;
+  justify-content:flex-start;
+}
+
+.download img{
+  margin: 5px 10px 10px 0px;
+
+}
+
+section ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+section ul li{
+  padding: 10px;
+  text-transform: uppercase;
+  color: #1c5380;
+  font-weight: bold;
+}
+
+.specialLi{
+  color: rgb(136, 136, 136);
+}
