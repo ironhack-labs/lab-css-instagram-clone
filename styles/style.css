@@ -3,8 +3,100 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+* {
+  margin: 0;
+  padding: 0;
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  margin: 5% 10%;
+  background: linear-gradient(
+    to bottom,
+    #4e7699 0%,
+    #386185 30%,
+    white 30%,
+    white 100%
+  );
+}
+section {
+  display: flex;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+h1 {
+  color: #06365f;
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+.login {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.login.btn {
+  border: 2px solid #1c5380;
+  padding: 4px 20px;
+  height: 35px;
+  background: linear-gradient(to bottom, #688dad 0%, #4e7699 100%);
+  border-radius: 5px;
+}
+.login.btn a {
+  color: white;
+  font-weight: 900;
+  margin-left: 10px;
+}
+.text {
+  margin-left: 5%;
+  width: 47%;
+}
+.card {
+  background-image: url("/Users/Alvaro/Desktop/Ironhack/HTML/week1/lab-css-instagram-clone/images/frame.png");
+  background-repeat: no-repeat;
+  padding: 7% 7% 0 7%;
+  border-radius: 5px;
+  margin-top: 5%;
+}
+.card p {
+  margin: 3% 0;
+  font-weight: 400;
+  color: #878788;
+}
+.btn-app {
+  padding-left: 7%;
+  margin-top: 7%;
+  width: 35%;
+  height: 59.86px;
+}
+.bolder {
+  font-weight: 900;
+  color: black;
+}
+footer ul {
+  margin: 50px 18%;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 12px;
+  color: #bbbbbb;
+}
+footer ul a {
+  color: #5d84a5;
+  margin: 0 13px;
+}
+#phone {
+  width: 350px;
+}
+#brand {
+  width: 300px;
+}
+#home {
+  width: 35px;
 }
