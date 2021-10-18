@@ -5,6 +5,99 @@ light blue: #1c5380
 */
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+	font: 200 16px/1.5 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	margin: 0;
+	position: relative;
+	max-width: 980px;
+	background-image: url('../images/bgtile.png');
+	background-repeat: repeat-x;
+}
+a,
+a:hover,
+a:active {
+	text-decoration: none;
+	color: inherit;
+}
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin-top: 70px;
+}
+.header {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: relative;
+}
+.btn-login {
+	width: 100px;
+	height: 40px;
+	background-color: #6e8eac;
+	color: white;
+	background-image: url('../images/home.png');
+	background-repeat: no-repeat;
+	background-position: 10%;
+	padding-left: 35px;
+	border: none;
+	box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.52);
+}
+.main {
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+}
+.card {
+	background-color: white;
+	min-width: 550px;
+	padding: 10px;
+	width: 550px;
+	height: 600px;
+	border-radius: 1%;
+	display: flex;
+	flex-direction: column;
+	box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.52);
+}
+.card h1 {
+	margin: 10px;
+	color: #06365f;
+}
+.card p {
+	padding: 20px;
+	line-height: 2rem;
+}
+.buttonsList {
+	margin: 20px 10px;
+}
+.buttonsList * {
+	margin-left: 15px;
+}
+.display {
+	margin-left: 50px;
+	margin-right: 20px;
+}
+footer {
+	width: 100%;
+	margin: 20px auto;
+}
+
+footer ul {
+	display: flex;
+	justify-content: space-around;
+	list-style: none;
+}
+footer ul li a {
+	color: #1c5380;
+	text-transform: uppercase;
+	font-size: 0.9rem;
+	font-weight: bold;
+}
+.copyright {
+	margin: 0;
+	padding: 0;
+	color: #8a8a8b;
+}
+.copyright::before {
+	content: '\00a9';
 }
