@@ -7,4 +7,128 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  padding: 100px 0;
+  height: 700px;
+  background: linear-gradient(to bottom, #1c5380 0%, #06365f 30%, white 30%, white 100%);
+  display:flex;
+  flex-direction: column;
+  /*WARNING*/
+  justify-content: space-between;
+}
+
+img {
+  width:100%;
+}
+
+section > img {
+  padding: 0 40px;
+  width: 330px;
+}
+
+.loginBar > img {
+  width:300px;
+}
+
+.loginBar > button > img {
+  width:25px;
+}
+
+.appStore {
+  padding-top: 20px;
+  width:150px;
+}
+
+.googlePlay {
+  width: 140px;
+  padding-left: 20px;
+}
+
+button {
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  border-radius: 5%;
+  width: 105px;
+  height:50px;
+  padding: 0 15px;
+  background: linear-gradient(#1c5380,#06365f);
+  font-weight:800;
+  color:white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  color:#06365f;
+}
+
+section {
+  display:flex;
+  /*WARNING*/
+  justify-content: center;
+  align-items: center;
+}
+
+section > div {
+  width: 480px;
+  display: flex;
+  flex-direction: column;
+  /*WARNING*/
+  justify-content: space-between;
+  align-items: center;
+}
+
+section > div > div {
+  padding: 30px 0 20px 0;
+}
+
+p {
+  margin: 0 0 16px 0;
+}
+
+.loginBar {
+  width: 465px;
+  display: flex;
+  /*WARNING*/
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content {
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  background-size:contain;
+  padding: 10px 40px;
+  display: flex;
+  flex-direction: column;
+  /*WARNING*/
+  justify-content: space-around;
+}
+.content span {
+  font-weight: 500;
+}
+
+footer {
+  height:700px;
+  padding: 0 420px;
+  display: flex;
+  /*WARNING*/
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight:700;
+  font-size: 11px;
+  color:#1c5380;
+}
+
+footer span {
+  text-transform: uppercase;
+  font-weight:700;
+  font-size: 11px;
+  color: rgba(0,0,0,0.4);
 }
