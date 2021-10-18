@@ -70,6 +70,8 @@ article>img {
   width: 90px;
   height: 30px;
   padding: 4px;
+  margin-top: 5px;
+  margin-right: 7px;
   display: flex;
   align-items: center;
   justify-content: space-around;
