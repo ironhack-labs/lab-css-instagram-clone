@@ -52,7 +52,7 @@ h1 {
   width: 47%;
 }
 .card {
-  background-image: url("/Users/Alvaro/Desktop/Ironhack/HTML/week1/lab-css-instagram-clone/images/frame.png");
+  background-image: url("../images/frame.png");
   background-repeat: no-repeat;
   padding: 7% 7% 0 7%;
   border-radius: 5px;
