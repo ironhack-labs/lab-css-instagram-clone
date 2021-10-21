@@ -7,4 +7,119 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  padding: 0;
+  background-size: 10%;
+}
+
+h1 {
+  color: #06365f;
+}
+
+.blueBackground {
+  position: absolute;
+  background-color: #1c5380;
+  height: 40%;
+  width: 100%;
+  z-index: -1;
+}
+
+.article {
+  background-color: white;
+  padding: 30px;
+  width: 100%;
+  margin-top: 30px;
+  border-radius: 1px;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 6px;
+  perspective: 1px;
+  border-color: rgb(226, 235, 242);
+}
+
+.logInIconButton {
+  margin-left: 1px;
+  height: 46px;
+  background-color: #3577ae;
+  border-color: #1d405c;
+  border-style: solid;
+  border-radius: 6px;
+  font-size: 14px;
+  color: rgb(222, 222, 222);
+  font-family: inherit;
+  font-size: 1em;
+  padding-top: 0px;
+  padding-right: 10px;
+  padding-bottom: 7px;
+  padding-left: 10px;
+  border-style: solid;
+  border-radius: 6px;
+}
+
+.logInIcon {
+  padding-top: 2px;
+  padding-right: 5px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+}
+
+.articleDiv {
+  margin: 50px;
+}
+
+.instaLogo {
+  width: 300px;
+  margin-right: 50px;
+  margin-bottom: -30px;
+  z-index: 0;
+}
+
+.logoAndLogin {
+  width: 600px;
+}
+
+.instaRightBox {
+  width: 400px;
+  margin: 50px
+}
+
+.instaFullLayout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.downloadIconIphone {
+  width: 150px;
+  align-items: center;
+}
+
+.downloadIconAndriod {
+  width: 141px;
+  align-items: center;
+  margin-left: 15px;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-top: -100px;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 0px;
+  font font-weight: bold;
+  ;
+}
+
+a {
+  text-decoration: none;
+  color: #06365f;
+  font-weight: bold;
+}
+
+li {
+  margin: 10px;
+  color: #b2bcc4;
+  font-weight: bold;
 }
