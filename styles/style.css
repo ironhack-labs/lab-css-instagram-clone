@@ -33,7 +33,7 @@ body {
     background-image: url("../images/frame.png");
     width: 504px;
     height: 284px;
-    background-repeat: no-repeat;
+    background-position: 0 0;
 }
 
 #body .page-right-login {
@@ -80,4 +80,9 @@ footer ul li {
 
 footer ul li:nth-of-type(9) {
     color: grey;
+}
+
+.page-right-landing * {
+    padding-left: 20px;
+    width: 90%;
 }
