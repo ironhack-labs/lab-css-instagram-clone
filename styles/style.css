@@ -31,6 +31,9 @@ body {
 
 #body .page-right-landing {
     background-image: url("../images/frame.png");
+    width: 504px;
+    height: 284px;
+    background-repeat: no-repeat;
 }
 
 #body .page-right-login {
