@@ -7,4 +7,91 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+header {
+  background: linear-gradient(0deg, #06365f 0%, #307cbb 100%);
+  height:200px;
+  padding-top: 200px;
+  display: flex;
+  justify-content: center;
+}
+header .phones{
+  margin-right: 50px;
+  margin-left: 100px;
+}
+header button {
+  background: linear-gradient(0deg, #06365f 0%, #307cbb 100%);
+  padding: 7px 10px;
+  border: solid 1px #06365f;
+  margin-top: 13px;
+  margin-left: 15px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+nav .wrapper img{
+  margin-right: 15px;
+}
+
+nav {
+  display: flex;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+nav .wrapper{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-left: 50px;
+  
+}
+
+header .metaWrapper{
+  display: flex;
+  flex-direction: column;
+  margin-right: 5%;
+}
+
+#infoBox{
+  margin-top: 30px;
+  margin-left: 50px;
+  width: 500px;
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 30px 30px 20px 30px;
+}
+#infoBox h1{
+  color: #06365f;
+}
+#infoBox .download{
+  margin-top: 50px;
+  
+}
+#infoBox .download img:first-of-type {
+  margin-right: 20px;
+}
+
+footer{
+  bottom: 0;
+  height: 50px;
+  width: 100%;
+  position: absolute;
+}
+footer ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+footer ul li{
+  margin: 0 20px 0 0px;
+  font-size: 14px;
+}
+#copyright {
+  color: gray;
 }
