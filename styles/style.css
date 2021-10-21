@@ -1,12 +1,11 @@
-/*
-Colors to use:
-dark blue: #06365f
-#1c5380
-*/
+
 
 body {
     font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin: 0;
+    background-image: linear-gradient(#3F617E, #235680);
+    background-size: 100% 300px;
+    background-repeat: no-repeat;
 }
 
 #body {
@@ -31,11 +30,7 @@ body {
 }
 
 #body .page-right-landing {
-
-    background-image: url("/images/frame.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    background-image: url("../images/frame.png");
 }
 
 #body .page-right-login {
