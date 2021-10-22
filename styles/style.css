@@ -6,5 +6,103 @@ light blue: #1c5380
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  margin: 0;  
 }
+
+h2 {
+  color: #06365f;
+  
+}
+
+.leftSide {
+  display: inline;
+  align-items: center;
+  padding-left: 100px;
+
+}
+
+.backgroundContainer {
+  background-color: #1c5380;
+  background-repeat: no-repeat;
+  background: linear-gradient(
+    to bottom,
+    #1c5380 0%,
+    #1c5380 40%,
+    #fff 40%,
+    #fff 100%
+  );
+  display: flex;
+  /*justify-content:space-between;*/
+  justify-content: space-around;
+  align-items: center;
+  height: 731px;
+  flex-direction: row;
+}
+
+.rightSide {
+  padding-right: 100px;
+}
+
+.rightSideTop {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rightSideText {
+  display: block;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: normal;
+  max-width: 440px;
+  padding: 10px 40px;
+  background-color: white;
+  box-shadow: 0 6px 0 #fff, 0 1px 6px rgba(0,0,0, .35);
+  border-radius: 7px;
+}
+
+.buttonthingy {
+  background-color: #1c5380;
+  box-shadow: 0 1px 6px rgba(0,0,0, .35);
+  max-height: 50px;
+  padding: 10px;
+
+
+}
+
+.link-btn {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+
+.bottom-btn {
+  padding-left: 30px;
+  
+}
+
+.divider {
+  width: 10px;
+  height: auto;
+  display: inline-block;
+}
+
+.footer {
+  color: #1c5380;
+  font-weight: 500;
+  display:inline-flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 25px 400px;
+  
+}
+
+.copyright {
+  color: gray;
+}
+
+
+
+
+
