@@ -8,3 +8,103 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.clearfix {
+clear: both;
+}
+
+.container-arriba {
+background-color: #1c5380;
+height: 300px;
+}
+
+.container-abajo {
+margin: 0;
+background-color: #fff;
+}
+
+.panel {
+margin: 0 auto;
+position: relative;
+padding-top: 100px;
+width: 1000px;
+}
+
+.mobile {
+position: relative;
+float: left;
+width: 20%;
+}
+
+.panel-text {
+position: relative;
+float: right;
+width: 65%;
+padding: 25px;
+}
+
+.log-in {
+float: right;
+margin-top: 25px;
+padding: 10px 25px;
+background-color: #1c5380;
+border-radius: 5px;
+font-size: 15px;
+color: #fff;
+}
+
+.panel-text-container{
+background-color: #fff;
+border-radius: 15px;
+box-shadow: 10px 10px 5px rgba(88, 88, 88, 0.6);
+box-sizing: border-box;
+padding: 25px;
+}
+
+.text-intro>h3 {
+font-size: 24px;
+color: #1c5380;
+}
+
+.badge {
+width: 100%;
+height: 50px;
+}
+
+.badge-android {
+float: left;
+width: 150px;
+height: 50px;
+padding-left: 5px;
+}
+
+.badge-iphone {
+float: right;
+width: 150px;
+height: 50px;
+padding-left: 5px;
+}
+
+.footer {
+position: relative;
+float: left;
+padding-top: 100px;
+font-size: 18px;
+color: #06365f;
+display: inline-block;
+}
+
+
+.footer ul {
+display: inline-flex;
+}
+
+.footer ul li {
+list-style: none;
+margin-left: 20px;
+font-weight: 900;
+}
+.copy {
+color: grey;
+}
+
