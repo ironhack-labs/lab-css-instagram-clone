@@ -4,9 +4,9 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
-* {
-  margin:  0;
-  padding: 0;
+:root{
+  --dark-blue: #06365f;
+  --light-blue: #1c5380;
 }
 
 body {
@@ -14,29 +14,116 @@ body {
   margin: 0;
 }
 
+.background-header{
+  height: 35vh;
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat;
+  background-size: contain;
+  /*background: linear-gradient(to bottom, var(--light-blue) 0%, var(--dark-blue) 100%);*/
+}
 
+.fixed-body{
+  position: fixed;
+  top: 15vh;
+  width: 100%;
+}
 
-.navigation-footer{
+.wrapper{
+  height: 70vh; /* from 15vh to 85vh*/
+  width: 800px;
+  max-width: 90%;
+  margin: auto;
+}
+
+.wrapper-photo{
+
+  box-sizing: border-box;
+  float: left;
+  width: 45%;
+  height: 100%;
+
+  text-align: left;
+}
+
+.wrapper-photo img{
+  width: 90%;
+}
+
+.wrapper-info{
+  float: left;
+  box-sizing: border-box;
+  width: 55%;
+  height: 100%;
+}
+
+.wrapper-info-header{
+  padding: 35px 0 15px 0;
+}
+
+.wrapper-info-header img{
+  box-sizing: border-box;
+  max-width: 60%;
+}
+
+.wrapper-info-header-button{
+  float: right;
+  margin-top: 7px;
+  width: 120px;
+  border-radius: 2px;
+  border: 1px solid var(--dark-blue);
+  box-shadow: 0px 0px 4px var(--dark-blue);
+  background: linear-gradient(to bottom, #7890ac 0%, #38668e 100%);
+  padding: 5px 10px;
+  color: #dce2e9;
+  line-height: 35px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.wrapper-info-header-button img{
+  height: 16px;
+  margin-right: 3px;
+}
+
+.wrapper-info-content{
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 30px;
+}
+
+.wrapper-info-content h1{
+  margin-top: 0px;
+  color: var(--dark-blue);
+}
+
+.wrapper-info-content p{
+  font-size: .85em;
+}
+
+.wrapper-info-content-stores img{
+  width: 30%;
+  margin-right: 15px;
+}
+
+.background-footer{
+  position: fixed;
   bottom: 0px;
+  height: 10vh;
   width: 100%;
   text-align: center;
 }
 
-.footer-nav{
-  font-size: small;
+.footer-button{
   text-transform: uppercase;
   font-weight: bold;
   text-decoration: none;
-  color: #1c5380;
+  color: var(--light-blue);
+  margin: 0px 10px;
 }
 
-.reg {
-  color: lightgray;
+.footer-copy{
+  text-transform: uppercase;
   font-weight: bold;
+  color: gray;
 }
-
-
-
-
-
-
