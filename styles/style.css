@@ -69,3 +69,22 @@ h1 {
   /* border-bottom: 1px solid #333333; */
   /* border-left: 1px solid #CCCCCC; */
 }
+
+.section-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-links a {
+  text-decoration: none;
+  padding: 10px 10px 10px 10px;
+  color: #1c5380;
+  font-weight: bold;
+}
+
+.section-links span {
+  padding-left: 30px;
+  color: grey;
+  font-weight: bold;
+}
