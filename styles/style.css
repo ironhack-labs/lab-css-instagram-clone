@@ -13,7 +13,7 @@ body {
   flex-direction: column;
 }
 .top-nav {
-  height: 20vw;
+  height: 18vw;
   background-image: linear-gradient(#1c538091, #1c5380);
 }
 .top-nav-container {
@@ -22,27 +22,25 @@ body {
   left: 45%;
   display: flex;
   flex-direction: row;
-  width: 40%;
+  width: 34%;
   justify-content: space-between;
   align-items: center;
 }
-.top-nav-container button {
+.top-nav-container img {
+  margin-right: 8px;
+}
+.button-login {
   height: 32px;
   padding: 4px 10px;
   align-items: center;
   display: flex;
   flex-direction: row;
-  background-image: linear-gradient(#1c538091, #1c5380);
+  background-image: linear-gradient(#3681be91, #1c5380);
   border: 1px solid #06365f;
-}
-.top-nav-container img {
-  margin-right: 8px;
-}
-
-.button-login {
   font-size: 16px;
   color: white;
-  font-weight: 200;
+  border-radius: 5%;
+  font-weight: 500;
 }
 .bottom-nav-left {
   width: fit-content;
@@ -50,10 +48,12 @@ body {
   top: 78px;
   left: 15%;
 }
+.bottom-nav-left img {
+  height: 550px;
+}
 .bottom-nav-right {
   background-image: url("/images/frame.png");
-  width: 40%;
-
+  width: 35%;
   position: absolute;
   top: 25%;
   left: 45%;
@@ -61,5 +61,42 @@ body {
   background-size: 100% 100%;
 }
 .bottom-nav-right-container {
-  padding: 32px 16px;
+  padding: 32px 54px;
+  font-size: 16px;
+}
+.bottom-nav-right-container h1 {
+  color: #06365f;
+}
+.download-img-container {
+  margin-left: 54px;
+  width: 65%;
+  display: flex;
+  justify-content: space-between;
+}
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 24px;
+}
+footer ul,
+li,
+a {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  text-decoration: none;
+  color: #1c5380;
+  font-size: 12px;
+  font-weight: bold;
+  margin-right: 12px;
+}
+footer span {
+  color: grey;
+  font-size: 12px;
+  display: inline-flex;
+  align-items: center;
 }
