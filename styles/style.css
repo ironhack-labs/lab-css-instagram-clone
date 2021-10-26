@@ -8,15 +8,49 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+h1{
+  color: #06365f;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+}
+button{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgb(65,96,130);
+  background: linear-gradient(0deg, rgba(65,96,130,0.01) 0%, rgba(95,124,156,0.94) 100%);
+  border-radius: 4px;
+  width:100px;
+  height: 40px;
+  border-color: #06365f;
+}
+span{
+  font-weight: bold;
+}
+ul{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-top: 50px;
+}
+a{
+  text-decoration: none;
+  color: #1c5380;
+  font-weight: bold;
+  padding: 5px;
+  margin-right: 20px;
+}
 .background{
   height: 300px;
-  background-color: #1c5380;
+  background: rgb(65,92,125);
+  background: linear-gradient(0deg, rgb(65, 92, 125) 0%, rgba(95,124,157,0.94) 100%);
   margin-bottom: -150px;
   }
 .container{
   display: flex;
   justify-content: space-around;
-  height: 75vh;
+  max-width: 1300px;
 }
 .container-button{
   display: flex;
@@ -26,35 +60,23 @@ body {
 .container-text{
   background-image: url(/images/frame.png);
   width: 500px;
-  
+  background-repeat: no-repeat;
 }
-button{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #1c5380;
-  border-radius: 4px;
-  width:100px;
-  height: 40px;
-  
-}
+
 .text-button{
   color: rgba(255, 255, 255, 0.76);
 }
 .img-apple-android{
   display: flex;
-  align-items: center;
 }
-h1{
-  color: #06365f;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-top: 30px;
-  
-}
+
 .text{
   margin-left: 30px;
   margin-right: 30px;
-  font-size: 15px;
+  font-size: 18px;
   font-weight:400;
 }
+.img-apple-android > img{
+  padding: 20px;
+}
+
