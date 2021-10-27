@@ -5,6 +5,59 @@ light blue: #1c5380
 */
 
 body {
+  background: ;
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  margin: 10px;
+}
+
+.container {
+  display: flex;
+}
+
+.phones {
+  padding-left: 100px;
+  padding-top: 100px;
+}
+
+.iconsHeaderContainer {
+  display: flex;
+  padding-left: 100px;
+  padding-top: 100px;
+  flex-direction: row;
+}
+
+button {
+  color: #b8c5da;
+  text-align:right, top;
+  background-color: #1c5380;
+  border-radius: 4px;
+}
+
+.card {
+  background: url("../images/frame.png");
+  background-repeat: no-repeat;
+  margin-left: 82px;
+  background-size: 600px 400px;
+  width: 600px;
+  height: 500px;
+}
+
+h1 {
+  color: #06365f;
+  padding-top: 36px;
+  margin-left: 50px;
+}
+
+p {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.iconsContainer {
+
+}
+
+.footerMenu {
+  justify-content: space-around;
+
 }
