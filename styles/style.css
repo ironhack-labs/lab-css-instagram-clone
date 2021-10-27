@@ -8,3 +8,104 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+/* section-one */
+
+.section-one{
+  display: flex;
+  background-image:url(../images/bgtile.png);
+  background-repeat: initial;
+  align-items: center;
+  height: 300px;
+}
+
+.iPhone{
+  padding-top: 300px;
+  margin-left: 200px;
+  margin-top: 109px;
+}
+
+.instagram-logo{
+  margin-top: 110px;
+  padding-left: 100px;
+}
+
+.button{
+  background-color:#6389a9;
+  height: 40px;
+  width: 110px;
+  margin-left: 85px;
+  margin-top: 80px;
+  padding-top: 2px;
+  font-weight: bold;
+  font-size: 17px;
+
+}
+
+.button a{
+  color: white;
+  text-decoration: none;
+}
+
+/* section-two */
+
+
+.container-text{
+  background-image: url(/images/frame.png);
+  width: 500px;
+  background-repeat: no-repeat;
+  margin-left: 600px;
+  margin-top: -60px ;
+}
+
+
+h1{
+  font-size: 30px;
+  color: #06365f;
+  font-weight: 550;
+  padding-left: 30px;
+  padding-top: 25px;
+}
+
+p{
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 20px;
+  font-weight: 20;
+  color:rgb(88, 88,88)
+}
+
+.apps{
+  display:flex;
+  justify-content: center;
+  margin-left: 100px;
+  margin-top:20px;
+}
+
+/* footer */
+
+
+footer{
+  padding-top: 20px;
+}
+
+footer ul{
+  margin-top: 20px;
+  padding-bottom: 40px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+footer ul a{
+  font-size: 12px;
+  margin: 0 20px 0 0px;
+  color:rgb(68,119,158);
+  text-decoration: none;
+  font-weight: 2;
+}
+
+#copyright {
+  font-size: 14px;
+  color:rgb(184,185,186);
+  font-weight: 50;
+} 
