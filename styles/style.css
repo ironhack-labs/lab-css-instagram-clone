@@ -29,7 +29,7 @@ header{
 }
 
 .container1{
-  width: 570px;
+  width: 580px;
   padding-left:100px ;
 }
 
@@ -44,8 +44,8 @@ header{
   display: flex;
   justify-content: space-between;
   padding-right: 20px;
-  padding-bottom: 30px;
-  padding-top: 30px;
+  padding-bottom: 25px;
+  padding-top: 20px;
   height: 140px;
   /* vertical-align: middle;  */
 }
@@ -93,13 +93,13 @@ h1{
   font-weight: bold;
   font-size: 48px;
   color: #0a355a;
-  padding-bottom: 25px;
+  padding-bottom: 10px;
   line-height: 60px;     /* Distancia entre lineas */
 }
 
  .text{
   position: absolute;
-  top: 60px;
+  top: 40px;
   left: 80px;
   font-size: 28px;
 } 
@@ -112,7 +112,7 @@ h1{
   justify-content: space-between;
   padding: 100px;
   padding-left: 70px;
-  padding-top: 60px;
+  padding-top: 80px;
   /* text-align: center; */
   /* height: 200px; */
   /* width: 100px; */
