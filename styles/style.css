@@ -7,4 +7,45 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background:linear-gradient(#06365f, #1c5380)
 }
+
+.buttonImage {
+  background-position: -96px -112px;
+  float: left;
+
+}
+
+button{
+  margin: 0px;
+  padding: 0px;
+  font-family:Lucida Sans MS, Tahoma;
+  font-size: 12px;
+  color: #000; 
+  white-space:nowrap;
+  width:auto;
+  overflow:visible;
+  height:28px;
+  background:linear-gradient( #1c5380, #06365f)
+}
+
+button em{
+  vertical-align:middle;
+  margin:0 2px;
+  display:inline-block;
+  width:16px;
+  height:16px;
+  background-image: url("../../images/home.png");
+}    
+
+#cuerpo {
+  display: flex;
+  flex-direction: row;
+}
+
+#derecha {
+  display: flex;
+  flex-direction: column;
+}
+
+/*todavía no sirve la imagen del botón*/
