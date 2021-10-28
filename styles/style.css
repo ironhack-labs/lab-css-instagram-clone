@@ -94,6 +94,7 @@ h1{
   font-size: 48px;
   color: #0a355a;
   padding-bottom: 25px;
+  line-height: 60px;     /* Distancia entre lineas */
 }
 
  .text{
@@ -104,7 +105,7 @@ h1{
 } 
 
 .text p{
-  margin-bottom: 20px;
+  margin-bottom: 20px;     /* distandia entre parrafos */
 }
 
 .stores-app{
