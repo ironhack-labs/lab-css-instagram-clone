@@ -7,4 +7,139 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-size:  10px;
 }
+
+header{
+  background-color: #1c5380;
+  background: linear-gradient(to top, #1c5380, #2f78b4cf);  /* Crear degradados  */
+  height: 490px;
+  position: absolute;
+  width: 100%;
+
+}
+.main {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  width: 100%;
+  padding: 180px;
+  padding-bottom: 0px;
+ 
+}
+
+.container1{
+  width: 570px;
+  padding-left:100px ;
+}
+
+.container2{
+  width: 950px;
+  /* margin-right: 280px; */
+  padding-right: 350px
+  
+}
+
+.home{
+  display: flex;
+  justify-content: space-between;
+  padding-right: 20px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  height: 140px;
+  /* vertical-align: middle;  */
+}
+
+
+.login-button{
+  width: 170px;
+  height: 75px;
+  border-radius: 5px;    /*--Redondear esquinas del boton----*/
+  margin-top: 35px;
+  color: white;
+  background-color:#1c5380 ;
+  border-width: 2px;
+  border-color: #06365f;
+  border-style: solid;
+  font-size: 23px;
+  font-weight: bold;
+  
+
+  background: linear-gradient(to top, #1c5380, #8cc3efd8)    /*crear degradados*/
+}
+
+.login-button img{
+  padding-right:  15px;
+  width: 40px;
+  vertical-align: middle;    /*alinear imagen con texto al lado */
+}
+
+.image-box{
+  width: 950px;
+  /* opacity: 2.4; */
+  background-repeat: no-repeat;
+  position: relative;
+  
+}
+
+.text-box{
+  position: relative;
+  display: inline-block;
+  /* text-align: center; */
+
+}
+
+h1{
+  font-weight: bold;
+  font-size: 48px;
+  color: #0a355a;
+  padding-bottom: 25px;
+}
+
+ .text{
+  position: absolute;
+  top: 60px;
+  left: 80px;
+  font-size: 28px;
+} 
+
+.text p{
+  margin-bottom: 20px;
+}
+
+.stores-app{
+  justify-content: space-between;
+  padding: 100px;
+  padding-left: 70px;
+  padding-top: 60px;
+  /* text-align: center; */
+  /* height: 200px; */
+  /* width: 100px; */
+}
+.stores-app img{
+/* width: 200px; */
+height: 90px;
+padding: 15px;
+}
+
+ul{
+  position: relative;
+  color: #0a355a;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 20px
+}
+
+li{
+  display: inline-block;     /* para ponerlo en horizontal, sin puntos*/
+  margin: 50px 10px;
+}
+
+.footer-copy{
+  color: black;
+  opacity: 0.4;
+  /* font-weight: normal; */
+}
+
+
