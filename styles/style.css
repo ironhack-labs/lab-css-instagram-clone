@@ -4,7 +4,42 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+@import url(https://fonts.cdnfonts.com/s/29136/Helvetica65Medium_22443.woff);
+
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+header{
+/*background-image: url(../images/frame.png);*/
+  background: #426A8E;
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    z-index: -1;
+}
+header>img{
+  opacity:.1;
+  width: 100%;
+}
+
+.mainContainer{
+  padding: 10%;
+}
+.phoneTitle{
+  display: flex;
+  flex-direction: row;
+}
+
+.textContainer{
+  background-color: #fff;
+  padding: 5%;
+  
+  
+  border-radius: 10px;
+    box-shadow: -1px -6px 9px 0px #221f1f59;
+}
+.texto{
+  font-size: .9em;
+  line-height: 25px;
 }
