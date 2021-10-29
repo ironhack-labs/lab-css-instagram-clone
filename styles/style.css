@@ -7,4 +7,96 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  
+ /* background-position: 0 0;*/
+/*   background-repeat: no-repeat;
+  background-size:cover; */
+  /* padding-top: 50px; */
+  /* position: relative; */
+}
+
+.insta {
+  /*background-image: url("../images/brand.png");*/
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size:cover;
+  padding-top: 50px;
+  position: relative;
+
+}
+
+.phones {
+  margin: 80px;
+  float: left;
+
+}
+
+.brand {
+  background-color: aqua;
+  background-image: url("../images/brand.png");
+  background-repeat: no-repeat;
+  background-position:bottom;
+  padding-top: 50%;
+  float: center;
+
+}
+
+.container {
+  background-image: url("../images/frame.png");
+  background-size: cover;
+  padding-left: 50px;
+  margin: 50px;
+  /* background-size: cover; */
+  width: 40%;
+  height: 90%;
+  background-repeat: no-repeat;
+  /* position: relative; */
+  display: flex-flexbox;
+  /* position: relative; */
+  float: right;
+
+}
+
+h2 {
+  /* text-align: left; */
+  display: inline-flex;
+}
+p {
+  align-content: center;
+  width: 60%;
+  margin: 50px;
+
+}
+.container > p {
+  display: inline-flexbox;
+  justify-content: right;
+  position: relative;
+}
+
+.container > h2 {
+  display: flex-flexbox;
+  justify-content: right;
+  position: relative;
+  /* top: 34%; */
+}
+
+.container > .stores {
+  display: flex-flexbox;
+  justify-content: right;
+  position: relative;
+  margin: 50px;
+}
+.footer {
+  clear: both;
+  bottom: 0;
+  width: 100%;
+  float: left;
+}
+
+.footer2 {
+  clear: both;
+  bottom: 0;
+  width: 100%;
+  color: gray;
+  font-weight: bold;
 }
