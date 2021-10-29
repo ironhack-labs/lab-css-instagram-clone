@@ -4,7 +4,63 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+
+.header {
+  height: 400px;
+  background-color: #1c5380;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  
+  
+  ;
 }
+  
+.insta {
+  position: relative;
+  right: -1000px ;
+  top: -200px;
+}
+
+.phone {
+  position: relative;
+  top: -300px;
+  right: -600px;
+
+}
+
+.home {
+  position: relative;
+  top: -770px;
+  right: -1400px;
+
+}
+
+  
+.sub{
+  position: relative;
+  font-size: x-large;
+  top: -700px;
+  right: -1000px;
+  color: #06365f;
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px 10px 10px 10px;
+
+
+}
+
+  
+
+.cuerpo{
+  position: relative;
+  width: 400px;
+  top: -700px;
+  right: -1000px;
+  background-color: white;
+  padding: 10px 10px 10px 10px;
+  
+}
+
