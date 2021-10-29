@@ -7,4 +7,91 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-color: rgb(157, 192, 223);
+  align-self: start;
+  display: inline;
+  align-content: center;
+  text-align: justify;
+  
 }
+
+header{
+  background: #012949;
+  height: 300px;
+  position: relative;
+  width: 100%;
+}
+
+
+.dosLog{
+
+}
+
+h1{
+  text-shadow: 10%;
+  text-align: justify;
+  text-align: center;
+}
+
+
+
+.textoDescripcion{
+  text-decoration-color: brown;
+  display: inline-block;
+  align-items: center;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: rgb(76, 125, 230);
+  text-align: center;
+
+
+}
+
+
+
+
+h1{
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: rgb(195, 161, 149);
+
+}
+
+.ladoIzq{
+  
+
+}
+
+
+.ladoDer{
+  background-image: url(../images/frame.png);
+  position: relative;
+}
+
+
+.download{
+  text-shadow: 10%;
+  text-align: justify;
+  text-align: center;
+  margin: 20%;
+}
+
+.frame{
+  text-shadow: 10%;
+  text-align: justify;
+  text-align: center;
+  display:ruby-text-container;
+}
+
+
+.subMenu{
+
+}
+
+
+footer{
+  display: table;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border: 10%;
+}
+
