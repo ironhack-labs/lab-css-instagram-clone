@@ -28,18 +28,17 @@ body {
   padding-right: 50px;
 }
 .container {
-  background-size: cover;
   width: 40%;
   height: 40%;
   background-repeat: no-repeat;
   position: relative;
   float: right;
-  padding-top: 200px;
+  padding-top: 20px;
   display: inline;
 }
 h2 {
   text-align: right;
-  display: inline;
+  display: block;
   float: right;
 }
 p {
@@ -51,24 +50,27 @@ p {
   float: right;
 }
 .container > p {
-  display: inline;
+  display: block;
   justify-content: center;
   position: relative;
   float: right;
 }
 .container > h2 {
-  display: inline;
+  display: block;
   justify-content: left;
   position: relative;
-  top: 34%;
   float: right;
 }
 .download {
   float:right;
-  display: inline;
+  display: block;
+  clear: both;
+}
+.download > p {
+  clear: both;
 }
 .phones {
-  display: inline;
+  display: inline-block;
   float:left;
   padding-left: 50px; 
   padding-top: 70px;
