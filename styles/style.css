@@ -26,14 +26,20 @@ body {
   padding-left: 100px;
   padding-top: 100px;
   flex-direction: row;
-  justify-content: space-between;
+  
 }
 
 button {
+  display: flex;
+  align-items: center;
   color: #b8c5da;
   text-align:right, top;
   background-color: #1c5380;
   border-radius: 4px;
+  width: 80px;
+  padding: 10px 5px;
+  margin-left: 170px;
+
 }
 
 .card {
