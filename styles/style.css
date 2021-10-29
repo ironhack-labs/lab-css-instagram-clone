@@ -5,12 +5,86 @@ light blue: #1c5380
 */
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 200 16px/1.5 “Helvetica Neue”, Helvetica, Arial, sans-serif;
   margin: 0;
-  background:linear-gradient(10deg, #06365f, #1c5380);
-  background-color: 
+  padding: 0;
+  background-image: linear-gradient(#06365f, #1c5380);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+ /* background-position: 0 0;*/
+  /*   background-repeat: no-repeat;
+  background-size:cover; */
+  /* padding-top: 50px; */
+  /* position: relative; */
 }
-
-.instagram-logo {
-  background-image: url("/images/brand.png");
+.insta {
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size:cover;
+  padding-top: 50px;
+  position: relative;
+  float:right;
+  padding-right: 50px;
+}
+.container {
+  background-size: cover;
+  width: 40%;
+  height: 40%;
+  background-repeat: no-repeat;
+  position: relative;
+  float: right;
+  padding-top: 200px;
+  display: inline;
+}
+h2 {
+  text-align: right;
+  display: inline;
+  float: right;
+}
+p {
+  align-content: center;
+  width: 50%;
+  margin: 10px;
+  position: absolute;
+  display: inline;
+  float: right;
+}
+.container > p {
+  display: inline;
+  justify-content: center;
+  position: relative;
+  float: right;
+}
+.container > h2 {
+  display: inline;
+  justify-content: left;
+  position: relative;
+  top: 34%;
+  float: right;
+}
+.download {
+  float:right;
+  display: inline;
+}
+.phones {
+  display: inline;
+  float:left;
+  padding-left: 50px; 
+  padding-top: 70px;
+  align-items: flex-start;
+}
+footer {
+  float: bottom;
+}
+ul {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  position:relative;
+}
+li {
+  list-style-type: none;
+  text-align: center;
 }
