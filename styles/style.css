@@ -7,8 +7,7 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
-  background:linear-gradient(#06365f, #1c5380)
-}
+  }
 
 .buttonImage {
   background-position: -96px -112px;
@@ -16,36 +15,98 @@ body {
 
 }
 
-button{
-  margin: 0px;
-  padding: 0px;
-  font-family:Lucida Sans MS, Tahoma;
-  font-size: 12px;
+button {
+   
+  font-family: Lucida Sans MS, Tahoma;
+  font-size: 16px;
   color: #000; 
-  white-space:nowrap;
-  width:auto;
-  overflow:visible;
-  height:28px;
-  background:linear-gradient( #1c5380, #06365f)
+  white-space: nowrap;
+  overflow: visible;
+  height: 28px;
+  background: linear-gradient( #1c5380, #06365f);
+  padding: 10% 10%;
+  box-sizing: border-box;
+  border-right: 80px;
+  width: 100px;
+  height: 40px;
+  
 }
 
-button em{
+button > em{
   vertical-align:middle;
-  margin:0 2px;
+  background-image: url("../../images/home.png");
+  background-repeat: no-repeat;
+  margin: 0;
   display:inline-block;
   width:16px;
   height:16px;
-  background-image: url("../../images/home.png");
+  padding-right: 15px;
+  
 }    
 
-#cuerpo {
+#arriba {
   display: flex;
   flex-direction: row;
+  background:linear-gradient( #1c5380, #06365f);
+  padding: 100px 100px 0px 100px;
+  justify-content: space-evenly;
 }
 
-#derecha {
+#celular {
+  margin-bottom: -300px;
+  
+}
+
+#abajo {
   display: flex;
   flex-direction: column;
+  background:white;
+  padding: 10px 30px 0px 60px;
+  margin-left: 700px;
+  margin-right: 300px;
+  margin-top: -80px;
+  border-radius: 1%;
+  justify-content: space-evenly;
+  box-shadow: 1px 1px 2px grey;
+  border-style: none;
+
+}
+
+footer > ol {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  font-weight: bold;
+}
+
+#download {
+  display: flex;
+  flex-direction: row;
+  margin: 20px 100px 20px 100px;
+  justify-content: start;
+}
+
+h1 {
+  color: #06365f;
+  font-weight: 700;
+}
+
+span {
+  color: white;
+  font-weight: 540;
+}
+
+#download > img {
+  margin-right: 18px;
+}
+
+ol > a:last-of-type {
+  color:grey;
+}
+
+ol > a {
+  margin-right: 30px;
+  color: #1c5380
 }
 
 /*todavía no sirve la imagen del botón*/
