@@ -9,12 +9,6 @@ body {
   margin: 0;
   }
 
-.buttonImage {
-  background-position: -96px -112px;
-  float: left;
-
-}
-
 button {
    
   font-family: Lucida Sans MS, Tahoma;
@@ -24,31 +18,45 @@ button {
   overflow: visible;
   height: 28px;
   background: linear-gradient( #1c5380, #06365f);
-  padding: 10% 10%;
+  padding: 15% 10%;
   box-sizing: border-box;
   border-right: 80px;
-  width: 100px;
-  height: 40px;
+  width: 120px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-size: cover;
+  
   
 }
 
-button > em{
-  vertical-align:middle;
+button > span {
+  vertical-align: middle;
+  color: white;
+  font-weight: 540;
+  font-size: 120%;
+  
+}
+
+.buttonImage {
   background-image: url("../../images/home.png");
   background-repeat: no-repeat;
   margin: 0;
-  display:inline-block;
-  width:16px;
-  height:16px;
-  padding-right: 15px;
-  
+  width:auto;
+  height:auto;
+  margin:0 2px;
+  display: inline-block;
+  background-position: -96px -112px;
+  float: left;
+  /*todavía no sirve la imagen del botón*/
 }    
 
 #arriba {
   display: flex;
   flex-direction: row;
   background:linear-gradient( #1c5380, #06365f);
-  padding: 100px 100px 0px 100px;
+  padding: 100px 150px 0px 100px;
   justify-content: space-evenly;
 }
 
@@ -82,18 +90,15 @@ footer > ol {
 #download {
   display: flex;
   flex-direction: row;
-  margin: 20px 100px 20px 100px;
+  margin: 20px 100px 20px 0px;
   justify-content: start;
 }
 
 h1 {
   color: #06365f;
   font-weight: 700;
-}
-
-span {
-  color: white;
-  font-weight: 540;
+  font-size: 200%;
+  line-height: 40px;
 }
 
 #download > img {
@@ -109,4 +114,7 @@ ol > a {
   color: #1c5380
 }
 
-/*todavía no sirve la imagen del botón*/
+p {
+  font-size: 120%;
+  margin-bottom: 5px;
+}
