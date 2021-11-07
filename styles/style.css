@@ -8,3 +8,110 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+#main_div{
+  background: rgb(0,0,0);
+  background: linear-gradient(344deg, rgba(0,0,0,1) 0%, rgba(6,54,95,1) 0%, rgba(28,83,128,1) 55%);
+  background-size: 100% 40vh;
+  background-repeat: no-repeat;
+  display: flex;
+  width: 100vw;
+  height: 80vh;
+  align-items: center;
+  justify-content: center;
+  padding-top: 7vh;
+}
+
+#section1 {
+  width: 40vw;
+  padding-left: 5vw;
+}
+
+#container1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 5%;
+  /* background-color: violet; */
+}
+
+#login_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90px;
+  height: 35px;
+  background: rgb(17,80,133);
+  background: linear-gradient(0deg, rgba(17,80,133,1) 42%, rgba(29,86,133,0.7511379551820728) 68%, rgba(42,123,189,0.8603816526610644) 100%, rgba(36,112,175,0.7679446778711485) 100%);
+}
+
+#login_button a {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  font-weight: 400;
+}
+
+#container2 {
+  background-color: white;
+  padding: 1% 5%;
+  padding-bottom: 5%;
+
+}
+
+#container2 h3 {
+  color: #06365f;
+  font-size: 2vw;
+  
+}
+
+#container2 p {
+  font-size: 1.4vw;
+  line-height: 32px;
+}
+
+#icons {
+  display: flex;
+  justify-content: flex-start;
+}
+
+#icons a {
+  margin-right: 6%;
+}
+
+footer ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 1.5%;
+}
+
+footer ul li {
+  text-decoration: none;
+  font-size: 1.1vw;
+  color: #1c5380;
+  font-weight: 350;
+  list-style: none;
+  margin-right: 2%;
+}
+
+footer ul a {
+  text-decoration: none;
+}
+
+#last-logo {
+  color: grey
+}
+
+
+@media only screen and (max-width: 600px)  {
+
+  #main_div {
+    width: 350px;
+  }
+  
+  #phones-image {
+    width: 160px;
+  }
+
+}
