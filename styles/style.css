@@ -6,44 +6,92 @@ light blue: #1c5380
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  margin: 60px;
+  background: url("/images/bgtile.png") top center repeat-x;
 }
 
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
 
-section {
-  display:flex;
+.section2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 a {
-  text-decoration: none;  
-  }
-
-.iphone{
-  margin-bottom: -550px;
-  padding-left: 120px;
-  padding-top: 35px;
-  
-  position: relative;
-
-}
-.header-blue {
-  background-color:  #1c5380;
-  width: 100%;
-  padding-left: 500px;
-  padding-top: 200px;
-  padding-right: 30px;
-  margin-bottom: -0px;
-  display:flex;
+  text-decoration: none;
 }
 
-
-.container {
-  flex-wrap: wrap;
+h1 {
+  color: #06365f;
+  font-size: 40px;
+  font-weight: bold;
+  width: 420px;
+  margin: 20px;
 }
 
+p {
+  font-size: 20px;
+  margin: 8px;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  padding: 10px 60px;
+  text-align: left;
+  margin: 10px 60px;
+  background-image: url("frame.png");
+  background-position: 0 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+.iphone {
+  width: 350px;
+}
+
+.div1 {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.div1 button img {
+  width: 30px;
+  padding: 3px 10px 3px 3px;
+}
+
+.div1 button {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: #3576ac;
+  padding: 8px 20px 8px 5px;
+  border: 2px solid #06365f;
+  border-radius: 2px;
+  font-size: 20px;
+}
 
 .login {
-  border:1px solid #06365f;
+  background: rgb(6, 54, 95);
+  background: linear-gradient(
+    0deg,
+    rgba(6, 54, 95, 0.7469362745098039) 0%,
+    rgba(28, 83, 128, 1) 35%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  border: 1px solid #06365f;
   border-radius: 2px;
   padding: 10px 30px;
   font-weight: 500;
@@ -54,54 +102,37 @@ a {
   background-repeat: no-repeat;
   text-align: left;
   font-size: 15px;
-  padding-left: 60px;
-  padding-right: 35px;
+  padding-left: 20px;
+  padding-left: 20px;
   margin-left: 500px;
   margin-right: 600px;
   margin-top: -70px;
-
 }
 
-footer ul{
-display: flex;  
-list-style: none;
-justify-content: space-between;
-text-transform: uppercase; 
-margin: 80px 18%;
-font-size: 12px;
-font-weight: 900;
-color: #bbbbbb;
+footer ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #bbbbbb;
+  align-items: center;
+  flex-direction: row;
 }
 
 footer ul li a {
-color: #5d84a5;
+  color: #5d84a5;
 }
 
 .badges {
-padding-left: 600px; 
-justify-content: space-between;
-margin-top: 15px;
+  margin: 40px 0px;
 }
 
-.login {
-  border: 1px solid #06365f;
-  background-color: #1c5380;
-  color: white;
-  font-size:20px;
-  width: 100px;
-  height: 25px;
-  margin-left: 50px;
-  margin-top: 60px;
-  
+.badges img {
+  margin: 0px 10px;
+  width: 200px;
 }
-
-h1 {
-  color: #06365f;
-  text-align: center;
-}
-
 .brand {
-  padding-bottom: 60px;
-  margin-top: 45px;
-  margin-bottom: 40px;
+  width: 450px;
+  margin: 0px 120px 10px 0px;
 }
