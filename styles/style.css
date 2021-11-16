@@ -4,7 +4,172 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: url(/images/bgtile.png);
+  background-repeat: repeat-x;
+  padding: 100px 0px;
 }
+
+
+@media only screen and (max-width: 480px) {
+  body {
+    background-color: #3A6890;
+  }
+
+}
+
+
+
+/* FIRST SECTION */
+
+#first-section {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#first-section .mobile-app {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+#first-section .logo-and-text {
+  width: 50%;
+}
+
+#first-section .logo-and-text .images {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#first-section .logo-and-text .images .logo {
+  width: 300px;
+}
+
+#first-section .logo-and-text .images .login-button {
+  background-color: #567D9F;
+  color: #fff;
+  border: solid 1px #3B6487;
+  border-radius: 2px;
+  box-shadow: 0px 0px 2px #323237;
+  padding: 0px 20px;
+  display: flex;
+  align-items: center;
+  height: 40px;
+}
+
+#first-section .logo-and-text .images .login-button:hover {
+  background-color: #06365f;
+  color: #fff;
+  border: solid 1px #06365f;
+  border-radius: 2px;
+  box-shadow: 0px 0px 2px #fff;
+  cursor: pointer;
+}
+
+#first-section .logo-and-text .images .login-button{
+  font-weight: 600;
+  text-decoration: none;
+}
+
+#first-section .logo-and-text .images .login-user {
+  width: 25px;
+  margin-right: 5px;
+}
+
+
+#first-section .logo-and-text .text-intro{
+  background-color: #fff;
+  padding: 35px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px #a9a9a9;
+  }
+
+
+#first-section .logo-and-text .text-intro h2{
+margin-top: 0px;
+}
+
+#first-section .logo-and-text .text-intro > a {
+  margin-right: 20px;
+}
+
+@media only screen and (max-width: 480px) {
+
+#first-section, #first-section .mobile-app, #first-section .logo-and-text {
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+#first-section .logo-and-text {
+  margin-top: 20px;
+}
+
+#first-section .logo-and-text .images .logo {
+  width: 225px;
+}
+
+#first-section .logo-and-text .images {
+  justify-content: space-evenly;
+}
+
+#first-section .logo-and-text .images .login-button {
+  background-color: #567D9F;
+  color: #fff;
+  border: solid 1px #3B6487;
+  border-radius: 2px;
+  box-shadow: 0px 0px 2px #323237;
+  padding: 0px 20px;
+  display: flex;
+  align-items: center;
+  height: 40px;
+}
+}
+
+
+
+
+
+/* FOOTER */
+
+#footer {
+  width: 45%;
+  margin: 50px auto 0px auto;
+}
+
+#footer .footer-menu ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  color: #06365f;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+#footer .footer-menu ul li.copyright {
+  color: #a9a9a9;
+}
+
+@media only screen and (max-width: 480px) {
+  #footer {
+    width: 100%;
+  }
+  
+  #footer .footer-menu ul {
+    flex-direction: column;
+    justify-content: flex-start;
+    color: #fff;
+  }
+} 
