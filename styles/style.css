@@ -8,3 +8,36 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.container-2 {
+  background-image: url(./../images/frame.png);
+  background-repeat: no-repeat;
+  margin-left: 48%;
+  padding: 10px;
+  height: 500px;
+  width: 550px;
+  border-radius: 4%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+article h1 {
+  color: #1c5380;
+  font-size: 30px;
+  margin-left: 30px;
+  width: 400px;
+}
+
+article p {
+  margin-left: 30px;
+  font-size: 16px;
+  width: 400px;
+}
+
+.play-stores {
+  margin-top: 5%;
+  margin-right: 20%;
+  display: flex;
+  justify-content: space-around;
+}
