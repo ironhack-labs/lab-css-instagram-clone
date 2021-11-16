@@ -1,5 +1,11 @@
 
 
+/*
+Colors to use:
+dark blue: #06365f
+light blue: #1c5380
+*/
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
@@ -113,8 +119,3 @@ h2 > p {
   color: rgb(214, 214, 214);
 }
 
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
