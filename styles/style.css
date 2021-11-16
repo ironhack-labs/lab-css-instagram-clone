@@ -7,4 +7,103 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url(/images/bgtile.png);
+  background-repeat: repeat-x;
+}
+
+#instagram-stuff {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+.white-background {
+  position: relative;
+  left: 140px;
+  bottom: 130px;
+
+}
+
+.phones {
+  width: 240px;
+  position: relative;
+  right: 250px;
+  top: 170px;
+}
+
+.instagram-logo {
+  width: 20%;
+  position: relative;
+  bottom: 500px;
+}
+
+.login-button {
+  width: 10%;
+  align-items:;
+}
+
+.text {
+  position: relative;
+  width: 360px;
+  left: 100px;
+  bottom: 480px;
+  color: #a2a2a2;
+  font-size:small
+}
+
+.title {
+  color: #06365f;
+  font-size: large;
+}
+
+.login-button {
+  padding: 6px;
+  text-align: center;
+  position: relative;
+  bottom: 540px;
+  left: 320px;
+  background-color: #668bab;
+  border: 1px solid #06365f;
+  border-radius: 3px;
+  color: white;
+  background: -moz-linear-gradient(top, #06365F 0%, #668BAB 53%, #06365F 100%);
+  background: -webkit-linear-gradient(top, #06365F 0%, #668BAB 53%, #06365F 100%);
+  background: linear-gradient(to bottom, #06365F 0%, #668BAB 53%, #06365F 100%);
+  font-size: 15px;
+  background-image: url(/images/home.png) no repeat;
+  
+}
+
+.buttons {
+  position: relative;
+  
+  left: 550px;
+  bottom:490px;
+  width: 80px;
+}
+.android-button {
+  position: relative;
+  left: 200px;
+  bottom: 56px;
+}
+
+#footer {
+  width: 50%;
+  list-style-type: none;
+  color: #1c5380;
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  bottom: 500px;
+  left: 190px;
+  text-transform: uppercase;
+  font-size: 10px;
+  
+}
+.copyright {
+  font-size: smaller;
+  color: #8b949e;
+  position: relative;
+  left: 850px;
+  bottom: 528px;
 }
