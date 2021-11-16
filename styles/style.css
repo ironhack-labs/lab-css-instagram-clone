@@ -7,4 +7,99 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: url(../images/bgtile.png) repeat-x;
+}
+.text-muted {
+  opacity: .5;
+}
+.d-none{
+  display: none;
+}
+h2{
+  color: #06365f;
+}
+.button{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 10px 12px;
+  border: 1px solid #06365f;
+  border-radius: .2rem;
+  background: rgb(116,151,180);
+  background: linear-gradient(180deg, rgba(116,151,180,1) 0%, rgba(62,108,146,1) 100%);
+}
+.icon{
+  margin-right: 5px;
+  width:24px;
+}
+.container {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.intro{
+  display: flex;
+  padding: 100px 0;
+}
+.intro aside{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.intro .intro-nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.intro .intro-content{
+  padding: 40px;
+}
+
+
+.intro .intro-content .card{
+  padding: 20px 40px;
+  background: url(../images/frame.png) no-repeat;
+  background-size: cover;
+}
+.badges{
+  display: flex;
+  margin: 30px 0;
+}
+.badge{
+  margin-right: 20px;
+}
+.footer nav ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer nav ul li{
+  list-style: none;
+  padding: 0 10px;
+}
+
+.link{
+  text-decoration: none;
+  color: #06365f;
+  text-transform: uppercase;
+  padding: 10px;
+  font-size: .8rem;
+  font-weight: bold;
+}
+
+@media (max-width: 600px) {
+  .intro{
+    padding: 0px 0;
+    flex-flow: column-reverse;
+    justify-content: center;
+  }
+  .footer nav ul{
+    flex-flow: column;
+  }
 }
