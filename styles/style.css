@@ -7,4 +7,99 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin-top: 5rem;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#header {
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+}
+
+
+.text-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("../images/frame.png");
+  background-position:top;
+  background-repeat: no-repeat;
+  padding-top: 1rem;
+  width: 90%;
+}
+
+.text{
+  width: 85%;
+  margin: rem;
+}
+
+.text > article {
+  margin-bottom:2rem;
+}
+
+h1 {
+  color: #06365f;
+  font-size: 1.5rem;
+}
+
+.store-icons img {
+  margin-right: 1rem;
+}
+
+footer ul {
+  font-size: 0.8rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  color: #1c5380;
+}
+
+footer ul li {
+  font-size: 0.7rem;
+  margin: 4rem 0.7rem 4rem;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+  color: white;
+  background: linear-gradient(180deg, rgba(111,146,176,1) 0%, rgba(72,115,153,1) 100%);
+  border:1px solid #073c6b;
+  border-radius: 5%;
+
+}
+
+button > a {
+  margin: 0 0.5rem 0rem 0.5rem;
+  color: white;
+  text-decoration: white;
+  font-weight: 800;
+}
+
+#copy {
+  color: rgb(197, 197, 197);
 }
