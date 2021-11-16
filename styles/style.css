@@ -10,7 +10,9 @@ html {
 }
 
 body {
-  font: 400 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  width: 1090px;
+  height: 731px;
+  font: 300 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
   display: flex;
   flex-direction: column;
@@ -32,22 +34,75 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 8%;
+  margin: 8% 150px 40px 150px;
 }
 
 
-
-
+/* LOGO AND CONTENT */
 
 #logo-plus-content {
-  width: 50%;
+  width: 80%;
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+#logo-plus-btn {
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: whitesmoke;
+  font-weight: 700;
+  border: 1px solid #06365f;
+  padding: 10px 10px;
+  background-image: url("../images/bgtile.png");
+  background-size: inherit;
+  background-position-x: 0px;
+  background-repeat: repeat no-repeat;
+  border-radius: 3px;
+}
+
+#explanation-text > h1 {
+  color: #06365f;
+  font-size: 1.6rem;
+  width: 58%;
+  line-height: 1.3;
 }
 
 #explanation-text {
+  margin-top: 14px;
+  margin-left: -5px;
   width: auto;
+  padding: 20px 0px 0px 40px;
   background-image: url("../images/frame.png");
-  background-position: center;
-  background-size: cover;
+  background-position: top;
+  background-size: 100% 100%;
+  letter-spacing: 0.4px;
+}
+
+#explanation-text > p {
+  width: 91%;
+  font-size: 0.95rem;
+  margin-bottom: 5px;
+  line-height: 1.5;
+}
+
+.bold-text {
+  font-weight: 900;
+}
+
+#download-icons {
+  display: flex;
+  justify-content: space-between;
+  width: 72%;
+  margin-top: 35px;
 }
 
 
@@ -56,7 +111,7 @@ main {
 #footer-links {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: baseline;
   list-style: none;
 }
 
@@ -68,11 +123,12 @@ main {
   text-decoration: none;
   color: #1c5380;
   font-weight: 700;
-  font-size: 0.75rem;
+  font-size: 0.7rem;
 }
 
 #copyright {
-  font-weight: 300;
-  font-size: 0.75rem;
+  font-weight: 700;
+  font-size: 0.7rem;
+  color: lightgray;
 }
 
