@@ -4,7 +4,108 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+* {
+  box-sizing: content-box;
+}
+
+p,
+h1 {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url("/images/bgtile.png");
+  background-repeat: repeat-x;
+}
+
+#phone-image {
+  margin-right: 50px;
+}
+
+.logo-row {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+#logo-image {
+  height: 78px;
+  width: 314px;
+  /* margin-right: 40px; */
+}
+
+#log-in-button {
+  display: flex;
+  justify-content: space-between;
+  color: #f1f1f1;
+  font-weight: bold;
+  position: absolute;
+  padding: 12px 15px 12px 15px;
+  width: 85px;
+  right: 35px;
+  top: 15px;
+  border-radius: 5px;
+  background-image: linear-gradient(to top, #4b769b 10%, #6e92b0 100%);
+  border: 2px solid #2d5b82;
+}
+
+#frame-title {
+  font-size: 0.9rem;
+  color: #1c5380;
+  line-height: 2.3rem;
+  margin-bottom: 20px;
+}
+
+.content {
+  font-size: 1rem;
+  line-height: 1.7rem;
+  color: #45464e;
+}
+
+.content p {
+  margin-bottom: 15px;
+}
+
+#container {
+  display: flex;
+  margin: auto;
+  margin-top: 80px;
+  width: 70vw;
+}
+
+#white-frame {
+  background-image: url("/images/frame.png");
+  background-repeat: no-repeat;
+  padding: 40px 70px 40px 40px;
+}
+
+#download-buttons {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 20px;
+}
+
+#download-buttons > a:nth-child(2) {
+  margin-left: 10px;
+}
+
+#footer {
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 40px;
+  margin-top: 30px;
+  font-size: 0.7rem;
+  font-weight: bold;
+  color: #7a788e;
+}
+
+#footer a {
+  color: #06365f;
+  text-decoration: none;
+  margin: 0px 5px 0px 5px;
 }
