@@ -1,10 +1,120 @@
+
+
+body {
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+}
+
+}
+
+h2 {
+  color: #1c5380;
+  text-align:left;
+  margin-left: 20%;
+  
+}
+
+h2 > p {
+  margin-left: 20%;
+  justify-content: center;
+  
+}
+
+.log-in{
+  color:rgb(255, 250, 250);
+  font-size: 0.9em;
+  padding: 0% 5%;
+}
+
+.button {
+  border-color: #1c5380;
+  border: 3px;
+  border-radius: 3%;
+  /* background-color:#1c5380; */
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content:space-around;
+  /* padding: 0% 5%; */
+  background: #528bb9;
+  margin-right: 30%;
+  width:100px;
+  height:35px;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;  
+
+}
+.container1 {
+  display: flex;
+  flex-direction:row;
+  align-content: center;
+  justify-content: space-between;
+  padding: 0% 10%;
+  margin:5% 10% 20% 10%;
+  margin-bottom: 15%;
+  
+
+}
+/* logo y login */
+.container2 {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  padding: 0% 5%;
+}
+
+.items {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.items2 {
+  background-color: white;
+  border-radius: 2px;
+  /* margin: 3% 9% 2% 3%; */
+  /* padding: 12px 0px 0px 5px; */
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  margin-right: 30%;
+  padding-left: 4%;
+}
+
+.download{
+  padding-left: 4%;
+  display: flex;
+  justify-content: space-around;
+  margin-right: 20%;
+}
+
+
+
+
+.footer {
+  list-style: none;
+  color:#06365f;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: center;
+}
+
+.nav-footer {
+  padding: 0px 8px;
+  text-transform: uppercase;
+  font-size: 0.7em;
+
+}
+
+.ig-grey {
+  color: rgb(214, 214, 214);
+}
+
 /*
 Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
-body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
-}
