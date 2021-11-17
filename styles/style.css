@@ -4,7 +4,156 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+.title {
+  font-size: 24px;
+  line-height: 150%;
+  color: #0e365c;
+  margin-bottom: 20px;
+  font-weight: 700;
+  margin-top: 0;
+}
+
+
+
+
+/* INSTAGRAM BLOCK */
+
+#instagram {
+  position: relative;
+  height: 100vh;
+  padding: 200px 150px 100px;
+  background-color: #fff;
+}
+
+#instagram::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  height: 400px;
+  background-color: #426b8e;
+  width: 100%;
+  left: 0;
+
+}
+
+.instagram-block {
+  display: flex;
+}
+
+#instagram-block div + div {
+  margin-left: 50px;
+}
+
+#instagram-block-img {
+  width: 40%;
+  background: url("./../images/phones.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#instagram-block-info {
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+#instagram-block-info_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+#instagram-block-info_text {
+  padding: 35px;
+  box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
+  border-radius: 5px;
+  background: #fff;
+}
+
+
+#instagram-block-info_header img { 
+  width: 40%;
+  object-fit: contain;
+}
+
+#instagram-block-info_header button {
+  border: 1px solid #426b8e;
+  position: relative;
+  height: 40px;
+  padding-right: 15px;
+  background: #badeff;
+  border-radius: 5px;
+  width: 100px;
+  text-align: right;
+} 
+
+#instagram-block-info_header button::after {
+  content: "";
+  background: url('./../images/home.png');
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 5px;
+  top: 10px;
+}
+
+#instagram-block-info_text p + p {
+  margin-bottom: 20px;
+}
+
+#instagram-block-info_apps {
+  display: flex;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+
+#instagram-block-info_apps img {
+  width: 150px;
+  object-fit: contain;
+}
+
+#instagram-block-info_apps img + img {
+  margin-left: 20px;
+}
+
+footer {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin-top: 70px;
+}
+
+footer a {
+  color: #426b8e;
+  text-decoration: none;
+}
+
+
+
+
+
