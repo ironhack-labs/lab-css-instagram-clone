@@ -55,6 +55,7 @@ body {
 
 h1 {
   color: #06365f ;
+  line-height: 25px;
 }
 
 .botButtons{
@@ -67,6 +68,7 @@ h1 {
 
 
 .text{
+  
   background-color: white;
   max-width: 450px;
   padding-top: 1px ;
@@ -75,18 +77,21 @@ h1 {
   align-items: normal;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   border-radius: 5px;
+  padding-bottom: 15px;
 }
 
 .text p {
 text-align: left;
 padding-right: 30px;
+font-weight: ;
+
 
 
 
 
 }
 
-.button{
+.buttonCss{
   background-color: #1c5380;
   background-repeat: no-repeat;
   background: linear-gradient(
@@ -100,6 +105,8 @@ padding-right: 30px;
   max-height: 50px;
   padding: 10px;
   border-radius: 5px;
+  align-items: center;
+  display: flex;
 
 
 }
@@ -108,7 +115,10 @@ padding-right: 30px;
  color: white;
  text-decoration: none;
  font-weight: bold;
+ align-items: center;
+ 
 }
+
 
 .buttonDivisor {
   width: 20px;
