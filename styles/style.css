@@ -7,4 +7,108 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 5%;
+  height: 180vh;
+  padding: 0% 5% 2%;
+  background: linear-gradient(to top, transparent, rgba(255, 255, 255, 0.2) 100%), url(../images/bgtile.png) repeat-x;
+}
+
+.phones-section .phones-image{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.phones-image {
+  width: 100%;
+}
+
+.home-icon {
+  padding-right: 5px;
+}
+
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px solid #1c5380;
+  border-radius: .2rem;
+  background: rgb(116,151,180);
+  background: linear-gradient(180deg, rgba(116,151,180,1) 0%, rgba(62,108,146,1) 100%);
+  text-decoration: none;
+  font-weight: 600;
+  color: white;
+  padding: 5px 6px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 55%;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1%;
+  max-width: 450px;
+  gap: 40px;
+}
+
+.instagram-logo {
+  width: 60%;
+}
+
+.main-copy {
+  background: url(../images/frame.png) no-repeat;
+  background-size: contain;
+  max-width: 450px;
+  padding: 2% 6%;
+}
+
+.main-copy h1 {
+  color: #06365F;
+  line-height: 1.4;
+}
+
+.main-copy p:last-of-type {
+  margin-bottom: 6%;
+}
+
+.main-copy a:first-of-type {
+  margin-right: 4%;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul a {
+  text-decoration: none;
+  color: #1c5380;
+  padding-right: 10px;
+  text-transform: uppercase;
+  font-size: 90%;
+  font-weight: 100;
+}
+
+nav ul li {
+  list-style: none;
+  font-weight: 100;
+}
+
+nav ul li:last-of-type {
+  color: lightgray;
+}
+
+@media only screen and (max-width: 800px) {
+  .phones-image {
+    width: 25%;
+    flex-wrap: wrap;
+  }
 }
