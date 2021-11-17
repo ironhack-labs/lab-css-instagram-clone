@@ -5,6 +5,93 @@ light blue: #1c5380
 */
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Nanum Myeongjo', serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   margin: 0;
+  padding: 0;
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;
+}
+.index {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.index > div > img {
+  margin-right: 50px;
+}
+.panel-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 3px;
+  margin-bottom: 15px;
+}
+
+.button {
+  border: 1px solid #1c5380;
+  background: linear-gradient(360deg, #376d9c 0%, #3da0e2 100%);
+  border-radius: 3px;
+  padding: 10px 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  color:#FFF;
+  font-size: 15px;
+}
+
+.button > img {
+margin-right: 10px;
+}
+
+.button > p {
+  display: inline;
+  color: #FFF;
+  font-weight: bold;
+}
+
+.text-container {
+  width: 500px;
+  box-sizing: border-box;
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  padding: 40px 50px 0;
+}
+
+.text-intro > h1 {
+  color: #06365f;
+  margin: 0;
+}
+
+.badges > img:last-child {
+  margin-left: 15px;
+}
+
+footer > ul {
+  margin: 70px 0;
+  padding: 0;
+  text-align: center;
+}
+
+footer > ul > li {
+  display: inline;
+  list-style: none;
+  margin: 0 10px;
+  color: #2883c0;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.7em;
+  text-decoration: none;
+  font-weight: bold;;
+}
+
+footer > ul > li:last-child {
+  color: rgb(199, 194, 194);
 }
