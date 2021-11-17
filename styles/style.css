@@ -11,14 +11,16 @@ body {
   flex-wrap:wrap;
   justify-content:space-evenly;
   align-items:center;
-  height:100vh;
-  padding: 0 5%;
+  gap:5%;
+  height:85vh;
+  padding: 5% 5% 2%;
+  background:linear-gradient(to top, transparent, rgba(255, 255, 255, 0.2) 100%), url(../images/bgtile.png) repeat-x;
 }
 
 .bigPhoneImgSection {
-  flex-basis: 33%;
+  flex-basis: 40%;
   display:flex;
-  justify-content:center;
+  justify-content:flex-end;
 }
 
 /* .phoneImg {
@@ -26,18 +28,53 @@ body {
 } */
 
 main {
-  flex-basis:66%;
+  flex-basis:55%;
   display: flex;
   flex-direction: column;
-  border: 2px solid blue; 
   }
 
+.header {
+  width:70%;
+  padding:1%;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
 .copy {
- 
+  width: 60%;
+  padding: 2% 6%;
+  background: url(../images/frame.png) no-repeat;
+  background-size: contain;
+}
+
+.copy h1 {
+  color: #06365f;
+  line-height:1.4;
+}
+
+.copy p:last-of-type {
+  margin-bottom:6%;
+}
+
+.copy a:first-of-type {
+  margin-right:4%;
 }
 
 .loginBtn {
- 
+ color:white;
+ background: linear-gradient(to top, transparent, rgba(255, 255, 255, 0.2) 100%), url(../images/bgtile.png) repeat-x;
+ border:1px solid #1c5380;
+ border-radius:2px;
+ padding:5px 10px;
+ display:flex;
+ align-items:center;
+ font-weight:600;
+ text-decoration:none;
+}
+
+.loginBtn img {
+  padding-right:8px;
 }
 
 nav ul {
@@ -46,7 +83,12 @@ nav ul {
 
 nav ul li {
       list-style:none;
+      font-weight:600;
     }
+
+nav ul li:last-of-type {
+  color:lightgray;
+}
 
 nav ul li a {
   text-decoration:none;
