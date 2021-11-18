@@ -118,8 +118,8 @@ height: 40px ;
 display: flex;
 flex-wrap: wrap;
 justify-content: space-between;
-margin-left: 22%;
-margin-right: 22%;
+margin-left: 25%;
+margin-right: 25%;
 padding-top: 0px;
 }
 
@@ -127,7 +127,7 @@ padding-top: 0px;
   text-decoration: none;
   color: #1c5380;
   font-weight: bold;
-  font-size: 13px;
+  font-size: 11px;
 
 }
 
