@@ -1,10 +1,147 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
-
-body {
+html{
+  /*dark blue: #06365f;
+  light blue: #1c5380;*/
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body{
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  width: 100%;
+  heigth: 100%;
+  /*background-color: green;*/
+  position: absolute;
+  flex-flow: column wrap;
   margin: 0;
+  background-image: url("https://raw.githubusercontent.com/miguelbanos95/lab-css-instagram-clone/master/images/bgtile.png");
+  background-repeat: repeat no-repeat;
+  display: flex;
+    
+} 
+#foot{
+  /*background-color: gold;*/
+  width: 700px;
+  height: 50px;
+  position: relative;
+  transform: translate(300px, 650px);
+ 
+  
+}
+a{
+  text-transform: uppercase;
+  font-size: 12px;
+  list-style: none;
+  outline: none;
+  text-decoration: none;
+  padding-right: 15px;
+  color: #06365f;
+  font-weight: 500;
+}
+#copiright{
+  font-size: 10px;
+  opacity: 0.5;
+}
+
+#parent-box{
+  /*background-color: blue;*/
+  width: 900px;
+  height: 512px;
+  display: flex;
+  margin: 50%;
+  transform: translate(-50%, -107%);
+  position: absolute;
+  justify-content: space-between;
+   
+}
+#info-box{
+  /*background-color: yellow;*/
+  width: 504px;
+  height: 512px;
+  display: flex;
+  margin-left: 75px;
+  position: relative;
+  flex-direction: column;
+  
+}
+#child-box-header{
+  /*background-color: orange;*/
+  width: 504px;
+  height: 102px;
+  position: relative;
+  flex-direction: row;
+  display: flex;
+  align-content: flex-start;
+}
+#insta-logo{
+  /*background-color: purple;*/
+  width: 410px;
+  height: 100px;
+  margin-left: 5px;
+    
+}
+#log-in-box{
+  background-color: #1c5380;
+  width: 94px;
+  height: 40px;
+  margin-top: 15px;
+  align-content: stretch;
+  border:1px solid #06365f;
+  border-radius: 5px;
+  
+}
+#logo-home{
+  margin-top:10px;
+  margin-left:10px;
+  width: 25px;
+}
+#loguearse{
+  float: right;
+  margin-right: 8px;
+  margin-top:8px;
+  color: white;
+  font-weight: 400;
+}
+
+
+
+#box3{
+  /*background-color: cyan;*/
+  background-image: url("https://raw.githubusercontent.com/miguelbanos95/lab-css-instagram-clone/master/images/frame.png");
+  width: 504px;
+  height: 400px;
+  background-repeat: no-repeat
+}
+h1{
+  margin-left: 35px;
+  margin-top: 35px;
+  font-size: 25px;
+  color: #06365f;
+  line-height: 10px; 
+}
+.text-body{
+  margin: 10px;
+  margin-left: 35px
+    
+  
+}
+  
+.box-systems{
+  /*background-color: pink;*/
+  width: 504px;
+  height: 114px;
+  position: relative;
+  
+    
+}
+#apple{
+  margin-left: 35px;
+  margin-top: 10px
+}
+
+#android{
+  float: right;
+  margin-top: 10px;
+  margin-right: 120px;
+    
 }
