@@ -7,4 +7,134 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  box-sizing: border-box;
+}
+
+.landing {
+  position: relative;  
+  height: 100vh;
+  background-color: white;
+}
+
+.top-section {
+  z-index: -1;
+  height: 40%;
+  background-color: #1c5380;
+  border-radius: 4px;
+  border-bottom: 4px solid #1c5380;
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  position: absolute;
+  top: 15%;
+  left: 15%;
+  right: 15%;
+  bottom: 15%;
+/*   width: 80%;
+  margin: 0 auto; */
+}
+
+.phones {
+  background-image: url("/images/phones.png");
+  background-size: 80% 90%;
+  background-repeat: no-repeat;
+  background-position: top left;
+  width: 50%;
+  height: 100%;
+}
+
+.right-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  width: 80%;
+}
+
+.logo-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.frame {
+  box-shadow: 4px -4px 13px 3px rgba(0, 0, 0, 0.10196),
+  -4px -4px 13px 3px rgba(0, 0, 0, 0.10196);
+  border-radius: 6px;
+  background-image: url("/images/frame.png");
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-color: white;
+  /* width: 80%; */
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  text-align: left;
+  font-size: 21px;
+}
+
+.frame h2 {
+  max-width: 20rem;
+  margin: 0;
+  padding: 2rem 2rem 0 2rem;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1.5rem 7rem 2.5rem 4rem;
+}
+
+.about p{
+  margin: 0.75rem 0;
+}
+
+.appstore-icons {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.appstore-icons img {
+  padding: 0 0.5rem 0 4rem;
+}
+
+footer {
+  position: absolute;
+  display: flex;
+  flex-wrap: nowrap;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+  color: #06365f;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+footer ul {
+  display: flex;
+  flex-wrap: nowrap;
+  list-style: none;
+  margin: 0;
+  padding: 0 0 2rem 0;
+}
+
+footer li {
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 0 1rem 0 1rem;
+  font-size: 12px;
+  white-space:nowrap;
+}
+
+.light-gray {
+  font-weight:400;
+  color: gray;
 }
