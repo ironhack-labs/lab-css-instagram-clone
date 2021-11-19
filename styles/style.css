@@ -1,10 +1,168 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
-
-body {
+body{
+  /*dark blue: #06365F;
+  light blue: #1C5380;*/
+  box-sizing: border-box;
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  background-image: url("https://raw.githubusercontent.com/miguelbanos95/lab-css-instagram-clone/master/images/bgtile.png");
+  margin-top: -10px;
+  background-repeat: repeat no-repeat;
+ 
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+  }
+
+.cellpic{
+  margin: 75px ;
+  display: flex;
+  align-items: center;
+  /*background-color: yellow;*/
+  width: 500px;
+  height: 500px;
+  float: left;
+  margin-right: 10%;
+  flex-direction:row;
+  margin-top: -500px; 
+}
+
+.father{
+  display: flex;
+  /*background-color: yellow;*/
+  width: 500px;
+  height: 500px;
+  float: right;
+  margin-right: 10%;
+  position: relative;
+  flex-direction:column;
+  margin-top: 130px;
+}
+  .son1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 100px;
+  margin-top: -20px;
+  /*background-color: green;*/
+  
+  }
+.son2{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 500px;
+  height: 290px;
+  flex-direction: column;
+  background-image: url("https://raw.githubusercontent.com/pedrobanos/lab-css-instagram-clone/master/images/frame.png");
+  background-repeat: no-repeat;
+  
+  }
+.son3{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  margin-top: 10px;
+  margin-left: 35px;
+  width: 500px;
+  height: 110px;
+  
+  /*background-color: green;*/
+ 
+  }
+.grandchild1{
+ display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 800px;
+  height: 100px;
+  
+  /*background-color: blue;*/
+  
+  
+  }
+  
+  .grandchild12{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 40px;
+  background-color: #1C5380;
+  border: 1px solid black;
+  margin: 0px;
+  padding: 0px;
+  border-radius: 5px;
+    
+  }
+  .grandchild2{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 500px;
+  height: 190px;
+   margin: 3%;
+  }
+.home{
+ display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  
+}
+.logIn{
+  padding: 5%;
+  font: 200 20px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: white;
+  font-weight: bold;
+  
+}
+
+.fontStyle{
+  margin-left: 35px;
+  font:25px"Helvetica Neue", Helvetica, Arial, sans-serif;
+  color:  #1C5380;
+  font-weight: bold;
+  margin-top: 18px
+}
+
+.fontStyle2{
+  font: 200 15px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-left: 35px; 
+}
+a{
+  font: 15px"Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+.grandchild3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-right: 30px;
+
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  
+}
+
+.fontStyleFooter{
+font: 10px"Helvetica Neue", Helvetica, Arial, sans-serif;
+font-weight: bold;
+color:  #1C5380;
+margin: 15px;
+}
+
+#fontCopyRight{
+font: 10px"Helvetica Neue", Helvetica, Arial, sans-serif;
+font-weight: bold;
+color:  grey;
+margin: 15px;
+  
 }
