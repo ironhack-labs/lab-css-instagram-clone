@@ -3,21 +3,98 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
-*{
-  margin: 0px;
-  padding: 0px;
-}
-
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
-  background-size: 1600px;
-}
 
-section{
-  width: 100%;
-  height: 10rem;
-  background-image:-webkit-linear-gradient(bottom, white 50%, #06365f 30%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
 }
-   
+.background{
+  width: 100%;
+  height: 50rem;
+  background-image:-webkit-linear-gradient(bottom, white 57%, #1c5380 30%);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  }
+
+  .rodape {
+    width: 650px;
+  }
+
+  .rodape ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: #1c5380;
+    font-weight: bold;
+  }
+  .insta{
+    color: gray;
+  }
+
+  .text{
+    width:480px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin: auto;
+    background: white;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    box-shadow: 0px -4px 4px rgba(0,0,0,0.4);
+  }
+  .text h2{
+    color: #06365f;
+    width: 250px;
+    padding-left: 30px;
+  }
+  .text p{
+    text-align: justify;
+    font-size: 15px;
+    width: 400px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+  }
+  
+  .badge{
+    padding-left: 50px;
+  }
+  .instalog{
+    display: flex;
+    flex-direction: row;
+    align-items: space-between;
+    width: 480px;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+  .instagram img{
+    height: 65px;
+    width: auto;
+    margin: 0px;
+    padding: 0;
+  }
+  button {
+    background-color: #1c5380;
+    color:white;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    border-color: #06365f;
+    border-width: thin;
+    padding: 9px 12px;
+    border-radius: 3px;
+
+  }
+  .botao img{
+    height: 20px;
+    width: auto;
+    padding-right: 9px;
+  }
