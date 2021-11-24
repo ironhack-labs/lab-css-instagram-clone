@@ -4,7 +4,36 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+* {
+  border: 1px solid red
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-color: white;
+  background-image: url("/images/bgtile.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#background-text {
+  background-image: url("/images/frame.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 30vw;
+  padding: 30px;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 170px;
+} 
+
+footer {
+  display: flex;
+  justify-content: center;
+  color:#1c5380;
 }
