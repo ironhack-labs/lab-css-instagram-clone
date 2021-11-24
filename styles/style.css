@@ -7,4 +7,63 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  /* background-color: #1c5380; */
+}
+
+.blue-body {
+  background-color: #1c5380;
+  width: 100vw;
+  height: 45vh;
+  /* padding: 100px; */
+}
+
+.hero {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: -200px;
+  padding: 0 300px;
+}
+
+.main {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: ; */
+  align-content: space-between;
+  margin: 0 200px 0 0;
+}
+
+.log-div{
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  
+}
+
+.home-btn{
+  height: 30px;
+  width: auto;
+}
+
+.frame-container{
+  width: 500px;
+  height: 300px;
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  background-position:top;
+  text-align: center;
+}
+
+h2 {
+  color: #06365f;
+}
+
+.stores-badge{
+  display: flex;
+  
 }
