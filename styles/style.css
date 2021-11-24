@@ -1,10 +1,87 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+.description {
+  background-image: url('../images/frame.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-left: 30px;
+  width: 30vw;
+}
+
+.description h1 {
+  color: #06365f;
+  font-size: 2em;
+  max-width: 60%;
+  padding-left: 20px;
+}
+
+.description img {
+  margin-top: 5%;
+}
+
+.description p {
+  max-width: 25vw;
+  padding-left: 20px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  left: 30%;
+  margin-top: 25%;
+  position: absolute;
+}
+
+.footer a {
+  color: #1c5380;
+  font-weight: 700;
+  padding-right: 15px;
+}
+
+.header-background {
+  align-items: center;
+  background-image: url("../images/bgtile.png");
+  display: flex;
+  height: 30vh;
+  justify-content: center;
+  position: relative;
+  width: 100vw;
+}
+
+.image img {
+  height: 55vh;
+  margin-top: -25%;
+  padding-right: 40px;
+}
+
+#lighter {
+  color: grey;
+}
+
+.login-button {
+  align-items: center;
+  background: linear-gradient(#6C90AF, #1c5380);
+  border: 1px solid #06365f;
+  bottom: 45%;
+  color: #E7ECF1;
+  display: flex;
+  font-size: 1em;
+  font-weight: 600;
+  justify-content: space-around;
+  padding: 10px 5px 10px 5px;
+  position: absolute;
+  right: 30%;
+  width: 6%;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  margin-top: -5%;
+  position: absolute;
+  left: 20%;
 }
