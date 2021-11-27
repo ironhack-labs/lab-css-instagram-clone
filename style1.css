@@ -1,0 +1,115 @@
+/*
+Colors to use:
+dark blue: #06365f
+light blue: #1c5380
+*/
+
+body {
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero {
+  width: 70%;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.div-phones {
+  width: 30%;
+  display: flex;
+  margin-right: 5%;
+}
+
+.div-phones img {
+  width: 400px;
+  height: auto;
+}
+
+@media screen and (max-width: 1400px) {
+  .div-phones img {
+    display: none;
+  }
+}
+
+.div-description {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.logo-button {
+  width: 100% auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.capture-share {
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+h1 {
+  color: #06365f;
+  font-size: 30px;
+  margin: 20px 0 0 0;
+  padding: 10px;
+  width: 80%;
+}
+
+p {
+  padding: 10px;
+  margin: 0;
+  width: 80%;
+}
+
+.shops-buttons {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+
+.home-button {
+  width: 100px;
+  height: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 5px;
+  border-style: none;
+  background: linear-gradient(0deg, #1c5380 0%, #3c79aa 100%);
+  color: #fff;
+  box-shadow: 1px 1px 1px black;;
+  font-weight: bold;
+}
+
+a {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 10px;
+  color: #06365f;
+  font-weight: bold;
+}
+
+a:last-child{
+  color: gray;
+}
