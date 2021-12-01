@@ -1,10 +1,129 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
+/* Colors to use: 
+  dark blue: #06365f light blue: #1c5380 * */
+* {
+  /* border: 1px solid red; */
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  height: 700px;
+}
+
+.section1 {
+  display: flex;
+  align-items: flex-start;
+
+
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+
+#background {
+  background-image: linear-gradient(#1c5380, #06365f);
+  height: 300px;
+  size-adjust: 100%;
+}
+
+
+
+#imgphone img {
+  margin-top: 70px;
+  margin-left: 250px;
+  margin-right: 100px;
+  width: 400px;
+
+}
+
+.button {
+  margin: 0;
+  display: flex;
+  background-image: linear-gradient(#3278b1, #185081);
+  border-radius: 5px;
+  border: 1px solid black;
+  width: 110px;
+  height: 50px;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+  font-weight: bold;
+}
+
+.button img {
+  height: 30px;
+}
+
+.height {
+  margin-top: 80px;
+  margin-right: 200px;
+}
+
+.text {
+  width: 500px;
+  background-image:
+    url('../images/frame.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 30px;
+  height: 320px;
+
+
+}
+
+.text h1 {
+  font-size: 30px;
+  color: #06365f;
+  margin-bottom: 20px;
+}
+
+.text p {
+  line-height: 1.8;
+  font-size: 19px;
+  margin-bottom: 15px;
+}
+
+#badge {
+  display: flex;
+  padding-left: 50px;
+
+}
+
+#badge img {
+  width: 200px;
+  margin-right: 50px;
+  margin-top: 70px;
+}
+
+.links {
+  display: flex;
+  padding-top: 450px;
+  justify-content: center;
+  align-items: center;
+}
+
+.links>ul {
+  display: flex;
+  font-size: 15px;
+
+}
+
+.links a {
+  padding: 20px 10px;
+  color: blue;
+  font-weight: bold;
+}
+
+#copy {
+  color: gray;
 }
