@@ -4,7 +4,155 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+}
+
+#main-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  align-content: center;
+  align-items: center;
+
+}
+
+#main-body {
+  display: flex;
+  flex-direction: row;
+  width: 858px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex: 3;
+}
+
+#mobile-image {
+  display: flex;
+  flex: 1;
+  margin-right: 5%;
+} 
+
+#main-content {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+}
+
+#logo-log-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-items: center;
+}
+
+#logo {
+  display: flex;
+}
+
+button {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: space-around;
+  font-weight: 800;
+  color: white;
+  background-color: #4d7ca5;
+  width: 105px;
+  height: 45px;
+  border: 1px solid #2E587E;
+  border-radius: 3px;
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,0.2), 0 1px 1px 0 rgba(0,0,0,0.19);
+}
+
+#login {
+  display: flex;
+
+
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  padding: 2.5% 7.5%;
+  margin-bottom: 5%;
+}
+
+#dowload-banner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  align-content: space-around;
+}
+
+#apple {
+  display: flex;
+  margin-left: 5%;
+}
+
+#android {
+  display: flex;
+  margin-right: 20%;
+} 
+
+#nav-foot {
+  display: flex;
+  flex: 1;
+  width: 750px;
+}
+
+#nav-foot nav {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 5%;
+}
+
+#nav-foot ul {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  justify-content: space-between;
+  align-content: center;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #587FA1;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 85%;
+}
+
+li {
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 85%;
+  color: #B4B4B5;
+}
+
+h1 {
+  font-size: 1.65rem;
+  color: #063057;
+}
+
+p {
+  font-weight: 300;
+  margin: 1%;
+  padding: 0;
 }
