@@ -1,10 +1,75 @@
 /*
 Colors to use:
 dark blue: #06365f
-light blue: #1c5380
+light blue: 
 */
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background: linear-gradient(to bottom,#5a7c9a, #355f83 40%, white 40%);
+  padding-top: 5%;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  padding-left: 5%;
+}
+#login{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5% 2%;
+}
+button{
+  background: linear-gradient(to bottom,#7697b5, #416e94);
+  color: #e8edf2;
+  border: 2px solid #396489;
+  border-radius: 5px;
+  height: 55%;
+  width: 20%;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  padding: 2%;
+  justify-content: space-around;
+}
+article {
+  box-sizing: border-box;
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  padding: 10%;
+}
+h1{
+  margin: 0;
+  font-size: 1.5em;
+  color: #0d355b;
+  width: 60%;
+}
+#app-markets {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 5% 0;
+}
+ul{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: center;
+}
+li{
+  color: #5880a2;
+  padding: 1%;
+  font-weight: bold;
+}
+#c-instagram {
+  color: #bfc0c0;
 }
