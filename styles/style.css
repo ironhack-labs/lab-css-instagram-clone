@@ -9,4 +9,35 @@ body {
   margin: 0;
   background-image: url("../images/bgtile.png");
   background-repeat: repeat-x;
+  display: flex;
+  flex-direction: column;
+}
+section {
+  display: flex;
+  flex-direction: row;
+}
+#main {
+  display: flex;
+  flex-direction: column;
+}
+#home {
+  display: flex;
+  flex-direction: row;
+}
+#info {
+  display: flex;
+  flex-direction: column;
+}
+footer {
+  display: flex;
+  flex-direction: row;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+}
+li {
+  list-style: none;
+  color: #1c5380;
+  font-weight: bolder;
 }
