@@ -44,13 +44,35 @@ main {
   justify-content: space-around;
 }
 
+.container-logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.button-login {
+  background-image: url("/images/home.png");
+  float: left; 
+  background-position: center-left;
+  background-color: #1c5380; 
+  background-repeat: no-repeat;  /* make the background image appear only once */
+  border: 1px solid black; 
+  cursor: pointer;        /* make the cursor like hovering over an <a> element */
+  height: 30px;           /* make this the size of your image */
+  padding-left: 30px;     /* make text start to the right of the image */
+  vertical-align: middle; /* align the text vertically centered */
+  color: rgb(217,225,233);
+}
+
 .white-bg {
-  background-color: white;
+  background-image: url("/images/frame.png");
+  background-size: cover;
   border-radius: 8px;
+  padding: 10px
 }
 
 h1{
-  color: rgb(58,104,144);
+  color: #06365f;
   font-size: 20px;
 }
 
@@ -72,7 +94,11 @@ li {
 a {
   text-decoration: none;
   text-transform: uppercase;
-  color: darkblue
+  color: #1c5380
+}
+
+.apps {
+  padding: 20px;
 }
 
 #copyright {
