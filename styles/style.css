@@ -7,7 +7,7 @@ light blue: #1c5380
 header {
   height: 250px;
   width: 100%;
-  background: url(/lab-css-instagram-clone/images/bgtile.png);
+  background: url(/images/bgtile.png);
   position: absolute;
   z-index: -1;
 }
