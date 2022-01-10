@@ -7,4 +7,85 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: linear-gradient(to bottom, #1c5380 30%, white 20%);
+}
+
+*{
+  margin:0;
+  padding:0;
+  
+}
+
+.flex-container{
+display: flex;
+justify-content: center;
+}
+
+section{
+  margin: 50px;
+
+}
+.box{
+  justify-content: center;
+}
+
+
+
+ /**/
+.home{
+  padding:15px;  
+text-decoration: none;
+  color:white;
+  font-weight: bold;
+   border-radius: 5px;
+}
+
+  
+ul{
+  list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li a{
+  margin: 5px;
+  text-transform: uppercase;
+  list-style: none;
+  text-decoration: none;
+  color:  #1c5380;
+  font-weight: bold;
+}
+.frame{
+  background-image: url(/lab-css-instagram-clone/images/frame.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 80px;
+}
+
+
+h1{
+  font-size: 35px;
+  margin-bottom: 30px;
+  color: #06365f;
+  width: 400px;
+}
+
+footer{
+  margin-bottom: 200px;
+}
+.button{
+  display:flex;
+  align-items: center;
+justify-content: space-between;
+}
+.container{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #1c5380;
+  box-shadow: rgba(228, 228, 236, 0.25) 0px 30px 60px -12px inset, rgba(255, 254, 254, 0.3) 0px 18px 36px -18px inset;
+}
+.insideFrame p{
+  margin-bottom: 20px;
+  width: 600px;
 }
