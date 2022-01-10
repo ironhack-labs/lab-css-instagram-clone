@@ -53,11 +53,14 @@ width: 35%;
 .login{
   display: flex;
   padding: 10px;
-  background-color: #06365f;
+  background-color: #5b81a1;
   color: white;
   text-decoration: none;
   border-radius: 3px;
+  box-shadow: #195a94 0px -50px 36px -28px inset;
+  border: #195a94 1px solid;
   margin-right: 5px;
+  
 }
 
 .home{
