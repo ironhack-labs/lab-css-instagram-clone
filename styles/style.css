@@ -48,7 +48,7 @@ section a {
  
 }
 
-section div a {
+.button {
   box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2); 
   background: linear-gradient(0deg, rgba(87,152,176,1) 0%, rgba(51,101,144,1) 52%, rgba(93,125,150,1) 100%);
   
@@ -60,8 +60,12 @@ section a img {
 }
 
 article {
-  background-color: white;
-  padding: 5px 20px;
+  
+  background-image: url(/images/frame.png);
+  background-repeat:no-repeat;
+  background-size:100% 100%;
+  padding: 20px;
+  padding-left: 40px;
   border-radius: 10px;
   width: 600px;
   font-size: 1.1em;
