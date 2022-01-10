@@ -8,3 +8,83 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+#top {
+  background-color: rgb(68, 137, 186);
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+#top > button {
+  height: 40px;
+  width: 100px;
+  margin: 100px;
+  margin-right: 400px;
+  border: solid;
+  border-width: 1,5px;
+  border-color: rgb(50, 89, 117);
+  background-color: rgb(68, 137, 186);
+  display: flex;
+  align-items: center;
+  justify-content: space-around; 
+}
+
+#top > button > span {
+ color:white
+}
+
+#lower {
+  height: 500px;
+ background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+#textblock {
+  display: flex;
+  flex-direction: column;
+ align-items: baseline;
+ position: relative;
+ bottom: 135px;
+height: 600px;
+background-color: white;
+}
+.textHeader{
+  color: rgb(50, 89, 117);
+  font-size: xx-large;
+
+}
+
+.text {
+  width: 600px;
+  text-align: left;
+  margin-left: 14px;
+  line-height: 30px;
+}
+.badges {
+  display: flex;
+  flex-direction: row;
+  height: 70px;
+  width: 400px;
+  margin: 15px;
+}
+.badges-iphone{
+  margin-left: 25px;;
+}
+.phones {
+  position: relative;
+  height: 700px;
+  bottom: 250px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+  margin-top: 15px;
+  padding-bottom: 10px;
+}
