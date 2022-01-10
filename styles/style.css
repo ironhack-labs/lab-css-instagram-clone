@@ -10,6 +10,7 @@ body {
   background: url(../images/bgtile.png) repeat-x;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 section {
@@ -28,8 +29,10 @@ section {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
   width: 60%;
 }
+
 
 .login a {
   display: flex;
@@ -64,6 +67,7 @@ section {
 
 .buttons {
   padding-top: 20px;
+  padding-right: 10px;
 }
 
 footer {
