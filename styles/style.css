@@ -3,8 +3,93 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+* {
+  padding: 0px;
+  margin: 0px;
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  padding: 100px;
+  background-image: url("/images/bgtile.png");
+  background-repeat: repeat-x;
 }
+
+.container {
+  display: flex;
+  align-items: flex-end;
+}
+
+.leftcontainer {
+  margin: 20px;
+
+}
+
+.rightcontainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 15px;
+}
+a {
+  color: white;
+  text-decoration:none;
+}
+
+.bottomcontainer {
+  display: flex;
+  justify-content: space-around;
+  text-transform: uppercase;
+  list-style: none;
+  padding: 0px 150px;
+  
+}
+.bottomcontainer a{
+  color: #1c5380;
+}
+
+.opacitycontainer {
+  text-align: left;
+  
+}
+
+.iconos {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0px 600px 0px 0px;
+}
+
+h2 {
+  color: #1c5380;
+  margin-top: 1px;
+
+}
+
+p {
+  margin-bottom: 75px;
+}
+
+p, h2 {
+  padding: 15px 45px;
+}
+.opacity {
+  background-image: url("/images/frame.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+  max-height: 300px;
+  padding-bottom: 140px;
+}
+.button {
+  box-shadow: #1c5380 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+  background-color: #1c5380;
+  padding: 10px;
+  color: #ffffff;
+  border: 0.5px solid #06365f;
+  display: flex;
+
+}
+
+
