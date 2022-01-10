@@ -4,7 +4,99 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: linear-gradient(#1c5380 40%, white 40% 100%);
+}
+
+.general {
+  display: flex;
+  justify-content: center;
+  margin: 100px 100px 50px 100px;
+}
+.principal {
+  margin: 10px;
+}
+
+.tlfs {
+  margin-right: 50px;
+}
+
+.login {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  align-items: center;
+}
+
+button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(#386d97, #1c5380);
+  color: white;
+  border-radius: 5%;
+  gap: 10px;
+  padding: 0 20px;
+  height: 50px;
+  font-size: 15px;
+}
+
+.content {
+  border-radius: 5px;
+  position: relative;
+}
+
+.content-text {
+  margin: 20px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 60px;
+}
+
+
+.content h1 {
+  color: #06365f;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.content p {
+  font-size:15px;
+  margin: 10px;
+}
+
+.download {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 100px;
+}
+
+.enlaces a {
+  text-decoration: none;
+  color: #1c5380;
+  text-transform: uppercase; 
+  font-size: 15px;
+  padding: 10px;
+}
+
+footer p {
+  font-size: 15px;
+  text-transform: uppercase;
+  color: gray;
 }
