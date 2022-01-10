@@ -4,7 +4,86 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+* {
+  padding: 0;
+  margin: 0;  
+}
+
+a:link, a:visited, a:active {
+    text-decoration: none;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.background-blue {
+background: linear-gradient(#1c5380, #06365f);
+}
+
+header {
+  height: 500px;
+  padding-left: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logIn {
+  margin-left: 50px;
+  padding: 10px 10px;
+  width: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-decoration: none;
+   
+}
+
+.container {
+  margin: -200px 250px 100px 250px;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.container img {
+  margin-top: -120px;
+}
+
+.container, section {
+  margin-right: 100px;
+}
+
+.container div {
+  width: 500px;
+}
+
+.backgroundcolor-info {
+  background-color: white;
+  
+}
+
+ul li, a {
+  padding: 10px;
+  color: #1c5380;
+  
+}
+
+footer nav, ul {
+  list-style-type: none;
+  text-transform: uppercase;
+  color: #1c5380;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+footer nav, span {
+  margin-left: 50px;
+  color: grey
+}
+
+
