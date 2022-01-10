@@ -7,4 +7,62 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  
+  background-image: url("./frame.png"), url("./bgtile.png");
+  background-color: transparent;
+  background-size:cover;
+  background-repeat: no-repeat;
+  /*
+  <div class="background">
+      <img src="./images/frame.png" alt="Frame">
+    </div>
+    
+  */ 
+}
+
+.instaarticle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button{
+  color: white;
+  background-color: #1c5380  ;
+  padding: 10px;
+}
+
+article {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+article > div {
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+}
+
+.instaLogon{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 10px;
+}
+
+footer {
+  
+}
+footer > ul {
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  align-items: space-around;
+
+}
+
+footer > ul > li{
+  list-style: none;
+  margin: 10px 10px
 }
