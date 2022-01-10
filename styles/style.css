@@ -3,8 +3,98 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url("/images/bgtile.png");
+  background-repeat: repeat-x;
+  background-size: 0.08%;
+}
+
+#floated-element {
+  float: right;
+  height: 60%;
+  width: 50%;
+  padding-right: 8%;
+  margin-top: 10%;
+}
+
+#phones-img {
+  padding-left: 8%;
+  margin-top: 10%;
+  width: 20%;
+}
+#above-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#above-text img {
+  padding: 0 1%;
+}
+button {
+  border-radius: 0.2em;
+  font-weight: 400;
+  box-shadow: inset 0 -0.6em 1em -0.35em rgba(0, 0, 0, 0.17),
+    inset 0 0.6em 2em -0.3em rgba(255, 255, 255, 0.15),
+    inset 0 0 0em 0.05em rgba(255, 255, 255, 0.12);
+  background: url("/images/home.png");
+  background-repeat: no-repeat;
+  background-color: #038cbac8;
+  background-position: 2%;
+  border: none;
+  color: white;
+  padding: 2%;
+  padding-left: 6%;
+  font-size: 1rem;
+  margin-right: 1.5%;
+  box-shadow: 1px 1px rgba(0, 0, 255, 0.132);
+}
+
+#text-div {
+  background-image: url("/images/frame.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 4% 10%;
+}
+
+#below-text img {
+  width: 35%;
+  padding-right: 2%;
+}
+
+#footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding-bottom: 2%;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  #phones-img {
+    display: none;
+  }
+
+  #text-div {
+    font-size: 12px;
+  }
+
+  #floated-element {
+    height: 60%;
+    width: 80%;
+    padding-right: 10%;
+    margin-top: 10%;
+  }
+
+  button {
+    padding: 4%;
+    padding-left: 9%;
+  }
+
+  body{
+    background-size: 0.18%;
+  }
 }
