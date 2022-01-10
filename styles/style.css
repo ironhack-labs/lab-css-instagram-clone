@@ -7,4 +7,95 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  height: 100%;
+  background: linear-gradient(180deg, #1c5380 40%, white 0%) 
+}
+
+.header {
+  margin-bottom: 800px;
+  background-color: #1c5380;
+}
+
+#structure {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  margin-left: 275px;
+  margin-right: 275px;
+}
+
+.login-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1c5380;
+  margin: 20px 0px;
+  padding: 10px;
+  border-radius: 3px;
+  width: 80px;
+  border: 1px solid #06365f;
+  box-shadow: 1px 1px 1px #06365f;
+}
+
+.login-button a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.container {
+  position: relative;
+  margin-top: 20px; 
+}
+
+.content {
+  position: absolute;
+  top: 5px;
+  left: 40px;
+  right: 60px;
+}
+
+.content h1 {
+  color: #06365f;
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 0px;
+}
+
+.stores {
+  margin-top: 80px;
+  margin-left: 40px;
+}
+
+.apple-store {
+  margin-left: 10px;;
+}
+
+.google-store {
+  margin-left: 20px;
+}
+
+#header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-weight: bold;
+  margin-bottom: 30px;
+  font-size: 15px;
+}
+
+.blue-footer {
+  color: #1c5380;
+}
+
+.grey-footer {
+  color: grey;
 }
