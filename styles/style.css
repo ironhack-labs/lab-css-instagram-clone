@@ -8,3 +8,88 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+h1 {
+  color: darkblue;
+}
+
+.totalColumns {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 100px 100px 30px 100px;
+}
+
+#header-proof {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0 50px 0;
+}
+
+.columnOne {
+  padding: 0 50px 0 0;
+  width: 50%;
+}
+
+article {
+  padding: 50px 0;
+}
+
+#bottoms-download {
+  display: flex;
+  justify-content: space-around;
+}
+
+#LogInButtom {
+  background-color: lightblue;
+  width: auto;
+  height: auto;
+  border: 1px solid darkblue;
+  padding: 8px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+ul a {
+  text-decoration: none;
+  color: rgb(63, 154, 184);
+   font-weight: bold;
+}
+
+
+li {
+  padding: 5px;
+}
+
+#year2014 {
+  color: gray;
+  font-weight: bold;
+}
+
+.columnTwo {
+  width: 50%;
+}
+
+#all-info {
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 25px;
+}
+
+#body {
+  background-image: url("../images/bgtile.png");
+}
