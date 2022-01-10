@@ -16,6 +16,8 @@ body {
 
 h1 {
   color: darkblue;
+  width: 80%;
+  font-size: 36px;
 }
 
 .totalColumns {
@@ -30,29 +32,34 @@ h1 {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 0 0 50px 0;
+  padding: 0 0 25px 0;
 }
 
 .columnOne {
-  padding: 0 50px 0 0;
-  width: 50%;
+  padding: 0 25px 0 0;
+  width: 40%;
 }
 
 article {
-  padding: 50px 0;
+  padding: 30px 0;
 }
 
 #bottoms-download {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
-#LogInButtom {
-  background-color: lightblue;
+#logInButtom {
   width: auto;
   height: auto;
-  border: 1px solid darkblue;
+  border: 0.5px solid rgb(17, 87, 110);
+  border-radius: 4px;
   padding: 8px;
+  text-decoration: none;
+  color: white;
+  background: linear-gradient(#537a9b, #3c6487  );
+    /*background-image: url("../images/bgtile.png");*/
+  background-repeat: repeat-x;
 }
 
 ul {
@@ -66,7 +73,11 @@ ul {
 ul a {
   text-decoration: none;
   color: rgb(63, 154, 184);
-   font-weight: bold;
+  font-weight: bold;
+}
+
+.footer-items {
+  font-size: 12px;
 }
 
 
@@ -80,16 +91,26 @@ li {
 }
 
 .columnTwo {
-  width: 50%;
+  width: 60%;
 }
 
 #all-info {
+  text-align: justify;
   background-image: url("../images/frame.png");
   background-repeat: no-repeat;
   background-size: contain;
-  padding: 25px;
+  padding: 20px 50px 80px 50px;
 }
 
-#body {
+body {
   background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+}
+
+p {
+  margin: 5px 0;
+}
+
+.login-text {
+      vertical-align: super
 }
