@@ -7,4 +7,95 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url("/images/bgtile.png");
+  background-repeat: repeat-x;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+     
 }
+
+#principal {
+  
+  padding: 100px 150px 15px;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  background: none;
+}
+
+section {
+  margin-left: 60px;
+  margin-bottom: 40px; 
+}
+
+section div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px ;
+}
+
+section a {
+  padding: 10px 15px;
+  font-size: 1.2em;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 5px;
+ 
+}
+
+section div a {
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2); 
+  background: linear-gradient(0deg, rgba(87,152,176,1) 0%, rgba(51,101,144,1) 52%, rgba(93,125,150,1) 100%);
+  
+}
+
+section a img {
+  position: relative;
+  top: 5px;
+}
+
+article {
+  background-color: white;
+  padding: 5px 20px;
+  border-radius: 10px;
+  width: 600px;
+  font-size: 1.1em;
+  font-weight: 400;
+  
+}
+
+
+h1 {
+  color: #06365f;
+  font-size: 1.8em;
+}
+
+footer {
+  margin: 20px;
+  text-align: center;
+
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  width: 800px;
+}
+
+li {
+  list-style: none;
+   
+}
+
+li a {
+  text-decoration: none;
+  color: #1c5380;
+  font-weight: 600;
+}
+
+
