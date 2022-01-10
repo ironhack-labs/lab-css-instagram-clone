@@ -14,10 +14,13 @@ h2 {
   color: #06365f;
   margin: 0px;
   padding: 10px;
+  font-size: 22px;
 }
 
 p {
-  margin: 16px;
+  margin: 16px 20px 0 16px;
+  padding-right: 20px;
+  font-size: 16px;
 }
 
 .container{
@@ -27,7 +30,7 @@ p {
 
 .above {
   background-color: #1c5380;
-  padding: 150px 200px 100px;
+  padding: 150px 22% 100px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -35,10 +38,12 @@ p {
 
 
 .log-btn {
-  border: 2px solid #06365f;
   border-radius: 2px;
   padding: 10px;
-  background-color: #1c5380;
+  background-color: transparent;
+  box-shadow: 1px 1px #06365f;
+  position: relative;
+  bottom: 30px;
 }
 
 .log-btn a {
@@ -85,4 +90,11 @@ p {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 12px;
+  margin: 30px;
+  justify-content: center;
+  padding: 10px;
+
+}
+.copy {
+  color: gray
 }
