@@ -34,11 +34,11 @@ body {
 }
 
 .container main section {
-    margin: 30px;
+    margin: 20px;
 }
 
 .container section article {
-    margin: 25px 0;
+    margin: 20px 0;
 }
 
 header {
@@ -50,7 +50,7 @@ header {
 .container article:nth-child(2) {
     background: #fff;
     box-shadow: -2px -38px 12px 9px rgba(0, 0, 0, 0.05);
-    padding: 35px;
+    padding: 25px;
 }
 
 .container article:nth-child(3) img {
