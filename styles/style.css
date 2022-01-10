@@ -5,6 +5,61 @@ light blue: #1c5380
 */
 
 body {
+  background-color: lightblue;
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  margin: 0px;
+  background:linear-gradient(to bottom, #1e5799 33%,#ffffff 33%,#ffffff 33%,#ffffff 100%);
+  
+}
+main {
+  display: flex;
+  margin:50px 80px;
+  align-content: center;
+  justify-content: center;
+}
+
+section{
+  margin: 80px 80px;
+  width: 400px;
+
+}
+
+.Insta-logo {
+  width: 200px;
+
+
+
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+article {
+  background-image: url("../images/frame.png");
+  background-size: cover;
+  padding:20px;
+}
+
+h1{
+  color:#06365f ;
+}
+
+p {
+  margin: 10px;
+
+}
+
+ul {
+margin: 0px 320px 60px 320px;
+ list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  color: #06365f;
+}
+
+.color-grey {
+  color: grey;
 }
