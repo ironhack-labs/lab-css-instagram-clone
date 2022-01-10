@@ -16,14 +16,18 @@ a:link, a:visited, a:active {
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  
+  
 }
 
-.background-blue {
-background: linear-gradient(#1c5380, #06365f);
+h1 {
+  color: #1c5380;
 }
 
 header {
-  height: 500px;
+  background-image: url(/images/bgtile.png);
+  background-repeat: repeat;
+  height: 300px;
   padding-left: 150px;
   display: flex;
   justify-content: center;
@@ -32,19 +36,29 @@ header {
 
 .logIn {
   margin-left: 50px;
-  padding: 10px 10px;
+  box-shadow: rgba(230, 225, 225, 0.459) 0px -50px 36px -28px inset;
+  padding: 3px 8px;
+  border-radius: 5%;
   width: 100px;
   display: flex;
   justify-content: space-around;
   align-items: center;
   text-decoration: none;
-   
+  border: solid #1c5380;
+
+}
+
+.logIn a {
+  color: white;
+  
 }
 
 .container {
-  margin: -200px 250px 100px 250px;
   display: flex;
   justify-content: space-around;
+  justify-content: center;
+  margin-top: -100px;
+  
 
 }
 
@@ -52,24 +66,41 @@ header {
   margin-top: -120px;
 }
 
-.container, section {
-  margin-right: 100px;
-}
-
 .container div {
-  width: 500px;
+  width: 400px;
+  border-radius: 2%;
+  padding: 50px;
+  
+  
 }
 
-.backgroundcolor-info {
-  background-color: white;
+.background {
+  margin-left: 40px;
+  margin-right: 200px;
+  background-image: url(/images/frame.png);
+  background-repeat: no-repeat;
+
   
+  
+  
+  
+  
+}
+
+.text, h1, p, img {
+  margin-bottom: 10px;
+  
+}
+
+.images {
+  margin-top: 10px;
 }
 
 ul li, a {
   padding: 10px;
   color: #1c5380;
-  
 }
+
 
 footer nav, ul {
   list-style-type: none;
@@ -78,11 +109,10 @@ footer nav, ul {
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 footer nav, span {
-  margin-left: 50px;
+  margin-left: 40px;
   color: grey
 }
 
