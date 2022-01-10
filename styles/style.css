@@ -13,25 +13,28 @@ body {
 .flex-container{
   display: flex;
   flex-direction: row;
+  padding: 5%;
 }
 
 #caja1{ 
   width: 40%;
-
+  text-align: center;
 
 }
 
 #caja2{
   width: 60%;
-
+  text-align: center;
   display: flex;
   flex-direction: column;
+  
 }
 
 #superiorCaja2{
   display: flex;
   flex-direction: row;
-
+  align-content: center;
+  justify-content: space-between;
 }
 
 #inferiorCaja2{
@@ -43,5 +46,9 @@ body {
   display: flex;
   flex-direction: row;
   
+}
 
+#fotoHome{
+  display: flex;
+  align-content: center;
 }
