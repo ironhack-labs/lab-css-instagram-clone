@@ -1,10 +1,110 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
+html,
+body {
+  height: 100%;
+
+  font: 200 16px/1.5 "Helvetica Neue";
+  margin: 0;
+}
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  background: linear-gradient(to bottom, #4b7396 30%, white 30% 100%);
+}
+
+.columnleft {
+  width: 40%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.columnright {
+  width: 60%;
+}
+
+.tlf {
+  padding: 150px;
+}
+
+.instalogo {
+  display: inline;
+  padding-top: 60px;
+}
+
+.button {
+  background-color: #6b8fae;
+  padding: 10px;
+  border: solid #2e5b83;
+  margin-top: 50px;
+  margin-left: 20px;
+  background: linear-gradient(to bottom, #487398 50%, #6e92b0 100%);
+}
+
+#loginfont {
+  color: #dee5ea;
+}
+.top {
+  width: auto;
+  display: flex;
+  align-items: center;
+}
+
+.bottom {
+  padding: 15px;
+  padding-top: 30px;
+  background: #ffffff;
+  border-radius: 12px;
+  margin: 20px;
+  margin-left: 0px;
+  width: 60%;
+  background-image: url("C:\Users\gonza\Desktop\Ironhack\lab-css-instagram-clone\images\phones.png");
+  border-style: solid;
+  border-image: linear-gradient(grey, transparent) 1;
+  border-bottom: none;
+  border-top: none;
+  border-width: 1px;
+}
+
+.titulo {
+  color: #0b3359;
+  font-size: 30px;
+  font: "Helvetica Neue";
+  font-weight: bold;
+}
+span {
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #7998b4;
+}
+footer {
+  display: flex;
+  justify-content: right;
+  width: 80%;
+}
+
+footer a {
+  padding: 5px;
+}
+#copyright {
+  padding: 10px;
+  color: #b5b5b6;
+  font-size: 10px;
+}
+
+footer div {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  height: 90%;
+  justify-content: space-between;
+}
+
+.fondodegradado {
+  position: absolute;
 }
