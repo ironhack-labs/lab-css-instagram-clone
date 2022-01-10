@@ -4,31 +4,40 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Instagram Clone</title>
-    <!-- don't forget to link your styles -->
     <link rel="stylesheet" href="./styles/style.css">
   </head>
   <body>
     <main>
-    <section>
+    <section class="flex pad9">
+      <article class="width50">
       <img src="./images/phones.png" alt="Instagram in phones">
-      <article>
-        <img src="./images/brand.png" alt="Instagram logo"><a href="#"><img src="./images/home.png" alt="Log in"> Log in</a>
+        
       </article>
-      <article>
+
+      <article class="width50">
+        <div id="header-box">
+          <img src="./images/brand.png" alt="Instagram logo">
+            <a href="#" class="btt"><img src="./images/home.png" alt="Log in"> Log in</a>
+        </div>
+                <div class="imgbg">
+
         <h1>Capture and Share the World's Moments</h1>
+        <div id="text-card">
         <p>Instagram is a <b>fast, beautiful</b> and <b>fun</b> way to share your life with
     friends and family.</p>
         <p>Take a picture or video, choose a filter to transform its look and feel, then post to Instagram
     &mdash; it's that easy. You can even share to Facebook, Twitter, Tumblr and more. It's a new way to see the world.</p>
     <p>Oh yeah, did we mention it's free?</p>  
+    </div>
     <img src="./images/badge-iphone.png" alt="Download from App store"><img src="./images/badge-android.png" alt="Download from Google play">  
+  </div>  
   </article>
     </section>
     </main>
 
     <footer>
-      <nav>
-        <ul>
+      <nav class="flex">
+        <ul class="flex center">
           <li><a href="#" target="_blank" rel="noopener noreferrer">About Us</a></li>
           <li><a href="#" target="_blank" rel="noopener noreferrer">Support</a></li>
           <li><a href="#" target="_blank" rel="noopener noreferrer">Blog</a></li>
