@@ -1,3 +1,7 @@
+:root {
+  --blue: #06365f;
+  --light-blue: #557d9f;
+}
 /*
 Colors to use:
 dark blue: #06365f
@@ -7,4 +11,114 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  display: flex;
+  background: rgb(28,83,128);
+  background: linear-gradient(180deg, var(--light-blue) 0%, var(--light-blue) 40%, rgba(255,255,255,1) 40%, rgba(255,255,255,1) 100%) no-repeat;
+  height: auto;
+  justify-content: row;
+}
+
+.container {
+  display: flex;
+  height: 100%;
+}
+
+.container_login {
+  position: relative;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: space-around;
+}
+
+.btn {
+  background: rgb(111,146,176);
+  background: linear-gradient(180deg, rgba(111,146,176,1) 0%, rgba(60,100,135,1) 100%);
+  border: none;
+  color: white;
+  padding: 2px 10px;
+  font-size: 12px;
+  cursor: pointer;
+  line-height: 40px;
+  border-radius: 2px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  align-self: center;
+  margin-top: -400px;
+}
+
+.btn span.icon {
+  background: url(../images/home.png) no-repeat left center;
+  float: left;
+  width: 24px;
+  height: 24px;
+  padding: 6px;
+  align-self: center;
+}
+
+.insta_logo {
+  display: flex;
+  width: 200px;
+  align-self: center;
+  margin-top: -400px;
+  margin-left: -150px;
+}
+
+.phones {
+  display: flex;
+  align-self: center;
+  margin-top: 100px;
+  margin-left: 100px;
+  width: 350px;
+  height: auto;
+}
+
+.white_square {
+  position: absolute;
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: left;
+  background-color: white;
+  width: auto;
+  height: 450px;
+  margin: 200px 150px 80px 50%;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+}
+
+.white_square h2 {
+  align-self: left;
+  margin: 0;
+  padding: 24px;
+  font-weight: 600;
+  font-size: 1.4em;
+  color: var(--blue);
+}
+
+p {
+  padding: 32px;
+  line-height: 2.5em;
+  margin-top: -40px;
+}
+
+.white_square img {
+  display: flex;
+  padding: 24px;
+  margin-top: -60px;
+  object-fit: contain;
+}
+
+.links {
+  display: flex;
+  align-content: flex-end;
+}
+
+.links ul{
+  position: absolute;
+  display: flex;
+  align-items: flex-end;
+  width: 150px;
+  font-size: 0.8em;
+  font-weight: 600;
+  color: var(--blue)
 }
