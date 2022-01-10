@@ -7,4 +7,110 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+
+}
+
+.background {
+  background-color: #1c5380;
+  height:500px;
+  width: 100%;;
+  z-index: -1;
+
+}
+
+main {
+  display:flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin: 0 350px 0 350px;
+  position: relative;
+  top:-300px;
+}
+
+.main-img, .main-block {
+  padding: 70px;
+}
+
+header {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom:30px;
+}
+
+.header-btn {
+  background: linear-gradient(180deg, #3b7aad 60%, #0a5496 100% );
+  border:1px solid #06365f;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 3px;
+
+}
+
+
+.header-btn p {
+  font: 200 16px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding:10px 20px;
+  color: white;
+  margin:0;
+  
+}
+
+#insta-info {
+  background: white url("../images/frame.png") no-repeat;
+  background-size: 100%;
+  display:flex;
+  flex-direction:column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border-radius: 5px;;
+  
+}
+
+.text-container {
+  padding: 30px;
+  border-radius: 5px;
+}
+
+h2 {
+  color: #06365f;
+  font-weight: bold;
+  width:60%;
+}
+
+span {
+  font-weight: bold;
+}
+
+.download-btn {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.download-btn img {
+  padding:20px;
+}
+
+footer {
+  position: relative;
+  top:-300px;
+  display:flex;
+  justify-content: center;
+}
+
+ul{
+  list-style: none;
+  display:flex;
+  justify-content: center;
+}
+
+li {
+  padding: 0 10px;
+  color:#06365f;
+}
+
+footer p {
+  align-self: flex-end;
+  padding: 0 10px;
 }
