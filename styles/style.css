@@ -7,4 +7,123 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  padding: 6%; 
+  background: linear-gradient(180deg, rgba(28,83,128,1) 11%, rgba(6,54,95,1) 30%, rgba(255,255,255,1) 31%);
+  display: inline-block;
+}
+section {
+  margin: 2em;
+  
+} 
+.main-div {
+  display: flex;
+  flex-direction: column;
+}
+.second-main-section {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+.third-main-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.parrafo {
+  display: flex;
+  flex-direction: column;
+  background-image: url("../images/frame.png");
+  background-size: cover;
+  padding: 0px 80px 0 80px ;
+  font-size: medium;
+  line-height: 2em;
+
+}
+.frame {
+  display: flex;
+}
+.second-section {
+  display: flex;
+  flex-direction: column;
+}
+.section-in-section-head {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 1em;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    padding-left:  1em;
+    border: 1px solid;
+    border-radius: 4px;
+    padding: 0.5em;
+    border-color: rgba(6,54,95,1);
+    background: linear-gradient(180deg, rgba(28,83,128,1) 11%, rgba(69,112,174,1) 100%);
+}
+.parr {
+  font-weight: bold;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+.section-two-head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.section-two-center {
+  display: flex;
+  flex-direction: column;
+  
+}
+.section-two-final {
+  display: flex;
+  flex-direction: row;
+  padding-left: 2em;
+  padding-top: 1em;
+  justify-content: center;
+}
+h1 {
+  color: #06365f;
+  font-size: 2.5em;
+  font-weight: bold;
+}
+.botons-mobile {
+  margin: 1em;
+}
+footer {
+  display: flex;
+  justify-content: center;
+}
+footer div {
+  display: flex;
+  flex-direction: row;
+}
+.footer-list {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  color: #1c5380;
+  text-decoration: none;
+}
+.footer-list li a {
+  text-decoration: none;
+  color: #1c5380;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+
+.copyright {
+  color: grey;
+  text-decoration: none;
+  text-transform: uppercase;
+  align-items: center;
+  margin-left: 0.25em;
+  margin-right: 0.25em;
 }
