@@ -28,7 +28,7 @@ header {
   background-image: url(/images/bgtile.png);
   background-repeat: repeat;
   height: 300px;
-  padding-left: 150px;
+  padding-left: 310px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -48,9 +48,13 @@ header {
 
 }
 
+.logIn img {
+  position: relative;
+  margin-top: 8px;
+}
+
 .logIn a {
   color: white;
-  
 }
 
 .container {
@@ -58,7 +62,6 @@ header {
   justify-content: space-around;
   justify-content: center;
   margin-top: -100px;
-  
 
 }
 
@@ -76,7 +79,7 @@ header {
 
 .background {
   margin-left: 40px;
-  margin-right: 200px;
+  margin-right: 40px;
   background-image: url(/images/frame.png);
   background-repeat: no-repeat;
 
@@ -99,6 +102,7 @@ header {
 ul li, a {
   padding: 10px;
   color: #1c5380;
+  font-weight: bold;
 }
 
 
@@ -111,7 +115,7 @@ footer nav, ul {
   align-items: center;
 }
 
-footer nav, span {
+footer nav> span {
   margin-left: 40px;
   color: grey
 }
