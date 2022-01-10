@@ -3,8 +3,114 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+*{
+  margin: 0;
+  padding: 0;
+  /* border: red 1px solid; */
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+.content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+.bg {
+  background-image: url(../images/bgtile.png);
+  width: auto;
+  height: 35vh;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  margin: 0px 0px 20px 0px;
+
+}
+
+article{
+  margin: 40px;
+}
+
+.right-article {
+width: 35%;
+}
+
+.head{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.login{
+  display: flex;
+  padding: 10px;
+  background-color: #06365f;
+  color: white;
+  text-decoration: none;
+  border-radius: 3px;
+  margin-right: 5px;
+}
+
+.home{
+  margin-right: 10px;
+}
+
+.bottom {
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  padding: 30px 40px;
+  margin-top: 20px;
+}
+
+h1{
+  font-size: 1.6em;
+  color: #06365f;
+  width: 62%;
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 10px 0px;
+
+}
+
+.img-compra{
+  margin-left: 40px;
+  width: 340px;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+footer ul li{
+  margin: 0px 10px 0px 10px;
+  list-style: none;
+}
+
+footer ul a{
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 0.9em;
+  color: #1c5380;
+  text-transform: uppercase;
+}
+
+.gray {
+color: gray;
 }
