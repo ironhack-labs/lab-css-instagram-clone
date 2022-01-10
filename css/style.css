@@ -68,6 +68,11 @@ p {
     margin: 20px 0;
 }
 
+span {
+    color: #000;
+    font-weight: 800;
+}
+
 button {
     width: 100px;
     display: flex;
