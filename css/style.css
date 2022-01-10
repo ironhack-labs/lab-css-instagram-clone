@@ -1,0 +1,122 @@
+/*
+Colors to use:
+dark blue: #06365f
+light blue: #1c5380
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+    background-image: url('./img/brand.png');
+    border-top: 300px solid #557d9f;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    position: absolute;
+    inset: 0;
+}
+
+.container main {
+    width: 63%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container main section {
+    margin: 30px;
+}
+
+.container section article {
+    margin: 25px 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container article:nth-child(2) {
+    background: #fff;
+    box-shadow: -2px -38px 12px 9px rgba(0, 0, 0, 0.05);
+    padding: 35px;
+}
+
+.container article:nth-child(3) img {
+    margin-right: 20px;
+}
+
+h1 {
+    font-size: 1.5em;
+    color: #557d9f;
+}
+
+p {
+    color: grey;
+    font-weight: 600;
+    margin: 20px 0;
+}
+
+button {
+    width: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #6b8fae;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    padding: 10px 12px;
+    box-shadow: 0 2px 8px 2px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    padding: 10px 0;
+}
+
+footer ul {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+}
+
+footer a {
+    color: #557d9f;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+footer ul li:nth-child(9) {
+    color: grey;
+    font-weight: 600;
+}
+
+@media (max-width: 762px) {
+    .container main {
+        flex-wrap: wrap;
+    }
+
+    .container main section:nth-child(1) {
+        order: 2;
+    }
+
+    .container main section:nth-child(1) img {
+        order: 1;
+    }
+}
