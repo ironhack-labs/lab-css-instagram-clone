@@ -6,5 +6,95 @@ light blue: #1c5380
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  margin: 80px 50px;
+  background-image: url(/lab-css-instagram-clone/images/bgtile.png);
+  background-repeat: repeat-x;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.side {
+  width: 400px;
+  
+}
+.margin{
+  margin-right: 10px;
+}
+
+footer{
+  display: flex;
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  justify-content: center;
+  color: #1c5380;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 10px;
+ text-transform: uppercase;
+  margin-bottom: 5px;
+}
+nav{
+  display: flex;
+  
+}
+footer nav a{
+  display: flex;
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: auto;
+  text-decoration: none;
+  color: #1c5380;
+  font-weight: bold;
+  margin: 5px 15px;
+  padding-bottom: 50px;
+  font-size: 14px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  width: 560px;
+}
+
+.button {
+  border: 1px groove #366288;
+  background: rgb(108,144,173);
+background: linear-gradient(180deg, rgba(108,144,173,1) 0%, rgba(70,114,152,1) 100%);
+  color: white;
+  display: flex;
+  text-align: center;
+  justify-content: left;
+  text-decoration: none;
+  padding: 8px;
+  margin-left: 130px;
+
+}
+
+h1{
+  color: #06365f ;
+}
+
+span{
+  font-weight: bold;
+}
+
+.white{
+  width: 450px;
+  /*background-color: white;*/
+  border-radius: 10px;
+  padding: 25px 55px;
+  margin-top: 20px;
+  background-image: url(/lab-css-instagram-clone/images/frame.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.gray{
+  color: lightslategray;
 }
