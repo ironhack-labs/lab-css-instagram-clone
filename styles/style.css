@@ -7,4 +7,87 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: url(../images/bgtile.png) repeat-x;
+  display: flex;
+  flex-wrap: wrap;
 }
+
+section {
+  display: flex;
+  margin: 100px;
+  align-items: center;
+  justify-content: center;
+  width: 78%;
+}
+
+.phone {
+  padding-right: 60px;
+}
+
+.login {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+}
+
+.login a {
+  display: flex;
+  align-items: center;
+  border: 1px solid #06365f;
+  border-radius: 5px;
+  background-color: #1c5380;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.login a img {
+  padding-right: 10px;
+}
+
+
+
+.text-img {
+  width: 60%;
+  background: url(../images/frame.png) no-repeat;
+  padding: 20px 30px;
+  align-content: center;
+  text-align: left;
+}
+
+.text-img h1 {
+  color: #06365f;
+  font-size: 25px;
+}
+
+.buttons {
+  padding-top: 20px;
+}
+
+footer {
+  display: flex;
+  margin-left: 100px;
+}
+
+footer ul {
+  text-transform: uppercase;
+  list-style: none;
+  display: flex;
+  color: gray;
+  font-weight: bold;
+  font-size: 10px;
+}
+
+footer ul li a{
+  text-decoration: none;
+  color: #1c5380;
+  font-weight: bold;
+  font-size: 10px;
+}
+
+.space-btw-letters {
+  margin-right: 15px;
+}
+
