@@ -3,8 +3,86 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
+*{
+  margin: 0;
+  padding: 0;
+}
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: linear-gradient(to bottom,  #1e5799 0%,#51789b 33%,#ffffff 33%,#ffffff 33%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+}
+section{
+  display: flex;
+  
+  margin: 70px 100px;
+ 
+}
+#left{
+   width: 50%
+}
+
+
+#right{
+  width: 50%;    
+}
+
+#head{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  width: 450px;
+  }
+
+ a{
+   text-decoration: none;
+ }
+ 
+ #backimg{     
+   background-image:url("../images/frame.png");
+   background-size: cover;
+   padding: 20px;
+  
+ }
+
+ #home{
+   
+   color: white;
+   display: flex;
+   align-items: center;
+   padding: 10px ;
+   width: 100px; ;
+   background: linear-gradient(0deg ,rgba(9,54,95,1) 0%,rgba(28,83,128,1));
+  }
+  .homeimg{
+    margin-right: 5px;
+  }
+
+  
+main{
+ display: flex; 
+ flex-direction: column;
+ justify-content: space-between;
+ margin: 30px;
+  }
+h1{
+  color: #06365f;  
+  margin-bottom: 20px;
+}
+#downloads{
+  display: flex;
+  justify-content: space-around;
+}
+ul{
+  display: flex;
+  align-items:center;
+  justify-content:space-between;
+  flex-direction: row;
+  color: #06365f;
+  margin: 0px 300px 70px 300px;
+  list-style: none;
+}
+#grey{
+  color: #b6b6b7;
 }
