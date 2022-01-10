@@ -54,7 +54,7 @@ section a {
   
 }
 
-section a img {
+#home {
   position: relative;
   top: 5px;
 }
