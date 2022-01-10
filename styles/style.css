@@ -17,6 +17,10 @@ body {
      
 }
 
+#phones {
+  width: 400px;
+}
+
 #principal {
   
   padding: 100px 150px 15px;
