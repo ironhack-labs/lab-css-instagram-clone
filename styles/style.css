@@ -4,7 +4,94 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  padding: 100px 200px;
+}
+
+footer {
+  color: #1c5380;
+  display: flex;
+  float: left;
+}
+
+h1 {
+  color: #06365f;
+}
+
+.Instagram2014 {
+  color: grey;
+}
+
+body {
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+}
+
+.footer-list {
+  display: flex;
+  list-style: none;
+  text-transform: uppercase;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  font-weight: bold;
+  margin-left: 160px;
+  padding: 40px;
+}
+
+.footer-list li {
+  margin-left: 2em;
+}
+
+.Instagram-intro {
+  margin-left: 40px;
+}
+
+#Buttons {
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+}
+
+#Login {
+  margin-left: 20px;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  background: linear-gradient(
+    180deg,
+    rgba(6, 54, 95, 1) 0%,
+    rgba(6, 54, 95, 0.34077380952380953) 100%
+  );
+  border-width: 1px;
+  border-style: solid;
+  border-color: #06365f;
+}
+
+#second-box {
+  margin: 40px;
+}
+
+#text-intro {
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 30px;
+}
+
+#Paragraph-intro {
+  font-size: 10px;
 }
