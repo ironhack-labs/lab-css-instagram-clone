@@ -11,7 +11,6 @@ body {
   background-repeat: repeat-x;
   background-image: linear-gradient( #447094, #06365f);
   height: 100px;
-  
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -41,7 +40,6 @@ header a {
   text-decoration: none;
   border: 1px #06365f solid;
   border-radius: 5px;
-
   background-image: linear-gradient(#447094,#06365f);
 }
 header a img {
@@ -67,7 +65,7 @@ section a { margin: 15px;
 
 
 footer {
-   display: flex;
+  display: flex;
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center; 
@@ -75,22 +73,18 @@ footer {
   margin-top: 30px;
 }
 footer a {
-  
   text-decoration: none;
   color: #1c5380;
 }
 footer ul {
   display: flex;
   justify-content: space-around;
- 
-  
 }
 li {
   list-style: none;
   margin: 0px 10px;
   text-transform: uppercase;
   font-weight: bold;
-  
 }
 footer p {
   text-transform: uppercase;
