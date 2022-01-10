@@ -15,13 +15,22 @@ background: linear-gradient(to bottom, #3c709b 0%,#1c5380 40%,#ffff 41%,#ffff 10
 }
 h1 {
   font-weight: 800;
-  color: #1c5380
+  color: #1c5380;
+  font-size: 1.5em;
+  
 }
 
 nav {
   justify-content: center;
 }
 
+#text-card p{
+  margin-bottom: 10px;
+}
+
+.mrgn-right{
+  margin-right: 10px;
+}
 
 nav ul a{
   font-weight: 600;
@@ -29,6 +38,7 @@ nav ul a{
 
 ul{
   list-style-type: none; 
+  justify-content: center;
 }
 ul li {
   padding: 2%;
@@ -48,12 +58,16 @@ padding-bottom: 5%;
 }
 
 .imgbg{
-background: url(../images/frame.png);
+  background-color: #ffff;
+/* background: url(../images/frame.png); */
 padding: 20px;
 }
 
 .width50{
   width: 50%;
+}
+.align-center{
+  text-align: center;
 }
 
 .btt {
@@ -65,16 +79,25 @@ padding: 20px;
 }
 
 #header-box {
-      display: flex;
+    display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-bottom: 15px;
 }
 
 .center {
   
   align-content: center;
 }
+footer a {
+  text-transform: uppercase;
+}
+.copyright{
+  color: #808080d9;
+  font-weight: 600;
+  text-transform: uppercase;
+}
 
 .pad9 {
-  padding: 9%;
+  padding: 5% 9% 5% 9%;
 }
