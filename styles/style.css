@@ -14,9 +14,10 @@ body {
 }
 .title{
   font-size: 24px;
-  color: #184a72;
+  color: #123a5c;
   margin-top: 15px;
   line-height: 30px;
+  letter-spacing: 0px;
 }
 .front {
   display: flex;
@@ -37,23 +38,24 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 13px;
 }
 .button{
   display: block;
   border: 1px solid #1c5380;
-  padding: 0.6em;
+  padding: 7px 15px 10px 5px;
   text-decoration: none;
   font-weight: 600;
   color: white;
-  border-radius: 3px;
+  border-radius: 4px;
   padding-left: 15px;
 background-image: -webkit-linear-gradient(top, #6f97b6, #3f729b);
-box-shadow:0px 2px 5px 0  rgba(0,0,0,0.5);
+margin-right: 7px;
 } 
 
 #imga{
   position: relative;
-  top: 3px;
+  top: 4px;
   left:-6px;
 }
 
@@ -81,7 +83,8 @@ font-size: 16px;
   font-weight: bold;
   text-transform: uppercase;
   color: #3c729e;
-  letter-spacing: 0.2px;
+  letter-spacing: 0.1px;
+  font-size: 14px;
 }
 .downlinks{
   padding-top: 32px;
@@ -89,6 +92,8 @@ font-size: 16px;
   padding-left: 40px;
 }
 .iglinks .copyright{
-  color: gray;
+  text-align: center;
+  color: rgb(160, 158, 158);
   margin-left: 10px;
+  font-size: 13px;
 }
