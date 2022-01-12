@@ -4,7 +4,148 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+* {
+
+  margin: 0;
+  padding: 0;
+
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  height: 250px;
+  background-image: url('../images/bgtile.png');
+  background-repeat: repeat-x;
+  background-position: center;
+  
+}
+
+
+.content {
+
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  height: 700px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.second-half{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.wordBox {
+
+  margin: 0;
+  height: 450px;
+  width: 40%;
+  background-image: url('../images/frame.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 80px -47px;
+  border-radius: 25px;
+
+}
+
+.wordBox h1{
+
+  color: #06365f;
+  width: 52%;
+  text-align: left;
+  margin-bottom: 2%;
+  margin-left: 4%;
+
+}
+
+.wordBox p {
+  
+  width: 80%;
+  line-height: 2em;
+  text-align: left;
+  margin: 2% 4%;
+}
+
+.imagesOfSecond  {
+
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.home {
+
+  width: 20%;
+  height: 45px;
+  border: 1px solid #06365f;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #1c5380;
+}
+
+.home a{
+
+  text-decoration: none;
+  color: #c6d3de;
+  margin-left: -15px;
+}
+
+.phones{
+
+  margin-right: -15%;
+  margin-left: 20%;
+}
+
+
+.kindOfFooter a {
+
+  text-decoration: none;
+  color: #06365f;
+  font-weight:bold;
+}
+
+ul {
+
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  align-items: center;
+  justify-content: center;
+}
+
+ul li {
+
+  margin-left: 2%;
+  
+}
+
+.wordBoxPictures {
+
+    display: flex;
+    flex-direction: row;
+    margin-left: 23px;
+    
+}
+
+.wordBoxPictures img{
+
+    margin-right: 25px;
 }
