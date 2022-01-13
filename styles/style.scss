@@ -1,0 +1,125 @@
+$header-col: #06365f;
+$main-col: #1c5380;
+
+body {
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 4rem 4rem 2rem 4rem;
+  position: relative;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: $main-col;
+    height: 33vh;
+    width: 100%;
+    z-index: -1;
+    box-shadow: 0 20vh 30vh inset rgba($color: #ffffff, $alpha: 0.2);
+  }
+
+  #wrapper {
+    max-width: 40rem;
+
+    & > div {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      & > img {
+        transform: scale(0.9);
+        margin-left: -8px;
+      }
+
+      a {
+        background-color: $main-col;
+        padding: 0.7rem 1.3rem;
+        color: #fff;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        border-radius: 3px;
+        border: 1px solid $header-col;
+        font-weight: 600;
+        box-shadow: 0 27px 20px inset rgba($color: #ffffff, $alpha: 0.4);
+
+        img {
+          margin-right: 8px;
+        }
+      }
+    }
+
+    article {
+      position: relative;
+      z-index: 1;
+      margin-top: 3rem;
+
+      &::after {
+        content: url("../images/frame.png");
+        height: auto;
+        position: absolute;
+        top: -30px;
+        left: -30px;
+        z-index: -1;
+      }
+
+      h2 {
+        color: $header-col;
+        display: block;
+        max-width: 20rem;
+        font-size: 1.6rem;
+      }
+      p {
+        max-width: 28rem;
+        font-size: 0.9rem;
+        line-height: 1.4rem;
+      }
+
+      & > div {
+        padding-top: 3rem;
+
+        img:first-child {
+          margin-right: 2rem;
+        }
+      }
+    }
+  }
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8rem;
+  font-weight: bold;
+  padding: 4rem 0;
+
+  ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin-right: 1rem;
+
+    li {
+      padding: 0 0.9rem;
+
+      a {
+        text-decoration: none;
+        color: $main-col;
+      }
+    }
+  }
+
+  span {
+    color: #b9b9b9;
+  }
+}
