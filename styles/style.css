@@ -4,7 +4,95 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+.first-div {
+  background-color: #3b6890;
+}
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  text-align: center;
+  margin: auto;
 }
+main {
+  display: flex;
+}
+
+footer {
+  text-align: center;
+  color: #06365f;
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-size: 15px;
+  width: 100vw;
+}
+
+.second-div {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.moved {
+  
+  display: flex;
+  position: relative;
+  top: -10rem;
+  justify-content: space-around;
+  width: 80vw;
+}
+
+.white {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 1px 1px 1px 1px rgba(2, 2, 2, 0.2);
+
+
+}
+
+.right {
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  
+}
+
+button {
+ 
+  background-color: rgb(77, 123, 175);
+  border-radius: 8px;
+  border-width: 0;
+  color: white;
+
+  
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+ 
+  margin: 0;
+  padding: 10px 12px;
+  text-align: center;
+  transition: all 200ms;
+  vertical-align: baseline;
+
+
+}
+
+.logo-wrapper {
+ 
+  display: flex;
+  align-items: center;
+
+  justify-content: space-around;
+}
+
+#logo {
+  width: 15rem;
+ 
+}
+
+h2 {
+  color: #06365f
+}
+  
