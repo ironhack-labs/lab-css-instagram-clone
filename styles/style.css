@@ -8,16 +8,33 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: hsl(208deg 31% 46%);
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+  font-size: 14px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.flex-row-center-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 #main-container {
   margin: 10%;
+  margin-bottom: 30px;
   display: flex;
 }
 
-#image-container {
-  width: 30%;
+#img-container {
+  width: 48%;
+}
+#img-container > img {
+  width: 100%;
 }
 
 #content-container {
@@ -33,37 +50,49 @@ body {
   display:flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
 }
 
 #header > img {
-  height: 50px;
+  height: 60px;
 }
 
 #login-button {
   background-color: hsl(208deg 31% 46%);
   color: white;
+  padding: 5px;
+}
+
+#login-button img {
+  height: 20px;
+  margin-right: 5px;
 }
 
 #main-content {
   background-image: url("../images/frame.png");
   background-size: 100%;
   background-repeat: no-repeat;
-  padding: 20px 50px;
+  padding: 5px 50px 10px 40px;
+  margin-top: 20px;
 }
 
 #main-content > h2 {
-  color: hsl(208deg 31% 46%);
+  font-size: 1.4em;
+  color: hsl(209deg 54% 26%);
 }
 
 footer > ul {
   list-style: none;
-  display: flex;
-  justify-content: center;
+  color:hsl(208deg 31% 46%);
 }
 
 footer > ul > li {
-  font-weight: bold;
   margin: 5px;
 }
 
+#copyright {
+  color: grey;
+  margin-left: 20px;
+}
 
