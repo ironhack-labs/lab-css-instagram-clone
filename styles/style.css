@@ -31,10 +31,11 @@ body {
 }
 
 #img-container {
-  width: 48%;
+  height: 480px; 
+  padding: 0;
 }
 #img-container > img {
-  width: 100%;
+  height: 100%;
 }
 
 #content-container {
