@@ -7,4 +7,112 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  
+}
+.background_fade {
+  background-image: url(../images/frame.png);
+  background-size: cover;
+}
+.blue_background {
+  background-color: #1c5380;
+  height: 350px;
+  width: 100%;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  text-align: center;
+  font-size: 30px;
+}
+.phone{
+  padding-right: 50px;
+  width: 600px;
+}
+.section_middle {
+  padding-top: 100px;
+  margin: 0px 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+}
+.log_in {
+  margin: 0px 23px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+#instaLogo{
+  width: 500px;
+}
+.headline {
+  color: #06365f;
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 55px;
+  margin-left: 50px;
+}
+.log_button {
+  display: flex;
+  outline: 2px groove black;
+  background-color: #617897;
+  flex-direction: row;
+  align-content: space-around;
+  justify-content: center;
+  width: 200px;
+}
+.house{
+  width: 63px;
+    height: fit-content;
+    margin: 10px;
+}
+h4 {
+  color: white;
+  margin: 10px;
+}
+.Button_position {
+  margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-content: center;
+}
+
+.text {
+  text-align: left;
+    margin-left: 50px;
+    display: flex;
+    margin-right: 100px;
+    padding: 20px 0px;
+    align-items: flex-start;
+    flex-direction: row;
+    align-content: flex-start;
+}
+.download_button {
+  margin: 0px 20px;
+  height: auto;
+  width: 350px;
+}
+footer {
+  display: flex;
+  height: 487px;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: flex-start;
+  justify-content: center;
+}
+.contact{
+  color: #1c5380;
+
+}
+.trademark{
+  color: grey;
+
 }
