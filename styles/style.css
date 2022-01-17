@@ -8,3 +8,154 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+#background {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 40%;
+  background-color: #2f5d85;
+}
+
+#phones {
+  width: 30%;
+  align-self: flex-start;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 100px 125px 0 125px;
+}
+
+.main-right {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  margin-left: 2em;
+}
+
+.top-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-right img {
+  width: 15em;
+}
+
+.log-in {
+  background-color: #22547c;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 0.5px solid rgb(65, 63, 63);
+  border-radius: 3px;
+  width: 7em;
+  height: 3em;
+  color: white;
+  font-weight: bold;
+}
+
+.log-in img {
+  margin-right: 10px;
+  width: 25%;
+}
+
+.text {
+  width: 25em;
+  background-color: white;
+  margin-top: 2em;
+  border-radius: 7px;
+  border-width: 2px;
+  border-style: solid;
+  border-image: linear-gradient(to bottom, rgb(180, 180, 180), white) 20 100%;
+  padding: 1.2em 2em;
+}
+
+.text h2 {
+  width: 100%;
+  color: rgb(3, 3, 59);
+}
+
+.text p {
+  line-height: 1.5em;
+}
+
+.download {
+  padding: 1em 0;
+}
+
+.download img {
+  margin-right: 1em;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2em 2em 3em 3em;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  width: 50%;
+}
+
+li {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+  color: #1c5380;
+}
+
+li:last-child {
+  color: rgb(155, 151, 151);
+}
+
+@media screen and (min-width: 980px) {
+  #background {
+    width: 100%;
+    height: 25%;
+  }
+
+  .top-right img {
+    width: 13em;
+  }
+
+  .log-in {
+    width: 6em;
+    height: 2em;
+  }
+
+  .log-in img {
+    width: 20%;
+  }
+
+  .text {
+    width: 20em;
+    padding: 0 2em;
+    margin: 1em auto;
+  }
+
+  .download img {
+    width: 40%;
+  }
+
+  ul {
+    width: 70%;
+    padding: 0;
+    margin: 0 auto;
+  }
+}
