@@ -9,8 +9,15 @@ body {
   margin: 0;
 }
 footer{
+  justify-content: space-between;
   text-align: center;
 }
 main{
   display: flex;
+}
+#mainContent{
+background-image: url("../images/frame.png");
+}
+header{
+  justify-content: space-between;
 }
