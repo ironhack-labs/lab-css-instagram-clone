@@ -3,8 +3,92 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  margin: 0 auto;
+  display: inline-block;
+  background: repeating-linear-gradient(
+    #74abdd,
+    #74abdd 49.9%,
+    white 50.1%,
+    white 100%
+  );
+  background-repeat: no-repeat;
+}
+
+h1,
+p,
+ul {
+  color: #06365f;
+  font-family: "Open Sans";
+}
+
+h1 {
+  font-size: 1.5em;
+  font-weight: 400;
+}
+
+.main {
+  display: flex;
+  margin: 100px 15%;
+  width: 70%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#main-img {
+  flex: 1 0;
+}
+
+#main-content {
+  flex: 1 0;
+  flex-direction: column;
+}
+
+#header {
+  justify-content: space-between;
+}
+
+#header img {
+  width: 200px;
+}
+
+#header button {
+  width: 110px;
+  height: 50px;
+  background-color: #1c5380;
+  font-color: #06365f;
+  border: 1px solid lightblue;
+}
+
+#header button img {
+  width: 20px;
+}
+
+#main-text {
+  background-color: white;
+  padding: 20px;
+}
+
+#twoButtons {
+  /* display line block */
+}
+
+footer {
+  text-align: center;
+  width: 70%;
+  align-items: center;
+  margin: 20px 15%;
+}
+
+ul {
+  font-size: 1em;
+  font-weight: bold;
+  text-transform: uppercase;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
