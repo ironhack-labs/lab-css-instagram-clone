@@ -4,7 +4,111 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
-body {
+body, html {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(90deg, #06365f,#1c5380);
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-position-y:top;
+}
+
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  justify-content: space-evenly;
+  margin-top: 100px;
+  margin-bottom: 75px;
+}
+
+.frame {
+  font-size: 0.8em;
+  color: #06365f;
+  background-image: url(/images/frame.png);
+  background-repeat: no-repeat;
+  max-width: 500px;
+  height: auto;
+  padding: 30px;
+  margin-right: 1em;
+}
+
+.frame p {
+  max-width: 400px;
+  font-weight: 500;
+}
+
+.frame > img {
+  width: 100%;
+  margin-right: 1em;
+}
+
+.frame > div {
+  max-width: 700px;
+}
+
+.phones {
+margin-left: 3em;
+margin-right: 1.5em;
+}
+
+a.button {
+  padding: 1em;
+  margin: 2em;
+  border-radius:0.15em;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-weight:400;
+  color:#FFFFFF;
+  text-align:center;
+  position:relative;
+  background-image: linear-gradient(rgb(129, 129, 129), #1c5380);
+  }
+
+  a.button > img {
+    margin-right: 1em;
+    margin-bottom: 0em;
+    margin-top: 1em;
+    height: 20px;
+    align-items: center;
+  }
+
+  .appstorelogos {
+    margin-top: 3em;
+    display: flex;
+    justify-content:start;
+    align-items: center;
+  }
+
+  .appstorelogos img {
+    height: 50px;
+    margin: 0.5em;
+  }
+ 
+
+footer div {
+  padding: 0 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 500px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #1c5380;
+  font-size: 0.7em;
+  text-transform: uppercase;
+  font-weight: 700;
 }
