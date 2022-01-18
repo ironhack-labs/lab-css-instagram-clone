@@ -10,10 +10,9 @@ body, html {
   padding: 0;
   height: 100%;
   width: 100%;
-  background-image: linear-gradient(90deg, #06365f,#1c5380);
-  background-size: 40%;
+  background: white;
+  background: linear-gradient(180deg, rgba(28,83,128,1) 20%, rgba(255,255,255,1) 10%);
   background-repeat: no-repeat;
-  background-position-y:top;
 }
 
 
