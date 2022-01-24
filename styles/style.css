@@ -1,10 +1,154 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
 
-body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Font Styles */
+
+h2 {
+  font-size: 3.1rem;
+  color: #06365f;
+}
+
+p {
+  font-size: 1.8rem;
+  margin-top: 10px;
+  line-height: 1.5em;
+}
+
+
+/* Top Section */
+
+.div-size {
+  width: 100vw;
+  height: 36vh;
+}
+
+.blue-bg {
+  background-image: url(/images/bgtile.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Main Section */
+
+.minus-margin {
+  margin-top: -17%;
+}
+
+.flex-main {
+  display:flex;
+  padding-left: 130px;
+  padding-right: 130px;
+}
+
+
+.phones {
+  width: 29vw;
+}
+
+
+
+.white-section {
+  background-image: url(/images/frame.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 20px;
+  padding: 45px;
+
+}
+
+.flex-row-left {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 10px;
+  align-items: center;
+}
+
+.title-width {
+  width: 330px;
+  padding-bottom: 15px;
+}
+
+.white-section p {
+  width: 480px;
+}
+
+.blue-btn {
+  background-image: url(/images/bgtile.png);
+  background-size: cover;
+  color: white;
+  font-size: 1.8rem;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5%;
+  height: 50px;
+  font-weight: bold;
+  
+
+}
+
+button > img {
+  padding-right: 10px;
+}
+
+.button-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+
+.logo {
+  width: 375px;
+}
+
+.section-width {
+  margin-left: 55px;
+  margin-top: 20px;
+}
+
+.black-btns {
+  margin-top: 40px;
+}
+
+.black-btn-left {
+  margin-right: 20px;
+  width: 200px;
+}
+
+.black-btn-right {
+  width: 190px;
+}
+
+/* Footer */
+
+.margin-tb {
+margin-top: 40px;
+margin-bottom: 40px;
+}
+ul > li {
+  display: inline;
+  color: #1c5380;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-right: 20px;
+  font-size: 1.3rem;
+  list-style: none;
+}
+
+.grey {
+  color:lightgrey;
+}
+
+
+.flex-row {
+  display: flex;
+  justify-content: center;
 }
