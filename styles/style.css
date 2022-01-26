@@ -6,5 +6,140 @@ light blue: #1c5380
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: white;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #1c5380;
+  margin: 0ex;
+  padding-top: 90px;
+  padding-bottom: 150px;
+  padding-right: 340px;
+  padding-left: 540px;
+}
+.header img{
+  width: 45%;
+  padding-left: 100px;
+}
+.home {
+  background-color: #1c5380;
+  color: white;
+  font-weight: 700;
+  font-size: 15px;
+  border-radius: 8%;
+  padding: 05px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  width: 12%;
+}
+.home img {
+  width: 30%;
+  margin-left: 0px;
+  padding-left: 0px;
+  padding-right: 05px;
+}
+.central {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  padding-top: 300px;
+  padding-left: 310px;
+}
+.central img {
+  width: 75%;
+  align-self: center;
+  padding-left: 550px;
+  padding-top: 250px;
+}
+.titulo {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  color: #06365f;
+  font-size: 35px;
+  font-weight: 700;
+  padding-left: 500px;
+  padding-bottom: 60px;
+}
+.titulozinho {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  color: #06365f;
+  font-size: 35px;
+  font-weight: 700;
+  padding-left: 500px;
+  padding-top:30px;
+}
+.conteudo {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+  padding-top: 400px;
+  padding-left: 500px;
+}
+.appApple {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  padding-right: 880px;
+  padding-top: 120px;
+  width: 74%;
+}
+.appAndroid {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  padding-right: 370px;
+  padding-top: 120px;
+  width: 73%;
+}
+.celular {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  padding-top: 600px;
+  padding-left: 220px;
+}
+.celular img {
+  height: 750px;
+  align-self: left;
+  padding-bottom: 50px;
+}
+.footer { 
+  display: flex;
+  justify-content: center;
+}
+.nav-bar-ul{
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  flex-direction: row;
+  font-size: 18px;
+  font-weight: 500;
+  list-style: none;
+  padding-top: 500px;
+  padding-right: 175px;
+}
+.nav-bar-ul a {
+  text-decoration: none;
+  padding: 10px;
+  position: static;
+  font-weight: 350;
+  color: #1c5380;
 }
