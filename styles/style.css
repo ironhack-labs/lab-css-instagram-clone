@@ -8,3 +8,121 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.background {
+  background-image: url("/images/bgtile.png");
+  background-size: 100% 50%;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+}
+
+.phone {
+  width: 400px;
+}
+.content {
+  width: auto;
+  height: 700px;
+  padding: 100px 1px 0 1px;
+  display: flex;
+  align-items: unset;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: auto;
+  margin-left: 100px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 510px;
+  height: 530px;
+  padding-left: 45px;
+  padding-right: 45px;
+  background-color: #fff;
+  border-radius: 0.5em;
+  box-shadow: 0px -180px 33px -3px rgba(0, 0, 0, 0.1);
+}
+
+.text h1 {
+  color: #06365f;
+  margin-top: 30px;
+  margin-bottom: 0;
+  font-size: 2.1em;
+}
+
+.text p {
+  margin: 0;
+  font-size: 1.2em;
+  font-weight: 400;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.login-btn {
+  border: 0;
+  border-radius: 5%;
+  width: 130px;
+  height: 50px;
+  color: #fff;
+  font-size: 1.3em;
+  background: linear-gradient(
+    0deg,
+    rgba(57, 112, 159, 1) 40%,
+    rgba(110, 145, 175, 1) 100%
+  );
+}
+
+.iphone,
+.android {
+  margin-right: 20px;
+  margin-top: 20px;
+  border: none;
+  padding: 0;
+  background: none;
+  box-sizing: content-box;
+}
+
+.footer {
+  display: inline;
+  padding: 20px;
+  margin: 40px 200px 0px 200px;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #babbbc;
+}
+
+.footer-menu {
+  display: flex;
+  justify-content: space-around;
+  width: 800px;
+  list-style: none;
+  padding: 0;
+  margin: 0 50px 0 0;
+}
+
+.footer-menu li :hover {
+  color: #06365f;
+}
+
+.footer-menu li a {
+  text-decoration: none;
+  color: #1c5380;
+}
