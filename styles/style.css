@@ -3,8 +3,230 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+* {
+  box-sizing: border-box;
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+.blue-background {
+  background-color: #1c5380;
+  position: absolute;
+  height: 400px;
+  z-index: -1;
+  width: 100%;
+}
+.content {
+  display: flex;
+  position: relative;
+  width: 60vw;
+  left: 20vw;
+  right: 20vw;
+  top: 10vh;
+}
+
+.phone-img-column {
+  flex: 1;
+}
+
+.phone-img-column img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: left;
+  height: 100%;
+}
+
+.info-column {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.login-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login-row > img {
+  padding-right: 60px;
+}
+.login-row button {
+  display: flex;
+  background-color: #1c5380;
+  color: white;
+  border: none;
+  border: 1px solid #06365f;
+  border-radius: 5px;
+  justify-content: space-between;
+  align-items: center;
+  width: 110px;
+  height: 40px;
+  padding: 0 15px;
+}
+
+.login-row p {
+  margin: 0;
+}
+
+.text-row {
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 1) 60%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  padding: 20px 40px 20px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex: 1;
+  border-radius: 10px;
+  box-shadow: 10px 0px 8px -10px rgba(0, 0, 0, 0.5),
+    -10px 0px 8px -10px rgba(0, 0, 0, 0.5);
+}
+
+.text-row h1 {
+  text-align: left;
+  margin: 0;
+  color: #06365f;
+  font-size: 42px;
+}
+.text-row p {
+  text-align: left;
+  font-size: 18px;
+}
+
+.download-img {
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px 40px 10px 40px;
+}
+
+.download-img :last-child {
+  margin-left: 30px;
+}
+
+.footer {
+  position: relative;
+  top: 20vh;
+}
+
+.list-menu {
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+}
+
+.list-menu li {
+  list-style: none;
+  padding: 0;
+  margin-right: 10px;
+}
+
+.list-menu li a {
+  text-decoration: none;
+  color: #1c5380;
+}
+
+.footer div {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.footer > div > p {
+  display: inline;
+  margin: 0;
+  margin-left: 30px;
+  color: lightgrey;
+}
+
+@media screen and (max-width: 1505px) {
+  .text-row h1 {
+    font-size: 35px;
+    text-align: center;
+  }
+  .text-row p {
+    font-size: 16px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1505px) {
+  .login-row > img {
+    height: 50px;
+  }
+  .text-row h1 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 1184px) {
+  .phone-img-column img {
+    float: none;
+  }
+  .content {
+    flex-direction: column;
+  }
+  .download-img {
+    display: flex;
+    justify-content: space-around;
+  }
+  .download-img :last-child {
+    margin-left: 0px;
+  }
+}
+@media screen and (max-width: 558px) {
+  .content {
+    width: 100vw;
+    right: 0;
+    left: 0;
+  }
+  .login-row {
+    flex-direction: column;
+  }
+  .login-row > img {
+    padding-right: 0px;
+  }
+  .login-row button {
+    width: 60%;
+    justify-content: center;
+  }
+  .text-row h1 {
+    font-size: 38px;
+    text-align: center;
+  }
+  .text-row p {
+    font-size: 14px;
+    text-align: center;
+  }
+  .footer nav {
+    width: 100%;
+  }
+  .footer div {
+    flex-direction: column;
+    align-items: center;
+  }
+  .list-menu {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer > div > p {
+    margin: 0;
+  }
+  .list-menu li {
+    width: 100%;
+    text-align: center;
+    margin-right: 0;
+    padding: 20px;
+  }
+
+  .list-menu :hover {
+    background-color: #1c538041;
+  }
 }
