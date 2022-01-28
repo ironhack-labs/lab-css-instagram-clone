@@ -4,37 +4,57 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
-*{
+/* *{
   border: 1px solid red;
-  }
+  } */
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
-  background: linear-gradient(180deg, #1c5380 50%, #fff 50%);
+  padding-left: 5em;
+  padding-right: 4em;
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  background: #06365f
+  linear-gradient(
+    180deg,
+    rgba(91, 126, 156, 1) 0%,
+    rgba(60, 98, 133, 1) 38%,
+    rgba(47, 90, 128, 1) 38%,
+    rgba(92, 126, 155, 1) 38%,
+    rgba(244, 245, 247, 1) 38%,
+    rgba(253, 253, 253, 1) 38%,
+    white 100%
+    )
+    top left repeat-x;
 }
 
 .container{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .mobile-img{
   display: flex;
-  flex-direction: row;
-  justify-content: right;
-  width: 50%;
+  align-items: center;
+}
+
+.mobile-img img{
+  width: 255px;
+  margin-right: 3em;
+
+  transform: translateY(-1em);
 }
 
 .login-menu-and-infos{
-  display: inline-flex;
-  flex-direction: column;
-  justify-content: center;
+  max-width: 32em;
+}
+
+header{
+  display: flex;
   align-items: center;
-  width: 60%;
+
 }
 
 .login-and-logo{
@@ -44,7 +64,7 @@ body {
 }
 
 .login-and-logo img{
-  width: 60%;
+  width: 250px;
   margin-right: 40px;
 }
 
@@ -62,13 +82,48 @@ body {
   box-shadow: 0 0 1em #06365f;
 }
 
-.text-infos{
-  display: inline-flex;
+section{
+  /* display: inline-flex;
   flex-direction: column;
   justify-content: flex-start;
   background-image: url(../images/frame.png);
   background-repeat: no-repeat;
-  background-size: 600px;
-  background-position: center;
-
+  background-size: 800px;
+  background-position: center; */
+  background: #fefefe;
+  padding: 2em;
+  border-radius: 0.25em;
 }
+
+.text-infos{
+  text-align: left;
+  width: 500px;
+}
+
+.text-infos h3{
+  color: #06365f;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1;
+  width: 50%;
+  margin-top: 0;
+}
+
+.text-infos p{
+  width: 450px;
+  font-size: 18px;
+}
+
+.badges{
+  display: inline-flex;
+  justify-content: start;
+  width: 330px;
+ }
+
+.badges img{
+  width: 135px;
+  margin-right: 5px;
+  padding-left: 8px;
+  padding-top: 28px;
+}
+
