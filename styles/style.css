@@ -5,6 +5,144 @@ light blue: #1c5380
 */
 
 body {
+  margin: 0;
+
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.05),
+      rgba(0, 0, 0, 0.1)
+    ),
+    url("../images/bgtile.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 40%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  min-height: 100vh;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.container img.phones {
+  width: 20em;
+  margin-right: 3em;
+  /* transform: translateY(-1em); */
+}
+
+.group {
+  max-width: 32em;
+}
+
+header {
+  display: flex;
+  align-items: center;
+}
+
+header {
+  margin-bottom: 1em;
+}
+
+header h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+header h1 img {
+  height: 2.3em;
+}
+
+header .login {
+  margin-left: auto;
+
+  color: white;
+  text-decoration: none;
+  font-weight: 400;
+
+  padding: 0.6em 0.8em;
+
+  /* icon */
+  padding-left: 2.5em;
+  background: #4b769b url("../images/home.png") 0.5em center no-repeat;
+  background-size: 1.5em auto;
+  border-radius: 0.15em;
+
+  /* outside and inside box-shadow */
+  box-shadow: 0 0 0.125em 1px rgba(0, 0, 0, 0.2),
+    0 1.5em 1.5em -0.5em rgba(255, 255, 255, 0.25) inset;
+}
+
+.tagline {
+  margin-top: 0;
+
+  font-weight: 500;
+  font-size: 170%;
+  line-height: 1;
+  color: #06365f;
+}
+
+main {
+  --br: 0.25em;
+  border-radius: var(--br);
+
+  position: relative;
+  perspective: 300px;
+  transform-style: preserve-3d;
+
+  padding: 20px;
+}
+
+main:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: white;
+  border-radius: var(--br);
+
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  transform: rotateX(-1deg);
+  transform-origin: center top;
+}
+
+main p:not(.tagline) {
+  font-size: 110%;
+}
+
+.stores {
+  padding-left: 0;
+  margin-top: 2em;
+}
+
+.stores li {
+  display: inline-block;
+}
+
+.stores li:first-child {
+  margin-right: 0.75rem;
+}
+
+.stores img {
+  height: 3em;
+}
+
+footer {
+  text-align: center;
+  margin-top: 2em;
+  position: absolute;
+  bottom: 50px;
+}
+
+footer a {
+  margin-right: 1em;
+  text-transform: uppercase;
+  font-size: 80%;
 }
