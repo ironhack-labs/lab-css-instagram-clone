@@ -8,3 +8,50 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.lightBlue {
+  background-color: #749bbb ;
+}
+
+.title div {
+  margin-left: 700px;
+  padding-top: 100px;
+  display: flex;
+  flex-direction: row;
+}
+
+button {
+  border: solid;
+  background-color:#749bbb ;
+  border-radius: 1px;
+  height: 55px;
+  border-color: #16344e;
+  border-width: 1px;
+  margin: 10px;
+}
+
+.firstSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.firstSection article {
+  background-image: url(images/frame.png);
+  background-size:contain;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  border: 2px rgb(24, 21, 21);
+  box-sizing: border-box;
+  padding: 50px;
+  max-width: 600px;
+}
+
+
+
+
+
+
