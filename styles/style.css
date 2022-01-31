@@ -4,7 +4,95 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-color:green;
+}
+
+body {
+  height: 200px;
+  background: linear-gradient(#1c5380 100%, white);
+  background-repeat: no-repeat;
+  width: 100%;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 100px 50px 0 50px;
+}
+
+.sec-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 600px;
+  margin-left: 30px;
+}
+
+.brand {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+.brand button {
+  display: flex;
+  align-items: center;
+  background-color: #1c5380;
+  color: white;
+  padding: 10px 20px;
+  margin-right: 10px;
+  border-radius: 7px;
+}
+
+.brand button img {
+  padding-right: 10px;
+}
+
+.background {
+  display: flex;
+  flex-direction: column;
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  padding: 50px;
+}
+
+.background h1 {
+  color: #06365f;
+  font-size: 48px;
+  margin: 0;
+}
+.background p {
+  font-size: 20px;
+}
+
+.background img {
+  margin-right: 20px;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+footer ul li {
+  display: inline;
+  padding: 10px;
+  font-weight: 500;
+}
+
+footer ul li > a {
+  text-decoration: none;
+  color: #1c5380;
 }
