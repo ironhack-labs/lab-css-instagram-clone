@@ -8,3 +8,120 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+.section-1{
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: space-between;
+    align-items: flex-start;
+    position:absolute;
+}
+.text-main{
+  justify-content: flex-end;
+  border: 0px solid #fff;
+  background-color: #fff;
+  width: 25rem;
+  height: 18rem;
+  padding: 3rem;
+  font-weight: 500;
+  color:gray;
+  margin-right: 7rem;
+  border-radius: 0.5rem;  
+  border-style:outset;
+  z-index: 1000;
+  bottom: 4rem;
+  left: 20rem;
+}
+main {
+  --br: 0.25em;
+  border-radius: var(--br);
+
+  position: relative;
+  perspective: 300px;
+  transform-style: preserve-3d;
+}
+main::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-radius: var(--br);
+
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  transform: rotateX(-1deg);
+  transform-origin: center top;
+}
+h1{
+  color: #06365f;
+}
+nav{
+  background-image: linear-gradient(#567FA1,#49759A);
+  background-size: cover;
+}
+.div-button{
+  display: flex;
+  justify-content: flex-end;
+  align-content: space-between;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
+
+}
+.login-button{
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  padding-right: 1.5rem;
+  padding-left: 1rem;
+  background-image: linear-gradient(#567FA1,#49759A);
+  color: #fff;
+  font-weight:800;
+  font-size: 1rem;
+  border-color: #1c5380;
+  border-radius: 0.2rem;
+  margin-right: 11rem;
+
+}
+.home-image{
+  padding-right: 0.5rem;
+}
+.brand-image{
+  margin-right: 4rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+  flex-wrap: wrap;
+  flex-direction: row;
+  position: relative;
+  top: 25rem; 
+}
+
+a{
+  list-style: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #1c5380;
+}
+.phones-image{
+  margin-left: 8rem;
+  position: relative;
+  z-index: 1000;
+  bottom: 12rem;
+  left: 12rem;
+}
+
+.image-badge{
+  position: relative;
+  top: 3rem;
+  right: 0rem;
+}
+.badge-iphone {
+  margin-right: 1rem;
+}
