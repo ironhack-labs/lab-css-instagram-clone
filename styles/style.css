@@ -4,7 +4,153 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+* {
+    /* border: 1px solid pink; */
+    box-sizing: border-box;
+    color: #1A1A1A
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+header {
+  background-image: linear-gradient( to top, #396286, #547C9E );
+  height: 220px;
+}
+
+#iglogin {
+  position: absolute;
+  top: 90px;
+  left: 530px;
+  display: flex;
+  flex-direction: row;
+  width: 39%;
+  text-align: right;
+}
+
+main {
+height: 500px;
+}
+
+#whitebg {
+  position: absolute;
+  right: 30px;
+
+}
+
+#brandicon {
+  width: 250px;
+  margin: 0 170px 0 0;
+}
+
+#logbutton {
+  margin: auto 0 auto 60px;
+}
+
+button {
+height: 35px;
+width: 20%;
+margin: auto 0 auto -25px;
+background-image: linear-gradient(to top,
+#4B769B 0,
+#5F85A6 50%, 
+#4B769B);
+border: 1.2px solid #455c6e;
+box-shadow: 3px 4px 5px 0px rgba(46, 45, 46, 0.39);
+border-radius: 3px;
+}
+
+button img {
+  width: 25px;
+  margin: 5px 90px auto 0;
+}
+
+#buttontext {
+  position: absolute;
+  left: 427px;
+  top: 24px;
+  width: 12%;
+  color: #CFDAE4;
+  font-weight: bold;
+}
+
+section {
+  width: 100%;
+}
+
+#phonesimg {
+  width: 250px;
+  margin: 10px 0 -200px 40px;
+  position: absolute;
+  top: 100px;
+  left: 110px;
+}
+
+#framedsect {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin: 0 auto 0;
+  position: absolute;
+  top: 160px;
+  left: 550px;
+  /* background-image: url("images/frame.png"); */
+  height: 300px;
+  background-size: cover; 
+}
+
+h1 {
+width: 50%;
+margin: 38px 0 0px;
+z-index: 1;
+color: #06365f;
+}
+
+p {
+margin: 20px 0 0;
+width: 77%;
+font-size: 0.9rem;
+z-index: 1;
+}
+
+span {
+  font-weight: bold;
+}
+
+#downloadbuttons {
+margin: 20px 0 0;
+}
+
+#downloadbuttons img {
+  width: 140px;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+li {
+  list-style: none;
+}
+
+footer {
+  margin: 330px auto;
+}
+
+footer a {
+  color: #527B9F;
+  text-decoration: none;
+  margin: auto 10px;
+}
+
+#copyright {
+  color: #bbbbbd;
+}
+
+
