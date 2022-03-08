@@ -7,4 +7,109 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  width: 100%;
+  margin: 60px;
+  background:
+      linear-gradient(
+      180deg,
+      rgba(60, 98, 133, 1) 0%,
+      #1c5380 38%,
+      rgba(253, 253, 253, 1) 38%,
+      white 100%
+    )
+    top left repeat-x;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  margin: 30px;
+}
+
+button {
+  background-color:#1c5380;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  padding: 8px 10px;
+  text-align: center;
+  display: inline;
+  font-size: 12px;
+  margin: 20px;
+  box-shadow: 0 0 0.125em 1px rgba(0, 0, 0, 0.2),
+  0 1.5em 1.5em -0.5em rgba(255, 255, 255, 0.25) inset;
+}
+
+.img-home {
+  width: 20px;
+  margin-right: 5px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: white;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 3px 0px 20px rgb(182, 181, 181);
+  width: 60%;
+  height: 70%;
+  margin-left: 60px;
+}
+
+.container h1 {
+  color: #06365f;
+  font-size: 20px;
+  width: 75%;
+  margin: 0px 0px 0px 30px;
+}
+
+.container-text {
+  font-size: 12px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.container-img img {
+  width: 120px;
+  height: 40px;
+  margin: 10px;
+}
+
+.main-section {
+  display: flex;
+  margin: 50px;
+}
+
+.img-logo {
+  width: 250px;
+  margin-left: 30px;
+}
+
+/* .img-phone {
+  object-fit: contain;
+  width:20%;
+  height: auto;
+} */
+
+
+.footer {
+  list-style: none;
+  margin-left: 80px;
+}
+
+.footer li {
+  display: inline;
+  margin-right: 20px;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.footer-title {
+  color: #1c5380;
+}
+
+.footer-insta {
+  color: rgb(182, 181, 181);
 }
