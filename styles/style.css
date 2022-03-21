@@ -7,4 +7,96 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  /* background-image: url("images\bgtile.png");
+  background-repeat: repeat-x;
+  background-position: 10px 30px; */
+  /* background-color: burlywood; */
+  background: linear-gradient(to top, #1c5380, #1c5380a1);
+  background-position: top right;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.section1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 150px;
+}
+.section1 article{
+  margin: 20px;
+}
+
+.articleRight{
+  width: 580px;
+}
+.top{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 35px 0px;
+}
+.button{
+  background: linear-gradient(to top, #1c5380, #1c5380a1);
+  border: 1px solid #06365f;
+  padding: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80px;
+  border-radius: 5%;
+}
+.button a{
+  text-decoration: none;
+  color: white;
+}
+
+
+
+.white-box{
+  background-color: white;
+  background-image: url(/images/frame.png); /* Pq esto no funciona?!?!?! */
+  background-repeat: no-repeat;
+  padding: 40px;
+  border-radius: 10px;
+}
+.white-box p{
+  margin: 15px 0px;
+}
+.white-box h1{
+  color: #06365f;
+  font-size: 35px;
+}
+
+
+.download{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.download img{
+  margin: 15px;
+}
+
+
+.footer{
+  color: black;
+  font-size: 13px;
+  text-transform: uppercase;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-weight: bold;
+  color: #10304b;
+}
+.footer li{
+  padding: 20px;
+}
+.instagram{
+  color: gray;
 }
