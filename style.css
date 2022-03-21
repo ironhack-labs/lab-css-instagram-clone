@@ -1,0 +1,110 @@
+/*
+Colors to use:
+dark blue: #06365f
+light blue: #1c5380
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+    background: url("images/bgtile.png");
+    background-repeat: repeat-x;
+}
+
+h2 {
+    color: #06365f;
+    margin-bottom: 15px;
+    font-weight: bold;
+
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 50px 30px 50px;
+    
+}
+
+.section-first {
+    margin-left: 80px;
+}
+
+.section-second {
+    padding-left: 100px;    
+}
+
+
+.links-footer a {
+    color: #3877A7;
+
+}
+
+
+.title {
+    display: flex;
+    justify-content: center;
+    padding-right: 300px;
+
+}
+
+article {
+    background-color: white;
+    padding-right: 250px;
+    margin-top: 30px;
+    padding-top: 20px;
+    padding-left: 20px;   
+    border-radius: 4px; 
+    margin-right: 200px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+
+}
+.links-footer {
+    display: flex;
+    color: #06365f;
+    font-weight: bold;
+}
+
+.links-footer li {
+    margin: 10px;
+}
+
+.black-images {
+    margin-top: 30px;
+}
+
+.copyright {
+    color: lightgrey;
+    text-transform: uppercase;
+}
+
+.log-in {
+    background-color: #3877A7;
+    color: white;
+    width: 90px;
+    font-weight: bold;
+    height: 30px;
+    margin-left: 100px;
+    padding: 10px 10px;
+}
