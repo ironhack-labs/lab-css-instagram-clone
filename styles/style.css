@@ -19,63 +19,69 @@ body {
   justify-content: space-between;
   border: 10px;
   margin:50px;
+  margin-top: 120px;
+  padding-left: 130px;
+  padding-right: 130px;
 }
 
 .bigBox > div{
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
+  
 }
 
 
 .leftBox {
   display: flex;
   border: 10px;
+  padding-left:50px;
 }
 
 .rightBox {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  border: 10px;
+
 }
 
 .rightBoxUpper {
   display: flex;
   margin-top: 30px;
-  padding-right: 65px;
-  padding-left: 20px;
+  margin-bottom: 20px;
   justify-content: space-between;
-  border: 10px;
+  padding-left:5px;
+  padding-right:12px;
   align-items: center;
 }
 
 .rightBoxBottom {
-  
-  display: flex;
-  padding: 20px;
-  padding-right:30px;
+  background: url("../images/frame.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 article{
-  background: url("../images/frame.png");
-  background-repeat: no-repeat;
+  padding: 5px;
+  padding-right:30px;
+  
+
 }
 
 .logInButton {
   text-decoration: none;
-  border: 1px solid #163e5f;
+  border: 2px solid #255379;
   font-family: sans-serif;
   background-color: #1c5380;
   color: white;
   width: 120px;
   text-align: center;
-  padding-top: 8px;
+  padding-top: 10px;
   padding-right: 0px;
   padding-left: 0px;
-  padding-bottom: 8px;
+  padding-bottom: 10px;
   border-radius: 3px;
   font-weight: bold;
-  background-image: linear-gradient(#38688f, #1c5380);
+  background-image: linear-gradient(#6792b4, #3b74a1);
 }
 
 .logInButtonInside {
@@ -138,7 +144,7 @@ article{
 .backgroundImage{
     position:absolute;
     width:100%;
-    height:35%;
+    height:40%;
     left:0px;
     top:0px;
     z-index:-1;
