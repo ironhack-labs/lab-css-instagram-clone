@@ -108,13 +108,18 @@ a.button {
   color: white;
   font-weight: bold;
   padding: 6px 12px;
-  border-radius: 2px;
+  border-radius: 3px;
   border-width: 2px;
   border-style: solid;
   border-color: #06365f;
   width: 80px;
 }
 
-.insta {
+li.insta {
   color: grey;
 }
+
+div.flex-container.box {
+  justify-content: center;
+}
+
