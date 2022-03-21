@@ -8,3 +8,131 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 100 100 50 100;
+}
+.iphone {
+  width: 400px;
+  padding-left:100px;
+}
+.instagram-logo {
+  width: 300px;
+}
+
+.login {
+  border: 1px solid black;
+  text-decoration:none;
+  background-color: #1c5380;
+  color: white;
+  font: Helvetica;
+  font-weight: 600;
+  text-align: center;
+  display:flex;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.sup-right-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom:30px;
+  width:500px;
+}
+
+.bloque-derecho{
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  margin-left: 100px;
+  margin-right:100px;
+  justify-content: center;
+  text-align: left;
+  width: 800px;
+  height: 700px;
+  
+}
+
+section > div > article {
+  padding-top: 30px;
+  padding-left: 50px;
+  padding-right: 200px;
+  padding-bottom:10px;
+  background-image: url("https://github.com/mdelgado333/lab-css-instagram-clone/blob/master/images/frame.png?raw=true");
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font: "Helvetica Neue";
+  color: #06365f;
+  font-size: 25px;
+  line-height: 40px;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+p {
+  font: Helvetica;
+  font-size: 15px;
+  font-weight: 200;
+  padding-right:25px;
+}
+a {
+  font: "Helvetica Neue";
+}
+
+
+.badges {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.app-store {
+  width: 150px;
+  margin: 0 30 0 0;
+  padding: 0 50;
+}
+
+.play-store {
+  width: 150px;
+  margin: 0 0 0 30;
+}
+
+footer > ul > li > a {
+  text-decoration: none;
+  color: #1c5380;
+}
+footer > ul > li {
+  padding: 0 4px;
+  text-decoration: none;
+  list-style: none;
+  font-weight: 600;
+  color: #cdcdcd;
+}
+footer > ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.house{
+  padding-right:5px;
+}
+
+.blue {
+  position: absolute;
+  width:100%;
+  height:60%;
+  z-index:-1;
+}
