@@ -8,3 +8,28 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+*{
+  padding: 0;
+  margin: 0;
+  border: 1px solid red;
+}
+
+.flex-conteiner{
+  display: flex;
+  justify-content: center;
+}
+
+.titulo{
+  margin-bottom: 15px;
+}
+
+.box-two{
+width: 500px;
+margin: 30px;
+}
+
+.apps{
+  margin-top: 45px;
+}
+
