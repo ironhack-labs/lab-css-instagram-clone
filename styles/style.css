@@ -8,3 +8,106 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+header{
+  display: flex;
+  justify-content: center;
+  padding: 100px;
+
+}
+
+
+.instagram {
+  width: 500px;
+  margin-left: 17rem;
+  justify-content: center;
+  
+}
+
+.homeimg{
+  width: 70px;
+  margin-left: 30rem;
+  justify-content: left;
+  text-decoration: none;
+}
+
+
+.home{
+  width: 90px;
+  margin-left: 40rem;
+  text-decoration: none;
+  color: #06365f;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #06365f;
+}
+
+.telefonos{
+  background-image: url(C:\Users\sheri\OneDrive\Documentos\html-css3\lab-css-instagram-clone\images\phones.png);
+  width: 600px;
+  justify-content: center;
+}
+
+article  {
+  text-align: center;
+  display: block;
+}
+
+
+.information h1{
+  font-size: 3em;
+  color: #06365f;
+  text-align: left;
+  padding: 20px;
+  border-radius: 20px;
+  box-sizing: border-box;
+  margin: 50px 20% 0 20%;
+  justify-content: center;
+  margin-bottom: 10px;
+  
+}
+
+.information p{
+  font-size: 2em;
+  color: black;
+  text-align: left;
+  padding: 10px;
+  border-radius: 20px;
+  box-sizing: border-box;
+  margin: 50px 20% 0 20%;
+  justify-content: center;
+}
+
+
+.botones {
+  margin-top: 100px;
+}
+
+.apple{
+  width: 300px;
+  margin: 20;
+ 
+
+}
+
+.android{
+  width: 280px;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content:center;
+}
+
+.nav-bar a{
+text-decoration: none;
+color: #1c5380;
+font-size: 2em;
+margin: 10px;
+}
+
+.nav-bar ul{
+  display: flex;
+  list-style: none;
+
+}
