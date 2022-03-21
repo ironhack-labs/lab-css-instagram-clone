@@ -1,10 +1,128 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
+*{
+  margin: 0;
+  padding: 0;
+  position: relative;
+  z-index: 1;
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  font-size: 200;
+  background-image: url("/images/bgtile.png");
+}
+.white-background{
+  background-color: white;
+  position: absolute;
+  top:21%;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+  
+}
+.flex-main{
+  display: flex;
+  margin-left: 14%;
+  margin-right:10%;
+  margin-top:7%;
+  margin-bottom: -9%;
+  
+}
+.button-container{
+  margin-left: 105px;
+  margin-top:26px;
+}
+.button-container a{
+  background-image: linear-gradient(#7cabd1, #06365f);
+  height: 35px;
+  padding-right: 11px;
+  padding-left: 49px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  margin-top:3%;
+  text-decoration: none;
+  color:white;
+  font-weight: bold;
+  margin-left:20px;
+  border: 2px solid #31597a;
+  
+}
+.button-container img{
+  position:absolute;
+  margin-left: -38px;
+}
+.brand-container{
+  margin-right: 4%;
+
+}
+.flex-phones{
+  padding-right: 6%;
+}
+.brand-button-container{
+  display: flex;
+  padding-left: 0.5%;
+}
+.text-container{
+  background-image: url("/images/frame.png");
+  background-repeat:no-repeat;
+  background-size:100%;
+  padding-bottom: 30%;
+  padding-top: 4%;
+  padding-right:-20%;
+  width: 70%;
+}
+.text-title{
+  color:#06365f;
+  width: 60%;
+}
+.text-container{
+  padding-left: 7%;
+}
+.text-container p{
+  padding-top:5%;
+  padding-right: 10%;
+  text-align: justify;
+  width:80%;
+}
+.stores-container{
+  display: flex;
+  padding-top: 10%;
+}
+.ios-store-img{
+  padding-right:3%;
+}
+.footer-list{
+  display: flex;
+  margin-left: 24%;
+  padding-top: 0%;
+}
+.list{
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+  justify-content: center;
+  width: 600px;
+  
+}
+.list li{
+  width:100%;
+  padding-right: 4px;
+}
+.list li a{
+  text-decoration: none;
+  color:#1c5380;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: bold;
+  padding-right:14px;
+}
+.copyright{
+  color:grey;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+  margin-left: 15px;
+  margin-top:5px;
+}
+.flex-footer{
+  text-decoration: none;
 }
