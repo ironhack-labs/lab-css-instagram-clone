@@ -12,15 +12,25 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: url("../images/bgtile.png");
+  background-repeat: repeat-x;
 }
 
 nav {
-  width: 60%;
+  display: flex;
+  justify-content: center;
 }
 
 nav ul {
   list-style: none;
   text-transform: uppercase;
+  color:#1c5380;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+li {
+  margin-right: 20px;
 }
 
 .box {
@@ -32,7 +42,7 @@ nav ul {
 .container {
   margin-bottom: 50px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .navigation ul {
@@ -40,28 +50,56 @@ nav ul {
   justify-content: space-between;
 }
 
-.movil {
-  width: 200px;
+.movile {
+  width: 400px;
 }
 
-.articulo {
-  width: 600px;
+.article {
+  width: 500px;
 }
 
 .boton_box {
+  padding-top: 20px;
+  padding-bottom: 10px;
   display: flex;
   justify-content: space-between;
 }
 
+
 .boton {
   display: flex;
+  background-color: #1c5380;
+  color: white;
+  align-items: center;
+  padding: 15px;
 }
 
+.boton img {
+  padding-right: 10px;
+}
+
+
+h1 {
+  margin-bottom: 20px;
+  color:#06365f;
+}
+
+.text {
+  background: url("../images/frame.png");
+  padding: 40px;
+  background-repeat: no-repeat;
+}
+
+.
 section img {
   margin-right: 20px;
 }
 
 p {
   margin-bottom: 15px;
+}
+
+a {
+  text-decoration: none;
 }
 
