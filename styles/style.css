@@ -13,11 +13,14 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
   padding: 150px;
+  
 }
 
 .flex-container {
   display: flex;
   width: 90%;
+justify-content: center;
+margin: auto;
 }
 
 .header {
@@ -35,6 +38,7 @@ body {
   padding: 5px 10px;
   box-shadow: 2px 2px 10px 0 #06365f;
   border-radius: 3%;
+  
 }
 .header a img {
   margin: 5px;
