@@ -1,3 +1,10 @@
+/* RESET */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
 /*
 Colors to use:
 dark blue: #06365f
@@ -7,4 +14,73 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+/* HEADER */
+
+header {
+  background-image: url("../images/bgtile.png");
+  background-size: contain;
+  background-repeat: repeat-x;
+}
+
+/* MAIN */
+
+main {
+  display: flex;
+  justify-content: center;
+
+  margin: -130px 180px;
+}
+
+.iphones img {
+  margin-right: 50px;
+}
+
+.maintwo {
+  margin-left: 60px;
+  margin-right: 90px;
+}
+
+.APP-Google {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.APP-Google a {
+  margin-left: 13px;
+}
+
+.intagram-brand {
+  display: flex;
+  align-items: center;
+}
+
+.text {
+  margin-bottom: 40px;
+}
+
+.text p {
+  margin: 20px 0px;
+}
+
+h1 {
+  color: rgb(3, 82, 250);
+}
+
+/* FOOTER */
+
+footer ul li a {
+  text-decoration: none;
+  list-style: none;
+}
+
+footer ul {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 160px;
+}
+
+footer ul li {
+  list-style: none;
 }
