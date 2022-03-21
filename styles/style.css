@@ -3,8 +3,78 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  margin: 100px;
+  background: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+}
+.flex-box{
+  display: flex;
+}
+.h1 {
+  color: #06365f;
+  padding-top: 20px;
+}
+.footer {
+  color: #1c5380;
+  text-transform: uppercase;
+  font-weight: bold;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  margin: 40px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 60px;
+  padding-right: 60px;
+  width: auto;
+}
+.footer .terms {
+  color: lightgray;
+}
+.phone-box{
+justify-content: left;
+padding: 20px;
+margin: 40px;
+}
+.info-box{
+  justify-content: right;
+  padding: 20px;
+  margin: 40px;
+}
+.header-box{
+padding: 10px;
+margin: 25px;
+display: flex;
+justify-content: space-between;
+}
+.header-content-box{
+  padding: 40px;
+  padding-top: 20px;
+  margin: 25px;
+  background: url("../images/frame.png");
+  background-repeat: no-repeat;
+}
+a{
+  margin-top: 10px;
+}
+p{
+  padding: 10px;
+}
+.login{
+  color: white;
+  border: 1px solid black;
+  text-decoration: none;
+  padding: 10px;
+  margin: 15px;
+  font-weight: bold;
+  text-align: center;
+  background-color: #1c5380;
+  display: center;
+  
 }
