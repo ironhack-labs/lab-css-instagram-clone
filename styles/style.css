@@ -7,4 +7,102 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+.caja_central {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  /* top: 80%; */
+  /* left: 80px; */
+  bottom: 180px;
+  /* align-items: start; */
+  margin: auto;
+
+
+}
+.google {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 17%;
+   
+
+}
+.google2 {
+  display: flex;
+  justify-content: space-around;  
+
+}
+.google2 img{
+  margin-right: 5%;
+  
+
+}
+header {
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+}
+.imagentexto {
+  background-image: url("images/frame.png");
+}
+ul {
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+}
+a {
+  text-decoration: none;
+  text-transform: uppercase;    
+}
+li {
+  list-style: none;
+  margin: 10px;
+  color: #1c5380 ;
+}
+.imagenfondo {
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  justify-content: center;
+  padding-right: 60px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 80px;
+
+}
+.espacio {
+  display: center;
+}
+.login {
+    background-color:#1c5380; 
+    color: white; 
+    border: 3px solid #008CBA;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    align-items: center;
+    display: flex;
+}
+.iphone {
+  padding-right: 5%;
+}
+h1 {
+  color:#06365f ;
+  margin-bottom: 10px;
+}
+p {
+  margin-bottom: 10px;
+}
+.copy2014 {
+  color: gray;
+}
+footer {
+  bottom: 30px;
 }
