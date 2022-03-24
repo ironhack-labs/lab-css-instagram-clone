@@ -8,3 +8,121 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.div-one{
+ height: 300px;
+ background-color: #1c5380;
+ padding-top: 100px;
+}
+
+
+.div-two{
+  height: 600px;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items:center;
+  margin-top: -300px;
+}
+
+.box-head{
+ width: auto;
+ display:flex;
+ flex-direction: column;
+ justify-content:space-around;
+ align-items:center;
+  
+}
+
+.brand-div{
+  width: 700px;
+  display:flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items:center;
+ 
+}
+
+.loginBtn{
+  padding: 0px 15px 0px 15px;
+
+  background-image: linear-gradient( #06365f,#4b7091);
+  display:flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items:center;
+  box-shadow: 2px 2px 9px #aaaaaa;
+}
+
+.brand{
+  width: 200px; 
+  height: auto;
+}
+
+h2{
+font-size: 12px;
+padding: px;
+color: white; 
+font-weight: 700;
+margin-left: 10px;
+}
+
+.login{
+  width: 20px;
+  height: auto;
+ 
+}
+
+
+
+.box{
+width: 700px;
+height: auto;
+ background-image: url("/images/frame.png");
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center;
+ padding: 30px;
+
+}
+
+h1{
+  color:#06365f;
+  font-size: 28px;
+}
+
+p{
+  font-size: 20px;
+  font-weight: 500;
+  font-style: bold;
+  margin-top: -15px;
+}
+
+.stores{
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items:center;
+  
+}
+
+.stores img{
+  margin: 20px;
+}
+
+.footer{
+  margin: 50px  300px 150px 300px;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items:center;
+}
+
+h3{
+  font-size: 16px;
+  color:#06365f;
+}
+
+.copyright{
+  color: lightgray
+}
