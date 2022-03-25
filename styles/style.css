@@ -60,7 +60,13 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  border: 1px solid black
+  border-radius: 5px;
+  border: 1px solid grey;
+  border-image: linear-gradient(
+    to bottom,
+    grey,
+    white)
+    1;
 }
 
 .details h2 {
