@@ -3,8 +3,18 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  height: 100%;
+  background: linear-gradient(180deg, #1c5380 50%, #fff 50%);
+  background-repeat: no-repeat;
+}
+
+.phone-image {
+  display: flex;
+}
+
+.frame-box {
+
 }
