@@ -4,7 +4,173 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+html * {
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: 
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.155), rgba(0, 0, 0, 0.1)),
+    url("../images/bgtile.png");
+  background-repeat: repeat-x;
+  background-size: 100% 35%;
 }
+
+#main {
+  padding: 5% 20% 2% 10%; 
+  display: flex;
+  justify-content: center;  
+  align-items: stretch;
+}
+
+#login {
+  text-decoration: none;
+  color: white;
+  border: 1px solid #06365f;
+  border-radius: 5px;
+  background-image: 
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.155), rgba(0, 0, 0, 0.1)),
+    url('../images/home.png');
+  background-repeat: no-repeat;
+  background-position: left;
+  width:50px;
+  height:25px;
+  padding: 10px 15px 10px 35px;  
+  text-align: right;
+  background-position: 10%;
+  font-weight: bold;
+}
+
+#login a {
+  text-decoration: none;
+}
+
+#logo-container {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#left {
+  /* flex-grow: 1; */
+}
+
+#right {
+  margin-left: 40px;  
+  width: 500px;
+}
+
+#info > p {
+  width: 410px;
+}
+
+#info {
+  border-radius: 5px;
+  margin-top: 20px;
+  padding-left: 20px;
+  padding-top: 5px;
+  background-image: url('../images/frame.png');
+  background-position: 0% 0%;
+  background-repeat: no-repeat;
+  width:500px;
+}
+
+#info em {
+  text-decoration: none;
+  font-weight: bolder;
+  font-style: normal;
+}
+
+#app-store, #play-store{
+  padding: 16.5px 82px;
+  background-image: url('../images/badge-iphone.png');
+  background-repeat: no-repeat;
+  margin: 10px 10px;
+}
+
+#play-store{
+  background-image: url('../images/badge-android.png');
+}
+
+footer {
+  text-align: center;
+}
+
+footer ul{
+  list-style: none;
+  display: flex;  
+  justify-content: center;
+}
+
+footer ul li {
+  list-style: none;
+  padding: 0px 5px 0px 5px;
+}
+
+footer ul a {
+  text-decoration: none;
+  color: #6284a5;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.8rem;    
+}
+
+.copyright {
+  color: rgba(154,154,154,.75);
+  font-weight: bold;
+  text-transform: uppercase;  
+  font-size: 0.8rem;  
+  padding-top: 4px;  
+}
+
+.content{
+  width: 400px;
+  padding-left: 10px;
+  height: auto;
+}
+
+#phones {
+  height: auto;
+}
+
+h2 {
+  color: #06365f;
+  font-size: 1.5rem;
+  width: 250px;
+  font-weight: 600;
+  line-height: 1.5;  
+}
+
+@media (max-width: 414px) {
+  body {
+    background-size: 100% 30%;
+  }
+  #info {
+    width: 500px;
+    height: auto;
+  }
+  footer ul{
+    flex-wrap: wrap;
+  }
+  #right {
+    margin-left: 0px;
+  }
+  #left {
+    display: none;
+  }
+  #main {
+    padding: 5% 0% 2% 25%;
+  }
+  #logo-container{
+    justify-content: space-evenly;
+  }
+}
+
+@media (min-width: 415px) and (max-width: 610px) {
+  body {
+    background-size: 100% 33%;
+  }
+}  
