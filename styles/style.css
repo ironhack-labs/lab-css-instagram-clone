@@ -8,3 +8,101 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+main {
+  display:flex;
+  justify-content: space-evenly;
+  background: linear-gradient(180deg, #1c5380 42%, white 42%);
+}
+
+.left-body {
+  margin-top: 8rem;
+  display: flex;
+  align-items: stretch;
+}
+
+.right-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 8rem;
+  width: 40rem;
+}
+
+#right-body-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 80px;
+}
+
+#instagram-logo {
+  flex-grow: 2;
+}
+
+#home-image {
+  height: 30px;
+}
+
+#login-button {
+  border: solid 2px #06365f;
+  flex-grow: 1;
+  justify-content:space-evenly;
+  align-items: center;
+  height: 40px;
+  width: 20px;
+  list-style: none;
+  background: radial-gradient(#1c5380);
+  border-radius: 3px;
+  padding: 3px;
+}
+
+#right-body-middle {
+  display: flex;
+  flex-direction: column;
+  background-image: url(../images/frame.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+
+}
+
+#right-body-middle h2 {
+  width: 250px;
+  color: #06365f;
+  margin-left: 40px;
+}
+
+#right-body-middle p {
+  width: 450px;
+  line-height: 25px;
+  padding-bottom: 1px;
+  font-weight: 400;
+  margin-left: 40px;
+}
+
+#right-body-footer-images {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 350px;
+  margin-left: 40px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5rem;
+  color: #1c5380;
+  font-size: .75rem;
+  font-weight: 600;
+}
+
+#footer-links ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 600px;
+  list-style: none;
+  font-weight: 600;
+}
