@@ -95,4 +95,6 @@ nav {
 nav li {
   list-style-type: none;
   padding: 15px;
+  color: #456789;
+  font-weight: 600;
 }
