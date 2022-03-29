@@ -6,24 +6,25 @@ light blue: #1c5380
 
 body {
   height: 100%;
-  /* background: linear-gradient(180deg, #456789 30%, white 50%); */
+  background: linear-gradient(180deg, #456789 50%, white 50%);
   font: 200 16px/1.5 'Helvetica Neue', Helvetica, Arial, sans-serif;
   margin: 0;
-  /* background-repeat: no-repeat; */
+  background-repeat: no-repeat;
 }
 
-header {
+/* header {
   background-color: #456789;
   height: 400px;
-}
+} */
 .both {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   /* height: 1200px; */
+  margin-top: 160px;
 }
 
-.phoneimg {
+div.phoneimg {
   display: flex;
   /* justify-content: center;
   align-items: center; */
@@ -31,7 +32,8 @@ header {
 .phone {
   height: 700px;
 }
-.rightside {
+
+section.rightside {
   height: 500px;
 }
 .home {
@@ -55,8 +57,9 @@ header {
 }
 .login p {
   text-align: center;
-  font-size: 14px;
+  font-size: 1rem;
   color: white;
+  font-weight: bold;
 }
 
 article.card {
@@ -66,12 +69,14 @@ article.card {
   background-repeat: no-repeat;
   width: 700px;
   height: 500px;
-  padding: 10px;
+  box-sizing: border-box;
+  padding: 30px;
   margin-top: 10px;
+  border-radius: 20px;
 }
 h2 {
   width: 310px;
-  font-size: 30px;
+  font-size: 1.8rem;
 }
 .card p {
   width: 430px;
