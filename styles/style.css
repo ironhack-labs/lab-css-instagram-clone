@@ -3,6 +3,9 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+
+/* make two divs, top div for blue and bottom div for white. Putting everything within the white BG div.
+ Make it "position: absolute" and have its "top" to -20% or so. Then make blue dive be "position: relative" */
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
@@ -10,7 +13,14 @@ body {
   background: linear-gradient(180deg, #1c5380 50%, #fff 50%);
   background-repeat: no-repeat;
 }
+.page {
 
+}
+
+
+.btn span.icon {
+  background: url(../images/home.png)
+}
 .phone-image {
   display: flex;
 }
