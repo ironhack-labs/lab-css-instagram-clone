@@ -4,7 +4,122 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+html {
+  font-size: 16px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background: linear-gradient(#06365f, white);
+  margin: none;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  margin: 10px 30px 0 30px;
+  width: 100%;
+  
+  
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin : 50px;
+  
+}
+#main-image {
+  width: 40%;
+  height: auto;
+  margin : 70px 0 20px 20px;
+}
+article {
+  display: flex;
+  flex-direction: column;
+  margin : 80px 50px 50px 0;
+  align-items: center;
+
+}
+
+.images-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 0 20px 0;
+
+
+}
+
+#home-image {
+  width: 35px;
+  height: 35px;
+  margin: 20px 0 0 0;
+  
+  
+}
+
+#logo {
+  margin: 0 50px 0 0;
+
+  
+}
+
+.description {
+  background-color: white;
+  padding : 0px 50px 10px 50px;
+  border-radius: 10px;
+
+  background: linear-gradient(white, rgb(224, 224, 236));
+}
+
+h1 {
+  text-align: left;
+  font-size: 1.5rem;
+  color: #1c5380;
+  
+  
+
+  
+}
+
+p {
+  text-align: left;
+  font-weight: 400;
+  font-size: 0.8rem;
+  color: rgb(48, 45, 45)
+  margin:10px;
+  
+}
+
+.images-bottom {
+  display: flex;
+  justify-content: center;
+}
+.images-bottom img {
+  margin : 20px 20px 20px 5px;
+
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style-type: none;
+  
+  
+}
+
+footer {
+  margin: 10px, 80px;
+}
+
+li {
+  margin: 20px;
+  font-size: small;
+  color:  #1c5380;
+  font-weight: bold
+
+}
+
+#gray-text {
+  color: gray;
+
 }
