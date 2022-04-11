@@ -13,18 +13,97 @@ body {
   background: linear-gradient(180deg, #1c5380 50%, #fff 50%);
   background-repeat: no-repeat;
 }
+
+.nav-bar-section {
+  display: flex;
+  margin-top: 70%;
+  margin-left: 1%;
+}
+
 .page {
+  display: flex;
+  justify-content: center;
+}
+
+.Instagram-letters {
+  display: flex;
+  flex-direction: row;
 
 }
 
+.login {
+  display: flex;
+  background-color: #456789;
+  width: 80px;
+  height: 40px;
+  padding-right: 10px;
+  align-items: center;
+  border-radius: 3px;
+  margin-top: 73%;
+  margin-left: 25%;
+}
 
-.btn span.icon {
-  background: url(../images/home.png)
+.login p{
+  display: flex;
+  text-align: center;
+  font-size: 1rem;
+  color: white;
+  font-weight: bold;
+  margin-left: 1%;
 }
 .phone-image {
   display: flex;
-}
+  margin-top: 14%;
+  margin-left: 10%;}
 
 .frame-box {
+  display: flex;
+  margin-left: 5%;
+}
 
+.white-frame-box {
+  background-image: url('../images/frame.png');
+  background-repeat: no-repeat;
+  position: absolute;
+  margin-top: 28%;
+}
+
+.box-content {
+  width: 500px;
+  text-align: left;
+  margin-left: 10%;
+  margin-top: 8%;
+  margin-right: 20%;
+}
+
+.box-content h2 {
+  color: #06365f;
+}
+.box-content p {
+  margin-right: 20%;
+  font-size: 18px;
+}
+.badge-section {
+  display: flex;
+  flex-direction: row;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+.app-store  {  
+  margin-right: 4%;
+}
+.footer-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 12%;
+}
+
+.links {
+  padding-left: 1%;
+  padding-right: 1%;
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #1c5380;
+  font-weight: bold;
+  text-decoration: none;
 }
