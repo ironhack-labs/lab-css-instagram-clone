@@ -3,8 +3,94 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+* {
+  padding: 0;
+  margin: 0;
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+    margin: 0;
+    background-color: rgb(75, 75, 226);
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background: linear-gradient(rgb(0, 81, 128) 40%, transparent 40%) no-repeat;
 }
+
+.box {
+    display: flex;
+}
+
+.screenshot {
+    text-align: center;
+    padding: 5%;
+}
+
+.left {
+    height: 400px;
+    width: 400px;
+    padding: 5em;
+    margin-bottom: 50px;
+}
+
+.instagram {
+    display: flex;
+}
+
+.pic {
+    width: 50%;
+    height: 60%;
+    margin-right: 20px;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    background-color: rgb(66, 135, 175);
+}
+
+.ing {
+    width: 40%;
+    height: 70%;
+}
+
+.description {
+  margin-top: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: rgb(255, 255, 255);
+  /*background-image: url(https://raw.githubusercontent.com/ironhack-labs/lab-css-instagram-clone/master/images/frame.png);*/
+}
+
+.description h1 {
+  color: blue;
+}
+
+.description p {
+  margin: 20px 0;
+}
+
+.description div {
+  display: flex;
+}
+
+footer {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+footer ul {
+  color: blue;
+  padding: 20px;
+  font-size: small;
+  word-spacing: 10px;
+}
+
+footer p {
+  font-size: x-small;
+  color: rgb(192, 191, 189);
+} 
