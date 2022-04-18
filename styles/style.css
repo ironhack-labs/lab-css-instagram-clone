@@ -7,4 +7,112 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+}
+p {
+  font-size: 12px;
+}
+h2 {
+  font-size: 20px;
+  color: #06365f;
+}
+.box-one {
+  /*border: 1px solid red;*/
+  width: 100 vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.box-two {
+  /* border: 2px solid yellow;*/
+  display: flex;
+  flex-direction: row;
+  padding-top: 100px;
+}
+.black-box {
+  /*border: 2px solid black;*/
+}
+.phones-img {
+  /*border: 2px solid blue;*/
+  width: 260px;
+  padding-top: 100px;
+  padding-left: 200px;
+}
+.insta-logo {
+  /*border: 1px solid blue;*/
+  width: 208px;
+  margin-right: 20px;
+}
+.ff {
+  /*border: 2px solid red;*/
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.button {
+  /*border: 2px solid blue;*/
+  padding: 10px 10px 10px 10px;
+  background-color: #1c5380;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.1);
+}
+
+.button-img-logo {
+  width: 20px;
+}
+.log-in {
+  font-size: 15px;
+}
+.white-box {
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100%;
+  /*border: 2px solid salmon;*/
+  display: flex;
+  flex-direction: column;
+  z-index: -1;
+  padding: 10px 30px 10px 30px;
+}
+.last-box {
+  /*border: 2px solid red;*/
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-top: 8px;
+  padding-left: 20px;
+}
+.badge-iphone {
+  width: 140px;
+  margin-left: 14px;
+}
+.badge-android {
+  width: 130px;
+  margin-left: 15px;
+}
+.final-box {
+  /*border: 2px solid blue;*/
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
+  padding-bottom: 5px;
+}
+li {
+  color: #06365f;
+  font-weight: bold;
+  font-size: 10px;
+  padding-right: 25px;
+}
+#gray {
+  color: gray;
 }
