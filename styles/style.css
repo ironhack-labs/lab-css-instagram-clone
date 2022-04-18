@@ -7,4 +7,98 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+}
+
+.main {
+  display: flex;
+}
+
+#header {
+  align-items: center;
+  display: flex;
+  width: 100%;
+}
+
+#left {
+  justify-content: left;
+  margin: 100px;
+}
+
+#right {
+  justify-content: right;
+  margin-top: 120px;
+  width: 45%;
+}
+
+#whiteBox {
+  background: white;
+  padding: 20px;
+  position: relative;
+  width: 100%;
+  margin-top: 20px;
+}
+
+#whiteBox::after {
+  border-radius: 0 0 300px 300px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.25);
+  content: "";
+  display: block;
+  height: 350px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+}
+h2 {
+  color: #06365f;
+  padding-right: 200px;
+  padding-left: 20px;
+}
+
+button {
+  margin-left: auto;
+  padding: 10px 20px;
+  background-color: #1c5380;
+  border-style: none;
+  color: white;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button img {
+  padding-right: 5px;
+  width: 20px;
+}
+
+p {
+  padding-right: 150px;
+  padding-left: 20px;
+}
+
+.download {
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+a:link {
+  text-decoration: none;
+  color: #1c5380;
+  font-weight: bold;
+  margin: 10px;
 }
