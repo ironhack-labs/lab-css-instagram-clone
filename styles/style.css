@@ -8,3 +8,59 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.background {
+  position: absolute;
+  background-color: #06365f;
+  height: 50vh;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  padding: 100px 250px 100px;
+}
+
+
+.brandimg {
+  width: 120px;
+  padding-left: 64px;
+}
+
+.btn {
+  background-color: #1c5380;
+  border-left: 32px;
+
+}
+
+.rightside {
+  background-image: url(/images/frame.png);
+  background-size: 1100px;
+  background-repeat: no-repeat;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 64px;
+}
+
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+
+li {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  color: #1c5380;
+  padding: 10px;
+  font-size: 16px;
+  
+}
