@@ -53,3 +53,15 @@ Please find a screenshot of the expected result below:
 - [CSS Reference from MDN](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
 **Happy coding!** :heart:
+
+
+
+  Instagram Capture and Share the World's Moments Instagram is a fast, beautiful and fun way to share your life with
+    friends and family. Take a picture or video, choose a filter to transform its look and feel, then post to Instagram
+    - it's that easy. You can even share to Facebook, Twitter, Tumblr and more. It's a new way to see the world.
+    Oh yeah, did we mention it's free? 
+    
+    Download on the App Store Get it on Google Play 
+    
+    About Us Support Blog Press API
+    Jobs Privacy Terms &copy; 2014 Instagram

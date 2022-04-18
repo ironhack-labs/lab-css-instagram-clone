@@ -4,7 +4,75 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+    font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    background-image: url(/images/bgtile.png);
+    height: 38vh;
+}
+
+.content {
+    width: 60%;
+}
+
+.insta {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text {
+    background-image: url(/images/frame.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 80px;
+}
+
+.badges {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+h3 {
+    color: #06365f;
+    padding: 8px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    color: #06365f;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.login {
+    background-color: #1c5380;
+    color: white;
 }
