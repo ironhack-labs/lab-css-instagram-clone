@@ -4,7 +4,112 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+}
+
+.blue-black {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 40vh;
+}
+
+.brand {
+  margin-left: 12.5%;
+}
+
+.home {
+  background: linear-gradient(#91a7bc, #2f6998);
+  border: 1px solid #06365f;
+  padding: 8px 4px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  right: 20.5%;
+  width: 6vw;
+}
+
+.home > a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 0.9em;
+}
+
+.middle {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  margin-top: -6%;
+  left: 20%;
+}
+
+.phones img {
+  height: 80vh;
+  margin-top: -38%;
+  padding-right: 10%;
+}
+
+.instagram {
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  background-size: 60%;
+  padding: 0 2%;
+  width: 60vw;
+  margin-left: 3%;
+}
+
+.instagram h2 {
+  color: #06365f;
+  font-size: 2em;
+  width: 23vw;
+  padding-left: 2%;
+}
+
+.instagram p {
+  width: 30vw;
+  padding-left: 2%;
+}
+
+.instagram p span {
+  font-weight: bold;
+}
+
+.instagram img {
+  margin-top: 3%;
+}
+
+.download img {
+  width: 100px;
+}
+
+.end {
+  display: flex;
+  justify-content: center;
+  margin-top: 25%;
+}
+
+.end a {
+  text-decoration: none;
+  color: #1c5380;
+  font-weight: bold;
+  padding-right: 2%;
+  font-size: 0.8em;
+}
+
+.end span {
+  color: #d3d3d3;
+  font-weight: bold;
+  font-size: 0.8em;
 }
