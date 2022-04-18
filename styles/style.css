@@ -3,8 +3,116 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+* {
+  text-decoration: none;
+  list-style: none;
+}
+body {
+  background-image: url("/images/bgtile.png");
+  background-repeat: repeat-x;
+  /* background-size: cover; */
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  margin: 3rem;
+}
+h1 {
+  color: #1c5380;
+}
+.phone-img {
+  display: none;
+}
+
+.upper-bar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 1.5rem;
+}
+
+.btn-login {
+  background-color: #1c5380;
+  padding: 0.3em 0.8em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login {
+  color: white;
+  padding: 0.5em 0.7em;
+}
+
+.button-container {
+  margin: 2rem 0;
+}
+.info-container {
+  padding: 1.2rem;
+}
+.content {
+  background-image: url(/images/frame.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 0.9rem 2rem;
+  box-sizing: border-box;
+}
+
+footer > ul > li {
+  padding-right: 0.7em;
+}
+footer > ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer-links a {
+  color: #1c5380;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+@media (min-width: 650px) {
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+  }
+  .phone-img {
+    display: block;
+    padding-right: 5rem;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .upper-bar {
+    justify-content: flex-start;
+    gap: 150px;
+    padding-top: 0;
+  }
+
+  .button-container {
+    margin: 1rem 0;
+  }
+  .btn-login {
+    padding: 0.5em 1em;
+  }
+  .info-container {
+    width: 40vw;
+  }
+
+  .badges {
+    padding-top: 2rem;
+  }
+
+  footer {
+    margin-top: 10vh;
+  }
+  footer > ul {
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
 }
