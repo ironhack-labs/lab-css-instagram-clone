@@ -7,4 +7,73 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(/images/bgtile.png);
+  background-repeat: repeat-x;
+  display: flex;
+}
+
+body > section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  align-content: center;
+  margin: 18vw;
+}
+.title {
+  display: flex;
+  padding-top: 15vh;
+  padding-left: 5vw;
+}
+.text {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left: 2vw;
+  padding-top: 2vh;
+  margin-left: 5vw;
+  width: 35vw;
+}
+
+.text h1 {
+  color: #06365f;
+  width: 16vw;
+}
+.text p {
+  width: 27vw;
+}
+.badges {
+  display: flex;
+  margin-left: 7vw;
+}
+.android-badge {
+  padding-left: 2vw;
+}
+.button {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #1c5380;
+  border: 2px solid #06365f;
+  left: 70vw;
+  top: 20vh;
+  width: 7vw;
+  height: 5vh;
+  align-items: center;
+  justify-content: space-around;
+  align-content: center;
+  color: whitesmoke;
+}
+
+.footer-nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+}
+.footer-nav li {
+  color: #06365f;
 }
