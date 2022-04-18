@@ -45,11 +45,11 @@ body {
   background-color: #1c5380;
   color: white;
   padding: 10px;
-  border-radius: 10%;
+  border-radius: 10px;
 }
 #bottom {
   background-color: white;
-  border-radius: 15%;
+  border-radius: 25px;
   padding: 5%;
 }
 #bottom h1 {
