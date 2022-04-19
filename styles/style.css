@@ -76,11 +76,12 @@ div {
 
 .column-div {
   flex-direction: column;
-  text-align: left;
   max-width: 500px;
   background-color: white;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   border-radius: 0.4em;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .div-instagram-logo {
