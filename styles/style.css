@@ -8,3 +8,24 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.features {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  background-size: 100vh;
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat;
+  size: 85vh;
+  height: 25vh;
+  background-color: chartreuse;
+}
+
+.bg-white {
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+}
+
+.text-head {
+  display: flex;
+}
