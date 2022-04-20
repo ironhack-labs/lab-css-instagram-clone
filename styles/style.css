@@ -4,7 +4,115 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
-body {
+/*reset*/
+* {
+  margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body{
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image:  url(/images/bgtile.png);
+  background-repeat: repeat-x;
 }
+
+/*estructura*/
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  margin: 5% 20%;
+  width: 70%;
+
+}
+
+.column_container {
+  
+}
+
+
+.landing {
+  margin-right: 10%;
+  width: 50%;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+}
+
+.login {
+  background-color: #3a6890;
+  background-image: linear-gradient(#4e8ec6, #2e5271);
+  border: solid 1px #082E56;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  width: 85px;
+  height: 35px;
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+  font-size: 14px;
+  margin-top: 15px;
+  margin-left: 87px;
+  }
+.login img{
+  width:20px;
+  height: 18px;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.main {
+background-image: url(/images/frame.png);
+background-repeat: no-repeat;
+padding: 30px;
+width: 67%;
+}
+
+.main h1 {
+  color: #082E56;
+  font-size: 25px;
+  margin-bottom: 12px;
+}
+
+.main h2 {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 12px;
+}
+
+.main p {
+  font-size: 17px;
+  margin-bottom: 12px
+}
+
+.apps {
+  padding-left: 30px;
+}
+
+.apps img:last-child {
+  padding-left: 20px;
+}
+
+/*Footer*/
+footer {
+  font-size: 14px;
+  text-align: center;
+  font-weight: 550;
+  color: #6F91AF;
+  margin: 30px;
+  text-transform: uppercase;
+  
+}
+footer li {
+  display: inline;
+  margin-right: 15px;
+}
+
+footer li:last-child {
+  color: lightgray;
+  margin-right: 0;
+}
+
