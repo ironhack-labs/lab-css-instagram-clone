@@ -3,8 +3,81 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
+html{
+  font-family:sans-serif;
+  font-size: 20px;
+}
 body {
+  height: 200vh
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  padding: 90px 200px;
+  background: linear-gradient(
+    to bottom,
+    #1c5380 0%,
+    #1c5380 50%,
+    white 50%,
+    white 100%
+  );
+  
+}
+.mainContainer{
+  display: flex;
+  justify-content: space-around;
+  gap: 50px;
+}
+.smalerContainer {
+  margin: 20px;
+}
+.imagesContainer{
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+  margin-bottom: 20px;;
+}
+
+.instagramLogo{
+  width: 300px;
+}
+.haus {
+  width: 20px;
+}
+.logInButton {
+  color: aliceblue;
+  background-color: #27608f;
+  padding: 10px;
+  font-size:larger;
+  border: 1px solid #06365f;
+  border-radius: 10px;
+  
+}
+.textContainer{
+  background-color: white;
+  padding:  20px 20px 10px 20px;
+  flex-wrap: wrap;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-left: 2px solid rgb(180, 177, 177);
+  border-right: 2px solid rgb(180, 177, 177);
+}
+h2 {
+  color: #06365f;
+}
+.linksContainer {
+  display: flex;
+  justify-content: flex-start;
+gap: 20px;
+padding: 0 10px;
+margin-top: 30px;
+}
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap:10px;
+  color: #06365f;
+  margin-top: 60px;
+}
+.copyright {
+  color:gray
 }
