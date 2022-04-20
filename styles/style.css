@@ -4,7 +4,107 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+*{
+margin: 0;
+}
+
+h1{
+  color:#06365f ;
+  text-align:left;
+}
+
+.color{
+  color: #1c5380;
+  font-weight: bold;
+  
+  
+}
+
+.color2{
+  color: gray;
+  
+}
+a{
+  font-weight: bold;
+}
+
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+ 
+  background-image: url("/images/bgtile.png");
+  background-repeat:repeat-x;
+  background-position: center top;
+ 
 }
+
+.long{
+border-style:solid ;
+border-radius:2px;
+width: 100px;
+height: 30px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+border-color: #547c9c ;
+background-color: #4377a1;
+color: white;
+
+
+}
+.principal{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+    max-width: 500px;
+    margin-top: 50px;
+    margin-left: 560px;
+  
+    
+  }
+
+
+.capture{
+
+  width: 450px;
+  height: 350px;
+  border-radius: 3px;
+  background-color:white;
+  padding: 50px;
+  text-align:justify;
+ 
+}
+ .phones{
+   padding-left: 150px;
+  
+ }
+
+.section{
+  display: flex;
+  justify-content: space-around;  
+  
+}
+
+.divide{
+ padding-top: 100px;
+ padding-right: 200px;
+
+}
+
+ 
+.pies ul{
+  display: flex;
+  list-style: none;
+  margin:20px;
+  align-items: center;
+  justify-content: space-around;
+  padding: 100px 300px;
+  text-transform: uppercase;
+  font-size: small;
+  
+  
+}
+
+
+
+
