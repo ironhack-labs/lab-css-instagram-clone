@@ -7,4 +7,121 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url(/images/bgtile.png);
+  background-repeat: repeat-x;
+  
+}
+
+
+div.container{
+  width:100%;
+  height: 100vh;
+  border:3px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+
+
+div.main{
+  margin-top: 260px;
+  width:60%;
+  height:60%;
+  margin-bottom: 100px;
+}
+
+
+div.left{
+  width: 48%;
+  height: 100%;
+  float: left;
+}
+
+div.left img{
+  display: block;
+  margin: 0 auto;
+  margin-top: 25px;
+  
+}
+
+div.right{
+  width: 50%;
+  height: 100%;
+  float: left;
+  display: flex;
+  flex-direction: column;
+}
+
+div.header{
+  width: 100%;
+  height: 15%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div.header img{
+  margin-top: 10px;
+  width:300px;
+}
+
+button.home{
+  width:80px;
+  height:40px;
+  background-color: #1c5380;
+  color: white;
+  font-weight: bolder;
+ 
+}
+
+button.home img{
+  width:15px;
+  height:15px;
+
+
+}
+
+
+div.info{
+  width: 100%;
+  height: 85%;
+  
+}
+
+
+h1{
+  width: 380px;
+  color: #06365f;
+}
+span{font-weight: bold;}
+
+p.info{
+  margin:10px;
+}
+
+
+div.footer{
+  margin-top: 140px;
+  width: 100%;
+  height: 10%;
+  
+}
+
+nav ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+nav ul li{
+  margin: 20px;
+  list-style: none;
+}
+nav ul li a{
+ text-decoration: none;
+
 }
