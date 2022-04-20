@@ -7,4 +7,157 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  max-width: 900px;
+  max-height: 900px;
+  padding: 15px;
+}
+
+.all-container{
+  padding: 15px;
+  background-image:url(/images/bgtile.png);
+  background-repeat: repeat-x;
+}
+
+
+/* 
+background-image: linear-gradient(
+      to bottom,
+      #3d6c92 0%,
+      #06365f 33%,
+      white 33%,
+      white 100%
+  )
+*/
+
+/* Main section */
+.main{
+  padding: 10px;
+  display: flex;
+}
+
+#all-info{
+  display: flex;
+  flex-direction: column;
+}
+
+.main2{
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* Phones section */
+#phones{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#phones img{
+  height: 85%;
+}
+
+/* Info section */
+.button{
+  width: 100%;
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#btn{
+  background-color: #487193;
+  border: 1px solid #06365f;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100px;
+}
+
+.lg{
+  height: 85%;
+}
+
+.banner-card{
+  position: relative;
+}
+
+.banner-card img{
+  max-width: 100%;
+  height: auto;
+}
+
+.banner-text h2{
+  color: #06365f;
+}
+
+.banner-text{
+  height: 80%;
+  width: 80%;
+  position: absolute;
+  top: 0;
+  padding-top: 20px;
+  padding-left: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.banner-text p{
+  font-size: 13px;
+  width: 100%;
+}
+
+.phone-stores{
+  width: 100%;
+  display: flex;
+}
+
+.phone-stores img{
+  padding-left: 40px;
+  height: 90%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Navaigation Bar */
+.nav-bar{
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.list{
+  display: flex;
+  list-style: none;
+  font-size: 12px;
+}
+
+a{
+  text-decoration: none;
+  font-weight: bolder;
+  color: #487193;
+  padding: 0 10px;
+}
+
+.copyright{
+  font-weight: bold;
+  color: rgb(199, 199, 199);
 }
