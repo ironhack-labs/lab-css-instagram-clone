@@ -7,4 +7,112 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  background-image: url(/images/bgtile.png);
+  background-repeat: repeat-x;
+  margin-top: 35px;
+}
+
+/*Header*/
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#headerRight {
+  display: flex;
+  flex-direction: column;
+  max-width: 450px;
+  margin-left: 35px;
+}
+
+.intro {
+  width: 500px;
+  background-image: url(/images/frame.png);
+  background-repeat: no-repeat;
+  background-size: 500px;
+  border-radius: 20px;
+}
+
+.intro h1 {
+  max-width: 250px;
+  padding-left: 30px;
+  color: #06365f;
+  background-color: white;
+  margin-left: 10px;
+  margin-bottom: 0%;
+}
+
+.intro p{
+  max-width: 453px;
+  padding-left: 30px;
+  background-color: white;
+  margin-left: 8px;
+  border-top: 10px;
+  border-color: white;
+  margin-top: 0%;
+}
+
+#eShops {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 35px;
+}
+
+#playStore {
+  padding-left: 20px;
+} 
+
+#brand {
+  display: flex;
+  width: 525px;
+}
+
+#igBoton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 35px;
+  margin-left: 50px;
+  border:  0.5px solid #3c6d96d8;
+  box-shadow: 0.1px 0px 1px 1px #3a5e7c;
+  background: linear-gradient(#7ca0bed8, #486a86);
+  padding-top: 2px;
+  margin-top: 17px;
+  color: white;
+}
+
+#igBoton img{
+  height: 20px;
+  padding-right: 10px;
+}
+
+/*footer*/
+
+footer ul{
+  width: 1000px;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+footer li{
+  margin: 5px;
+  color: #1c5380;
+  margin-top: 17px;
+  padding-left: 5px;
+}
+
+footer li:last-child {
+  color: gray;
 }
