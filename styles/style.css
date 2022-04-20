@@ -7,4 +7,89 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  /*imagen azul de fondo*/
+  background: url(../images/bgtile.png) repeat-x;
+  margin-left: 225px;
+}
+
+.box-one {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  position: static;
+  margin: 50px;
+}
+
+.box-phones img{
+  height: 500px;
+  margin-right: 50px;
+  width: 300px;
+}
+
+.box-three {
+  display: flex;
+  margin-top: 20px;
+}
+
+
+.box-three .insta img{
+  margin-right: 80px;
+}
+
+.home {
+  display: flex;
+  flex-direction: row;
+  margin-top: 25px;  
+  border-bottom: 5px outset #668bab;
+  border-radius: 5px;
+  height: 35px;
+  justify-content: center;
+  width: 100px;
+}
+
+.home img{
+  width: 30px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+.home a {
+  text-decoration: none;
+  color: white;
+ }
+
+ .box-four {
+  background: url(../images/frame.png) no-repeat;
+  width: 50%;
+  padding: 1px 100px;
+  align-content: center;
+  text-align: left;
+ }
+
+ .box-four h1 {
+  color: #032951;
+  font-size: 25px;
+}
+
+.buttons {
+  margin-left: 25px;
+}
+
+footer {
+  display: flex;
+  margin-left: 170px;
+}
+
+footer ul {
+  display: flex;
+  text-transform: uppercase;
+  list-style: none;
+  color: gray;
+  font-weight: bold;
+  font-size: 10px;
+}
+
+.space-letter {
+  margin-right: 10px;
+  color: #1c5380;
 }
