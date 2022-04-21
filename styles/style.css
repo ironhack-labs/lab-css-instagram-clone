@@ -4,33 +4,131 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  margin: 0; 
+  max-width: 100vw;
+  background-image: url(images\bgtile.png);
+  background-repeat: repeat-x;
 }
 
-.phones {
-  
+@media(max-width: 800px) {
+  body {
+    margin: auto;
+    max-width: 100%;
+  }
+  div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
+nav {
+  width: 100%;
+  margin-top: 2rem;
+}
 .navigation {
   list-style: none;
-  margin: 0; 
-  background: white;
+  margin: 0;
   display: flex;
   justify-content: center;
+  flex-flow: row wrap; 
+  gap: 1rem;
   
 }
-.navigation a  {
+.navigation a {
   text-decoration: none;
-  padding: 1em;
-  
+  display: block;
+    
+  font-weight: bold;
 }
+
 li {
   color: #1c5380;
-  font-size: large;
-  justify-content: space-around;
 }
-#gray {
+#copyright {
   color: gray;
 }
+
+
+div {
+  margin-top: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+@media (max-width: 800px) {
+  .main-div {
+    display: block;
+  }
+  .badge-imgs {
+    flex-direction: row;
+  }
+  .instagram-img {
+    display: flex;
+    align-items: center;
+    margin-left: 80px;
+  }
+}
+
+.main-div {
+  margin-left: 2rem;
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+}
+
+.column-div {
+  text-align: left;
+  flex-direction: column;
+  max-width: 100%;
+  background-color: white; 
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 0.4em;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.div-instagram-logo {
+  background-image: url(images\bgtile.png);
+  background-repeat: repeat-x;
+  display: flex;
+  max-width: 100%;
+}
+
+.title {
+  color: #06365f;
+  
+}
+
+.instagram-img {
+  margin-right: 3rem;
+  max-width: 100%;
+}
+
+
+#btn {
+    background-color: #4367a7;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    width: 100px;
+    height: 40px;
+    border: none;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;  
+}
+
+.badge-imgs {
+  gap: 2rem;
+  max-width: 100%;
+}
+  
+
+
+
+
