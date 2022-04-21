@@ -1,10 +1,89 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
 
-body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+.header {
+    display: flex;
+    transform: translateY(-25vh);
+    justify-content: space-around;
+}
+
+.header .phone {
+    width: 10%;
+}
+
+.content {
+    background: white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 90%;
+    padding: 20px;
+}
+
+.content p {
+    line-height: 1.5;
+}
+
+.stores {
+    margin-top: 15px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo button img {
+    margin-right: 8px;
+}
+
+.logo button {
+    height: 70%;
+    background: linear-gradient(#6f92b0, #4b769b);
+    padding: 7px 11px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #00000036;
+}
+
+.footer ul {
+    display: flex;
+    width: 50%;
+    margin: auto;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.footer ul li {
+    color: #4e7698;
+    font-weight: bold;
+}
+
+.footer ul li:last-of-type {
+    color: gray;
+    opacity: 0.8;
+}
+
+.footer {
+    transform: translateY(-15vh);
+}
+
+.content h2 {
+    color: #10385f;
+}
+
+.header .capture {
+    width: 40%;
+}
+
+.back {
+    background: #4e7698;
+    height: 40vh;
 }
