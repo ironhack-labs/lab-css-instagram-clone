@@ -6,5 +6,112 @@ light blue: #1c5380
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+}
+.columnas{
+  display: flex;
+  flex-direction: row;
+  padding: 60px 150px;
+
+}
+.divImagenIphones {
+  width: 70%;
+  margin-right: 80px;
+}
+.divImagenIphones img{
+  width: 100%;
+  height: 500px;
+}
+.divColumnaDerecha{
+  margin-top: 15px;
+}
+.divImagenInsta{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.divImagenInsta img{
+  width: 100%;
+}
+.divImgINStaLetras{
+  width: 70%;
+}
+.DivLog{
+  display: flex;
+  flex-direction: row;
+  background-color: #06365f;
+  width: 15%;
+  align-items: center;
+  height: 40px;
+  margin-top: 33px;
+  border: 2px solid rgb(0, 39, 84);
+  border-radius: 2px;
+
+}
+
+.DivLog img{
+  width: 30%;
+  height: 18px;
+  margin-right: 8px;
+  margin-left: 5px;
+}
+
+.DivLog a{
+height: 20px;
+width: 100%;
+color: white;
+text-decoration: none;
+margin-bottom: 5px;
+padding-right: 2px;
+
+
+}
+.backgroundBlue{
+  height: 335px;
+  background-color:#1c5380 ;
+  display: flex;
+}
+.text{
+  background-color: white;
+  padding: 30px;
+  border-radius: 6px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, .5)
+}
+
+.text h2{
+  color: #1c5380;
+  margin-bottom: 20px;
+}
+.text p {
+  font-size: 13px;
+}
+.Dispositivos{
+  display: flex;
+  flex-direction: row;
+}
+.Dispositivos div{
+  margin-top: 10px;
+  margin-right: 30px;
+}
+.Dispositivos img{
+  width: 100%;
+}
+ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
+}
+
+ul a{
+  margin: 0 20px;
+  text-decoration: none;
+  color: #1e619c;
+  font-size: 13px;
+  font-weight: bolder;
+}
+ul p{
+  font-size: 13px;
+  margin-left: 20px;
+  color: rgba(0, 0, 0, 0.523);
+  
 }
