@@ -1,0 +1,166 @@
+body{
+  /*dark blue: #06365F;
+  light blue: #1C5380;*/
+  box-sizing: border-box;
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-image: url("https://raw.githubusercontent.com/miguelbanos95/lab-css-instagram-clone/master/images/bgtile.png");
+  margin-top: -10px;
+  background-repeat: repeat no-repeat;
+}
+
+.top-right{
+  display: flex;
+  width: 500px;
+  height: 500px;
+  float: right;
+  margin-right: 10%;
+  position: relative;
+  flex-direction:column;
+  margin-top: 130px;
+}
+
+
+  .top-bar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 100px;
+  margin-top: -20px;
+  }
+
+
+.textbox{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 300px;
+  height: 290px;
+  flex-direction: column;
+  background-image: url("https://github.com/ironhack-labs/lab-css-instagram-clone/blob/master/images/frame.png");
+  background-repeat: no-repeat;
+  }
+
+
+.apps{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  margin-top: 10px;
+  margin-left: 35px;
+  width: 500px;
+  height: 110px;
+  }
+
+.brand{
+ display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 800px;
+  height: 100px;
+  }
+  
+  .brand{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 40px;
+  background-color: #1C5380;
+  border: 1px solid black;
+  margin: 0px;
+  padding: 0px;
+  border-radius: 5px;
+  }
+
+
+  .login-bar{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 500px;
+  height: 190px;
+   margin: 3%;
+  }
+
+
+.home-logo{
+ display: flex;
+  justify-content: flex-start;
+  align-items: center;  
+}
+
+.login{
+  padding: 5%;
+  font: 200 20px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: white;
+  font-weight: bold;
+}
+
+.text-style1{
+  margin-left: 35px;
+  font:25px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color:  #1C5380;
+  font-weight: bold;
+  margin-top: 18px
+}
+
+.text-style2{
+  font: 200 15px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-left: 35px; 
+}
+
+
+a{
+  font: 15px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+
+.app-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-right: 30px;
+}
+
+
+
+.cellphone{
+  margin: 75px ;
+  display: flex;
+  align-items: center;
+  width: 500px;
+  height: 500px;
+  float: left;
+  margin-right: 10%;
+  flex-direction:row;
+  margin-top: -500px;  
+}
+
+
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+
+.footer-style{
+font: 10px "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-weight: bold;
+color:  #1C5380;
+margin: 15px;
+}
+
+
+#copyright{
+font: 10px "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-weight: bold;
+color:  grey;
+margin: 15px;
+}
