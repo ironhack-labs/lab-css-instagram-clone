@@ -4,7 +4,129 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
-body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+*{
   margin: 0;
+  padding: 0;
+  /* border: 1px solid red; */
+}
+body {
+  padding-left: 200px;
+  padding-right: 100px;
+  background-image:url("../images/bgtile.png");
+  background-repeat: repeat-x;
+  background-size: 100% 420px;
+  font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.main {
+  display: flex;
+  justify-content:space-evenly;
+  /* text-align: justify; */
+}
+.izq, .der{
+  width: 35%;
+  height: 100vh;
+  margin-top: 50px;
+  padding: 5px;
+}
+.izq{
+  display: flex;
+  justify-content: flex-end;
+}
+.der{
+  width: 50%;
+}
+.texto {
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+  border-radius: 15px;
+}
+.header{
+  width: 100%;
+  height: max-content;
+  display: flex;
+  justify-content: space-between;
+  background-color: #3A6890;
+  align-items: center;
+}
+.header > img{
+  float: left;
+  max-width: 400px;
+  width:70%;
+  margin-bottom: 30px;
+}
+
+
+
+.boton{
+  border: 2px solid #06365F;
+  display: flex;
+  float: right;
+  width:fit-content;
+  font-size: x-large;
+  width: 250px;
+  height: 75px;
+  justify-content: space-around;
+  padding: 15px;
+  background: linear-gradient(180deg, #3A90D6, #345776 );
+  box-shadow:10px 0 10px #06365F;
+}
+.boton h3{
+  align-self: center;
+  float: right;
+  font-size: xx-large;
+  color: #fff;
+  font-weight: bolder;
+}
+.texto{
+  font-size: 30px;
+  padding: 0;
+  height: 100%;
+}
+
+  p {
+  margin: 30px;
+  padding: 5px;
+
+}
+h2 {
+  margin: 10px;
+  padding: 25px;
+  padding-bottom: 5px;
+  color: #06365F;
+}
+.imagenes {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 160px;
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+  font-size: xx-large;
+  padding: 10px;
+  margin-right: 10px;
+  font-weight: 600;
+}
+.navbar {
+  margin: 0 auto;
+  display: flex;
+}
+
+li {
+  padding-top: 30px;
+  padding-bottom: 100px;
+  display: block;
+  font-size: medium;
+  justify-content: center;
+  float: left;
+  margin-right: 50px;
+  color: #1C6CB1;
+  margin-top: 100px;
+}
+.claro{
+  color:lightgray
 }
