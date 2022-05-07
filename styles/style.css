@@ -1,10 +1,118 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
-
+ody {
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+}
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+header {
+  background-image: url(../images/bgtile.png);
+  background-position: 0 0;
+  background-repeat: repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 38vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.phones,
+.container {
+  margin-top: 80px;
+}
+
+.container {
+  padding-left: 50px;
+}
+
+.head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.login {
+  background-image: url(../images/home.png),
+    linear-gradient(rgb(167, 202, 231, 0.5), rgb(63, 114, 155));
+  background-repeat: no-repeat;
+  background-position: 10px center, 0 0;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  width: 90px;
+  height: 40px;
+  box-shadow: 0px 0px 5px 0.1px #06365f;
+  border-radius: 3px;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  padding-right: 15px;
+}
+
+.login img {
+  width: 25px;
+  height: 25px;
+  display: flex;
+  align-self: center;
+}
+
+.info {
+  height: 420px;
+  width: 460px;
+  padding: 25px;
+  margin-top: 20px;
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: 100%;
+  /*   box-shadow: 0px -6px 5px 1px rgb(47, 47, 47, 0.5); */
+}
+
+.info h1 {
+  margin: 0;
+  font-size: 28px;
+  color: #06365f;
+  font-weight: bold;
+  width: 290px;
+}
+
+.download img {
+  padding: 5px;
+}
+
+footer ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+footer ul li {
+  list-style: none;
+  padding: 10px;
+}
+
+footer ul li a {
+  color: rgb(63, 114, 155);
+  font-weight: bold;
+}
+
+footer ul li a {
+  text-decoration: none;
+}
+
+footer li {
+  color: rgb(102, 102, 102);
 }
