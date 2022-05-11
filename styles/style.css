@@ -8,3 +8,84 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.mainBlock{
+  display: flex;
+  justify-content: center;
+}
+
+.firstBlock{
+  display: flex;
+  justify-content: center;
+}
+
+.firstBlock > div{
+  display: flex;
+  justify-content: space-around;
+}
+
+.firstBlock__text-title{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.firstBlock__text-login{
+  display: flex;
+  justify-content: space-around;
+  width: 4vw;
+  padding: 0.4vw;
+  background-color: rgb(70, 155, 235);
+  border-radius: 4%;
+  border: 0.1px solid rgb(29, 126, 216);
+  box-shadow: 2px 3px 5px rgb(56, 144, 226);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.firstBlock__text-content{
+  border: 0px solid white;
+  box-shadow: 0px -2px 10px black;
+  padding: 1vw;
+}
+
+.firstBlock__apps > img{
+  margin-top: 2vh;
+  cursor: pointer;
+  padding-right: 1vw;
+}
+
+.firstBlock__text-content > h2{
+  width: 55%;
+  color:rgb(7, 69, 128);
+}
+
+.firstBlock__img{
+  width: 30%;
+}
+
+.firstBlock__text{
+  width: 30%;
+  flex-direction: column;
+}
+
+
+.thirdBlock__footer{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 10vh;
+}
+
+.thirdBlock__footer > a{
+  padding-right: 0.5vw;
+  padding-left: 0.5vw;
+  text-decoration: none;
+}
+
+.thirdBlock__footer > *{
+  font-size: 0.5vw;
+  font-weight: bold;
+  text-transform: uppercase;
+}
