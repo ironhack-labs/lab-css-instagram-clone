@@ -107,6 +107,7 @@ li:last-child{
   box-shadow:0px -1px 7px #192d42;;
   background-image:linear-gradient( 0deg, #3D6186 30%, #6e87a0 );
   position:relative;
+  transition: all 0.5s ease ;
 }
 
 .LogInButton img{
@@ -118,6 +119,14 @@ li:last-child{
   font-weight:bold;
 }
 
+.LogInButton:hover{
+  filter:brightness(1.05);
+  transform:scale(1.05);
+}
+
+.LogInButton:active{
+  background-position: bottom;
+}
 .shadowPurpose{
   width:100%;
   height:50%;
@@ -134,3 +143,4 @@ li:last-child{
   margin-top:10px;
   margin-right:10px;
 }
+
