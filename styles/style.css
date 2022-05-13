@@ -4,7 +4,114 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+/* * {
+  border: 1px solid rgb(202, 202, 202);
+} */
+
+/* * {
+  box-sizing: border-box;  
+} */
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+.flex {
+  display: flex;
+}
+
+#background-header {
+  height: 300px;
+  background-image: url("../images/bgtile.png");
+
+}
+
+.tile-img {
+  width: 100vw;
+  height:250px;
+}
+
+.main-container {
+  justify-content: center;
+  position: relative;
+  top: -150px;
+  gap: 50px;
+}
+
+.info-container {
+  width: 500px;
+ }
+
+ .frame-img {
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+ }
+
+.text-container {
+  margin-top: 1.5rem;  
+  padding: 1rem;  
+}
+
+h1 {
+  color: #06365f;
+  line-height: 2.5rem;
+}
+
+.line1 {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.log-in-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgb(146, 145, 145);
+  width: 120px;
+  background: linear-gradient(180deg, rgba(110,147,177), rgba(65,108,154));
+  border: 2px solid rgb(51,94,133);
+  text-align: center;
+  height: 50px;
+  border-radius: 5px;
+}
+
+.log-in-btn a {
+  color: white;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.log-in-btn img {
+  position: relative;
+  top: 2px;
+  right: 5px;
+}
+
+.store-img {
+  margin-left: 1rem;
+}
+
+/* Footer */
+.footer-ul {
+  display: flex;
+  direction: row;
+  justify-content: center;
+  list-style: none; 
+  gap: 30px; 
+}
+
+footer {
+  margin-top: 0px;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+footer a {
+  color: #1c5380;
+  text-decoration: none;
+  
+}
+
+.copyright-text {
+  color:rgb(136, 136, 136);
 }
