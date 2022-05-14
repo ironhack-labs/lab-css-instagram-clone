@@ -1,10 +1,136 @@
 /*
 Colors to use:
-dark blue: #06365f
+#06365f
 light blue: #1c5380
 */
+
+* {
+  box-sizing: border-box;
+
+  outline: 5px ;
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  width:100%;
+  height: 100%;
+}
+
+.fundo {
+ height: 300px;
+  width: 100%;
+  order: -10;
+  position:absolute;
+}
+.opacity-background {
+  position: absolute;
+  height: 65%;
+  width: 112%;
+  top: -45%;
+left:-10%;
+order: -1;
+}
+
+.phones {
+  display: flex;
+position: relative;
+left: 18%;
+top: 80px;
+height: 600px;
+z-index: 2;
+}
+
+button {
+  background-color:#1c5380;
+  color: white;
+  font-size: 1rem;
+   letter-spacing: 0.5px;
+text-align:right;
+  text-decoration: none;
+  padding: 10px 10px 10px 5px;
+  order: -1;
+  position: relative;
+  width: 120px;
+  left: 80%;
+  top: -53px;
+}
+
+.home {
+  position: absolute;
+  left: 82%;
+  height: 23px;
+  top: 5%;
+  z-index: 2;
+}
+
+
+.text-box {
+  display: flex;
+  align-content: center ;
+  flex-direction: column;
+  width:600px;
+  height: auto;
+  display: flex;
+position: relative;
+left: 50%;
+bottom:500px;
+}
+
+.instagram_squares {
+  width:fit-content;
+  position: relative;
+  order: -2;
+}
+
+.div-textBox {
+  background-color: white;
+  width: 600px;
+  height: 380px;
+  padding: 5px 50px;
+}
+
+h1 {
+  color:#06365f ;
+  width: 330px;
+}
+
+.divAppStore {
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-content: space-around;
+}
+
+.buttonApp {
+  width: 150px;
+  padding-top: 5%;
+}
+
+#appStore {
+  padding-right: 30px;
+  padding-left: 10%;
+  width: auto;
+}
+.footerList {
+  display: flex;
+justify-content: space-evenly;
+  text-align:center;
+  flex-direction: row;
+  list-style: none;
+  color: #1c5380;
+  padding: 40px;
+  width: 850px;
+  position: relative;
+  top: 150px;
+  left: -60%;
+}
+
+.text {
+  font-size: 1.10rem;
+}
+#arrInsta {
+  padding-left: 40px;
+  color:  rgb(173, 173, 173);
 }
