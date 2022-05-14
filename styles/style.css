@@ -4,7 +4,122 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding-top: 4.4rem;
+  font-size: 1rem;
+}
+
+[alt*="tile"] {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 40vh;
+  z-index: -1;
+}
+
+#landing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+[alt*="phones"] {
+  width: 19.7rem;
+}
+
+main {
+  margin-left: 2.5rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 .7rem;
+}
+
+button {
+  all: unset;
+  width: 6.3rem;
+  height: 2.65rem;
+  border: 1px solid #06365f;
+  background: linear-gradient(0deg, #1c5380, #619ccd);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: .25rem;
+  font-weight: 700;
+}
+
+[alt='Home'] {
+  position: relative;
+  bottom: .18rem;
+  margin-right: .35rem;
+}
+
+#intro {
+  background-image: url("/images/frame.png");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 2.1rem;
+  width: 35.28rem;
+  height: 19.9rem;
+  gap: .7rem;
+  margin-top: 1rem;
+}
+
+h1 {
+  color: #06365f;
+  font-size: 1.6rem;
+  width: 53%;
+  margin-bottom: .8rem;
+}
+
+#downloads {
+  display: flex;
+  justify-content: flex-start;
+  gap: 2rem;
+  margin-left: 1rem;
+}
+
+[src*='badge'] {
+  height: 3.5rem;
+}
+
+footer {
+  width: 35vw;
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 500;
+  font-size: .7rem;
+  text-transform: uppercase;
+  flex-wrap: wrap;
+}
+
+a {
+  all: unset;
+  color:#1c5380;
+  font-weight: 600;
+}
+
+#copyright {
+  color: #b5b5b5;
+  font-weight: 800;
 }
