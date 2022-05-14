@@ -4,7 +4,87 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+span {
+  font-weight: bold;
+}
+
+.blue-section {
+  background-color: #1c5380;
+  height: 250px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  margin-top: -120px;
+}
+
+.whole-right-block {
+  width: 500px;
+}
+
+.logo-and-button {
+  width: 100%;
+  position: flex;
+  align-items: center;
+}
+
+#ig-logo {
+  margin-right: 100px;
+}
+
+button {
+  color: white;
+  background-color: #1c5380;
+}
+
+.block-without-logo {
+  padding: 1.5em;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 4px 0px;
+  z-index: 5;
+  background-color: white;
+  border-radius: 6px;
+}
+
+h2 {
+  color: #1c5380;
+}
+
+.stores {
+  display: flex;
+  gap: 30px;
+}
+
+footer ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  color: #1c5380;
+  margin-top: 100px;
+  margin-right: 25%;
+  margin-left: 25%;
+  font-weight: 400;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #1c5380;
+}
+
+.copyright {
+  color: gray;
 }
