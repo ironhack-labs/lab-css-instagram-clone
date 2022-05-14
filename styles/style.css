@@ -12,8 +12,11 @@ light blue: #1c5380
   box-sizing: border-box;  
 } */
 
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 200 16px/1.5 'Lato', "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
 
@@ -24,7 +27,12 @@ body {
 #background-header {
   height: 300px;
   background-image: url("../images/bgtile.png");
-
+  width: 100%;
+  height: 280px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 .tile-img {
@@ -35,27 +43,32 @@ body {
 .main-container {
   justify-content: center;
   position: relative;
-  top: -150px;
-  gap: 50px;
+  margin-top: 100px;
+  gap: 50px;  
 }
 
 .info-container {
   width: 500px;
  }
 
- .frame-img {
+ .frame-bckg {
   background-image: url("../images/frame.png");
   background-repeat: no-repeat;
  }
 
 .text-container {
-  margin-top: 1.5rem;  
-  padding: 1rem;  
+  margin-top: 1.3rem;  
+  padding: 1rem 2.2rem;  
+}
+
+.text-container p {
+  font-weight: 300;
 }
 
 h1 {
   color: #06365f;
-  line-height: 2.5rem;
+  line-height: 2.2rem;
+  font-size: 1.8rem;
 }
 
 .line1 {
@@ -63,36 +76,42 @@ h1 {
   align-items: center;
 }
 
-.log-in-btn {
+.login-btn {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 2px solid rgb(146, 145, 145);
-  width: 120px;
-  background: linear-gradient(180deg, rgba(110,147,177), rgba(65,108,154));
-  border: 2px solid rgb(51,94,133);
+  padding: 0.8rem 1.8rem;
+  border: 1px solid #1c5380;
+  background: linear-gradient(180deg, rgba(110,147,177), rgba(65,108,154));  
   text-align: center;
-  height: 50px;
-  border-radius: 5px;
-}
-
-.log-in-btn a {
+  border-radius: 4px;
   color: white;
   font-weight: 900;
   text-decoration: none;
+  text-shadow: 0px 2px 0px rgb(51 94 133);
 }
 
-.log-in-btn img {
+.login-btn img {
   position: relative;
-  top: 2px;
-  right: 5px;
+  right: 13px;
 }
 
 .store-img {
-  margin-left: 1rem;
+  gap: 20px;
+  margin-top: 2.5rem;
 }
 
+
 /* Footer */
+
+
+footer {
+  margin: 70px 0px 60px;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 0.8rem;
+}
+
 .footer-ul {
   display: flex;
   direction: row;
@@ -101,13 +120,8 @@ h1 {
   gap: 30px; 
 }
 
-footer {
-  margin-top: 0px;
-  text-transform: uppercase;
-  font-weight: 900;
-}
 footer a {
-  color: #1c5380;
+  color: #3f729b;
   text-decoration: none;
   
 }
