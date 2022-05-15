@@ -4,7 +4,129 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-size: 100%;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6rem;
+  margin-bottom: 4rem;
+  position: relative;
+}
+
+.back {
+  transform: rotate(270deg);
+  width: 60rem;
+  margin-bottom: 70rem;
+  position: absolute;
+  z-index: -1;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.logIn {
+  background-image: linear-gradient(rgb(118, 147, 173), rgb(80, 114, 149));
+  border: solid #06365f 1px;
+  padding: 0.7rem 0.7rem;
+  color: white;
+  font-family: "Helvetica Neue";
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 3rem;
+  cursor: pointer;
+}
+
+.logIn img {
+  margin-right: 0.5rem;
+  cursor: pointer;
+}
+
+.instagram {
+  width: 300px;
+  cursor: pointer;
+}
+
+.meaning {
+  background-image: url(/images/frame.png);
+  background-size: cover;
+  top: 2rem;
+  width: 35rem;
+  padding-top: 1rem;
+  padding-left: 3rem;
+  padding-right: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.meaning img {
+  margin-right: 1rem;
+  margin-top: 1rem;
+  width: 150px;
+  cursor: pointer;
+}
+
+.meaning h2 {
+  color: #06365f;
+  font-size: 2rem;
+  margin-right: 3rem;
+  font-weight: 600;
+}
+
+.meaning p {
+  color: grey;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-right: 2rem;
+}
+
+.phoneSec {
+  margin-right: 2rem;
+}
+
+.phone {
+  width: 400px;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+footer a {
+  margin-right: 2rem;
+  text-decoration: none;
+  color: #1c5380;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: small;
+}
+
+footer span {
+  color: grey;
+  opacity: 50%;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: small;
 }
