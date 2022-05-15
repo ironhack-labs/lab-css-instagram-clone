@@ -2,9 +2,143 @@
 Colors to use:
 dark blue: #06365f
 light blue: #1c5380
+
+
+//
+border: #365678
+gradient light: #7693AE
+gradient dark: #42668a
 */
+* {
+  box-sizing: border-box;
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  background-image: url(/images/bgtile.png);
+  background-repeat: no-repeat;
+  background-size: 100vw 35vh;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  height: 90vh;
+  padding: 15rem;
+  z-index: 1;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-container button {
+  color: white;
+  font-weight: 900;
+  border: solid 1px #365678;
+  border-radius: 4px;
+  text-align: center;
+  width: 20%;
+  height: 20%;
+  margin-left: auto;
+  padding: 0.8rem;
+  background-image: linear-gradient(#7693ae, #42668a);
+}
+.home-button {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  left: -0.5rem;
+}
+.home-button img {
+  left: -1rem;
+}
+.home-button {
+  font-size: 1rem;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  width: 50vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.container {
+  width: 35vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.introduction {
+  background-image: url(/images/frame.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 1rem 3rem;
+}
+
+h2 {
+  width: 50%;
+  color: #06365f;
+  font-size: 1.7rem;
+}
+
+/* Strong not working, and bolder only works on the strong words */
+p {
+  font-weight: bolder;
+  font-size: 1.3rem;
+}
+
+.phone img {
+  width: 120%;
+  height: 120%;
+}
+
+.links {
+  color: #1c5380;
+}
+ul {
+  list-style-type: none;
+}
+ul a {
+  color: #1c5380be;
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 0.8rem;
+}
+
+.copyright {
+  font-size: 0.8rem;
+  color: rgba(128, 128, 128, 0.575);
+  font-weight: 900;
+}
+
+.app-buttons {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.app-buttons img {
+  width: 120%;
+}
+
+h1 {
+  margin-bottom: 0.5rem;
 }
