@@ -7,4 +7,91 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url(/images/bgtile.png);
+  background-position: top;
+  background-size: 100% 43%;
+  background-repeat: no-repeat;
+}
+
+button {
+  color: white;
+  background-color: #296497;
+  border: none;
+  border-radius: 5px;
+  width: 100px;
+  height: 40px;
+  display: flex;
+  align-items:center;
+  justify-content: space-evenly;
+  box-shadow: inset 1px  1px 32px #69b3f0;
+}
+
+.About-us{
+  color: #1c5380;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-self: flex-end;
+  margin-top: 2%;
+}
+
+.body {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 50px;
+}
+
+.Box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(/images/frame.png);
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-position: center;
+  border-radius: 10px;
+  height: max-content;
+  width: 120%;
+  padding:0 17px; 
+  margin-top: -100px;
+}
+.Box h1 {
+  padding-top: 30%;
+  align-items: flex-start;
+  margin-left: -185px;
+}
+
+.BrandLine{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 15%;
+}
+.BrandLine button{
+  margin-right: -115px;
+}
+
+.Content {
+  margin-left: -100px;
+}
+
+.Inst {
+  color: gray;
+}
+
+.Phones{
+  margin-left: -20%;
+  margin-top: 7%;
+  height: 500px;
+
+}
+
+.Text{
+  display: flex;
+
+}
+
+.Title {
+  padding-top: 20%;
+  color: #06365f;
 }
