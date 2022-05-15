@@ -4,7 +4,117 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+.bgtile {
+  width: 100vw;
+  height: 40vh;
+  position: fixed;
+  z-index: -1;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 5rem;
+  height: auto;
+  margin: 0;
+}
+
+.phones {
+  margin: 0;
+  width: 25vw;
+}
+
+.brand {
+  margin:0;
+  width: 22vw;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 37vw;
+}
+
+button {
+  width: 7vw;
+  height: 2.5vw;
+  color: white;
+  background-color: #1c5380;
+  text-align: center;
+  font-size: 1rem;
+  border-radius: 3px;
+  border: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+h2 {
+  font-size: 2.5rem;
+  color:#06365f;
+}
+
+article {
+  background-image: url(/images/frame.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 3rem;
+  width: 38vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+article > p {
+  width: 32vw;
+}
+
+.badges {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2vw;
+}
+
+.badge-iphone {
+  width: 14vw;
+}
+
+.badge-android {
+  width: 13vw;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: #1c5380;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.trademark {
+  color: lightgray;
 }
