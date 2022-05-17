@@ -16,7 +16,7 @@ body {
 button {
   color: white;
   background-color: #296497;
-  border: none;
+  border: solid 2px #135186;
   border-radius: 5px;
   width: 100px;
   height: 40px;
