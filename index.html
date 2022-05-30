@@ -1,16 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Instagram Clone</title>
-    <!-- don't forget to link your styles -->
-  </head>
-  <body>
-    Instagram Capture and Share the World's Moments Instagram is a fast, beautiful and fun way to share your life with
-    friends and family. Take a picture or video, choose a filter to transform its look and feel, then post to Instagram
-    &mdash; it's that easy. You can even share to Facebook, Twitter, Tumblr and more. It's a new way to see the world.
-    Oh yeah, did we mention it's free? Download on the App Store Get it on Google Play About Us Support Blog Press API
-    Jobs Privacy Terms &copy; 2014 Instagram
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Instagram Clone</title>
+  <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+
+  <section class="flex-container main-section">
+
+    <section class="left-column">
+      <img src="./images/phones.png" alt="">
+    </section>
+
+    <section class="right-column">
+
+      <section class="logos-container">
+        <a href="https://www.instagram.com/" target="_blank"><img src="./images/brand.png" alt=""></a>
+        <div class="login-button">
+          <img src="./images/home.png" alt="login">
+          <a href="#" class="login">Log in</a>
+        </div>
+      </section>
+
+      <!-- Meter frame en css de background -->
+      <article class="article">
+        <div class="article-text">
+          <h1 class="article-title">Capture and Share <br>the World's Moments</h1>
+          <p>Instagram is a <span>fast</span>, <span>beautiful</span> and <span>fun</span> way to share your life with
+            friends and family.</p>
+          <p>Take a picture or video, choose a filter to transform its look and feel, then post to Instagram
+            &mdash; it's that easy. You can even share to Facebook, Twitter, Tumblr and more. It's a new way to see the
+            world.</p>
+          <p class="last-paragraph">Oh yeah, did we mention it's free?</p>
+          <a href="https://apps.apple.com/es/app/instagram/id389801252" target="_blank"><img
+              src="./images/badge-iphone.png" alt="Download on the App Store"></a>
+          <a href="https://play.google.com/store/apps/details?id=com.instagram.android&hl=es_419&gl=US"
+            target="_blank"><img class="android-download" src="./images/badge-android.png"
+              alt="Get it on Google Play"></a>
+        </div>
+      </article>
+    </section>
+
+  </section>
+
+  <footer>
+    <ul class="flex-container">
+      <li><a href="#">About us</a></li>
+      <li><a href="#">Support</a></li>
+      <li><a href="#">Blog</a></li>
+      <li><a href="#">Press</a></li>
+      <li><a href="#">Api</a></li>
+      <li><a href="#">Jobs</a></li>
+      <li><a href="#">Privacy</a></li>
+      <li><a href="#">Terms</a></li>
+      <li>
+        <aside>©2014 Instagram</aside>
+      </li>
+    </ul>
+  </footer>
+</body>
+
 </html>

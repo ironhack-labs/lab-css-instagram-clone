@@ -3,8 +3,146 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+span {
+  font-weight: bold;
+}
+
+p {
+  margin: 15px 0;
+}
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: url(../images/bgtile.png) no-repeat center;
+  background-size: 100% 37%;
+  background-position: top;
+  background-color: white;
+  font-size: 16px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 200;
   margin: 0;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+/* MAIN SECTION */
+.main-section {
+  margin: 100px 100px 50px 100px;
+}
+
+/* LEFT COLUMN */
+.left-column {
+  margin: 10px;
+}
+
+/* RIGHT COLUMN */
+.right-column {
+  margin: 10px;
+}
+
+/* Logos container */
+.logos-container {
+  display: flex;
+  justify-content: start;
+  margin: 20px;
+}
+
+/* Login button */
+.login-button {
+  width: auto;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  border: 1px solid black;
+  border-radius: 3px;
+  margin-left: 85px;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #50789a;
+}
+
+.login-button img {
+  margin-right: 5px;
+  width: 30%;
+  height: 30%;
+}
+
+.login-button a {
+  text-decoration: none;
+}
+
+.login {
+  color: white;
+}
+
+/* Article */
+.article {
+  background: url(../images/frame.png) no-repeat;
+  padding: 20px;
+  margin: 20px;
+  width: 500px;
+  text-align: justify;
+}
+
+.article-title {
+  color: #50789a;
+  font-size: 1.4em;
+  margin-bottom: 10px;
+}
+
+.article-text {
+  margin: 10px 45px 10px 10px;
+}
+
+.last-paragraph {
+  margin-bottom: 30px;
+}
+
+.download-container {
+  margin-top: 20px;
+}
+
+.android-download {
+  margin-left: 10px
+}
+
+/* FOOTER */
+
+footer {
+  margin: 50px;
+}
+
+footer ul {
+  text-decoration: none;
+  list-style: none;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer a:visited {
+  text-decoration: none;
+  color: #50789a;
+}
+
+footer li {
+  font-size: 0.75em;
+  margin: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #50789a;
+}
+
+aside {
+  color: #b8b8b9;
 }
