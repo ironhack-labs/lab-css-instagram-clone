@@ -1,10 +1,135 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
-
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.5;
   margin: 0;
+}
+
+h1 {
+  color: #06365f;
+  padding: 0;
+  margin: 0;
+  font-size: 24px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+a {
+  color: #1c5380;
+  text-decoration: none;
+}
+
+/*** General ***/
+
+.top-bar {
+  height: 480px;
+  background: linear-gradient(0deg, rgba(55,96,133,1) 0%, rgba(87,126,160,1) 100%);
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-top: 290px;
+}
+
+/*** Main ***/
+.main {
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: flex-start;
+	align-content: center;
+  column-gap: 50px;
+}
+
+.left-container {
+  width: 1fr;
+  display: flex;
+  flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+.right-container {
+  width: 1fr;
+  flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+.encabezado {
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+  padding: 0 10px 20px;
+	align-items: center;
+	align-content: stretch;
+}
+
+.boton {
+  display: flex;
+  flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
+  padding: 10px 10px;
+  color: #e1e1e1;
+  background: linear-gradient(0deg, rgba(55,96,133,1) 0%, rgba(87,126,160,1) 100%);
+  border: 1px solid #06365f;
+  border-radius: 2px;
+}
+.boton span {
+  margin-left: 10px
+}
+
+.contenido {
+  background-image: url(/images/frame.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  max-width: 100%;
+  padding: 20px;
+}
+
+.texto {
+  padding: 20px 20px;
+}
+
+.texto span {
+  font-weight: 900;
+}
+
+.app-icon {
+  margin-left: 10px;
+}
+
+/*** Footer ***/
+footer ul {
+  display: flex;
+  flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+}
+
+footer ul li {
+  margin: 0 15px;
+  list-style: none;
+}
+
+footer ul li a {
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.copy-right {
+  color: rgb(194, 194, 194);
 }
