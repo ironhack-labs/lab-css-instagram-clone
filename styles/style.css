@@ -7,4 +7,111 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  padding: 0;
+
+}
+
+.barra-li {
+  width: 1000px;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  text-transform: uppercase;
+  padding: 10px 100px 10px 100px;
+  text-decoration: none;
+  list-style-type: none;
+  font-size: small;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.menu {
+  text-decoration: none;
+  color: #1c5380;
+}
+
+.background {
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;
+}
+
+
+
+.flex-container {
+  display: flex;
+  padding: 50px 100px 0px 250px;
+  width: 85%;
+}
+
+.flex-container-2 {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 200px 0px 100px;
+
+
+}
+
+.flex-container-3 {
+  display: flex;
+
+
+
+}
+
+
+
+
+.texto-instagram {
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: cover;
+}
+
+h6 {
+  color: gray;
+}
+
+.boton {
+  display: flex;
+
+}
+
+.boton-2 {
+  text-decoration: none;
+
+  font-size: small;
+  font-weight: bolder;
+  background-color: #1c5380;
+  margin: 1rem;
+  padding: 1rem;
+  border: 2px solid #ccc;
+  color: white;
+
+  text-align: center;
+}
+
+.titulo {
+  color: #06365f;
+  font-size: 200%;
+  margin: 10px 100px 0px 15px;
+
+}
+
+p {
+  margin: 10px 100px 15px 15px;
+}
+
+.app-store {
+
+  margin: 0px 35px 0px 50px;
+}
+
+.google-play {
+  margin: 0px 60px 0px 20px;
+}
+
+.logo-instagram {
+
+  margin: 0px 35px 0px 50px;
 }
