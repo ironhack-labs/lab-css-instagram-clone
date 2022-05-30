@@ -8,3 +8,107 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.backgroundimage{
+  background-image:url("../images/bgtile.png");
+  background-repeat: repeat-x;
+  height: 400px;
+  width: 100%;
+}
+
+.allContent{
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  margin: -350px 20%;
+  
+}
+
+.phonesSpace{
+  margin: 20px;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  padding: 10px 10px;
+  justify-content: space-between;
+}
+
+.home{
+  padding-top: 4px;
+  height: 50px;
+  width: 100px;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  box-shadow:inset 0 -0.6em 1em -0.35em rgba(0,0,0,0.17),inset 0 0.6em 2em -0.3em rgba(255,255,255,0.15),inset 0 0 0em 0.05em rgba(255,255,255,0.12);
+  margin: 10px;
+  border-radius: 2px;
+}
+
+.homeImage{
+  justify-content: center;
+  text-align:center;
+}
+
+.LogInSquare{
+  display: flex;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  justify-content: center;
+}
+
+.LogInText{
+  padding-left: 4px;
+  font-weight: 750;
+}
+
+.text{
+  width: 450px;
+  border-radius: 15px;
+  background-color: white;
+  padding: 20px 40px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.text h3{
+  color: #06365f;
+  font-size: 1.8rem;
+  line-height: normal;
+  margin-top: 15px;
+}
+
+.text p{
+  font-size: large;
+}
+
+.downloadImages{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+  margin-right: 60px;
+}
+
+.footerTop{
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+  margin-top: 400px;
+  color: #1964a5;
+  font-weight: 600;
+}
+
+.footerDifferent{
+  color: rgba(66, 66, 68, 0.562);
+  font-weight: 600;
+}
