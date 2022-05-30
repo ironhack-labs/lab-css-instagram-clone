@@ -1,0 +1,114 @@
+/*
+Colors to use:
+dark blue: #06365f
+light blue: #1c5380
+*/
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  background:url(../images/bgtile.png);
+  background-repeat: repeat-x;
+}
+div {
+  display: flex;
+}
+.container {
+  margin: 120px;
+  justify-content: space-between;
+  width: 30%;
+
+}
+.text {
+  padding: 5px;
+  font-size: 0.9em;
+}
+article {
+  margin-right: 60px;
+
+}
+header {
+  display: flex;
+  margin-bottom: 20px;
+  
+}
+.home-button {
+  display: flex;
+  background-repeat: no-repeat;
+  border: 1px solid #06365f;
+  border-radius: 2px;
+  align-items: center;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin: 20px 0 20px 60px;
+  width: 80px;
+  text-align: center;
+  justify-content: center;
+  background: linear-gradient( #557fa0, #1c5380 );
+ 
+  
+ 
+}
+.login {
+  color: white;
+  text-decoration: none;
+  font-size: 0.9em;
+  font-weight: 600;
+  padding: 0 5px;
+}
+
+.text-container {
+  background: url(../images/frame.png);
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 30px;
+  
+}
+h1 {
+  color: #06365f;
+  font-weight: 700;
+  padding: 5px;
+ 
+}
+.button-container {
+  display: flex;
+  padding-left: 30px;
+
+}
+.button-store {
+  justify-content: center;
+  margin: 10px;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+ul {
+ 
+  display: flex;
+  list-style-type: none;
+  
+}
+li {
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 10px;
+  
+}
+a {
+  text-decoration: none;
+  color: #1c5380;
+  font-weight: 400;
+}
+
+.trademark {
+  color:  rgb(159, 159, 165);
+
+}
+
