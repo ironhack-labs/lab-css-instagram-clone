@@ -31,11 +31,12 @@ body {
 }
 form{
   display: flex;
-  background-color: #5b7da5;
+  
+background-image: linear-gradient(to top, #466b98, #50749e, #597ca5, #6385ab, #6d8eb1);
   border-style: solid;
   border-color: #5d80a6;
   border-width: 1px;
-  border-radius: 5px;
+  border-radius: 3px;
   padding: 5px 10px;
   height: 25px;
 
@@ -53,7 +54,7 @@ button{
   color: white;
   font-weight: bold;
     line-height: 0px;
-  text-shadow: 1px 1px #000000;
+  text-shadow: 1px 1px #00000067;
 }
 .rightSection{
   width: 500px;
@@ -62,7 +63,9 @@ button{
   margin-left: 50px;
   
 }
-
+h1{
+ color:#06365f;
+}
 .textSection{
     background-image: url(../images/frame.png);
     padding: 60px;
@@ -79,6 +82,10 @@ ul{
 li{
   list-style: none;
   margin: 0px 5px;
+}
+a{
+    color: #06365f;
+    text-decoration: none;
 }
 .links{
   text-transform: uppercase;
