@@ -3,8 +3,112 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+*{
+  padding: 0;
+  margin: 0;
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;
 }
+
+.container{
+  margin: 100px 100px 40px 100px;
+  display: flex;
+  padding: 30px;
+  flex-direction: row;
+}
+
+.columna1{
+  padding-left: 100px;
+}
+
+.columna2{
+  padding-left: 50px;
+}
+
+.encabezado-texto-foto{
+  width: 80%;
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10px;
+}
+
+.logo-boton{
+  display: flex;
+  flex-direction: row;
+}
+
+.logo-instagram{
+  width: 260px;
+}
+
+.log-in{
+  background-image: linear-gradient(to left top, #06365f, #124573, #1c5587, #25669d, #2e77b2);
+  width: 90px;
+  height: 30px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  margin-left: 20px;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+}
+
+.enlace-login{
+  color: white;
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+h1{
+  font-size: 1.4rem;
+  margin: 10px;
+  width: 60%;
+  color: #06365f;
+}
+
+p{
+  margin: 10px;
+}
+
+.img-section2{
+  width: 130px;
+}
+
+nav{
+  padding-bottom: 50px;
+  height: 20px;
+  width: 60%;
+  margin: auto;
+}
+
+nav ul{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 100px;
+}
+
+li{
+  list-style: none;
+  flex-direction: row;
+}
+
+a{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #06365f;
+  font-size: 15px;
+}
+
+span{
+  color: rgb(145, 145, 145);
+  font-weight: 400;
+}
+
+
