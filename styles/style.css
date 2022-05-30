@@ -43,13 +43,9 @@ background-image: linear-gradient(to top, #466b98, #50749e, #597ca5, #6385ab, #6
 
 
 }
-button{
-    border: none;
-    text-decoration: none;
-    background-color: transparent;
 
-}
 .logInText{
+  margin-left: 5px;
   white-space: nowrap;
   color: white;
   font-weight: bold;
@@ -68,7 +64,7 @@ h1{
 }
 .textSection{
     background-image: url(../images/frame.png);
-    padding: 60px;
+    padding: 15px 60px;
     background-repeat: no-repeat;
 }
 
@@ -94,6 +90,7 @@ a{
 }
 .copy{
   text-transform: uppercase;
+  margin-left: 40px;
   color:gray;
 }
 .app{
