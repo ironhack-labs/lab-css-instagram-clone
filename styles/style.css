@@ -1,10 +1,115 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
+html {
+  margin: 0;
+  padding: 0;
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #1c5380 0%, #1c5380 35%, #FFF 35%, #FFF 100%);
+}
+
+.main-container {
+  display:flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 100px 125px;
+}
+
+.logo-button-container {
+  display:flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.logo-button-container .log-in-box {
+  width: 110px ;
+  height: 25px;
+  background-color: #265881;
+  border-color: #06365f;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+  border-radius: 2.5px;
+  border: 1px solid #06365f;
+  cursor: pointer;  
+}
+
+.logo-button-container .log-in-box img {
+  height: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.logo-button-container .log-in-box span {
+  margin: 0;
+  height: 25px;
+  padding-top: 5px;
+  color: #FFF;
+}
+
+.text-container {
+  padding: 10px 35px;
+  background-color: #FFF;
+  width: 425px;
+  border-radius: 8px;
+}
+
+.text-container > h1 {
+  width: 400px;
+  margin-top: 10px;
+  margin-bottom: 0;
+  color: #06365f;
+}
+
+.text-container> p {
+  width: 400px;
+  line-height: 1.5;
+  font-size: 15px;
+}
+
+.download-info-container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.download-info-container > div {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+footer {
+  margin-left: 350px;
+  margin-bottom: 50px;
+  width: 800px;  
+}
+
+footer > ul {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+  text-transform: uppercase;
+  width: 675px;
+  padding: 0;
+  margin: 0;
+  font-size: small;
+  font-weight: bold;
+  color: #1c5380;  
+}
+
+footer ul li {
+  cursor: pointer;
 }
