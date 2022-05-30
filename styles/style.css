@@ -8,3 +8,86 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.section-one-flex{
+  display: flex;
+  justify-content: space-around;
+  margin: 200px;
+  margin-bottom: 100px;
+  margin-top: 75px;
+}
+.first-div-flex{
+  padding-left: 200px;
+}
+.second-div-flex {
+  padding-left: 50px;
+  width: 750px;
+}
+.header-flex{
+  display: flex;
+}
+#login-link{
+  color: white;
+  font-size: smaller;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+.login-button{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15px;
+  margin-left: 80px;
+  margin-bottom: 15px;
+  margin-right: 80px;
+  padding: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+  border:2px solid;
+  border-color: #547b9c;
+  border-radius: 3px;
+  background-image: linear-gradient(to top, #4b769b, #547da0, #5e84a5, #678cab, #7093b0);
+  height: 25px;
+}
+.house.img{
+  padding-top: 5px;
+}
+h2{
+  padding-left: 50px;
+  padding-top: 50px;
+  color: #06365f;
+}
+p{
+  padding-left: 50px;
+}
+.logo-img{
+  padding-left: 50px;
+}
+.second-section-flex{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 250px;
+  margin-right: 250px;
+  padding-left: 300px;
+  padding-right: 300px;
+}
+a{
+  text-decoration: none;
+  color: #1c5380;
+  font-weight: bold;
+}
+.div-background{
+  background-image:url(../images/frame.png);
+  background-repeat:no-repeat
+}
+.body-background{
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;
+}
+.trademark{
+  color: #c2c2c3;
+  font-weight: bold;
+}
+
+
+
