@@ -5,6 +5,129 @@ light blue: #1c5380
 */
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 200 16px/1.5 'proxima-nova', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   margin: 0;
+}
+
+.box {
+  height: 55vh;
+  background-image: url(/images/bgtile.png);
+  background-repeat: repeat-x;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.all {
+  z-index: 1;
+  margin-top: -45vh;
+  display: flex;
+  align-items: center;
+  width: 65vw;
+}
+
+.phones {
+}
+
+.info {
+  margin: 0 60px;
+}
+
+.top  {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 8px;
+}
+
+.logo {
+  margin-top: 5px;
+  width: 314px;
+}
+
+.text {
+  background-image: url(/images/frame.png);
+  background-repeat: no-repeat;
+}
+
+.text h1,
+.text p {
+  padding: 0 40px;
+}
+
+p {
+  font-weight: 400;
+  color: #222222;
+}
+
+.text h1{
+  padding-top: 30px;
+  width: 60%;
+  font-size: 27px;
+  line-height: 32px;
+  color: #06365f;
+}
+
+.descarga {
+  margin-top: 25px;
+  padding-left: 40px;
+}
+
+.descarga img {
+  margin-right: 10px;
+}
+
+button  {
+  background: rgb(111,146,176);
+  background: linear-gradient(180deg, rgba(111,146,176,1) 0%, rgba(72,116,153,1) 50%, rgba(72,116,153,1) 100%);
+  border-radius: 0.2em;
+  border: 1px solid #1c5380;
+  box-shadow: 0 1px 3px rgb(0 0 0 / 10%), inset 1px 0 0 rgb(255 255 255 / 5%), inset -1px 0 0 rgb(255 255 255 / 5%), inset 0 1px 0 rgb(255 255 255 / 10%);
+  padding: 8px 12px 8px 8px;
+  font-family: 'proxima-nova', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+button > img,
+button > span {
+  vertical-align: middle;
+}
+
+button > span {
+  margin-left: 5px;
+  font-size: 16px;
+}
+
+.footer {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 50vw;
+}
+
+.footer ul  {
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+li  {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: bold;
+  color: #3f729b;
+  text-transform: uppercase;
+}
+
+.footer p {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.3);
 }
