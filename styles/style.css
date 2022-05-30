@@ -8,3 +8,79 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+h2 {
+  color: #06365f;
+}
+
+.Main {
+  display: flex;
+  justify-content: center;
+  padding-left: 110px;
+  padding-right: 110px;
+  padding-top: 120px;
+  background-image: url(./../images/bgtile.png);
+  background-repeat: repeat-x;
+
+}
+
+.phone {
+  margin-right: 50px;
+}
+
+.homelogo {
+  width: 20px;
+  margin-right: 5px;
+
+}
+
+.heading {
+  display: flex;
+}
+
+.Linksfinal {
+  display: flex;
+  justify-content: center;
+  color: #1c5380;
+  padding-top: 40px;
+}
+
+.distance {
+  padding-left: 18px;
+}
+
+.login {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  height: 20px;
+  margin-top: 20px;
+  background: linear-gradient(to top, #3b6589, #7698b5);
+  box-shadow: 0 0 3px black;
+}
+
+.button {
+  color: #e3e9ef;
+  text-decoration: none;
+}
+
+.content {
+  background-image: url(./../images/frame.png);
+  background-repeat: no-repeat;
+  background-size: 500px 300px;
+}
+
+.artext {
+  padding-left: 40px;
+  padding-top: 10px;
+  padding-right: 40px;
+}
+
+.insta {
+  color: #c0c0c1;
+}
+
+.top {
+  padding-top: 35px;
+}
