@@ -34,6 +34,7 @@ header {}
 .big {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 div a {
@@ -41,10 +42,11 @@ div a {
   display: flex;
   border-color: #06365f;
 }
+
 div a img {
   max-width: 50%;
   max-height: 50%;
-  margin-right: 5px; 
+  margin-right: 5px;
 }
 
 .bright-bottom {
@@ -83,14 +85,20 @@ li {
 
 div p {
   padding-left: 30px;
-  padding-right: 30px;}
+  padding-right: 30px;
+}
 
-.button {
-  background-color: #76a8d3;
+.butt {
+  height: 30px;
   border-radius: 5px;
   color: white;
-  padding: 12px 28px;
+  background-color: #76a8d3;
   text-align: center;
   text-decoration: none;
   font-size: 16px;
- }
+  white-space: nowrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 28px;
+}
