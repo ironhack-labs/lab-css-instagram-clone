@@ -4,7 +4,104 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+*{
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url("https://github.com/ghersf91/lab-css-instagram-clone/blob/master/images/bgtile.png?raw=true");
+  background-repeat: repeat-x;
+}
+
+section {
+  display: flex;
+}
+
+.phones-img {
+  margin: 75px 50px 0px 75px;
+}
+
+.logo-login {
+  margin: 75px 30px 30px 0px;
+  display: flex;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  justify-content: center;
+  color: blue;
+}
+
+li {
+  margin: 50px 15px;
+}
+
+h1,
+p {
+  margin: 15px;
+}
+
+h1 {
+  color: #0d385e;
+  width: 40%;
+}
+
+.stores-buttons {
+  margin: 15px;
+}
+
+.apple-button {
+  margin: 0px 5px 0px 0px;
+}
+.google-button {
+  margin: 0px 20px 0px 5px;
+}
+
+article {
+  width: 500px;
+  background-image: url("https://github.com/ghersf91/lab-css-instagram-clone/blob/master/images/frame.png?raw=true");
+  background-repeat: no-repeat;
+  padding: 10px;
+}
+
+.button {
+  margin-left: 78px;
+  margin-top: 18px;
+  padding: 2px;
+  border-radius: 5px;
+  border: 2px solid #396287;
+  width: 100px;
+  height: 30px;
+  background-image: linear-gradient(5deg, #4a759b, #7597b4) ;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-weight: bold;
+}
+
+.login {
+  color: #cbd6e1;
+}
+
+.house {
+  padding: 1.5px;
+}
+
+a {
+  text-decoration: none;
+  color: #698dac;
+  font-weight: bold;
+}
+
+.ig {
+  color: #c5c5c6;
+  font-weight: bold;
+}
+
+.house {
 }
