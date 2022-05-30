@@ -1,0 +1,102 @@
+.background {
+  height: 340px;
+  background-color: rgb(87,126,160);
+}
+
+.columns {
+  display: flex;
+  flex-direction: row;
+  padding: 60px 150px;
+  margin-left: 300px;
+}
+
+.phones {
+  margin-right: 80px;
+  height: 500px;
+}
+
+.columnRight {
+  margin-top: 15px;
+  width: 600px;
+}
+
+.banner {
+  display: flex;
+  flex-direction: row;
+}
+
+.instaLogo {
+  width: 70%;
+  margin-top: 15px;
+}
+
+.home {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(87,126,160);
+  width: 15%;
+  align-items: center;
+}
+
+.home img {
+  width: 30%;
+  height: 18px;
+  margin-right: 8px;
+  margin-left: 5px;
+}
+
+.home a {
+  height: 20px;
+  width: 100%;
+  color: white;
+  text-decoration: none;
+  margin-bottom: 5px;
+  padding-right: 2px;
+}
+
+.text {
+  background-color: white;
+  padding: 30px;
+  border-radius: 6px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.text h2 {
+  color: #1c5380;
+  margin-bottom: 20px;
+}
+
+.text p {
+  font-size: 13px;
+}
+
+.badges {
+  display: flex;
+  flex-direction: row;
+}
+
+.badges div {
+  margin-top: 10px;
+  margin-right: 30px;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
+}
+
+ul a {
+  margin: 0 20px;
+  text-decoration: none;
+  color: #1e619c;
+  font-size: 13px;
+  font-weight: bolder;
+}
+
+ul p {
+  font-size: 13px;
+  margin-left: 20px;
+  color: rgba(0, 0, 0, 0.523);
+}
