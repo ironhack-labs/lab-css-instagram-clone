@@ -7,4 +7,127 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-color: rgba(246,247,249,255);
+}
+
+.background-blue {
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat;
+  background-size: cover;
+  width: 100%;
+  height: 280px;
+  z-index: -1;
+}
+
+.content {
+  margin: -180px auto 0;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+}
+
+#iphone {
+  width: 400px;
+}
+
+.text {
+  margin-left: 100px;
+}
+
+.footer {
+  width: 60%;
+  margin: 50px auto;
+}
+
+.logo-log-in {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#logo {
+  height: 90px;
+}
+
+#button {
+  width: 110px;
+  height: 47px;
+  border: solid 2px rgba(51,95,131,255);
+  border-radius: 6px;
+  background-image: linear-gradient(rgba(101,146,183,255), rgba(65,113,152,255));
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  color: rgba(216,230,240,255);
+}
+
+#button p {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.main-text {
+  margin-top: 35px;
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  background-size:contain;
+  padding: 20px 60px;
+}
+
+.main-text h1 {
+  color: rgba(32,69,100,255);
+  font-size: 30px;
+  font-weight: 750;
+}
+
+.main-text h6 {
+  font-size: 18px;
+  font-weight: 200;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.main-text p {
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+.download-buttons {
+  margin-top: 30px;
+  padding-left: 40px;
+  height: 80px;
+}
+
+.download-buttons img {
+  margin-right: 15px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+}
+
+.footer ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer li {
+  list-style: none;
+  margin: auto 10px;
+  color: rgba(101,146,183,255);
+  font-weight: 800;
+}
+
+.footer p {
+  margin-left: 25px;
+  color: rgba(178,179,181,255);
+  font-weight: 800;
 }
