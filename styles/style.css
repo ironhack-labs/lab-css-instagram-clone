@@ -54,13 +54,16 @@ body {
   height: 25px;
   padding-top: 5px;
   color: #FFF;
+  font-weight: bold;
 }
 
-.text-container {
+.text-container {  
+  background-image: url("/images/frame.png");
+  background-repeat: no-repeat;
+  background-size: contain;
   padding: 10px 35px;
-  background-color: #FFF;
   width: 425px;
-  border-radius: 8px;
+  border-radius: 8px; 
 }
 
 .text-container > h1 {
@@ -112,4 +115,8 @@ footer > ul {
 
 footer ul li {
   cursor: pointer;
+}
+
+.copywrite {
+  color:rgb(155, 153, 153);
 }
