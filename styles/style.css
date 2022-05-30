@@ -3,8 +3,113 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+* {
+  margin: 0;
+  padding: 0;
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x ;
+}
+
+main {
+  display: flex;
+  margin: 3em 10em;
+}
+
+.phones {
+  margin-top: 3.5em;
+}
+
+.info {
+  width: 70%;
+  padding: 3em 3em 0 3em;
+}
+
+header {
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+  margin-top: 1em;
+}
+
+.log-in {
+  background-color: #4e799d;
+  justify-content: flex-end;
+  margin-left: 5em;
+  border: 0.1em solid #1c5380;
+  border-radius: 0.3em;
+  padding: 0.5em;
+}
+
+.log-in img {
+  width: 1.7em;
+}
+
+.log-in p {
+  color: white;
+  font-weight: bolder;
+  margin-left: 0.5em;
+}
+
+.log-in a {
+  display: flex;
+  text-decoration: none;
+}
+
+article {
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat ;
+  padding: 2em 2.5em 0 2.5em;
+}
+
+.text {
+  margin-right: 1em;
+}
+
+.text p {
+  margin-bottom: 0.7em;
+}
+
+.text a {
+  margin-top: 1em;
+  margin-right: 1em;
+}
+
+.buttons {
+  margin-top: 2em;
+}
+
+h1 {
+  font-size: 2em;
+  color: #06365f;
+  font-weight: 750;
+  margin-bottom: 0.5em;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: #06365f;
+  font-weight: 700;
+}
+
+nav {
+  width: 60%;
+  margin-left: 15em;
+  margin-bottom: 3em;
+  margin-top: 1em;
+}
+
+.copy-right {
+  color: gray;
 }
