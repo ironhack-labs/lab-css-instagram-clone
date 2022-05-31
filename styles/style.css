@@ -8,3 +8,115 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.background {
+  z-index: -1;
+  background: url(../images/bgtile.png) repeat center center fixed;
+  height: 280px;
+}
+
+.background:before{
+  background-image: url(../images/frame.png);
+}
+
+.content {
+  margin-top: -150px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.content > div {
+  display:flex;
+  margin-left: 4rem
+}
+
+.aside {
+  margin-left: 4rem
+}
+.tag {
+  width: 450px;
+  background-color: white;
+  padding: 2rem 2rem 1rem;
+  border-radius: 4px;
+  background: url(../images/frame.png) no-repeat;
+}
+
+.tag > p {
+  padding-right: 10px;
+}
+
+.tag > h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0;
+  color: #06365f;
+  line-height: 2.3rem;
+}
+
+.brand {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem 0 0
+}
+
+.brand > button {
+  border: #06365f 1px solid;
+  padding: 0.5rem 1rem;
+  background: linear-gradient(to bottom, #7193af, #426e92);
+  color: white;
+  font-size: 1rem;
+  display:flex;
+  align-items: center;
+  border-radius: 4px;
+  justify-content: space-around;
+}
+
+.brand > button > img {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+.downloads {
+  display:flex;
+  gap: 2rem;
+  align-items: center;
+  margin-top: 1rem;
+  padding: 0 2rem
+}
+
+.bold {
+  font-weight: bold;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  gap: 2rem
+}
+
+footer nav ul {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  list-style: none;
+}
+
+footer nav ul li {
+  font-size: 0.9rem;
+  color:#1c5380;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.copyright {
+  font-size: 0.9rem;
+  color: #ccc;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
