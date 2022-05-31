@@ -7,7 +7,7 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background: linear-gradient(to bottom, #1c5380 0%, #1c5380 35%, #FFF 35%, #FFF 100%);
+  background: linear-gradient(to bottom, rgba(55, 96, 133, 1) 0%, rgba(87, 126, 160, 1) 35%, #FFF 35%, #FFF 100%);
 }
 
 .main-container {
@@ -29,8 +29,9 @@ body {
 .logo-button-container .log-in-box {
   width: 110px ;
   height: 25px;
-  background-color: #265881;
-  border-color: #06365f;
+  color:#e1e1e1;
+  background: linear-gradient(0deg, rgba(55,96,133,1) 0%, rgba(87,126,160,1) 100%);
+  border: 1px solid #06365f;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
