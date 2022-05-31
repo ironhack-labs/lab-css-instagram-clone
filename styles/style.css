@@ -4,7 +4,110 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+html {
+  font-size: 10px;
+}
+
 body {
+  background: url("../images/bgtile.png") repeat-x;
+  background-position: top;
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5rem;
+}
+
+.left-section {
+  margin: 2rem;
+}
+
+.right-section {
+  display: wrap;
+  margin: 2rem;
+}
+
+/* Brand */
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50rem;
+  margin-bottom: 2rem;
+}
+
+.top span {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.home-btn {
+  background: linear-gradient(0deg, #2a6086 0%, #5584ac 45%);
+  color: #eee;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 4.5rem;
+  width: 10rem;
+  border-radius: 5px;
+  border: solid 2px #225986;
+  cursor: pointer;
+}
+
+/* About */
+
+.middle {
+  background: url("../images/frame.png") no-repeat;
+  background-size: contain;
+  padding: 1.5rem 1rem 2rem 4rem;
+}
+
+.middle h2 {
+  color: #06365f;
+}
+
+.middle p {
+  width: 40rem;
+}
+
+/* Call-to-action */
+
+.bottom {
+  margin-left: 4rem;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.google-play-btn {
+  padding-left: 1.5rem;
+}
+
+/* Footer */
+
+.footer-list {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin-bottom: 3rem;
+  text-transform: uppercase;
+}
+
+.footer-list a {
+  color: #1c5380;
+  font-weight: bold;
+  margin: 1rem;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.copyright {
+  color: grey;
+  font-weight: bold;
 }
