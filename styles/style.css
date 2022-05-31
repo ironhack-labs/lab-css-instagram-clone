@@ -2,9 +2,108 @@
 Colors to use:
 dark blue: #06365f
 light blue: #1c5380
+z -index
 */
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  margin: 50px;
+  width: 1000px;
+}
+
+h1 {
+  color: #164166;
+  line-height: 30px;
+}
+.blueBox {
+  background: linear-gradient(180deg, #497ba3 70%, #164166);
+  width: 100%;
+  height: 300px;
+  display: flex;
+}
+
+.phones {
+  width: 200px;
+}
+
+.twoColumn {
+  display: flex;
+  width: auto;
+  padding: 50px;
+  justify-content: space-around;
+  margin-top: -240px;
+  align-content: center;
+  margin-left: 40px;
+}
+
+.rigthColumn {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.rowCamaraBoton {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.blueBtn {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: linear-gradient(180deg, #497ba3 80%, #164166);
+  border: 1px solid #164166;
+  color: white;
+  font-weight: bolder;
+  width: 100px;
+  margin: 0 10px 0 0;
+  border-radius: 4px;
+}
+
+.text {
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  padding: 20px 40px;
+  align-items: center;
+  line-height: 20px;
+}
+
+.iphoneAndroid {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px 40px;
+}
+
+.googlePlay {
+  padding: 0 0 0 30px;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  font-size: 12px;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  text-transform: uppercase;
+  font-weight: bold;
+  justify-content: space-between;
+  color: #497ba3;
+  
+}
+.separacion{
+  padding: 0 5px;
+}
+.grey {
+  color: rgb(185, 185, 185);
+  padding: 0 0 0 20px;
+  text-transform: uppercase;
+  font-weight: bold;
 }
