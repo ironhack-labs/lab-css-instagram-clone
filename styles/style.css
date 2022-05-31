@@ -7,4 +7,93 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url(./../images/bgtile.png);
+  background-repeat: repeat-x;
+
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  margin: 25px 50px;
+}
+
+.one-box {
+  margin: 30px 50px;
+
+}
+
+.two-box {
+  margin-top: 50px;
+  margin-left: 30px;
+  width: 50%;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 30px;
+}
+
+.homelogo {
+  display: flex;
+  height: 20px;
+  margin: 35px;
+  padding: 12px;
+  color: white;
+  color: #06365f;
+  border: 1px solid;
+  width: fit-content;
+}
+
+.house {
+  width: 17px;
+  margin-right: 15px;
+  height: 20px;
+  margin-top: 40%;
+}
+
+.text {
+  background-image: url(./../images/frame.png);
+  background-repeat: no-repeat;
+  background-size: 800px 500px;
+  padding: 35px;
+  border-radius: 20px;
+}
+
+
+.footer {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  text-transform: uppercase;
+  color: #06365f;
+}
+
+a {
+  margin-right: 15px;
+  text-decoration: none;
+}
+
+.footer-gray {
+  color: gray;
+}
+
+h1 {
+  color: #06365f
+}
+
+h6 {
+  /* color: #ffff; */
+  color: #ffff;
+  margin: 0;
+  padding: 0px;
+  /* margin-left: 20px;
+  padding: 10px; */
+  background: linear-gradient(#06365f, #1c5380);
+
+}
+
+.images {
+  margin-top: 30px;
 }
