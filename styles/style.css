@@ -8,3 +8,155 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+#blue {
+  background-image: url("../images/bgtile.png");
+  width: 100%;
+  height: 500px;
+  background-repeat: repeat-x;
+}
+
+.section-1 {
+  display: flex;
+  flex-direction: row;
+
+
+}
+
+.phone {
+  height: 500px;
+  width: 300px;
+  margin-top: -400px;
+  margin-left: 200px;
+
+}
+
+.section-2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: -380px;
+  margin-right: 200px;
+
+}
+
+.brand {
+  margin-right: -30px;
+
+}
+
+button {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  padding: 8px 8px;
+  color: #e1e1e1;
+  background: linear-gradient(0deg, rgba(55, 96, 133, 1) 0%, rgba(87, 126, 160, 1) 100%);
+  border: 1px solid #06365f;
+  border-radius: 3px;
+  margin-right: -55px;
+  margin-top: -4px;
+  box-shadow: -2px 1px 14px 4px rgba(55, 96, 133, 1)
+}
+
+.log {
+  height: 16px;
+  margin-right: 12px;
+}
+
+.section-2 span {
+  margin-top: 3px;
+  font-size: 12px;
+  font-weight: 600;
+  margin-left: -4px;
+  margin-right: 4px;
+
+}
+
+.section-3 {
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  width: 65%;
+  height: 380px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 60px;
+  margin-top: 20px;
+  border-radius: 10px;
+
+}
+
+
+.section-3 article {
+  margin-left: 50px;
+  margin-top: 5px;
+}
+
+.section-3 h1 {
+  color: #06365f;
+  font-weight: 700;
+  font-size: 22px;
+
+}
+
+.section-3 p {
+  font-size: 14px;
+
+}
+
+.p-1 {
+  margin-top: -15px;
+
+}
+
+.bandages {
+  display: flex;
+  flex-direction: row;
+  margin-top: -95px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 105px;
+
+}
+
+.bandages img {
+  height: 50px;
+  width: 140px;
+  padding: 10px;
+}
+
+.section-4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 25px;
+  font-weight: 600;
+  font-size: 12px;
+  padding-top: 50px;
+  margin-left: 10px;
+}
+
+.section-4 ul {
+  color: #3a6890;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.section-4 ul>li {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 10px;
+
+}
+
+.section-4 div {
+  color: rgba(0, 0, 0, 0.4);
+  margin-top: 12px;
+  margin-left: 12px;
+
+}
