@@ -1,10 +1,117 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
-
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  padding: 0;
+}
+
+.top-bar {
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;    
+  padding: 120px;
+}
+
+h1 {
+  color:#1c5380;
+  padding: 0;
+  margin: 0;
+}
+
+.contenedor-principal {
+  display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+  height: 100%;
+  width: 1000px;
+  margin: 0 auto;
+  padding: 25px;
+}
+
+.sub-contenedor {
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: flex-start;
+	align-content: stretch;
+}
+.contenedor-izquierda {
+  width: 400px;
+}
+
+.contenedor-derecha {
+  width: 600px;
+  display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+}
+
+.contenido-encabezado {
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: stretch;
+  padding: 0 10px;
+  margin-bottom: 20px;
+}
+
+.contenido-descripcion {
+  background-image: url(/images/frame.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  max-width: 100%;
+  padding: 20px 30px;
+}
+
+.contenedor-footer {
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+  height: 100px;
+}
+
+.contenedor-footer ul {
+  display: flex;
+	flex-direction: row;
+}
+
+.btn {
+  display: flex;
+  flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: center;
+  padding: 5px 5px;
+  width: 90px;
+  background-image: url(../images/bgtile.png);
+  border-radius: 4px;
+  color: aliceblue;
+}
+
+.app{
+  padding-left: 15px;
+} 
+
+.footer ul li {
+  list-style: none;
+  margin: 0 20px;
+}
+
+.footer a {
+  font-weight: bold;
+  color: darkblue;
+  text-decoration: none;
+} 
+
+.copy-right a {
+  list-style: none;
+  text-decoration: none;
+  color: grey 
 }
