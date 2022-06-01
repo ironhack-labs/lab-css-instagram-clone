@@ -8,3 +8,32 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+.blueContainer {
+  background-color: #456789;;
+  height: 280px;
+}
+.mobile-image {
+  float: left;
+  margin-left: 15em;
+}
+
+.frontContainer{
+  display: flex;
+  direction: column;
+  margin-top: -240px;
+}
+
+button {
+  color: #fff;
+  margin: 20px;
+  background-color: #456789;
+  border-radius: 10%;
+  font-size: 16px;
+  border: none;
+  padding: 10px;
+  position: relative;
+  bottom: 5em; left: 25em;
+}
+.text {
+  background-color: aqua;
+}
