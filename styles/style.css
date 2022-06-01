@@ -7,4 +7,113 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: linear-gradient(#1c5380, #06365f 300px, white 300px);
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* #tile {
+  position: absolute;
+  transform: rotate(90deg);
+  top: 160px;
+  left: 0;
+  z-index: -1;
+} */
+
+main {
+  /* border: 1px green solid; */
+  padding: 50px;
+  width: 1090px;
+  display: flex;
+  justify-content: space-around;
+}
+
+section {
+  /* border: 2px solid red; */
+  margin-top: 50px;
+}
+
+.mainSection {
+  width: 550px;
+  display: flex;
+  flex-direction: column;
+}
+
+.logInElement {
+  /* border: white solid 2px; */
+  padding: 15px 10px 0 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+button {
+  position: relative;
+  background: linear-gradient(#1c5380, #06365f);
+  border: #1c5380;
+  width: 100px;
+  height: 40px;
+  text-align: end;
+  color: #d3d3d3;
+  font-weight: 700;
+  padding-right:10px;
+}
+
+button > img {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.textElement {
+  /* border: yellow dotted 2px; */
+  padding: 20px 30px 0px 50px;
+  background-image: url(/images/frame.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+h1 {
+  color: #06365f;
+  font-weight: 900;
+}
+
+p > span {
+  font-weight: bold;
+}
+
+.badge {
+  margin: 15px 15px 0 0;
+}
+
+footer {
+  /* border: orange 2px dotted; */
+  padding: 0px 170px;
+  width: 1090px;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+ul {
+  /* border: red solid 1px; */
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  align-items: flex-start;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #1c5380;
+}
+
+li > span {
+  color: #d3d3d3;
 }
