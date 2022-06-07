@@ -4,7 +4,99 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html, body {
+  height: 100vh;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: linear-gradient(to bottom, #1c5380 0%, #06365f 40%, transparent 40%, transparent 100%) no-repeat;
+}
+
+.section-middle {
+  margin-top: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 50px;
+  display: flex;
+}
+
+.phones {
+  margin-right: 50px;
+}
+
+.container-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button-logIn {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  background: linear-gradient(#2e6796, #10385c);
+  border: 2px;
+  border-color: hwb(208 2% 63% 40%);
+  color: aliceblue;
+  font-weight: bold;
+  border-radius: 5%;
+}
+
+.home {
+  padding-right: 0.25rem;
+}
+
+.container-info {
+  background-image: url(/images/frame.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  padding: 30px;
+  opacity: none;
+}
+
+h1 {
+  color: #06365f;
+}
+
+.container-info > h1, .container-info > p, .container-info > div {
+  padding-bottom: 20px;
+}
+
+.container-info span {
+  font-weight: bold;
+}
+
+.badge-iphone {
+  padding-right: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+li {
+  padding-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #1c5380;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.copyright-instagram {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: lightgray;
 }
