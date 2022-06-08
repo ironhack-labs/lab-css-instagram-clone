@@ -3,8 +3,161 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+* {
+   padding: 0;
+   margin: 0;
+}
+html, body {
+    height: 100vh
+    flex:auto
+}
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: rgb(2,0,36);
+background: rgb(6,54,95);
+background: linear-gradient(to bottom, #537fa3 0%, #06365f 35%, transparent 35%, transparent 100%) no-repeat;
+}
+
+html, body {
+  background-color:white ;
+  margin: 0;
+  color: black;
+}
+body {
+     text-align: center;
+     margin-top: 0;
+     font-size: 16px;
+     background-color: whitesmoke;
+}
+.telefonos {
+      height: 80%;
+    padding-right: 5%;
+}
+
+.container-captureandshare {
+  background-image: url(/images/frame.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  padding: 30px;
+  opacity: none;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  width: 30%;
+}
+.container-captureandshare> h1, .container-captureandshare> p, .container-captureandshare > div {
+  padding-bottom: 20px;
+}
+ul {
+  margin:inherit;
+  text-decoration:none;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 5%;
+  width: 617px;
+  margin:auto
+}
+.container-right{
+-ms-flex-item-align: center;
+flex-direction: row-reverse;
+}
+a {
+  text-decoration: none;
+  color: #1c5380;
+}
+body {
+  /* min-height: 100vh; */
+  background-image: url('../images/tile.png');
+  background-size: 1% 100%;
+  background-repeat: repeat-x;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* background-color: green; */
+
+  list-style: none;
+}
+
+li {
+  margin-right: 10px;
+  margin-left: 10px;
+  color: #06365f;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+#copyright {
+  color: gray;
+}
+
+.contents {
+  height: 80%;
+  width: 780px;
+  display: flex;
+  flex-direction: row;
+  margin: 100px 40px 40px;
+}
+
+#phones {
+  flex: 1;
+}
+
+.front2 {
+  flex: 2;
+  display:flex;
+  flex-direction: column;
+}
+
+.branding {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.branding_img {
+  height: 80px;
+}
+
+.login_button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../images/bgtile.png');
+  background-repeat: repeat-x;
+  border-radius: 2px;
+  /* copiado de internet */
+  box-shadow: rgba(29, 54, 76, 0.80) 0px 0px 1px 1px;
+  padding: 10px;
+  color: white;
+}
+
+.login_button_homes {
+  margin-right: 10px;
+}
+
+.slide {
+  background-image: url('../images/frame.png');
+  background-size: 100% 100%;
+  padding: 30px;
+}
+.slide_title {
   margin: 0;
   background-image: url(../images/bgtile.png);
   background: linear-gradient(to bottom, #537fa3 0%, #06365f 40%, transparent 40%, transparent 100%) no-repeat;
