@@ -3,8 +3,75 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url(../images/bgtile.png);
+  background: linear-gradient(to bottom, #537fa3 0%, #06365f 40%, transparent 40%, transparent 100%) no-repeat;
+}
+
+nav {
+display: flex;
+justify-content: space-between;
+flex-direction: row;
+flex-wrap: wrap;
+text-decoration: none;
+padding-bottom: 5%;
+width: 617px;
+margin: auto;
+font-weight: bold;
+padding-top: 78%;
+}
+
+a {
+  text-decoration: none;
+  color: #1c5380;
+}
+
+h2{
+  color: #06365f;
+}
+
+/* images */
+
+.phone {
+  padding-left: 7%;
+  padding-top: 10%;
+}
+
+.logo-ig {
+  margin-top: 154px; 
+  display: flex;
+  width: 496px;
+  justify-content: space-between;
+}
+
+.copy {
+  color: grey;
+}
+
+.container-general{
+  display: flex;
+  justify-content: center;
+}
+
+.square {
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  repeat: no-repeat;
+  width: 450px;
+  height: 324px;
+  padding: 18px 30px;
+}
+
+.button-logIn {
+  background-color: #537fa3;
+  color: aliceblue;
+}
+
+.aside {
+width: 46%;
+padding: 0px 70%;
+box-sizing: border-box;
 }
