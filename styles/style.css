@@ -4,7 +4,82 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+/* BACKGROUND */
+body {
+  background: linear-gradient(to bottom, #537fa3 0%, 
+  #06365f 35%, transparent 35%,
+   transparent 100%) no-repeat;
+}
+
+/* IMAGEN CELULAR */
+.box1{
+  padding-left: 10%;
+  padding-top: 10%; 
+}
+
+/* BOX 2 */
+.logo-ig{
+  margin-top: 154px;
+  display: flex;
+  width: 496px;
+  justify-content: space-between;
+}
+
+.container-general{
+  display: flex;
+  justify-content: center;
+}
+
+
+.button-login{
+  background-color: #326995;
+  color: aliceblue;
+}
+
+.square{
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  width: 450px;
+  height: 324;
+  padding: 18px 30px;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+/* HIPERVICUNLO FOOTER */
+ul {
+  display: flex;
+text-decoration: none;
+padding-bottom: 5%;
+width: 680px;
+margin: auto;
+font-weight: bold;
+padding-top: 78px;
+list-style: none;
+}
+
+li {
+  text-decoration: none;
+  color: #1c5380;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+/* FORMATO "INSTAGRAM 2014" */
+  a {
+  text-decoration: none;
+  color: #1c5380;
+  }
+  .footer{
+  color: grey;
+  }
+
+.background-white{
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: right;
+  align-items:flex-end
+}
+
