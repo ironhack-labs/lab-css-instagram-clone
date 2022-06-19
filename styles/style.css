@@ -8,3 +8,46 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  background-color:#1c5380 ;
+  background-size:auto 50% ;
+}
+
+#login-button {
+  background-color:#1c5380;
+  border: 1px solid black;
+  border-radius: 10%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+
+#main {
+  margin:150px;
+}
+
+h2 {
+  color: #06365f;
+  font-size: ;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+footer p {
+  color: #06365f ;
+}
+#copyright {
+  color :grey;
+}
+
+footer {
+  margin: 350px;
+}
