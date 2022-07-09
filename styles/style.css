@@ -4,7 +4,101 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #1c5380;
+}
+
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+    font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+    background: url('../images/bgtile.png');
+    background-repeat: repeat-x;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    margin: 80px auto;
+    position: relative;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#footer ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+li {
+    list-style: none;
+    padding: 0 10px;
+    color: #bbb;
+}
+
+.text {
+    max-width: 504px;
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.text-header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px 0 0;
+}
+
+.text-main {
+    background-image: url('../images/frame.png');
+    background-size: contain;
+    padding: 25px;
+    margin-right: 10px;
+    background-repeat: no-repeat;
+}
+
+.text .button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 5px 5px;
+    border: 1px solid #06365f;
+    background: linear-gradient(#72a6d1, #1c5380);
+    color: white;
+    border-radius: 2px;
+    font-size: 12px;
+    align-items: center;
+}
+
+.text .button img {
+    margin-right: 5px;
+}
+
+h1 {
+    color: #06365f;
+}
+
+.text-main p {
+    margin: 20px 20px 0 0;
+}
+
+.text-footer img {
+    margin-left: 20px;
 }
