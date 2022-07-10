@@ -1,91 +1,109 @@
- *{
-  margin:0;
-  padding:0;
-  box-sizing: border-box;
-}
+ * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
 
 
-.container {
-  display: flex;
-  background-color: #06365f;
-  padding: 100px;
-  justify-content: flex-start;
-  height: 300px;
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
+ .container {
+   display: flex;
+   background-color: #06365f;
+   padding: 100px;
+   justify-content: flex-start;
+   height: 300px;
+   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+ }
 
 
-.img-phone {
-  position: relative;
-}
+ .img-phone {
+   position: relative;
+ }
 
 
-h2 {
-  color: #1c5380
-}
-
-
-
-.para {
-  background-color: #fff;
-  border: 1px solid #dedede;
-  border-radius: 10px;
-  border-style: ridge ridge none ridge ;
-  position: relative;
-  left: 70px;
-  height:300px;
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  width: 500px;
-  top: 70px;
-  padding: 15px 20px;
-}
+ h2 {
+   color: #1c5380
+ }
 
 
 
-.instagram-logo {
-  display: flex;
-  position: relative;
-  left: 70px;
-  top: 20px;
-}
-
-
-.app-store {
-  padding-top: 50px;
-}
-
-
-
-.android {
-  margin-left: 20px;
-}
+ .para {
+   background-color: #fff;
+   border: 1px solid #dedede;
+   border-radius: 10px;
+   border-style: ridge ridge none ridge;
+   position: relative;
+   left: 70px;
+   height: 300px;
+   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+   width: 500px;
+   top: 70px;
+   padding: 15px 20px;
+ }
 
 
 
-  .home{
-  position: relative;
-  height: fit-content;
-  left: 100px;
-  top: 20px;
-  padding: 5px;
-  background-color: #06365f;
-  border: 1px solid rgba(52, 73, 107);
-  border-style:outset;
-}
+ .instagram-logo {
+   display: flex;
+   position: relative;
+   left: 70px;
+   top: 20px;
+ }
 
 
-.log-in {
-  position: relative;
-  text-decoration: none;
-  color:#fff;
-  font-size: 15px;
- font-style:inherit;
- font-weight: bold;
-}
+ .app-store {
+   padding-top: 50px;
+ }
 
 
-.house {
-  position: relative;
-  top: 5px;
-}
 
+ .android {
+   margin-left: 20px;
+ }
+
+
+
+ .home {
+   position: relative;
+   height: fit-content;
+   left: 100px;
+   top: 20px;
+   padding: 5px;
+   background-color: #06365f;
+   border: 1px solid rgba(52, 73, 107);
+   border-style: outset;
+ }
+
+
+ .log-in {
+   position: relative;
+   text-decoration: none;
+   color: #fff;
+   font-size: 15px;
+   font-style: inherit;
+   font-weight: bold;
+ }
+
+
+ .house {
+   position: relative;
+   top: 5px;
+ }
+
+ #footer {
+   position: absolute;
+   bottom: 0;
+   padding: 20px;
+   margin-left: 25%;
+   margin-bottom: 30px;
+ }
+
+ #footer a {
+   color: #1c5380;
+   margin-left: 25px;
+   font-weight: 700;
+   text-decoration: none;
+   text-transform: uppercase;
+
+
+ }
+ 
