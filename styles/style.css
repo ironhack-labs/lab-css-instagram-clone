@@ -1,10 +1,138 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
+:root{
+  --dark-blue: #06365f;
+  --light-blue: #1c5380;
+  --white: #FFFFFF;
+  --black: #000000;
+  --gray: #999999;
+}
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+
+}
+
+.background{
+  position: fixed;
+  z-index: -1;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 40%;
+  background: rgb(28,83,128);
+  background: linear-gradient(360deg, rgba(28,83,128,1) 46%, rgba(36,106,158,1) 76%, rgba(45,134,195,1) 100%);
+}
+
+main {
+  height: 100vh;
+  width: 100vw;
+  background-color: transparent;
+}
+
+main > div {
+  padding: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main > div > section {
+  display: flex;
+  flex-direction: row;
+}
+
+.top-text{
+  display: flex;
+  align-items: center;
+  align-content: flex-start;
+  justify-content: flex-start;
+}
+
+.top-text > button {
+  cursor: pointer;
+  text-transform: capitalize;
+  text-decoration: none;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  align-items: center;
+  background-color: var(--light-blue);
+  box-shadow: 0px 0px 9px 2px rgba(0,0,0,0.37);
+  margin-left: 40px;
+  color: var(--white);
+  font-weight: 500;
+  column-gap: 10px;
+}
+
+.top-text > button > img {
+  margin: 10ṕx;
+}
+
+main > div > section > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main > div > section > img {
+  padding: 10px;
+}
+
+.text-div {
+  padding: 30px;
+  margin: 35px;
+  background: var(--white);
+  border-radius: 8px;
+  box-shadow: 0px -14px 14px 2px rgba(0,0,0,0.22); 
+}
+
+main > div > section > div > div > h2 {
+  color: var(--dark-blue);
+  margin-bottom: 20px;
+}
+
+main > div > section > div > div > p {
+  color: var(--black);
+  margin-bottom: 10px;
+}
+
+.download-section{
+  display:flex;
+}
+
+.download-section > img {
+  margin: 15px;
+}
+
+.footer-section, .footer-section > ul{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-size: .7rem;
+}
+
+.footer-section > ul {
+  list-style-type: none;
+  color: var(--dark-blue);
+
+}
+
+.footer-section > ul > li {
+  padding: 10px;
+}
+
+.footer-section > p {
+  color: var(--gray)
+
 }
