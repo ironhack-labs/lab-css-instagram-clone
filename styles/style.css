@@ -8,3 +8,45 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+aside {
+  background-color: #06365f;
+}
+
+aside img {
+  float: left;
+  display: flex;
+  margin: 70px 100px;
+}
+
+button {
+  background-color: #1c5380;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+
+button img {
+  margin: 0px;
+  padding: 0px
+}
+
+aside img {
+  float: left;
+  display: flex;
+  margin: 70px 100px;
+}
+
+.container {
+  background-color: aqua;
+}
+
+h1 {
+  text-align: left;
+  color:#358fde
+}
+
+.badges {
+  background-color: aquamarine;
+}
