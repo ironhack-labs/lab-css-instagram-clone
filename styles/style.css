@@ -4,6 +4,7 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+/* GENERAL PAGE STYLES */
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
@@ -11,7 +12,141 @@ body {
 
 .top-blue {
   width: 100vw;
-  height: 500px;
+  height: 265px;
   margin: 0;
-  background-color: #1c5380;
+  /* background-image: url("images/bgtile.png"); */
+  background-size: auto;
+  background-position: left top;
+  background-repeat: repeat;
+}
+
+.page-container {
+  margin: 0;
+}
+
+/* all-content-container items */
+
+.all-content-container {
+  display: flex;
+  position: fixed;
+  top: 10%;
+  left: 10%;
+}
+
+.phones-box {
+  height: 600px;
+  width: 400px;
+}
+
+.brand-login-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-container {
+  /* background: #314755;   */
+  background: -webkit-linear-gradient(to bottom, #26a0da, #09598d);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #26a0da, #09598d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 96px;
+  height: 40px;
+  border: 1px solid #1c5380;
+  border-radius: 5px;
+}
+
+.icon img {
+  padding: 3px 0 0 8px;
+}
+
+.btn-text p {
+  padding: 0 10px 0 0;
+  color: white;
+  font-size: .9em;
+  font-weight: 500;
+  text-shadow: 1px 1px #3b3b3b;
+}
+
+/* button {
+  width: 100px;
+  height: 40px;
+  border: 2px solid #13436d;
+  background-color: #4f769a;
+  border-radius: 5px;
+  color: white;
+  font-size: .9em;
+} */
+
+/* .icon {
+  background-image: url("./images/home.png");
+} */
+
+.text-container {
+  width: 405px;
+  background-color: white;
+  /* background-image: url("./style.cssimages/frame.png"); */
+  /* background-repeat: no-repeat; */
+  /* background-position: top; */
+  /* background-size: cover; */
+  padding: 3px 30px 10px;
+  border-radius: 5px;
+  margin-top: 30px
+}
+
+.text-container h2 {
+  color: #06365f;
+  width: 250px;
+}
+
+.text-container p {
+  color: #303030;
+  font-weight: 400;
+}
+
+.badge-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.badge-container div > img {
+  margin-left: 30px;
+}
+
+footer {
+  position: fixed;
+  top: 760px;
+  left: 15vw;
+  width: 800px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+}
+
+nav {
+  width: 450px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+footer nav + p {
+  margin-left: 19px;
+  font-size: .8em;
+  font-weight: 600;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #7b7b7b;
+}
+
+nav a {
+  color: #1c5380;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: .8em;
+  text-decoration: none;
 }
