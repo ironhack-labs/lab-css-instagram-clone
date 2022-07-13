@@ -14,7 +14,6 @@ body {
   width: 100vw;
   height: 265px;
   margin: 0;
-  /* background-image: url("images/bgtile.png"); */
   background-size: auto;
   background-position: left top;
   background-repeat: repeat;
@@ -29,7 +28,7 @@ body {
 .all-content-container {
   display: flex;
   position: fixed;
-  top: 10%;
+  top: 77px;
   left: 10%;
 }
 
@@ -45,56 +44,39 @@ body {
   align-items: center;
 }
 
-.btn-container {
-  /* background: #314755;   */
-  background: -webkit-linear-gradient(to bottom, #26a0da, #09598d);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #26a0da, #09598d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
+.btn {
   width: 96px;
   height: 40px;
-  border: 1px solid #1c5380;
+  border: 2px solid #205b8f;
+  background: -webkit-linear-gradient(to bottom, #269bd2, #235d83);
+  background: linear-gradient(to bottom, #269bd2, #235d83); 
   border-radius: 5px;
-}
-
-.icon img {
-  padding: 3px 0 0 8px;
-}
-
-.btn-text p {
-  padding: 0 10px 0 0;
   color: white;
   font-size: .9em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.icon {
+  background-image: url("./images/home.png");
+}
+
+.btn-text {
+  color: white;
+  font-size: 1em;
   font-weight: 500;
   text-shadow: 1px 1px #3b3b3b;
 }
 
-/* button {
-  width: 100px;
-  height: 40px;
-  border: 2px solid #13436d;
-  background-color: #4f769a;
-  border-radius: 5px;
-  color: white;
-  font-size: .9em;
-} */
-
-/* .icon {
-  background-image: url("./images/home.png");
-} */
-
 .text-container {
-  width: 405px;
+  width: 435px;
   background-color: white;
-  /* background-image: url("./style.cssimages/frame.png"); */
-  /* background-repeat: no-repeat; */
-  /* background-position: top; */
-  /* background-size: cover; */
   padding: 3px 30px 10px;
   border-radius: 5px;
-  margin-top: 30px
+  margin-top: 30px;
+  box-shadow: 0px -79px 40px 3px rgb(0 0 0 / 12%);
 }
 
 .text-container h2 {
@@ -118,7 +100,7 @@ body {
 
 footer {
   position: fixed;
-  top: 760px;
+  top: 675px;
   left: 15vw;
   width: 800px;
   display: flex;
