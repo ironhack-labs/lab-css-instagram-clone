@@ -4,7 +4,83 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
-body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+
+*{
+  margin : 0 ; 
+  box-sizing: border-box;
 }
+main{
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 10rem;
+}
+.background{
+  position: absolute;
+  background: #1c5380;
+  height: 21rem;
+  width: 100vw;
+  z-index: -99;
+}
+
+.main-left-side{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.main-right-side{
+    width: 60rem;
+}
+.right-side-logo{
+  width: 30rem;
+  display: flex;
+  justify-content:space-between; 
+  align-items:center;
+}
+.right-side-logo img {
+  flex-grow: 50%;
+
+}
+.log-in{
+  width: 6rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  font-weight: 900;
+  background: #1c5380;
+  color: white;
+  box-shadow: 2 2 1px black;
+  border: 1px #06365f solid; 
+}
+.right-side-article{
+  background:url(/images/frame.png);
+  background-repeat: no-repeat;
+  width: 30rem;
+  padding: 2rem;
+
+}
+.right-side-article h1 {
+  color:#06365f ;
+}
+.right-side-article p {
+  margin: 1rem 0 1rem 0 ;
+}
+
+.app-store{
+  width: 30rem;
+  display: flex;
+  gap:1rem;
+  margin-top: 2rem;
+}
+footer{
+  text-align: center;
+  font-weight: 900;
+  padding: 3rem;
+  color: #1c5380;
+  word-spacing: 1rem;
+}
+footer span {
+  color: #8f8f8f;
+}
+
+
