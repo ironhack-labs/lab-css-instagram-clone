@@ -3,8 +3,110 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
+* {
+  /* border: 1px solid red; */
+}
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  max-width: 100%;
+  min-width: 50%;
+}
+span {
+  font-weight: bold;
+}
+
+header {
+  background-image: url("../images/bgtile.png");
+  height: 40vh;
+  max-width: 100%;
+  min-width: 100%;
+}
+#presentation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  bottom: 10rem;
+  width: 100%;
+}
+#inst-head {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  width: 100%;
+}
+#logIn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-image: url("../images/bgtile.png");
+  text-decoration: none;
+  height: 3em;
+  align-self: center;
+  border-radius: 5%;
+  border: none;
+  box-shadow: 1px 1px 1px 1px #06365f;
+  color: white;
+  font-weight: bold;
+  position: static;
+  max-width: 7em;
+  min-width: 7em;
+}
+#logo {
+  align-self: center;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  gap: 5rem;
+}
+
+aside {
+  position: relative;
+  bottom: 12rem;
+  left: 10rem;
+}
+section {
+  width: 40%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  max-width: 30rem;
+  min-width: 30rem;
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 30px;
+  gap: 1rem;
+}
+h2 {
+  color: #06365f;
+  font-size: 25px;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+li a {
+  text-decoration: none;
+  color: #1c5380;
+  font-weight: bold;
+}
+
+#text {
+  font-size: 15px;
+  font-weight: 500;
 }
