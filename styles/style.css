@@ -52,10 +52,22 @@ section {
     align-items: center;
 }
 
-#presentation-card header button {
+#log-in {
     padding: 0.5rem;
+    display: flex;
+    flex-direction: row;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
+    background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(28, 83, 128, 1));
+    border: 1px solid var(--light-blue);
+    border-radius: 5%;
+}
+
+#log-in p {
+    padding-left: 1rem;
+    color: white;
+    font-size: 1.1em;
+    font-weight: 900;
 }
 
 #presentation-text {
