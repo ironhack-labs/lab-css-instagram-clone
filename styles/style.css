@@ -28,7 +28,7 @@ main {
 }
 
 section {
-    margin: 10% 5%;
+    margin: 5% 5% 0;
 }
 
 #iphone-preview {
@@ -38,31 +38,61 @@ section {
 #presentation-card {
     width: 70%;
     display: flex;
+    padding-top: 1rem;
     flex-direction: column;
     justify-content: space-evenly;
     align-content: center;
 }
 
 #presentation-card header {
+    width: 35vw;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
 
+#presentation-card header button {
+    padding: 0.5rem;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
 #presentation-text {
-    margin: 2rem 0;
-    padding: 4rem;
+    width: 30vw;
+    padding: 2rem 3rem;
     background: url('../images/frame.png') no-repeat;
     background-size: contain;
     background-position: top;
 }
 
-#presentation-text b {
-    font-weight: 400;
+#presentation-text h1 {
+    color: var(--dark-blue);
+    padding-right: 3rem;
+    
+}
+
+#presentation-text p {
+    margin-bottom: 1rem; 
+}
+
+#presentation-text p b {
+    font-weight: 900;
+}
+
+#downloads {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+.download-card {
+    padding-left: 2vw;
 }
 
 nav ul {
+    margin-top: 10vh;
     display: flex;
     flew-direction: row;
     justify-content: center;
@@ -71,4 +101,13 @@ nav ul {
 
 ul li {
     list-style-type: none;
+    color: var(--light-blue);
+    font-weight: 600;
+    font-size: 0.75em;
+    text-transform: uppercase;
+    padding-right: 1rem;
+}
+
+#copyrights {
+    color: gray;
 }
