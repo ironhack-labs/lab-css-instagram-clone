@@ -7,4 +7,95 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  padding: 0;
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;
+}
+
+.header-align {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.header-background {
+  background-image: url(../images/bgtile.png);
+  width: 100%;
+  height: 300px;
+}
+
+.header-right {
+  width: 460px;
+  margin: 100px 100px 20px 10px;
+}
+
+.header-right-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.header-right-text {
+  padding: 10px 20px;
+  background: url('../images/frame.png') no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+
+.header-right-text h1 {
+  color: #06365f;
+}
+
+
+.home-button {
+  position: relative;
+  width: 100px;
+  background-color: #1c5380;
+  font-size: 10px;
+  padding: 8px 8px;
+  border: none;
+  border-radius: 5px;
+  appearance: none;
+}
+
+
+.ig-logo img {
+  width: 300px;
+}
+
+.header-left {
+  width: 460px;
+  margin-top: 50px;
+  margin-left: 60px;
+}
+
+.header-left img {
+  width: 350px;
+}
+
+.white-frame {
+  margin-top: 40px;
+}
+
+.footer-links {
+  color: #1c5380;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 80px 400px;
+}
+
+.footer-links span {
+  color: grey;
+  font-weight: bold;
+  text-transform: uppercase;
 }
