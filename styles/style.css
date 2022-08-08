@@ -5,13 +5,6 @@
 }
 
 
-
-/*
-Colors to use:
-dark blue: 
-light blue: #1c5380
-*/
-
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
@@ -22,7 +15,9 @@ main{
   justify-content: center;
   align-items: center;
 
-  margin-top: 100px;
+  
+  background-image: url(/images/bgtile.png);
+  background-repeat: repeat-x;
 
 
 }
@@ -33,10 +28,44 @@ section{
   justify-content: center;
 
   max-width: 60%;
+  margin-top: 100px;
+  
+}
+
+.phones-image{
+  margin-right: 50px;
+}
+
+.logo-login{
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  
 }
 
 .text-box{
-  background-color: white;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  background-image: url(/images/frame.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+
+.download-buttons{
+  display: flex;
+  align-items: center;
+
+  
+}
+
+.download-clickables{
+  margin: 50px 15px 0 10px;
 }
 
 h1{
@@ -53,6 +82,7 @@ h1{
 footer{
   display: flex;
   justify-content: center;
+  align-items: baseline;
 
 }
 ul{
@@ -61,4 +91,16 @@ ul{
 
   list-style: none;
   
+}
+
+li{
+  margin: 25px 10px 25px 15px;
+  font-size: small;
+  font-weight: bold;
+  
+}
+
+.links-footer{
+  text-decoration: none;
+  color: #1c5380;
 }
