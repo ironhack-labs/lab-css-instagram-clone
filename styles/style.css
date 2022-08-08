@@ -3,8 +3,102 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+* {
+  margin: 0;
+  padding: 0;
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  height: 100vh;
+}
+
+h1 {
+  color: #06365f;
+  margin-top: 10px;
+}
+
+.backg-img {
+  background-image: url(../images/bgtile.png);
+  background-size: 100% 250px;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  padding:0 20px 0 20px;
+  
+  
+}
+
+.right-column {
+  width: 50%;
+}
+
+.article {
+  background-color: white;
+  margin:0 35px;
+  padding: 0 20px;
+  border: 1px solid black;
+  border-radius: 2%;
+}
+
+.logo {
+  padding: 0 20px;
+  margin: 0 10px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 50px;
+  font-weight: bold;
+
+
+}
+
+.lista {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  list-style: none;
+  margin-top: 30px;
+}
+
+.iphone-photo {
+  margin-top: 80px;
+}
+
+.app {
+  margin-top: 30px;
+}
+
+.lista2 {
+  color:#1c5380;
+}
+
+.lista3 {
+  color: grey;
+}
+
+
+.androidImg {
+  margin-left: 25px;
+}
+
+.homeLogIn {
+  display: flex;
+  align-items: center;
+}
+
+
+.botonHomeClass {
+  display: flex;
+  width: 15%;
+  
+}
+
+p {
+  padding-bottom: 8px;
 }
