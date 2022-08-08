@@ -4,7 +4,122 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+* {
+  padding: 0;
+  margin: 0%;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+section {
+  background-image: url(../images/bgtile.png);
+  background-repeat: no-repeat;
+  background-size: 100% 35%;
+}
+
+.content {
+  padding: 50px 120px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.right {
+  width: 56%;
+}
+
+.left {
+  width: 40%;
+}
+
+.left img {
+  width: 90%;
+}
+
+.top {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top a {
+  text-shadow: 2px 2px 1px rgba(17, 64, 102, 0.586);
+  width: 18%;
+  height: 48px;
+  background-image: linear-gradient(#7694af, #406585);
+  box-shadow: 1px 1px 4px rgba(17, 64, 102, 0.586);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+  border-radius: 3px;
+  border: 1px solid #304c65;
+  padding: 0 10px;
+}
+
+.top>img {
+  width: 60%;
+}
+
+.top a img {
+  height: 50%;
+}
+
+.bottom {
+  width: 100%;
+  /*   height: 200px;
+ */
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bottom img {
+  width: 35%;
+  margin-right: 20px;
+}
+
+.bottom div {
+  padding: 40px;
+}
+
+h1 {
+  font-size: 32px;
+  color: #06365f;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+
+footer {
+  padding: 40px 0;
+  font-size: 12px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: #496e8f;
+  margin-right: 20px;
+}
+
+footer ul {
+  display: flex;
+  justify-content: row;
+  list-style: none;
+}
+
+footer span {
+  color: rgb(206, 206, 206);
 }
