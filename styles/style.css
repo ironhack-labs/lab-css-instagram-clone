@@ -7,4 +7,115 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-color: #fff;
+  height: 1000px;
+}
+
+
+/* body {
+  height: 1000px;
+  background-color: #fff;
+} */
+
+#Squared-container-1 {
+  background-color: #fff;
+  justify-content: center;
+  align-items: center
+}
+
+#center-webpage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+
+
+}
+
+#left-container {
+  /* display: flex; */
+  /* align-items: flex-start; */
+  align-content: flex-start;
+}
+
+.right-container-down {
+  margin-left: 40px;
+  justify-content: center;
+}
+
+.right-top {
+  display: flex;
+  background-color: #3a6890;
+  flex-direction: row;
+}
+
+.right-container-1 {
+  background-color: #fff;
+  margin-left: 60px;
+
+}
+
+.right-bottom-1 {
+  /* text-align: center; */
+  margin: 20px;
+  border-radius: 20px;
+
+
+}
+
+.footer {
+  display: flex;
+  margin: 0px 100px;
+  flex-direction: row;
+  color: blue;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.footer p :last-child {
+  color: gray;
+  margin: 0px 100px;
+}
+
+.blue-background {
+  object-fit: cover;
+
+}
+
+body {
+  background-image: url("../images/bgtile.png");
+  background-position: top;
+  background-size: 100% 25%;
+  background-repeat: no-repeat;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  /* align-items: flex-start; */
+}
+
+.footer a {
+  color: #06365F;
+  text-decoration: none;
+  margin: 0px 4px;
+}
+
+.footer p {
+  display: inline;
+  margin-left: 20px;
+  color: gray;
+}
+
+.button {
+  margin-left: 100px;
+  width: 100px;
+  background-color: blue;
+  height: 30px;
+  border: 1px solid blue;
+  border-radius: 10px;
+  align-content: center;
+
 }
