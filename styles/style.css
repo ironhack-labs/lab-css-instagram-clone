@@ -15,7 +15,7 @@ main{
   justify-content: center;
   align-items: center;
 
-  
+
   background-image: url(/images/bgtile.png);
   background-repeat: repeat-x;
 
@@ -39,9 +39,57 @@ section{
 .logo-login{
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: center;
   
 }
+
+.instalogo{
+  margin: 15px;
+}
+
+.login-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 140px;
+
+}
+
+.login-span{
+  background-color: rgba(109,145,175,255);
+  border: 1px solid transparent;
+  border-radius: 3px;
+  box-shadow: rgba(255, 255, 255, .4) 0 1px 0 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.15385;
+  margin: 0 10px;
+  outline: none;
+  padding: 4px 5px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+.link-login{
+  text-decoration: none;
+  width: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 .text-box{
   
@@ -49,11 +97,15 @@ section{
   flex-direction: column;
   justify-content: center;
 
-  background-image: url(/images/frame.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 
+
+
+}
+
+.background-image-div{
+  background-image: url(/images/frame.png);
+  background-repeat: no-repeat;
+  background-size: contain;
 
 }
 
@@ -71,6 +123,13 @@ section{
 h1{
   color: #06365f;
   font-style: bolder;
+  margin: 25px;
+  text-align: start;
+} 
+p{
+  margin: 5px 35px;
+  text-align: start;
+
 }
 
 
