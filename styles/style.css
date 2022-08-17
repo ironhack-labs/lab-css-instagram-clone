@@ -3,8 +3,104 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
+html {
+  height: 100%;
+}
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  width: 100%;
+  height: 100%;
+}
+.background {
+  width: 100vw;
+  height: 45%;
+  background-image: url(/images/bgtile.png);
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+/* CONTAINER STYLES */
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+  margin: 180px auto 0 auto;
+}
+
+.content {
+  width: 45%;
+}
+
+.phone--image {
+  margin-top: 30px;
+}
+
+.content--header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+  margin-right: 10px;
+}
+.content--header a {
+  border: 1px solid #1c5380;
+  border-radius: 5px;
+  height: 23px;
+  padding: 14px 10px 9px 10px;
+  color: white;
+  text-decoration: none;
+  line-height: 20px;
+  font-weight: bold;
+  position: relative;
+  top: 15px;
+  background-color: #3a75a5;
+}
+.content--header a img {
+  margin: -4px 10px auto auto;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.content--about {
+  height: 330px;
+  margin-top: 32px;
+  padding-left: 50px;
+  padding-top: 20px;
+  background: url(/images/frame.png) no-repeat;
+  background-size: 100%;
+}
+.cont ent--about h1 {
+  width: 48%;
+  font-size: 1.6em;
+}
+.content--about p {
+  width: 90%;
+}
+
+.content--download {
+  padding-left: 30px;
+  margin-left: 15px;
+  margin-top: 20px;
+}
+.content--download a {
+  margin-right: 15px;
+}
+footer {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 70px;
+}
+footer ul {
+  margin-right: 30px;
+}
+footer ul li {
+  display: inline;
+  margin: 0 5px;
+}
+footer ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #1c5380;
 }
