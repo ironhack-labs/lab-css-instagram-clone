@@ -44,10 +44,11 @@ body {
 
 .top-content-block img{
   padding: 8px;
+  margin-left: 20px;
 }
 
 .log-in{
-  width: 20%;
+  width: 15%;
   height: 30%;
   display: flex;
   flex-direction:row;
@@ -67,6 +68,10 @@ body {
 .log-in p {
   font-size: 1em;
   font-weight:500;
+}
+
+.log-in img{
+  margin: 0;
 }
 
 .mid-content-block{
@@ -100,11 +105,24 @@ body {
 .bottom-content-block img{
   padding: 8px;
   margin: 0 8px;
-}
+} 
 
 .footer-navigation{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  list-style: none;
+display: flex;
+justify-content: center;
+color: #1c5380;
+align-content: space-around;
+font-weight: bold;
+text-transform: uppercase;
+}
+
+.footer-navigation li{
+  display: inline;
+  margin: 0 4px;
+}
+
+#copyright {
+  text-transform:uppercase;
+  color: gray;
+  font-weight:lighter;
 }
