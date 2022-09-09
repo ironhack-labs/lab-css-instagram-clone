@@ -4,9 +4,16 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+*{
+  border: 1px solid black;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 5%;
+  background-image: url("/images/bgtile.png");
+  background-color: white;
+  background-repeat:repeat-x;
 }
 
 .main-body{
@@ -18,6 +25,7 @@ body {
 
 .cell-phones{
   width: 30%;
+  margin: 0 auto;
 }
 
 .content-block{
@@ -27,6 +35,37 @@ body {
 }
 
 .top-content-block{
+  display: flex;
+  flex-direction:row;
+  flex-wrap:nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-content-block img{
+  padding: 8px;
+}
+
+.log-in{
+  width: 20%;
+  height: 50%;
+  display: flex;
+  flex-direction:row;
+  flex-wrap:nowrap;
+  justify-content:space-between;
+  align-items: center;
+  padding: 8px;
+  background-image: url("/images/bgtile.png");
+  background-color: #1c5380;
+  box-shadow: 3px 3px 5px #06365f;
+  border:#06365f solid;
+  color: #E1E7ED;
+}
+
+.log-in p {
+  font-family:Helvetica;
+  font-size: 24px;
+  font-weight:500;
 }
 
 .footer-navigation{
