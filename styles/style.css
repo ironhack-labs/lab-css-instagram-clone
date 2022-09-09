@@ -48,24 +48,58 @@ body {
 
 .log-in{
   width: 20%;
-  height: 50%;
+  height: 30%;
   display: flex;
   flex-direction:row;
   flex-wrap:nowrap;
   justify-content:space-between;
   align-items: center;
   padding: 8px;
-  background-image: url("/images/bgtile.png");
   background-color: #1c5380;
+  background-image: url("/images/bgtile.png");
   box-shadow: 3px 3px 5px #06365f;
   border:#06365f solid;
   color: #E1E7ED;
+  border-radius: 3px;
+  margin: 14px;
 }
 
 .log-in p {
-  font-family:Helvetica;
-  font-size: 24px;
+  font-size: 1em;
   font-weight:500;
+}
+
+.mid-content-block{
+  background-color: inherit;
+  background-image: url("/images/frame.png");
+  background-repeat: no-repeat;
+  background-size:cover;
+  padding: 20px 40px;
+}
+
+.mid-content-block p{
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 2;
+}
+
+.mid-content-block h1{
+  color:#1c5380;
+  width: 50%;
+  font-size: 2em;
+}
+
+.bottom-content-block{
+  display: flex;
+  flex-direction:row;
+  flex-wrap:nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom-content-block img{
+  padding: 8px;
+  margin: 0 8px;
 }
 
 .footer-navigation{
