@@ -8,3 +8,131 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+#body {
+  background: #06365f;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top:7.5vw;
+  margin-left: 10vw;
+  margin-right:10vw;
+}
+
+#background {
+  margin-left:4vw;
+  width:60%;
+  text-align: left;
+  display:flex;
+  background-size: 100% 100%;
+  flex-direction: column;
+  align-items: left;
+  background-repeat: no-repeat;
+  background-image: url(/Users/user/Desktop/IronHack/Assignments/lab-css-instagram-clone/images/frame.png);
+}
+
+#right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#right-top {
+  margin-left:4.5vw;
+  display:flex;
+  justify-content: space-between;
+  width: 60%;
+}
+
+#right-top > img {
+  height:5vw;
+  width:20vw;
+}
+
+button {
+  box-sizing: content-box;
+  font-size: 12px;
+  margin-right: 1.5vw;
+  text-align: right;
+  align-self: center;
+  font-weight: bold;
+  width:75px;
+  height:35px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position: left;
+  color:white;
+  background-color: #1c5380;
+  background-image: url(/Users/user/Desktop/IronHack/Assignments/lab-css-instagram-clone/images/home.png);
+}
+
+.spaced {
+  margin-left: 50px;
+}
+
+h2 {
+  width:50%;
+  color:#06365f;
+  margin-left:4vw;
+  margin-bottom: 0;
+  margin-top: 2.5vw;
+}
+
+#background > p {
+  width:80%;
+    margin-left: 4vw;
+    margin-bottom: 0;
+}
+
+span {
+  font-weight:bold;
+}
+
+footer {
+  background-color: white;
+  position:absolute;
+  text-align: center;
+  bottom:0;
+  width:100%;
+}
+
+.flex {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  text-align: center;
+  align-self: center;
+}
+
+li {
+  width:fit-content;
+  list-style-type: none;
+    margin-right: 50px;
+    text-align: center;
+}
+
+
+a {
+  text-decoration: none;
+  color:#1c5380
+}
+
+.centered {
+  text-align: center;
+  align-self: center;
+}
+
+.margin {
+  margin-left:20px;
+}
+
+.apple {
+  margin-left:3vw;
+}
+
+#downloads {
+  margin-left:4vw;
+}
