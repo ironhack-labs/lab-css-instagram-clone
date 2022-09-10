@@ -11,3 +11,59 @@ body {
   background-repeat: no-repeat;
   height: 100%;
 }
+
+#logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: flex-start;
+
+
+}
+
+#buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.textbox {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  padding: 30px;
+  
+}
+
+#frame {
+  position: absolute;
+  left: 50%;
+  top: 52%
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 70%;
+  margin-top: 400px;
+}
+
+#download {
+ position: absolute;
+ top:880px;
+ left: 52%;
+}
+
+#the_phone {
+  position: absolute;
+  left: 10%;
+  top: 10%;
+}
+
+h1 {
+  color: #06365f;
+}
