@@ -1,0 +1,100 @@
+.flex {
+    display: flex;
+}
+
+body {
+    font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+}
+
+.background {
+    height: 600px;
+    background-image: url(./images/bgtile.png);
+    background-repeat: repeat-x;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.container {
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+.general {
+    flex-direction: column;
+    width: 600px;
+    padding: 0 20px;
+    margin-left: 30px;
+}
+
+.general_header {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 0 10px;
+}
+
+.login_button {
+    justify-content: center;
+    align-items: center;    
+    background: linear-gradient(0deg, rgba(74,117,154,1) 0%, rgba(111,145,175,1) 100%);
+    height: 35px;
+    width: 90px;
+    color: white;
+    font-size: 0.8em;
+    border: 0.2px solid black;
+    border-radius: 3px;
+}
+
+.login_button_link {
+    text-decoration: none;
+}
+
+.login_text {
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.general_info {
+    background-image: url(images/frame.png);
+    background-size: cover;
+    color: #06365f;
+    padding: 40px;
+    font-size: 0.8em;
+}
+
+.general_info h1 {
+    margin: 0;
+}
+
+.app_download_buttons {
+    padding: 0 40px;
+}
+
+.google_button {
+    margin-left: 15px;
+}
+
+.footer_navbar {
+    margin-top: 0;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    font-size: 0.7em;
+    font-weight: bold;
+}
+
+.footer_nav_item {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #1c5380;
+}
+
+.copyright_text {
+    margin: 0 10px;
+    color: #1c5380;
+    opacity: 0.5;
+}

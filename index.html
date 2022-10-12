@@ -7,48 +7,56 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div class="container">
-      <div class="phone_img">
-        <img src="./images/phones.png" alt="">
-      </div>
-      <div class="general">
-        <div class="page_header">
-          <img src="./images/brand.png" alt="Instagram logo and name text">
-          <div class="login_button">
-            <a href="#"><img src="./images/home.png" alt="home icon">Log in</a>
+    <div class="background flex">
+      <div class="container flex">
+        <div class="phone_img">
+          <img src="./images/phones.png" alt="">
+        </div>
+        <div class="general flex">
+          <div class="general_header flex">
+            <img src="./images/brand.png" alt="Instagram logo and name text">
+            <a href="#" class="login_button_link">
+              <div class="login_button flex">
+                <img src="./images/home.png" alt="home icon" class="home_icon">
+                <p class="login_text">Log in</p>
+              </div>
+            </a>
+          </div>
+          <div class="general_info">
+            <h1 class="info_heading">
+              Capture and Share <br>the World's Moments
+            </h1>
+            <p class="info_text">
+              Instagram is a <b>fast, beautiful</b> and <b>fun</b> way to share your life with friends and family.
+            </p>
+            <p>
+              Take a picture or video, choose a filter to transform its look and feel, then post to Instagram
+              &mdash; it's that easy. You can even share to Facebook, Twitter, Tumblr and more. It's a new way to see the world. 
+            <p>  
+              Oh yeah, did we mention it's free?
+            </p>
+          </div>
+          <div class="app_download_buttons">
+            <img src="./images/badge-iphone.png" alt="app store app download button">
+            <img src="./images/badge-android.png" alt="google pay app download button" class="google_button">
           </div>
         </div>
-        <div class="info">
-          <h1 class="info_heading">
-            Instagram Capture and Share the World's Moments
-          </h1>
-          <p class="info_text">
-            Instagram is a fast, beautiful and fun way to share your life with friends and family. <br>
-            Take a picture or video, choose a filter to transform its look and feel, then post to Instagram
-            &mdash; it's that easy. You can even share to Facebook, Twitter, Tumblr and more. It's a new way to see the world. <br>
-            Oh yeah, did we mention it's free?
-          </p>
-        </div>
-        <div class="app_download_buttons">
-          <img src="./images/badge-iphone.png" alt="app store app download button">
-          <img src="./images/badge-android.png" alt="google pay app download button">
-        </div>
       </div>
-      <footer>
-        <nav class="footer_navbar">
-          <ul>
-            <li><a href="#"></a>ABOUT US</li>
-            <li><a href="#"></a>SUPPORT</li>
-            <li><a href="#"></a>BLOG</li>
-            <li><a href="#"></a>PRESS</li>
-            <li><a href="#"></a>API</li>
-            <li><a href="#"></a>JOBS</li>
-            <li><a href="#"></a>PRIVACY</li>
-            <li><a href="#"></a>TERMS</li>
-            <li class="copyright_text">&copy; 2014 Instagram</li>
-          </ul>
-        </nav>
-      </footer>
     </div>
+    <footer>
+      <nav>
+        <ul class="footer_navbar flex">
+          <li><a href="#" class="footer_nav_item">ABOUT US</li></a>
+          <li><a href="#" class="footer_nav_item">SUPPORT</li></a>
+          <li><a href="#" class="footer_nav_item">BLOG</li></a>
+          <li><a href="#" class="footer_nav_item">PRESS</li></a>
+          <li><a href="#" class="footer_nav_item">API</li></a>
+          <li><a href="#" class="footer_nav_item">JOBS</li></a>
+          <li><a href="#" class="footer_nav_item">PRIVACY</li></a>
+          <li><a href="#" class="footer_nav_item">TERMS</li></a>
+          <li class="copyright_text">&copy; 2014 Instagram</li>
+        </ul>
+      </nav>
+    </footer>
   </body>
 </html>
