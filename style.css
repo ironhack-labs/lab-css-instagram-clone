@@ -24,7 +24,7 @@ body {
 
 .general {
     flex-direction: column;
-    width: 600px;
+    width: 500px;
     padding: 0 20px;
     margin-left: 30px;
 }
@@ -49,6 +49,11 @@ body {
     border-radius: 3px;
 }
 
+.ig_logo {
+    width: 300px;
+    height: auto;
+}
+
 .login_button_link {
     text-decoration: none;
 }
@@ -60,14 +65,17 @@ body {
 
 .general_info {
     background-image: url(images/frame.png);
-    background-size: cover;
+    background-size: contain;
+    height: 200px;
     color: #06365f;
     padding: 40px;
+    margin-bottom: 40px;
     font-size: 0.8em;
 }
 
 .general_info h1 {
     margin: 0;
+    margin-bottom: 20px;
 }
 
 .app_download_buttons {
