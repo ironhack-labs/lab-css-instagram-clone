@@ -4,7 +4,139 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url(/lab-css-instagram-clone/images/bgtile.png);
+  background-position-x: center;  
+  background-position-y: top;
+  background-repeat: repeat-x;
 }
+
+a{
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+.flex{
+  display:flex;
+}
+
+.column{
+  flex-direction: column;
+}
+
+/*CONTAINER*/
+
+.container{
+  width:100%;
+  height:fit-content;
+  align-items: center;
+}
+
+/* INNER CONTAINER */
+.innerContainer{
+ 
+  padding:100px;
+  padding-bottom: 40px;
+  justify-content: center;
+}
+
+
+/*LEFT COLUMN*/
+.leftColumn{
+  width:100%;
+  align-self: center;
+}
+
+  .leftColumn img{
+    width:100%;
+    min-width: 250px;
+    height:auto;
+  }
+/*RIGHT COLUMN*/
+
+.rightColumn{
+  flex-direction: column;
+  width:100%;
+  height: fit-content;
+  margin: 0px 50px;
+}
+
+  .headerContent{
+    justify-content: space-between;
+    align-items: center;
+    max-width: 500px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+    .headerContent>img{
+      width:55%;
+    }
+
+    .login{
+      width: 20%;
+      background: linear-gradient(180deg, rgba(111,147,177,1) 0%, rgba(28,83,128,1) 100%);
+      color:white;
+      border: 1px solid #1c5380;
+      border-radius: 3px;
+      font-weight: 700;
+      padding: 10px;
+      height:fit-content;
+      align-items: center;
+    }
+      .login>img{
+        margin-right:10px;
+      }
+
+      .login:hover{
+        background: rgba(111,147,177,1);
+      }
+
+  .mainContent{
+    flex-direction: column;
+    width:500px;
+    height: auto;
+    background-image: url(/lab-css-instagram-clone/images/frame.png);
+    background-repeat: no-repeat;
+    background-size:auto;
+  }
+  
+    .mainContent article{
+      padding: 20px 40px;
+    }
+      .mainContent article h2{
+        width:60%;
+        color:#1c5380;
+
+      }
+  
+  .downloadButtons{
+    padding: 0px 40px;
+  }
+
+    .downloadButtons img:first-child{
+      margin-right: 20px;
+    }
+/* FOOTER */
+.footer{
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+  .footer a, .footer p{
+    margin: 0px 10px;
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #3b7cb1;
+  }
+
+  .footer p{
+    color: rgb(179, 179, 179);
+  }
