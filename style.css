@@ -8,7 +8,7 @@ body {
 }
 
 .background {
-    height: 600px;
+    height: 850px;
     background-image: url(./images/bgtile.png);
     background-repeat: repeat-x;
     justify-content: center;
@@ -22,11 +22,18 @@ body {
     align-items: center;
 }
 
+.phone_img img {
+    height: 700px;
+    width: auto;
+}
+
 .general {
     flex-direction: column;
-    width: 500px;
+    width: 800px;
+    height: 700px;
     padding: 0 20px;
     margin-left: 30px;
+    margin-top: 50px;
 }
 
 .general_header {
@@ -41,8 +48,8 @@ body {
     justify-content: center;
     align-items: center;    
     background: linear-gradient(0deg, rgba(74,117,154,1) 0%, rgba(111,145,175,1) 100%);
-    height: 35px;
-    width: 90px;
+    height: 50px;
+    width: 110px;
     color: white;
     font-size: 0.8em;
     border: 0.2px solid black;
@@ -50,7 +57,7 @@ body {
 }
 
 .ig_logo {
-    width: 300px;
+    width: 400px;
     height: auto;
 }
 
@@ -65,25 +72,34 @@ body {
 
 .general_info {
     background-image: url(images/frame.png);
-    background-size: contain;
-    height: 200px;
+    background-size: cover;
+    height: 330px;
     color: #06365f;
-    padding: 40px;
+    padding: 40px 55px;
     margin-bottom: 40px;
-    font-size: 0.8em;
+    font-size: 1.3em;
 }
 
 .general_info h1 {
+    font-size: 2.2em;
     margin: 0;
     margin-bottom: 20px;
 }
 
 .app_download_buttons {
-    padding: 0 40px;
+    padding: 0 60px;
+    margin-top: 30px;
 }
 
 .google_button {
-    margin-left: 15px;
+    margin-left: 30px;
+    height: 70px;
+    width: auto;
+}
+
+.apple_button {
+    height: 70px;
+    width: auto;
 }
 
 .footer_navbar {
@@ -91,7 +107,7 @@ body {
     flex-direction: row;
     list-style: none;
     justify-content: center;
-    font-size: 0.7em;
+    font-size: 0.9em;
     font-weight: bold;
 }
 
