@@ -11,6 +11,7 @@ body {
 .flex {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .container {
@@ -78,6 +79,9 @@ img {
   inline-size: 1rem;
   width: 19%;
   border: solid 1px#06365f ;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .badge {
@@ -98,8 +102,6 @@ p {
 footer{
   gap: 0.5rem;
   margin: 0.8rem 0rem;
-  position: relative;
-  bottom: -93vh;
 
 }
 
