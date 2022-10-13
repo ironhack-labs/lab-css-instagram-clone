@@ -111,3 +111,8 @@ li > a {
 a {
   text-decoration: none;
 }
+
+.copyright {
+  font-weight: 100;
+  color: grey;
+}
