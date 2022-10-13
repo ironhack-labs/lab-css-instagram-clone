@@ -36,8 +36,8 @@ main {
   align-items: center;
   margin-bottom: 5%;
 }
-
-.header > a {
+.login {
+  display: flex;
   color: white;
   border: 1px solid #06365f;
   border-radius: 5%;
@@ -45,8 +45,21 @@ main {
   padding: 1%;
   margin-right: 2%;
   font-weight: 500;
-  
 }
+#log-btn {
+  color:white;
+  margin: auto 5px;
+  font-weight: 500;
+}
+
+/* .header > a {
+  color: white;
+  border: 1px solid #06365f;
+  border-radius: 5%;
+  background-color: #1c5380b0;
+  padding: 1%;
+  } 
+  */
 
 .description {
   background-image: url(../images/frame.png);
