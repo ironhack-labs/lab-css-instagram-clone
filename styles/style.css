@@ -8,3 +8,68 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.container{
+  display: flex;
+  padding-top: 150px;
+  padding-right: 20%;
+  padding-left: 20%;
+  padding-bottom: 30px;
+}
+
+.col-left{
+  width: 45%;
+}
+
+.col-right{
+  width: 55%;
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 40px;
+}
+
+.instagram-banner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login-btn{
+  display: flex;
+  align-items: center;
+  height: 40px;
+  background-color: #46779e;
+  color: white;
+}
+
+.home-logo{
+  padding-right: 10px;
+}
+
+.instagram-title{
+  color: #1c5380;
+}
+
+.footer-container{
+  padding-right: 30%;
+  padding-left: 30%;
+}
+
+.footer-container .row{
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-container a{
+  text-transform: uppercase;
+  text-decoration: none;
+  color:#5d89aa;
+  font-weight: bold;
+}
+
+.footer-container span{
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #b0b1b1;
+}
