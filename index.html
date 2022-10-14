@@ -4,13 +4,59 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Instagram Clone</title>
-    <!-- don't forget to link your styles -->
+    <link rel="stylesheet" href="styles/style.css">
   </head>
   <body>
-    Instagram Capture and Share the World's Moments Instagram is a fast, beautiful and fun way to share your life with
-    friends and family. Take a picture or video, choose a filter to transform its look and feel, then post to Instagram
-    &mdash; it's that easy. You can even share to Facebook, Twitter, Tumblr and more. It's a new way to see the world.
-    Oh yeah, did we mention it's free? Download on the App Store Get it on Google Play About Us Support Blog Press API
-    Jobs Privacy Terms &copy; 2014 Instagram
+    <header> 
+      <img class="encabezado" src="./images/bgtile.png" alt="background-image"; width="100%"; height="400vh">
+    </header>
+
+    <section class="container">
+      <!--caja grande padre-->
+      <div class="caja">
+        <!-- Caja para phones -->
+        <img src="./images/phones.png" alt="phones">
+      </div>
+
+      <div class="caja">
+        <!-- caja madre para todos los elementos de la derecha -->
+        <div class="caja">
+          <!-- caja para logo insta y log in -->
+          <img src="./images/brand.png" alt="Instagram">
+          <button type="button"> <img class="small-house" src="./images/home.png" alt="home"> Log in </button>
+        </div>
+
+        <div class="caja"> 
+          <!-- caja para la imagen del frame y el texto -->
+          <img class="frame" src="./images/frame.png" alt="frame">
+          <div class="texto">
+            <h2> Capture and Share the World's Moments </h2>
+            <p> Instagram is a <b>fast</b>, <b>beautiful</b> and <b> fun</b> way to share your life with friends and family.</p>
+            <p> Take a picture or video, choose a filter to transform its look and feel, then post to Instagram - it's that easy. 
+            You can even share to Facebook, Twitter, Tumblr and more. It's a new way to see the world.</p>
+            <p>Oh yeah, did we mention it's free?</p>
+          </div>
+        </div>
+        <div class="caja caja-5"> 
+          <!-- caja para los logos android y iphone -->
+          <img src="./images/badge-iphone.png" alt="logo-Iphone">
+          <img src="./images/badge-android.png" alt="logo-Android">
+        </div>
+
+      </div>
+    </section>
+
+    <footer> 
+      <!-- footer -->
+      <footer class="footer">
+        <ul> <h6> <a href="#structure">ABOUT US</a> </h6> </ul>
+        <ul> <h6> <a href="#structure">SUPPORT</a> </h6> </ul>
+        <ul> <h6> <a href="#structure">BLOG</a> </h6> </ul>
+        <ul> <h6> <a href="#structure">PRESS</a> </h6> </ul>
+        <ul> <h6> <a href="#structure">API</a> </h6> </ul>
+        <ul> <h6> <a href="#structure">JOBS</a> </h6> </ul>
+        <ul> <h6> <a href="#structure">TERMS</a> </h6> </ul>
+        <ul class="b"> <h6> Privacy Terms &copy; 2014 Instagram </h6> </ul>
+    </footer>
   </body>
 </html>
