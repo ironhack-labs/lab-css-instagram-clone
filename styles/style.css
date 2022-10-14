@@ -8,3 +8,108 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.homepage {
+  width: 100%;
+  height: 100vh;
+}
+
+.parent-div {
+  background: url("../images/bgtile.png");
+  background-repeat: no-repeat;
+  background-size: 100% 40%;
+}
+
+.layout {
+  padding-top: 8%;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  margin-bottom: 5%;
+}
+
+.phones {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.content {
+  margin-left: 7%;
+  max-width: 70%;
+}
+
+.logo-and-log-in {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-and-log-in button {
+  margin-right: 2em;
+  padding: 0.5em 1em;
+  background-color: #698dad;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+  font-size: 1rem;
+}
+
+.logo-and-log-in button img {
+  margin-right: 0.6em;
+}
+
+.article-container {
+  background: url("../images/frame.png");
+  background-size: 100% 100%;
+}
+
+article {
+  padding: 2em 3em;
+}
+
+article h1 {
+  font-size: 2rem;
+  padding-top: 0;
+  color: #06365f;
+}
+
+article p {
+  font-size: 1.1rem;
+  color: #616160;
+}
+
+.download-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.download-buttons button {
+  background-color: none;
+  border: none;
+}
+
+footer {
+  padding-bottom: 0.7em;
+  text-transform: uppercase;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+}
+
+footer li {
+  list-style-type: none;
+  padding: 0.7em;
+}
+
+footer a {
+  text-decoration: none;
+  color: #4a759b;
+  font-weight: bold;
+}
+
+#copyright {
+  color: #616160;
+}
