@@ -1,0 +1,89 @@
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+body {
+    margin: 0;
+}
+
+.sectionBlue {
+    background-image: url(images/bgtile.png);
+    background-repeat: repeat-x;
+}
+
+.sectionHero {
+    padding: 100px 250px 50px 250px;
+}
+
+.article2 {
+    margin-right: 50px;
+}
+
+.logIn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttonLogIn {
+    height: 45px;
+    width: 100px;
+    align-items: center;
+    border: solid 2px #4E7699;
+    border-radius: 5%;
+    background-color: #6E92B0;
+    font-weight: bold;
+    color: #DFE7EE;
+}
+
+.sectionFrame {
+    background-image: url(images/frame.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 10px 20px 10px 40px;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #133B60;
+    margin: 20px 0px;
+}
+
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-stretch: expanded;
+    margin-bottom: 1px;
+    margin-right: 50px;
+}
+
+#text3 {
+    margin-bottom: 40px;
+}
+
+#badgeIphone {
+    margin-right: 15px;
+}
+
+.footer {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    margin-left: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: small;
+}
+
+li > a {
+    color: #4F779A;
+    outline: none;
+}
+
+#copyright {
+    color: grey;
+}
