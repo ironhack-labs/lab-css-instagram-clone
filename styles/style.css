@@ -2,11 +2,17 @@
 Colors to use:
 dark blue: #06365f
 light blue: #1c5380
+Añadir background
+Separar botones download
 */
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url("../images/bgtile.png");
+  background-size: 400px;
+  background-repeat: no-repeat;
+ 
 }
 
 .container{
@@ -18,12 +24,13 @@ body {
 }
 
 .col-left{
+  display: flex;
+  justify-content: flex-end;
   width: 45%;
 }
 
 .col-right{
   width: 55%;
-  background-image: url("../images/frame.png");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 40px;
@@ -49,6 +56,23 @@ body {
 
 .instagram-title{
   color: #1c5380;
+  line-height: 40px;
+  
+}
+
+.instagram-text {
+  background-image: url("../images/frame.png");
+  padding-right: 10px;
+  padding-left: 40px;
+  padding-top: 1px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.instagram-download {
+  display: flex;
+  padding-bottom: 50px;
 }
 
 .footer-container{
@@ -73,3 +97,5 @@ body {
   font-weight: bold;
   color: #b0b1b1;
 }
+
+
