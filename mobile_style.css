@@ -1,0 +1,14 @@
+@media (max-width: 600px) {
+    .container {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        width: 300px;
+        height: 100vh;
+    }
+
+    .background {
+        background-image: url(./images/bgtile.png);
+    }
+
+}

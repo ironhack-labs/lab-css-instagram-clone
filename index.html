@@ -5,23 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Instagram Clone</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="(max-width: 600px" href="mobile_style.css">
   </head>
   <body>
+    <!-- Contenedor del fondo de la web -->
     <div class="background flex">
+      <!-- Contenedor de imágen del teléfono -->
       <div class="container flex">
         <div class="phone_img">
           <img src="./images/phones.png" alt="">
         </div>
+        <!-- Contenedor del logo y login, texto principal y botones de descarga de app -->
         <div class="general flex">
-          <div class="general_header flex">
+          <!-- Header con logo y botón de login -->
+          <header class="general_header flex">
             <img src="./images/brand.png" alt="Instagram logo and name text" class="ig_logo">
             <a href="#" class="login_button_link">
               <div class="login_button flex">
-                <img src="./images/home.png" alt="home icon" class="home_icon">
+                <img src="./images/home.png" alt="Home icon" class="home_icon">
                 <p class="login_text">Log in</p>
               </div>
             </a>
-          </div>
+          </header>
+          <!-- Contenedor de texto principal -->
           <div class="general_info">
             <h1 class="info_heading">
               Capture and Share <br>the World's Moments
@@ -36,13 +42,15 @@
               Oh yeah, did we mention it's free?
             </p>
           </div>
+          <!-- Contenedor de botones de descarga -->
           <div class="app_download_buttons">
-            <a href="#"><img src="./images/badge-iphone.png" alt="app store app download button" class="apple_button"></a>
-            <a href="#"><img src="./images/badge-android.png" alt="google pay app download button" class="google_button"></a>
+            <a href="#"><img src="./images/badge-iphone.png" alt="App store app download button" class="apple_button"></a>
+            <a href="#"><img src="./images/badge-android.png" alt="Google pay app download button" class="google_button"></a>
           </div>
         </div>
       </div>
     </div>
+    <!-- Footer de la web -->
     <footer>
       <nav>
         <ul class="footer_navbar flex">
