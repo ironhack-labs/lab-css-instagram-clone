@@ -16,7 +16,7 @@ body {
 }
 
 .boxes {
-  margin: 30px 100px 50px;
+  margin: 0px 100px 0px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -26,7 +26,7 @@ body {
 
 .box-1 {
   margin-left: 100px;
-  margin-right: 50px;
+  ;
 }
 
 
@@ -56,7 +56,8 @@ body {
 
 .box-2 {
   margin-right: 200px;
-  padding: 60px;
+  padding: 85px 85px 30px 85px;
+  margin-bottom: 20px;
 
 }
 
@@ -69,11 +70,23 @@ body {
 }
 
 h2 {
+  font-size: 2em;
   color: #06365f;
 }
 
+.download-img {
+  display: flex;
+}
+
 .download-img img {
+  margin-top: 25px;
   margin-right: 20px;
+  width: 43%;
+}
+
+footer {
+  height: 50px;
+  margin-bottom: 50px;
 }
 
 ul {
@@ -81,17 +94,21 @@ ul {
   list-style: none;
   display: flex;
   justify-content: center;
-  margin-bottom: 50px;
+  align-items: center;
+}
+
+ul li,
+ul li a {
+  font-size: 1em;
+  font-weight: bold;
+  margin: 8px;
+  text-decoration: none;
 }
 
 ul li {
-  color: grey;
-  font-weight: bold;
+  color: rgb(160, 160, 160);
 }
 
 ul li a {
-  margin: 10px;
-  font-weight: bold;
-  text-decoration: none;
   color: #1c5380;
 }
