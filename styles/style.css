@@ -5,6 +5,114 @@ light blue: #1c5380
 */
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  background-color: white;
+  font-family: sans-serif;
+}
+
+
+.flex-container {
+  display: flex;
+  background: url("./../images/bgtile.png");
+  background-repeat: no-repeat;
+  background-size: 1440px 300px;
+
+}
+
+.right-side {
+  justify-content: center;
+  margin-top: 50px;
+  margin-right: 20px;
+  margin-left: 200px;
+  margin-bottom: 20px;
+}
+
+.left-side {
+  margin-top: 50px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  width: 600px;
+
+
+}
+
+.ig-logo {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+
+}
+
+.caja {
+  display: flex;
+  border: 1px;
+  background-image: linear-gradient(#1c5380, #06365f);
+  width: 120px;
+  height: 40px;
+  text-align: left;
+  padding: 5px;
+  margin: 5px;
+  justify-content: space-around;
+}
+
+.left-side-text {
+  background-repeat: no-repeat;
+  background-image: url("./../images/frame.png");
+  background-size: cover;
+  padding-right: 60px;
+  padding-left: 20px;
+  padding-top: 20px;
+  margin-bottom: 80px;
+  margin-top: 20px;
+}
+
+.logosbox {
+  margin-top: 100px;
+}
+
+/*
+Container Elements
+*/
+
+h2 {
+  color: #06365f;
+  -webkit-line-clamp: 2;
+  /* number of lines to show */
+}
+
+p {
+  color: grey;
+  font-size: 14px;
+}
+
+p2 {
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.logincontainer {
+  padding-top: 10px;
+}
+
+.icon {
+  padding-top: 10px;
+  size: 90%;
+}
+
+/*
+FOOTER*/
+.footer {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-left: 500px;
+  padding-right: 500px;
+}
+
+p3 {
+  font-size: 10px;
+  font-weight: 700;
+  color: #06365f;
 }
