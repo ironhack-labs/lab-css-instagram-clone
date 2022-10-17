@@ -7,4 +7,103 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;
+}
+
+h2 {
+  color: #1c5380;
+  width: 50%;
+}
+
+.general-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.first-column {
+  align-self: center;
+  margin-right: 15px;
+}
+
+.second-column {
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+  padding: 20px;
+  width: 40%;
+  margin-left: 15px;
+}
+
+.images-second-column {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 30px;
+  justify-content: space-around;
+}
+
+.images-second-column a {
+  padding: 4%;
+  width: 90px;
+  height: 10px;
+  color: white;
+  border: #1c5380 1px solid;
+  font-weight: 400;
+  border-radius: 3px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(#6085a5, #1c5380)
+}
+
+.images-second-column a img {
+  margin-right: 10px;
+}
+
+.text-second-column {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 20px;
+  text-align: left;
+  border-radius: 5px;
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: contain;
+}
+
+.download-second-column {
+  display: flex;
+}
+
+.download-second-column img {
+  margin-right: 30px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-evenly;
+  text-transform: uppercase;
+  padding-top: 70px;
+  margin: 0px 400px 200px 400px;
+
+}
+
+.footer a {
+  text-decoration: none;
+  color: #1c5380;
+  font-weight: 500;
+  padding-top: 17px;
+  font-size: 14px;
+  margin-right: 5px;
+}
+
+.footer p {
+  text-decoration: none;
+  color: grey;
+  font-weight: 400;
 }
