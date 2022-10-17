@@ -8,10 +8,11 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url(images\bgtile.png);
 }
 
 .boxes {
-  margin-top: 120px;
+  margin: 90px 100px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -24,17 +25,61 @@ body {
   margin-right: 50px;
 }
 
+.logos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.log-in {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1c5380;
+  color: white;
+  font-weight: bold;
+  padding: 8px 10px;
+  border-radius: 5px;
+}
+
+.log-in img {
+  margin-right: 10px;
+}
+
+.box-2 {
+  border: 3px solid black;
+  margin-right: 200px;
+  padding: 70px;
+}
+
+.text-box {
+  text-align: left;
+}
+
 h2 {
   color: #06365f;
+}
+
+.download-img img {
+  margin-right: 20px;
 }
 
 ul {
   text-transform: uppercase;
   list-style: none;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+ul li {
+  color: grey;
+  font-weight: bold;
 }
 
 ul li a {
+  margin: 10px;
+  font-weight: bold;
   text-decoration: none;
+  color: #1c5380;
 }
