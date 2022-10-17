@@ -1,0 +1,76 @@
+.fontweb {
+    font-family: Arial, Helvetica, sans-serif;
+    font: 200 16px/1.5;
+    background: url(./images/bgtile.png);
+    background-repeat: repeat-x;
+
+}
+
+h2 {
+    color: #1c5380;
+}
+
+.structureweb {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+
+}
+
+.secondcolumn {
+
+    margin-top: 100px;
+    width: 600px;
+    padding: 30px;
+
+
+}
+
+.fondoblanco {
+    background: url(./images/frame.png);
+
+    background-repeat: no-repeat;
+    box-shadow: 5em;
+    width: fit-content;
+    padding: 1em;
+
+
+}
+
+.formatparagraph {
+    width: fit-content;
+}
+
+
+
+.cabecerainstagra {
+    margin: 20px;
+
+}
+
+.casita {
+    background-image: url(./images/home.png);
+    background-repeat: no-repeat;
+    width: 85px;
+    padding: 3%;
+    border-radius: 5%;
+    box-shadow: 8px;
+    border: 1px;
+    color: #ffffff;
+    background-color: #1c5380;
+}
+
+.webbotton {
+    text-transform: uppercase;
+    color: #06365f;
+    margin: 200px;
+
+    font-weight: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.sizephone {
+    width: 200px;
+    margin-top: 30px;
+}
