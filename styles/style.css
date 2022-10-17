@@ -1,10 +1,76 @@
 /*
 Colors to use:
-dark blue: #06365f
+dark blue: 
 light blue: #1c5380
 */
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url(/images/bgtile.png);
+  background-repeat: repeat-x;
 }
+
+.centro {
+  display: flex;
+  margin: 10%
+}
+
+.derecha {
+  margin: 20px
+}
+
+.derecha-text {
+  background-image: url(/images/frame.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+
+}
+
+.derecha-text h1 {
+  padding: 20px 30px 0 30px;
+}
+
+.derecha-text p {
+  text-align: left;
+  padding: 0px 30px 0 30px
+}
+
+.derecha-up {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.apple {
+  margin-left: 30px;
+}
+
+.android {
+  margin-left: 20px;
+}
+
+.btn {
+
+  font-weight: bold;
+  text-align: right;
+  background-color: #5094cf;
+  color: white;
+  text-decoration: none;
+  padding-right: 5px;
+  width: 16%;
+  border: 1px solid #06365f;
+  border-radius: 3px;
+  height: 80%;
+  margin-top: 25px;
+
+
+}
+
+.footer {
+  text-transform: uppercase;
+  color: #a0c3df;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 50px;
