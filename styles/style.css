@@ -8,11 +8,15 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
-  background-image: url(images\bgtile.png);
+}
+
+.background-img {
+  background-image: url(./../images/bgtile.png);
+  background-repeat: repeat-x;
 }
 
 .boxes {
-  margin: 90px 100px;
+  margin: 30px 100px 50px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -25,7 +29,9 @@ body {
   margin-right: 50px;
 }
 
+
 .logos {
+  margin: 30px 7px 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -35,11 +41,13 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #1c5380;
+  background: linear-gradient(0deg, #4b769b, #7093b0);
   color: white;
   font-weight: bold;
-  padding: 8px 10px;
-  border-radius: 5px;
+  padding: 10px 10px;
+  border: 1px;
+  border-radius: 3px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.35);
 }
 
 .log-in img {
@@ -47,13 +55,17 @@ body {
 }
 
 .box-2 {
-  border: 3px solid black;
   margin-right: 200px;
-  padding: 70px;
+  padding: 60px;
+
 }
 
 .text-box {
   text-align: left;
+  background-image: url(./../images/frame.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 20px 50px;
 }
 
 h2 {
