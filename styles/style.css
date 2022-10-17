@@ -7,6 +7,8 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url("./../images/bgtile.png");
+
 }
 
 .main-box {
@@ -18,10 +20,24 @@ body {
   display: flex;
   flex-direction: column;
   margin-left: 200px;
-  margin-right: 100px;
-  margin-top: 100px;
-  background-image: url(./lab-css-instagram-clone/frame.png);
-  background-color: white;
+  margin-right: 200px;
+  margin-top: 90px;
+
+
+
+}
+
+.info {
+  background-image: url("./../images/frame.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+
+
 }
 
 .top-box {
@@ -31,7 +47,8 @@ body {
 }
 
 h1 {
-  color: #06365f
+  color: #06365f;
+
 }
 
 .footer {
@@ -40,6 +57,7 @@ h1 {
   text-decoration: none;
   text-transform: uppercase;
   color: #1c5380;
+  font-weight: 100;
 }
 
 .home {
