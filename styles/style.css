@@ -7,4 +7,189 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url(/images/bgtile.png);
+  background-repeat: repeat-x
+}
+
+
+h1 {
+  color: darkblue;
+}
+
+h1,
+p {
+  margin: 20px;
+}
+
+
+
+
+
+
+
+footer {
+
+  margin-top: 150px;
+
+
+
+
+}
+
+
+
+
+
+.flex-container {
+
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  margin-top: 100px;
+  margin-left: 300px;
+
+
+
+}
+
+
+.flex-container-footer {
+
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  color: cornflowerblue;
+  font-weight: bold;
+  margin-bottom: 50px;
+
+}
+
+.white-color {
+  color: gray;
+
+
+}
+
+
+
+
+.first-column {
+
+  display: flex;
+  width: 30%;
+
+
+
+}
+
+
+
+
+
+
+
+
+.second-column {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  justify-items: flex-start;
+  width: 70%;
+
+
+}
+
+
+
+.heading-insta {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  justify-items: space-between;
+  align-content: center;
+  align-items: center;
+
+
+}
+
+
+.instagram {
+
+
+  background-image: url(/images/home.png);
+  background-repeat: no-repeat;
+  position: center;
+
+}
+
+
+button {
+
+  background-color: lightblue;
+  text-align: right;
+  color: white;
+  width: 10px;
+  height: 10px;
+  margin-top: 25px;
+  margin-left: 100px;
+}
+
+
+
+
+
+.home {
+
+  height: 30px;
+
+  width: 70px;
+
+  background-image: url(/images/home.png);
+
+  background-repeat: no-repeat;
+
+  position: left;
+
+}
+
+
+
+.frame {
+
+  background-image: url(/images/frame.png);
+  background-repeat: no-repeat;
+  position: center;
+
+
+}
+
+
+
+
+
+.text-container {
+
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin-left: 10px;
+
+}
+
+.stores {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 500px;
+  margin: 20px;
+}
+
+.android {
+
+  margin-left: 10px;
+
+
 }
