@@ -1,10 +1,142 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
+/* GLOBAL STYLES */
+
+:root {
+	/* Colors */
+	--light-blue: #1c5380;
+	--dark-blue: #06365f;
+	--dark-gray: #212121;
+	--light-gray: #acabab;
+
+	/* Fonts */
+	font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* GENERAL STYLING */
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+	background-image: url("../images/bgtile.png");
+	background-repeat: repeat-x;
+	background-size: 100% 40%;
+}
+
+h1 {
+	line-height: 1.2;
+	color: var(--dark-blue);
+	letter-spacing: 0.5px;
+	max-width: 19ch;
+}
+
+p {
+	font-weight: 400;
+	max-width: 48ch;
+	color: var(--dark-gray);
+}
+
+.ig__page-wrapper {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 80px;
+	align-items: center;
+	max-width: 1000px;
+	margin: auto;
+}
+
+/* Main */
+
+main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 80px;
+}
+
+.ig__image {
+	scale: 1.05;
+}
+
+.ig__hero {
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+}
+
+.ig__hero--top {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.ig__hero--login-btn {
+	display: flex;
+	gap: 10px;
+	background-image: url("../images/bgtile.png");
+	background-repeat: repeat-x;
+	padding: 10px 12px;
+	border: 1px solid black;
+	border-radius: 2px;
+	height: max-content;
+	color: white;
+	font-weight: bold;
+}
+
+.ig__hero--info {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+	background-color: white;
+	padding: 30px 50px 0 30px;
+	border-radius: 4px;
+	box-shadow: 0px -15px 12px 0.1px rgba(0, 0, 0, 0.2);
+}
+
+.ig__hero--info-copy {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+}
+
+.ig__hero--info-download {
+	display: flex;
+	gap: 20px;
+}
+
+/* Footer */
+
+footer {
+	display: flex;
+	gap: 60px;
+	font-size: 14px;
+}
+
+ul {
+	color: var(--light-blue);
+	display: flex;
+	gap: 24px;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 0.2px;
+}
+
+li {
+	list-style: none;
+}
+
+ul > li > a {
+	color: var(--light-blue);
+}
+
+a,
+a:visited,
+a:hover,
+a:focus {
+	text-decoration: none;
+}
+
+.ig_footer-copyright {
+	color: var(--light-gray);
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 0.2px;
 }
