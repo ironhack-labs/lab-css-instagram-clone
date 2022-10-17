@@ -8,3 +8,105 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+.bloque2{
+  display: flex;
+  justify-content: space-between
+
+}
+
+.container1{
+  margin-left:  80px;
+  margin-bottom: 10px;
+
+ 
+}
+main{
+  display: flex;
+  margin:40px 70px 20px;
+  justify-content: center;
+}
+.iphone{
+  margin bottom:100px;
+  margin right: 80px;
+  margin top: 50px;
+  width: 318px;
+  height:512px
+}
+.texto{
+    text-align: center;
+}
+
+.caja2{
+  background-image: url("https://github.com/ironhack-labs/lab-css-instagram-clone/blob/master/images/frame.png?raw=true");
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 30px  
+}
+h1{
+  text-align: justify;
+    width: 20em;
+    color: #1c5380
+}
+p{
+  width: 30em;
+  
+}
+.instagramlogo{
+  position: absolute;
+  margin-bottom: 100px;
+}
+.Dowlands >img{
+  position: absolute;
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+}
+.bloque2{
+margin-bottom: 60px;
+}
+
+
+.login{
+
+   background-color:#1c5380;
+   color: white;
+   text-decoration: none;
+   padding: 13px 13px 12px 42px;
+   font-weight: 600;
+   margin-left: 410px;
+   margin-top: 5px;
+   background-image: url(https://github.com/ironhack-labs/lab-css-instagram-clone/blob/master/images/home.png?raw=true);
+   background-repeat: no-repeat;
+   background-position: 3px;
+   box-shadow: 0 1px 3px black;
+   border: 1px solid #1c5380;
+}
+.finalblock{
+  display: flex;
+ margin-left: 40px;
+ justify-content: center;
+ margin-bottom: 30px;
+}
+.finalblock a{
+line-height: 16px;
+text-decoration: none;
+color:#1c5380;
+font-weight: bold;
+margin-left: 10px;
+text-transform: uppercase;
+font-size: 12px;
+
+ 
+}
+.finalblock a.instagramtm{
+  font-size: 12px;
+  font-weight: bold;
+  color:gray;
+  text-transform:uppercase;
+  
+}
+.dowlands {
+margin-left: 20px;
+}
+
+
