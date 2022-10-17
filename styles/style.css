@@ -13,24 +13,30 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
+  margin: 50px 100px 0px 100px;
 }
 
 .column60 {
   display: flex;
   flex-direction: column;
   width: 60%;
+  margin: auto;
+  align-content: center;
+  align-items: center;
 }
 
 .column40 {
   display: flex;
   flex-direction: column;
   width: 40%;
+  margin: 100px;
 }
 
 .column50 {
   display: flex;
-  flex-direction: column;
-  width: 50%;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .header-container {
@@ -45,8 +51,28 @@ body {
   flex-direction: row;
   justify-content: center;
 }
+
 .ul-footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0px 400px 20px 400px;
+}
+
+.img {
+  max-width: 100px;
+  margin: auto;
+}
+
+.h2 {
+  color: #204364;
+}
+
+.buttonlogin {
+  border-radius: 10px;
+  border-style: none;
+  margin: 0px 100px 0px 100px;
+}
+.buttonGooglePlay {
+  margin-left: 20px;
 }
