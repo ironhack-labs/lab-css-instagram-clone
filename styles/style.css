@@ -6,5 +6,57 @@ light blue: #1c5380
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x
+}
+
+.allcontent {
+  display: flex;
+  justify-content: center;
+  padding: 5%;
+}
+
+.conteiner {
+  position: relative;
+  display: inline-block;
+  padding: 1.5%;
+}
+
+.texto-encima {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  margin: 20px;
+}
+
+.centrado {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.enlaces {
+  text-align: center;
+}
+
+.enlaces a {
+  text-decoration: none;
+  color: #1c5380;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 3px;
+}
+
+.image {
+  padding: 15%;
+}
+
+.phone-box {
+  width: 350px;
+}
+
+h1 {
+  color: #06365f;
 }
