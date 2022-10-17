@@ -7,6 +7,8 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;
 }
 
 .main-container {
@@ -73,6 +75,7 @@ body {
   border-style: none;
   margin: 0px 100px 0px 100px;
 }
+
 .buttonGooglePlay {
   margin-left: 20px;
 }
