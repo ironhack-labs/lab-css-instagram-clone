@@ -9,6 +9,7 @@ body {
   margin: 0;
   background-image: url(../images/bgtile.png);
   background-repeat: repeat-x;
+
 }
 
 .big-container{
@@ -57,15 +58,16 @@ body {
 
 /* configuracion de content-container-abajo */
 .content-container-abajo{
-  padding:5%;
+  margin-top:20px;
+  padding:10px 20px;
   /* background-color: white;
   border-radius: 1%;
   box-shadow: 5px 1px 1px rgb(249, 248, 248); */
-
   background-image: url(../images/frame.png);
-  background-repeat: none;
-  
+  background-repeat: no-repeat;
+
 }
+
 .content-container-abajo h1{
   color: #06365f;
 }
