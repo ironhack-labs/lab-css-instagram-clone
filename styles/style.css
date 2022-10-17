@@ -10,6 +10,18 @@ body {
 
 }
 
+.fondo {
+  background-image: url(/images/bgtile.png);
+  background-size: 10%;
+  position: absolute;
+  width: 100%;
+  height: 280px;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+
 .principalDiv {
   display: flex;
   margin: 100px 50px 100px 50px;
@@ -22,10 +34,37 @@ body {
   justify-content: center;
 }
 
+
+
 .colum2 {
-  width: 60%;
+  width: 40%;
   display: flex;
   flex-direction: column;
+
+}
+
+.topDivColum2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.buttonClass {
+  height: 50px;
+  width: 100px;
+  background-color: #1c5380;
+  color: #ffffff;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.buttonClass img {
+  margin-right: 12px;
+}
+
+.bottomDivColum2 h1 {
+  color: #06365f;
 }
 
 .download {
@@ -34,7 +73,17 @@ body {
 }
 
 .bottomDivColum2 {
-  margin-left: 20px;
+  background-image: url(/images/frame.png);
+  background-size: cover;
+
+}
+
+.bottomDivColum2 h1 {
+  padding-left: 15px;
+}
+
+.bottomDivColum2 p {
+  padding-left: 15px;
 }
 
 .footer {
