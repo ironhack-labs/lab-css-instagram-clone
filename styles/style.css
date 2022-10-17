@@ -7,4 +7,52 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+
+}
+
+.principalDiv {
+  display: flex;
+  margin: 100px 50px 100px 50px;
+}
+
+.colum1 {
+  width: 40%;
+  margin-right: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.colum2 {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+
+.download {
+  height: 70px;
+  margin-left: 20px;
+}
+
+.bottomDivColum2 {
+  margin-left: 20px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+}
+
+.footerClass {
+  display: flex;
+  list-style-type: none;
+  margin-right: 10px;
+}
+
+.liFooterClass {
+  margin-right: 10px;
+}
+
+.liFooterClass a {
+  text-decoration: none;
+  color: #06365f;
 }
