@@ -82,7 +82,13 @@ margin-left: 220px;
 
 .footer li{
   margin-right: 15px;
-  color: #1c5380;
+  color: grey;
   font-weight: bold;
+}
+
+.footer a {
+  color:#1c5380;
+  text-decoration: none;
+
 }
 
