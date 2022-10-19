@@ -8,3 +8,85 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+
+.logo {
+  display: flex;
+  /* border: 4px solid; */
+  width: 450px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 8px;
+  margin-right: 80px;
+  position: relative;
+}
+#home {
+  height: 20px;
+}
+#btn {
+  height: 40px;
+  /* border: 1px solid rgba(0,0,0,0.97); */
+  border-radius: 5px;
+  box-shadow: 9px 12px 105px -34px rgba(0,0,0,0.71);
+  background-color: #1C5380;
+}
+.blue {
+  background-color: #1C5380;
+  height: 50vh;
+  display: flex;
+  justify-content: end;
+}
+.white {
+  background-color: white;
+  height: 50vh;
+}
+.text {
+  border-radius: 5px;
+  position: absolute;
+  top: 277px;
+  right: 84px;
+  background-color: white;
+  width: 463px;
+  padding: 15px;
+  box-shadow: 1px -1px 43px -12px rgba(0,0,0,0.75);
+}
+.iphone {
+  margin-top: 90px;
+  position: absolute;
+  top: 77px;
+  left: 200px;
+}
+h3 {
+  color: #06365F;
+  font-size: 25px;
+}
+p {
+  color: rgb(74, 74, 79);
+  font-weight: normal;
+}
+.app-store > img {
+  margin: 0 10px;
+}
+.links ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  color: #1C5380;
+  font-weight: bolder;
+}
+.links {
+  /* border: 4px solid; */
+  margin-top: 327px;
+}
+#copy {
+  color: grey;
+}
+
+
+
+
+
+
+
+
