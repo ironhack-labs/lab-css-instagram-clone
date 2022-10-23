@@ -3,8 +3,126 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: linear-gradient(#577EA0, #376084);
+  background-size: 100% 40vh;
+  background-repeat: no-repeat;
+  background-position: top;
 }
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 39.4vw;
+  margin-bottom: 20px;
+}
+
+nav button {
+  color: white;
+  font-weight: bold;
+  background-image:linear-gradient(#7898B5, #4A769B) ;
+  height: 40px;
+  width: 100px;
+  border-radius: 5%;
+  border: none;
+  box-shadow: 0px 0px 2px 1px #00000050;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  font-size: small;
+  text-transform: uppercase;
+  margin: 50px 300px;
+}
+
+footer ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+footer a {
+  text-decoration: none;
+  margin: 10px;
+  color: #1c5380;
+  font-weight: bold;
+}
+
+footer div{
+  color: #00000050;
+  margin: 10px;
+  font-weight: bold;
+}
+
+h1 {
+  color: #06365f;
+  padding-bottom: 20px;
+  width: 250px;
+  font-weight: bold;
+}
+
+p {
+  padding-bottom: 10px;
+  color: #000000;
+  font-weight: 500;
+}
+
+.imgAndText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 80px 100px 50px 100px;
+}
+
+.phones {
+  margin-right: 60px;
+}
+
+.intro {
+  width: 40vw;
+  padding: 40px 50px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+}
+.stores {
+  display: flex;
+  justify-content: flex-start;
+  width: 40vw;
+  padding-left: 50px;
+}
+
+.stores img {
+  padding-right: 20px;
+}
+
+.home {
+  margin-right: 10px;
+}
+
+.frame {
+  background-image: url(/images/frame.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.stores button {
+  background-color: white;
+  border: none;
+}
+
+
