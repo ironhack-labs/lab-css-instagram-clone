@@ -3,8 +3,105 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+.txt{
+  margin: 0;
+  padding: 20px 40px 0;
+  text-align: left;
+}
+
+h1{
+  font-size: 1.6em;
+  color: #06365f;
+}
+
+p{
+  font-size: 1em;
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  padding: 0;
+  height: 100vw;
+  background: linear-gradient(
+    to bottom,
+    #597797 0%,
+    #597797 300px,
+    white 300px,
+    white 100%
+  );
+  background-repeat:no-repeat;
+}
+
+header{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 5vw;
+  padding: 10vh 10vw 3vh 10vw;
+}
+
+.shadow{
+  box-shadow: inset;
+}
+
+.logIn{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.logIn img{
+  max-height: 60px;
+}
+
+button{
+  font-size: medium;
+  border: 0;
+  border-radius: 3px;
+  background-color:#738FAB;
+  /* background-image: linear-gradien(#738FAB,#597797); */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 15px;
+  gap: 20px;
+  color: white;
+}
+
+a{
+  text-decoration: none;
+  color: white
+}
+
+article{
+  background-image: url(/images/frame.png);
+  background-size: cover;
+  
+}
+
+.downloadLinks{
+  padding-top: 30px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+}
+
+ul{
+  display: flex;
+  width: 60vw;
+  list-style: none;
+  justify-content: space-evenly;
+}
+
+ul a{
+  color:#597797;
+  text-decoration: none;
+  font-weight: bolder;
 }
