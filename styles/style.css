@@ -8,3 +8,103 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.background-blue{
+  background-color: #1c5380;
+  height: 225px;
+}
+.phones-pic{
+  float: left;
+  margin-left: 100px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-right: 60px;
+}
+
+.logo{
+  margin-top: 40px;
+  margin-right: 86px;
+  
+}
+.section2{
+  float: right;
+  margin-right: 112px;
+}
+
+.section3{
+  padding: 15px 30px;
+  border-color: white;
+  border-style: solid;
+  border-radius: 5px;
+  margin: 120px 230px 40px 485px;
+  background-color: white;
+}
+
+h2{
+ color: #06365f;
+}
+
+span{
+  font-weight: bold;
+}
+
+.download-apple-pic{
+  padding-right: 18px;
+}
+
+ul{
+  margin-left: 220px;
+}
+li{
+  float: left;
+  display: flex;
+  padding: 10px;
+  list-style: none;
+  text-decoration-style: none;
+  font-size: 11px;
+  font-weight: bolder;
+}
+
+a{ text-decoration-style: none;
+  text-decoration-line: none;
+  font-weight: bolder;
+  color: #1c5380;
+}
+
+.footers{
+  text-decoration: none;
+  text-decoration-style: none;
+  font-weight: bolder;
+}
+button{
+  text-align: center;
+  color: white;
+  background-color: #1c5380;
+  font-weight: bold;
+  float: right;
+  border-color: #06365f;
+  border-radius: 5px;
+  margin-top: 54px;
+  height: 45px;
+  margin-right: 120px;
+}
+
+.log-in-text{
+  padding: 20;
+  margin-top: 14px;
+}
+
+.log-in-pic{
+  float: left;
+  margin-top: 10px;
+  margin-left: 2px;
+}
+
+.log-in-button{
+  width: 100px;
+
+}
+
+.year-instagram{
+  color: grey
+}
