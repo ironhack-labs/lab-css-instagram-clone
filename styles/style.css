@@ -4,7 +4,172 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  
+  max-width:850px;
+  margin:0;
+}
+
+.blue{
+  width: 850px;
+  height: 225px;
+  object-fit: cover;
+  position: absolute;
+  margin:0;
+  padding-top: 0;
+  
+  /*mask-image:linear-gradient(#e9eef1,#103c63);*/
+}
+
+.phones{
+  width:255px;
+  float:left;
+  position: absolute;
+  padding-left: 90px;
+  padding-top:88px;
+  outline:none;
+  margin:0;
+
+}
+
+
+.instagram{
+  width: 245px;
+  position:absolute;
+  padding-left:380px;
+  padding-top: 65px;
+  margin:0;
+}
+
+/*.top-container  {
+  display:flex;
+  justify-content:flex-end;
+  padding-right:800px;}*/
+
+
+.top-container > div {
+  display:flex;
+
+}
+
+.top-container{
+  margin:0;
+  padding:0;
+  border:0;
+}
+
+
+
+.button{
+  position: absolute;
+  border-radius: 3px;
+  padding: 0;
+  border-style:none;
+  background-image: linear-gradient( #5285af,#1e517e );
+  margin-top: 115px;
+  margin-left:675px;
+ 
+  height:32px;
+  box-sizing:border-box;
+  width:80px;
+}
+
+
+  
+#button-container img{
+ vertical-align:middle;
+ width:19px;
+
+
+}
+
+.button-text{
+  vertical-align:middle;
+  /*position: absolute;*/
+  font-size:10px;
+  color:white;
+  font-weight:bolder;
+}
+
+.container img {
+ 
+  max-width: 388px;
+  padding-left:386px;
+  padding-top: 100px;
+  position:absolute;
+  height: 275px;
+  
+  
+
+
+}
+
+
+.container{
+   
+  position:relative;
+  text-align:left;
+  margin:none;
+  padding-top:28px;
+}
+
+
+.container-text{
+ 
+  position:absolute;
+  padding-right:100px;
+  padding-left: 425px;
+  padding: bottom 700px;
+  padding-top:110px;
+  font-size: 13px;
+}
+
+.blue-text{
+  color:#06365f;
+}
+
+.black-buttons-container{
+  display:flex;
+  justify-content: flex-end;
+  
+  
+  margin:0;
+  padding-top: 380px;
+  padding-right:140px ;
+  /*width:270px;*/
+  
+}
+
+.black-buttons-container img{
+  width:120px;
+  padding: 7px;
+}
+
+.no-line{
+  list-style: none;
+  text-transform:uppercase;
+  font-size: 9px;
+  font-weight: 600;
+  
+}
+
+
+.no-line .link-me{
+  color:#D3D3D3;
+  }
+
+
+.no-line li{
+  color:#1c5380;
+}
+
+
+div ul{
+  max-width: 400px;
+  display: flex;
+  justify-content: space-between;
+  padding-top:35px;
+  margin-left:200px;
 }
