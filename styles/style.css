@@ -7,15 +7,48 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
-  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)),
+  background-image: linear-gradient(
+      rgba(225, 225, 225, 0.1),
+      rgba(6, 54, 95, 0.3)
+    ),
     url("../images/bgtile.png");
   background-repeat: repeat-x;
-  background-size: auto 500px;
+  background-size: auto 270px;
+  padding: 100px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 500px;
+}
+
+button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-image: linear-gradient(rgba(225, 225, 225, 0.3), rgba(0, 0, 0, 0)),
+    url("../images/bgtile.png");
+  border: solid 1px #1c5380;
+  border-radius: 3px;
+  width: 87px;
+  height: 35px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+
+#phones {
+  margin-right: 40px;
 }
 
 main {
   display: flex;
   flex-direction: row;
+  margin-left: 40px;
 }
 
 article {
@@ -25,12 +58,55 @@ article {
   height: 100%;
 }
 
+h1 {
+  padding: 35px 0 0 35px;
+  font-size: 1.4rem;
+  font-weight: bold;
+  width: 440px;
+  line-height: 120%;
+  color: #1c5380;
+}
+
+p {
+  padding-left: 35px;
+  width: 50%;
+}
+
+#app-store-div {
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.app-store {
+  margin-left: 15px;
+}
+
 footer {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 ul {
   display: flex;
   flex-direction: row;
+}
+
+li {
+  padding: 10px;
+  text-decoration: none;
+  list-style: none;
+  text-transform: uppercase;
+  font-size: 0.6rem;
+  font-weight: bold;
+  color: #6186a7;
+}
+
+#trademark {
+  color: darkgray;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.6rem;
+  margin-left: 10px;
 }
