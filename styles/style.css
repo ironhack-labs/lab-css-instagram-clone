@@ -8,3 +8,117 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.navegador-principal {
+  background-color: #1c5380;
+  width: auto;
+  height: 500px;
+  position: relative;
+}
+
+.nav1 {
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+}
+
+
+.nav1 img {
+  width: 50%;
+}
+
+.nav1 a {
+  border: 1px solid #06365f;
+  color: white;
+  width: 150px;
+  height: 50px;
+  text-align: center;
+  text-decoration: none;
+  align-items: center;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.Logbutton{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.nav1 a img{
+  width: 30%
+}
+
+.container {
+  display: flex;
+  position: relative;
+  margin-bottom: 600px;
+}
+.container h1 {
+  color: #06365f;
+  font-size: 50px;
+  font-weight: bold;
+  width: 700px;
+  position: absolute;
+  top: 20%;
+  left: 52%
+}
+
+.container p {
+  width: 800px;
+  font-size: 30px;
+  position: absolute;
+  top:60%;
+  left:52%;
+}
+
+.frame {
+  width: 1000px;
+  display: flex;
+  position: absolute;
+  bottom: 20%;
+  left: 50%;
+}
+
+.botones {
+  display: flex;
+  width: 700px;
+  justify-content: space-evenly;
+  height: auto;
+  position: absolute;
+  left: 52%;
+  top:160%;
+  
+}
+
+.botones button img {
+  width: 300px;
+}
+
+
+footer ul {
+  margin-top: 100px;
+  margin-left: 500px;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  width: 1500px;
+}
+
+footer ul li {
+
+  list-style:none;
+  text-align:center;
+  font-size: 25px;
+}
+
+li a {
+  text-decoration: none;
+  color: #1c5380;
+  font-weight: bold;
+}
