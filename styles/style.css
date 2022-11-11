@@ -8,3 +8,112 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+.background{
+  background-image: url(../images/bgtile.png);
+  position:absolute;
+  top:0;
+  left:0;
+  height: 40vh;
+  width: 100%;
+  z-index: -1;
+}
+.header{
+display:flex;
+flex-direction:row;
+margin-top: 70px;
+display: flex;
+
+}
+
+.phones {
+  margin-top: 100px;
+  margin-left: 300px;
+
+  }
+
+.link-home{
+border: 2px solid #1c5380;
+padding: 15px;
+width: 80px;
+height: 20px;
+display:flex;
+justify-content:space-evenly;
+margin:40px 0;
+margin-left:440px;
+margin: top 700px;
+position: absolute;
+background-color: rgb(62, 122, 190);
+
+}
+
+
+
+.img-instagram{
+margin-top: 40px;
+margin-left: 80px;
+
+}
+
+.text{
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  color: black;
+  width: 450px;
+  margin-left: 80px;
+  padding: 30px;
+  line-height: 130%; 
+}
+
+.titulo {
+  color:#06365f;
+  text-align:left;
+
+}
+
+
+
+
+.android-iphone {
+  margin-left: 150px;
+  margin-bottom: 20px;
+}
+
+
+
+
+
+
+ul {
+  list-style: none;  
+
+}
+
+li {
+  list-style:none;
+}
+
+a{
+  color: #1c5380;
+  text-decoration: none;
+}
+
+.footer-menu{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  text-transform: uppercase;
+  padding: 25px;
+
+}
+
+.footer-menu li {
+  margin: 0 10px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.footer-menu span{
+  color: #B2B2B2 ;
+  font-weight:lighter;
+
+}
