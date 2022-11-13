@@ -7,4 +7,89 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: rgb(28,83,128);
+  background: linear-gradient(180deg, rgba(28,83,128,1) 50%, rgba(255,255,255,1) 50%);
+  background-repeat: no-repeat;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 80px 100px 0;
+}
+
+.text-box {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+}
+
+.log-in {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.log-in-btn {
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  background-color: #1c5380;
+  border: 1px solid #06365f;
+  border-radius: 3px;
+  height: fit-content;
+  width: 100px;
+  padding: 10px 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+.text-content {
+  background-image: url(/images/frame.png);
+  background-size: cover;
+  padding: 20px 40px;
+}
+
+.text-content h1 {
+  color: #06365f;
+}
+
+.text-content p {
+  font-size: 17px;
+}
+
+.apps {
+  margin-left: 40px;
+}
+
+.apps img {
+  padding: 0 10px;
+  width: 170px;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+  padding-top: 30px;
+}
+
+.links a {
+  margin: 0 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #1c5380;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.links h2 {
+  margin: 0 10px;
+  text-transform: uppercase;
+  color: lightslategray;
+  font-size: 15px;
 }
