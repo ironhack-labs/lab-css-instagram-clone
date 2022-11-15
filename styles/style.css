@@ -8,3 +8,104 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+header{
+  background-color: #1c5380;
+  width: 100%;
+  height: 400px;
+  position: static;
+}
+
+.a{
+position: absolute;
+padding: 150px 700px;
+display: flex;
+}
+
+.b{
+position: absolute;
+padding: 2px;
+display: flex;
+right: 325px;
+top: 170px;
+background-color: #1c5380;
+border-radius: 5px;
+color: white;
+box-shadow: 0px 0px 11px 1px rgba(6,53,95,1);
+border: none;
+width: 85px;
+}
+
+.b .home{
+  position: relative;
+  size: 5px;
+  right: 5%;
+  padding: 5px;
+  top:5px;
+}
+
+.movil{
+  position: absolute;
+  padding: 20px;
+  top: 120px;
+  left: 210px;
+}
+ 
+.image2{
+  position: absolute;
+  left: 700px;
+  top: 300px;
+}
+
+.information h2{
+  position: absolute;
+  left: 750px;
+  top: 280px;
+  color: #06365f;
+  padding: 35px 30px 50px 2px;
+  font-size: 28px;
+}
+
+.information p{
+  position: absolute;
+  left: 750px;
+  top: 420px;
+  padding: 20px 10px 50px 2px;
+  text-align: left;
+}
+
+.images3{
+  position: relative;
+  padding: 320px 300px 80px 800px;
+  right: 50px;
+  justify-content: space-around;
+  margin: 15px;
+}
+
+.footer{
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+  bottom: 40px;
+  position: relative;
+}
+
+.footer ul{
+  gap: 30px;
+  margin: 0px 350px;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+}
+
+.footer li{
+  list-style: none;
+  font-size: 12px;
+  font-weight: strong;
+  bottom: 80px;
+}
+
+.footer a{
+  color: #1c5380;
+    text-decoration: none;
+}
