@@ -59,8 +59,13 @@ body {
   border-radius: 4px;
   width: 17%;
   color: white;
-  
+  height: fit-content;
+  width: 100px;
+  padding: 10px 5px;
+  display: flex;
+  justify-content:space-evenly;
 }
+
 .imagesContainer{
   display: flex;
   justify-content:space-evenly;
