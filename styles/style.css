@@ -7,4 +7,95 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;
+}
+
+h1 {
+  color: #06365f;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 100px;
+  margin-bottom: 0;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 500px;
+  align-items: center;
+}
+
+.login {
+  border: solid 2px #06365f;
+  height: fit-content;
+  width:fit-content;
+  background-image: linear-gradient(#3c76a9, #3373a78d);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+  padding: 10px;
+  font-weight: bold;
+  color: rgb(224, 220, 220);
+}
+
+.login img{
+  align: baseline;
+}
+
+
+
+.box {
+  display: flex;
+  flex-direction: column;
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  max-width: 500px;
+}
+
+.box-content {
+  padding: 10px 40px 0px 40px;
+}
+
+.badges {
+  padding: 0 40px;
+}
+
+.badges img {
+  padding-right: 20px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+li {
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  list-style-type: none;
+  font-weight: bold;
+  font-size: 0.8em;
+  margin: 40px 10px;
+  color: rgb(180, 177, 177);
+}
+
+li a {
+  text-decoration: none;
+  color: #1c5380;
 }
