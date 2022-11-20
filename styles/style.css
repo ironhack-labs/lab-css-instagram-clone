@@ -6,5 +6,133 @@ light blue: #1c5380
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  height: 100vh;
+  background:  linear-gradient(to top,  white 72%,#1c5380 28%);
 }
+
+main {
+  margin-top: 60px;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: 60px;
+}
+
+.iphone-movile{
+  width: 400px;
+}
+
+.container-insta-movil {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow:wrap
+}
+
+
+.content-h1{
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.block-image-insta-login{
+  display: flex;
+  align-items: center;
+}
+
+
+.button-insta{
+  background-image: url('../images/home.png');
+  background-size: 20px;
+  background-color: #1c5380;
+  background-repeat: no-repeat;
+  background-position: 3px 15px;
+  border-style:outset;
+  border-color: #06365f;
+  text-align: center;
+  display: flex;
+  width: 100px;
+  height: 50px;
+  margin-left: 180px;
+}
+
+.log-in{
+  color: white;
+  margin-left: 30px;
+  font-size: 120%;
+}
+
+.block-letter {
+  background-color: white;
+  border-radius: 5px;
+  background-position:center;
+  background-repeat:no-repeat;	
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin-top: 20px;
+}
+
+
+.block-letter {
+  width: 600px;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 10px;
+  margin-left: 35px;
+  margin-right: 250px;
+  color:#06365f;
+}
+
+h2 {
+  font-weight: lighter;
+  margin-left: 35px;
+  margin-right: 35px;
+  font-size: 20px;
+}
+
+.block-image-iphone-android {
+  margin-left: 35px;
+}
+
+.android{
+  margin-left: 30px;
+}
+
+
+.block-navigation {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.n-options-navigator {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.nav-bar-item {
+  text-decoration: none;
+  color: #1c5380;
+  margin-left: 20px;
+  display: flex;
+  font-weight: bold;
+}
+
+.insta-brand{
+margin-left: 20px;
+display: flex;
+color: grey;
+}
+
+
