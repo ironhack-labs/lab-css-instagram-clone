@@ -6,5 +6,78 @@ light blue: #1c5380
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  margin: 0; 
+}
+
+#phones-and-text-div {
+  display: flex;
+  align-items: center;
+  padding-top: 100px;
+  margin-right: 0;
+  width: auto;
+  justify-content: center;
+  gap: 75px;
+  background: linear-gradient(180deg, #477092 50%, white 50%);
+}
+
+#phones {
+  width: auto;
+}
+
+#logo-and-login {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 10px;
+  font-weight: bold;
+  background-color: #7098b9;
+  color: white;
+  border: 3px;
+  border-color: #263f54;
+  border-radius: 5%;
+  padding: 8px;
+}
+
+#info-right {
+  width: 800px;
+}
+
+#frame {
+  width: 810px;
+}
+
+#text-block {
+  position: absolute;
+  padding-left: 50px;
+  padding-top: 20px;
+  width: 700px;
+}
+
+#text-block h1 {
+  color: #477092;
+}
+
+#apps {
+  display: flex;
+  gap: 20px;
+}
+
+footer {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-weight: bold;
+  color: #477092;
+}
+
+#copyright {
+  color: grey;
 }
