@@ -6,5 +6,133 @@ light blue: #1c5380
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  height: 100vh;
   margin: 0;
+  margin-bottom: 3vw;
+  padding: 0;
+  width: 100vw;
+}
+
+footer {
+  bottom: 17vw;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+h1 {
+  color: #06365f;
+  font-size: 2.5vw;
+  margin: 0;
+}
+
+
+li {
+  color: #1c5380;
+  font-size: 1.2vw;
+  font-weight: 600;
+  margin: 0 1vw;
+}
+
+p {
+  font-size: 1.50vw;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.brand-logo {
+  width: 60%;
+}
+
+.copyright {
+  color: #000;
+  opacity: 0.6;
+  margin-left: 1.5vw;
+}
+
+.downloads {
+  display: flex;
+  justify-content: left;
+  ;
+}
+
+.download-button {
+  margin-right: 2.7vw;
+  width: 38%;
+}
+
+.home-icon {
+  width: 30%;
+}
+
+.light-blue-section {
+  background: #457fca;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #1c5380, #457fca);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #1c5380, #457fca);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 25vw;
+}
+
+.left-side {
+  text-align: center;
+  width: 40%;
+}
+
+
+.log-in {
+  font-size: 1.5vw;
+  font-weight: 600;
+  margin-left: 1vw;
+}
+
+.log-in-button {
+  align-items: center;
+  background: #457fca;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #1c5380, #457fca);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #1c5380, #457fca);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-radius: 0.3vw;
+  border: 0.1vw solid #FFF5EE;
+  display: flex;
+  padding: 0.5vw;
+  width: 20%;
+}
+
+.logo-and-log-in {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3vw;
+}
+
+.right-side {
+  padding: 1.5vw;
+  width: 60%;
+}
+
+.page-content {
+  bottom: 17vw;
+  color: #FFF;
+  display: flex;
+  margin: 0 10vw;
+  position: relative;
+  justify-content: space-between;
+}
+
+.phones-image {
+  width: 98%;
+}
+
+.rest {
+  background-color: #FFF;
+  border-radius: 2%;
+  color: #000;
+  padding: 2vw 3.1vw;
 }
