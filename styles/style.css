@@ -7,4 +7,116 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.backgroundblue{
+  width: 100%;
+  height: 40vh;
+  background-color: #1c5380;
+  opacity: 0.8;
+
+}
+
+.footer{
+  width: 60%;
+  height: 5%;
+  display: flex;
+  justify-content: space-evenly;
+  text-transform: uppercase;
+  font-weight: 900;
+  position: absolute;
+  bottom: 5%;
+  margin-left: 20%;
+  color: #1c5380;
+  opacity: 0.8;
+}
+
+.principal{
+  display: flex;
+  /* position: relative; */
+}
+
+.generalInfo{
+  position: absolute;
+  top: 15%;
+  right: 10%;
+
+  width: 45%;
+  height: 70vh;
+
+
+}
+
+.imagePhone{
+  position: absolute;
+  top: 15%;
+  left: 10%;
+}
+.imagePhone img{
+  height: 70vh;
+
+}
+
+
+.general{
+  height: 20%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.logIn{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px solid #1c5380;
+  width: 8vw;
+  height: 4vh;
+  color: white;
+  font-weight: 700;
+  background: linear-gradient(0deg, rgba(6,54,95,1) 0%, rgba(72,122,163,1) 52%);
+opacity: 0.9;
+ 
+
+}
+
+h1{
+  font-weight: 900;
+  opacity: 0.9;
+  color:#06365f
+}
+span{
+  font-weight: bold;
+}
+
+.info{
+  padding-left: 5%;
+  padding-right: 5%;
+  font-size: 1.2em;
+  border-radius: 10px 10px 0 0;
+  background-color: white;
+  /* box-shadow: -1px -9px 25px -12px #000000; */
+  /* box-shadow: 0 4px 2px -2px gray; */
+  box-shadow: 0 1px #F0F0F0		 inset, -1px 0 #F0F0F0			 inset, 1px 0 #F0F0F0	 inset;
+
+}
+
+
+.downloadButton{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 5%;
+  width: 70%;
+
+}
+
+.downloadButton img{
+  width: 110%;
+
+}
+.colorGray{
+  color: rgba(128,128,128, 0.5);
 }
