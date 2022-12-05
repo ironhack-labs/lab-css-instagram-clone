@@ -8,3 +8,106 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+#topBack {
+  background: linear-gradient(#567ea0 0%, #1c5380);
+  height: 40vh;
+}
+
+#generalColumn {
+  display: flex;
+  position: absolute;
+  height: 70vh;
+}
+
+#columnOne {
+  margin: 10vw 2vw 0 10vw;
+}
+
+#columnTwo {
+  display: flex;
+  flex-direction: column;
+  margin: 10vw 0 0 2vw;
+}
+
+#bannerInsta {
+  display: flex;
+  justify-content: space-between;
+}
+
+.instaLogin {
+  display: flex;
+  align-items: center;
+}
+
+#buttonlogin {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  justify-content: space-evenly;
+  background: linear-gradient(180deg, #79a0c2 0%, #2b6799);
+  color: aliceblue;
+  font-weight: bold;
+  text-align: center;
+  height: 3.2em;
+  width: 7.5em;
+  border-radius: 5%;
+
+}
+#frame {
+  background-image: url("/images/frame.png");
+  background-size: cover;
+  height: 41vh;
+  width: 45vw;
+  display: flex;
+  flex-direction: column;
+}
+
+#txt {
+  margin: 35px;
+  height: 41vh;
+  width: auto;
+  font-weight: 400;
+}
+
+h1 {
+  color: #06365f;
+}
+
+#mobileApp {
+  display: flex;
+  margin-left: 1.5em;
+}
+
+.store {
+  margin: 0.5em;
+}
+
+li {
+  margin: 0 10px;
+  list-style: none;
+}
+
+#footerContain {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 5%;
+  width: 100%;
+  color: #567ea0;
+  font-size: small;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#greyy {
+  color: gray;
+  opacity: 0.4;
+  margin-left: 4px;
+}
+
+#test {
+  display: flex;
+}
