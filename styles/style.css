@@ -55,7 +55,7 @@ body {
 
 }
 #frame {
-  background-image: url("/images/frame.png");
+  background-image: url("../images/frame.png");
   background-size: cover;
   height: 41vh;
   width: 45vw;
