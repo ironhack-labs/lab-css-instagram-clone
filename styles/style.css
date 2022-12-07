@@ -8,3 +8,89 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.blue-top {
+  background: rgb(6,54,95);
+  background: linear-gradient(0deg, rgba(6,54,95,1) 35%, rgba(28,83,128,1) 100%);
+  width: 100vw;
+  height: 270px;
+}
+
+.iphone {
+  width: 300px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  margin-top: -180px;
+  gap: 70px;
+}
+
+.text-content {
+  width: 45vw;
+}
+
+.logo-login {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 250px;
+}
+
+.button-login {
+  padding: 7px 10px;
+  background: rgb(6,54,95);
+  background: linear-gradient(0deg, rgba(6,54,95,1) 35%, rgba(28,83,128,1) 100%);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid rgb(6,54,95);
+  border-radius: 3px;
+  color: whitesmoke;
+  font-weight: 600;
+}
+
+.text {
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 40px;
+}
+
+.text h1 {
+  margin: 0;
+  color: rgb(6,54,95);
+  width: 65%;
+}
+
+.text span {
+  font-weight: bold;
+}
+
+.apps {
+  display: flex;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.links li {
+  list-style: none;
+  color: #1c5380;
+  font-size: small;
+  font-weight: 800;
+}
+
+#copyright {
+  color: grey;
+}
