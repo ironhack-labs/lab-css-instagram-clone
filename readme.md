@@ -1,5 +1,5 @@
 
-# Instagram website home page clone
+# Bootcamp lab | Instagram website home page clone
 
 - HTML and CSS.
 - Only desktop version.
