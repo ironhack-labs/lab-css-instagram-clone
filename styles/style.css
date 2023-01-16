@@ -8,3 +8,74 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.main {
+  display: flex;
+  margin: auto;
+  width: 70%;
+  justify-content: left;
+  margin-top: 100px;
+
+}
+
+.boxii {
+  padding-left: 50px;
+  width: 400px;
+  justify-content: space-between;
+}
+
+
+.logoi {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logot {
+  size: 70%;
+}
+
+.boton {
+
+  background-color: #1c5380;
+  color: grey;
+  text-decoration: none;
+  text-align: center;
+  width: 150px;
+  height: 50%;
+  align-content: center;
+}
+
+.container {
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 20px;
+
+}
+
+h1 {
+  color: #06365f;
+}
+
+
+ul {
+  display: block;
+  text-align: center;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  color: #1C5380;
+  text-align: center;
+  padding: 14px 16px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+li.instext {
+  font-size: 0.8em;
+  color: gray;
+}
