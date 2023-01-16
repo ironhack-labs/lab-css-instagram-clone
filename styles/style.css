@@ -6,5 +6,81 @@ light blue: #1c5380
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+}
+
+h1{
+  color: #06365f;
+  font-size: 38px;
+  text-align: left;
+}
+
+.main-box{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;  
+  margin-top: 200px;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: rgb(255, 255, 255, 0);
+  position: relative;
+  bottom: 150px;
+}
+.main-box-img{
+  position: relative;
+  left: 350px;
+}
+
+.button{
+  position: relative;
+  left: 610px;
+  bottom: 20px;
+  width: 100px;
+  height: 40px;
+  background-image: url("../images/bgtile.png");
+  color: white;
+  border-radius: 5px;
+  border-color: #1c5380;
+  border-width: 1px;
+}
+
+a{
+  text-decoration: none;
+}
+
+footer ul{
+  display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: stretch;
+  margin: 0 1000px 0 0;
+  position: relative;
+    left: 500px;
+    bottom: 100px;
+}
+
+
+.text-box{
+  width: 40%;
+  position: relative;
+  left: 450px;
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 10px;
+  border-radius: 8px;
+}
+
+.brand{
+  position: relative;
+  left: 460px;
+  width: 350px;
 }
