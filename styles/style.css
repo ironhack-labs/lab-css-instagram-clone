@@ -1,10 +1,128 @@
 /*
 Colors to use:
-dark blue: #06365f
+dark blue: #06365f 
 light blue: #1c5380
 */
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+}
+main {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+
+
+}
+.background {
+  position: absolute;
+  width: 100%;
+  height: 45%;
+  top: 0;
+  background: url(../images/bgtile.png), #fff;
+ }
+.phones {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  z-index: 1;
+  margin-right: 5%;
+}
+.main-content  {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 512px;
+  height: 512px;
+  z-index: 2;
+}
+.top-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 20px 20px 0;
+}
+.login-button {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 45px;
+  width: 110px;
+  padding: 0 8px;
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+  border: solid 1px #06365f;
+  border-radius: 3px;
+  background: white;
+  background: linear-gradient(180deg, rgba(105,146,178,0.7679446778711485) 33%, rgba(6,54,95,0.04525560224089631) 100%);
+}
+
+.middle-content{
+padding: 20px;
+border-radius: 6px;
+background: white;
+background: url(../images/frame.png);
+background-repeat: no-repeat;
+}
+h1 {
+  width: 65%;
+  color: #06365f;
+  margin-bottom: 8px;
+  font-size: 1.7em;
+  margin-left: 20px;
+  margin-top: 12px;
+}
+.middle-content p {
+ margin-top: 10px;
+ padding-left: 2;
+ margin-left: 20px;
+
+}
+.bottom-content {
+  height: 60px;
+  width: 100%;
+  margin-top: 40px;
+  margin-left: 20px;
+
+}
+.bottom-content img {
+  margin-right: 20px;
+}
+
+footer {
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+}
+nav li {
+  margin-right: 18px;
+
+}
+nav a{
+  text-decoration: none;
+  color: #06365f;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 0.9em;
+
+}
+footer p {
+  margin-left: 8px;
+  color: gray;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 0.9em;
 }
