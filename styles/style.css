@@ -4,7 +4,97 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url(/images/bgtile.png);
+  background-repeat: repeat-x;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 90px;
+}
+
+.content {
+  width: 35%;
+  margin-left: 50px;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.login{
+  margin-right: 10px;
+  border: 0.5px solid #1c5380;
+  border-radius: 2px;
+  padding: 10px;
+  background-image: linear-gradient(#7c9cb8dd,#497499);
+
+}
+
+.login a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  vertical-align:middle;
+}
+
+.login img{
+  vertical-align:middle;
+  margin-right: 15px;
+}
+
+h1{
+  color: #1c5380;
+  font-weight:bold;
+  font-size: 1.5em;
+  margin: 0px;
+  line-height: 30px;
+}
+
+.download {
+  display: flex;
+  margin-top: 35px;
+}
+
+.apple {
+  margin-right: 15px;
+}
+
+article {
+  padding: 30px 50px 0px 50px;
+  background-image: url(/images/frame.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+footer {
+  text-align: center;
+  margin-top: 75px;
+}
+
+li {
+  font-weight: 800;
+  font-size: 0.75em;
+  text-transform: uppercase;
+  list-style: none;
+  display: inline;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.brand {
+  color: rgba(128, 128, 128, 0.512);
+}
+
+li a {
+  text-decoration: none;
+  color: #1c5380c5;
 }
