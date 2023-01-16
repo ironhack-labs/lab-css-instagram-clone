@@ -4,7 +4,93 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+/* img {
+  width: 100%;
+} */
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url('../images/bgtile.png');
+  background-repeat: repeat-x;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.main-cont {
+  margin: 100px 100px 50px 100px;
+}
+
+/* Header container */
+
+.header {
+  justify-content: space-between;
+  margin-bottom: 1em;
+}
+
+.login-button {
+  width: 20%;
+  margin: 15px 5px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 0.5em;
+  border: 1px solid #1c5380;
+  justify-content: space-around;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+/* Content container */
+
+.content-cont {
+  margin-left: 50px;
+}
+
+.app-desc {
+  padding: 30px;
+  border-radius: 5px;
+  background-image: url('../images/frame.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+h1 {
+  margin-top: 0;
+  margin-right: 40%;
+  color: #06365f;
+}
+
+.download {
+  justify-content: left;
+}
+
+.download img {
+  margin-right: 15px;
+}
+
+/* Footer */
+
+footer {
+  margin: 0 auto;
+  font-size: 0.8em;
+}
+
+footer ul {
+  padding: 0;
+  list-style-type: none;
+  justify-content: center;
+}
+
+footer li {
+  margin: 10px;
+}
+
+footer a {
+  text-transform: uppercase;
+  color: #1c5380;
+  font-weight: bold;
+  text-decoration: none;
 }
