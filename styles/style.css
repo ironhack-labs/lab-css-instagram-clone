@@ -7,4 +7,90 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  margin-top: 50px;
+  justify-content: center;
+  background-image: url(/Users/ferra/Ironhack/bootcamp-0123/week1_day1/lab-css-instagram-clone/images/bgtile.png);
+  background-repeat: repeat-x;
+}
+
+.main_body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 40px;
+
+}
+
+.phone_images {
+  width: 60%;
+  margin-left: 100px;
+}
+
+.description_body {
+  width: 40%;
+  margin-left: 50px;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.description_image {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.log_in_botton {
+  display: flex;
+  justify-content: center;
+  padding: 8px 8px 8px 32px;
+  margin-left: 180px;
+  border: 1px solid #1c5380;
+  background-image: url(/Users/ferra/Ironhack/bootcamp-0123/week1_day1/lab-css-instagram-clone/images/home.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  color: beige;
+  text-decoration: none;
+
+}
+
+.description_text {
+  background-image: url(/Users/ferra/Ironhack/bootcamp-0123/week1_day1/lab-css-instagram-clone/images/frame.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-top: 40px;
+  padding: 10px 30px;
+}
+
+h2 {
+  color: #06365f;
+  padding-right: 300px;
+}
+
+.store_images {
+  display: flex;
+  padding-left: 100px;
+  margin-top: 30px;
+  gap: 30px;
+
+}
+
+.footer {}
+
+.footer_list {
+  display: flex;
+  justify-content: space-around;
+  color: #1c5380;
+  margin-top: 50px;
+  gap: 30px;
+}
+
+ls {
+  margin-right: 15px;
+  text-transform: uppercase;
+}
+
+.nav_link {
+  color: #1c5380;
+  text-decoration: none;
+
 }
