@@ -3,8 +3,121 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+img {
+  width: 100%;
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;
+}
+
+
+article {
+  width: 500px;
+  padding: 20px;
+  border-radius: 5px;
+  margin-right: 50px;
+  background-image: url("../images/frame.png");
+  background-size: 500px;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+article .text {
+  width: 400px;
+  padding-left: 60px;
+}
+
+
+
+h2 {
+  color: #06365f;
+}
+
+.store-icons {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.store-icons img {
+  padding-top: 20px;
+  width: 150px;
+  padding-right: 20px;
+
+}
+
+.info-header {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  padding-right: 0px;
+
+}
+
+.log-in-buttom {
+  border: 1px solid #06365f;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 45px;
+  width: 100px;
+  margin-top: 10px;
+  background-color: #1c5380;
+  border-radius: 3px;
+  background: linear-gradient(#1c5380 1%, #2d6392, #1c5380 99%);
+}
+
+.home-icon {
+  margin-right: 2px;
+  margin-top: 2px;
+}
+
+.log-in-text a {
+  text-decoration: none;
+  margin: 5px;
+  color: white;
+  font-weight: bold;
+
+
+}
+
+.body-wrapper {
+  display: flex;
+  justify-content: center;
+  padding-top: 90px;
+
+}
+
+.phone-wrapper {
+  width: 300px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+footer a {
+  text-decoration: none;
+  margin: 0 5px 0 5px;
+  color: #1c5380;
+}
+
+footer p {
+  text-transform: uppercase;
+  color: gray;
+  font-weight: bold;
+  letter-spacing: 0px;
+  font-size: 0.9em;
+}
+
+.instagram-logo {
+  width: 300px
 }
