@@ -7,4 +7,82 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image:url(../images/bgtile.png);
+  background-repeat: repeat-x;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3em 5em 3em 5em;
+}
+
+.phones-box {
+  width: 40%;
+  text-align: center;
+}
+
+.flex-box-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 3em 5em 3em 5em;
+}
+
+.login {
+  padding: 1.5em 1.5em 1.5em 1.5em;
+  text-align: center;
+}
+
+.button {
+  display: flex;
+  padding: 0.8em 1em 0.5em 1em;
+  background-color: #1c5380;
+  border: 1px solid #06365f;
+  border-radius: 0.2em;
+  margin-left: 1.5em;
+}
+
+a {
+  text-decoration: none;
+  margin-left: 1em;
+  font-weight: bold;
+  color: white;
+}
+
+.description-box {
+  width: 400px;
+  border-radius: 0.3em;
+  padding: 3em 4em 3em 4em;
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+}
+
+h2 {
+  color: #06365f; 
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  list-style: none;
+}
+
+ul > li {
+  margin: 0 0.4em 0 0.4em;
+}
+
+ul > li > a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #1c5380;
+}
+
+.copy {
+  color:grey;
+  text-transform: uppercase;
+  font-weight: 600;
 }
