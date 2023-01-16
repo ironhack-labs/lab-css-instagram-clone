@@ -7,4 +7,124 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;
+
+}
+
+.log-in {
+  text-decoration: none;
+  background-color: none;
+  color: white;
+  font-weight: bold;
+  border: 1px solid #1c5380;
+  padding: 10px 10px 10px 40px;
+
+
+}
+
+
+
+span {
+  font-weight: bold;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+
+}
+
+
+.nav-links {
+  text-decoration: none;
+  color: black;
+
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+h1 {
+  color: #06365f;
+  font-size: 22px;
+  font-weight: bold;
+  margin-right: 230px;
+}
+
+.principal-section {
+  padding: 40px 20px 0px 20px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+
+
+}
+
+.column-two {
+  width: 40%;
+  margin: 50px;
+}
+
+
+nav {
+
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+
+}
+
+li {
+  margin: 10px;
+}
+
+
+
+.nav-links {
+  color: #06365f;
+  font-weight: bold;
+
+}
+
+
+
+
+.text-box {
+  background-image: url("../images/frame.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding: 20px 30px 50px 30px;
+
+
+}
+
+.downloads {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 35px;
+}
+
+.footer {
+  color: gray;
+  font-weight: bold;
+
+}
+
+.logo-login-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.home-image {
+  position: relative;
+  left: 40px;
+
+}
+
+.logo-image {
+  margin-right: 90px;
 }
