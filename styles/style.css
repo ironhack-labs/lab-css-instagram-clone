@@ -3,8 +3,66 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+img {
+  width: 100%;
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+  
+}
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10ch;
+  margin-left: 10ch;
+  margin-right: 10ch;
+}
+.Headboard {
+  display: flex;
+}
+
+.list {
+  display: flex;
+  text-transform: uppercase;
+  color: #1c5380;
+  text-align: center;
+  justify-content: space-between;
+  list-style: none;
+
+}
+
+.Content {
+  width: 60%;
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  padding: 1cm;
+  margin: 1cm;
+  text-align: left;
+}
+
+.Botton {
+text-decoration: none;
+font-size: 20px;
+color:#dedceb;
+padding-left:40px;
+padding-right:40px;
+background-image: url(../images/home.png);
+background-repeat: no-repeat;
+border-width: 1px;
+border-style: groove;
+border-color: #2b3da5;
+}
+h1 {
+  color: #06365f;
+  font-size: 3ch;
+}
+.images {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 10px 0 10px 0;
+  height: 60px;
 }
