@@ -4,7 +4,75 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+
+
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  padding-top: 130px;
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+}
+
+section {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+
+.logoinsta {
+  width: 70%;
+
+}
+
+.img-background {
+  background-image: url("../images/frame.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.button {
+  background-color: #1c5380;
+  color: white;
+  position: absolute;
+  top: 19%;
+  left: 75%;
+}
+
+h1 {
+  color: #06365f;
+  padding-left: 50px;
+  padding-top: 20px;
+  padding-right: 50px;
+}
+
+p {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.apple {
+  padding-left: 60px;
+}
+
+footer li {
+  display: inline;
+  text-transform: uppercase;
+  padding-left: 3px;
+  padding-right: 3px;
+  color: gray;
+  font-weight: bold;
+  font-size: smaller;
+}
+
+footer {
+  text-align: center;
+  padding-top: 50px;
+}
+
+footer li a {
+  text-decoration: none;
 }
