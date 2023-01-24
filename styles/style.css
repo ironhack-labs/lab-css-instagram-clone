@@ -14,42 +14,40 @@ main {
   background: linear-gradient(180deg,rgba(28,83,128,0.70) 30%,rgba(28,83,128,0.95) 50%,#fff 50%,#fff 100%);
 }
 .container {
-  width: 80%;
-  height: 600px;
+  width: 70%;
   margin: 0 auto;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  padding-top: 150px;
-  padding-bottom: 100px;
-  gap: 4rem;
+  padding-top: 50px;
+  align-items:stretch;
 }
 #left, #right {
   display: flex;
   flex-direction: column;
+  height: auto;
 }
 /* left */
 #left {
-  width: 39%;
+  width: 45%;
 }
 #left article {
   display: flex;
-  justify-content: flex-end;
-  width:100%;
-  height:auto;
+  justify-content: flex-start;
+  width:auto;
+  height:100%;
 }
 #left img {
   display:block;
-  width:100%;
-  height:auto;
+  width:auto;
+  height:100%;
   object-fit:cover;
-  object-position:center;
+  object-position: 0px 5px;
+  align-items: center;
 }
 
 /* right */
 #right {
-  display: flex;
-  flex-direction: column;
   width: 40%;
   flex-grow: 1;
 }
@@ -59,20 +57,21 @@ main {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
+  margin-top:30px;
 }
 picture img {
   width: 100%;
 }
 button { 
+  width: auto;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   background: linear-gradient(180deg,rgba(28,83,128,0.05) 70%,rgba(28,83,128,0.55) 100%);
   height: 40px;
-  margin-left: 50px;
-  border:1px solid rgba(28,83,128);
+  border:.5px solid rgba(28,83,128);
   border-radius: 2px;
   box-shadow: 1px 1px rgba(28,83,128,0.55), -.1em 0 .1em rgba(28,83,128,0.55);
 }
@@ -92,8 +91,11 @@ button img {
   height:auto;
   position:relative;
   overflow: hidden;
-  /*border: 1px solid pink;*/
-  border-radius: 10px;
+  border-radius: 5px;
+  filter: drop-shadow(2px 3px 5px #dfdadabd);
+  /* box-shadow: 0px 0px 10px rgba(80, 78, 78, 0.4);
+  -webkit-box-shadow: 0px 0px 10px rgba(223, 221, 221, 0.4);
+  -moz-box-shadow: 0px 0px 10px rgb(255, 255, 255, .3); */
 }
 .second .sample {
   width: 100%;
@@ -103,11 +105,8 @@ button img {
   background-size: cover;
   display:block;
   background-position:top;
-  border-radius: 10px;
+  border-radius: 5px;
   margin-bottom: 30px;
-  /*border:1px solid blue;*/
-  filter:drop-shadow(10px 10px -10px rgb(17, 16, 16));
-  box-shadow: 16px -14px 5px 0px rgba(0, 0, 0, 1);
 }
 .second .text{
   padding: 10px 50px;
@@ -137,7 +136,7 @@ footer {
   flex-direction: row;
   align-items: center;
   gap: 3rem;
-  padding-top: 100px;
+  padding-top: 30px;
 }
 footer ul {
   display: flex;
