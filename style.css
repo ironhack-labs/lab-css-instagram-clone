@@ -1,0 +1,73 @@
+body {
+    font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    width: 90%;
+    max-width: 900px;
+    margin: 5em auto;
+    font: 0.9em/1.2 Arial, Helvetica, sans-serif;
+    background: linear-gradient(to bottom, #50789A 33%, white 67%);
+  }
+  h1{
+    font-size: 30px;
+    color: darkblue;
+  }
+  .container {
+    display: grid;
+    grid-template-areas:
+        "header header"
+        "sidebar content"
+        "footer footer";
+    grid-template-columns: 1fr 3fr;
+    gap: 20px;
+    }
+
+    article {
+    grid-area: content;
+    }
+
+    aside {
+    grid-area: sidebar;
+    border-right: 1px solid #999;
+    }
+
+    footer {
+    grid-area: footer;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    }
+
+    footer, a{
+        font-weight: 600;
+        text-decoration: none;
+    }
+
+    #text {
+      background-color: white;
+      padding: 1px 30px;
+    }
+
+    #text-head {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+    }
+
+    button {
+      text-align: right;
+      padding: 2px 2px;
+    }
+
+    #login {
+      color: white;
+      background-color: #50789A;
+      border: none;
+      box-shadow: 1px 1px 2px rgb(45, 44, 44);
+      background-image: url("https://raw.githubusercontent.com/GuriCz/lab-css-instagram-clone/master/images/home.png");
+      background-position: left;
+      background-size: auto;
+      background-repeat: no-repeat;#
+      text-align: right;
+      padding: 10px 35px;
+      font-weight: 800;
+    }
