@@ -42,6 +42,7 @@ body {
   flex-direction: row;
   align-items: center;
   gap: 20px;
+  margin-top: 30px;
 }
 .login__bar button {
 width: auto;
@@ -66,22 +67,32 @@ background: no-repeat url("../images/frame.png");
 padding: 10px 30px;
 transform: rotate(360deg);
 text-align: left;
+height: auto;
 
 }
+
+
+
 
 .card h2{
   color: #06365f;
   font-size: 2rem;
   letter-spacing: 1px;
+  width: 350px;
+  margin: 0;
+  padding-top: 10px;
 }
 
 .card p{
   font-weight: 300;
   font-size: 1rem;
 }
-
+.card__buttons{
+  padding-top: 25px;
+}
 .card__buttons a {
   padding-right: 30px;
+  
 }
 /* Footer */
 footer{
