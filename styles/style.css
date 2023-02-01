@@ -9,7 +9,7 @@ body {
   margin: 0;
   width: 100%;
    height: 100vh; 
-    background: linear-gradient(to bottom,
+    background:no-repeat linear-gradient(to bottom,
         #1c5380 0%,
         #1c5380 40%,
         white 40%,
@@ -27,8 +27,8 @@ body {
   justify-content: center;
   align-items: center;
   padding: 30px 20px;
-  margin: 30px;
-  gap: 15px;
+  margin: 50px;
+  gap: 50px;
   width: 800px;
 }
 
@@ -49,14 +49,39 @@ display: flex;
 justify-content: center;
 align-items: center;
 gap: 15px;
-height: 40px;
+height: 50px;
+width: 125px;
 background-color: #1c5380;
-border: 1px solid #06365f;
-border-radius: 5px;
-box-shadow: #06365f 5px;
+border: 2px solid #06365f;
+border-radius: 4px;
+
 color: white;
 font-size: 1em;
+}
+/* container */
 
+.container{
+
+background: no-repeat url("../images/frame.png");
+padding: 10px 30px;
+transform: rotate(360deg);
+text-align: left;
+
+}
+
+.card h2{
+  color: #06365f;
+  font-size: 2rem;
+  letter-spacing: 1px;
+}
+
+.card p{
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+.card__buttons a {
+  padding-right: 30px;
 }
 /* Footer */
 footer{
@@ -64,13 +89,14 @@ footer{
   align-items: center;
   justify-content: center;
   gap: 20px;
+  padding: 10px;
 }
 
 footer a, span{
   font-weight: 400;
   font-size: 0.8rem;
   text-decoration: none;
-  
+  color: lightgray;
   text-transform: uppercase;
 }
 
