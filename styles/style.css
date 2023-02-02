@@ -7,4 +7,91 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  width: 1000;
+  background-image: url(/images/bgtile.png);
+  background-repeat: repeat-x;
+}
+
+#loginButton {
+  margin: 16px;
+  border: 0.5px solid #1c5380;
+  border-radius: 4px;
+  padding: 8px 16px 8px 40px;
+  background-image:
+   url(/images/home.png),
+   linear-gradient(#7c9cb8dd,#497499);
+  background-repeat: no-repeat;
+  background-position: center left 10%;
+  text-decoration: none;
+  color: white;
+}
+
+.footer {
+  bottom: 0;
+  width: 75%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+article {
+  background-image: url("/images/frame.png");
+  padding: 30px 50px 0px 50px;
+  background-repeat:  no-repeat;
+  background-size: contain;
+}
+
+#dlbuttons {
+  display: flex;
+  align-content: flex-start;
+  margin-top: 35px;
+}
+
+#iphone {
+  padding-right: 25px;
+}
+
+.link {
+  font-size: smaller;
+  font-weight: bold;
+  text-decoration: none;
+  color: #497499;
+  padding-left: 1rem;
+}
+
+#INSTA {
+  color: rgb(167, 165, 165);
+  font-size: smaller;
+  padding-left: 1rem;
+  font-weight: bold;
+}
+
+#InstaLog {
+  display: flex;
+  align-items: flex-start;
+  justify-content:  space-between;
+  padding-bottom: 20px;
+  padding-top: 15px;
+}
+
+.sections {
+  margin-top: 100px;
+  margin-right: 2.5rem;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 75%;
+}
+
+h1 {
+  color: #1c5380;
+  font-weight: bold;
+}
+
+.span {
+ font-weight: bold;
 }
