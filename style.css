@@ -1,0 +1,75 @@
+/*
+Colors to use:
+dark blue: #06365f
+light blue: #1c5380
+*/
+
+
+
+body {
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+ 
+  background-image: linear-gradient( to bottom, #255c88, #286396, white 50%);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.phones {
+  padding-top: 70px;
+  height: 540px;
+  float: left;
+  margin:80px 20px 70px 200px;
+} 
+
+.brand { 
+  padding: 160px;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 13px;
+  background-image: linear-gradient( to top, #3577ac 60%, #256dac 40%);
+  position: relative;
+  left: 560px;
+  bottom: 230px;
+border-color: #29618f;
+border-style: solid;
+ }
+ 
+ h2 {
+color:#06365f;
+
+ }
+
+ p {
+font: "Helvetica Neue";
+ }
+
+
+ .box {
+  position: relative;
+  width: 520px;
+  left:160px;
+  bottom: 200px
+ }
+
+ #container {
+  position: relative;
+  width: 400px;
+  float: inline-end;
+  left:760px;
+  bottom: 480px;
+
+ }
+
+ .links {
+  margin: 15px 15px;
+ }
+
+ #linkovi {
+margin-top: 35px;
+ }
+/*sredi boje*/
+
