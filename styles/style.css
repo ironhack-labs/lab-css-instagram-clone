@@ -8,3 +8,81 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+.header-color{
+  position: absolute;
+  top: 0;
+  height: 50%;
+  width: 100%;
+  background: linear-gradient(#1c5380, #06365f);
+  z-index: -1;
+}
+.page-container{
+  max-width: 80%;
+  max-height: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  display: flex;
+}
+.phones{
+  height: 350px;
+  margin-right: 20px;
+}
+.main-left{
+  max-height: 300px;
+  display: flex;
+  flex-direction: column;
+}
+#logo{
+  width: 200px;
+}
+.logo-home{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+}
+h3 {
+  color: #06365f;
+  padding: 5px 15px 5px 20px;
+  margin-bottom: 0;
+}
+.description{
+  padding: 0px 20px 10px 20px;
+  font-size: smaller;
+}
+#principal-text{
+  border: 1px solid gray;
+  background-color: white;
+}
+#download-images{
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+.footer-list{
+  display: flex;
+  width: 100%;
+  flex-direction: row; 
+  justify-content: center;
+  list-style: none;
+  color: #1c5380;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-top: 40px;
+}
+li {
+  padding: 10px;
+  margin-top: 20px;
+  font-size: small;
+}
+.home-button{
+  background: linear-gradient(#1c5380, #06365f);
+  display: flex;
+  align-items: center;
+  color: white;
+  border-style: none;
+}
+.home-button > *{
+  padding: 5px;
+}
