@@ -3,8 +3,98 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
+* {
+  margin: 0;
+}
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+.container-blue {
+  height: 35vh;
+  width: auto;
+  background-color: #1c5380dc;
+}
+
+.container-white {
+  height: 55vh;
+}
+
+.absolute-container {
+  position: absolute;
+  top: 20vh;
+  width: 70vw;
+  left: 10vw;
+  display: flex;
+  gap: 4vw;
+}
+
+.images {
+  width: 30%;
+}
+
+.content {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+
+.content-header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.instagram-logo {
+  width: 22vw;
+}
+
+.image-phones {
+  height: 50vh;
+}
+
+.content-button {
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+  height: 4vh;
+  background-color: #1c53808f;
+  border: 0 solid;
+  border-radius: 0.1rem;
+  box-shadow: 0.5px 0.5px 1px 0.5px black;
+  color: white;
+}
+
+.content-text-container {
+  padding: 2rem;
+  background-color: white;
+  border: 0.5px solid;
+  border-radius: 0.2rem;
+}
+
+h2 {
+  width: 16rem;
+  text-align: start;
+  color: #1c5380dc;
+  padding-bottom: 1rem;
+}
+
+.content-footer-container {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  padding-top: 2rem;
+}
+
+footer {
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+}
+ul li {
+  display: inline;
+  padding: 2px;
+  font-size: 1rem;
+  color: #1c5380dc;
 }
