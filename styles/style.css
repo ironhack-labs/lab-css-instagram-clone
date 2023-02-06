@@ -7,4 +7,89 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: left 5% / 15% 45% repeat-x url("../images/bgtile.png");
+}
+
+#div{
+  display: flex;
+  justify-content: center;
+  padding-top: 5%;
+}
+
+#main-div{
+  width: 1200px;
+  display: flex;
+  /*align-items: center;*/
+}
+
+#phones-div{
+  padding: 2.5%;
+}
+
+#right-div{
+  padding: 2.5%;
+  width: 500px;
+}
+
+#top-div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+#log-in-button{
+  background-color: #639ac7;
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+  color: white;
+  font-weight: 700;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#text-div{
+  background-color: white;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+h2{
+  padding: 0;
+  margin: 0;
+  color: #06365f;
+  width: 250px;
+}
+
+#button-div{
+  display: flex;
+  justify-content: flex-start;
+}
+
+button>img{
+  padding-right: 10px;
+}
+
+.buttons{
+  border: none;
+}
+
+#bottom-div{
+  display: flex;
+  justify-content: center;
+}
+
+.links{
+  padding: 5px;
+  text-transform: uppercase;
+  color: #1c5380;
+  font-size: 14px;
+  font-weight:700;
+}
+
+#copyright{
+  color: gray;
 }
