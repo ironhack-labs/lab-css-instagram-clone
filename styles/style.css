@@ -2,7 +2,6 @@
   padding:0;
   margin:0;
   box-sizing: border-box;
-  border:1px solid red;
 }
 :root{
   --dark-blue:#06365f;
@@ -31,6 +30,21 @@ body {
   justify-content: space-between;
   width:50%;
 }
+.navbar-btn{
+  padding:0.5rem;
+  display: flex;
+  align-items: center;
+  gap:0.5rem;
+  background-color:var(--light-blue);
+  color:#fff;
+  border:1px solid var(--dark-blue);
+  font-weight:700;
+}
+.navbar-btn-wrapper{
+  display: flex;
+  align-items: center;
+}
+
 
 .container{
   max-width:1400px;
