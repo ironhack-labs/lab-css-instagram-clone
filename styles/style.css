@@ -2,6 +2,7 @@
   padding:0;
   margin:0;
   box-sizing: border-box;
+  border:1px solid red;
 }
 :root{
   --dark-blue:#06365f;
@@ -11,4 +12,27 @@
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+/* Navbar Styling */
+.navbar{
+  height:35vh;
+  background-color:var(--light-blue);
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar-nav{
+  display:flex;
+  justify-content: flex-end;
+  border:5px solid blue;
+}
+.navbar-items{
+  display: flex;
+  justify-content: space-between;
+  width:50%;
+}
+
+.container{
+  max-width:1400px;
+  width:80%;
 }
