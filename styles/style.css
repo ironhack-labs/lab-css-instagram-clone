@@ -23,7 +23,6 @@ body {
 .navbar-nav{
   display:flex;
   justify-content: flex-end;
-  border:5px solid blue;
 }
 .navbar-items{
   display: flex;
@@ -45,6 +44,29 @@ body {
   align-items: center;
 }
 
+/* Main Styling */
+
+.main{
+  display:flex;
+  justify-content: center;
+  position: relative;
+}
+.main-wrapper{
+  display: flex;
+  gap:3rem;
+}
+.main-image-wrapper{
+  height:30vh;
+}
+.main-image{
+  max-height:650px;
+  min-height:500px;
+  position:relative;
+  top:-250px;
+}
+.main-description{
+
+}
 
 .container{
   max-width:1400px;
