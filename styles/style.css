@@ -4,7 +4,109 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;
+}
+
+main img {
+  width: 350px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  align-items:flex-end;
+  padding-top: 100px;
+}
+
+.login-button {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #06365f;
+  color: white;
+  background-color: #3a6890;
+  background-image: url(../images/frame.png)
+}
+
+#home {
+  width: 20px;
+}
+
+#landing {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+#brand {
+  width: 300px
+}
+
+#app-buttons img {
+  width: 200px;
+  padding-left: 20px;
+}
+
+#box {
+  width: 500px;
+  background-color: white;
+  border-radius: 7px;
+}
+
+
+h1 {
+  color:#06365f;
+  font-size: 25px;
+  font-weight: 600;
+  width: 360px;
+  margin-bottom: 20px;
+}
+
+#text p{
+  width: 430px;
+  font-size: 18px;
+  margin-bottom: 13px;
+}
+
+#text {
+  padding: 20px;
+}
+
+li {
+  margin-left:10px;
+  margin-right:10px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+footer p{
+  padding-top: 80px;
+  padding-left: 20px;
+  color: grey;
+}
+
+footer ul{
+  list-style: none;
+  text-decoration: none;
+  color:#06365f;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+footer a{
+  color:#1c5380;
+  text-decoration: none;
 }
