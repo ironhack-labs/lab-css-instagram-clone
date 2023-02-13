@@ -25,10 +25,8 @@ main {
 }
 
 .login-button {
-  background-color: #3a6890;
-  background-image: url(../images/frame.png);
-  background-size: 100% 30%;
-  background-repeat: repeat-x;
+  background: rgb(174,200,222);
+  background: linear-gradient(180deg, rgba(174,200,222,1) 0%, rgba(174,200,222,1) 0%, rgba(58,104,144,1) 35%);
   border: 1px solid #06365f;
   border-radius: 5px;
   width: 100px;
@@ -39,9 +37,6 @@ main {
   gap: 8px;
 }
 
-.login-button::after {
-  
-}
 
 .login-button img{
   width: 20px;
