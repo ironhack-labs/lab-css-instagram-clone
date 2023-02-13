@@ -25,23 +25,39 @@ main {
 }
 
 .login-button {
+  background-color: #3a6890;
+  background-image: url(../images/frame.png);
+  background-size: 100% 30%;
+  background-repeat: repeat-x;
+  border: 1px solid #06365f;
+  border-radius: 5px;
+  width: 100px;
+  text-align: left;
+  padding: 10px;
   display: flex;
   align-items: center;
-  padding: 10px;
-  border: 1px solid #06365f;
-  color: white;
-  background-color: #3a6890;
-  background-image: url(../images/frame.png)
+  gap: 8px;
 }
 
-#home {
+.login-button::after {
+  
+}
+
+.login-button img{
   width: 20px;
+}
+
+.login-button span {
+  color:white;
+  vertical-align: middle;
+  font-weight: bold;
 }
 
 #landing {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  padding-bottom: 40px;
 }
 
 
@@ -58,6 +74,19 @@ main {
   width: 500px;
   background-color: white;
   border-radius: 7px;
+  position: relative;
+}
+
+#box::after{
+  position:absolute;
+  top:0px;
+  left:0px;
+  content:'';
+  background: linear-gradient(180deg, rgba(82,82,82,1) 0%, rgba(255,255,255,1) 67%, rgba(255,255,255,1) 100%);
+  width:100%;
+  height:100%;
+  filter: blur(10px);
+  z-index: -1;
 }
 
 
