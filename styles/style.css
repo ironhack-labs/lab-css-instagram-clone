@@ -1,0 +1,121 @@
+/*
+Colors to use:
+dark blue: #06365f
+light blue: #1c5380
+*/body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-image: url(/images/bgtile.png);
+  background-repeat: repeat-x;
+  /* opacity: 0.3; */
+}
+
+img {
+  width: 100%;
+}
+
+main {
+  display: flex;
+  width: 100vw;
+  height: 90vh;
+  padding: 100px 200px;
+
+}
+
+.section-left {
+  width: 40%;
+}
+
+.section-rigth {
+  display: inline-block;
+  width: 50%;
+  height: auto;
+}
+
+.section-rigth-header {
+  padding: 25px 0px
+}
+
+.section-rigth-info {
+  background-image: url(/images/frame.png);
+  background-repeat: no-repeat;
+  padding: 40px;
+  height: 515px;
+  text-align: start;
+
+}
+
+.section-rigth-info h1 {
+  color: #305371;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: start;
+  padding-right: 150px;
+}
+
+.section-rigth-info p {
+  margin-top: 20px;
+  /* line-height: 30px; */
+}
+
+.section-left img {
+  width: 350px;
+  height: 550px
+}
+
+.section-rigth-header {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+.section-rigth-header img {
+  width: 58%;
+}
+
+.section-rigth-header a img {
+  height: 22px;
+  width: 25px;
+  border: 1px solid transparent;
+  margin-right: 8px;
+}
+
+.section-rigth-header a {
+  margin-right: 20px;
+  padding: 12px;
+  background: linear-gradient(rgb(129 157 183), rgb(60, 99, 134));
+  color: #ffff;
+  text-decoration: none;
+}
+
+.section-rigth-buttons {
+  display: flex;
+  align-self: flex-end;
+}
+
+.section-rigth-buttons {
+  padding-top: 70px;
+}
+
+.section-rigth-buttons .button-apple {
+  padding-right: 20px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer li {
+  list-style: none;
+  padding-right: 15px;
+  color: #4a7295;
+  font-weight: bold;
+}
+
+footer .footer-link-grey {
+  color: #b7b7b7;
+
+}
