@@ -5,6 +5,107 @@ light blue: #1c5380
 */
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+	font: 200 16px/1.5 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	margin: 0;
+}
+
+header {
+	height: 350px;
+	background: #1c5380;
+}
+
+.first-section {
+	display: flex;
+	flex-direction: column;
+	width: 700px;
+	font-size: 1.3em;
+	left: 45%;
+	bottom: 15%;
+	position: absolute;
+}
+
+.logo-and-button {
+	display: flex;
+	justify-content: space-between;
+	background: #1c5380;
+	align-items: center;
+	padding: 50px 2px;
+}
+
+.logo-and-button a {
+	color: white;
+}
+
+.text-and-appstore {
+	display: flex;
+	background: white;
+	border-radius: 20px;
+	flex-direction: column;
+}
+p {
+	margin-left: 55px;
+	line-height: 1.5em;
+	width: 550px;
+}
+
+.text-and-appstore img {
+	width: 210px;
+	height: 60px;
+}
+
+h1 {
+	color: #06365f;
+	width: 400px;
+	text-align: left;
+	margin-left: 55px;
+}
+
+#phoneImg {
+	position: absolute;
+	left: 17%;
+	top: 13.5%;
+	height: 685px;
+}
+
+footer {
+	position: absolute;
+	left: 25%;
+	padding-top: 525px;
+	display: flex;
+	justify-content: space-evenly;
+	width: 1000px;
+	font-weight: 600;
+}
+
+.image-div {
+	margin-left: 55px;
+}
+
+#apple {
+	margin-right: 35px;
+}
+
+#button {
+	background: #256192;
+	height: 50px;
+	width: 125px;
+	border-radius: 3px;
+	border: 1px solid #06365f;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+}
+
+#button a {
+	color: #ccdae6;
+	margin-left: 10px;
+}
+
+a {
+	text-decoration: none;
+}
+
+footer span {
+	color: rgb(153, 153, 153);
 }
