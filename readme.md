@@ -2,6 +2,28 @@
 
 # LAB | CSS Instagram Clone
 
+<details>
+  <summary>
+   <h2>Learning Goals</h2>
+  </summary>
+
+  This exercise is designed to allow you practice and apply the concepts and techniques taught in class. 
+
+  Upon completion of this exercise, you will be able to:
+
+  - Develop a simple webpage based on provided design and assets.
+  - Create and link an external CSS stylesheet with an HTML document.
+  - Use the CSS `position`  property to position elements on a webpage.
+  - Use *Flexbox* to layout and position elements on a webpage.
+  - Display images in a webpage using HTML image tags and CSS `background`  property.
+  - Use MDN as a reference to look up and apply CSS properties not covered in class, such as `list-style` , `text-decoration` , `text-transform` , etc.
+  - Submit completed work using Git and GitHub by creating a Pull Request.
+
+  <br>
+  <hr> 
+
+</details>
+
 ## Introduction
 
 One of the best ways to sharpen your CSS skills is to try to recreate an existing style and layout, so take a look at the deliverable below, work with a partner, and build your own version of Instagram.com. Don't worry if you can't get it to look _exactly_ as you see but try your best to get as close as possible.
