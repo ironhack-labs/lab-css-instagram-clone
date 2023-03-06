@@ -7,7 +7,7 @@
    <h2>Learning Goals</h2>
   </summary>
 
-  This exercise is designed to allow you to practice and apply the concepts and techniques taught in class. 
+   This exercise allows you to practice and apply the concepts and techniques taught in class. 
 
   Upon completion of this exercise, you will be able to:
 
