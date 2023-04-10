@@ -3,8 +3,126 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+:root {
+  --color-light-blue: #1c5380;
+  --color-dark-blue: #06365f;
+
+}
 
 body {
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;
+  box-sizing: border-box;
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  width: 100vw;
+}
+
+h1 {
+  color: var(--color-dark-blue);
+  font-size: 2em;
+}
+
+.wrap {
+  margin: 0em auto;
+  padding-top: 4em;
+  width: 80%;
+}
+
+.flex_container {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 1em;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.right_block {
+  display: flex;
+  flex: 2;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+}
+
+.brand_top {
+  align-items: center;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  margin-bottom: 1em;
+}
+
+.btn_login_icon{
+  align-items: center;
+  background-color: var(--color-light-blue);
+  border: 1px solid var(--color-dark-blue);
+  border-radius: 0.625em;
+  display: flex;
+  flex-flow: row nowrap;
+  gap: .5em;
+  overflow: hidden;
+  padding: .5em 1em;
+  text-decoration: none;
+}
+.btn_login_icon:hover{
+  background-color: var(--color-dark-blue);
+  border: 1px solid var(--color-light-blue);
+
+}
+.btn_login_icon span {
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.text_block {
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 1em 2em;
+}
+
+.badge_icon {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 1em;
+  justify-content: flex-start;
+  margin-top: 2em;
+}
+
+.badge_icon img {
+  width: auto;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  padding: 2em 0;
+}
+
+.nav_ul {
+  display: flex;
+  flex-flow: row wrap;
+  font-size: 0.75em;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+}
+
+.nav_li {
+  list-style: none;
+  padding: 0 .5em;
+}
+
+.nav_li a {
+  color: var(--color-light-blue);
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.nav_li .instagram_text {
+  color: #ccc;
+
 }
