@@ -3,8 +3,120 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  vertical-align: middle;
+  margin: 0px;
 }
+.backgroundColor{
+  width: 100%;
+  height: 400px;
+  position: absolute;
+  z-index: -5;
+}
+.maincontainer{
+margin-left: 500px ;
+margin-right: 450px;
+padding-top: 200px;
+}
+
+main{
+  display: flex;
+  flex-direction: row;
+  width: auto;
+
+}
+.imgPhones{
+  margin-right: 30px;
+}
+section{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.header{
+  display: flex;
+  flex-direction: row;
+  width: 590px;
+  justify-content:space-between;
+  margin-bottom: 30px;
+}
+.header__homeButton{
+  display: flex;
+  flex-direction: row ;
+  align-items: center;
+  justify-content: space-evenly;
+  cursor: pointer;
+  background: linear-gradient(180deg, rgba(87,145,194,1) 0%, rgba(83,119,149,1) 51%, rgba(44,101,148,1) 100%);
+  height: 50px;
+  width: 130px;
+  box-shadow: 0px 0px 3px;
+  border-radius: 3px;
+  margin-top: 16px;
+}
+.buttonText{
+ color:white;
+ font-weight: 700;
+}
+.homeSymbol{
+  width: 30px;
+  height: 25px;
+}
+
+.textBackground{
+  position: absolute;
+  z-index: -5;
+  width: 600px;
+ margin: 0px;
+}
+.textContainer{
+  padding: 20px;
+  padding-left: 50px;
+  width: 430px;
+}
+.Title{
+  width: 65%;
+  font-weight: 900;
+  color: #06365f;
+}
+
+.boldedText{
+  font-weight: bold;
+}
+.header__homeButton{
+  display: flex;
+  flex-direction: row;
+}
+.buttonsContainer{
+  padding-left: 50px ;
+  
+}
+.downloadButton{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  margin-left: 150px;
+  width: 70%;
+}
+.navLink{
+  text-decoration: none;
+  color: #3079b4;
+  font-size: 12px;
+  font-weight: 800;
+  size: 10px ;
+}
+.navCopyrigth{
+  color:lightgrey;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+
