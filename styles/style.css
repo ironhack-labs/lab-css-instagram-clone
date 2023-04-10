@@ -4,7 +4,79 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  margin: 0 auto;
+ 
+  
+}
+section{
+  margin: 0px 120px 100px 120px;
+  
+  display: flex;
+  gap: 4rem;
+}
+h1{
+  color: #2d4765;
+}
+/*HERO*/
+.hero{
+  background-image: url(../images/bgtile.png);
+  background-size: cover;
+  position: relative;
+  height: 150px;
+  padding-top: 10rem;
+}
+/*Section*/
+
+.box-header{
+  display: flex;
+  align-items: center;
+  gap: 13rem;
+}
+.box-header a{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0px 10px 0px 10px;
+  border-radius: 10px;
+}
+.box{
+margin-top: 1rem;
+ margin-bottom: 1rem;
+ background-image: url(../images/frame.png);
+ background-repeat: no-repeat;
+ background-size: cover;
+ padding: 2rem;
+}
+.store{
+  margin-left: 2rem;
+}
+/*Buttom*/
+.buttom{
+  text-decoration: none;
+  color: white;
+  background-color: #2d4765;
+  text-align: center;
+}
+/*Nav*/
+footer{
+  margin-bottom: 2rem;
+}
+nav{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center ;
+  gap: 1rem;
+  margin-bottom: 4rem;
+}
+nav a{
+  text-decoration: none;
+  color: #9fb0c3;
+}
+nav p{
+  color: #bdbdbe;
 }
