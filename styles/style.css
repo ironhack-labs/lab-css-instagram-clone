@@ -8,3 +8,90 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+a {
+  text-decoration: none;
+}
+
+.background {
+  background-image: url(../images/bgtile.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+}
+
+.container {
+  display: flex;
+  margin: 0px 120px 100px 120px;
+  gap: 4rem;
+  margin-top: -150px;
+}
+
+.container-right {
+  margin: 0px 80px;
+}
+
+.container-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-text {
+  text-align: left;
+  padding: 35px;
+  border-radius: 20px;
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container-text h2 {
+  color: #06365f;
+}
+
+span {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+
+.button {
+  background: #06365f;
+  display: flex;
+  color: white;
+  padding: 0px 20px;
+  align-items: center;
+  gap: 1rem;
+  border-radius: 10px;
+  height: 70px;
+}
+
+.button img {
+  width: 30px;
+  height: 30px;
+}
+
+.container-apps {
+  display: flex;
+  margin: 30px 20px;
+}
+.google-play {
+  margin-left: 20px;
+}
+
+.nav ul {
+  font-size: 12px;
+  margin: 50px auto;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  font-weight: 500;
+}
+
+.nav a {
+  color: #06365f;
+}
+
+.nav ul li {
+  margin: 20px;
+}
