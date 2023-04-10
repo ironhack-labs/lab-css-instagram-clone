@@ -7,4 +7,51 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  margin-top: 1cm;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+.Boxes {
+  display: flex;
+  width: 20cm;
+}
+.bottomNav {
+  justify-content: space-between;
+  display: flex;
+  width: 15cm;
+  font-size:x-small;
+  font-weight: 900;
+  margin-top: 1.5cm;
+
+}
+.InstagramImage {
+  display: flex;
+}
+ul {
+  list-style: none;
+}
+.Bold {
+  font-weight: 700;
+}
+h2 {
+  color: #06365f;
+}
+.whiteBox {
+  background-color: white
+}
+.lastObject {
+  color: grey;
+}
+button {
+  font-weight: 400;
+  height: 40px;
+  padding-bottom: 0%;
+}
+.homeImage {
+  height:10px;
+  margin: auto;
+}
+.topImage {
+  background-image: url(/images/bgtile.png);
+  bottom: -5cm;
 }
