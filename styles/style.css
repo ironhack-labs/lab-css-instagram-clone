@@ -7,4 +7,67 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+background-image: url(../images/bgtile.png);
+background-repeat: no-repeat;
+background-repeat: repeat-x;
 }
+
+
+.section1 {
+
+display: flex;
+margin-right: 5%;
+margin-top: 10%;
+margin-bottom: 10%;
+margin-left: 18%;
+
+}
+.section-2 {
+ 
+ 
+  margin-right: 15%;
+  margin-top: 9%;
+  margin-bottom: 10%;
+  margin-left: 1%;
+}
+
+.twosections {
+  margin: auto;
+  display: flex;
+
+  height: 40%;
+  width: 100%;
+
+}
+.login-button {
+ background-color: #06365f;
+  margin-left: 15%;
+  margin-right:15%;
+  margin-bottom: 3%;
+  margin-top: 1%;
+  display:flex;
+}
+.instagramandlogin {
+display: flex;
+}
+header {
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  
+}
+.footer {
+  display: flex;
+  margin-left: 15%;
+  margin-right: 15%;
+  list-style-type: none;
+  justify-content: space-between;
+}
+header {
+  font-size: 30px;
+}
+.text {
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  padding: 5%;
+}
+
