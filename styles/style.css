@@ -8,3 +8,130 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.background-img {
+ height: 200px;
+ background-image: url(../images/bgtile.png);
+ background-size: 100% 100%;
+ background-repeat: repeat-y;
+ background-attachment: fixed;
+ padding: 100px;
+}
+
+.section1 {
+ display: flex; 
+ align-items: center;
+ align-content: center;
+ margin-top: -150px;
+}
+
+.left-column {
+   margin-left: 270px;
+   margin-right: 50px;
+}
+ 
+.right-column {
+  width: 500px;
+  margin-right: 270px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  align-content: space-between;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.button {
+box-sizing: border-box;
+block-size: auto;
+border: 1px solid black;
+background-color: linear-gradient (#1c5380 #f1f2f3);
+display: flex;
+justify-content: space-between;
+align-content: space-between;
+color: white;
+text-decoration: none; 
+padding: 10px 10px 10px;
+font-weight: bold;
+border-radius: 2px;
+font-size: 14px;
+box-shadow: inset 1px 1px 1px rgba(255,255,255,.7); 
+text-align: center;   
+}
+
+.button img {
+ margin-right: 8px;
+ size: 20px;
+}
+ 
+
+.right-column-box {
+display: flex;
+flex-direction: column;
+padding: 30px;
+background-image: url(../images/frame.png);
+background-repeat: no-repeat;
+}
+
+ 
+h1 {
+  color: #05335c;
+}
+
+.texts {
+  font-weight: 400;
+}
+
+.stores {
+  display: flex;
+  align-items: center;
+  align-content: space-between;  
+}
+
+.apple {
+  height: 50px;
+  margin-top: 30px;
+}
+
+.android {
+  height: 50px;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+ .phone {
+  height: 550px;
+}
+
+
+.section2 {
+    margin-top: 50px;
+    margin-bottom: 200px; 
+    padding-left: 400px; 
+    padding-right: 400px;
+}
+  
+nav {
+  font-size: 10px;
+  list-style: none;
+  display: flex;  
+  justify-content: space-evenly;
+  align-items: center;
+  text-decoration: none;
+}
+
+nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #1c5380;
+  font-weight: bold;
+ }
+ 
+ .IG {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: rgb(174, 174, 174);
+ }
+ 
