@@ -17,6 +17,7 @@ body {
   background-repeat: no-repeat;
   background-size: 100%;
   padding: 8%;
+  margin-top: 5%;
 }
 
 .Log-In {
@@ -32,13 +33,19 @@ body {
 .center {
   width: 900px;
   margin: 0 auto;
+  margin-left: 200px;
 }
 
 #second-column {
-  width: 400px;
+  width: 530px;
   margin-top: 15%;
   flex-direction: row;
 
+}
+
+.home {
+  display: flex;
+  margin-left: 25%;
 }
 
 .flex-container {
@@ -54,7 +61,7 @@ body {
   display: flex;
   list-style: none;
   margin-top: 10%;
-  margin-left: 15%;
+  margin-left: 25%;
 }
 
 .footer-list>li {
