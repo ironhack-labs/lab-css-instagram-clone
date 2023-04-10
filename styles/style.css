@@ -50,6 +50,7 @@ h1 {
   flex-flow: row nowrap;
   justify-content: space-between;
   margin-bottom: 1em;
+  padding: 0 .5em;
 }
 
 .btn_login_icon{
