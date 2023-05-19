@@ -9,8 +9,10 @@ body {
   margin: 0;
 }
 
-.container{
-  dis
+#container-box{
+  position: relative;
+  display: flex;
+  justify-content: end;
 }
 
 .background{
@@ -22,5 +24,93 @@ body {
 .iphohe img{
   width: 204px;
   margin-top: -132px;
-  padding-left: 100px;
+  padding-left: 60px;
+}
+
+.contairner-brand{
+  padding-left: 50px;
+  margin-top: -100px;
+
+}
+
+
+
+.inst{
+  width: 150px;
+  margin-bottom: 227px;
+
+}
+
+.botton{
+  position: absolute;
+  width: 60px;
+  height: 30px;
+  background-color: #4E7699;
+  top: -100px;
+  right: 180px;
+  box-shadow: 1px 1px #10355B;
+  border-radius: 3px;
+}
+
+.botton:hover{
+  background-color: #10355B;
+  transition: all 550ms ease-in-out;
+}
+
+.home{
+  width: 15px;
+  padding-top: 10px;
+  padding-left: 5px;
+}
+
+h6{
+  font-size: 9px;
+  color: white;
+  margin-top: -19px;
+  margin-left: 26px;
+}
+
+
+
+.frame{
+  width: 45vw;
+  margin-left: -164px;
+}
+
+h1{
+  font-size: 1.5rem;
+  margin-top: -200px;
+  padding-left: 30px;
+  color: #10355B;
+}
+
+p{
+  font-size: 0.7rem;
+  padding-left: 30px;
+  padding-right: 200px;
+}
+
+.app-iphone, .app-android{
+  width: 110px;
+  margin: 20px 0 15px 10px ;
+}
+
+.foot{
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+a{
+  padding-left: 15px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #4E7699;
+  font-size: 9px;
+
+}
+
+.copyr{
+  color: grey;
+
 }
