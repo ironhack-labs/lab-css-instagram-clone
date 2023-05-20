@@ -9,6 +9,15 @@ body {
   margin: 0;
 }
 
+#all {
+  width: 1500px;
+}
+
+#background-blue {
+  background-image: url(../images/bgtile.png);
+  height: 300px;
+}
+
 #landing-page {
   display: flex;
   justify-content: space-evenly;
@@ -16,7 +25,7 @@ body {
   padding-left: 50px;
   padding-right: 50px;
   padding-bottom: 20px;
-  background-image: url("https://github.com/JDiegoSP/lab-css-instagram-clone/blob/master/images/bgtile.png?raw=true");  
+  margin-top: -275px;
 }
 
 #iphone {
@@ -32,11 +41,24 @@ body {
   align-items: center;
   justify-content: space-between;
   width: 500px;
+  margin-top: 20px;
 }
 
 #log-in {
   display: flex;
   align-items: center;
+  background-color: #4b88be;
+  border: 0,5px groove #06365f;
+  padding: 7px;
+  text-decoration: none;
+}
+
+#logo-log-in a {
+  display: flex;
+  text-decoration: none;
+  margin: 10% 0;
+  height: 20px;
+  border-radius: 3px;
 }
 
 #home-icon {
@@ -52,8 +74,9 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  background-repeat: no-repeat;
   padding-left: 40px;
-  margin-top: 25px;
+  margin-top: -15px;
 }
 
 #introduction-title {
@@ -63,13 +86,14 @@ body {
 
 #introduction-text {
   width: 425px;
-  margin-top: -15px;
+  margin-top: -5px;
+  
 }
 
 #get-apps-button {
   display: flex;
   justify-content: space-evenly;
-  padding-top: 65px;
+  padding-top: 30px;
   margin-left: -70px;
 }
 
@@ -85,12 +109,17 @@ body {
   padding-top: 20px;
   padding-bottom: 20px;
   width: 800px;
-  font-size: 12px;
+  font-size: 10px;
   margin-left: 320px;
   text-transform: uppercase;
 }
 
 .footer-list-class {
   color: #1c5380;
+  font-weight: bold;
+}
+
+.footer-list-class-B {
+  color: grey;
   font-weight: bold;
 }
