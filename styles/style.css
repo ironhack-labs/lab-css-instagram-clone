@@ -8,3 +8,115 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+#bg-img{
+  background-image: url(../images/bgtile.png);
+  height: 280px;
+}
+
+.phones-and-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: -200px;
+}
+
+#blue-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: linear-gradient(#82a9cb, #316188);
+  color: white;
+  border: none;
+  padding: 0px 10px;
+}
+
+#blue-button img {
+  margin-right: 10px;
+}
+
+.phones img {
+  width: 300px;
+  margin: 30px;
+}
+
+.text-section {
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  width: 500px;
+  height: 300px;
+  position: relative;
+}
+
+.header-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.text-section h2 {
+  color: #06365f;
+  width: 250px;
+  position: absolute;
+  top: 5px;
+  left: 25px;
+}
+
+#first-p {
+  width: 450px;
+  position: absolute;
+  top: 90px;
+  left: 25px;
+}
+
+#second-p {
+  width: 450px;
+  position: absolute;
+  top: 150px;
+  left: 25px;
+}
+
+#third-p {
+  width: 450px;
+  position: absolute;
+  top: 250px;
+  left: 25px;
+}
+
+.bold-word {
+  font-weight: bold;
+}
+
+.download-images {
+  margin-top: 10px;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.download-images img{
+  margin: 10px;
+}
+
+.footer {
+  margin: 10px 300px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #1c5380;
+}
+
+.footer p {
+  color: #9c9d9e
+}
+
