@@ -9,108 +9,107 @@ body {
   margin: 0;
 }
 
-#container-box{
+.container {
+  width: 1200px;
+}
+
+#container-box {
   position: relative;
   display: flex;
   justify-content: end;
 }
 
-.background{
+.background {
   background-image: url(../images/bgtile.png);
   width: 100vw;
   height: 50vh;
 }
 
-.iphohe img{
-  width: 204px;
+.iphohe img {
+  width: 360px;
   margin-top: -132px;
   padding-left: 60px;
 }
 
-.contairner-brand{
+.contairner-brand {
   padding-left: 50px;
   margin-top: -100px;
-
 }
 
-
-
-.inst{
-  width: 150px;
-  margin-bottom: 227px;
-
+.inst {
+  width: 288px;
+  margin-top: -19px;
 }
 
-.botton{
+.botton {
   position: absolute;
-  width: 60px;
-  height: 30px;
-  background-color: #4E7699;
+  width: 70px;
+  height: 35px;
+  background-color: #4e7699;
   top: -100px;
-  right: 180px;
-  box-shadow: 1px 1px #10355B;
+  right: 144px;
+  box-shadow: 1px 1px #10355b;
   border-radius: 3px;
 }
 
-.botton:hover{
-  background-color: #10355B;
+.botton:hover {
+  background-color: #10355b;
   transition: all 550ms ease-in-out;
 }
 
-.home{
-  width: 15px;
+.home {
+  width: 20px;
   padding-top: 10px;
   padding-left: 5px;
 }
 
-h6{
-  font-size: 9px;
+h6 {
+  font-size: 13px;
   color: white;
-  margin-top: -19px;
-  margin-left: 26px;
+  margin-top: -25px;
+  margin-left: 30px;
 }
 
-
-
-.frame{
-  width: 45vw;
-  margin-left: -164px;
+.frame {
+  width: 600px;
 }
 
-h1{
-  font-size: 1.5rem;
-  margin-top: -200px;
+h1 {
+  font-size: 2rem;
+  margin-top: -300px;
   padding-left: 30px;
-  color: #10355B;
+  color: #10355b;
 }
 
-p{
-  font-size: 0.7rem;
+p {
+  font-size: 18px;
   padding-left: 30px;
   padding-right: 200px;
+  font-weight: 200;
+  margin-top: -5px;
 }
 
-.app-iphone, .app-android{
-  width: 110px;
-  margin: 20px 0 15px 10px ;
+.app-iphone,
+.app-android {
+  width: 192px;
+  margin: 0px 0 15px 10px;
 }
 
-.foot{
+.foot {
   display: flex;
   justify-content: center;
   margin: 10px;
+  margin-top: 18px;
 }
 
-a{
+a {
   padding-left: 15px;
   text-decoration: none;
   font-weight: bold;
-  color: #4E7699;
-  font-size: 9px;
-
+  color: #4e7699;
+  font-size: 13px;
 }
 
-.copyr{
+.copyr {
   color: grey;
-
 }
