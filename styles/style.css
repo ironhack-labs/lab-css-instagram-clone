@@ -11,6 +11,9 @@ light blue: #1c5380
 .header {
   overflow: hidden;
   padding: 5%;
+  background-image: url(/images/bgtile.png);
+  background-repeat: no-repeat;
+  background-size: 100% 40%; /* Establece el tamaño del background en 50% del ancho y 100% de la altura */
 }
 
 .brandOrg {
@@ -24,6 +27,7 @@ light blue: #1c5380
   padding: 20px;
   float: right;
   width: 50%;
+
 }
 
 body {
@@ -60,6 +64,7 @@ body {
 
 .logo {
   padding-left: 55%;
+  padding-top: 5%;
 }
 
 .promos {
@@ -103,8 +108,6 @@ body {
   font-size: 16px;
   font-weight: 100;
   padding: 20px 20px 20px 40px;
-
-
   text-shadow: 1px 1px 20px #000000;
   border: solid #337FED 0;
   text-decoration: none;
@@ -125,7 +128,6 @@ body {
   background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
   background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
   background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
-
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   border-radius: 0;
@@ -133,5 +135,5 @@ body {
   background-image: url("/images/home.png");
   background-repeat: no-repeat;
   background-size: 25%; 
-  background-position: left; 
+  background-position: 10px center; 
 }
