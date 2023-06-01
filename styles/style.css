@@ -4,7 +4,134 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+*{
+  box-sizing: border-box;
+}
+
+.header {
+  overflow: hidden;
+  padding: 5%;
+  background-image: url(/images/bgtile.png);
+  background-repeat: no-repeat;
+  background-size: 100% 40%; /* Establece el tamaño del background en 50% del ancho y 100% de la altura */
+}
+
+.brandOrg {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding: 15px;
+}
+
+.header-content {
+  padding: 20px;
+  float: right;
+  width: 50%;
+
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+.text-overlay {
+  margin-top: -35%;
+  margin-left: 5%;
+}
+
+.insideText {
+  color: #06365f!important;
+
+}
+
+.text-long {
+  color: black;
+  font-size: 15px;
+  margin-right: 45%;
+}
+
+.bottomPart {
+  float: left;
+  width: 50%;
+}
+
+.logo {
+  padding-left: 44%;
+  padding-top: 6%;
+}
+
+.promos {
+  display: flex;
+  padding-top: 5%;
+}
+
+.promo2 {
+  padding-left: 5%;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer > * {
+  margin: 0.5%; 
+  padding: 0.5%; 
+}
+
+.footer {
+  color: #1c5380;
+  
+}
+
+.login {
+    background: #f7f4f3;
+    background: linear-gradient(to bottom, #f3f5f7, #3c6b93);
+    margin-left: 75px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    color: #FFFFFF;
+    font-family: Helvetica;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 12px 12px 40px;
+    text-shadow: 1px 1px 20px #ffffff;
+    border: solid black 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    background-image: url("/images/home.png");
+    background-repeat: no-repeat;
+    background-size: 25%; 
+    background-position: 10px center;
+  }
+
+.login:hover {
+  border: solid #337FED 1px;
+  background: #1E62D0;
+  background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 4;
+  text-decoration: none;
+  background-image: url("/images/home.png");
+  background-repeat: no-repeat;
+  background-size: 25%; 
+  background-position: 10px center; 
+}
+
+.footer {
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: -45px;
+}
+
+.footer .text9 {
+  color: #817e7e;
 }
