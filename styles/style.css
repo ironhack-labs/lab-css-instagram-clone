@@ -1,10 +1,125 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
-
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+#blue-part {
+  background: linear-gradient(to bottom, #1c5380, #06365f);
+  height: 400px;
+  width: 100%;
+}
+
+#white-part {
+
+  height: 400px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+}
+
+#floting-part {
+  display: flex;
+  flex-direction: row;
+
+  width: 80%;
+
+  position: absolute;
+  justify-content: space-around;
+  align-items: centers;
+
+}
+
+#floting-part aside {
+
+  width: 40%;
+  height: 90%;
+}
+
+#cascade {
+
+  height: 100%;
+  width: 70%;
+  margin-left: 10px;
+}
+
+#log-in {
+
+  display: flex;
+  width: 90%;
+  height: 90%;
+  align-items: end;
+  justify-content: space-between;
+}
+
+
+#photo-phone {
+  width: 100%;
+  height: 100%;
+}
+
+#brand-photo {
+  width: 60%;
+  height: 70%;
+
+  object-fit: cover;
+}
+
+#log-in a {
+  position: relative;
+  text-decoration: none;
+  padding: 10px;
+
+  color: rgb(253, 253, 253);
+  background: linear-gradient(to bottom, #1c5380, #06365f);
+  display: flex;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  align-items: center;
+
+
+
+}
+
+#homepic {
+  width: 30%;
+  height: 30%;
+  margin-left: 2%;
+}
+
+#capture-part {
+  background-image: url("images/frame.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  width: 90%;
+  height: 80%;
+  background-color: rgb(255, 255, 255);
+  margin-left: 10px;
+  padding: 20px;
+
+
+}
+
+#capture-part>h2 {
+  color: #06365f;
+}
+
+
+#download {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 20px;
+
+}
+
+#final-links>a {
+  text-decoration: none;
+  color: #1c5380;
 }
