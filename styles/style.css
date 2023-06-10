@@ -8,3 +8,77 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+.background {
+  background: url("/images/bgtile.png");
+  position: relative;
+  height: 300px;
+}
+.bg-div {
+  padding: 5rem 10rem 0rem 10rem;
+}
+.row {
+  display: grid;
+  grid-template-columns: repeat(2, 0fr);
+  grid-gap: 3rem;
+  align-items: start;
+  justify-content: center;
+}
+.grid-1 {
+  display: flex;
+  justify-content: flex-end;
+}
+.grid-2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.grid-2-columns {
+  display: grid;
+  grid-template-columns: repeat(2, 0fr);
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.imgLogo {
+  width: 18rem;
+  padding-right: 4rem;
+}
+
+.grid-2 button {
+  height: 2.5rem;
+  width: 6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: linear-gradient(
+    180deg,
+    rgba(129, 182, 226, 1) 0%,
+    rgb(37, 94, 141) 100%
+  );
+  border-radius: 4px;
+  color: white;
+  font-weight: bold;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: solid 1px;
+  border-color: #1c5380;
+}
+
+.grid-2 > div + div {
+  display: flex;
+  flex-direction: column;
+}
+.div-frame {
+  background-image: url("/images/frame.png");
+  padding: 2rem;
+
+}
+.div-frame h2 {
+  margin: 0;
+}
+
+footer {
+  text-align: center;
+  margin-top: 4rem;
+  bottom: 0;
+}
