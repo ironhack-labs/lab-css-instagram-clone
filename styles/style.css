@@ -3,8 +3,146 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+:root {
+  --dark-blue: #06365f;
+  --light-blue: #1c5380;
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+.auxiliar {
+  width: 100vw;
+  height: 35vh;
+  /* background: linear-gradient(360deg, rgba(6, 54, 95, .9) 0%, rgba(28, 83, 128, 0.5) 100%); */
+  background-image: url('./../images/bgtile.png');
+  background-repeat: repeat;
+  background-size: cover;
+  position: absolute;
+  z-index: -100;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.flex-vertical {
+  flex-direction: column;
+}
+
+.main-container {
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ------------ MAIN BLOCK ---------- */
+
+main {
+  width: 100%;
+  /* background-color: grey; */
+  justify-content: center;
+
+}
+
+/* ------------ IMAGE SECTION ---------- */
+
+.image-section {
+  display: flex;
+  justify-content: center;
+  width: 30%;
+  /* background: #000; */
+}
+
+/* ------------ TEXT SECTION ---------- */
+
+.text-section {
+  width: 30%;
+}
+
+article.nav {
+  justify-content: space-between;
+  align-content: center;
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 60%;
+  display: block;
+}
+
+.login-button {
+  border: 1px solid #06365f;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: 500;
+  color: #fff;
+  height: fit-content;
+  margin: auto 0;
+  background: linear-gradient(180deg, rgba(111, 146, 176, 1) 0%, rgb(67, 109, 144) 100%);
+  text-align: center;
+  padding: 12px;
+}
+
+.login-button span {
+  vertical-align: super;
+  margin-left: 20px;
+  padding-right: 4≤px;
+}
+
+.text-block {
+  background-image: url('./../images/frame.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 8px;
+  padding: 30px;
+}
+
+h1 {
+  color: #06365f;
+  margin-top: 0;
+}
+
+.download-buttons {
+  margin-top: 40px;
+  display: flex;
+}
+
+.download-buttons img {
+  margin: 0 10px;
+}
+
+/* ------------ FOOTER ---------- */
+
+footer {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  color: var(--dark-blue);
+  width: 70%;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+footer ul li {
+  margin-right: 20px;
+
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: var(--light-blue);
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.copyright {
+  color: lightgrey;
 }
