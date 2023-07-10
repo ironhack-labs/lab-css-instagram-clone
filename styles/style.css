@@ -3,8 +3,76 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+/*img {
+  width: 100%;
+}*/
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  margin-left: 250px;
+}
+
+.container1 {
+  height: 350px;
+  color: blue;
+}
+
+.container2 {
+  height: 350px;
+  color: white;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+main {
+  margin-right: 345px;
+}
+
+.title {
+  color: #1c5380
+}
+
+button {
+  background-color: #5a9fd7;
+  height: 50px;
+  margin-top: 15px;
+}
+
+.login {
+  margin: 25px;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: underline;
+  text-align: justify;
+}
+
+.main-text {
+  background-image: url("/lab-css-instagram-clone/images/frame.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 20px;
+  margin-right: 25px;
+  /* margin-top: 60px;*/
+  padding: 25px;
+}
+
+h1 {
+  margin: 25, 0, 0, 25;
+}
+
+
+.info {
+  word-spacing: 10px;
+  color: #168ef1;
+  margin-top: 20px;
+  margin-right: 380px;
+}
+
+.copyrigth {
+  color: #5A5A5A;
 }
