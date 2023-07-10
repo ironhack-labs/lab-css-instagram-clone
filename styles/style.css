@@ -4,7 +4,111 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+img {
+  width: 100%;
+}
+
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url("/images/bgtile.png");
+  background-repeat: repeat-x;
+}
+
+
+.iphone {
+  display: flex;
+  margin-left: 200px;
+  width: 25%;
+}
+
+.title {
+  width: 50%;
+}
+
+h1 {
+  color: #06365f
+}
+
+.text {
+  padding-top: 1px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-image: url("/images/frame.png");
+  background-size: 99%;
+  background-repeat: no-repeat;
+}
+
+.loginPic {
+  width: 20px;
+  padding-right: 10px;
+
+}
+
+.login {
+  display: flex;
+  margin-top: 30px;
+  padding-top: 5px;
+  margin-bottom: 30px;
+  padding-bottom: 5px;
+  background-image: linear-gradient(rgba(79, 118, 209, 0.766), rgb(34, 54, 99));
+  border-radius: 2px;
+  border-width: 1px;
+  align-items: center;
+  color: white;
+}
+
+.rightText {
+  width: 430px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: 40px;
+}
+
+.flex-container {
+  display: flex;
+  margin-top: 120px;
+}
+
+.menu {
+  margin-top: -50px;
+}
+
+.insta {
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.insta_pic {
+  width: 60%;
+  height: 50%;
+}
+
+.downloads {
+  display: flex;
+  width: 40%;
+  margin-top: 20px;
+}
+
+.menu {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  color: #1c5380;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: bold;
+
+}
+
+.copyright {
+  color: lightgrey;
+  text-transform: uppercase;
+}
+
+
+.downloadAndroid {
+  margin-left: 10px;
 }
