@@ -7,4 +7,106 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url("./../images/bgtile.png");
+  background-repeat: repeat-x;
+}
+
+header{
+  height: 100px;
+}
+
+.main{
+  
+ 
+width: 70%;
+ margin:0 auto;
+  text-align: center;
+  
+}
+
+
+
+.flexContent{
+  display: flex;
+  /* justify-content: space-between; */
+  justify-content: space-around; 
+  
+}
+
+.logo_instagram{
+  margin: 15px 0px 20px 0;
+}
+
+.flexDirection{
+  flex-direction: column;
+  
+}
+
+.flexStart{
+  justify-content: flex-start;
+  margin-right: 20px;
+}
+
+.flexStart article{
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.boxText{
+  text-align: left;
+  padding: 10px 150px 50px 90px;
+  
+  background-image: url("./../images/frame.png");
+  background-repeat: no-repeat;
+  background-position: 30% 0%;
+  
+}
+
+.flexStart img{
+  cursor: pointer;
+}
+
+
+nav{
+  text-align: center;
+}
+
+
+nav ul li{ 
+  display: inline;
+  margin-left: 10px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  font-weight: bold;
+  color: rgba(33, 61, 121, 0.813);
+  text-transform: uppercase;
+  font-size: 10px;
+} 
+nav ul li.copy{
+  color: rgb(148, 149, 148);
+  font-weight: 300;
+}
+
+
+button{
+ border:0px;
+  
+    /* background: url("./../images/home.png") no-repeat top left; */
+    padding: 10px 20px 10px 10px;
+    text-align: right;
+    background: linear-gradient(180deg, #65bce8 0%, #306485 100%);
+    margin: 20px 90px 0 0;
+    cursor: pointer;
+    
+}
+
+
+button span{
+  margin-left: 5px;
+  color: #fff;
+  font-weight: 400px;
+  vertical-align: super;
+ 
 }
