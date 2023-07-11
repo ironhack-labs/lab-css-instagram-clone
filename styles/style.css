@@ -4,7 +4,99 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+
+
+}
+
+.flex-container .section2 .logo-login button {
+  background-color: #5851DB;
+  color: white;
+  width: 100px;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 2px;
+
+}
+
+.flex-container section {
+  padding-right: 10%;
+
+}
+
+.flex-container section .flex-container section .logo-login .logoimage {
+  float: left;
+}
+
+.flex-container section .logo-login .loginimage {
+  float: right;
+}
+
+.flex-container .section2 .logo-login {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.flex-container2 {
+  color: #5851DB;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 25%;
+  margin-right: 25%;
+  text-transform: uppercase;
+  font-size: x-small;
+}
+
+
+.flex-container2 .thegrayone {
+  color: gray;
+}
+
+h1 {
+  font-weight: 200;
+  letter-spacing: 2px;
+  font-family: sans-serif;
+  color: #5851DB
+}
+
+.flex-container .section2 .paragraph {
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 3px;
+
+}
+
+.blue-rectangle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2330px;
+  height: 250px;
+  background-color: #5851DB;
+  border: 2px;
+  z-index: -1;
 }
