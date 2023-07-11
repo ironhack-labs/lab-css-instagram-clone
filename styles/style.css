@@ -1,10 +1,85 @@
 /*
 Colors to use:
-dark blue: #06365f
-light blue: #1c5380
+dark blue: #06365f DONE
+light blue: #1c5380 DONE
 */
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+    font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+    background-image: url("/images/bgtile.png");
+    background-repeat: repeat-x;
 }
+
+.flex-container {
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    justify-content: flex-start;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 350px;
+    padding-right: 350px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.column-right {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 100px;
+}
+
+.column-right-top {
+    display: flex;
+    direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: stretch
+}
+
+.login-button a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+}
+
+.column-right-bottom {
+    background-image: url("/images/frame.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 50px;
+    padding-top: 35px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+header {
+    color: #06365f;
+}
+
+p {
+    font-weight: bolder;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #1c5380
+}
+
+footer {
+    color: lightgray;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    word-spacing: 5px;
+}
+
+/* DUDAS PARA /HELP
+
+1. Confirmar repositorio .git: por qué no me dejas subirlo?
+3. Qué es el "M" al lado de style.css o index.html? 
+4. Como hacer para actualizar el HTML en browser de forma automatica? 
