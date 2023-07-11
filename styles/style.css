@@ -4,7 +4,133 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+img {
+  width: 100%;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  padding: 0px 0px 0px 0px;
+  background-image: url(./../images/bgtile.png);
+  background-repeat: repeat-x;
+
+}
+
+header {
+  background-image: url(./../images/bgtile.png);
+}
+
+.blue_background {
+  margin-top: 0px;
+  padding: 0px 0ox 0px 0px;
+  background-color: rgb(74, 74, 199);
+  z-index: 2;
+}
+
+.total {
+  display: flex;
+  margin: 0px 50px 0px 50px;
+  z-index: 1;
+}
+
+.rightbox {
+  flex-direction: column;
+  padding: 30px;
+  margin-left: 40px;
+  margin-right: 100px;
+  width: 30%;
+}
+
+.middle {
+  background-image: url(./../images/frame.png);
+  background-repeat: no-repeat;
+  background-size: 0px 0px 0px 0px;
+  margin-bottom: 0px;
+}
+
+.text {
+  margin-bottom: 0px;
+  ;
+}
+
+.text2 {
+  margin: 0px 0px 0px 0px;
+}
+
+.frame {
+  z-index: 2;
+}
+
+.top {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: -100px;
+  margin-left: -800;
+}
+
+.buttom_home {
+  height: 60px;
+  ;
+  margin: 0px 20px -10px -85px;
+  display: flex;
+  margin-top: 50px;
+  background: linear-gradient(#408bc8, #06365f);
+
+}
+
+.log_in {
+  padding-right: 30px;
+
+}
+
+.home {
+  margin-top: 20px;
+  margin-right: 20px;
+
+  ;
+}
+
+
+.instagram {
+  height: 100px;
+  margin: 50px 100px 80px 0px;
+  width: 350px;
+}
+
+.bottom {
+  display: flex;
+  margin-left: -100px;
+}
+
+.iphone {
+  margin: 100px 100px 100px 100px;
+}
+
+.android {
+  margin: 100px 200px 100px -50px;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  margin-left: 300px;
+  text-transform: uppercase;
+
+}
+
+.footer {
+  margin: 0px 10px 10px 30px;
+  color: rgb(41, 41, 197);
+  text-decoration: none;
+}
+
+.copyright {
+  margin: 0px 10px 10px 30px;
+  color: gray;
+}
+
+.phones {
+  height: 600px;
+  margin: 50px 0px 30px 60px;
+  width: 30%;
 }
