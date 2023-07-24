@@ -24,7 +24,47 @@ body{
 }
 
 header{
+  background-color: rgba(255, 255, 255, 0.238);
   display: flex;
   padding: 90px 177px;
   gap: 76px;
+}
+
+.information{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.log-in{
+  display: flex;
+  align-items: center;
+  gap: 87px;
+}
+
+.btn-log-in{
+  display: flex;
+  gap: 5px;
+  padding: 7px 9px;
+  border: 1px solid #1c5380;;
+  border-radius: 3px;
+  background-image: linear-gradient(to top, #2369a2 0%, #3972a2 70%, rgb(72, 141, 181) 100%);
+}
+
+.btn-log-in span{
+  color: white;
+}
+
+.about{
+  display: flex;
+  flex-direction: column;
+  background-repeat: no-repeat;
+}
+
+h1{
+  color: #06365f;
+  font-size: 27px;
+  line-height: 32px;
+  margin-right: 35%;
+  font-weight: 600;
 }
