@@ -59,12 +59,21 @@ header{
   display: flex;
   flex-direction: column;
   background-repeat: no-repeat;
+  gap: 20px;
+  padding: 41px 56px 0 32px;;
 }
 
 h1{
   color: #06365f;
   font-size: 27px;
   line-height: 32px;
-  margin-right: 35%;
+  margin-right: 45%;
   font-weight: 600;
+}
+
+.about-text{
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  width: 450px;
 }
