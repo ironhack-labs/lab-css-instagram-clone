@@ -24,28 +24,29 @@ body{
 }
 
 header{
-  background-color: rgba(255, 255, 255, 0.238);
+  background-color: rgba(255, 255, 255, 0.179);
   display: flex;
-  padding: 90px 177px;
-  gap: 76px;
+  padding: 90px 312px;
+  gap: 30px;
 }
 
 .information{
   display: flex;
   flex-direction: column;
-  padding: 20px;
+  padding: 20px 0 0 20px;
 }
 
 .log-in{
   display: flex;
   align-items: center;
-  gap: 87px;
+  gap: 82px;
+  margin-bottom: 20px;
 }
 
 .btn-log-in{
   display: flex;
   gap: 5px;
-  padding: 7px 9px;
+  padding: 8px 12px;
   border: 1px solid #1c5380;;
   border-radius: 3px;
   background-image: linear-gradient(to top, #2369a2 0%, #3972a2 70%, rgb(72, 141, 181) 100%);
@@ -53,6 +54,8 @@ header{
 
 .btn-log-in span{
   color: white;
+  font-weight: bold;
+  font-size: 14px;
 }
 
 .about{
@@ -67,7 +70,7 @@ h1{
   color: #06365f;
   font-size: 27px;
   line-height: 32px;
-  margin-right: 45%;
+  margin-right: 37%;
   font-weight: 600;
 }
 
@@ -75,5 +78,45 @@ h1{
   display: flex;
   gap: 10px;
   flex-direction: column;
-  width: 450px;
+  width: 429px;
+}
+
+.about-text span{
+  font-weight: bold;
+}
+
+.btns-apps{
+  display: flex;
+  gap: 20px;
+}
+
+.btns-apps button{
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+footer{
+  position: absolute;
+  left: 10cm;
+  display: flex;
+  justify-content: center;
+  top: 17.5cm;
+}
+
+ul{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  list-style-type: none;
+}
+
+.copyright{
+  color: rgba(0, 0, 0, 0.319);
+}
+
+li a{
+  text-decoration: none;
+  font-weight: 600;
+  color: #1c5380;
 }
