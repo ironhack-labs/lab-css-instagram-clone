@@ -1,10 +1,69 @@
+body {
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute; left: 400px;
+  background-color: linear-gradient(
+    to bottom,
+    #1c5380 0%,
+    #1c5380 100%,
+    white 50%,
+    white 100%,
+  );
+  height: 100vh;
+}
+
+h1 {
+  position: absolute; left: 33%;
+  padding-bottom: 600px;
+  word-spacing: 150px;
+  height: auto;
+}
+
+.logInIcon {
+  background-color: #1c5380;
+}
+
+.logInText {
+  color: white;
+}
+
+.wrapper {
+  margin: 150px auto;
+  width: 80%;
+  background-image: url("images/frame.png");
+}
+
+h2 {
+  color: #06365f;
+}
+
+.phonePhoto {
+max-width: 300px;
+float: left;
+margin-right: 50px;
+height: 500px;
+}
+
+.instagramText {
+padding: 0;
+box-sizing: border-box;
+max-width:60%;
+}
+
+footer {
+  padding-top: 700px;
+  color: #06365f;
+  display: block;
+  text-align: center;
+  word-spacing: 20px;
+  position: absolute; left: 20%;
+}
 /*
 Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
-body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
-}
