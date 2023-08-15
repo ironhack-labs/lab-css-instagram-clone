@@ -8,3 +8,18 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+
+.someClass {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+ul {
+
+  display: flex;
+  justify-content: center;
+  
+  flex-wrap: wrap;
+}
