@@ -14,12 +14,42 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: row;
+  background-image: linear-gradient(to bottom, rgb(70, 116, 179) 35%, rgba(0,0,0,0) 20%); 
+  
+  
 }
 
 ul {
 
   display: flex;
   justify-content: center;
+  list-style-type: none;
+  color: rgb(70, 116, 179);
+
+}
+
+ul li {
+  margin-left: 10px;;
+}
+
+.textBlock {
+
+  width: 30%;
+  margin: 90px 30px;
   
-  flex-wrap: wrap;
+}
+
+.infoBox {
+
+  /* border: 2px solid #0e0d0d; */
+  background-color: white;
+  border-radius: 5px;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 10px 0 #000000;
+  padding: 20px;
+
+}
+
+#phones {
+  margin-top: 90px;;
 }
