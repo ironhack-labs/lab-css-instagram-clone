@@ -4,7 +4,108 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+
+#back-ground{
+  background: linear-gradient( #1c5380 33.33%, white 33.33%, white 33.33%);
+  background-repeat: no-repeat; 
+}
 body {
+  font-family:"future";
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  display: grid;
+  grid-gap: 1em;
+  grid-template-columns: 400px 500px auto  ;
+  grid-template-rows: auto auto auto  ;
 }
+h1{
+  color: #06365f ;
+  font-size: 1.5em;
+}
+
+div{
+  margin-bottom: 5%;
+  background-color: #1c5380 ;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+section{
+  margin-top: 15%;
+  margin-bottom:10%;
+}
+header{
+  margin-top: 10%;
+  margin-bottom: auto;
+  margin-left: 10%;
+}
+
+article{
+  font-family: Arial;
+  margin-top: -2%;
+  background: white;
+  padding: 5%;
+  border-radius: 2%;
+  box-shadow: -1px -65px 59px -35px rgba(0, 0, 0, 0.344);
+
+}
+.article p{
+  text-align: justify;
+}
+.article button{
+  background-color: white;
+  border: 0;
+  align-items: right;
+  
+}
+.login{
+  font-family: Arial;
+  font-weight: bold;
+  box-shadow: 0px 1px 10px 1px rgba(0, 0, 0, 0.306) ;
+  border: 0;
+  border-radius:5% ;
+  padding: 3%;
+  width: 110px;
+  height: 40px;
+  color: white;
+  background-image: linear-gradient(rgb(106, 160, 214) -100% , #1c5380 60% );
+  opacity: 0.8 ;
+  display: flex;
+  align-items: center;
+  justify-content:space-evenly ;
+  
+  
+}
+.login img{
+  width: 25px;
+  height: 25px;
+}
+
+
+
+footer{
+  grid-column: span 2;
+  font-family: Arial;  
+}
+ul{
+text-align: center;
+text-decoration: none;
+list-style: none;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+.footer-ul a{
+  color: #06365f ;
+  text-decoration:none;
+  list-style-type: none;
+  
+}
+.copy-rights{
+  color: gray;
+}
+
