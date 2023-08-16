@@ -1,0 +1,53 @@
+body {
+    font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+}
+
+
+button {
+color: white;
+background-color:#1c5380;
+padding: 5px 10px 5px 10px;
+}
+
+button > img,
+button > span {
+  vertical-align: middle;
+}
+
+.css-1 {
+    color: #06365f;
+}
+
+.css-2 ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.css-2 li {
+    list-style-type: none;
+    font-weight: bold;
+    font-size: 12px;  
+    margin: 15px;
+}
+
+.css-2 a {
+    text-decoration: none;
+    color: #1c5380;
+}
+
+.border {
+    border: 1px groove black;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: left;
+    margin: 20px;
+    line-height: 1.5;
+}
+
+.phoneSize {
+    width: 200px;
+}
+
