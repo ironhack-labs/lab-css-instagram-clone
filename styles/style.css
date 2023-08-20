@@ -44,7 +44,7 @@ body {
 
 .contentContainer {
   padding: 40px;
-  background-image: url("/images/frame.png");
+  background-image: url('../images/frame.png');
   background-size: contain;
   background-repeat: no-repeat;
 }
