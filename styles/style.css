@@ -7,4 +7,100 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url(/images/bgtile.png);
+  background-repeat: repeat-x;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#content {
+  width: 70vw;
+  margin-top: 90px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#content > div {
+  margin-top: 30px;
+}
+
+#content button {
+  background: linear-gradient(#93b2ce, #295b86);
+  border: 1px solid #1f4261;
+  border-radius: 3px;
+  padding: 8px 10px 7px 10px;
+  color: white;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  height: 50px;
+  margin-right: 6px;
+}
+
+#content button:hover {
+  background: linear-gradient(#6f9eb8, #295b86);
+  cursor: pointer;
+}
+
+#content button > img {
+  margin-right: 10px;
+}
+
+#content p {
+  max-width: 430px;
+}
+
+#text {
+  padding-top: 20px;
+  padding-right: 40px;
+  padding-left: 40px;
+  background-image: url(/images/frame.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#text h1 {
+  width: 280px;
+  color: #06365f;
+  font-size: 27px;
+}
+
+#logos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+#download-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 340px;
+  margin-top: 40px;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 750px;
+  font-size: 14px;
+  margin-top: 80px;
+  text-decoration: none;
+}
+
+footer > a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #41729b;
+}
+
+footer > p {
+  font-weight: 600;
+  color: #b1b1b1;
 }
