@@ -8,3 +8,102 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+#full-page {
+  display: flex;
+  width: 100vw;
+}
+
+.container-and-footer {
+  display: flex;
+  flex-direction: column;
+}
+
+#blue-background {
+  height: 350px;
+  width: 100vw;
+  position: absolute;
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;
+}
+
+.main-container {
+  display: flex;
+  position: relative;
+  margin: 120px 0px 0px 100px;
+}
+
+.right-container {
+  display: flex;
+  padding: 10px 50px;
+  width: 500px;
+  flex-direction: column;
+}
+
+#log-in-button {
+  width: 90px;
+  height: 40px;
+  border-radius: 4px;
+  display: flex;
+  border: none;
+  color: white;
+  font-weight: 600;
+  background: linear-gradient(#1c5380, #06365f);
+  align-items: center;    
+}
+
+#log-in-button p {
+  margin-left: 5px;
+}
+
+.header-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.features {
+  background-color: white;
+  padding: 0px 20px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+
+h1 {
+  color: #06365f
+}
+
+.download-buttons {
+  display: flex;
+}
+
+.download-buttons img {
+  margin-left: 20px;
+}
+
+.footer {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+}
+
+.footer p {
+  text-transform: uppercase;
+  text-decoration: none;
+  margin: 0px 10px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.footer a{
+  text-decoration: none;
+  color:#1c5380;
+}
+
+.copyright {
+  color: rgb(194, 181, 181);
+}
