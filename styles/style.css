@@ -5,6 +5,71 @@ light blue: #1c5380
 */
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font:200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+.cuadrado-azul {
+  background-color: #50779a;
+  height: 300px;
+}
+
+.contenido {
+  position: absolute;
+  display: flex;
+  top: 100px;
+  left: 30%;
+
+}
+.bloque1 {
+margin-right: 50px;
+}
+.bloque2 {
+  display: flex;
+  flex-direction: column;
+}
+.texto {
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  padding: 50px;
+  width: 400px;
+}
+
+.menuinferior {
+  position: absolute;
+  bottom: -40px;
+  color:#50779a;
+  font-size: 15px;
+  word-spacing: 1em;
+  margin-left: 600px;
+}
+.titulo {
+  color:#104472;
+}
+
+.instaboton {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.boton {
+  width: 100px;
+  height: 40px;
+  background-color: #5c89b1;
+  color: white;
+  display:flex ;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+
+.casita {
+  padding: 20px;
+}
+
+.instagris {
+  color: gainsboro;
+  word-spacing: 0px;
 }
