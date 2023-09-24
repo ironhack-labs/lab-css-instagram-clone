@@ -8,3 +8,114 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.Fondo-pantalla {
+  position: absolute;
+  width: 100vw;
+  height: 350px;
+  top: 0;
+  background: url(../images/bgtile.png);
+  background-repeat: repeat;
+
+}
+
+.content{
+ position: absolute;
+ display: flex;
+ margin-top: 30px;
+ align-items: center;
+ justify-content: space-around;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+
+
+}
+
+.Fondo-texto{
+  background: url(../images/frame.png) ;
+  background-repeat: no-repeat;
+  
+ 
+}
+
+.mobile{
+  
+  flex-grow: 50%;
+  box-shadow: 10px;
+  margin-right: 5%;
+  
+}
+.texto{
+  width: 500px;
+  
+ 
+ 
+
+}
+.Logo-insta {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+
+}
+
+#Logo-linea{
+  display: flex;
+  align-items: center;
+  width: 150px;
+  justify-content: space-around;
+  background-repeat: repeat;
+  padding: 10px;
+  border: 1px solid #39394b;
+  border-radius: 4px;
+  color: white;
+  background-color: #7676ab;
+
+}
+
+.margenes{
+  margin-left: 30px;
+  margin-right: 30px;
+  
+}
+
+#color-texto{
+  color:darkblue;
+}
+
+.enlaces{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  justify-content: center;
+  bottom: 30px;
+}
+a{
+  margin-right: 30px;
+  text-transform: uppercase;
+  color: darkcyan;
+}
+
+#Instagram{
+  color: grey;
+}
+
+.imagen-inst{
+  width: 300px;
+}
+
+.color-logo{
+  color: white
+}
+
+.house{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100px;
+  background-color: #7676ab;
+  border-radius: 10%;
+
+}
