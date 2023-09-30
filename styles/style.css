@@ -8,3 +8,103 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.first-container>.background-section {
+  background-image: url(/lab-css-instagram-clone/images/bgtile.png);
+  background-repeat: repeat;
+  position: absolute;
+  top: 0;
+  height: 500px;
+  width: 100%;
+}
+
+.first-container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+.content {
+  position: absolute;
+  display: flex;
+  top: 60%;
+  left: 10%;
+  justify-content: space-around;
+  margin: 0 200px;
+  width: 70%;
+
+}
+
+.text-content {
+  background-color: rgb(252, 252, 252);
+  border-radius: 8px 8px 8px 8px;
+  -moz-border-radius: 8px 8px 8px 8px;
+  -webkit-border-radius: 8px 8px 8px 8px;
+  border: 0px solid #000000;
+  padding: 10px 20px;
+  margin: 20px;
+  margin-right: 180px;
+}
+
+.text-content>h1 {
+  color: #0f3358;
+  font-size: 30px;
+  text-align: start;
+
+}
+
+.text-content,
+h2 {
+  font-size: 20px;
+  font-weight: lighter;
+  font-style: normal;
+
+
+}
+
+.phone-img {
+  margin-right: 30px;
+  size: 20%;
+}
+
+.second-container>.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 700px;
+}
+
+.button {
+  background-color: #2866a5;
+  color: white;
+  padding: 15px;
+  font-weight: bold;
+  font-size: 20px;
+  word-spacing: 5px;
+}
+
+footer>ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  width: 850px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  color: #2866a5;
+}
