@@ -8,3 +8,115 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.top-background {
+  height: 0;
+  z-index: -1;
+}
+
+.top-background img {
+  height: 230px;
+  width: 100%;
+  z-index: -1;
+}
+
+img {
+  width: 100%;
+}
+
+main {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.phones-image {
+  width: 45%;
+  margin: 5%;
+}
+
+.login-and-information {
+  margin: 5%;
+}
+
+.instagram-image {
+  width: 75%;
+}
+
+.home-button-container {
+  width: 45%;
+  display: flex;
+  justify-content: end;
+}
+
+.home-button-container button {
+  width: 55%;
+  color: white;
+  background-color: #1c5380;
+  border: none;
+  border-radius: 3px;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.login-flex-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.home-image {
+  width: 30%;
+}
+
+.instagram-info {
+  padding-top: 2%;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-image: url(../images/frame.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.instagram-title {
+  margin-top: 0;
+  width: 75%;
+  color: #06365f;
+  font-size: 35px;
+}
+
+.download-flex-container {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.download-flex-container img {
+  width: 35%;
+  margin-right: 3%;
+}
+
+.footer-flex-container {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  font-weight: 700;
+  color: #1c5380;
+}
+
+.footer-copy {
+  color: lightgray;
+}
