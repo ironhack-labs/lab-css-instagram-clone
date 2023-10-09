@@ -8,3 +8,109 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.bckgrd>img{
+  height: 40%;
+  width: 100%;
+  position: absolute;
+  z-index: -3;
+  
+}
+
+
+.section-container{
+  padding-top: 100px;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.phone-section{
+  margin-right: 100px;
+}
+
+
+.instagram-section {
+  margin-left: 40px;
+  width: 600px;
+}
+
+.instagram-article{
+  margin-top: 20px;
+  background-image: url(../images/frame.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 10px 60px 10px 60px;
+}
+
+
+
+.title{
+  color: #06365f;
+}
+
+.btn{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #ffffff;
+  background-color: #1c5380;
+  border-color: #06365f;
+  border-radius: 3px;
+  padding: 10px 5px 10px 5px;
+}
+
+.btn>img{
+  width: 30%;
+}
+
+.download-container{
+margin-top: 50px;
+}
+
+.title-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 10px;
+}
+
+.section-container{
+  display: flex;
+}
+
+.download-container{
+  margin-left: 20px;
+}
+
+.android-img{
+  margin-right: 20px;
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+}
+
+ul{
+  width: 600px;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+ul>li{
+  font-weight: bold;
+}
+
+a{
+  color: #1c5380;
+  text-decoration-line: none;
+}
+
+.year{
+  color: #c2c6ca;
+}
+
+
