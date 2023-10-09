@@ -6,5 +6,72 @@ light blue: #1c5380
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  background: url("../images/bgtile.png");
+  background-repeat: no-repeat;
+  background-size: 100% 38%;
+
+  
+}
+
+.main-page {
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 10px;
+  padding-left: 180px;
+  padding-right: 180px;
+
+}
+
+.right-side {
+  align-items: center;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  padding-left: 40px;
+  padding-right: 150px;
+  width: 560px;
+  
+}
+.main-text {
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+header {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  justify-content: space-between;
+  display: flex;
+}
+
+button {
+  display:flex;
+  margin-top: 20px;
+  padding-top: 10px;
+  margin-bottom: 15px;
+  background: linear-gradient(#1c5380 10%, #06365f 90%);
+  font: 200 14px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+h1 {
+  color: #1c5380;
+}
+
+footer {
+  display:flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  margin-left: 400px;
+  margin-right: 400px;
+  font: 200 09px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #1c5380;
+  
 }
