@@ -3,8 +3,89 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
+.heroClass>img{
+  height: 40%;
+  width: 100%; 
+}
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image:url(../images/bgtile.png);
+  background-repeat: repeat-x;
 }
+span{
+  font-weight: bold;
+}
+h1 {
+  
+  color: #06365f;
+  font-weight: 600px;
+  width: 50%;
+}
+.mainWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin:5%;
+}
+.headerImg {
+  display: flex;
+  justify-content: space-around;
+  margin: 10%;
+  
+}
+button{
+  background-image: url(../images/bgtile.png);
+  background-size: cover;
+  text-align: center;
+  color: white;
+  text-decoration: solid;
+  font-family: sans-serif;
+  font-size: larger;
+  justify-content: center;
+  border-radius: 10px;
+  border-width: 0cap;
+  align-self: center;
+}
+
+
+
+.rightDefin{
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  background-size:95%;
+  align-content: center;
+  margin: 5%;
+  padding-left: 5%;
+  padding-top: 5%;
+
+}
+.rightDefin>p{
+  margin-right: 15%;
+}
+.downloadButtons{
+  align-items: center;
+  background-color: white;
+  width:fit-content;
+}
+footer{
+  width: 100%;
+  text-align: center;
+}
+li{
+  display:inline-flex;
+  list-style:none;
+  text-transform: uppercase;
+  color:#1c5380 ;
+  
+}
+.copyR{
+  text-align: end;
+  color: gray;
+  
+}
+/*.flexcontainer {
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
+}*/
