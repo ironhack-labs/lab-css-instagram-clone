@@ -8,3 +8,108 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+.background{
+  background-image: url(../images/bgtile.png);
+  background-size: contain;
+  background-repeat: repeat-x;
+  position: absolute;
+  width: 100%;
+  height: 37vh;
+  top: 0;
+  z-index: -1;
+}
+
+
+
+a{
+  text-decoration: none;
+}
+
+article{
+ width: 65%;
+
+}
+
+.container{
+  display: flex;
+  width: 50%;
+  margin: auto;
+  margin-top: 10%;
+
+}
+.phone-image{
+  width: 45%;
+  text-align: center;
+}
+
+.title{
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  padding-left: 5px;
+  padding-right: 0px;
+  padding-bottom: 15px;
+  
+}
+
+.title-image{
+  width: 70%;
+}
+.home-button{
+  display: flex;
+  border-radius: 3px;
+  margin-top: 20px;
+  padding: 8px;
+  background: linear-gradient(#89baeb, #06365f);
+  height: min-content;
+  color: white;
+  font-weight: 600;
+}
+.home-button-image{
+  padding-right: 2px;
+}
+
+.description{
+  padding-top: 5px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 5px;
+  width: 80%;
+  background-image: url(../images/frame.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+
+}
+.description-title{
+  color: #06365f;
+  font-size: 135%;
+}
+.store{
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  padding: 10px 35px;
+}
+.store-button{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+footer{
+  padding: 45px;
+  display: flex;
+  justify-content: space-around;
+  color: #06365f;
+  width: 38%;
+  margin: auto;
+}
+footer > a{
+  text-transform: uppercase;
+  padding: 3px;
+  color: #1c5380;
+  font-weight: 700;
+  opacity: 0.7;
+}
+.footer-brand{
+  color: grey;
+}
