@@ -56,6 +56,8 @@ body {
 }
 a {
   text-decoration: none;
+}
+.login-button a{
   color: white;
 }
 .downloads{
@@ -96,11 +98,11 @@ footer{
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;;
   font-size: 13px;
   font-weight: 700;
-  color: #1c5380;
+  
   text-transform: uppercase;
 }
 .terms{
-  color:lightgray;
+  color:grey;
 }
 ul{
   display: flex;
@@ -109,4 +111,7 @@ ul{
   width:75%;
   margin: 0 auto;
   padding-bottom: 50px;
+}
+li a{
+  color: #1c5380;
 }
