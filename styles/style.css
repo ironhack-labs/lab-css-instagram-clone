@@ -28,7 +28,7 @@ body {
 
 .right-side{
   padding-left: 80px;
-  padding-right: 20px;
+  padding-right: 30px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -38,8 +38,7 @@ body {
 .head-icons{
   display: flex;
   justify-content: space-between;
-  margin-top:10px;
-  margin-left: 5px;
+  margin:10px 10px 0 5px;
   align-items: center;
 }
 
@@ -79,6 +78,7 @@ a {
 h2{
   color: #1c5380;
   padding-top: 20px;
+  padding-right:120px;
 }
 article{
   background-image: url("/images/frame.png");
