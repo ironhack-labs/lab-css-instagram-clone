@@ -4,7 +4,28 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
-body {
+div {
+
+
+}
+
+body { background-repeat: repeat-x;
+  background-image: url("../images/bgtile.png");
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+.flexbox {
+  display: flex;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 80px;
+}
+.column-right{
+  margin-left: 64px;
+}
+.blockRight{
+  background-image: url("../images/frame.png");
+  padding: 50px;
+  background-repeat: no-repeat;
 }
