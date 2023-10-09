@@ -7,4 +7,71 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  box-sizing: border-box;
+  background-image: url(../images/bgtile.png);  /* lo de añadir el fodo asi lo he buscado y me he ayudado de chat gpt, porque todo el rato me salia como el fondo entero de color azul, pero lo he entendido al final :) */
+  background-size: auto;
+  background-size: 100% 35%;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+h1{
+ font-size: 23px;
+ line-height: 15px; 
+ color: #06365f;
+}
+.cuerpo{
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin-top: 100px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.photoMovil{
+height: auto;
+}
+.logoButtom{
+  display: flex;
+  justify-content:space-between;
+}
+.logotype{
+  width: 65%;
+  height: auto;
+}
+.button{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: white;
+  border: none;
+  background: linear-gradient(#507797 2%,#1c5380 97%);
+  box-shadow: 5px 5px 1px 1px #02162773;
+  border-radius: 4px;
+  align-items: center;
+}
+
+.texto{
+  padding: 50px;
+  width: 55%;
+ 
+}
+.smallBox{
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 40px;
+}
+.registered{
+  color:rgba(128, 128, 128, 0.524);
+}
+
+footer{
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  margin: auto;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #06365f;
+  font-size: 12px;
+  padding: 20px;
 }
