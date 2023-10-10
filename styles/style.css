@@ -5,6 +5,113 @@ light blue: #1c5380
 */
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;;
+  font-size: 16px;
+  font-weight: 200;
+}
+.background{
+  height: 350px;
+  width:100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -5;
+}
+
+
+.central-content{
+  width: 950px;
+  margin: 0 auto;
+  display: flex;
+  margin-top: 150px;
+}
+
+.right-side{
+  padding-left: 80px;
+  padding-right: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+.head-icons{
+  display: flex;
+  justify-content: space-between;
+  margin:10px 10px 0 5px;
+  align-items: center;
+}
+
+.login-button{
+  background-image: linear-gradient(#89baeb, #06365f);
+    background-color: #1c5380;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    border-radius: 5px;
+}
+.login-button img{
+  padding-right:10px;
+  
+}
+a {
+  text-decoration: none;
+}
+.login-button a{
+  color: white;
+}
+.downloads{
+  margin-left: 10px;
+}
+
+.downloads img{
+  height: 50 px;
+  margin-left: 15px;
+}
+
+.faded-background{
+  height: 200px;
+  width: 500px;
+  position: absolute; 
+  left: auto;
+  z-index: -1;
+  border-radius: 10px;
+}
+h2{
+  color: #1c5380;
+  padding-top: 20px;
+  padding-right:120px;
+}
+article{
+  background-image: url("/images/frame.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  padding: 25px 50px; 
+  border-radius: 5px;
+
+}
+footer{
+  width:900px;
+  margin: 0 auto;
+  margin-top: 100px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;;
+  font-size: 13px;
+  font-weight: 700;
+  
+  text-transform: uppercase;
+}
+.terms{
+  color:grey;
+}
+ul{
+  display: flex;
+  list-style: none;
+  justify-content:space-evenly;
+  width:75%;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+li a{
+  color: #1c5380;
 }
