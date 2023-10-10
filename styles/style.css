@@ -7,4 +7,58 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: linear-gradient(to bottom, #3498db 50%, white 50%);
+}
+
+h1
+ {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 300;
+    font-family: sans-serif;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.bold-text {
+  font-weight: 600;
+}
+
+.color-text {
+  color: blue;
+}
+
+.download {
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-bottom: 15px;
+  margin-left: 5px;
+}
+
+.rightsection {
+  width: 20%;
+  margin-top: 200px;
+  margin-right: 500px;
+}
+
+.phoneimg {
+  padding-top: 150px;
+  padding-left: 600;
+}
+
+.paragraph {
+  margin-right: 50%;
+  margin-left: 5%;
+}
+
+footer { 
+  text-align: center;
+}
+
+.textalign {
+  text-align: center;
 }
