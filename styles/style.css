@@ -2,9 +2,74 @@
 Colors to use:
 dark blue: #06365f
 light blue: #1c5380
-*/
+*/ 
+
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url(../images/bgtile.png);
+  background-size: 100% 40%;
+  background-repeat: no-repeat;
+
+  
 }
+image {
+  width: 100%;
+}
+.main-container{
+  display:flex;
+  justify-content: space-around;
+  width: 60%;
+  margin: auto;
+  margin-top: 100px;
+  
+  
+
+}
+footer{
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  font-size: 65%;
+  width: 50%;
+  color: #1c5380;
+
+  
+}
+
+.phone{
+  margin-right: 50px;
+}
+.buttons-and-text{
+padding:10px;
+
+
+}
+section{
+  padding: 15px;
+}
+ button{
+  background: linear-gradient(#1c5380 6%, #06365f 94%) ;
+  margin: 20px;
+  color: white;
+ }
+ .headers{
+  justify-content: space-between;
+  display: flex;
+ 
+ }
+ .title{
+  color: #06365f;
+  font-size: 200%;
+ }
+ .text{
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  
+ }
+ .brand{
+  color: gray;
+ }
+ 
