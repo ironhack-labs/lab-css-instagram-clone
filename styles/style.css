@@ -2,9 +2,70 @@
 Colors to use:
 dark blue: #06365f
 light blue: #1c5380
+font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
 */
 
+div {
+display: flex;
+padding-left: 20px;
+padding-right: 20px;
+
+}
+
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  background-image: url('fondo.jpg'), url('fondoblanco.jpg');
+  background-repeat:no-repeat, no-repeat;
+  background-size: auto 20px, auto 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  
+
+}
+
+
+
+.containerderecho
+{
+  display: flex;
+  
+
+}
+
+.containerderecho img {
+  margin-right: 80px;
+
+
+}
+
+h3 {
+  color: #06365f
+
+
+}
+
+.containerultimo
+{ 
+  
+  padding-right: 20px;
+  padding-top: 120px;
+  padding-bottom: 20px;
+  
+  display: flex
+  
+}
+.containerultimo img {
+  margin-right: 20px;
+  
+}
+
+
+footer
+{
+text-transform: uppercase;
+text-align: center;
+
+
 }
