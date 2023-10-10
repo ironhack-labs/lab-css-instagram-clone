@@ -36,7 +36,7 @@ body {
 .img{
  background-image: url(/lab-css-instagram-clone/images/frame.png);
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
 
 }
 
