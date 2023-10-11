@@ -12,12 +12,19 @@ body {
 .cajatotal {
 
   display:flex;
+ 
  }
 
 body {
-  background-color: red;
-centraltext {
+  ;
+centraltext 
   padding:5% auto;
 
 
 }
+.centraltext{ flex-wrap: wrap
+
+}
+
+
+
