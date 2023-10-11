@@ -7,4 +7,139 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  padding: 0;
+  background: linear-gradient(
+    to top,
+    #F5F6F8 0%,
+    #F5F6F8 60%,
+    #446480 60%,
+    #547C9F 100%
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: center center;
+  margin: 0;
+  height: 720px;
 }
+
+.phones-image{
+  height: 90%;
+  margin-top: 55px;
+}
+
+body section{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  gap: 50px;
+}
+
+.login-info{
+  width: 70%;
+}
+
+.login-bar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.login-bar img{
+  width: 50%;
+}
+
+.login{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px;
+  background-color: #547C9F;
+  background: linear-gradient(to bottom, #a4c2dd69 20%, #547C9F 80% );
+  border-radius: 5px;
+  height: 50px;
+  width: 110px;
+  border: 1px solid #3752696c;
+  box-shadow: 0px 0px 3px #0c11168f;
+  color: #DEE6ED;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+}
+.login img{
+  width: 30%;
+}
+
+.info{
+  background-image: url("../images/frame.png");
+  background-size: 103% 107%;
+  background-position: center center;
+  border-radius: 5px;
+  margin: 0;
+  padding-top: 5px;
+  padding-left: 40px;
+  padding-right: 40px;
+  height: 300px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.info h1{
+  color: #06365f;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  width: 60%;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.info p{
+  width: 100%;
+  text-align: justify;
+  margin-bottom: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+}
+
+.social{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  margin-top: 25px;
+  width: 100%;
+}
+
+.social img{
+  margin-right: 20px;
+  width: 170px;
+  height: 58px;
+  margin-top: 15px;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  gap: 20px;
+  color: #547C9F;
+  margin-top: 50px;
+}
+
+.rights{
+  color: #bbbbbb;
+}
+
+
+
