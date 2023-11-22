@@ -71,11 +71,13 @@ a.link {
 a.button-main {
   box-sizing: border-box;
   color: white;
-  background: linear-gradient(
+  /* I decided to look for my own colors for the gradient */
+  /* background: linear-gradient(
     #577ea0,
     #497195,
     #386186
-  ); /* I decided to look for my own colors */
+  );  */
+  background: linear-gradient(#82a5c6,#5888b3,#406b91); 
   height: 36px;
   display: flex;
   align-items: center;
