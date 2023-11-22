@@ -1,3 +1,33 @@
+/* reset css */
+
+a {
+  all: unset;
+  cursor: pointer;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
 /*
 Colors to use:
 dark blue: #06365f
@@ -5,6 +35,208 @@ light blue: #1c5380
 */
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 400 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Nunito", sans-serif; /* Changed font to look more similar to the screenshot */
   margin: 0;
+}
+
+/* Global configuration */
+h1 {
+  color: #1c5380;
+  font-size: 2rem;
+  line-height: 1.15;
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 12px;
+  font-weight: 600;
+  font-size: 0.875rem;
+}
+
+a, span {
+  font-size: 0.875rem;
+}
+
+strong {
+  font-weight: 800;
+}
+
+/* General components */
+a.link {
+  color: #1c5380;
+  font-weight: 800;
+}
+
+a.button-main {
+  box-sizing: border-box;
+  color: white;
+  /* I decided to look for my own colors for the gradient */
+  /* background: linear-gradient(
+    #577ea0,
+    #497195,
+    #386186
+  );  */
+  background: linear-gradient(#82a5c6,#5888b3,#406b91); 
+  height: 36px;
+  display: flex;
+  align-items: center;
+  padding: 4px 8px;
+  font-size: 0.85rem;
+  font-weight: bold;
+  box-shadow: #06365f7a 0px 0px 2px 1px;
+  border-radius: 2px;
+}
+
+a.button-main.icon-button {
+  padding-right: 12px;
+}
+
+a.button-main.icon-button > img {
+  margin-right: 8px;
+  height: 20px;
+}
+
+#main > .white-box {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background-color: white;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 28px 36px;
+  border-radius: 5px;
+}
+
+
+/* Index page */
+
+#container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  min-height: 100vh; /* for browsers that don't accept svh */
+  min-height: 100svh; /* better for mobile */
+  justify-content: center;
+  align-items: center;
+}
+
+#container > .blue-background-box {
+  position: absolute;
+  top: 0;
+  height: 40vh;
+  height: 40svh;
+  width: 100%;
+  background: linear-gradient(
+    #577ea0,
+    #497195,
+    #386186
+  ); /* I decided to look for my own colors */
+  z-index: -1;
+}
+
+#container > .inner-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  width: 100%;
+  max-width: 1024px;
+  padding: 28px;
+}
+
+#landing {
+  display: flex;
+  flex: 1;
+  width: 100%;
+}
+
+#landing > .wrapper {
+  display: flex;
+  width: 100%;
+}
+
+#app-screenshot {
+  display: none;
+  height: 100%;
+  margin-right: 48px;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+}
+
+#main > header {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 8px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 36px;
+}
+
+#main > header > .logo {
+  height: 52px;
+}
+
+#main .download {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 12px;
+  margin-top: auto;
+}
+
+#main .download > a {
+  line-height: 0;
+}
+
+#footer {
+  margin-top: 48px;
+}
+
+#footer > ul.footer-list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+/* #footer > .footer-list > li {
+  display: block;
+} */
+
+#footer > ul.footer-list > li > a {
+  text-transform: uppercase;
+}
+
+#footer > ul.footer-list > li > a,
+#footer > ul.footer-list > span {
+  display: block;
+  padding: 8px 4px;
+}
+
+#footer > ul.footer-list > .copyright {
+  color:#b7b7b7;
+  font-weight: 700;
+  padding: 8px 12px;
+}
+
+@media (min-width: 768px) {
+  #container > .inner-container {
+    padding: 60px 80px;
+  }
+}
+
+@media (min-width: 1024px) {
+  #app-screenshot {
+    display: block;
+  }
+
+  #container > .inner-container {
+    padding: 92px 100px 44px;
+  }
+
+  #main > header > .logo {
+    height: 72px;
+  }
 }
