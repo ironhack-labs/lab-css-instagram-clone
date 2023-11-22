@@ -28,3 +28,18 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+#container {
+  position: relative;
+  min-height: 100vh; /* for browsers that don't accept svh */
+  min-height: 100svh; /* better for mobile */
+}
+
+.blue-background-box {
+  position: absolute;
+  height: 40vh;
+  height: 40svh;
+  width: 100%;
+  background: linear-gradient(#577ea0,#497195,#386186); /* I decided to look for my own colors */
+  z-index: -1;
+}
