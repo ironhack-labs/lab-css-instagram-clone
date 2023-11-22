@@ -1,6 +1,12 @@
 /* reset css */
 
-*, *::before, *::after {
+a {
+  all: unset;
+}
+
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
@@ -8,15 +14,17 @@
   margin: 0;
 }
 
-img, picture, video, canvas, svg {
-  display: block;
-  max-width: 100%;
-}
-
-input, button, textarea, select {
+input,
+button,
+textarea,
+select {
   font: inherit;
 }
 
+ul, li {
+  margin: 0;
+  padding: 0;
+}
 
 /*
 Colors to use:
@@ -28,6 +36,37 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+/* General components */
+
+a.button-main {
+  box-sizing: border-box;
+  color: white;
+  background: linear-gradient(
+    #577ea0,
+    #497195,
+    #386186
+  ); /* I decided to look for my own colors */
+  height: 36px;
+  display: flex;
+  align-items: center;
+  padding: 4px 8px;
+  font-size: 0.85rem;
+  font-weight: bold;
+  box-shadow: #06365f7a 0px 0px 2px 1px;
+  border-radius: 2px;
+}
+
+a.button-main.icon-button {
+  padding-right: 12px;
+}
+
+a.button-main.icon-button > img {
+  margin-right: 8px;
+  height: 20px;
+}
+
+/* Index page */
 
 #container {
   display: flex;
@@ -45,7 +84,11 @@ body {
   height: 40vh;
   height: 40svh;
   width: 100%;
-  background: linear-gradient(#577ea0,#497195,#386186); /* I decided to look for my own colors */
+  background: linear-gradient(
+    #577ea0,
+    #497195,
+    #386186
+  ); /* I decided to look for my own colors */
   z-index: -1;
 }
 
@@ -53,10 +96,94 @@ body {
   display: flex;
   flex-direction: column;
   flex: 1;
-  max-width: 1280px;
-  padding: 80px 0;
+  width: 100%;
+  max-width: 1024px;
+  padding: 28px;
 }
 
 #landing {
+  display: flex;
   flex: 1;
+  width: 100%;
+}
+
+.wrapper {
+  display: flex;
+  width: 100%;
+}
+
+#app-screenshot {
+  display: none;
+  height: 100%;
+  margin-right: 48px;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+}
+
+#main > header {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 8px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 36px;
+}
+
+#main > header > .logo {
+  height: 52px;
+}
+
+.white-box {
+  flex: 1;
+  background-color: white;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 28px 36px;
+  border-radius: 5px;
+}
+
+#footer {
+  margin-top: 48px;
+}
+
+#footer > ul.footer-list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+/* #footer > .footer-list > li {
+  display: block;
+} */
+
+#footer > ul.footer-list > li > a,
+#footer > ul.footer-list > span {
+  display: block;
+  padding: 8px;
+}
+
+@media (min-width: 768px) {
+  
+  .inner-container {
+    padding: 60px 80px;
+  }
+}
+
+@media (min-width: 1024px) {
+  #app-screenshot {
+    display: block;
+  }
+
+
+  .inner-container {
+    padding: 92px 100px 44px;
+  }
+
+  #main > header > .logo {
+    height: 72px;
+  }
 }
