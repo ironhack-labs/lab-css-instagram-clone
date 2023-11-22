@@ -58,6 +58,10 @@ a, span {
   font-size: 0.875rem;
 }
 
+strong {
+  font-weight: 800;
+}
+
 /* General components */
 a.link {
   color: #1c5380;
