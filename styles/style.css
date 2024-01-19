@@ -7,4 +7,102 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image:  url(../images/bgtile.png);
+  background-size: 100% 40%;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.main {
+  margin: 10vh 20vw;
+  display: flex;
+}
+
+.logo-button {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#hero {
+  display: flex;
+  align-items: center;
+}
+
+#hero img{
+  display: flex;
+  height: 600px;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1c5380;
+  color: white;
+  border-radius: 5px;
+  width: 100px;
+  height: 40px;
+  margin: 10px;
+}
+
+button img, button span {
+  margin: 5px;
+}
+
+#box {
+  margin: 7vw;
+}
+
+#content {
+  display: flex;
+  width: 80%;
+  flex-direction: column;
+  background-image: url(../images/frame.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  color: #06365f;
+  font-size: 1.8em;
+  width: 60%;
+  margin: 40px 40px;
+}
+
+#content p {
+  width: 80%;
+  margin: 10px 40px;
+}
+
+#app-links {
+
+  display:flex;
+  margin: 10px;
+
+}
+
+#app-links img {
+  margin: 10px;
+}
+
+footer {
+  
+
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-items:center;
+  align-items: center;
+}
+
+#links {
+  display: flex;
+  width: 70%;
+  justify-content: space-around;
+}
+
+footer a {
+  display: flex;
 }
