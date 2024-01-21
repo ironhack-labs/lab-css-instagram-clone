@@ -7,4 +7,63 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: url(../images/frame.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: #1c5380; */
+  background-image: linear-gradient( #1c5380, white);
+  padding: 200px;
+  rotate: 180%;
+}
+
+.content{
+  display: flex;
+}
+
+.links {
+  color: #1c5380;
+ 
+}
+
+.links ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  padding: 20px 100px;
+}
+
+.links li {
+
+  list-style: none;
+}
+.log-in{
+  background-color: #1c5380;
+  font-size: 30px;
+  width: 25%;
+  padding: 10px 20px 10px 50px;
+  color: white;
+  margin-bottom: 20px;
+  align-content: center;
+}
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.insta{
+  background-color: white;
+  padding: 50px;
+  margin: 20px 40px;
+}
+.insta h3{
+ color: #1c5380;
+ font-size: 30px;
+}
+.download{
+  display: flex;
+  padding-left: 50px;
+}
+.download img{
+  width: 30%;
 }
