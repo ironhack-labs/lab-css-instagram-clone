@@ -7,6 +7,7 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  width: 50%;
 }
 .todo {
   background-image: url(../images/bgtile.png);
@@ -39,6 +40,7 @@ body {
   height: 45px;
   padding:0px 15px;
   background: linear-gradient(#4B7296, #557ca1);
+  margin-left: 113px;
 
 }
 .boton {
@@ -48,7 +50,7 @@ body {
   background: linear-gradient(#4B7296, #557ca1)
 }
 .telefono {
-  margin-right: 40px;
+  margin-right: 60px;
 }
 .casaboton img {
   width: 35px;
@@ -56,12 +58,51 @@ body {
   display: flex;
   align-items: center;
   background-color:#4B7296;
-  background: linear-gradient(#4B7296, #557ca1)
+  background: linear-gradient(#4B7296, #557ca1);
+  
 }
 button {
   font-size: 15px;
   font-weight: bold;
 }
-.imagentexto {
+h1 {
+  color:#1A4165;
+  font-weight: bold;
+}
+.parrafoimagen {
+  background-color: white;
+  border-radius: 10px;
+  margin-right: 100px;
+  padding: 8px 40px;
+  margin-top: 20px;
+  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
+  width: 70%;
+  color: rgb(71, 71, 71);
+
   
+  
+}
+span {
+  color: black;
+  font-weight: bold;
+}
+.google {
+  margin-left: 15px;
+}
+.final nav {
+  color: #06365f;
+  font-weight: bold;
+}
+.final {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 250px;
+  color:#1163ac;
+  font-weight: bold;
+  margin-top: 50px;
+  
+  
+}
+footer {
+  color: gray;
 }
