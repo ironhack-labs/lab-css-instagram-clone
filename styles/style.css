@@ -19,16 +19,19 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  
+  
 }
 .imagenes2 {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  margin-bottom: 25px;
+  margin-top: 10%;
 }
   .imagentexto {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-
   }
   
 
@@ -40,6 +43,7 @@ body {
   border: 1px solid #06365f;
   height: 35px;
   padding: 0px 5px;
+  margin-left: 90px;
   
   }
 .casaenlace a {
@@ -51,6 +55,8 @@ body {
 
 .telefono {
   margin-right: 60px;
+  margin-left: 20%;
+  margin-top: 9%;
 }
 
 h1 {
@@ -62,8 +68,9 @@ h1 {
   background-size: 100vw;
   background-position: center;
   background-repeat: no-repeat;
-  
+  width: 70%;
 }
+
 span {
   color: black;
   font-weight: bold;
@@ -77,14 +84,21 @@ span {
 }
 .final {
   display: flex;
-  justify-content: space-around;
-  margin: 10px 250px;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 15px;
   color:#1163ac;
   font-weight: bold;
   margin-top: 50px;
+  width: 45%;
+  margin-left: 30%;
+  margin-bottom: 5%;
   
   
 }
 footer {
   color: gray;
+}
+a {
+  text-decoration: none;
 }
