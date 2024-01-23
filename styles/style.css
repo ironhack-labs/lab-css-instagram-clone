@@ -6,80 +6,62 @@ light blue: #1c5380
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
-  width: 50%;
+  margin: 0;  
 }
 .todo {
-  background-image: url(../images/bgtile.png);
+  background-image: linear-gradient(to top, #3C6589, #567D9F), url(../images/bgtile.png);
   background-size: 100% 40%;
   background-position: top;
   background-repeat: no-repeat;
-  
-  
-}
+  }
 .parteSuperior {
   display: flex;
   flex-direction: row;
-  padding-top: 100px;
-  padding-left: 100px;
-  
+  justify-content: center;
+  align-items: center;
 }
 .imagenes2 {
   display: flex;
   flex-direction: row;
-  align-items: center;
 }
-.casaboton {
-  border: 2px solid #2e5e8a;
-  display: flex;
-  flex-direction:row;
-  align-items: center;
-  background-color: #4B7296;
-  border-radius: 5px;
-  width: auto;
-  height: 45px;
-  padding:0px 15px;
-  background: linear-gradient(#4B7296, #557ca1);
-  margin-left: 113px;
+  .imagentexto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 
-}
-.boton {
+  }
+  
+
+.casaenlace {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(to top, #4A759A,#6F92B0);
+  border-radius: 5px;
+  border: 1px solid #06365f;
+  height: 35px;
+  padding: 0px 5px;
+  
+  }
+.casaenlace a {
   color: white;
-  border: none;
-  background-color:#4B7296;
-  background: linear-gradient(#4B7296, #557ca1)
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 10px;
 }
+
 .telefono {
   margin-right: 60px;
 }
-.casaboton img {
-  width: 35px;
-  height: 30px;
-  display: flex;
-  align-items: center;
-  background-color:#4B7296;
-  background: linear-gradient(#4B7296, #557ca1);
-  
-}
-button {
-  font-size: 15px;
-  font-weight: bold;
-}
+
 h1 {
   color:#1A4165;
   font-weight: bold;
 }
 .parrafoimagen {
-  background-color: white;
-  border-radius: 10px;
-  margin-right: 100px;
-  padding: 8px 40px;
-  margin-top: 20px;
-  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
-  width: 70%;
-  color: rgb(71, 71, 71);
-
-  
+  background-image: url(../images/frame.png);
+  background-size: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
   
 }
 span {
