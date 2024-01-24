@@ -14,91 +14,22 @@ body {
   background-position: top;
   background-repeat: no-repeat;
   }
-.parteSuperior {
+.teleimagenparrafo {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  
-  
 }
-.imagenes2 {
+.imagenes {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-bottom: 25px;
-  margin-top: 10%;
+  justify-content: space-between;
 }
-  .imagentexto {
-    display: flex;
-    flex-direction: column;
-  }
-  
-
 .casaenlace {
-  display: flex;
-  align-items: center;
-  background: linear-gradient(to top, #4A759A,#6F92B0);
-  border-radius: 5px;
-  border: 1px solid #06365f;
-  height: 35px;
-  padding: 0px 5px;
-  margin-left: 90px;
-  
-  }
+border: 1px solid  #06365f;
+border-radius: 5px;
+background: linear-gradient(to top, #4C779C, #6D91AF);
+}
 .casaenlace a {
   color: white;
-  text-decoration: none;
-  font-weight: bold;
-  margin-left: 10px;
-}
-
-.telefono {
-  margin-right: 60px;
-  margin-left: 20%;
-  margin-top: 9%;
-}
-
-h1 {
-  color:#1A4165;
-  font-weight: bold;
-}
-.parrafoimagen {
-  background-image: url(../images/frame.png);
-  background-size: 100vw;
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 70%;
-}
-
-span {
-  color: black;
-  font-weight: bold;
-}
-.google {
-  margin-left: 15px;
-}
-.final nav {
-  color: #06365f;
-  font-weight: bold;
-}
-.final {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  font-size: 15px;
-  color:#1163ac;
-  font-weight: bold;
-  margin-top: 50px;
-  width: 45%;
-  margin-left: 30%;
-  margin-bottom: 5%;
-  
-  
-}
-footer {
-  color: gray;
-}
-a {
   text-decoration: none;
 }
