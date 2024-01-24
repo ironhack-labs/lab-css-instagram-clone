@@ -18,7 +18,10 @@ body {
 .white-box {
   background-image: url("../images/frame.png");
   background-repeat: no-repeat;
-  width: 100%;
+  width: 500px;
+  padding: 30px;
+  margin: 30px;
+  box-sizing: border-box;
 
 }
 
@@ -29,55 +32,62 @@ body {
 }
 
 .phone{
-  margin: 200px 50px 0px 100px;
+  margin: 150px 15px 0px 100px;
 }
 
 .button{
-  padding: 5px;
+  padding: 10px 5px 20px;
   text-decoration: none;
   border: 1px solid #06365f;
   background-color: #06365f;
   text-align: center;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  margin-top: 20px;
+  margin-right: 100px;
 
 }
 
 
 
 .sec1{
-  margin: 200px 200px 0px 200px;
-  padding-bottom: 0px;
+  margin: 50px 150px 0px 300px;
+  
+  
 
 }
 
 .insta-box{
   display: flex;
   justify-content: space-between;
-  margin: auto;
+  margin: -20px;
 
 }
 
-.button{
-  padding: 5px;
-  text-decoration: none;
-  border: 1px solid #06365f;
-  background-color: #06365f;
-  text-align: center;
 
-}
 
 h1 {
   font-size: 40px;
   color: #06365f;
+  font-weight: 30px;
 }
 
 p {
   font-size: 15px;
   font-weight: bolder;
+  display: flex;
+  justify-content:space-between;
+  text-align: flex;
+  
+  
 
 }
 .download{
-  padding: 0px;
+  padding-left: 10px;
   display: flex;
+  justify-content: space-evenly;
+  margin-right: 300px ;
+  
 }
 
 .footer ul {
