@@ -17,19 +17,66 @@ body {
 .teleimagenparrafo {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
 }
 .imagenes {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 20px;
 }
 .casaenlace {
-border: 1px solid  #06365f;
+border: 2px solid #376187;
 border-radius: 5px;
 background: linear-gradient(to top, #4C779C, #6D91AF);
+padding: 10px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+width: 16%;
+
 }
 .casaenlace a {
   color: white;
   text-decoration: none;
+  font-weight: bold;
+}
+.parrafoimagen {
+  background-color:white;
+  padding: 10px 50px;
+  border-radius: 5px;
+}
+h1 {
+  color: #06365f;
+}
+span {
+  font-weight: bold;
+}
+.imagenesabajo {
+  display: flex;
+}
+.google {
+  margin-left: 10px;
+}
+.enlacesfooter {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  
+}
+.enlacesfooter a {
+  text-decoration: none;
+  color: #6288A7;
+  font-weight: bold;
+  padding: 0px 10px;
+  
+}
+.telefono {
+  margin-right: 60px;
+}
+.imagenparrafo {
+  margin-top: 50px;
 }
