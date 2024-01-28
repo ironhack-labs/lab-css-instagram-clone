@@ -58,7 +58,7 @@ body {
 }
 
 .button-login {
-  background-color: #1c5380;
+  background: linear-gradient(#6F92B0, #457298);
   border: 1px solid #1c5380;
   border-radius: 2px;
   display: inline-block;
@@ -112,4 +112,12 @@ body {
 
 footer {
   text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
 }
