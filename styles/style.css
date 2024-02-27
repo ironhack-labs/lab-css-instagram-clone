@@ -7,4 +7,138 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  height: 95vh;
+  width: 95vh;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+#container-main{
+  width: 100vw;
+  height: 99vh;
+  position: relative;
+}
+
+#background1{
+  width: 100vw;
+  height: 40vh;
+  background: linear-gradient(
+    180deg,
+    rgba(91, 126, 156, 1),
+    rgba(60, 98, 133, 1),
+    rgba(47, 90, 128, 1),
+    rgba(45, 80, 118, 1),
+    rgba(43, 70, 100, 1),
+    rgba(40, 60, 90, 1)
+    );
+  position: absolute;
+  top: 0;
+}
+
+#container-page {
+  display: flex;
+  flex-direction: column;
+  height: 99%;
+}
+
+#container-body {
+  position: absolute;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 80vw;
+  height: 70%;
+  gap: 40px;
+  padding: 0 50%;
+  padding-top: 14%;
+}
+
+#container-content {
+  height: 140%;
+}
+
+#header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+#button-login {
+  background: linear-gradient(
+    180deg,
+    rgba(91, 126, 156, 1),
+    rgba(60, 98, 133, 1),
+    rgba(47, 90, 128, 1),
+    rgba(45, 80, 118, 1),
+    rgba(43, 70, 100, 1),
+    rgba(40, 60, 90, 1)
+    );
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  color: #ffffff;
+  gap: 10px;
+  box-shadow: 0px 1px 1px 1px rgb(78, 78, 79);
+}
+
+#container-frame {
+  background-image: url("../images/frame.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 45vw;
+  opacity: 1.0;
+  min-width: 550px;
+  max-width: 550px;
+  height: 300px;
+  padding: 20px
+}
+
+h1 {
+  width: 70%;
+  margin-bottom: 20px;
+  color: #06365f
+}
+
+#content{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  gap: 15px;
+  padding-bottom: 25px;
+}
+
+#download-buttons{
+  display:flex;
+  gap: 20px
+}
+
+#nav-bar {
+  font-size: 0.7rem;
+  color: #999;
+  position: absolute;
+  bottom: 90px;
+  left: 35%;
+  font-weight: bold;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  min-width: 500px;
+  max-width: 520px;
+}
+
+#nav-bar a{
+  text-decoration: none;
+  color: #06365f
 }
