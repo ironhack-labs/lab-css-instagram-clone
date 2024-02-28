@@ -4,7 +4,151 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: lighter;
+}
+
+/* now the code */
+:root {
+  --dark: #06365f;
+  --light: #1c5380;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.background {
+  height: 20rem;
+  background-image: url(../images/bgtile.png);
+  position: relative;
+  z-index: -1;
+}
+
+/* make display to separate the page in two */
+
+main {
+  margin: 0 8em;
+  position: relative;
+  top: -180px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+.right {
+  box-sizing: border-box;
+}
+/* Logo and log in */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1rem;
+  & .logo {
+    height: 5rem;
+  }
+}
+
+.logIn {
+  display: flex;
+  padding: 1px 0.6rem;
+  align-items: center;
+  justify-content: space-around;
+  background-color: var(--light);
+  height: 3rem;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 2px;
+  & img {
+    margin: 0.4rem;
+  }
+}
+
+/* Capture the moment etc */
+
+.presentation {
+  height: 20rem;
+  background-image: url(../images/frame.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  color: var(--light);
+  padding-left: 2rem;
+  padding-top: 1rem;
+  width: 60%;
+  font-weight: bold;
+  font-size: 1.7rem;
+}
+
+.intro {
+  padding: 1rem 2rem;
+  & p {
+    padding: 0.4rem 0;
+  }
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.download {
+  padding: 1rem 2rem;
+}
+/* format footer */
+
+footer {
+  text-transform: uppercase;
+  width: 40rem;
+  position: relative;
+  top: -200px;
+  margin: 3rem auto;
+  & ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    & li {
+      font-weight: bold;
+      font-size: 0.8rem;
+      color: var(--light);
+    }
+  }
+}
+
+.copyright {
+  color: gray;
 }
