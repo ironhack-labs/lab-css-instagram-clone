@@ -1,10 +1,158 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
-
-body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+/* Reset and base styles */
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: #fafafa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Header styles */
+.header {
+  background-color: #06365f;
+  padding: 10px 20px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+}
+
+.logo {
+  height: auto;
+  max-width: 80%; /* To ensure it scales down on smaller screens */
+}
+
+.login-button {
+  background-color: #1c5380;
+  border: none;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* Main layout styles */
+main {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 100%;
+  max-width: 935px;
+  padding-top: 0; /* Offset for header height */
+  box-sizing: border-box;
+  margin-top: 100px; /* Give some space from the fixed header */
+}
+
+/* Left side image container */
+.phone-image {
+  flex: 1;
+  text-align: center; /* Center the image within this container */
+  padding: 10px;
+}
+
+/* Right side content container */
+.content {
+  flex: 1;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Footer styles */
+footer {
+  background-color: #fafafa;
+  color: #999;
+  text-align: center;
+  padding: 20px 0;
+  width: 100%;
+  border-top: 1px solid #eaeaea;
+}
+
+footer nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+footer nav li {
+  margin: 0 10px;
+}
+
+footer nav a {
+  color: #999;
+  text-decoration: none;
+}
+
+/* Typographic styles */
+h1, p {
+  text-align: left;
+}
+
+h1 {
+  color: #06365f;
+  font-size: 2rem;
+}
+
+p {
+  color: #999;
+}
+
+/* Download buttons styles */
+.download-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.download-buttons a {
+  display: block;
+  width: 135px; /* Set width to your image's width */
+  height: 40px; /* Set height to your image's height */
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-bottom: 10px;
+}
+
+.app-store {
+  background-image: url('../images/badge-iphone.png');
+}
+
+.google-play {
+  background-image: url('../images/badge-android.png');
+}
+
+/* Adjustments for responsive design */
+@media (max-width: 768px) {
+  .header, .content, .phone-image, footer nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header, footer nav ul {
+    justify-content: center;
+  }
+
+  .phone-image, .content {
+    width: 100%;
+  }
+
+  .content {
+    order: -1; /* Show text content above the image on small screens */
+  }
+
+  .download-buttons {
+    align-items: center; /* Center buttons on small screens */
+  }
 }
