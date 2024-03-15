@@ -17,14 +17,16 @@ body, html {
 
 /* Header styles */
 .header {
+  display: flex;
+  flex:1;
   background-color: #06365f;
   padding: 10px 20px;
   width: 100%;
   position: fixed;
   top: 0;
-  display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-self: center;
+  flex-direction: row;
   z-index: 10;
 }
 
@@ -34,6 +36,7 @@ body, html {
 }
 
 .login-button {
+  /* display:flex; */
   background-color: #1c5380;
   border: none;
   color: white;
@@ -41,6 +44,7 @@ body, html {
   border-radius: 4px;
   font-size: 14px;
   cursor: pointer;
+  /* align-self:center; */
 }
 
 /* Main layout styles */
