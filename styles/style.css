@@ -2,15 +2,17 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 body, html {
   height: 100%;
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background: #fafafa;
+  /* Create a linear gradient background from top (light blue) to bottom (white) */
+  background: #fafafa; /* Fallback color */
+  background: linear-gradient(to bottom,#52799C  0px,  #203e66 310px, #FFFFFF 310px, #FFFFFF 100%);
+  background-attachment: fixed;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   flex-direction: column;
 }
@@ -18,33 +20,56 @@ body, html {
 /* Header styles */
 .header {
   display: flex;
-  flex:1;
-  background-color: #06365f;
-  padding: 10px 20px;
+  flex-direction: row;
+  padding: 10px;
   width: 100%;
-  position: fixed;
-  top: 0;
   justify-content: space-between;
   align-self: center;
-  flex-direction: row;
-  z-index: 10;
 }
 
+.secondhalf {
+  padding: 20px;
+  background : url("../images/frame.png");
+  background-size: 100% 100%; /* Stretch to full width and height */
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
 .logo {
-  height: auto;
+  display:flex;
+  align-self:center;
+  flex-direction: row;
+    height: auto;
   max-width: 80%; /* To ensure it scales down on smaller screens */
 }
 
 .login-button {
-  /* display:flex; */
+  display: flex;
+  align-items: center; /* Vertically center the text and icon */
+  justify-content: center; /* Horizontally center the text */
   background-color: #1c5380;
   border: none;
   color: white;
   padding: 8px 15px;
+  padding-left: 40px; /* Increase left padding to make room for the icon */
   border-radius: 4px;
   font-size: 14px;
   cursor: pointer;
-  /* align-self:center; */
+  position: relative; /* Relative positioning to place the icon */
+  align-self: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Horizontal offset, vertical offset, blur radius, color */
+}
+
+.login-button:before {
+  content: ''; /* Add content for the pseudo-element */
+  background-image: url('../images/home.png'); /* The path to your icon image */
+  background-size: cover; /* Cover the area of the pseudo-element */
+  position: absolute; /* Absolute positioning inside the button */
+  left: 10px; /* Space from the left edge of the button */
+  top: 50%;
+  transform: translateY(-50%); /* Center the icon vertically */
+  width: 20px; /* Width of the icon */
+  height: 20px; /* Height of the icon */
 }
 
 /* Main layout styles */
@@ -54,13 +79,11 @@ main {
   width: 100%;
   max-width: 935px;
   padding-top: 0; /* Offset for header height */
-  box-sizing: border-box;
   margin-top: 100px; /* Give some space from the fixed header */
 }
 
 /* Left side image container */
 .phone-image {
-  flex: 1;
   text-align: center; /* Center the image within this container */
   padding: 10px;
 }
@@ -87,11 +110,13 @@ footer {
 footer nav ul {
   display: flex;
   justify-content: center;
+  color: #4533e7;
   list-style: none;
 }
 
 footer nav li {
   margin: 0 10px;
+
 }
 
 footer nav a {
@@ -102,6 +127,7 @@ footer nav a {
 /* Typographic styles */
 h1, p {
   text-align: left;
+  padding: 10px;
 }
 
 h1 {
@@ -111,6 +137,7 @@ h1 {
 
 p {
   color: #999;
+  margin-block:0px;
 }
 
 /* Download buttons styles */
