@@ -1,10 +1,67 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
-
+/* Body */
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-color: #ffffff; /* White background */
+  color: #06365f; /* Dark blue text color */
+}
+
+/* Main */
+main {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #06365f; /* Dark blue heading color */
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+/* Download section */
+.download {
+  margin-top: 20px;
+}
+
+.download img {
+  margin-right: 10px;
+}
+
+/* Additional Links */
+ul {
+  list-style: none;
+  padding: 0;
+  flex-direction: row;
+}
+
+ul li {
+  margin-bottom: 5px;
+}
+
+ul li a {
+  color: #06365f; /* Dark blue link color */
+  text-decoration: none;
+}
+
+ul li a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+/* Footer */
+footer {
+  background-color: #1c5380; /* Light blue background */
+  padding: 20px;
+
+  text-align: ;
+  color: #ffffff; /* White text color */
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
 }
