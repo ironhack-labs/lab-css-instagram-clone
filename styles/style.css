@@ -3,8 +3,103 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to top,
+    white 0%,
+    white 65%,
+    #1c5380 65%,
+    #1c5380 100%
+  );
+}
+main {
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  height: 80%;
+  width: 60%;
+  display: flex;
+  gap: 3rem;
+}
+
+footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 2rem;
+  color: #227fca;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  justify-content: center;
+
+  li:last-child {
+    color: grey;
+  }
+}
+
+.topSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+button {
+  background-color: #227fca;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  padding: 0.7rem;
+  border: none;
+  color: white;
+  font-weight: 600;
+  border-radius: 0.4rem;
+}
+
+.bottomSection {
+  background: url("./../images/frame.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 3rem;
+}
+
+h2 {
+  line-height: 1.5rem;
+  color: #1c5380;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+span {
+  font-weight: bold;
+}
+p {
+  margin-bottom: 1rem;
+}
+
+.buttonsImg {
+  margin-top: 2rem;
+  padding: 0 2rem;
+
+  img {
+    padding: 0 0.5rem;
+  }
 }
