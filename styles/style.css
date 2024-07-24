@@ -8,3 +8,108 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+/* ul {
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+.page {
+  display: flex;
+  gap: 100px;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+}
+.login {
+  background-clip: border-box;
+  background-color: #1c5380;
+  padding: 50px;
+  height: 250px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: right;
+  margin-bottom: -100px;
+  overflow-x: none;
+}
+.login ul {
+  gap: 40px;
+  padding-right: 200px;
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+}
+.log-button {
+  border-left: 30px;
+  border-radius: 5px;
+  width: auto;
+  color: white;
+  background-color: #1c5380;
+}
+.text-section {
+  background-image: url("/lab-css-instagram-clone/images/frame.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  text-align: left;
+  letter-spacing: 0.5px;
+  word-spacing: 0.5px;
+  margin-right: 80px;
+  white-space: wrap;
+}
+.text-section ul {
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+}
+.links {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  margin-top: 20px;
+}
+.links img {
+  border: none;
+}
+.iphone {
+  display: flex;
+  margin-right: 40px;
+  margin-left: 80px;
+  margin-top: -150px;
+}
+h1 {
+  color: #06365f;
+}
+footer .foot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 20px;
+  bottom: 0;
+}
+.foot ul {
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  font-size: larger;
+}
+
+/* a {
+  text-decoration: none;
+  color: #1c5380;
+  font-size: larger;
+} */
+
+quote {
+  color: gray;
+}
