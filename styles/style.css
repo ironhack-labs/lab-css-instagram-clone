@@ -3,8 +3,123 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
+*{
+  margin: 0;
+  padding: 0;
+}
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  width: 100vw;
+  /* height: 100vh; */
+  font-size: 14px;
+  /* background-color: aqua; */
+}
+
+.bgtile{
+  position: fixed;
+  background-image: url("../images/bgtile.png");
+  width: 100%;
+  height: 30%;
+  z-index: -1;
+  min-height: 250px;
+  max-height: 320px;
+}
+
+ul{
+  list-style-type: none;
+  display: flex;
+  width: 60%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #06365f;
+  font-weight: 800;
+  font-size: .8rem;
+}
+
+.cuerpo{
+  /* padding: 70px 10%; */
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  /* border: solid 1px green; */
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 100px;
+  gap: 5%;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login{
+  position: relative;
+  display: flex;
+  height: 40px;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+  background-image: url("../images/frame.png");
+  background-size: 140%;
+  background-position: center;
+  width: 120px;
+  background-position-y: -55px;
+  background-repeat:no-repeat;
+  border-radius: 5px;
+  box-shadow: 0px 0px 8px #06365f;
+}
+
+.b-left{
+  display: flex;
+  /* border: solid 1px  green; */
+}
+
+.b-right{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 1.1rem;
+  /* border: solid 1px black; */
+  height: 500px;
+}
+
+.ficha{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0px -2px 3px #06365f79;
+  background-image: url("../images/frame.png");
+  background-size: 150%;
+  background-position: center;
+  background-position-y: -30px;
+  background-repeat: no-repeat;
+  padding: 40px;
+  border-radius: 15px;
+}
+
+.b-right h2{
+  color: #06365f;
+}
+
+.download{
+  display: flex;
+  /* border: solid 1px black; */
+}
+
+.download img{
+  padding-left: 30px ;
+}
+
+ul li:last-child a{
+  color: #949494;
 }
