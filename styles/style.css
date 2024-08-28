@@ -4,7 +4,106 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+html,body {
+  height: 100% ;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  
+  
+}
+
+header {
+  background-color: #1c5380;
+  height: 300px;
+  color: white;
+
+}
+
+.logos-header {
+  display: flex;
+  position: absolute;
+  top: 15%;
+  right: 15%;
+  padding: 20px;
+  
+}
+
+.boton {
+  background-color: #1c5380;
+  border-radius: 15px;
+  width: 100px;
+  
+  color: white;
+  
+}
+
+#insta-logo {
+  padding-right: 30px;
+}
+
+.contenido {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 29%;
+  left: 60%;
+  text-align: start;
+  background-color: white;
+  border: 1px solid black ;
+  border-radius: 6px;
+  width: 25%;
+  padding: 20px;
+  
+
+}
+
+.download {
+  padding-top: 20px;
+
+}
+
+#iphone {
+  padding-right: 20px;
+}
+
+.footer {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  color: #1c5380;
+  font-weight: bold;
+  justify-content: center;
+  
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  
+  
+}
+
+.footer > #copy {
+  color: gray;
+}
+
+.phones {
+  position: absolute;
+  top: 15%;
+  left: 15%;
+  padding: 20px;
+
+}
+
+@media (max-width: 768px) {
+  .contenido {
+    width: 80%; 
+    left: 50%; 
+    top: 50%; 
+    transform: translate(-50%, -50%); 
+    margin-top: 70px;
+  }
 }
