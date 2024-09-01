@@ -3,8 +3,108 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+/* html{
+  background: linear-gradient(to bottom, #29679c 50%, white 50%) no-repeat;
+  position: relative;
+  top: 30px
+} */
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: linear-gradient(to bottom, #4975a3, #4975a3)  0 0 / 100% 300px no-repeat,
+  #ffffff;
+}
+
+#download{
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 0px;
+}
+
+#download button{
+  margin-left: 10px;
+  margin-right:10px ;
+}
+
+#appStore{
+  background: url(../images/badge-iphone.png) no-repeat;
+  cursor:pointer;
+  border:none;
+  width:164px;
+  height:50px;
+}
+#googlePlay{
+  background: url(../images/badge-android.png) no-repeat;
+  cursor:pointer;
+  border:none;
+  width:154px;
+  height:50px;
+}
+p span{
+  font-weight: bold;
+}
+.info{
+  background: url(../images/frame.png) no-repeat;
+  padding: 15px;
+  padding-bottom: 0px;
+}
+#cuerpo{
+  display: flex;
+  justify-content: space-around;
+  margin: 80px 120px 40px 120px;
+}
+
+#data {
+  width: 500px
+}
+
+h2{
+  margin: 20px;
+  padding: 0px;
+  color: #29679c;
+  font-weight:700 ;
+  font-size: 1.8em;
+}
+#bodyText{
+  margin: 20px;
+  padding: 0px;
+  font-size: 1.1em;
+}
+#download{
+  margin: 20px;
+  padding: 0px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+#logIn{
+  background-color:#29679c;
+  background: linear-gradient(to bottom,#587ba0, #3a6ea5);
+  color: white;
+  margin: 1px;
+  height: 40px;
+  width: 100px;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+}
+
+footer a {
+  margin: 5px;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #3d77aa;
+}
+
+footer span {
+  margin: 5px;
 }
