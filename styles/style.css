@@ -7,4 +7,142 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .blue-section {
+    background:linear-gradient(to top,#1c5380 60%, #06365f 90%);
+    height: 35%; /* One third of the height */
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  /* White section, covering the remaining 2/3 */
+  .white-section {
+    background-color: white;
+    height: 63%; /* The rest of the height */
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+ 
+  #main-block{
+    position: relative;
+  z-index: 1;
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 6rem 2rem 0 2rem;
+  }
+  #main-section {
+   
+    width: 30rem;
+    margin: 50px;
+      header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 25px;
+        img[src="images/brand.png"]{
+          width: 60%;
+        }
+        div {
+          width: 83px;
+          button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 7px;
+            font-size: 12px;
+            font-weight: 600;
+            background:linear-gradient( #1c5380 40%,#06365f 90% );
+            color: white;
+            border: 1px solid #06365f;
+            border-radius: 2px;
+            img {
+              width: 20px;
+              margin-right: 5px;
+            }
+          }
+        }
+      }
+      main {
+        background-color: white;
+        padding: 5px 30px 10px 30px;
+        border-radius: 3px;
+        box-shadow: 0 -10px 15px -10px rgba(0, 0, 0, 0.4), 0 20px 30px -10px rgba(0, 0, 0, 0);
+        div { 
+          div {
+            h1 {
+              font-size: 22px;
+              width: 55%;
+              font-weight: 600;
+              color: #06365f;
+              margin-top: 20px;
+
+            }
+            .parragraph {
+              display: block;
+              b {
+                display: inline;
+                margin: 0;
+              }
+            }
+            p {
+              width: 93%;
+              font-weight: 400;
+              
+            }
+          }
+          :nth-child(2){
+            margin: 30px 20px 0 0;
+            display: flex;
+            justify-content: flex-start;
+            img {
+              margin: 0;
+            }
+            img[src="images/badge-iphone.png"]{
+              height: 51px;
+              margin-right: 2rem;
+            }
+          }
+        }
+
+      }
+  }
+  aside {
+    width: 23rem;
+      img {
+        width: 100%;
+      }   
+  }
+  #footer-section {
+    display: flex;
+    justify-content: center;
+  }
+  footer {
+    width: 700px;
+    position: relative;
+    z-index: 1;
+    margin: 30px 0 60px 0;
+    ul {
+      padding: 0;
+      list-style-type: none;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      li {
+        text-transform: uppercase;
+        font-size: 12px;
+        font-weight: 600;
+        color: #06365f;
+      }
+      li:last-child {
+        color: rgb(187 187 188);
+      }
+    }
+  }
 }
