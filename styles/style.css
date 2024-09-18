@@ -7,4 +7,96 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  background: rgb(76,116,151);
+background: linear-gradient(180deg, rgba(76,116,151,1) 46%, rgba(255,255,255,1) 46%);
+  padding: 100px;
+
+}
+
+
+button {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: rgb(127,157,184);
+  background: linear-gradient(172deg, rgba(127,157,184,1) 0%, rgba(76,116,151,1) 100%, rgba(37,74,106,1) 100%);
+  border: 2px solid #2c5a82;
+  color: white;
+  height: 40px;
+  p{
+    margin: 5px;
+  }
+}
+
+h1{
+  color: #11375c;
+
+}
+
+span {
+  font-weight: bold;
+}
+
+.phones {
+  width: 40%;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+.logo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content {
+  background-image: url(/images/frame.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding: 20px 40px;
+  text-align: left;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  
+}
+.download {
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+footer {
+  display: flex;
+  width: 60% ;
+  justify-content: space-between;
+  align-items: baseline ;
+  a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #2c5a82;
+    font-weight: bold;
+  }
+  p{
+    text-transform: uppercase;
+    color: rgb(174, 184, 184);
+    font-weight: bold;
+  }
 }
