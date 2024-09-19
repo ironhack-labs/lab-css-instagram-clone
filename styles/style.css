@@ -8,3 +8,76 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+#blue-section{
+  background-color: #1c5380;
+  height: 350px;
+  width: 100%;
+}
+#phones{
+  position: absolute;
+  margin-left: 10%;
+  margin-top: -15%;
+}
+#brand{
+  position: absolute;
+  margin-left: 40%;
+  margin-top: -15%;
+}
+#home {
+  margin: 3% 0 0 2%;
+}
+#home-button{
+  margin-left: 70%;
+  margin-top: -13%;
+  width: 10%;
+  height: 5%;
+  position: absolute;
+  border: 2px solid hsl(200, 100%, 31%);
+  background-color: hsl(210, 90%, 31%);
+}
+#home-button p{
+  color: white;
+  text-align: center;
+  margin-top: -22%;
+}
+#frame-container{
+  margin-left: 40%;
+  margin-top: -7%; 
+}
+#frame-container h2{
+  margin-top: -35%;
+  margin-left: 5%;
+  font-size: 2em;
+  color: #1c5380;
+  margin-right: 50%;
+}
+#frame-container p{
+  margin-right: 35%;
+  margin-left: 5%;
+  font-size: 1.2em;
+}
+#badge-android{
+  position: absolute;
+  margin-left: 62%;
+  margin-top: 4%;
+  height: 10%;
+}
+#badge-iphone{
+  position: absolute;
+  margin-left: 42%;
+  margin-top: 4%;
+  height: 10%;
+}
+#list{
+  margin: -5% 20% 5% 20%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+#list li{
+  list-style: none;
+  a {
+    text-decoration: none;
+  }
+}
