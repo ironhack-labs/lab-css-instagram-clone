@@ -4,7 +4,125 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+
+
+
+:root {
+  --dark-blue: #06365f;
+  --medium-blue: #1c5380;
+  --light-blue: #567CA0;
+  --grey: #9c9c9c;
+}
+
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 200 1.2rem/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+
+  .blue-background {
+    block-size: 40vh;
+    position: static;
+    background-color: var(--light-blue);
+  }
+}
+
+.wrapper {
+  position: relative;
+  inset-block-start: -20vh;
+  margin-inline: auto;
+  max-inline-size: 1000px;
+  display: flex;
+  gap: 3rem;
+
+  .left-side {
+    padding-inline-start: 2rem;
+    display: flex;
+    align-items: center;
+
+    #phones {
+      display: block;
+      margin: 0 auto;
+    }
+
+  }
+
+  .right-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-inline-end: 2rem;
+  }
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 0.8rem;
+
+  img#logo {
+    block-size: 5rem;
+  }
+
+  &>h1 {
+    margin: 0;
+    display: flex;
+    align-items: -0.125px;
+  }
+
+  #house {
+    inline-size: 1.2rem;
+    padding-inline-end: 0.5rem;
+    vertical-align: middle;
+  }
+
+  &>a {
+    text-decoration: none;
+    color: white;
+    background-color: var(--medium-blue);
+    padding: 0.3rem 0.5rem;
+    border: 1px solid var(--dark-blue);
+    border-radius: 5px;
+  }
+}
+
+main {
+  background-image: url("/images/frame.png");
+  background-size: cover;
+  padding-block-start: 2rem;
+  padding-inline: 2rem;
+  padding-inline-end: 2rem;
+
+  h2 {
+    font-size: 2rem;
+    color: var(--dark-blue);
+    font-size: 20px;
+  }
+
+  .download-apps>img {
+    inline-size: 9rem;
+    padding-inline-end: 1rem;
+  }
+}
+
+footer {
+  &>ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 15px;
+    row-gap: 5px;
+    font-size: 14px;
+    text-transform: uppercase;
+    list-style: none;
+  }
+
+  a {
+    color: var(--light-blue);
+    text-decoration: none;
+  }
+
+  .copyright {
+    color: var(--grey);
+  }
+
 }
