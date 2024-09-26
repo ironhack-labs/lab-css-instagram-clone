@@ -7,4 +7,163 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: linear-gradient(to bottom, 
+    #1c5380 40%, 
+    #FFFFFF 40% 100%); 
+    min-height: 100vh;
+  
+}
+
+.floated-element {
+  float: left;
+  height: 175px;
+  margin: 0 20px 20px 0;
+  padding: 10px;
+  width: 250px;
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+#main-photo-phones img {
+  max-width: 100%;
+  height: auto;
+  
+}
+
+.content-area {
+  flex: 2; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+#toprigth-nav {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end; 
+  margin-bottom: 40px;
+}
+
+#toprigth-nav a {
+  margin-left: 20px;
+}
+
+#toprigth-nav a img {
+  height: 30px;
+  transition: transform 0.3s;
+}
+
+#toprigth-nav a img:hover {
+  transform: scale(1.1);
+}
+
+section#main {
+  text-align: center;
+  max-width: 600px;
+}
+
+section#main h1 {
+  color: #06365f;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+section#main p {
+  color: #333333;
+  font-size: 1.2em;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.buttons button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.buttons button img {
+  height: 50px;
+  border-radius: 10px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.buttons button img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+footer {
+  width: 100%;
+  background-color: #f2f2f2;
+  padding: 20px 0;
+  position: absolute;
+  bottom: 0;
+}
+
+.footer {
+  text-align: center;
+  color :#1c5380;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.footer a {
+  color: #666666;
+  text-decoration: none;
+  margin: 0 10px;
+  transition: color 0.3s;
+}
+
+.footer a:hover {
+  color: #1c5380;
+}
+
+
+@media (max-width: 992px) {
+  #container {
+    flex-direction: column;
+  }
+
+  #main-photo-phones {
+    flex: none;
+    width: 100%;
+    padding: 20px 0;
+  }
+
+  .content-area {
+    flex: none;
+    width: 100%;
+    padding: 20px;
+  }
+
+  #toprigth-nav {
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .buttons {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  footer {
+    position: relative;
+  }
+
+
+
 }
