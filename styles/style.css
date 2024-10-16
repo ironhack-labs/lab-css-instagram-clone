@@ -1,10 +1,103 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
-
+/* General Styles */
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  padding: 0;
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #1c5380; /* Light blue background */
+}
+
+/* Container for everything */
+.container {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: white; /* White box for content */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 15px 20px;
+}
+
+.logo {
+  height: 40px;
+}
+
+.login-button {
+  background-color: #06365f;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Content Section */
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  width: 100%;
+}
+
+/* Phone Image Styling */
+.phones {
+  max-width: 300px;
+  height: auto;
+}
+
+/* Description Section Styling */
+.description {
+  max-width: 450px;
+  padding: 20px;
+}
+
+.description h1 {
+  font-size: 28px;
+  color: #1c5380;
+  margin-bottom: 20px;
+}
+
+.description p {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.download-buttons img {
+  width: 150px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+/* Footer */
+.footer {
+  margin-top: 30px;
+  text-align: center;
+  width: 100%;
+  background-color: #1c5380;
+  color: white;
+  padding: 10px 0;
+  border-radius: 0 0 10px 10px;
+}
+
+.footer nav a {
+  color: white;
+  margin: 0 5px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer nav a:hover {
+  text-decoration: underline;
 }
