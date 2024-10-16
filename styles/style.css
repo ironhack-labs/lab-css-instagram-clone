@@ -75,7 +75,6 @@ article {
   background-image: url("../images/frame.png");
   background-size: 100% 100%;
   padding: 40px;
-  box-shadow: inset;
 }
 
 article h1 {
