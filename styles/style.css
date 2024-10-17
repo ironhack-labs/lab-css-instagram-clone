@@ -4,7 +4,98 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+* {
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding: 0;
   margin: 0;
+  box-sizing: border-box;
+  background: linear-gradient(to bottom, #537a9d 50%, #f6f7f9 50%);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.brand-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#brand {
+  margin-right: 100px; /* Space between icon and button */
+}
+
+#login-button {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(#7cacd5, #1c5380);
+  color: white;
+  border-radius: 2px;
+  border: 1px solid #4e6096;
+  height: 60px;
+  width: 150px;
+  padding: 5px 15px; /* Adjust padding for proper sizing */
+  height: 40px; /* Match the height of the image */
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold; /* Make the text bold */
+}
+
+#login-button img {
+  width: 30%;
+}
+
+.description {
+  box-shadow: 0px 0px 24px -12px rgba(0, 0, 0, 0.75);
+  border-radius: 15px;
+  text-align: start;
+  background-color: #fff;
+  margin: 50px;
+  padding: 20px;
+  background: linear-gradient(to bottom, #fff, #f6f7f9);
+  width: 60%;
+}
+
+.description h1 {
+  color: #0e375d;
+}
+
+.description p {
+  font-size: 18px;
+  color: #1c5380;
+}
+
+.get-links a {
+  padding: 15px;
+}
+
+footer {
+  display: flex;
+  padding-right: 100px;
+  margin: 0px;
+  line-height: 12px;
+  font-size: 14px;
+  color: #1c5380;
+}
+
+.footer-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  list-style: none;
+  text-transform: uppercase;
+  flex: 1;
 }
