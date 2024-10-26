@@ -3,8 +3,124 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
-body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font: 200 16px/1.5 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  display: flex;
+  height: 100vh;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* overflow-y: hidden; */
+}
+
+/* Ids */
+#background-blue {
+  background-image: url(../images/bgtile.png);
+  background-size: cover;
+  width: 100%;
+  height: 30vh;
+  margin: 0 0;
+  padding: 0 0;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+main {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 70%;
+  margin: 0 auto;
+}
+
+#main-content article {
+    width: 498px;
+    height: 72vh;
+}
+
+#iphone {
+  height: 400px;
+}
+
+#instagram-icon {
+  height: 70px;
+  width: 300px;
+  padding-left: 5px;
+}
+
+#home-button {
+  background-color: #4e8cc0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100px;
+  height: 35px;
+  border-radius: 4px;
+  border: 1px solid #06365f;
+}
+
+#main-text {
+  background-image: url(../images/frame.png);
+  width: 100%;
+  background-size: cover;
+  height: 330px;
+  background-repeat: no-repeat;
+  padding: 25px 0px 0px 35px;
+}
+#main-text h2{
+  width: 55%;
+  padding-bottom: 15px;
+}
+#main-text p {
+  width: 90%;
+  padding-bottom: 15px;
+}
+
+#main-text h2{
+  color: #1c5380;
+}
+
+#apple-download {
+  padding-left: 30px;
+}
+
+#android-download {
+  padding-left: 30px;
+}
+
+#copyright{
+  color: rgb(189, 185, 185);
+}
+/* Classes */
+.head-logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.head-logo p {
+  color: white;
+}
+
+
+/* footer */
+
+footer {
+    margin-bottom: 0;
+    display: flex;
+    height: 50px;
+    width: 55%;
+    justify-content: space-evenly;
+    padding-top: 15px;
+}
+
+
+footer h4 {
+  color:#1c5380;
+padding-top: 30px;
 }
