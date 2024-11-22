@@ -1,0 +1,84 @@
+@use "../util" as u;
+
+.grid {
+  padding: 10vw 8vw 0 8vw;
+  display: grid;
+  grid-template-columns: 3fr 4fr;
+  gap: 5vw;
+  max-width: 90rem;
+  min-width: 50rem;
+
+  &__right {
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 3rem;
+      padding: 0 0.4rem;
+
+      #instagram-logo {
+        height: 3rem;
+      }
+
+      #home-icon {
+        height: 2.5rem;
+      }
+
+      button {
+        height: 2rem;
+        font-weight: 700;
+        background-color: var(--light-blue);
+        color: white;
+
+        #home-icon {
+          height: 1rem;
+        }
+      }
+    }
+
+    .section {
+      margin-top: 1.5rem;
+      padding: 3rem;
+      background-image: url(/images/frame.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+
+      h3 {
+        font-size: 1.8rem;
+        color: var(--dark-blue);
+      }
+
+      .btn {
+        margin-top: 1.5rem;
+      }
+      .app-store {
+        // height: 2.5rem;
+        margin-right: 1rem;
+      }
+    }
+  }
+}
+
+footer {
+  margin-top: 4rem;
+  ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    
+    li {
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+
+    li:not(:last-child) {
+      margin-right: 1.5rem;
+      color: var(--light-blue);
+    }
+
+    li:last-child {
+      color: grey;
+    }
+
+  }
+}

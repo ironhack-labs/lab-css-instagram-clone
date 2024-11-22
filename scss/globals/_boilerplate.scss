@@ -1,0 +1,23 @@
+@use '../util' as u;
+
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: u.$font;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  background-image: url(/images/bgtile.png);
+  background-repeat: repeat-x;
+  background-position: top;
+}
