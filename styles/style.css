@@ -1,10 +1,99 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
+html {
+  background: url('../images/bgtile.png');
+  background-size: 100% 50vh;
+  background-repeat: no-repeat;
+
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header {
+  padding: 100px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  padding: 100px 100px 100px 0;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.logo-instagram {
+  width: 300px;
+}
+
+.logo-container button {
+  padding: 5px;
+  width: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: #fff;
+  background-color: #1c5380;
+  border-radius: 3px;
+  border: 1px solid #fff;
+}
+
+.content-container {
+  background-image: url('../images/frame.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding: 40px;
+}
+
+.content-container h1 {
+  color: #06365f;
+  font-size: 1.8rem;
+}
+
+.content-container p span {
+  font-weight: bold;
+}
+
+.button-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.button-container img {
+  margin: 0 30px;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 40px;
+}
+
+.references-links {
+  display: flex;
+  list-style: none;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.references-links li a {
+  text-decoration: none;
+  justify-content: space-between;
+  color: #1c5380;
+  font-size: 1.1rem;
+  font-weight: bold;
 }
