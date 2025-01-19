@@ -8,3 +8,76 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+header {
+  padding-top: 100px;
+  padding-right: 200px;
+  padding-bottom: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items:center;
+  background-color: #06365f;
+}
+header img {
+  margin-right: 100px;
+}
+header button {
+  background-color: #1c5380;
+  color: white;
+  border: 5px solid #1c5380;
+  border-radius: 5px;
+  height: 40px;
+  width: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header button img {
+  margin: 0;
+}
+header button p {
+  margin: 0;
+}
+h2 {
+  color: #06365f;
+}
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between
+}
+.container {
+  background-image: url(/images/frame.png);
+  background-repeat: no-repeat;
+  background-size: initial;
+  text-align: left;
+  width: 400px;
+  margin-right: 100px;
+  padding-left: 50px;
+  padding-right: 150px;
+  margin-top: -80px;
+}
+.image-central {
+  margin-left: 100px;
+  margin-top: -160px;
+}
+.play {
+  margin-left: 15px;
+  margin-top: -300px;
+}
+footer ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+  margin: 100px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 200px;
+}
+footer li {
+  color:#1c5380;
+}
+.grey {
+  color: gray;
+}
