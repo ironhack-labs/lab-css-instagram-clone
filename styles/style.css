@@ -7,4 +7,120 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(to bottom, #1c5380 40%, white 40%);
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  margin: 20px 150px;
+}
+
+.phones {
+  display: flex;
+}
+
+.phones img {
+  padding-right: 70px;
+  object-fit: cover;
+}
+
+.main-content {
+  padding: 10px 0 10px 20px;
+}
+
+.instagram-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.home-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  color: white;
+  font-weight: 600;
+  padding: 0 10px;
+  height: 40px;
+  border-radius: 3px;
+  border: 1px solid #1c5380;
+  box-shadow: rgba(255, 255, 255, 0.39) 0 1px 2px inset;
+  background-color: #3786cc70;
+}
+
+.about-instagram {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 -10px 15px rgba(0, 0, 0, 0.15);
+  position: relative;
+  line-height: 1.2;
+  padding: 25px;
+  overflow: hidden;
+}
+
+.about-instagram::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 150px;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.15),
+    rgba(0, 0, 0, 0) 70%
+  );
+  z-index: 1;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.about-instagram h1 {
+  color: #06365f;
+  margin-top: 0;
+}
+
+.about-instagram p {
+  line-height: 1.6;
+  color: rgb(54, 54, 54);
+}
+
+.download-btns {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 25px;
+  gap: 20px;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+footer {
+  padding-top: 30px;
+}
+
+ul a,
+ul li {
+  text-decoration: none;
+  color: #1c5380;
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+ul li {
+  color: #555;
 }
