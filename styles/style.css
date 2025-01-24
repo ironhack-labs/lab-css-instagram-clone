@@ -5,6 +5,145 @@ light blue: #1c5380
 */
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 200 16px/1.5 Helvetica, Arial, sans-serif;
   margin: 0;
+
 }
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  background-image: url("../images/bgtile.png");
+  height:300px;
+  position: absolute;
+}
+
+
+.navbar {
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 30px;
+  padding-right: 28px;
+}
+
+#insta-logo {
+  margin-right: 120px;
+}
+
+#home-icon {
+  vertical-align: bottom;
+}
+
+#login-btn {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: linear-gradient(#72A0C1, #4682B4);
+  color: white;
+  font-size: 1em;
+  font-weight: bold;
+  height: 40px;
+  width: 100px;
+  border: 1px solid #1c5380;
+  font-size: 0.8em;
+}
+
+.phone-container {
+  position: relative;
+  float: left;
+  top: 110px;
+  left: 340px;
+}
+
+#phones {
+  width: 320px;
+}
+
+main {
+  height: 650px;
+  margin-bottom:25px;
+}
+.main-article {
+  position: relative;
+  width: 90%;
+}
+
+.content h3 {
+  color: #06365f;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  margin-top: 0
+}
+
+.content p {
+  margin-bottom: 0;
+}
+
+.content {
+
+  width: 480px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 15px;
+  padding-left: 30px;
+  padding-bottom: 0;
+  border: 1px solid white;
+  border-radius: 1%;
+  background-color: white;
+  left: 420px;
+  top: 240px
+}
+
+.main-article-shadow {
+  width: 525px;
+  height: 140px;
+  position: absolute;
+  padding: 0; 
+  margin: 0;
+  top: 293px;
+  left: 741px;
+  box-shadow: 1px 0 15px -4px rgba(31, 73, 125, 0.8), -2px 0 8px -4px rgba(31, 73, 125, 0.8);
+}
+
+
+.store-logos {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+  padding-top: 30px;
+}
+
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+footer ul {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+
+}
+
+footer ul li {
+  list-style: none;
+  color: #1c5380;
+  font-weight: bold;
+  font-size: 0.8em;
+  text-transform: uppercase;
+}
+
+#copyright {
+  color: #C0C0C0;
+  font-weight:normal;
+}
+
+
+
