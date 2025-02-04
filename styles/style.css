@@ -1,10 +1,102 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
-
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  background: linear-gradient(to bottom, #3897f0, #3897f0 50%, #f3f4f7 50%, #f3f4f7);
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo {
+  height: 40px;
+}
+
+.login-button {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(#82c0fa, #3897f07a);
+  color: white;
+  border: 5px, solid, #3897f03c;
+  border-radius: 5%;
+  cursor: pointer;
+  font-size: 14px;
+  margin-left: 20px;
+}
+
+button > img {
+  padding-right: 10px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.phone-display {
+  display: flex;
+  position: relative;
+  margin-right: 30px;
+}
+
+.phone {
+  height: 400px;
+}
+
+.text-section {
+  max-width: 400px;
+  text-align: left;
+  background-color: white;
+  border-radius: 2%;
+  padding: 0 20px;
+}
+
+.text-section h1 {
+  font-size: 24px;
+  color: #06365f;
+  margin-bottom: 16px;
+}
+
+.text-section p {
+  color: black;
+  font-size: 14px;
+  margin-bottom: 12px;
+  line-height: 1.6;
+}
+
+.download-buttons img {
+  height: 40px;
+  margin: 8px;
+  cursor: pointer;
+}
+
+footer {
+  margin-top: 30px;
+  border-top: 1px solid #ddd;
+  padding-top: 20px;
+  font-size: 12px;
+  color: #999;
+}
+
+footer nav a {
+  color: #1c5380;
+  margin: 0 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+footer nav a:hover {
+  text-decoration: underline;
 }
