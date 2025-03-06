@@ -7,4 +7,209 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-color: #fafafa;
+  color: #333;
 }
+
+/* Header styling */
+header {
+  background: linear-gradient(to bottom, #3a94e2, #06365f); /* Adjust gradient colors for better contrast */
+  height: 400px; /* Increased header height for better spacing */
+  width: 100%; /* Full width */
+  position: relative;
+}
+
+.header-content {
+  position: absolute;
+  top: 68%; /* Center vertically within the header */
+  left: 60%;
+  transform: translate(-50%, -50%); /* Center horizontally */
+  text-align: center;
+}
+
+.header-logo {
+  height: 80px; /* Logo size */
+}
+
+.login-btn {
+  background: linear-gradient(to bottom, #3a94e2, #06365f); /* Adjust gradient colors for better contrast */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-top: 15px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  top: 30%; /* Center vertically within the header */
+  left: 130%;
+  transform: translate(-50%, -50%); /* Center horizontally */
+  text-align: center;
+}
+
+.login-btn:hover {
+  background-color: #3578e5;
+}
+
+/* Main content floating under the header */
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: -200px; /* Reduced overlap for a cleaner look */
+  position: relative;
+  z-index: 2; /* Ensures content floats above header */
+  padding: 20px;
+}
+
+/* Left Section (Phone Image) */
+.left-section {
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+}
+
+.iphone-image {
+  max-width: 400px;
+  height: auto;
+  margin-right: 40px;
+}
+
+/* Right Section (Text Box) */
+.right-section {
+  flex: 1;
+  max-width: 400px;
+  background-color: white;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-left: 200px;
+  margin-top: 120px;
+}
+
+h1 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #555;
+}
+
+.app-buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.appstore-btn,
+.googleplay-btn {
+  width: 135px;
+  margin-right: 10px;
+}
+
+.googleplay-btn {
+  margin-right: 0;
+}
+
+/* Footer Styling */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #fafafa;
+}
+
+.footer-links {
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  color: #999;
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+footer p {
+  color: #999;
+  font-size: 12px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .main-container {
+    flex-direction: column;
+    align-items: center;
+    margin-top: -80px; /* Less overlap on smaller screens */
+  }
+
+  .left-section {
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .iphone-image {
+    max-width: 100%; /* Ensure image scales down on smaller screens */
+    margin-right: 0;
+  }
+
+  .right-section {
+    max-width: 100%;
+    margin-left: 0;
+  }
+
+  .app-buttons {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .appstore-btn,
+  .googleplay-btn {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .googleplay-btn {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  header {
+    height: 300px; /* Smaller header height for mobile */
+  }
+
+  .header-logo {
+    height: 60px; /* Slightly smaller logo */
+  }
+
+  .main-container {
+    margin-top: -60px; /* Reduced overlap for mobile */
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+}
+
+
+
+
+
+
+

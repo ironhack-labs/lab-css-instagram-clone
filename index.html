@@ -4,13 +4,58 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Instagram Clone</title>
-    <!-- don't forget to link your styles -->
+    <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
-    Instagram Capture and Share the World's Moments Instagram is a fast, beautiful and fun way to share your life with
-    friends and family. Take a picture or video, choose a filter to transform its look and feel, then post to Instagram
-    &mdash; it's that easy. You can even share to Facebook, Twitter, Tumblr and more. It's a new way to see the world.
-    Oh yeah, did we mention it's free? Download on the App Store Get it on Google Play About Us Support Blog Press API
-    Jobs Privacy Terms &copy; 2014 Instagram
+    <header>
+      <!-- Logo and login button centered above the content -->
+      <div class="header-content">
+        <img src="images/brand.png" alt="Instagram Logo" class="header-logo" />
+        <!-- Login button with local icon -->
+        <button class="login-btn">
+          <img src="images/home.png" alt="Login Icon" class="login-icon" /> Log in
+        </button>
+      </div>
+    </header>
+
+    <div class="main-container">
+      <!-- Left Section with Phone Image -->
+      <div class="left-section">
+        <img src="images/phones.png" alt="Phones displaying Instagram" class="iphone-image" />
+      </div>
+
+      <!-- Right Section with Text and Download Buttons -->
+      <div class="right-section">
+        <h1>Capture and Share the World's Moments</h1>
+        <p>
+          Instagram is a <strong>fast</strong>, <strong>beautiful</strong>, and fun way to share your life with friends and
+          family. Take a picture or video, choose a filter to transform its look and feel, then post to Instagram
+          &mdash; it's that easy. You can even share to Facebook, Twitter, Tumblr, and more. It's a new way to see the
+          world.
+          <br /><br />
+          Oh yeah, did we mention it's free?
+        </p>
+
+        <!-- App Download Buttons -->
+        <div class="app-buttons">
+          <img src="images/badge-iphone.png" alt="Download on the App Store" class="appstore-btn" />
+          <img src="images/badge-android.png" alt="Get it on Google Play" class="googleplay-btn" />
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer-links">
+        <a href="#">About Us</a>
+        <a href="#">Support</a>
+        <a href="#">Blog</a>
+        <a href="#">Press</a>
+        <a href="#">API</a>
+        <a href="#">Jobs</a>
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+      </div>
+      <p>&copy; 2023 Instagram</p>
+    </footer>
   </body>
 </html>
