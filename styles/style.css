@@ -3,8 +3,113 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+* {
+  margin: 0;
+
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.white-background {
+  position: relative;
+  width: 100vw;
+  height: 100vw;
+}
+
+.blue-background {
+  background: url("../images/bgtile.png");
+  background-repeat: repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 320px;
+  width: 100%;
+}
+
+.phone-image {
+  position: absolute;
+  top: 120px;
+  left: 280px;
+}
+
+.right-side {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 120px;
+  left: 50%;
+  width: 500px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+button {
+  padding: 10px 10px;
+  color: white;
+  background-color: #1c5380;
+  border: 1px solid #06365f;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  background: rgb(141, 184, 219);
+  background: linear-gradient(180deg, rgba(141, 184, 219, 1) 0%, rgba(28, 83, 128, 1) 100%);
+}
+
+  button img {
+    margin-right: 15px;
+  }
+
+  .gradient-content {
+    background: url("../images/frame.png");
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    padding: 35px 50px;
+  }
+
+  .text h1 {
+    color: #06365f;
+    width: 80%;
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 25px;
+  }
+
+  .text p {
+    width: 95%;
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 15px;
+  }
+
+  .download-app {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-left: -30px;
+  }
+
+  .bottom-links {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    top: 780px;
+    left: 26%;
+    width: 600px;
+    font-size: 13px;
+  }
+
+  .bottom-links a {
+    color: #1c5380;
+    font-weight: 500;
+    text-decoration: none;
+  }
