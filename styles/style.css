@@ -1,10 +1,178 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
-
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #333;
   margin: 0;
+  padding: 0;
+}
+
+.blue-bg {
+  position: absolute;
+  width: 100vw;
+  height: 380px;
+  top: 0;
+  background: url(../images/bgtile.png);
+}
+
+/*Center*/
+main {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 200px;
+  align-items: center;
+  justify-content: center;
+}
+
+.images-mobile {
+  flex: 1 1 45%;
+  max-width: 300px;
+  margin-right: 5%;
+}
+
+section {
+  max-width: 500px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 300px;
+}
+
+.login-text {
+  color: white;
+}
+
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100px;
+  background: rgb(144, 198, 247);
+  background: linear-gradient(
+    180deg,
+    rgba(144, 198, 247, 1) 0%,
+    rgba(67, 126, 177, 1) 41%,
+    rgba(58, 104, 144, 1) 75%
+  );
+  border-radius: 10%;
+  border: 1px solid #0d375c;
+  cursor: pointer;
+}
+
+.text-box {
+  background: url(../images/frame.png);
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1em 2em 0em;
+}
+
+h1 {
+  color: #0d375c;
+}
+
+.download-links {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 1em;
+  gap: 20px;
+}
+
+.download-links img {
+  width: 150px;
+  cursor: pointer;
+}
+
+/*Footer*/
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3em;
+  flex-wrap: wrap;
+}
+
+footer a {
+  margin-right: 30px;
+  text-transform: uppercase;
+  color: #0d375c;
+  font-weight: bold;
+  font-size: 0.75rem;
+  text-decoration: none;
+}
+
+#copyright {
+  color: rgb(148, 148, 148);
+  font-weight: bold;
+  font-size: 0.75rem;
+}
+
+/* Responsive*/
+@media (max-width: 768px) {
+  main {
+    margin-top: 50px;
+    flex-direction: column;
+    padding: 0 10%;
+  }
+
+  .images-mobile {
+    max-width: 80%;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  section {
+    width: 100%;
+    padding: 0 10%;
+  }
+
+  .logo {
+    width: 180px;
+  }
+
+  .text-box {
+    padding: 2em 1em 0em;
+  }
+
+  footer {
+    flex-direction: column;
+    padding: 2em;
+    text-align: center;
+  }
+
+  footer a {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .images-mobile {
+    max-width: 90%;
+  }
+
+  .download-links {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  footer {
+    flex-direction: column;
+    padding: 2em 0;
+  }
+
+  footer a {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  #copyright {
+    margin-top: 20px;
+  }
 }
