@@ -4,7 +4,231 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+:root {
+  --dark-blue: #06365f;
+  --light-blue: #1c5380;
+}
+
+/* Improve footer link hover states */
+.single-row li:not(#license):hover {
+  color: var(--dark-blue);
+  cursor: pointer;
+  text-decoration: underline;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+.background-blue,
+.background-white {
+  position: absolute;
+  z-index: 0;
+  width: 100%;
+  left: 0;
+}
+
+.background-blue {
+  height: 300px;
+  z-index: -1;
+}
+
+.background-white {
+  height: 400px;
+  opacity: 0.17;
+  margin-top: -30px;
+  margin-left: -30px;
+  display: inline;
+  width: 103vw;
+}
+
+header {
+  background: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  width: 40%;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+
+}
+
+.insta-logo {
+  height: 90px;
+  width: auto;
+  z-index: 2;
+}
+
+.home-button {
+  
+  font-size: 16px;
+  height: 50px;
+  width: 100px;
+  color: white;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.13), rgb(78, 129, 174));
+  border-radius: 5px;
+  border: 0;
+  box-shadow: 0 1px 6px #06365f;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.home-button:hover {
+  cursor: pointer;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.13), rgb(78, 129, 174));
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 1200px;
+
+  width: 100%;
+  margin: 20px auto;
+
+}
+
+.phone-img {
+  width: 30%;
+  max-width: 400px;
+  margin-top: 7%;
+  margin-left: 9%;
+  z-index: 3;
+
+}
+
+.background-section {
+  max-width: 600px;
+  background-color: white;
+  padding-top: 1%;
+  padding-left: 7%;
+  padding-right: 30px;
+  padding-bottom: 40px;
+  border-radius: 5px;
+}
+
+.text-field {
+  max-width: 800px;
+  width: 60%;
+  padding: 35px;
+  margin: 20px;
+  z-index: 2;
+}
+
+h4 {
+  color: #06365f;
+  font-size: 28px;
+  margin-top: 3%;
+  margin-bottom: 0;
+}
+
+.download-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-left: -250px;
+
+}
+
+.download-buttons img {
+  margin: 0 10px;
+}
+
+.download-buttons img:hover {
+  transform: scale(1.05);
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-weight: 500;
+  max-width: 100vw;
+  justify-content: center;
+}
+
+.single-row {
+  display: flex;
+  flex-direction: row;
+  font-size: 14px;
+  justify-content: center;
+  color: rgb(78, 129, 174, 0.9);
+  font-weight: 500;
+  list-style: none;
+  max-width: 95%;
+  gap: 10px;
+
+}
+
+.single-row li {
+  margin: 0 10px;
+
+}
+
+
+#license {
+  color: rgb(145, 145, 145, 0.9)
+}
+
+@media screen and (max-width: 768px) {
+  .main-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .phone-img {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .text-field {
+    width: 90%;
+    padding: 15px;
+  }
+
+  .download-buttons {
+    margin-left: 0;
+  }
+
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .single-row {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .single-row li {
+    margin: 5px 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .background-section {
+    padding: 10px;
+  }
+
+  h4 {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .download-buttons img {
+    width: 120px;
+  }
 }
