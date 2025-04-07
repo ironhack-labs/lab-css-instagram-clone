@@ -6,5 +6,85 @@ light blue: #1c5380
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-image: linear-gradient(to bottom, #1c5380 40%, white 40%);
   margin: 0;
+  min-height: 100vh;
+}
+
+#principal {
+  margin-top: 3%;
+  margin-left: 5%;
+  margin-right: 5%;
+  display: flex;
+}
+
+.esquerda {
+  width: 50%;
+  padding: 20px;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+.esquerda img {
+  height: 90%;
+}
+
+.direita {
+  width: 50%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+}
+
+.logo-botao {
+  display: flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-bottom: 30px;
+  width: 85%;
+}
+
+.logo-botao .ig-logo {
+  width: 60%;
+}
+
+button {
+  background-color: #1c5380;
+  color: white;
+  width: 17%;
+  border-radius: 3px;
+  padding: 7px;
+  display: flex;
+  justify-content:space-around;
+  align-items:center;
+}
+
+button img {
+  width: 30%;
+  height: 150%;
+}
+
+.baixo {
+background-color: white;
+padding: 25px;
+border-radius: 4px;
+width: 78%;
+box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+}
+
+.texto {
+  width: 95%;
+}
+
+.texto h1 {
+margin-top: 0px;
+color: #1c5380;
+width: 53%;
+line-height: 1.2;
+}
+
+p {
+  margin-bottom: 50px;
 }
