@@ -4,7 +4,97 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+/* General reset and font */
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: 
+    linear-gradient(to bottom, transparent 50%, white 50%),
+    linear-gradient(#1c5380, #06365f 95%);
+  font-family: sans-serif;
   margin: 0;
+  padding: 0;
+}
+
+/* Main section */
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10rem;
+}
+
+/* Layout */
+.layout {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  justify-content: flex-start;
+}
+
+/* Logo & Login button */
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.logo {
+  height: 50px;
+}
+
+.login-button {
+  padding: 8px;
+  border-radius: 2px;
+  background-color: #517fa4;
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  box-shadow: 4px 0px 10px rgba(0, 0, 0, 0.2);
+  border: none;
+  cursor: pointer;
+}
+
+/* Content box */
+.content-box {
+  background: linear-gradient(white 75%, transparent 100%);
+  text-align: left;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 4px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Typography */
+h1 {
+  color: #06365f;
+}
+
+p {
+  margin: 1rem 0;
+}
+
+/* Download badges */
+.badges {
+  display: flex;
+  gap: 10px;
+  margin-top: 1.5rem;
+}
+
+/* Footer */
+footer nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 16px;
+  margin: 2rem 0;
+  font-size: 12px;
+}
+
+footer nav a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  color: #06365f;
 }
