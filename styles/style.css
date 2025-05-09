@@ -1,10 +1,171 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
+/* Color palette */
+:root {
+  --blue: #1c5380;
+  --light-blue: #4b85bb;
+  --button-blue: #4090db;
+  --background-grey: #fafafa;
+  --border-grey: #edeeee;
+  --text-grey: #999;
+  --text-dark: #4a4a4a;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: var(--background-grey);
+  color: var(--text-dark);
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+main {
+  display: flex;
+  max-width: 935px;
+  margin: 0 auto;
+  padding: 100px 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.phone-container {
+  margin-right: 50px;
+}
+
+.phone-img {
+  max-width: 450px;
+  height: auto;
+}
+
+.content-container {
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-container {
+  margin-bottom: 30px;
+}
+
+.logo-img {
+  max-width: 200px;
+  height: auto;
+}
+
+.login-container {
+  margin-bottom: 20px;
+}
+
+.login-btn {
+  background-color: var(--button-blue);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 14px;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.login-icon {
+  margin-right: 8px;
+  width: 16px;
+  height: 16px;
+  filter: brightness(0) invert(1);
+}
+
+.description h2 {
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--blue);
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.description p {
+  margin-bottom: 20px;
+  color: var(--text-dark);
+}
+
+.app-stores {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.app-store img {
+  height: 40px;
+  width: auto;
+}
+
+footer {
+  background-color: white;
+  border-top: 1px solid var(--border-grey);
+  padding: 20px 0;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 935px;
+  margin: 0 auto;
+}
+
+.footer-links li a {
+  text-decoration: none;
+  color: var(--light-blue);
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.footer-links li a:hover {
+  color: var(--blue);
+}
+
+.copyright {
+  color: var(--text-grey);
+  font-size: 12px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+/* Responsive adjustments */
+@media (max-width: 875px) {
+  main {
+    flex-direction: column;
+    padding: 50px 20px;
+  }
+
+  .phone-container {
+    margin-right: 0;
+    margin-bottom: 50px;
+  }
+
+  .phone-img {
+    max-width: 300px;
+  }
+
+  .content-container {
+    text-align: center;
+    align-items: center;
+  }
+
+  .app-stores {
+    justify-content: center;
+  }
+
+  .footer-links {
+    padding: 0 20px;
+  }
 }
