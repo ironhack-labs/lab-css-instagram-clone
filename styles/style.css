@@ -7,4 +7,91 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-color: white;
+}
+
+.section1 {
+  background: linear-gradient(to bottom, #1c5380 50%, white 50%);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 50px 0;
+}
+
+.phones {
+  height: 500px;
+  margin-right: 50px;
+}
+
+.content-box {
+  max-width: 400px;
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+}
+
+.insta {
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.button {
+  color: white;
+  background-color: #1c5380;
+  border: solid 2px #06365f;
+  height: 40px;
+  width: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10px;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+.button img {
+  height: 20px;
+  margin-right: 10px;
+}
+
+.button span {
+  font-size: 16px;
+}
+
+.title {
+  color: #06365f;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.description {
+  color: #333;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.badges img {
+  height: 40px;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
+.section3 {
+  background-color: white;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 12px;
+  color: #999;
+}
+
+.section3 ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.section3 li {
+  display: inline;
+  margin: 0 10px;
 }
