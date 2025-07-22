@@ -8,3 +8,108 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+main {
+  display: flex;
+  justify-content: center;
+  background: url("../images/bgtile.png") repeat-x;
+  gap: 25px;
+
+  section {
+    margin: 5% 0 0 0;
+  }
+
+  #section-phones {
+    padding: 10px;
+    margin-left: 200px;
+  }
+
+  #section-content {
+    margin-right: 200px;
+    padding: 20px;
+    width: 100%;
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 20px 0;
+
+      #button-login {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+        padding: 1px 10px;
+
+        background-image: linear-gradient(
+          to top,
+          rgb(79, 130, 168),
+          rgb(141, 173, 198)
+        );
+        color: white;
+        border: solid 1px #06365f;
+        border-radius: 2px;
+        box-shadow: #1c5380 1px 1px 3px 1px;
+
+        img {
+          height: 17px;
+        }
+      }
+    }
+
+    #article-container {
+      margin: 0;
+      padding: 0;
+      /* height: 500px; */
+      width: 100%;
+      background-image: url("../images/frame.png");
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      background-position: -6px -6px;
+
+      article {
+        margin-right: 10px;
+        padding: 10px 50px;
+        h1 {
+          color: #06365f;
+          font-size: 1.5em;
+          width: 55%;
+        }
+
+        #download-buttons {
+          display: flex;
+          justify-content: center;
+          margin-right: 100px;
+
+          img {
+            height: 50px;
+            margin: 0 10px;
+          }
+        }
+      }
+    }
+  }
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+
+  color: #1c5380;
+  font-size: 0.8em;
+  font-weight: 800;
+  text-transform: uppercase;
+  
+  ul {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    padding: 0px 20px;
+    list-style: none;
+  }
+
+  p {
+    color: #b1b1b2;
+  }
+}
