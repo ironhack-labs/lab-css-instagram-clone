@@ -3,8 +3,87 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
+html, body { margin:0; min-height:100%; }
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh; /* que ocupe toda la altura de la ventana */
+  background: linear-gradient(
+    to bottom,
+    #3c6d8f 0,
+    #3c6d8f 340px,
+    #ffffff 340px,
+    #ffffff 100%
+  );
 }
+
+.todoyfoot {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center;
+  align-content: center;
+}
+
+.todonofoot {
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 40px;                  
+  max-width: 900px;          
+  margin: 40px auto;             
+  padding: 0 16px;
+}
+
+.imgmovil {
+}
+
+.bloquederecha {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bloquederechaup {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.login {
+  display: flex; 
+  align-items: center;
+  gap: 5px
+}
+
+.login img {
+  display: flex;       
+  height: 20px;       
+  width: auto;
+}
+
+
+.bloquederechadown {
+  display: flex; 
+  flex-direction: column;
+  justify-content: space-between; 
+  background-color: white;
+  padding: 10px 10px;
+}
+
+.nav-footer {
+  display: flex;
+  gap: 10px;
+}
+
+.links {
+  list-style: none;       /* quita los puntos */
+  margin: 0;
+  padding: 0;
+  display: flex;          /* coloca los <li> en fila */
+  gap: 20px;
+}
+
