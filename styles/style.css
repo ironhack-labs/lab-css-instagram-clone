@@ -4,7 +4,92 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+html,
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+	font: 200 16px/1.5 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	margin: 0;
+}
+.background {
+	display: flex;
+	flex-direction: column;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 0;
+}
+.shadow {
+	background-image: url('../images/bgtile.png');
+	background-color: #06365f;
+}
+.background .blue {
+	height: 50vh;
+	width: 100vw;
+}
+.background .white {
+	color: #fff;
+	height: 50vh;
+	width: 100vw;
+}
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 80vh;
+	width: 80vw;
+	z-index: 1;
+	position: relative;
+	margin: 10vh 10vw 10vh;
+	gap: 4vw;
+}
+
+.logo {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.login {
+	background-image: url('../images/bgtile.png');
+	background-color: #06365f;
+	color: #fff;
+	border: 1px solid darkgray;
+	border-radius: 4px;
+	padding: 0.6em 1.5em;
+	font-size: 1em;
+	font-weight: bold;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	gap: 0.5em;
+}
+
+.content {
+	background-color: #fff;
+	border-radius: 5px;
+	padding: 2em;
+}
+
+.content h1 {
+	color: #06365f;
+}
+
+.footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 2em;
+	list-style: none;
+	z-index: 1;
+	position: relative;
+	height: 1.5rem;
+}
+.footer ul {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 1em;
+}
+.footer ul li {
+	color: darkgray;
+	font-size: 0.8em;
+	list-style: none;
 }
