@@ -18,7 +18,7 @@ body {
   padding: 0 16px;
   display: flex;
   align-items: flex-start;
-  gap: 16px ;               /* aire entre columnas */
+  gap: 16px;
 }
 
 .col-left, .col-right {
