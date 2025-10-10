@@ -7,4 +7,103 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: linear-gradient(#1c5380 0 320px, #f2f2f2 320px);
+  background-repeat: no-repeat;
+  min-height: 100vh; 
 }
+
+.hero {
+  max-width: 960px;
+  margin: 32px auto;
+  padding: 0 16px;
+  display: flex;
+  align-items: flex-start;
+  gap: 16px ;               /* aire entre columnas */
+}
+
+.col-left, .col-right {
+  flex: 1;
+}
+
+.phones {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.brand-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.wordmark { 
+  height: 48px; display:block; 
+}
+
+.btn-login {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 12px;
+  background: #fff;
+  color: #1c5380;
+  border: 1px solid #1c5380;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.btn-login .icon{ width:16px; height:16px; display:block; }
+
+.card {
+  background: #fff;
+  border-radius: 6px;
+  padding: 16px 20px;
+}
+
+h1 {
+color: #06365f;
+}
+
+.badges {
+  display: flex;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.badges img {
+   height: 40px; display:block; 
+  }
+
+.site-footer{
+  max-width: 960px;
+  margin: 24px auto 40px;
+  padding: 0 16px;
+  color: #1c5380;
+}
+
+.footer-links{
+  list-style: none;
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  padding: 0;
+  margin: 0 0 8px;
+}
+
+.footer-links a{
+  text-decoration: none;
+  color: inherit;
+  font-size: 14px;
+}
+
+.footer-links a:hover{
+  text-decoration: underline;
+}
+
+.site-footer small{
+  display: block;
+  text-align: center;
+  color: #666;
+  font-size: 12px;
+}
+
