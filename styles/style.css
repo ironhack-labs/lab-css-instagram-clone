@@ -8,3 +8,111 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.blue-bg {
+  position: fixed;
+  width: 100vw;
+  height: 40vh;
+  top: 0;
+  left: 0;
+  background-image: url(/images/bgtile.png);
+  z-index: -1;
+}
+
+.landing-page {
+  height: 75vh;
+  display: flex;
+  padding-top: 12rem;
+  justify-content: center;
+}
+
+.landing-image {
+  margin-right: 2rem;
+}
+
+.landing-image img {
+  height: 85%;
+}
+
+.landing-greeting {
+  width: 40%;
+}
+
+.logo-and-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.logo-and-btn button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 7rem;
+  height: 3.4rem;
+  padding: 0 1rem;
+  background: linear-gradient(to bottom, #6d8eb0 0%, #6d8eb0 100%);
+  color: rgb(215, 215, 215);
+  border-radius: 5px;
+  border: none;
+  margin-right: 0.8rem;
+}
+
+.greeting-div {
+  display: flex;
+  flex-direction: column;
+  background-image: url(/images/frame.png);
+  background-repeat: no-repeat;
+  width: 91%;
+  height: 50%;
+  background-size: 100%;
+  padding: 2rem;
+}
+
+.greeting-div h1 {
+  padding: 0 1rem;
+  margin-bottom: 0;
+  margin-top: 0;
+  color: #1b4065;
+}
+
+.greeting-div p {
+  margin-top: 0;
+  padding: 1rem;
+  font-size: 1.4rem;
+}
+
+.badges {
+  display: flex;
+}
+
+.badge {
+  display: flex;
+  justify-content: space-between;
+  background: rgb(48, 48, 48);
+  height: 4rem;
+  margin-left: 1rem;
+  margin-right: 2rem;
+  width: 12rem;
+  border-radius: 10px;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 36rem;
+  text-transform: uppercase;
+  list-style: none;
+  font-weight: 700;
+  color: #25517e;
+}
+
+.footer-nav li:last-child {
+  color: gray;
+}
+
+
+
+
