@@ -4,7 +4,65 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  height: 100%;
+  background: linear-gradient(to bottom, #1c5380 35%, white 15%);
+  border: 5px solid purple;
+  display: flex;
+  justify-content: center;
 }
+/*--------------------------------------- MAIN BOX ------------------------*/
+.main
+{
+  border: 2px solid;
+  width: 1100px;
+  height: 1000px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* ------------------------------------IPHONE IMAGE---------------------- */
+.phone-image{
+  padding: 150px 0 0 20px ;
+}
+
+/* ------------------------------------Insta Body------------------------- */
+.insta-body{
+  border: 2px solid yellow;
+  width: 600px;
+  margin-top: 160px;
+
+}
+
+.login{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid green;
+  width: 600px;
+}
+
+article{
+  border: 2px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  margin: 0px;
+}
+
+.login-button{
+  background-color: #1c5380;
+  color: white;
+  padding: 15px;
+  width: 140px;
+  font-size: larger;
+  display: flex;
+  justify-content: space-between
+}
+
+
+
