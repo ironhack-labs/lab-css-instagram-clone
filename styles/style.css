@@ -1,10 +1,93 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
-
+/* Base styles */
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  background-color: #f0f0f0;
+  color: #06365f;
+}
+
+a {
+  text-decoration: none;
+  color: #06365f;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 20px;
+  gap: 50px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Left Section */
+.left-section {
+  max-width: 450px;
+}
+
+.logo {
+  display: block;
+  margin-bottom: 20px;
+  width: 200px;
+}
+
+.description {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.download-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.store-badge {
+  width: 140px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.store-badge:hover {
+  transform: scale(1.05);
+}
+
+/* Right Section */
+.right-section {
+  flex-shrink: 0;
+}
+
+.phone-image {
+  width: 300px;
+  max-width: 100%;
+  display: block;
+}
+
+/* Footer */
+footer {
+  margin-top: 60px;
+  padding: 20px;
+  background-color: #1c5380;
+  color: #fff;
+  text-align: center;
+}
+
+footer nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+footer nav a {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+footer p {
+  font-size: 12px;
   margin: 0;
 }
