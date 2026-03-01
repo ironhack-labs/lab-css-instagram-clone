@@ -5,6 +5,82 @@ light blue: #1c5380
 */
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+	font:
+		200 16px/1.5 "Helvetica Neue",
+		Helvetica,
+		Arial,
+		sans-serif;
+	margin: 0;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+header {
+	display: flex;
+	justify-content: space-around;
+	align-items: end;
+	background: linear-gradient(to bottom, #517fa4 0%, #306088 100%);
+	height: 200px;
+}
+
+h1 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 42%;
+	margin-left: 200px;
+}
+button {
+	display: flex;
+	height: 30px;
+	width: 90px;
+	justify-content: space-around;
+	background-color: #3f729b;
+	padding: 5px 10px 5px 10px;
+	border-radius: 3px;
+}
+
+main {
+	flex: 1;
+}
+
+.section1 {
+	display: flex;
+	justify-content: space-around;
+	position: relative;
+}
+
+.section1 img {
+	position: absolute;
+}
+
+.img-phones {
+	left: 20vw;
+	top: -15vh;
+	z-index: 2;
+}
+
+.img-frame {
+	width: 43%;
+	left: 46vw;
+	top: 20px;
+	z-index: 1;
+}
+
+.section2 {
+	width: 36%;
+	position: absolute;
+	left: 49vw;
+	top: 33vh;
+	z-index: 3;
+}
+
+footer {
+	text-align: center;
+	padding: 20px;
+	font-size: 14px;
+	color: #3f729b;
+	font-weight: 600;
 }
