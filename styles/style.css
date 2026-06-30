@@ -1,10 +1,138 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #4e769e;
+}
+
+/* ── WRAPPER: dos columnas ── */
+.wrapper {
+  display: flex;
+  flex: 1;
+
+}
+
+/* ── COLUMNA IZQUIERDA ── */
+.left-col {
+  
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.phones {
+  max-width: 100%;
+  max-height: 420px;
+  object-fit: contain;
+  display: flex;
+  align-items: flex-end;
+}
+
+/* ── COLUMNA DERECHA ── */
+.right-col {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 24px;
+  padding: 40px 60px;
+}
+
+/* Logo + botón */
+.logos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.instagram-logo {
+  height: 60px;
+  object-fit: contain;
+}
+ button {
+  color: white;
+ }
+.login-btn {
+  display: flex;g
+  align-items: center;
+  gap: 8px;
+  background-color: #66afe4;
+  border: 1px solid #b0b0b0;
+  border-radius: 6px;
+  padding: 8px 16px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #444;
+  cursor: pointer;
+}
+
+.login-btn:hover {
+  background-color: #c8c8c8;
+}
+
+.home-logo {
+  height: 16px;
+  width: 16px;
+  object-fit: contain;
+}
+
+/* Caja blanca */
+.text-card {
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 24px 28px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.text-card h1 {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #222;
+  line-height: 1.3;
+}
+
+.text-card p {
+  font-size: 0.9rem;
+  color: #444;
+  line-height: 1.6;
+}
+
+/* Badges */
+.badges {
+  display: flex;
+  gap: 12px;
+}
+
+.iphone-logo,
+.android-logo {
+  height: 44px;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+/* ── FOOTER ── */
+footer {
+  background-color: #f0eeee;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 16px;
+  font-size: 0.75rem;
+  color: #4e769e;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border-top: 1px solid #ddd;
 }
