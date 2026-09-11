@@ -1,10 +1,151 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
-
-body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+* {
+  box-sizing: border-box;
   margin: 0;
+  padding: 0;
+}
+
+/* El fondo general de la página abajo es BLANCO */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff; /* Forzamos blanco absoluto abajo */
+  color: #262626;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Franja superior azul que define el fondo de la mitad de arriba */
+.blue-banner {
+  background: linear-gradient(to bottom, #3b6c9b, #1c5380);
+  background-color: #1c5380;
+  width: 100%;
+  height: 410px; /* Altura exacta para cortar a la mitad */
+}
+
+/* Contenedor principal con Flexbox */
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 900px;
+  margin: 90px auto 0;
+  width: 100%;
+  padding: 80px 20px;
+}
+
+.phone-image {
+  margin-right: 40px;
+}
+
+.phone-image img {
+  height: 580px; /* Sobresale hacia abajo sobre la zona blanca */
+}
+
+.right-section {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.brand-logo {
+  width: 200px;
+}
+
+.login-btn {
+  background-color: #1c5380;
+  color: white;
+  text-decoration: none;
+  padding: 8px 14px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #10314d;
+}
+
+.login-btn:hover {
+  background-color: #06365f;
+}
+
+.home-icon {
+  width: 16px;
+  margin-right: 6px;
+  filter: brightness(0) invert(1);
+}
+
+.info-card {
+  background-color: white;
+  border: 1px solid #d0d0d0;
+  border-radius: 4px;
+  padding: 35px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.info-card h1 {
+  color: #06365f;
+  font-size: 26px;
+  line-height: 32px;
+  margin-bottom: 20px;
+}
+
+.info-card p {
+  font-size: 14px;
+  line-height: 20px;
+  color: #555555;
+  margin-bottom: 15px;
+}
+
+.store-badges {
+  display: flex;
+  gap: 10px;
+  margin-top: 25px;
+}
+
+.store-badges img {
+  height: 42px;
+  cursor: pointer;
+}
+
+/* Footer abajo sobre el fondo blanco */
+.footer {
+  margin: 50px auto 20px;
+  max-width: 900px;
+  width: 100%;
+  padding: 0 20px;
+}
+
+.footer ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  gap: 15px;
+}
+
+.footer a {
+  color: #1c5380;
+  text-decoration: none;
+  font-size: 11px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer .copyright {
+  color: #888888;
+  font-size: 11px;
+  font-weight: bold;
+  text-transform: uppercase;
 }
