@@ -1,10 +1,225 @@
+/* CSS RESET - do not remove */
+/* Reset default browser styles and provide a consistent starting point */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, 
+body {
+  /* box-model */
+  width: 100%;
+  min-height: 100%;
+  height: 100%;
+}
+
+body {
+  /* layout */
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  /* presentation */
+  background: linear-gradient(to bottom, #426686 330px, #fff 330px);
+
+  /* typo */
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #333;
+}
+
 /*
 Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
 
-body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+.container {
+  /* layout */
+  display: flex;
+  align-items: center;
+  gap: 40px;
+
+  /* box-model */
+  max-width: 760px;
+  margin: 75px auto 0;
 }
+
+  .phones {
+    /* layout */
+    flex: 1;
+  }
+
+    .phones img {
+      /* box-model */
+      width: 100%;
+    }
+
+  .content {
+    /* layout */
+    flex: 1.4;
+  }
+
+    .content-header {
+      /* layout */
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      /* box-model */
+      margin-bottom: 30px;
+    }
+
+      .content-header img {
+        /* box-model */
+        max-width: 250px;
+      }
+
+      .login {
+        /* box-model */
+        padding: 10px 15px 10px 40px;
+        border: 1px solid #1c5380;
+        border-radius: 4px;
+
+        /* presentation */
+        background: #52799a url(../images/home.png) no-repeat 10px center;
+
+        /* typo */
+        color: white;
+        font-weight: 700;
+        font-size: 14px;
+        text-decoration: none;
+      }
+
+    .content-box {
+      /* box-model */
+      padding: 25px;
+      border-radius: 5px;
+      box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.067);
+      
+      /* presentation */
+      background: white;
+    }
+
+      .title {
+        /* box-model */
+        margin-top: 0;
+        margin-bottom: 20px;
+
+        /* typo */
+        color: #06365f;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 1.3;
+      }
+
+      .text {
+        /* box-model */
+        margin-bottom: 10px;
+
+        /* typo */
+        font-size: 14px;
+        line-height: 1.5;
+      }
+
+        .text strong {
+          /* typo */
+          font-weight: 700;
+        }
+
+      .downloads {
+        /* layout */
+        display: flex;
+        gap: 15px;
+
+        /* box-model */
+        margin-top: 30px;
+      }
+
+        .downloads img {
+          /* box-model */
+          max-width: 135px;
+        }
+
+.footer {
+  /* layout */
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+
+  /* box-model */
+  padding: 40px 20px;
+
+  /* typo */
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+  .navigation {
+    /* layout */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+    .navigation a {
+      /* typo */
+      color: #1c5380;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+  .copy {
+    /* typo */
+    color: #999;
+  }
