@@ -3,8 +3,107 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+* box-sizing:border-box
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+
+  background-color: white;
+}
+.blue-background{
+background: linear-gradient(
+to bottom,
+#1c5380,
+#06365f
+);
+width: 100%;
+height: 300px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.white-background{
+display: flex;
+justify-content: center;
+align-items: flex-start;
+background-color: white;
+}
+.title-logo{
+position:absolute;
+left: 460px;
+top: 120px;
+}
+.login-button{
+display: flex;
+align-items: center;
+gap: 8px;
+color: white;
+margin-left: 400px;
+padding: 10px;
+border: 1px solid #06365f;
+border-radius: 3px;
+background: linear-gradient(
+to bottom,
+#4c8ec5 10px,
+#06365f 100%
+)
+}
+.login-button img{
+width: 20px;
+height: 20px;
+}
+.login-button span{
+font-weight: bold;
+}
+.phone-img{
+width: 320px;
+}
+#main-section{
+width: 400px;
+background-color: white;
+border: 1px solid #ddd;
+border-radius: 3px;
+box-shadow: 0 1px 4px rgba( 0, 0, 0, 0.25);
+padding: 20px 10px;
+display: flex;
+flex-direction: column;
+margin-top: -60px;
+margin-left: 60px;
+}
+#main-section h2{
+color: #06365f;
+}
+#main-photo {
+position: absolute;
+top: 100px;
+left: 100px;
+}
+.phone-img{
+}
+footer{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 20px;
+margin-top: 30px;
+}
+.navbar ul{
+display: flex;
+flex-direction:row;
+gap: 15px;
+list-style: none;
+padding: 0;
+margin: 0;
+}
+.navbar a{
+text-decoration: none;
+color: #1c5380;
+font-size: 0.8rem;
+font-weight: bold;
+text-transform: uppercase;
+}
+.num-inst{
+font-size: 0.8rem;
+color: #999;
 }
