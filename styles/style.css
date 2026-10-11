@@ -5,6 +5,129 @@ light blue: #1c5380
 */
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font:
+    200 16px/1.5 "Helvetica Neue",
+    Helvetica,
+    Arial,
+    sans-serif;
   margin: 0;
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.blue-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 38%;
+  background-color: #1c5380;
+  z-index: -1;
+}
+
+.page-content {
+  display: flex;
+  gap: 30px;
+  width: 600px;
+  margin: 65px auto 0;
+}
+
+.info-card {
+  background-color: white;
+  padding: 0 15px 0 15px;
+  border-radius: 4px;
+  margin-top: 20px;
+  z-index: 1;
+}
+
+.phones {
+  width: auto;
+  height: 80%;
+  z-index: 2;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.instagram-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.instagram-content header img:first-child {
+  width: 70%;
+  height: auto;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 350px;
+  gap: 5px;
+  background: linear-gradient(to bottom, #1c5380, #16466b);
+  color: #ffffff;
+  border: #06365f solid 1.5px;
+  border-radius: 2px;
+}
+
+button img {
+  width: 100px;
+}
+
+button span {
+  white-space: nowrap;
+  text-align: center;
+}
+
+.info-card h3 {
+  color: #06365f;
+}
+
+.info-card b {
+  font-weight: 700;
+}
+
+.info-card p {
+  padding: 5px;
+  margin: 0;
+}
+
+.badges {
+  display: flex;
+  align-items: end;
+  justify-content: start;
+  padding: 30px 30px 0 10px;
+  margin-top: auto;
+}
+
+.badges img {
+  width: 100%;
+  height: 50px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-top: auto;
+  margin-bottom: 50px;
+}
+
+footer a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color:#1c5380;
+  font-weight: 700;
+}
+
+footer p {
+  color: gray;
 }
