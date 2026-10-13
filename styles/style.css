@@ -1,10 +1,230 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
+
+* {
+  box-sizing: border-box;
+}
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333;
+  background-color: #fff;
 }
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* PAGE BACKGROUND */
+.page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  background-image: linear-gradient(
+    to bottom,
+    #527b9d 0,
+    #527b9d 380px,
+    #fff 380px,
+    #fff 100%
+  );
+  background-repeat: no-repeat;
+}
+
+/* MAIN LAYOUT */
+.content {
+  display: flex;
+  align-items: flex-start;
+  gap: 35px;
+  width: 100%;
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 240px 20px 25px;
+}
+
+/* PHONE IMAGE */
+.phone-area {
+  flex: 0 0 42%;
+  display: flex;
+  justify-content: center;
+}
+
+.phone-area img {
+  width: 100%;
+  max-width: 280px;
+  height: auto;
+}
+
+/* RIGHT COLUMN */
+.right-area {
+  flex: 1;
+  min-width: 0;
+}
+
+/* HEADER */
+.top-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  min-height: 40px;
+  margin-bottom: 25px;
+}
+
+.brand {
+  flex: 1;
+  min-width: 0;
+}
+
+.brand img {
+  width: 230px;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* LOGIN BUTTON */
+.login {
+  display: inline-block;
+  padding: 9px 12px;
+  color: #fff;
+  background-color: #426b8e;
+  border: 1px solid #315675;
+  border-radius: 3px;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+/* INTRODUCTION PANEL */
+.intro {
+  padding: 25px 24px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+}
+
+.intro h1 {
+  margin: 0 0 18px;
+  color: #21496b;
+  font-size: 22px;
+  line-height: 1.3;
+}
+
+.intro p {
+  margin: 0 0 12px;
+  color: #555;
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+/* DOWNLOAD BUTTONS */
+.download {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 25px;
+}
+
+.download a {
+  display: block;
+}
+
+.download img {
+  width: 120px;
+  height: auto;
+}
+
+/* FOOTER */
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 100%;
+  max-width: 850px;
+  margin: auto auto 0;
+  padding: 20px;
+}
+
+.footer nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+.footer nav a {
+  color: #416d91;
+  font-size: 9px;
+  font-weight: bold;
+}
+
+.footer p {
+  margin: 0;
+  color: #aaa;
+  font-size: 9px;
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 650px) {
+  .page {
+    background-image: linear-gradient(
+      to bottom,
+      #527b9d 0,
+      #527b9d 260px,
+      #fff 260px,
+      #fff 100%
+    );
+  }
+
+  .content {
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    padding: 80px 20px 25px;
+  }
+
+  .phone-area {
+    flex-basis: auto;
+  }
+
+  .phone-area img {
+    max-width: 220px;
+  }
+
+  .right-area {
+    width: 100%;
+    max-width: 420px;
+  }
+
+  .brand img {
+    width: 180px;
+  }
+
+  .intro {
+    padding: 20px;
+  }
+
+  .intro h1 {
+    font-size: 22px;
+  }
+
+  .download img {
+    width: 110px;
+  }
+
+  .footer {
+    margin-top: 20px;
+  }
+}
+
+
